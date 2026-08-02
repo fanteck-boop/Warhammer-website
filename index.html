@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Muster Roll</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Spectral:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#241a12;
+    --ink-2:#150f0a;
+    --parchment:#ece0c4;
+    --parchment-2:#e2d3ab;
+    --line:#b8a06e;
+    --seal-red:#8b1e1e;
+    --gold:#a9812f;
+    --steel:#5b6570;
+    --text:#2b2016;
+    --text-soft:#5a4a35;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    min-height:100vh;
+    background:
+      radial-gradient(ellipse at top, #3a2c1c 0%, var(--ink) 55%, var(--ink-2) 100%);
+    font-family:'Spectral', serif;
+    color:var(--text);
+    padding:48px 16px 80px;
+    display:flex;
+    justify-content:center;
+  }
+  .page-wrap{
+    position:relative;
+    width:100%;
+    max-width:900px;
+  }
+  .ledger{
+    position:relative;
+    background:
+      linear-gradient(var(--parchment), var(--parchment));
+    background-color:var(--parchment);
+    border-radius:2px;
+    box-shadow:
+      0 30px 60px -20px rgba(0,0,0,0.7),
+      0 0 0 1px rgba(0,0,0,0.15);
+    padding:44px 40px 40px;
+  }
+  .ledger::before{
+    content:"";
+    position:absolute;
+    inset:10px;
+    border:1px solid rgba(43,32,22,0.35);
+    pointer-events:none;
+  }
+  .seal{
+    position:absolute;
+    top:-26px;
+    right:32px;
+    width:96px;
+    height:96px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    color:#f3e6c8;
+    font-family:'Cinzel', serif;
+    transform:rotate(-6deg);
+    box-shadow:0 10px 20px rgba(0,0,0,0.5), inset 0 0 0 3px rgba(0,0,0,0.25);
+    border:2px solid rgba(243,230,200,0.35);
+    transition:background 0.4s ease;
+    z-index:2;
+  }
+  .seal .seal-num{font-size:20px; font-weight:700; line-height:1;}
+  .seal .seal-label{font-size:8px; letter-spacing:1.5px; margin-top:4px; opacity:0.85;}
+  .seal.ok{background:radial-gradient(circle at 35% 30%, #6b7680, var(--steel) 70%, #3d444b);}
+  .seal.near{background:radial-gradient(circle at 35% 30%, #c9a04a, var(--gold) 70%, #7a5e20);}
+  .seal.over{background:radial-gradient(circle at 35% 30%, #b23a3a, var(--seal-red) 70%, #5c1010);}
+
+  h1{
+    font-family:'Cinzel', serif;
+    font-weight:700;
+    font-size:28px;
+    letter-spacing:1px;
+    margin:0 0 4px;
+    color:var(--text);
+  }
+  .subtitle{
+    font-size:13px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:var(--text-soft);
+    margin:0 0 24px;
+    font-family:'JetBrains Mono', monospace;
+  }
+  .meta-row{
+    display:flex;
+    gap:24px;
+    flex-wrap:wrap;
+    margin-bottom:20px;
+    padding-bottom:20px;
+    border-bottom:1px solid var(--line);
+  }
+  .field{display:flex; flex-direction:column; gap:4px;}
+  .field label{
+    font-family:'JetBrains Mono', monospace;
+    font-size:10px;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    color:var(--text-soft);
+  }
+  .field input{
+    font-family:'Spectral', serif;
+    font-size:16px;
+    background:transparent;
+    border:none;
+    border-bottom:1px solid var(--line);
+    padding:2px 2px 4px;
+    color:var(--text);
+    min-width:120px;
+  }
+  .field input:focus{outline:none; border-color:var(--seal-red);}
+  .field input[type=number]{width:110px; font-family:'JetBrains Mono', monospace;}
+
+  details.import{
+    margin-bottom:24px;
+    border:1px dashed var(--line);
+    padding:2px 14px;
+    background:rgba(255,255,255,0.15);
+  }
+  details.import summary{
+    cursor:pointer;
+    font-family:'JetBrains Mono', monospace;
+    font-size:12px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    color:var(--text-soft);
+    padding:10px 0;
+  }
+  .import-body{padding-bottom:14px;}
+  .import-body p{font-size:13px; color:var(--text-soft); margin:0 0 8px; line-height:1.5;}
+  textarea{
+    width:100%;
+    min-height:110px;
+    font-family:'JetBrains Mono', monospace;
+    font-size:12.5px;
+    background:#f5eed8;
+    border:1px solid var(--line);
+    padding:10px;
+    color:var(--text);
+    resize:vertical;
+  }
+  .import-actions{display:flex; gap:10px; margin-top:10px; align-items:center;}
+  .import-status{font-size:12px; color:var(--text-soft); font-family:'JetBrains Mono', monospace;}
+
+  button{
+    font-family:'Cinzel', serif;
+    font-size:12px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    background:var(--ink);
+    color:#f3e6c8;
+    border:1px solid #000;
+    padding:9px 16px;
+    cursor:pointer;
+    transition:transform 0.15s ease, background 0.15s ease;
+  }
+  button:hover{background:#3a2c1c;}
+  button:active{transform:translateY(1px);}
+  button.ghost{
+    background:transparent;
+    color:var(--text);
+    border:1px solid var(--line);
+  }
+  button.ghost:hover{background:rgba(0,0,0,0.05);}
+  button.small{
+    padding:4px 8px;
+    font-size:10px;
+  }
+  button.danger{color:#f3e6c8; background:var(--seal-red); border-color:#4a0e0e;}
+
+  table{
+    width:100%;
+    border-collapse:collapse;
+    margin-bottom:8px;
+  }
+  thead th{
+    font-family:'JetBrains Mono', monospace;
+    font-size:10px;
+    letter-spacing:1.2px;
+    text-transform:uppercase;
+    text-align:left;
+    color:var(--text-soft);
+    padding:0 8px 10px;
+    border-bottom:2px solid var(--text);
+  }
+  thead th.num, tbody td.num{text-align:right;}
+  tbody td{
+    padding:10px 8px;
+    border-bottom:1px solid var(--line);
+    vertical-align:middle;
+  }
+  tbody tr:hover{background:rgba(139,30,30,0.05);}
+  td input{
+    width:100%;
+    background:transparent;
+    border:none;
+    font-family:'Spectral', serif;
+    font-size:14.5px;
+    color:var(--text);
+    padding:2px;
+  }
+  td input.num{
+    font-family:'JetBrains Mono', monospace;
+    text-align:right;
+    width:64px;
+  }
+  td input:focus{outline:none; background:rgba(255,255,255,0.5);}
+  .row-idx{
+    font-family:'JetBrains Mono', monospace;
+    font-size:12px;
+    color:var(--text-soft);
+    width:24px;
+  }
+  .del-cell{width:34px; text-align:center;}
+
+  tfoot td{
+    padding:14px 8px 0;
+    font-family:'JetBrains Mono', monospace;
+    font-weight:600;
+    font-size:13px;
+    border-top:2px solid var(--text);
+  }
+  tfoot td.num{text-align:right;}
+
+  .empty-state{
+    padding:30px 10px;
+    text-align:center;
+    color:var(--text-soft);
+    font-style:italic;
+    font-size:14px;
+    border:1px dashed var(--line);
+  }
+
+  .add-row{margin-top:14px; display:flex; justify-content:flex-start;}
+
+  .footer-note{
+    text-align:center;
+    color:#7a6a52;
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px;
+    letter-spacing:1px;
+    margin-top:18px;
+  }
+
+  .ledger-2{margin-top:36px;}
+  .clash-note{
+    font-size:13px;
+    color:var(--text-soft);
+    line-height:1.5;
+    margin:0 0 22px;
+  }
+  .clash-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:28px;
+    margin-bottom:24px;
+  }
+  .clash-col{
+    padding:14px 16px 18px;
+    border:1px solid var(--line);
+    background:rgba(255,255,255,0.15);
+  }
+  .clash-col h3{
+    font-family:'Cinzel', serif;
+    font-size:15px;
+    letter-spacing:0.5px;
+    margin:0 0 14px;
+    color:var(--text);
+  }
+  .clash-col.col-a h3{color:var(--seal-red);}
+  .clash-col.col-b h3{color:#3d5a80;}
+  .clash-fields{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px 14px;
+  }
+  .clash-fields .field{grid-column:span 1;}
+  .clash-fields .field.wide{grid-column:span 2;}
+  .clash-fields label{white-space:nowrap;}
+
+  .run-row{display:flex; justify-content:center; margin:6px 0 28px;}
+  .run-row button{padding:11px 28px; font-size:13px;}
+
+  .clash-results{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:28px;
+  }
+  .result-card{
+    padding:16px 18px;
+    border:1px solid var(--line);
+    background:rgba(255,255,255,0.35);
+  }
+  .result-card h4{
+    font-family:'Cinzel', serif;
+    font-size:13px;
+    letter-spacing:0.5px;
+    margin:0 0 12px;
+    color:var(--text);
+  }
+  .result-line{
+    display:flex;
+    justify-content:space-between;
+    font-family:'JetBrains Mono', monospace;
+    font-size:12.5px;
+    padding:5px 0;
+    border-bottom:1px solid rgba(184,160,110,0.4);
+  }
+  .result-line:last-child{border-bottom:none;}
+  .result-line .val{font-weight:600;}
+  .verdict{
+    grid-column:1 / -1;
+    text-align:center;
+    font-family:'Cinzel', serif;
+    font-size:15px;
+    padding:14px;
+    background:rgba(0,0,0,0.05);
+    border:1px dashed var(--line);
+  }
+
+  @media (max-width:640px){
+    .clash-grid, .clash-results{grid-template-columns:1fr;}
+  }
+
+  .grim-pick{
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px;
+    background:#f5eed8;
+    border:1px solid var(--line);
+    color:var(--text-soft);
+    padding:6px 8px;
+    margin-bottom:12px;
+    width:100%;
+    max-width:260px;
+  }
+  .abilities-ref{
+    margin-top:14px;
+    padding:10px 12px;
+    background:rgba(0,0,0,0.04);
+    border-left:2px solid var(--line);
+    font-size:12px;
+    line-height:1.5;
+    color:var(--text-soft);
+    white-space:pre-wrap;
+    display:none;
+  }
+  .abilities-ref.show{display:block;}
+
+  .grim-entry{
+    padding:14px 16px;
+    border:1px solid var(--line);
+    background:rgba(255,255,255,0.25);
+    margin-bottom:12px;
+  }
+  .grim-entry-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    flex-wrap:wrap;
+    gap:8px;
+  }
+  .grim-entry-head .name{
+    font-family:'Cinzel', serif;
+    font-size:15px;
+    color:var(--text);
+  }
+  .grim-entry-head .meta{
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px;
+    color:var(--text-soft);
+  }
+  .grim-stats{
+    font-family:'JetBrains Mono', monospace;
+    font-size:11.5px;
+    color:var(--text-soft);
+    margin:8px 0;
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+  }
+  .grim-abilities{
+    font-size:12.5px;
+    line-height:1.5;
+    color:var(--text-soft);
+    white-space:pre-wrap;
+    margin:8px 0;
+    padding-top:8px;
+    border-top:1px solid rgba(184,160,110,0.4);
+  }
+  .grim-entry-actions{display:flex; gap:8px; margin-top:10px; flex-wrap:wrap;}
+  .grim-empty{
+    padding:20px 10px;
+    text-align:center;
+    color:var(--text-soft);
+    font-style:italic;
+    font-size:13px;
+    border:1px dashed var(--line);
+  }
+
+  @media (max-width:640px){
+    .ledger{padding:36px 16px 28px;}
+    thead th:nth-child(6), tbody td:nth-child(6){display:none;} /* hide per-model wounds col on tiny screens, keep total */
+    .seal{width:78px; height:78px; top:-20px; right:16px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="page-wrap">
+  <div class="seal ok" id="seal">
+    <div class="seal-num" id="sealNum">0</div>
+    <div class="seal-label">POINTS</div>
+  </div>
+
+  <div class="ledger">
+    <h1 id="titleDisplay">Muster Roll</h1>
+    <p class="subtitle">Order of Battle &middot; Personal Roster</p>
+
+    <div class="meta-row">
+      <div class="field">
+        <label for="armyName">Army Name</label>
+        <input id="armyName" type="text" placeholder="e.g. Stormcast Eternals">
+      </div>
+      <div class="field">
+        <label for="pointsLimit">Points Allowance</label>
+        <input id="pointsLimit" type="number" min="0" step="10" placeholder="2000">
+      </div>
+    </div>
+
+    <details class="import">
+      <summary>Paste-import a list</summary>
+      <div class="import-body">
+        <p>Paste a text export from a warscroll builder (lines like <em>"5 x Liberators (140)"</em> or <em>"Lord-Celestant on Dracoth (240)"</em>). Header lines, allegiance notes and sub-bullets are ignored automatically. Wounds aren't in most exports, so fill those in after.</p>
+        <textarea id="importText" placeholder="Paste your list here..."></textarea>
+        <div class="import-actions">
+          <button id="importBtn">Import Units</button>
+          <span class="import-status" id="importStatus"></span>
+        </div>
+      </div>
+    </details>
+
+    <table>
+      <thead>
+        <tr>
+          <th class="row-idx">#</th>
+          <th>Unit</th>
+          <th class="num">Qty</th>
+          <th class="num">Pts / Model</th>
+          <th class="num">Pts Total</th>
+          <th class="num">Wounds Ea.</th>
+          <th class="num">Wounds Total</th>
+          <th class="del-cell"></th>
+        </tr>
+      </thead>
+      <tbody id="rosterBody"></tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">Totals</td>
+          <td class="num" id="totalPoints">0</td>
+          <td></td>
+          <td class="num" id="totalWounds">0</td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <div class="empty-state" id="emptyState" style="display:none;">
+      No units yet. Paste a list above, or add one by hand.
+    </div>
+
+    <div class="add-row">
+      <button class="ghost" id="addRowBtn">+ Add Unit</button>
+      <select id="rosterGrimoirePick" class="grim-pick"><option value="">Add from Grimoire...</option></select>
+    </div>
+  </div>
+
+  <div class="ledger ledger-2">
+    <h1>Clash of Arms</h1>
+    <p class="subtitle">Combat Comparator &middot; One Round</p>
+    <p class="clash-note">Enter each unit's profile from its current warscroll (attacks, hit/wound, rend, damage, save). Values change between editions and points updates, so double check against the live warscroll rather than trusting memorised numbers. Damage and attacks accept dice notation like <code>D6</code>, <code>2D6</code> or <code>D3+1</code>. This runs a single combat round in each direction and ignores spillover, abilities, and command points &mdash; a rough guide, not a rules engine.</p>
+
+    <div class="clash-grid">
+      <div class="clash-col col-a">
+        <h3 id="clashALabel">Unit A</h3>
+        <select id="a_grimPick" class="grim-pick"><option value="">Load from Grimoire...</option></select>
+        <div class="clash-fields">
+          <div class="field wide">
+            <label for="a_name">Name</label>
+            <input type="text" id="a_name" placeholder="e.g. 10 Skeleton Warriors">
+          </div>
+          <div class="field"><label for="a_models">Models</label><input type="number" id="a_models" min="1" value="10"></div>
+          <div class="field"><label for="a_attacks">Attacks / model</label><input type="text" id="a_attacks" value="1"></div>
+          <div class="field"><label for="a_hit">To Hit (X+)</label><input type="number" id="a_hit" min="2" max="6" value="4"></div>
+          <div class="field"><label for="a_wound">To Wound (X+)</label><input type="number" id="a_wound" min="2" max="6" value="4"></div>
+          <div class="field"><label for="a_rend">Rend</label><input type="number" id="a_rend" min="0" max="6" value="0"></div>
+          <div class="field"><label for="a_damage">Damage</label><input type="text" id="a_damage" value="1"></div>
+          <div class="field"><label for="a_wounds">Wounds / model</label><input type="number" id="a_wounds" min="1" value="1"></div>
+          <div class="field"><label for="a_save">Save (X+)</label><input type="number" id="a_save" min="2" max="7" value="6"></div>
+          <div class="field"><label for="a_ward">Ward (X+, optional)</label><input type="text" id="a_ward" placeholder="e.g. 6"></div>
+        </div>
+        <div class="abilities-ref" id="a_abilitiesRef"></div>
+      </div>
+      <div class="clash-col col-b">
+        <h3 id="clashBLabel">Unit B</h3>
+        <select id="b_grimPick" class="grim-pick"><option value="">Load from Grimoire...</option></select>
+        <div class="clash-fields">
+          <div class="field wide">
+            <label for="b_name">Name</label>
+            <input type="text" id="b_name" placeholder="e.g. Archaon the Everchosen">
+          </div>
+          <div class="field"><label for="b_models">Models</label><input type="number" id="b_models" min="1" value="1"></div>
+          <div class="field"><label for="b_attacks">Attacks / model</label><input type="text" id="b_attacks" value="6"></div>
+          <div class="field"><label for="b_hit">To Hit (X+)</label><input type="number" id="b_hit" min="2" max="6" value="3"></div>
+          <div class="field"><label for="b_wound">To Wound (X+)</label><input type="number" id="b_wound" min="2" max="6" value="2"></div>
+          <div class="field"><label for="b_rend">Rend</label><input type="number" id="b_rend" min="0" max="6" value="2"></div>
+          <div class="field"><label for="b_damage">Damage</label><input type="text" id="b_damage" value="D6"></div>
+          <div class="field"><label for="b_wounds">Wounds / model</label><input type="number" id="b_wounds" min="1" value="18"></div>
+          <div class="field"><label for="b_save">Save (X+)</label><input type="number" id="b_save" min="2" max="7" value="3"></div>
+          <div class="field"><label for="b_ward">Ward (X+, optional)</label><input type="text" id="b_ward" placeholder="e.g. 5"></div>
+        </div>
+        <div class="abilities-ref" id="b_abilitiesRef"></div>
+      </div>
+    </div>
+
+    <div class="run-row"><button id="runClashBtn">Run the Clash</button></div>
+
+    <div class="clash-results" id="clashResults" style="display:none;">
+      <div class="result-card" id="resultA">
+        <h4 id="resultATitle">A attacks B</h4>
+      </div>
+      <div class="result-card" id="resultB">
+        <h4 id="resultBTitle">B attacks A</h4>
+      </div>
+      <div class="verdict" id="verdict"></div>
+    </div>
+  </div>
+
+  <div class="ledger ledger-2">
+    <h1>Grimoire</h1>
+    <p class="subtitle">Unit Library &middot; Stats &amp; Abilities</p>
+    <p class="clash-note">Build up your own reference library as you play &mdash; stats, points, and abilities in one place, typed in from your warscrolls. Saved entries can be pulled straight into your roster or the Clash of Arms comparator above.</p>
+
+    <div class="clash-fields">
+      <div class="field wide">
+        <label for="g_name">Name</label>
+        <input type="text" id="g_name" placeholder="e.g. Skeleton Warriors">
+      </div>
+      <div class="field"><label for="g_faction">Faction</label><input type="text" id="g_faction" placeholder="e.g. Ossiarch Bonereapers"></div>
+      <div class="field"><label for="g_points">Points (per unit)</label><input type="number" id="g_points" min="0" step="10"></div>
+      <div class="field"><label for="g_models">Models (default)</label><input type="number" id="g_models" min="1" value="1"></div>
+      <div class="field"><label for="g_move">Move</label><input type="text" id="g_move" placeholder="e.g. 5&quot;"></div>
+      <div class="field"><label for="g_wounds">Wounds / model</label><input type="number" id="g_wounds" min="1" value="1"></div>
+      <div class="field"><label for="g_save">Save (X+)</label><input type="number" id="g_save" min="2" max="7"></div>
+      <div class="field"><label for="g_ward">Ward (X+, optional)</label><input type="text" id="g_ward"></div>
+      <div class="field"><label for="g_attacks">Attacks / model</label><input type="text" id="g_attacks" value="1"></div>
+      <div class="field"><label for="g_hit">To Hit (X+)</label><input type="number" id="g_hit" min="2" max="6"></div>
+      <div class="field"><label for="g_wound">To Wound (X+)</label><input type="number" id="g_wound" min="2" max="6"></div>
+      <div class="field"><label for="g_rend">Rend</label><input type="number" id="g_rend" min="0" max="6" value="0"></div>
+      <div class="field"><label for="g_damage">Damage</label><input type="text" id="g_damage" value="1"></div>
+      <div class="field wide">
+        <label for="g_abilities">Abilities &amp; Keywords</label>
+        <textarea id="g_abilities" placeholder="One ability per line, e.g.&#10;Deathrattle: reroll hit rolls of 1 while within 12&quot; of a Mortis Praetorian&#10;Keywords: Undead, Skeleton, Infantry"></textarea>
+      </div>
+    </div>
+
+    <div class="import-actions" style="margin-top:14px;">
+      <button id="grimoireSaveBtn">Save Entry</button>
+      <button class="ghost" id="grimoireClearBtn">Clear Form</button>
+      <span class="import-status" id="grimoireStatus"></span>
+    </div>
+
+    <details class="import" style="margin-top:22px;">
+      <summary>Import entries from JSON</summary>
+      <div class="import-body">
+        <p>Paste an array of unit entries (this is the format Claude will hand you back after pulling data from BSData or another source). Each object can have: <em>name, faction, points, models, move, wounds, save, ward, attacks, hit, wound, rend, damage, abilities</em>. Entries with a name matching an existing entry will be updated rather than duplicated.</p>
+        <textarea id="grimJsonText" placeholder='[
+  { "name": "Liberators", "faction": "Stormcast Eternals", "points": 140, "models": 5, "wounds": 2, "save": 4, "attacks": "2", "hit": 3, "wound": 3, "rend": 0, "damage": "1", "abilities": "..." }
+]'></textarea>
+        <div class="import-actions">
+          <button id="grimJsonImportBtn">Import JSON</button>
+          <span class="import-status" id="grimJsonStatus"></span>
+        </div>
+      </div>
+    </details>
+
+    <div id="grimoireList" style="margin-top:26px;"></div>
+  </div>
+
+  <div class="footer-note">Saved automatically to this device</div>
+</div>
+
+<script>
+(function(){
+  // Works two ways: window.storage (persists via Claude.ai when viewing this artifact
+  // here in chat) or localStorage (persists in the browser when you download this file
+  // and open it directly - e.g. on your phone). Falls back automatically.
+  const hasCloudStorage = typeof window.storage !== 'undefined' && window.storage && typeof window.storage.get === 'function';
+
+  async function storageGet(key){
+    if (hasCloudStorage) {
+      try { const r = await window.storage.get(key, false); return r ? r.value : null; }
+      catch(e){ return null; }
+    }
+    try { return window.localStorage.getItem(key); } catch(e){ return null; }
+  }
+
+  async function storageSet(key, value){
+    if (hasCloudStorage) {
+      try { await window.storage.set(key, value, false); return; }
+      catch(e){ console.error('Save failed', e); return; }
+    }
+    try { window.localStorage.setItem(key, value); } catch(e){ console.error('Save failed', e); }
+  }
+
+  const STORAGE_KEY = 'muster-roll-data';
+  let state = { armyName: '', pointsLimit: 2000, units: [] };
+  let idCounter = 1;
+
+  const $ = (id) => document.getElementById(id);
+  const rosterBody = $('rosterBody');
+  const emptyState = $('emptyState');
+
+  function newId(){ return 'u' + (idCounter++) + '-' + Date.now().toString(36); }
+
+  function render(){
+    $('armyName').value = state.armyName || '';
+    $('pointsLimit').value = state.pointsLimit ?? '';
+    $('titleDisplay').textContent = state.armyName ? state.armyName : 'Muster Roll';
+
+    rosterBody.innerHTML = '';
+    emptyState.style.display = state.units.length ? 'none' : 'block';
+
+    let totalPts = 0, totalWounds = 0;
+
+    state.units.forEach((u, i) => {
+      const qty = Number(u.qty) || 0;
+      const pts = Number(u.points) || 0;
+      const w = Number(u.wounds) || 0;
+      const ptsTotal = qty * pts;
+      const woundsTotal = qty * w;
+      totalPts += ptsTotal;
+      totalWounds += woundsTotal;
+
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td class="row-idx">${i + 1}</td>
+        <td><input type="text" value="${escapeAttr(u.name)}" data-field="name" data-id="${u.id}"></td>
+        <td class="num"><input class="num" type="number" min="0" value="${qty}" data-field="qty" data-id="${u.id}"></td>
+        <td class="num"><input class="num" type="number" min="0" value="${pts}" data-field="points" data-id="${u.id}"></td>
+        <td class="num">${ptsTotal}</td>
+        <td class="num"><input class="num" type="number" min="0" value="${w}" data-field="wounds" data-id="${u.id}"></td>
+        <td class="num">${woundsTotal}</td>
+        <td class="del-cell"><button class="small danger" data-del="${u.id}">&times;</button></td>
+      `;
+      rosterBody.appendChild(tr);
+    });
+
+    $('totalPoints').textContent = totalPts;
+    $('totalWounds').textContent = totalWounds;
+
+    const limit = Number(state.pointsLimit) || 0;
+    const seal = $('seal');
+    seal.classList.remove('ok','near','over');
+    if (limit > 0 && totalPts > limit) {
+      seal.classList.add('over');
+    } else if (limit > 0 && totalPts >= limit * 0.9) {
+      seal.classList.add('near');
+    } else {
+      seal.classList.add('ok');
+    }
+    $('sealNum').textContent = totalPts;
+  }
+
+  function escapeAttr(s){
+    return String(s ?? '').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
+  }
+
+  async function save(){
+    await storageSet(STORAGE_KEY, JSON.stringify(state));
+  }
+
+  async function load(){
+    const raw = await storageGet(STORAGE_KEY);
+    if (raw) {
+      try {
+        const parsed = JSON.parse(raw);
+        state = Object.assign({ armyName:'', pointsLimit:2000, units:[] }, parsed);
+      } catch(e) { /* ignore corrupt data */ }
+    }
+    render();
+  }
+
+  rosterBody.addEventListener('input', (e) => {
+    const t = e.target;
+    const id = t.getAttribute('data-id');
+    const field = t.getAttribute('data-field');
+    if (!id || !field) return;
+    const unit = state.units.find(u => u.id === id);
+    if (!unit) return;
+    unit[field] = field === 'name' ? t.value : t.value;
+    render();
+    save();
+  });
+
+  rosterBody.addEventListener('click', (e) => {
+    const delId = e.target.getAttribute('data-del');
+    if (delId) {
+      state.units = state.units.filter(u => u.id !== delId);
+      render();
+      save();
+    }
+  });
+
+  $('armyName').addEventListener('input', (e) => {
+    state.armyName = e.target.value;
+    $('titleDisplay').textContent = state.armyName ? state.armyName : 'Muster Roll';
+    save();
+  });
+
+  $('pointsLimit').addEventListener('input', (e) => {
+    state.pointsLimit = e.target.value;
+    render();
+    save();
+  });
+
+  $('addRowBtn').addEventListener('click', () => {
+    state.units.push({ id:newId(), name:'New Unit', qty:1, points:0, wounds:0 });
+    render();
+    save();
+  });
+
+  function parseImport(text){
+    const lines = text.split('\n');
+    const skipPattern = /^(allegiance|mortal realm|grand alliance|total|army|faction|leaders?|battleline|units?|behemoths?|artillery|endless spells?|core battalions?|spells?|prayers?|triumphs?|drops?|general'?s? handbook|points?:)/i;
+    const found = [];
+
+    const patterns = [
+      /^(\d+)\s*[xX]\s*(.+?)\s*\(\s*(\d+)\s*\)\s*$/,                 // 5 x Liberators (140)
+      /^(\d+)\s*[xX]\s*(.+?)\s*[-–]\s*(\d+)\s*(?:pts?|points?)\s*$/i, // 5 x Liberators - 140 pts
+      /^(.+?)\s*\(\s*(\d+)\s*\)\s*$/,                                 // Liberators (140)
+      /^(.+?)\s*[-–]\s*(\d+)\s*(?:pts?|points?)\s*$/i                 // Liberators - 140 pts
+    ];
+
+    for (let raw of lines) {
+      const line = raw.trim();
+      if (!line) continue;
+      if (line.startsWith('-') || line.startsWith('•')) continue; // sub-bullets (traits, artifacts)
+      if (skipPattern.test(line)) continue;
+
+      let m = line.match(patterns[0]);
+      if (m) { found.push({ qty:Number(m[1]), name:m[2].trim(), points:Number(m[3]) }); continue; }
+
+      m = line.match(patterns[1]);
+      if (m) { found.push({ qty:Number(m[1]), name:m[2].trim(), points:Number(m[3]) }); continue; }
+
+      m = line.match(patterns[2]);
+      if (m) { found.push({ qty:1, name:m[1].trim(), points:Number(m[2]) }); continue; }
+
+      m = line.match(patterns[3]);
+      if (m) { found.push({ qty:1, name:m[1].trim(), points:Number(m[2]) }); continue; }
+    }
+    return found;
+  }
+
+  $('importBtn').addEventListener('click', () => {
+    const text = $('importText').value;
+    const parsed = parseImport(text);
+    if (!parsed.length) {
+      $('importStatus').textContent = 'No units recognized — try editing the format, or add units by hand below.';
+      return;
+    }
+    parsed.forEach(u => {
+      state.units.push({ id:newId(), name:u.name, qty:u.qty, points:u.points, wounds:0 });
+    });
+    $('importStatus').textContent = `Imported ${parsed.length} unit${parsed.length === 1 ? '' : 's'}. Fill in wounds per model as needed.`;
+    $('importText').value = '';
+    render();
+    save();
+  });
+
+  // ---- Clash of Arms combat comparator ----
+
+  const CLASH_KEY = 'muster-roll-clash';
+  const clashFieldIds = ['name','models','attacks','hit','wound','rend','damage','wounds','save','ward'];
+
+  function parseDiceExpr(str){
+    const s = String(str ?? '').trim();
+    if (!s) return { roll: () => 0, average: 0 };
+    const flat = parseFloat(s);
+    if (!isNaN(flat) && /^\d+(\.\d+)?$/.test(s)) {
+      return { roll: () => flat, average: flat };
+    }
+    const m = s.match(/^(\d*)[dD](\d+)(?:\s*\+\s*(\d+))?$/);
+    if (m) {
+      const count = m[1] ? parseInt(m[1], 10) : 1;
+      const die = parseInt(m[2], 10);
+      const bonus = m[3] ? parseInt(m[3], 10) : 0;
+      return {
+        roll: () => {
+          let total = bonus;
+          for (let i = 0; i < count; i++) total += 1 + Math.floor(Math.random() * die);
+          return total;
+        },
+        average: count * ((die + 1) / 2) + bonus
+      };
+    }
+    // fallback: try to extract a plain number, else 0
+    const fallback = parseFloat(s) || 0;
+    return { roll: () => fallback, average: fallback };
+  }
+
+  function readProfile(prefix){
+    const get = (f) => document.getElementById(prefix + '_' + f).value;
+    return {
+      name: get('name') || (prefix === 'a' ? 'Unit A' : 'Unit B'),
+      models: Math.max(1, parseInt(get('models'), 10) || 1),
+      attacks: get('attacks') || '1',
+      hit: Math.min(6, Math.max(2, parseInt(get('hit'), 10) || 6)),
+      wound: Math.min(6, Math.max(2, parseInt(get('wound'), 10) || 6)),
+      rend: Math.max(0, parseInt(get('rend'), 10) || 0),
+      damage: get('damage') || '1',
+      wounds: Math.max(1, parseInt(get('wounds'), 10) || 1),
+      save: (() => { const v = parseInt(get('save'), 10); return v && v >= 2 && v <= 6 ? v : null; })(),
+      ward: (() => { const v = parseInt(get('ward'), 10); return v && v >= 2 && v <= 6 ? v : null; })()
+    };
+  }
+
+  function simulateClash(attacker, defender, trials){
+    const attacksDice = parseDiceExpr(attacker.attacks);
+    const damageDice = parseDiceExpr(attacker.damage);
+    const pHit = (7 - attacker.hit) / 6;
+    const pWound = (7 - attacker.wound) / 6;
+    const effSave = defender.save !== null ? defender.save + attacker.rend : null;
+    const pSaveFails = (effSave === null || effSave > 6) ? 1 : (effSave - 1) / 6;
+    const pWardFails = defender.ward ? (defender.ward - 1) / 6 : 1;
+
+    let totalDamageSum = 0;
+    let trialsWithAnyDamage = 0;
+    let trialsUnitWiped = 0;
+    const defenderPool = defender.models * defender.wounds;
+
+    for (let t = 0; t < trials; t++) {
+      const totalAttacks = Math.round(attacker.models * attacksDice.roll());
+      let dmgThisTrial = 0;
+      for (let i = 0; i < totalAttacks; i++) {
+        const rHit = 1 + Math.floor(Math.random() * 6);
+        if (rHit < attacker.hit) continue;
+        const rWound = 1 + Math.floor(Math.random() * 6);
+        if (rWound < attacker.wound) continue;
+        if (effSave !== null && effSave <= 6) {
+          const rSave = 1 + Math.floor(Math.random() * 6);
+          if (rSave >= effSave) continue; // saved
+        }
+        if (defender.ward) {
+          const rWard = 1 + Math.floor(Math.random() * 6);
+          if (rWard >= defender.ward) continue; // warded off
+        }
+        dmgThisTrial += Math.max(0, Math.round(damageDice.roll()));
+      }
+      totalDamageSum += dmgThisTrial;
+      if (dmgThisTrial > 0) trialsWithAnyDamage++;
+      if (dmgThisTrial >= defenderPool) trialsUnitWiped++;
+    }
+
+    const avgDamage = totalDamageSum / trials;
+    const avgModelsSlain = Math.min(defender.models, avgDamage / defender.wounds);
+
+    return {
+      pHit, pWound, pSaveFails, pWardFails,
+      avgAttacks: attacker.models * attacksDice.average,
+      avgDamage,
+      avgModelsSlain,
+      chanceAnyDamage: trialsWithAnyDamage / trials,
+      chanceWipe: trialsUnitWiped / trials,
+      defenderPool
+    };
+  }
+
+  function pct(x){ return (x * 100).toFixed(1) + '%'; }
+  function num(x){ return Math.round(x * 10) / 10; }
+
+  function renderResultCard(cardId, titleId, attacker, defender, res){
+    document.getElementById(titleId).textContent = `${attacker.name} attacks ${defender.name}`;
+    const card = document.getElementById(cardId);
+    card.innerHTML = `<h4 id="${titleId}">${attacker.name} attacks ${defender.name}</h4>
+      <div class="result-line"><span>Avg. attacks swung</span><span class="val">${num(res.avgAttacks)}</span></div>
+      <div class="result-line"><span>Chance to hit</span><span class="val">${pct(res.pHit)}</span></div>
+      <div class="result-line"><span>Chance to wound</span><span class="val">${pct(res.pWound)}</span></div>
+      <div class="result-line"><span>Chance save fails</span><span class="val">${pct(res.pSaveFails)}</span></div>
+      ${defender.ward ? `<div class="result-line"><span>Chance ward fails</span><span class="val">${pct(res.pWardFails)}</span></div>` : ''}
+      <div class="result-line"><span>Expected damage dealt</span><span class="val">${num(res.avgDamage)}</span></div>
+      <div class="result-line"><span>Expected models slain</span><span class="val">${num(res.avgModelsSlain)} / ${defender.models}</span></div>
+      <div class="result-line"><span>Chance to wipe the unit</span><span class="val">${pct(res.chanceWipe)}</span></div>`;
+  }
+
+  function runClash(){
+    const a = readProfile('a');
+    const b = readProfile('b');
+    const trials = 12000;
+    const resAonB = simulateClash(a, b, trials);
+    const resBonA = simulateClash(b, a, trials);
+
+    document.getElementById('clashALabel').textContent = a.name;
+    document.getElementById('clashBLabel').textContent = b.name;
+    renderResultCard('resultA', 'resultATitle', a, b, resAonB);
+    renderResultCard('resultB', 'resultBTitle', b, a, resBonA);
+
+    const verdict = document.getElementById('verdict');
+    const diff = resAonB.avgDamage - resBonA.avgDamage;
+    let verdictText;
+    if (Math.abs(diff) < 0.5) {
+      verdictText = `Roughly even trade &mdash; ${a.name} deals ${num(resAonB.avgDamage)} avg, ${b.name} deals ${num(resBonA.avgDamage)} avg.`;
+    } else if (diff > 0) {
+      verdictText = `${a.name} comes out ahead, dealing ${num(resAonB.avgDamage)} avg damage vs ${num(resBonA.avgDamage)} avg back.`;
+    } else {
+      verdictText = `${b.name} comes out ahead, dealing ${num(resBonA.avgDamage)} avg damage vs ${num(resAonB.avgDamage)} avg back.`;
+    }
+    verdict.innerHTML = verdictText;
+
+    document.getElementById('clashResults').style.display = 'grid';
+    saveClash();
+  }
+
+  async function saveClash(){
+    const data = {};
+    ['a','b'].forEach(p => clashFieldIds.forEach(f => {
+      data[p + '_' + f] = document.getElementById(p + '_' + f).value;
+    }));
+    await storageSet(CLASH_KEY, JSON.stringify(data));
+  }
+
+  async function loadClash(){
+    const raw = await storageGet(CLASH_KEY);
+    if (raw) {
+      try {
+        const data = JSON.parse(raw);
+        Object.keys(data).forEach(k => {
+          const el = document.getElementById(k);
+          if (el) el.value = data[k];
+        });
+      } catch(e) { /* ignore corrupt data */ }
+    }
+  }
+
+  document.getElementById('runClashBtn').addEventListener('click', runClash);
+  ['a','b'].forEach(p => clashFieldIds.forEach(f => {
+    const el = document.getElementById(p + '_' + f);
+    if (el) el.addEventListener('change', saveClash);
+  }));
+
+  // ---- Grimoire: unit library ----
+
+  const GRIMOIRE_KEY = 'muster-roll-grimoire';
+  const grimFieldIds = ['name','faction','points','models','move','wounds','save','ward','attacks','hit','wound','rend','damage','abilities'];
+  let grimoire = [];
+  let editingGrimId = null;
+  let grimIdCounter = 1;
+
+  function newGrimId(){ return 'g' + (grimIdCounter++) + '-' + Date.now().toString(36); }
+
+  async function saveGrimoire(){
+    await storageSet(GRIMOIRE_KEY, JSON.stringify(grimoire));
+  }
+
+  async function loadGrimoire(){
+    const raw = await storageGet(GRIMOIRE_KEY);
+    if (raw) {
+      try { grimoire = JSON.parse(raw) || []; } catch(e) { grimoire = []; }
+    }
+    renderGrimoire();
+  }
+
+  function readGrimForm(){
+    const get = (f) => document.getElementById('g_' + f).value;
+    return {
+      name: get('name').trim(),
+      faction: get('faction').trim(),
+      points: get('points'),
+      models: get('models') || '1',
+      move: get('move'),
+      wounds: get('wounds') || '1',
+      save: get('save'),
+      ward: get('ward'),
+      attacks: get('attacks') || '1',
+      hit: get('hit'),
+      wound: get('wound'),
+      rend: get('rend') || '0',
+      damage: get('damage') || '1',
+      abilities: get('abilities')
+    };
+  }
+
+  function fillGrimForm(entry){
+    grimFieldIds.forEach(f => {
+      const el = document.getElementById('g_' + f);
+      if (el) el.value = entry[f] ?? '';
+    });
+  }
+
+  function clearGrimForm(){
+    grimFieldIds.forEach(f => {
+      const el = document.getElementById('g_' + f);
+      if (el) el.value = '';
+    });
+    document.getElementById('g_models').value = 1;
+    document.getElementById('g_wounds').value = 1;
+    document.getElementById('g_attacks').value = 1;
+    document.getElementById('g_rend').value = 0;
+    document.getElementById('g_damage').value = 1;
+    editingGrimId = null;
+    document.getElementById('grimoireSaveBtn').textContent = 'Save Entry';
+    document.getElementById('grimoireStatus').textContent = '';
+  }
+
+  function escapeHtml(s){
+    return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  function statLine(entry){
+    const parts = [];
+    if (entry.move) parts.push('Mv ' + entry.move);
+    parts.push('W ' + (entry.wounds || '1'));
+    if (entry.save) parts.push('Sv ' + entry.save + '+');
+    if (entry.ward) parts.push('Ward ' + entry.ward + '+');
+    parts.push('A ' + (entry.attacks || '1'));
+    if (entry.hit) parts.push('Hit ' + entry.hit + '+');
+    if (entry.wound) parts.push('Wound ' + entry.wound + '+');
+    parts.push('Rend ' + (entry.rend || '0'));
+    parts.push('Dmg ' + (entry.damage || '1'));
+    return parts.join(' \u00b7 ');
+  }
+
+  function renderGrimoire(){
+    const list = document.getElementById('grimoireList');
+    if (!grimoire.length) {
+      list.innerHTML = '<div class="grim-empty">No entries yet. Fill in the form above and save a unit to start your library.</div>';
+    } else {
+      list.innerHTML = grimoire.map(e => `
+        <div class="grim-entry" data-id="${e.id}">
+          <div class="grim-entry-head">
+            <span class="name">${escapeHtml(e.name) || 'Unnamed unit'}</span>
+            <span class="meta">${escapeHtml(e.faction) || ''}${e.faction && e.points ? ' \u00b7 ' : ''}${e.points ? e.points + ' pts' : ''}</span>
+          </div>
+          <div class="grim-stats">${statLine(e)}</div>
+          ${e.abilities ? `<div class="grim-abilities">${escapeHtml(e.abilities)}</div>` : ''}
+          <div class="grim-entry-actions">
+            <button class="ghost small" data-act="edit" data-id="${e.id}">Edit</button>
+            <button class="ghost small" data-act="toA" data-id="${e.id}">Use as Unit A</button>
+            <button class="ghost small" data-act="toB" data-id="${e.id}">Use as Unit B</button>
+            <button class="ghost small" data-act="toRoster" data-id="${e.id}">Add to Roster</button>
+            <button class="small danger" data-act="delete" data-id="${e.id}">Delete</button>
+          </div>
+        </div>
+      `).join('');
+    }
+    populateGrimPickers();
+  }
+
+  function populateGrimPickers(){
+    const opts = '<option value="">Load from Grimoire...</option>' +
+      grimoire.map(e => `<option value="${e.id}">${escapeHtml(e.name) || 'Unnamed unit'}</option>`).join('');
+    ['a_grimPick','b_grimPick'].forEach(id => { document.getElementById(id).innerHTML = opts; });
+    document.getElementById('rosterGrimoirePick').innerHTML =
+      '<option value="">Add from Grimoire...</option>' +
+      grimoire.map(e => `<option value="${e.id}">${escapeHtml(e.name) || 'Unnamed unit'} (${e.points || 0} pts)</option>`).join('');
+  }
+
+  function applyGrimToClash(entry, prefix){
+    const map = { name:'name', models:'models', attacks:'attacks', hit:'hit', wound:'wound', rend:'rend', damage:'damage', wounds:'wounds', save:'save', ward:'ward' };
+    Object.keys(map).forEach(f => {
+      const el = document.getElementById(prefix + '_' + map[f]);
+      if (el && entry[f] !== undefined && entry[f] !== '') el.value = entry[f];
+    });
+    const ref = document.getElementById(prefix + '_abilitiesRef');
+    if (entry.abilities) {
+      ref.textContent = entry.abilities;
+      ref.classList.add('show');
+    } else {
+      ref.classList.remove('show');
+    }
+    saveClash();
+  }
+
+  document.getElementById('grimoireSaveBtn').addEventListener('click', () => {
+    const data = readGrimForm();
+    if (!data.name) {
+      document.getElementById('grimoireStatus').textContent = 'Give the unit a name first.';
+      return;
+    }
+    if (editingGrimId) {
+      const idx = grimoire.findIndex(e => e.id === editingGrimId);
+      if (idx >= 0) grimoire[idx] = Object.assign({ id: editingGrimId }, data);
+    } else {
+      grimoire.push(Object.assign({ id: newGrimId() }, data));
+    }
+    document.getElementById('grimoireStatus').textContent = 'Saved.';
+    renderGrimoire();
+    saveGrimoire();
+    clearGrimForm();
+  });
+
+  document.getElementById('grimoireClearBtn').addEventListener('click', clearGrimForm);
+
+  document.getElementById('grimJsonImportBtn').addEventListener('click', () => {
+    const raw = document.getElementById('grimJsonText').value.trim();
+    const status = document.getElementById('grimJsonStatus');
+    if (!raw) { status.textContent = 'Paste some JSON first.'; return; }
+    let arr;
+    try {
+      arr = JSON.parse(raw);
+      if (!Array.isArray(arr)) arr = [arr];
+    } catch (e) {
+      status.textContent = 'Could not parse that as JSON — check for a stray comma or missing bracket.';
+      return;
+    }
+    let added = 0, updated = 0;
+    arr.forEach(item => {
+      if (!item || !item.name) return;
+      const entry = {};
+      grimFieldIds.forEach(f => { entry[f] = item[f] !== undefined ? String(item[f]) : ''; });
+      const existingIdx = grimoire.findIndex(g =>
+        g.name.trim().toLowerCase() === entry.name.trim().toLowerCase() &&
+        (g.faction || '').trim().toLowerCase() === (entry.faction || '').trim().toLowerCase()
+      );
+      if (existingIdx >= 0) {
+        grimoire[existingIdx] = Object.assign({ id: grimoire[existingIdx].id }, entry);
+        updated++;
+      } else {
+        grimoire.push(Object.assign({ id: newGrimId() }, entry));
+        added++;
+      }
+    });
+    status.textContent = `Added ${added}, updated ${updated} entr${(added + updated) === 1 ? 'y' : 'ies'}.`;
+    document.getElementById('grimJsonText').value = '';
+    renderGrimoire();
+    saveGrimoire();
+  });
+
+  document.getElementById('grimoireList').addEventListener('click', (e) => {
+    const act = e.target.getAttribute('data-act');
+    const id = e.target.getAttribute('data-id');
+    if (!act || !id) return;
+    const entry = grimoire.find(g => g.id === id);
+    if (!entry) return;
+
+    if (act === 'edit') {
+      fillGrimForm(entry);
+      editingGrimId = id;
+      document.getElementById('grimoireSaveBtn').textContent = 'Update Entry';
+      document.getElementById('grimoireStatus').textContent = 'Editing ' + (entry.name || 'entry') + '...';
+      document.getElementById('g_name').scrollIntoView({ behavior:'smooth', block:'center' });
+    } else if (act === 'delete') {
+      grimoire = grimoire.filter(g => g.id !== id);
+      renderGrimoire();
+      saveGrimoire();
+    } else if (act === 'toA') {
+      applyGrimToClash(entry, 'a');
+    } else if (act === 'toB') {
+      applyGrimToClash(entry, 'b');
+    } else if (act === 'toRoster') {
+      state.units.push({ id:newId(), name:entry.name, qty:entry.models || 1, points:entry.points || 0, wounds:entry.wounds || 0 });
+      render();
+      save();
+    }
+  });
+
+  document.getElementById('a_grimPick').addEventListener('change', (e) => {
+    const entry = grimoire.find(g => g.id === e.target.value);
+    if (entry) applyGrimToClash(entry, 'a');
+  });
+  document.getElementById('b_grimPick').addEventListener('change', (e) => {
+    const entry = grimoire.find(g => g.id === e.target.value);
+    if (entry) applyGrimToClash(entry, 'b');
+  });
+  document.getElementById('rosterGrimoirePick').addEventListener('change', (e) => {
+    const entry = grimoire.find(g => g.id === e.target.value);
+    if (!entry) return;
+    state.units.push({ id:newId(), name:entry.name, qty:entry.models || 1, points:entry.points || 0, wounds:entry.wounds || 0 });
+    render();
+    save();
+    e.target.value = '';
+  });
+
+  load();
+  loadClash();
+  loadGrimoire();
+})();
+</script>
+</body>
+</html>
