@@ -476,6 +476,57 @@
     .clash-grid, .clash-results{grid-template-columns:1fr;}
   }
 
+  .weapons-block{margin-top:16px;}
+  .weapons-label{
+    display:block;
+    font-family:'JetBrains Mono', monospace;
+    font-size:10px;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    color:var(--text-soft);
+    margin-bottom:8px;
+  }
+  .table-scroll{overflow-x:auto; margin-bottom:8px;}
+  table.weapon-table{min-width:520px; margin-bottom:0;}
+  .weapon-table th{
+    font-family:'JetBrains Mono', monospace;
+    font-size:9.5px;
+    letter-spacing:0.8px;
+    text-transform:uppercase;
+    text-align:left;
+    color:var(--text-soft);
+    padding:0 6px 8px;
+    border-bottom:2px solid var(--text);
+    white-space:nowrap;
+  }
+  .weapon-table td{padding:6px; border-bottom:1px solid var(--line);}
+  .weapon-table td input{
+    width:100%;
+    min-width:46px;
+    background:transparent;
+    border:none;
+    border-bottom:1px solid var(--line);
+    font-family:'JetBrains Mono', monospace;
+    font-size:13px;
+    color:var(--text);
+    padding:4px 2px;
+  }
+  .weapon-table td:first-child input{
+    font-family:'Spectral', serif;
+    min-width:120px;
+  }
+  .weapon-table td input:focus{outline:none; border-color:var(--seal-red);}
+  .weapon-table .del-cell{width:30px; text-align:center; padding:6px 2px;}
+  .add-weapon-row{margin-top:2px;}
+
+  .grim-weapons{margin:6px 0 0;}
+  .grim-weapon-line{
+    font-family:'JetBrains Mono', monospace;
+    font-size:11.5px;
+    color:var(--text-soft);
+    padding:2px 0;
+  }
+
   .grim-pick{
     font-family:'JetBrains Mono', monospace;
     font-size:11px;
@@ -756,7 +807,7 @@
   <div class="ledger">
     <h1>Clash of Arms</h1>
     <p class="subtitle">Combat Comparator &middot; One Round</p>
-    <p class="clash-note">Enter each unit's profile from its current warscroll (attacks, hit/wound, rend, damage, save). Values change between editions and points updates, so double check against the live warscroll rather than trusting memorised numbers. Damage and attacks accept dice notation like <code>D6</code>, <code>2D6</code> or <code>D3+1</code>. This runs a single combat round in each direction and ignores spillover, abilities, and command points &mdash; a rough guide, not a rules engine.</p>
+    <p class="clash-note">Enter each unit's defensive profile (wounds, save, ward) plus one row per weapon it carries &mdash; add a row for each distinct melee/missile weapon, or for a champion/musician with a different loadout, and set that row's "Models" to how many models actually swing it (leave blank to mean all models in the unit). Values change between editions and points updates, so double check against the live warscroll. Attacks and Damage accept dice notation like <code>D6</code>, <code>2D6</code> or <code>D3+1</code>. This runs a single combat round in each direction and ignores spillover, abilities, and command points &mdash; a rough guide, not a rules engine.</p>
 
     <div class="clash-grid">
       <div class="clash-col col-a">
@@ -768,14 +819,19 @@
             <input type="text" id="a_name" placeholder="e.g. 10 Skeleton Warriors">
           </div>
           <div class="field"><label for="a_models">Models</label><input type="number" id="a_models" min="1" value="10"></div>
-          <div class="field"><label for="a_attacks">Attacks / model</label><input type="text" id="a_attacks" value="1"></div>
-          <div class="field"><label for="a_hit">To Hit (X+)</label><input type="number" id="a_hit" min="2" max="6" value="4"></div>
-          <div class="field"><label for="a_wound">To Wound (X+)</label><input type="number" id="a_wound" min="2" max="6" value="4"></div>
-          <div class="field"><label for="a_rend">Rend</label><input type="number" id="a_rend" min="0" max="6" value="0"></div>
-          <div class="field"><label for="a_damage">Damage</label><input type="text" id="a_damage" value="1"></div>
           <div class="field"><label for="a_wounds">Wounds / model</label><input type="number" id="a_wounds" min="1" value="1"></div>
           <div class="field"><label for="a_save">Save (X+)</label><input type="number" id="a_save" min="2" max="7" value="6"></div>
           <div class="field"><label for="a_ward">Ward (X+, optional)</label><input type="text" id="a_ward" placeholder="e.g. 6"></div>
+        </div>
+        <div class="weapons-block">
+          <label class="weapons-label">Weapons</label>
+          <div class="table-scroll">
+            <table class="weapon-table">
+              <thead><tr><th>Weapon</th><th>Models</th><th>Atks</th><th>Hit</th><th>Wound</th><th>Rend</th><th>Dmg</th><th></th></tr></thead>
+              <tbody id="a_weaponsBody"></tbody>
+            </table>
+          </div>
+          <button class="ghost small add-weapon-row" id="a_addWeaponBtn" type="button">+ Add Weapon Profile</button>
         </div>
         <div class="abilities-ref-wrap"></div>
       </div>
@@ -788,14 +844,19 @@
             <input type="text" id="b_name" placeholder="e.g. Archaon the Everchosen">
           </div>
           <div class="field"><label for="b_models">Models</label><input type="number" id="b_models" min="1" value="1"></div>
-          <div class="field"><label for="b_attacks">Attacks / model</label><input type="text" id="b_attacks" value="6"></div>
-          <div class="field"><label for="b_hit">To Hit (X+)</label><input type="number" id="b_hit" min="2" max="6" value="3"></div>
-          <div class="field"><label for="b_wound">To Wound (X+)</label><input type="number" id="b_wound" min="2" max="6" value="2"></div>
-          <div class="field"><label for="b_rend">Rend</label><input type="number" id="b_rend" min="0" max="6" value="2"></div>
-          <div class="field"><label for="b_damage">Damage</label><input type="text" id="b_damage" value="D6"></div>
           <div class="field"><label for="b_wounds">Wounds / model</label><input type="number" id="b_wounds" min="1" value="18"></div>
           <div class="field"><label for="b_save">Save (X+)</label><input type="number" id="b_save" min="2" max="7" value="3"></div>
           <div class="field"><label for="b_ward">Ward (X+, optional)</label><input type="text" id="b_ward" placeholder="e.g. 5"></div>
+        </div>
+        <div class="weapons-block">
+          <label class="weapons-label">Weapons</label>
+          <div class="table-scroll">
+            <table class="weapon-table">
+              <thead><tr><th>Weapon</th><th>Models</th><th>Atks</th><th>Hit</th><th>Wound</th><th>Rend</th><th>Dmg</th><th></th></tr></thead>
+              <tbody id="b_weaponsBody"></tbody>
+            </table>
+          </div>
+          <button class="ghost small add-weapon-row" id="b_addWeaponBtn" type="button">+ Add Weapon Profile</button>
         </div>
         <div class="abilities-ref-wrap"></div>
       </div>
@@ -846,15 +907,21 @@
       <div class="field"><label for="g_wounds">Wounds / model</label><input type="number" id="g_wounds" min="1" value="1"></div>
       <div class="field"><label for="g_save">Save (X+)</label><input type="number" id="g_save" min="2" max="7"></div>
       <div class="field"><label for="g_ward">Ward (X+, optional)</label><input type="text" id="g_ward"></div>
-      <div class="field"><label for="g_attacks">Attacks / model</label><input type="text" id="g_attacks" value="1"></div>
-      <div class="field"><label for="g_hit">To Hit (X+)</label><input type="number" id="g_hit" min="2" max="6"></div>
-      <div class="field"><label for="g_wound">To Wound (X+)</label><input type="number" id="g_wound" min="2" max="6"></div>
-      <div class="field"><label for="g_rend">Rend</label><input type="number" id="g_rend" min="0" max="6" value="0"></div>
-      <div class="field"><label for="g_damage">Damage</label><input type="text" id="g_damage" value="1"></div>
       <div class="field wide">
         <label for="g_abilities">Abilities &amp; Keywords</label>
         <textarea id="g_abilities" placeholder="One ability per line, e.g.&#10;Deathrattle: reroll hit rolls of 1 while within 12&quot; of a Mortis Praetorian&#10;Keywords: Undead, Skeleton, Infantry"></textarea>
       </div>
+    </div>
+
+    <div class="weapons-block">
+      <label class="weapons-label">Weapons</label>
+      <div class="table-scroll">
+        <table class="weapon-table">
+          <thead><tr><th>Weapon</th><th>Models</th><th>Atks</th><th>Hit</th><th>Wound</th><th>Rend</th><th>Dmg</th><th></th></tr></thead>
+          <tbody id="g_weaponsBody"></tbody>
+        </table>
+      </div>
+      <button class="ghost small add-weapon-row" id="g_addWeaponBtn" type="button">+ Add Weapon Profile</button>
     </div>
 
     <div class="import-actions" style="margin-top:14px;">
@@ -866,7 +933,7 @@
     <details class="import" style="margin-top:22px;" open>
       <summary>Import units from JSON files</summary>
       <div class="import-body">
-        <p>Point this at the files in your converter's <code>output/</code> folder &mdash; select as many as you like at once (desktop: ctrl/cmd-click or shift-click in the file dialog to multi-select several factions in one go). Each file should hold an array of entries with fields like <em>name, faction, points, models, wounds, save, attacks, hit, wound, rend, damage, abilities</em>. Entries matching an existing name + faction are updated in place, so it's safe to re-import after a battletome update.</p>
+        <p>Point this at the files in your converter's <code>output/</code> folder &mdash; select as many as you like at once (desktop: ctrl/cmd-click or shift-click in the file dialog to multi-select several factions in one go). Each entry can have a <code>weapons</code> array &mdash; <code>[{"name":"...","models":"","attacks":"1","hit":"4","wound":"4","rend":"0","damage":"1"}]</code> &mdash; for units with more than one weapon profile. Old-style flat fields (<em>attacks, hit, wound, rend, damage</em>) still import fine and are treated as a single weapon. Entries matching an existing name + faction are updated in place, so it's safe to re-import after a battletome update.</p>
         <div class="dropzone" id="grimDropzone" tabindex="0">
           <div class="dropzone-label" id="dropzoneLabel">Drop JSON files here, or</div>
           <input type="file" id="grimFileInput" accept=".json,application/json" multiple hidden>
@@ -946,11 +1013,11 @@
   // ---------------------------------------------------------------------
   const ALLIANCE_ORDER = ['order','chaos','death','destruction','unaligned'];
   const ALLIANCE_META = {
-    order:       { label:'Order',       color:'var(--order)' },
-    chaos:       { label:'Chaos',       color:'var(--chaos)' },
-    death:       { label:'Death',       color:'var(--death)' },
+    order: { label:'Order', color:'var(--order)' },
+    chaos: { label:'Chaos', color:'var(--chaos)' },
+    death: { label:'Death', color:'var(--death)' },
     destruction: { label:'Destruction', color:'var(--destruction)' },
-    unaligned:   { label:'Unaligned',   color:'var(--unaligned)' }
+    unaligned: { label:'Unaligned', color:'var(--unaligned)' }
   };
   const ALLIANCE_BY_FACTION = {
     'cities of sigmar':'order', 'daughters of khaine':'order', 'fyreslayers':'order',
@@ -1151,10 +1218,10 @@
     const found = [];
 
     const patterns = [
-      /^(\d+)\s*[xX]\s*(.+?)\s*\(\s*(\d+)\s*\)\s*$/,                 // 5 x Liberators (140)
+      /^(\d+)\s*[xX]\s*(.+?)\s*\(\s*(\d+)\s*\)\s*$/, // 5 x Liberators (140)
       /^(\d+)\s*[xX]\s*(.+?)\s*[-–]\s*(\d+)\s*(?:pts?|points?)\s*$/i, // 5 x Liberators - 140 pts
-      /^(.+?)\s*\(\s*(\d+)\s*\)\s*$/,                                 // Liberators (140)
-      /^(.+?)\s*[-–]\s*(\d+)\s*(?:pts?|points?)\s*$/i                 // Liberators - 140 pts
+      /^(.+?)\s*\(\s*(\d+)\s*\)\s*$/, // Liberators (140)
+      /^(.+?)\s*[-–]\s*(\d+)\s*(?:pts?|points?)\s*$/i // Liberators - 140 pts
     ];
 
     for (let raw of lines) {
@@ -1198,7 +1265,69 @@
   // Clash of Arms combat comparator
   // ---------------------------------------------------------------------
   const CLASH_KEY = 'muster-roll-clash';
-  const clashFieldIds = ['name','models','attacks','hit','wound','rend','damage','wounds','save','ward'];
+
+  function weaponRowHtml(w){
+    w = w || {};
+    return `<tr>
+      <td><input type="text" class="wpn-name" value="${escapeAttr(w.name||'')}" placeholder="e.g. Ancient Blade"></td>
+      <td><input type="text" class="wpn-models" value="${escapeAttr(w.models||'')}" placeholder="all"></td>
+      <td><input type="text" class="wpn-attacks" value="${escapeAttr(w.attacks||'1')}"></td>
+      <td><input type="number" class="wpn-hit" min="2" max="6" value="${escapeAttr(w.hit||'')}"></td>
+      <td><input type="number" class="wpn-wound" min="2" max="6" value="${escapeAttr(w.wound||'')}"></td>
+      <td><input type="number" class="wpn-rend" min="0" max="6" value="${escapeAttr(w.rend||'0')}"></td>
+      <td><input type="text" class="wpn-damage" value="${escapeAttr(w.damage||'1')}"></td>
+      <td class="del-cell"><button class="small danger wpn-del" type="button">&times;</button></td>
+    </tr>`;
+  }
+
+  function renderWeaponsTable(bodyId, weapons){
+    const body = document.getElementById(bodyId);
+    if (!body) return;
+    const list = (weapons && weapons.length) ? weapons : [{}];
+    body.innerHTML = list.map(weaponRowHtml).join('');
+  }
+
+  function readWeaponsTable(bodyId){
+    const body = document.getElementById(bodyId);
+    if (!body) return [];
+    return Array.from(body.querySelectorAll('tr')).map(row => ({
+      name: row.querySelector('.wpn-name').value.trim(),
+      models: row.querySelector('.wpn-models').value.trim(),
+      attacks: row.querySelector('.wpn-attacks').value.trim() || '1',
+      hit: row.querySelector('.wpn-hit').value.trim(),
+      wound: row.querySelector('.wpn-wound').value.trim(),
+      rend: row.querySelector('.wpn-rend').value.trim() || '0',
+      damage: row.querySelector('.wpn-damage').value.trim() || '1'
+    }));
+  }
+
+  function wireWeaponsTable(bodyId, addBtnId, onChange){
+    const body = document.getElementById(bodyId);
+    const addBtn = document.getElementById(addBtnId);
+    if (addBtn) addBtn.addEventListener('click', () => {
+      body.insertAdjacentHTML('beforeend', weaponRowHtml({}));
+      onChange();
+    });
+    if (body) {
+      body.addEventListener('click', (e) => {
+        if (e.target.classList.contains('wpn-del')) {
+          e.target.closest('tr').remove();
+          onChange();
+        }
+      });
+      body.addEventListener('change', onChange);
+    }
+  }
+
+  // Backward-compat: entries saved before multi-weapon support have flat
+  // attacks/hit/wound/rend/damage fields instead of a weapons array.
+  function getWeapons(entry){
+    if (entry.weapons && Array.isArray(entry.weapons) && entry.weapons.length) return entry.weapons;
+    if (entry.attacks || entry.hit || entry.wound || entry.damage) {
+      return [{ name:'', models:'', attacks:entry.attacks||'1', hit:entry.hit||'', wound:entry.wound||'', rend:entry.rend||'0', damage:entry.damage||'1' }];
+    }
+    return [];
+  }
 
   function parseDiceExpr(str){
     const s = String(str ?? '').trim();
@@ -1230,49 +1359,57 @@
     return {
       name: get('name') || (prefix === 'a' ? 'Unit A' : 'Unit B'),
       models: Math.max(1, parseInt(get('models'), 10) || 1),
-      attacks: get('attacks') || '1',
-      hit: Math.min(6, Math.max(2, parseInt(get('hit'), 10) || 6)),
-      wound: Math.min(6, Math.max(2, parseInt(get('wound'), 10) || 6)),
-      rend: Math.max(0, parseInt(get('rend'), 10) || 0),
-      damage: get('damage') || '1',
       wounds: Math.max(1, parseInt(get('wounds'), 10) || 1),
       save: (() => { const v = parseInt(get('save'), 10); return v && v >= 2 && v <= 6 ? v : null; })(),
-      ward: (() => { const v = parseInt(get('ward'), 10); return v && v >= 2 && v <= 6 ? v : null; })()
+      ward: (() => { const v = parseInt(get('ward'), 10); return v && v >= 2 && v <= 6 ? v : null; })(),
+      weapons: readWeaponsTable(prefix + '_weaponsBody')
     };
   }
 
   function simulateClash(attacker, defender, trials){
-    const attacksDice = parseDiceExpr(attacker.attacks);
-    const damageDice = parseDiceExpr(attacker.damage);
-    const pHit = (7 - attacker.hit) / 6;
-    const pWound = (7 - attacker.wound) / 6;
-    const effSave = defender.save !== null ? defender.save + attacker.rend : null;
-    const pSaveFails = (effSave === null || effSave > 6) ? 1 : (effSave - 1) / 6;
-    const pWardFails = defender.ward ? (defender.ward - 1) / 6 : 1;
+    const weapons = (attacker.weapons || []).map(w => ({
+      name: w.name,
+      modelsCount: w.models ? Math.max(0, parseInt(w.models, 10) || 0) : attacker.models,
+      attacksDice: parseDiceExpr(w.attacks || '1'),
+      hit: parseInt(w.hit, 10) || 0,
+      wound: parseInt(w.wound, 10) || 0,
+      rend: Math.max(0, parseInt(w.rend, 10) || 0),
+      damageDice: parseDiceExpr(w.damage || '1'),
+      dmgSum: 0
+    })).filter(w => w.hit >= 2 && w.hit <= 6 && w.wound >= 2 && w.wound <= 6 && w.modelsCount > 0);
 
+    const pWardFails = defender.ward ? (defender.ward - 1) / 6 : 1;
     let totalDamageSum = 0;
     let trialsWithAnyDamage = 0;
     let trialsUnitWiped = 0;
     const defenderPool = defender.models * defender.wounds;
+    let avgAttacksTotal = 0;
+    weapons.forEach(w => { avgAttacksTotal += w.modelsCount * w.attacksDice.average; });
 
     for (let t = 0; t < trials; t++) {
-      const totalAttacks = Math.round(attacker.models * attacksDice.roll());
       let dmgThisTrial = 0;
-      for (let i = 0; i < totalAttacks; i++) {
-        const rHit = 1 + Math.floor(Math.random() * 6);
-        if (rHit < attacker.hit) continue;
-        const rWound = 1 + Math.floor(Math.random() * 6);
-        if (rWound < attacker.wound) continue;
-        if (effSave !== null && effSave <= 6) {
-          const rSave = 1 + Math.floor(Math.random() * 6);
-          if (rSave >= effSave) continue; // saved
+      weapons.forEach(w => {
+        const totalAttacks = Math.round(w.modelsCount * w.attacksDice.roll());
+        const effSave = defender.save !== null ? defender.save + w.rend : null;
+        let wDmg = 0;
+        for (let i = 0; i < totalAttacks; i++) {
+          const rHit = 1 + Math.floor(Math.random() * 6);
+          if (rHit < w.hit) continue;
+          const rWound = 1 + Math.floor(Math.random() * 6);
+          if (rWound < w.wound) continue;
+          if (effSave !== null && effSave <= 6) {
+            const rSave = 1 + Math.floor(Math.random() * 6);
+            if (rSave >= effSave) continue; // saved
+          }
+          if (defender.ward) {
+            const rWard = 1 + Math.floor(Math.random() * 6);
+            if (rWard >= defender.ward) continue; // warded off
+          }
+          wDmg += Math.max(0, Math.round(w.damageDice.roll()));
         }
-        if (defender.ward) {
-          const rWard = 1 + Math.floor(Math.random() * 6);
-          if (rWard >= defender.ward) continue; // warded off
-        }
-        dmgThisTrial += Math.max(0, Math.round(damageDice.roll()));
-      }
+        w.dmgSum += wDmg;
+        dmgThisTrial += wDmg;
+      });
       totalDamageSum += dmgThisTrial;
       if (dmgThisTrial > 0) trialsWithAnyDamage++;
       if (dmgThisTrial >= defenderPool) trialsUnitWiped++;
@@ -1280,15 +1417,22 @@
 
     const avgDamage = totalDamageSum / trials;
     const avgModelsSlain = Math.min(defender.models, avgDamage / defender.wounds);
+    const weaponSummaries = weapons.map(w => ({
+      name: w.name,
+      avgAttacks: w.modelsCount * w.attacksDice.average,
+      hit: w.hit, wound: w.wound, rend: w.rend,
+      avgDamage: w.dmgSum / trials
+    }));
 
     return {
-      pHit, pWound, pSaveFails, pWardFails,
-      avgAttacks: attacker.models * attacksDice.average,
+      avgAttacks: avgAttacksTotal,
       avgDamage,
       avgModelsSlain,
       chanceAnyDamage: trialsWithAnyDamage / trials,
       chanceWipe: trialsUnitWiped / trials,
-      defenderPool
+      defenderPool,
+      weaponSummaries,
+      pWardFails
     };
   }
 
@@ -1297,12 +1441,13 @@
 
   function renderResultCard(cardId, titleId, attacker, defender, res){
     const card = document.getElementById(cardId);
+    const weaponLines = res.weaponSummaries.length ? res.weaponSummaries.map(w => `
+      <div class="result-line"><span>${escapeHtml(w.name || 'Weapon')} &middot; ${num(w.avgAttacks)} atks, ${w.hit}+/${w.wound}+, Rend ${w.rend}</span><span class="val">${num(w.avgDamage)} dmg</span></div>
+    `).join('') : '<div class="result-line"><span>No valid weapon profiles entered</span><span class="val">&mdash;</span></div>';
     card.innerHTML = `<h4 id="${titleId}">${escapeHtml(attacker.name)} attacks ${escapeHtml(defender.name)}</h4>
-      <div class="result-line"><span>Avg. attacks swung</span><span class="val">${num(res.avgAttacks)}</span></div>
-      <div class="result-line"><span>Chance to hit</span><span class="val">${pct(res.pHit)}</span></div>
-      <div class="result-line"><span>Chance to wound</span><span class="val">${pct(res.pWound)}</span></div>
-      <div class="result-line"><span>Chance save fails</span><span class="val">${pct(res.pSaveFails)}</span></div>
-      ${defender.ward ? `<div class="result-line"><span>Chance ward fails</span><span class="val">${pct(res.pWardFails)}</span></div>` : ''}
+      <div class="result-line"><span>Total avg. attacks swung</span><span class="val">${num(res.avgAttacks)}</span></div>
+      ${weaponLines}
+      ${defender.ward ? `<div class="result-line"><span>Chance ward fails (per hit)</span><span class="val">${pct(res.pWardFails)}</span></div>` : ''}
       <div class="result-line"><span>Expected damage dealt</span><span class="val">${num(res.avgDamage)}</span></div>
       <div class="result-line"><span>Expected models slain</span><span class="val">${num(res.avgModelsSlain)} / ${defender.models}</span></div>
       <div class="result-line"><span>Chance to wipe the unit</span><span class="val">${pct(res.chanceWipe)}</span></div>`;
@@ -1336,11 +1481,14 @@
     saveClash();
   }
 
+  const clashScalarIds = ['name','models','wounds','save','ward'];
+
   async function saveClash(){
     const data = {};
-    ['a','b'].forEach(p => clashFieldIds.forEach(f => {
-      data[p + '_' + f] = document.getElementById(p + '_' + f).value;
-    }));
+    ['a','b'].forEach(p => {
+      clashScalarIds.forEach(f => { data[p + '_' + f] = document.getElementById(p + '_' + f).value; });
+      data[p + '_weapons'] = readWeaponsTable(p + '_weaponsBody');
+    });
     await storageSet(CLASH_KEY, JSON.stringify(data));
   }
 
@@ -1349,25 +1497,31 @@
     if (raw) {
       try {
         const data = JSON.parse(raw);
-        Object.keys(data).forEach(k => {
-          const el = document.getElementById(k);
-          if (el) el.value = data[k];
+        ['a','b'].forEach(p => {
+          clashScalarIds.forEach(f => {
+            const el = document.getElementById(p + '_' + f);
+            if (el && data[p + '_' + f] !== undefined) el.value = data[p + '_' + f];
+          });
+          renderWeaponsTable(p + '_weaponsBody', data[p + '_weapons'] || []);
         });
       } catch(e) { /* ignore corrupt data */ }
     }
   }
 
   document.getElementById('runClashBtn').addEventListener('click', runClash);
-  ['a','b'].forEach(p => clashFieldIds.forEach(f => {
-    const el = document.getElementById(p + '_' + f);
-    if (el) el.addEventListener('change', saveClash);
-  }));
+  ['a','b'].forEach(p => {
+    clashScalarIds.forEach(f => {
+      const el = document.getElementById(p + '_' + f);
+      if (el) el.addEventListener('change', saveClash);
+    });
+    wireWeaponsTable(p + '_weaponsBody', p + '_addWeaponBtn', saveClash);
+  });
 
   // ---------------------------------------------------------------------
   // Grimoire: unit library
   // ---------------------------------------------------------------------
   const GRIMOIRE_KEY = 'muster-roll-grimoire';
-  const grimFieldIds = ['name','faction','alliance','points','models','move','wounds','save','ward','attacks','hit','wound','rend','damage','abilities'];
+  const grimFieldIds = ['name','faction','alliance','points','models','move','wounds','save','ward','abilities'];
   let grimoire = [];
   let editingGrimId = null;
   let grimIdCounter = 1;
@@ -1400,11 +1554,7 @@
       wounds: get('wounds') || '1',
       save: get('save'),
       ward: get('ward'),
-      attacks: get('attacks') || '1',
-      hit: get('hit'),
-      wound: get('wound'),
-      rend: get('rend') || '0',
-      damage: get('damage') || '1',
+      weapons: readWeaponsTable('g_weaponsBody'),
       abilities: get('abilities')
     };
   }
@@ -1419,6 +1569,7 @@
         el.value = entry[f] ?? '';
       }
     });
+    renderWeaponsTable('g_weaponsBody', getWeapons(entry));
     updateDetectHint();
   }
 
@@ -1430,9 +1581,7 @@
     document.getElementById('g_alliance').value = 'auto';
     document.getElementById('g_models').value = 1;
     document.getElementById('g_wounds').value = 1;
-    document.getElementById('g_attacks').value = 1;
-    document.getElementById('g_rend').value = 0;
-    document.getElementById('g_damage').value = 1;
+    renderWeaponsTable('g_weaponsBody', []);
     editingGrimId = null;
     document.getElementById('grimoireSaveBtn').textContent = 'Save Entry';
     document.getElementById('grimoireStatus').textContent = '';
@@ -1461,12 +1610,15 @@
     parts.push('W ' + (entry.wounds || '1'));
     if (entry.save) parts.push('Sv ' + entry.save + '+');
     if (entry.ward) parts.push('Ward ' + entry.ward + '+');
-    parts.push('A ' + (entry.attacks || '1'));
-    if (entry.hit) parts.push('Hit ' + entry.hit + '+');
-    if (entry.wound) parts.push('Wound ' + entry.wound + '+');
-    parts.push('Rend ' + (entry.rend || '0'));
-    parts.push('Dmg ' + (entry.damage || '1'));
     return parts.join(' \u00b7 ');
+  }
+
+  function weaponsSummaryHtml(entry){
+    const weapons = getWeapons(entry).filter(w => w.hit || w.wound || w.name);
+    if (!weapons.length) return '';
+    return '<div class="grim-weapons">' + weapons.map(w =>
+      `<div class="grim-weapon-line">${escapeHtml(w.name || 'Weapon')} &mdash; ${w.models ? escapeHtml(w.models) + 'x, ' : ''}${escapeHtml(w.attacks || '1')} atks, ${escapeHtml(w.hit || '-')}+/${escapeHtml(w.wound || '-')}+, Rend ${escapeHtml(w.rend || '0')}, Dmg ${escapeHtml(w.damage || '1')}</div>`
+    ).join('') + '</div>';
   }
 
   function matchesSearch(e, q){
@@ -1502,6 +1654,7 @@
           <span class="meta">${e.points ? e.points + ' pts' : ''}</span>
         </div>
         <div class="grim-stats">${statLine(e)}</div>
+        ${weaponsSummaryHtml(e)}
         ${e.abilities ? `<details class="abilities-toggle"><summary>Abilities &amp; Keywords</summary><div class="grim-abilities">${escapeHtml(e.abilities)}</div></details>` : ''}
         <div class="grim-entry-actions">
           <button class="ghost small" data-act="edit" data-id="${e.id}" type="button">Edit</button>
@@ -1576,11 +1729,12 @@
   }
 
   function applyGrimToClash(entry, prefix){
-    const map = { name:'name', models:'models', attacks:'attacks', hit:'hit', wound:'wound', rend:'rend', damage:'damage', wounds:'wounds', save:'save', ward:'ward' };
+    const map = { name:'name', models:'models', wounds:'wounds', save:'save', ward:'ward' };
     Object.keys(map).forEach(f => {
       const el = document.getElementById(prefix + '_' + map[f]);
       if (el && entry[f] !== undefined && entry[f] !== '') el.value = entry[f];
     });
+    renderWeaponsTable(prefix + '_weaponsBody', getWeapons(entry));
     const wrap = document.querySelector('#' + (prefix === 'a' ? 'a_name' : 'b_name')).closest('.clash-col').querySelector('.abilities-ref-wrap');
     if (entry.abilities) {
       wrap.innerHTML = `<details class="abilities-toggle" open><summary>Abilities &amp; Keywords (from Grimoire)</summary><div class="grim-abilities">${escapeHtml(entry.abilities)}</div></details>`;
@@ -1596,6 +1750,29 @@
       if (!item || !item.name) return;
       const entry = {};
       grimFieldIds.forEach(f => { entry[f] = item[f] !== undefined ? String(item[f]) : ''; });
+      if (Array.isArray(item.weapons) && item.weapons.length) {
+        entry.weapons = item.weapons.map(w => ({
+          name: w.name || '',
+          models: w.models !== undefined ? String(w.models) : '',
+          attacks: w.attacks !== undefined ? String(w.attacks) : '1',
+          hit: w.hit !== undefined ? String(w.hit) : '',
+          wound: w.wound !== undefined ? String(w.wound) : '',
+          rend: w.rend !== undefined ? String(w.rend) : '0',
+          damage: w.damage !== undefined ? String(w.damage) : '1'
+        }));
+      } else if (item.attacks || item.hit || item.wound || item.damage) {
+        // legacy flat schema from older converter output — treat as one weapon
+        entry.weapons = [{
+          name: '', models: '',
+          attacks: String(item.attacks || '1'),
+          hit: String(item.hit || ''),
+          wound: String(item.wound || ''),
+          rend: String(item.rend || '0'),
+          damage: String(item.damage || '1')
+        }];
+      } else {
+        entry.weapons = [];
+      }
       const existingIdx = grimoire.findIndex(g =>
         g.name.trim().toLowerCase() === entry.name.trim().toLowerCase() &&
         (g.faction || '').trim().toLowerCase() === (entry.faction || '').trim().toLowerCase()
@@ -1630,6 +1807,7 @@
   });
 
   document.getElementById('grimoireClearBtn').addEventListener('click', clearGrimForm);
+  wireWeaponsTable('g_weaponsBody', 'g_addWeaponBtn', () => {});
 
   document.getElementById('grimJsonImportBtn').addEventListener('click', () => {
     const raw = document.getElementById('grimJsonText').value.trim();
@@ -1762,6 +1940,9 @@
   // ---------------------------------------------------------------------
   // Init
   // ---------------------------------------------------------------------
+  renderWeaponsTable('a_weaponsBody', [{ name:'', models:'', attacks:'1', hit:'4', wound:'4', rend:'0', damage:'1' }]);
+  renderWeaponsTable('b_weaponsBody', [{ name:'', models:'', attacks:'6', hit:'3', wound:'2', rend:'2', damage:'D6' }]);
+  renderWeaponsTable('g_weaponsBody', []);
   initTabs();
   load();
   loadClash();
