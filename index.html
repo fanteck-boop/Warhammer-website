@@ -413,6 +413,9 @@
     padding:14px 16px 18px;
     border:1px solid var(--line);
     background:rgba(255,255,255,0.15);
+    min-width:0; /* without this, a grid item won't shrink below its widest child
+                    (the weapon table), so it pushes past the ledger's edge instead
+                    of letting the table's own overflow-x:auto handle the width */
   }
   .clash-col h3{
     font-family:'Cinzel', serif;
@@ -444,6 +447,7 @@
     padding:16px 18px;
     border:1px solid var(--line);
     background:rgba(255,255,255,0.35);
+    min-width:0;
   }
   .result-card h4{
     font-family:'Cinzel', serif;
@@ -750,6 +754,12 @@
           <option value="chaos">Chaos</option>
           <option value="death">Death</option>
           <option value="destruction">Destruction</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="rosterFaction">Faction</label>
+        <select id="rosterFaction">
+          <option value="">— any faction —</option>
         </select>
       </div>
     </div>
@@ -1070,7 +1080,7 @@
   // Roster
   // ---------------------------------------------------------------------
   const STORAGE_KEY = 'muster-roll-data';
-  let state = { armyName: '', pointsLimit: 2000, alliance: '', units: [] };
+  let state = { armyName: '', pointsLimit: 2000, alliance: '', faction: '', units: [] };
   let idCounter = 1;
 
   const rosterBody = $('rosterBody');
@@ -1101,6 +1111,7 @@
     $('armyName').value = state.armyName || '';
     $('pointsLimit').value = state.pointsLimit ?? '';
     $('rosterAlliance').value = state.alliance || '';
+    $('rosterFaction').value = state.faction || '';
     updateBrand();
     applyRosterAllianceAccent();
 
@@ -1160,7 +1171,7 @@
     if (raw) {
       try {
         const parsed = JSON.parse(raw);
-        state = Object.assign({ armyName:'', pointsLimit:2000, alliance:'', units:[] }, parsed);
+        state = Object.assign({ armyName:'', pointsLimit:2000, alliance:'', faction:'', units:[] }, parsed);
       } catch(e) { /* ignore corrupt data */ }
     }
     render();
@@ -1201,8 +1212,16 @@
 
   $('rosterAlliance').addEventListener('change', (e) => {
     state.alliance = e.target.value;
+    state.faction = ''; // a faction picked under the old alliance may not belong to the new one
     updateBrand();
     applyRosterAllianceAccent();
+    populateGrimPickers();
+    save();
+  });
+
+  $('rosterFaction').addEventListener('change', (e) => {
+    state.faction = e.target.value;
+    populateGrimPickers();
     save();
   });
 
@@ -1253,7 +1272,12 @@
       return;
     }
     parsed.forEach(u => {
-      state.units.push({ id:newId(), name:u.name, qty:u.qty, points:u.points, wounds:0 });
+      // The parsed number is the TOTAL price printed for that line (e.g. the
+      // "140" in "5 x Liberators (140)"), not a per-model rate — same
+      // total-vs-per-model mixup as the Grimoire transfer above.
+      const qty = Math.max(1, Number(u.qty) || 1);
+      const perModelPts = Math.round((Number(u.points || 0) / qty) * 100) / 100;
+      state.units.push({ id:newId(), name:u.name, qty, points:perModelPts, wounds:0 });
     });
     $('importStatus').textContent = `Imported ${parsed.length} unit${parsed.length === 1 ? '' : 's'}. Fill in wounds per model as needed.`;
     $('importText').value = '';
@@ -1530,6 +1554,18 @@
 
   function newGrimId(){ return 'g' + (grimIdCounter++) + '-' + Date.now().toString(36); }
 
+  // Grimoire stores points as the TOTAL cost for the unit's base size (e.g. 90pts
+  // for 10 Skeletons). The Roster table stores points as a PER-MODEL rate and
+  // multiplies by qty (model count) to get the total — so pulling a Grimoire
+  // entry into the roster has to divide, not copy straight across, or the total
+  // ends up counted twice (10 models x 90 "per model" = 900).
+  function grimEntryToRosterUnit(entry){
+    const models = Math.max(1, Number(entry.models) || 1);
+    const totalPts = Number(entry.points) || 0;
+    const perModelPts = Math.round((totalPts / models) * 100) / 100;
+    return { id:newId(), name:entry.name, qty:models, points:perModelPts, wounds:entry.wounds || 0, alliance:effectiveAlliance(entry) };
+  }
+
   async function saveGrimoire(){
     await storageSet(GRIMOIRE_KEY, JSON.stringify(grimoire));
   }
@@ -1713,19 +1749,64 @@
 
   function populateGrimPickers(){
     const groups = buildGroupedView(grimoire);
-    function optionsHtml(withPoints){
+    function optionsHtml(){
       return groups.map(g => {
         const items = groupByFaction(g.items).reduce((acc, fg) => acc.concat(fg.items.map(e => ({ e, faction: fg.faction }))), []);
         const opts = items.map(({e, faction}) => {
-          const label = (faction ? faction + ' — ' : '') + (e.name || 'Unnamed unit') + (withPoints && e.points ? ' (' + e.points + ' pts)' : '');
+          const label = (faction ? faction + ' — ' : '') + (e.name || 'Unnamed unit');
           return `<option value="${e.id}">${escapeHtml(label)}</option>`;
         }).join('');
         return `<optgroup label="${escapeAttr(g.meta.label)}">${opts}</optgroup>`;
       }).join('');
     }
-    const base = '<option value="">Load from Grimoire...</option>' + optionsHtml(false);
+    // The roster's own picker is scoped to whichever of Grand Alliance / Faction
+    // is currently set on the roster (faction wins if both are set, since it's
+    // the more specific choice) — otherwise a growing library buries the units
+    // you actually want while building one army.
+    function optionsHtmlByFaction(items){
+      return groupByFaction(items).map(fg => {
+        const opts = fg.items.map(e => {
+          const label = (e.name || 'Unnamed unit') + (e.points ? ' (' + e.points + ' pts)' : '');
+          return `<option value="${e.id}">${escapeHtml(label)}</option>`;
+        }).join('');
+        return `<optgroup label="${escapeAttr(fg.faction)}">${opts}</optgroup>`;
+      }).join('');
+    }
+    let rosterScoped = grimoire;
+    if (state.faction) {
+      rosterScoped = rosterScoped.filter(e => (e.faction || '').trim().toLowerCase() === state.faction.trim().toLowerCase());
+    } else if (state.alliance) {
+      rosterScoped = rosterScoped.filter(e => effectiveAlliance(e) === state.alliance);
+    }
+    const base = '<option value="">Load from Grimoire...</option>' + optionsHtml();
     ['a_grimPick','b_grimPick'].forEach(id => { document.getElementById(id).innerHTML = base; });
-    document.getElementById('rosterGrimoirePick').innerHTML = '<option value="">Add from Grimoire...</option>' + optionsHtml(true);
+    const rosterPlaceholder = (state.faction || state.alliance) && !rosterScoped.length
+      ? 'No matching units in the Grimoire yet'
+      : 'Add from Grimoire...';
+    document.getElementById('rosterGrimoirePick').innerHTML = `<option value="">${rosterPlaceholder}</option>` + optionsHtmlByFaction(rosterScoped);
+
+    populateRosterFactionOptions();
+  }
+
+  // Faction dropdown on the Order of Battle tab — options are whichever
+  // factions in the Grimoire belong to the currently-picked Grand Alliance
+  // (or every faction, if no alliance is picked yet).
+  function populateRosterFactionOptions(){
+    const sel = document.getElementById('rosterFaction');
+    if (!sel) return;
+    const factions = new Set();
+    grimoire.forEach(e => {
+      const fac = (e.faction || '').trim();
+      if (fac && (!state.alliance || effectiveAlliance(e) === state.alliance)) factions.add(fac);
+    });
+    const sorted = Array.from(factions).sort((a, b) => a.localeCompare(b));
+    sel.innerHTML = '<option value="">— any faction —</option>' + sorted.map(f => `<option value="${escapeAttr(f)}">${escapeHtml(f)}</option>`).join('');
+    if (sorted.includes(state.faction)) {
+      sel.value = state.faction;
+    } else if (state.faction) {
+      state.faction = '';
+      sel.value = '';
+    }
   }
 
   function applyGrimToClash(entry, prefix){
@@ -1850,7 +1931,7 @@
     } else if (act === 'toB') {
       applyGrimToClash(entry, 'b');
     } else if (act === 'toRoster') {
-      state.units.push({ id:newId(), name:entry.name, qty:entry.models || 1, points:entry.points || 0, wounds:entry.wounds || 0, alliance:effectiveAlliance(entry) });
+      state.units.push(grimEntryToRosterUnit(entry));
       render();
       save();
     }
@@ -1867,7 +1948,7 @@
   document.getElementById('rosterGrimoirePick').addEventListener('change', (e) => {
     const entry = grimoire.find(g => g.id === e.target.value);
     if (!entry) return;
-    state.units.push({ id:newId(), name:entry.name, qty:entry.models || 1, points:entry.points || 0, wounds:entry.wounds || 0, alliance:effectiveAlliance(entry) });
+    state.units.push(grimEntryToRosterUnit(entry));
     render();
     save();
     e.target.value = '';
