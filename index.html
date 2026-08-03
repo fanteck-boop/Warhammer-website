@@ -2514,7 +2514,7 @@
   }
 
   // Role categories in display order
-  const ROLE_ORDER = [
+  const ROLE_ORDER_AOS = [
     { cats: ['HERO'], label: 'Heroes' },
     { cats: ['MONSTER'], label: 'Monsters' },
     { cats: ['WAR MACHINE'], label: 'War Machines' },
@@ -2522,17 +2522,32 @@
     { cats: ['BEAST'], label: 'Beasts' },
     { cats: ['INFANTRY'], label: 'Infantry' },
   ];
+  const ROLE_ORDER_40K = [
+    { cats: ['Epic Hero'], label: 'Epic Heroes' },
+    { cats: ['Character'], label: 'Characters' },
+    { cats: ['Dedicated Transport'], label: 'Dedicated Transports' },
+    { cats: ['Vehicle'], label: 'Vehicles' },
+    { cats: ['Monster'], label: 'Monsters' },
+    { cats: ['Mounted'], label: 'Mounted' },
+    { cats: ['Beast'], label: 'Beasts' },
+    { cats: ['Swarm'], label: 'Swarms' },
+    { cats: ['Fortification'], label: 'Fortifications' },
+    { cats: ['Battleline'], label: 'Battleline' },
+    { cats: ['Infantry'], label: 'Infantry' },
+  ];
+  function getRoleOrder(){ return activeSystem === '40k' ? ROLE_ORDER_40K : ROLE_ORDER_AOS; }
   const ROLE_OTHER = 'Other';
 
   function unitRole(e){
-    // Check the role field first (set by converter)
-    if (e.role && e.role !== 'Other') {
-      const match = ROLE_ORDER.find(r => r.cats.includes(e.role));
-      if (match) return match.label;
-    }
+    const roleOrder = getRoleOrder();
     const cats = Array.isArray(e.categories) ? e.categories : [];
-    for (const r of ROLE_ORDER){
+    for (const r of roleOrder){
       if (r.cats.some(c => cats.includes(c))) return r.label;
+    }
+    // Fallback: check role field (AoS converter sets this)
+    if (e.role && e.role !== 'Other') {
+      const match = roleOrder.find(r => r.cats.includes(e.role));
+      if (match) return match.label;
     }
     return ROLE_OTHER;
   }
@@ -2543,7 +2558,7 @@
       const r = unitRole(e);
       (map[r] = map[r] || []).push(e);
     });
-    const allLabels = ROLE_ORDER.map(r => r.label).concat([ROLE_OTHER]);
+    const allLabels = getRoleOrder().map(r => r.label).concat([ROLE_OTHER]);
     return allLabels.filter(r => map[r]).map(r => ({
       role: r,
       items: map[r].slice().sort((a,b) => (a.name||'').localeCompare(b.name||''))
