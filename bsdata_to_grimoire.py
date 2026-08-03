@@ -392,8 +392,10 @@ def find_library_cat(bsdata_dir, faction_name):
     return None
 
 
-def convert_faction(bsdata_dir, faction_name, cat_map):
+def convert_faction(bsdata_dir, faction_name, cat_map, output_name=None):
     """Convert a single faction's .cat files to Grimoire JSON."""
+    # Use output_name for faction field in units, fallback to cat name
+    faction_label = output_name or faction_name
     main_cat = os.path.join(bsdata_dir, f'{faction_name}.cat')
     if not os.path.exists(main_cat):
         print(f'  ERROR: {main_cat} not found')
@@ -460,7 +462,7 @@ def convert_faction(bsdata_dir, faction_name, cat_map):
         
         unit = {
             'name': name,
-            'faction': faction_name,
+            'faction': faction_label,
             'points': points,
             'models': models,
             'move': move,
@@ -478,7 +480,7 @@ def convert_faction(bsdata_dir, faction_name, cat_map):
         units.append(unit)
     
     # Extract faction rules
-    rules = extract_faction_rules(root, faction_name)
+    rules = extract_faction_rules(root, faction_label)
     
     return units, rules
 
@@ -552,7 +554,7 @@ def main():
                 cat_name = orig
                 break
         print(f'\nConverting: {cat_name}' + (f' (output: {faction})' if cat_name != faction else ''))
-        units, rules = convert_faction(bsdata_dir, cat_name, cat_map)
+        units, rules = convert_faction(bsdata_dir, cat_name, cat_map, output_name=faction if cat_name != faction else None)
         if units is None:
             continue
         
