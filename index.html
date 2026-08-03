@@ -849,17 +849,47 @@
     .roster-section-head td{font-size:11px;}
     .points-breakdown{flex-wrap:wrap; gap:8px;}
   }
-  /* Chaos gods background canvas */
-  #chaos-bg{
+  /* Faction background */
+  #faction-bg{
     position:fixed; inset:0; z-index:0; pointer-events:none;
-    opacity:0.35;
+    background: radial-gradient(ellipse at top, #3a2c1c 0%, #241a12 55%, #150f0a 100%);
+    transition: background 1.5s ease;
   }
-  body > *:not(#chaos-bg){ position:relative; z-index:1; }
+  #faction-watermark{
+    position:fixed; left:50%; top:50%; transform:translate(-50%,-50%);
+    z-index:0; pointer-events:none;
+    font-family:'Cinzel', serif; font-weight:700;
+    font-size:clamp(80px, 18vw, 280px);
+    color:rgba(255,255,255,0.03);
+    white-space:nowrap; user-select:none;
+    transition: color 1.5s ease, opacity 1.5s ease;
+    text-align:center; line-height:1;
+  }
+  #faction-sigil{
+    position:fixed; right:3vw; top:50%; transform:translateY(-50%);
+    z-index:0; pointer-events:none;
+    font-size:clamp(100px, 22vh, 320px);
+    opacity:0.04;
+    transition: opacity 1.5s ease, color 1.5s ease;
+    line-height:1;
+  }
+  #faction-sigil-left{
+    position:fixed; left:3vw; top:50%; transform:translateY(-50%) scaleX(-1);
+    z-index:0; pointer-events:none;
+    font-size:clamp(100px, 22vh, 320px);
+    opacity:0.04;
+    transition: opacity 1.5s ease, color 1.5s ease;
+    line-height:1;
+  }
+  body > *:not(#faction-bg):not(#faction-watermark):not(#faction-sigil):not(#faction-sigil-left){ position:relative; z-index:1; }
 </style>
 </head>
 <body>
 
-<canvas id="chaos-bg"></canvas>
+<div id="faction-bg"></div>
+<div id="faction-watermark"></div>
+<div id="faction-sigil"></div>
+<div id="faction-sigil-left"></div>
 
 <header class="app-header">
   <div class="app-header-inner">
@@ -1277,6 +1307,67 @@
     const meta = ALLIANCE_META[state.alliance];
     const ledgerEl = document.querySelector('[data-panel="roster"] .ledger');
     if (ledgerEl) ledgerEl.style.setProperty('--roster-acc', meta ? meta.color : 'var(--gold)');
+    applyFactionBackground();
+  }
+
+  // Faction background: colors + sigil + watermark
+  const FACTION_BG = {
+    'cities of sigmar':      { c1:'#2a4a7a', c2:'#1a2a4a', accent:'#d4a838', sigil:'⚔' },
+    'daughters of khaine':   { c1:'#8b1538', c2:'#4a0a1a', accent:'#cc3050', sigil:'♀' },
+    'disciples of tzeentch': { c1:'#1a5fa8', c2:'#0a2a50', accent:'#4ab0ff', sigil:'✦' },
+    'flesh eater courts':   { c1:'#6b3a5a', c2:'#3a1a2a', accent:'#c4a878', sigil:'♛' },
+    'flesh-eater courts':   { c1:'#6b3a5a', c2:'#3a1a2a', accent:'#c4a878', sigil:'♛' },
+    'gloomspite gitz':      { c1:'#4a2a5a', c2:'#2a1a2a', accent:'#8a3aff', sigil:'☾' },
+    'hedonites of slaanesh': { c1:'#9a3a7a', c2:'#5a2a4a', accent:'#e070a0', sigil:'⚯' },
+    'nighthaunt':           { c1:'#3a5a7a', c2:'#1a2a3a', accent:'#8ac0ff', sigil:'♰' },
+    'seraphon':             { c1:'#2a7ab5', c2:'#1a3a5a', accent:'#e4c038', sigil:'★' },
+    'skaven':               { c1:'#4a4a2a', c2:'#2a2a1a', accent:'#8ae050', sigil:'⚙' },
+    'slaves to darkness':   { c1:'#4a1a1a', c2:'#2a0a0a', accent:'#8a4a4a', sigil:'†' },
+    'soulblight gravelords':{ c1:'#4a2a4a', c2:'#2a1a2a', accent:'#8a7a6a', sigil:'⚰' },
+    'sylvaneth':            { c1:'#3a6a2a', c2:'#1a3a1a', accent:'#b5952a', sigil:'❧' }
+  };
+  function applyFactionBackground(){
+    const bg = $('faction-bg');
+    const wm = $('faction-watermark');
+    const sigilR = $('faction-sigil');
+    const sigilL = $('faction-sigil-left');
+    if (!bg || !wm || !sigilR || !sigilL) return;
+
+    const key = normalizeFaction(state.faction || '');
+    const fb = key ? FACTION_BG[key] : null;
+
+    if (fb) {
+      // Faction selected: use faction colors
+      bg.style.background = `radial-gradient(ellipse at top, ${fb.c1}40 0%, ${fb.c2} 55%, #150f0a 100%)`;
+      wm.textContent = state.faction.toUpperCase();
+      wm.style.color = fb.accent + '0a'; // very faint, hex alpha 0a = ~4%
+      sigilR.textContent = fb.sigil;
+      sigilR.style.color = fb.accent;
+      sigilR.style.opacity = '0.06';
+      sigilL.textContent = fb.sigil;
+      sigilL.style.color = fb.accent;
+      sigilL.style.opacity = '0.06';
+    } else if (state.alliance && ALLIANCE_META[state.alliance]) {
+      // Alliance selected but no faction: use alliance color
+      const color = getComputedStyle(document.documentElement).getPropertyValue('--' + state.alliance).trim() || '#8a7a5a';
+      bg.style.background = `radial-gradient(ellipse at top, ${color}25 0%, #241a12 55%, #150f0a 100%)`;
+      wm.textContent = ALLIANCE_META[state.alliance].label.toUpperCase();
+      wm.style.color = color + '0a';
+      sigilR.textContent = '✦';
+      sigilR.style.color = color;
+      sigilR.style.opacity = '0.03';
+      sigilL.textContent = '✦';
+      sigilL.style.color = color;
+      sigilL.style.opacity = '0.03';
+    } else {
+      // Default: dark brown radial
+      bg.style.background = '';
+      wm.textContent = '';
+      sigilR.textContent = '';
+      sigilR.style.opacity = '0';
+      sigilL.textContent = '';
+      sigilL.style.opacity = '0';
+    }
   }
 
   function effectiveQty(u){
@@ -1291,6 +1382,7 @@
     $('rosterFaction').value = state.faction || '';
     updateBrand();
     applyRosterAllianceAccent();
+    applyFactionBackground();
     pruneArmyOptions();
 
     rosterBody.innerHTML = '';
@@ -1714,6 +1806,7 @@
 
   $('rosterFaction').addEventListener('change', (e) => {
     state.faction = e.target.value;
+    applyFactionBackground();
     populateGrimPickers();
     render();
     save();
@@ -2645,141 +2738,6 @@
   loadClash();
   loadGrimoire();
   storageGet('muster-roll-active-tab').then(t => { if (t) setActiveTab(t); });
-})();
-
-// ===== Chaos Gods Background Animation =====
-(function(){
-  const canvas = document.getElementById('chaos-bg');
-  if (!canvas) return;
-  const ctx = canvas.getContext('2d');
-  let W, H, particles = [], t = 0;
-
-  // Four chaos gods color palettes [r, g, b]
-  const GODS = [
-    { name:'Khorne',   colors:[[80,8,8],[140,20,10],[200,40,20],[255,80,30]], glow:'rgba(200,40,20,' },
-    { name:'Tzeentch', colors:[[10,20,60],[20,50,120],[40,100,200],[80,180,255]], glow:'rgba(40,120,220,' },
-    { name:'Nurgle',   colors:[[10,30,8],[30,60,15],[60,110,25],[100,160,40]], glow:'rgba(60,120,30,' },
-    { name:'Slaanesh', colors:[[40,10,40],[80,20,80],[140,40,120],[200,80,180]], glow:'rgba(160,50,140,' },
-  ];
-
-  function resize(){
-    W = canvas.width = window.innerWidth;
-    H = canvas.height = window.innerHeight;
-  }
-  resize();
-  window.addEventListener('resize', resize);
-
-  // Lerp between two colors
-  function lerpColor(a, b, t){
-    return [
-      Math.round(a[0] + (b[0]-a[0])*t),
-      Math.round(a[1] + (b[1]-a[1])*t),
-      Math.round(a[2] + (b[2]-a[2])*t)
-    ];
-  }
-
-  // Get interpolated color at position 0-1 through the four gods cycle
-  function getGodColor(pos){
-    const cycle = pos * GODS.length * 4; // 4 sub-steps per god
-    const idx = Math.floor(cycle / 4) % GODS.length;
-    const nextIdx = (idx + 1) % GODS.length;
-    const god = GODS[idx];
-    const nextGod = GODS[nextIdx];
-    const lerpT = (cycle % 4) / 4;
-    const colorIdx = Math.floor((cycle % 4));
-    const c1 = god.colors[colorIdx];
-    const c2 = nextGod.colors[colorIdx];
-    return lerpColor(c1, c2, lerpT);
-  }
-
-  // Initialize particles
-  function initParticles(){
-    particles = [];
-    const count = Math.min(60, Math.floor(W * H / 25000));
-    for (let i = 0; i < count; i++){
-      particles.push({
-        x: Math.random() * W,
-        y: Math.random() * H,
-        vx: (Math.random() - 0.5) * 0.3,
-        vy: (Math.random() - 0.5) * 0.3 - 0.1,
-        size: Math.random() * 80 + 40,
-        phase: Math.random() * Math.PI * 2,
-        speed: Math.random() * 0.5 + 0.3,
-        colorPos: Math.random(),
-        alpha: Math.random() * 0.15 + 0.05,
-      });
-    }
-  }
-  initParticles();
-  window.addEventListener('resize', initParticles);
-
-  function animate(){
-    t += 0.002;
-
-    // Dark base background
-    ctx.fillStyle = 'rgb(12, 8, 5)';
-    ctx.fillRect(0, 0, W, H);
-
-    // Global color cycle position
-    const globalPos = (t % 1);
-
-    // Draw flowing radial gradients (chaos rifts)
-    particles.forEach(p => {
-      p.x += p.vx;
-      p.y += p.vy;
-      p.phase += 0.003 * p.speed;
-
-      // Wrap around screen
-      if (p.x < -p.size) p.x = W + p.size;
-      if (p.x > W + p.size) p.x = -p.size;
-      if (p.y < -p.size) p.y = H + p.size;
-      if (p.y > H + p.size) p.y = -p.size;
-
-      // Color shifts based on position in cycle + particle's own offset
-      const colorPos = (globalPos + p.colorPos) % 1;
-      const [r, g, b] = getGodColor(colorPos);
-
-      // Pulsing size
-      const pulseSize = p.size * (0.8 + Math.sin(p.phase) * 0.2);
-
-      // Radial gradient
-      const grad = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, pulseSize);
-      grad.addColorStop(0, `rgba(${r},${g},${b},${p.alpha})`);
-      grad.addColorStop(0.5, `rgba(${r},${g},${b},${p.alpha * 0.3})`);
-      grad.addColorStop(1, `rgba(${r},${g},${b},0)`);
-      ctx.fillStyle = grad;
-      ctx.beginPath();
-      ctx.arc(p.x, p.y, pulseSize, 0, Math.PI * 2);
-      ctx.fill();
-    });
-
-    // Draw swirling vortex lines
-    const vortexCount = 3;
-    for (let v = 0; v < vortexCount; v++){
-      const vAngle = t * (0.3 + v * 0.1) + v * (Math.PI * 2 / vortexCount);
-      const vX = W/2 + Math.cos(vAngle) * W * 0.3;
-      const vY = H/2 + Math.sin(vAngle * 1.3) * H * 0.25;
-      const [r, g, b] = getGodColor((globalPos + v * 0.25) % 1);
-      const vGrad = ctx.createRadialGradient(vX, vY, 0, vX, vY, 200);
-      vGrad.addColorStop(0, `rgba(${r},${g},${b},0.08)`);
-      vGrad.addColorStop(1, `rgba(${r},${g},${b},0)`);
-      ctx.fillStyle = vGrad;
-      ctx.beginPath();
-      ctx.arc(vX, vY, 200, 0, Math.PI * 2);
-      ctx.fill();
-    }
-
-    requestAnimationFrame(animate);
-  }
-
-  // Respect reduced motion
-  if (!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
-    animate();
-  } else {
-    // Static gradient for reduced motion
-    ctx.fillStyle = 'rgb(20, 15, 10)';
-    ctx.fillRect(0, 0, W, H);
-  }
 })();
 </script>
 </body>
