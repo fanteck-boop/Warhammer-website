@@ -865,7 +865,7 @@
     z-index:0; pointer-events:none;
     height:50vh; width:auto;
     opacity:0; transition:opacity 1.5s ease;
-    mix-blend-mode:multiply;
+    mix-blend-mode:normal;
     object-fit:contain;
   }
   #faction-icon-left{ left:2vw; }
@@ -1301,30 +1301,30 @@
 
   // Faction background: colors + faction art + watermark
   const FACTION_BG = {
-    'cities of sigmar':      { c1:'#2a4a7a', c2:'#1a2a4a', accent:'#d4a838', img:'Cities-of-sigmar.jpg', icon:'Cities-of-sigmar.jpg' },
-    'daughters of khaine':   { c1:'#8b1538', c2:'#4a0a1a', accent:'#cc3050', img:'Daughter-of-khaine.jpg', icon:'Daughters-of-khaine.jpg' },
-    'disciples of tzeentch': { c1:'#1a5fa8', c2:'#0a2a50', accent:'#4ab0ff', img:'Tzeentch.jpg', icon:'Tzeentch.jpg' },
-    'flesh eater courts':   { c1:'#6b3a5a', c2:'#3a1a2a', accent:'#c4a878', img:'Flesh-eater-courts.jpg', icon:'Flesh-eater-courts.jpg' },
-    'flesh-eater courts':   { c1:'#6b3a5a', c2:'#3a1a2a', accent:'#c4a878', img:'Flesh-eater-courts.jpg', icon:'Flesh-eater-courts.jpg' },
-    'gloomspite gitz':      { c1:'#4a2a5a', c2:'#2a1a2a', accent:'#8a3aff', img:'Gloomspite-gitz.jpg', icon:'Gloomspite-gitz.jpg' },
-    'hedonites of slaanesh': { c1:'#9a3a7a', c2:'#5a2a4a', accent:'#e070a0', img:'Slaanesh.jpg', icon:'Slaanesh.jpg' },
-    'nighthaunt':           { c1:'#3a5a7a', c2:'#1a2a3a', accent:'#8ac0ff', img:'Nighthaunt.jpg', icon:'Nighthaunt.jpg' },
-    'seraphon':             { c1:'#2a7ab5', c2:'#1a3a5a', accent:'#e4c038', img:'Seraphon.jpg', icon:'Seraphons.jpg' },
-    'skaven':               { c1:'#4a4a2a', c2:'#2a2a1a', accent:'#8ae050', img:'Skaven.jpg', icon:'Skaven.jpg' },
-    'slaves to darkness':   { c1:'#4a1a1a', c2:'#2a0a0a', accent:'#8a4a4a', img:'Slave-to-chaos.jpg', icon:'Slaves-to-darkness.jpg' },
-    'soulblight gravelords':{ c1:'#4a2a4a', c2:'#2a1a2a', accent:'#8a7a6a', img:'Soulblight.jpg', icon:'Soulblight-gravelords.jpg' },
-    'sylvaneth':            { c1:'#3a6a2a', c2:'#1a3a1a', accent:'#b5952a', img:'Sylvaneth.jpg', icon:'Sylvaneth.jpg' },
-    'stormcast eternals':   { c1:'#2a4a7a', c2:'#1a2a4a', accent:'#d4a838', img:'Stormcast.jpg', icon:'Stormcast.jpg' },
-    'fyreslayers':          { c1:'#6a2a1a', c2:'#3a1a0a', accent:'#e45a2a', img:'Fyrslayers.jpg', icon:'Fyr-fire-slayers.jpg' },
-    'idoneth deepkin':      { c1:'#1a3a5a', c2:'#0a1a2a', accent:'#3a8acc', img:'Idoneth-deepkin.jpg', icon:'Idoneth-deepkin.jpg' },
-    'kharadron overlords':  { c1:'#3a3a2a', c2:'#1a1a0a', accent:'#d4a838', img:'Khadron-overlords.jpg', icon:'Khadron-overlords.jpg' },
-    'lumineth realm lords': { c1:'#5a4a8a', c2:'#2a2a4a', accent:'#c4b4ff', img:'Lumineth.jpg', icon:'Lumineth.jpg' },
-    'blades of khorne':     { c1:'#6a1a1a', c2:'#3a0a0a', accent:'#e43a2a', img:'Khorne.jpg', icon:'Khorne.jpg' },
-    'maggotkin of nurgle':  { c1:'#3a4a1a', c2:'#1a2a0a', accent:'#7a8a3a', img:'Maggotkin.jpg', icon:'Nurgle.jpg' },
-    'ossiarch bonereapers': { c1:'#5a4a2a', c2:'#2a1a0a', accent:'#c4b478', img:'Ossiarch-bonereapers.jpg', icon:'Osshiarch-bonereapers.jpg' },
-    'ogor mawtribes':       { c1:'#4a3a1a', c2:'#2a1a0a', accent:'#b48a3a', img:'Ogres.jpg', icon:'Ogre-mawtribes.jpg' },
-    'orruk warclans':       { c1:'#2a3a1a', c2:'#1a1a0a', accent:'#8a8a3a', img:'Orruk-warclans.jpg', icon:'Orruk-warclans.jpg' },
-    'sons of behemat':      { c1:'#3a2a2a', c2:'#1a0a0a', accent:'#8a6a4a', img:'Sons-of-behamat.jpg', icon:'Sons-of-behamat.jpg' }
+    'cities of sigmar':      { c1:'#2a4a7a', c2:'#1a2a4a', accent:'#d4a838', img:'Cities-of-sigmar.jpg', icon:'Cities-of-sigmar.png' },
+    'daughters of khaine':   { c1:'#8b1538', c2:'#4a0a1a', accent:'#cc3050', img:'Daughter-of-khaine.jpg', icon:'Daughters-of-khaine.png' },
+    'disciples of tzeentch': { c1:'#1a5fa8', c2:'#0a2a50', accent:'#4ab0ff', img:'Tzeentch.jpg', icon:'Tzeentch.png' },
+    'flesh eater courts':   { c1:'#6b3a5a', c2:'#3a1a2a', accent:'#c4a878', img:'Flesh-eater-courts.jpg', icon:'Flesh-eater-courts.png' },
+    'flesh-eater courts':   { c1:'#6b3a5a', c2:'#3a1a2a', accent:'#c4a878', img:'Flesh-eater-courts.jpg', icon:'Flesh-eater-courts.png' },
+    'gloomspite gitz':      { c1:'#4a2a5a', c2:'#2a1a2a', accent:'#8a3aff', img:'Gloomspite-gitz.jpg', icon:'Gloomspite-gitz.png' },
+    'hedonites of slaanesh': { c1:'#9a3a7a', c2:'#5a2a4a', accent:'#e070a0', img:'Slaanesh.jpg', icon:'Slaanesh.png' },
+    'nighthaunt':           { c1:'#3a5a7a', c2:'#1a2a3a', accent:'#8ac0ff', img:'Nighthaunt.jpg', icon:'Nighthaunt.png' },
+    'seraphon':             { c1:'#2a7ab5', c2:'#1a3a5a', accent:'#e4c038', img:'Seraphon.jpg', icon:'Seraphons.png' },
+    'skaven':               { c1:'#4a4a2a', c2:'#2a2a1a', accent:'#8ae050', img:'Skaven.jpg', icon:'Skaven.png' },
+    'slaves to darkness':   { c1:'#4a1a1a', c2:'#2a0a0a', accent:'#8a4a4a', img:'Slave-to-chaos.jpg', icon:'Slaves-to-darkness.png' },
+    'soulblight gravelords':{ c1:'#4a2a4a', c2:'#2a1a2a', accent:'#8a7a6a', img:'Soulblight.jpg', icon:'Soulblight-gravelords.png' },
+    'sylvaneth':            { c1:'#3a6a2a', c2:'#1a3a1a', accent:'#b5952a', img:'Sylvaneth.jpg', icon:'Sylvaneth.png' },
+    'stormcast eternals':   { c1:'#2a4a7a', c2:'#1a2a4a', accent:'#d4a838', img:'Stormcast.jpg', icon:'Stormcast.png' },
+    'fyreslayers':          { c1:'#6a2a1a', c2:'#3a1a0a', accent:'#e45a2a', img:'Fyrslayers.jpg', icon:'Fyr-fire-slayers.png' },
+    'idoneth deepkin':      { c1:'#1a3a5a', c2:'#0a1a2a', accent:'#3a8acc', img:'Idoneth-deepkin.jpg', icon:'Idoneth-deepkin.png' },
+    'kharadron overlords':  { c1:'#3a3a2a', c2:'#1a1a0a', accent:'#d4a838', img:'Khadron-overlords.jpg', icon:'Khadron-overlords.png' },
+    'lumineth realm lords': { c1:'#5a4a8a', c2:'#2a2a4a', accent:'#c4b4ff', img:'Lumineth.jpg', icon:'Lumineth.png' },
+    'blades of khorne':     { c1:'#6a1a1a', c2:'#3a0a0a', accent:'#e43a2a', img:'Khorne.jpg', icon:'Khorne.png' },
+    'maggotkin of nurgle':  { c1:'#3a4a1a', c2:'#1a2a0a', accent:'#7a8a3a', img:'Maggotkin.jpg', icon:'Nurgle.png' },
+    'ossiarch bonereapers': { c1:'#5a4a2a', c2:'#2a1a0a', accent:'#c4b478', img:'Ossiarch-bonereapers.jpg', icon:'Osshiarch-bonereapers.png' },
+    'ogor mawtribes':       { c1:'#4a3a1a', c2:'#2a1a0a', accent:'#b48a3a', img:'Ogres.jpg', icon:'Ogre-mawtribes.png' },
+    'orruk warclans':       { c1:'#2a3a1a', c2:'#1a1a0a', accent:'#8a8a3a', img:'Orruk-warclans.jpg', icon:'Orruk-warclans.png' },
+    'sons of behemat':      { c1:'#3a2a2a', c2:'#1a0a0a', accent:'#8a6a4a', img:'Sons-of-behamat.jpg', icon:'Sons-of-behamat.png' }
   };
   function applyFactionBackground(){
     const bg = $('faction-bg');
@@ -1344,8 +1344,8 @@
       const iconUrl = `assets/icons/${fb.icon}`;
       iconL.src = iconUrl;
       iconR.src = iconUrl;
-      iconL.style.opacity = '1';
-      iconR.style.opacity = '1';
+      iconL.style.opacity = '0.75';
+      iconR.style.opacity = '0.75';
     } else if (state.alliance && ALLIANCE_META[state.alliance]) {
       // Alliance selected but no faction: use alliance color + alliance icon
       const color = getComputedStyle(document.documentElement).getPropertyValue('--' + state.alliance).trim() || '#8a7a5a';
@@ -1355,8 +1355,8 @@
       // Try jpg fallback if png doesn't exist
       iconL.src = allianceIcon;
       iconR.src = allianceIcon;
-      iconL.style.opacity = '1';
-      iconR.style.opacity = '1';
+      iconL.style.opacity = '0.75';
+      iconR.style.opacity = '0.75';
     } else {
       // Default: dark brown radial, no icons
       bg.style.background = '';
