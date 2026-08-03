@@ -859,37 +859,32 @@
     position:fixed; left:50%; top:50%; transform:translate(-50%,-50%);
     z-index:0; pointer-events:none;
     font-family:'Cinzel', serif; font-weight:700;
-    font-size:clamp(80px, 18vw, 280px);
-    color:rgba(255,255,255,0.03);
+    font-size:clamp(100px, 20vw, 360px);
+    color:rgba(255,255,255,0.04);
     white-space:nowrap; user-select:none;
     transition: color 1.5s ease, opacity 1.5s ease;
     text-align:center; line-height:1;
+    letter-spacing:0.05em;
   }
-  #faction-sigil{
-    position:fixed; right:3vw; top:50%; transform:translateY(-50%);
+
+  #faction-sigil-left, #faction-sigil-right{
+    position:fixed; top:50%; transform:translateY(-50%);
     z-index:0; pointer-events:none;
-    font-size:clamp(100px, 22vh, 320px);
-    opacity:0.04;
-    transition: opacity 1.5s ease, color 1.5s ease;
-    line-height:1;
+    height:90vh; width:auto;
+    opacity:0; transition:opacity 1.5s ease;
+    object-fit:cover; object-position:center;
   }
-  #faction-sigil-left{
-    position:fixed; left:3vw; top:50%; transform:translateY(-50%) scaleX(-1);
-    z-index:0; pointer-events:none;
-    font-size:clamp(100px, 22vh, 320px);
-    opacity:0.04;
-    transition: opacity 1.5s ease, color 1.5s ease;
-    line-height:1;
-  }
-  body > *:not(#faction-bg):not(#faction-watermark):not(#faction-sigil):not(#faction-sigil-left){ position:relative; z-index:1; }
+  #faction-sigil-left{ left:-10vw; transform:translateY(-50%) scaleX(-1); }
+  #faction-sigil-right{ right:-10vw; }
+  body > *:not(#faction-bg):not(#faction-watermark):not(#faction-sigil-left):not(#faction-sigil-right){ position:relative; z-index:1; }
 </style>
 </head>
 <body>
 
 <div id="faction-bg"></div>
 <div id="faction-watermark"></div>
-<div id="faction-sigil"></div>
-<div id="faction-sigil-left"></div>
+<img id="faction-sigil-left" alt="" />
+<img id="faction-sigil-right" alt="" />
 
 <header class="app-header">
   <div class="app-header-inner">
@@ -1310,63 +1305,67 @@
     applyFactionBackground();
   }
 
-  // Faction background: colors + sigil + watermark
+  // Faction background: colors + faction art + watermark
   const FACTION_BG = {
-    'cities of sigmar':      { c1:'#2a4a7a', c2:'#1a2a4a', accent:'#d4a838', sigil:'⚔' },
-    'daughters of khaine':   { c1:'#8b1538', c2:'#4a0a1a', accent:'#cc3050', sigil:'♀' },
-    'disciples of tzeentch': { c1:'#1a5fa8', c2:'#0a2a50', accent:'#4ab0ff', sigil:'✦' },
-    'flesh eater courts':   { c1:'#6b3a5a', c2:'#3a1a2a', accent:'#c4a878', sigil:'♛' },
-    'flesh-eater courts':   { c1:'#6b3a5a', c2:'#3a1a2a', accent:'#c4a878', sigil:'♛' },
-    'gloomspite gitz':      { c1:'#4a2a5a', c2:'#2a1a2a', accent:'#8a3aff', sigil:'☾' },
-    'hedonites of slaanesh': { c1:'#9a3a7a', c2:'#5a2a4a', accent:'#e070a0', sigil:'⚯' },
-    'nighthaunt':           { c1:'#3a5a7a', c2:'#1a2a3a', accent:'#8ac0ff', sigil:'♰' },
-    'seraphon':             { c1:'#2a7ab5', c2:'#1a3a5a', accent:'#e4c038', sigil:'★' },
-    'skaven':               { c1:'#4a4a2a', c2:'#2a2a1a', accent:'#8ae050', sigil:'⚙' },
-    'slaves to darkness':   { c1:'#4a1a1a', c2:'#2a0a0a', accent:'#8a4a4a', sigil:'†' },
-    'soulblight gravelords':{ c1:'#4a2a4a', c2:'#2a1a2a', accent:'#8a7a6a', sigil:'⚰' },
-    'sylvaneth':            { c1:'#3a6a2a', c2:'#1a3a1a', accent:'#b5952a', sigil:'❧' }
+    'cities of sigmar':      { c1:'#2a4a7a', c2:'#1a2a4a', accent:'#d4a838', img:'Cities-of-sigmar.jpg' },
+    'daughters of khaine':   { c1:'#8b1538', c2:'#4a0a1a', accent:'#cc3050', img:'Daughter-of-khaine.jpg' },
+    'disciples of tzeentch': { c1:'#1a5fa8', c2:'#0a2a50', accent:'#4ab0ff', img:'Tzeentch.jpg' },
+    'flesh eater courts':   { c1:'#6b3a5a', c2:'#3a1a2a', accent:'#c4a878', img:'Flesh-eater-courts.jpg' },
+    'flesh-eater courts':   { c1:'#6b3a5a', c2:'#3a1a2a', accent:'#c4a878', img:'Flesh-eater-courts.jpg' },
+    'gloomspite gitz':      { c1:'#4a2a5a', c2:'#2a1a2a', accent:'#8a3aff', img:'Gloomspite-gitz.jpg' },
+    'hedonites of slaanesh': { c1:'#9a3a7a', c2:'#5a2a4a', accent:'#e070a0', img:'Slaanesh.jpg' },
+    'nighthaunt':           { c1:'#3a5a7a', c2:'#1a2a3a', accent:'#8ac0ff', img:'Nighthaunt.jpg' },
+    'seraphon':             { c1:'#2a7ab5', c2:'#1a3a5a', accent:'#e4c038', img:'Seraphon.jpg' },
+    'skaven':               { c1:'#4a4a2a', c2:'#2a2a1a', accent:'#8ae050', img:'Skaven.jpg' },
+    'slaves to darkness':   { c1:'#4a1a1a', c2:'#2a0a0a', accent:'#8a4a4a', img:'Slave-to-chaos.jpg' },
+    'soulblight gravelords':{ c1:'#4a2a4a', c2:'#2a1a2a', accent:'#8a7a6a', img:'Soulblight.jpg' },
+    'sylvaneth':            { c1:'#3a6a2a', c2:'#1a3a1a', accent:'#b5952a', img:'Sylvaneth.jpg' },
+    'stormcast eternals':   { c1:'#2a4a7a', c2:'#1a2a4a', accent:'#d4a838', img:'Stormcast.jpg' },
+    'fyreslayers':          { c1:'#6a2a1a', c2:'#3a1a0a', accent:'#e45a2a', img:'Fyrslayers.jpg' },
+    'idoneth deepkin':      { c1:'#1a3a5a', c2:'#0a1a2a', accent:'#3a8acc', img:'Idoneth-deepkin.jpg' },
+    'kharadron overlords':  { c1:'#3a3a2a', c2:'#1a1a0a', accent:'#d4a838', img:'Khadron-overlords.jpg' },
+    'lumineth realm lords': { c1:'#5a4a8a', c2:'#2a2a4a', accent:'#c4b4ff', img:'Lumineth.jpg' },
+    'blades of khorne':     { c1:'#6a1a1a', c2:'#3a0a0a', accent:'#e43a2a', img:'Khorne.jpg' },
+    'maggotkin of nurgle':  { c1:'#3a4a1a', c2:'#1a2a0a', accent:'#7a8a3a', img:'Maggotkin.jpg' },
+    'ossiarch bonereapers': { c1:'#5a4a2a', c2:'#2a1a0a', accent:'#c4b478', img:'Ossiarch-bonereapers.jpg' },
+    'ogor mawtribes':       { c1:'#4a3a1a', c2:'#2a1a0a', accent:'#b48a3a', img:'Ogres.jpg' },
+    'orruk warclans':       { c1:'#2a3a1a', c2:'#1a1a0a', accent:'#8a8a3a', img:'Orruk-warclans.jpg' },
+    'sons of behemat':      { c1:'#3a2a2a', c2:'#1a0a0a', accent:'#8a6a4a', img:'Sons-of-behamat.jpg' }
   };
   function applyFactionBackground(){
     const bg = $('faction-bg');
     const wm = $('faction-watermark');
-    const sigilR = $('faction-sigil');
     const sigilL = $('faction-sigil-left');
-    if (!bg || !wm || !sigilR || !sigilL) return;
+    const sigilR = $('faction-sigil-right');
+    if (!bg || !wm || !sigilL || !sigilR) return;
 
     const key = normalizeFaction(state.faction || '');
     const fb = key ? FACTION_BG[key] : null;
 
     if (fb) {
-      // Faction selected: use faction colors
+      // Faction selected: use faction colors + art
       bg.style.background = `radial-gradient(ellipse at top, ${fb.c1}40 0%, ${fb.c2} 55%, #150f0a 100%)`;
       wm.textContent = state.faction.toUpperCase();
-      wm.style.color = fb.accent + '0a'; // very faint, hex alpha 0a = ~4%
-      sigilR.textContent = fb.sigil;
-      sigilR.style.color = fb.accent;
-      sigilR.style.opacity = '0.06';
-      sigilL.textContent = fb.sigil;
-      sigilL.style.color = fb.accent;
-      sigilL.style.opacity = '0.06';
+      wm.style.color = fb.accent + '0a';
+      const imgUrl = `assets/factions/${fb.img}`;
+      sigilL.src = imgUrl;
+      sigilR.src = imgUrl;
+      sigilL.style.opacity = '0.15';
+      sigilR.style.opacity = '0.15';
     } else if (state.alliance && ALLIANCE_META[state.alliance]) {
       // Alliance selected but no faction: use alliance color
       const color = getComputedStyle(document.documentElement).getPropertyValue('--' + state.alliance).trim() || '#8a7a5a';
       bg.style.background = `radial-gradient(ellipse at top, ${color}25 0%, #241a12 55%, #150f0a 100%)`;
       wm.textContent = ALLIANCE_META[state.alliance].label.toUpperCase();
       wm.style.color = color + '0a';
-      sigilR.textContent = '✦';
-      sigilR.style.color = color;
-      sigilR.style.opacity = '0.03';
-      sigilL.textContent = '✦';
-      sigilL.style.color = color;
-      sigilL.style.opacity = '0.03';
+      sigilL.style.opacity = '0';
+      sigilR.style.opacity = '0';
     } else {
       // Default: dark brown radial
       bg.style.background = '';
       wm.textContent = '';
-      sigilR.textContent = '';
-      sigilR.style.opacity = '0';
-      sigilL.textContent = '';
       sigilL.style.opacity = '0';
+      sigilR.style.opacity = '0';
     }
   }
 
