@@ -2329,36 +2329,35 @@
   function populateGrimPickers(){
     const groups = buildGroupedView(grimoire);
     function optionsHtml(){
-      // Clash pickers: Alliance > Faction > Role
+      // Clash pickers: flattened Alliance > Faction — Role
       return groups.map(g => {
         const facGroups = groupByFaction(g.items);
         const facOpts = facGroups.map(fg => {
           const roleGroups = groupByRole(fg.items);
-          const roleOpts = roleGroups.map(rg => {
+          return roleGroups.map(rg => {
             const opts = rg.items.map(e => {
               const label = (e.name || 'Unnamed unit') + (e.points ? ' (' + e.points + ' pts)' : '');
               return `<option value="${e.id}">${escapeHtml(label)}</option>`;
             }).join('');
-            return `<optgroup label="${escapeAttr(rg.role)}">${opts}</optgroup>`;
+            return `<optgroup label="${escapeAttr(g.meta.label + ' — ' + fg.faction + ' — ' + rg.role)}">${opts}</optgroup>`;
           }).join('');
-          return `<optgroup label="${escapeAttr(fg.faction)}">${roleOpts}</optgroup>`;
         }).join('');
-        return `<optgroup label="${escapeAttr(g.meta.label)}">${facOpts}</optgroup>`;
+        return facOpts;
       }).join('');
     }
     function optionsHtmlByFaction(items){
-      // Roster picker: Faction > Role
-      return groupByFaction(items).map(fg => {
-        const roleGroups = groupByRole(fg.items);
-        const roleOpts = roleGroups.map(rg => {
+      // Roster picker: flattened Faction — Role
+      let result = [];
+      groupByFaction(items).forEach(fg => {
+        groupByRole(fg.items).forEach(rg => {
           const opts = rg.items.map(e => {
             const label = (e.name || 'Unnamed unit') + (e.points ? ' (' + e.points + ' pts)' : '');
-          return `<option value="${e.id}">${escapeHtml(label)}</option>`;
+            return `<option value="${e.id}">${escapeHtml(label)}</option>`;
           }).join('');
-          return `<optgroup label="${escapeAttr(rg.role)}">${opts}</optgroup>`;
-        }).join('');
-        return `<optgroup label="${escapeAttr(fg.faction)}">${roleOpts}</optgroup>`;
-      }).join('');
+          result.push(`<optgroup label="${escapeAttr(fg.faction + ' — ' + rg.role)}">${opts}</optgroup>`);
+        });
+      });
+      return result.join('');
     }
     let rosterScoped = grimoire;
     if (state.faction) {
