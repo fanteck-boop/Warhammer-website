@@ -36,7 +36,7 @@
         "name": "The Executioner's Axe",
         "type": "Melee",
         "attacks": "6",
-        "bs": "",
+        "bs": "2+",
         "s": "7",
         "ap": "-3",
         "d": "2"
@@ -75,7 +75,7 @@
         "name": "Armoured Tracks",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "6",
         "ap": "0",
         "d": "1"
@@ -163,7 +163,7 @@
         "name": "Heaven's Teeth",
         "type": "Melee",
         "attacks": "6",
-        "bs": "",
+        "bs": "2+",
         "s": "5",
         "ap": "-1",
         "d": "1"
@@ -225,7 +225,7 @@
         "name": "Dead Man's Hand",
         "type": "Melee",
         "attacks": "6",
-        "bs": "",
+        "bs": "2+",
         "s": "4",
         "ap": "-1",
         "d": "2"
@@ -329,7 +329,7 @@
         "name": "Vitarus",
         "type": "Melee",
         "attacks": "6",
-        "bs": "",
+        "bs": "2+",
         "s": "9",
         "ap": "-3",
         "d": "D3"
@@ -393,7 +393,7 @@
         "name": "The Axe Mortalis",
         "type": "Melee",
         "attacks": "8",
-        "bs": "",
+        "bs": "2+",
         "s": "8",
         "ap": "-3",
         "d": "2"
@@ -434,7 +434,7 @@
         "name": "Blood Talons",
         "type": "Melee",
         "attacks": "7",
-        "bs": "",
+        "bs": "3+",
         "s": "8",
         "ap": "-2",
         "d": "3"
@@ -443,7 +443,7 @@
         "name": "Twin Furioso Fists",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "3+",
         "s": "12",
         "ap": "-3",
         "d": "3"
@@ -507,7 +507,7 @@
         "name": "Power fist",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "8",
         "ap": "-2",
         "d": "2"
@@ -516,7 +516,7 @@
         "name": "Thunder Hammer",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "8",
         "ap": "-2",
         "d": "2"
@@ -525,7 +525,7 @@
         "name": "Power weapon",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "3+",
         "s": "5",
         "ap": "-2",
         "d": "1"
@@ -552,7 +552,7 @@
         "name": "Close combat weapon",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "4",
         "ap": "0",
         "d": "1"
@@ -579,7 +579,7 @@
         "name": "Astartes Chainsword",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "3+",
         "s": "4",
         "ap": "-1",
         "d": "1"
@@ -661,7 +661,7 @@
         "name": "Astartes Chainsword",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "3+",
         "s": "4",
         "ap": "-1",
         "d": "1"
@@ -706,7 +706,7 @@
         "name": "Power weapon",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "3+",
         "s": "5",
         "ap": "-2",
         "d": "1"
@@ -715,7 +715,7 @@
         "name": "Power fist",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "8",
         "ap": "-2",
         "d": "2"
@@ -724,7 +724,7 @@
         "name": "Eviscerator",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "7",
         "ap": "-2",
         "d": "2"
@@ -764,7 +764,7 @@
         "name": "Blood Talons",
         "type": "Melee",
         "attacks": "7",
-        "bs": "",
+        "bs": "3+",
         "s": "8",
         "ap": "-2",
         "d": "3"
@@ -773,7 +773,7 @@
         "name": "Twin Furioso Fists",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "3+",
         "s": "12",
         "ap": "-3",
         "d": "3"
@@ -825,7 +825,7 @@
         "name": "Blood Reaver",
         "type": "Melee",
         "attacks": "6",
-        "bs": "",
+        "bs": "2+",
         "s": "8",
         "ap": "-2",
         "d": "3"
@@ -870,7 +870,7 @@
         "name": "The Blood Crozius",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "2+",
         "s": "6",
         "ap": "-2",
         "d": "2"
@@ -939,7 +939,7 @@
         "name": "Furioso Fist",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "3+",
         "s": "12",
         "ap": "-3",
         "d": "3"
@@ -948,7 +948,7 @@
         "name": "Furioso Force Halberd",
         "type": "Melee",
         "attacks": "1",
-        "bs": "",
+        "bs": "2+",
         "s": "9",
         "ap": "-3",
         "d": "D6+3"
@@ -1069,7 +1069,7 @@
         "name": "Astartes Chainsword",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "3+",
         "s": "4",
         "ap": "-1",
         "d": "1"
@@ -1111,7 +1111,7 @@
         "name": "Encarmine Broadsword",
         "type": "Melee",
         "attacks": "8",
-        "bs": "",
+        "bs": "2+",
         "s": "6",
         "ap": "-3",
         "d": "2"
@@ -1154,7 +1154,7 @@
         "name": "Astartes Chainsword",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "2+",
         "s": "4",
         "ap": "-1",
         "d": "1"
@@ -1276,7 +1276,7 @@
         "name": "Astartes Chainsword",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "3+",
         "s": "4",
         "ap": "-1",
         "d": "1"
@@ -1285,7 +1285,7 @@
         "name": "Power weapon",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "3+",
         "s": "5",
         "ap": "-2",
         "d": "1"
@@ -1325,7 +1325,7 @@
         "name": "Power fist",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "2+",
         "s": "8",
         "ap": "-2",
         "d": "2"
@@ -1334,7 +1334,7 @@
         "name": "Relic Weapon",
         "type": "Melee",
         "attacks": "6",
-        "bs": "",
+        "bs": "2+",
         "s": "5",
         "ap": "-2",
         "d": "2"
@@ -1343,7 +1343,7 @@
         "name": "Master-crafted Chainsword",
         "type": "Melee",
         "attacks": "7",
-        "bs": "",
+        "bs": "2+",
         "s": "4",
         "ap": "-1",
         "d": "2"
@@ -1404,7 +1404,7 @@
         "name": "Power fist",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "2+",
         "s": "8",
         "ap": "-2",
         "d": "2"
@@ -1413,7 +1413,7 @@
         "name": "Relic Weapon",
         "type": "Melee",
         "attacks": "6",
-        "bs": "",
+        "bs": "2+",
         "s": "5",
         "ap": "-2",
         "d": "2"
@@ -1422,7 +1422,7 @@
         "name": "Master-crafted Chainsword",
         "type": "Melee",
         "attacks": "7",
-        "bs": "",
+        "bs": "2+",
         "s": "4",
         "ap": "-1",
         "d": "2"
@@ -1485,7 +1485,7 @@
         "name": "Power fist",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "2+",
         "s": "8",
         "ap": "-2",
         "d": "2"
@@ -1494,7 +1494,7 @@
         "name": "Relic Weapon",
         "type": "Melee",
         "attacks": "6",
-        "bs": "",
+        "bs": "2+",
         "s": "5",
         "ap": "-2",
         "d": "2"
@@ -1503,7 +1503,7 @@
         "name": "Astartes Chainsword",
         "type": "Melee",
         "attacks": "7",
-        "bs": "",
+        "bs": "2+",
         "s": "4",
         "ap": "-1",
         "d": "1"
@@ -1589,7 +1589,7 @@
         "name": "Close combat weapon",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "4",
         "ap": "0",
         "d": "1"
@@ -1598,7 +1598,7 @@
         "name": "Eviscerator",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "7",
         "ap": "-2",
         "d": "2"
@@ -1607,7 +1607,7 @@
         "name": "Thunder Hammer",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "8",
         "ap": "-2",
         "d": "2"
@@ -1616,7 +1616,7 @@
         "name": "Power weapon",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "3+",
         "s": "5",
         "ap": "-2",
         "d": "1"
@@ -1625,7 +1625,7 @@
         "name": "Astartes Chainsword",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "3+",
         "s": "4",
         "ap": "-1",
         "d": "1"
@@ -1693,7 +1693,7 @@
         "name": "Eviscerator",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "7",
         "ap": "-2",
         "d": "2"
@@ -1711,7 +1711,7 @@
         "name": "Astartes Chainsword",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "3+",
         "s": "4",
         "ap": "-1",
         "d": "1"
@@ -1747,7 +1747,7 @@
         "name": "Thunder Hammer",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "8",
         "ap": "-2",
         "d": "2"
@@ -1756,7 +1756,7 @@
         "name": "Power weapon",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "3+",
         "s": "5",
         "ap": "-2",
         "d": "1"
@@ -1765,7 +1765,7 @@
         "name": "Power fist",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "8",
         "ap": "-2",
         "d": "2"
@@ -1814,7 +1814,7 @@
         "name": "➤ Blood Talons - Strike",
         "type": "Melee",
         "attacks": "6",
-        "bs": "",
+        "bs": "3+",
         "s": "12",
         "ap": "-2",
         "d": "3"
@@ -1823,7 +1823,7 @@
         "name": "➤ Blood Talons - Sweep",
         "type": "Melee",
         "attacks": "10",
-        "bs": "",
+        "bs": "3+",
         "s": "7",
         "ap": "-2",
         "d": "1"

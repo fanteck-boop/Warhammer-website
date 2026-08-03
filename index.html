@@ -2252,7 +2252,9 @@
     const defenderToughness = is40k ? (defender.toughness || 4) : null;
     
     const weapons = (attacker.weapons || []).map(w => {
-      const hitVal = parseInt(w.hit, 10) || 0;
+      const hitRaw = String(w.hit || '').trim();
+      const isAutoHit = hitRaw.toUpperCase() === 'N/A' || hitRaw === '';
+      const hitVal = parseInt(hitRaw, 10) || 0;
       // For 40K: hit = BS (e.g., 3 for 3+), wound = S (strength value)
       // For AoS: hit = hit target (e.g., 3 for 3+), wound = wound target (e.g., 4 for 4+)
       let woundTarget;
@@ -2268,6 +2270,7 @@
         modelsCount: w.models ? Math.max(0, parseInt(w.models, 10) || 0) : attacker.models,
         attacksDice: parseDiceExpr(w.attacks || '1'),
         hit: hitVal,
+        isAutoHit: isAutoHit,
         wound: woundTarget,
         rend: is40k ? (parseInt(w.rend, 10) || 0) : Math.max(0, parseInt(w.rend, 10) || 0),
         damageDice: parseDiceExpr(w.damage || '1'),
@@ -2276,7 +2279,7 @@
         strength: is40k ? (parseInt(w.wound, 10) || 0) : null,
         ap: is40k ? (parseInt(w.rend, 10) || 0) : null
       };
-    }).filter(w => w.enabled && w.hit >= 2 && w.hit <= 6 && w.wound >= 2 && w.wound <= 6 && w.modelsCount > 0);
+    }).filter(w => w.enabled && w.modelsCount > 0 && (w.isAutoHit || (w.hit >= 2 && w.hit <= 6)) && w.wound >= 2 && w.wound <= 6);
 
     const pWardFails = defender.ward ? (defender.ward - 1) / 6 : 1;
     let totalDamageSum = 0;
@@ -2295,8 +2298,11 @@
           (is40k ? defender.save - w.rend : defender.save + w.rend) : null;
         let wDmg = 0;
         for (let i = 0; i < totalAttacks; i++) {
-          const rHit = 1 + Math.floor(Math.random() * 6);
-          if (rHit < w.hit) continue;
+          // Auto-hit weapons (e.g. flamers with BS N/A) skip the hit roll
+          if (!w.isAutoHit) {
+            const rHit = 1 + Math.floor(Math.random() * 6);
+            if (rHit < w.hit) continue;
+          }
           const rWound = 1 + Math.floor(Math.random() * 6);
           if (rWound < w.wound) continue;
           // Determine effective save: in 40K, use invulnerable save if better than armor save after AP

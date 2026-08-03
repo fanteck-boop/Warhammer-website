@@ -70,7 +70,7 @@
         "name": "Nemesis force weapon",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "2+",
         "s": "6",
         "ap": "-2",
         "d": "2"
@@ -114,7 +114,7 @@
         "name": "Nemesis force sword",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "2+",
         "s": "6",
         "ap": "-2",
         "d": "2"
@@ -165,7 +165,7 @@
         "name": "Nemesis force weapon",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "2+",
         "s": "6",
         "ap": "-2",
         "d": "2"
@@ -216,7 +216,7 @@
         "name": "Crozius arcanum",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "2+",
         "s": "6",
         "ap": "-1",
         "d": "2"
@@ -268,7 +268,7 @@
         "name": "Nemesis force weapon",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "2+",
         "s": "6",
         "ap": "-1",
         "d": "2"
@@ -338,7 +338,7 @@
         "name": "Servo-arm",
         "type": "Melee",
         "attacks": "1",
-        "bs": "",
+        "bs": "3+",
         "s": "8",
         "ap": "-2",
         "d": "3"
@@ -347,7 +347,7 @@
         "name": "Omnissian power axe",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "3+",
         "s": "6",
         "ap": "-2",
         "d": "2"
@@ -408,7 +408,7 @@
         "name": "Nemesis force weapon",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "3+",
         "s": "6",
         "ap": "-2",
         "d": "2"
@@ -496,7 +496,7 @@
         "name": "Black Blade of Antwyr",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "2+",
         "s": "6",
         "ap": "-2",
         "d": "2"
@@ -584,7 +584,7 @@
         "name": "Nemesis force weapon",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "2+",
         "s": "6",
         "ap": "-2",
         "d": "2"
@@ -624,7 +624,7 @@
         "name": "Nemesis mace",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "2+",
         "s": "6",
         "ap": "-3",
         "d": "3"
@@ -633,7 +633,7 @@
         "name": "Nemesis flail",
         "type": "Melee",
         "attacks": "10",
-        "bs": "",
+        "bs": "2+",
         "s": "5",
         "ap": "-1",
         "d": "2"
@@ -642,7 +642,7 @@
         "name": "Dreadfists",
         "type": "Melee",
         "attacks": "6",
-        "bs": "",
+        "bs": "2+",
         "s": "6",
         "ap": "-1",
         "d": "1"
@@ -651,7 +651,7 @@
         "name": "Nemesis daemon greathammer",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "3+",
         "s": "14",
         "ap": "-3",
         "d": "D6+1"
@@ -660,7 +660,7 @@
         "name": "➤ Nemesis greatsword - sweep",
         "type": "Melee",
         "attacks": "10",
-        "bs": "",
+        "bs": "2+",
         "s": "5",
         "ap": "-1",
         "d": "1"
@@ -749,7 +749,7 @@
         "name": "Malleus Argyrum",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "2+",
         "s": "10",
         "ap": "-2",
         "d": "3"
@@ -852,7 +852,7 @@
         "name": "Armoured tracks",
         "type": "Melee",
         "attacks": "6",
-        "bs": "",
+        "bs": "4+",
         "s": "8",
         "ap": "0",
         "d": "1"
@@ -929,7 +929,7 @@
         "name": "Armoured tracks",
         "type": "Melee",
         "attacks": "6",
-        "bs": "",
+        "bs": "4+",
         "s": "8",
         "ap": "0",
         "d": "1"
@@ -1024,7 +1024,7 @@
         "name": "Armoured tracks",
         "type": "Melee",
         "attacks": "6",
-        "bs": "",
+        "bs": "4+",
         "s": "8",
         "ap": "0",
         "d": "1"
@@ -1101,7 +1101,7 @@
         "name": "Armoured tracks",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "6",
         "ap": "0",
         "d": "1"
@@ -1161,7 +1161,7 @@
         "name": "Armoured tracks",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "6",
         "ap": "0",
         "d": "1"
@@ -1255,7 +1255,7 @@
         "name": "Armoured hull",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "6",
         "ap": "0",
         "d": "1"
@@ -1303,7 +1303,7 @@
         "name": "Armoured hull",
         "type": "Melee",
         "attacks": "6",
-        "bs": "",
+        "bs": "4+",
         "s": "8",
         "ap": "0",
         "d": "1"
@@ -1459,7 +1459,7 @@
         "name": "Armoured hull",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "6",
         "ap": "0",
         "d": "1"
@@ -1536,7 +1536,7 @@
         "name": "Dreadnought combat weapon",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "3+",
         "s": "12",
         "ap": "-2",
         "d": "3"
@@ -1585,7 +1585,7 @@
         "name": "Nemesis force weapon",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "6",
         "ap": "-2",
         "d": "2"
@@ -1603,7 +1603,7 @@
         "name": "Close combat weapon",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "4",
         "ap": "0",
         "d": "1"
@@ -1685,7 +1685,7 @@
         "name": "The Titansword",
         "type": "Melee",
         "attacks": "6",
-        "bs": "",
+        "bs": "2+",
         "s": "8",
         "ap": "-4",
         "d": "3"
@@ -1733,7 +1733,7 @@
         "name": "➤ Nemesis greatsword - sweep",
         "type": "Melee",
         "attacks": "10",
-        "bs": "",
+        "bs": "2+",
         "s": "5",
         "ap": "-1",
         "d": "1"
@@ -1742,7 +1742,7 @@
         "name": "Nemesis daemon greathammer",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "3+",
         "s": "14",
         "ap": "-3",
         "d": "D6+1"
@@ -1751,7 +1751,7 @@
         "name": "Dreadfists",
         "type": "Melee",
         "attacks": "6",
-        "bs": "",
+        "bs": "2+",
         "s": "6",
         "ap": "-1",
         "d": "1"
@@ -1820,7 +1820,7 @@
         "name": "Nemesis force weapon",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "2+",
         "s": "6",
         "ap": "-2",
         "d": "2"
@@ -1895,7 +1895,7 @@
         "name": "Nemesis force weapon",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "6",
         "ap": "-2",
         "d": "2"
@@ -1913,7 +1913,7 @@
         "name": "Close combat weapon",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "4",
         "ap": "0",
         "d": "1"
@@ -1979,7 +1979,7 @@
         "name": "Nemesis force weapon",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "6",
         "ap": "-2",
         "d": "2"
@@ -2006,7 +2006,7 @@
         "name": "Close combat weapon",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "4",
         "ap": "0",
         "d": "1"
@@ -2073,7 +2073,7 @@
         "name": "Servo-arm",
         "type": "Melee",
         "attacks": "1",
-        "bs": "",
+        "bs": "5+",
         "s": "6",
         "ap": "-2",
         "d": "3"
@@ -2091,7 +2091,7 @@
         "name": "Servitor's tools",
         "type": "Melee",
         "attacks": "1",
-        "bs": "",
+        "bs": "5+",
         "s": "3",
         "ap": "0",
         "d": "1"
@@ -2158,7 +2158,7 @@
         "name": "Nemesis force weapon",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "6",
         "ap": "-2",
         "d": "2"
@@ -2203,7 +2203,7 @@
         "name": "Close combat weapon",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "4",
         "ap": "0",
         "d": "1"
@@ -2254,7 +2254,7 @@
         "name": "Armored Hull",
         "type": "Melee",
         "attacks": "6",
-        "bs": "",
+        "bs": "4+",
         "s": "8",
         "ap": "0",
         "d": "1"
@@ -2366,7 +2366,7 @@
         "name": "Nemesis doomglaive",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "3+",
         "s": "14",
         "ap": "-3",
         "d": "3"
@@ -2496,7 +2496,7 @@
         "name": "Armoured tracks",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "6",
         "ap": "0",
         "d": "1"

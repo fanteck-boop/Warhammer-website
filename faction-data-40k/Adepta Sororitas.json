@@ -34,7 +34,7 @@
         "name": "Blade of Vigil",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "2+",
         "s": "5",
         "ap": "-2",
         "d": "2"
@@ -43,7 +43,7 @@
         "name": "Scribe's staff",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "4",
         "ap": "0",
         "d": "1"
@@ -80,7 +80,7 @@
         "name": "Arco-flails",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "4+",
         "s": "5",
         "ap": "0",
         "d": "1"
@@ -233,7 +233,7 @@
         "name": "Blessed blade",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "2+",
         "s": "6",
         "ap": "-2",
         "d": "2"
@@ -242,7 +242,7 @@
         "name": "Power weapon",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "2+",
         "s": "4",
         "ap": "-2",
         "d": "2"
@@ -251,7 +251,7 @@
         "name": "Hallowed Chainsword",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "2+",
         "s": "3",
         "ap": "-1",
         "d": "1"
@@ -336,7 +336,7 @@
         "name": "Armoured tracks",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "6",
         "ap": "0",
         "d": "1"
@@ -420,7 +420,7 @@
         "name": "Anointed Halberd",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "5",
         "ap": "-2",
         "d": "1"
@@ -429,7 +429,7 @@
         "name": "Hallowed Mace",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "4",
         "ap": "-1",
         "d": "2"
@@ -438,7 +438,7 @@
         "name": "Spear of the Faithful",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "5",
         "ap": "-2",
         "d": "2"
@@ -507,7 +507,7 @@
         "name": "Sanctity",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "2+",
         "s": "6",
         "ap": "-2",
         "d": "2"
@@ -516,7 +516,7 @@
         "name": "The Outcast's Blades",
         "type": "Melee",
         "attacks": "6",
-        "bs": "",
+        "bs": "2+",
         "s": "4",
         "ap": "-2",
         "d": "1"
@@ -557,7 +557,7 @@
         "name": "Dialogus staff",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "4",
         "ap": "0",
         "d": "1"
@@ -599,7 +599,7 @@
         "name": "Mace of the Righteous",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "3+",
         "s": "5",
         "ap": "-2",
         "d": "2"
@@ -706,7 +706,7 @@
         "name": "Armoured tracks",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "6",
         "ap": "0",
         "d": "1"
@@ -783,7 +783,7 @@
         "name": "Chirugeon's tools",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "3",
         "ap": "0",
         "d": "1"
@@ -834,7 +834,7 @@
         "name": "Close combat weapon",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "3",
         "ap": "0",
         "d": "1"
@@ -876,7 +876,7 @@
         "name": "Armoured tracks",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "6",
         "ap": "0",
         "d": "1"
@@ -973,7 +973,7 @@
         "name": "Mace of Castigation",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "2+",
         "s": "6",
         "ap": "-2",
         "d": "2"
@@ -1046,7 +1046,7 @@
         "name": "➤ Lance of Illumination - strike",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "2+",
         "s": "8",
         "ap": "-2",
         "d": "3"
@@ -1055,7 +1055,7 @@
         "name": "➤ Lance of Illumination - sweep",
         "type": "Melee",
         "attacks": "10",
-        "bs": "",
+        "bs": "2+",
         "s": "5",
         "ap": "-1",
         "d": "1"
@@ -1124,7 +1124,7 @@
         "name": "Palatine blade",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "2+",
         "s": "4",
         "ap": "-2",
         "d": "2"
@@ -1199,7 +1199,7 @@
         "name": "Paragon War Blade",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "3+",
         "s": "8",
         "ap": "-2",
         "d": "2"
@@ -1208,7 +1208,7 @@
         "name": "Paragon War Mace",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "12",
         "ap": "-1",
         "d": "3"
@@ -1316,7 +1316,7 @@
         "name": "Power weapon",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "4",
         "ap": "-2",
         "d": "1"
@@ -1334,7 +1334,7 @@
         "name": "Zealot's vindictor",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "5",
         "ap": "-1",
         "d": "2"
@@ -1373,7 +1373,7 @@
         "name": "Penitent Eviscerator",
         "type": "Melee",
         "attacks": "2",
-        "bs": "",
+        "bs": "4+",
         "s": "6",
         "ap": "-2",
         "d": "2"
@@ -1382,7 +1382,7 @@
         "name": "Neural Whips",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "3+",
         "s": "3",
         "ap": "-1",
         "d": "1"
@@ -1527,7 +1527,7 @@
         "name": "The Ardent Blade",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "2+",
         "s": "6",
         "ap": "-3",
         "d": "2"
@@ -1576,7 +1576,7 @@
         "name": "Close combat weapon",
         "type": "Melee",
         "attacks": "2",
-        "bs": "",
+        "bs": "3+",
         "s": "3",
         "ap": "0",
         "d": "1"
@@ -1675,7 +1675,7 @@
         "name": "Armoured tracks",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "6",
         "ap": "0",
         "d": "1"
@@ -1747,7 +1747,7 @@
         "name": "Relic Weapons",
         "type": "Melee",
         "attacks": "18",
-        "bs": "",
+        "bs": "2+",
         "s": "5",
         "ap": "-2",
         "d": "1"
@@ -1797,7 +1797,7 @@
         "name": "Power weapon",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "4",
         "ap": "-2",
         "d": "1"
@@ -1857,7 +1857,7 @@
         "name": "Dozer Ram",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "7",
         "ap": "0",
         "d": "1"
@@ -1918,7 +1918,7 @@
         "name": "Blessed Halberd",
         "type": "Melee",
         "attacks": "5",
-        "bs": "",
+        "bs": "2+",
         "s": "5",
         "ap": "-2",
         "d": "2"
@@ -1936,7 +1936,7 @@
         "name": "Power weapon",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "2+",
         "s": "4",
         "ap": "-2",
         "d": "2"
@@ -1945,7 +1945,7 @@
         "name": "Holy Eviscerator",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "2+",
         "s": "6",
         "ap": "-2",
         "d": "2"
@@ -1982,7 +1982,7 @@
         "name": "Death Cult power blades",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "2+",
         "s": "4",
         "ap": "-2",
         "d": "1"
@@ -2020,7 +2020,7 @@
         "name": "Power Weapon",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "4",
         "ap": "-2",
         "d": "2"
@@ -2100,7 +2100,7 @@
         "name": "The Thorn of the White Rose",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "3+",
         "s": "5",
         "ap": "-2",
         "d": "2"
@@ -2142,7 +2142,7 @@
         "name": "Close combat weapon",
         "type": "Melee",
         "attacks": "2",
-        "bs": "",
+        "bs": "3+",
         "s": "3",
         "ap": "0",
         "d": "1"
@@ -2160,7 +2160,7 @@
         "name": "Sanctifier melee weapon",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "3",
         "ap": "0",
         "d": "1"
@@ -2178,7 +2178,7 @@
         "name": "Burning hands",
         "type": "Melee",
         "attacks": "1",
-        "bs": "",
+        "bs": "2+",
         "s": "6",
         "ap": "-2",
         "d": "3"
@@ -2187,7 +2187,7 @@
         "name": "Death Cult blades",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "2+",
         "s": "4",
         "ap": "-2",
         "d": "1"
@@ -2238,7 +2238,7 @@
         "name": "Null mace",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "4",
         "ap": "-1",
         "d": "1"
@@ -2274,7 +2274,7 @@
         "name": "Blessed sword",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "3+",
         "s": "4",
         "ap": "-2",
         "d": "2"
@@ -2283,7 +2283,7 @@
         "name": "Virge of Admonition",
         "type": "Melee",
         "attacks": "3",
-        "bs": "",
+        "bs": "4+",
         "s": "6",
         "ap": "-2",
         "d": "3"
@@ -2443,7 +2443,7 @@
         "name": "Mace of Saint Praxedes",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "2+",
         "s": "6",
         "ap": "-2",
         "d": "2"
@@ -2452,7 +2452,7 @@
         "name": "Throne of Blame",
         "type": "Melee",
         "attacks": "4",
-        "bs": "",
+        "bs": "4+",
         "s": "6",
         "ap": "0",
         "d": "1"
