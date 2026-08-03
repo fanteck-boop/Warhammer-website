@@ -1,0 +1,159 @@
+{
+  "faction": "Seraphon",
+  "battleTraits": [
+    {
+      "name": "Itzl the Tamer",
+      "effect": "Itzl the Tamer: Companion weapons used by friendly Seraphon units have Crit (2 Hits)."
+    },
+    {
+      "name": "Further the Great Plan",
+      "effect": "Further the Great Plan (Once Per Battle Round, Start of Battle Round): Pick an Asterism ability to be prophesied. Its effects apply in addition to those of all other prophesied Asterism abilities."
+    },
+    {
+      "name": "The Great Plan",
+      "effect": "The Great Plan (Once Per Battle, Deployment Phase): That Asterism ability can be used for the rest of the battle, but the others cannot, unless prophesied by the 'Further the Great Plan' ability"
+    },
+    {
+      "name": "Quetzl the Preserver",
+      "effect": "Quetzl the Preserver: Subtract 1 from the Rend characteristic of melee weapons for attacks that target friendly Seraphon units that are wholly within friendly territory."
+    },
+    {
+      "name": "Sotek the Deliverer",
+      "effect": "Sotek the Deliverer: Add 2 to the Move characteristic of friendly Seraphon units."
+    },
+    {
+      "name": "Tepok the Seer",
+      "effect": "Tepok the Seer: Add 1 to casting rolls for friendly Seraphon units."
+    }
+  ],
+  "artefacts": [
+    {
+      "name": "Incandescent Rectrices",
+      "cost": 0,
+      "effect": "Incandescent Rectrices: Any Hero Phase Heal (D3) this unit.",
+      "restrictions": [],
+      "groupName": "Treasures of the Old Ones"
+    },
+    {
+      "name": "Coatl Familiar",
+      "cost": 20,
+      "effect": "Coatl Familiar: Once Per Battle, Reaction: You declared a Spell ability for a friendly Seraphon Wizard within this unit's combat range Add D6 to the casting roll for that spell.",
+      "restrictions": [],
+      "groupName": "Treasures of the Old Ones"
+    },
+    {
+      "name": "Bloodrage Pendant",
+      "cost": 0,
+      "effect": "Bloodrage Pendant: Add 1 to the Attacks characteristic of this unit's melee weapons. Add 2 instead if the number of damage points allocated to this unit is equal to or greater than half of this unit's Health characteristic (rounding up).",
+      "restrictions": [],
+      "groupName": "Treasures of the Old Ones"
+    }
+  ],
+  "heroicTraits": [
+    {
+      "name": "Being of the Stars",
+      "cost": 0,
+      "effect": "Being of the Stars: Ignore modifiers to save rolls for this unit (positive and negative).",
+      "restrictions": [],
+      "groupName": "Celestial Disciplines"
+    },
+    {
+      "name": "Reptilian Cunning",
+      "cost": 0,
+      "effect": "Reptilian Cunning: If this unit charged this turn, if a friendly unit wholly within 12\" of this unit uses the 'All-out Attack' command in the combat phase, no command points are spent.",
+      "restrictions": [],
+      "groupName": "Celestial Disciplines"
+    },
+    {
+      "name": "Beastmaster",
+      "cost": 0,
+      "effect": "Beastmaster: Add 2\" to the Move characteristic of friendly Seraphon Cavalry and Seraphon Monster units for the rest of the phase if they are wholly within 12\" of this unit at the start of the move.",
+      "restrictions": [],
+      "groupName": "Celestial Disciplines"
+    },
+    {
+      "name": "Child of the Stars",
+      "cost": 0,
+      "effect": "Child of the Stars: If this unit would be destroyed, before removing it from play, roll a dice. On a 3+, this unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, Heal (D3) this unit. This unit cannot use this ability again for the rest of the battle.",
+      "restrictions": [],
+      "groupName": "Servants of the Cosmic Order"
+    },
+    {
+      "name": "Keeper of the Old Ways",
+      "cost": 0,
+      "effect": "Keeper of the Old Ways: Once Per Turn, Reaction: You declared the 'Further the Great Plan' ability You can pick 2 different Asterism abilities instead of 1. They are both used in addition to the one you picked in the deployment phase.",
+      "restrictions": [],
+      "groupName": "Servants of the Cosmic Order"
+    },
+    {
+      "name": "Chosen of Quetzl",
+      "cost": 0,
+      "effect": "Chosen of Quetzl: Any Combat Phase Pick a visible friendly non-Monster Skink unit that is in combat and is wholly within 12\" of this unit to be the target. Roll a dice. On a 3+, the target can move up to 8\". It can move through the combat ranges of enemy units but cannot end that move in combat.",
+      "restrictions": [],
+      "groupName": "Servants of the Cosmic Order"
+    },
+    {
+      "name": "Arcane Determination",
+      "cost": 0,
+      "effect": "Arcane Determination: Add 10 to this unit's control score while it is wholly within 12\" of a friendly Manifestation.",
+      "restrictions": [],
+      "groupName": "Servants of the Cosmic Order"
+    },
+    {
+      "name": "Calm and Collected",
+      "cost": 0,
+      "effect": "Calm and Collected: Once Per Battle, End of Your Turn Reduce your and your opponent's fury levels by up to 3, to a minimum of 0. You must reduce both players' fury levels by the same amount.",
+      "restrictions": [],
+      "groupName": "Servants of the Cosmic Order"
+    },
+    {
+      "name": "Lord of Space and Time",
+      "cost": 20,
+      "effect": "Lord of Space and Time: End of Your Turn Pick any number of friendly Seraphon units wholly within 12\" of this unit that have not used a Move ability this turn to be the targets. This unit gains a number of stored time points equal to the number of targets picked. Then, if this unit has 5 or more stored time points, you can pick up to 3 visible enemy units within 18\" of it. In your opponent's next turn, halve the Move characteristic of those enemy units. If you do so, this unit cannot use this ability again for the rest of the battle.",
+      "restrictions": [],
+      "groupName": "Servants of the Cosmic Order"
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Thunderquake Starhost",
+      "cost": 0,
+      "effect": "Scaly Monstrosities: Add 2 to the Health characteristic of friendly Seraphon Monster units",
+      "restrictions": [],
+      "groupName": "Battle Formations: Seraphon"
+    },
+    {
+      "name": "Eternal Starhost",
+      "cost": 0,
+      "effect": "Celestial Translocation: Once Per Turn (Army), Your Movement Phase Pick a friendly Seraphon unit wholly within 12\" of a friendly Seraphon Wizard to use this ability Remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Seraphon"
+    },
+    {
+      "name": "Shadowstrike Starhost",
+      "cost": 0,
+      "effect": "Nimble and Quick: Once Per Turn (Army), Your Shooting Phase Pick up to 3 friendly Skink Infantry or Skink Cavalry units that are not in combat to be the targets. Each target can move D6\". Each target cannot move into combat during any part of that move.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Seraphon"
+    },
+    {
+      "name": "Sunclaw Starhost",
+      "cost": 0,
+      "effect": "Vengeance of Azyr: Once Per Turn (Army), End of Any Turn Pick up to 3 friendly Saurus or Kroxigor units that are in combat to be the targets. For each target:\n• Make a pile-in move.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Seraphon"
+    }
+  ],
+  "boons": [],
+  "spellLores": [
+    {
+      "name": "Lore of Celestial Manipulation",
+      "effect": ""
+    },
+    {
+      "name": "Lore of Primal Jungles",
+      "effect": ""
+    }
+  ],
+  "prayerLores": []
+}

@@ -1,0 +1,161 @@
+{
+  "faction": "Nighthaunt",
+  "battleTraits": [
+    {
+      "name": "Ethereal",
+      "effect": "Ethereal: Ignore negative modifiers to save rolls for friendly Nighthaunt units, excluding Nagash."
+    },
+    {
+      "name": "Ethereal Translocation",
+      "effect": "Ethereal Translocation (Once Per Turn (Army), Your Movement Phase): Remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units."
+    },
+    {
+      "name": "Mounting Dread",
+      "effect": "Mounting Dread: Subtract the current battle round number from the control scores of enemy units while they are in combat with any friendly Nighthaunt units."
+    },
+    {
+      "name": "Sepulchral Apparitions",
+      "effect": "Sepulchral Apparitions (Once Per Battle (Army), Deployment Phase): If there is a friendly Nexus of Grief on the battlefield, you can set up up to 2 additional Nexuses of Grief on the battlefield. Each must be set up wholly outside enemy territory, more than 3\" from all objectives and other terrain features, and more than 12\" from all other friendly Nexuses of Grief.\nDesigner's Note: *The original* Nexus of Grief *is set up in Step 1 of the deployment phase using the 'Deploy Faction Terrain' ability. This ability allows you to set up a second and third such terrain feature and is used in Step 3 of the deployment phase, after armies have been deployed.*"
+    }
+  ],
+  "artefacts": [
+    {
+      "name": "Tome of the Restless Crypts",
+      "cost": 0,
+      "effect": "Tome of the Restless Crypts: Once Per Battle, Your Movement Phase If there are fewer than 3 friendly Nexuses of Grief on the battlefield, set up a Nexus of Grief within 3\" of a friendly Nighthaunt unit, more than 3\" from all objectives and enemy units, more than 1\" from all other terrain features, and more than 12\" from all other friendly Nexuses of Grief.",
+      "restrictions": [],
+      "groupName": "Relics of the Underworlds"
+    },
+    {
+      "name": "Ethereal Fetters",
+      "cost": 0,
+      "effect": "Ethereal Fetters: Any Combat Phase Pick an enemy unit in combat with this unit to be the target. For the rest of the turn, if possible, this unit must be picked to be the target of pile-in moves made by the target.",
+      "restrictions": [],
+      "groupName": "Relics of the Underworlds"
+    },
+    {
+      "name": "Urn of Despondency",
+      "cost": 0,
+      "effect": "Urn of Despondency: Any Combat Phase Spend up to 3 rage dice. If your opponent's fury level is lower than yours, they must increase their fury level by 1, to a maximum of 7.\nThen, roll XD6, where X is the number of rage dice spent. This unit can move a distance in inches up to the roll but must end that move in combat with a damaged enemy unit and/or an enemy unit that has fewer models than its starting size.",
+      "restrictions": [],
+      "groupName": "Relics of the Underworlds"
+    },
+    {
+      "name": "Lightshard of the Harvest Moon",
+      "cost": 20,
+      "effect": "Lightshard of the Harvest Moon: Once Per Battle, Any Combat Phase If this unit is in combat, add 1 to the Attacks characteristic of melee weapons used by friendly Nighthaunt units while they are wholly within 12\" of this unit for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Relics of the Underworlds"
+    },
+    {
+      "name": "Mirror of Echoing Failures",
+      "cost": 0,
+      "effect": "Mirror of Echoing Failures: Reaction: Opponent declared a Spell or Prayer ability for a Wizard or Priest within 12\" of this unit. Pick each enemy Wizard and Priest within 12\" of this unit to be the targets. Roll a D3. On a 2+, for the rest of the phase:\n• Subtract 1 from casting rolls and chanting rolls for the targets.\n• Each time any of the targets fails to cast a spell or chant a prayer, inflict 1 mortal damage on the target.",
+      "restrictions": [],
+      "groupName": "Relics of the Underworlds"
+    },
+    {
+      "name": "Brazier of Nagashizzar",
+      "cost": 0,
+      "effect": "Brazier of Nagashizzar: Reaction: You declared the 'Redeploy' command for a friendly Nighthaunt Infantry unit wholly within 12\" of this unit. If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead.",
+      "restrictions": [],
+      "groupName": "Relics of the Underworlds"
+    },
+    {
+      "name": "Stave of Suffering",
+      "cost": 0,
+      "effect": "Stave of Suffering: While this unit is within 12\" of any damaged enemy units or enemy units that have had any models slain, add 1 to casting rolls for friendly Nighthaunt units while they are wholly within 12\" of this unit.",
+      "restrictions": [],
+      "groupName": "Relics of Dolorum"
+    },
+    {
+      "name": "Tombstone of the Penitent",
+      "cost": 0,
+      "effect": "Tombstone of the Penitent: Add 1 to the Attacks characteristic of this unit's melee weapons for each non-Faction Terrain terrain feature that is being contested by friendly units, to a maximum of 8.",
+      "restrictions": [],
+      "groupName": "Relics of Dolorum"
+    },
+    {
+      "name": "Amulet of Waking Nightmares",
+      "cost": 0,
+      "effect": "Amulet of Waking Nightmares: Your Hero Phase Pick an enemy Hero within 18\" of this unit to be the target. Roll a dice. On a 3+, for the rest of the turn, the target cannot be affected by the 'Guarded Hero' ability or the 'Obscuring' terrain ability.",
+      "restrictions": [],
+      "groupName": "Relics of Dolorum"
+    }
+  ],
+  "heroicTraits": [
+    {
+      "name": "Deathly Possessor",
+      "cost": 0,
+      "effect": "Deathly Possessor: Any Combat Phase Pick an enemy Hero in combat with this unit to be the target, then pick another enemy unit within the target's combat range to be the victim. Roll a dice. On a 3+, pick 1 of the target's melee weapons. Immediately resolve combat attacks for the target with that weapon against the victim.",
+      "restrictions": [],
+      "groupName": "Shades of Death"
+    },
+    {
+      "name": "Ruler of the Spectral Hosts",
+      "cost": 20,
+      "effect": "Ruler of the Spectral Hosts: Once Per Turn (Army), Your Hero Phase Pick up to 3 friendly non-Hero Nighthaunt units wholly within 12\" of this unit to be the targets. Roll a D3 for each target. On a 2+:\n• If the target is damaged, Heal (X) the target, where X is an amount equal to the roll.\n• If the target is not damaged, return a number of slain models to it with a combined Health characteristic of up to X, where X is an amount equal to the roll.",
+      "restrictions": [],
+      "groupName": "Shades of Death"
+    },
+    {
+      "name": "Shadowy Aura",
+      "cost": 0,
+      "effect": "Shadowy Aura: Reaction: You declared the 'Redeploy' command for a friendly Nighthaunt unit wholly within 12\" of this unit For the rest of the turn, subtract 1 from hit rolls for attacks that target this unit.",
+      "restrictions": [],
+      "groupName": "Shades of Death"
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Quicksilver Gheists",
+      "cost": 40,
+      "effect": "Vanish and Reappear: Once Per Turn (Army), Your Movement Phase Pick a friendly Nighthaunt unit that is in combat to use this ability. Roll a dice. The unit using this ability can move a distance up to its Move characteristic added to the roll. It can pass through other models and the combat ranges of enemy units, and it can end that move in combat.\nKeywords: Core, Move",
+      "restrictions": [],
+      "groupName": "Battle Formations: Nighthaunt"
+    },
+    {
+      "name": "Death Stalkers",
+      "cost": 0,
+      "effect": "There Is No Escape: Once Per Turn (Army), Your Movement Phase Pick a friendly Nighthaunt unit to be the target. For the rest of the turn:\n• The target unit can still use Charge and Shoot abilities even if it has used a Retreat ability in the same turn.\n• The target can use the 'Retreat' ability without any mortal damage being inflicted on it.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Nighthaunt"
+    },
+    {
+      "name": "Royal Procession",
+      "cost": 0,
+      "effect": "Lethal Rancour: Once Per Turn (Army), Enemy Hero Phase Pick up to 2 friendly Nighthaunt units to be the targets. The targets' melee weapons have Anti-charge (+1 Rend) for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Nighthaunt"
+    },
+    {
+      "name": "Shrieker Host",
+      "cost": 0,
+      "effect": "Petrify: Once Per Turn (Army), Enemy Hero Phase Pick a friendly Nighthaunt Hero to be the target. For the rest of the turn, enemy units cannot use Retreat abilities while they are in combat with the target.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Nighthaunt"
+    },
+    {
+      "name": "Hungry Nexus",
+      "cost": 0,
+      "effect": "Greedy for Souls: Once Per Turn (Army), End of Enemy Turn Pick a friendly Nexus of Grief to be the target. For the rest of the turn, the target has a Move characteristic of 3\". It can immediately move up to 3\" and can move into combat but cannot end that move on a terrain feature or within 3\" of an objective.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Nighthaunt"
+    },
+    {
+      "name": "Deathrust Gheists",
+      "cost": 0,
+      "effect": "Blades of Eternal Rust: Once Per Turn (Army), Enemy Hero Phase Pick an enemy unit that is in combat with any friendly Nighthaunt units to be the target. Subtract 1 from save rolls for the target for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Nighthaunt"
+    }
+  ],
+  "boons": [],
+  "spellLores": [
+    {
+      "name": "Lore of the Underworlds",
+      "effect": ""
+    }
+  ],
+  "prayerLores": []
+}

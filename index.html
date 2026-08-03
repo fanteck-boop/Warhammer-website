@@ -693,12 +693,117 @@
     border:1px dashed var(--line);
   }
 
+  /* ===== Army Rules Panel & Roster Enhancements ===== */
+  .army-rules-panel{margin-bottom:20px;}
+  .army-rules-panel .import-body{padding-bottom:14px;}
+  .enhancement-row{margin-bottom:16px;}
+  .enhancement-row > label{
+    display:block;
+    font-family:'JetBrains Mono', monospace;
+    font-size:10px;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    color:var(--text-soft);
+    margin-bottom:5px;
+  }
+  .enhancement-row > select,
+  .enhancement-assign-row select{
+    font-family:'Spectral', serif;
+    font-size:14px;
+    background:#f5eed8;
+    border:1px solid var(--line);
+    padding:6px 8px;
+    color:var(--text);
+    min-width:180px;
+    max-width:100%;
+    -webkit-appearance:auto; appearance:auto;
+    cursor:pointer;
+  }
+  .enhancement-effect{
+    font-size:12.5px;
+    color:var(--text-soft);
+    line-height:1.5;
+    margin-top:5px;
+    padding:7px 9px;
+    background:rgba(0,0,0,0.04);
+    border-left:2px solid var(--gold);
+    white-space:pre-wrap;
+  }
+  .enhancement-effect:empty{display:none;}
+  .enhancement-assign-row{
+    display:flex;
+    gap:8px;
+    align-items:center;
+    flex-wrap:wrap;
+    margin-bottom:6px;
+  }
+  .enhancement-assign-row .remove-assign{
+    padding:4px 8px;
+    font-size:10px;
+    min-height:0;
+  }
+
+  .roster-section-head td{
+    font-family:'Cinzel', serif;
+    font-size:12px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    color:var(--text-soft);
+    padding:14px 8px 6px;
+    border-bottom:2px solid var(--gold);
+    background:rgba(0,0,0,0.04);
+  }
+  tbody tr.is-general td{background:rgba(169,129,47,0.12);}
+  tbody tr.is-general:hover td{background:rgba(169,129,47,0.18);}
+  .unit-actions-cell{display:flex; gap:4px; align-items:center; flex-wrap:wrap; justify-content:flex-end;}
+  .reinforce-btn{
+    font-family:'JetBrains Mono', monospace;
+    font-size:9.5px;
+    letter-spacing:0.8px;
+    text-transform:uppercase;
+    background:transparent;
+    color:var(--text-soft);
+    border:1px solid var(--line);
+    padding:3px 7px;
+    min-height:0;
+    cursor:pointer;
+  }
+  .reinforce-btn.active{background:var(--gold); color:#f3e6c8; border-color:var(--gold);}
+  .reinforce-btn:hover{background:rgba(169,129,47,0.2);}
+  .reinforce-btn.active:hover{background:#b8900f;}
+  .general-badge{
+    display:inline-flex; align-items:center; gap:3px;
+    font-family:'JetBrains Mono', monospace;
+    font-size:9.5px; letter-spacing:0.8px; text-transform:uppercase;
+    color:var(--gold); border:1px solid var(--gold);
+    padding:2px 6px; margin-left:6px; white-space:nowrap;
+    background:rgba(169,129,47,0.12);
+  }
+  .role-badge{
+    display:inline-block;
+    font-family:'JetBrains Mono', monospace;
+    font-size:9px; letter-spacing:0.8px; text-transform:uppercase;
+    color:var(--text-soft); border:1px solid var(--line);
+    padding:1px 5px; margin-left:6px; white-space:nowrap;
+  }
+  .role-badge.hero{color:var(--order); border-color:var(--order);}
+  .reinforced-badge{
+    display:inline-block;
+    font-family:'JetBrains Mono', monospace;
+    font-size:9px; letter-spacing:0.8px; text-transform:uppercase;
+    color:var(--seal-red); border:1px solid var(--seal-red);
+    padding:1px 5px; margin-left:6px; white-space:nowrap;
+  }
+  .unit-name-cell .badge-stack{display:inline-flex; align-items:center; gap:0; flex-wrap:wrap;}
+
   @media (max-width:640px){
     .ledger{padding:30px 18px 26px;}
     thead th:nth-child(6), tbody td:nth-child(6){display:none;}
     .brand h1{font-size:19px;}
     .seal{width:56px; height:56px;}
     .seal .seal-num{font-size:14px;}
+    .enhancement-assign-row{flex-direction:column; align-items:stretch;}
+    .enhancement-assign-row select{width:100%;}
   }
 </style>
 </head>
@@ -758,6 +863,33 @@
         </select>
       </div>
     </div>
+
+    <details class="import army-rules-panel" id="armyRulesPanel">
+      <summary>Army Rules &middot; Enhancements</summary>
+      <div class="import-body">
+        <p style="font-size:13px; color:var(--text-soft); margin:0 0 14px; line-height:1.5;">Assign a battle formation, give your general a heroic trait, and hand out artefacts and boons. Options come from the faction rules JSON &mdash; import a <code>.rules.json</code> file in the Grimoire tab to populate them. Enhancement costs are added to your points total automatically.</p>
+        <div class="enhancement-row">
+          <label for="armyBattleFormation">Battle Formation</label>
+          <select id="armyBattleFormation"><option value="">— none —</option></select>
+          <div class="enhancement-effect" id="battleFormationEffect"></div>
+        </div>
+        <div class="enhancement-row">
+          <label for="armyHeroicTrait">Heroic Trait (assigned to the General)</label>
+          <select id="armyHeroicTrait"><option value="">— none —</option></select>
+          <div class="enhancement-effect" id="heroicTraitEffect"></div>
+        </div>
+        <div class="enhancement-row">
+          <label>Artefacts (assigned to Heroes)</label>
+          <div id="artefactRows"></div>
+          <button class="ghost small" id="addArtefactBtn" type="button">+ Add Artefact</button>
+        </div>
+        <div class="enhancement-row">
+          <label>Boons (for non-Hero units with the “boons” enhancement type)</label>
+          <div id="boonRows"></div>
+          <button class="ghost small" id="addBoonBtn" type="button">+ Add Boon</button>
+        </div>
+      </div>
+    </details>
 
     <details class="import">
       <summary>Paste-import a list</summary>
@@ -934,11 +1066,11 @@
     </div>
 
     <details class="import" style="margin-top:22px;" open>
-      <summary>Import units from JSON files</summary>
+      <summary>Import units &amp; faction rules from JSON files</summary>
       <div class="import-body">
-        <p>Point this at the files in your converter's <code>output/</code> folder &mdash; select as many as you like at once (desktop: ctrl/cmd-click or shift-click in the file dialog to multi-select several factions in one go). Each entry can have a <code>weapons</code> array &mdash; <code>[{"name":"...","models":"","attacks":"1","hit":"4","wound":"4","rend":"0","damage":"1"}]</code> &mdash; for units with more than one weapon profile. Old-style flat fields (<em>attacks, hit, wound, rend, damage</em>) still import fine and are treated as a single weapon. Entries matching an existing name + faction are updated in place, so it's safe to re-import after a battletome update.</p>
+        <p>Point this at the files in your converter's <code>output/</code> folder &mdash; select as many as you like at once (desktop: ctrl/cmd-click or shift-click in the file dialog to multi-select several factions in one go). Each entry can have a <code>weapons</code> array &mdash; <code>[{"name":"...","models":"","attacks":"1","hit":"4","wound":"4","rend":"0","damage":"1"}]</code> &mdash; for units with more than one weapon profile. Old-style flat fields (<em>attacks, hit, wound, rend, damage</em>) still import fine and are treated as a single weapon. <code>.rules.json</code> files (faction rules with battle formations, artefacts, heroic traits and boons) are detected automatically and power the Army Rules panel in the Order of Battle tab. Entries matching an existing name + faction are updated in place, so it's safe to re-import after a battletome update.</p>
         <div class="dropzone" id="grimDropzone" tabindex="0">
-          <div class="dropzone-label" id="dropzoneLabel">Drop JSON files here, or</div>
+          <div class="dropzone-label" id="dropzoneLabel">Drop unit or rules .json files here, or</div>
           <input type="file" id="grimFileInput" accept=".json,application/json" multiple hidden>
           <button class="ghost" id="grimFileBtn" type="button">Choose Files&hellip;</button>
         </div>
@@ -1061,7 +1193,13 @@
   }
 
   const STORAGE_KEY = 'muster-roll-data';
-  let state = { armyName: '', pointsLimit: 2000, alliance: '', faction: '', units: [] };
+  const FACTION_RULES_KEY = 'muster-roll-faction-rules';
+  let state = {
+    armyName: '', pointsLimit: 2000, alliance: '', faction: '', units: [],
+    generalUnitId: null,
+    armyOptions: { battleFormation: '', heroicTrait: '', artefacts: [], boons: [] }
+  };
+  let factionRules = {};
   let idCounter = 1;
 
   const rosterBody = $('rosterBody');
@@ -1088,6 +1226,11 @@
     if (ledgerEl) ledgerEl.style.setProperty('--roster-acc', meta ? meta.color : 'var(--gold)');
   }
 
+  function effectiveQty(u){
+    const base = Number(u.qty) || 0;
+    return u.reinforced ? base * 2 : base;
+  }
+
   function render(){
     $('armyName').value = state.armyName || '';
     $('pointsLimit').value = state.pointsLimit ?? '';
@@ -1095,37 +1238,85 @@
     $('rosterFaction').value = state.faction || '';
     updateBrand();
     applyRosterAllianceAccent();
+    pruneArmyOptions();
 
     rosterBody.innerHTML = '';
     emptyState.style.display = state.units.length ? 'none' : 'block';
 
-    let totalPts = 0, totalWounds = 0;
+    // Validate general: must exist and be a hero
+    const general = state.units.find(u => u.id === state.generalUnitId);
+    if (state.generalUnitId && (!general || !general.isHero)) state.generalUnitId = null;
 
-    state.units.forEach((u, i) => {
+    const heroes = state.units.filter(u => u.isHero && u.id !== state.generalUnitId);
+    const others = state.units.filter(u => !u.isHero && u.id !== state.generalUnitId);
+
+    let totalPts = 0, totalWounds = 0;
+    let displayIdx = 0;
+
+    function sectionHead(label){
+      const tr = document.createElement('tr');
+      tr.className = 'roster-section-head';
+      tr.innerHTML = `<td colspan="8">${escapeHtml(label)}</td>`;
+      rosterBody.appendChild(tr);
+    }
+
+    function renderUnitRow(u){
+      displayIdx++;
       const qty = Number(u.qty) || 0;
       const pts = Number(u.points) || 0;
       const w = Number(u.wounds) || 0;
-      const ptsTotal = qty * pts;
-      const woundsTotal = qty * w;
+      const effQty = effectiveQty(u);
+      const ptsTotal = effQty * pts;
+      const woundsTotal = effQty * w;
       totalPts += ptsTotal;
       totalWounds += woundsTotal;
 
       const dotStyle = u.alliance && ALLIANCE_META[u.alliance] ? ` style="--acc:${ALLIANCE_META[u.alliance].color}"` : '';
       const dot = u.alliance ? `<span class="alliance-dot"${dotStyle}></span>` : '';
+      const isGen = u.id === state.generalUnitId;
+      const heroBadge = u.isHero ? '<span class="role-badge hero">Hero</span>' : '';
+      const reinforcedBadge = u.reinforced ? '<span class="reinforced-badge">Reinforced</span>' : '';
+      const generalBadge = isGen ? '<span class="general-badge">★ General</span>' : '';
+
+      // qty is editable when not reinforced; static (derived) when reinforced
+      const qtyCell = u.reinforced
+        ? `<td class="num">${effQty}</td>`
+        : `<td class="num"><input class="num" type="number" min="0" value="${qty}" data-field="qty" data-id="${u.id}"></td>`;
+
+      let actions = '<div class="unit-actions-cell">';
+      if (u.canReinforce) {
+        actions += `<button class="reinforce-btn ${u.reinforced ? 'active' : ''}" data-reinforce="${u.id}" type="button">${u.reinforced ? 'Reinforced' : 'Reinforce'}</button>`;
+      }
+      if (u.isHero && !isGen) {
+        actions += `<button class="ghost small" data-makegeneral="${u.id}" type="button" title="Designate as General">Make General</button>`;
+      }
+      if (isGen) {
+        actions += `<button class="ghost small" data-removegeneral type="button">Remove General</button>`;
+      }
+      actions += `<button class="small danger" data-del="${u.id}" type="button" title="Remove unit">&times;</button></div>`;
 
       const tr = document.createElement('tr');
+      if (isGen) tr.className = 'is-general';
       tr.innerHTML = `
-        <td class="row-idx">${i + 1}</td>
-        <td><div class="unit-name-cell">${dot}<input type="text" value="${escapeAttr(u.name)}" data-field="name" data-id="${u.id}"></div></td>
-        <td class="num"><input class="num" type="number" min="0" value="${qty}" data-field="qty" data-id="${u.id}"></td>
+        <td class="row-idx">${displayIdx}</td>
+        <td><div class="unit-name-cell">${dot}<input type="text" value="${escapeAttr(u.name)}" data-field="name" data-id="${u.id}">${heroBadge}${reinforcedBadge}${generalBadge}</div></td>
+        ${qtyCell}
         <td class="num"><input class="num" type="number" min="0" value="${pts}" data-field="points" data-id="${u.id}"></td>
-        <td class="num">${ptsTotal}</td>
+        <td class="num" data-cell="ptsTotal">${ptsTotal}</td>
         <td class="num"><input class="num" type="number" min="0" value="${w}" data-field="wounds" data-id="${u.id}"></td>
-        <td class="num">${woundsTotal}</td>
-        <td class="del-cell"><button class="small danger" data-del="${u.id}" type="button">&times;</button></td>
+        <td class="num" data-cell="woundsTotal">${woundsTotal}</td>
+        <td class="del-cell">${actions}</td>
       `;
       rosterBody.appendChild(tr);
-    });
+    }
+
+    if (general) { sectionHead('General'); renderUnitRow(general); }
+    if (heroes.length) { sectionHead('Heroes'); heroes.forEach(renderUnitRow); }
+    if (others.length) { sectionHead('Units'); others.forEach(renderUnitRow); }
+
+    // Enhancement costs (artefacts, boons, etc.)
+    const enhCost = computeEnhancementCosts();
+    totalPts += enhCost;
 
     $('totalPoints').textContent = totalPts;
     $('totalWounds').textContent = totalWounds;
@@ -1141,6 +1332,153 @@
       seal.classList.add('ok');
     }
     $('sealNum').textContent = totalPts;
+
+    renderArmyRulesPanel();
+  }
+
+  function pruneArmyOptions(){
+    if (!state.armyOptions) state.armyOptions = { battleFormation:'', heroicTrait:'', artefacts:[], boons:[] };
+    const ao = state.armyOptions;
+    const heroIds = new Set(state.units.filter(u => u.isHero).map(u => u.id));
+    const unitIds = new Set(state.units.map(u => u.id));
+    if (Array.isArray(ao.artefacts)) {
+      ao.artefacts = ao.artefacts.filter(a => a && (!a.unitId || heroIds.has(a.unitId)));
+    } else { ao.artefacts = []; }
+    if (Array.isArray(ao.boons)) {
+      ao.boons = ao.boons.filter(b => b && (!b.unitId || unitIds.has(b.unitId)));
+    } else { ao.boons = []; }
+    if (typeof ao.battleFormation !== 'string') ao.battleFormation = '';
+    if (typeof ao.heroicTrait !== 'string') ao.heroicTrait = '';
+  }
+
+  function computeEnhancementCosts(){
+    const rules = getFactionRules();
+    if (!rules) return 0;
+    const ao = state.armyOptions;
+    let cost = 0;
+    if (ao.battleFormation && Array.isArray(rules.battleFormations)) {
+      const t = rules.battleFormations.find(x => x.name === ao.battleFormation);
+      if (t) cost += Number(t.cost) || 0;
+    }
+    if (ao.heroicTrait && Array.isArray(rules.heroicTraits)) {
+      const t = rules.heroicTraits.find(x => x.name === ao.heroicTrait);
+      if (t) cost += Number(t.cost) || 0;
+    }
+    (ao.artefacts || []).forEach(a => {
+      if (a.name && Array.isArray(rules.artefacts)) {
+        const t = rules.artefacts.find(x => x.name === a.name);
+        if (t) cost += Number(t.cost) || 0;
+      }
+    });
+    (ao.boons || []).forEach(b => {
+      if (b.name && Array.isArray(rules.boons)) {
+        const t = rules.boons.find(x => x.name === b.name);
+        if (t) cost += Number(t.cost) || 0;
+      }
+    });
+    return cost;
+  }
+
+  function enhancementOptionList(arr, includeCost, selectedName){
+    if (!Array.isArray(arr) || !arr.length) return '';
+    return arr.map(t => {
+      const c = includeCost && t.cost ? ' (' + t.cost + ')' : '';
+      const sel = (selectedName !== undefined && t.name === selectedName) ? ' selected' : '';
+      return `<option value="${escapeAttr(t.name)}"${sel}>${escapeHtml(t.name)}${c}</option>`;
+    }).join('');
+  }
+
+  function renderArmyRulesPanel(){
+    const rules = getFactionRules();
+    const bfSel = $('armyBattleFormation');
+    const htSel = $('armyHeroicTrait');
+    const bfEff = $('battleFormationEffect');
+    const htEff = $('heroicTraitEffect');
+    const artWrap = $('artefactRows');
+    const boonWrap = $('boonRows');
+    if (!bfSel) return; // not yet in DOM
+
+    if (!rules) {
+      const note = state.faction
+        ? 'No faction rules found for “' + escapeHtml(state.faction) + '”. Import a .rules.json file in the Grimoire tab.'
+        : 'Select a faction above, then import a .rules.json file in the Grimoire tab to populate options.';
+      bfSel.innerHTML = '<option value="">— no faction rules —</option>';
+      htSel.innerHTML = '<option value="">— no faction rules —</option>';
+      bfEff.textContent = '';
+      htEff.textContent = '';
+      artWrap.innerHTML = `<div class="enhancement-effect">${note}</div>`;
+      boonWrap.innerHTML = '';
+      return;
+    }
+
+    // Battle Formation
+    bfSel.innerHTML = '<option value="">— none —</option>' + enhancementOptionList(rules.battleFormations, true);
+    bfSel.value = state.armyOptions.battleFormation || '';
+    const bf = (rules.battleFormations || []).find(b => b.name === state.armyOptions.battleFormation);
+    bfEff.textContent = bf ? bf.effect : '';
+
+    // Heroic Trait
+    htSel.innerHTML = '<option value="">— none —</option>' + enhancementOptionList(rules.heroicTraits, true);
+    htSel.value = state.armyOptions.heroicTrait || '';
+    const ht = (rules.heroicTraits || []).find(t => t.name === state.armyOptions.heroicTrait);
+    htEff.textContent = ht ? ht.effect : '';
+
+    renderArtefactRows(rules);
+    renderBoonRows(rules);
+  }
+
+  function renderArtefactRows(rules){
+    const wrap = $('artefactRows');
+    if (!wrap) return;
+    const heroes = state.units.filter(u => u.isHero);
+    const ao = state.armyOptions;
+    if (!heroes.length) {
+      wrap.innerHTML = '<div class="enhancement-effect">No heroes in the roster. Add a hero unit to assign an artefact.</div>';
+      return;
+    }
+    if (!ao.artefacts.length) {
+      wrap.innerHTML = '<div class="enhancement-effect">No artefacts assigned yet.</div>';
+      return;
+    }
+    wrap.innerHTML = ao.artefacts.map((a, i) => {
+      const unitOpts = '<option value="">— choose hero —</option>' + heroes.map(h =>
+        `<option value="${escapeAttr(h.id)}" ${a.unitId === h.id ? 'selected' : ''}>${escapeHtml(h.name)}</option>`
+      ).join('');
+      const artOpts = '<option value="">— choose artefact —</option>' + enhancementOptionList(rules.artefacts, true, a.name);
+      const chosen = (rules.artefacts || []).find(t => t.name === a.name);
+      return `<div class="enhancement-assign-row">
+          <select data-artefact-unit="${i}">${unitOpts}</select>
+          <select data-artefact-name="${i}">${artOpts}</select>
+          <button class="ghost small remove-assign" data-artefact-remove="${i}" type="button">&times;</button>
+        </div>${chosen && chosen.effect ? `<div class="enhancement-effect">${escapeHtml(chosen.effect)}</div>` : ''}`;
+    }).join('');
+  }
+
+  function renderBoonRows(rules){
+    const wrap = $('boonRows');
+    if (!wrap) return;
+    const eligible = state.units.filter(u => !u.isHero && Array.isArray(u.enhancementTypes) && u.enhancementTypes.includes('boons'));
+    const ao = state.armyOptions;
+    if (!eligible.length) {
+      wrap.innerHTML = '<div class="enhancement-effect">No eligible units for boons (non-hero units with the “boons” enhancement type).</div>';
+      return;
+    }
+    if (!ao.boons.length) {
+      wrap.innerHTML = '<div class="enhancement-effect">No boons assigned yet.</div>';
+      return;
+    }
+    wrap.innerHTML = ao.boons.map((b, i) => {
+      const unitOpts = '<option value="">— choose unit —</option>' + eligible.map(u =>
+        `<option value="${escapeAttr(u.id)}" ${b.unitId === u.id ? 'selected' : ''}>${escapeHtml(u.name)}</option>`
+      ).join('');
+      const boonOpts = '<option value="">— choose boon —</option>' + enhancementOptionList(rules.boons, true, b.name);
+      const chosen = (rules.boons || []).find(t => t.name === b.name);
+      return `<div class="enhancement-assign-row">
+          <select data-boon-unit="${i}">${unitOpts}</select>
+          <select data-boon-name="${i}">${boonOpts}</select>
+          <button class="ghost small remove-assign" data-boon-remove="${i}" type="button">&times;</button>
+        </div>${chosen && chosen.effect ? `<div class="enhancement-effect">${escapeHtml(chosen.effect)}</div>` : ''}`;
+    }).join('');
   }
 
   async function save(){
@@ -1152,10 +1490,85 @@
     if (raw) {
       try {
         const parsed = JSON.parse(raw);
-        state = Object.assign({ armyName:'', pointsLimit:2000, alliance:'', faction:'', units:[] }, parsed);
+        state = Object.assign({
+          armyName:'', pointsLimit:2000, alliance:'', faction:'', units:[],
+          generalUnitId:null,
+          armyOptions:{ battleFormation:'', heroicTrait:'', artefacts:[], boons:[] }
+        }, parsed);
+        if (!state.armyOptions || typeof state.armyOptions !== 'object') {
+          state.armyOptions = { battleFormation:'', heroicTrait:'', artefacts:[], boons:[] };
+        }
+        ['artefacts','boons'].forEach(k => {
+          if (!Array.isArray(state.armyOptions[k])) state.armyOptions[k] = [];
+        });
+        if (state.armyOptions.battleFormation === undefined) state.armyOptions.battleFormation = '';
+        if (state.armyOptions.heroicTrait === undefined) state.armyOptions.heroicTrait = '';
+        if (state.generalUnitId === undefined) state.generalUnitId = null;
+        (state.units || []).forEach(u => {
+          if (u.reinforced === undefined) u.reinforced = false;
+          if (u.isHero === undefined) u.isHero = false;
+          if (u.canReinforce === undefined) u.canReinforce = false;
+          if (!Array.isArray(u.categories)) u.categories = [];
+          if (!Array.isArray(u.enhancementTypes)) u.enhancementTypes = [];
+        });
       } catch(e) { /* ignore corrupt data */ }
     }
+    pruneArmyOptions();
     render();
+    await loadFactionRules();
+  }
+
+  async function loadFactionRules(){
+    const raw = await storageGet(FACTION_RULES_KEY);
+    if (raw) {
+      try { factionRules = JSON.parse(raw) || {}; } catch(e) { factionRules = {}; }
+    }
+    // Re-render fully so enhancement costs are included in the points total
+    render();
+  }
+
+  async function saveFactionRules(){
+    await storageSet(FACTION_RULES_KEY, JSON.stringify(factionRules));
+  }
+
+  function getFactionRules(){
+    if (!state.faction) return null;
+    const norm = normalizeFaction(state.faction);
+    for (const k in factionRules){
+      if (normalizeFaction(k) === norm) return factionRules[k];
+    }
+    return factionRules[state.faction] || null;
+  }
+
+  function isFactionRulesObject(obj){
+    return obj && typeof obj === 'object' && !Array.isArray(obj) &&
+      obj.faction && !obj.name &&
+      (obj.battleFormations || obj.artefacts || obj.heroicTraits || obj.boons || obj.battleTraits || obj.spellLores || obj.prayerLores);
+  }
+
+  function mergeFactionRules(obj){
+    if (!isFactionRulesObject(obj)) return false;
+    factionRules[obj.faction] = obj;
+    return true;
+  }
+
+  function refreshTotals(){
+    let totalPts = 0, totalWounds = 0;
+    state.units.forEach(u => {
+      const effQty = effectiveQty(u);
+      totalPts += effQty * (Number(u.points) || 0);
+      totalWounds += effQty * (Number(u.wounds) || 0);
+    });
+    totalPts += computeEnhancementCosts();
+    $('totalPoints').textContent = totalPts;
+    $('totalWounds').textContent = totalWounds;
+    const limit = Number(state.pointsLimit) || 0;
+    const seal = $('seal');
+    seal.classList.remove('ok','near','over');
+    if (limit > 0 && totalPts > limit) seal.classList.add('over');
+    else if (limit > 0 && totalPts >= limit * 0.9) seal.classList.add('near');
+    else seal.classList.add('ok');
+    $('sealNum').textContent = totalPts;
   }
 
   rosterBody.addEventListener('input', (e) => {
@@ -1166,16 +1579,45 @@
     const unit = state.units.find(u => u.id === id);
     if (!unit) return;
     unit[field] = t.value;
-    render();
+    // Update derived cells in this row without a full re-render (keeps focus)
+    const tr = t.closest('tr');
+    if (tr) {
+      const effQty = effectiveQty(unit);
+      const pts = Number(unit.points) || 0;
+      const w = Number(unit.wounds) || 0;
+      const ptsCell = tr.querySelector('[data-cell="ptsTotal"]');
+      const wndCell = tr.querySelector('[data-cell="woundsTotal"]');
+      if (ptsCell) ptsCell.textContent = effQty * pts;
+      if (wndCell) wndCell.textContent = effQty * w;
+    }
+    refreshTotals();
     save();
   });
 
   rosterBody.addEventListener('click', (e) => {
+    const reinforceId = e.target.getAttribute('data-reinforce');
+    if (reinforceId) {
+      const u = state.units.find(x => x.id === reinforceId);
+      if (u) { u.reinforced = !u.reinforced; render(); save(); }
+      return;
+    }
+    if (e.target.hasAttribute('data-makegeneral')) {
+      state.generalUnitId = e.target.getAttribute('data-makegeneral');
+      render(); save();
+      return;
+    }
+    if (e.target.hasAttribute('data-removegeneral')) {
+      state.generalUnitId = null;
+      render(); save();
+      return;
+    }
     const delId = e.target.getAttribute('data-del');
     if (delId) {
       state.units = state.units.filter(u => u.id !== delId);
-      render();
-      save();
+      if (state.generalUnitId === delId) state.generalUnitId = null;
+      state.armyOptions.artefacts = (state.armyOptions.artefacts || []).filter(a => a.unitId !== delId);
+      state.armyOptions.boons = (state.armyOptions.boons || []).filter(b => b.unitId !== delId);
+      render(); save();
     }
   });
 
@@ -1197,19 +1639,69 @@
     updateBrand();
     applyRosterAllianceAccent();
     populateGrimPickers();
+    render();
     save();
   });
 
   $('rosterFaction').addEventListener('change', (e) => {
     state.faction = e.target.value;
     populateGrimPickers();
+    render();
     save();
   });
 
   $('addRowBtn').addEventListener('click', () => {
-    state.units.push({ id:newId(), name:'New Unit', qty:1, points:0, wounds:0 });
+    state.units.push({ id:newId(), name:'New Unit', qty:1, points:0, wounds:0, reinforced:false, isHero:false, canReinforce:false, categories:[], enhancementTypes:[] });
     render();
     save();
+  });
+
+  // ===== Army Rules Panel handlers =====
+  $('armyBattleFormation').addEventListener('change', (e) => {
+    state.armyOptions.battleFormation = e.target.value;
+    render();
+    save();
+  });
+  $('armyHeroicTrait').addEventListener('change', (e) => {
+    state.armyOptions.heroicTrait = e.target.value;
+    render();
+    save();
+  });
+  $('addArtefactBtn').addEventListener('click', () => {
+    state.armyOptions.artefacts.push({ unitId:'', name:'' });
+    render();
+    save();
+  });
+  $('addBoonBtn').addEventListener('click', () => {
+    state.armyOptions.boons.push({ unitId:'', name:'' });
+    render();
+    save();
+  });
+  $('artefactRows').addEventListener('change', (e) => {
+    const t = e.target;
+    const ui = t.getAttribute('data-artefact-unit');
+    const ni = t.getAttribute('data-artefact-name');
+    if (ui !== null) state.armyOptions.artefacts[Number(ui)].unitId = t.value;
+    if (ni !== null) state.armyOptions.artefacts[Number(ni)].name = t.value;
+    render();
+    save();
+  });
+  $('artefactRows').addEventListener('click', (e) => {
+    const ri = e.target.getAttribute('data-artefact-remove');
+    if (ri !== null) { state.armyOptions.artefacts.splice(Number(ri), 1); render(); save(); }
+  });
+  $('boonRows').addEventListener('change', (e) => {
+    const t = e.target;
+    const ui = t.getAttribute('data-boon-unit');
+    const ni = t.getAttribute('data-boon-name');
+    if (ui !== null) state.armyOptions.boons[Number(ui)].unitId = t.value;
+    if (ni !== null) state.armyOptions.boons[Number(ni)].name = t.value;
+    render();
+    save();
+  });
+  $('boonRows').addEventListener('click', (e) => {
+    const ri = e.target.getAttribute('data-boon-remove');
+    if (ri !== null) { state.armyOptions.boons.splice(Number(ri), 1); render(); save(); }
   });
 
   function parseImport(text){
@@ -1255,7 +1747,7 @@
     parsed.forEach(u => {
       const qty = Math.max(1, Number(u.qty) || 1);
       const perModelPts = Math.round((Number(u.points || 0) / qty) * 100) / 100;
-      state.units.push({ id:newId(), name:u.name, qty, points:perModelPts, wounds:0 });
+      state.units.push({ id:newId(), name:u.name, qty, points:perModelPts, wounds:0, reinforced:false, isHero:false, canReinforce:false, categories:[], enhancementTypes:[] });
     });
     $('importStatus').textContent = `Imported ${parsed.length} unit${parsed.length === 1 ? '' : 's'}. Fill in wounds per model as needed.`;
     $('importText').value = '';
@@ -1546,7 +2038,15 @@
     const models = Math.max(1, Number(entry.models) || 1);
     const totalPts = Number(entry.points) || 0;
     const perModelPts = Math.round((totalPts / models) * 100) / 100;
-    return { id:newId(), name:entry.name, qty:models, points:perModelPts, wounds:entry.wounds || 0, alliance:effectiveAlliance(entry) };
+    return {
+      id:newId(), name:entry.name, qty:models, points:perModelPts, wounds:entry.wounds || 0,
+      alliance:effectiveAlliance(entry),
+      reinforced:false,
+      isHero:!!entry.isHero,
+      canReinforce:!!entry.canReinforce,
+      categories:Array.isArray(entry.categories) ? entry.categories.slice() : [],
+      enhancementTypes:Array.isArray(entry.enhancementTypes) ? entry.enhancementTypes.slice() : []
+    };
   }
 
   async function saveGrimoire(){
@@ -1670,7 +2170,7 @@
       <div class="grim-entry" data-id="${e.id}" style="--acc:${meta.color}">
         <div class="grim-entry-head">
           <span class="name">${escapeHtml(e.name) || 'Unnamed unit'}</span>
-          <span class="meta">${e.points ? e.points + ' pts' : ''}</span>
+          <span class="meta">${e.points ? e.points + ' pts' : ''}${e.isHero ? ' · HERO' : ''}${e.canReinforce ? ' · Reinforceable' : ''}</span>
         </div>
         <div class="grim-stats">${statLine(e)}</div>
         ${weaponsSummaryHtml(e)}
@@ -1807,6 +2307,11 @@
       if (!item || !item.name) return;
       const entry = {};
       grimFieldIds.forEach(f => { entry[f] = item[f] !== undefined ? String(item[f]) : ''; });
+      // Carry over new data-model fields from the updated converter
+      entry.isHero = !!item.isHero;
+      entry.canReinforce = !!item.canReinforce;
+      entry.categories = Array.isArray(item.categories) ? item.categories.slice() : [];
+      entry.enhancementTypes = Array.isArray(item.enhancementTypes) ? item.enhancementTypes.slice() : [];
       if (Array.isArray(item.weapons) && item.weapons.length) {
         entry.weapons = item.weapons.map(w => ({
           name: w.name || '',
@@ -1877,11 +2382,21 @@
       status.textContent = 'Could not parse that as JSON — check for a stray comma or missing bracket.';
       return;
     }
-    const { added, updated } = mergeGrimoireEntries(arr);
-    status.textContent = `Added ${added}, updated ${updated} entr${(added + updated) === 1 ? 'y' : 'ies'}.`;
+    // Separate faction-rules objects from unit entries
+    const unitArr = [];
+    let rulesCount = 0;
+    arr.forEach(item => {
+      if (mergeFactionRules(item)) rulesCount++;
+      else unitArr.push(item);
+    });
+    const { added, updated } = mergeGrimoireEntries(unitArr);
+    let msg = `Added ${added}, updated ${updated} entr${(added + updated) === 1 ? 'y' : 'ies'}.`;
+    if (rulesCount) msg += ` ${rulesCount} faction rules set${rulesCount === 1 ? '' : 's'} imported.`;
+    status.textContent = msg;
     document.getElementById('grimJsonText').value = '';
     renderGrimoire();
     saveGrimoire();
+    if (rulesCount) { saveFactionRules(); renderArmyRulesPanel(); }
   });
 
   document.getElementById('grimoireList').addEventListener('click', (e) => {
@@ -1970,14 +2485,26 @@
     const status = document.getElementById('grimFileStatus');
     if (!files.length) { status.textContent = 'No .json files found in that selection.'; return; }
     status.textContent = `Reading ${files.length} file${files.length === 1 ? '' : 's'}...`;
-    let totalAdded = 0, totalUpdated = 0;
+    let totalAdded = 0, totalUpdated = 0, rulesImported = 0;
     const errors = [];
     for (const file of files) {
       try {
         const text = await file.text();
-        let arr = JSON.parse(text);
+        let data = JSON.parse(text);
+        // A single faction-rules object (typical for *.rules.json files)
+        if (mergeFactionRules(data)) {
+          rulesImported++;
+          continue;
+        }
+        let arr = data;
         if (!Array.isArray(arr)) arr = [arr];
-        const { added, updated } = mergeGrimoireEntries(arr);
+        // Also handle arrays that mix rules objects and unit entries
+        const unitArr = [];
+        arr.forEach(item => {
+          if (mergeFactionRules(item)) rulesImported++;
+          else unitArr.push(item);
+        });
+        const { added, updated } = mergeGrimoireEntries(unitArr);
         totalAdded += added; totalUpdated += updated;
       } catch (err) {
         errors.push(file.name);
@@ -1985,7 +2512,10 @@
     }
     renderGrimoire();
     saveGrimoire();
-    let msg = `Imported ${files.length} file${files.length === 1 ? '' : 's'} — ${totalAdded} added, ${totalUpdated} updated.`;
+    if (rulesImported) { saveFactionRules(); renderArmyRulesPanel(); }
+    let msg = `Imported ${files.length} file${files.length === 1 ? '' : 's'} — ${totalAdded} added, ${totalUpdated} updated`;
+    if (rulesImported) msg += `, ${rulesImported} faction rules set${rulesImported === 1 ? '' : 's'}`;
+    msg += '.';
     if (errors.length) msg += ` Could not read: ${errors.join(', ')}.`;
     status.textContent = msg;
     grimFileInput.value = '';

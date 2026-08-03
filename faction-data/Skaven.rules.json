@@ -1,0 +1,177 @@
+{
+  "faction": "Skaven",
+  "battleTraits": [
+    {
+      "name": "Too Quick to Hit-hit",
+      "effect": "Too Quick to Hit-hit: No mortal damage is inflicted on friendly Skaven Infantry and Cavalry units by Retreat abilities."
+    },
+    {
+      "name": "The Lurking Vermintide",
+      "effect": "The Lurking Vermintide (Deployment Phase): Set up that unit in reserve in the tunnels below. It has now been deployed."
+    },
+    {
+      "name": "Splinters of the Vermindoom",
+      "effect": "Splinters of the Vermindoom (Once Per Battle Round (Army), Start of Battle Round): Set up a Gnawhole on the battlefield more than 9\" from all enemy units, more than 3\" from all objectives and more than 1\" from all other terrain features."
+    },
+    {
+      "name": "Always Three Clawsteps Ahead",
+      "effect": "Always Three Clawsteps Ahead (Once Per Turn (Army), Enemy Hero Phase): That unit can use the 'Normal Move' ability as if it were your movement phase."
+    },
+    {
+      "name": "Gnawhole Ambush",
+      "effect": "Gnawhole Ambush (Your Movement Phase): Set up that unit wholly within 6\" of a friendly Gnawhole and more than 9\" from all enemy units."
+    }
+  ],
+  "artefacts": [
+    {
+      "name": "Warpstone Charm",
+      "cost": 0,
+      "effect": "Warpstone Charm: Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll a dice. On a 3+, subtract 1 from save rolls for the target for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Relics of Ruin"
+    },
+    {
+      "name": "Skavenbrew",
+      "cost": 0,
+      "effect": "Skavenbrew: Once Per Battle, Any Combat Phase Pick a friendly non-Hero Skaven Infantry unit wholly within 13\" of this unit to be the target. Inflict D3 mortal damage on the target. Then, add 1 to the Attacks characteristic of the target's melee weapons for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Relics of Ruin"
+    },
+    {
+      "name": "Foulhide",
+      "cost": 0,
+      "effect": "Foulhide: End of Any Turn Heal (D3) this unit.",
+      "restrictions": [],
+      "groupName": "Relics of Ruin"
+    }
+  ],
+  "heroicTraits": [
+    {
+      "name": "Masterclan Connections",
+      "cost": 0,
+      "effect": "Masterclan Connections: Reaction: You declared a Spell or Unbind ability for a visible Skaven unit wholly within 13\" of this unit Add D3 to that casting roll or unbinding roll.",
+      "restrictions": [],
+      "groupName": "Devious Machinations"
+    },
+    {
+      "name": "Master of the Swarm",
+      "cost": 20,
+      "effect": "Master of the Swarm: Each time an ability returns 1 or more slain models to a friendly Skaven unit wholly within 13\" of this unit, after that ability has been resolved, you can return 1 additional slain model to it.",
+      "restrictions": [],
+      "groupName": "Devious Machinations"
+    },
+    {
+      "name": "Essence of the Gnaw",
+      "cost": 20,
+      "effect": "Essence of the Gnaw: Any Combat Phase Pick another visible friendly Skaven unit wholly within 13\" of this unit and in combat to be the target. For the rest of the turn, this unit has Strike-first and the target has Strike-last.",
+      "restrictions": [],
+      "groupName": "Devious Machinations"
+    },
+    {
+      "name": "Short-tempered",
+      "cost": 0,
+      "effect": "Short-tempered: Add 1 to run rolls and charge rolls for friendly Skaven units while they are wholly within 13\" of this unit.",
+      "restrictions": [],
+      "groupName": "Devious Machinators"
+    },
+    {
+      "name": "Scurry Away",
+      "cost": 0,
+      "effect": "Scurry Away: Any Combat Phase If this unit is in combat, roll a dice. On a 3+, this unit can immediately use the 'Retreat' ability as if it were your movement phase.",
+      "restrictions": [],
+      "groupName": "Devious Machinators"
+    },
+    {
+      "name": "Skilled Manipulator",
+      "cost": 0,
+      "effect": "Skilled Manipulator: While this unit is within the combat range of a friendly non-Hero Skaven Infantry unit:\n• This unit has Ward (4+).\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly non-Hero Skaven Infantry unit within this unit's combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).",
+      "restrictions": [],
+      "groupName": "Devious Machinators"
+    },
+    {
+      "name": "Fleshmeddler",
+      "cost": 0,
+      "effect": "Fleshmeddler: Your Hero Phase Pick a friendly Moulder unit wholly within 13\" of this unit to be the target. Pick 1 of the target's melee weapons. Add 1 to the Rend characteristic of that weapon for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Ruinous Realm-Gnawers"
+    },
+    {
+      "name": "Devious Underling",
+      "cost": 0,
+      "effect": "Devious Underling: Deployment Phase Pick another friendly Skaven Hero on the battlefield with a Health characteristic that equals or exceeds this unit's Health characteristic to be the target. For the rest of the battle:\n• While the target has not been slain, friendly Skaven Infantry units have Ward (6+) while they are wholly within 13\" of this unit.\n• Once the target has been slain, add 2 to charge rolls for friendly Skaven Infantry units while they are wholly within 13\" of this unit.",
+      "restrictions": [],
+      "groupName": "Ruinous Realm-Gnawers"
+    },
+    {
+      "name": "Pit Tinkerer",
+      "cost": 0,
+      "effect": "Pit Tinkerer: You can re-roll the random characteristic rolls for the Move characteristic of friendly Skryre War Machines while they are wholly within 13\" of this unit. In addition, each time a friendly Skryre War Machine wholly within 18\" of this unit uses the 'Rolling Doom' or 'Whirling Doom' ability, add 1 to the amount of mortal damage inflicted, if any.",
+      "restrictions": [],
+      "groupName": "Ruinous Realm-Gnawers"
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Warpcog Convocation",
+      "cost": 0,
+      "effect": "Skryre Prototypes: Once Per Turn (Army), Your Shooting Phase Pick up to 3 friendly Skryre units to be the targets. Roll a dice for each target and apply the corresponding effect:\n1 *Kaboom!:* Inflict D3 mortal damage on the target.\n2-5 *More Power!:* Add 1 to wound rolls for the target's shooting attacks for the rest of the turn.\n6 *More-more Power!:* In addition to the effect of 'More Power!', add 1 to the Rend characteristic of the target's ranged weapons for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Skaven"
+    },
+    {
+      "name": "Fleshmeld Menagerie",
+      "cost": 0,
+      "effect": "Prized Creations: Once Per Turn (Army), Your Hero Phase Pick up to 3 friendly non-Hero Moulder units to be the targets. Roll a dice for each target and apply the corresponding effect:\n1-2 *Self-destructive Fury:* Inflict D3 mortal damage on the target.\n3-4 *Rabid Infusion:* Add 1 to the Attacks characteristic of the target's melee weapons until the start of your next turn.\n5-6 *Blinded by Frenzy:* In addition to the effect of 'Rabid Infusion', the target has Ward (5+) until the start of your next turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Skaven"
+    },
+    {
+      "name": "Virulent Procession",
+      "cost": 0,
+      "effect": "Corrupted Earth: Once Per Turn (Army), End of Any Turn Pick up to 3 friendly Pestilens units that are in combat to be the targets. For each target:\n• Make a pile-in move.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Skaven"
+    },
+    {
+      "name": "Claw-horde",
+      "cost": 0,
+      "effect": "Claw-picked: Once Per Turn (Army), Your Combat Phase Pick up to 3 friendly Verminus units that charged this turn to be the targets. Add 1 to the Rend characteristic of the targets' melee weapons for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Skaven"
+    },
+    {
+      "name": "Envoys of the Deepengnaw",
+      "cost": 0,
+      "effect": "Will of the Horned Rat: While a friendly Skaven Daemon is within the combat range of a friendly non-Hero Skaven Infantry unit:\n• That Skaven Daemon has Ward (4+).\n• Each time you make a successful ward roll for that Skaven Daemon, allocate 1 mortal damage on a friendly non-Hero Skaven Infantry unit within that unit's combat range after the damage sequence for that unit has been resolved (ward rolls cannot be made for these damage points).",
+      "restrictions": [],
+      "groupName": "Battle Formations: Skaven"
+    },
+    {
+      "name": "Gathering of the Clans",
+      "cost": 0,
+      "effect": "Backstabbing Allies: Once Per Turn (Army), Reaction: You declared the 'Redeploy' command for a friendly Skaven unit Pick up to 2 other friendly Skaven units that are not in combat and are wholly within 13\"\nof the unit using the 'Redeploy' command to be the targets. Each target must have at least one of the following keywords: Verminus, Skryre, Moulder, Pestilens, Eshin. After that 'Redeploy' command has been resolved, each of the targets can immediately use the 'Redeploy' command in an order of your choice without any command points being spent.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Skaven"
+    },
+    {
+      "name": "Kill-pack",
+      "cost": 0,
+      "effect": "Scurry-flee!: Once Per Turn (Army), Deployment Phase Pick an enemy Hero to be the target. For the rest of the battle, if the target has been destroyed, add 2\" to the Move characteristic of friendly Eshin units.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Skaven"
+    }
+  ],
+  "boons": [],
+  "spellLores": [
+    {
+      "name": "Lore of Ruin",
+      "effect": ""
+    }
+  ],
+  "prayerLores": [
+    {
+      "name": "Noxious Prayers",
+      "effect": ""
+    }
+  ]
+}

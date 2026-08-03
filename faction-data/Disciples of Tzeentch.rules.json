@@ -1,0 +1,177 @@
+{
+  "faction": "Disciples of Tzeentch",
+  "battleTraits": [
+    {
+      "name": "Eldritch Illusions",
+      "effect": "Eldritch Illusions (Once Per Turn (Army), Deployment Phase): Remove the targets from the battlefield and set them up in reserve masked by illusion.\nFriendly units that are masked by illusion are destroyed at the end of the fifth battle round and not at the start of the fourth battle round."
+    },
+    {
+      "name": "All Part of the Plan",
+      "effect": "All Part of the Plan: You start the battle with 0 fate points, Gain 1 fate point each time:\n• You lose the priority toll.\n• A spell cast by a friendly Disciples of Tzeentch unit is unbound.\n• A friendly Disciples of Tzeentch unit miscasts a spell.\n• Your opponent gains control of an objective that you controlled at the start of the turn.\n• A friendly Argent Shard is demolished."
+    },
+    {
+      "name": "Smoke and Mirrors",
+      "effect": "Smoke and Mirrors (Once Per Turn (Army), Any Hero Phase): Set up the substitute wholly within 6\" of the target and not in combat. Then, remove the target from the battlefield and set up in reserve masked by illusion."
+    },
+    {
+      "name": "Silver Simulacrum",
+      "effect": "Silver Simulacrum (Once Per Battle (Army), Deployment Phase): If there is a friendly Argent Shard on the battlefield, you can set up 1 additional Argent Shard on the battlefield. It must be set up wholly within friendly territory and more than 3\" from all objectives and other terrain features.\nDesigner's Note: *The original Argent Shard is set up in Step 1 of the deployment phase using the 'Deploy Faction Terrain' ability. This ability allows you to set up a second such terrain feature and is used in Step 3 of the deployment phase, after armies have been deployed.*"
+    },
+    {
+      "name": "Destined to Serve",
+      "effect": "Destined to Serve (Passive): Before allocating damage points to a friendly Disciples of Tzeentch unit, you can spend any number of fate points. For each fate point you spend, remove 1 damage point in that unit's damage pool."
+    },
+    {
+      "name": "Destined Arcana",
+      "effect": "Destined Arcana (Reaction: You declared a Spell ability for a Disciples of Tzeentch unit): Spend any number of fate points. For each fate point you spend, add 1 to the casting roll for that spell."
+    },
+    {
+      "name": "Destined for Battle",
+      "effect": "Destined for Battle (Reaction: You declared a Charge ability for a Disciples of Tzeentch unit in your turn): Spend any number of fate points. For each fate point you spend, add 1 to the charge roll for that Charge ability."
+    }
+  ],
+  "artefacts": [
+    {
+      "name": "Tome of Scorched Insight",
+      "cost": 0,
+      "effect": "Tome of Scorched Insight: Reaction: You declared a non-Summon Spell ability for this unit Change the casting roll for that spell to a value of 12 that cannot be modified. That spell cannot be unbound and this unit cannot use that Spell ability again for the rest of the battle.",
+      "restrictions": [],
+      "groupName": "Fated Artefacts"
+    },
+    {
+      "name": "The Searing Eye",
+      "cost": 0,
+      "effect": "The Searing Eye: Reaction: You declared a Spell ability for a Disciples of Tzeentch unit wholly within 12\" of this unit Spend 1 rage dice. If your opponent's fury level is lower than yours, they must increase their fury level by 1, to a maximum of 7.\nThen, roll a dice. If the roll is the same as any of the dice in the casting roll, that spell is miscast. Otherwise, add the roll to the casting roll.",
+      "restrictions": [],
+      "groupName": "Fated Artefacts"
+    },
+    {
+      "name": "The Five Verses of Volarian",
+      "cost": 0,
+      "effect": "The Five Verses of Volarian: This unit has a Move characteristic of 14\" and has Fly.",
+      "restrictions": [],
+      "groupName": "Fated Artefacts"
+    },
+    {
+      "name": "Kairic Tome",
+      "cost": 20,
+      "effect": "Kairic Tome: Reaction: You declared a Spell ability for a Disciples of Tzeentch unit wholly within 6\" of this unit Add 1 to or subtract 1 form the casting roll for that spell. This unit can use this ability more than once per phase but only once per Spell ability.",
+      "restrictions": [],
+      "groupName": "Fated Artefacts"
+    },
+    {
+      "name": "Fate Slicer",
+      "cost": 10,
+      "effect": "Fate Slicer: End of Any Turn Gain 1 fate point if any models were slain by this unit this turn.",
+      "restrictions": [],
+      "groupName": "Fated Artefacts"
+    },
+    {
+      "name": "Cloaked in Wyrdflame",
+      "cost": 0,
+      "effect": "Cloaked in Wyrdflame: Subtract 1 from wound rolls for attacks that target this unit.",
+      "restrictions": [],
+      "groupName": "Fated Artefacts"
+    },
+    {
+      "name": "Arcane Siphon",
+      "cost": 0,
+      "effect": "Arcane Siphon: Once Per Turn (Army), Your Hero Phase Pick a visible Manifestation (friendly or enemy) that was not set up this turn and is within 12\" of this unit to be the target. Roll a dice. On a 3+:\n• The target is banished.\n• Heal (X) this unit, where X is the target's Health characteristic.",
+      "restrictions": [],
+      "groupName": "Esoteric Treasures"
+    },
+    {
+      "name": "Mutating Blade",
+      "cost": 0,
+      "effect": "Mutating Blade: Deployment Phase Pick 1 of this unit's melee weapons. That weapon's Attacks characteristic is 2D6 for the rest of the battle.",
+      "restrictions": [],
+      "groupName": "Esoteric Treasures"
+    },
+    {
+      "name": "Spell-Catcher Amulet",
+      "cost": 0,
+      "effect": "Spell-Catcher Amulet: Once Per Turn (Army), Your Hero Phase This unit can use this ability if any enemy Manifestations were banished this phase. This unit can use a Summon ability from the manifestation lore you picked during army composition. That Summon ability does not count towards the total number of Spell or Banish abilities this unit can use this phase.",
+      "restrictions": [],
+      "groupName": "Esoteric Treasures"
+    }
+  ],
+  "heroicTraits": [
+    {
+      "name": "Silver Summoner",
+      "cost": 0,
+      "effect": "Silver Summoner: Your Movement Phase Pick a friendly non-Warflock Arcanite unit that has been destroyed to be the target. Set up a replacement unit with half the number of models from the target unit (rounding up) more than 9\" away from all enemy units and wholly within 12\" of a friendly Argent Shard that is visible to this unit.",
+      "restrictions": [],
+      "groupName": "Champions of Destiny"
+    },
+    {
+      "name": "Grand Illusionist",
+      "cost": 0,
+      "effect": "Grand Illusionist: Any Hero Phase If this unit was set up this turn, it can move D3\". That move cannot pass through or end within the combat range of an enemy unit.",
+      "restrictions": [],
+      "groupName": "Champions of Destiny"
+    },
+    {
+      "name": "Devolving Aura",
+      "cost": 0,
+      "effect": "Devolving Aura: Any Hero Phase Pick a visible enemy unit within 12\" of this unit to be the target. Roll a dice. Add 1 to the roll if any damage points were allocated to the target this phase. On a 3+, the target has a maximum control score of 1 until the start of your next turn.",
+      "restrictions": [],
+      "groupName": "Champions of Destiny"
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Fated Blades",
+      "cost": 0,
+      "effect": "Cometh the Hour: If you make a charge roll of 9+ for a friendly Disciples of Tzeentch unit, add 1 to the Attacks characteristic of that unit's melee weapons for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Disciples of Tzeentch"
+    },
+    {
+      "name": "Malevolent Schemers",
+      "cost": 0,
+      "effect": "Inevitable Ending: Once Per Turn (Army), Start of Any Turn Pick a unit (friendly or enemy) to be the target. If the target is destroyed this turn, gain 1 fate point.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Disciples of Tzeentch"
+    },
+    {
+      "name": "Denizens of the Silver Tower",
+      "cost": 0,
+      "effect": "Twist of Fate: Each time a friendly Disciples of Tzeentch unit uses an ability that requires you to spend 1 or more fate points, after that ability has been resoled, roll a dice. On a 4+, gain 1 fate point.\nIf you remove 1 or more damage points from the damage pool of a friendly Disciples of Tzeentch unit as a result of the 'Destined to Serve' ability, after the damage sequence for that unit has been resolved, roll a dice. On a 4+, gain 1 fate point.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Disciples of Tzeentch"
+    },
+    {
+      "name": "Mutants and Mad Things",
+      "cost": 0,
+      "effect": "Hideous Unpredictability: Once Per Turn (Army), Your Movement Phase Pick a friendly unit that is masked by illusion to be the target. Set up the target wholly within 6\" of a battlefield edge and more than 9\" from all enemy units.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Disciples of Tzeentch"
+    },
+    {
+      "name": "Masters of Fate",
+      "cost": 0,
+      "effect": "Symbiotic Madness: Friendly Arcanite units' melee weapons have Crit (2 Hits) while they are wholly within 12\" of a friendly Disciples of Tzeentch Daemon unit.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Disciples of Tzeentch"
+    },
+    {
+      "name": "Spellweaver Coven",
+      "cost": 0,
+      "effect": "Sorcerers of War: Once Per Turn (Army), Your Combat Phase Pick a friendly Disciples of Tzeentch Wizard that is in combat to be the target. The target can use a non-Summon Spell ability as if it were your hero phase, but only the caster or enemy units in combat with the caster can be picked to be the targets of that Spell ability.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Disciples of Tzeentch"
+    }
+  ],
+  "boons": [],
+  "spellLores": [
+    {
+      "name": "Lore of Fate",
+      "effect": ""
+    },
+    {
+      "name": "Lore of Change",
+      "effect": ""
+    }
+  ],
+  "prayerLores": []
+}
