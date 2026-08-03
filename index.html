@@ -862,7 +862,7 @@
   }
   #faction-icon-left, #faction-icon-right{
     position:fixed; top:50%; transform:translateY(-50%);
-    z-index:0; pointer-events:none;
+    z-index:1; pointer-events:none;
     height:50vh; width:auto;
     opacity:0; transition:opacity 1.5s ease;
     mix-blend-mode:normal;
@@ -871,7 +871,7 @@
   }
   #faction-icon-left{ left:2vw; }
   #faction-icon-right{ right:2vw; }
-  body > *:not(#faction-bg):not(#faction-bg-img):not(#faction-icon-left):not(#faction-icon-right){ position:relative; z-index:1; }
+  body > *:not(#faction-bg):not(#faction-bg-img):not(#faction-icon-left):not(#faction-icon-right){ position:relative; z-index:2; }
 </style>
 </head>
 <body>
