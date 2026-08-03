@@ -28,6 +28,26 @@
       "Chaff Launcher: The bearer has the Smoke keyword.",
       "Command Uplink: Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
     ],
+    "weapons": [
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Cognis heavy stubber array",
+        "type": "Ranged",
+        "attacks": "9",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -59,6 +79,44 @@
       "Chaff Launcher: The bearer has the Smoke keyword.�",
       "Command Uplink: Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
     ],
+    "weapons": [
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Cognis heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy phosphor blaster",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin cognis lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -89,6 +147,26 @@
       "Aerial Deployment: In your first Movement phase, this unit can make an ingress move.",
       "Chaff Launcher: The bearer has the Smoke keyword.�",
       "Command Uplink: Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
+    ],
+    "weapons": [
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Cognis heavy stubber array",
+        "type": "Ranged",
+        "attacks": "9",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -124,6 +202,44 @@
       "Self-repair Mechanisms: At the start of your Command phase, this model regains up to D3 lost wounds.",
       "Supreme Commander: If this model is in your army, it must be your **^^Warlord^^**."
     ],
+    "weapons": [
+      {
+        "name": "Arc Scourge",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Cawl's Omnissian axe",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Mechadendrite hive",
+        "type": "Melee",
+        "attacks": "2D6",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Solar atomiser",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "14",
+        "ap": "-4",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -152,6 +268,26 @@
     "abilities": [
       "Electro-shock: In your Shooting phase, after this unit has shot, select one enemy unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**) hit by one or more of those attacks. Until the end of your opponent’s next tur"
     ],
+    "weapons": [
+      {
+        "name": "Electrostatic gauntlets",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Electrostatic gauntlets",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -179,6 +315,17 @@
     ],
     "abilities": [
       "Electro-Infusion: While a ^^**Character^^** model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
+    ],
+    "weapons": [
+      {
+        "name": "Electroleech stave",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -210,6 +357,17 @@
       "Elevated Strider: This unit is eligible to shoot in a turn in which it Fell Back or Advanced, and you can re-roll Desperate Escape tests taken for models in this unit.",
       "Broad Spectrum Data-tether: Each time you select this unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
     ],
+    "weapons": [
+      {
+        "name": "Ironstrider feet",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -239,6 +397,7 @@
       "Robotic Bodyguard: While a ^^**Cybernetica Datasmith^^** model is leading this unit, that model has the Feel No Pain 4+ ability.",
       "Repulsor Grid: When an enemy unit targets this unit with ranged attacks, until that enemy unit has shot, when this unit makes a save roll: \n- On an unmodified 6, that enemy unit suffers 1 mortal wound after that ene"
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -267,6 +426,44 @@
     "abilities": [
       "Breaching Command: Each time a model in this unit makes an attack, re-roll a Hit roll of 1. While this unit is within 6” of one or more friendly ^^**Adeptus Mechanicus Battleline^^** units, you can re-roll the Hit roll "
     ],
+    "weapons": [
+      {
+        "name": "Arc claw",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Heavy arc rifle",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Hydraulic claw",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Torsion cannon",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -294,6 +491,53 @@
     ],
     "abilities": [
       "Sentinel Directive: Each time you target this unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem."
+    ],
+    "weapons": [
+      {
+        "name": "Heavy grav-cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Cognis flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Phosphor blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Kataphron plasma culverin - supercharge",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -327,6 +571,53 @@
       "Scuttling Walker: Each time this model makes a Normal, Advance or Fall Back move, it can move through friendly ^^**Monster^^** and ^^**Vehicle^^** models and sections of terrain features that are 4\" or less in height.",
       "Broad spectrum data-tether: The bearer loses the SMOKE keyword, but each time you target the bearer with a Stratagem, roll one D6: on a 5+, you gain 1CP."
     ],
+    "weapons": [
+      {
+        "name": "Cognis heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Dunecrawler legs",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Eradication beamer - dissipated",
+        "type": "Ranged",
+        "attacks": "3D3",
+        "bs": "4+",
+        "s": "10",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Eradication beamer - focused",
+        "type": "Ranged",
+        "attacks": "3D3",
+        "bs": "4+",
+        "s": "10",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Twin Onager heavy phosphor blaster",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -359,6 +650,44 @@
     "abilities": [
       "Ride the Thermals: In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can do one of the following:\n- Make a Normal move of up to 6\".\n- Make a Normal mov"
     ],
+    "weapons": [
+      {
+        "name": "Flechette blaster",
+        "type": "Ranged",
+        "attacks": "5",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Taser goad",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Flechette carbine",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -390,6 +719,44 @@
     "abilities": [
       "Searing Conflagaration: Each time a model in this unit makes an attack with a phosphor torch that targets an enemy unit within range of an objective marker, re-roll a Wound roll of 1. If this unit is also within 6\" of one or"
     ],
+    "weapons": [
+      {
+        "name": "Flechette blaster",
+        "type": "Ranged",
+        "attacks": "5",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Taser goad",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Pteraxii talons",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Phosphor torch",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -420,6 +787,35 @@
       "Enhanced data-tether: Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
       "Stealth-screened Cybercanids: This unit has Lone Operative 15\"."
     ],
+    "weapons": [
+      {
+        "name": "Galvanic carbine",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Cavalry sabre & clawed limbs",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Mechanicus pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -447,6 +843,62 @@
     ],
     "abilities": [
       "Line-breakers: Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each model in this unit that is within Engagement Range of that enemy unit, adding 2 to "
+    ],
+    "weapons": [
+      {
+        "name": "Cavalry arc maul",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Clawed limbs",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Mechanicus pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Sulphur breath",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "3",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Phosphor pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Phosphor blast carbine",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "4+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -477,6 +929,44 @@
     "abilities": [
       "Neurostatic Interference (Aura): While an enemy unit is within 6\" of this unit, each time a Battle-shock or Leadership test is taken for that unit, subtract 1 from that test. While this unit is within 6\" of one or more friendly ^^**A"
     ],
+    "weapons": [
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Stubcarbine",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Flechette blaster",
+        "type": "Ranged",
+        "attacks": "5",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Taser goad",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -504,6 +994,35 @@
     ],
     "abilities": [
       "Optimised Gait: Add 1 to Advance and Charge rolls made for this unit. While this unit is within 6\" of one or more friendly ^^**Adeptus Mechanicus Battleline^^** units, add 2 to Advance and Charge rolls made for this "
+    ],
+    "weapons": [
+      {
+        "name": "Transonic razor & chordclaw",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Transonic blades",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Transonic blades & chordclaw",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -534,6 +1053,26 @@
       "Support: This model can be attached to the following units:\n- ^^**Skitarii Rangers^^**\n- ^^**Skitarii Vanguard^^**",
       "Control Edict: While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll.",
       "Servo-skull Uplink: Once per battle, at the start of any phase, you can select one friendly ^^**Skitarii^^** unit that is Battle-shocked and within 6\" of this model. That unit is no longer Battle-shocked."
+    ],
+    "weapons": [
+      {
+        "name": "Control stave",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Mechanicus pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -566,6 +1105,80 @@
       "Enhanced data-tether: Each time you select the bearer’s unit\nas the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
       "Omnispex: Ranged weapons equipped by models in the bearer’s unit have the IGNORES COVER ability."
     ],
+    "weapons": [
+      {
+        "name": "Galvanic rifle",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Mechanicus pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Alpha combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Transuranic arquebus",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-2",
+        "d": "D3"
+      },
+      {
+        "name": "Arc rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-1",
+        "d": "D3"
+      },
+      {
+        "name": "➤ Plasma caliver -  supercharge",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Plasma caliver - standard",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -595,6 +1208,80 @@
       "Rad-saturation (Aura): While an enemy unit (excluding ^^**Vehicle^^** units) is within 3\" of this unit, subtract 1 from the Objective Control characteristic of models in that unit.",
       "Enhanced data-tether: Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
       "Omnispex: Ranged weapons equipped by models in the bearer’s unit have the IGNORES COVER ability."
+    ],
+    "weapons": [
+      {
+        "name": "Radium carbine",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Mechanicus pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Alpha combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Transuranic arquebus",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-2",
+        "d": "D3"
+      },
+      {
+        "name": "Arc rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-1",
+        "d": "D3"
+      },
+      {
+        "name": "➤ Plasma caliver -  supercharge",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Plasma caliver - standard",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -626,6 +1313,53 @@
       "Broad spectrum data-tether: Each time you select the bearer as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
       "Blistering Salvoes: Each time this model makes an attack with a belleros energy cannon that targets an ^^**Infantry^^** unit, add 1 to the Hit roll. Each time this model makes an attack with a ferrumite cannon that targe",
       "Damaged: 1-4 wounds remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Cognis heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Disruptor missile launcher",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Belleros energy cannon",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Ferrumite cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      }
     ],
     "system": "40k"
   },
@@ -659,6 +1393,26 @@
       "Broad spectrum data-tether: Each time you select the bearer as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
       "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from thi"
     ],
+    "weapons": [
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Cognis heavy stubber array",
+        "type": "Ranged",
+        "attacks": "9",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -690,6 +1444,7 @@
       "Dynamic Efficiency: This unit is eligible to declare a charge in a turn in which it Advanced or Fell Back, and you can re-roll Desperate Escape tests taken for models in this unit.",
       "Broad Spectrum Data-tether: Each time you select the bearer as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -720,6 +1475,62 @@
       "Leader: This model can be attached to the following units:\n■ Corpuscarii Electro-Priests\n■ Fulgurite Electro-Priests\n■ Kataphron Breachers\n■ Kataphron Destroyers\n■ Skitarii Rangers\n■ Skitarii Vanguard",
       "Lord of the Machine Cult: While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability. If that unit has the ^^**Electro-Priests^^** keyword, models in that unit have the Feel No Pain 4+ ability ins",
       "Data-spike: At the start of the Fight phase, you can select one enemy ^^**Vehicle^^** unit within Engagement Range of this model’s unit and roll one D6: on a 4+, that enemy unit suffers D6 mortal wounds and, unti"
+    ],
+    "weapons": [
+      {
+        "name": "Omnissian axe",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Macrostubber",
+        "type": "Ranged",
+        "attacks": "5",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Phosphor serpenta",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Eradication ray - dissipated",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Eradication ray - focused",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Volkite blaster",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -753,6 +1564,35 @@
       "Vengeance for the Omnissiah: If a friendly ^^**Adeptus Mechanicus Vehicle^^** model is destroyed within 12\" of this model, until the end of the battle, this model’s Omnissian axe has an Attacks characteristic of 6.",
       "Leader: This model can be attached to the following units:\n■ Corpuscarii Electro-Priests\n■ Fulgurite Electro-Priests\n■ Kataphron Breachers\n■ Kataphron Destroyers\n■ Servitors\n■ Skitarii Rangers\n■ Skitarii Vang"
     ],
+    "weapons": [
+      {
+        "name": "Servo arm",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Omnissian axe",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Mechanicus pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -783,6 +1623,35 @@
       "Leader: This model can be attached to the following units:\n■ Corpuscarii Electro-Priests\n■ Fulgurite Electro-Priests\n■ Kataphron Breachers\n■ Kataphron Destroyers\n■ Skitarii Rangers\n■ Skitarii Vanguard",
       "Galvanic Field: While this model is leading a unit, weapons equipped by models in that unit have the [Lethal Hits] ability.",
       "Defend the Divine Work: Once per battle, at the start of any phase, this model can use this ability. If it does, until the  end of the phase, all models in this model’s unit have a 4+ invulnerable save."
+    ],
+    "weapons": [
+      {
+        "name": "Magnarail lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Transonic cannon",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Omnissian staff",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -815,6 +1684,26 @@
       "Cogitative Instincts: Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" horizontally of this model.",
       "Support: This model can be attached to the following units:\n■ Corpuscarii Electro-Priests\n■ Fulgurite Electro-Priests\n■ Kataphron Breachers\n■ Kataphron Destroyers\n■ Skitarii Rangers\n■ Skitarii Vanguard"
     ],
+    "weapons": [
+      {
+        "name": "Servo-arc claw",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Mechanicus pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -846,6 +1735,26 @@
       "Battle Protocols: At the start of the battle, if this model is leading a ^^**Kastelan Robots^^** unit, that unit enters Aegis Protocols (see below). In your Command phase, if this model is leading a ^^**Kastelan Robots",
       "Data-severed: If there are no KASTELAN ROBOT models in this unit: \n- This unit loses VEHICLE. \n- This unit has INFANTRY."
     ],
+    "weapons": [
+      {
+        "name": "Mechanicus pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -875,6 +1784,44 @@
       "Secutarii: If a model from your army with the Leader ability can be attached to a ^^**Skitarii Vanguard^^** unit, it can be attached to this unit instead.",
       "Enhanced data-tether: Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
       "Omnispex: Ranged weapons equipped by models in the bearer’s unit have the IGNORES COVER ability."
+    ],
+    "weapons": [
+      {
+        "name": "Alpha close combat weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Arc lance",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Arc lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Archeotech pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -906,6 +1853,53 @@
       "Enhanced data-tether: Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
       "Omnispex: Ranged weapons equipped by models in the bearer’s unit have the IGNORES COVER ability."
     ],
+    "weapons": [
+      {
+        "name": "Alpha close combat weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Galvanic caster - flechette",
+        "type": "Ranged",
+        "attacks": "5",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Galvanic caster - hammershot",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Archeotech pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -935,6 +1929,26 @@
       "Damaged: 1-5 wounds remaining: While this mdel has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
       "Termite Assault: This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle wit",
       "Deadly Demise: D3"
+    ],
+    "weapons": [
+      {
+        "name": "Termite drill",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "14",
+        "ap": "-2",
+        "d": "D3+3"
+      },
+      {
+        "name": "Terrax melta cutter",
+        "type": "Ranged",
+        "attacks": "5",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
     ],
     "system": "40k"
   },
@@ -967,6 +1981,44 @@
       "Sydonian Sentinel: This model cannot be your ^^**Warlord^^**.",
       "Achillan Eye: Each time this model makes an attack with a radium jezzail that targets an Infantry unit, you can re-roll the Wound roll. Each time this model makes an attack with a Skatros transuranic arquebus that "
     ],
+    "weapons": [
+      {
+        "name": "Mechanicus pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Sydonian Feet",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Radium Jezzail",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Skatros transuranic arquebus",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "D3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -998,6 +2050,17 @@
       "Focused Hunters: At the start of the battle, select one unit from your opponent’s army. Until the end of the battle, each time a model in this unit makes an attack that targets that unit, you can re-roll the Hit roll.",
       "Broad Spectrum Data-tether: Each time you select the bearer as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
     ],
+    "weapons": [
+      {
+        "name": "Ironstrider feet",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1026,6 +2089,26 @@
       "Mindlock: While a TECH-PRIEST model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by SERVITOR models in this unit by 1.",
       "Servitor Retinue: At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a TECH-PRIEST ENGINSEER model (a unit cannot have more than one SERVITORS unit"
     ],
+    "weapons": [
+      {
+        "name": "Servitor's servo arm",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Servitor's tools",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1053,6 +2136,80 @@
     "abilities": [
       "Network Override: While this unit contains one or more ^^**Tech-Priest^^** models, this unit is: \n- Eligible to perform an Action in a turn in which it Advanced. \n- Eligible to shoot in a turn in which it started an Ac",
       "Attached Unit: If a ^^**Character^^** unit from your army with the Leader ability can be attached to a ^^**Kataphron Breachers^^** unit, it can be attached to this unit instead."
+    ],
+    "weapons": [
+      {
+        "name": "Mechanicus pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Dataspikes",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy arc rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Servo-claw",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Incendine igniter",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Phosphor blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1085,6 +2242,7 @@
       "Leader: This model can be attached to the following units: ^^**Electro-Priests, Kataphrons, Skitarii Rangers, Skitarii Vanguard**^^",
       "Technoarcane Zealotry: While this model's unit is in range of one or more objective markers, improve this model's Leadership characteristic by 1."
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -1116,6 +2274,7 @@
       "Leader: This model can be attached to the following units: ^^**Skitarii Rangers, Skitarii Vanguard**^^",
       "Prioritisation Protocol: Melee weapons equipped by this model have [^^Precision^^]."
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -1148,6 +2307,7 @@
       "Leader: This model can be attached to the following units: ^^**Ironstrider Ballistarii, Sydonian Dragoons with Taser Lances, Sydonian Dragoons with Radium Jezzails**^^",
       "Vector of the Omnissiah's Wrath: Ranged weapons equipped by this model have [^^Ignores Cover^^]."
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -1183,6 +2343,44 @@
       "Supreme Commander: If this model is in your army, it must be your **^^Warlord^^**.",
       "Rod of the War Forge: In your Command phase, select one of the abilities in the Icon of War section. Until the start of your next Command phase, this model has that ability."
     ],
+    "weapons": [
+      {
+        "name": "➤ Rod of the War Forge - strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "➤ Rod of the War Forge - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Jericho-class conversion resonator - shockwave",
+        "type": "Ranged",
+        "attacks": "D6+2",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "➤ Jericho-class conversion resonator - titanic impact",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1212,6 +2410,44 @@
       "Attached Unit: If a **^^Character^^** unit from your army can be attached to a **^^Skitarii Rangers^^** unit, it can be attached to this unit instead",
       "Broad‑spectrum Targeting Augurs: Each time a model in this unit makes an attack with an eradication caster that targets a unit (excluding **^^Monster^^** and **^^Vehicle^^** units), that attack has the **[SUSTAINED HITS 1]** ability."
     ],
+    "weapons": [
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Hastarii arc blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Eradication caster - dissipated",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1240,6 +2476,44 @@
     "abilities": [
       "Attached Unit: If a **^^Character^^** unit from your army can be attached to a **^^Skitarii Rangers^^** unit, it can be attached to this unit instead",
       "Monocular Targeting Helms: Each time a model in this unit makes an attack with a neutron fusil against a **^^Monster^^** or **^^Vehicle^^** unit, that attack has the **[IGNORES COVER]** ability."
+    ],
+    "weapons": [
+      {
+        "name": "Hastarii phosphor blaster",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Neutron fusil",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   }

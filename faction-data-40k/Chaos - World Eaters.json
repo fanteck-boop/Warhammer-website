@@ -1,8 +1,8 @@
 [
   {
     "name": "Angron",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 330,
     "models": 1,
     "move": "14\"",
@@ -31,32 +31,12 @@
       "Wrathful Presence: At the start of the battle round, select one Wrathful Presence ability. Until the start of the next battle round, this model has that ability.",
       "Damaged: 1-6 wounds remaining: While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     ],
-    "weapons": [
-      {
-        "name": "➤ Samni’arius and Spinegrinder - strike",
-        "type": "Melee",
-        "attacks": "8",
-        "bs": "",
-        "s": "14",
-        "ap": "-3",
-        "d": "D6+2"
-      },
-      {
-        "name": "➤ Samni’arius and Spinegrinder - sweep",
-        "type": "Melee",
-        "attacks": "16",
-        "bs": "",
-        "s": "7",
-        "ap": "-2",
-        "d": "2"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Khârn the Betrayer",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 115,
     "models": 1,
     "move": "8\"",
@@ -84,32 +64,12 @@
       "Berserker Frenzy: The first time this model is destroyed, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagemen",
       "Leader: This model can be attached to the following unit: ^^**Khorne Berzerkers^^**"
     ],
-    "weapons": [
-      {
-        "name": "Gorechild",
-        "type": "Melee",
-        "attacks": "8",
-        "bs": "",
-        "s": "7",
-        "ap": "-2",
-        "d": "3"
-      },
-      {
-        "name": "➤ Plasma pistol - supercharge",
-        "type": "Ranged",
-        "attacks": "1",
-        "bs": "3+",
-        "s": "8",
-        "ap": "-3",
-        "d": "2"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Lord Invocatus",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 100,
     "models": 1,
     "move": "10\"",
@@ -135,41 +95,12 @@
       "Fire Riders: While this model is leading a unit, models in that unit have the Deep Strike ability and each time a model in that unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally thro",
       "Bloody Stampede: Each time this model's unit ends a Charge move, select one enemy unit within Engagement Range of this model, then roll one D6: on a 2-3, that enemy unit suffers 1 mortal wound; on a 4-5, that enemy un"
     ],
-    "weapons": [
-      {
-        "name": "Bolt pistol",
-        "type": "Ranged",
-        "attacks": "1",
-        "bs": "2+",
-        "s": "4",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Coward's Bane",
-        "type": "Melee",
-        "attacks": "7",
-        "bs": "",
-        "s": "6",
-        "ap": "-2",
-        "d": "2"
-      },
-      {
-        "name": "Bladed horn",
-        "type": "Melee",
-        "attacks": "4",
-        "bs": "",
-        "s": "6",
-        "ap": "-1",
-        "d": "2"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Daemon Prince of Khorne",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 200,
     "models": 1,
     "move": "10\"",
@@ -195,41 +126,12 @@
       "Devastating Assault: Each time this model makes a Charge move, until the end of the turn, its hellforged weapons have the [DEVASTATING WOUNDS] ability.",
       "Direct the Slaughter: Once per battle round, one model from your army with this ability can use it when a friendly ^^**World Eaters^^** unit within 12\" of this model is targeted with a Stratagem. If it does, reduce the CP "
     ],
-    "weapons": [
-      {
-        "name": "➤ Hellforged weapons - strike",
-        "type": "Melee",
-        "attacks": "8",
-        "bs": "",
-        "s": "8",
-        "ap": "-2",
-        "d": "3"
-      },
-      {
-        "name": "➤ Hellforged weapons - sweep",
-        "type": "Melee",
-        "attacks": "16",
-        "bs": "",
-        "s": "6",
-        "ap": "-1",
-        "d": "1"
-      },
-      {
-        "name": "Infernal cannon",
-        "type": "Ranged",
-        "attacks": "3",
-        "bs": "3+",
-        "s": "5",
-        "ap": "-1",
-        "d": "2"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Daemon Prince of Khorne with wings",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 170,
     "models": 1,
     "move": "14\"",
@@ -255,41 +157,12 @@
       "Bloodied Terror: At the start of the Fight phase, each enemy unit within Engagement Range of this model must take a Battle-shock test, subtracting 1 if that enemy unit is Below Half-strength.",
       "Swooping Predator: Each time this model ends a Normal or Advance move, you can select one enemy unit that it moved over during that move and roll 6 D6: for each 4+, that enemy unit suffers 1 mortal wound."
     ],
-    "weapons": [
-      {
-        "name": "➤ Hellforged weapons - strike",
-        "type": "Melee",
-        "attacks": "8",
-        "bs": "",
-        "s": "8",
-        "ap": "-2",
-        "d": "3"
-      },
-      {
-        "name": "➤ Hellforged weapons - sweep",
-        "type": "Melee",
-        "attacks": "16",
-        "bs": "",
-        "s": "6",
-        "ap": "-1",
-        "d": "1"
-      },
-      {
-        "name": "Infernal cannon",
-        "type": "Ranged",
-        "attacks": "3",
-        "bs": "3+",
-        "s": "5",
-        "ap": "-1",
-        "d": "2"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Lord on Juggernaut",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 95,
     "models": 1,
     "move": "10\"",
@@ -314,41 +187,12 @@
       "Crush All Who Stand Before Us: Each time this model's unit is selected to fight, you can use this ability. When determining which models in this unit are eligible to fight, any models in it that are within 3\" of one or more enemy m",
       "Leader: This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**, ^^**Khorne Berzerkers^^**"
     ],
-    "weapons": [
-      {
-        "name": "Bladed horn",
-        "type": "Melee",
-        "attacks": "4",
-        "bs": "",
-        "s": "6",
-        "ap": "-1",
-        "d": "2"
-      },
-      {
-        "name": "Exalted chainblade",
-        "type": "Melee",
-        "attacks": "7",
-        "bs": "",
-        "s": "6",
-        "ap": "-1",
-        "d": "2"
-      },
-      {
-        "name": "➤ Plasma pistol - supercharge",
-        "type": "Ranged",
-        "attacks": "1",
-        "bs": "3+",
-        "s": "8",
-        "ap": "-3",
-        "d": "2"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Master of Executions",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 60,
     "models": 1,
     "move": "8\"",
@@ -373,32 +217,12 @@
       "A Worthy Skull: Each time this model makes a melee attack that targets a ^^**Character^^** unit, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model's unit destroys a ^^**Character^^",
       "Forwards, For Blood!: While this model is leading a unit, you can re-roll Advance rolls made for that unit and each time that unit makes a Blood Surge move, you can re-roll the D6 used to determine how far models in that u"
     ],
-    "weapons": [
-      {
-        "name": "Axe of dismemberment",
-        "type": "Melee",
-        "attacks": "5",
-        "bs": "",
-        "s": "7",
-        "ap": "-2",
-        "d": "2"
-      },
-      {
-        "name": "Bolt pistol",
-        "type": "Ranged",
-        "attacks": "1",
-        "bs": "3+",
-        "s": "4",
-        "ap": "0",
-        "d": "1"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Khorne Berzerkers",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 170,
     "models": 1,
     "move": "8\"",
@@ -422,41 +246,12 @@
     "abilities": [
       "Blood Surge: In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed as a result of those attacks, this unit can make a surge move of up to D6+2\"."
     ],
-    "weapons": [
-      {
-        "name": "Bolt pistol",
-        "type": "Ranged",
-        "attacks": "1",
-        "bs": "4+",
-        "s": "4",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Chainblade",
-        "type": "Melee",
-        "attacks": "4",
-        "bs": "",
-        "s": "4",
-        "ap": "-1",
-        "d": "1"
-      },
-      {
-        "name": "Khornate eviscerator",
-        "type": "Melee",
-        "attacks": "3",
-        "bs": "",
-        "s": "8",
-        "ap": "-2",
-        "d": "2"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Chaos Terminators",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 165,
     "models": 1,
     "move": "7\"",
@@ -481,77 +276,12 @@
       "Sanctified in Slaughter: This unit has +1**OC**.",
       "Gore-stained Veterans: This unit’s melee attacks have +1 WS."
     ],
-    "weapons": [
-      {
-        "name": "Combi-weapon",
-        "type": "Ranged",
-        "attacks": "1",
-        "bs": "4+",
-        "s": "4",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Power fist",
-        "type": "Melee",
-        "attacks": "3",
-        "bs": "",
-        "s": "8",
-        "ap": "-2",
-        "d": "2"
-      },
-      {
-        "name": "Accursed weapon",
-        "type": "Melee",
-        "attacks": "4",
-        "bs": "",
-        "s": "5",
-        "ap": "-2",
-        "d": "1"
-      },
-      {
-        "name": "Chainfist",
-        "type": "Melee",
-        "attacks": "3",
-        "bs": "",
-        "s": "8",
-        "ap": "-3",
-        "d": "2"
-      },
-      {
-        "name": "Combi-bolter",
-        "type": "Ranged",
-        "attacks": "2",
-        "bs": "4+",
-        "s": "4",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Paired accursed weapons",
-        "type": "Melee",
-        "attacks": "5",
-        "bs": "",
-        "s": "5",
-        "ap": "-2",
-        "d": "1"
-      },
-      {
-        "name": "Heavy flamer",
-        "type": "Ranged",
-        "attacks": "D6",
-        "bs": "N/A",
-        "s": "5",
-        "ap": "-1",
-        "d": "1"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Jakhals",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 65,
     "models": 1,
     "move": "7\"",
@@ -574,59 +304,12 @@
     "abilities": [
       "Objective Ravaged: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's Level of Control over that obj"
     ],
-    "weapons": [
-      {
-        "name": "Autopistol",
-        "type": "Ranged",
-        "attacks": "1",
-        "bs": "4+",
-        "s": "3",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Chainblades",
-        "type": "Melee",
-        "attacks": "3",
-        "bs": "",
-        "s": "3",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Mauler chainblade",
-        "type": "Melee",
-        "attacks": "3",
-        "bs": "",
-        "s": "4",
-        "ap": "-1",
-        "d": "2"
-      },
-      {
-        "name": "Skullsmasher and mangler",
-        "type": "Melee",
-        "attacks": "2",
-        "bs": "",
-        "s": "4",
-        "ap": "-1",
-        "d": "2"
-      },
-      {
-        "name": "Paired manglers",
-        "type": "Melee",
-        "attacks": "4",
-        "bs": "",
-        "s": "4",
-        "ap": "0",
-        "d": "1"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Eightbound",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 125,
     "models": 2,
     "move": "10\"",
@@ -650,23 +333,12 @@
     "abilities": [
       "Beacons of Rage (Aura): While a friendly ^^**World Eaters^^** unit is within 6\" of this unit, each time a model in that unit makes a melee attack that targets a unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**), add 1 t"
     ],
-    "weapons": [
-      {
-        "name": "Chainblades",
-        "type": "Melee",
-        "attacks": "5",
-        "bs": "",
-        "s": "8",
-        "ap": "-2",
-        "d": "2"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Exalted Eightbound",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 130,
     "models": 2,
     "move": "10\"",
@@ -690,13 +362,12 @@
     "abilities": [
       "Rend and Tear: Each time a model in this unit makes a melee attack that targets a ^^**Monster^^** or ^^**Vehicle^^** unit, until the end of the phase, improve the Damage characteristic of that attack by 1."
     ],
-    "weapons": [],
     "system": "40k"
   },
   {
     "name": "Chaos Land Raider",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 220,
     "models": 1,
     "move": "10\"",
@@ -721,68 +392,12 @@
     "abilities": [
       "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
     ],
-    "weapons": [
-      {
-        "name": "Armoured tracks",
-        "type": "Melee",
-        "attacks": "9",
-        "bs": "",
-        "s": "8",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Soulshatter lascannon",
-        "type": "Ranged",
-        "attacks": "2",
-        "bs": "4+",
-        "s": "12",
-        "ap": "-3",
-        "d": "D6+1"
-      },
-      {
-        "name": "Havoc launcher",
-        "type": "Ranged",
-        "attacks": "D6",
-        "bs": "4+",
-        "s": "5",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Twin heavy bolter",
-        "type": "Ranged",
-        "attacks": "3",
-        "bs": "4+",
-        "s": "5",
-        "ap": "-1",
-        "d": "2"
-      },
-      {
-        "name": "Combi-bolter",
-        "type": "Ranged",
-        "attacks": "2",
-        "bs": "4+",
-        "s": "4",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Combi-weapon",
-        "type": "Ranged",
-        "attacks": "1",
-        "bs": "4+",
-        "s": "4",
-        "ap": "0",
-        "d": "1"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Chaos Predator Annihilator",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 130,
     "models": 1,
     "move": "10\"",
@@ -806,77 +421,12 @@
     "abilities": [
       "Blood-hungry Annihilator: Each time this model makes a ranged attack that targets the closest eligible ^^**Monster^^** or ^^**Vehicle^^** target within 18\", you can re-roll the Wound roll and you can re-roll the Damage roll."
     ],
-    "weapons": [
-      {
-        "name": "Armoured tracks",
-        "type": "Melee",
-        "attacks": "6",
-        "bs": "",
-        "s": "6",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Havoc launcher",
-        "type": "Ranged",
-        "attacks": "D6",
-        "bs": "4+",
-        "s": "5",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Predator twin lascannon",
-        "type": "Ranged",
-        "attacks": "1",
-        "bs": "4+",
-        "s": "14",
-        "ap": "-3",
-        "d": "D6+1"
-      },
-      {
-        "name": "Combi-bolter",
-        "type": "Ranged",
-        "attacks": "2",
-        "bs": "4+",
-        "s": "4",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Combi-weapon",
-        "type": "Ranged",
-        "attacks": "1",
-        "bs": "4+",
-        "s": "4",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Heavy bolter",
-        "type": "Ranged",
-        "attacks": "3",
-        "bs": "4+",
-        "s": "5",
-        "ap": "-1",
-        "d": "2"
-      },
-      {
-        "name": "Lascannon",
-        "type": "Ranged",
-        "attacks": "1",
-        "bs": "4+",
-        "s": "12",
-        "ap": "-3",
-        "d": "D6+1"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Chaos Predator Destructor",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 130,
     "models": 1,
     "move": "10\"",
@@ -900,77 +450,12 @@
     "abilities": [
       "Punishing Suppression: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks (excluding ^^**Monsters^^** and ^^**Vehicles^^*). Until the start of your next turn, that e"
     ],
-    "weapons": [
-      {
-        "name": "Armoured tracks",
-        "type": "Melee",
-        "attacks": "6",
-        "bs": "",
-        "s": "6",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Havoc launcher",
-        "type": "Ranged",
-        "attacks": "D6",
-        "bs": "4+",
-        "s": "5",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Predator autocannon",
-        "type": "Ranged",
-        "attacks": "4",
-        "bs": "4+",
-        "s": "9",
-        "ap": "-1",
-        "d": "3"
-      },
-      {
-        "name": "Combi-bolter",
-        "type": "Ranged",
-        "attacks": "2",
-        "bs": "4+",
-        "s": "4",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Combi-weapon",
-        "type": "Ranged",
-        "attacks": "1",
-        "bs": "4+",
-        "s": "4",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Heavy bolter",
-        "type": "Ranged",
-        "attacks": "3",
-        "bs": "4+",
-        "s": "5",
-        "ap": "-1",
-        "d": "2"
-      },
-      {
-        "name": "Lascannon",
-        "type": "Ranged",
-        "attacks": "1",
-        "bs": "4+",
-        "s": "12",
-        "ap": "-3",
-        "d": "D6+1"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Defiler",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 270,
     "models": 1,
     "move": "14\"",
@@ -995,104 +480,12 @@
       "Scuttling Walker: Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding ^^**Titanic**^^ models) and terrain features. When doing so, it can move within Engagement Range of",
       "Unleash Wrath: At the end of your opponent's Movement phase, you can select one enemy unit that was set up on the battlefield within 12\" of this model; this model can then either:\n- Shoot at that unit, but only if i"
     ],
-    "weapons": [
-      {
-        "name": "Shearing claws - strike",
-        "type": "Melee",
-        "attacks": "6",
-        "bs": "",
-        "s": "16",
-        "ap": "-3",
-        "d": "D6+1"
-      },
-      {
-        "name": "Shearing claws - sweep",
-        "type": "Melee",
-        "attacks": "12",
-        "bs": "",
-        "s": "6",
-        "ap": "-2",
-        "d": "1"
-      },
-      {
-        "name": "➤ Heavy missile launcher - frag",
-        "type": "Ranged",
-        "attacks": "2D6",
-        "bs": "4+",
-        "s": "5",
-        "ap": "-1",
-        "d": "1"
-      },
-      {
-        "name": "➤ Heavy missile launcher - krak",
-        "type": "Ranged",
-        "attacks": "2",
-        "bs": "4+",
-        "s": "10",
-        "ap": "-2",
-        "d": "D6+1"
-      },
-      {
-        "name": "Electroscourge",
-        "type": "Melee",
-        "attacks": "7",
-        "bs": "",
-        "s": "12",
-        "ap": "-2",
-        "d": "2"
-      },
-      {
-        "name": "Hades lascannon",
-        "type": "Ranged",
-        "attacks": "2",
-        "bs": "4+",
-        "s": "12",
-        "ap": "-3",
-        "d": "D6+1"
-      },
-      {
-        "name": "Heavy reaper autocannon",
-        "type": "Ranged",
-        "attacks": "4",
-        "bs": "4+",
-        "s": "9",
-        "ap": "-1",
-        "d": "3"
-      },
-      {
-        "name": "Hades battle cannon",
-        "type": "Ranged",
-        "attacks": "D6+3",
-        "bs": "4+",
-        "s": "10",
-        "ap": "-1",
-        "d": "3"
-      },
-      {
-        "name": "Ectoplasma destructor",
-        "type": "Ranged",
-        "attacks": "D6",
-        "bs": "4+",
-        "s": "12",
-        "ap": "-3",
-        "d": "3"
-      },
-      {
-        "name": "Heavy baleflamer",
-        "type": "Ranged",
-        "attacks": "D6+3",
-        "bs": "N/A",
-        "s": "7",
-        "ap": "-2",
-        "d": "2"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Forgefiend",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 140,
     "models": 1,
     "move": "10\"",
@@ -1116,41 +509,12 @@
     "abilities": [
       "Furious Onslaught: Each time this model makes a ranged attack that targets the closest eligible target within 18\", you can re-roll the Hit roll."
     ],
-    "weapons": [
-      {
-        "name": "Ectoplasma cannon",
-        "type": "Ranged",
-        "attacks": "D3",
-        "bs": "4+",
-        "s": "10",
-        "ap": "-3",
-        "d": "3"
-      },
-      {
-        "name": "Hades autocannon",
-        "type": "Ranged",
-        "attacks": "6",
-        "bs": "4+",
-        "s": "8",
-        "ap": "-1",
-        "d": "2"
-      },
-      {
-        "name": "Forgefiend jaws",
-        "type": "Melee",
-        "attacks": "8",
-        "bs": "",
-        "s": "7",
-        "ap": "-1",
-        "d": "2"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Helbrute",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 120,
     "models": 1,
     "move": "9\"",
@@ -1174,104 +538,12 @@
       "Frenzy: (Once per turn, per unit) In the Fight phase, when an enemy unit targets this unit, after that unit has resolved its attacks, you can use this ability. If you do, this unit is **eligible to fight** (e",
       "Devoted to Destruction: If this model is equipped with 2 melee weapons in addition to its close combat weapon, add 2 to the Attacks characteristic of those two weapons."
     ],
-    "weapons": [
-      {
-        "name": "Close combat weapon",
-        "type": "Melee",
-        "attacks": "6",
-        "bs": "",
-        "s": "6",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Combi-bolter",
-        "type": "Ranged",
-        "attacks": "2",
-        "bs": "4+",
-        "s": "4",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Heavy flamer",
-        "type": "Ranged",
-        "attacks": "D6",
-        "bs": "N/A",
-        "s": "5",
-        "ap": "-1",
-        "d": "1"
-      },
-      {
-        "name": "➤ Missile launcher - frag",
-        "type": "Ranged",
-        "attacks": "D6",
-        "bs": "4+",
-        "s": "4",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "➤ Missile launcher - krak",
-        "type": "Ranged",
-        "attacks": "1",
-        "bs": "4+",
-        "s": "9",
-        "ap": "-2",
-        "d": "D6"
-      },
-      {
-        "name": "Helbrute hammer",
-        "type": "Melee",
-        "attacks": "6",
-        "bs": "",
-        "s": "14",
-        "ap": "-3",
-        "d": "D6+1"
-      },
-      {
-        "name": "Power scourge",
-        "type": "Melee",
-        "attacks": "10",
-        "bs": "",
-        "s": "7",
-        "ap": "-1",
-        "d": "2"
-      },
-      {
-        "name": "Multi-melta",
-        "type": "Ranged",
-        "attacks": "2",
-        "bs": "4+",
-        "s": "9",
-        "ap": "-4",
-        "d": "D6"
-      },
-      {
-        "name": "Twin autocannon",
-        "type": "Ranged",
-        "attacks": "2",
-        "bs": "4+",
-        "s": "9",
-        "ap": "-1",
-        "d": "3"
-      },
-      {
-        "name": "Plasma cannon",
-        "type": "Ranged",
-        "attacks": "D3",
-        "bs": "4+",
-        "s": "8",
-        "ap": "-3",
-        "d": "3"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Heldrake",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 175,
     "models": 1,
     "move": "12\"",
@@ -1295,41 +567,12 @@
     "abilities": [
       "Airborne Predator: Each time this model makes an attack that targets a unit that can ^^**Fly^^**, add 1 to the Hit roll."
     ],
-    "weapons": [
-      {
-        "name": "Heldrake claws",
-        "type": "Melee",
-        "attacks": "6",
-        "bs": "",
-        "s": "7",
-        "ap": "-1",
-        "d": "2"
-      },
-      {
-        "name": "Baleflamer",
-        "type": "Ranged",
-        "attacks": "D6+3",
-        "bs": "N/A",
-        "s": "6",
-        "ap": "-1",
-        "d": "2"
-      },
-      {
-        "name": "Hades autocannon",
-        "type": "Ranged",
-        "attacks": "6",
-        "bs": "4+",
-        "s": "8",
-        "ap": "-1",
-        "d": "2"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Maulerfiend",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 140,
     "models": 1,
     "move": "12\"",
@@ -1354,32 +597,12 @@
       "The Scent of Blood: In the Charge phase, when this unit **declares a charge**: \n- If an enemy unit **below starting strength** is within 9\" of this unit, this unit has +1 to **charge rolls**. \n- Or: If an enemy unit **be",
       "Savage Exaltation: Each time this model makes a melee attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll and, if that attack targets an enemy unit that is Below Half-Strength, a"
     ],
-    "weapons": [
-      {
-        "name": "Maulerfiend fists",
-        "type": "Melee",
-        "attacks": "8",
-        "bs": "",
-        "s": "14",
-        "ap": "-2",
-        "d": "D6+1"
-      },
-      {
-        "name": "Lasher tendrils",
-        "type": "Melee",
-        "attacks": "6",
-        "bs": "",
-        "s": "7",
-        "ap": "-1",
-        "d": "1"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Chaos Rhino",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 75,
     "models": 1,
     "move": "12\"",
@@ -1405,50 +628,12 @@
     "abilities": [
       "Meet Any Challenge: In your opponent's Movement phase, each time an enemy unit is set up or ends a Normal, Advance or Fall Back move within 8\" of this model, any units embarked within it can disembark."
     ],
-    "weapons": [
-      {
-        "name": "Armoured tracks",
-        "type": "Melee",
-        "attacks": "6",
-        "bs": "",
-        "s": "6",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Combi-bolter",
-        "type": "Ranged",
-        "attacks": "2",
-        "bs": "4+",
-        "s": "4",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Havoc launcher",
-        "type": "Ranged",
-        "attacks": "D6",
-        "bs": "4+",
-        "s": "5",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Combi-weapon",
-        "type": "Ranged",
-        "attacks": "1",
-        "bs": "4+",
-        "s": "4",
-        "ap": "0",
-        "d": "1"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Chaos Spawn",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 95,
     "models": 2,
     "move": "10\"",
@@ -1470,23 +655,12 @@
     "abilities": [
       "To Slake Its Rage: This unit is eligible to declare a charge in a turn in which it Advanced."
     ],
-    "weapons": [
-      {
-        "name": "Hideous Mutations",
-        "type": "Melee",
-        "attacks": "D6+4",
-        "bs": "",
-        "s": "5",
-        "ap": "-1",
-        "d": "2"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Khorne Lord of Skulls",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 505,
     "models": 1,
     "move": "12\"",
@@ -1513,77 +687,12 @@
       "Idol of Blessed Blood: At the start of the battle round, if this unit is on the battlefield, when you make a Blessings of Khorne roll, roll one additional D6.",
       "Damaged: 1-8 wounds remaining: While this model has 1-8 wounds remaining, subtract 4 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
     ],
-    "weapons": [
-      {
-        "name": "➤ Great cleaver of Khorne - strike",
-        "type": "Melee",
-        "attacks": "6",
-        "bs": "",
-        "s": "16",
-        "ap": "-4",
-        "d": "8"
-      },
-      {
-        "name": "➤ Great cleaver of Khorne - sweep",
-        "type": "Melee",
-        "attacks": "18",
-        "bs": "",
-        "s": "8",
-        "ap": "-2",
-        "d": "2"
-      },
-      {
-        "name": "Hades gatling cannon",
-        "type": "Ranged",
-        "attacks": "12",
-        "bs": "4+",
-        "s": "8",
-        "ap": "-2",
-        "d": "2"
-      },
-      {
-        "name": "Skullhurler",
-        "type": "Ranged",
-        "attacks": "2D6",
-        "bs": "4+",
-        "s": "14",
-        "ap": "-3",
-        "d": "3"
-      },
-      {
-        "name": "Gorestorm cannon",
-        "type": "Ranged",
-        "attacks": "D6+3",
-        "bs": "4+",
-        "s": "10",
-        "ap": "-2",
-        "d": "3"
-      },
-      {
-        "name": "Daemongore cannon",
-        "type": "Ranged",
-        "attacks": "D6",
-        "bs": "4+",
-        "s": "14",
-        "ap": "-4",
-        "d": "D6+2"
-      },
-      {
-        "name": "Ichor cannon",
-        "type": "Ranged",
-        "attacks": "2D6",
-        "bs": "4+",
-        "s": "7",
-        "ap": "-2",
-        "d": "2"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Hell Talon [Legends]",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 140,
     "models": 1,
     "move": "20+\"",
@@ -1607,50 +716,12 @@
     "abilities": [
       "Bomb Rack: Each time this model ends a Normal move, you can select one enemy unit it moved across during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
     ],
-    "weapons": [
-      {
-        "name": "Armoured hull",
-        "type": "Melee",
-        "attacks": "6",
-        "bs": "",
-        "s": "6",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Twin lascannon",
-        "type": "Ranged",
-        "attacks": "1",
-        "bs": "4+",
-        "s": "12",
-        "ap": "-3",
-        "d": "D6+1"
-      },
-      {
-        "name": "Havoc launcher",
-        "type": "Ranged",
-        "attacks": "D6",
-        "bs": "4+",
-        "s": "5",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Autocannon",
-        "type": "Ranged",
-        "attacks": "2",
-        "bs": "3+",
-        "s": "9",
-        "ap": "-1",
-        "d": "3"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Hellblade [Legends]",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 115,
     "models": 1,
     "move": "20+\"",
@@ -1674,41 +745,12 @@
     "abilities": [
       "Interceptor: Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
     ],
-    "weapons": [
-      {
-        "name": "Armoured hull",
-        "type": "Melee",
-        "attacks": "3",
-        "bs": "",
-        "s": "6",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Twin autocannon",
-        "type": "Ranged",
-        "attacks": "2",
-        "bs": "3+",
-        "s": "9",
-        "ap": "-1",
-        "d": "3"
-      },
-      {
-        "name": "Twin lascannon",
-        "type": "Ranged",
-        "attacks": "1",
-        "bs": "4+",
-        "s": "12",
-        "ap": "-3",
-        "d": "D6+1"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Goremongers",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 75,
     "models": 1,
     "move": "9\"",
@@ -1731,50 +773,12 @@
     "abilities": [
       "Loping Speed: In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up t"
     ],
-    "weapons": [
-      {
-        "name": "Autopistol",
-        "type": "Ranged",
-        "attacks": "1",
-        "bs": "4+",
-        "s": "3",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Chainblade",
-        "type": "Melee",
-        "attacks": "3",
-        "bs": "",
-        "s": "3",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Close combat weapon",
-        "type": "Melee",
-        "attacks": "2",
-        "bs": "",
-        "s": "3",
-        "ap": "0",
-        "d": "1"
-      },
-      {
-        "name": "Blood harpoon",
-        "type": "Ranged",
-        "attacks": "1",
-        "bs": "4+",
-        "s": "5",
-        "ap": "-1",
-        "d": "2"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Slaughterbound",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 100,
     "models": 1,
     "move": "10\"",
@@ -1802,23 +806,12 @@
       "Leader: This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**",
       "Lord of the Eightbound: If this model is attached to a ^^**World Eaters Possessed^^** unit during the Declare Battle Formations step, this model has the Deep Strike and Scouts 6\" abilities."
     ],
-    "weapons": [
-      {
-        "name": "Lacerator and daemonic claw",
-        "type": "Melee",
-        "attacks": "6",
-        "bs": "",
-        "s": "10",
-        "ap": "-2",
-        "d": "2"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Skarbrand",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 315,
     "models": 1,
     "move": "10\"",
@@ -1845,41 +838,12 @@
       "Murderlust: This unit is eligible to declare a charge in a turn in which it Advanced.",
       "Damaged: 1-7 wounds remaining: While this model has 1-7 wounds remaining, add 2 to the Attacks characteristic of this model’s Slaughter and Carnage."
     ],
-    "weapons": [
-      {
-        "name": "Bellow of endless fury",
-        "type": "Ranged",
-        "attacks": "2D6",
-        "bs": "N/A",
-        "s": "8",
-        "ap": "-1",
-        "d": "1"
-      },
-      {
-        "name": "➤ Slaughter and Carnage - strike",
-        "type": "Melee",
-        "attacks": "8",
-        "bs": "",
-        "s": "16",
-        "ap": "-4",
-        "d": "6"
-      },
-      {
-        "name": "➤ Slaughter and Carnage - sweep",
-        "type": "Melee",
-        "attacks": "16",
-        "bs": "",
-        "s": "8",
-        "ap": "-2",
-        "d": "2"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Bloodthirster",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 320,
     "models": 1,
     "move": "12\"",
@@ -1907,41 +871,12 @@
       "Relentless Carnage: At the end of the Fight phase, you can select one enemy unit within Engagement Range of this model and roll eight D6: for each 4+, that enemy unit suffers 1 mortal wound.",
       "Damaged: 1-6 wounds remaining: While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     ],
-    "weapons": [
-      {
-        "name": "Hellfire breath",
-        "type": "Ranged",
-        "attacks": "D6",
-        "bs": "N/A",
-        "s": "5",
-        "ap": "-1",
-        "d": "1"
-      },
-      {
-        "name": "➤ Great axe of Khorne - strike",
-        "type": "Melee",
-        "attacks": "7",
-        "bs": "",
-        "s": "16",
-        "ap": "-4",
-        "d": "D6+2"
-      },
-      {
-        "name": "➤ Great axe of Khorne - sweep",
-        "type": "Melee",
-        "attacks": "14",
-        "bs": "",
-        "s": "10",
-        "ap": "-2",
-        "d": "2"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Bloodletters",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 90,
     "models": 9,
     "move": "8\"",
@@ -1965,23 +900,12 @@
     "abilities": [
       "Bane of Cowards: Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more units from your army with this ability Falls Back, models in that enemy unit must take Desperate Escape"
     ],
-    "weapons": [
-      {
-        "name": "Hellblade",
-        "type": "Melee",
-        "attacks": "2",
-        "bs": "",
-        "s": "5",
-        "ap": "-2",
-        "d": "2"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Bloodcrushers",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 95,
     "models": 2,
     "move": "10\"",
@@ -2005,32 +929,12 @@
     "abilities": [
       "Brass Stampede: Each time this unit ends a Charge move, select one enemy unit within Engagement Range of this unit and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers D3 mortal wounds."
     ],
-    "weapons": [
-      {
-        "name": "Hellblade",
-        "type": "Melee",
-        "attacks": "2",
-        "bs": "",
-        "s": "5",
-        "ap": "-2",
-        "d": "2"
-      },
-      {
-        "name": "Bladed horn",
-        "type": "Melee",
-        "attacks": "4",
-        "bs": "",
-        "s": "6",
-        "ap": "-1",
-        "d": "1"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Flesh Hounds",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 75,
     "models": 1,
     "move": "12\"",
@@ -2054,32 +958,12 @@
     "abilities": [
       "Hunters from the Warp: At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
     ],
-    "weapons": [
-      {
-        "name": "Gore-drenched fangs",
-        "type": "Melee",
-        "attacks": "3",
-        "bs": "",
-        "s": "5",
-        "ap": "-1",
-        "d": "1"
-      },
-      {
-        "name": "Burning roar",
-        "type": "Ranged",
-        "attacks": "D6",
-        "bs": "N/A",
-        "s": "4",
-        "ap": "0",
-        "d": "1"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Butcherlord [Crucible]",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 90,
     "models": 1,
     "move": "8\"",
@@ -2105,13 +989,12 @@
       "Endless Hatred: You can re-roll Charge rolls made for this model's unit.",
       "Leader: This model can be attached to the following unit: ^^**Khorne Berzerkers**^^"
     ],
-    "weapons": [],
     "system": "40k"
   },
   {
     "name": "Eight-blessed Lord [Crucible]",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 90,
     "models": 1,
     "move": "10\"",
@@ -2136,23 +1019,12 @@
       "Bloodthirst: Add 2 to Charge rolls made for this unit.",
       "Leader: This model can be attached to the following unit: ^^**Khorne Berzerkers**^^"
     ],
-    "weapons": [
-      {
-        "name": "Bladed horn",
-        "type": "Melee",
-        "attacks": "4",
-        "bs": "",
-        "s": "6",
-        "ap": "-1",
-        "d": "2"
-      }
-    ],
     "system": "40k"
   },
   {
     "name": "Bloodcult Champion [Crucible]",
-    "faction": "World Eaters",
-    "alliance": "chaos",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
     "points": 60,
     "models": 1,
     "move": "7\"",
@@ -2177,7 +1049,6 @@
       "Aura of Dark Glory: Models in this unit have an invulnerable save characteristic of 5+.",
       "Leader: This model can be attached to the following unit: ^^**Jakhals**^^"
     ],
-    "weapons": [],
     "system": "40k"
   }
 ]

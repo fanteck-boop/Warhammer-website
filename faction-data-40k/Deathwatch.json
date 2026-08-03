@@ -29,6 +29,26 @@
       "Watch Master: Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.",
       "Leader: This model can be attached to the following units:\n- DEATHWATCH VETERANS\n- FORTIS KILL TEAM"
     ],
+    "weapons": [
+      {
+        "name": "Vigil spear",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Vigil spear",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "D3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -62,6 +82,26 @@
       "Unstoppable Champion: The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield, as close as possible to where it was destroyed and not within Engagemen",
       "Leader: This model can be attached to the following units: \n- DEATHWATCH VETERANS\n- FORTIS KILL TEAM"
     ],
+    "weapons": [
+      {
+        "name": "Hellfire Extremis",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Master-crafted power weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -94,6 +134,44 @@
       "Transport: This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY or KILL TEAM models. Each JUMP PACK, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the",
       "Auspex Array: Ranged weapons equipped by the bearer have the [IGNORES COVER] ability.",
       "Infernum Halo-launcher: The bearer has the SMOKE keyword."
+    ],
+    "weapons": [
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Hurricane bolter",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin assault cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      }
     ],
     "system": "40k"
   },
@@ -129,6 +207,98 @@
       "Psychic Hood: Models in the bearer’s unit have the Feel No Pain 4+ ability against Psychic Attacks.",
       "Invulnerable Save: Garran Branatar has a 4+ invulnerable save."
     ],
+    "weapons": [
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Artificer crozius",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Boltgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Long Vigil ranged weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Long Vigil melee weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Frag cannon",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin lightning claws",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Psychic Cleanse",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "D3"
+      },
+      {
+        "name": "Force weapon",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-3",
+        "d": "D3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -161,6 +331,35 @@
       "Attached Unit: If a CHARACTER unit from your army with the Leader ability can be attached to a TERMINATOR SQUAD, it can be attached to this unit instead.",
       "Storm Shield: The bearer has a Wounds characteristic of 4."
     ],
+    "weapons": [
+      {
+        "name": "Twin lightning claws",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Assault Cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -191,6 +390,98 @@
       "Fortis Doctrines: Each time a model in this unit makes an attack that targets a unit that is below its Starting Strength, add 1 to the Hit roll. If that attack targets a unit that is Below Half-strength, add 1 to the H",
       "Attached Unit: If a CHARACTER from your army with the Leader ability can be attached to an INTERCESSOR SQUAD, it can be attached to this unit instead."
     ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - Supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Plasma incinerator - Supercharge",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Castellan Launcher",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Vengor launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "2+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Deathwatch bolt rifle",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "➤ Astartes grenade launcher - frag",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Astartes Chainsword",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Heavy bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -220,6 +511,53 @@
     "abilities": [
       "Indomitor Doctrines: Each time a model in this unit makes a ranged attack that targets the closest eligible target, or makes a melee attack in a turn in which it made a Charge move, improve the Strength characteristic of ",
       "Attached Unit: If a CHARACTER unit from your army can be attached to a HEAVY INTERCESSOR SQUAD, it can be attached to this unit instead."
+    ],
+    "weapons": [
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Melta rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Fragstorm grenade launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -255,6 +593,62 @@
       "Infiltrator Comms Array: Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP.",
       "Instigator Bolt Carbine: In your Shooting phase, after the bearer’s unit has shot, the bearer’s unit can make a Normal move. If it does, until the end of the turn, the bearer’s unit is not eligible to declare a charge."
     ],
+    "weapons": [
+      {
+        "name": "Deathwatch marksman bolt carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Deathwatch occulus bolt carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Paired combat blades",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Las fusil",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-3",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -285,6 +679,98 @@
     "abilities": [
       "Death to the Alien: Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack does not have the IMPERIUM or CHAOS keywords, you can re-roll the Hit roll instead.",
       "Attached Unit: If a CHARACTER unit from your army with the Leader ability can be attached to a STERNGUARD VETERAN SQUAD, it can be attached to this unit instead."
+    ],
+    "weapons": [
+      {
+        "name": "Boltgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Deathwatch thunder hammer",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Frag cannon",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Infernus heavy bolter - heavy flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Stalker-pattern boltgun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Deathwatch shotgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Blackshield blades",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Xenophase blade",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -317,6 +803,71 @@
       "Talonstrike Doctrines: Each time this unit is set up on the battlefield, until the end of the turn:\n- Improve the Armour Penetration characteristic of weapons equipped by models in this unit by 1. \n- Melee weapons equipped ",
       "Attached Unit: If a CHARACTER unit from your army with the Leader ability can be attached to an ASSAULT INTERCESSORS WITH JUMP PACKS unit, it can be attached to this unit instead."
     ],
+    "weapons": [
+      {
+        "name": "Heavy Bolt Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Hand flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - Supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Astartes Chainsword",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -347,6 +898,17 @@
     "abilities": [
       "Death to the Alien: Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack does not have the ^^**Imperium^^** or ^^**Chaos^^** keywords, you can re-roll the Hit roll instead",
       "Attached Unit: If a ^^**Character^^** unit from your army can be attached to a ^^**Fortis Kill Team^^** unit, it can be attached to this unit instead."
+    ],
+    "weapons": [
+      {
+        "name": "Special-issue bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   }

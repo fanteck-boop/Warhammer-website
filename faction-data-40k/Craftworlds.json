@@ -31,6 +31,26 @@
       "Tactical Acumen: While this model is leading a unit, in your Shooting phase, after that unit has shot, it can make a Normal move of up to 6\". If it does, until the end of the turn, that unit is not eligible to declare",
       "Leader: This model can be attached to the following unit:\n- **^^Dire Avengers^^**"
     ],
+    "weapons": [
+      {
+        "name": "The Bloody Twins",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "The Sword of Asur",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "-3",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -64,6 +84,62 @@
       "Leader: This model can be attached to the following unit:\n- **^^Corsair Cloud Dancer Band^^**\n\n- **^^Windriders^^**\n",
       "Ride the WInd: While this model is leading a unit, each time that unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit"
     ],
+    "weapons": [
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin Shuriken Catapult",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Laser Lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Laser Lance",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Dragon Fusion Gun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Banshee Blade",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "4",
+        "ap": "-3",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -96,6 +172,89 @@
       "Path of Command: Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that stratagem by 1CP.",
       "Leader: This model can be attached to the following units:\n- **^^Dark Reapers^^**\n- **^^Dire Avengers^^**\n- **^^Fire Dragons^^**\n- **^^Guardian Defenders^^**\n- **^^Howling Banshees^^**\n- **^^Storm Guardians^^",
       "Aspect Training: While this model is leading a Howling Banshees unit, it has the Fights First ability.\nWhile this model is leading a Striking Scorpions unit, it has the Infiltrators, Scouts 7\" and Stealth abilities."
+    ],
+    "weapons": [
+      {
+        "name": "Scorpion Chainsword",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Banshee Blade",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Star Glaive",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Reaper Launcher - Starshot",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "➤ Reaper Launcher - Starswarm",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Death Spinner",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Dragon Fusion Gun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Dragon Fusion Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
     ],
     "system": "40k"
   },
@@ -131,6 +290,89 @@
       "Indomitable Strength of Will: While this model is leading a unit, each time you spend a Battle Focus token to enable that unit to perform an Agile Manoeuvre, roll one D6: on a 3+ you gain 1 Battle Focus token.",
       "Leader: This model can be attached to the following units:\n- **^^Swooping Hawks**^^\n- **^^Warp Spiders**^^"
     ],
+    "weapons": [
+      {
+        "name": "Scorpion Chainsword",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Banshee Blade",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Star Glaive",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Reaper Launcher - Starshot",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "➤ Reaper Launcher - Starswarm",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Death Spinner",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Dragon Fusion Gun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Dragon Fusion Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -161,6 +403,35 @@
       "Molten Form: Each time an attack is allocated to this model, halve the Damage characteristic of that attack.",
       "The Bloody Handed (Aura): While a friendly ^^Aeldari^^ unit is within 6\" of this model, add 1 to Advance and Charge rolls made for that unit.",
       "Damaged: 1-5 Wounds Remaining: While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "The Wailing Doom",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "16",
+        "ap": "-4",
+        "d": "D6+2"
+      },
+      {
+        "name": "➤ The Wailing Doom - Strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "16",
+        "ap": "-4",
+        "d": "D6+2"
+      },
+      {
+        "name": "➤ The Wailing Doom - Sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -198,6 +469,26 @@
       "Cry of the Wind: Each time this model is set-up on the battlefield, until the end of the turn, each time this model makes a ranged attack, a successful unmodified Hit roll scores a Critical Hit.",
       "Cloudstrider: While this model is leading a unit, at the end of your opponent’s turn, if that unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into"
     ],
+    "weapons": [
+      {
+        "name": "Fury of the Tempest",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "The Shining Blade",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -228,6 +519,44 @@
     ],
     "abilities": [
       "Reavers of the Void: Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Hit roll instead."
+    ],
+    "weapons": [
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Power sword",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -261,6 +590,62 @@
       "Channeler stones: Once per turn, the first time a saving throw is failed for the bearer’s unit, change the Damage characteristic of that attack to 0.",
       "Faolchú: Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability."
     ],
+    "weapons": [
+      {
+        "name": "Paired Hekatarii blades",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "3",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Power sword",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Executioner",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "D3"
+      },
+      {
+        "name": "Witch staff",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "D3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -292,6 +677,26 @@
       "Skyhunter: Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll and add 1 to the Wound roll.",
       "Damaged: 1-4 Wounds Remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Pulse Laser",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Wraithbone Hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -319,6 +724,35 @@
     ],
     "abilities": [
       "Inescapable Accuracy: Each time a model in this unit makes a ranged attack, you can ignore any or all modifiers to that attack’s Ballistic Skill characteristic and any or all modifiers to the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "➤ Reaper Launcher - Starshot",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "➤ Reaper Launcher - Starswarm",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -350,6 +784,26 @@
       "Death is Not Enough: In your Shooting phase, after this model has shot, select one enemy unit (excluding Monsters and Vehicles) hit by one or more of those attacks. That enemy unit must take a Battle-shock test. If one or",
       "Cruel Amusement: In your Shooting phase, each time this model is selected to shoot, select one of the abilities below. Until the end of the phase, this model’s Shrieker Cannon has that ability:\n■ [IGNORES COVER]\n■ [PR"
     ],
+    "weapons": [
+      {
+        "name": "Jester's Blade",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shrieker Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -378,6 +832,26 @@
     ],
     "abilities": [
       "Bladestorm: Ranged weapons equipped by models in this unit have the [Sustained Hits 1] ability while targeting an enemy unit within half range."
+    ],
+    "weapons": [
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Avenger shuriken catapult",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -412,6 +886,35 @@
       "Doom (Psychic): At the end of your Movement phase, select one enemy unit within 18\" of and visible to this model. Until the start of your next Command phase, each time a friendly ^^Aeldari^^ model makes an attack tha",
       "Leader: This model can be attached to the following units:\n- **GUARDIAN DEFENDERS**\n- **STORM GUARDIANS**\n- **WARLOCK CONCLAVE**\n\nIf this model is not already attached to a unit, you can attach this model to "
     ],
+    "weapons": [
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Staff of Ulthamar and witchblade",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Mind War",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-2",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -442,6 +945,44 @@
     "abilities": [
       "Damaged: 1-4 Wounds Remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
       "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly model that disembarked from this Transport"
+    ],
+    "weapons": [
+      {
+        "name": "Pulse Laser",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Wraithbone hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin Shuriken Catapult",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -474,6 +1015,53 @@
       "Branching Fates (Psychic): While this model is leading a unit, once per phase you can change the result of one Hit roll, one Wound roll, or one Damage roll made for a model in that unit (excluding ^^Support Weapon^^ models) to ",
       "Guide (Psychic): At the end of your Movement phase, select one enemy unit within 18\" of and visible to this model. Until the start of your next Command phase, each time a friendly Aeldari model makes an attack that ta",
       "Leader: This model can be attached to the following units: **GUARDIAN DEFENDERS**, **STORM GUARDIANS**, **WARLOCK CONCLAVE**."
+    ],
+    "weapons": [
+      {
+        "name": "Witchblade",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Singing Spear",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "9",
+        "ap": "0",
+        "d": "3"
+      },
+      {
+        "name": "Singing Spear",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "3"
+      },
+      {
+        "name": "Eldritch Storm",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "D3"
+      },
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -509,6 +1097,62 @@
       "Misfortune (Psychic): At the end of your Movement phase, select one enemy unit within 18\" of and visible to this model. Until the start of your next Command phase, each time a model in that unit makes an attack, subtract 1",
       "Leader: This model can be attached to the following units:\n■ Warlock Skyrunners\n■ Windriders"
     ],
+    "weapons": [
+      {
+        "name": "Eldritch Storm",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "D3"
+      },
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Twin Shuriken Catapult",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Witchblade",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Singing Spear",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "0",
+        "d": "3"
+      },
+      {
+        "name": "Singing Spear",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -537,6 +1181,26 @@
     ],
     "abilities": [
       "Assured Destruction: In your Shooting phase, each time a model in this unit makes a ranged attack that targets a ^^Monster^^ or ^^Vehicle^^ unit, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re"
+    ],
+    "weapons": [
+      {
+        "name": "Dragon Fusion Gun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -567,6 +1231,53 @@
     "abilities": [
       "Damaged: 1-4 Wounds Remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
       "Crystal Matrix: Each time this model is selected to shoot, you can re-roll one Hit roll and you can re-roll one Wound roll when resolving those attacks."
+    ],
+    "weapons": [
+      {
+        "name": "➤ Prism Cannon - dispersed pulse",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Prism Cannon - focused lances",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "18",
+        "ap": "-4",
+        "d": "6"
+      },
+      {
+        "name": "Wraithbone Hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin Shuriken Catapult",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -602,6 +1313,35 @@
       "Unquenchable Resolve: The first time this model is destroyed, at the end of the phase, roll one D6. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagemen",
       "Leader: This model can be attached to the following unit:\n■ Fire Dragons"
     ],
+    "weapons": [
+      {
+        "name": "➤ Searsong - Beam",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Searsong - Lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "14",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "The Fire Axe",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-4",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -632,6 +1372,35 @@
     "abilities": [
       "Fleet of Foot: This unit can perform the Fade Back Agile Manoeuvre without spending a Battle Focus token to do so. It can do so even if other units have done so in the same phase, and doing so does not prevent other",
       "Crewed Platform: When the last Guardian Defender model in this unit is destroyed, any remaining Heavy Weapon Platform models in this unit are also destroyed."
+    ],
+    "weapons": [
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Catapult",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -665,6 +1434,26 @@
       "Mindshock Pod (Aura, Psychic): While an enemy unit is within 9\" of this model, subtract 1 from Battle-shock and Leadership tests taken for that unit.",
       "Damaged: 1-4 Wounds Remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Wraithbone Hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy D-Scythe",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-4",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -691,6 +1480,26 @@
     ],
     "abilities": [
       "Acrobatic: This unit is eligible to declare a charge in a turn in which it Advanced or Fell Back"
+    ],
+    "weapons": [
+      {
+        "name": "Banshee Blade",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -722,6 +1531,35 @@
       "Bringer of the True Death: While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Wound roll.",
       "Hunter Unseen: This model’s unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
       "Leader: This model can be attached to the following unit:\n■ Rangers"
+    ],
+    "weapons": [
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Voidbringer",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Aeldari power sword",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -756,6 +1594,26 @@
       "Whirling Death: While this model is leading a unit, each time that unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit and each ti",
       "Storm of Silence: Each time this model makes an attack that targets a ^^Character^^ unit, you can re-roll the Wound roll."
     ],
+    "weapons": [
+      {
+        "name": "Silent Death",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Blade of Destruction",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "6",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -788,6 +1646,35 @@
       "Shadow Hunter: While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll.",
       "Sustained Assault: Each time this model makes a melee attack, if it made a Charge move this turn, a successful unmodified Hit roll of 4+ scores a Critical Hit",
       "The Scorpion's Bite: Melee weapons equipped by the bearer have the [DEVASTATING WOUNDS] ability when targeting units without the ^^Titanic^^ keyword"
+    ],
+    "weapons": [
+      {
+        "name": "Arhra's Bane",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Arhra's Bane",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Isirmathil",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -822,6 +1709,26 @@
       "Harvester of Souls: While this model is leading a unit, in your Shooting phase, after selecting targets for that unit's attacks, if every attack targets the same unit, roll one D6 for the target unit and one D6 for every",
       "Face of Death: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test, subtracting 1 from the result."
     ],
+    "weapons": [
+      {
+        "name": "Maugetar",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "2+",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Maugetar",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -851,6 +1758,44 @@
       "Damaged: 1-4 Wounds Remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
       "Monofilament Web: In your Shooting phase, after this model has shot, if one or more of those attacks made with its doomweaver scored a hit against an enemy unit, until the start of your next turn, that enemy unit is pi"
     ],
+    "weapons": [
+      {
+        "name": "Doomweaver",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Wraithbone Hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin Shuriken Catapult",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -877,6 +1822,35 @@
     ],
     "abilities": [
       "Path of the Outcast: In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up t"
+    ],
+    "weapons": [
+      {
+        "name": "Long rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -912,6 +1886,35 @@
       "Fog of Dreams (Psychic): While this model is leading a unit, that unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
       "Treacherous Illusion (Psychic): Melee weapons equipped by enemy models have the [Hazardous] ability while targeting this model's unit."
     ],
+    "weapons": [
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Neuro Disruptor",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Miststave",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "D3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -941,6 +1944,35 @@
     "abilities": [
       "Extreme Mobility: Each time this unit makes a Normal, Advance, Fall Back or Charge move, ignore any vertical distance when determining the total distance models in this unit can be moved during that move."
     ],
+    "weapons": [
+      {
+        "name": "Twin Shuriken Catapult",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Laser Lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Laser Lance",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -968,6 +2000,44 @@
     ],
     "abilities": [
       "Target Acquisition: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks made with a long rifle. Until the end of the phase, that enemy unit cannot have the Benefit "
+    ],
+    "weapons": [
+      {
+        "name": "Long rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Scatter Laser",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -998,6 +2068,53 @@
     ],
     "abilities": [
       "Acrobatic Grace: - This unit has **Stealth**.\n- Melee attacks that target this unit have ‑1 to **hit rolls**."
+    ],
+    "weapons": [
+      {
+        "name": "Shuriken Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Skyweaver Haywire Cannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "3",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Star Bolas",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Zephyrglaive",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1030,6 +2147,17 @@
       "Blitz: Once per battle, in your Movement phase, before this model makes a Normal move it can use this ability. If it does, until the end of\nthe turn, add 2D6\" to this model’s Move characteristic and add 3 to",
       "Blur of Movement: This model is eligible to declare a charge in a turn in which it Advanced."
     ],
+    "weapons": [
+      {
+        "name": "Solitaire Weapons",
+        "type": "Melee",
+        "attacks": "9",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1060,6 +2188,26 @@
       "Spirit Mark (Psychic): Once per turn, in your Movement phase, when this model starts or ends a move, select one friendly Wraith Construct unit within 6\" of this model (excluding Titanic units) and one enemy unit visible to ",
       "Tears of Isha (Psychic): In your Command phase, select one friendly Wraith Construct unit within 6\" of this model. If one or more models in that unit are destroyed, you can return one destroyed model to that unit. Otherwise, ",
       "Spiritseer: While this model is within 3\" of one or more friendly Wraith Construct units, this model has the Lone Operative ability."
+    ],
+    "weapons": [
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Witch Staff",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "D3"
+      }
     ],
     "system": "40k"
   },
@@ -1094,6 +2242,26 @@
     "abilities": [
       "Rapid Embarkation: At the end of the Fight phase, if there are no models currently embarked within this **^^Transport^^**, you can select one friendly **^^Harlequins Infantry^^** unit that has 6 or fewer models that is "
     ],
+    "weapons": [
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1126,6 +2294,53 @@
       "Stormblades: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's Level of Control over that obj",
       "Crewed Platform: When the last Storm Guardian model in this unit is destroyed, any remaining Serpent’s Scale Platform models in this unit are also destroyed."
     ],
+    "weapons": [
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Fusion gun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Power sword",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1153,6 +2368,26 @@
     ],
     "abilities": [
       "Mandiblasters: Each time a model in this unit makes a melee attack, if it made a Charge move this turn, an unmodified Hit roll of 5+ scores a Critical Hit."
+    ],
+    "weapons": [
+      {
+        "name": "Scorpion chainsword",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1182,6 +2417,35 @@
     ],
     "abilities": [
       "Structural Collapse: Each time this model makes an attack with its D-Cannon, re-roll a Damage roll of 1. If that attack targets a Titanic unit, you can re-roll the Damage roll instead."
+    ],
+    "weapons": [
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Catapult",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "D-cannon",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "16",
+        "ap": "-4",
+        "d": "D6+2"
+      }
     ],
     "system": "40k"
   },
@@ -1214,6 +2478,26 @@
     "abilities": [
       "Grenade Pack Flyover: Once per turn, in your Movement phase, when this unit is set-up on the battlefield or ends a Normal, Advance or Fall Back move, it can use this ability. If it does, select one enemy unit within 8\" of "
     ],
+    "weapons": [
+      {
+        "name": "Lasblaster",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1245,6 +2529,35 @@
       "Yvraine's Champion: While this model is leading a unit, other Character models attached to that unit have the Feel No Pain 4+ ability.",
       "Leader: This model can be attached to the following units:\n- **CORSAIR REAVER BAND**\n- **CORSAIR VOIDREAVERS**\n- **CORSAIR VOIDSCARRED**\n- **GUARDIAN DEFENDERS**\n- **STORM GUARDIANS**\n- **YNNARI INCUBI**\n- **",
       "Servant of the Whispering God: If your army includes The Visarch, it cannot include any Epic Hero units (excluding Ynnari units). If your army includes any Epic Hero units (excluding Ynnari units), it cannot include The Visarch."
+    ],
+    "weapons": [
+      {
+        "name": "➤ Asu-var - quicksilver stance",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Asu-var - duellist stance",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Asu-var - mythic stance",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "3",
+        "ap": "-4",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -1279,6 +2592,35 @@
       "Ethereal Form: Each time this model destroys an enemy unit it regains up to D3 lost wounds.",
       "Avatar of the Whispering God: If your army includes The Yncarne, it cannot include any Epic Hero units (excluding Ynnari units). If your army includes any Epic Hero units (excluding Ynnari units), it cannot include The Yncarne."
     ],
+    "weapons": [
+      {
+        "name": "➤ Vilith-zhar - Strike",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "12",
+        "ap": "-4",
+        "d": "D6+1"
+      },
+      {
+        "name": "➤ Vilith-zhar - Sweep",
+        "type": "Melee",
+        "attacks": "10",
+        "bs": "",
+        "s": "6",
+        "ap": "-4",
+        "d": "1"
+      },
+      {
+        "name": "Swirling soul energy",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "N/A",
+        "s": "7",
+        "ap": "-1",
+        "d": "D3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1307,6 +2649,44 @@
     ],
     "abilities": [
       "Dance of Death: At the start of the Fight phase, select one of the following abilities for this unit to gain until the end of the phase:\n■ Hero's Prowess: Each time a model in this unit makes an attack, re-roll a Hit"
+    ],
+    "weapons": [
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Harlequin's Special Weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Fusion Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Neuro Disruptor",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1341,6 +2721,53 @@
       "Choreographer of War: While this model is leading a unit, each time a model in that unit makes a Pile In or Consolidate move, it can move up to 6\" instead of 3\". In addition, it does not need to end that move closer to the",
       "Cegorach’s Favour:: Each time this model makes a melee attack you can re-roll a Hit roll of 1 and add 1 to the Wound roll."
     ],
+    "weapons": [
+      {
+        "name": "Harlequin's Special Weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Troupe Master's Blade",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Fusion Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Neuro Disruptor",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1370,6 +2797,53 @@
     ],
     "abilities": [
       "Polychromatic Camoflage: This unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+    ],
+    "weapons": [
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Prismatic Cannon - dispersed pulse",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Prismatic Cannon - focused lances",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "4"
+      },
+      {
+        "name": "Voidweaver Haywire Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -1403,6 +2877,53 @@
       "Runes of Fortune (Psychic): Each time an enemy unit declares a charge, if one or more units with this ability are selected as a target of that charge, subtract 2 from the Charge roll.",
       "Psychic Communion (Psychic): Each time this model is selected to shoot, until the end of the phase, add 1 to the Attacks and Strength characteristics of its Destructor weapon for each other friendly ^^Aeldari Psyker ^^ model with"
     ],
+    "weapons": [
+      {
+        "name": "Destructor",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Witchblade",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Singing Spear",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "0",
+        "d": "3"
+      },
+      {
+        "name": "Singing Spear",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1435,6 +2956,53 @@
       "Psychic Communion (Psychic): Each time this unit is selected to shoot, for each ^^Warlock^^ model in this unit, until the end of the phase, add 1 to the Attacks and Strength characteristics of that model's Destructor weapon for e",
       "Leader: At the start of the Declare Battle Formations step, if this unit is not an Attached unit, this unit can join one **GUARDIAN DEFENDERS** or **STORM GUARDIANS** unit from your army (a unit cannot have m"
     ],
+    "weapons": [
+      {
+        "name": "Witchblade",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Destructor",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Singing Spear",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "0",
+        "d": "3"
+      },
+      {
+        "name": "Singing Spear",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1464,6 +3032,26 @@
     ],
     "abilities": [
       "Flickerjump: In your Movement phase, each time this unit is selected to make a Normal move, it can use this ability. If it does, until the end of the turn, this unit is not eligible to declare a charge and models "
+    ],
+    "weapons": [
+      {
+        "name": "Death spinner",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1497,6 +3085,89 @@
       "Wave Serpent Shield: Each time a ranged attack targets this model, if the Strength characteristic of that attack is greater than the Toughness characteristic of this model, subtract 1 from the Wound roll.",
       "Damaged: 1-4 Wounds Remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Wraithbone Hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin Shuriken Catapult",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Twin Aeldari Missile Launcher - Starshot",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "➤ Twin Aeldari Missile Launcher - Sunburst",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Twin Bright Lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+2"
+      },
+      {
+        "name": "Twin Scatter Laser",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin Shuriken Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin Starcannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1526,6 +3197,7 @@
       "Webway Strike: Each time a friendly AELDARI unit arrives from Strategic Reserves, you can choose to set it up anywhere on the battlefield that is wholly within 6\" of this FORTIFICATION. If you do, that AELDARI unit ",
       "Deployment: Both Wraithbone Arches of this Fortification must be set up with their upper points no more than 1\" apart and with both statues facing in fully opposite directions so that an arch is formed, as shown "
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -1553,6 +3225,44 @@
     ],
     "abilities": [
       "Swift Demise: Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If the target of that attack is the closest eligible target, you can re-roll the Hit roll instead."
+    ],
+    "weapons": [
+      {
+        "name": "Twin shuriken catapult",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Scatter laser",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -1587,6 +3297,62 @@
       "Titanic Strides: Each time this model makes a Normal, Advance or Fall Back move, it can move through models (excluding Titanic models) and sections of terrain features that are 4\" or less in height. When doing so:\nIt ",
       "Point-blank Devastation: Each time this model's Heavy Wraithcannon or Suncannon targets a unit within half range, you can re-roll the dice to determine the number of attacks made."
     ],
+    "weapons": [
+      {
+        "name": "Titanic Feet",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Heavy Wraithcannon",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "20",
+        "ap": "-4",
+        "d": "2D6"
+      },
+      {
+        "name": "Suncannon",
+        "type": "Ranged",
+        "attacks": "D6+4",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Scatter Laser",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Starcannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1617,6 +3383,98 @@
       "Fated Hero: At the start of the battle, select one of the following keywords: Infantry, Monster, Mounted, Vehicle. Each time this model makes an attack that targets a unit with the selected keyword, re-roll a Hit",
       "Psychic Guidance: While this model is within 12\" of one or more friendly Aeldari Psyker models, improve the Ballistic Skill and Weapon Skill characteristics of weapons equipped by this model by 1 and it has a Leadershi"
     ],
+    "weapons": [
+      {
+        "name": "➤ Ghostglaive - Strike",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "10",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "➤ Ghostglaive - Sweep",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Wraithbone Fists",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Shuriken Catapult",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Aeldari Missile Launcher - Starshot",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "10",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "➤ Aeldari Missile Launcher - Sunburst",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "4+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Bright Lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+2"
+      },
+      {
+        "name": "Scatter Laser",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1645,6 +3503,35 @@
     "abilities": [
       "War Construct: This unit is eligible to shoot in a turn in which it Fell Back.",
       "Psychic Guidance: While this unit is within 12\" of one or more friendly Aeldari Psyker models, models in this unit have a Leadership characteristic of 6+ and each time a model in this unit makes an attack, add 1 to the"
+    ],
+    "weapons": [
+      {
+        "name": "Wraithcannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "14",
+        "ap": "-4",
+        "d": "D6+1"
+      },
+      {
+        "name": "D-Scythe",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "7",
+        "ap": "-3",
+        "d": "1"
+      },
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1679,6 +3566,26 @@
       "Leader: This model can be attached to the following units:\n- **CORSAIR REAVER BAND**\n- **CORSAIR VOIDREAVERS**\n- **CORSAIR VOIDSCARRED**\n- **GUARDIAN DEFENDERS**\n- **STORM GUARDIANS**\n- **YNNARI INCUBI**\n- **",
       "Servant of the Whispering God: If your army includes Yvraine, it cannot include any Epic Hero units (excluding Ynnari units). If your army includes any Epic Hero units (excluding Ynnari units), it cannot include Yvraine."
     ],
+    "weapons": [
+      {
+        "name": "Kha-vir",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "4",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Storm of Whispers",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "2+",
+        "s": "2",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1708,6 +3615,26 @@
       "Forceshield: The bearer has a 4+ invulnerable save.",
       "Malevolent Souls: Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 3+, do not remove it from play; that destroyed model can fight after the attac",
       "Psychic Guidance: While this unit is within 12\" of one or more friendly Aeldari Psyker models, models in this unit have a Leadership characteristic of 6+ and each time a model in this unit makes an attack, add 1 to the"
+    ],
+    "weapons": [
+      {
+        "name": "Ghostswords",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Ghostaxe",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -1742,6 +3669,53 @@
       "Overlord: Once per battle, at the start of any phase, you can select one friendly ^^**Drukhari**^^ unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked.",
       "Devious Mastermind: Once per battle round, one model from your army with this ability can use it when its unit is targeted with a stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
     ],
+    "weapons": [
+      {
+        "name": "Splinter pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Blast pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "D3"
+      },
+      {
+        "name": "Huskblade",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "3",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Agoniser",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "3",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Master-crafted power weapon",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1768,6 +3742,35 @@
     "abilities": [
       "Beastmaster: While this unit contains a Beastmaster model, you can re-roll Charge rolls made for this unit.",
       "Goaded Savagery (Pain): In the Fight phase, when you select this unit to fight, you can spend 1 of your Pain tokens to Empower this unit. While this unit is Empowered, if it contains a ^^**Beastmaster**^^ model, each time a "
+    ],
+    "weapons": [
+      {
+        "name": "Clawed Fiend fists",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Khymerae talons",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Razorwing Feathers",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1798,6 +3801,71 @@
       "Deadly Retinue (Pain): At the start of your Shooting phase or at the start of the Fight phase, you can spend 1 Pain token to Empower this unit. While this unit is Empowered:\n■ If it contains one or more Lhamaean models, mel",
       "Court of the Archon [Legends]: This unit can be led by an ^^**Archon**^^. Alternatively, in the Declare Battle Formations step, this unit can join one ^^**Kabalite Warriors**^^ or ^^**Hand of the Archon**^^ unit from your army that"
     ],
+    "weapons": [
+      {
+        "name": "Shaimeshi Blade",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Shardcarbine",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Splinter pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Sslyth battle-blade",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Eyeburst",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Ur-ghul Talons",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1826,6 +3894,35 @@
     "abilities": [
       "Pain Engine (Aura): Each time you spend 1 Pain token to Empower a friendly unit within 9\" of this unit, roll one D6, adding 1 to the result if one or more models in this unit are not equipped with a spirit vortex: on a 5",
       "Pain Parasite (Pain): In your Shooting phase or the Fight phase, when you select this unit to shoot or fight, you can spend 1 Pain token to Empower this unit. While Empowered, each time this unit shoots or fights, after it"
+    ],
+    "weapons": [
+      {
+        "name": "Spirit Syphon",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Spirit-leech Tentacles",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Spirit Vortex",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1860,6 +3957,26 @@
       "Onslaught: While this model is leading a unit, each time a model in that unit makes a Pile-In or Consolidation move, it can move up to 6\" instead of up to 3\".",
       "Silent Executioner: Each time this model make an attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll. If that target is Below Half-Strength, you can re-roll the Wound roll as well"
     ],
+    "weapons": [
+      {
+        "name": "➤ The Executioner's demiklaives - Dual Blades",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ The Executioner's demiklaives - Single Blade",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1888,6 +4005,35 @@
       "Monstrous Hulks: This unit cannot embark within a ^^**Venom**^^, but it can embark within other ^^**Drukhari Transports**^^; when doing so, each ^^**Grotesque**^^ model takes up the space of 3 models.",
       "Macro-steroids (Pain): In the Fight phase, when you select this unit to fight, you can spend 1 of your Pain tokens to Empower this unit. While Empowered, melee weapons equipped by models in this unit have a Strength charact",
       "Monstrous Charge: Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 4"
+    ],
+    "weapons": [
+      {
+        "name": "Paired monstrous Weapons",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Liquifier Gun",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Monstrous Weapons",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -1921,6 +4067,26 @@
       "Pain Adept: In your Command phase, if one or more models from your army with this ability are on the battlefield, roll one D6: on a 4+, you gain 1 Pain token.",
       "Fleshcraft (Pain): In your Command phase, you can spend 1 Pain token to Empower this model's unit. Each time you do, you can return up to D3+1 destroyed Bodyguard models to that unit."
     ],
+    "weapons": [
+      {
+        "name": "Haemonculus tools and scissorhands",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "3",
+        "ap": "-1",
+        "d": "D3"
+      },
+      {
+        "name": "Stinger Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "2",
+        "ap": "-1",
+        "d": "D3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1951,6 +4117,26 @@
       "Battlefield Butchery (Pain): In the Fight phase, when you select this unit to fight, you can spend 1 Pain token to Empower this unit. While Empowered, add 1 to the Attacks and Strength characteristics of this unit's melee weapons",
       "Skyboard Evasion: In your opponent's Movement phase, if an enemy unit ends a move within 8” of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up t"
     ],
+    "weapons": [
+      {
+        "name": "Hellglaive",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Splinter Pods",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1979,6 +4165,17 @@
       "Tormentors: At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test. Each time a model in this unit makes a melee attack that ",
       "Decapitating Strikes (Pain): In the Fight phase, when you select this unit to fight, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit makes a melee attack that targets an ^^**Infant",
       "Incubi Shrine Token: Once per battle for each Incubi Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a Klaivex or Incubi model in this unit to an unmodified 6."
+    ],
+    "weapons": [
+      {
+        "name": "Klaive",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -2010,6 +4207,62 @@
       "Kabalite Icon: While the bearer's unit is not Battle-shocked, add 1 to the bearer's Objective Control characteristic.",
       "Cruel Enforcers: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under you control, until your opponent's Level of Control over that obj",
       "Sadistic Raiders (Pain): In your Shooting phase or the Fight phase, when you select this unit to shoot or fight, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit makes an attack"
+    ],
+    "weapons": [
+      {
+        "name": "Shredder",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Splinter Rifle",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-4",
+        "d": "D6+1"
+      },
+      {
+        "name": "Splinter Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "3",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Dark Lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+2"
+      }
     ],
     "system": "40k"
   },
@@ -2045,6 +4298,17 @@
       "Thrilling Spectacle: Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, this model has a 3+ invulnerable save and change the Attacks characteristic o",
       "Blur of Blades: While this model is leading a unit, models in that unit have the Fights First ability."
     ],
+    "weapons": [
+      {
+        "name": "Lelith's blades",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "3",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2072,6 +4336,26 @@
     "abilities": [
       "Fade Away (Pain): At the end of your opponent’s Fight phase, if this unit is not within Engagement Range of one or more enemy units, you can spend 1 Pain token to Empower this unit. Each time you do, remove this unit f",
       "Shade Weavers: This unit cannot be targeted by ranged attacks unless the attacking model is within 18\"."
+    ],
+    "weapons": [
+      {
+        "name": "Baleblast",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Glimmersteel Blade",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -2107,6 +4391,35 @@
       "Masters of the Shadowed Sky: At the end of your Command phase, if this model is within range of an objective marker you control, and if one or more ^^**Kabalite Warriors**^^ units are embarked within it, that objective marker rem",
       "Speed of the Kill: Each time a ^^**Wyches**^^ unit disembarks from this model (excluding Emergency Disembarkations), models in that ^^**Wyches**^^ unit must be setup wholly within 6\" of this model."
     ],
+    "weapons": [
+      {
+        "name": "Bladevanes and chainsnares",
+        "type": "Melee",
+        "attacks": "D3+3",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Disintegrator Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Dark Lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2138,6 +4451,35 @@
       "Eradicate the Foe: Each time this model makes an attack that targets an enemy unit that is at its Starting Strength, you can re-roll the Hit roll.",
       "Agonising Suppression (Pain): In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered, after this model has shot, select one enemy unit hit by one or more of t"
     ],
+    "weapons": [
+      {
+        "name": "Bladevanes",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Disintegrator Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Dark Lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2167,6 +4509,62 @@
       "Ground-attack Craft: Each time a model in this unit makes a ranged attack that targets an enemy unit (excluding units that can ^^**Fly**^^), add 1 to the Hit roll.",
       "Nowhere to Run (Pain): In your Shooting phase, when you select this unit to shoot, you can spend 1 Pain token to Empower this unit. While Empowered, after this unit has shot, select one enemy unit (excluding ^^**Monsters**^"
     ],
+    "weapons": [
+      {
+        "name": "Bladed Wings",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Razorwing Missiles - Monoscythe Missiles",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Razorwing Missiles - Neurotoxin Missiles",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Razorwing Missiles - Shatterfield Missiles",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Splinter Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "3",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin Splinter Rifle",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2195,6 +4593,53 @@
     "abilities": [
       "Eviscerating Fly-by: Each time this unit ends a Normal or Advance move, you can select one enemy unit (excluding ^^**Monster **^^and ^^**Vehicle**^^ units) that it moved over during that move, then roll one D6 for each mo",
       "Matchless Swiftness (Pain): In your Movement phase, when you select this unit to Advance, you can spend 1 Pain token to Empower this unit. While Empowered, each time this unit Advances, do not make an Advance roll. Instead, unti"
+    ],
+    "weapons": [
+      {
+        "name": "Splinter Rifle",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Splinter Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Bladevanes",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-4",
+        "d": "D6+1"
+      },
+      {
+        "name": "Heat Lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "14",
+        "ap": "-4",
+        "d": "D6"
+      }
     ],
     "system": "40k"
   },
@@ -2228,6 +4673,17 @@
       "Airborne Evasion: In your Shooting phase, after this unit has shot, if it is not within Engagement Range of any enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this unit is no",
       "Winged Strike (Pain): In your Shooting phase, when you select this unit to shoot, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit makes a range attack, you can re-roll the H"
     ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2260,6 +4716,17 @@
       "Leader: This model can be attached to the following unit:\n■ Wyches",
       "Bloody Spectacle: Each time this model makes a melee attack that targets a ^^**Character**^^ unit, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model's unit destroys a ^^**Character**"
     ],
+    "weapons": [
+      {
+        "name": "Archite glaive and agoniser",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "3",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2290,6 +4757,7 @@
       "Devoted to Pain: If a model in this unit is equipped with 2 macro-scalpels, those weapons have the ^^**[Twin-Linked]**^^ ability.",
       "Mindless Killing Machines (Pain): At the start of the Fight phase, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit is destroyed by a melee attack, if that model has not fought this phas"
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -2324,6 +4792,26 @@
       "Sculptor of Torments (Pain): In your Fight phase, when you select this model’s unit to fight, you can spend 1 of your Pain tokens to Empower this model’s unit. While that unit is Empowered, each time a model in that unit makes a ",
       "Father of Pain: Each time an attack with a Damage characteristic of 1 is allocated to a model in this model’s unit, that model has the Feel No Pain 4+ ability against that attack."
     ],
+    "weapons": [
+      {
+        "name": "Haemonculus tools and scissorhands",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "3",
+        "ap": "-1",
+        "d": "D3"
+      },
+      {
+        "name": "Casket of Flensing",
+        "type": "Ranged",
+        "attacks": "3D6",
+        "bs": "N/A",
+        "s": "3",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2355,6 +4843,35 @@
       "Aerialists: At the end of the Fight phase, if there are no models currently embarked within this **TRANSPORT**, you can select one friendly **DRUKHARI INFANTRY** unit that has 6 or fewer models that is wholly wit",
       "Rapid Deployment (Pain): In your Movement phase, when you select this model to Advance, you can spend 1 Pain token to Empower this model. While Empowered, units can disembark from this model after it has Advanced. Units that "
     ],
+    "weapons": [
+      {
+        "name": "Bladevanes",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Splinter Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "3",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin Splinter Rifle",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2385,6 +4902,35 @@
       "Void Mine: At the end of your opponent’s Fight phase, select one **visible** enemy model (excluding **Lone Operative** units) within 24\" of this unit, and roll one D6 for each enemy unit within D6\" of that model",
       "Nowhere to Hide (Pain): In your Shooting phase, when you select this unit to shoot, you can spend 1 Pain token to Empower this unit. While Empowered, after this unit has shot, select one enemy unit hit by one or more of thos"
     ],
+    "weapons": [
+      {
+        "name": "Bladed Wings",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Voidraven Missiles -  Implosion Missiles",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "➤ Voidraven Missiles - Shatterfield Missiles",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2413,6 +4959,53 @@
     "abilities": [
       "Torturer’s Craft: In your Shooting phase and the Fight phase, after this unit has shot or fought, select one enemy unit (excluding ^^**Vehicles**^^) hit by one or more of those attacks. That units must take a Battle-sh",
       "Experimental Enhancements (Pain): In the Fight phase, when you select this unit to fight, you can spend 1 Pain token to Empower this unit. Each time you do, select one of the following to apply to this unit until the end of the phase:"
+    ],
+    "weapons": [
+      {
+        "name": "Torturer's tool",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Hexrifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Liquifier Gun",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Ossefactor",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "2",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Stinger Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -2444,6 +5037,35 @@
       "No Escape: Each time an enemy unit (excluding ^^**Monsters**^^ and ^^**Vehicles**^^) within Engagement Range of one or more units from your army with this ability Falls Back, all models in that enemy unit must t",
       "Acrobatic Gladiators (Pain): At the start of your Charge phase, you can spend 1 Pain token to Empower this unit. While Empowered, this unit is eligible to declare a charge in a turn in which it Advanced or Fell Back."
     ],
+    "weapons": [
+      {
+        "name": "Splinter Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Hekatarii Blade",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "3",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Gladiatorial weapons",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2473,6 +5095,26 @@
     "abilities": [
       "Damaged: 1-8 Wounds Remaining: While this model has 1-8 wounds remaining, subtract 4 from\nits Objective Control characteristic and each time this model\nmakes an attack, subtract 1 from the Hit roll",
       "D-Rift: In your Shooting phase, just after selecting a target for this model’s D-impaler, roll one D6 for the target unit and every other unit within 3\" of that unit: on a 5+, the unit being rolled for is str"
+    ],
+    "weapons": [
+      {
+        "name": "D-Impaler",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "16",
+        "ap": "-4",
+        "d": "4"
+      },
+      {
+        "name": "Wraithbone Hull",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -2504,6 +5146,26 @@
       "Damaged: 1-8 Wounds Remaining: While this model has 1-8 wounds remaining, subtract 4 from\nits Objective Control characteristic and each time this model\nmakes an attack, subtract 1 from the Hit roll",
       "Lanced Obliteration: Each time an attack made with this model’s twin Scorpion pulsar destroys an enemy model that has the Deadly Demise ability, that model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 4+"
     ],
+    "weapons": [
+      {
+        "name": "Twin Scorpion Pulsar",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "18",
+        "ap": "-3",
+        "d": "5"
+      },
+      {
+        "name": "Wraithbone Hull",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2531,6 +5193,80 @@
     ],
     "abilities": [
       "Lightning Assault: Each time this model ends a Normal move, you can select one enemy unit (excluding ^^Monster^^ and ^^Vehicle^^ units) that it moved over during that move, then roll six D6: for each 4+, that enemy unit"
+    ],
+    "weapons": [
+      {
+        "name": "➤ Aeldari Missile Launcher - Starshot",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "➤ Aeldari Missile Launcher - Sunburst",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Bright Lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+2"
+      },
+      {
+        "name": "Scatter Laser",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Starcannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Hornet Pulse Laser",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D3"
+      },
+      {
+        "name": "Wraithbone Hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -2566,6 +5302,26 @@
       "Reaper of Souls: While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll",
       "Shadow of Death (Aura): While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock or Leadership test, subtract 1 from that test."
     ],
+    "weapons": [
+      {
+        "name": "Spear of Starlight",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "4"
+      },
+      {
+        "name": "Spear of Starlight",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2594,6 +5350,26 @@
     "abilities": [
       "Damaged: 1-5 Wounds Remaining: While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
       "Speed of Vaul: Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 9\" to the Move characteristic of this model"
+    ],
+    "weapons": [
+      {
+        "name": "Lynx Pulsar",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "16",
+        "ap": "-3",
+        "d": "D6"
+      },
+      {
+        "name": "Wraithbone Hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -2624,6 +5400,35 @@
     "abilities": [
       "Damaged: 1-4 Wounds Remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
       "Interceptor: Each time this model makes a ranged attack that targets a unit that can ^^Fly^^, add 1 to the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "Twin Bright Lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+2"
+      },
+      {
+        "name": "Twin Shuriken Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Wraithbone Hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -2658,6 +5463,71 @@
       "Webway Shunt Generator: Once per battle, at the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield and place it into Strategic",
       "Scattershield: The bearer has a 4+ invulnerable save."
     ],
+    "weapons": [
+      {
+        "name": "Titanic Feet",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Deathshroud Cannon - Dispersed",
+        "type": "Ranged",
+        "attacks": "3D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Deathshroud Cannon - Focused",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Inferno Lance",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Scatter Laser",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Starcannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2685,6 +5555,35 @@
     ],
     "abilities": [
       "Shade of Twilight: In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\". If it does, until the end of the turn, this u"
+    ],
+    "weapons": [
+      {
+        "name": "➤ Prism Rifle - dispersed",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Prism Rifle - focused",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -2719,6 +5618,71 @@
       "Titanic Advance: Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding ^^Titanic^^ models) and terrain features that are 4\" or less in height as if they were not there.",
       "Towering Wraith Construct: Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.",
       "Flawless Poise: This model is eligible to shoot and declare a charge in a turn in which it Fell Back."
+    ],
+    "weapons": [
+      {
+        "name": "Phantom feet",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "12",
+        "ap": "-2",
+        "d": "4"
+      },
+      {
+        "name": "Voidstorm missile launcher",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "D-bombard",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "20",
+        "ap": "-4",
+        "d": "2D6"
+      },
+      {
+        "name": "Phantom pulsar",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "3+",
+        "s": "18",
+        "ap": "-4",
+        "d": "6"
+      },
+      {
+        "name": "Phantom starcannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Wraith glaive - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "8",
+        "ap": "-3",
+        "d": "4"
+      },
+      {
+        "name": "Pulse laser",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      }
     ],
     "system": "40k"
   },
@@ -2755,6 +5719,44 @@
       "Towering Wraith Construct: Each time you target this model with a Stratagem, you must spend twice that Stratagem’s stated CP cost to do so.",
       "Revenant Jet Pack: Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 8\" to the Move characteristic of this model."
     ],
+    "weapons": [
+      {
+        "name": "Cloudburst missile launcher",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Revenant feet",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "10",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Sonic Lance",
+        "type": "Ranged",
+        "attacks": "D6+6",
+        "bs": "N/A",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Revenant Pulsar",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "14",
+        "ap": "-3",
+        "d": "4"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2784,6 +5786,53 @@
       "Damaged: 1-4 Wounds Remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
       "Devastating Assault: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test."
     ],
+    "weapons": [
+      {
+        "name": "➤ D-Flail - blast",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-4",
+        "d": "3"
+      },
+      {
+        "name": "➤ D-Flail - rift",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "N/A",
+        "s": "12",
+        "ap": "-4",
+        "d": "3"
+      },
+      {
+        "name": "Wraithbone Hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin Shuriken Catapult",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2812,6 +5861,98 @@
     ],
     "abilities": [
       "Horrify (Psychic): In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test."
+    ],
+    "weapons": [
+      {
+        "name": "Destructor",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Ghostspear - Strike",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "➤ Ghostspear - Sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Aeldari Missile Launcher - Starshot",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "10",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "➤ Aeldari Missile Launcher - Sunburst",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "4+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Bright Lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+2"
+      },
+      {
+        "name": "Scatter Laser",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Starcannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Wraithseer D-Cannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "14",
+        "ap": "-4",
+        "d": "D6"
+      }
     ],
     "system": "40k"
   },
@@ -2843,6 +5984,26 @@
       "Scything Charge: Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mo",
       "Engine of Destruction (Pain): In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered, this model’s pulse disintegrators have the ^^**[RAPID FIRE 8]**^^ abilit"
     ],
+    "weapons": [
+      {
+        "name": "Dire Scythe Blades",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Pulse Disintegrators",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2872,6 +6033,26 @@
     "abilities": [
       "The Path Least Travelled: If your army includes this model, after both players have deployed their armies and determined who has the first turn, you can select one ^^Rangers^^ or ^^Shroud Runners^^ unit from your army and rede",
       "Path of the Outcast: In your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model, if this model is not within Engagement Range of one or more enemy units, it can "
+    ],
+    "weapons": [
+      {
+        "name": "Power blade",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Ranger long rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -2905,6 +6086,17 @@
       "Bonesinger: While this model is within 3\" of one or more friendly ^^Wraith Construct^^ or ^^Asuryani Vehicle^^ units, unless it is leading a unit, this model has the Lone Operative ability.",
       "Psytronome Shaper: In your Command phase, you can select one friendly ^^Wraith Construct^^ or ^^Asuryani Vehicle^^ model within 3\" of this model. That ^^ Wraith Construct^^ or ^^Asuryani Vehicle^^ model regains up to D3"
     ],
+    "weapons": [
+      {
+        "name": "Psytronome Shaper",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "D3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2934,6 +6126,89 @@
     ],
     "abilities": [
       "Reckless Abandon: You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is ‑1 CP.\n- That use does not prevent any uses"
+    ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin shuriken catapult",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Dark lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+2"
+      },
+      {
+        "name": "Dissonance cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Splinter cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "3",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Void sabre",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Dissonance pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Brace of pistols",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -2965,6 +6240,98 @@
       "Reaver Band: In your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can ma",
       "Corsairs: If a model from your army with the Leader ability can be attached to a ^^Corsair Voidreavers^^ unit, it can be attached to this unit instead."
     ],
+    "weapons": [
+      {
+        "name": "Brace of pistols",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Corsair firearm",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Spar glaive",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Aeldari missile launcher - starshot",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-4",
+        "d": "D6+1"
+      },
+      {
+        "name": "Shredder",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Fusion gun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-4",
+        "d": "D6+1"
+      },
+      {
+        "name": "Splinter cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "3",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Dark lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2993,6 +6360,44 @@
     "abilities": [
       "Damaged: 1-4 Wounds Remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
       "Skyfire: Each time you target this model with the Fire Overwatch Stratagem just after an enemy unit that can ^^Fly^^ starts or ends a Normal, Advance or Fall Back move, when resolving that Stratagem, in additi"
+    ],
+    "weapons": [
+      {
+        "name": "Firestorm Scatter Laser",
+        "type": "Ranged",
+        "attacks": "16",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Wraithbone Hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin Shuriken Catapult",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -3024,6 +6429,44 @@
       "Strafing Run: Each time this model makes a ranged attack that targets a unit that cannot FLY, add 1 to the Hit roll.",
       "Damaged: 1-5 wounds remaining: While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Phoenix missile array",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Phoenix pulse laser",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Twin shuriken cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Wraithbone Hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -3054,6 +6497,44 @@
     "abilities": [
       "Damaged: 1-10 Wounds Remaining: While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
       "Titan Hunter: Each time a ranged attack made by this model is allocated to a ^^Monster^^ or ^^Vehicle^^ model, re-roll a Damage roll of 1."
+    ],
+    "weapons": [
+      {
+        "name": "Scatter Laser",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin Pulse Laser",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Twin Vampire Pulsar",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "4"
+      },
+      {
+        "name": "Wraithbone Hull",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -3087,6 +6568,35 @@
       "Into the Foe: If a unit disembarks from this ^^Transport^^ before it moves, until the end of the turn, that unit is eligible to charge in a turn in which it Advanced.",
       "Transport: This model has a transport capacity of 30 ^^Aeldari Infantry^^ models. Each ^^Wraith Construct^^ model takes the space of 2 models. It cannot transport ^^Jump Pack^^ models or ^^Ynnari^^ models (exclu"
     ],
+    "weapons": [
+      {
+        "name": "Scatter Laser",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin Pulse Laser",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Wraithbone Hull",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -3114,6 +6624,17 @@
     ],
     "abilities": [
       "Cloudbreakers: Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of this model."
+    ],
+    "weapons": [
+      {
+        "name": "Wasp feet",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -3145,6 +6666,35 @@
       "Ground-attack Craft: Each time a model in this unit makes a ranged attack that targets an enemy unit  (excluding unit that can ^^**Fly**^^), add 1 to the Hit roll.",
       "Shredding Fire (Pain): In your Shooting phase, when you select this unit to shoot, you can spend 1 Pain token to Empower this unit. While Empowered, the Armour Penetration characteristic of its ranged weapons is increased b"
     ],
+    "weapons": [
+      {
+        "name": "Bladed wings",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Dark lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+2"
+      },
+      {
+        "name": "Splinterstorm cannon",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "3+",
+        "s": "3",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -3175,6 +6725,44 @@
       "Eradicate the Foe: Each time this model makes an attack that targets an enemy unit that is at its Starting Strength, re-roll a Hit roll of 1. If the target unit has a Starting Strength of 1, this ability only applies if",
       "Damaged: 1-4 Wounds Remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
       "Electromagnetic Cascade (Pain): In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered: \n■ Each time this model makes a ranged attack that targets a ^^**Vehicle"
+    ],
+    "weapons": [
+      {
+        "name": "Bladevanes",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Prow blade",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Storm vortex projector - beam",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6"
+      },
+      {
+        "name": "➤ Storm vortex projector - blast",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -3209,6 +6797,62 @@
       "Leader: At the start of the Declare Battle Formations step, if this unit is not an Attached unit, this unit can join one **WINDRIDERS** unit from your army (a unit cannot have more than one **WARLOCK SKYRUNNE",
       "Runes of Battle (Psychic): Weapons equipped by models in this unit have the **[IGNORES COVER]** ability."
     ],
+    "weapons": [
+      {
+        "name": "Twin Shuriken Catapult",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Witchblade",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Destructor",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Singing Spear",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "0",
+        "d": "3"
+      },
+      {
+        "name": "Singing Spear",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -3238,6 +6882,35 @@
       "Leader: This model can be attached to the following units:\n■ Ynnari Incubi\n■ Ynnari Kabalite Warriors",
       "Overlord: While this model is leading a unit, each time a model in that unit makes an attack, re-roll a Wound roll of 1. While that unit is below its Starting Strength, each time a model in that unit makes an a",
       "Reborn Mastermind: Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratgem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
+    ],
+    "weapons": [
+      {
+        "name": "Huskblade",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "3",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Splinter Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Blast Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "D3"
+      }
     ],
     "system": "40k"
   },
@@ -3274,6 +6947,35 @@
       "Empyric Ambush: While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it used its Flickerjump ability.",
       "Whispering Web: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly Aeldari model makes an attack that targets"
     ],
+    "weapons": [
+      {
+        "name": "Brood Twain",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Spider's Fangs",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Weaverender",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -3301,6 +7003,26 @@
     ],
     "abilities": [
       "Crystalline Targeting: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly ^^Aeldari^^ unit makes an attack that targ"
+    ],
+    "weapons": [
+      {
+        "name": "War Walker feet",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -3331,6 +7053,35 @@
     "abilities": [
       "Monofilament Snare: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with its Shadow Weaver. Until the start of your next turn, that enemy unit it snared. "
     ],
+    "weapons": [
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Catapult",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Shadow weaver",
+        "type": "Ranged",
+        "attacks": "D6+2",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -3360,6 +7111,35 @@
     "abilities": [
       "Sonic Destruction: In your Shooting phase, each time this model makes an attack with its Vibro Cannon that targets an enemy unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 1 f"
     ],
+    "weapons": [
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Catapult",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Vibro Cannon",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -3387,6 +7167,17 @@
     ],
     "abilities": [
       "Harassment Fire: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppresse"
+    ],
+    "weapons": [
+      {
+        "name": "Wraithbone Hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -3420,6 +7211,62 @@
       "Damaged: 1-6 Wounds Remaining: While this model has 1-6 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
       "Titanic Agility: Each time this model makes a Normal, Advance or Fall Back move, it can move through models and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that"
     ],
+    "weapons": [
+      {
+        "name": "➤ Titanic Ghostglaive - Strike",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "16",
+        "ap": "-3",
+        "d": "6"
+      },
+      {
+        "name": "➤ Titanic Ghostglaive - Sweep",
+        "type": "Melee",
+        "attacks": "15",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Heavy Wraithcannon",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "20",
+        "ap": "-4",
+        "d": "2D6"
+      },
+      {
+        "name": "Scatter Laser",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Starcannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -3450,6 +7297,35 @@
       "Storm of Blades: While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
       "Leader: This model can be attached to the following unit:\n■ Ynnari Wyches"
     ],
+    "weapons": [
+      {
+        "name": "Succubus Weapons",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "3",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Splinter Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Blast Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "D3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -3477,6 +7353,62 @@
     "abilities": [
       "Phantasm Grenade Launcher: The bearer’s unit has the Grenades keyword.",
       "Sadistic Raiders: At the end of your Command phase, if you control an objective marker that this unit (or a Transport it is embarked within) is within range of, that objective marker remains under your control until yo"
+    ],
+    "weapons": [
+      {
+        "name": "Shredder",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Splinter Rifle",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-4",
+        "d": "D6+1"
+      },
+      {
+        "name": "Splinter Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "3",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Dark Lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+2"
+      }
     ],
     "system": "40k"
   },
@@ -3506,6 +7438,26 @@
     "abilities": [
       "No Escape: Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more units from your army with this ability is selected to Fall Back, all models in that enemy unit must tak"
     ],
+    "weapons": [
+      {
+        "name": "Splinter Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Hekatarii Blade",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "3",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -3531,6 +7483,17 @@
     ],
     "abilities": [
       "Tormentors: At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test."
+    ],
+    "weapons": [
+      {
+        "name": "Klaive",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -3558,6 +7521,62 @@
     ],
     "abilities": [
       "Eviscerating Fly-by: Each time this unit ends a Normal move, you can select one enemy unit (excluding Monster and Vehicle units) that it moved over during that move. If you do, roll one D6 for each model in this unit: for"
+    ],
+    "weapons": [
+      {
+        "name": "Splinter Rifle",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Splinter Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Bladevanes",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-4",
+        "d": "D6+1"
+      },
+      {
+        "name": "Heat Lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "14",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Agonizer",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "3",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -3589,6 +7608,35 @@
     "abilities": [
       "Aethersails: Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of this model."
     ],
+    "weapons": [
+      {
+        "name": "Bladevanes",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Disintegrator Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Dark Lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -3618,6 +7666,35 @@
     ],
     "abilities": [
       "Lithe Embarkation: At the end of the Fight phase, if there are no models currently embarked within this **^^Transport^^**, you can select one friendly **^^Ynnari Infantry^^** unit that only includes models from the unit"
+    ],
+    "weapons": [
+      {
+        "name": "Bladevanes",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Splinter Cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "3",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin Splinter Rifle",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -3653,6 +7730,26 @@
       "Precognisant: If you army includes this model, after both players have deployed their armies, select up to three ^^**Drukhari**^^ units from your army and redeploy them. When doing so, you can set those units up in",
       "Mind Like a Steel Trap: Once per turn, when your opponent targets a unit from their army within 12” of this model with a **stratagem**, you can use this ability. If you do increase the CP cost of that use of that **stratagem"
     ],
+    "weapons": [
+      {
+        "name": "Lady's Blade",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Razor fan",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -3684,6 +7781,71 @@
       "Stimm-needler: Once per turn, the first time a saving throw is failed for a model in the bearer's unit, change the Damage characteristic of that attack to 0.",
       "Assassins' Poisons (Pain): In your Shooting phase or the Fight phase, when you select this unit to shoot or fight, you can spend 1 Pain token to Empower this unit. While Empowered, weapons equipped by models in this unit (exclu",
       "Archon's Will: At the start of the first battle round, select one objective marker on the battlefield. Until the end of the battle, while this unit is within range of that objective marker, unless this unit is Battl"
+    ],
+    "weapons": [
+      {
+        "name": "Stinger pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Splinter Rifle",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shardcarbine",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Pain sculptors",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Razorflail",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Splinter Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -3717,6 +7879,26 @@
       "Murderous Crossfire: After this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly ^^**Drukhari**^^ unit makes a ranged attack that targets that enem",
       "Swooping Descent (Pain): In your Movement phase, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit is set up on the battlefield using the Deep Strike ability, it can be set up an"
     ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shardcarbine",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -3748,6 +7930,35 @@
       "Leader: This model can be attached to the following units:\n- **CORSAIR REAVER BAND**\n- **CORSAIR VOIDREAVERS**\n- **CORSAIR VOIDSCARRED**",
       "Piratical Hero: While this model is leading a unit, each time a model in that unit makes an attack, that attack has the ^^**[Sustained Hits 1]**^^ ability and add 1 to the Hit roll.",
       "Prince of Corsairs: After both players have deployed their armies, if this model is on the battlefield (or any ^^**Transport**^^ it is embarked within is on the battlefield), select up to three ^^**Aeldari**^^ units from"
+    ],
+    "weapons": [
+      {
+        "name": "The Eye of Wrath",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "The Spear of Twilight",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "7",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -3782,6 +7993,26 @@
       "Aethersense (Psychic): Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of this model.",
       "Fury of the Void (Psychic): In your Shooting phase, after this model’s unit has shot, select one enemy unit hit by one or more attacks made with this model’s Dread of the Deep Void. Until the end of the turn, that unit is riven."
     ],
+    "weapons": [
+      {
+        "name": "Dread of the Deep Void",
+        "type": "Ranged",
+        "attacks": "D6+2",
+        "bs": "3+",
+        "s": "3",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Waystave",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -3811,6 +8042,35 @@
     ],
     "abilities": [
       "Raid and Run: At the end of the Fight phase, if this unit was eligible to fight this phase, and is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D3+3\". Otherwise, if thi"
+    ],
+    "weapons": [
+      {
+        "name": "Corsair Blade",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Shuriken Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -3843,6 +8103,7 @@
       "Cruel Example: Each time this model makes an attack that targets a CHARACTER unit, you can add 1 to the Wound roll. Each time this model’s unit destroys a CHARACTER model, you gain 1CP.",
       "Leader: This model can be attached to the following units:\n■ Wyches"
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -3874,6 +8135,7 @@
       "Pain Adept: In your Command phase, if one or more models from your army with this ability are on the battlefield, roll one D6: on a 4+, you gain 1 Pain token.",
       "Leader: This model can be attached to the following units:\n■ Wracks"
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -3903,6 +8165,7 @@
       "Guided by Fate: Each time this model makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll.",
       "Leader: This model can be attached to the following units:\n■ Guardian Defenders\n■ Storm Guardian\n■ Warlock Conclave"
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -3932,6 +8195,7 @@
     "abilities": [
       "Winds of War: This model’s unit is eligible to declare a charge in a turn in which it Advanced."
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -3962,6 +8226,7 @@
     "abilities": [
       "Awakened Spirit: Each time this model makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -3990,6 +8255,17 @@
       "Frenzy: Each time an enemy unit is selected to shoot or fight, after it has finished making its attacks, if one or more of those attacks targeted this model and this model is not destroyed, this model can fig",
       "Borewyrm Infestation: Twice per battle, at the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield. In the Reinforcements ste"
     ],
+    "weapons": [
+      {
+        "name": "Enormous claws",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "D3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -4013,6 +8289,7 @@
       "Aegis Defence Line with Weapon Emplacement"
     ],
     "abilities": [],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -4039,6 +8316,7 @@
       "Bastion"
     ],
     "abilities": [],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -4065,6 +8343,7 @@
       "Firestorm Redoubt"
     ],
     "abilities": [],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -4094,6 +8373,35 @@
     "abilities": [
       "Vantage Point: While a model is on top of the tower roof of this FORTIFICATION, improve the Armour Penetration characteristic of ranged weapons equipped by that model by 1."
     ],
+    "weapons": [
+      {
+        "name": "Redemptor lascannons",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "➤ Redemptor missile silo - superfrag",
+        "type": "Ranged",
+        "attacks": "2D6+2",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Redemptor missile silo - superkrak",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "10",
+        "ap": "-2",
+        "d": "D6+1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -4119,6 +8427,35 @@
     ],
     "abilities": [
       "Drone Commander (Aura): While a friendly **^^Spindle Drones^^** unit is within 6\" of this model, each time a model in that unit makes an attack, add 1 to the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "Destroyer pulse",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Guardian salvo launchers",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Manipulator limbs",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -4149,6 +8486,17 @@
     "abilities": [
       "Tremor Quake: In your Shooting phase, just after selecting a target for this model’s Aquila macro-cannon, the target unit and every other enemy INFANTRY unit within 3\" of that unit must take a Battle-shock test."
     ],
+    "weapons": [
+      {
+        "name": "Aquila macro-cannon",
+        "type": "Ranged",
+        "attacks": "D6+6",
+        "bs": "5+",
+        "s": "16",
+        "ap": "-4",
+        "d": "4"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -4177,6 +8525,26 @@
     "abilities": [
       "Emergency Plasma Vents: Each time this FORTIFICATION suffers a mortal wound as the result of a failed Hazardous test, roll one D6: on a 4+, that wound is not lost."
     ],
+    "weapons": [
+      {
+        "name": "➤ Plasma obliterator - standard",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "➤ Plasma obliterator - supercharge",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "5+",
+        "s": "10",
+        "ap": "-4",
+        "d": "4"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -4201,6 +8569,71 @@
       "Primaris Redoubt"
     ],
     "abilities": [],
+    "weapons": [
+      {
+        "name": "Primaris Redoubt turbo-laser destructor",
+        "type": "Ranged",
+        "attacks": "D3+1",
+        "bs": "4+",
+        "s": "16",
+        "ap": "-3",
+        "d": "D6+3"
+      },
+      {
+        "name": "Primaris air defence missiles",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Primaris Icarus lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Primaris Icarus quad lascannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Primaris quad-gun",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Primaris castellan launcher",
+        "type": "Ranged",
+        "attacks": "D6+1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Primaris vengeance launcher",
+        "type": "Ranged",
+        "attacks": "D3+1",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -4227,6 +8660,7 @@
       "Skyshield: Friendly Infantry models and friendly units that can Fly can be set up or end any type of move on top of the platform section of this Fortification. While such a model is on the platform section of th",
       "Repair Aircraft: At the end of your Movement phase, if there is a friendly Aircraft model on top of this Fortification, that Aircraft regains up to D3 lost wounds"
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -4252,6 +8686,26 @@
     ],
     "abilities": [
       "Threat Level Rising: Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength"
+    ],
+    "weapons": [
+      {
+        "name": "Drone pulse",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -4282,6 +8736,26 @@
       "Fearsome Assault: At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test.",
       "Disruptive Influence (Aura): While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock or Leadership test, subtract 1 from that test."
     ],
+    "weapons": [
+      {
+        "name": "Atomic disassembler",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Eradicator glove",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -4309,6 +8783,7 @@
     "abilities": [
       "Automated Defences: Each time this model makes a ranged attack that targets the closest enemy unit:\n- If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit rol"
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -4334,6 +8809,7 @@
     "abilities": [
       "Projected Void Shields (Aura): While a friendly model is wholly within 6\" of this FORTIFICATION, that model has a 4+ invulnerable save against ranged attacks."
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -4363,6 +8839,17 @@
     "abilities": [
       "Vortex: In your Shooting phase, each time you select a target for this model’s vortex missile battery, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a "
     ],
+    "weapons": [
+      {
+        "name": "Vortex missile battery",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "5+",
+        "s": "16",
+        "ap": "-4",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -4391,6 +8878,7 @@
     "abilities": [
       "Inviolable Bastion: Each time an attack is allocated to this Fortification, subtract 1 from the Damage characteristic of that attack."
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -4415,6 +8903,7 @@
       "Defence Emplacement"
     ],
     "abilities": [],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -4439,6 +8928,7 @@
       "Defence Line"
     ],
     "abilities": [],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -4464,6 +8954,17 @@
     ],
     "abilities": [
       "Defensive Emplacement: In the Create the Battlefield and Place Objective Markers step, set this model up in one of the Sentry Gun positions (marked D1 on the mission map)."
+    ],
+    "weapons": [
+      {
+        "name": "Twin heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -4491,6 +8992,7 @@
       "Wall: This model is a terrain feature and counts as a Wall.",
       "Camera Network: In the Create the Battlefield and Place Objective Markers step, set this terrain feature up in one of the Searchlight positions (marked D2 on the mission map) that does not already contain a Searchlig"
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -4519,6 +9021,17 @@
       "Assault Robot: In the Deploy Armies step, when setting up a unit from your army within an Entry Zone, you can set this model up alongside that unit as if it was part of it, using the same Entry Zone.",
       "Bomb Kit: When the bearer is destroyed (other than through triggering its bomb, as described below), roll one D6 before removing it from play: on a 6 it explodes, and each other unit within 3\" of and visible to",
       "Cutting Gear: Each time the bearer ends a Normal move, you can open one Hatchway that is within 1\" of it. Your opponent cannot attempt to prevent that Hatchway from opening."
+    ],
+    "weapons": [
+      {
+        "name": "Cutting blade",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   }

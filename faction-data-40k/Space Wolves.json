@@ -30,6 +30,35 @@
       "Guile of the Wolf (Aura): Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that usage of that Stratagem by 1CP P (this is not cumulative wi",
       "Embarking within Transports: This model can embark within friendly Adeptus Astartes Transport models that can transport Terminator models. When doing, it takes up the space of 4 Infantry models"
     ],
+    "weapons": [
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Axe Morkai - Strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Tyrnak and Fenrir",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -59,6 +88,35 @@
     "abilities": [
       "Leader: This model can be attached to the following unit:\n\n■ Thunderwolf Cavalry",
       "Logan Grimnar: Your army cannot contain both Logan Grimnar and Logan Grimnar on Stormrider"
+    ],
+    "weapons": [
+      {
+        "name": "➤ Axe Morkai - Strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Flurry of teeth and claws",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -92,6 +150,44 @@
       "Wind Walker (Psychic): While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability and each time that unit advances, do not make an Advance roll. Instead, until the end of t",
       "Tempest's Wrath (Psychic): In your Shooting phase, after this model's unit has shot, select one enemy unit, (excluding MONSTERS and VEHICLES) hit by one or more of those attacks made with this model's Living Lightning weapon. U"
     ],
+    "weapons": [
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Staff of the Stormcaller",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "D3"
+      },
+      {
+        "name": "➤ Living Lightning - witchfire",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Living Lightning - focused witchfire",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -124,6 +220,62 @@
       "Legendary Tenacity: Each time an attack is allocated to this model, if the Strength characteristic of that attack is greater than this model's Toughness characteristic, subtract 1 from the Wound roll.",
       "Ancient Tactician: At the start of your Command phase, if this model is on the battlefield, you gain 1 CP"
     ],
+    "weapons": [
+      {
+        "name": "Heavy Flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Trueclaw",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "12",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Assault cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "2+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "➤ Helfrost cannon - dispersed",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Helfrost cannon - focused",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "10",
+        "ap": "-3",
+        "d": "5"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -154,6 +306,26 @@
       "Leader: This model can be attached to the following units:\n\n■ Wolf Guard Terminators",
       "Anvil of Endurance: While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6, on a 4+, do not remove the destroyed model from",
       "Champion of the Kingsguard: Each time this model makes a melee attack that targets a CHARACTER unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+    ],
+    "weapons": [
+      {
+        "name": "Foehammer",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Foehammer",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -186,6 +358,35 @@
       "Slayer’s Oath: At the start of the battle, select one of the following keywords to be this model's Slayer's Oath: CHARACTER, VEHICLE or MONSTER. The first time this model's unit destroys a unit with this model's Sla",
       "Leader: This model can be attached to the following units:\n\n■ Blood Claws\n■ Grey Hunters\n■ Wolf Guard Headtakers",
       "Oathbound: While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll. If that attack targets a unit that has this model's Slayer's Oath keyword (see above), a"
+    ],
+    "weapons": [
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Artificer crozius",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -220,6 +421,26 @@
       "War Howl: While this model is leading a BLOOD CLAWS unit, each time a model in that unit makes a melee attack, you can re-roll the Wound roll. While this model is leading a WOLF GUARD HEADTAKERS UNIT, that unit",
       "Battle-lust: Each time this model ends a Charge move, until the end of the turn, add 2 to the Attacks characteristics of this model’s Frostfang."
     ],
+    "weapons": [
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Frostfang",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "6",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -251,6 +472,26 @@
       "Leader: This model can be attached to the following units:\n\n■ Blood Claws\n■ Grey Hunters\n■ Wolf Guard",
       "Refuse to Accept Defeat: While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit ",
       "The Fierce Eye: In your Shooting phase, you can select one enemy INFANTRY unit within 12\" of and visible to this model. That enemy unit must take a Battle-shock test."
+    ],
+    "weapons": [
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Wyrmclaw",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -284,6 +525,35 @@
       "Lord of the Wolfkin: While this model is leading a unit, each time that unit makes a Charge move, until the end of the turn, crushing teeth and claws equipped by models in that unit have the [DEVASTATING WOUNDS] ability.",
       "Mantle of the Troll King: Once per phase, when resolving an attack made against this model, after you make a saving throw for this model, you can change the Damage characteristic of that attack to 0."
     ],
+    "weapons": [
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Glacius",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Crushing teeth and claws",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -314,6 +584,35 @@
       "Born of Wolves: While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
       "Alpha Predator: Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mo"
     ],
+    "weapons": [
+      {
+        "name": "Crushing teeth and claws",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Wolf claws",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -343,6 +642,71 @@
       "Leader: This model can be attached to the following units:\n\n■ Relic Terminator Squad\n■ Terminator Assault Squad\n■ Terminator Squad\n■ Wolf Guard Terminators\n\nYou can attach this model to one of the above units",
       "Huskarl to the Jarl: While this model is attached to a unit that contains another CHARACTER model, all CHARACTER models in that unit have the Feel No Pain 4+ ability.",
       "Relic shield: The bearer has a Wounds characteristic of 6."
+    ],
+    "weapons": [
+      {
+        "name": "Chainfist",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Thunder hammer",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Twin lightning claws",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -375,6 +739,98 @@
       "Speed of the Hunter: Add 1 to Advance and Charge rolls made for this model’s unit.",
       "Relic shield: The bearer has a Wounds characteristic of 7."
     ],
+    "weapons": [
+      {
+        "name": "Crushing teeth and claws",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Master-crafted boltgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Relic Weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Thunder Hammer",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Twin lightning claws",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -405,6 +861,98 @@
       "Aggressive Hunter: Once per battle, in your opponent’s Shooting phase, after an enemy unit has finished making its attacks, if this model’s unit was targeted by one or more of those attacks, this model’s unit can make a",
       "Storm Shield: The bearer has a 4+ invulnerable save."
     ],
+    "weapons": [
+      {
+        "name": "Crushing teeth and claws",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Relic weapon",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Thunder hammer",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Twin lightning claws",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Master-crafted boltgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -433,6 +981,44 @@
     ],
     "abilities": [
       "Berserk Charge: This unit is eligible to declare a charge in a turn in which it Advanced"
+    ],
+    "weapons": [
+      {
+        "name": "Astartes Chainsword",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -463,6 +1049,62 @@
     "abilities": [
       "Cunning Hunters: Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target is within range of an objective marker, you can re-roll the Wound roll instead."
     ],
+    "weapons": [
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Astartes Chainsword",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Bolt Carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -491,6 +1133,62 @@
       "Chosen Companions: While a CHARACTER model is leading this unit, each time a model in this unit makes an attack, add 1 to the Hit roll.",
       "Attached Unit: If a CHARACTER unit from your army with the Leader ability can be attached to an STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD, it can instead be attached to this unit.",
       "Storm Shield: The bearer has a 4+ invulnerable save."
+    ],
+    "weapons": [
+      {
+        "name": "Boltgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heirloom weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -524,6 +1222,26 @@
       "Leader: This model can be attached to the following unit:\n\n■ Blood Claws",
       "Master of Mischief: This model cannot be your WARLORD."
     ],
+    "weapons": [
+      {
+        "name": "Claw of the Jackalwolf",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -552,6 +1270,62 @@
     "abilities": [
       "Rugged Resilience: Each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll.",
       "Fierce Example: WOLF GUARD TERMINATORS unit only. This unit has +1 T"
+    ],
+    "weapons": [
+      {
+        "name": "Master-crafted Power Weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Storm Bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Assault Cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "2+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin lightning claws",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Relic Great Axe",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -584,6 +1358,26 @@
       "Invulnerable Save: Models in this unit have a 6+ invulnerable save. This invulnerable save is improved to 4+ against Psychic Attacks.",
       "Attached Unit: If a CHARACTER unit from your army with the Leader ability can be attached to a REIVER SQUAD, it can instead be attached to this unit."
     ],
+    "weapons": [
+      {
+        "name": "Morkai bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Morkai combat knife",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -610,6 +1404,26 @@
     "abilities": [
       "Death Totem: Each time the bearer makes a melee attack, re-roll a hit roll of 1.",
       "Savage Frenzy: Each time an enemy unit, (excluding MONSTERS and VEHICLES) within Engagement Range of this unit Falls Back, all that models in that enemy unit must take a Desperate Escape test. When doing so, if that"
+    ],
+    "weapons": [
+      {
+        "name": "Stormfrag auto-launcher",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Wulfen Weapons",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -639,6 +1453,44 @@
     "abilities": [
       "Bestial Rage: Each time an enemy unit is selected to shoot, after that unit has shot, if this model lost one or more wounds as a result of those attacks, this model can make a Bestial Rage move. To do so, roll one ",
       "Violent Fury: If this model is equipped with two melee weapons, those weapon profiles have the TWIN-LINKED ability."
+    ],
+    "weapons": [
+      {
+        "name": "Great wolf claw",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "10",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Storm Bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy Flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Fenrisian great axe - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -673,6 +1525,35 @@
       "Force of Untamed Destruction: This model cannot be your WARLORD.",
       "Beastial Fury: You can re-roll Advance and Charge rolls made for this model."
     ],
+    "weapons": [
+      {
+        "name": "Storm Bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy Flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Murderclaws",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "14",
+        "ap": "-2",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -700,6 +1581,53 @@
     "abilities": [
       "Thunderous Charge: Each time a model in this unit makes a melee attack with its Wolf Guard weapon, if it made a Charge move this turn, add 1 to the Damage characteristic of that attack"
     ],
+    "weapons": [
+      {
+        "name": "Wolf Guard Weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Crushing teeth and claws",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Boltgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -726,6 +1654,17 @@
     "abilities": [
       "Predatory Instinct: Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, it can make a Normal move of up to D6\"",
       "Hunting Hounds: While this unit is within 6\" of one or more SPACE WOLVES CHARACTER models (excluding WULFEN models), if this unit is not Battle-shocked, models in it have an Objective Control characteristic of 1"
+    ],
+    "weapons": [
+      {
+        "name": "Teeth and claws",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -757,6 +1696,98 @@
       "Headstrong: You can re-roll Charge rolls made for this unit. Each time this unit makes a Charge move, until the end of the turn, each time a model in this unit makes a melee attack, add 1 to the Hit roll.",
       "Attached Unit: If a CHARACTER unit from your army with the Leader ability can be attached to an ASSAULT INTERCESSOR SQUAD WITH JUMP PACKS or ASSAULT SQUAD WITH JUMP PACKS, it can instead be attached to this unit."
     ],
+    "weapons": [
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Astartes Chainsword",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Grav-gun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Plasma gun - supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -785,6 +1816,98 @@
       "Fire Discipline: Each time this unit Remains Stationary, if it includes a Long Fang Pack Leader, you can select one enemy unit that is visible to that model. Until the end of the turn, each time a model in this unit m",
       "Attached Unit: If a CHARACTER unit from your army with the Leader ability can be attached to a DEVASTATOR SQUAD, it can instead be attached to this unit.",
       "Armorium Cherub: Once per battle, after making a Hit roll for a model in this unit, you can change that roll to an unmodified 6."
+    ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Boltgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Grav-cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "➤ Missile launcher - frag",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Missile launcher - krak",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "➤ Plasma cannon - standard",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma cannon - supercharge",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -815,6 +1938,53 @@
     "abilities": [
       "Frozen Prey: In your Shooting phase, after this model has shot, if an enemy MONSTER or VEHICLE unit was hit by one or more of those attacks made with this model’s helfrost destructor, until the end of your opponen"
     ],
+    "weapons": [
+      {
+        "name": "➤ Helfrost destructor - dispersed",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "11",
+        "ap": "-3",
+        "d": "7"
+      },
+      {
+        "name": "➤ Helfrost destructor - focused",
+        "type": "Ranged",
+        "attacks": "D6+6",
+        "bs": "N/A",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin stormstrike missile launcher",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Skyhammer Missile Launcher",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-1",
+        "d": "D3"
+      },
+      {
+        "name": "Twin multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -843,6 +2013,44 @@
     ],
     "abilities": [
       "Into the Foe: If a unit disembarks from this TRANSPORT before it moves, until the end of the turn, that unit is eligible to charge in a turn in which it Advanced."
+    ],
+    "weapons": [
+      {
+        "name": "➤ Twin helfrost cannon - dispersed",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Twin helfrost cannon - focused",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-3",
+        "d": "5"
+      },
+      {
+        "name": "Skyhammer Missile Launcher",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-1",
+        "d": "D3"
+      },
+      {
+        "name": "Twin multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
     ],
     "system": "40k"
   },
@@ -873,6 +2081,98 @@
     "abilities": [
       "Leader: This model can be attached to the following units:\n\n■ Blood Claws\n■ Grey Hunters\n■ Long Fangs\n\nYou must attach this model to one of the above units, and can do so even if one or more Character units h",
       "Storm Shield: The bearer has a 4+ invulnerable save."
+    ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Boltgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Storm Bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Astartes Chainsword",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Thunder Hammer",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -906,6 +2206,98 @@
       "Leader: This model can be attached to the following unit:\n\n■ Skyclaws\n\nYou must attach this model to the above unit, and can do so even if one or more Character units have already been attached to that unit, ",
       "Storm Shield: The bearer has a 4+ invulnerable save."
     ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Boltgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Storm Bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Astartes Chainsword",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Thunder Hammer",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -936,6 +2328,98 @@
     "abilities": [
       "Leader: This model can be attached to the following units:\n\n■ Blood Claws\n■ Grey Hunters\n■ Long Fangs\n\nYou must attach this model to one of the above units, and can do so even if one or more Character units h",
       "Storm Shield: The bearer has a Wounds characteristic of 4."
+    ],
+    "weapons": [
+      {
+        "name": "Assault Cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy Flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Cyclone missile launcher - frag",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Cyclone missile launcher - krak",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Storm Bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Chainfist",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Thunder Hammer",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -968,6 +2452,35 @@
       "Leader: This model can be attached to the following units:\n\n■ Wolfguard Headtakers\n■ Blood Claws\n■ Grey Hunters",
       "Judgement of the Omnissiah: Each time this model makes an attack that targets an enemy unit within Engagement Range of one or more friendly ADEPTUS ASTARTES VEHICLE units, you can re-roll the wound roll."
     ],
+    "weapons": [
+      {
+        "name": "➤ Helfrost pistol - dispersed",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Helfrost pistol - focused",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Tempest hammer and Servo-arm",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -999,6 +2512,17 @@
       "Leader: This model can be attached to the following unit:\n\n■ Fenrisian Wolves\n\nYou must attach this model to the above unit, even if Canis Wolfborn has been attached to it. If you do, and that Bodyguard unit ",
       "Wolfkin: This model cannot be your WARLORD and cannot be given Enhancements."
     ],
+    "weapons": [
+      {
+        "name": "Teeth and claws",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1028,6 +2552,98 @@
     "abilities": [
       "Guerrilla Tactics: At the end of your opponent’s turn, if this unit is more than 6\" away from all enemy models, you can remove this unit from the battlefield and place it into\nStrategic Reserves."
     ],
+    "weapons": [
+      {
+        "name": "Boltgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Storm Bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Hand flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Grav-pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Inferno Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-4",
+        "d": "D3"
+      },
+      {
+        "name": "Astartes Chainsword",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1056,6 +2672,80 @@
     ],
     "abilities": [
       "Fervour of the Ancients (Aura): While a friendly SPACE WOLVES unit is within 6\" of this model, add 1 to Advance and Charge rolls made for that unit."
+    ],
+    "weapons": [
+      {
+        "name": "➤ Fenrisian great axe - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Heavy Flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Storm Bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Assault Cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "➤ Helfrost cannon - dispersed",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Helfrost cannon - focused",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-3",
+        "d": "5"
+      },
+      {
+        "name": "Dreadnought Combat Weapon",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "12",
+        "ap": "-2",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -1088,6 +2778,71 @@
       "Iron Priest: While this model is within 3\" of one or more friendly ADEPTUS ASTARTES VEHICLE units, this model has the Lone Operative ability",
       "Blessing of the Omnissiah: In your Command phase, you can select one friendly ADEPTUS ASTARTES VEHICLE model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each"
     ],
+    "weapons": [
+      {
+        "name": "Crushing teeth and claws",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Iron Priest hammer",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Servo-arm",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "➤ Helfrost pistol - dispersed",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "N/A",
+        "s": "3",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Helfrost pistol - focused",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Boltgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1117,6 +2872,26 @@
       "Weaver of Sagas: WOLF PRIEST model only. (Once per battle-round, per army) In your Movement phase, at the start or end of this unit's move, you can:\n\n\n▪ Select one friendly ADEPTUS ASTARTES unit within 6\" of this unit",
       "Leader: This model can be attached to the following units:\n\n■ Blood Claws\n■ Grey Hunters\n■ Wolf Guard Headtakers",
       "Healing Balms: While this model is leading a unit, in your Command phase, you can return 1 model (excluding CHARACTER models) to that unit."
+    ],
+    "weapons": [
+      {
+        "name": "Crozius arcanum",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Absolvor bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -1151,6 +2926,53 @@
       "Eye of the Hunter: WOLF GUARD BATTLE LEADER model only. This unit's ranged attacks have:\n\n\n▪ [ASSAULT].\n▪ [IGNORES COVER].\n▪ +1 AP.",
       "Storm Shield: The bearer has a Wounds characteristic of 6"
     ],
+    "weapons": [
+      {
+        "name": "Master-crafted Power Weapon",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Thunder Hammer",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Master-crafted Bolt Carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Master-crafted Heavy Bolt Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1177,6 +2999,7 @@
       "Headhunters: At the start of the battle, select one unit from your opponent's army to be this unit's quarry. Weapons equipped by HEADTAKERS models in this unit have the [DEVASTATING WOUNDS] and [PRECISION] abiliti",
       "Hunting Hounds: While this unit is within 6\" of one or more friendly SPACE WOLVES CHARACTER models (excluding WULFEN models), if this unit is not Battle-shocked, HUNTING WOLVES models in it have an Objective Control "
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -1205,6 +3028,26 @@
       "Death Totem: Each time the bearer makes a melee attack, re-roll a hit roll of 1.",
       "Hammer Blow: In the Fight phase, after this unit has fought, select one enemy MONSTER or VEHICLE unit hit by one or more of those attacks. Until the end of the next turn, that enemy unit is suppressed. While a uni"
     ],
+    "weapons": [
+      {
+        "name": "Thunder Hammer",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Stormfrag auto-launcher",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1231,6 +3074,7 @@
       "Headhunters: At the start of the battle, select one unit from your opponent's army to be this unit's quarry. Weapons equipped by HEADTAKERS models in this unit have the [DEVASTATING WOUNDS] and [PRECISION] abiliti",
       "Hunting Hounds: While this unit is within 6\" of one or more friendly SPACE WOLVES CHARACTER models (excluding WULFEN models), if this unit is not Battle-shocked, HUNTING WOLVES models in it have an Objective Control "
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -1260,6 +3104,17 @@
     "abilities": [
       "Hunting Hounds: While this unit is within 6\" of one or more friendly ^^**Space Wolves Character**^^ models (excluding ^^**Wulfen**^^ models), if this unit is not Battle-shocked, Hunting Wolves models in this unit hav",
       "Deadly Stalkers: Each time a model in this unit makes an attack that targets an enemy unit, if there are no other units from your opponent’s army within 6\" of that target, add 1 to the Wound roll."
+    ],
+    "weapons": [
+      {
+        "name": "Combat Blade",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   }

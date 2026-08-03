@@ -29,6 +29,35 @@
       "Dark Destiny: Each time this model makes a Dark Pact and does not fail the resulting **leadership roll**, if the result of that roll was 7+, you gain 1CP.",
       "Leader: This model can be attached to the following units:\n■ CHAOS TERMINATOR SQUAD\n■ CHOSEN"
     ],
+    "weapons": [
+      {
+        "name": "Talon of Horus",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Talon of Horus",
+        "type": "Melee",
+        "attacks": "14",
+        "bs": "",
+        "s": "7",
+        "ap": "-3",
+        "d": "1"
+      },
+      {
+        "name": "Drach'nyen",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "14",
+        "ap": "-4",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -62,6 +91,35 @@
       "Head Taker: While this model is leading a unit, each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model’s unit and roll one D6 for each model in this model’s un",
       "Herald of the Apocalypse (Aura): While an enemy unit is within 6\" of this model, in the Battle-shock step of your opponent’s Command phase, if that enemy unit is below its Starting Strength, it must take a Battle-shock test. This abi"
     ],
+    "weapons": [
+      {
+        "name": "Hellspear",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Hellspear",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Herald's Talon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -93,6 +151,26 @@
       "Lord of Badab (Aura): While a friendly ^^**Heretic Astartes Infantry**^^ unit (excluding Battle-shocked units and ^^**Damned**^^ units) is within 6\" of this model, add 1 to the Objective Control characteristic of models in",
       "Hamadrya’s Knowledge (Psychic): Once per battle round, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model’s unit, if this model’s unit is not within Engagement Range of one or more enemy units, it ca"
     ],
+    "weapons": [
+      {
+        "name": "Tyrant's Claw heavy flamer",
+        "type": "Ranged",
+        "attacks": "D6+2",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Tyrant's Claw and exalted power weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -122,6 +200,35 @@
       "Dark Blessing (Aura): While a friendly HERETIC ASTARTES INFANTRY unit is within 6\" of this model, each time a ranged attack is allocated to a model in that unit, that model has the Benefit of Cover against that attack.",
       "Ascended Daemon: Each time this model shoot or fights, while resolving those attacks, you can re-roll one Hit roll and you can re-roll one Wound roll.",
       "Lord of Chaos: While this model is within 3\" of a friendly ^^**Heretic Astartes Infantry^^** unit, this model has **Lone Operative**."
+    ],
+    "weapons": [
+      {
+        "name": "➤ Hellforged weapons - strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "➤ Hellforged weapons - sweep",
+        "type": "Melee",
+        "attacks": "14",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Infernal cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -154,6 +261,35 @@
       "Flying Horror: Each time this model ends a Normal or Advance move, select one enemy unit it moved over during that move. That unit must take a Battle-shock test.",
       "Daemonic Destruction: Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each of this model’s remaining wounds: for each 4+, that enemy unit suffers 1 mortal wo"
     ],
+    "weapons": [
+      {
+        "name": "➤ Hellforged weapons - strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "➤ Hellforged weapons - sweep",
+        "type": "Melee",
+        "attacks": "14",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Infernal cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -180,6 +316,44 @@
       "Leader: This model can be attached to the following units:\n■ ACCURSED CULTISTS\n■ CHOSEN\n■ CULTIST MOB\n■ LEGIONARIES",
       "Surgeon Acolyte: Once per turn, when an attack is allocated to a model in this unit, if this unit contains ^^**Fabius Bile**^^, you can change the Damage characteristic of that attack to 0.",
       "Chirurgeon: The first time this unit’s ^^**Fabius Bile^^** model is destroyed, at the end of the phase, roll one D6: on a 2+, set it back up on the battlefield, as close as possible to where it was destroyed and "
+    ],
+    "weapons": [
+      {
+        "name": "Xyclos needler",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "2",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "The Chirurgeon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Rod of Torment",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Surgeon Acolyte's tools",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -211,6 +385,44 @@
       "Agent of Discord (Aura): Once per turn, when your opponent targets a unit from their army within 12” of this model with a **stratagem**, you can use this ability. If you do increase the CP cost of that use of that **stratagem",
       "Guns Blazing: Once per turn, in your opponent's Shooting phase, when an enemy unit makes a ranged attacks that targets a friendly HERETIC ASTARTES unit within 3\" of this model, after that enemy unit has shot, this "
     ],
+    "weapons": [
+      {
+        "name": "Cypher's bolt pistol",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Cypher's bolt pistol",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Cypher's plasma pistol",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Cypher's plasma pistol",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -241,6 +453,35 @@
       "Daemonkin (Psychic): While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit.",
       "Sacrificial Dagger: Once per phase, when this model is selected to shoot or fight, it can use this ability. If it does, this model’s unit suffers 1 mortal wound and, until the end of the phase, each time this model makes"
     ],
+    "weapons": [
+      {
+        "name": "➤ Rite of Possession - witchfire",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Rite of Possession - focused witchfire",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Staff of possession",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "D3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -269,6 +510,53 @@
     "abilities": [
       "Leader: This model can be attached to the following units:\n■ CHOSEN\n■ LEGIONARIES",
       "Chance for Glory: Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength, Attacks, Armour\nPenetration and Damage characteristics "
+    ],
+    "weapons": [
+      {
+        "name": "Daemon hammer",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Accursed weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Astartes chainblade",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Plasma pistol - supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -300,6 +588,62 @@
       "Leader: This model can be attached to the following units:\n■ CHAOS TERMINATOR SQUAD",
       "Formidably Resilient: Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
     ],
+    "weapons": [
+      {
+        "name": "Combi-bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Exalted weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Chainfist",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Paired accursed weapons",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -330,6 +674,26 @@
       "Leader: This model can be attached to the following units:\n■ CHOSEN\n■ LEGIONARIES",
       "Prescience (Psychic): While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll.",
       "Gift of Chaos (Psychic): Each time this model is selected to shoot or fight, after resolving its attacks, select one enemy unit hit by one or more of those attacks that had the [PSYCHIC] ability. That unit must take a Leaders"
+    ],
+    "weapons": [
+      {
+        "name": "➤ Infernal Gaze - focused witchfire",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "D3"
+      },
+      {
+        "name": "Force weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "D3"
+      }
     ],
     "system": "40k"
   },
@@ -363,6 +727,44 @@
       "Death Hex (Psychic): At the start of your Shooting phase, one PSYKER with this ability can use it. If it does, select one enemy unit within 12\" of and visible to that PSYKER and roll one D6: on a 1, that PSYKER's unit suf",
       "Chaos Familiar: Once per battle, when an attack is allocated to the bearer, you can change the Damage characteristic to 0."
     ],
+    "weapons": [
+      {
+        "name": "Combi-bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Infernal Gaze - focused witchfire",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "D3"
+      },
+      {
+        "name": "Force weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "D3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -391,6 +793,71 @@
     "abilities": [
       "Corrupt Machine Spirits: At the start of your Shooting phase, select one visible enemy ^^**Vehicle^^** unit within 12\" of this model and roll one D6: on a 2‑3, that enemy unit suffers D3 mortal wounds; on a 4‑5, that enemy un",
       "Spirit Thief: At the start of your Shooting phase, select one visible enemy ^^**Vehicle^^** unit. Until the end of the phase, each time a friendly ^^**Heretic Astartes^^** model makes an attack that targets that un"
+    ],
+    "weapons": [
+      {
+        "name": "Bladed limbs",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Impaler chainglaive",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Helstalker autocannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Baleflamer",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Techno-virus injector",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Magma cutter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -422,6 +889,44 @@
       "Enrage Machine Spirits: At the end of your Movement phase, select one enemy ^^**Vehicle**^^ unit within 12\" of this model. That unit must take a Battle-shock test.",
       "Leader: This model can be attached to the following units: ^^**Chosen, Havocs, Legionaires**^^"
     ],
+    "weapons": [
+      {
+        "name": "Flamer tendril",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Forge weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Melta tendril",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-4",
+        "d": "D3"
+      },
+      {
+        "name": "➤ Plasma pistol - supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -452,6 +957,26 @@
       "Dark Champion: While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll.",
       "Aspire to Glory: Each time this model’s unit makes a Dark Pact, until the end of the phase, add D3 to the Strength characteristic of weapons equipped by this model."
     ],
+    "weapons": [
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Exalted weapon",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -481,6 +1006,26 @@
       "Dark Zealotry: While this unit is leading a unit and contains a DARK APOSTLE model, each time a model in that unit makes a melee attack, add 1 to the Wound roll.",
       "Demagogue: Once per battle, at the start of any phase, you can select one friendly HERETIC ASTARTES unit that is Battle-shocked and within 12\" of this unit’s DARK APOSTLE model. That unit is no longer Battle-sho",
       "Malign Sacrifice: At the start of the Fight phase, if this unit contains one or more Dark Disciple models, you can select one of those models and one enemy unit within Engagement Range of this unit, then roll one D6: o"
+    ],
+    "weapons": [
+      {
+        "name": "Accursed crozius",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -513,6 +1058,53 @@
       "Faithful Flock: While this unit is leading a unit and contains a CULT DEMAGOGUE model, models in that unit have a 5+ invulnerable save.",
       "Dark Ritual: Once per battle, in your Command phase, if this unit contains a CULT DEMAGOGUE model, it can use this ability. If it does, until the end of the turn, this unit can declare a charge in a turn in which "
     ],
+    "weapons": [
+      {
+        "name": "Commune blade",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Autopistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Warp Curse - witchfire",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Warp Curse - focused witchfire",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -540,6 +1132,35 @@
     ],
     "abilities": [
       "Veterans of the Long War: Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead."
+    ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Balefire tome",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
     ],
     "system": "40k"
   },
@@ -570,6 +1191,26 @@
     "abilities": [
       "For the Dark Gods: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, unti"
     ],
+    "weapons": [
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Autopistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -597,6 +1238,26 @@
     "abilities": [
       "Howling Horde: In your opponent's Shooting phase, when an enemy unit has shot, if a model from this unit was **destroyed** as a result of those attacks, this unit can make a **surge move** of up to D6\"."
     ],
+    "weapons": [
+      {
+        "name": "Hideous mutations",
+        "type": "Melee",
+        "attacks": "D6+2",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Blasphemous appendages",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -623,6 +1284,35 @@
     ],
     "abilities": [
       "Despoilers: Each time this unit makes a Dark Pact, until the end of the phase, each time a model in this unit makes an attack, you can re-roll the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Paired accursed weapons",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -654,6 +1344,17 @@
       "Warp-sighted Butcher: While this model is leading a unit, each time a model in that unit makes a melee attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll. If that unit is Below Hal",
       "Trophy Taker: Each time this model destroys an enemy CHARACTER model, you gain 1CP."
     ],
+    "weapons": [
+      {
+        "name": "Axe of dismemberment",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -681,6 +1382,7 @@
     "abilities": [
       "Unholy Bloodshed: Once per battle, when this unit makes a Dark Pact, until the end of the phase, weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability."
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -707,6 +1409,35 @@
     ],
     "abilities": [
       "Chosen Marauders: This unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+    ],
+    "weapons": [
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Paired accursed weapons",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -736,6 +1467,26 @@
     "abilities": [
       "Soul Eater: At the end of the Fight phase, if one or more attacks made by this model that phase destroyed one or more enemy units, until the end of the battle, add 1 to the Attacks characteristic of this model’s "
     ],
+    "weapons": [
+      {
+        "name": "Excruciator cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Soulflayer tendrils and claws",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -762,6 +1513,44 @@
     ],
     "abilities": [
       "Rapid Assault: Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, improve the Strength characteristic of that attack by 1."
+    ],
+    "weapons": [
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -793,6 +1582,44 @@
       "Fearsome (Aura): While an enemy unit is within 6\" of this unit, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from the result.",
       "Terrifying Assault: At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test."
     ],
+    "weapons": [
+      {
+        "name": "Heavy melee weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Mutations",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -823,6 +1650,7 @@
     "abilities": [
       "Warp Strike: At the end of the Fight phase, if this unit destroyed one or more enemy units this phase and is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield an"
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -848,6 +1676,89 @@
     ],
     "abilities": [
       "Stabilisation Talons: Each time a model in this unit makes an attack with a ranged weapon, you can ignore any or all modifiers to the Hit roll and any or all modifiers to the Ballistic Skill characteristic of that weapon."
+    ],
+    "weapons": [
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Havoc autocannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Havoc lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "➤ Havoc missile launcher - frag",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Havoc missile launcher - krak",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Havoc reaper chaincannon",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Havoc heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -876,6 +1787,44 @@
     "abilities": [
       "Warp Rift Firepower: (Once per battle, per unit): In your Shooting phase, when this unit is **selected to shoot**, you can use this ability. If you do, this unit's ranged attacks have **[INDIRECT FIRE]**."
     ],
+    "weapons": [
+      {
+        "name": "Crushing fists",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Fleshmetal guns - focused malice",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "4"
+      },
+      {
+        "name": "➤ Fleshmetal guns - ruinous salvo",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Fleshmetal guns - warp hail",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -903,6 +1852,17 @@
     "abilities": [
       "Malevolent Locus (Aura): While a friendly HERETIC ASTARTES unit is within 9\" of this Fortification, improve that unit's Leadership characteristic by 1.",
       "Malign Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against th"
+    ],
+    "weapons": [
+      {
+        "name": "Lashing warp energies",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -936,6 +1896,35 @@
       "Reorder Reality: Each time an enemy unit within 18\" of this model targets this model, subtract 1 from the Hit roll and, until the end of the phase, that enemy unit’s ranged weapons have the [HAZARDOUS] ability.",
       "Indentured Daemon Engines: While this model is within 3\" of one or more friendly ^^**Daemon Vehicle^^** units, this model has the Lone Operative ability."
     ],
+    "weapons": [
+      {
+        "name": "Vashtorr's claw",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "➤ Vashtorr's hammer - strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "14",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "➤ Vashtorr's hammer - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -963,6 +1952,62 @@
     ],
     "abilities": [
       "Twisted Defence Force: While this unit is within range of an **objective**, this unit has +1 **Sv** against ranged attacks."
+    ],
+    "weapons": [
+      {
+        "name": "Chainsword",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Corrupted pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Boltgun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Lasgun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -992,6 +2037,89 @@
     "abilities": [
       "Bestial Raiders: If this unit begins the game in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. If this unit is in Strat"
     ],
+    "weapons": [
+      {
+        "name": "Chainsword",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol- supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Autopistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Great weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Corrupted stave",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "D3"
+      },
+      {
+        "name": "Corrupted stave",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1018,6 +2146,26 @@
       "Leader: This unit can be attached to the following unit:\n■ TRAITOR GUARDSMAN SQUAD",
       "Brutal Example: Once per turn, while this unit is leading a unit and contains a TRAITOR ENFORCER model, you can target that unit with the Fire Overwatch Stratagem for 0CP, and can do so even if you have already targe",
       "Mutated Bodyguard: While this unit contains a Traitor Ogryn model, CHARACTER models in this unit have the Feel No Pain 4+ ability."
+    ],
+    "weapons": [
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Ogryn weapons",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -1048,6 +2196,53 @@
     "abilities": [
       "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
     ],
+    "weapons": [
+      {
+        "name": "Armoured tracks",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Soulshatter lascannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Havoc launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1075,6 +2270,62 @@
     ],
     "abilities": [
       "Annihilator: Each time a ranged attack made by this model is allocated to a **^^Monster^^** or **^^Vehicle^^** model, you can re-roll the Damage roll."
+    ],
+    "weapons": [
+      {
+        "name": "Armoured tracks",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Havoc launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Predator twin lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      }
     ],
     "system": "40k"
   },
@@ -1104,6 +2355,62 @@
     "abilities": [
       "Destructor: Each time a ranged attack made by this model targets an enemy INFANTRY unit, improve the Armour Penetration characteristic of that attack by 1."
     ],
+    "weapons": [
+      {
+        "name": "Armoured tracks",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Havoc launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Predator autocannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1131,6 +2438,44 @@
     ],
     "abilities": [
       "Siege Shield: When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy "
+    ],
+    "weapons": [
+      {
+        "name": "Armoured tracks",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Havoc launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Demolisher cannon",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1160,6 +2505,35 @@
     "abilities": [
       "Daemonic Ordnance: Each time this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its ranged weapons have the [DEVASTATING WOUNDS] and [HAZARDOUS] abilities."
     ],
+    "weapons": [
+      {
+        "name": "Ectoplasma cannon",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Hades autocannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Forgefiend jaws",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "7",
+        "ap": "0",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1187,6 +2561,98 @@
     "abilities": [
       "Dark Ascension (Aura): While a friendly HERETIC ASTARTES unit is within 6\" of this model, each time that unit makes a Dark Pact, until the end of the phase, its weapons gain both abilities conferred by that pact (instead of",
       "Devoted to Destruction: If this model is equipped with 2 melee weapons in addition to its close combat weapon, add 2 to the Attacks characteristics of those 2 weapons."
+    ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Helbrute fist",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "12",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Heavy flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Missile launcher - frag",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Missile launcher - krak",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Helbrute hammer",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Power scourge",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Twin autocannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Helbrute plasma cannon",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -1216,6 +2682,35 @@
     "abilities": [
       "Airborne Predator: Each time this model makes an attack that targets a unit that can FLY, add 1 to the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Heldrake claws",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Baleflamer",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Hades autocannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1243,6 +2738,26 @@
     ],
     "abilities": [
       "Siege Crawler: You can ignore any or all modifiers to this model's Move characteristic and to Advance and Charge rolls made for it."
+    ],
+    "weapons": [
+      {
+        "name": "Maulerfiend fists",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "14",
+        "ap": "-2",
+        "d": "D6+1"
+      },
+      {
+        "name": "Lasher tendrils",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1273,6 +2788,35 @@
     ],
     "abilities": [
       "Self-repair: At the start of your Command phase, this model regains 1 lost wound."
+    ],
+    "weapons": [
+      {
+        "name": "Armoured tracks",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Havoc launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1306,6 +2850,71 @@
       "Plough Through the Enemy: In the Fight phase, after this model has finished making its attacks, if this model destroyed one or more enemy units this phase, each enemy unit within 6\" of this model must take a Battle-shock test.",
       "Damaged: 1-8 wounds remaining: While this model has 1-8 wounds remaining, subtract 4 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "➤ Great cleaver of Khorne - strike",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "16",
+        "ap": "-4",
+        "d": "8"
+      },
+      {
+        "name": "➤ Great cleaver of Khorne - sweep",
+        "type": "Melee",
+        "attacks": "15",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Hades gatling cannon",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Skullhurler",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "3+",
+        "s": "14",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Gorestorm cannon",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Daemongore cannon",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "14",
+        "ap": "-4",
+        "d": "D6+2"
+      },
+      {
+        "name": "Ichor cannon",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1331,6 +2940,17 @@
     ],
     "abilities": [
       "Mind-breaking Mutations (Aura): While an enemy unit (excluding VEHICLES) is within 3\" of this unit, subtract 1 from the Objective Control characteristic of models in that enemy unit."
+    ],
+    "weapons": [
+      {
+        "name": "Hideous Mutations",
+        "type": "Melee",
+        "attacks": "D6+2",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -1360,6 +2980,26 @@
     ],
     "abilities": [
       "Blood Surge: In your opponent's Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one"
+    ],
+    "weapons": [
+      {
+        "name": "Chainblade",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Khornate eviscerator",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -1391,6 +3031,62 @@
       "Bringers of Change: Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1. If the target of that attack is within range of an objective marker you do not control, you can re-roll the Wound roll ",
       "Icon of Flame: Ranged weapons equipped by models in this unit (excluding ^^**Characters^^**) have the [Ignores Cover] ability."
     ],
+    "weapons": [
+      {
+        "name": "Force weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "D3"
+      },
+      {
+        "name": "Malefic Curse",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-3",
+        "d": "1"
+      },
+      {
+        "name": "Inferno boltgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Warpflamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Soulreaper cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1421,6 +3117,71 @@
       "Infused with the Blessings of Nurgle: In your Shooting phase, each time this unit is selected to shoot, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that unit is A",
       "Icon of Despair: While an enemy unit is within 6\" of the bearer, worsen the Leadership characteristic of models in that unit by 1."
     ],
+    "weapons": [
+      {
+        "name": "Plague knives",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Bubotic weapons",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Boltgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy plague weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Blight launcher",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Plague spewer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1449,6 +3210,44 @@
     "abilities": [
       "Bomb Rack: Each time this model ends a Normal move, you can select one enemy unit it moved across during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
     ],
+    "weapons": [
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Havoc launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Autocannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1476,6 +3275,26 @@
     ],
     "abilities": [
       "Interceptor: Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      }
     ],
     "system": "40k"
   },
@@ -1511,6 +3330,89 @@
       "Flames of Change (Psychic): While this model is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability.",
       "Altered Reality (Psychic): Once per battle round, after a Hit roll, a Wound roll or a saving throw is made for this model, you can change the result of that roll to a 6."
     ],
+    "weapons": [
+      {
+        "name": "Accursed weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Combi-bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Astartes chainsword",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Infernal Gaze - focused witchfire",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "D3"
+      },
+      {
+        "name": "Force weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "D3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1544,6 +3446,98 @@
       "Gift of Poxes (Psychic): While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
       "Feculent Despair (Aura, Psychic): While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock test, subtract 1 from that test."
     ],
+    "weapons": [
+      {
+        "name": "Nurgling's claws and teeth",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Accursed weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Combi-bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Astartes chainsword",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Infernal Gaze - focused witchfire",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "D3"
+      },
+      {
+        "name": "Force weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "D3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1574,6 +3568,98 @@
     "abilities": [
       "Leader: This model can be attached to the following unit:\n■ CHOSEN\n■ LEGIONARIES\n■ PLAGUE MARINES",
       "Revolting Regeneration: At the start of your Command phase, this model regains up to D3 lost wounds."
+    ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Nurgling's claws and teeth",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Astartes chainsword",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Accursed weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Paired accursed weapons",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Combi-bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1607,6 +3693,89 @@
       "Leader: This model can be attached to the following unit:\n■ CHOSEN\n■ LEGIONARIES\n■ RUBRIC MARINES",
       "Lord of Fate: While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability against mortal wounds."
     ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Astartes chainsword",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Accursed weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Paired accursed weapons",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Combi-bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1638,6 +3807,98 @@
       "Leader: This model can be attached to the following unit:\n■ CHAOS BIKERS\n■ KHORNE BERZERKERS",
       "Bloody Stampede: Each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model and roll one D6: on a 2-3, that enemy unit suffers 1 mortal wound; on a 4-5, that enemy unit"
     ],
+    "weapons": [
+      {
+        "name": "Bladed horn",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Astartes chainsword",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Accursed weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Paired accursed weapons",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Combi-bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1668,6 +3929,98 @@
     "abilities": [
       "Leader: This model can be attached to the following unit:\n■ CHAOS BIKERS",
       "Cut Off Their Escape: Each time an enemy unit (excluding MONSTERS and VEHICLES) within Engagement Range of this model’s unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their "
+    ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Lashing tongue",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Astartes chainsword",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Accursed weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Paired accursed weapons",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Combi-bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1702,6 +4055,98 @@
       "Infernal Speed: While this model is leading a unit, change the Move characteristic of models in that unit to 14\".",
       "Dark Favour (Psychic): While this model is leading a unit, models in that unit have a 4+ invulnerable save."
     ],
+    "weapons": [
+      {
+        "name": "Lashing tongue",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Accursed weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Combi-bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Astartes chainsword",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Infernal Gaze - focused witchfire",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "D3"
+      },
+      {
+        "name": "Force weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "D3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1730,6 +4175,35 @@
     "abilities": [
       "Fearsome (Aura): While an enemy unit is within 6\" of this unit, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from the result."
     ],
+    "weapons": [
+      {
+        "name": "Brutal weapons",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Hideous mutations",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Belly flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1757,6 +4231,17 @@
     ],
     "abilities": [
       "Mischief Makers (Aura): While an enemy unit (excluding MONSTERS and VEHICLES) is within 6\" of this unit, each time a model in that unit makes a melee attack, subtract 1 from the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "Diseased claws and fangs",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1789,6 +4274,71 @@
       "Enforcer: This model's unit is eligible to declare a charge in a turn in which it Fell Back.",
       "Leader: This model can be attached to the following units:\n■ TRAITOR GUARDSMEN SQUAD\n■ RENEGADE HEAVY WEAPONS SQUAD"
     ],
+    "weapons": [
+      {
+        "name": "Enforcer melee weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Enforcer pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Autogun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Lasgun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shotgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1816,6 +4366,89 @@
     ],
     "abilities": [
       "Covering Fire: Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+."
+    ],
+    "weapons": [
+      {
+        "name": "Renegade firearm",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapons",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy stubber",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Autocannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "➤ Missile launcher - frag",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Missile launcher - krak",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Mortar",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1845,6 +4478,17 @@
     "abilities": [
       "Wall of Muscle: Each time an attack is allocated to a model in this unit, subtract 1 from the Damage characteristic of that attack."
     ],
+    "weapons": [
+      {
+        "name": "Ogryn plague claws",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1872,6 +4516,35 @@
     "abilities": [
       "Crushing Charge: You can re-roll charge rolls made for this unit, and each time this unit makes a Charge move, select one enemy unit and roll one D6 for each model in this unit that is within Engagement Range of that "
     ],
+    "weapons": [
+      {
+        "name": "➤ Fleshmetal weapons - rending strikes",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "9",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "➤ Fleshmetal weapons - clawed sweeps",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "➤ Fleshmetal weapons - thunderous blows",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "12",
+        "ap": "-4",
+        "d": "D6+2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1898,6 +4571,26 @@
     ],
     "abilities": [
       "Ogryn Combat Stimms: Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attac"
+    ],
+    "weapons": [
+      {
+        "name": "Ogryn weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Ogryn power drill",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -1930,6 +4623,44 @@
       "Cursed Wardings (Psychic): While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks.",
       "Psychic Barrier (Psychic): At the start of your opponent’s Shooting phase, you can roll one D6: on a 1, this PSYKER’s unit suffers D3 mortal wounds; on a 2+, until the end of the phase, models in this PSYKER’s unit have a 4+ in"
     ],
+    "weapons": [
+      {
+        "name": "Chaos stave",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "D3"
+      },
+      {
+        "name": "Laspistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Psychic Strike - focused witchfire",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Psychic Strike - witchfire",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1957,6 +4688,17 @@
     "abilities": [
       "Voltagheist Field: Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound.",
       "Servants of the Abyss: If a unit from your army with the Leader ability can be attached to a CULTIST MOB, it can be attached to this unit instead."
+    ],
+    "weapons": [
+      {
+        "name": "Electro-goads",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1989,6 +4731,89 @@
       "Prescience (Psychic): While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll.",
       "Unholy Power: Each time this model's unit makes a Dark Pact, until the end of the phase, each time this model makes a Psychic Attack, add 1 to the Wound roll."
     ],
+    "weapons": [
+      {
+        "name": "Combi-bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Accursed weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Astartes chainsword",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Infernal Gaze - focused witchfire",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "D3"
+      },
+      {
+        "name": "Force weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "D3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2015,6 +4840,26 @@
     ],
     "abilities": [
       "Beastmaster: While this unit contains an Ogryn Pack Master model, you can re-roll Charge rolls made for this unit, and each time a Chaos Mauler Hound model in this unit makes an attack, re-roll a Hit roll of 1."
+    ],
+    "weapons": [
+      {
+        "name": "Mauler goad and ripper claw",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Befouled fangs and claws",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -2045,6 +4890,89 @@
       "Leader: This model can be attached to the following unit:\n■ CHAOS BIKERS",
       "Swift Assault: While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability."
     ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Combi-bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Astartes chainsword",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Accursed weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Paired accursed weapons",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2071,6 +4999,98 @@
     ],
     "abilities": [
       "Armoured Spearhead: Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll inste"
+    ],
+    "weapons": [
+      {
+        "name": "Armoured tracks",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Hunter-killer missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6"
+      },
+      {
+        "name": "➤ Plasma destroyer - standard",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Plasma destroyer - supercharge",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Conversion beam cannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Magna-melta cannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Infernus cannon",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Heavy flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -2103,6 +5123,53 @@
       "Leader: This model can be attached to the following units:\n■ RAPTORS",
       "Cruel Hunter: While this model is leading a unit, each time that unit Piles In or Consolidates, each model in that unit can move up to 6\" instead of up to 3\"."
     ],
+    "weapons": [
+      {
+        "name": "Accursed weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Twin lightning claws",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2134,6 +5201,26 @@
       "Cursed Flames: In your Shooting phase, after this model has shot, select one enemy INFANTRY unit hit by one or more of those attacks. That unit must make a Battle-shock test.",
       "Leader: This model can be attached to the following units:\n■ ACCURSED CULTISTS\n■ CULTIST MOB"
     ],
+    "weapons": [
+      {
+        "name": "Balefire pike",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2162,6 +5249,53 @@
     ],
     "abilities": [
       "For the Dark Gods: At the end of your Command phase, if this unit is within range of an objective marker  you control, that objective marker remains under your control, even if you have no models within range of it, unt"
+    ],
+    "weapons": [
+      {
+        "name": "Autopistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Cultist grenade launcher - frag",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Cultist grenade launcher - krak",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D3"
+      },
+      {
+        "name": "Heavy stubber",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -2193,6 +5327,53 @@
       "Visions of Suffering (Psychic): Each time a model in this unit makes an attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll. If that enemy unit is Below Half-strength, add 1 to the Wound roll",
       "Attached Unit: If a CHARACTER UNIT unit from your army with the Leader ability (excluding EPIC HEROES) can be attached to a LEGIONARIES unit, it can be attached to this unit instead."
     ],
+    "weapons": [
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Nostraman chainglaive",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Paired accursed weapons",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2220,6 +5401,44 @@
     ],
     "abilities": [
       "Terrifying Crescendo: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, each time a Battle-shock or Leadership test is"
+    ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Sonic blaster",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Blastmaster - varied frequency",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "➤ Blastmaster - single frequency",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -2253,6 +5472,98 @@
       "Plunder: Once per battle, after this unit ends a Normal move, you can select one visible enemy unit within 12\" of it and roll one D6: on a 2+, that enemy unit suffers D3+1 mortal wounds.",
       "Masters of the Maelstrom: At the start of the Declare Battle Formations step, this unit can join one of the following units. This unit then counts as part of that unit for the rest of the battle, and that unit’s Starting Stren"
     ],
+    "weapons": [
+      {
+        "name": "Absolver bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Reductor array",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Mind Wrench",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-2",
+        "d": "D6+1"
+      },
+      {
+        "name": "Force stave",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Axe of Ending",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Power sabre",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Laspistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Londaxi maimer",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Bionic gauntlet",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2280,6 +5591,44 @@
     "abilities": [
       "Trophy Takers: The first time this unit destroys an enemy unit, until the end of the battle, while this unit is not Battle-shocked, add 1 to the Objective Control characteristic of models in this unit.",
       "Attached Unit: If a ^^**Character**^^ unit from your army with the Leader ability can be attached to a ^^**Legionaries**^^ unit, it can be attached to this unit instead."
+    ],
+    "weapons": [
+      {
+        "name": "Reaver's blade",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Hand flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -2310,6 +5659,44 @@
       "Raider's Due: Each time this unit declares a Charge that targets one or more units that are within range of one or more objective markers, you can re-roll the Charge roll.",
       "Leader: This model can be attached to the following units: ^^**Chosen, Legionaries, Red Corsairs Raiders**^^"
     ],
+    "weapons": [
+      {
+        "name": "Power sword",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Power maul",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2339,6 +5726,35 @@
     "abilities": [
       "Leader: This model can be attached to the following units: ^^**Chosen, Havocs, Legionaries, Nemesis Claw, Raiders**^^",
       "Marked by the Dark Gods: Each time this model makes an attack, a successful unmodified Hit roll of 5+ scores a Critical Hit."
+    ],
+    "weapons": [
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Infernal Gaze - focused witchfire",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "D3"
+      }
     ],
     "system": "40k"
   },
@@ -2371,6 +5787,35 @@
       "Leader: This model can be attached to the following units: ^^**Chosen, Havocs, Legionaries, Nemesis Claw, Raiders**^^",
       "Gift of Chaos (Psychic): Each time this model is selected to shoot or fight, after resolving its attacks, select one enemy unit hit by one or more of those attacks that had the [^^PSYCHIC^^} ability. That unit must take a Lea"
     ],
+    "weapons": [
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Infernal Gaze - focused witchfire",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "D3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2401,6 +5846,35 @@
     "abilities": [
       "Skulking Nightmare: While this model is within 3\" of one or more friendly ^^**Heretic Astartes Infantry**^^ units, this model has the Lone Operative ability."
     ],
+    "weapons": [
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Infernal Gaze - focused witchfire",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "D3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2429,6 +5903,98 @@
     "abilities": [
       "Scuttling Walker: Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding ^^**Titanic**^^ models) and terrain features. When doing so, it can move within Engagement Range of",
       "Daemonforge: Each time this unit makes a Dark Pact, until the end of the phase, each time this model makes an attack, re-roll a Wound roll of 1."
+    ],
+    "weapons": [
+      {
+        "name": "Shearing claws - strike",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "16",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Shearing claws - sweep",
+        "type": "Melee",
+        "attacks": "10",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "➤ Heavy missile launcher - frag",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Heavy missile launcher - krak",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-2",
+        "d": "D6+1"
+      },
+      {
+        "name": "Electroscourge",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "12",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Hades lascannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Heavy reaper autocannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Hades battle cannon",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Ectoplasma destructor",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Heavy baleflamer",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "N/A",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -2461,6 +6027,44 @@
       "Headlong Destruction: Each time a model in this unit makes an attack that targets the closest eligible enemy unit, improve the Armour Penetration characteristic of that attack by 1.",
       "Architect of Ruin: At the start of the battle, select one unit in your opponent’s army to be this model’s hated foe. Each time this model makes an attack that targets its hated foe, you can re-roll the Wound roll. Each ",
       "Leader: This model can be attached to the following units: ^^**Chaos Terminator Squad, Mutilators, Obliterators.**^^"
+    ],
+    "weapons": [
+      {
+        "name": "Baleflamer",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Combi-bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Last Argument and power fist",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Servo-harness",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   }

@@ -24,6 +24,17 @@
       "Feel No Pain 5+: This unit has a 5+ Feel No Pain",
       "Hulking Bodyguards: While a CHARACTER is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from "
     ],
+    "weapons": [
+      {
+        "name": "Aberrant weapons",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -55,6 +66,17 @@
       "Regenerating Gene-mass: The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement",
       "Leader: This model can be attached to the following unit:\n- ABERRANTS"
     ],
+    "weapons": [
+      {
+        "name": "Power sledgehammer",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "12",
+        "ap": "-2",
+        "d": "D6+1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -84,6 +106,7 @@
       "Spotter: The bearer’s ranged weapons have a Ballistic Skill characteristic of 3+.",
       "Survey Augur: Each time the bearer’s unit has shot, select one enemy unit that was hit by one or more attacks made by the bearer this phase. Until the end of the phase, each time a friendly GENESTEALER CULTS model "
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -112,6 +135,35 @@
     ],
     "abilities": [
       "Industrialised Destruction: Each time a model in this unit makes an attack, re-roll a Wound Roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the wound roll."
+    ],
+    "weapons": [
+      {
+        "name": "Hand flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Cult claws and knife",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Demolition charge",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -144,6 +196,26 @@
       "Summon the Cult: Once per battle, when you have to remove a Cult Ambush marker because your opponent has moved too close to it, if one or more models from your army with this ability are on the battlefield, you can us",
       "Leader: This model can be attached to the following units:\n- **^^Acolyte Hybrids^^**\n- **^^Hybrid Metamorphs^^**\n- **^^Neophyte Hybrids^^**"
     ],
+    "weapons": [
+      {
+        "name": "Autopistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Cult claws",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -171,6 +243,44 @@
     "abilities": [
       "Outrider Gangs: Each time you use the Cult Ambush ability to set this unit back up on the battlefield, in addition to the normal rules, all of its models must be set up wholly within 9\" of a battlefield edge and at l",
       "Demolition Run: Once per battle round, in your Movement phase, when this unit ends a Normal, Advance, or Fall Back move, you can select one enemy unit within 6\" of and visible to this unit and roll one D6 for each AT"
+    ],
+    "weapons": [
+      {
+        "name": "➤ Grenade launcher - krak",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D3"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Atalan small arms",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Atalan power weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -203,6 +313,35 @@
       "Leader: This model can be attached to the following units:\n- ABERRANTS\n\n- ACOLYTE HYBRIDS WITH AUTOPISTOLS\n- ACOLYTE HYBRIDS WITH HANDFLAMERS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\n\nYou can attach this model ",
       "Alchemicus Familiar: Once per battle, when the bearer’s unit is selected to fight, the bearer can use its alchemicus familiar. If it does, until the end of the phase, each time a model in the bearer's unit makes an attack"
     ],
+    "weapons": [
+      {
+        "name": "Injector goad",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "2",
+        "ap": "0",
+        "d": "D3"
+      },
+      {
+        "name": "Autopistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Chemical vials",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "1",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -233,6 +372,26 @@
       "Scrambler Array: Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this model.",
       "Leader: This model can be attached to the following units:\n- ACOLYTE HYBRIDS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, M"
     ],
+    "weapons": [
+      {
+        "name": "Autopistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -260,6 +419,62 @@
     ],
     "abilities": [
       "Grinding Line-breaker: Each time an enemy unit (excluding MONSTER and VEHICLES) that is within Engagement Range of this model Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if th"
+    ],
+    "weapons": [
+      {
+        "name": "Clearance incinerator",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Heavy seismic cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "D3"
+      },
+      {
+        "name": "Heavy mining laser",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Demolition charge cache",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Drilldozer blade",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -290,6 +505,44 @@
     "abilities": [
       "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from thi"
     ],
+    "weapons": [
+      {
+        "name": "Twin autocannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Goliath wheels",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Demolition charge cache",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -316,6 +569,35 @@
     ],
     "abilities": [
       "Brood Surge: In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was **destroyed** as a result of those attacks, this unit can make a **surge move** of up to D6\"."
+    ],
+    "weapons": [
+      {
+        "name": "➤ Metamorph mutations - sweep",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Autopistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Hand flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -348,6 +630,35 @@
       "Master Outrider: In your Shooting phase, after this model’s unit has shot, if it is not within Engagement Range of any enemy units, that unit can make a Normal move of up to 6\" as if it were your Movement phase. If it",
       "Leader: This model can be attached to the following units:\n- ATALAN JACKALS"
     ],
+    "weapons": [
+      {
+        "name": "Autopistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Cult sniper rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-2",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -375,6 +686,26 @@
     "abilities": [
       "Hypersensory Abilities: Once per turn, in your opponent’s Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model, if this model is not within Engagement Range of one or more enemy",
       "Heroic Fusillade: Once per turn, after one model from your army with this ability has shot, you can select one INFANTRY unit hit by one or more of those attacks. That unit must take a Battle-shock test."
+    ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Liberator autostubs",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -405,6 +736,17 @@
       "Sudden Assault: While this model is leading a unit, models in that unit have the Fights First ability",
       "Bodyguard: While this model is leading a unit, other Character models attached to that unit have the Feel No Pain 4+ ability",
       "Leader: This model can be attached to the following units:\n- **^^Acolyte Hybrids^^**\n- **^^Hybrid Metamorphs^^**\n- **^^Neophyte Hybrids^^**\nYou can attach this model to an **^^Acolyte Hybrids^^** or **^^Neoph"
+    ],
+    "weapons": [
+      {
+        "name": "Locus blades",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -438,6 +780,26 @@
       "Spiritual Leader: Once per battle, at the start of any phase, you can select one friendly GENESTELERS CULTS unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked.",
       "Leader: This model can be attached to the following units:\n- **^^Acolyte Hybrids^^**\n- **^^Hybrid Metamorphs^^**\n- **^^Neophyte Hybrids^^**"
     ],
+    "weapons": [
+      {
+        "name": "Force stave",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "D3"
+      },
+      {
+        "name": "Autopistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -466,6 +828,71 @@
     "abilities": [
       "Cult Icon: In your Command phase, you can return up to 3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to D3+3 destroyed models",
       "A Plan Generations in the Making: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, unti"
+    ],
+    "weapons": [
+      {
+        "name": "Hybrid firearm",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Autopistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Webber",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Grenade launcher - krak",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D3"
+      }
     ],
     "system": "40k"
   },
@@ -496,6 +923,26 @@
       "Battlefield Analysis: Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.",
       "Cult Infiltration: At the start of each player’s Command phase, if this model is on the battlefield, you can select one of your Cult Ambush markers that is on the battlefield and has not been moved this turn and move it",
       "Leader: This model can be attached to the following units:\n- ACOLYTE HYBRIDS\n- HYBRID METAMORPHS\n- NEOPHYTE HYBRIDS\nYou can attach this model to an ACOLYTE HYBRIDS or NEOPHYTE HYBRID unit, even if a PRIMUS, M"
+    ],
+    "weapons": [
+      {
+        "name": "Autopistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -530,6 +977,17 @@
       "Psychic Familiar: Once per battle, at the start of the Fight phase, this model can use its psychic familiar. If it does, until the end of the phase, add 6\" to the range of its Cosmic Horror ability.",
       "Supreme Commander: - You cannot include more than one **^^Patriarch^^** model in your army.\n- If this model is in your army, it must be your **^^Warlord^^**."
     ],
+    "weapons": [
+      {
+        "name": "Patriarch's claws",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -560,6 +1018,35 @@
       "Decoys and Misdirection: If your army includes one or more models with this ability, after both players have deployed their armies, select up to three GENESTEALER CULTS units from your army and redeploy them. When doing so, y",
       "Leader: This model can be attached to the following units:\n- **^^Acolyte Hybrids^^**\n- **^^Hybrid Metamorphs^^**\n- **^^Neophyte Hybrids^^**"
     ],
+    "weapons": [
+      {
+        "name": "Toxin injector claw",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "2",
+        "ap": "0",
+        "d": "D3"
+      },
+      {
+        "name": "Scoped needle pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "1",
+        "ap": "0",
+        "d": "D3"
+      },
+      {
+        "name": "Cult bonesword",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -585,6 +1072,17 @@
     ],
     "abilities": [
       "Swift and Deadly: This unit is eligible to declare a charge in a turn in which it Advanced."
+    ],
+    "weapons": [
+      {
+        "name": "Cult claws and talons",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -615,6 +1113,44 @@
       "Primed and Ready: In your Shooting phase, you can select one model from your army with this ability as the target of the Grenade Stratagem for 0CP, provided that model has not already been the target of that Stratagem ",
       "Planted Explosives: Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model, this model can use its Reductus mine. If it does, roll one D6: on a 2+, that enemy unit suffers D3"
     ],
+    "weapons": [
+      {
+        "name": "Autopistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Remote explosives",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Demolition charges",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -643,6 +1179,35 @@
       "Creeping Shadow: If this model is equipped with a Cult Sniper Rifle, In your opponent's Movement phase, if an enemy unit ends a move within 8” of this unit, if this unit is not within Engagement Range of one or more e",
       "Psychic Spoor: At the start of the first battle round, select one enemy unit to be this model’s prey. Each time this model makes an attack that targets its prey, you can re-roll the Hit roll and you can re-roll the ",
       "Cloaked Assassin: If this model is equipped with a Sanctus Bio-dagger, enemy units cannot use the Fire Overwatch Stratagem to shoot at this model. Enemy units cannot target this unit with **snap shooting** attacks."
+    ],
+    "weapons": [
+      {
+        "name": "Sanctus bio-dagger",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "3",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Cult sniper rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -673,6 +1238,17 @@
       "Underground Egress: Each time one of your Cult Ambush markers is removed as the result of an enemy unit ending any kind of move within 8\" of it, you can instead move that marker so that it is wholly within 8\" of this **^",
       "Manufactorum Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against th",
       "Fortification: While an enemy unit is only within Engagement Range of one or more FORTIFICATION from your army:\n■ That unit can still be selected as the target of ranged attacks, but each time such an attack is made"
+    ],
+    "weapons": [
+      {
+        "name": "Fragdrill",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "12",
+        "ap": "-2",
+        "d": "D6"
+      }
     ],
     "system": "40k"
   },
@@ -705,6 +1281,26 @@
       "Psionic Shield (Psychic): Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 4+ invulnerable save.",
       "Leader: This model can be attached to the following units:\n- **^^Acolyte Hybrids^^**\n- **^^Hybrid Metamorphs^^**\n- **^^Neophyte Hybrids^^**"
     ],
+    "weapons": [
+      {
+        "name": "➤ Psionic cascade - focused witchfire",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -734,6 +1330,35 @@
     "abilities": [
       "Claimed for the Cult: At the start of your Command phase, roll one D6 for each objective marker that you control that has one or more units from your army with this ability within range of it. If one or more of the results"
     ],
+    "weapons": [
+      {
+        "name": "Autopistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Cult claws and knife",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Heavy mining tool",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -762,6 +1387,98 @@
     "abilities": [
       "Cult Demagogue: While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll.",
       "Leader: This model can be attached to the following units:\n- **^^Acolyte Hybrids with Hand Flamers^^**\n- **^^Acolyte Hybrids with Autopistols^^**\n- **^^Hybrid Metamorphs^^**\n- **^^Neophyte Hybrids^^**"
+    ],
+    "weapons": [
+      {
+        "name": "Chemical vials",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "1",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Cult sniper rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Psionic cascade - focused witchfire",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Webber",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Remote explosives",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Scoped needle pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "1",
+        "ap": "0",
+        "d": "D3"
+      },
+      {
+        "name": "Hand flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Cult bonesword",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Cult claws and talons",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -793,6 +1510,98 @@
       "Battlefield Analysis: Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.",
       "Leader: This model can be attached to the following units:\n- **^^Acolyte Hybrids with Hand Flamers^^**\n- **^^Acolyte Hybrids with Autopistols^^**\n- **^^Hybrid Metamorphs^^**\n- **^^Neophyte Hybrids^^**"
     ],
+    "weapons": [
+      {
+        "name": "Chemical vials",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "1",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Cult sniper rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Psionic cascade - focused witchfire",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Webber",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Remote explosives",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Scoped needle pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "1",
+        "ap": "0",
+        "d": "D3"
+      },
+      {
+        "name": "Hand flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Cult bonesword",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Cult claws and talons",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -822,6 +1631,98 @@
     "abilities": [
       "Biohorror Disruption (Psychic): Ranged weapons equipped by models in this unit have the **[LETHAL HITS]** ability.",
       "Leader: This model can be attached to the following units:\n- **^^Acolyte Hybrids with Hand Flamers^^**\n- **^^Acolyte Hybrids with Autopistols^^**\n- **^^Hybrid Metamorphs^^**\n- **^^Neophyte Hybrids^^**"
+    ],
+    "weapons": [
+      {
+        "name": "Chemical vials",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "1",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Cult sniper rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Psionic cascade - focused witchfire",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Webber",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Remote explosives",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Scoped needle pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "1",
+        "ap": "0",
+        "d": "D3"
+      },
+      {
+        "name": "Hand flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Cult bonesword",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Cult claws and talons",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   }

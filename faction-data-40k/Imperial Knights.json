@@ -25,6 +25,71 @@
       "Legendary Freeblade: Once per turn, you can target this model with a Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem in the same phase.",
       "Using Sir Hekhtur: If your Canis Rex model is destroyed, this model is treated as a model disembarking from a destroyed **^^Transport^^** and must perform an Emergency Disembarkation. Sir Hekhtur cannot be selected as t"
     ],
+    "weapons": [
+      {
+        "name": "➤ Las-impulsor - high intensity",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "2+",
+        "s": "14",
+        "ap": "-3",
+        "d": "4"
+      },
+      {
+        "name": "➤ Las-impulsor - low intensity",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "2+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Freedom's Hand - strike",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "20",
+        "ap": "-3",
+        "d": "9"
+      },
+      {
+        "name": "➤ Freedom's Hand - sweep",
+        "type": "Melee",
+        "attacks": "10",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Questoris multi-laser",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "2+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Hekhtur's pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -53,6 +118,53 @@
     "abilities": [
       "Impetuous Glory: Each time this model makes a charge move, until the end of the turn, add 1 to the Attacks characteristic of this model's reaper chain-cleaver - strike profile, and add 2 to the Attacks characteristic "
     ],
+    "weapons": [
+      {
+        "name": "➤ Reaper chain-cleaver - strike",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "10",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "➤ Reaper chain-cleaver - sweep",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Thermal spear",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Questoris heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -80,6 +192,44 @@
     ],
     "abilities": [
       "Suppression Protocols: In your Shooting phase, after this model has shot, select one enemy unit (excluding **^^Monsters^^** and **^^Vehicles^^**) hit by one or more of those attacks made with an Armiger autocannon. Until th"
+    ],
+    "weapons": [
+      {
+        "name": "Armiger autocannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Questoris heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Armoured feet",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -113,6 +263,53 @@
       "Seasoned Noble: Each time this model makes a ranged attack that targets the closest eligible target, improve the Armour Penetration characteristic of that attack by 1.",
       "Paladin’s Duty (Bondsman): While a model is affected by this ability, weapons equipped by that model have the **[LETHAL HITS]** ability, and melee weapons equipped by that model have the **[LANCE]** ability."
     ],
+    "weapons": [
+      {
+        "name": "Questoris heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Rapid-fire battle cannon",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "➤ Reaper chainsword - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "9",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Thunderstrike gauntlet - sweep",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -144,6 +341,53 @@
     "abilities": [
       "Aggressive Assault: Each time this model makes a ranged attack that targets the closest eligible target, add 1 to the Hit roll.",
       "Errant's Duty (Bondsman): While a model is affected by this ability, you can re-roll Advance rolls made for that model and ranged weapons equipped by that model have the **[ASSAULT]** ability."
+    ],
+    "weapons": [
+      {
+        "name": "Thermal cannon",
+        "type": "Ranged",
+        "attacks": "2D3",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Questoris heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Reaper chainsword - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "9",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Thunderstrike gauntlet - sweep",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -177,6 +421,62 @@
       "Martial Pride: Each time this unit Consolidates, models in it can move an additional 3\" provided your unit can end that move within Engagement Range of one or more enemy units.",
       "Gallant's Duty (Bondsman): While a model is affected by this ability, you can re-roll Charge rolls made for that model and each time that model makes a melee attack, you can re-roll the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "➤ Reaper chainsword - sweep",
+        "type": "Melee",
+        "attacks": "18",
+        "bs": "",
+        "s": "9",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Reaper chainsword - strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "14",
+        "ap": "-4",
+        "d": "6"
+      },
+      {
+        "name": "➤ Thunderstrike gauntlet - strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "20",
+        "ap": "-3",
+        "d": "8"
+      },
+      {
+        "name": "➤ Thunderstrike gauntlet - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Questoris heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -208,6 +508,62 @@
     "abilities": [
       "Thin Their Ranks: Each time this model makes a ranged attack that targets an enemy unit (excluding **^^Monsters^^** and **^^Vehicles^^**), that attack has the **[DEVASTATING WOUNDS]** ability.",
       "Warden's Duty (Bondsman): While a model is affected by this ability, weapons equipped by that model have the **[SUSTAINED HITS 1]** ability, and ranged weapons equipped by that model have the **[IGNORES COVER]** ability."
+    ],
+    "weapons": [
+      {
+        "name": "Avenger gatling cannon",
+        "type": "Ranged",
+        "attacks": "18",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Heavy flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Questoris heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Reaper chainsword - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "9",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Thunderstrike gauntlet - sweep",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -241,6 +597,71 @@
       "Punishing Salvoes: In your Movement phase, if this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the **[SUSTAINED HITS 1]** ability.",
       "Crusader's Duty (Bondsman): While a model is affected by this ability, each time that model makes a ranged attack, add 1 to the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Avenger gatling cannon",
+        "type": "Ranged",
+        "attacks": "18",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Heavy flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Questoris heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Titanic feet",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Rapid-fire battle cannon",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Thermal cannon",
+        "type": "Ranged",
+        "attacks": "2D3",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-4",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -273,6 +694,71 @@
       "Exemplar of the Code: At the start of the battle, select one unit from your opponent’s army to be this model's quarry. Each time this model makes an attack that targets its quarry, you can re-roll the Wound roll. Each time",
       "Mentor (Bondsman): Each time a model affected by this ability makes an attack that targets this model's quarry, you can re-roll the Wound roll."
     ],
+    "weapons": [
+      {
+        "name": "➤ Las-impulsor - high intensity",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "14",
+        "ap": "-3",
+        "d": "4"
+      },
+      {
+        "name": "➤ Las-impulsor - low intensity",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Reaper chainsword - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "9",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Thunderstrike gauntlet - sweep",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Preceptor multi-laser",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Questoris heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -303,6 +789,71 @@
     ],
     "abilities": [
       "Titan Hunter: Each time a ranged attack made by this model is allocated to a **^^Monster^^** or **^^Vehicle^^** model, you can re-roll the Damage roll."
+    ],
+    "weapons": [
+      {
+        "name": "➤ Plasma decimator - standard",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Plasma decimator - supercharge",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "3"
+      },
+      {
+        "name": "Volcano lance",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "18",
+        "ap": "-5",
+        "d": "D6+8"
+      },
+      {
+        "name": "Titanic feet",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Shieldbreaker missile launcher",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-6",
+        "d": "D6+1"
+      },
+      {
+        "name": "Twin siegebreaker cannon",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -335,6 +886,62 @@
     "abilities": [
       "Thundershock: In your Shooting phase, each time you select a target for this model's thundercoil harpoon, roll one D6 for the target unit and one D6 for each other enemy unit within 6\" of the target unit. On a 4+, "
     ],
+    "weapons": [
+      {
+        "name": "Conflagration cannon",
+        "type": "Ranged",
+        "attacks": "3D6",
+        "bs": "N/A",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Thundercoil harpoon",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "24",
+        "ap": "-6",
+        "d": "10"
+      },
+      {
+        "name": "Titanic feet",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Shieldbreaker missile launcher",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-6",
+        "d": "D6+1"
+      },
+      {
+        "name": "Twin siegebreaker cannon",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -366,6 +973,44 @@
     "abilities": [
       "Sunderer of Fortresses: Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristics of that attack by 1. If that attack targets a FORTIFICATION, improve the Strength and Damag"
     ],
+    "weapons": [
+      {
+        "name": "Twin conversion beam cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "16",
+        "ap": "-2",
+        "d": "6"
+      },
+      {
+        "name": "Asterius volkite culverin",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Karacnos mortar battery",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Titanic feet",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "10",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -396,6 +1041,44 @@
     ],
     "abilities": [
       "Bastion of Firepower: Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [LETHAL HITS] ability."
+    ],
+    "weapons": [
+      {
+        "name": "Twin magna lascannon",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "18",
+        "ap": "-4",
+        "d": "D6+6"
+      },
+      {
+        "name": "Acastus ironstorm missile pod",
+        "type": "Ranged",
+        "attacks": "D6+6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Helios defence missiles",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Titanic feet",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "10",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -429,6 +1112,35 @@
       "Shock Charge: You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
       "Lancer’s Duty (Bondsman): While a model is affected by this ability, it is eligible to declare a charge in a turn in which it Advanced."
     ],
+    "weapons": [
+      {
+        "name": "➤ Cerastus shock lance - strike",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "20",
+        "ap": "-3",
+        "d": "8"
+      },
+      {
+        "name": "Cerastus shock lance",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "➤ Cerastus shock lance - sweep",
+        "type": "Melee",
+        "attacks": "10",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -460,6 +1172,35 @@
     "abilities": [
       "Storm of Bolts: In your Shooting phase, after this model has shot, select one unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this model is on the ",
       "Castigator’s Duty (Bondsman): While a model is affected by this ability, its ranged weapons have the [SUSTAINED HITS 1] ability and the Armour Penetration characteristic of its ranged weapons is improved by 1."
+    ],
+    "weapons": [
+      {
+        "name": "Castigator bolt cannon",
+        "type": "Ranged",
+        "attacks": "18",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Tempest warblade - strike",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "14",
+        "ap": "-4",
+        "d": "6"
+      },
+      {
+        "name": "➤ Tempest warblade - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "9",
+        "ap": "-3",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -493,6 +1234,44 @@
       "Searing Flames: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the phase, that enemy unit cannot have ",
       "Acheron’s Duty (Bondsman): While a model is affected by this ability, at the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test, subtracting 1 "
     ],
+    "weapons": [
+      {
+        "name": "Twin heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Acheron flame cannon",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "N/A",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Reaper chainfist - strike",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "14",
+        "ap": "-4",
+        "d": "6"
+      },
+      {
+        "name": "➤ Reaper chainfist - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "9",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -524,6 +1303,62 @@
     "abilities": [
       "Macro-extinction Protocols: Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll. If that target is TITANIC or TOWERING, add 1 to the Wound roll as well.",
       "Atrapos’ Duty (Bondsman): While a model is affected by this ability, each time that model makes an attack that targets a TITANIC or TOWERING model, you can re-roll the Hit roll and you can re-roll the Wound roll."
+    ],
+    "weapons": [
+      {
+        "name": "➤ Atrapos lascutter - high intensity (melee)",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "14",
+        "ap": "-3",
+        "d": "4"
+      },
+      {
+        "name": "➤ Atrapos lascutter - low intensity (melee)",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Atrapos lascutter - high intensity (ranged)",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "14",
+        "ap": "-3",
+        "d": "4"
+      },
+      {
+        "name": "➤ Atrapos lascutter - low intensity (ranged)",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Graviton singularity cannon - singularity",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "16",
+        "ap": "-4",
+        "d": "D6+1"
+      },
+      {
+        "name": "➤ Graviton singularity cannon - contained",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "16",
+        "ap": "-4",
+        "d": "D6+1"
+      }
     ],
     "system": "40k"
   },
@@ -557,6 +1392,53 @@
       "Repair Auto-simulacra: At the end of your Command phase, this model regains up to D3 lost wounds.",
       "Magaera’s Duty (Bondsman): While a model is affected by this ability, each time that model makes a ranged attack that targets the closest eligible target, improve the Strength and Armour Penetration characteristics of that atta"
     ],
+    "weapons": [
+      {
+        "name": "➤ Reaper chainsword - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "9",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Hekaton siege claw - sweep",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Twin rad cleanser",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Phased plasma-fusil",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Lightning cannon",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "3+",
+        "s": "9",
+        "ap": "0",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -589,6 +1471,53 @@
       "Grav-pinned: In your Shooting phase, after this model has shot, if an enemy INFANTRY unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enem",
       "Styrix’s Duty (Bondsman): While a model is affected by this ability, each time that model is selected to shoot or fight, after it has resolved all of its attacks, select one enemy unit hit by one or more of those attacks; that"
     ],
+    "weapons": [
+      {
+        "name": "Graviton crusher",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Volkite chierovile",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "3+",
+        "s": "12",
+        "ap": "0",
+        "d": "3"
+      },
+      {
+        "name": "➤ Reaper chainsword - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "9",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Hekaton siege claw - sweep",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Twin rad cleanser",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -616,6 +1545,53 @@
     ],
     "abilities": [
       "Protection Protocols: You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses"
+    ],
+    "weapons": [
+      {
+        "name": "Volkite veuglaire",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "8",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Graviton pulsar",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Lightning lock",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "8",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Conversion beam cannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Armoured feet",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -648,6 +1624,62 @@
     "abilities": [
       "Selfless Protector: Each time a ranged attack is allocated to an **^^Imperial Knights^^** model from your army, if that model is not fully visible to every model in the attacking unit because of this Knight Defender mode",
       "Warden's Duty (Bondsman): While a model is affected by this ability, each time an attack is allocated to that model, subtract 1 from the Damage characteristic of that attack."
+    ],
+    "weapons": [
+      {
+        "name": "Titanic feet",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin incendine combustor",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Conversion beam obliterator",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-2",
+        "d": "4"
+      },
+      {
+        "name": "➤ Plasma executor - standard",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Plasma executor - supercharge",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Phosphor blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -683,6 +1715,62 @@
       "Ram Jets: Each time this unit is selected to make a Normal or Advance move, until the end of the phase, add D3\" to the Move characteristic of this model.",
       "Saturation Fire: Each time this model makes a ranged attack that targets a unit within range of one or more objective markers, that attack has the **[IGNORES COVER]** ability."
     ],
+    "weapons": [
+      {
+        "name": "Questoris heavy stubber",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Titanic feet",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Chastiser gatling cannon",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Bellatus reaper chainsword - sweep",
+        "type": "Melee",
+        "attacks": "10",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Thundershock spear - sweep",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "6",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Frag bombard",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -714,6 +1802,62 @@
       "Damaged: 1-13 wounds remaining: While this model has 1-13 wounds remaining, subtract 8 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
       "Striding Colossus: Each time you target this model with a Stratagem, you must spend twice that Stratagem’s stated CP cost to do so."
     ],
+    "weapons": [
+      {
+        "name": "Warhound feet",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "10",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Warhound vulcan mega-bolter",
+        "type": "Ranged",
+        "attacks": "20",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Warhound inferno gun",
+        "type": "Ranged",
+        "attacks": "3D6",
+        "bs": "N/A",
+        "s": "7",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "➤ Warhound plasma blastgun - standard",
+        "type": "Ranged",
+        "attacks": "2D6+3",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-3",
+        "d": "4"
+      },
+      {
+        "name": "➤ Warhound plasma blastgun - supercharge",
+        "type": "Ranged",
+        "attacks": "2D6+3",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-3",
+        "d": "5"
+      },
+      {
+        "name": "Warhound turbo-laser destructor",
+        "type": "Ranged",
+        "attacks": "D3+3",
+        "bs": "3+",
+        "s": "20",
+        "ap": "-3",
+        "d": "2D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -744,6 +1888,80 @@
       "Damaged: 1-20 wounds remaining: While this model has 1-20 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
       "God-machine: This model is eligible to shoot and declare a charge in a turn in which it Fell Back.",
       "Striding Colossus: Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
+    ],
+    "weapons": [
+      {
+        "name": "Reaver gatling blaster",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Reaver laser blaster",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "3+",
+        "s": "20",
+        "ap": "-3",
+        "d": "D6+2"
+      },
+      {
+        "name": "Reaver melta cannon",
+        "type": "Ranged",
+        "attacks": "D6+2",
+        "bs": "3+",
+        "s": "13",
+        "ap": "-4",
+        "d": "6"
+      },
+      {
+        "name": "Reaver volcano cannon",
+        "type": "Ranged",
+        "attacks": "D3+1",
+        "bs": "3+",
+        "s": "24",
+        "ap": "-5",
+        "d": "14"
+      },
+      {
+        "name": "➤ Reaver power fist - strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "20",
+        "ap": "-4",
+        "d": "14"
+      },
+      {
+        "name": "➤ Reaver power fist - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "6"
+      },
+      {
+        "name": "Reaver feet",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "12",
+        "ap": "-2",
+        "d": "4"
+      },
+      {
+        "name": "Reaver apocalypse launcher",
+        "type": "Ranged",
+        "attacks": "3D6",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -777,6 +1995,89 @@
       "Titanic Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly CHAOS model makes an attack that targets ",
       "Striding Colossus: Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
     ],
+    "weapons": [
+      {
+        "name": "Anvillus defence battery",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Ardex-defensor mauler",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Nemesis feet",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "12",
+        "ap": "-2",
+        "d": "4"
+      },
+      {
+        "name": "Nemesis quake cannon",
+        "type": "Ranged",
+        "attacks": "D6+6",
+        "bs": "3+",
+        "s": "16",
+        "ap": "-4",
+        "d": "4"
+      },
+      {
+        "name": "Nemesis volcano cannon",
+        "type": "Ranged",
+        "attacks": "D3+3",
+        "bs": "3+",
+        "s": "24",
+        "ap": "-5",
+        "d": "14"
+      },
+      {
+        "name": "Reaver gatling blaster",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Reaver laser blaster",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "3+",
+        "s": "20",
+        "ap": "-3",
+        "d": "D6+2"
+      },
+      {
+        "name": "Reaver melta cannon",
+        "type": "Ranged",
+        "attacks": "D6+2",
+        "bs": "3+",
+        "s": "13",
+        "ap": "-4",
+        "d": "6"
+      },
+      {
+        "name": "Reaver volcano cannon",
+        "type": "Ranged",
+        "attacks": "D3+1",
+        "bs": "3+",
+        "s": "24",
+        "ap": "-5",
+        "d": "14"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -808,6 +2109,98 @@
       "Wrath of the Omnissiah: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test.",
       "Striding Colossus: Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so."
     ],
+    "weapons": [
+      {
+        "name": "Arioch power claw",
+        "type": "Ranged",
+        "attacks": "20",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Arioch power claw - strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "20",
+        "ap": "-4",
+        "d": "24"
+      },
+      {
+        "name": "➤ Arioch power claw - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "8"
+      },
+      {
+        "name": "Belicosa volcano cannon",
+        "type": "Ranged",
+        "attacks": "D3+3",
+        "bs": "3+",
+        "s": "32",
+        "ap": "-5",
+        "d": "18"
+      },
+      {
+        "name": "Macro gatling blaster",
+        "type": "Ranged",
+        "attacks": "30",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Mori quake cannon",
+        "type": "Ranged",
+        "attacks": "3D6",
+        "bs": "3+",
+        "s": "16",
+        "ap": "-4",
+        "d": "6"
+      },
+      {
+        "name": "➤ Sunfury plasma annihilator - standard",
+        "type": "Ranged",
+        "attacks": "2D6+6",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-3",
+        "d": "5"
+      },
+      {
+        "name": "➤ Sunfury plasma annihilator - supercharge",
+        "type": "Ranged",
+        "attacks": "2D6+6",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "8"
+      },
+      {
+        "name": "Ardex-defensor lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Ardex-defensor mauler",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -836,6 +2229,17 @@
       "Frenzy: Each time an enemy unit is selected to shoot or fight, after it has finished making its attacks, if one or more of those attacks targeted this model and this model is not destroyed, this model can fig",
       "Borewyrm Infestation: Twice per battle, at the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield. In the Reinforcements ste"
     ],
+    "weapons": [
+      {
+        "name": "Enormous claws",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "D3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -859,6 +2263,26 @@
       "Aegis Defence Line with Weapon Emplacement"
     ],
     "abilities": [],
+    "weapons": [
+      {
+        "name": "Quad-gun",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Icarus Lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -885,6 +2309,35 @@
       "Bastion"
     ],
     "abilities": [],
+    "weapons": [
+      {
+        "name": "Icarus Lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Quad-gun",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -911,6 +2364,53 @@
       "Firestorm Redoubt"
     ],
     "abilities": [],
+    "weapons": [
+      {
+        "name": "Icarus Lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Quad-gun",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Battle cannon",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Punisher gatling cannon",
+        "type": "Ranged",
+        "attacks": "20",
+        "bs": "4+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Quad lascannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -940,6 +2440,44 @@
     "abilities": [
       "Vantage Point: While a model is on top of the tower roof of this FORTIFICATION, improve the Armour Penetration characteristic of ranged weapons equipped by that model by 1."
     ],
+    "weapons": [
+      {
+        "name": "Heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Redemptor lascannons",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "➤ Redemptor missile silo - superfrag",
+        "type": "Ranged",
+        "attacks": "2D6+2",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Redemptor missile silo - superkrak",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "10",
+        "ap": "-2",
+        "d": "D6+1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -965,6 +2503,35 @@
     ],
     "abilities": [
       "Drone Commander (Aura): While a friendly **^^Spindle Drones^^** unit is within 6\" of this model, each time a model in that unit makes an attack, add 1 to the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "Destroyer pulse",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Guardian salvo launchers",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Manipulator limbs",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -995,6 +2562,26 @@
     "abilities": [
       "Tremor Quake: In your Shooting phase, just after selecting a target for this model’s Aquila macro-cannon, the target unit and every other enemy INFANTRY unit within 3\" of that unit must take a Battle-shock test."
     ],
+    "weapons": [
+      {
+        "name": "Aquila macro-cannon",
+        "type": "Ranged",
+        "attacks": "D6+6",
+        "bs": "5+",
+        "s": "16",
+        "ap": "-4",
+        "d": "4"
+      },
+      {
+        "name": "Heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1023,6 +2610,26 @@
     "abilities": [
       "Emergency Plasma Vents: Each time this FORTIFICATION suffers a mortal wound as the result of a failed Hazardous test, roll one D6: on a 4+, that wound is not lost."
     ],
+    "weapons": [
+      {
+        "name": "➤ Plasma obliterator - standard",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "➤ Plasma obliterator - supercharge",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "5+",
+        "s": "10",
+        "ap": "-4",
+        "d": "4"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1047,6 +2654,98 @@
       "Primaris Redoubt"
     ],
     "abilities": [],
+    "weapons": [
+      {
+        "name": "Primaris Redoubt turbo-laser destructor",
+        "type": "Ranged",
+        "attacks": "D3+1",
+        "bs": "4+",
+        "s": "16",
+        "ap": "-3",
+        "d": "D6+3"
+      },
+      {
+        "name": "Heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Primaris air defence missiles",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Primaris Icarus lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Primaris Icarus quad lascannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Primaris quad-gun",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Primaris castellan launcher",
+        "type": "Ranged",
+        "attacks": "D6+1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Primaris vengeance launcher",
+        "type": "Ranged",
+        "attacks": "D3+1",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Battle cannon",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1073,6 +2772,7 @@
       "Skyshield: Friendly Infantry models and friendly units that can Fly can be set up or end any type of move on top of the platform section of this Fortification. While such a model is on the platform section of th",
       "Repair Aircraft: At the end of your Movement phase, if there is a friendly Aircraft model on top of this Fortification, that Aircraft regains up to D3 lost wounds"
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -1098,6 +2798,26 @@
     ],
     "abilities": [
       "Threat Level Rising: Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength"
+    ],
+    "weapons": [
+      {
+        "name": "Drone pulse",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1128,6 +2848,26 @@
       "Fearsome Assault: At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test.",
       "Disruptive Influence (Aura): While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock or Leadership test, subtract 1 from that test."
     ],
+    "weapons": [
+      {
+        "name": "Atomic disassembler",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Eradicator glove",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1155,6 +2895,35 @@
     "abilities": [
       "Automated Defences: Each time this model makes a ranged attack that targets the closest enemy unit:\n- If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit rol"
     ],
+    "weapons": [
+      {
+        "name": "Battle cannon",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Punisher gatling cannon",
+        "type": "Ranged",
+        "attacks": "20",
+        "bs": "4+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Quad lascannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1180,6 +2949,7 @@
     "abilities": [
       "Projected Void Shields (Aura): While a friendly model is wholly within 6\" of this FORTIFICATION, that model has a 4+ invulnerable save against ranged attacks."
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -1209,6 +2979,26 @@
     "abilities": [
       "Vortex: In your Shooting phase, each time you select a target for this model’s vortex missile battery, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a "
     ],
+    "weapons": [
+      {
+        "name": "Heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Vortex missile battery",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "5+",
+        "s": "16",
+        "ap": "-4",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1237,6 +3027,26 @@
     "abilities": [
       "Inviolable Bastion: Each time an attack is allocated to this Fortification, subtract 1 from the Damage characteristic of that attack."
     ],
+    "weapons": [
+      {
+        "name": "Icarus Lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Quad-gun",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1261,6 +3071,7 @@
       "Defence Emplacement"
     ],
     "abilities": [],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -1285,6 +3096,7 @@
       "Defence Line"
     ],
     "abilities": [],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -1310,6 +3122,17 @@
     ],
     "abilities": [
       "Defensive Emplacement: In the Create the Battlefield and Place Objective Markers step, set this model up in one of the Sentry Gun positions (marked D1 on the mission map)."
+    ],
+    "weapons": [
+      {
+        "name": "Twin heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -1337,6 +3160,7 @@
       "Wall: This model is a terrain feature and counts as a Wall.",
       "Camera Network: In the Create the Battlefield and Place Objective Markers step, set this terrain feature up in one of the Searchlight positions (marked D2 on the mission map) that does not already contain a Searchlig"
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -1365,6 +3189,17 @@
       "Assault Robot: In the Deploy Armies step, when setting up a unit from your army within an Entry Zone, you can set this model up alongside that unit as if it was part of it, using the same Entry Zone.",
       "Bomb Kit: When the bearer is destroyed (other than through triggering its bomb, as described below), roll one D6 before removing it from play: on a 6 it explodes, and each other unit within 3\" of and visible to",
       "Cutting Gear: Each time the bearer ends a Normal move, you can open one Hatchway that is within 1\" of it. Your opponent cannot attempt to prevent that Hatchway from opening."
+    ],
+    "weapons": [
+      {
+        "name": "Cutting blade",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   }

@@ -27,6 +27,44 @@
       "Spawn Termagants: In your Command phase, you can select one friendly TERMAGANTS unit within 6\" of this model and return up to D3+3 destroyed TERMAGANT models to that unit. A TERMAGANTS unit cannot be selected for this ",
       "Brood Progenitor (Aura, Psychic): While a friendly TERMAGANTS unit is within 6\" of this model, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
     ],
+    "weapons": [
+      {
+        "name": "Stinger salvoes",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Massive scything talons - strike",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "➤ Massive scything talons - sweep",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Massive crushing claws",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -62,6 +100,26 @@
       "Domination of the Hive Mind (Aura): While a friendly TYRANIDS unit is within 9\" of this model, that unit is within your army’s Synapse Range.",
       "Leader: This model can be attached to the following unit:\n- **^^Tyrant Guard^^**"
     ],
+    "weapons": [
+      {
+        "name": "Bone Sabres",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Synaptic Pulse",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -95,6 +153,17 @@
       "Hypnotic Gaze (Psychic): At the start of the Fight phase, select one enemy unit within Engagement Range of this model. Until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
       "Leader: This model can be attached to the following unit:\n- **^^Genestealers^^**"
     ],
+    "weapons": [
+      {
+        "name": "Broodlord Claws and Talons",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -126,6 +195,26 @@
       "Unstoppable Monster: At the start of each player’s Command phase, this model regains up to D3 lost wounds.",
       "Leader: This model can be attached to the following unit:\n- **^^Carnifexes^^**"
     ],
+    "weapons": [
+      {
+        "name": "➤ Old One Eye’s claws and talons - Strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "➤ Old One Eye’s claws and talons - Sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -152,6 +241,62 @@
     ],
     "abilities": [
       "Adaptable Predators: This unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+    ],
+    "weapons": [
+      {
+        "name": "Tyranid Warrior claws and talons",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Deathspitter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Spinefists",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Venom cannon",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Barbed strangler",
+        "type": "Ranged",
+        "attacks": "D6+1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Devourer",
+        "type": "Ranged",
+        "attacks": "5",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -181,6 +326,17 @@
     "abilities": [
       "Adaptive Instincts (Once per turn, per unit): In the Fight phase, when this unit is **selected to fight** or when an enemy unit targets this unit, you can select one of the following:\n▪ This unit’s melee attacks have +1 **S**.\n▪ <ins>Or</ins>: Th"
     ],
+    "weapons": [
+      {
+        "name": "Tyranid Warrior claws and talons",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -208,6 +364,44 @@
     ],
     "abilities": [
       "Skulking Horrors: In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up t"
+    ],
+    "weapons": [
+      {
+        "name": "Chitinous claws and teeth",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shardlauncher",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Spike rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Strangleweb",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -237,6 +431,17 @@
     "abilities": [
       "Bounding Leap: This unit is eligible to declare a charge in a turn in which it Advanced."
     ],
+    "weapons": [
+      {
+        "name": "Hormagaunt talons",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "3",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -264,6 +469,26 @@
       "Grasping Tendrils: Each time an enemy unit (excluding Titanic units) within Engagement Range of one or more units from your army with this ability is selected to Fall Back, you can roll one D6: on a 3+, that enemy unit ",
       "Hypertoxic Miasma (Aura): At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit "
     ],
+    "weapons": [
+      {
+        "name": "Massive toxic lashes",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Massive toxic lashes",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -290,6 +515,7 @@
     "abilities": [
       "Guardian Organism: While a CHARACTER model is leading this unit, that Character has the Feel No Pain 5+ ability"
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -324,6 +550,26 @@
       "Synaptic Relays: In your Command phase, you can select up to two friendly Tyranids units within 18\" of this model’s unit. Until the start of your next Command phase, the selected units are always considered to be with",
       "Leader: This model can be attached to the following units:\n- **^^Neurogaunts^^**\n- **^^Tyrant Guard^^**\n- **^^Zoanthropes^^**"
     ],
+    "weapons": [
+      {
+        "name": "Neurotyrant claws and lashes",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Psychic scream",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -352,6 +598,35 @@
     "abilities": [
       "Encephalic Diffusion (Aura, Psychic): While an enemy unit is within 6\" of this model, each time a model in that unit makes an attack, subtract 1 from the Hit roll, and, if that enemy unit is Below Half-strength, subtract 1 from the Wound "
     ],
+    "weapons": [
+      {
+        "name": "➤ Massive scything talons - strike",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6+1"
+      },
+      {
+        "name": "➤ Massive scything talons - sweep",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Psychic overload",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -378,6 +653,26 @@
     ],
     "abilities": [
       "Burning Spray: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
+    ],
+    "weapons": [
+      {
+        "name": "Flamespurt",
+        "type": "Ranged",
+        "attacks": "D6+1",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Chitin-barbed limbs",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -406,6 +701,35 @@
     "abilities": [
       "Grisly Spectacle: Each time this model is selected to fight, after resolving its attacks, if one or more enemy units were destroyed by those attacks, each enemy unit within 6\" of this model must take a Battle-shock tes"
     ],
+    "weapons": [
+      {
+        "name": "Grasping tongue",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "D6+1"
+      },
+      {
+        "name": "Shovelling claws",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "14",
+        "ap": "-2",
+        "d": "D6+1"
+      },
+      {
+        "name": "Ravenous maw",
+        "type": "Melee",
+        "attacks": "14",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -433,6 +757,17 @@
     "abilities": [
       "Foul Spores (Aura): Friendly **TYRANIDS** units within 6' of this unit have **Stealth**."
     ],
+    "weapons": [
+      {
+        "name": "Toxic lashes",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -459,6 +794,17 @@
     ],
     "abilities": [
       "Neurocytes: While this unit is within Synapse Range of your friendly **^^Tyranids^^** unit (excluding **^^Neurogaunt^^** units), it has the **^^Synapse^^** keyword."
+    ],
+    "weapons": [
+      {
+        "name": "Chitinous claws and teeth",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -490,6 +836,26 @@
       "Spirit Leech (Aura, Psychic): While an enemy unit is within 6\" of this unit, if it contains a Neurothrope, each time that enemy unit fails a Battle-shock test, it suffers D3 mortal wounds and one model in this unit regains up to D",
       "Warp Field (Aura, Psychic): While a friendly TYRANIDS unit is within 6\" of this unit, models in that unit have a 6+ invulnerable save."
     ],
+    "weapons": [
+      {
+        "name": "Chitinous claws and teeth",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Warp blast - focused witchfire",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -515,6 +881,7 @@
       "Great Devourer"
     ],
     "abilities": [],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -540,6 +907,26 @@
     ],
     "abilities": [
       "Symbiotic Targeting: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly TYRANIDS model makes an attack that targe"
+    ],
+    "weapons": [
+      {
+        "name": "Bio-plasmic cannon",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Powerful limbs",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "7",
+        "ap": "0",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -567,6 +954,26 @@
     "abilities": [
       "Seed Spore Mines: Once per turn, in your Shooting Phase, when selected to shoot, one unit with this ability can use it instead of making any attacks with its ranged weapons. If it does, you can add one new **SPORE MINE"
     ],
+    "weapons": [
+      {
+        "name": "Chitin-barbed limbs",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Spore mine launcher",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -592,6 +999,26 @@
     ],
     "abilities": [
       "Death Scream: In your Shooting phase, after this model has shot, select one unit hit by one or more of those attacks. That unit must take a Battle-shock test, subtracting 1 from that test."
+    ],
+    "weapons": [
+      {
+        "name": "Bio-plasmic scream",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Screamer-killer talons",
+        "type": "Melee",
+        "attacks": "10",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -619,6 +1046,35 @@
     "abilities": [
       "Defensive Stance: Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or unmodified Hit rolls of 4+ instead if this unit is w"
     ],
+    "weapons": [
+      {
+        "name": "Shockcannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Chitinous claws and teeth",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Impaler cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -644,6 +1100,53 @@
     ],
     "abilities": [
       "Resilient Organism: Once per battle, when an attack is allocated to this model, you can change the Damage characteristic of that attack to 0."
+    ],
+    "weapons": [
+      {
+        "name": "Powerful limbs",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Stinger salvoes",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Fleshborer hive",
+        "type": "Ranged",
+        "attacks": "20",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Acid spray",
+        "type": "Ranged",
+        "attacks": "D6+6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Rupture cannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "18",
+        "ap": "-4",
+        "d": "D6+6"
+      }
     ],
     "system": "40k"
   },
@@ -674,6 +1177,53 @@
     "abilities": [
       "Airborne Predator: Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Drool cannon",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Tentaclids",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "7",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Thorax spur",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "10",
+        "ap": "-3",
+        "d": "D6"
+      },
+      {
+        "name": "Scything wings",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Stinger salvoes",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -703,6 +1253,44 @@
     "abilities": [
       "Spore Mine Cysts: At the end of your opponent’s Fight phase, you can do one of the following:\n- Select one **visible** enemy unit (excluding **Lone Operative** units) within 24\" of this unit and roll six D6 for that un"
     ],
+    "weapons": [
+      {
+        "name": "Twin stranglethorn cannon",
+        "type": "Ranged",
+        "attacks": "D6+1",
+        "bs": "2+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin heavy venom cannon",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Stinger salvoes",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Scything wings",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -729,6 +1317,26 @@
     "abilities": [
       "Seed Mucolids: Once per turn, in your shooting phase, when selected to shoot, one unit with this ability can use it instead of making any attacks with it's ranged weapons. If it does, you can add one new **MUCOLID S",
       "Hive Defences: You can target this model with the Fire Overwatch stratagem for 0CP, and can do so even if you have already targeted a different unit with that stratagem this turn. This model can only be targeted wit"
+    ],
+    "weapons": [
+      {
+        "name": "Flensing whips",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Sporocyst bio-weapon",
+        "type": "Ranged",
+        "attacks": "10",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -759,6 +1367,26 @@
       "Bio-stimulus: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly **TYRANIDS** unit makes a melee attack tha",
       "Feeding Frenzy: Each time this model makes a melee attack that targets a unit that is below its Starting Strength, add 1 to the Hit roll. If that target is also Below Half strength, add 1 to the Wound roll as well."
     ],
+    "weapons": [
+      {
+        "name": "Talons and betentacled maw",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Psychoclastic torrent",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -784,6 +1412,26 @@
     ],
     "abilities": [
       "Disruption Bombardment: In your Shooting phase, after this unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks. Until the end of your opponent’s next turn, that enemy unit is disrupted. While a "
+    ],
+    "weapons": [
+      {
+        "name": "Barblauncher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Chitinous claws and teeth",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -812,6 +1460,26 @@
     "abilities": [
       "Overgrown Barbs: In your Shooting phase, after this model has shot, select one enemy unit (excluding Titanic units) that was hit by one or more of those attacks. Until the start of your next turn, while this model is "
     ],
+    "weapons": [
+      {
+        "name": "Bio-cannon",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Hierodule scything talons",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "14",
+        "ap": "-2",
+        "d": "D3+3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -838,6 +1506,26 @@
     ],
     "abilities": [
       "Irresistible Force: This model is eligible to declare a charge in a turn in which it Fell Back."
+    ],
+    "weapons": [
+      {
+        "name": "Bio-acid spray",
+        "type": "Ranged",
+        "attacks": "3D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Hierodule scything talons",
+        "type": "Melee",
+        "attacks": "10",
+        "bs": "",
+        "s": "14",
+        "ap": "-2",
+        "d": "D3+3"
+      }
     ],
     "system": "40k"
   },
@@ -869,6 +1557,26 @@
     "abilities": [
       "Damaged: 1-10 wounds remaining: While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
       "Frenzied Metabolism: Each time this model is selected to shoot, you can use this ability. If you do, until the end of the phase, each time this model makes an attack, add 1 to the Wound roll. After resolving those attacks"
+    ],
+    "weapons": [
+      {
+        "name": "Dire bio-cannon",
+        "type": "Ranged",
+        "attacks": "D6+6",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Gargantuan scything talons",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "14",
+        "ap": "-2",
+        "d": "D6"
+      }
     ],
     "system": "40k"
   },
@@ -902,6 +1610,44 @@
       "Apex-beast: Each time this model makes an attack that targets a unit that is Battle-shocked, add 1 to the Hit roll.",
       "Stalking Forward: Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there."
     ],
+    "weapons": [
+      {
+        "name": "Bio-plasma torrent",
+        "type": "Ranged",
+        "attacks": "3D6",
+        "bs": "N/A",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Dire bio-cannon",
+        "type": "Ranged",
+        "attacks": "D6+6",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Lashwhip pods",
+        "type": "Melee",
+        "attacks": "10",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Titanic scything talons",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "20",
+        "ap": "-2",
+        "d": "D6+1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -929,6 +1675,7 @@
     "abilities": [
       "Vanguard Predator: Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target is within range of one or more objective markers, re-roll a Wound roll 1 as well."
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -956,6 +1703,17 @@
     "abilities": [
       "Digestion Spine: Each time this model fights, after it has resolved its attacks, if one or more enemy models (excluding Vehicle models) were destroyed as the result of those attacks, this model regains up to D3 mortal"
     ],
+    "weapons": [
+      {
+        "name": "Massive scything talons",
+        "type": "Melee",
+        "attacks": "10",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -982,6 +1740,26 @@
     ],
     "abilities": [
       "Chitinous Horrors: While an enemy unit is within Engagement Range of one or more units with this ability, halve the Objective Control characteristic of models in that enemy unit."
+    ],
+    "weapons": [
+      {
+        "name": "Claws and teeth",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Spinemaws",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "5+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1014,6 +1792,17 @@
       "Prey Adaptation: Each time this model's unit is selected to fight, select one of the following abilities to apply to all melee weapons equipped by models in that unit until the end of the phase:\n- **[SUSTAINED HITS 1]",
       "Leader: This model can be attached to the following unit: \n- **^^Venomthropes^^**"
     ],
+    "weapons": [
+      {
+        "name": "Grasping tail",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1042,6 +1831,35 @@
     "abilities": [
       "Harpoon Barbs: Once per turn, when an enemy unit within Engagement Range of this unit is chosen to Fall Back, roll one D6; on a 2+, that unit suffers D6 mortal wounds."
     ],
+    "weapons": [
+      {
+        "name": "Monstrous scything talons",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Toxinjecter Harpoon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Toxinjecter Harpoon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1069,6 +1887,53 @@
     ],
     "abilities": [
       "Unnatural Resistance: This model has the Feel No Pain 4+ ability against Mortal Wounds."
+    ],
+    "weapons": [
+      {
+        "name": "Monstrous rending claws",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Monstrous scything talons",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "➤ Psychic tendril - neuroparasite",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-2",
+        "d": "D3"
+      },
+      {
+        "name": "➤ Psychic tendril - neurolance",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6"
+      },
+      {
+        "name": "➤ Psychic tendril - neuroblast",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1101,6 +1966,44 @@
       "Onslaught (Aura, Psychic): While a friendly **TYRANIDS** unit is within 6\" of this model, ranged weapons equipped by models in that unit have the **[ASSAULT]** and **[LETHAL HITS]** abilities.",
       "Leader: This model can be attached to the following unit:\n- **^^Tyrant Guard^^**"
     ],
+    "weapons": [
+      {
+        "name": "Monstrous bonesword and lash whip",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Heavy venom cannon",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "2+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Stranglethorn cannon",
+        "type": "Ranged",
+        "attacks": "D6+1",
+        "bs": "2+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Monstrous scything talons",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1131,6 +2034,35 @@
       "Alpha Warrior: Weapons equipped by models in this model’s unit have the **[SUSTAINED HITS 1]** ability.",
       "Aggressive Leader‑beast: In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was **destroyed** by those attacks, this unit can make a **surge move** of up to D6\".",
       "Leader: This model can be attached to the following unit:\n- **^^Hormagaunts^^**\n- **^^Termagants^^**\n- **^^Tyranid Warriors with Melee Bio-weapons^^**\n- **^^Tyranid Warriors with Ranged Bio-weapons^^**"
+    ],
+    "weapons": [
+      {
+        "name": "Rending claw",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Lash whip",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Scything talons",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   }

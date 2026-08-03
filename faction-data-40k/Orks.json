@@ -25,6 +25,98 @@
       "Ramshackle but Rugged: Each time an attack is allocated to this model, worsen the Armour Penetration characteristic of that attack by 1.",
       "’Ard Case: Add 2 to the bearer’s Toughness characteristic, but it no longer has the Firing Deck ability."
     ],
+    "weapons": [
+      {
+        "name": "Killkannon",
+        "type": "Ranged",
+        "attacks": "D6+1",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Zzap gun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "D6+6",
+        "ap": "-3",
+        "d": "5"
+      },
+      {
+        "name": "➤ Kannon - shell",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "10",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "➤ Kannon - frag",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "5+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Deff rolla",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "9",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Tracks and wheels",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Lobba",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Wreckin' ball",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "10",
+        "ap": "0",
+        "d": "D6"
+      },
+      {
+        "name": "Grabbin' klaw",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -52,6 +144,53 @@
     ],
     "abilities": [
       "Monster Hunters: Each time a model in this unit makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Thump gun",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "6",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Slugga",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Choppa",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Power snappa",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -84,6 +223,35 @@
       "Ferocious Rage: Each time this model makes a Charge move, until the end of the turn, melee weapons it is equipped with have the **[DEVASTATING WOUNDS]** ability.",
       "Leader: This model can be attached to the following unit:\n- **^^Beast Snagga Boyz^^**"
     ],
+    "weapons": [
+      {
+        "name": "Beast Snagga klaw",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Shoota",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Beastchoppa",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -114,6 +282,44 @@
       "Thundering Stampede: While this model is leading a unit, add 1 to Charge rolls made for that unit.",
       "Single-minded Predator: You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n▪ That use is ‑1 CP.\n▪ That use does not prevent any uses",
       "Leader: This model can be attached to the following unit:\n- SQUIGHOG BOYZ"
+    ],
+    "weapons": [
+      {
+        "name": "Beastchoppa",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Slugga",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Squigosaur’s jaws",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Thump gun",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "6",
+        "ap": "0",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -146,6 +352,62 @@
       "Fix Dat Armour Up: While this model is leading a unit, in your Command phase, you can return 1 destroyed Bodyguard model to that unit.",
       "Leader: This model can be attached to the following unit:\n- MEGANOBZ",
       "Grot Oiler: Once per battle, at the end of your Movement phase, one model in the bearer’s unit regains D3 lost wounds.\nDesigner’s Note: Place a Grot Oiler token next to the unit, removing it once this ability has"
+    ],
+    "weapons": [
+      {
+        "name": "Tellyport blasta",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "8",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Kustom mega-blasta",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Kustom shoota",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kombi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Killsaw",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Power klaw",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -180,6 +442,26 @@
       "Leader: This model can be attached to the following units:\n- **BOYZ**\n- **BURNA BOYZ**\n- **LOOTAS**\n- **NOBZ**\n- **TANKBUSTAS**",
       "Grot Helper: Once per battle, the bearer can overcharge its kustom force field one additional time.\nDesigner’s Note: Place a Grot Helper token next to the bearer, removing it once this ability has been used."
     ],
+    "weapons": [
+      {
+        "name": "Slugga",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Choppa",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -212,6 +494,26 @@
       "Leader: This model can be attached to the following units:\n- **BOYZ**\n- **BREAKA BOYZ**\n- **LOOTAS**\n- **MEK GUNZ**\n- **NOBZ**\n- **TANKBUSTAS**",
       "Grot Assistant: Once per battle, after rolling to determine how many attacks the bearer’s shokk attack gun makes, you can re-roll that dice.\n\n**Designer’s Note:** *Place a Grot Assistant token next to the bearer, rem"
     ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shokk attack gun",
+        "type": "Ranged",
+        "attacks": "D6+1",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -239,6 +541,35 @@
     "abilities": [
       "Ramshackle Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against th",
       "Shoutin’ Pole (Aura): While a friendly ORKS unit is within 6\" of this FORTIFICATION, improve the Leadership characteristic of models in that unit by 1."
+    ],
+    "weapons": [
+      {
+        "name": "➤ Gaze of Gork - glare",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Gaze of Gork - squint",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "12",
+        "ap": "-4",
+        "d": "3"
+      },
+      {
+        "name": "Big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -268,6 +599,35 @@
     "abilities": [
       "Boom Bomb: At the end of your opponent’s Fight phase, select one visible enemy unit (excluding Lone Operative units) within 24\" of this unit, and roll one D6 for that unit: On a 4+, that unit suffers D6 mortal w"
     ],
+    "weapons": [
+      {
+        "name": "Big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin supa-shoota",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "5+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -294,6 +654,44 @@
     ],
     "abilities": [
       "Billowing Fumes (Aura): While an enemy unit (excluding **MONSTER/VEHICLE** units) is within 6\" of this unit, when that enemy unit is **selected to shoot**, that unit’s targets have the **benefit of cover** until that unit ha"
+    ],
+    "weapons": [
+      {
+        "name": "Big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Grot blasta",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Spiked wheels",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Mek speshul",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "5+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -327,6 +725,26 @@
       "Kunnin’ Infiltrator (Once per battle, per army): In your Movement phase, if this unit is unengaged, you can use this ability. If you do:\n- Place this unit in strategic reserves.\n- This unit has **Deep Strike**.\n- This unit must make an **ingress mov",
       "Leader: This model can be attached to the following unit:\n- KOMMANDOS"
     ],
+    "weapons": [
+      {
+        "name": "Slugga",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Mork’s Teeth",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -359,6 +777,26 @@
       "Plummeting Descent: You can re-roll Charge rolls made for this model’s unit in a turn in which it was set up on the battlefield from Reserves.",
       "Leader: This model can be attached to the following unit:\n- **^^Stormboyz^^**"
     ],
+    "weapons": [
+      {
+        "name": "Slugga",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Da Vulcha’s Klaws and choppa",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -387,6 +825,62 @@
     "abilities": [
       "Get Da Good Bitz: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, unti"
     ],
+    "weapons": [
+      {
+        "name": "Choppa",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Slugga",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shoota",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Rokkit launcha",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -412,6 +906,7 @@
     "abilities": [
       "Pyromaniaks: Each time a model in this unit makes a ranged attack with a burna that targets an enemy unit within 6\", re-roll a Wound roll of 1. If the target of that attack is also within range of an objective mar"
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -439,6 +934,44 @@
     ],
     "abilities": [
       "Burna Bomb: At the end of your opponent’s Fight phase, you can select one **visible** enemy unit (excluding **Lone Operative** units) within 24\" of this unit:\n- Friendly **ORKS** units' ranged attacks that target"
+    ],
+    "weapons": [
+      {
+        "name": "Twin big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin supa-shoota",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "5+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Skorcha missile rack",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "5+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -468,6 +1001,26 @@
     "abilities": [
       "Dakkastorm: Each time this model makes a ranged attack, every successful Hit roll scores a Critical Hit."
     ],
+    "weapons": [
+      {
+        "name": "Twin supa-shoota",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "5+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -493,6 +1046,62 @@
     ],
     "abilities": [
       "Piston-driven Brutality: Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2‑5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 m"
+    ],
+    "weapons": [
+      {
+        "name": "Big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kustom mega-blasta",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Rokkit launcha",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Skorcha",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Dread klaw",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "12",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Stompy feet",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -525,6 +1134,44 @@
       "Fuel-mixa Grot: Each time this model’s unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit.",
       "Leader: This model can be attached to the following unit:\n- **NOBZ ON WARBIKES**\n- **SKORCHAS**\n- **WARBIKERS**\n- **WARBUGGIES**"
     ],
+    "weapons": [
+      {
+        "name": "Deffkilla boomstikks",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Killa jet - burna",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Killa jet - cutta",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Snagga klaw",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -553,6 +1200,44 @@
     "abilities": [
       "Deff from Above: Each time this unit ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
     ],
+    "weapons": [
+      {
+        "name": "Kopta rokkits",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Slugga",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Spinnin’ blades",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kustom mega-blasta",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -579,6 +1264,26 @@
     "abilities": [
       "Gun-crazy Show-offs: Each time a model in this unit targets the closest eligible target with its snazzgun, until the end of the phase, that weapon has an Attacks characteristic of 4.",
       "Ammo Runt: Once per battle, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the **[LETHAL HITS]** ability"
+    ],
+    "weapons": [
+      {
+        "name": "Choppa",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Snazzgun",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -611,6 +1316,44 @@
       "Leader: This unit can be attached to the following units:\n- **BOYZ**\n- **BREAKA BOYZ**\n- **MEGANOBZ**\n- **NOBZ**",
       "Invulnerable Save (2+*): While a friendly Makari model is on the battlefield, you cannot re‑roll **save rolls** for this unit."
     ],
+    "weapons": [
+      {
+        "name": "Mork’s Roar",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Gork’s Klaw - strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "14",
+        "ap": "-3",
+        "d": "4"
+      },
+      {
+        "name": "➤ Gork’s Klaw - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Makari’s stabba",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -641,6 +1384,62 @@
       "Clankin’ Forward: Each time this model makes a Normal, Advance or Fall Back move, it can move over enemy models (excluding MONSTER and VEHICLE models) and terrain features that are 4\" or less in height as if they were ",
       "Big an’ Stompy: Each time this model makes a melee attack, if the Waaagh! is active for your army, add 1 to the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Deffstorm mega-shoota",
+        "type": "Ranged",
+        "attacks": "20",
+        "bs": "5+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Klaw of Gork - strike",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "18",
+        "ap": "-3",
+        "d": "6"
+      },
+      {
+        "name": "➤ Klaw of Gork - sweep",
+        "type": "Melee",
+        "attacks": "15",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Rokkit launcha",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Skorcha",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Twin big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -668,6 +1467,26 @@
       "Runtherd: Each time an attack targets this unit, if it contains one or more Gretchin models, until that attack is resolved, Runtherd models in this unit have a Toughness characteristic of 2.",
       "Thievin’ Scavengers: At the start of your Movement phase, roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it (excluding Battle‑shocked units). "
     ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Grot blasta",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -694,6 +1513,53 @@
     ],
     "abilities": [
       "On Da Hunt: For each model embarked within this TRANSPORT, add 1 to the Attacks characteristic of this model’s butcha boyz weapon (to a maximum of +6)."
+    ],
+    "weapons": [
+      {
+        "name": "’Eavy lobba",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "5+",
+        "s": "6",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Butcha boyz",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Savage horns and hooves",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Saw blades",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Stikka kannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "12",
+        "ap": "-2",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -725,6 +1591,44 @@
       "Ded Glowy Ammo (Aura): While an enemy INFANTRY unit is within 6\" of this model, subtract 1 from the Toughness characteristic of models in that unit.",
       "Leader: This model can be attached to the following unit:\n- **^^Flash Gitz^^**"
     ],
+    "weapons": [
+      {
+        "name": "Slugga",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Choppa",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Da Rippa - standard",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Da Rippa - supercharge",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -753,6 +1657,62 @@
     "abilities": [
       "Spirit of Gork (Psychic): At the start of the Fight phase, you can select one friendly ORKS unit within 12\" of this model and roll one D6: on a 1, this model suffers D3 mortal wounds; on a 2-5, until the end of the phase, add "
     ],
+    "weapons": [
+      {
+        "name": "’Eavy lobba",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "5+",
+        "s": "6",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Butcha boyz",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Savage horns and hooves",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Saw blades",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Stikka kannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "12",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Wurrtower",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "N/A",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -779,6 +1739,44 @@
     ],
     "abilities": [
       "Shooty Power Trip: Each time this unit is selected to shoot, you can roll one D6:\n- On a 1‑2, this unit suffers D3 mortal wounds.\n- On a 3‑4, until the end of the phase, add 1 to the Strength characteristic of ranged we"
+    ],
+    "weapons": [
+      {
+        "name": "Kan klaw",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Grotzooka",
+        "type": "Ranged",
+        "attacks": "D3+3",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Rokkit launcha",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Skorcha",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -809,6 +1807,89 @@
       "Patrol Squad: At the start of the Declare Battle Formations step this unit can be split into two units, each containing five models. (when splitting a unit in this way, make a note of which models form each of the ",
       "Distraction Grot: Once per battle, in your opponent’s Shooting phase, before making a saving throw for a model in this unit, it can deploy the distraction grot. If it does, until the end of the phase, models in this un"
     ],
+    "weapons": [
+      {
+        "name": "Slugga",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Choppa",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Kustom shoota",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Breacha ram",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Burna",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Rokkit launcha",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Power klaw",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Big choppa",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -836,6 +1917,44 @@
     "abilities": [
       "Rivetin’ Dakka: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with a rivet kannon. Until the start of your next turn, that enemy unit is suppressed."
     ],
+    "weapons": [
+      {
+        "name": "Burna exhausts",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Rivet kannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "5+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Grot blasta",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Spiked wheels",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -861,6 +1980,7 @@
     "abilities": [
       "Dat’s Our Loot!: Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If that attack targets a unit that is within range of an objective marker, you can re-roll the Hit roll instead."
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -891,6 +2011,35 @@
       "One Scalpel Short of a Medpack: While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Fell Back.",
       "Leader: This model can be attached to the following units:\n- **^^Boyz^^**\n- **^^Burna Boyz^^**\n- **^^Tankbustas^^**\n- **^^Lootas^^**\n- **^^Nobz^^**"
     ],
+    "weapons": [
+      {
+        "name": "Power klaw",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Slugga",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "’Urty syringe",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -918,6 +2067,53 @@
     "abilities": [
       "Krumpin’ Time: While the Waaagh! is active for your army, models in this unit have the Feel No Pain 5+ ability."
     ],
+    "weapons": [
+      {
+        "name": "Kustom shoota",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Power klaw",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Kombi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Killsaw",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Twin killsaw",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -943,6 +2139,44 @@
     ],
     "abilities": [
       "Drill Through: Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mort"
+    ],
+    "weapons": [
+      {
+        "name": "Nose drill",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Rokkit cannon",
+        "type": "Ranged",
+        "attacks": "D6+1",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Wing missiles",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Twin big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -973,6 +2207,35 @@
       "Mekaniak: At the end of your Movement phase, you can select one friendly ORKS VEHICLE model within 3\" of this model. That VEHICLE model regains up to D3 lost wounds, and, until the start of your next Movement p",
       "Leader: This model can be attached to the following units:\n- **BOYZ**\n- **LOOTAS**\n- **MEK GUNZ**\n- **NOBZ**\n- **TANKBUSTAS**"
     ],
+    "weapons": [
+      {
+        "name": "Wrench",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Killsaw",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Kustom mega-slugga",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "8",
+        "ap": "-2",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -998,6 +2261,17 @@
     ],
     "abilities": [
       "Splat!: Each time a model in this unit makes a ranged attack that targets a unit that is at its Starting Strength (excluding MONSTERS and VEHICLES), re-roll a Hit roll of 1."
+    ],
+    "weapons": [
+      {
+        "name": "Grot crew",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1028,6 +2302,62 @@
     "abilities": [
       "Clankin’ Forward: Each time this model makes a Normal, Advance or Fall Back move, it can move over enemy models (excluding MONSTER and VEHICLE models) and terrain features that are 4\" or less in height as if they were ",
       "Big an’ Shooty: Each time this model makes a ranged attack, if the Waaagh! is active for your army, add 1 to the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "➤ Klaw of Mork - strike",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "18",
+        "ap": "-3",
+        "d": "6"
+      },
+      {
+        "name": "➤ Klaw of Mork - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Kustom mega-zappa",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "5+",
+        "s": "10",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Kustom mega-blasta",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Rokkit launcha",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Twin big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1061,6 +2391,35 @@
       "One Last Kill: While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if it has not fought this phase, roll on D6; on a 4+, do not remove it from play. The destroyed model",
       "Leader: This model can be attached to the following unit:\n- **^^Squighog Boyz^^**"
     ],
+    "weapons": [
+      {
+        "name": "Thump gun",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "6",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Big Chompa’s jaws",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "4"
+      },
+      {
+        "name": "Gutrippa",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1089,6 +2448,26 @@
       "Waaagh! Banner: - This unit has a 5+ InSv.\n- While the Waaagh! is active for this unit, this unit has +1 T.",
       "Leader: This model can be attached to the following units: \n- **BOYZ**\n- **BREAKA BOYZ**\n- **BURNA BOYZ**\n- **FLASH GITZ**\n- **LOOTAS**\n- **NOBZ**\n- **TANKBUSTAS**"
     ],
+    "weapons": [
+      {
+        "name": "Shoota",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Choppa",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1115,6 +2494,53 @@
     "abilities": [
       "Da Boss’ Ladz: While a WARBOSS model is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 f",
       "Ammo Runt: Once per battle for each ammo runt this unit has, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit h"
+    ],
+    "weapons": [
+      {
+        "name": "Slugga",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Big choppa",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Power klaw",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kombi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1147,6 +2573,17 @@
       "Leader: This model can be attached to the following unit:\n- **BEAST SNAGGA BOYZ**",
       "Grot Orderly: Once per battle, in your Command phase, if the bearer is leading a unit that is below its Starting Strength, you can return up to D3 destroyed Bodyguard models to that unit.\n\n**Designer’s Note:** *Pla"
     ],
+    "weapons": [
+      {
+        "name": "Beast Snagga klaw",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1177,6 +2614,26 @@
       "Leader: This model can be attached to the following units:\n- **BOYZ**\n- **BREAKA BOYZ**\n- **BURNA BOYZ**\n- **LOOTAS**\n- **NOBZ**\n- **TANKBUSTAS**",
       "Grot Orderly: Once per battle, in your Command phase, if the bearer is leading a unit that is below its Starting Strength, you can return up to D3 destroyed Bodyguard models to that unit.\n\n**Designer’s Note:** *Pla"
     ],
+    "weapons": [
+      {
+        "name": "’Urty syringe",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Power klaw",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1204,6 +2661,35 @@
       "Buzzer Squigs: In your Shooting phase, after this model has shot, select one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks made with squig-launchas and roll one D6; on a 4+, until ",
       "Squig Mine: Once per battle, at the start of any phase, select one enemy unit within 3\" of this model and roll one D6: on a 4+, that enemy unit suffers D6 mortal wounds.\nDesigner’s Note: Place a Squig Mine token "
     ],
+    "weapons": [
+      {
+        "name": "Saw blades",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Sawn-off shotgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Squig launchas",
+        "type": "Ranged",
+        "attacks": "D6+6",
+        "bs": "5+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1229,6 +2715,35 @@
     ],
     "abilities": [
       "Shokk Tunnel: In your Movement phase, when this unit is selected to make an **advance move**, you can use this ability. If you do:\n- That move has no **maximum distance**.\n- This unit can move through all types of "
+    ],
+    "weapons": [
+      {
+        "name": "Kustom shokk rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "D6+1"
+      },
+      {
+        "name": "Rokkit launcha",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Saw blades",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -1257,6 +2772,7 @@
     "abilities": [
       "Wild Ride: You can ignore any or all modifiers to this unit’s Move characteristic and to Advance and Charge rolls made for this unit."
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -1289,6 +2805,80 @@
       "Waaagh! Effigy (Aura): While a friendly ORKS unit is within 12\" of this model, each time you take a Battle-shock test for that unit, add 1 to that test.",
       "Stompin’ Forward: Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding **^^Titanic^^** models) and terrain features that are 4\" or less in height as if they were not there."
     ],
+    "weapons": [
+      {
+        "name": "Big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Skorcha",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Twin big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Deffkannon",
+        "type": "Ranged",
+        "attacks": "3D6",
+        "bs": "5+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6"
+      },
+      {
+        "name": "➤ Mega-choppa - strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "24",
+        "ap": "-5",
+        "d": "10"
+      },
+      {
+        "name": "➤ Mega-choppa - sweep",
+        "type": "Melee",
+        "attacks": "18",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Supa-gatler",
+        "type": "Ranged",
+        "attacks": "20",
+        "bs": "5+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Supa-rokkits",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "5+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1316,6 +2906,35 @@
     ],
     "abilities": [
       "Full Throttle: This unit is eligible to declare a charge in a turn in which it Advanced or Fell Back."
+    ],
+    "weapons": [
+      {
+        "name": "Slugga",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Choppa",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Power klaw",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -1345,6 +2964,53 @@
       "Attached Unit: If a CHARACTER unit from your army with the Leader ability can be attached to a LOOTAS unit, it can be attached to this unit instead.",
       "Pulsa Rokkit: Once per battle, when the bearer’s unit is selected to shoot in your Shooting phase, the bearer can use its pulsa rokkit. If it does, until the end of the phase, improve the Strength and Armour Penetr"
     ],
+    "weapons": [
+      {
+        "name": "Smash hammer",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Rokkit pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Choppa",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Rokkit launcha",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1373,6 +3039,35 @@
     "abilities": [
       "Grot Riggers: At the start of your Command phase, this model regains 1 lost wound."
     ],
+    "weapons": [
+      {
+        "name": "Big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Wreckin' ball",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "10",
+        "ap": "0",
+        "d": "D6"
+      },
+      {
+        "name": "Spiked wheel",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1399,6 +3094,62 @@
     ],
     "abilities": [
       "Drive-by Dakka: Each time a model in this unit makes a ranged attack that targets a unit within 9\", improve the Armour Penetration characteristic of that attack by 1."
+    ],
+    "weapons": [
+      {
+        "name": "Twin dakkagun",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Slugga",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Choppa",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Big choppa",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Power klaw",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -1429,6 +3180,53 @@
       "Might is Right: While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll.",
       "Da Biggest and da Best: While the Waaagh! is active for your army, add 4 to the Attacks characteristic of this model’s melee weapons.",
       "Leader: This model can be attached to the following units:\n- **BOYZ**\n- **BREAKA BOYZ**\n- **NOBZ**"
+    ],
+    "weapons": [
+      {
+        "name": "Attack Squig",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kombi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Big choppa",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Kustom shoota",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Power klaw",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -1461,6 +3259,26 @@
       "Dead Brutal: While the Waaagh! is active for your army, this model’s ’uge choppa has a Damage characteristic of 3.",
       "Leader: This model can be attached to the following unit:\n- **^^Meganobz^^**"
     ],
+    "weapons": [
+      {
+        "name": "Big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "’Uge choppa",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "12",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1491,6 +3309,53 @@
       "Blastajet Attack Run: Each time this model makes a ranged attack that targets a unit that cannot FLY, re-roll a Hit roll of 1.",
       "Blastajet Force Field: The bearer has a 4+ invulnerable save, but it loses the **^^Grenades^^** keyword."
     ],
+    "weapons": [
+      {
+        "name": "Smasha gun",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-3",
+        "d": "4"
+      },
+      {
+        "name": "Twin wazbom mega-kannon",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Twin tellyport mega-blasta",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-1",
+        "d": "D6+1"
+      },
+      {
+        "name": "Twin supa-shoota",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1520,6 +3385,26 @@
       "Da Jump (Psychic): Once per turn, at the end of your Movement phase, one WEIRDBOY from your army can use this ability. If it does, roll one D6: on a 1, that WEIRDBOY’s unit suffers D6 mortal wounds; on a 2+, remove this",
       "Waaagh! Energy: While this model is leading a unit, add 1 to the Strength and Damage characteristics of this model’s ’Eadbanger weapon for every 5 models in that unit (rounding down), but while that unit contains 10 ",
       "Leader: This model can be attached to the following unit:\n- **BOYZ**\n- **BREAKA BOYZ**"
+    ],
+    "weapons": [
+      {
+        "name": "Weirdboy staff",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "D3"
+      },
+      {
+        "name": "’Eadbanger",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-3",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1552,6 +3437,26 @@
       "Unstable Oracle: While this model is leading a unit, add 2 to the Attacks characteristic of this model’s Eyez of Mork weapon for every 5 models in that unit (rounding down), but while that unit contains 10 or more mod",
       "Leader: This model can be attached to the following unit:\n- **^^Beast Snagga Boyz^^**"
     ],
+    "weapons": [
+      {
+        "name": "Eyez of Mork",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "5+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1582,6 +3487,26 @@
       "Special Dose: While the Waaagh! is active for your army, add 6\" to the Move characteristic of models in this model’s unit.",
       "Leader: This model can be attached to the following unit:\n- **^^Gretchin^^**"
     ],
+    "weapons": [
+      {
+        "name": "Da Grabzappa",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Squigstoppa",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1609,6 +3534,7 @@
       "Ramshackle Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against th",
       "Workshop: When this FORTIFICATION is set up, all parts of it must be set up within 1” of another part. At the end of your Movement phase, each friendly ORKS VEHICLE model within 12” of this FORTIFICATION can re"
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -1634,6 +3560,62 @@
     ],
     "abilities": [
       "Scatter!: In your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can ma"
+    ],
+    "weapons": [
+      {
+        "name": "Grot tank shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Ramshackle hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Grotzooka",
+        "type": "Ranged",
+        "attacks": "D3+3",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Kustom mega-blasta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Rokkit launcha",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Skorcha",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1661,6 +3643,71 @@
     "abilities": [
       "Bizarrely Resilient: Each time an attack targets this model, worsen the Armour Penetration characteristic of that attack by 1."
     ],
+    "weapons": [
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Mega-tank weapons",
+        "type": "Ranged",
+        "attacks": "10",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin grotzooka",
+        "type": "Ranged",
+        "attacks": "D3+3",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Twin kustom mega-blasta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Twin rokkit launcha",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Twin skorcha",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1687,6 +3734,35 @@
     "abilities": [
       "Trample: Each time this model is selected to fight, you can select one enemy unit within Engagement Range of it and roll one D6, adding 2 to the result if this model made a Charge move this turn: on a 4-5, tha",
       "Damaged: 1-6 Wounds Remaining: While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "➤ Gorin’ horns - sweep",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "9",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Gorin’ horns - strike",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "12",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "➤ Kannon - frag",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1719,6 +3795,44 @@
       "Walking Bastion: This model does not suffer the penalty to its Hit rolls for making ranged attacks while enemy units are within Engagement Range of it.",
       "Damaged: 1-10 Wounds Remaining: While this model has 1-10 wounds remaining, subtract 6 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Supa-kannon",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "5+",
+        "s": "12",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "➤ Kannon - frag",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Huge tusks - strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "14",
+        "ap": "-3",
+        "d": "12"
+      },
+      {
+        "name": "➤ Huge tusks - sweep",
+        "type": "Melee",
+        "attacks": "18",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1747,6 +3861,53 @@
       "Wall of Dakka: Each time this model makes a ranged attack that targets a unit within half range, add 1 to the Hit roll.",
       "Damaged: 1-8 Wounds Remaining: While this model has 1-8 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Bursta kannon",
+        "type": "Ranged",
+        "attacks": "3D6",
+        "bs": "5+",
+        "s": "14",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Giga shoota",
+        "type": "Ranged",
+        "attacks": "30",
+        "bs": "5+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Reinforced ram",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "9",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Skorcha",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Twin big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1773,6 +3934,53 @@
     "abilities": [
       "Mega Carnage: Each time this model is selected to fight, you can select one enemy unit within Engagement Range of it and roll one D6, adding 2 to the result if this model made a Charge move this turn: on a 4-5, tha",
       "Dead Rippy: If this model is equipped with 2 dread killsaws, those weapons have the [TWIN-LINKED] ability. If this model is equipped with 2 dread rippa klaws, those weapons have the [TWIN-LINKED] ability."
+    ],
+    "weapons": [
+      {
+        "name": "Boombits",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Dread killsaw",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "14",
+        "ap": "-3",
+        "d": "4"
+      },
+      {
+        "name": "Killkannon",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Dread rippa klaw",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "12",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Stompy feet",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "7",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1801,6 +4009,44 @@
       "Mekaniak: At the end of your Movement phase, you can select one friendly ORKS VEHICLE model within 3\" of this model. That VEHICLE model regains up to D3 lost wounds, and, until the start of your next Movement p",
       "Dead Rippy: If this model is equipped with 2 dread killsaws, those weapons have the [TWIN-LINKED] ability. If this model is equipped with 2 dread rippa klaws, those weapons have the [TWIN-LINKED] ability."
     ],
+    "weapons": [
+      {
+        "name": "Dread killsaw",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "14",
+        "ap": "-3",
+        "d": "4"
+      },
+      {
+        "name": "Killkannon",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Dread rippa klaw",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "12",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Stompy feet",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "7",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1826,6 +4072,44 @@
     ],
     "abilities": [
       "Spiked Ram: Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mort"
+    ],
+    "weapons": [
+      {
+        "name": "Big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Kannon - frag",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Supa-kannon - frag",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1858,6 +4142,44 @@
       "High-octane Fuel: Each time this model’s unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this model’s unit.",
       "Leader: This model can be attached to the following units:\n- **NOBZ ON WARBIKES**\n- **SKORCHAS**\n- **WARBIKERS**\n- **WARBUGGIES**"
     ],
+    "weapons": [
+      {
+        "name": "Twin dakkagun",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Killsaw",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Big choppa",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Power klaw",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1886,6 +4208,80 @@
       "Drive-by Krumpin': Each time this unit Consolidates, each model in this unit can move up to 6\" instead of up to 3\".",
       "Speed Freeks Mob: If a model from your army with the Leader ability can be attached to a **^^Warbikers^^** unit, it can be attached to this unit instead."
     ],
+    "weapons": [
+      {
+        "name": "Slugga",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Power stabba",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Choppa",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Big choppa",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Power klaw",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Killsaw",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Twin dakkagun",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1911,6 +4307,35 @@
     ],
     "abilities": [
       "Big Booms: In your Shooting phase, just after selecting a target for this model’s supa-kannon, roll one D6 for the target unit and every other unit within 3\" of that unit: on a 5+, the unit being rolled for is s"
+    ],
+    "weapons": [
+      {
+        "name": "Spiked ram",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Supa-kannon - frag",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1944,6 +4369,26 @@
       "Has Yoo Been a Good Little Grot This Year?: Once per battle, in your Shooting phase, you can target this model’s unit with the Grenade Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this ",
       "Leader: This model can be attached to the following unit:\n- **^^Gretchin^^**"
     ],
+    "weapons": [
+      {
+        "name": "Kustom grot blasta",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Icon of da Revolushun",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1974,6 +4419,44 @@
       "Dok’s Toolz: While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.",
       "Leader: This model can be attached to the following unit:\n- **NOBZ ON WARBIKES**\n- **SKORCHAS**\n- **WARBIKERS**\n- **WARBUGGIES**"
     ],
+    "weapons": [
+      {
+        "name": "’Urty syringe",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin dakkagun",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Power klaw",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Killsaw",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1999,6 +4482,35 @@
     ],
     "abilities": [
       "Indiscriminate Detonations: In your Shooting phase, when this unit has resolved its attacks, select one enemy unit hit by one or more of those attacks. That enemy unit is **suppressed** until the start of your next Command phase"
+    ],
+    "weapons": [
+      {
+        "name": "Choppas",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Rokkit launcha",
+        "type": "Ranged",
+        "attacks": "D3+3",
+        "bs": "5+",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Kustom shoota",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -2027,6 +4539,62 @@
     "abilities": [
       "Deff from Above: Each time this unit ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
     ],
+    "weapons": [
+      {
+        "name": "Slugga",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Spinnin’ blades",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Killsaw",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Twin big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kopta rokkits",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Kustom mega-blasta",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2054,6 +4622,62 @@
     "abilities": [
       "Da Biggest Booms: In your Shooting phase, just after selecting a target for this model’s krusha kannon, the target unit and every other enemy INFANTRY unit within 3\" of that unit must take a Battle-shock test."
     ],
+    "weapons": [
+      {
+        "name": "Rokkit launcha",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Twin big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Skorcha",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Krusha kannon - tankhamma shell",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "16",
+        "ap": "-3",
+        "d": "6"
+      },
+      {
+        "name": "➤ Krusha kannon - blast burna",
+        "type": "Ranged",
+        "attacks": "3D6",
+        "bs": "5+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Tracks and wheels",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2080,6 +4704,80 @@
     ],
     "abilities": [
       "Rolling Fortress: Each time a ranged attack is allocated to an ORKS model from your army, if that model is not fully visible to every model in the attacking unit because of this DEFF ROLLA BATTLE FORTRESS model, that m"
+    ],
+    "weapons": [
+      {
+        "name": "Deff rolla",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "9",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Kannon - frag",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Lobba",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Zzap gun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "2D6",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Skorcha",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Rokkit launcha",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -2110,6 +4808,53 @@
       "Aerial Deployment: If this model starts the game in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.",
       "Big Bomms: Once per battle, after the bearer ends a Normal move, you can select one enemy unit it moved across during that move and roll six D6: for each 4+, that unit suffers 1 mortal wound."
     ],
+    "weapons": [
+      {
+        "name": "Big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kustom mega-blasta",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Rokkit launcha",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Skorcha",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2138,6 +4883,35 @@
     "abilities": [
       "Strafing Run: Each time this model makes a ranged attack that targets a unit that cannot FLY, add 1 to the Hit roll.",
       "Small Bomms: Each time the bearer ends a Normal move, you can select one enemy unit it moved across during that move and roll three D6: for each 4+, that unit suffers 1 mortal wound."
+    ],
+    "weapons": [
+      {
+        "name": "Wing missiles",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Twin big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -2168,6 +4942,35 @@
       "Interceptor: Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll.",
       "Small Bomms: Each time the bearer ends a Normal move, you can select one enemy unit it moved across during that move and roll three D6: for each 4+, that unit suffers 1 mortal wound."
     ],
+    "weapons": [
+      {
+        "name": "Twin big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Wing missiles",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2192,6 +4995,53 @@
     ],
     "abilities": [
       "Da Bigger Dey Are, da Better Dey Drop: Each time an attack made with this model’s lifta-droppa destroys an enemy model that has the Deadly Demise ability, that model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 3+ instead"
+    ],
+    "weapons": [
+      {
+        "name": "Deff rolla",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "9",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Tracks and wheels",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Grabbin' klaw",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Wreckin' ball",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "10",
+        "ap": "0",
+        "d": "D6"
+      },
+      {
+        "name": "Lifta-droppa",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "5+",
+        "s": "6",
+        "ap": "-3",
+        "d": "D6+1"
+      }
     ],
     "system": "40k"
   },
@@ -2219,6 +5069,26 @@
     ],
     "abilities": [
       "Furious Barrage: Each time this model makes a ranged attack that targets an enemy unit that contains five or more models, you can re-roll the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "Grot-guided bomms",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Spiked wheel",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -2252,6 +5122,98 @@
       "Mekaniak: At the end of your Movement phase, you can select one friendly ORKS VEHICLE model within 3\" of this model. That VEHICLE model regains up to D3 lost wounds, and, until the start of your next Movement p",
       "Leader: This model can be attached to the following unit:\n- **NOBZ ON WARBIKES**\n- **SKORCHAS**\n- **WARBIKERS**\n- **WARBUGGIES**"
     ],
+    "weapons": [
+      {
+        "name": "Slugga",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kombi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kustom mega-blasta",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Rokkit launcha",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Big choppa",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Power klaw",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Kustom mega-slugga",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "8",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Shokk attack gun",
+        "type": "Ranged",
+        "attacks": "D6+1",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Choppa",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Killsaw",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2281,6 +5243,26 @@
     "abilities": [
       "Bludgeoning Cheer: Each time this model ends a Normal, Advance, Fall Back or Charge move, select one enemy unit within 3\" of this model and roll six D6: for each 4+, that enemy unit suffers 1 mortal wound. That enemy un",
       "Gifts for All! (Aura): While a GRETCHIN unit is within 6\" of this model, that unit’s Thievin’ Scavengers ability is successful on D6 rolls of 2+, instead of rolls of 4+."
+    ],
+    "weapons": [
+      {
+        "name": "Bludgeoning bag of gifts",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Massive gift-filled gob",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -2314,6 +5296,35 @@
       "Gargantsmasha: Each time this model makes an attack that targets a **^^Titanic^^* unit, you can re-roll the Hit roll and you can re-roll the Wound roll.",
       "Leader: This model can be attached to the following units:\n- **BOYZ**\n- **NOBZ**"
     ],
+    "weapons": [
+      {
+        "name": "Shokk rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "D6+1"
+      },
+      {
+        "name": "Princess' jaws",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Snazzhammer",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2345,6 +5356,44 @@
       "Shokk-boosta: You can re‑roll Advance rolls made for this model’s unit. In addition, each time this model’s unit makes a Normal, Advance or Fall Back move, models in that unit can move through models and terrain fe",
       "Leader: This model can be attached to the following units:\n- **BOYZ**\n- **BREAKA BOYZ**\n- **LOOTAS**\n- **MEK GUNZ**\n- **NOBZ**\n- **TANKBUSTAS**"
     ],
+    "weapons": [
+      {
+        "name": "Drilla",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Power klaw",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Traktor blasta",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "10",
+        "ap": "-2",
+        "d": "D6+1"
+      },
+      {
+        "name": "Kustom mega-blasta",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2373,6 +5422,53 @@
       "Attached Unit: If a CHARACTER unit from your army with the Leader ability can be attached to a BOYZ unit, it can be attached to this unit instead.",
       "Trophy Hunters: Each time this unit declares a charge, you can re-roll the Charge roll."
     ],
+    "weapons": [
+      {
+        "name": "Smash hammer",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Tankhammer",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Knucklebustas",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Rokkit pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Choppa",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2400,6 +5496,26 @@
     "abilities": [
       "Explosive Snowballs: Once in each of your Shooting phases, you can target this unit with the Grenades stratagem for 0CP. After resolving this stratagem, this unit can make a Normal move of up to 6\".",
       "A-bomb-inable Snowman: When this model is destroyed, its Deadly Demise ability inflicts mortal wounds on a D6 roll of 2+ instead of on a 6."
+    ],
+    "weapons": [
+      {
+        "name": "Kustom grot blasta",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -2430,6 +5546,26 @@
     "abilities": [
       "Redistributin' da Gifts: Once in each of your Shooting phases, you can target this unit with the Grenade Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
     ],
+    "weapons": [
+      {
+        "name": "Tinboy's kustom shoota",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Tinboy's klaw",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2458,6 +5594,98 @@
     "abilities": [
       "More Lads, More Swagger: Improve this model's Leadership characteristic by 1 for every 5 models in this unit.",
       "Leader: This model can be attached to the following units:\n- **^^Boyz^^**\n- **^^Nobz^^**"
+    ],
+    "weapons": [
+      {
+        "name": "Twin dakkagun",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Squig jaws",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Burna",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Rokkit launcha",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "’Eadbanger",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-3",
+        "d": "1"
+      },
+      {
+        "name": "Eyez of Mork",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "5+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Kombi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kustom mega-blasta",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Kustom mega-slugga",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "8",
+        "ap": "-2",
+        "d": "D6"
+      }
     ],
     "system": "40k"
   },
@@ -2488,6 +5716,98 @@
       "Channellin' da Waaagh!: Each time this model attacks with a Psychic weapon, until the end of the phase, improve the Attacks, Strength and Damage characteristics of that weapon by 1 for every 5 models in this unit. While this",
       "Leader: This model can be attached to the following units:\n- **^^Boyz^^**\n- **^^Nobz^^**\n- **^^Gretchin^^**"
     ],
+    "weapons": [
+      {
+        "name": "Twin dakkagun",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Squig jaws",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Burna",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Rokkit launcha",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "’Eadbanger",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-3",
+        "d": "1"
+      },
+      {
+        "name": "Eyez of Mork",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "5+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Kombi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kustom mega-blasta",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Kustom mega-slugga",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "8",
+        "ap": "-2",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2517,6 +5837,98 @@
     "abilities": [
       "Skulkin' Grot: While this model is leading a unit, models in that unit have the Infiltrators and Stealth abilities.",
       "Leader: This model can be attached to the following units:\n- **^^Gretchin^^**"
+    ],
+    "weapons": [
+      {
+        "name": "Twin dakkagun",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Squig jaws",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Burna",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Big shoota",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Rokkit launcha",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "’Eadbanger",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-3",
+        "d": "1"
+      },
+      {
+        "name": "Eyez of Mork",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "5+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Kombi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kustom mega-blasta",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Kustom mega-slugga",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "5+",
+        "s": "8",
+        "ap": "-2",
+        "d": "D6"
+      }
     ],
     "system": "40k"
   },
@@ -2550,6 +5962,53 @@
       "Waaagh! Wazdakka: If this model is your **^^Warlord^^**, **^^Warbiker^^** units from your army have the **^^Battleline^^** keyword.",
       "Throttlerokkit Shokka Engine: In your Command phase, select one of the abilities in the Throttlerokkit Shokka Engine section. Until the start of your next Command phase, this model has that ability."
     ],
+    "weapons": [
+      {
+        "name": "Fixit's wrench",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Psyko-gatler",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Grabba dragga",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Grabba dragga",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Speeding bulk and flaming exhaust",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2579,6 +6038,26 @@
       "Leader: This model can be attached to the following units: \n- **BOYZ**\n- **BREAKA BOYZ**\n- **NOBZ**",
       "Breakin’ Heads: This unit’s melee weapons have **[SUSTAINED HITS 1]**."
     ],
+    "weapons": [
+      {
+        "name": "Slugga",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Two-handed big choppa",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2605,6 +6084,35 @@
     ],
     "abilities": [
       "Dakkablitz: In your Shooting phase, while making attacks with this unit, if its blitzkannon targeted a non‑**MONSTER/VEHICLE** unit, that weapon has +6 **A**."
+    ],
+    "weapons": [
+      {
+        "name": "Stompy feet",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Blitzkannon",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "5+",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Rokkit launcha",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "5+",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      }
     ],
     "system": "40k"
   }

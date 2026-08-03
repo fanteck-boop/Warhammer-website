@@ -26,6 +26,44 @@
       "Executioner: Each time this model makes an attack that targets a unit Below Half-strength, add 1 to the Hit roll. Each time an enemy unit is destroyed as the result of this model's attacks, before removing the las",
       "Snarling Rivalry: This unit’s ranged attacks have [IGNORES COVER]."
     ],
+    "weapons": [
+      {
+        "name": "Armoured feet",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "War Dog autocannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Diabolus heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Daemonbreath meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -53,6 +91,62 @@
     ],
     "abilities": [
       "Stalker: Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent’s army within 6\" of that target, add 1 to the Wound roll."
+    ],
+    "weapons": [
+      {
+        "name": "Diabolus heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Havoc multi-launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Avenger chaincannon",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Daemonbreath spear",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Slaughterclaw",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+2"
+      },
+      {
+        "name": "➤ Reaper chaintalon - sweep",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -82,6 +176,44 @@
     "abilities": [
       "Karnivore: You can re-roll Advance and Charge rolls made for this model."
     ],
+    "weapons": [
+      {
+        "name": "Reaper chaintalon",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Slaughterclaw",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+2"
+      },
+      {
+        "name": "Diabolus heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Havoc multi-launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -109,6 +241,53 @@
     ],
     "abilities": [
       "Brigand: Ranged weapons equipped by this model have the [Ignores Cover] ability while targeting enemy units in range of one or more objective markers."
+    ],
+    "weapons": [
+      {
+        "name": "Armoured feet",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Avenger chaincannon",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Daemonbreath spear",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Diabolus heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Havoc multi-launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -138,6 +317,44 @@
     "abilities": [
       "Huntsman: Each time this model makes an attack that targets a ^^**Monster^^** or ^^**Vehicle^^** unit, you can re-roll the Wound roll.",
       "Soul-spoor Auspicator: This unit’s ranged attacks have +6\" R."
+    ],
+    "weapons": [
+      {
+        "name": "Daemonbreath spear",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "➤ Reaper chaintalon - sweep",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Diabolus heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Daemonbreath meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
     ],
     "system": "40k"
   },
@@ -172,6 +389,98 @@
       "Dread Dominion (Aura): While a friendly ^^**War Dog^^** model is within 9\" of this model, improve that ^^**War Dog^^** model's Leadership  and Objective Control characteristics by 1.",
       "Seething Hatred: Each time this model is selected to shoot or fight, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
     ],
+    "weapons": [
+      {
+        "name": "Titanic feet",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Havoc missile pod",
+        "type": "Ranged",
+        "attacks": "D6+1",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Ruinspear rocket pod",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Hellstorm autocannons",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Despoiler gatling cannon",
+        "type": "Ranged",
+        "attacks": "18",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Heavy darkflamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Despoiler battle cannon",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Diabolus heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Reaper chainsword - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "9",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Daemonbreath thermal cannon",
+        "type": "Ranged",
+        "attacks": "2D3",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-4",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -205,6 +514,44 @@
       "Taskmaster (Aura): While a friendly ^^**War Dog^^** model is within 9\" of this model, each time that ^^**War Dog^^** model makes a ranged attack, re-roll a Hit roll of 1.",
       "Obsessive Ruthlessness: This unit’s ranged attacks that target a MONSTER/VEHICLE unit can ignore modifiers to this unit’s: \n- BS. \n- Hit rolls and wound rolls."
     ],
+    "weapons": [
+      {
+        "name": "Desecrator laser destructor",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "18",
+        "ap": "-4",
+        "d": "D6+3"
+      },
+      {
+        "name": "Diabolus heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Reaper chainsword - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "9",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Warpstrike claw - sweep",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -237,6 +584,53 @@
     "abilities": [
       "Frenzied Rampage (Aura): While a friendly ^^**War Dog^^** model is within 9\" of this model, each time that ^^**War Dog^^** model makes a melee attack, re-roll a Hit roll of 1.",
       "Bloodlust: Each time this model makes a Charge move, until the end of the turn, its melee weapons have the [Devastating Wounds] ability."
+    ],
+    "weapons": [
+      {
+        "name": "Diabolus heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Reaper chainsword - strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "14",
+        "ap": "-4",
+        "d": "6"
+      },
+      {
+        "name": "➤ Reaper chainsword - sweep",
+        "type": "Melee",
+        "attacks": "18",
+        "bs": "",
+        "s": "9",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Warpstrike claw - strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "20",
+        "ap": "-3",
+        "d": "8"
+      },
+      {
+        "name": "➤ Warpstrike claw - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -272,6 +666,44 @@
       "Vortex Terrors (Psychic): At the start of your Shooting phase, select one enemy unit within 24\" of and visible to this model. That enemy unit must take a Battle-shock test.",
       "Warp Storms (Psychic): At the end of your Movement phase, roll one D6 for each enemy unit within 9\" of one or more models with this ability: on a 3+, that enemy unit suffers D3 mortal wounds."
     ],
+    "weapons": [
+      {
+        "name": "Balemace",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Electroscourge",
+        "type": "Melee",
+        "attacks": "9",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Volkite combustor",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "3+",
+        "s": "12",
+        "ap": "0",
+        "d": "3"
+      },
+      {
+        "name": "Diabolus heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -304,6 +736,44 @@
       "Infernal Aegis (Aura): While a friendly ^^**War Dog^^** model is within 6\" of this model, that ^^**War Dog^^** model has the Benefit of Cover.",
       "Bastion of Corruption: Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this model."
     ],
+    "weapons": [
+      {
+        "name": "Titanic feet",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin daemonbreath meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Gheiststrike missile launcher",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-6",
+        "d": "D6+1"
+      },
+      {
+        "name": "Twin desecrator cannon",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -335,6 +805,44 @@
     "abilities": [
       "Sunderer of Fortresses: Each time this model makes an attack that targets a ^^**Vehicle^^**, improve the Strength and Damage characteristics of that attack by 1 (if that attack targets a ^^**Fortification^^**, improve the St"
     ],
+    "weapons": [
+      {
+        "name": "Asterius volkite culverin",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Karacnos mortar battery",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Twin conversion beam cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "16",
+        "ap": "-2",
+        "d": "6"
+      },
+      {
+        "name": "Titanic feet",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "10",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -365,6 +873,62 @@
     ],
     "abilities": [
       "Bastion of Firepower: Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [LETHAL HITS] ability."
+    ],
+    "weapons": [
+      {
+        "name": "Titanic feet",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "10",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin magna lascannon",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "18",
+        "ap": "-4",
+        "d": "D6+6"
+      },
+      {
+        "name": "Acastus ironstorm missile pod",
+        "type": "Ranged",
+        "attacks": "D6+6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Helios defence missiles",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Acastus autocannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      }
     ],
     "system": "40k"
   },
@@ -399,6 +963,35 @@
       "Shock Charge: You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
       "Dark Fervour (Aura): While a friendly ^^**War Dog^^** model is within 6\" of this model, ranged weapons equipped by that ^^**War Dog^^** model have the [ASSAULT] ability."
     ],
+    "weapons": [
+      {
+        "name": "Cerastus shock lance",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "➤ Cerastus shock lance - strike",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "20",
+        "ap": "-3",
+        "d": "8"
+      },
+      {
+        "name": "➤ Cerastus shock lance - sweep",
+        "type": "Melee",
+        "attacks": "10",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -432,6 +1025,35 @@
       "Storm of Bolts: In your Shooting phase, after this model has shot, select one unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**) hit by one or more of those attacks. Until the start of your next turn, while this ",
       "Offerings for the Dark Gods (Aura): While a friendly ^^**War Dog^^** model is within 6\" of this model, ranged weapons equipped by that ^^**War Dog^^** model have the [SUSTAINED HITS 1] ability."
     ],
+    "weapons": [
+      {
+        "name": "Castigator bolt cannon",
+        "type": "Ranged",
+        "attacks": "18",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Tempest warblade - strike",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "14",
+        "ap": "-4",
+        "d": "6"
+      },
+      {
+        "name": "➤ Tempest warblade - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "9",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -463,6 +1085,44 @@
     "abilities": [
       "Searing Flames: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the phase, that enemy unit cannot have ",
       "Unrestrained Terror (Aura): While a friendly ^^**War Dog^^** model is within 6\" of this model, it is affected by this ability. At the start of the Fight phase, each enemy unit within Engagement Range of one or more ^^**War Dog^^"
+    ],
+    "weapons": [
+      {
+        "name": "Acheron flame cannon",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "N/A",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Reaper chainfist - strike",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "14",
+        "ap": "-4",
+        "d": "6"
+      },
+      {
+        "name": "➤ Reaper chainfist - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "9",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -497,6 +1157,62 @@
       "Macro-extinction Protocols: Each time this model makes an attack that targets a ^^**Monster^^** or ^^**Vehicle^^** unit, add 1 to the Hit roll. If that target is ^^**Titanic^^** or ^^**Towering^^**, add 1 to the Wound roll as we",
       "Consumed with Hunger (Aura): While a friendly ^^**War Dog^^** model is within 6\" of this model, each time that ^^**War Dog^^** model makes an attack that targets a ^^**Titanic^^** or ^^**Towering^^** unit, you can re-roll the Hit"
     ],
+    "weapons": [
+      {
+        "name": "➤ Atrapos lascutter - low intensity",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Atrapos lascutter - low intensity",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Atrapos lascutter - high intensity",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "14",
+        "ap": "-3",
+        "d": "4"
+      },
+      {
+        "name": "➤ Atrapos lascutter - high intensity",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "14",
+        "ap": "-3",
+        "d": "4"
+      },
+      {
+        "name": "➤ Graviton singularity cannon - contained",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "16",
+        "ap": "-4",
+        "d": "D6+1"
+      },
+      {
+        "name": "➤ Graviton singularity cannon - singularity",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "16",
+        "ap": "-4",
+        "d": "D6+1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -529,6 +1245,35 @@
     ],
     "abilities": [
       "Repair Auto-simulacra: At the end of your Command phase, this model regains up to D3 lost wounds."
+    ],
+    "weapons": [
+      {
+        "name": "Lightning cannon",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "3+",
+        "s": "9",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Phased plasma-fusil",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Reaper chainsword - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "9",
+        "ap": "-3",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -564,6 +1309,35 @@
       "Grav-pinned: In your Shooting phase, after this model has shot, if an enemy ^^**Infantry^^** unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, t",
       "Preysight (Aura): While a friendly ^^**War Dog^^** model is within 6\" of this model, ranged weapons equipped by that ^^**War Dog^^** model have the [IGNORES COVER] ability."
     ],
+    "weapons": [
+      {
+        "name": "Graviton crusher",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Volkite chierovile",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "3+",
+        "s": "12",
+        "ap": "0",
+        "d": "3"
+      },
+      {
+        "name": "➤ Reaper chainsword - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "9",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -591,6 +1365,53 @@
     ],
     "abilities": [
       "Protection Protocols: You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+    ],
+    "weapons": [
+      {
+        "name": "Armoured feet",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Volkite veuglaire",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "8",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Conversion beam cannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Graviton pulsar",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Lightning lock",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "8",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -625,6 +1446,44 @@
       "Methodical Destruction: At the start of the first battle round, select one unit from your opponent's army to be this model's victim. Each time this model makes an attack that targets its victim, you can re-roll the Wound rol",
       "Close-range Killers (Aura): While a friendly ^^**War Dog^^** model is within 9\" of this model, each time that ^^**War Dog^^** model makes an attack that targets the closest enemy unit, improve the Armour Penetration characterist"
     ],
+    "weapons": [
+      {
+        "name": "Darkflame lance",
+        "type": "Ranged",
+        "attacks": "D6+6",
+        "bs": "N/A",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Fellbore - strike",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "14",
+        "ap": "-3",
+        "d": "6"
+      },
+      {
+        "name": "➤ Fellbore - sweep",
+        "type": "Melee",
+        "attacks": "10",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Terrorpulse missiles",
+        "type": "Ranged",
+        "attacks": "D6+6",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -656,6 +1515,62 @@
       "Damaged: 1-13 wounds remaining: While this model has 1-13 wounds remaining, subtract 8 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
       "Striding Colossus: Each time you target this model with a Stratagem, you must spend twice that Stratagem’s stated CP cost to do so."
     ],
+    "weapons": [
+      {
+        "name": "Warhound feet",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "10",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Warhound vulcan mega-bolter",
+        "type": "Ranged",
+        "attacks": "20",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Warhound inferno gun",
+        "type": "Ranged",
+        "attacks": "3D6",
+        "bs": "N/A",
+        "s": "7",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "➤ Warhound plasma blastgun - standard",
+        "type": "Ranged",
+        "attacks": "2D6+3",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-3",
+        "d": "4"
+      },
+      {
+        "name": "➤ Warhound plasma blastgun - supercharge",
+        "type": "Ranged",
+        "attacks": "2D6+3",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-3",
+        "d": "5"
+      },
+      {
+        "name": "Warhound turbo-laser destructor",
+        "type": "Ranged",
+        "attacks": "D3+3",
+        "bs": "3+",
+        "s": "20",
+        "ap": "-3",
+        "d": "2D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -686,6 +1601,80 @@
       "Damaged: 1-20 wounds remaining: While this model has 1-20 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
       "God-machine: This model is eligible to shoot and declare a charge in a turn in which it Fell Back.",
       "Striding Colossus: Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
+    ],
+    "weapons": [
+      {
+        "name": "Reaver gatling blaster",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Reaver laser blaster",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "3+",
+        "s": "20",
+        "ap": "-3",
+        "d": "D6+2"
+      },
+      {
+        "name": "Reaver melta cannon",
+        "type": "Ranged",
+        "attacks": "D6+2",
+        "bs": "3+",
+        "s": "13",
+        "ap": "-4",
+        "d": "6"
+      },
+      {
+        "name": "Reaver volcano cannon",
+        "type": "Ranged",
+        "attacks": "D3+1",
+        "bs": "3+",
+        "s": "24",
+        "ap": "-5",
+        "d": "14"
+      },
+      {
+        "name": "➤ Reaver power fist - strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "20",
+        "ap": "-4",
+        "d": "14"
+      },
+      {
+        "name": "➤ Reaver power fist - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "6"
+      },
+      {
+        "name": "Reaver feet",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "12",
+        "ap": "-2",
+        "d": "4"
+      },
+      {
+        "name": "Reaver apocalypse launcher",
+        "type": "Ranged",
+        "attacks": "3D6",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -719,6 +1708,89 @@
       "Titanic Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly CHAOS model makes an attack that targets ",
       "Striding Colossus: Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
     ],
+    "weapons": [
+      {
+        "name": "Anvillus defence battery",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Ardex-defensor mauler",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Nemesis feet",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "12",
+        "ap": "-2",
+        "d": "4"
+      },
+      {
+        "name": "Nemesis quake cannon",
+        "type": "Ranged",
+        "attacks": "D6+6",
+        "bs": "3+",
+        "s": "16",
+        "ap": "-4",
+        "d": "4"
+      },
+      {
+        "name": "Nemesis volcano cannon",
+        "type": "Ranged",
+        "attacks": "D3+3",
+        "bs": "3+",
+        "s": "24",
+        "ap": "-5",
+        "d": "14"
+      },
+      {
+        "name": "Reaver gatling blaster",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Reaver laser blaster",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "3+",
+        "s": "20",
+        "ap": "-3",
+        "d": "D6+2"
+      },
+      {
+        "name": "Reaver melta cannon",
+        "type": "Ranged",
+        "attacks": "D6+2",
+        "bs": "3+",
+        "s": "13",
+        "ap": "-4",
+        "d": "6"
+      },
+      {
+        "name": "Reaver volcano cannon",
+        "type": "Ranged",
+        "attacks": "D3+1",
+        "bs": "3+",
+        "s": "24",
+        "ap": "-5",
+        "d": "14"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -749,6 +1821,98 @@
       "Damaged: 1-33 wounds remaining: While this model has 1-33 wounds remaining, subtract 15 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
       "Wrath of the Omnissiah: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test.",
       "Striding Colossus: Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so."
+    ],
+    "weapons": [
+      {
+        "name": "Arioch power claw",
+        "type": "Ranged",
+        "attacks": "20",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Arioch power claw - strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "20",
+        "ap": "-4",
+        "d": "24"
+      },
+      {
+        "name": "➤ Arioch power claw - sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "8"
+      },
+      {
+        "name": "Belicosa volcano cannon",
+        "type": "Ranged",
+        "attacks": "D3+3",
+        "bs": "3+",
+        "s": "32",
+        "ap": "-5",
+        "d": "18"
+      },
+      {
+        "name": "Macro gatling blaster",
+        "type": "Ranged",
+        "attacks": "30",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Mori quake cannon",
+        "type": "Ranged",
+        "attacks": "3D6",
+        "bs": "3+",
+        "s": "16",
+        "ap": "-4",
+        "d": "6"
+      },
+      {
+        "name": "➤ Sunfury plasma annihilator - standard",
+        "type": "Ranged",
+        "attacks": "2D6+6",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-3",
+        "d": "5"
+      },
+      {
+        "name": "➤ Sunfury plasma annihilator - supercharge",
+        "type": "Ranged",
+        "attacks": "2D6+6",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "8"
+      },
+      {
+        "name": "Ardex-defensor lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Ardex-defensor mauler",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   }

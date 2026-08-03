@@ -29,6 +29,53 @@
       "Hammerhand (Psychic): While this model is leading a unit, melee weapons equipped by models in that unit have the [Lethal Hits] ability.",
       "Eye of Judgement (Psychic): Each time this model makes an attack, you can re-roll the Wound roll."
     ],
+    "weapons": [
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Incinerator",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Psycannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Psilencer",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "2+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Nemesis force weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -62,6 +109,26 @@
       "Exemplar of the Silvered Host: While this model is leading a unit, each time a model in that unit makes a melee attack, on a Critical Wound, the target suffers 1 mortal wound in addition to any normal damage.",
       "Strands of Fate (Psychic): The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement"
     ],
+    "weapons": [
+      {
+        "name": "Nemesis force sword",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -93,6 +160,26 @@
       "Clarion of Haste (Psychic): While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced.",
       "Inspiring Exemplar: Each time this model destroys a Character model in the Fight phase, you gain 1CP and, until the end of the battle, add 1 to the Attacks characteristic of its Nemesis force weapon."
     ],
+    "weapons": [
+      {
+        "name": "Nemesis force weapon",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -123,6 +210,26 @@
     "abilities": [
       "Zealous Path: While this model is leading a unit, you can re-roll Charge rolls made for that unit.",
       "Leader: This model can be attached to the following units:\n■ Brotherhood Terminator Squad\n■ Paladin Squad"
+    ],
+    "weapons": [
+      {
+        "name": "Crozius arcanum",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -156,6 +263,44 @@
       "Leader: This model can be attached to the following units:\n- **^^Brotherhood Terminator Squad^^**\n- **^^Paladin Squad^^**",
       "Sanctic Hood: While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
     ],
+    "weapons": [
+      {
+        "name": "Nemesis force weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Vortex of Doom",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -187,6 +332,44 @@
       "Guardians of the Machine: Each time an enemy unit ends a **charge move engaged** with one or more friendly **GREY KNIGHTS VEHICLE** units and within 6\" of this unit, you can target this unit with the **Heroic Intervention stra",
       "Blessing of the Omnissiah: In your Command phase, you can select one friendly ^^**Grey Knights Vehicle**^^ model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, ",
       "Techmarine: While this model is within 3\" of one or more friendly ^^**Grey Knights Vehicle**^^ units, this model has the Lone Operative ability."
+    ],
+    "weapons": [
+      {
+        "name": "Servo-arm",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Omnissian power axe",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Grav-pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Forge bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -220,6 +403,53 @@
       "Ancient's Banner: Add 1 to the Objective Control characteristic of models in the bearer’s unit.",
       "Apothecary's narthecium: In your Command phase, if the bearer is not destroyed, you can return 1 destroyed model (excluding ^^**Characters^^**) to the bearer’s unit."
     ],
+    "weapons": [
+      {
+        "name": "Nemesis force weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Incinerator",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Psycannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Psilencer",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -251,6 +481,35 @@
       "Champion of the Order of Purifiers (Psychic): While this model is leading a unit, add 1 to the Attacks characteristic of Purifying Flame weapons equipped by that unit.",
       "Foesight (Psychic): Each time this model makes an attack that targets a ^^**Character^^** unit, you can re-roll the Hit roll.",
       "Leader: This model can be attached to the following unit:\n■ Purifier Squad"
+    ],
+    "weapons": [
+      {
+        "name": "Purifying Flame",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Black Blade of Antwyr",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -284,6 +543,53 @@
       "Might of Titan (Psychic): Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks and Strength characteristics of melee weapons equipped b",
       "Leader: This model can be attached to the following units:\n- **^^Brotherhood Terminator Squad^^**\n- **^^Paladin Squad^^**"
     ],
+    "weapons": [
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Incinerator",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Psycannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Psilencer",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "2+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Nemesis force weapon",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -312,6 +618,98 @@
     ],
     "abilities": [
       "Surge of Wrath (Psychic): Each time this model makes a melee attack that targets a **^^Monster^^** or **^^Vehicle^^** unit, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll."
+    ],
+    "weapons": [
+      {
+        "name": "Nemesis mace",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "6",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Nemesis flail",
+        "type": "Melee",
+        "attacks": "10",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Dreadfists",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Nemesis daemon greathammer",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "➤ Nemesis greatsword - sweep",
+        "type": "Melee",
+        "attacks": "10",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Sublimator",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Gatling psilencer",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy incinerator",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Heavy psycannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Fragstorm grenade launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -346,6 +744,35 @@
       "Hammer Aflame (Psychic): Each time this model’s unit is selected to fight, you can select one enemy unit within Engagement Range of this model’s unit and roll one D6: on a 2-3, that enemy unit suffers 1 mortal wound; on a 4-5",
       "Leader: This model can be attached to the following units:\n■ Brotherhood Terminator Squad\n■ Paladin Squad"
     ],
+    "weapons": [
+      {
+        "name": "Malleus Argyrum",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Searing Purity",
+        "type": "Ranged",
+        "attacks": "D3+1",
+        "bs": "2+",
+        "s": "12",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -374,6 +801,62 @@
     ],
     "abilities": [
       "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+    ],
+    "weapons": [
+      {
+        "name": "Godhammer lascannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Hunter-killer missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6"
+      },
+      {
+        "name": "Multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Armoured tracks",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -405,6 +888,62 @@
     "abilities": [
       "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
     ],
+    "weapons": [
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Hunter-killer missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6"
+      },
+      {
+        "name": "Multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Twin assault cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Armoured tracks",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Hurricane bolter",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -435,6 +974,62 @@
     "abilities": [
       "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
     ],
+    "weapons": [
+      {
+        "name": "Flamestorm cannon",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Hunter-killer missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6"
+      },
+      {
+        "name": "Multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Twin assault cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Armoured tracks",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -464,6 +1059,53 @@
     ],
     "abilities": [
       "Fire Focus: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly model that disembarked from this ^^**Trans"
+    ],
+    "weapons": [
+      {
+        "name": "Twin lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Hunter-killer missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6"
+      },
+      {
+        "name": "Armoured tracks",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -496,6 +1138,35 @@
     "abilities": [
       "Truesilver Aegis (Psychic): While a friendly ^^**Grey Knights^^** unit is wholly within 6\" of this model, models in that unit have the Feel No Pain 6+ ability against mortal wounds."
     ],
+    "weapons": [
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Hunter-killer missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6"
+      },
+      {
+        "name": "Armoured tracks",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -525,6 +1196,71 @@
     "abilities": [
       "Interceptor: Each time this model makes a ranged attack that targets a unit that can ^^**Fly^^**, add 1 to the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Twin heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Typhoon missile launcher - krak",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Skyhammer missile launcher",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-1",
+        "d": "D3"
+      },
+      {
+        "name": "Las-talon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Icarus stormcannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin assault cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -553,6 +1289,98 @@
     "abilities": [
       "Armoured Resilience: Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
     ],
+    "weapons": [
+      {
+        "name": "Hurricane bolter",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Stormstrike missile launcher",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-3",
+        "d": "D6+2"
+      },
+      {
+        "name": "➤ Twin heavy plasma cannon - standard",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Twin heavy plasma cannon - supercharge",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Twin assault cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Twin multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Typhoon missile launcher - krak",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -580,6 +1408,62 @@
     ],
     "abilities": [
       "Strafing Run: Each time this model makes a ranged attack that targets a unit that cannot ^^**Fly^^**, add 1 to the Hit roll"
+    ],
+    "weapons": [
+      {
+        "name": "Twin lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Typhoon missile launcher - krak",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Skyhammer missile launcher",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-1",
+        "d": "D3"
+      },
+      {
+        "name": "Twin assault cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -611,6 +1495,62 @@
     "abilities": [
       "Guidance of the Ancients (Psychic): In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a ^^**Grey Knights^^** model from your army makes an "
     ],
+    "weapons": [
+      {
+        "name": "Assault cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Heavy plasma cannon - supercharge",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Twin lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Dreadnought combat weapon",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "12",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Heavy flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -639,6 +1579,62 @@
     ],
     "abilities": [
       "Personal Teleporters: In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\" as if it were your Movement phase. If it does, "
+    ],
+    "weapons": [
+      {
+        "name": "Nemesis force weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Incinerator",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Psilencer",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Psycannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -675,6 +1671,35 @@
       "Leader: This model can be attached to the following units:\n■ Brotherhood Terminator Squad\n■ Paladin Squad",
       "Supreme Commander: If this model is in your army, it must be your WARLORD."
     ],
+    "weapons": [
+      {
+        "name": "Scourging",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "The Titansword",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "-4",
+        "d": "3"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -702,6 +1727,62 @@
     ],
     "abilities": [
       "Indomitable Spirit (Psychic): This model is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+    ],
+    "weapons": [
+      {
+        "name": "➤ Nemesis greatsword - sweep",
+        "type": "Melee",
+        "attacks": "10",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Nemesis daemon greathammer",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Dreadfists",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Gatling psilencer",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy psycannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Heavy incinerator",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -734,6 +1815,53 @@
       "Ancient's Banner: Add 1 to the Objective Control characteristic of models in the bearer’s unit.",
       "Apothecary's narthecium: In your Command phase, if the bearer is not destroyed, you can return 1 destroyed model (excluding ^^**Characters^^**) to the bearer’s unit."
     ],
+    "weapons": [
+      {
+        "name": "Nemesis force weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Incinerator",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Psycannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Psilencer",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "2+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -762,6 +1890,62 @@
     "abilities": [
       "Righteous Persecution: In your Shooting phase, after this unit has shot, select one enemy unit (excluding ^^**Monsters^^** or ^^**Vehicles^^**) hit by one or more of those attacks; until the start of your next turn, that en"
     ],
+    "weapons": [
+      {
+        "name": "Nemesis force weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Incinerator",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Psilencer",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Psycannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -789,6 +1973,71 @@
     ],
     "abilities": [
       "Sanctity of Purpose: Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target is within range of an objective marker, you can re-roll the Wound roll instead."
+    ],
+    "weapons": [
+      {
+        "name": "Nemesis force weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Purifying Flame",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Incinerator",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Psilencer",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Psycannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -819,6 +2068,62 @@
       "Servitor Retinue: At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a **^^Brotherhood Techmarine^^** (a unit cannot have more than one **^^Servito",
       "Retinue: While a **^^Brotherhood Techmarine^^** model is leading this unit, models in this unit have the Deep Strike and Teleport Assault abilities"
     ],
+    "weapons": [
+      {
+        "name": "Servo-arm",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Servitor's tools",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "➤ Plasma cannon - standard",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma cannon - supercharge",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -847,6 +2152,62 @@
     ],
     "abilities": [
       "Sanctifying Ritual (Psychic): At the end of your Command phase, if this unit is within range of an objective marker that you control, that objective marker remains under you control until your opponent's Level of Control over that"
+    ],
+    "weapons": [
+      {
+        "name": "Nemesis force weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Incinerator",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Psycannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Psilencer",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -879,6 +2240,62 @@
       "Aerial Assault: Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
       "Thunderhawk cluster bombs: Each time the bearer ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
     ],
+    "weapons": [
+      {
+        "name": "Lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Armored Hull",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Thunderhawk heavy cannon",
+        "type": "Ranged",
+        "attacks": "D6+6",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Turbo-laser destructor",
+        "type": "Ranged",
+        "attacks": "D3+1",
+        "bs": "3+",
+        "s": "20",
+        "ap": "-4",
+        "d": "D6+6"
+      },
+      {
+        "name": "Hellstrike missile battery",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -908,6 +2325,80 @@
     "abilities": [
       "Wisdom of the Ancients (Aura): While a friendly **^^Grey Knights Infantry^^** unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
     ],
+    "weapons": [
+      {
+        "name": "Assault cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Heavy plasma cannon - supercharge",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Twin lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Nemesis doomglaive",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "14",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Heavy psycannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Incinerator",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -936,6 +2427,80 @@
     ],
     "abilities": [
       "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from thi"
+    ],
+    "weapons": [
+      {
+        "name": "Twin assault cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Twin Psycannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Hunter-killer missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6"
+      },
+      {
+        "name": "Armoured tracks",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -968,6 +2533,98 @@
       "Might of Titan: Once per battle, at the start of a phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks and Strength characteristics of melee weapons equipped by this m",
       "Leader: This model can be attached to the following units:\n- **^^Purgation Squad^^**\n- **^^Strike Squad^^**"
     ],
+    "weapons": [
+      {
+        "name": "Assault cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Forge bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Fragstorm grenade launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Incinerator",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Psilencer",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "2+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Psycannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Vortex of Doom",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -999,6 +2656,98 @@
     "abilities": [
       "Guidance of the Ancients: In your Shooting phase, after this unit has shot, select one unit hit by one or more of those attacks. Until the end of the phase, each time a **^^Grey Knights^^** model from your army makes an attack"
     ],
+    "weapons": [
+      {
+        "name": "Assault cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Forge bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Fragstorm grenade launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Incinerator",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Psilencer",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "2+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Psycannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Vortex of Doom",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1029,6 +2778,98 @@
     "abilities": [
       "Surge of Wrath: Each time this model makes a melee attack that targets a **^^Monster^^** or **^^Vehicle^^** unit, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll.",
       "Damaged: 1-4 Wounds Remaining: When Damaged, subtract 1 from Hit rolls when it makes attacks."
+    ],
+    "weapons": [
+      {
+        "name": "Assault cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Forge bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Fragstorm grenade launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Incinerator",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Psilencer",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "2+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Psycannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Vortex of Doom",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   }

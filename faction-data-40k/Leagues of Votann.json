@@ -26,6 +26,26 @@
       "Leader: This model can be attached to the following units:\n- Einhyr Hearthguard\n- Hearthkyn Warriors",
       "Grim Efficiency: Once per battle round, when a friendly ^^**Leagues of Votann**^^ unit within 12\" of this model is targeted with a Stratagem, this model can use this ability. If it does, reduce the CP cost of that Str"
     ],
+    "weapons": [
+      {
+        "name": "Blade of the Ancestors",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "6",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Volkanite disintegrator",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -54,6 +74,71 @@
       "Luck Has, Need Keeps, Toil Earns: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, until your opponent's Level of Control over that is",
       "Pan-spectral Scanning: Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1."
     ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Theyn's melee weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Autoch-pattern bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Autoch-pattern bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Ion blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Theyn's pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Plasma knife",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -81,6 +166,44 @@
       "Kindred Hero: While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability.",
       "Leader: This model can be attached to the following units:\n- EINHYR HEARTHGUARD\n- HEARTHKYN WARRIORS",
       "Seized Opportunity: Once per phase, one model from your army with this ability can use it when its unit destroys an enemy unit. If it does, gain 1YP."
+    ],
+    "weapons": [
+      {
+        "name": "Mass gauntlet",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Forgewrought plasma axe",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Autoch-pattern combi-bolter",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Volkanite disintegrator",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -112,6 +235,35 @@
       "Mass Driver Accelerators: Each time this model ends a Charge move, you can select one enemy unit within Engagement Range of this model and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy uni",
       "Weavefield crest: The bearer has a 4+ invulnerable save."
     ],
+    "weapons": [
+      {
+        "name": "Autoch-pattern combi-bolter",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Mass hammer",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Darkstar axe",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -139,6 +291,53 @@
       "Fortify (Psychic): While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.",
       "Grimnyr's Regard: Once per battle, at the start of any phase, you can select one friendly ^^**Leagues of Votann**^^ unit that is Battle-shocked and within 12\" of this unit's ^^**Grimnyr**^^ model. That unit is no longe",
       "Unit Composition: If this unit’s Grimnyr model is ever destroyed, all of this unit’s remaining CORV models are also destroyed. While embarking within a ^^**Transport^^** and while embarked within a ^^**Transport^^**, e"
+    ],
+    "weapons": [
+      {
+        "name": "Ancestral ward stave",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "D3"
+      },
+      {
+        "name": "➤ Ancestral Wrath - witchfire",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "D3"
+      },
+      {
+        "name": "➤ Ancestral Wrath - focused witchfire",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "D3"
+      },
+      {
+        "name": "Autoch-pattern bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -170,6 +369,71 @@
       "Unit Composition: If this unit’s Brôkhyr Iron‑master model is ever destroyed, all of this unit’s remaining E‑COG models are also destroyed. While embarking within a ^^**Transport^^** and while embarked within a ^^**Tra",
       "Forgewrought Expertise: At the end of your Movement phase, this model can repair one friendly ^^**Leagues of Votann Vehicle, Exoframe^^** or ^^**Ironkin Steeljacks^^** unit within 3\" of it. One model in that unit regains up "
     ],
+    "weapons": [
+      {
+        "name": "Autoch-pattern bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Plasma torch",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "6",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Manipulator arms",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Las-beam cutter",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-3",
+        "d": "1"
+      },
+      {
+        "name": "Graviton hammer",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Graviton rifle",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -197,6 +461,62 @@
       "Decisive Destruction: Each time a model in this unit makes a ranged attack that targets the closest eligible target, re-roll a Hit roll of 1.",
       "Teleport crest: Models in the bearer's unit have the Deep Strike ability."
     ],
+    "weapons": [
+      {
+        "name": "Exo-armour grenade launcher",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "EtaCarn plasma gun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Volkanite disintegrator",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Concussion gauntlet",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Plasma blade gauntlet",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Graviton hammer",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -223,6 +543,26 @@
     "abilities": [
       "Cyberstimms: Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6, adding one to the result if units from your army have Fortify Takeover: on a 4+, do",
       "Subterranean Explosives: In your Shooting phase, after this unit has shot, select one enemy unit (excluding ^^**Monsters**^^ and ^^**Vehicles^^**) that was hit by one or more of those attacks made with a mole grenade launcher"
+    ],
+    "weapons": [
+      {
+        "name": "Twin concussion gauntlets",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "9",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Mole grenade launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "5+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -256,6 +596,44 @@
       "Rollbar searchlight: Each time a model in the bearer's unit makes a ranged attack, you can ignore any or all modifiers to the Hit roll.",
       "Pan-spectral Lockons: In your Shooting phase, you can select one **visible** enemy unit within 12\" of this unit. That enemy unit is **spotted**: \n- While a unit is spotted, that unit has +3\" **detection range**."
     ],
+    "weapons": [
+      {
+        "name": "Bolt revolver",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Bolt shotgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Magna-coil autocannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Plasma knife",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -286,6 +664,44 @@
       "Saturation Rounds: This unit’s ranged attacks have [IGNORES COVER].",
       "Optimised Attack Lines: This unit has MOBILE."
     ],
+    "weapons": [
+      {
+        "name": "Armoured wheels",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin bolt cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "HYLas beam cannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "MATR autocannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -312,6 +728,44 @@
     ],
     "abilities": [
       "Breaching Fire: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, that enemy unit cannot have the Benefit of Cov"
+    ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Bolt cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Graviton blast cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "SP conversion beamer",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-2",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -342,6 +796,80 @@
       "Damaged: 1-5 wounds remaining: While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
       "Pan spectral scanner: Each time a model in the bearer's unit makes a ranged attack, re-roll a Hit roll of 1."
     ],
+    "weapons": [
+      {
+        "name": "Armoured wheels",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "MATR autocannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "SP heavy conversion beamer",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "10",
+        "ap": "-2",
+        "d": "4"
+      },
+      {
+        "name": "Heavy magna-rail cannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "18",
+        "ap": "-4",
+        "d": "D6+4"
+      },
+      {
+        "name": "Cyclic ion cannon",
+        "type": "Ranged",
+        "attacks": "D6+2",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Twin ion beamer",
+        "type": "Ranged",
+        "attacks": "D3+1",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Twin bolt cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Hekaton warhead",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -369,6 +897,62 @@
     "abilities": [
       "Pragmatic Hunters: In your opponent's Movement phase, if an enemy unit ends a move within 8” of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up t",
       "Shroudwërke Talismans: This unit has -3\" **detection range**."
+    ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Bolt shotgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "APM launcher",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Magna-coil rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Bolt revolver",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Plasma knife",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -398,6 +982,35 @@
       "Grudge-fuelled Fortitude: The first time this model is destroyed, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagemen",
       "Unhinged Vengeance: In your opponent’s Shooting phase, when an enemy unit has shot, if this model lost one or more wounds as a result of those attacks, this unit can make a **surge move** of up to D6+2\"."
     ],
+    "weapons": [
+      {
+        "name": "Autoch-pattern bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Bane - strike",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "➤ Bane - sweep",
+        "type": "Melee",
+        "attacks": "10",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -426,6 +1039,26 @@
       "Predictive Guidance: Once per battle round, when you target this unit with the **Fire Overwatch/Heroic Intervention** stratagem, you can use this ability. If you do, that use of that stratagem is ‑1 CP.",
       "Leader: This model can be attached to the following units: ^^**Ironkin Steeljacks with Heavy Volkanite Disintegrators^^**, ^^**Ironkin Steeljacks with Melee Weapons^^**"
     ],
+    "weapons": [
+      {
+        "name": "Autoch-pattern bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -452,6 +1085,44 @@
     "abilities": [
       "Science Guild Support: While this model is within 3\" of one or more other friendly ^^**Leagues of Votann Infantry**^^ units (excluding units with the Lone Operative ability), this model has the Lone Operative ability.",
       "Resource Transmutation: Once per turn, in your Shooting phase, one model with this ability can choose to use it when it is selected to shoot. If it does, you must spend 1YP and, until the end of the phase, ranged weapons equ"
+    ],
+    "weapons": [
+      {
+        "name": "➤ Transmatter inverter - half charge",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Transmatter inverter - full charge",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Transmatter inverter - overcharge",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -484,6 +1155,35 @@
       "Scanner Uplinks: In your shooting phase, after this model has shot, select one enemy unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**) hit by one or more of those attacks. Until the start of your next turn, that ",
       "Smoke Launcher: The bearer has the ^^**Smoke**^^ keyword."
     ],
+    "weapons": [
+      {
+        "name": "Twin magna-coil autocannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Magna-coil autocannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -510,6 +1210,44 @@
     "abilities": [
       "Purge Response: Each time you target this unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ while resolving that Stratagem. If units from your army have Fortify Takeover, hits are "
     ],
+    "weapons": [
+      {
+        "name": "Heavy volkanite disintegrator",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Plasma knife",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Autoch-pattern bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Plasma sword",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -535,6 +1273,35 @@
     ],
     "abilities": [
       "Merciless Eradication: Each time an enemy unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**) that is within Engagement Range of this unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When"
+    ],
+    "weapons": [
+      {
+        "name": "Plasma sword",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Concussion gauntlet",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Autoch-pattern bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -563,6 +1330,44 @@
     "abilities": [
       "Geomantic Hunters: Up to twice per battle, in your Shooting phase, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, each time a model in this unit makes an attack wit",
       "Destabilising Quakes: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks made with its tremor shells. That unit must take a Battle-shock test, subtracting 1 from the"
+    ],
+    "weapons": [
+      {
+        "name": "Plasma picks",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Autoch-pattern bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Breacher ordnance",
+        "type": "Ranged",
+        "attacks": "D6+1",
+        "bs": "5+",
+        "s": "10",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Tremor shells",
+        "type": "Ranged",
+        "attacks": "D6+4",
+        "bs": "5+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -593,6 +1398,17 @@
       "Leader: This model can be attached to the following units: ^^**Hearthkyn Warriors**^^",
       "Grimnyr's Regard: Once per battle, at the start of any phase, you can select one friendly ^^**Leagues of Votann**^^ unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
     ],
+    "weapons": [
+      {
+        "name": "Magna-coil autocannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -620,6 +1436,17 @@
     "abilities": [
       "Leader: This model can be attached to the following units: ^^**Einhyr Hearthguard, Hearthkyn Warriors**^^",
       "Seized Opportunity: Once per phase, one model from your army with this ability can use it when its unit destroys an enemy unit. If it does, you gain 1YP."
+    ],
+    "weapons": [
+      {
+        "name": "Magna-coil autocannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -650,6 +1477,17 @@
       "Leader: This model can be attached to the following units: ^^**Ironkin Steeljacks with Heavy Volkanite Disintegrators, Ironkin Steeljacks with Melee Weapons**^^",
       "Forgewrought Skill: Each time this model makes an attack, you can re-roll the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Magna-coil autocannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -679,6 +1517,35 @@
       "Break the Foe: Melee weapons equipped by models in this unit have the [^^Sustained Hits 1^^] ability.",
       "Relentless Avalanche: You can target this model's unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
       "Leader: This model can be attached to the following units: ^^**Cthonian Beserks**^^"
+    ],
+    "weapons": [
+      {
+        "name": "➤ Kromlôk's Revenge - graviton strikes",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "4"
+      },
+      {
+        "name": "➤ Kromlôk's Revenge - plasma sweeps",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Warforge gauntlets",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   }

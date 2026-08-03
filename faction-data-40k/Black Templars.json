@@ -26,6 +26,44 @@
       "Temple Relics: In your Command phase, if this unit contains one or more Cenobyte Servitor models, select one Temple Relics ability (see left). Until the start of your next Command phase, this unit’s Chaplain Grimald",
       "Leader: This unit can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Infernus Squad\n■ Intercessor Squad\n■ Crusader Squad\n■ Sword Brethren"
     ],
+    "weapons": [
+      {
+        "name": "Artificer Crozius",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Plasma Pistol - Supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "➤ Plasma Pistol - Standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Close Combat Weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -59,6 +97,35 @@
       "High Marshal: At the start of the Fight phase, select one enemy unit within Engagement Range of this model’s unit and roll one D6, adding 1 to the result for every five models in this model's unit: on a 2-3, that e",
       "Leader: This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Intercessor Squad\n■ Crusader Squad\n■ Sword Brethren"
     ],
+    "weapons": [
+      {
+        "name": "➤ Sword of the High Marshals - Sweep",
+        "type": "Melee",
+        "attacks": "12",
+        "bs": "",
+        "s": "6",
+        "ap": "-3",
+        "d": "1"
+      },
+      {
+        "name": "➤ Sword of the High Marshals - Strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Ferocity",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -87,6 +154,89 @@
     ],
     "abilities": [
       "Righteous Zeal: In your opponent's Shooting phase, each time an enemy unit has shot, if any models in this unit were destroyed as a result of those attacks, this unit can make a surge move of up to D6+2."
+    ],
+    "weapons": [
+      {
+        "name": "Master-crafted Power Weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Heavy Bolt Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Pyre Pistol",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Bolt Rifle",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Astartes Chainsword",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Pyreblaster",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -117,6 +267,44 @@
       "Exploit Their Cowardice: Each time an enemy unit within Engagement Range of this unit is selected to Fall Back, after it ends that Fall Back move, if this unit is not within Engagement Range of one or more enemy units, this u",
       "Fervent Exemplars: SWORD BRETHREN SQUAD unit only. This unit has +1 to charge rolls",
       "Inheritors of Sigismund: SWORD BRETHREN SQUAD unit only. This unit has Fights First"
+    ],
+    "weapons": [
+      {
+        "name": "Heavy Bolt Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Pyre Pistol",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin Lightning Claws",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -150,6 +338,35 @@
       "Leader: This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Intercessor Squad\n■ Crusader Squad\n■ Sword Brethren\n■ Sternguard Veteran Squad",
       "Chosen of the Emperor: You cannot include more than one **^^Emperor's Champion^^** model in your army."
     ],
+    "weapons": [
+      {
+        "name": "➤ Black Sword - Strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "➤ Black Sword - Sweep",
+        "type": "Melee",
+        "attacks": "10",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -177,6 +394,98 @@
     ],
     "abilities": [
       "Righteous Zeal: You can re-roll Advance and Charge rolls made for this unit."
+    ],
+    "weapons": [
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Combat Knife",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Astartes Shotgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Boltgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Astartes Chainsword",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Heavy Bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Heavy Flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Grav-cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -206,6 +515,71 @@
     "abilities": [
       "Aquilon Optics: Each time this model is selected to shoot, you can re-roll one Hit roll, you can re-roll one Wound roll and you can re-roll one Damage roll when resolving its attacks"
     ],
+    "weapons": [
+      {
+        "name": "Armoured Hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Icarus Rocket Pod",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Lancer Laser Destroyer",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "14",
+        "ap": "-4",
+        "d": "D6+3"
+      },
+      {
+        "name": "Ironhail Heavy Stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Fragstorm grenade launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -234,6 +608,62 @@
     "abilities": [
       "Rotating Death: This model’s twin heavy onslaught gatling cannon has the [SUSTAINED HITS 2] ability when targeting Infantry units."
     ],
+    "weapons": [
+      {
+        "name": "Armoured Hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Icarus Rocket Pod",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Tempest Bolter",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Twin Heavy Onslaught Gatling Cannon",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Ironhail Heavy Stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -261,6 +691,53 @@
     ],
     "abilities": [
       "Ferocious Assault: Each time this model makes an attack with its twin las-talon that targets the closest eligible Monster or Vehicle unit, add 1 to the Hit roll"
+    ],
+    "weapons": [
+      {
+        "name": "Armoured Hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Icarus Rocket Pod",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin Las-talon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Ironhail Heavy Stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
     ],
     "system": "40k"
   },
@@ -293,6 +770,71 @@
       "Orbital Comms Array [Aura]: While a friendly Adeptus Astartes unit is within 6\" of the bearer, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP",
       "Shield Dome: The bearer has a 5+ invulnerable save."
     ],
+    "weapons": [
+      {
+        "name": "Armoured Hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Ironhail Skytalon Array",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Bellicatus Missile Array - Krak",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "D6"
+      },
+      {
+        "name": "Ironhail Heavy Stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Fragstorm grenade launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -323,6 +865,80 @@
       "Transport: This model has a transport capacity of 14 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 m",
       "Stabilised Disembarkation: In your opponent's Shooting phase, each time and enemy unit is selected to shoot, after that unit has shot, if any of those attacks targeted this TRANSPORT, it can use this ability. If it does, any un"
     ],
+    "weapons": [
+      {
+        "name": "Armoured Hull",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Hunter-slayer missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6"
+      },
+      {
+        "name": "Repulsor Defensive Array",
+        "type": "Ranged",
+        "attacks": "18",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin lascannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Heavy Onslaught Gatling Cannon",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Las-talon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-3",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -352,6 +968,98 @@
     "abilities": [
       "Transport: This model has a transport capacity of 7 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space",
       "Interception Strike: Each time this model makes a ranged attack that targets a unit that is within 12\" of one or more ADEPTUS ASTARTES units from your army, you can re-roll the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "Armoured Hull",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy Onslaught Gatling Cannon",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Icarus Rocket Pod",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin Icarus ironhail heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Repulsor Executioner Defensive Array",
+        "type": "Ranged",
+        "attacks": "10",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Ironhail Heavy Stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "➤ Macro Plasma Incinerator - Supercharge",
+        "type": "Ranged",
+        "attacks": "D6+1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "3"
+      },
+      {
+        "name": "Heavy Laser Destroyer",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "16",
+        "ap": "-4",
+        "d": "D6+4"
+      }
     ],
     "system": "40k"
   },
@@ -385,6 +1093,44 @@
       "Vehement Aggression: While this model is leading a unit, each time that unit is selected to fight, take a Leadership test for that unit: if passed, until the end of the phase, each time a model in that unit makes an attac",
       "Prioritised Eradication: Each time a model in this model's unit makes a melee attack that destroys one or more enemy units, roll one D6: on a 4+, you gain 1 CP"
     ],
+    "weapons": [
+      {
+        "name": "Astartes Chainsword",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Master-crafted Power Weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Heavy Bolt Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -416,6 +1162,44 @@
       "Leader: This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Infernus Squad\n■ Intercessor Squad\n■ Crusader Squad\n■ Sword Brethren\n■ Sternguard Veteran Squad",
       "Inspirational Exemplar: While this model is leading a unit, each time a model in that unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
       "Pious Fervour: Each time this model's unit is selected to fight, until the end of the phase, add 1 to the Attacks characteristic of this model's Master-Crafted Power Weapon for each enemy unit within 6\" of this mode"
+    ],
+    "weapons": [
+      {
+        "name": "Master-crafted Power Weapon",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma Pistol - Standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma Pistol - Supercharge",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -449,6 +1233,44 @@
       "Remorseless Persecution: While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced",
       "Condemnatory Annihilation: Each time this model's unit has fought, if one or more enemy units were destroyed as a result of those attacks, each enemy unit within 6\" of this model must take a Battle-shock test"
     ],
+    "weapons": [
+      {
+        "name": "Master-crafted Power Weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Crozius arcanum",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Pyre Pistol",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Absolvor bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -480,6 +1302,26 @@
       "Vengeful Exhortation: While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play, the destroyed mode",
       "Martial Honour: The first time a model in this model's unit makes a melee attack that destroys one or more enemy units, until the end of the battle, while this model's unit is not Battle-shocked, add 5 to this model'",
       "Support: This model can be attached to the following units:\n\n\n■ Crusader Squad\n■ Sword Brethren Squad\n\n\nYou can attach this model to one of the above units even if one Captain, Chapter Master, Execrator or Lie"
+    ],
+    "weapons": [
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Master-crafted Power Weapon",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -514,6 +1356,62 @@
       "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
       "Legacy of Jerulas: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly model that disembarked from this TRANSPORT"
     ],
+    "weapons": [
+      {
+        "name": "Armoured Tracks",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Hunter-killer missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6"
+      },
+      {
+        "name": "Hurricane Bolter",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin assault cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -542,6 +1440,62 @@
     "abilities": [
       "Vitruous Onslaught: Each time a model in this unit makes an attack that targets the closest eligible target, you can re-roll a Wound roll of 1."
     ],
+    "weapons": [
+      {
+        "name": "Sternguard Bolt Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Sternguard Bolt Rifle",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Pyrecannon",
+        "type": "Ranged",
+        "attacks": "D6+1",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Sternguard Heavy Bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -569,6 +1523,62 @@
     "abilities": [
       "Teleport Homer: At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target",
       "Judgement of the Weak: Each time an enemy unit (excluding MONSTERS and VEHICLES) within engagement range of this unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy"
+    ],
+    "weapons": [
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Chainfist",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Heavy Flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Assault Cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -601,6 +1611,35 @@
       "Sigismund's Heir: Each time this model's unit declares a charge, if one or more targets of that charge have the CHARACTER keyword, add 2 to the Charge roll. Once per battle, when this model's unit is selected to fight,",
       "Leader: This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Intercessor Squad\n■ Crusader Squad\n■ Sword Brethren\n■ Sternguard Veteran Squad",
       "Chosen of the Emperor: You cannot include more than one **^^Emperor's Champion^^** model in your army."
+    ],
+    "weapons": [
+      {
+        "name": "➤ Black Sword - Strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "➤ Black Sword - Sweep",
+        "type": "Melee",
+        "attacks": "10",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   }

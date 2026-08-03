@@ -28,6 +28,17 @@
       "Tenacious Spirit: While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit ",
       "Leader: This model can be attached to the following units:\n■ Prosecutors\n■ Vigilators\n■ Witchseekers"
     ],
+    "weapons": [
+      {
+        "name": "Somnus",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-3",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -55,6 +66,62 @@
     "abilities": [
       "Slayers of Tyrants: Each time a model in this unit makes an attack that targets a ^^Character, Monster^^ or ^^Vehicle^^ unit, you can re-roll the Wound roll.",
       "From Golden Light: Once per battle, at the end of your opponent's turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves"
+    ],
+    "weapons": [
+      {
+        "name": "Guardian Spear",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Guardian Spear",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Balistus grenade launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Castellan axe",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Castellan axe",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Misericordia",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -87,6 +154,35 @@
     "abilities": [
       "Self Repair: At the start of your Command phase, this model regains 1 lost wound."
     ],
+    "weapons": [
+      {
+        "name": "Storm Bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Armoured tracks",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Hunter-killer missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -116,6 +212,35 @@
       "Martial Inspiration: Once per battle, in your Charge phase, this model's unit is eligible to declare a charge in a turn in which it Advanced.",
       "Swift Onslaught: While this model is leading a unit, you can re-roll Charge rolls made for that unit."
     ],
+    "weapons": [
+      {
+        "name": "➤ Vaultswords - Behemor",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Vaultswords - Hurricanis",
+        "type": "Melee",
+        "attacks": "9",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Vaultswords - Victus",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "6",
+        "ap": "-3",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -144,6 +269,53 @@
       "Stand Vigil: Each time a model in this unit makes an attack, re-roll a Wound roll of 1. While this unit is within range of an objective marker you control, you can re-roll the Wound roll instead.",
       "Sentinel Storm: Once per battle, in your Shooting phase, after the unit has shot, it can shoot again."
     ],
+    "weapons": [
+      {
+        "name": "Guardian Spear",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Guardian Spear",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Sentinel Blade",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Sentinel Blade",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Misericordia",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -171,6 +343,44 @@
       "Resolute Will: While a CHARACTER is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from ",
       "Living Fortress: Once per battle, at the start of any phase, this unit can use this ability. If it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability.",
       "Vexilla: Add 1 to the Objective Control characteristic of models in the bearer’s unit."
+    ],
+    "weapons": [
+      {
+        "name": "Guardian Spear",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Guardian Spear",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Castellan axe",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Castellan axe",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -202,6 +412,44 @@
       "Seeker's Instincts: While this model is leading a unit, add 2\" to the Move characteristic of models in that unit and add 2 to Advance and Charge rolls made for that unit.",
       "Corner the Quarry: Each time an enemy unit (excluding MONSTERS and VEHICLES) that is within Engagement Range of this model’s unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing s"
     ],
+    "weapons": [
+      {
+        "name": "Executioner Greatblade",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Witchseeker flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Master-crafted boltgun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -228,6 +476,26 @@
     ],
     "abilities": [
       "Purity of Execution: Each time a model in this unit makes a ranged attack that targets a Psyker unit, that attack has the [PRECISION] and [DEVASTATING WOUNDS] abilities."
+    ],
+    "weapons": [
+      {
+        "name": "Boltgun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -257,6 +525,80 @@
       "Master of the Stances: Once per battle, when this model's unit is selected to fight, it can use this ability. If it does, until that fight is resolved, both Ka'tah Stances are active for that unit, instead of only one.",
       "Leader: This model can be attached to the following units:\n■ Custodian Guard\n■ Custodian Wardens"
     ],
+    "weapons": [
+      {
+        "name": "Guardian Spear",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Guardian Spear",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Castellan axe",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Castellan axe",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Sentinel Blade",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Sentinel Blade",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Pyrithite Spear",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Pyrithite Spear",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -285,6 +627,53 @@
     "abilities": [
       "Leader: This model can be attached to the following units:\n■ Allarus Custodians",
       "Auramite and Adamantite: Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, each time an attack is allocated to this model, change the Damage characteristic of"
+    ],
+    "weapons": [
+      {
+        "name": "Guardian Spear",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Guardian Spear",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Castellan axe",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Castellan axe",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Balistus grenade launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -317,6 +706,35 @@
       "Leader: This model can be attached to the following units:\n■ Vertus Praetors",
       "Sweeping Advance: Once per battle, at the end of the Fight phase, if this model's unit fought this phase, if it is within Engagement Range of one or more enemy units, it can make a Fall Back move or, if it is not withi"
     ],
+    "weapons": [
+      {
+        "name": "Interceptor lance",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Vertus hurricane bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Salvo launcher",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "10",
+        "ap": "-3",
+        "d": "D6+1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -347,6 +765,26 @@
       "Leader: This model can be attached to the following units:\n■ Custodian Guard\n■ Custodian Wardens",
       "Captain-General: While this model is leading a unit, each time a model in that unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill or Weapon Skill characteristics and/or all modi",
       "Moment Shackle: Once per battle, at the start of the Fight phase, you can select one of the following to take effect until the end of the phase:\n■ This model's Watcher's Axe melee weapon has an Attacks characteristic"
+    ],
+    "weapons": [
+      {
+        "name": "Watcher's Axe",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Eagle's Scream",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-2",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -379,6 +817,26 @@
       "Golden Laurels: While this model is leading a unit, each time a melee attack targets that unit, worsen that Armour Penetration characteristic of that attack by 1.",
       "Hero of Lion's Gate: Once per battle, after making a Hit roll, Wound roll or saving throw for this model, you can change the result of that roll to an unmodified 6."
     ],
+    "weapons": [
+      {
+        "name": "Gnosis",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Gnosis",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -406,6 +864,44 @@
     ],
     "abilities": [
       "Unyielding Ancient: The first time this model is destroyed, remove it from play without resolving its Deadly Demise ability. Then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield "
+    ],
+    "weapons": [
+      {
+        "name": "Combi-bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Contemptor combat weapon",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "12",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Kheres-pattern assault cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "2+",
+        "s": "7",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -437,6 +933,53 @@
       "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
       "Damaged: 1-5 Wounds remaining: While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Armoured tracks",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Godhammer lascannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Hunter-killer missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -465,6 +1008,35 @@
       "Turbo Boost: Each time this unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit.",
       "Quicksilver Execution: Once per battle, after this unit ends a normal or Advance move, you can select one enemy unit (excluding **MONSTERS** and **VEHICLES**) that it moved over during that move, then roll one D6 for each m"
     ],
+    "weapons": [
+      {
+        "name": "Interceptor lance",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Salvo launcher",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "10",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Vertus hurricane bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -491,6 +1063,17 @@
     ],
     "abilities": [
       "Deft Parry: Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "Executioner greatblade",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -519,6 +1102,26 @@
     "abilities": [
       "Sanctified Flames: In your Shooting phase, after this unit has shot, select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test."
     ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Witchseeker flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -546,6 +1149,44 @@
       "Stand Vigil: Each time a model in this unit makes an attack, re-roll a Wound roll of 1. While this unit is within range of an objective marker you control, you can re-roll the Wound roll instead.",
       "No Foe Shall Stand: Once per battle, at the start of your Shooting phase, this unit can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [LETHAL HITS] and "
     ],
+    "weapons": [
+      {
+        "name": "Adrasite spear",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Adrasite spear",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Pyrithite spear",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Pyrithite spear",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -572,6 +1213,26 @@
     "abilities": [
       "Disintegration Beams: Once per battle, at the start of your Shooting phase, this unit can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the Devastating Wounds",
       "Saturation Volleys: In your Shooting phase, after this unit has shot, select one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this unit is on "
+    ],
+    "weapons": [
+      {
+        "name": "Adrastus bolt caliver",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Misericordia",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -601,6 +1262,53 @@
       "Heavy Assault Infantry: Each time a model in this unit makes a ranged attack that targets the closest eligible target, re-roll a Wound roll of 1.",
       "From Golden Light: Once per battle, at the end of your opponent's turn, if this unit is not whithin Engagement Range of one or more enemy units, you can remove it from the battlefield. In the Reinforcements step of your"
     ],
+    "weapons": [
+      {
+        "name": "Solerite power gauntlet",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Lastrum storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Twin adrathic destructor",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Infernus firepike",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Solerite power talon",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -629,6 +1337,44 @@
     "abilities": [
       "Implacable Vanguard: Once per battle, in your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of ",
       "Turbo Boost: Each time this unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit."
+    ],
+    "weapons": [
+      {
+        "name": "Lastrum bolt cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Interceptor Lance",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Adrathic devastator",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "7",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Twin las-pulsar",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "9",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -660,6 +1406,44 @@
       "Swooping Dive: Once per battle, you can target this unit with the Rapid Ingress Stratagem for 0 CP, and can do so even if you have already targeted a different unit with that Stratagem that phase.",
       "Tarsis Buckler: The bearer has a Wounds characteristic of 4."
     ],
+    "weapons": [
+      {
+        "name": "Venatari lance",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Venatari lance",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Kinetic destroyer",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Tarsis buckler",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -687,6 +1471,26 @@
     ],
     "abilities": [
       "Galatus Shield: Each time a melee attack targets this model subtract 1 from the Wound roll."
+    ],
+    "weapons": [
+      {
+        "name": "Galatus warblade",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Galatus warblade",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -716,6 +1520,53 @@
     "abilities": [
       "Dread Foe: Each time this model is selected to fight, you can select one enemy unit within Engagement Range of it and roll one D6, adding 2 to the result if this model made a Charge move this turn: on 4-5, that "
     ],
+    "weapons": [
+      {
+        "name": "Achillus dreadspear",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Achillus dreadspear",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "12",
+        "ap": "-2",
+        "d": "D6+1"
+      },
+      {
+        "name": "Infernus incinerator",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Lastrum storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Twin adrathic destructor",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-2",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -743,6 +1594,26 @@
     ],
     "abilities": [
       "Merciless Hunter: In your Shooting phase, each time this model makes an attack that targets an enemy unit that is Below Half-strength, add 1 to the Wound roll."
+    ],
+    "weapons": [
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin arachnus blaze cannon",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -772,6 +1643,44 @@
     "abilities": [
       "Advanced Firepower: Each time this model makes an attack with its Twin iliastus accelerator cannon that targets an enemy unit (excluding MONSTERS and VEHICLES), that attack has the [LETHAL HITS] ability. Each time this m",
       "Damaged: 1-5 wounds remaining: While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "Twin iliastus accelerator cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "2+",
+        "s": "10",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Twin arachnus heavy blaze cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "2+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+2"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin lastrum bolt cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -803,6 +1712,44 @@
       "Damaged: 1-4 wounds remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
       "Devoted to Destruction: If this model is equipped with 2 Telemon caestus weapons in addition to its armoured feet weapon, add 2 to the Attacks characteristic of those Telemon caestus weapons."
     ],
+    "weapons": [
+      {
+        "name": "Armoured feet",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "7",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Spiculus bolt launcher",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "2+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Arachnus storm cannon",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Iliastus accelerator culverin",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "2+",
+        "s": "9",
+        "ap": "-1",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -832,6 +1779,35 @@
     "abilities": [
       "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this ^^Transp",
       "Damaged: 1-5 wounds remaining: While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin arachnus blaze cannon",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Twin lastrum bolt cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -863,6 +1839,44 @@
       "Damaged: 1-7 wounds remaining: While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
       "Assault Dropship: If a unit disembarks from this TRANSPORT before it moves, until the end of the turn, that unit is eligibile to charge in a turn in which it Advanced."
     ],
+    "weapons": [
+      {
+        "name": "Arachnus heavy blaze cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "2+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "9",
+        "bs": "",
+        "s": "9",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Spiculus heavy bolt launcher",
+        "type": "Ranged",
+        "attacks": "D6+6",
+        "bs": "2+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin lastrum bolt cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -892,6 +1906,35 @@
       "Infernus Firebomb: At the end of your Movement phase, select one **visible** enemy unit (excluding **AIRCRAFT/Lone Operative** units) within 24\" of this unit: \n- That enemy unit cannot have the **benefit of cover** unti",
       "Damaged: 1-7 wounds remaining: While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Arachnus heavy blaze cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "2+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Arachnus magna-blaze cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "18",
+        "ap": "-4",
+        "d": "D6+6"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "9",
+        "bs": "",
+        "s": "9",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -920,6 +1963,17 @@
     "abilities": [
       "Leader: This model can be attached to the following units: ^^**Custodian Guard, Custodian Wardens**^^",
       "Ka'tah Master: Once per phase, you can re-roll one Hit roll or one Wound roll for an attack made by this model."
+    ],
+    "weapons": [
+      {
+        "name": "Balistus grenade launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -951,6 +2005,17 @@
       "Leader: This model can be attached to the following units: ^^**Prosecutors, Vigilators, Witchseekers**^^",
       "Daughter of the Abyss: This model has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds."
     ],
+    "weapons": [
+      {
+        "name": "Balistus grenade launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -981,6 +2046,17 @@
     "abilities": [
       "Leader: This model can be attached to the following units: ^^**Vertus Praetors**^^",
       "Fiend Slayer: Each time this model makes an attack that targets a ^^**Monster**^^ or ^^**Vehicle**^^ unit, you can re-roll the Wound roll."
+    ],
+    "weapons": [
+      {
+        "name": "Balistus grenade launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   }

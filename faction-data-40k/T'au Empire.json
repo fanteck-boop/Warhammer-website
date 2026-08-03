@@ -31,6 +31,53 @@
       "Command-link Drone (Aura): While a friendly **^^T’au Empire^^** unit is within 6\" of the bearer, each time you select that unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
       "Supreme Commander: If this model is in your army, it must be your **^^Warlord^^**."
     ],
+    "weapons": [
+      {
+        "name": "Pulse pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Light missile pod",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "7",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "High-energy fusion blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "10",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Flechette launcher",
+        "type": "Ranged",
+        "attacks": "5",
+        "bs": "2+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Battlesuit fists",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -65,6 +112,35 @@
       "Puretide's Teachings: Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.",
       "Leader: This model can be attached to the following units:\n- **CRISIS BATTLESUITS**\n- **CRISIS FIREKNIFE BATTLESUITS**\n- **CRISIS STARSCYTHE BATTLESUITS**\n- **CRISIS SUNFORGE BATTLESUITS**"
     ],
+    "weapons": [
+      {
+        "name": "High-intensity plasma rifle",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "➤ Dawn Blade - strike",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "10",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "➤ Dawn Blade - sweep",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -96,6 +172,89 @@
     "abilities": [
       "Crisis Commander: While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1.",
       "Leader: This model can be attached to the following units:\n- **CRISIS BATTLESUITS**\n- **CRISIS FIREKNIFE BATTLESUITS**\n- **CRISIS STARSCYTHE BATTLESUITS**\n- **CRISIS SUNFORGE BATTLESUITS**"
+    ],
+    "weapons": [
+      {
+        "name": "Missile pod",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Airbursting fragmentation projector",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Cyclic ion blaster - overcharge",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "T'au flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Fusion blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Plasma rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Battlesuit fists",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -129,6 +288,89 @@
       "Enforcer Commander: While this model is leading a unit, each time a ranged attack targets that unit, worsen the Armour Penetration characteristic of that attack by 1.",
       "Leader: This model can be attached to the following units:\n- **CRISIS BATTLESUITS**\n- **CRISIS FIREKNIFE BATTLESUITS**\n- **CRISIS STARSCYTHE BATTLESUITS**\n- **CRISIS SUNFORGE BATTLESUITS**"
     ],
+    "weapons": [
+      {
+        "name": "Missile pod",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Airbursting fragmentation projector",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Cyclic ion blaster - overcharge",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "T'au flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Fusion blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Plasma rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Battlesuit fists",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -161,6 +403,98 @@
       "Leader: This model can be attached to the following units:\n- **CRISIS BATTLESUITS**\n- **CRISIS FIREKNIFE BATTLESUITS**\n- **CRISIS STARSCYTHE BATTLESUITS**\n- **CRISIS SUNFORGE BATTLESUITS**",
       "Coldstar Commander: While this model is leading a unit, models in that unit have a Move characteristic of 12\" and ranged weapons equipped by models in that unit have the **[ASSAULT]** ability."
     ],
+    "weapons": [
+      {
+        "name": "High-output burst cannon",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Missile pod",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Airbursting fragmentation projector",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Cyclic ion blaster - overcharge",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "T'au flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Fusion blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Plasma rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Battlesuit fists",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -191,6 +525,35 @@
       "Volley Fire: While this model is leading a unit, add 1 to the Attacks characteristic of ranged weapons equipped by models in that unit.",
       "Crack Shot: Each time this model makes a ranged attack, on a Critical Wound, that attack has an Armour Penetration characteristic of -3.",
       "Leader: This model can be attached to the following units:\n- **^^Breacher Team^^**\n- **^^Strike Team^^**"
+    ],
+    "weapons": [
+      {
+        "name": "Fireblade pulse rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -223,6 +586,26 @@
       "Failure Is Not an Option: While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.",
       "Hover Drone: The bearer can **^^Fly^^** and has a Move characteristic of 10\"."
     ],
+    "weapons": [
+      {
+        "name": "Honour stave",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -249,6 +632,26 @@
       "Duality Shield: Once per battle, each time an attack targets this unit, it can use this ability. If it does, until the end of the phase, models in this unit have a 2+ invulnerable save.",
       "Paradox of Duality: Each time an attack targets this unit, subtract 1 from the Hit roll and subtract 1 from the Wound roll.",
       "Supreme Loyalty (Aura): While a friendly T’AU EMPIRE unit is within 6\" of this unit, each time that unit takes a Battle-shock or Leadership test, add 1 to that test."
+    ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "2",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Supreme honour blade",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -282,6 +685,17 @@
       "Leader: This model can be attached to the following units:\n- **BREACHER TEAM**\n- **KROOT CARNIVORES**\n- **KROOT FARSTALKERS**\n- **STRIKE TEAM**",
       "Martial Warrior: Each time this model is selected to fight, select one of the following abilities to be active while resolving those attacks:\n- Direct Grace: Fidelity has the [PRECISION] ability.\n- Forceful Strike: Fi"
     ],
+    "weapons": [
+      {
+        "name": "Fidelity",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -314,6 +728,26 @@
       "Jammer Array: Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of this model.",
       "Leader: This model can be attached to the following unit:\n- **^^Pathfinder Team^^**"
     ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shade",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "5",
+        "ap": "0",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -344,6 +778,80 @@
     "abilities": [
       "Armour Hunter: Each time this model makes an attack that targets a MONSTER or VEHICLE, add 1 to the Hit roll.",
       "XV02 Pilot Battlesuit: In your Command phase, you can select one friendly HAMMERHEAD GUNSHIP unit within 12\". Until the start of your next Command phase, ranged weapons equipped by models in that unit have the [LETHAL HITS]"
+    ],
+    "weapons": [
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Seeker missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Railgun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "20",
+        "ap": "-5",
+        "d": "D6+6"
+      },
+      {
+        "name": "➤ Ion cannon - standard",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Ion cannon - overcharge",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Accelerator burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Twin pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Smart missile system",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -376,6 +884,62 @@
       "Suppression Volley: In your Shooting phase, after this unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks. Until the start of your next turn, while unit is on the battlefield, that enemy un",
       "DS8 Support Turret: In your Movement phase, if this unit Remains Stationary, until the start of your next turn, its Shas’ui model is equipped with the support turret weapon.\n\nDesigner’s Note: Place a Support Turret token"
     ],
+    "weapons": [
+      {
+        "name": "Pulse pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Pulse rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Support turret",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -407,6 +971,53 @@
       "Breach and Clear: Each time a model in this unit makes a ranged attack that targets an enemy unit within range of an objective marker, you can re-roll the Wound roll.",
       "DS8 Support Turret: In your Movement phase, if this unit Remains Stationary, until the start of your next turn, its Shas’ui model is equipped with the support turret weapon.\n\nDesigner’s Note: Place a Support Turret token"
     ],
+    "weapons": [
+      {
+        "name": "Pulse pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Pulse blaster",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Support turret",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -435,6 +1046,44 @@
       "Fieldcraft: At the end of the your Command phase, if this unit within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, unt",
       "Bodyguard: If this unit has a Starting Strength of 20, you can attach up to two Leader units to it instead of one, provided those Leaders are not duplicates (e.g. you cannot attach two WAR SHAPERS to this unit)."
     ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kroot rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Tanglebomb launcher",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kroot pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -461,6 +1110,44 @@
     ],
     "abilities": [
       "Kroot Packmates: Once per turn, in your opponent's Shooting phase, when a friendly KROOT INFANTRY unit within 6\" of this unit is selected as the target of an attack, one unit from your army with this ability can use i"
+    ],
+    "weapons": [
+      {
+        "name": "Krootox fists",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Repeater cannon",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Tanglecannon",
+        "type": "Ranged",
+        "attacks": "D6+1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -492,6 +1179,89 @@
       "Turbo-jets: Each time this unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit.",
       "Crisis Bodyguard: If a **^^Character^^** unit from your army with the Leader ability can be attached to a **^^Crisis Fireknife Battlesuit^^** unit, it can be attached to this unit instead."
     ],
+    "weapons": [
+      {
+        "name": "Twin pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Battlesuit fists",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "T'au flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Missile pod",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Plasma rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Airbursting fragmentation projector",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Cyclic ion blaster - overcharge",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Fusion blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -521,6 +1291,53 @@
     ],
     "abilities": [
       "Forward Observers: Each time this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in a Guided unit that targets their Spotted unit, re-roll a Hit roll of 1 and re-roll "
+    ],
+    "weapons": [
+      {
+        "name": "Battlesuit fists",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Fusion blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Twin pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Pulse pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -553,6 +1370,71 @@
       "Stealth Drones: Twice per battle, after an attack has been allocated to this model, you can change the Damage characteristic of that attack to 0.\n\nDesigner’s Note: Place two Stealth Drone tokens next to the unit, rem",
       "Battlesuit Support System: The bearer is eligible to shoot in a turn in which it Fell Back but it loses the **^^Smoke^^** keyword."
     ],
+    "weapons": [
+      {
+        "name": "Twin burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin T'au flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin fusion blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Fusion collider",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "➤ Cyclic ion raker - standard",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Cyclic ion raker - overcharge",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Ghostkeel fists",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -580,6 +1462,35 @@
     ],
     "abilities": [
       "Precise Targeting: Each time a model in this unit makes an attack that targets a Spotted unit, you can re-roll the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "Close combat weapons",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Longshot pulse rifles",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Pulse pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -612,6 +1523,53 @@
       "Pulse Accelerator Drone: Add 6\" to the Range characteristic of pulse carbines equipped by models in the bearer’s unit.",
       "Recon Drone: The bearer is equipped with 1 drone burst cannon and the bearer’s unit has the Infiltrators ability."
     ],
+    "weapons": [
+      {
+        "name": "Pulse pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Semi-automatic grenade launcher - fusion",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Twin pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -639,6 +1597,35 @@
     ],
     "abilities": [
       "Drone Harassment Tactics: At the end of your Movement phase, select one enemy unit within 12\" of this unit; that enemy unit must take a Battle-shock test."
+    ],
+    "weapons": [
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Seeker missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6+1"
+      }
     ],
     "system": "40k"
   },
@@ -668,6 +1655,53 @@
       "Airborne Agility: At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.",
       "Oversight Drone: Once per battle, when the bearer’s unit is selected to shoot, until the end of the phase, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability.\n\nDesigner’s Note: Place an Ov"
     ],
+    "weapons": [
+      {
+        "name": "Stingwing claws",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Neutron blaster",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "T'au flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Neutron grenade launcher",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "4+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Neutron rail rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "10",
+        "ap": "-4",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -694,6 +1728,17 @@
     "abilities": [
       "Loping Pounce: At the start of your Command phase, if this unit is within 6\" of one or more friendly KROOT INFANTRY units, then until the end of the turn, this unit is eligible to declare a charge in a turn in which",
       "Hunting Hounds: While this unit is within 12\" of one or more friendly KROOT CHARACTER models, the Objective Control characteristic of models in this unit is 1."
+    ],
+    "weapons": [
+      {
+        "name": "Ripping fangs",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -722,6 +1767,53 @@
     ],
     "abilities": [
       "Advanced Armour: Models in this unit have the Feel No Pain 4+ ability against mortal wounds."
+    ],
+    "weapons": [
+      {
+        "name": "Twin pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Crushing bulk",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy rail rifle",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-4",
+        "d": "D6+1"
+      },
+      {
+        "name": "High-yield missile pods",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Seeker missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6+1"
+      }
     ],
     "system": "40k"
   },
@@ -752,6 +1844,71 @@
     "abilities": [
       "Nova Charge: Once per battle, when this unit is selected to shoot in your Shooting phase, select one ranged weapon equipped by this model. Until the end of the phase, that weapon has the **[DEVASTATING WOUNDS]** a"
     ],
+    "weapons": [
+      {
+        "name": "Riptide fists",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Heavy burst cannon",
+        "type": "Ranged",
+        "attacks": "12",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Ion accelerator - standard",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "➤ Ion accelerator - overcharge",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "4+",
+        "s": "10",
+        "ap": "-3",
+        "d": "4"
+      },
+      {
+        "name": "Twin smart missile system",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin fusion blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Twin plasma rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -779,6 +1936,71 @@
     ],
     "abilities": [
       "Armour Hunter: Each time this model makes an attack that targets a MONSTER or VEHICLE, add 1 to the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "Railgun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "20",
+        "ap": "-5",
+        "d": "D6+6"
+      },
+      {
+        "name": "➤ Ion cannon - standard",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Ion cannon - overcharge",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Seeker missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Accelerator burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Smart missile system",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -808,6 +2030,53 @@
     ],
     "abilities": [
       "Velocity Tracker: Each time this model makes an attack with a ranged weapon that targets a unit that can FLY, you can re-roll the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "Seeker missile rack",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Accelerator burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Twin pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Smart missile system",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -839,6 +2108,53 @@
     "abilities": [
       "Rapid Deployment: Units can disembark from this TRANSPORT after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act norma"
     ],
+    "weapons": [
+      {
+        "name": "Twin pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Smart missile system",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Seeker missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Accelerator burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -867,6 +2183,62 @@
     "abilities": [
       "Ground Strike Fighter: Each time this model makes a ranged attack that targets an enemy unit that cannot FLY, add 1 to the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Missile pod",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Accelerator burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Quad ion turret - standard",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Quad ion turret - overcharge",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Seeker missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -894,6 +2266,62 @@
     ],
     "abilities": [
       "Pulse Bombs: At the end of your opponent’s Fight phase, select one visible enemy unit (excluding Lone Operative units) within 24\" of this unit, and roll six D6 for that unit: For each 4+, that unit suffers 1 morta"
+    ],
+    "weapons": [
+      {
+        "name": "➤ Twin ion rifle - standard",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Twin ion rifle - overcharged",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Twin missile pod",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Missile pod",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Seeker missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -924,6 +2352,7 @@
     "abilities": [
       "Tidewall Defence Platform: If equipped with a Tidewall defence platform, this FORTIFICATION has a Wounds characteristic of 15."
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -954,6 +2383,17 @@
     "abilities": [
       "Droneport: Each time this FORTIFICATION is selected to shoot, its drone defenders weapon will target and resolve attacks against every enemy unit that is an eligible target to this FORTIFICATION."
     ],
+    "weapons": [
+      {
+        "name": "Drone defenders",
+        "type": "Ranged",
+        "attacks": "8",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -982,6 +2422,17 @@
       "Frame"
     ],
     "abilities": [],
+    "weapons": [
+      {
+        "name": "Supremacy railgun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "20",
+        "ap": "-5",
+        "d": "D6+6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1014,6 +2465,98 @@
       "Support System: Each time this model makes a ranged attack, you can ignore any or all modifiers to the Hit roll.",
       "Titan-killer: Each time this model makes a ranged attack that targets a TITANIC or TOWERING unit, you can re-roll the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Cluster rocket system",
+        "type": "Ranged",
+        "attacks": "4D6",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Destroyer missiles",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "16",
+        "ap": "-4",
+        "d": "D6+2"
+      },
+      {
+        "name": "Thunderous footfalls",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin smart missile system",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Pulse Driver Cannon",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "➤ Pulse blast cannon - focused",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "24",
+        "ap": "-6",
+        "d": "12"
+      },
+      {
+        "name": "➤ Pulse blast cannon - dispersed",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "4+",
+        "s": "10",
+        "ap": "-2",
+        "d": "4"
+      },
+      {
+        "name": "Twin airbursting fragmentation projector",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin T'au flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1039,6 +2582,26 @@
       "Non-Kroot"
     ],
     "abilities": [],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1066,6 +2629,71 @@
     "abilities": [
       "Bounty Hunters: At the start of the battle, select one unit from your opponent’s army. Each time a model in this unit makes an attack that targets that unit, that attack has the [LETHAL HITS] and [PRECISION] abilitie",
       "Pech'ra: Ranged weapons equipped by the bearer’s unit have the [IGNORES COVER] ability."
+    ],
+    "weapons": [
+      {
+        "name": "Ripping fangs",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Farstalker firearm",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kroot pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Dvorgite skinner",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Londaxi tribalest",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "5+",
+        "s": "7",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Ritual blade",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1096,6 +2724,26 @@
     "abilities": [
       "Nova Shielding: Once per battle, when this model is selected as the target of a ranged attack, it can use this ability. If it does, until the end of the phase, each time an attack targets this model, if the Strength "
     ],
+    "weapons": [
+      {
+        "name": "Pulse submunitions cannon",
+        "type": "Ranged",
+        "attacks": "D6+2",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Battlesuit fists",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1124,6 +2772,53 @@
     ],
     "abilities": [
       "Nova Burst: Once per battle, before this model makes a Normal, Advance or Fall Back move, it can use this ability. If it does, until the end of the phase, it has a Move characteristic of 18\"."
+    ],
+    "weapons": [
+      {
+        "name": "Flechette pod",
+        "type": "Ranged",
+        "attacks": "5",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Ionic discharge cannon - standard",
+        "type": "Ranged",
+        "attacks": "D6+1",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Ionic discharge cannon - overcharge",
+        "type": "Ranged",
+        "attacks": "D6+1",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Phased plasma-flamer",
+        "type": "Ranged",
+        "attacks": "10",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Battlesuit fists",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -1154,6 +2849,17 @@
     "abilities": [
       "High-intensity Markerlights: Each time this unit is an Observer unit, until the end of the phase, each time a model in its Guided unit makes an attack that targets their Spotted unit, you can re-roll the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Pulse rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1181,6 +2887,35 @@
     ],
     "abilities": [
       "Aerial Disengagement: In your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can ma"
+    ],
+    "weapons": [
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Remora seeker missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Twin long-barrelled burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1213,6 +2948,62 @@
       "Coordinated Strike: While this model is a Guided unit, each time it makes an attack that targets its Spotted unit, re-roll a Hit roll of 1.",
       "Damaged: 1-10 Wounds Remaining: While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Crushing feet",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Tri-axis ion cannon - standard",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Tri-axis ion cannon - supercharge",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Fusion eradicator",
+        "type": "Ranged",
+        "attacks": "5",
+        "bs": "4+",
+        "s": "10",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Smart missile system",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1241,6 +3032,80 @@
     ],
     "abilities": [
       "Agile Dogfighter: Each time an attack targets this model, subtract 1 from the Hit roll."
+    ],
+    "weapons": [
+      {
+        "name": "Swiftstrike burst cannon",
+        "type": "Ranged",
+        "attacks": "16",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Ion cannon - standard",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Ion cannon - overcharge",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Swiftstrike railgun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "20",
+        "ap": "-5",
+        "d": "D6+6"
+      },
+      {
+        "name": "➤ Cyclic ion blaster - overcharge",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Seeker missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Missile pod",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1271,6 +3136,62 @@
       "Strafing Run: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks that cannot FLY. That enemy unit must take a Battle-shock test.",
       "Transport bay: The bearer has the TRANSPORT keyword and has a transport capacity of 12 TACTICAL DRONES models."
     ],
+    "weapons": [
+      {
+        "name": "➤ Cyclic ion blaster - overcharge",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Swiftstrike railgun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "20",
+        "ap": "-5",
+        "d": "D6+6"
+      },
+      {
+        "name": "Seeker missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Missile pod",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1298,6 +3219,62 @@
     ],
     "abilities": [
       "Titan Hunter: This model’s twin heavy rail cannon and seeker missiles have the [ANTI-TITANIC 3+] ability while targeting a unit within half range."
+    ],
+    "weapons": [
+      {
+        "name": "Twin heavy rail cannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "26",
+        "ap": "-5",
+        "d": "12"
+      },
+      {
+        "name": "Burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Cyclic ion blaster - overcharge",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Seeker missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Missile pod",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1333,6 +3310,71 @@
       "Air Caste Colossus: Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.",
       "Damaged: 1-20 Wounds Remaining: While this model has 1-20 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy rail cannon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "26",
+        "ap": "-5",
+        "d": "12"
+      },
+      {
+        "name": "Long-barrelled burst cannon array",
+        "type": "Ranged",
+        "attacks": "32",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Ion cannon - standard",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Ion cannon - overcharge",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Seeker missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6+1"
+      },
+      {
+        "name": "Missile pod",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1365,6 +3407,35 @@
       "Jet Pack Insertion: At the end of your opponent’s Movement phase, one or more units embarked within this TRANSPORT can disembark from it, provided every model in each of those disembarking units has the Deep Strike abili",
       "Damaged: 1-9 Wounds Remaining: While this model has 1-9 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Long-barrelled burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Missile pod",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1391,6 +3462,35 @@
     ],
     "abilities": [
       "Drone Escort: Once per turn, in your opponent’s Shooting phase, when a friendly T'AU EMPIRE unit within 6\" of this unit is selected as the target of an attack, one unit from your army with this ability can use it. "
+    ],
+    "weapons": [
+      {
+        "name": "Burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1420,6 +3520,53 @@
       "Loping Stride: Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of this model.",
       "Baggage Harness (Aura): While a friendly KROOT unit is within 3\" of the bearer, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
     ],
+    "weapons": [
+      {
+        "name": "Great Knarloc beak and talons",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "7",
+        "ap": "-1",
+        "d": "3"
+      },
+      {
+        "name": "Kroot bolt thrower",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Kroot rifle (Ranged)",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kroot rifle (Melee)",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Twin Kroot gun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "7",
+        "ap": "0",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1448,6 +3595,44 @@
     "abilities": [
       "Outflank: When this unit arrives from Strategic Reserves, it can be set up within your opponent’s deployment zone (all other restrictions still apply)."
     ],
+    "weapons": [
+      {
+        "name": "Plasma rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Fusion blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Missile pod",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1473,6 +3658,35 @@
     ],
     "abilities": [
       "Thunderous Pounce: Each time this unit ends a Charge move, until the end of the turn, Knarloc beak and talons equipped by models in this unit have the [LANCE] ability."
+    ],
+    "weapons": [
+      {
+        "name": "Knarloc beak and talons",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Kroot rifle (Ranged)",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kroot rifle (Melee)",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1510,6 +3724,35 @@
       "Leader: This model can be attached to the following unit:\n- **^^XV9 Hazard Battlesuits^^**",
       "Blacklight Marker Drones: Twice per battle, when this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in their Guided unit that targets their Spotted unit, re-roll a Wound rol"
     ],
+    "weapons": [
+      {
+        "name": "Battlesuit fists",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Experimental pulse submunitions rifle - EMP",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "1",
+        "ap": "0",
+        "d": "3"
+      },
+      {
+        "name": "➤ Experimental pulse submunitions rifle - ionic cluster-beam shell",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1538,6 +3781,7 @@
       "Orbital Comms Array (Aura): While a friendly T'AU EMPIRE unit is within 6\" of this FORTIFICATION, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP.",
       "Reinforced Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against th"
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -1566,6 +3810,44 @@
     "abilities": [
       "Reinforced Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against th",
       "Sentinel Protocols: Each time you select this FORTIFICATION for the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem."
+    ],
+    "weapons": [
+      {
+        "name": "Twin plasma rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Twin fusion blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "5+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Twin missile pod",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1596,6 +3878,35 @@
     ],
     "abilities": [
       "Sunforge: Each time a model in this unit makes a ranged attack that targets a **MONSTER** or **VEHICLE** unit, you can re-roll the Wound roll and you can re-roll the Damage roll."
+    ],
+    "weapons": [
+      {
+        "name": "Twin pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Battlesuit fists",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Fusion blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
     ],
     "system": "40k"
   },
@@ -1628,6 +3939,44 @@
       "Fireknife: Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If that attack targets a unit that is at its Starting Strength, you can re-roll the Hit roll instead.",
       "Weapon Support System: Each time a model in this unit makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
     ],
+    "weapons": [
+      {
+        "name": "Twin pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Battlesuit fists",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Plasma rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Missile pod",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1658,6 +4007,44 @@
     "abilities": [
       "Starscythe: Each time a model in this unit makes a ranged attack (excluding attacks that target MONSTERS and VEHICLES), improve the Armour Penetration characteristic of that attack by 1.",
       "Battlesuit Support System: The unit is eligible to shoot in a turn in which it Fell Back."
+    ],
+    "weapons": [
+      {
+        "name": "Twin pulse carbine",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "5+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Battlesuit fists",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "T'au flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1690,6 +4077,26 @@
       "Trail Finding: In your opponent’s Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up t",
       "Leader: This model can be attached to the following unit:\n- **^^Kroot Carnivores^^**\n- **^^Kroot Farstalkers^^**"
     ],
+    "weapons": [
+      {
+        "name": "Kroot rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Shaper's blade",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1719,6 +4126,44 @@
     "abilities": [
       "Root of Honour: Once per battle, at the start of any phase, you can select one friendly KROOT unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked.",
       "Leader: This model can be attached to the following unit:\n- **^^Kroot Carnivores^^**\n- **^^Kroot Farstalkers^^**"
+    ],
+    "weapons": [
+      {
+        "name": "Bladestave and prey-hook",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Dart-bow and tri-blade",
+        "type": "Ranged",
+        "attacks": "D3+1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Shaper's blade",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kroot pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -1751,6 +4196,26 @@
       "Rites of Feasting: While this model is leading a unit, models in that unit have the Feel Not Pain 6+ ability. If that unit destroys one or more enemy units in the Fight phase, until the end of the battle, models in that",
       "Ritual Butchery: While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
     ],
+    "weapons": [
+      {
+        "name": "Twin ritualistic blades",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Kroot scattergun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1779,6 +4244,44 @@
       "Fire and Fade: In your Shooting phase, after this model has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this m",
       "Advanced Scouting: Each time this model makes a ranged attack that hits an enemy unit, until the end of the turn, each time another KROOT model from your army makes an attack that targets that enemy unit, you can re-rol"
     ],
+    "weapons": [
+      {
+        "name": "Blast javelin",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "4+",
+        "s": "10",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Kroot long gun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kalamandra's bite",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1805,6 +4308,35 @@
     ],
     "abilities": [
       "Kroot Linebreakers: Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 4"
+    ],
+    "weapons": [
+      {
+        "name": "Hunting blades",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Kroot pistol and hunting javelins",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Rampager fists",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -1834,6 +4366,98 @@
     "abilities": [
       "Volley Fire: While this model is leading a unit, add 1 to the Attacks characteristic of ranged weapons equipped by models in that unit.",
       "Leader: This model can be attached to the following units:\n- **^^Breacher Team^^**\n- **^^Strike Team^^**"
+    ],
+    "weapons": [
+      {
+        "name": "Kalamandra's bite",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Rampager fists",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Tanglebomb launcher",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Fireblade pulse rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Kroot rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Blast javelin",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "4+",
+        "s": "10",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Fusion blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kroot carbine",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Kroot long gun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -1865,6 +4489,98 @@
       "Strategic Redeployment: The bearer's unit is eligible to shoot in a turn in which it Fell Back.",
       "Leader: This model can be attached to the following unit:\n- **^^Stealth Battlesuits^^**"
     ],
+    "weapons": [
+      {
+        "name": "Kalamandra's bite",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Rampager fists",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Tanglebomb launcher",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Fireblade pulse rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Kroot rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Blast javelin",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "4+",
+        "s": "10",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Fusion blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kroot carbine",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Kroot long gun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1892,6 +4608,98 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following units:\n- **^^Kroot Carnivores^^**\n- **^^Kroot Farstalkers^^**"
+    ],
+    "weapons": [
+      {
+        "name": "Kalamandra's bite",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Rampager fists",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Tanglebomb launcher",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Fireblade pulse rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Kroot rifle",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Blast javelin",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "4+",
+        "s": "10",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Fusion blaster",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Burst cannon",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kroot carbine",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "2"
+      },
+      {
+        "name": "Kroot long gun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -1925,6 +4733,71 @@
       "Neocapacitor Shields: At the start of your opponent’s Charge phase, you can select one visible enemy unit (excluding **MONSTER** and **VEHICLE** units) within 12\" of this unit. That unit must take a Battle-shock test and, ",
       "Exemplars of Mont’ka: Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the **[SUSTAINED HITS 1]** and **[IGNORES COVER]** abilities.",
       "Retro-thrusters: At the end of the Fight phase, if this unit was eligible to fight this phase, this unit can either make a Normal move of up to 6\" or a Fall Back move."
+    ],
+    "weapons": [
+      {
+        "name": "Fusion eliminator",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "10",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "Fusion eliminator",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "10",
+        "ap": "-4",
+        "d": "D6+2"
+      },
+      {
+        "name": "Shardstorm burst system",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "2+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "XV pulse pistol",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "6",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Ion scattercannon - overcharge",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Ion scattercannon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "➤ Ion scattercannon - standard",
+        "type": "Ranged",
+        "attacks": "4",
+        "bs": "2+",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      }
     ],
     "system": "40k"
   }

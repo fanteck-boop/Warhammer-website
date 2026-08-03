@@ -31,6 +31,17 @@
       "Mass of Doom: Each time this model’s unit makes a Charge move, until the end of the turn, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability.",
       "Leader: This model can be attached to the following unit:\n\n■ Death Company Marines with Jump Packs"
     ],
+    "weapons": [
+      {
+        "name": "The Executioner's Axe",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "7",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -58,6 +69,53 @@
     ],
     "abilities": [
       "Overcharged Engines: You can re-roll Advance rolls made for this model."
+    ],
+    "weapons": [
+      {
+        "name": "Armoured Tracks",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Hunter-killer missile",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "14",
+        "ap": "-3",
+        "d": "D6"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Baal Flamestorm Cannon",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Twin Assault Cannon",
+        "type": "Ranged",
+        "attacks": "6",
+        "bs": "3+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -90,6 +148,26 @@
       "Sanguinary Priest: While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.",
       "The Red Grail: While this model is leading a unit, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit.",
       "Leader: This model can be attached to the following units:\n\n■ Assault Squad\n■ Assault Intercessor Squad\n■ Sternguard Veteran Squad\n■ Devastator Squad\n■ Tactical Squad\n■ Vanguard Veteran Squad"
+    ],
+    "weapons": [
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heaven's Teeth",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -124,6 +202,35 @@
       "Leader: This model can be attached to the following units:\n\n■ Assault Squad\n■ Command Squad\n■ Assault Intercessor Squad\n■ Sternguard Veteran Squad\n■ Company Heroes\n■ Tactical Squad\n■ Vanguard Veteran Squad",
       "Tycho: Your army cannot contain both Captain Tycho and Tycho the Lost."
     ],
+    "weapons": [
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Blood Song",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Dead Man's Hand",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -157,6 +264,17 @@
       "Tycho: Your army cannot contain both Captain Tycho and Tycho the Lost.",
       "Leader: This model can be attached to the following unit:\n\n■ Death Company Marines"
     ],
+    "weapons": [
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -187,6 +305,44 @@
     "abilities": [
       "The Quickening [Psychic]: This model is eligible to declare a charge in a turn which it Advanced.",
       "Transfixing Gaze [Aura, Psychic]: While an enemy unit is within 6\" of this model, each time that unit is selected to Fall Back, it must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instea"
+    ],
+    "weapons": [
+      {
+        "name": "➤ Fury of the Ancients - Witchfire",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "D3"
+      },
+      {
+        "name": "➤ Fury of the Ancients - Focused Witchfire",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-2",
+        "d": "D3"
+      },
+      {
+        "name": "Vitarus",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "9",
+        "ap": "-3",
+        "d": "D3"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -223,6 +379,26 @@
       "Lord Regent of the Imperium Nihilus: While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit and each time a model in that unit makes an attack, add 1 to the Hit roll.",
       "Leader: This model can be attached to the following units:\n\n■ Assault Squad with Jump Packs\n■ Sanguinary Guard\n■ Vanguard Veteran Squad with Jump Packs\n■ Assault Intercessors with Jump Packs"
     ],
+    "weapons": [
+      {
+        "name": "Perdition",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      },
+      {
+        "name": "The Axe Mortalis",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -253,6 +429,53 @@
       "Frenzied Reprisal: Each time an enemy unit targets this model, after that unit has finished making its attacks, this model can either shoot as if it were your Shooting phase or fight as if it were the Fight phase.",
       "Magna-grapple: Add 2 to Charge rolls made for the bearer if one or more of the targets of that charge is a MOSNTER or VEHICLE unit."
     ],
+    "weapons": [
+      {
+        "name": "Blood Talons",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Twin Furioso Fists",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Heavy Flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Storm Bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -279,6 +502,98 @@
       "Death Company Intercessors"
     ],
     "abilities": [],
+    "weapons": [
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Thunder Hammer",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy Bolt Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Hand flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Astartes Chainsword",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Astartes Grenade Launcher - Frag",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -308,6 +623,7 @@
       "An Honourable Death in Combat: Each time a model in this unit makes an attack, that attack has the [SUSTAINED HITS 1] ability if this unit is below its Starting Strength, or the [SUSTAINED HITS 2] ability if this unit is Below Half",
       "Attached Leader: If a Chaplain model from your army with the Leader ability can be attached to a Tactical Squad, it can be attached to this unit instead.\n\n\nIf a Character unit from your army with the Leader ability ca"
     ],
+    "weapons": [],
     "system": "40k"
   },
   {
@@ -340,6 +656,80 @@
       "Savage Fury: You can re-roll Charge rolls made for this unit.",
       "Attached Unit: If a Chaplain model from your army with the Leader ability can be attached to Assault Intercessors with Jump Packs, it can be attached to this unit instead"
     ],
+    "weapons": [
+      {
+        "name": "Astartes Chainsword",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Heavy Bolt Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Hand flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Inferno Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-4",
+        "d": "D3"
+      },
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Eviscerator",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -368,6 +758,26 @@
     ],
     "abilities": [
       "Wrathful Rampage: Each time this model is selected to fight, you can select one enemy unit within Engagement Range  of it and roll one D6, adding 2 to the result if this model made a Charge move this turn: on a 4-5, th"
+    ],
+    "weapons": [
+      {
+        "name": "Blood Talons",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Twin Furioso Fists",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -400,6 +810,26 @@
       "Lord of Slaughter: While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced",
       "Whirlwind of Rage: Each time this model fights, until that fight is resolved, add 1 to the Attacks characteristic of this model’s Blood Reaver for every 5 enemy models within 6\" of this model.",
       "Leader: This model can be attached to the following units:\n\n■ Assault Squad\n■ Command Squad\n■ Tactical Squad\n■ Vanguard Veteran Squad\n■ Assault Intercessor Squad\n■ Company Heroes\n■ Sternguard Veteran Squad\n■ "
+    ],
+    "weapons": [
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Blood Reaver",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "3"
+      }
     ],
     "system": "40k"
   },
@@ -435,6 +865,26 @@
       "Fury Unbound: While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability.",
       "Leader: This model can be attached to the following unit:\n\n■ Death Company Marines with Jump Packs"
     ],
+    "weapons": [
+      {
+        "name": "The Blood Crozius",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Absolvor Bolt Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -465,6 +915,71 @@
     "abilities": [
       "Shield of Sanguinius (Aura, Psychic): While a friendly Adeptus Astartes unit is within 6\" of this model, models in that unit have the Feel No Pain 5+ ability against mortal wounds and Psychic Attacks.",
       "Wings of Sanguinius (Psychic): Once per turn, at the end of your Movement phase, one Psyker from your army with this ability can use it. If it does, roll one D6: on a 1, that Psyker suffers D3 mortal wounds; on a 2+, select one fri"
+    ],
+    "weapons": [
+      {
+        "name": "➤ Blood Lance - Focused Witchfire",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+3"
+      },
+      {
+        "name": "➤ Blood Lance - Witchfire",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-3",
+        "d": "D6"
+      },
+      {
+        "name": "Furioso Fist",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "12",
+        "ap": "-3",
+        "d": "3"
+      },
+      {
+        "name": "Furioso Force Halberd",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "",
+        "s": "9",
+        "ap": "-3",
+        "d": "D6+3"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Heavy Flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Meltagun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
     ],
     "system": "40k"
   },
@@ -498,6 +1013,17 @@
       "Attached Unit: If a Captain model from your army with the Leader ability can be attached to Assault Intercessors with Jump Packs, it can be attached to this unit instead.",
       "Sanguinary Banner: Add 1 to the Objective Control characteristic of models in the bearer’s unit."
     ],
+    "weapons": [
+      {
+        "name": "Inferno Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-4",
+        "d": "D3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -529,6 +1055,26 @@
       "Blood Chalice: While this model is leading a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1.",
       "Support: This model can be attached to the following units: \n- **^^Assault Intercessor Squad^^**\n- **^^Bladeguard Veteran Squad^^**\n- **^^Desolation Squad^^**\n- **^^Devastator Squad^^**\n- **^^Hellblaster Squad"
     ],
+    "weapons": [
+      {
+        "name": "Absolvor bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Astartes Chainsword",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -559,6 +1105,17 @@
     "abilities": [
       "Aura of Fervour (Aura): While a friendly Adeptus Astartes unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit",
       "Miraculous Savior: (Once per battle, per army) At the end of your opponent's Charge phase (excluding the first battle round), you can select one enemy unit that made a charge move this phase. This unit can make an ingre"
+    ],
+    "weapons": [
+      {
+        "name": "Encarmine Broadsword",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "",
+        "s": "6",
+        "ap": "-3",
+        "d": "2"
+      }
     ],
     "system": "40k"
   },
@@ -592,6 +1149,26 @@
       "Blood Chalice: While this model is leading a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1.",
       "Leader: This model can be attached to the following units:\n\n■ Assault Squad with Jump Packs\n■ Vanguard Veteran Squad with Jump packs\n■ Assault Intercessors with Jump Packs\n\nYou can attach this model to one of"
     ],
+    "weapons": [
+      {
+        "name": "Astartes Chainsword",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -622,6 +1199,98 @@
       "Leader: This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad",
       "Sanguinary Priest: While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability"
     ],
+    "weapons": [
+      {
+        "name": "Boltgun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Hand flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Inferno Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-4",
+        "d": "D3"
+      },
+      {
+        "name": "Grav-pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Combi-weapon",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Storm bolter",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Astartes Chainsword",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -650,6 +1319,53 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Infernus Squad\n■ Intercessor Squad\n■ Sternguard Veteran Squad\n■ Company Heroes\n■ Tactical Squad"
+    ],
+    "weapons": [
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Relic Weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Master-crafted Chainsword",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Inferno pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-4",
+        "d": "D3"
+      },
+      {
+        "name": "Heavy Bolt Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -682,6 +1398,53 @@
       "Leader: This model can be attached to the following units:\n\n■ Death Company Marines\n■ Death Company Marines with Bolt Rifles",
       "Forlorn Hero: While this model is leading a unit, unless that unit starts the battle embarked within a Transport, models in that unit have the Scouts 6\" ability",
       "Death Vision of Sanguinius: If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, you can roll one D6, adding 2 to the result if the attacking unit contains the enemy Warlord. On"
+    ],
+    "weapons": [
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Relic Weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Master-crafted Chainsword",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Inferno pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-4",
+        "d": "D3"
+      },
+      {
+        "name": "Heavy Bolt Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -717,6 +1480,62 @@
       "Lost to Fury: When this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability",
       "Leader: This model can be attached to the following units:\n\n■ Death Company Marines with Jump Packs"
     ],
+    "weapons": [
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Relic Weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Astartes Chainsword",
+        "type": "Melee",
+        "attacks": "7",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Hand flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Heavy Bolt Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -746,6 +1565,98 @@
     "abilities": [
       "Attached Unit: If a Chaplain model from your army with the Leader ability can be attached to Intercessor Squad, it can be attached to this unit instead.",
       "Visions of Heresy: • This unit can re-roll charge rolls.\n▪ When you target this unit with the Fire Overwatch/Heroic Intervention stratagem, that use is -1 CP.\n\n"
+    ],
+    "weapons": [
+      {
+        "name": "Bolt Rifle",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Bolt pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Eviscerator",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Thunder Hammer",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Astartes Chainsword",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Hand flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Inferno Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-4",
+        "d": "D3"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      }
     ],
     "system": "40k"
   },
@@ -777,6 +1688,89 @@
       "An Honourable Death in Combat: Each time a model in this unit makes an attack, that attack has the [SUSTAINED HITS 1] ability if this unit is below its Starting Strength, or the [SUSTAINED HITS 2] ability if this unit is Below Half",
       "Attached Unit: If a Chaplain model from your army with the Leader ability can be attached to Assault Intercessor Squad, it can be attached to this unit instead."
     ],
+    "weapons": [
+      {
+        "name": "Eviscerator",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Heavy Bolt Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Astartes Chainsword",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "4",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Hand flamer",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "3",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Inferno Pistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-4",
+        "d": "D3"
+      },
+      {
+        "name": "➤ Plasma pistol - standard",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Thunder Hammer",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Power fist",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -805,6 +1799,53 @@
     ],
     "abilities": [
       "Driven by Fury: In your opponent’s Shooting phase, when an enemy unit has shot, if this model lost a wound as a result of those attacks, this unit can make a surge move of up to D6+2"
+    ],
+    "weapons": [
+      {
+        "name": "Twin Icarus ironhail heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "➤ Blood Talons - Strike",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "",
+        "s": "12",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "➤ Blood Talons - Sweep",
+        "type": "Melee",
+        "attacks": "10",
+        "bs": "",
+        "s": "7",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Twin heavy bolter",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Twin multi-melta",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "9",
+        "ap": "-4",
+        "d": "D6"
+      }
     ],
     "system": "40k"
   },
@@ -835,6 +1876,7 @@
       "Beserk Fury: You can re-roll Charge rolls made for this unit",
       "Attached Leader: If a Chaplain model from your army with the Leader ability can be attached to Assault Intercessors with Jump Packs or an Assault Squad with Jump Packs, it can be attached to this unit instead.\n\n\nIf a "
     ],
+    "weapons": [],
     "system": "40k"
   }
 ]
