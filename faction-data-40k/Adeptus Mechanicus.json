@@ -270,7 +270,7 @@
     ],
     "weapons": [
       {
-        "name": "Electrostatic gauntlets",
+        "name": "Electrostatic gauntlets (Ranged)",
         "type": "Ranged",
         "attacks": "3",
         "bs": "3+",
@@ -279,7 +279,7 @@
         "d": "1"
       },
       {
-        "name": "Electrostatic gauntlets",
+        "name": "Electrostatic gauntlets (Melee)",
         "type": "Melee",
         "attacks": "3",
         "bs": "4+",
@@ -1796,7 +1796,7 @@
         "d": "1"
       },
       {
-        "name": "Arc lance",
+        "name": "Arc lance (Melee)",
         "type": "Melee",
         "attacks": "2",
         "bs": "4+",
@@ -1805,7 +1805,7 @@
         "d": "1"
       },
       {
-        "name": "Arc lance",
+        "name": "Arc lance (Ranged)",
         "type": "Ranged",
         "attacks": "1",
         "bs": "4+",

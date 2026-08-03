@@ -10377,6 +10377,155 @@
     "system": "40k"
   },
   {
+    "name": "Darnath Lysander",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 100,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "7",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Captain",
+      "Imperium",
+      "Terminator",
+      "Darnath Lysander"
+    ],
+    "abilities": [
+      "Icon of Obstinacy: Each time an attack targets this model's unit, if the Strength characteristic of that attack is greater than or equal to the Toughness characteristic of that unit, subtract 1 from the Wound roll.",
+      "Rampart: Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 2+ invulnerable save.",
+      "Leader: This model can be attached to the following units:\n\n■ TERMINATOR ASSAULT SQUAD\n■ TERMINATOR SQUAD",
+      "Inspiring Commander: ‘If you include this model in your army, until the end of the battle, non-Character models in Terminator Assault Squad and Terminator Squad units from your army have an Objective Control characteristi"
+    ],
+    "weapons": [
+      {
+        "name": "Fist of Dorn",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "2+",
+        "s": "10",
+        "ap": "-3",
+        "d": "3"
+      }
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tor Garadon",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Captain",
+      "Gravis",
+      "Tor Garadon",
+      "Imperium"
+    ],
+    "abilities": [
+      "Signum Array: While this model is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability.",
+      "Siege Captain: Each time this model makes an attack that targets a Monster, Vehicle, or Fortification unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 2.",
+      "Leader: This model can be attached to the following units:\n\n■ AGGRESSOR SQUAD\n■ ERADICATOR SQUAD\n■ HEAVY INTERCESSOR SQUAD"
+    ],
+    "weapons": [
+      {
+        "name": "Artificer Grav Gun",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Hand of Defiance",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "2+",
+        "s": "12",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Pedro Kantor",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Chapter Master",
+      "Pedro Kantor"
+    ],
+    "abilities": [
+      "Oath of Rynn: Once per battle, at the start of either player’s Command phase, this model can use this ability. When it does, until the end of the turn, add 1 to the Attacks characteristic of weapons equipped by mod",
+      "To the Last: While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit ",
+      "Leader: This model can be attached to the following units:\n\n■ BLADEGUARD VETERAN SQUAD\n■ COMPANY HEROES\n■ STERNGUARD VETERAN SQUAD\n■ TACTICAL SQUAD",
+      "Inspiring Commander: If you include this model in your army, until the end of the battle, non-Character models in Sternguard\nVeteran Squad units from your army have an Objective Control characteristic of 2 while they are "
+    ],
+    "weapons": [
+      {
+        "name": "Dorn's Arrow",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "2+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Fist of Retribution",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-3",
+        "d": "3"
+      }
+    ],
+    "system": "40k"
+  },
+  {
     "name": "Kayvaan Shrike",
     "faction": "Space Marines",
     "alliance": "imperium",
@@ -10596,155 +10745,6 @@
         "s": "6",
         "ap": "-2",
         "d": "2"
-      }
-    ],
-    "system": "40k"
-  },
-  {
-    "name": "Darnath Lysander",
-    "faction": "Space Marines",
-    "alliance": "imperium",
-    "points": 100,
-    "models": 1,
-    "move": "5\"",
-    "toughness": "5",
-    "save": "2+",
-    "wounds": "7",
-    "leadership": "6+",
-    "objectiveControl": "1",
-    "invulnerableSave": "4+",
-    "role": "HERO",
-    "isHero": true,
-    "canReinforce": false,
-    "categories": [
-      "Epic Hero",
-      "Character",
-      "Infantry",
-      "Captain",
-      "Imperium",
-      "Terminator",
-      "Darnath Lysander"
-    ],
-    "abilities": [
-      "Icon of Obstinacy: Each time an attack targets this model's unit, if the Strength characteristic of that attack is greater than or equal to the Toughness characteristic of that unit, subtract 1 from the Wound roll.",
-      "Rampart: Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 2+ invulnerable save.",
-      "Leader: This model can be attached to the following units:\n\n■ TERMINATOR ASSAULT SQUAD\n■ TERMINATOR SQUAD",
-      "Inspiring Commander: ‘If you include this model in your army, until the end of the battle, non-Character models in Terminator Assault Squad and Terminator Squad units from your army have an Objective Control characteristi"
-    ],
-    "weapons": [
-      {
-        "name": "Fist of Dorn",
-        "type": "Melee",
-        "attacks": "5",
-        "bs": "2+",
-        "s": "10",
-        "ap": "-3",
-        "d": "3"
-      }
-    ],
-    "system": "40k"
-  },
-  {
-    "name": "Tor Garadon",
-    "faction": "Space Marines",
-    "alliance": "imperium",
-    "points": 80,
-    "models": 1,
-    "move": "5\"",
-    "toughness": "6",
-    "save": "3+",
-    "wounds": "6",
-    "leadership": "6+",
-    "objectiveControl": "1",
-    "invulnerableSave": "4+",
-    "role": "HERO",
-    "isHero": true,
-    "canReinforce": false,
-    "categories": [
-      "Epic Hero",
-      "Character",
-      "Infantry",
-      "Captain",
-      "Gravis",
-      "Tor Garadon",
-      "Imperium"
-    ],
-    "abilities": [
-      "Signum Array: While this model is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability.",
-      "Siege Captain: Each time this model makes an attack that targets a Monster, Vehicle, or Fortification unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 2.",
-      "Leader: This model can be attached to the following units:\n\n■ AGGRESSOR SQUAD\n■ ERADICATOR SQUAD\n■ HEAVY INTERCESSOR SQUAD"
-    ],
-    "weapons": [
-      {
-        "name": "Artificer Grav Gun",
-        "type": "Ranged",
-        "attacks": "2",
-        "bs": "2+",
-        "s": "5",
-        "ap": "-1",
-        "d": "2"
-      },
-      {
-        "name": "Hand of Defiance",
-        "type": "Melee",
-        "attacks": "5",
-        "bs": "2+",
-        "s": "12",
-        "ap": "-2",
-        "d": "2"
-      }
-    ],
-    "system": "40k"
-  },
-  {
-    "name": "Pedro Kantor",
-    "faction": "Space Marines",
-    "alliance": "imperium",
-    "points": 80,
-    "models": 1,
-    "move": "6\"",
-    "toughness": "4",
-    "save": "2+",
-    "wounds": "5",
-    "leadership": "6+",
-    "objectiveControl": "1",
-    "invulnerableSave": "4+",
-    "role": "HERO",
-    "isHero": true,
-    "canReinforce": false,
-    "categories": [
-      "Epic Hero",
-      "Character",
-      "Infantry",
-      "Grenades",
-      "Imperium",
-      "Chapter Master",
-      "Pedro Kantor"
-    ],
-    "abilities": [
-      "Oath of Rynn: Once per battle, at the start of either player’s Command phase, this model can use this ability. When it does, until the end of the turn, add 1 to the Attacks characteristic of weapons equipped by mod",
-      "To the Last: While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit ",
-      "Leader: This model can be attached to the following units:\n\n■ BLADEGUARD VETERAN SQUAD\n■ COMPANY HEROES\n■ STERNGUARD VETERAN SQUAD\n■ TACTICAL SQUAD",
-      "Inspiring Commander: If you include this model in your army, until the end of the battle, non-Character models in Sternguard\nVeteran Squad units from your army have an Objective Control characteristic of 2 while they are "
-    ],
-    "weapons": [
-      {
-        "name": "Dorn's Arrow",
-        "type": "Ranged",
-        "attacks": "2",
-        "bs": "2+",
-        "s": "5",
-        "ap": "-1",
-        "d": "2"
-      },
-      {
-        "name": "Fist of Retribution",
-        "type": "Melee",
-        "attacks": "5",
-        "bs": "2+",
-        "s": "8",
-        "ap": "-3",
-        "d": "3"
       }
     ],
     "system": "40k"

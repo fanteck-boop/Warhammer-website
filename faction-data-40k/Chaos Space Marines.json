@@ -31,7 +31,7 @@
     ],
     "weapons": [
       {
-        "name": "Talon of Horus",
+        "name": "Talon of Horus (Ranged)",
         "type": "Ranged",
         "attacks": "4",
         "bs": "2+",
@@ -40,7 +40,7 @@
         "d": "2"
       },
       {
-        "name": "Talon of Horus",
+        "name": "Talon of Horus (Melee)",
         "type": "Melee",
         "attacks": "14",
         "bs": "2+",
@@ -93,7 +93,7 @@
     ],
     "weapons": [
       {
-        "name": "Hellspear",
+        "name": "Hellspear (Ranged)",
         "type": "Ranged",
         "attacks": "1",
         "bs": "2+",
@@ -102,7 +102,7 @@
         "d": "3"
       },
       {
-        "name": "Hellspear",
+        "name": "Hellspear (Melee)",
         "type": "Melee",
         "attacks": "1",
         "bs": "2+",
@@ -387,7 +387,7 @@
     ],
     "weapons": [
       {
-        "name": "Cypher's bolt pistol",
+        "name": "Cypher's bolt pistol (Ranged)",
         "type": "Ranged",
         "attacks": "6",
         "bs": "2+",
@@ -396,7 +396,7 @@
         "d": "1"
       },
       {
-        "name": "Cypher's bolt pistol",
+        "name": "Cypher's bolt pistol (Melee)",
         "type": "Melee",
         "attacks": "6",
         "bs": "2+",
@@ -405,7 +405,7 @@
         "d": "1"
       },
       {
-        "name": "Cypher's plasma pistol",
+        "name": "Cypher's plasma pistol (Ranged 2)",
         "type": "Ranged",
         "attacks": "3",
         "bs": "2+",
@@ -414,7 +414,7 @@
         "d": "2"
       },
       {
-        "name": "Cypher's plasma pistol",
+        "name": "Cypher's plasma pistol (Melee 2)",
         "type": "Melee",
         "attacks": "3",
         "bs": "2+",
@@ -2102,7 +2102,7 @@
         "d": "2"
       },
       {
-        "name": "Corrupted stave",
+        "name": "Corrupted stave (Melee)",
         "type": "Melee",
         "attacks": "2",
         "bs": "4+",
@@ -2111,7 +2111,7 @@
         "d": "D3"
       },
       {
-        "name": "Corrupted stave",
+        "name": "Corrupted stave (Ranged)",
         "type": "Ranged",
         "attacks": "D3",
         "bs": "4+",

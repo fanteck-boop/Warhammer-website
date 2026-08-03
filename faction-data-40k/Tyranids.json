@@ -471,7 +471,7 @@
     ],
     "weapons": [
       {
-        "name": "Massive toxic lashes",
+        "name": "Massive toxic lashes (Melee)",
         "type": "Melee",
         "attacks": "12",
         "bs": "3+",
@@ -480,7 +480,7 @@
         "d": "2"
       },
       {
-        "name": "Massive toxic lashes",
+        "name": "Massive toxic lashes (Ranged)",
         "type": "Ranged",
         "attacks": "2D6",
         "bs": "3+",
@@ -1842,7 +1842,7 @@
         "d": "3"
       },
       {
-        "name": "Toxinjecter Harpoon",
+        "name": "Toxinjecter Harpoon (Melee)",
         "type": "Melee",
         "attacks": "4",
         "bs": "2+",
@@ -1851,7 +1851,7 @@
         "d": "D6+1"
       },
       {
-        "name": "Toxinjecter Harpoon",
+        "name": "Toxinjecter Harpoon (Ranged)",
         "type": "Ranged",
         "attacks": "2",
         "bs": "2+",
