@@ -2190,6 +2190,13 @@
   const GRIMOIRE_KEY = 'muster-roll-grimoire';
   const grimFieldIds = ['name','faction','alliance','points','models','move','wounds','save','ward','abilities'];
   let grimoire = [];
+
+  // Legacy/discontinued factions to filter out
+  const LEGACY_FACTIONS = new Set([
+    'Beasts of Chaos', 'Bonesplitterz', 'Ironjawz', 'Kruleboyz', 'Big Waaagh!',
+    'Helsmiths of Hashut', 'Legions of Nagash [LEGENDS]', 'The Duardin Ascendant [LEGENDS]',
+    'Lores', 'Path to Glory', 'Regiments of Renown'
+  ]);
   let editingGrimId = null;
   let grimIdCounter = 1;
   let grimFilterAlliance = 'all';
@@ -2218,7 +2225,15 @@
   async function loadGrimoire(){
     const raw = await storageGet(GRIMOIRE_KEY);
     if (raw) {
-      try { grimoire = JSON.parse(raw) || []; } catch(e) { grimoire = []; }
+      try {
+        const parsed = JSON.parse(raw) || [];
+        // Filter out legacy/discontinued factions
+        grimoire = parsed.filter(e => !LEGACY_FACTIONS.has((e.faction || '').trim()));
+        // If we filtered some out, save the cleaned version
+        if (grimoire.length !== parsed.length) {
+          await storageSet(GRIMOIRE_KEY, JSON.stringify(grimoire));
+        }
+      } catch(e) { grimoire = []; }
     }
     renderGrimoire();
   }
@@ -2479,7 +2494,7 @@
     const factions = new Set();
     grimoire.forEach(e => {
       const fac = (e.faction || '').trim();
-      if (fac && (!state.alliance || effectiveAlliance(e) === state.alliance)) factions.add(fac);
+      if (fac && !LEGACY_FACTIONS.has(fac) && (!state.alliance || effectiveAlliance(e) === state.alliance)) factions.add(fac);
     });
     const sorted = Array.from(factions).sort((a, b) => a.localeCompare(b));
     sel.innerHTML = '<option value="">— any faction —</option>' + sorted.map(f => `<option value="${escapeAttr(f)}">${escapeHtml(f)}</option>`).join('');
