@@ -506,10 +506,28 @@ def main():
     
     if '--all' in sys.argv:
         # Find all main faction .cat files (no " - " in name, not Library)
+        # Skip legacy/discontinued factions and non-faction files
+        SKIP_FACTIONS = {
+            'Beasts of Chaos',       # discontinued in 4th ed
+            'Big Waaagh!',           # merged into Orruk Warclans
+            'Bonesplitterz',         # merged into Orruk Warclans
+            'Ironjawz',              # merged into Orruk Warclans
+            'Kruleboyz',             # merged into Orruk Warclans
+            'Helsmiths of Hashut',   # legacy/ unofficial
+            'Legions of Nagash [LEGENDS]',
+            'The Duardin Ascendant [LEGENDS]',
+            'Lores',                 # not a faction
+            'Path to Glory',         # not a faction
+            'Regiments of Renown',   # not a faction
+        }
         factions = []
         for f in sorted(os.listdir(bsdata_dir)):
             if f.endswith('.cat') and ' - ' not in f.replace('.cat', '') and 'Library' not in f:
-                factions.append(f.replace('.cat', ''))
+                name = f.replace('.cat', '')
+                if name in SKIP_FACTIONS:
+                    print(f'  Skipping legacy/non-faction: {name}')
+                    continue
+                factions.append(name)
     else:
         factions = [a for a in sys.argv[1:] if not a.startswith('-')]
     

@@ -1,0 +1,177 @@
+{
+  "faction": "Hedonites of Slaanesh",
+  "battleTraits": [
+    {
+      "name": "Paragons Of Slaanesh",
+      "effect": "Paragons Of Slaanesh (Start of Your Turn): The target gains the Paragon keyword.\n\n\nDesigner's Note: *Friendly units with the* Paragon *keyword on their warscroll count towards the number of friendly* Paragons *on the battlefield. If there are more than 3 friendly* Paragons *on the battlefield at the same time, you must immediately remove those units from the battlefield one at a time until there are only 3 friendly* Paragons *left on the battlefield.*"
+    },
+    {
+      "name": "Fall From Grace",
+      "effect": "Fall From Grace: A friendly non-Unique Paragon immediately loses the Paragon keyword when any of the following happen:\n\n• That Paragon has 3 or more damage points allocated to it by the same use of a non-Attack ability.\n• That Paragon uses a Charge ability and the unmodified charge roll is 5 or less (after any re-rolls).\n• A spell cast by that Paragon is miscast (after any re-rolls)."
+    },
+    {
+      "name": "Sensuous Arcana",
+      "effect": "Sensuous Arcana (Once Per Turn (Army), Your Hero Phase): Until the start of your next turn, while the unit using this ability is a Paragon, add 1 to casting rolls for visible friendly Hedonites of Slaanesh units while they are wholly within 12\" of the unit using this ability."
+    },
+    {
+      "name": "Excess Of Agility",
+      "effect": "Excess Of Agility (Once Per Turn (Army), Any Combat Phase): For the rest of the turn, while the unit using this ability is a Paragon and is in combat, subtract 1 from hit rolls for attacks that target visible friendly Hedonites of Slaanesh units while they are wholly within 12\" of the unit using this ability."
+    },
+    {
+      "name": "Enthralling Vanity",
+      "effect": "Enthralling Vanity (Once Per Turn (Army), Any Combat Phase): If the unit using this ability is a Paragon pick 1 of the effects below. Otherwise your opponent must pick 1 of the effects below.\n\n\n*Mesmerized:* For the rest of the turn, weapons used by friendly Hedonites of Slaanesh units for attacks that target that unit, including Companion weapons, have Crit (2 Hits).\n\n\n*Break their Gaze*: For the rest of the turn, other than the Companion ability, weapon abilities for combat attacks made by the target have no effect."
+    },
+    {
+      "name": "Beguiling Glance",
+      "effect": "Beguiling Glance (Once Per Turn (Army), Any Shooting Phase): If the unit using this ability is a Paragon, pick 1 of the effects below. Otherwise, your opponent must pick 1 of the effects below.\n\n\n*Succumb:* For the rest of the turn, when the target is using a Charge ability, it must end that charge move no further from the Hero using this ability.\n\n\n*Resist:* For the rest of the turn, subtract 2 from charge rolls for the target."
+    },
+    {
+      "name": "Chief Of Revels",
+      "effect": "Chief Of Revels (Once Per Turn (Army), Your Charge Phase): Until the start of your next turn, while that unit using this ability is a Paragon, add 2 to charge rolls for friendly Hedonites of Slaanesh units while they are wholly within 12\" of the unit using his ability."
+    },
+    {
+      "name": "Cutting Barbs",
+      "effect": "Cutting Barbs (Once Per Turn (Army), Any Movement Phase): If the unit using this ability is a Paragon, pick 1 of the effects below. Otherwise,  your opponent must pick 1 of the effects below.\n\n\n*Rise to the Insults:* For the rest of the turn, the target has a maximum control score of 1.\n\n\n*Turn Aside from the Insults:* For the rest of the turn, add 1 to the hit rolls for attacks made by friendly Hedonites of Slaanesh units that target that enemy unit."
+    }
+  ],
+  "artefacts": [
+    {
+      "name": "Bashful Visage",
+      "cost": 0,
+      "effect": "Bashful Visage: While they are wholly within 6\" of this unit, friendly non-Monster non-War Machine Hedonites of Slaanesh units are not visible to enemy units more than 12\" from them.",
+      "restrictions": [],
+      "groupName": "Coveted Treasures"
+    },
+    {
+      "name": "The Rod Of Misrule",
+      "cost": 10,
+      "effect": "The Rod Of Misrule: End of Any Turn Pick another visible friendly Hedonites of Slaanesh unit wholly within 12\" of this unit to be the target. For the rest of the turn, when the target uses the 'Power Through' command, you can pick an enemy target for that command that does not have a lower Health characteristic than the unit using that command.",
+      "restrictions": [],
+      "groupName": "Coveted Treasures"
+    },
+    {
+      "name": "Crown Of The Ur-Slaanesh",
+      "cost": 20,
+      "effect": "Crown Of The Ur-Slaanesh: Once Per Battle, Your Movement Phase Pick a friendly non-Hero Infantry Hedonites of Slaanesh unit that has been destroyed to be the target. Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.",
+      "restrictions": [],
+      "groupName": "Coveted Treasures"
+    }
+  ],
+  "heroicTraits": [
+    {
+      "name": "Agonisingly Elusive",
+      "cost": 0,
+      "effect": "Agonisingly Elusive: Any Movement Phase Pick an enemy unit in combat with this unit to be the target. If it is your turn, apply the effect below. If it is your opponent's turn, roll a dice. On a 3+, apply the effect below:\nInflict D3 mortal damage on the target. Then, this unit must move a distance up to its Move characteristic. It can move through the combat ranges of enemy units but cannot end that move in combat.\nKeywords: Core, Move",
+      "restrictions": [],
+      "groupName": "The Dark Prince's Beloved"
+    },
+    {
+      "name": "Incensed",
+      "cost": 0,
+      "effect": "Incensed: Your Hero Phase Pick an objective within 6\" of this unit to be the target. Until the start of your next turn, friendly Hedonites of Slaanesh units are not visible to enemy units more than 9\" from them while all models in those friendly units are contesting the target objective.",
+      "restrictions": [],
+      "groupName": "The Dark Prince's Beloved"
+    },
+    {
+      "name": "Arcane Magnetism",
+      "cost": 0,
+      "effect": "Arcane Magnetism: Any Combat Phase If this unit has 3 or more damage points, it can use a Spell ability as if it were your hero phase, as if that ability had the Unlimited keyword and as if this unit had Wizard (1).",
+      "restrictions": [],
+      "groupName": "The Dark Prince's Beloved"
+    },
+    {
+      "name": "Unseemly Vitality",
+      "cost": 0,
+      "effect": "Unseemly Vitality: End of Any Turn Heal (D3) this unit.",
+      "restrictions": [],
+      "groupName": "The Dark Prince's Beloved"
+    },
+    {
+      "name": "Centre Of Attention",
+      "cost": 0,
+      "effect": "Centre Of Attention: Any Hero Phase Pick a visible enemy unit within 12\" of this unit to be the target. Roll a dice. On a 3+, for the rest of the turn, while this unit is wholly within 12\" of the centre of the battlefield and visible to the target:\n\n\n• Subtract 1 from hit rolls for attacks made by that enemy unit that target other friendly Hedonites of Slaanesh units.\n• Add 1 to hit rolls for combat attacks made by other friendly Hedonites of Slaanesh units that target that enemy unit.",
+      "restrictions": [],
+      "groupName": "The Dark Prince's Beloved"
+    },
+    {
+      "name": "Dilettante",
+      "cost": 0,
+      "effect": "Dilettante: Once Per Battle, Your Movement Phase Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+      "restrictions": [],
+      "groupName": "The Dark Prince's Beloved"
+    },
+    {
+      "name": "Master of Temptation",
+      "cost": 0,
+      "effect": "Master of Temptation: Enemy Hero Phase You can only use this ability if your opponent has any temptation dice. Pick a visible enemy unit within 18\" of this unit to be the target. For the rest of the turn, while your opponent has not used any of their temptation dice to replace a roll for the target this turn, the target can only use Core abilities.",
+      "restrictions": [],
+      "groupName": "Hedonistic Obsessions"
+    },
+    {
+      "name": "Celebrity Warlord",
+      "cost": 0,
+      "effect": "Celebrity Warlord: Once Per Battle, Your Movement Phase Pick a friendly non-Hero Sybarite unit that has been destroyed to be the target. Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.",
+      "restrictions": [],
+      "groupName": "Hedonistic Obsessions"
+    },
+    {
+      "name": "The Need For Perfection",
+      "cost": 0,
+      "effect": "The Need For Perfection: The first time each turn that an unmodified charge roll, casting roll, unbinding roll or banishment roll for a friendly non-Euphoric unit wholly within 12\" of this unit is 5 or less, that unit has the Euphoric keyword for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Hedonistic Obsessions"
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Depraved Carnival",
+      "cost": 0,
+      "effect": "In Search Of Sin: Once Per Turn (Army), End of Any Turn Pick up to 3 friendly Hedonites of Slaanesh Infantry units to be the targets. Each target can move D6\". It can only end that move in combat with units it was in combat with at the start of the move.",
+      "restrictions": [],
+      "groupName": "Battle Formations"
+    },
+    {
+      "name": "Godseeker Cavalcade",
+      "cost": 0,
+      "effect": "Godly Spoor: While they are wholly within 9\" of a battlefield edge, friendly Hedonites of Slaanesh units can use Charge abilities even if they used a Run ability in the same turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations"
+    },
+    {
+      "name": "Artisans Of Torment",
+      "cost": 0,
+      "effect": "Sadistic Tendencies: Your Combat Phase Pick a friendly Hedonites of Slaanesh unit to use this ability, then pick an enemy unit in combat with that unit and that had any damage points allocated to it this turn to be the target. For the rest of the turn:\n• All of the combat attacks made by that friendly unit must target that enemy unit.\n• Add 1 to the Attacks characteristic of that friendly unit's melee weapons.",
+      "restrictions": [],
+      "groupName": "Battle Formations"
+    },
+    {
+      "name": "Lurid Dreamers",
+      "cost": 0,
+      "effect": "Amidst The Phantasmagoria: Once Per Turn (Army), Enemy Shooting Phase Pick a friendly Hedonites of Slaanesh unit that had any damage points allocated to it this turn by an enemy ability to be the target. Remove the target from the battlefield, then set it up again on the battlefield more than 9\" from all enemy units.",
+      "restrictions": [],
+      "groupName": "Battle Formations"
+    },
+    {
+      "name": "Pretenders",
+      "cost": 0,
+      "effect": "Prodigy of Excess: Once Per Battle (Army), Deployment Phase Pick a friendly Hedonites of Slaanesh Hero that has an artefact of power to be the target. Give the target a heroic trait from the 'Figureheads of the Dark Prince' or 'Hedonistic Obsessions' tables.\nDesigner's Note: *This heroic trait is given to the target during the deployment phase, not during army composition.*",
+      "restrictions": [],
+      "groupName": "Battle Formations"
+    },
+    {
+      "name": "Invaders",
+      "cost": 10,
+      "effect": "Ecstatic Revellers: Add 1 to the Rend characteristic of melee weapons used by friendly Sybarite Infantry units while they are wholly outside friendly territory",
+      "restrictions": [],
+      "groupName": "Battle Formations"
+    }
+  ],
+  "boons": [],
+  "spellLores": [
+    {
+      "name": "Lore of Extravagance",
+      "effect": ""
+    }
+  ],
+  "prayerLores": []
+}

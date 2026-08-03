@@ -1,0 +1,174 @@
+{
+  "faction": "Sylvaneth",
+  "battleTraits": [
+    {
+      "name": "Endless Growth",
+      "effect": "Endless Growth (Once Per Turn (Army), End of Any Turn): For each target, roll a D3 and pick 1 of the following effects:\n\n\n• Heal (X) the target, where X is equal to the roll.\n• Return a number of slain models to it with a combined Health characteristic of up to the value of the roll."
+    },
+    {
+      "name": "The Creeping Overgrowth",
+      "effect": "The Creeping Overgrowth: The creeping overgrowth is measured from each terrain feature that has a friendly overgrown token. The range of the creeping overgrowth is based on the number of friendly, overgrown tokens on the battlefield as shown:\n\n• 0-2 overgrown tokens: 6\"\n• 3-5 overgrown tokens: 9\"\n• 6-8 overgrown tokens: 12\"\n• 9+ overgrown tokens: Whole battlefield\n\n\n*Designer's Note: Awakened Wyldwoods are your main way of generating overgrown tokens. Some unit abilities allow you to too.*"
+    },
+    {
+      "name": "Fury of The Forest",
+      "effect": "Fury of The Forest (Enemy Combat Phase): The unit using this ability has Strike-first for the rest of the turn."
+    },
+    {
+      "name": "The Land Awakens",
+      "effect": "The Land Awakens (End of Your Turn): Setup a replacement unit with half the number of models from the target unit (rounding up) wholly within creeping overgrowth and more than 9\" from all enemy units."
+    },
+    {
+      "name": "Reclaimed By Nature",
+      "effect": "Reclaimed By Nature (Once Per Turn (Army), Your Hero Phase): If there are fewer than 3 friendly Awakened Wyldwoods on the battlefield, you can set up an Awakened Wyldwood on the battlefield more than 3\" from all objectives and enemy units, more than 12\" from all other friendly Awakened Wyldwoods and more than 1\" from all other terrain features."
+    },
+    {
+      "name": "Creeping Dread",
+      "effect": "Creeping Dread (Once Per Turn (Army), Start of Any Turn): For the rest of the turn, the first time your opponent declares a command for the target while it is not wholly within 12\" of a Hero in their army, unless your opponent spends 1 additional command point to use that command, the command has no effect, it still counts as being used and the command points spent to use the command are still lost."
+    }
+  ],
+  "artefacts": [
+    {
+      "name": "Seed of Rebirth",
+      "cost": 0,
+      "effect": "Seed of Rebirth: The first time this unit would be destroyed, before removing it from play, roll a die. On a 3+, this unit is not destroyed and any remaining damage points inflicted on it have no effect. Heal (D3) this unit.",
+      "restrictions": [],
+      "groupName": "Relics of Nature"
+    },
+    {
+      "name": "Amberglade Nectar",
+      "cost": 0,
+      "effect": "Amberglade Nectar: Once Per Battle, Any Combat Phase Pick a visible enemy unit within 6\" of this unit to be the target. For the rest of the turn, add 1 to the Damage characteristic of Companion weapons used by friendly Sylvaneth units for attacks that target that enemy unit.",
+      "restrictions": [],
+      "groupName": "Relics of Nature"
+    },
+    {
+      "name": "Wychwood Glaive",
+      "cost": 0,
+      "effect": "Wychwood Glaive: End of Any Turn Pick an enemy unit that had any damage points allocated to it by this unit's combat attacks this turn to be the target. Subtract 1 from save rolls for the target for the rest of the battle. This unit can use this ability even if it has been destroyed.",
+      "restrictions": [],
+      "groupName": "Relics of Nature"
+    },
+    {
+      "name": "Acorn of the Ages",
+      "cost": 0,
+      "effect": "Acorn of the Ages: While they are wholly within 12\" of this unit, friendly Awakened Wyldwoods have Ward (5+).",
+      "restrictions": [],
+      "groupName": "Treasures of the Warglade"
+    },
+    {
+      "name": "Ranu's Lamentiri",
+      "cost": 0,
+      "effect": "Ranu's Lamentiri: Once Per Turn (Army), Reaction: Opponent declared a Spell ability for a unit within 30\" of this unit Make an unbinding roll of 2D6. If the roll exceeds the casting roll for the spell, the spell is unbound and its effect is not resolved. Then, inflict an amount of mortal damage on the caster equal to the difference between the casting roll and the unbinding roll, to a maximum of 6.\nKeywords: Unbind",
+      "restrictions": [],
+      "groupName": "Treasures of the Warglade"
+    },
+    {
+      "name": "Glamourweave",
+      "cost": 0,
+      "effect": "Glamourweave: Each phase, you can re-roll 1 hit roll, 1 wound roll and 1 save roll for this unit.",
+      "restrictions": [],
+      "groupName": "Treasures of the Warglade"
+    },
+    {
+      "name": "Dancing Mystiflies",
+      "cost": 0,
+      "effect": "Dancing Mystiflies: Reaction: Opponent declared a Spell ability for a unit within 30\" of this unit • If this unit is not a Wizard, it can use the 'Unbind' ability as if it had Wizard (1). Otherwise, it can use the 'Unbind' ability an additional time each phase.\n• If this unit successfully unbinds the spell being reacted to and the caster is within the creeping overgrowth, inflict an amount of mortal damage on the caster equal to the difference between the casting roll and the unbinding roll, to a maximum of 6.",
+      "restrictions": [],
+      "groupName": "Relics of Nature"
+    },
+    {
+      "name": "Amulet of Resonance",
+      "cost": 0,
+      "effect": "Amulet of Resonance: End of Any Turn If this unit used the 'Eruption of Fury' ability this turn or you spent rage dice as part of the 'Fight Through the Pain' ability when resolving the damage sequence for this unit this turn, give 1 ritual point to each visible friendly Sylvaneth Priest wholly within 12\" of this unit.",
+      "restrictions": [],
+      "groupName": "Relics of Nature"
+    },
+    {
+      "name": "Glamourweave",
+      "cost": 20,
+      "effect": "Glamourweave: Each phase, you can re-roll 1 hit roll, 1 wound roll and 1 save roll for this unit.",
+      "restrictions": [],
+      "groupName": "Relics of Nature"
+    }
+  ],
+  "heroicTraits": [
+    {
+      "name": "Spellsinger",
+      "cost": 0,
+      "effect": "Spellsinger: If this unit is a Wizard, add 1 to casting rolls for this unit.\nIf this unit is not a Wizard, it can use the 'Unbind' ability as if it has Wizard(1).",
+      "restrictions": [],
+      "groupName": "Aspects of Renewal"
+    },
+    {
+      "name": "Spirit of The Dark Forest",
+      "cost": 0,
+      "effect": "Spirit of The Dark Forest: Once Per battle, Enemy Hero Phase Pick a visible enemy Hero to be the target. Halve the target's Move characteristic the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Aspects of Renewal"
+    },
+    {
+      "name": "Realmroot Guide",
+      "cost": 0,
+      "effect": "Realmroot Guide: Once Per Battle, Your Movement Phase This unit can only use this ability if it is wholly within the creeping overgrowth. Pick this unit and up to 1 other friendly Sylvaneth unit. within this unit's combat range to be the targets. Remove the targets from the battlefield and set them up again wholly within the creeping overgrowth and more than 9\" from all enemy units.",
+      "restrictions": [],
+      "groupName": "Aspects of Renewal"
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Lords of the Clan",
+      "cost": 0,
+      "effect": "Nature's Titans: When using the 'Endless Growth' ability, do not roll a D3 for Monster targets. Instead Heal (3) each of those targets.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Sylvaneth"
+    },
+    {
+      "name": "Followers Of Kurnoth",
+      "cost": 0,
+      "effect": "Sacred Quarry: Once Per Turn (Army), Your Hero Phase Pick a friendly Sylvaneth unit to be the target. Until the start of your next turn, add 1 to hit rolls for the target's attacks while it is wholly within 12\" of the enemy general or an enemy Warmaster.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Sylvaneth"
+    },
+    {
+      "name": "Glade Defenders",
+      "cost": 0,
+      "effect": "Memories Of The Fallen: Once Per Turn (Army), Any Hero Phase For each friendly Sylvaneth unit or friendly Awakened Wyldwood that was destroyed in the previous turn, you can pick a friendly Sylvaneth unit to be the target. Add 1 to the Attacks characteristic of each target's melee weapons for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Sylvaneth"
+    },
+    {
+      "name": "Outcasts",
+      "cost": 0,
+      "effect": "Fear of The Deepwoods: In the 'Creeping Dread' ability, replace 'while it is not wholly within 12\" of a Hero in their army' with 'while it is not wholly within 6\" of a Hero in their army'.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Sylvaneth"
+    },
+    {
+      "name": "Wargrove of the Burgeoning",
+      "cost": 0,
+      "effect": "Walk the Hidden Paths: Once Per Turn (Army), End of Your Turn Pick a friendly Sylvaneth unit wholly within 12\" of a friendly Awakened Wyldwood to be the target. Remove the target from the battlefield and set it up again wholly within 12\" of another friendly Awakened Wyldwood and more than 9\" from all enemies.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Sylvaneth"
+    },
+    {
+      "name": "Wargrove of Everdusk",
+      "cost": 0,
+      "effect": "Spiteful Dusk: The first time each phase an enemy unit within the creeping overgrowth uses a command, inflict D3 mortal damage on that unit after that command has been resolved. If that command was a reaction, instead inflict D3 mortal damage on that unit after the ability that command was a reaction to has been resolved.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Sylvaneth"
+    }
+  ],
+  "boons": [],
+  "spellLores": [
+    {
+      "name": "Lore of the Deepwood",
+      "effect": ""
+    }
+  ],
+  "prayerLores": [
+    {
+      "name": "Lore of the Spirit-Song",
+      "effect": ""
+    }
+  ]
+}

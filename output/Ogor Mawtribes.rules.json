@@ -1,0 +1,145 @@
+{
+  "faction": "Ogor Mawtribes",
+  "battleTraits": [
+    {
+      "name": "Eat 'Em Alive",
+      "effect": "Eat 'Em Alive (End of Any Turn): Inflict D3 mortal damage on the target (if any). Then, pick 1 of the following effects to apply to that friendly Ogor unit for the rest of the battle. If any of these effects already apply to it, you can pick a different effect to replace the current effect.\n\n• *Raw and Bloody Flesh*: Subtract 1 from the Rend characteristic of weapons used for attacks that target that unit.\n• *Exotic Giblets*: Subtract 1 from ward rolls for damage points inflicted by that unit's combat attacks made with non-Companion weapons.\n• *Steaming Brains*: Add 2 to that unit's Control characteristic.\n• *Crunchy Bones*: That unit's melee weapons have Crit (2 Hits). If that unit's melee weapons already have Crit (2 Hits), they have Crit (Mortal) instead.\n• *Slick Innards*: That unit can use Charge abilities even if it used a Run ability in the same turn.\n• *Mystery Meat*: Subtract 1 from the power level of enemy units while they are in combat with that unit, to a minimum of 0.\n\n*Designer's Note: Only 1 of these effects can apply to the same unit at the same time unless specified otherwise. Also note that Steaming Brains affects the Control characteristic, not the control score.*"
+    },
+    {
+      "name": "Bull Charge",
+      "effect": "Bull Charge (Once Per Turn (Army), Any Charge Phase): Your opponent must move the target up to 3\". It can move through the combat ranges of your units and can end that move in combat.\n\nAfter your opponent has done so, roll a dice for each model in the unit using this ability that is within 3\" of the target. Add 1 to the roll if the unit using this ability is a Gutbusters unit. For each 3+, inflict 1 mortal damage on the target.\n\nThen, the unit using this ability can make a pile-in move. If the target of this ability is still in combat with the unit using this ability, then the target of this ability must be picked as the target of the pile-in move.\n\n*Designer's Note: Your opponent may not be able to move the models in the target unit (or may choose to leave them where they are) but the target still counts as having moved for rules purposes.*"
+    },
+    {
+      "name": "Jaws of the Beast",
+      "effect": "Jaws of the Beast (Once Per Battle (Army), Deployment Phase): Set up those units in reserve tracking the prey. They have now been deployed."
+    },
+    {
+      "name": "Closing the Jaws",
+      "effect": "Closing the Jaws (Your Movement Phase): Set up that Hero wholly within 9\" of a battlefield edge and more than 9\" from all enemy units. Then, set up the other friendly unit that is tracking the prey wholly within 9\" of a battlefield edge, wholly within 9\" of that Hero and more than 9\" from all enemy units."
+    }
+  ],
+  "artefacts": [
+    {
+      "name": "A Choice Cut",
+      "cost": 0,
+      "effect": "A Choice Cut: • This unit cannot use Run abilities.\n• Ignore the first damage point that would be allocated to each friendly Ogor Infantry unit each phase while they are wholly within 12\" of and visible to this unit.",
+      "restrictions": [],
+      "groupName": "Plunder of the Mawtribes"
+    },
+    {
+      "name": "Rusty Grater",
+      "cost": 0,
+      "effect": "Rusty Grater: Each time this unit uses the 'Eruption of Fury' ability, after that ability has been resolved, Heal (D3) this unit.",
+      "restrictions": [],
+      "groupName": "Plunder of the Mawtribes"
+    },
+    {
+      "name": "Key to the Larder",
+      "cost": 0,
+      "effect": "Key to the Larder: Deployment Phase Pick a friendly Ogor Infantry unit on the battlefield to be the target. For the rest of the battle, ignore negative modifiers to hit rolls and wound rolls for the target's combat attacks while they are wholly within 12\" of and visible to this unit.",
+      "restrictions": [],
+      "groupName": "Plunder of the Mawtribes"
+    },
+    {
+      "name": "Trophy Rack",
+      "cost": 0,
+      "effect": "Trophy Rack: Deployment Phase Pick 1 of the following trophies. For the rest of the battle, melee weapons used by other friendly Ogor Mawtribes units have the corresponding weapon ability while they are wholly within 6\" of and visible to this unit:\n\n• *Squeezed Head*: Anti-Monster (+1 Rend)\n• *Smashed City Rubble*: Anti-War Machine (+1 Rend)\n• *Torn Appendages*: Anti-Cavalry (+1 Rend)",
+      "restrictions": [],
+      "groupName": "Plunder of the Mawtribes"
+    },
+    {
+      "name": "Carvalox Hide",
+      "cost": 0,
+      "effect": "Carvalox Hide: This unit has Ward (6+). It also has Ward (4+) against damage points inflicted by Spell abilities, Prayer abilities and abilities used by Manifestations.",
+      "restrictions": [],
+      "groupName": "Plunder of the Mawtribes"
+    },
+    {
+      "name": "Mantle of Entrails",
+      "cost": 0,
+      "effect": "Mantle of Entrails: Once Per Battle (Army), Any Hero Phase Pick a visible enemy unit within 12\" of this unit to be the target. Until the start of your next turn, each time the target uses a command, roll a dice as a reaction. On a 3+, that command has no effect, it still counts as having been used and the command points spent to use the command are still lost.",
+      "restrictions": [],
+      "groupName": "Plunder of the Mawtribes"
+    }
+  ],
+  "heroicTraits": [
+    {
+      "name": "Leave Not a Morsel",
+      "cost": 0,
+      "effect": "Leave Not a Morsel: While they are within 6\" of and visible to this unit, enemy units cannot be healed or have slain models returned to them.",
+      "restrictions": [],
+      "groupName": "Traits of Endless Hunger"
+    },
+    {
+      "name": "Dreaded Far and Wide",
+      "cost": 0,
+      "effect": "Dreaded Far and Wide: Ignore negative modifiers to:\n• This unit's control score.\n• Hit rolls and wound rolls for this unit's non-Companion attacks.\n• Charge rolls for this unit.\n• The number of dice rolled when making charge rolls for this unit.",
+      "restrictions": [],
+      "groupName": "Traits of Endless Hunger"
+    },
+    {
+      "name": "The Crusherguts",
+      "cost": 0,
+      "effect": "The Crusherguts: Once Per Turn (Army), Any Combat Phase If this unit charged this turn, pick an enemy unit in combat with it to be the target. Roll a dice. If the roll exceeds the target's Health characteristic, 1 model in the target unit is automatically slain and the target cannot make pile-in moves for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Traits of Endless Hunger"
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Hunger-Filled Tribe",
+      "cost": 0,
+      "effect": "Feast of Bloodshed: Once Per Turn (Army), End of Any Turn For each enemy unit that was destroyed this turn, pick a friendly Ogor Mawtribes unit that is not in combat and has not used the 'Power Through' command this turn to be the target. Each target can move up to 3\". It can move through the combat ranges of enemy units and can end that move in combat.\nKeywords: Move",
+      "restrictions": [],
+      "groupName": "Battle Formations: Ogor Mawtribes"
+    },
+    {
+      "name": "Vanguard of the Mawpath",
+      "cost": 0,
+      "effect": "Smash and Grab: Once Per Turn (Army), Any Charge Phase Pick each friendly Ogor Mawtribes unit that charged this turn and for which the unmodified charge roll was 8+ to be the targets. Each target can move up to 3\". It can move through the combat ranges of enemy units but must end that move in combat with the units it was in combat with at the start of the move.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Ogor Mawtribes"
+    },
+    {
+      "name": "Hinterland Hunters",
+      "cost": 0,
+      "effect": "Prowling Predators: Subtract 1 from hit rolls for attacks that target friendly Ogor Mawtribes units while they are wholly within 9\" of a battlefield edge and have not charged this turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Ogor Mawtribes"
+    },
+    {
+      "name": "Maw-Cult Fanatics",
+      "cost": 0,
+      "effect": "Grub's Up, Mateys!: Once Per Turn (Army), End of Any Turn Pick each friendly Ogor Mawtribes unit that has been picked to be a target of the 'Eat 'Em Alive' ability this battle to be the targets. Heal (D3) each target.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Ogor Mawtribes"
+    },
+    {
+      "name": "Mawpath Menaces",
+      "cost": 10,
+      "effect": "Fixated on Feeding: Once Per Turn (Army), Enemy Charge Phase Pick a friendly Ogor Infantry unit that is not in combat to be the target. Roll a dice. On a 3+, the target can move a number of inches equal to the roll. It can move through the combat ranges of enemy units and can end that move in combat. If it ended that move in combat, the target has charged.\nKeywords: Core, Move, Charge",
+      "restrictions": [],
+      "groupName": "Battle Formations: Ogor Mawtribes"
+    },
+    {
+      "name": "Greedy Eaters",
+      "cost": 10,
+      "effect": "Postprandial Warfare: Once Per Turn (Army), End of Any Turn Pick up to D3 friendly Ogor Infantry units that were in combat this turn with an enemy unit that was destroyed this turn to be the targets. Return 1 slain model to each target unit.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Ogor Mawtribes"
+    }
+  ],
+  "boons": [],
+  "spellLores": [
+    {
+      "name": "Lore of Gut Magic",
+      "effect": ""
+    }
+  ],
+  "prayerLores": [
+    {
+      "name": "Lore of the Everwinter",
+      "effect": ""
+    }
+  ]
+}

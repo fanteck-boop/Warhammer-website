@@ -1,0 +1,2495 @@
+[
+  {
+    "name": "Barrow Knights",
+    "faction": "Soulblight Gravelords",
+    "points": 190,
+    "models": 5,
+    "move": "10\"",
+    "wounds": 3,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Skeletal Steed's Hooves and Teeth",
+        "models": "",
+        "attacks": "2",
+        "hit": "5",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Barrow Lance",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Cursed to Rise Once More: Once Per Turn (Army), End of Any Turn You can return 1 slain model to this unit.\nKnights of the King: While any friendly Deathrattle Cavalry Heroes are within this unit's combat range, both this unit and those friendly units have Ward (5+).",
+    "categories": [
+      "DEATH",
+      "WARD (6+)",
+      "CAVALRY",
+      "CHAMPION",
+      "STANDARD BEARER (1/5)",
+      "SOULBLIGHT GRAVELORDS",
+      "DEATHRATTLE",
+      "MUSICIAN (1/5)"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Belladamma Volga, First of the Vyrkos",
+    "faction": "Soulblight Gravelords",
+    "points": 200,
+    "models": 1,
+    "move": "8\"",
+    "wounds": 9,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Lupine Fangs and Claws",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Timeworn Scimitar",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Under a Killing Moon: Your Hero Phase Pick up to 3 visible friendly Dire Wolves units wholly within 18\" of this unit to be the targets, then make a casting roll of 2D6. For the rest of the turn:\n• Add 1 to the Rend characteristic of the targets' melee weapons (including Companion weapons).\n• The targets can ignore the effect of the 'Beast' ability.\nKeywords: Spell\nFirst of the Vyrkos: Add 3 to the control scores of friendly Radukar the Wolf, Radukar the Beast, Ivya Volga, Lady Annika and Kritza units while they are wholly within 18\" of this unit.\nWolfguard: While this unit is within the combat range of a friendly Dire Wolves unit:\n• This unit has Ward (4+).\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly Dire Wolves unit within this unit's combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "UNIQUE",
+      "WARD (6+)",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE",
+      "WIZARD (2)",
+      "CAVALRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Bloodseeker Palanquin",
+    "faction": "Soulblight Gravelords",
+    "points": 220,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 12,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Sanguinarch's Stiletto",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Spectral Host's Blades",
+        "models": "",
+        "attacks": "10",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Wails of the Damned: Subtract 3 from the control scores of enemy units while they are within 12\" of this unit.\nA Promising Concoction: Once Per Battle (Army), Your Combat Phase Pick up to 3 friendly Vampire units wholly within 12\" of this unit to be the targets. Add 1 to the Attacks characteristic of the targets' melee weapons for the rest of the turn.",
+    "categories": [
+      "HERO",
+      "WIZARD (1)",
+      "WARD (6+)",
+      "DEATH",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE",
+      "WAR MACHINE",
+      "FLY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Cado Ezechiar, the Hollow King",
+    "faction": "Soulblight Gravelords",
+    "points": 150,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 6,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Ezechiarian Greatsword",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Retribution or Salvation: Your Hero Phase Pick a visible unit within 12\" of this unit to be the target, then make a casting roll of 2D6. If the target is an enemy unit, inflict D3 mortal damage on it. If the target is a friendly Deathrattle or Deadwalkers unit, subtract 1 from wound rolls for combat attacks that target that unit for the rest of the turn.\nKeywords: Spell\nThe Court of the Lost: Your Hero Phase Roll a dice. On a 2+, pick 1 of the following effects to apply until the start of your next turn.\n• This unit has a Move characteristic of 12\". \n• Add 1 to casting rolls, unbinding rolls and banishment rolls for this unit.\n• This unit's melee weapons have Crit (Mortal).",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "UNIQUE",
+      "WARD (6+)",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE",
+      "WIZARD (1)",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Coven Throne",
+    "faction": "Soulblight Gravelords",
+    "points": 230,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 12,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Acolytes' Poniards",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Matriarch's Stiletto",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Spectral Host's Blades",
+        "models": "",
+        "attacks": "10",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Scrying Pool: If a friendly Soulblight Gravelords unit wholly within 12\" of this unit uses the 'Redeploy' command, you can pick another friendly Soulblight Gravelords unit wholly within 12\" of this unit that has not used a command this phase to use the 'Redeploy' command immediately after the first has been resolved (this is an exception to Commands, 1.2). No command point is spent the second time that command is used.\nA Promising Concoction: Once Per Battle (Army), Your Combat Phase Pick up to 3 friendly Vampire units wholly within 12\" of this unit to be the targets. Add 1 to the Attacks characteristic of the targets' melee weapons for the rest of the turn.\nTactical Insight: Friendly Deathrattle and Deadwalkers units have Ward (5+) while they are wholly within 6\" of this unit.",
+    "categories": [
+      "HERO",
+      "WIZARD (1)",
+      "WARD (6+)",
+      "DEATH",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE",
+      "WAR MACHINE",
+      "FLY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Gorslav the Gravekeeper",
+    "faction": "Soulblight Gravelords",
+    "points": 120,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 4,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Gravekeeper's Spade",
+        "models": "",
+        "attacks": "5",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Arise! Arise!: Once Per Battle, Reaction: You declared the 'Endless Legions' ability and picked a friendly Deadwalkers unit to be the target When resolving the effect of the 'Endless Legions' ability, set up the replacement unit wholly within 3\" of this unit instead of wholly within 12\" and more than 3\" from all enemy units instead of more than 9\", even if it is not your movement phase. The replacement unit can still use Charge abilities this turn.\nKeeper of the Corpse-gardens: While this unit is within the combat range of a friendly Deadwalker Zombies unit:\n• This unit has Ward (4+).\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly Deadwalker Zombies unit within this unit's combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "UNIQUE",
+      "WARD (6+)",
+      "SOULBLIGHT GRAVELORDS",
+      "INFANTRY",
+      "DEADWALKERS"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Ivya Volga, the Outcast",
+    "faction": "Soulblight Gravelords",
+    "points": 100,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Heirloom Axe",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Bat Swarm's Needling Fangs",
+        "models": "",
+        "attacks": "2D6",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Total Dominance: Your Hero Phase Make a casting roll of 2D6. For the rest of the turn, subtract 5 from the control scores of enemy Monsters while they are within 12\" of this unit.\nKeywords: Spell\nShrieking Swarm: Subtract 1 from hit rolls for attacks that target this unit.\nBehemoth's Bane: Subtract 2 from the Attacks characteristic of enemy Monsters' melee weapons while they are in combat with this unit.",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "UNIQUE",
+      "WARD (6+)",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE",
+      "WIZARD (1)",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Kritza, the Rat Prince",
+    "faction": "Soulblight Gravelords",
+    "points": 70,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Gnawblade",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Scurrying Retreat: Any Combat Phase If this unit is in combat, roll a dice. On a 3+, this unit can immediately use the 'Retreat' ability as if it were your movement phase without any mortal damage being inflicted on it.\nThe Verminous Court: Any Combat Phase Pick an enemy unit in combat with this unit to be the target, then pick an artefact of power that the target has. Roll a dice. On a 3+, the target no longer has that artefact of power.",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "UNIQUE",
+      "WARD (6+)",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Lady Annika, the Thirsting Blade",
+    "faction": "Soulblight Gravelords",
+    "points": 100,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 4,
+    "weapons": [
+      {
+        "name": "Blade Proboscian",
+        "models": "",
+        "attacks": "7",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Starving Nightmare: Your Movement Phase Pick this unit if it is lying in wait. Set up this unit wholly within enemy territory and more than 9\" from all enemy units.\nKiss of the Blade Proboscian: End of Any Turn Pick an enemy unit that was allocated any damage points inflicted by this unit's combat attacks this turn to be the target. Roll a dice. On a 2+, subtract 1 from save rolls for the target for the rest of the battle.\nSupernatural Speed: Deployment Phase Pick this unit if it has not been deployed. Set up this unit in reserve lying in wait. It has now been deployed.\nKeywords: Deploy",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "UNIQUE",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE",
+      "INFANTRY",
+      "WARD (4+)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Lauka Vai, Mother of Nightmares",
+    "faction": "Soulblight Gravelords",
+    "points": 200,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 11,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Askurga Rapier",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Gore-drenched Talons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "2",
+        "rend": "3",
+        "damage": "3"
+      }
+    ],
+    "abilities": "The Queen's Dictat: Your Hero Phase Pick a visible friendly non-Unique Soulblight Gravelords Monster wholly within 12\" of this unit to be the target, then make a casting roll of 2D6. Pick 1 of the target's melee weapons. If the target has any Companion melee weapons, you must pick 1 of those. Add D3 to the Attacks characteristic of that weapon for the rest of the turn.\nKeywords: Spell\nNightmare's Miasma: Subtract 1 from the Rend characteristic of melee weapons used by enemy units while they are in combat with this unit.\nImpaling Talons: Once Per Turn (Army), Any Combat Phase If this unit charged this turn, pick an enemy unit in combat with it to be the target. Roll a dice. If the roll is equal to or less than the target's Health characteristic, inflict an amount of mortal damage on the target equal to the roll.\nKeywords: Rampage",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "UNIQUE",
+      "WARD (6+)",
+      "MONSTER",
+      "FLY",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE",
+      "WIZARD (1)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Mannfred von Carstein, Mortarch of Night",
+    "faction": "Soulblight Gravelords",
+    "points": 410,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 14,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Ashigaroth's Claws",
+        "models": "",
+        "attacks": "5",
+        "hit": "4",
+        "wound": "2",
+        "rend": "3",
+        "damage": "3"
+      },
+      {
+        "name": "Gheistvor",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of Ashigaroth's Claws is 3.\nAshigaroth's Hunger: Once Per Turn (Army), Any Combat Phase If this unit charged this turn, roll a dice. On a 3+, this unit has Strike-First for the rest of the turn.\nKeywords: Rampage\nThe Sword of Unholy Power: If this unit has slain any enemy models this turn, for the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly Deathrattle and Deadwalkers units while they are wholly within 12\" of this unit.\nWind of Death: Your Hero Phase Pick a point on the battlefield within 18\" of the caster, pick up to 3 enemy units within 6\" of that point and visible to the caster to be the targets, then make a casting roll of 2D6. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\nKeywords: Spell\nThe Mortarch of Night: Reaction: You declared the 'Redeploy' command for a Soulblight Gravelords unit wholly within 12\" of this unit The unit using the 'Redeploy' command can move into combat when using that ability",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "WIZARD (2)",
+      "UNIQUE",
+      "WARD (6+)",
+      "MONSTER",
+      "FLY",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE",
+      "WARMASTER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Mortis Engine",
+    "faction": "Soulblight Gravelords",
+    "points": 230,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 12,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Corpsemaster's Staff",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      },
+      {
+        "name": "Spectral Host's Blades",
+        "models": "",
+        "attacks": "10",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Nexus of Death Energy: When a friendly Deathrattle or Deadwalkers unit wholly within 12\" of this unit is picked to be the target of the 'Deathly Invocation' ability, add D3 to the number of damage points that can be healed or the combined Health characteristic of models that can be returned.\nWave of Power: Once Per Turn (Army), Your Shooting Phase Pick up to 3 enemy units within 10\" of this unit to be the targets. Roll a dice for each target. On a 3+, inflict an amount of mortal damage on the target equal to the value of this unit's stored energy dice. Then, change the value of the stored energy dice back to 1.\nThe Reliquary: When this unit is set up for the first time, place a stored energy dice beside it with the '1' facing up. Each time a friendly Soulblight Gravelords Wizards successfully casts a spell while it is within 12\" of this unit, increase the value of the stored energy dice beside this unit by 1 (to a maximum of 6).",
+    "categories": [
+      "HERO",
+      "WIZARD (1)",
+      "WARD (6+)",
+      "DEATH",
+      "SOULBLIGHT GRAVELORDS",
+      "WAR MACHINE",
+      "FLY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Nagash, Supreme Lord of the Undead",
+    "faction": "Soulblight Gravelords",
+    "points": 750,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 18,
+    "save": 3,
+    "ward": 5,
+    "weapons": [
+      {
+        "name": "Alakanash, the Staff of Power",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "D6"
+      },
+      {
+        "name": "Zefet-nebtar, the Mortis Blade",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 10 or more damage points, subtract 3 from its power level.\nThe Staff of Power: Add 2 to casting rolls for this unit while it has not miscast any spells this turn. If this unit miscasts a spell, ignore the restriction that would stop this unit from casting any more spells this turn.\nHand of Dust: Once Per Turn (Army), End of Any Turn Pick a visible enemy Hero or Monster in combat with this unit to be the target. Hide a dice in one of your hands or under one of two appropriate containers. Your opponent must pick one of your hands or containers. If they pick the one hiding the dice, this ability has no effect. If they pick the empty one, the target is automatically destroyed.\nKeywords: Rampage\nSupreme Lord of the Undead: Once Per Battle, Your Hero Phase Pick a friendly non-Hero non-Unique Death unit that has been destroyed to be the target. Set up a replacement unit identical to the target wholly within 12\" of this unit and more than 9\" from all enemy units.\nInvocation of Nagash: Your Hero Phase This unit can cast this spell more than once per phase. Pick a visible unit wholly within 18\" of this unit that has not been picked to be the target of this spell this turn to be the target, then make a casting roll of 2D6. If the target is an enemy unit, inflict D3 mortal damage on it. If the target is a friendly Death unit, pick 1 of the following effects:\n• Return a number of slain models to the target unit with a combined Health characteristic of up to 3.\n• The target has Ward (5+) until the start of your next turn.\nKeywords: Spell",
+    "categories": [
+      "DEATH",
+      "UNIQUE",
+      "HERO",
+      "MONSTER",
+      "WIZARD (9)",
+      "WARD (5+)",
+      "FLY",
+      "SOULBLIGHT GRAVELORDS"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Necromancer",
+    "faction": "Soulblight Gravelords",
+    "points": 110,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 5,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Mortis Staff",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Vanhel's Danse Macabre: Once Per Turn (Army), Your Combat Phase Pick a friendly Deathrattle or Deadwalkers unit wholly within 12\" of this unit to be the target. The target can use 2 Fight abilities this phase. After the first is used, however, the target has Strike-last for the rest of the turn.\nUndead Minions: While this unit is within the combat range of a friendly Deathrattle or Deadwalkers unit:\n• This unit has Ward (4+).\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly Deathrattle or Deadwalkers unit within this unit's combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).",
+    "categories": [
+      "HERO",
+      "WARD (6+)",
+      "DEATH",
+      "SOULBLIGHT GRAVELORDS",
+      "INFANTRY",
+      "WIZARD (1)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Neferata, Mortarch of Blood",
+    "faction": "Soulblight Gravelords",
+    "points": 450,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 14,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Aken-seth",
+        "models": "",
+        "attacks": "3",
+        "hit": "2",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Akmet-har",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "1"
+      },
+      {
+        "name": "Nagadron's Claws",
+        "models": "",
+        "attacks": "5",
+        "hit": "4",
+        "wound": "2",
+        "rend": "3",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of Nagadron's Claws is 3.\nThe Adevore: Once Per Turn (Army), End of Any Turn Pick an enemy Hero that was allocated any damage points inflicted by this unit's Akmet-har this turn to be the target. Roll a dice. On a 5+, the target is automatically destroyed.\nKeywords: Rampage\nTwilight's Allure: Subtract 1 from hit rolls for combat attacks that target friendly Soulblight Gravelords units while they are wholly within 6\" of this unit.\nDark Mist: Your Hero Phase Pick a visible friendly non-Monster Soulblight Gravelords unit wholly within 12\" of this unit to be the target, then make a casting roll of 2D6. Ignore modifiers to save rolls for the target (positive and negative) until the start of your next turn.\nKeywords: Spell\nThe Mortarch of Blood: Deployment Phase Pick up to 3 friendly Deathrattle Infantry or Deadwalkers Infantry units to be the targets. Each target can use the 'Normal Move' ability as if it were your movement phase.",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "WIZARD (2)",
+      "UNIQUE",
+      "WARD (6+)",
+      "MONSTER",
+      "FLY",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE",
+      "WARMASTER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Prince Vhordrai",
+    "faction": "Soulblight Gravelords",
+    "points": 470,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 18,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Shordmaire's Claws",
+        "models": "",
+        "attacks": "7",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Shordmaire's Maw",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "The Bloodlance",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Shordemaire's Miasma",
+        "models": "",
+        "attacks": "D6",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of Shordmaire's Claws is 5.\nTrail of Crimson: Once Per Turn (Army), Any Combat Phase This unit can make a pile-in move (even if it is not in combat). Then, if this unit is in combat, pick an enemy unit in combat with it to be the target. Roll a dice. On a 4+, inflict an amount of mortal damage on the target equal to the roll.\nKeywords: Rampage\nQuickblood: Your Hero Phase Make a casting roll of 2D6. This unit has Strike-First until the start of your next turn.\nKeywords: Spell\nSaint of Slaughter: End of Any Turn Pick a friendly non-Monster Vampire unit that destroyed a unit this turn using a Fight ability and is wholly within 12\" of this unit to be the target. Pick 1 of the following effects to apply for the rest of the battle:\n• Add 2\" to the target's Move characteristic.\n• Add 1 to the Attacks characteristic of the target's melee weapons.\n• Add 1 to the Damage characteristic of the target's melee weapons.\nMore than 1 effect can apply to a unit at the same time; however, each effect can only be applied to a unit once.",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "UNIQUE",
+      "WARD (6+)",
+      "MONSTER",
+      "FLY",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE",
+      "WIZARD (1)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Radukar the Beast",
+    "faction": "Soulblight Gravelords",
+    "points": 250,
+    "models": 1,
+    "move": "8\"",
+    "wounds": 12,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Blood-slick Claws",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Vyrkos Blood-born's Piercing Blades",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Armour of the Night: Your Hero Phase Make a casting roll of 2D6. Subtract 1 from hit rolls and wound rolls for attacks that target this unit for the rest of the turn.\nKeywords: Spell\nThe Beast Will Out: Once Per Turn (Army), End of Any Turn If this unit is not in combat, it can move D6\". It can move into combat.\nKeywords: Rampage\nCall to the Hunt: If this unit charged this turn, for the rest of the turn, add 1 to wound rolls for combat attacks made by friendly Deathrattle and Deadwalkers units while they are wholly within 12\" of this unit.",
+    "categories": [
+      "MONSTER",
+      "DEATH",
+      "HERO",
+      "UNIQUE",
+      "WARD (6+)",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE",
+      "WIZARD (1)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Radukar the Wolf",
+    "faction": "Soulblight Gravelords",
+    "points": 130,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 7,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Vyrkos Barrow-blade",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Master of the Pack: Your Hero Phase Make a casting roll of 2D6. Until the start of your next turn, you can re-roll charge rolls for friendly Soulblight Gravelords Infantry units while they are wholly within 12\" of this unit.\nKeywords: Spell\nCall to the Hunt: If this unit charged this turn, for the rest of the turn, add 1 to wound rolls for combat attacks made by friendly Deathrattle and Deadwalkers units while they are wholly within 12\" of this unit.",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "UNIQUE",
+      "WARD (6+)",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE",
+      "WIZARD (1)",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Sekhar, Fang of Nulahmia",
+    "faction": "Soulblight Gravelords",
+    "points": 160,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Nulahmian Warglaive",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Ouboroth's Godhusk Fangs",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "2",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Death's Construction: Your Hero Phase Pick a visible enemy unit within 12\" of this unit to be the target, then make a casting roll of 2D6. Until the start of your next turn, while they are wholly within 6\" of this unit, friendly Soulblight Gravelords units cannot be picked to be the target of abilities used by the target other than Fight abilities.\nKeywords: Spell\nSerpentine Agility: If the unmodified hit roll for an attack that targets this unit is 1-4, the attack fails and the attack sequence ends.\nThe Time-swallower's Maw: Once Per Battle, Any Combat Phase Pick each enemy unit in combat with this unit to be the targets. This unit cannot use the 'Serpentine Agility' ability for the rest of the battle. Roll 2D6 for each target. If the roll exceeds the target's Move characteristic, inflict an amount of mortal damage on the target equal to the difference between the roll and its Move characteristic.",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "UNIQUE",
+      "WARD (6+)",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE",
+      "INFANTRY",
+      "WIZARD (2)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Torgillius the Chamberlain",
+    "faction": "Soulblight Gravelords",
+    "points": 180,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 5,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Familiars' Fangs and Claws",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Necrotising Bolts",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "4",
+        "rend": "1",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Failing Fortitude: Your Hero Phase Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6. Until the start of your next turn, subtract 1 from wound rolls for the target's attacks.\nKeywords: Spell\nTrusted Lieutenant: This unit can use the 'Deathly Invocation' ability even if a different friendly unit has already used it this turn, but units that have already been picked to be targets of that ability this turn cannot be picked to be targets.",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "UNIQUE",
+      "WARD (6+)",
+      "SOULBLIGHT GRAVELORDS",
+      "WIZARD (1)",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Vampire Lord",
+    "faction": "Soulblight Gravelords",
+    "points": 140,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Dynastic War-relic",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Sanguine Blur: Once Per Turn (Army), Your Hero Phase Roll a dice. On a 3+, remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy non-Hero units and more than 3\" from all enemy Heroes.",
+    "categories": [
+      "HERO",
+      "WIZARD (1)",
+      "WARD (6+)",
+      "DEATH",
+      "SOULBLIGHT GRAVELORDS",
+      "INFANTRY",
+      "VAMPIRE"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Vampire Lord on Zombie Dragon",
+    "faction": "Soulblight Gravelords",
+    "points": 400,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 16,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Pestilential Breath",
+        "models": "",
+        "attacks": "D6",
+        "hit": "2",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Dynastic Weapon",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Draconic Maw",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Draconic Claws",
+        "models": "",
+        "attacks": "7",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Draconic Claws is 5.\nBloodthirsty Dominance: Once Per Turn (Army), End of Any Turn If this unit charged this turn, pick an enemy unit in combat with it to be the target. Roll a number of dice equal to the target's Health characteristic. For each 6, inflict 1 mortal damage on the target.\nKeywords: Rampage\nThat Which Should Not Be: If this unit charged this turn, for the rest of the turn, subtract 5 from the control scores of enemy units while they are in combat with this unit.",
+    "categories": [
+      "HERO",
+      "WIZARD (1)",
+      "WARD (6+)",
+      "DEATH",
+      "MONSTER",
+      "FLY",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits"
+    ]
+  },
+  {
+    "name": "Vengorian Lord",
+    "faction": "Soulblight Gravelords",
+    "points": 200,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 11,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Gore-drenched Talons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "2",
+        "rend": "3",
+        "damage": "3"
+      },
+      {
+        "name": "Nightmare Sabre",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Festering Feast: Once Per Turn (Army), End of Any Turn If any damage points were allocated to enemy units by this unit's attacks this turn, Heal (D3) this unit and each other friendly Soulblight Gravelords Monster wholly within 12\" of this unit.\nScything Talons: Once Per Turn (Army), Any Combat Phase If this unit charged this turn, pick an enemy unit in combat with it to be the target. Roll a dice. On a 3+, roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.\nKeywords: Rampage\nNightmare's Miasma: Subtract 1 from the Rend characteristic of melee weapons used by enemy units while they are in combat with this unit.",
+    "categories": [
+      "HERO",
+      "WIZARD (1)",
+      "WARD (6+)",
+      "DEATH",
+      "MONSTER",
+      "FLY",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Vengorian Lord (Scourge of Aqshy)",
+    "faction": "Soulblight Gravelords",
+    "points": 310,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 11,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Gore-drenched Talons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "2",
+        "rend": "3",
+        "damage": "3"
+      },
+      {
+        "name": "Nightmare Sabre",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Indignant Outburst: Once Per Turn (Army), Any Combat Phase If this unit is in combat, gain 1 rage dice.\nFrenzied Surge: Once Per Turn (Army), Any Combat Phase You can pick another visible friendly non-Hero Soulblight Gravelords Infantry or Monster unit wholly within 12\" of this unit to be the target. This unit and the target (if any) can move up to X+D3\", where X is your fury level. They can move through enemy models and the combat ranges of enemy units during that move and must end that move in combat.\nIf you picked a target, after moving, this unit and the target must be in combat with the same enemy unit.\nKeywords: Rampage\nNightmare's Miasma: Subtract 1 from the Rend characteristic of melee weapons used by enemy units while they are in combat with this unit.",
+    "categories": [
+      "HERO",
+      "WIZARD (1)",
+      "WARD (6+)",
+      "DEATH",
+      "MONSTER",
+      "FLY",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Watch Captain Halgrim",
+    "faction": "Soulblight Gravelords",
+    "points": 110,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Cursed Halberd and Sabre",
+        "models": "",
+        "attacks": "5",
+        "hit": "4",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Echoes of the Watch: Reaction: You declared a Fight ability for this unit Pick a friendly Deathrattle Skeletons unit that has not used a Fight ability this turn and is within this unit's combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.\nDisciplined Advance: Each time you make a run roll for a friendly Deathrattle Skeletons unit wholly within 12\" of this unit, you can change that roll to a 4.",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "UNIQUE",
+      "WARD (6+)",
+      "SOULBLIGHT GRAVELORDS",
+      "INFANTRY",
+      "DEATHRATTLE"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Wight King",
+    "faction": "Soulblight Gravelords",
+    "points": 80,
+    "models": 1,
+    "move": "4\"",
+    "wounds": 5,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Baleful Tomb Blade",
+        "models": "",
+        "attacks": "5",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Ancient Strategies: Reaction: You declared a Fight ability for this unit Pick a friendly non-Hero Deathrattle Infantry unit that has not used a Fight ability this turn and is within this unit's combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target's attacks for the rest of the turn.\nKing of Shambling Bones: Once Per Turn (Army), Your Hero Phase Pick a friendly Deathrattle unit within this unit's combat range to be the target. Roll a dice. On a 3+, the target's melee weapons have Crit (2 Hits) for the rest of the turn.",
+    "categories": [
+      "HERO",
+      "WARD (6+)",
+      "DEATH",
+      "SOULBLIGHT GRAVELORDS",
+      "INFANTRY",
+      "DEATHRATTLE"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Wight King on Skeletal Steed",
+    "faction": "Soulblight Gravelords",
+    "points": 180,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 8,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "King's Relic Weapon",
+        "models": "",
+        "attacks": "5",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Skeletal Steed's Hooves and Teeth",
+        "models": "",
+        "attacks": "2",
+        "hit": "5",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Immortal Conqueror: Your Hero Phase Pick an objective or terrain feature within enemy territory. For the rest of the turn, add 1 to hit rolls for attacks made by friendly Deathrattle units while they are wholly within 6\" of that objective or terrain feature.\nAncient Barrow Curse: If an attack made with this unit's King's Relic Weapon scores a critical hit, the target unit becomes cursed for the rest of the battle. Subtract 1 from save rolls for cursed units even if this unit has been destroyed.\nDesigner's Note: *Multiple enemy units can become cursed by this ability but the same enemy unit cannot become cursed more than once.*",
+    "categories": [
+      "HERO",
+      "WARD (6+)",
+      "DEATH",
+      "SOULBLIGHT GRAVELORDS",
+      "DEATHRATTLE",
+      "CAVALRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Askurgan Trueblades",
+    "faction": "Soulblight Gravelords",
+    "points": 140,
+    "models": 6,
+    "move": "6\"",
+    "wounds": 2,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Askurgan Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Elongated Claws and Slavering Maw",
+        "models": "",
+        "attacks": "5",
+        "hit": "4",
+        "wound": "3",
+        "rend": "2",
+        "damage": "1"
+      },
+      {
+        "name": "Askurgan Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Gut-wrenching Howl: Any Combat Phase Pick an enemy unit in combat with this unit's Curseblood to be the target. Roll a dice. On a 4+, the target has Strike-Last for the rest of the turn.\nCreed of the Askurga Renkai: Subtract 1 from hit rolls for combat attacks made by enemy Monsters that target this unit. \nAdd 1 to hit rolls for combat attacks made by this unit that target enemy Monsters.",
+    "categories": [
+      "INFANTRY",
+      "WARD (6+)",
+      "DEATH",
+      "CHAMPION (1/8)",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Blood Knights",
+    "faction": "Soulblight Gravelords",
+    "points": 220,
+    "models": 5,
+    "move": "12\"",
+    "wounds": 3,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Nightmare's Hooves and Teeth",
+        "models": "",
+        "attacks": "3",
+        "hit": "5",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Templar Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Riders of Ruin: When this unit moves, it can pass through models in enemy Infantry units and can pass through the combat ranges of enemy Infantry units, but it cannot end a move in combat unless specified in the ability used.\nTrampled to Dust: Any Charge Phase Pick an enemy unit that this unit passed across this turn to be the target. Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+    "categories": [
+      "DEATH",
+      "WARD (6+)",
+      "CAVALRY",
+      "CHAMPION",
+      "STANDARD BEARER (1/5)",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Corpse Cart",
+    "faction": "Soulblight Gravelords",
+    "points": 70,
+    "models": 1,
+    "move": "4\"",
+    "wounds": 7,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Corpsemaster's Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Zombies' Rusty Blades",
+        "models": "",
+        "attacks": "2D6",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Locus of Undeath: Melee weapons used by other friendly Deadwalkers units have Crit (Auto-wound) while they are wholly within 12\" of this unit.",
+    "categories": [
+      "WARD (6+)",
+      "DEATH",
+      "SOULBLIGHT GRAVELORDS",
+      "WAR MACHINE",
+      "DEADWALKERS"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Deathrattle Skeletons",
+    "faction": "Soulblight Gravelords",
+    "points": 90,
+    "models": 10,
+    "move": "4\"",
+    "wounds": 1,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Ancient Weapon",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Skeleton Legion: End of Any Turn You can return D3 slain models to this unit.",
+    "categories": [
+      "DEATH",
+      "INFANTRY",
+      "WARD (6+)",
+      "CHAMPION",
+      "STANDARD BEARER (1/10)",
+      "SOULBLIGHT GRAVELORDS",
+      "DEATHRATTLE"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Deadwalker Zombies",
+    "faction": "Soulblight Gravelords",
+    "points": 120,
+    "models": 20,
+    "move": "4\"",
+    "wounds": 1,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Crude Weapon or Infectious Bite",
+        "models": "",
+        "attacks": "1",
+        "hit": "5",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Mindless Ferocity: Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 6+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+    "categories": [
+      "DEATH",
+      "INFANTRY",
+      "WARD (6+)",
+      "SOULBLIGHT GRAVELORDS",
+      "DEADWALKERS"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Dire Wolves",
+    "faction": "Soulblight Gravelords",
+    "points": 150,
+    "models": 10,
+    "move": "10\"",
+    "wounds": 2,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Rotting Fangs and Claws",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "On the Hunt: This unit can use a Run ability and still use Charge abilities later in the turn.",
+    "categories": [
+      "DEATH",
+      "WARD (6+)",
+      "SOULBLIGHT GRAVELORDS",
+      "DEADWALKERS",
+      "BEAST",
+      "CHAMPION (1/10)"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Fell Bats",
+    "faction": "Soulblight Gravelords",
+    "points": 80,
+    "models": 3,
+    "move": "12\"",
+    "wounds": 3,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Chiropteran Fangs",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Fleet and Fell: This unit can use Charge abilities even if it used a Retreat ability in the same turn. In addition, no mortal damage is inflicted on this unit by Retreat abilities.",
+    "categories": [
+      "DEATH",
+      "WARD (6+)",
+      "SOULBLIGHT GRAVELORDS",
+      "BEAST",
+      "DEADWALKERS",
+      "FLY"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Barrow Guard",
+    "faction": "Soulblight Gravelords",
+    "points": 130,
+    "models": 10,
+    "move": "4\"",
+    "wounds": 1,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Wight Blade",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Guardians of the King: While any friendly Soulblight Gravelords Infantry Heroes are within this unit's combat range, both this unit and those friendly units have Ward (5+).",
+    "categories": [
+      "DEATH",
+      "INFANTRY",
+      "WARD (6+)",
+      "CHAMPION",
+      "SOULBLIGHT GRAVELORDS",
+      "DEATHRATTLE",
+      "STANDARD BEARER (1/5)",
+      "MUSICIAN (1/5)"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Kosargi Nightguard",
+    "faction": "Soulblight Gravelords",
+    "points": 110,
+    "models": 2,
+    "move": "6\"",
+    "wounds": 4,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Kosargi Bardiche",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "A Pact Maintained: While a friendly Radukar the Wolf or Radukar the Beast is within this unit's combat range, both that unit and this unit have Ward (5+).",
+    "categories": [
+      "DEATH",
+      "WARD (6+)",
+      "SOULBLIGHT GRAVELORDS",
+      "DEADWALKERS",
+      "INFANTRY"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Terrorgheist",
+    "faction": "Soulblight Gravelords",
+    "points": 220,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 14,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Death shriek",
+        "models": "",
+        "attacks": "1",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D6"
+      },
+      {
+        "name": "Fanged Maw",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D6"
+      },
+      {
+        "name": "Skeletal Talons",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Skeletal Talons is 5.\nGaping Maw: Each time an attack made with this unit's Fanged Maw scores a critical hit, that attack inflicts 6 mortal damage on the target unit and the attack sequence ends.\nSonic Assault: Once Per Turn (Army), Any Combat Phase If this unit charged this turn, pick an enemy unit in combat with it to be the target. Roll a dice for each model in the target unit.\nIf 3 or more of the dice have the same value, for the rest of the turn, this unit has Strike-first. \nIf 6 or more of the dice have the same value, for the rest of the turn, this unit has Strike-first and the target cannot use commands.",
+    "categories": [
+      "WARD (6+)",
+      "DEATH",
+      "MONSTER",
+      "FLY",
+      "SOULBLIGHT GRAVELORDS"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Vargheists",
+    "faction": "Soulblight Gravelords",
+    "points": 120,
+    "models": 3,
+    "move": "12\"",
+    "wounds": 4,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Murderous Fangs and Talons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Death's Descent: Once Per Turn (Army), Your Movement Phase If this unit is not in combat, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.\nKeywords: Core",
+    "categories": [
+      "DEATH",
+      "WARD (6+)",
+      "CHAMPION",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE",
+      "INFANTRY",
+      "FLY"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Vargskyr",
+    "faction": "Soulblight Gravelords",
+    "points": 140,
+    "models": 1,
+    "move": "8\"",
+    "wounds": 8,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Lacerating Fangs",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Raking Talons",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Beast: This unit has a maximum control score of 1.\nBounding Haste: Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3. In addition, when this unit uses a Charge ability, it can pass through terrain features and enemy models as if it had Fly.",
+    "categories": [
+      "DEATH",
+      "WARD (6+)",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE",
+      "BEAST"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Vyrkos Blood-born",
+    "faction": "Soulblight Gravelords",
+    "points": 150,
+    "models": 3,
+    "move": "8\"",
+    "wounds": 3,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Piercing Blade",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Shadowfast: Once Per Turn (Army), End of Enemy Turn This unit can use a Move ability as if it were your movement phase.\nCling to the Shadows: While each model in this unit is within 1\" of any terrain features, this unit cannot be targeted by shooting attacks unless the attacking model is within 9\" of it.",
+    "categories": [
+      "DEATH",
+      "WARD (6+)",
+      "SOULBLIGHT GRAVELORDS",
+      "INFANTRY",
+      "VAMPIRE"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Battle Traits: Soulblight Gravelords",
+    "faction": "Soulblight Gravelords",
+    "points": 0,
+    "models": 1,
+    "move": "",
+    "wounds": 1,
+    "save": "",
+    "ward": 0,
+    "weapons": [],
+    "abilities": "The Hunger: Once Per Turn (Army), End of Any Turn Pick each friendly Vampire unit that used a Fight ability this turn to be the targets. Heal (D3) each target. Heal (2D3) the target instead if it destroyed an enemy unit this turn using a Fight ability\nThe Unquiet Dead: Deployment Phase Pick a friendly Deathrattle or Deadwalkers unit that has not been deployed. Set up that unit in reserve in the grave. It has now been deployed. You cannot set up more friendly units in the grave than there are on the battlefield.\nKeywords: Deploy\nEndless Legions: Once Per Battle Round (Army), Any Movement Phase Pick a friendly non-Unique Deathrattle or Deadwalkers unit that started the battle with 2 or more models and that has been destroyed to be the target. Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of a friendly Soulblight Gravelords Hero  or wholly within 6\" of a friendly Cursed Sepulchre. It must be set up more than 9\" from all enemy units.\nIf it is your movement phase, you can set up the replacement unit more than3\" from all enemy units instead of more than 9\", but if you set it up within 9\" of any enemy units, it cannot use Charge abilities this turn.\nDeathly Invocation: Once Per Turn (Army), Any Hero Phase Pick a friendly Soulblight Gravelords Hero to use this ability, then pick up to 3 friendly Deathrattle or Deadwalkers units wholly within 12\" of that Hero to be the targets. For each target:\n• If the target is damaged, Heal (3) the target.\n• If the target is not damaged, return a number of slain models to it with a combined Health characteristic of up to 3.\nThe Rising Dead: Your Movement Phase Pick a friendly unit that is in the grave. Set up that unit wholly within 6\" of a friendly Cursed Sepulchre and more than 9\" from all enemy unit, or wholly within 6\" of the edge of the battlefield, wholly within friendly territory, and more than 9\" from all enemy units.\nAncient Burial Sites: Once Per Battle (Army), Deployment Phase If there is a friendly Cursed Sepulchre on the battlefield, you can set up to 2 additional friendly Cursed Sepulchres on the battlefield. The first must be set up more than 3\" from all units, objectives, and other terrain features. The second must be set up wholly outside enemy territory and more than 3\" from all units, objectives and other terrain features.\nDesigner's Note: *The original* Cursed Sepulchre *is set up in Step 1 of the deployment phase using the 'Deploy Faction Terrain' ability. This ability allows you to set up a second and third such terrain feature and is used in Step 3 of the deployment phase, after armies have been deployed.*",
+    "categories": [],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "The Crimson Court",
+    "faction": "Soulblight Gravelords",
+    "points": 210,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 3,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Courtly Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Courtly Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Courtly Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Courtly Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Come Then, Amuse Us: Any Combat Phase If this unit is in combat with any enemy Heroes, roll a D3 and then pick a number of effects from the list below equal to the roll:\n• Add 1 to save rolls for this unit for the rest of the turn.\n• Add 1 to the Attacks characteristic of this unit's melee weapons for the rest of the turn.\n• Add 1 to the Rend characteristic of this unit's melee weapons for the rest of the turn.",
+    "categories": [
+      "INFANTRY",
+      "UNIQUE",
+      "WARD (6+)",
+      "DEATH",
+      "CHAMPION",
+      "WIZARD (1)",
+      "VAMPIRE",
+      "SOULBLIGHT GRAVELORDS"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "The Exiled Dead",
+    "faction": "Soulblight Gravelords",
+    "points": 140,
+    "models": 1,
+    "move": "4\"",
+    "wounds": 2,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Arco-electric Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "5",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Arco-electric Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "5",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Arco-electric Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "5",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Arco-electric Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "5",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Arco-electric Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "5",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Arco-electric Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "5",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Arco-electric Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "5",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Unfeeling Fortitude: Your Hero Phase Roll a dice. On a 3+, this unit has Ward (5+) until the start of your next turn.\nDeintalos the Exile: While this unit's Deintalos the Exile is on the battlefield, it has Wizard (1). While this unit's Prentice Marcov is on the battlefield, add 1 to casting rolls for this unit.",
+    "categories": [
+      "INFANTRY",
+      "UNIQUE",
+      "WARD (6+)",
+      "DEATH",
+      "CHAMPION",
+      "SOULBLIGHT GRAVELORDS",
+      "DEADWALKERS"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Zondara's Gravebreakers",
+    "faction": "Soulblight Gravelords",
+    "points": 120,
+    "models": 1,
+    "move": "4\"",
+    "wounds": 2,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Graverobber's Tools",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Rending Claws",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Graverobber's Tools",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Graverobber's Tools",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Graverobber's Tools",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Zondara Rivenheart: While this unit's Zondara Rivenheart is on the battlefield, it has Wizard (1).\nWrest from the Realms: Your Hero Phase If this unit is in a Soulblight Gravelords army, pick a terrain feature within 3\" of this unit, then roll a dice and apply the corresponding effect. You cannot pick the same terrain feature more than once per battle.\n1 *Cruel Hope:* No effect.\n2-4 *Cursed Flesh:* You can return D3 slain models to this unit.\n5-6 *Borrowed Power:* Pick a friendly Soulblight Gravelords Hero wholly within 12\" of this unit that does not have an artefact of power. You can pick an artefact of power from the Soulblight Gravelords faction rules that no other friendly Hero has and give it to that Hero.",
+    "categories": [
+      "INFANTRY",
+      "UNIQUE",
+      "WARD (6+)",
+      "DEATH",
+      "CHAMPION",
+      "SOULBLIGHT GRAVELORDS",
+      "DEADWALKERS"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "The Sons of Velmorn",
+    "faction": "Soulblight Gravelords",
+    "points": 130,
+    "models": 1,
+    "move": "4\"",
+    "wounds": 2,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Royal Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Royal Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Royal Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Royal Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Royal Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Rise Again: Any Combat Phase If this unit's King Morlak Velmorn is on the battlefield, roll a dice for each slain model from this unit. On a 4+, you can return 1 slain model to this unit.",
+    "categories": [
+      "INFANTRY",
+      "UNIQUE",
+      "WARD (6+)",
+      "DEATH",
+      "CHAMPION",
+      "SOULBLIGHT GRAVELORDS",
+      "DEATHRATTLE"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "The Sepulchral Guard",
+    "faction": "Soulblight Gravelords",
+    "points": 110,
+    "models": 1,
+    "move": "4\"",
+    "wounds": 2,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Ancient Weapon",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Ancient Weapon",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Ancient Weapon",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Ancient Weapon",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Ancient Weapon",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Ancient Weapon",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Ancient Weapon",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Restless Dead: End of Any Turn You can return D3 slain models to this unit.",
+    "categories": [
+      "INFANTRY",
+      "UNIQUE",
+      "WARD (6+)",
+      "DEATH",
+      "CHAMPION",
+      "SOULBLIGHT GRAVELORDS",
+      "DEATHRATTLE"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Vampire Lord on Nightmare Steed",
+    "faction": "Soulblight Gravelords",
+    "points": 180,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 7,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Dynastic Cavalier Weapon",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Nightmare's Hooves and Teeth",
+        "models": "",
+        "attacks": "3",
+        "hit": "5",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Strike at the Heart: Any Combat Phase Pick a friendly Blood Knights unit that charged this turn and is wholly within 12\" of this unit to be the target. Add 1 to the Rend characteristic of that unit's Templar Weapons for the rest of the turn.\n'For Glory! For Blood!': Reaction: You declared a Charge ability for this unit You can re-roll the charge roll for that Charge ability. Then, before the charge move is made, you can pick a friendly Blood Knights unit that is not in combat, is wholly within 12\" of this unit and has not used a Charge ability this turn to be the target. If this unit charges, then, immediately after the Charge ability used by this unit has been resolved, the target can immediately use the 'Charge' ability even if it is not your charge phase. In addition, you can re-roll charge rolls for the target this phase.",
+    "categories": [
+      "HERO",
+      "WIZARD (1)",
+      "WARD (6+)",
+      "DEATH",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE",
+      "CAVALRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Wight Lord on Skeletal Steed",
+    "faction": "Soulblight Gravelords",
+    "points": 110,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 7,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Lord's Tomb Blade",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Skeletal Steed's Hooves and Teeth",
+        "models": "",
+        "attacks": "2",
+        "hit": "5",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Royal Companions: Reaction: You declared a Fight ability for this unit Pick a friendly non-Hero Deathrattle Cavalry unit that has not used a Fight ability this turn and is within this unit's combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.\nLord of Trampling Bones: Add 1 to charge rolls for friendly Deathrattle Cavalry units while they are wholly within 12\" of this unit.",
+    "categories": [
+      "HERO",
+      "WARD (6+)",
+      "DEATH",
+      "SOULBLIGHT GRAVELORDS",
+      "DEATHRATTLE",
+      "CAVALRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Revenant Draconith",
+    "faction": "Soulblight Gravelords",
+    "points": 180,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 16,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Pestilential Miasma",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Draconic Maw",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Draconic Claws",
+        "models": "",
+        "attacks": "7",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Draconic Claws is 5.\nDeath on Tattered Wings: Deployment Phase Pick this unit if it has not been deployed. Set up this unit in reserve high above the battlefield. It has now been deployed.\nKeywords: Deploy\nLoathsome Descent: Your Movement Phase Pick this unit if it is high above the battlefield. Set up this unit anywhere on the battlefield more than 9\" from all enemy units.\nRed Ruin: Once Per Turn (Army), End of Any Turn Pick an enemy unit in combat with this unit to be the target. Roll a D3. On a 2+, resolve the following effects:\n• Inflict an amount of mortal damage on the target equal to the roll.\n• Heal (X) this unit where X is an amount equal to the roll.\nThis unit can be removed from the battlefield and set up in reserve high above the battlefield.\nKeywords: Rampage",
+    "categories": [
+      "WARD (6+)",
+      "DEATH",
+      "MONSTER",
+      "FLY",
+      "SOULBLIGHT GRAVELORDS"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Revenant Draconith (Scourge of Aqshy)",
+    "faction": "Soulblight Gravelords",
+    "points": 290,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 16,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Pestilential Miasma",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Draconic Maw",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Draconic Claws",
+        "models": "",
+        "attacks": "7",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Draconic Claws is 5.\nBrimming with Rancour: Once Per Turn (Army), Enemy Hero Phase Pick a visible enemy unit to be the target. For the rest of the turn, the target cannot end moves made as part of a non-Charge Move ability within X\" of this unit, where X is equal to your current fury level.\nKeywords: Rampage\nVolatile Animus: Once Per Turn (Army), Any Combat Phase Spend 1 rage dice. If your opponent's fury level is lower than yours, they must increase their fury level by 1, to a maximum of 7. Then, pick 1 of the following effects:\n\nRetaliatory Posture: For the rest of the turn:\n• Ignore positive modifiers to hit rolls and wound rolls for attacks made by enemy units while they are in combat with this unit.\n• Add 1 to save rolls for this unit.\n• Add 1 to hit rolls for this unit's attacks, including attacks made with Companion weapons, that target an enemy unit that used a Fight ability this phase.\n\nUnrelenting Ferocity: For the rest of the turn:\n• Ignore negative modifiers to hit rolls and wound rolls for this unit's attacks.\n• Add 1 to the Rend and Damage characteristics of this unit's Companion melee weapons for attacks that target an enemy unit that has not used a Fight ability this phase.",
+    "categories": [
+      "WARD (6+)",
+      "DEATH",
+      "MONSTER",
+      "FLY",
+      "SOULBLIGHT GRAVELORDS"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Cursed Sepulchre",
+    "faction": "Soulblight Gravelords",
+    "points": 0,
+    "models": 1,
+    "move": "-",
+    "wounds": 8,
+    "save": 4,
+    "ward": 6,
+    "weapons": [],
+    "abilities": "Locus of Shyish: Each time a friendly Soulblight Gravelords Wizard casts a Summon Spell from the 'Manifestations of the Grave' lore, you can measure the range and visibility from this terrain feature instead.\nLeeching Soil: Each time a model (friendly or enemy) is slain while it is within 9\" of this terrain feature, Heal (1) this terrain feature.",
+    "categories": [
+      "DEATH",
+      "FACTION TERRAIN",
+      "SOULBLIGHT GRAVELORDS",
+      "WARD (6+)"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Anvil of Apotheosis: Soulblight Gravelords Hero",
+    "faction": "Soulblight Gravelords",
+    "points": 0,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 5,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Grave Blade",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Mighty Grave Beast's Talons",
+        "models": "",
+        "attacks": "7",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Spectral Host's Blades",
+        "models": "",
+        "attacks": "10",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Necrotic Breath",
+        "models": "",
+        "attacks": "D6",
+        "hit": "2",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Undead Steed's Hooves",
+        "models": "",
+        "attacks": "3",
+        "hit": "5",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Undead Minions: While this unit is within the combat range of a friendly Deathrattle or Deadwalkers unit:\n• This unit has Ward (4+).\n• Each time you make a successful ward roll for this unit, allocate 1 damage point to a friendly Deathrattle or Deadwalkers unit within this unit's combat range after the damage sequence for this unit has been resolved (ward rolls cannot be made for those damage points).\nDark Intrigue: Your Hero Phase Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6. Until the start of your next turn, each time the target uses a command, you receive 1 command point.\nKeywords: Spell\nImmortal Retainers: Reaction: You declared a Fight ability for this unit Pick a friendly Deathrattle Cavalry or Infantry unit that has not used a Fight ability this turn and is within this unit's combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.\nBattle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Mighty Grave Beast's Talons is 4.\nBeast Form: Your Hero Phase Pick 1 of the following units to be this unit's beast form:\n• A Dire Wolves unit with 1 model.\n• A Fell Bats unit with 1 model.\nSet up the beast form unit within 1\" of this unit, then remove this unit from the battlefield. The Beast Form unit can use Move and Core abilities in your next movement phase.\nIf the beast form is destroyed, before it is removed from play, set up this unit on the battlefield once more within 1\" of it.\nIn addition, in any combat phase before Fight abilities are used, or at the end of any turn, you can have the beast form unit transform back into this unit. If you do so, set up this unit within 1\" of the beast form unit and remove the beast form unit from the battlefield.\nThis ability can only be used by an Infantry hero.\nAcolyte of Necros: Each time this unit successfully casts a spell in your hero phase and the casting roll was an unmodified 10+, add 1 to this unit's power level until the start of your next turn\nFabled Heirlooms: When this unit is added to your Order of Battle, you can immediately give it 1 artefact of power\nPicky Eater: This unit cannot be picked as a target for the 'The Hunger' ability unless your opponent's gneral has the Order keyword. This flaw can only be picked for a Vampire hero.\nFractured Mind: Start of Battle Round Roll a dice. On a 1-3, for the rest of the battle round, this unit cannot use commands and any heroic trait they have has no effect.\nRepulsed by the Sacred: You cannot make ward rolls for this unit while it is within 12\" of an enemy Priest or for damage inflicted on it by a Prayer ability.\nTenuous Grip on Undeath: End of Your Turn This unit must use this ability if no enemy models were slain by it this turn. Allocate 1 damage point to this unit (a ward roll cannot be made for that damage point).\nCrushing Stomp: Once Per Turn (Army), Any Combat Phase Pick a non-Monster enemy unit n combat with this unit to be the target. Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\nKeywords: Rampage\nFeed on Sorcery: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll a dice. On a 3+, for the rest of the turn, ward rolls cannot be made for the target and add 1 to the Damage characteristic of this unit's Companion melee weapons.\nKeywords: Rampage\nWails of the Damned: Subtract 3 from the control scores of enemy units while they are within 12\" of this unit.\nBecome the Swarm: When this unit is destroyed, roll a D3 for each enemy unit in combat with it. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.\nUndying Companion: This unit's Undying Companion is a token. This unit has Ward (5+) while its Undying Companion is on the battlefield. If you make an unmodified ward roll of 1 for this unit, remove its Undying Companion from the battlefield.\nMaster of Dark Magics: While this unit is not in combat, add 1 to casting rolls for this unit.",
+    "categories": [
+      "HERO",
+      "INFANTRY",
+      "DEATH",
+      "SOULBLIGHT GRAVELORDS",
+      "WARD (6+)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Blades of the Hollow King",
+    "faction": "Soulblight Gravelords",
+    "points": 270,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 6,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Kennistrix's Fangs",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "2",
+        "rend": "3",
+        "damage": "D3"
+      },
+      {
+        "name": "Ezechiarian Greatsword",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Sissendra's Twin Blades",
+        "models": "",
+        "attacks": "8",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Solia, the Tutor: Any Combat Phase This unit can use this ability while its Cado Ezechiar is on the battlefield. Pick 1 of the following to apply for the rest of the turn:\n• This unit has Ward (5+)\n• This unit's Ezechiarian Greatsword has Crit (Mortal)\nAurelias: Your Hero Phase This unit can use this ability while its Aurelias is on the battlefield. Pick 1 of the following to apply for the rest of the turn:\n• Add 1 to this unit's power level.\n• Each time a casting roll is made for this unit, you can re-roll 1 of the dice.\nRetribution or Salvation: Your Hero Phase This unit can cast this spell while its Cado Ezechiar is on the battlefield. Pick a visible unit within 12\" of this unit to be the target, then make a casting roll of 2D6. If the target is an enemy unit, inflict D3 mortal damage on it. If the target is a friendly Deathrattle or Deadwalkers unit, subtract 1 from wound rolls for combat attacks that target that unit for the rest of the turn.\nKeywords: Spell",
+    "categories": [
+      "INFANTRY",
+      "UNIQUE",
+      "WARD (6+)",
+      "DEATH",
+      "WIZARD (1)",
+      "VAMPIRE",
+      "SOULBLIGHT GRAVELORDS",
+      "HERO"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Corpse Cart (Scourge of Ghyran)",
+    "faction": "Soulblight Gravelords",
+    "points": 80,
+    "models": 1,
+    "move": "4\"",
+    "wounds": 7,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Corpsemaster's Tools and Zombies' Bites",
+        "models": "",
+        "attacks": "D6+6",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Unholy Lodestone: Your Hero Phase Pick a friendly Deadwalker Zombies unit within this unit's combat range to be the target. Until the start of your next turn, while the target is wholly within 12\" of this unit, its 'Mindless Ferocity' ability inflicts mortal damage on rolls of 5+ instead of 6+.\nNecromantic Goad: Once Per Turn (Army), End of Any Turn Pick a friendly Deadwalker Zombies unit that is wholly within 12\" of this unit and not in combat to be the target. The target can move up to 3\". It can move into combat.",
+    "categories": [
+      "WARD (6+)",
+      "DEATH",
+      "SOULBLIGHT GRAVELORDS",
+      "WAR MACHINE",
+      "DEADWALKERS"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Sekhar, Fang of Nulahmia (Scourge of Ghyran)",
+    "faction": "Soulblight Gravelords",
+    "points": 190,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Nulahmian Warglaive",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Ouboroth's Godhusk Fangs",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "2",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Irresistible Demand: Your Hero Phase Pick a visible enemy Hero within 18\" of this unit to be the target. Then, make a casting roll of 2D6. Inflict D3 mortal damage on each other enemy unit within 3\" of the target.\nKeywords: Spell\nAllow Me To Remind You...: Once Per Turn, Reaction: Opponent declared a command for a visible enemy unit within 18\" of this unit Roll a dice. On a 5+, that command has no effect, it still counts as having been used and the command points spent to use it are still lost.\nLest You Forget...: Once Per Battle Round, Reaction: Opponent declared a Spell or Charge ability for a visible enemy unit within 18\" of this unit Pick 1 dice from the charge roll or casting roll for that ability. Your opponent must re-roll that dice.",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "UNIQUE",
+      "WARD (6+)",
+      "SOULBLIGHT GRAVELORDS",
+      "VAMPIRE",
+      "INFANTRY",
+      "WIZARD (2)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  }
+]

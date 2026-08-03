@@ -1,0 +1,175 @@
+{
+  "faction": "Daughters of Khaine",
+  "battleTraits": [
+    {
+      "name": "Blood Rites",
+      "effect": "Blood Rites: You perform a blood rite each time:\n• An enemy unit is destroyed and any damage points were allocated to that unit by a friendly anointed unit's combat attacks in the same turn.\n• A friendly anointed unit is destroyed.\n• A friendly unit contesting an objective you control is destroyed.\n• An enemy unit is destroyed by a friendly Daughters of Khaine unit's attacks and any models in that enemy unit were contesting an objective you do not control in the same phase.\n• A unit (friendly or enemy) is destroyed and it was within 3\" of a Place of Power at the start of the phase.\nOnly one blood rite can be performed per unit destroyed."
+    },
+    {
+      "name": "Anointed Ritualist",
+      "effect": "Anointed Ritualist (Start of First Battle Round): The target is anointed for the rest of the battle, even if it has been destroyed. Friendly anointed units on the battlefield treat Exalted abilities on the warscrolls of friendly anointed units that have been destroyed as if they were on their warscroll."
+    },
+    {
+      "name": "Bloody Succession",
+      "effect": "Bloody Succession: Each time a friendly anointed unit is destroyed, after removing it from play, you can immediately use the 'Anointed Ritualist' ability as if it were the start of the first battle round."
+    },
+    {
+      "name": "Strident War Cry",
+      "effect": "Strident War Cry (Once Per Turn (Army), Reaction: You declared a Charge ability for an anointed unit): Pick a friendly non-Hero Daughters of Khaine unit that is not in combat, is wholly within 12\" of that anointed unit and has not charged this turn to be the target. If that anointed unit charges, after that Charge ability has been resolved, the target can immediately use the 'Charge' ability even if it is not your charge phase. In addition, you can re-roll charge rolls for the target for the rest of the phase."
+    },
+    {
+      "name": "Blessings of Khaine",
+      "effect": "Blessings of Khaine (Once Per Turn (Army), End of Any Turn): Pick 1 of the following blessings that is not active. That blessing is active. While a blessing is active, its effect applies to friendly Daughters of Khaine units. The effects of more than 1 blessing can apply to a unit at the same time.\n•  Blessing of Ruthlessness: Add 1 to hit rolls for those units' combat attacks.\n•  Blessing of Hatred: Add 1 to wound rolls for those units' combat attacks.\n•  Blessing of Haste: Add 3\" to those units' Move characteristic.\n•  Blessing of Zeal: If those units charged in the same turn, they have Ward (5+) for the rest of the turn.\n•  Blessing of Shadow: Subtract 1 from hit rolls for shooting attacks that target those units.\n•  Blessing of Cruelty: Those units can use Charge and/or Shoot abilities even if they have used a Retreat ability in the same turn.\n•  Blessing of Clarity: Add 1 to chanting rolls and casting rolls for those units."
+    }
+  ],
+  "artefacts": [
+    {
+      "name": "Crimson Draught",
+      "cost": 0,
+      "effect": "Crimson Draught: You can re-roll charge rolls for this unit.",
+      "restrictions": [],
+      "groupName": "Gifts of Morathi"
+    },
+    {
+      "name": "Darkling Elixir",
+      "cost": 0,
+      "effect": "Darkling Elixir: End of Your Turn Pick a visible friendly Daughters of Khaine unit wholly within 12\" of this unit to be the target. Roll a dice. On a 3+, the target can immediately use the 'Retreat' ability as if it were your movement phase.",
+      "restrictions": [],
+      "groupName": "Gifts of Morathi"
+    },
+    {
+      "name": "Witchbrew",
+      "cost": 0,
+      "effect": "Witchbrew: Your Hero Phase Pick a visible friendly non-Unique Daughters of Khaine unit wholly within 12\" of this unit to be the target. Roll a dice. On a 3+, ignore negative modifiers to save rolls for the target until the start of your next turn.",
+      "restrictions": [],
+      "groupName": "Gifts of Morathi"
+    }
+  ],
+  "heroicTraits": [
+    {
+      "name": "Shadow-Blooded",
+      "cost": 0,
+      "effect": "Shadow-Blooded: Reaction: You declared the 'Redeploy' command for a Daughters of Khaine unit wholly within 12\" of this unit If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead.",
+      "restrictions": [],
+      "groupName": "Paragons of Murder"
+    },
+    {
+      "name": "Hand of Khaine",
+      "cost": 0,
+      "effect": "Hand of Khaine: Any Combat Phase Pick an enemy Hero in combat with this unit to be the target. Roll 2D6. If the roll exceeds the target's Health characteristic, it is automatically destroyed. If the target is destroyed by this ability, this unit can use 2 Fight abilities this phase. After the first is used, however, this unit has Strike-Last for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Paragons of Murder"
+    },
+    {
+      "name": "Murderous Duellist",
+      "cost": 0,
+      "effect": "Murderous Duellist: Any Combat Phase Pick an enemy unit that has no more than 1 model and is in combat with this unit to be the target. Roll 2D6. If the roll equals or exceeds the target's Control characteristic, for the rest of the turn, if this unit is in combat with the target when the target is picked to use a Fight ability, all of the target's attacks must target this unit.",
+      "restrictions": [],
+      "groupName": "Paragons of Murder"
+    },
+    {
+      "name": "Murder Manifested",
+      "cost": 0,
+      "effect": "Murder Manifested: Reaction: This unit used the 'Activate Place of Power' ability Apply the effect below instead of the effect of that 'Activate Place of Power' ability. \nRoll a dice. On a 1, inflict D3 mortal damage on this unit. On a 2+, if there are no friendly Avatars of Khaine on the battlefield, set up an Avatar of Khaine wholly within 12\" of this unit, visible to it and more than 9\" from all enemy units. This unit has summoned that Manifestation.",
+      "restrictions": [],
+      "groupName": "Paragons of Murder"
+    },
+    {
+      "name": "Loyal Unto Death",
+      "cost": 0,
+      "effect": "Loyal Unto Death: Deployment Phase Pick another friendly Daughters of Khaine Hero that has a Health characteristic that equals or exceeds this unit's Health characteristic to be the target. For the rest of the battle, if this unit is within the target's combat range when the target would be destroyed, the target is not destroyed and any remaining damage points inflicted on it have no effect. Then, Heal (D3) the target. Then, this unit is destroyed.",
+      "restrictions": [],
+      "groupName": "Paragons of Murder"
+    },
+    {
+      "name": "Honoured Among Sects",
+      "cost": 0,
+      "effect": "Honoured Among Sects: If this unit is anointed, the effect of all blessings from the 'Blessings of Khaine' ability apply to this unit as if they were active.",
+      "restrictions": [],
+      "groupName": "Paragons of Murder"
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Coven Zealots",
+      "cost": 0,
+      "effect": "Higher Purpose: Once Per Turn (Army), End of Any Turn Return D3 slain models to each friendly Daughters of Khaine Aelf Infantry unit.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Daughters of Khaine"
+    },
+    {
+      "name": "Arena Veterans",
+      "cost": 20,
+      "effect": "Graceful Elusion: For the rest of the phase, friendly Daughters of Khaine Aelf Infantry units have Ward (5+) until they have used a Fight ability",
+      "restrictions": [],
+      "groupName": "Battle Formations: Daughters of Khaine"
+    },
+    {
+      "name": "Coven of Blood",
+      "cost": 0,
+      "effect": "The Breath of Khaine: While each model in a friendly Daughters of Khaine unit is contesting an objective you control, those models are not visible to enemy models more than 9\" away.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Daughters of Khaine"
+    },
+    {
+      "name": "Frenzied Devotees",
+      "cost": 0,
+      "effect": "Heretic's Bane: Once Per Turn (Army), Start of Enemy Turn Pick an enemy Wizard or Priest on the battlefield to be the target. Roll a dice for each objective you control. For each 3+, subtract 1 from castitng rolls and chanting rolls for the target for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Daughters of Khaine"
+    },
+    {
+      "name": "Cold-Hearted Murderers",
+      "cost": 0,
+      "effect": "Bloody-Handed Worshippers: Reaction: You declared a Fight ability for an anointed unit Pick a friendly non-Hero Daughters of Khaine unit that has not used a Fight ability this turn and is within that anointed unit's combat range to the the target. The target  can be picked to use a Fight ability immediately after the Fight ability used by that anointed unit has been resolved. If it is picked to do so, the target's melee weapons have Crit (Auto-wound) for the rest of the turn. If the melee weapons already have Crit (Auto-wound), they have Crit (Mortal) for the rest of the turn instead.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Daughters of Khaine"
+    },
+    {
+      "name": "Fervent Ritualists",
+      "cost": 0,
+      "effect": "Final Frenzy: Once Per Turn (Army), End of Any Turn Pick each friendly Daughters of Khaine unit contesting an objective to be the targets. Return up to D3 slain models to each target that has a Health characteristic of up to 2.\nReturn up to 1 slain model to each target that that has a Health characteristic of 3 or more.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Daughters of Khaine"
+    }
+  ],
+  "boons": [
+    {
+      "name": "Ulguan Reactions",
+      "cost": 10,
+      "effect": "Ulguan Reactions: Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+      "restrictions": [],
+      "groupName": "Boons of Shadow"
+    },
+    {
+      "name": "Talismans of Shadow",
+      "cost": 10,
+      "effect": "Talismans of Shadow: Reaction: You declared a Spell, Prayer or Unbind ability for a unit within 3\" of this unit Spend 1 rage dice. If your opponent's fury level is lower than yours, they must increase their fury level by 1, to a maximum of 7. Then, add 1 to that casting roll, chanting roll or unbinding roll.",
+      "restrictions": [],
+      "groupName": "Boons of Shadow"
+    },
+    {
+      "name": "Tenebrous Aura",
+      "cost": 10,
+      "effect": "Tenebrous Aura: Start of Any Turn Pick an enemy unit in combat with this unit to be the target. For the rest of the turn:\n• The target cannot use Retreat abilities.\n• If an ability would heal or return any slain models to the target unit, that ability does not heal any damage points or return any slain models to it.",
+      "restrictions": [],
+      "groupName": "Boons of Shadow"
+    }
+  ],
+  "spellLores": [
+    {
+      "name": "Lore of Shadows",
+      "effect": ""
+    }
+  ],
+  "prayerLores": [
+    {
+      "name": "Prayers of the Khainite Cult",
+      "effect": ""
+    },
+    {
+      "name": "Bloodshadow Rites",
+      "effect": ""
+    }
+  ]
+}

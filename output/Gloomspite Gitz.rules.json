@@ -1,0 +1,123 @@
+{
+  "faction": "Gloomspite Gitz",
+  "battleTraits": [
+    {
+      "name": "The Faces of the Bad Moon",
+      "effect": "The Faces of the Bad Moon (Once Per Battle Round (Army), Start of Battle Round): If it is the first battle round, pick the starting face of the Bad Moon (Grinnin', Scowlin', Sulkin' Cacklin'). If it is not the first battle round, the face of the Bad Moon moves to the next face in the sequence."
+    },
+    {
+      "name": "Under the Light of the Bad Moon",
+      "effect": "Under the Light of the Bad Moon: During the battle, the effects below apply to friendly Gloomspite Gitz units based on the current face of the Bad Moon:\n*Frothing Zealots:* While the Bad Moon is Cacklin' or Grinnin', add 5 to the control scores of friendly non-Squig Moonclan units.\n*Spiderfang Venom:* While the Bad Moon is Cacklin' or Grinnin', combat attacks made by friendly Spiderfang units score critical hits on unmodified hit rolls of 5+. This ability also affects Companion weapons.\n*Moonlit Hide:* While the Bad Moon is Grinnin' or Scowlin', subtract 1 from the Rend characteristic of combat attacks that target friendly Troggoth units.\n*Lunar Squigs:* While the Bad Moon is Scowlin' or Sulkin', instead of rolling the dice to determine the Move characteristic of a friendly Squig unit, you can use a value of 4.\n*Sneaky Snarlfangs:* While the Bad Moon is Sulkin'' or Cacklin'', friendly Gitmob units can use Charge and Shoot abilities even if they used a Retreat ability in the same turn."
+    },
+    {
+      "name": "Creeping Gloom",
+      "effect": "Creeping Gloom (Once Per Turn (Army), Your Hero Phase): Until the start of your next turn, while friendly non-Monster non-War Machine Gloomspite Gitz units are wholly within 3\" of that terrain feature, they are not visible to enemy units more than 9\" away."
+    }
+  ],
+  "artefacts": [
+    {
+      "name": "The Clammy Cowl",
+      "cost": 20,
+      "effect": "The Clammy Cowl: Subtract 1 from hit rolls for attacks that target this unit.",
+      "restrictions": [],
+      "groupName": "Troglodytic Treasures"
+    },
+    {
+      "name": "Backstabber's Blade",
+      "cost": 0,
+      "effect": "Backstabber's Blade: Once Per Battle, End of Any Turn Pick an enemy Hero in combat with this unit to be the target. Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "restrictions": [],
+      "groupName": "Troglodytic Treasures"
+    },
+    {
+      "name": "Leering Gitshield",
+      "cost": 0,
+      "effect": "Leering Gitshield: Each time an unmodified hit roll for an attack that targets this unit is 1, inflict 1 mortal damage on the attacking unit after the Attack ability has been resolved.",
+      "restrictions": [],
+      "groupName": "Troglodytic Treasures"
+    }
+  ],
+  "heroicTraits": [
+    {
+      "name": "Loontouched",
+      "cost": 20,
+      "effect": "Loontouched: If this unit is not a Wizard, it has Wizard (1). Otherwise, add 1 to casting rolls for this unit.",
+      "restrictions": [],
+      "groupName": "Blessings of the Bad Moon"
+    },
+    {
+      "name": "The Clammy Hand",
+      "cost": 0,
+      "effect": "The Clammy Hand: Each time a friendly Gloomspite Gitz unit wholly within 12\" of this unit uses the 'Rally' command, you can make 3 additional rally rolls of D6.",
+      "restrictions": [],
+      "groupName": "Blessings of the Bad Moon"
+    },
+    {
+      "name": "Fight Another Day",
+      "cost": 0,
+      "effect": "Fight Another Day: Any Combat Phase If this unit is in combat, roll a dice. On a 3+, this unit can immediately use the 'Retreat' ability as if it were your movement phase without any mortal damage being inflicted on it.",
+      "restrictions": [],
+      "groupName": "Blessings of the Bad Moon"
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Squigalanche",
+      "cost": 0,
+      "effect": "Bouncing Fury: Each time a friendly Squig unit charges, add 1 to the Attacks characteristic of its Fang-filled Gobs, Massive Fang-filled Gobs or Huge Fang-filled Gobs for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Gloomspite Gitz"
+    },
+    {
+      "name": "Troggherd",
+      "cost": 0,
+      "effect": "Herd Healing: Each time a friendly Troggoth unit uses a Fight ability, after that ability has been resolved, Heal (D3) that unit.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Gloomspite Gitz"
+    },
+    {
+      "name": "Gitmob Pack",
+      "cost": 0,
+      "effect": "Git and Run: Your Movement Phase Pick a friendly Gitmob unit that is in combat to use this ability. Then, you can pick an enemy unit in combat with that Gitmob unit to be the target. The same enemy unit cannot be picked to be the target of this ability more than once per phase. If you picked a target, roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Then, the unit using this ability can move a distance up to its Move characteristic. It can move through the combat range of enemy units but cannot end that move in combat.\nKeywords: Core, Move, Retreat",
+      "restrictions": [],
+      "groupName": "Battle Formations: Gloomspite Gitz"
+    },
+    {
+      "name": "Gloomspite Horde",
+      "cost": 0,
+      "effect": "Spreading Loonacy: Once Per Turn (Army), End of Your Turn Pick up to 3 friendly non-Squig Moonclan or Spiderfang units in combat to be the targets. For each target:\n• Make a pile-in move with the target.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Gloomspite Gitz"
+    },
+    {
+      "name": "Sunbiter Pack",
+      "cost": 0,
+      "effect": "Extra Snappy: Once Per Turn (Army), Any Combat Phase Pick up to 3 friendly Gitmob units that charged this turn to be the targets. Add 1 to the Rend characteristic of Companion weapons used by the targets for the rest of turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Gloomspite Gitz"
+    },
+    {
+      "name": "Gittish Tide",
+      "cost": 0,
+      "effect": "Grots Upon Grots: Once Per Turn (Army), End of Any Turn Pick a friendly non-Squig Moonclan unit that is contesting an objective to be the target. For the rest of the turn, add 1 to the control score of the target unit for each model in that unit that is not contesting any objectives.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Gloomspite Gitz"
+    }
+  ],
+  "boons": [],
+  "spellLores": [
+    {
+      "name": "Lore of the Little Waaagh!",
+      "effect": ""
+    },
+    {
+      "name": "Lore of the Clammy Dank",
+      "effect": ""
+    },
+    {
+      "name": "Lore of Frazzlegit",
+      "effect": ""
+    }
+  ],
+  "prayerLores": []
+}

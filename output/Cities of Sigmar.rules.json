@@ -1,0 +1,184 @@
+{
+  "faction": "Cities of Sigmar",
+  "battleTraits": [
+    {
+      "name": "Form Up",
+      "effect": "Form Up (Start of Battle Round): For the rest of the battle round, the unit using this ability and the targets are under orders.\nDesigner's Note: *'Unit type' refers to the name of the warscroll (Core Rules, 4.0), e.g. 'Freeguild Cavalier-Marshal' or 'Cannonade Cogfort'.*"
+    },
+    {
+      "name": "Take Aim",
+      "effect": "Take Aim (Once Per Turn (Army), Your Shooting Phase): Pick 1 of that unit's ranged weapons. Add 1 to hit rolls for shooting attacks made with that weapon for the rest of the turn."
+    },
+    {
+      "name": "Sound the Attack",
+      "effect": "Sound the Attack (Once Per Turn (Army), Reaction: You declared a Charge ability for a unit that is under orders): You can change the lowest D6 in the charge roll to match the highest D6."
+    },
+    {
+      "name": "Into Them, You Dogs!",
+      "effect": "Into Them, You Dogs! (Once Per Turn (Army), Any Combat Phase): For the rest of the turn, the first time the field officer uses a Fight ability, you can pick a target that has not used a Fight ability this turn. That target is inspirited and the other target is emboldened.The inspirited target can be picked to use a Fight ability immediately after the Fight ability used by the field officer has been resolved. Then, if the emboldened target has not used a Fight ability this turn, it can be picked to use a Fight ability immediately after the inspirited target's Fight ability has been resolved."
+    },
+    {
+      "name": "Hurl Them Back!",
+      "effect": "Hurl Them Back! (One Per Turn (Army), Any Combat Phase): For the rest of the turn, add 1 to the Rend characteristic of that unit's melee weapons."
+    }
+  ],
+  "artefacts": [
+    {
+      "name": "The Last Blade of Embergard",
+      "cost": 0,
+      "effect": "The Last Blade of Embergard: Deployment Phase This unit can use this ability while it is in reserve. Pick 1 of this unit's non-Companion melee weapons. Add 2 to that weapon's Attacks characteristic and Rend characteristic for the rest of the battle.",
+      "restrictions": [],
+      "groupName": "Treasures of the Cities"
+    },
+    {
+      "name": "Bones of Saint Ignifus",
+      "cost": 0,
+      "effect": "Bones of Saint Ignifus: Reaction: You declared a Spell or Prayer ability for a visible unit that is wholly within 12\" of this unit and under orders Add 1 to the casting roll or chanting roll for that ability.",
+      "restrictions": [],
+      "groupName": "Treasures of the Cities"
+    },
+    {
+      "name": "The Sphere Celestial",
+      "cost": 0,
+      "effect": "The Sphere Celestial: Your Hero Phase If this unit is not in combat, pick a point on the battlefield within 1\" of this unit and more than 3\" from all other units (friendly and enemy) and terrain features to be the target point. Then, pick another visible friendly Cities of Sigmar Infantry or Cavalry Hero that is wholly within 18\" of this unit and not in combat to be the target unit. Remove this unit from the battlefield and set it up again within 1\" of the target unit and not in combat. Then, remove the target from the battlefield and set it up again within 1\" of the target point and not in combat. This unit and the target unit can use Move abilities in the following movement phase (this is an exception to Core Rules, 24.0).",
+      "restrictions": [],
+      "groupName": "Treasures of the Cities"
+    }
+  ],
+  "heroicTraits": [
+    {
+      "name": "Stentorian General",
+      "cost": 0,
+      "effect": "Stentorian General: Subtract 1 from ward rolls for enemy units while they are in combat with any visible friendly units that are wholly within 12\" of this unit and under orders.",
+      "restrictions": [],
+      "groupName": "Sentinels of Order"
+    },
+    {
+      "name": "Beloved Leader",
+      "cost": 0,
+      "effect": "Beloved Leader: Ignore negative modifiers to hit rolls and wound rolls applied by enemy abilities for attacks made by visible friendly units that are wholly within 12\" of this unit and under orders.",
+      "restrictions": [],
+      "groupName": "Sentinels of Order"
+    },
+    {
+      "name": "Grizzled Drillmaster",
+      "cost": 0,
+      "effect": "Grizzled Drillmaster: Other visible friendly units have Ward (6+) while they are wholly within 12\" of this unit and under orders.",
+      "restrictions": [],
+      "groupName": "Sentinels of Order"
+    },
+    {
+      "name": "Cosmopolitan Leader",
+      "cost": 20,
+      "effect": "Cosmopolitan Leader: Your Hero Phase Pick a friendly Cities of Sigmar Infantry or Cavalry unit wholly within 12\" of this unit to be the target. If this unit is Human, pick up to 3 eligible units to be the targets instead. Roll a dice. On a 3+, until the start of your next turn:\n• If the target is Human, add 1 to wound rolls for the target's combat attacks.\n• If the target is Duardin, add 1 to charge rolls for the target.\n• If the target is Aelf, add 3 to the target's control score.",
+      "restrictions": [],
+      "groupName": "Castelite Veterans"
+    },
+    {
+      "name": "Draw Steel!",
+      "cost": 0,
+      "effect": "Draw Steel!: Any Combat Phase If this unit charged this turn, pick a friendly Cities of Sigmar Human unit that charged this turn and is wholly within 12\" of this unit to be the target. Add 1 to the Attacks characteristic of the target's melee weapons for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Castelite Veterans"
+    },
+    {
+      "name": "Astute Tactician",
+      "cost": 0,
+      "effect": "Astute Tactician: Your Hero Phase Pick a friendly Cities of Sigmar unit wholly within 12\" of this unit to be the target. For the rest of the turn, add 1 to charge rolls for the target and add 2 to run rolls for the target.",
+      "restrictions": [],
+      "groupName": "Castelite Veterans"
+    },
+    {
+      "name": "Pious Veteran",
+      "cost": 0,
+      "effect": "Pious Veteran: Each time you pick targets while declaring a Prayer ability used by a friendly Cities of Sigmar Priest, if this unit is eligible to be picked, you can pick it to be an additional target",
+      "restrictions": [],
+      "groupName": "Sentinels of Order"
+    },
+    {
+      "name": "Bristling Attitude",
+      "cost": 0,
+      "effect": "Bristling Attitude: Reaction: Opponent declared a Charge ability for a visible unit within 12\" of this unit Spend any number of rage dice. If your opponent's fury level is lower than yours, they must increase their fury level by 1, to a maximum of 7. Then, roll X dice, where X is the number of rage dice spent. For each 3+, subtract 1 from the charge roll.",
+      "restrictions": [],
+      "groupName": "Sentinels of Order"
+    },
+    {
+      "name": "Cosmopolitan Leader",
+      "cost": 0,
+      "effect": "Cosmopolitan Leader: Your Hero Phase Pick up to 3 visible friendly non‑War Machine Sigmarite units wholly within 12\" of this unit to be the targets. Spend 1 rage dice for each target. If your opponent's fury level is lower than yours, they must increase their fury level by 1, to a maximum of 7. Then, add 1 to wound rolls for each target's combat attacks until the start of your next turn.",
+      "restrictions": [],
+      "groupName": "Sentinels of Order"
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Stalwart Guardians",
+      "cost": 0,
+      "effect": "To the Last: Each time a friendly unit that is under orders uses the 'Rally' command, you can make 3 additional rally rolls of D6.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Cities of Sigmar"
+    },
+    {
+      "name": "Collegiate Exemplars",
+      "cost": 0,
+      "effect": "Masters of the Arcane: Add 1 to arcane manipulation rolls and banishment rolls for friendly Wizards that are under orders.\nDesigner's Note: *Wizards in this battletome use arcane manipulation rolls for a variety of powerful effects.*",
+      "restrictions": [],
+      "groupName": "Battle Formations: Cities of Sigmar"
+    },
+    {
+      "name": "Zealous Hordes",
+      "cost": 0,
+      "effect": "Throngs of the Faithful: Once Per Turn (Army), Reaction: Your opponent declared a Fight ability. For the rest of the turn, add 1 to wound rolls for combat attacks made by friendly Sigmarite units that target the enemy unit using that Fight ability.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Cities of Sigmar"
+    },
+    {
+      "name": "Swift Reinforcements",
+      "cost": 0,
+      "effect": "Dawnbringer Crusade: Once Per Turn (Army), Your Hero Phase Pick a friendly non-Hero Cities of Sigmar Infantry unit wholly within friendly territory to use this ability. If that unit is in combat, it can move 6\". It can move through the combat ranges of enemy units but can only end that move in combat with units it was in combat with at the start of the move. It does not have to end the move in combat.\nIf that unit is not in combat, it can move 6\". It cannot move into combat during any part of that move.\nKeywords: Move",
+      "restrictions": [],
+      "groupName": "Battle Formations: Cities of Sigmar"
+    },
+    {
+      "name": "Veteran Cannoneers",
+      "cost": 40,
+      "effect": "Canny Crews: Once Per Turn (Army), Your Shooting Phase Pick up to 3 friendly Ironweld Great Cannon units to be the targets. For the rest of the turn, each time the target uses a Shoot ability, you can re-roll 1 hit roll, or 1 wound roll, or 1 random characteristic roll for the Damage characteristic",
+      "restrictions": [],
+      "groupName": "Battle Formations: Cities of Sigmar"
+    },
+    {
+      "name": "Fearless Exemplars",
+      "cost": 0,
+      "effect": "Front-Line Leader: Once Per Turn (Army), Your Hero Phase Pick a friendly Cities of Sigmar Human Infantry Hero to use this ability. Then, you can pick up to 1 friendly non-Hero Human Infantry unit and up to 1 friendly Human War Machine unit that are wholly within 12\" of that Hero to be the targets. While the targets are wholly within 12\" of that Hero, add 1 to the Rend characteristic of the target Infantry unit's melee weapons and the target War Machine unit's ranged weapons until the start of your next turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Cities of Sigmar"
+    },
+    {
+      "name": "Thrall Warhost",
+      "cost": 0,
+      "effect": "Have No Mercy: Once Per Turn (Army), Start of Battle Round Pick a visible enemy unit to be the target. Until the start of the next battle round, add 1 to wound rolls for combat attacks made by friendly Cities of Sigmar Aelf units that target that enemy unit while it is damaged or has had any models slain in the same turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Cities of Sigmar"
+    },
+    {
+      "name": "Grudgebound War Throng",
+      "cost": 0,
+      "effect": "I've Seen Worse and Killed Batter: Once Per Turn (Army), Enemy Combat Phase Pick an enemy unit that charged this turn and is in combat with any friendly Cities of Sigmar Duardin units that did not charge this turn to be the target. Roll a dice. On a 4+, other than the Companion weapon ability, weapon abilities for the target's combat attacks have no effect for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Cities of Sigmar"
+    }
+  ],
+  "boons": [],
+  "spellLores": [
+    {
+      "name": "Spells of the Collegiate Arcane",
+      "effect": ""
+    }
+  ],
+  "prayerLores": [
+    {
+      "name": "Scriptures of Sigmar",
+      "effect": ""
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "faction": "Flesh-eater Courts",
+  "battleTraits": [
+    {
+      "name": "Royal Blood",
+      "effect": "Royal Blood (Once Per Turn (Army), Your Hero Phase): Heal (D3) each target."
+    },
+    {
+      "name": "Summon Loyal Subjects",
+      "effect": "Summon Loyal Subjects (Once Per Turn (Army) Your Movement Phase): Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 6\" of a battlefield edge and more than 9\" from all enemy units."
+    },
+    {
+      "name": "Muster Guard",
+      "effect": "Muster Guard (Once Per Turn (Army), Your Movement Phase): For each target, pick 1 of the following:\n• Return up to 3 slain models to a friendly Serfs unit wholly within 12\" of it.\n• Return 1 slain model to a friendly Knights unit wholly within 12\" of it.\nThe same unit cannot have models returned to it by this ability more than once per turn."
+    },
+    {
+      "name": "Feeding Frenzy",
+      "effect": "Feeding Frenzy (Once Per Battle (Army), Any Combat Phase): For the rest of the turn, add 1 to the Attacks characteristic of melee weapons, including Companion weapons, used by friendly Flesh-eater Courts units while they are wholly within 12\" of the target."
+    },
+    {
+      "name": "A Kingdom Deluded",
+      "effect": "A Kingdom Deluded (Once Per Turn (Army), Start of Any Turn): On a delusion roll of 1-2, you must pick a different Delusion to the one you picked last turn. On a 3-4, you must pick the same Delusion as the one you picked last turn, even if it is on the warscroll of a unit that has been destroyed. In such cases, the effect of that Delusion applies as if the unit had not been destroyed. On a 5-6, you must pick a Delusion like you did in the first turn. For the rest of the turn, you believe the Delusion you picked."
+    }
+  ],
+  "artefacts": [
+    {
+      "name": "Fool's Cap",
+      "cost": 0,
+      "effect": "Fool's Cap: Any Movement Phase Pick a visible enemy unit within 12\" of this unit to be the target. Spend 1 rage dice. If your opponent's fury level is lower than yours, they must increase their fury level by 1, to a maximum of 7.\nThen, for the rest of the turn:\n• Add 1 to charge rolls for the target.\n• Each time the target uses a Charge ability, if possible, it must end the charge move within 1/2\" of this unit.\n• While the target is in combat with this unit, subtract 1 from hit rolls for the target's combat attacks that do not target this unit.",
+      "restrictions": [],
+      "groupName": "The Royal Treasury"
+    },
+    {
+      "name": "Flayed Flags",
+      "cost": 0,
+      "effect": "Flayed Flags: Your Hero Phase Pick an objective you do not control within 18\" of this unit to be the target. Until the start of your next turn, when resolving the damage sequence for enemy units contesting the target objective, your opponent cannot spend rage dice as part of the 'Fight Through the Pain' ability.",
+      "restrictions": [],
+      "groupName": "The Royal Treasury"
+    },
+    {
+      "name": "Ring of Nightmarish Visions",
+      "cost": 0,
+      "effect": "Ring of Nightmarish Visions: Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll a number of dice equal to your fury level. Add 1 to each roll if this unit charged this turn. For each 4+, inflict 1 mortal damage on the target.",
+      "restrictions": [],
+      "groupName": "The Royal Treasury"
+    },
+    {
+      "name": "Charnel Vestments",
+      "cost": 20,
+      "effect": "Charnel Vestments: If this unit is not a Priest, it has Priest (1). If this unit is already a Priest, add 1 to chanting rolls for this unit. If this unit is a Wizard, it cannot use Spell abilities and Prayer abilities in the same phase.",
+      "restrictions": [],
+      "groupName": "Royal Treasury"
+    },
+    {
+      "name": "The Grisly Pennant",
+      "cost": 10,
+      "effect": "The Grisly Pennant: Any Combat Phase If this unit charged this phase, pick an enemy unit in combat with it to be the target. Roll a dice. If the roll is greater than the target's control characteristic or is a 6, the following effects apply for the rest of the turn:\n• Subtract 1 from hit rolls for the target's combat attacks.\n• Add 1 to hit rolls for combat attacks made by friendly units that target that enemy unit.",
+      "restrictions": [],
+      "groupName": "Royal Treasury"
+    },
+    {
+      "name": "The Splintered Femur",
+      "cost": 0,
+      "effect": "The Splintered Femur: End of Your Turn Pick an enemy unit in combat with this unit to be the target. Roll a D3: On a 2+, pick 1 of the following:\n• Inflict an amount of mortal damage on the target equal to the roll.\n• Subtract 1 from the target's power level, to a minimum of 0, until the start of your next turn.\n• If the target is a Manifestation, it is banished and removed from play.",
+      "restrictions": [],
+      "groupName": "Royal Treasury"
+    }
+  ],
+  "heroicTraits": [
+    {
+      "name": "Cruel Taskmaster",
+      "cost": 0,
+      "effect": "Cruel Taskmaster: Your Charge Phase Pick a friendly non-Hero Flesh-eater Courts unit wholly within 12\" of this unit to be the target. For the rest of the turn, you can re-roll charge rolls for the target.",
+      "restrictions": [],
+      "groupName": "Royal Traits"
+    },
+    {
+      "name": "Stronger in Madness",
+      "cost": 10,
+      "effect": "Stronger in Madness: Ignore the first damage point that would be allocated to this unit each phase.\nIn addition, other than the Companion weapon ability, weapon abilities for combat attacks that target this unit have no effect.",
+      "restrictions": [],
+      "groupName": "Royal Traits"
+    },
+    {
+      "name": "Savage Beyond Reason",
+      "cost": 40,
+      "effect": "Savage Beyond Reason: Add 1 to the Attacks characteristic of this unit's melee weapons, including Companion weapons, if it did not use a Fight ability in the previous turn. Add 2 to the Attacks characteristic of those weapons instead while this unit has not used a Fight ability this battle.",
+      "restrictions": [],
+      "groupName": "Royal Traits"
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Royal Menagerie",
+      "cost": 0,
+      "effect": "Indulge, My Pretties: While a friendly non-Hero Flesh-eater Courts Monster or Beast is wholly within 12\" of any friendly Flesh-eater Courts Heroes:\n• That non-Hero can use a Rampage ability on its warscroll even if that ability has already been used by another friendly Monster in the same turn.\n• If that non-Hero unit charged in the same turn and the unmodified charge roll was 9+, it has Strike-first for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Flesh-eater Courts"
+    },
+    {
+      "name": "Knightly Echelon",
+      "cost": 0,
+      "effect": "Sound the Charge: Add 1 to the Rend characteristic of melee weapons used by friendly Knights that charged in the same turn while they are wholly within 12\" of any friendly Flesh-eater Courts Heroes.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Flesh-eater Courts"
+    },
+    {
+      "name": "The Royal Hunt",
+      "cost": 0,
+      "effect": "Like Snapping Hounds: Once Per Turn (Army), End of Any Turn Pick each friendly Serfs unit in combat to be the targets. For each target:\n• Make a pile-in move.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Flesh-eater Courts"
+    },
+    {
+      "name": "Lords of the Manor",
+      "cost": 0,
+      "effect": "Raise the Banners: Each time another ability returns at least 1 slain model to a friendly unit that is not in combat, after that ability has been resolved, if that unit is a Serfs unit, you can return 1 additional slain model to it, and if it is a Knights unit, roll a dice. On a 4+, you can return 1 additional slain model to it.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Flesh-eater Courts"
+    },
+    {
+      "name": "Impassioned Serfs",
+      "cost": 0,
+      "effect": "Overwhelming Hordes: Any Combat Phase Pick a friendly Serfs unit that did not charge this turn and is in combat to use this ability, then pick an enemy unit in combat with that Serfs unit to be the target. The target cannot make pile-in moves for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Flesh-eater Courts"
+    },
+    {
+      "name": "Questing Courtiers",
+      "cost": 0,
+      "effect": "The Blessing of the Chalice: Friendly Flesh-eater Courts Heroes have Ward (5+) if they have destroyed a unit this battle.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Flesh-eater Courts"
+    }
+  ],
+  "boons": [],
+  "spellLores": [
+    {
+      "name": "Lore of Madness",
+      "effect": ""
+    }
+  ],
+  "prayerLores": [
+    {
+      "name": "Rites of Delusion",
+      "effect": ""
+    }
+  ]
+}

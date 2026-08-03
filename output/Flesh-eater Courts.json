@@ -1,0 +1,1578 @@
+[
+  {
+    "name": "Abhorrant Ghoul King",
+    "faction": "Flesh-eater Courts",
+    "points": 110,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Bloodstained Talons and Fangs",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Vassals, to Arms!: Once Per Turn (Army), Reaction: You declared a Fight ability for this unit Pick a friendly Serfs unit that has not used a Fight ability this turn and is within this unit's combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to wound rolls for the target's attacks for the rest of the turn.",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "FLESH-EATER COURTS",
+      "ABHORRANT",
+      "FLY",
+      "WIZARD (1)",
+      "WARD (6+)",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Abhorrant Ghoul King on Royal Terrorgheist",
+    "faction": "Flesh-eater Courts",
+    "points": 400,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 16,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Death Shriek",
+        "models": "",
+        "attacks": "1",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D6"
+      },
+      {
+        "name": "Gory Talons and Fangs",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Terrorgheist's Fanged Maw",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3+3"
+      },
+      {
+        "name": "Terrorgheist's Skeletal Talons",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Necromantic Limits: This unit's Terrorgheist's Skeletal Talons have a maximum Attacks characteristic of 10.\nWhile this unit has 10 or more damage points, the Attacks characteristic of its Terrorgheist's Skeletal Talons is 4.\nWicked Predator: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. For each champion, standard bearer, and musician in the target unit, add 1 to the Attacks characteristic of this unit's Terrorgheist's Skeletal Talons, to a maximum of 10, for the rest of the phase. Those additional attacks must target that enemy unit.\nFerocious Hunger: Once Per Turn (Army), Any Combat Phase Roll a dice. On a 3+, add 1 to hit rolls for attacks made with this unit's Companion melee weapons for the rest of the turn.\nKeywords: Rampage",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "MONSTER",
+      "FLESH-EATER COURTS",
+      "ABHORRANT",
+      "FLY",
+      "WIZARD (1)",
+      "WARD (6+)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Abhorrant Ghoul King on Royal Zombie Dragon",
+    "faction": "Flesh-eater Courts",
+    "points": 400,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 16,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Gory Talons and Fangs",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Draconic Jaws",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "4"
+      },
+      {
+        "name": "Draconic Claws",
+        "models": "",
+        "attacks": "7",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Baneful Breath",
+        "models": "",
+        "attacks": "D6",
+        "hit": "2",
+        "wound": "4",
+        "rend": "1",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Necromantic Limits: This unit's Draconic Claws have a maximum Attacks characteristic of 10.\nWhile this unit has 10 or more damage points, the Attacks characteristic of its Draconic Claws is 5.\nMonstrous Hunger: While they are wholly within 12\" of this unit, friendly non-Hero Flesh-eater Courts Monsters can use Charge abilities even if they used a Run ability in the same turn.\nDraconic Terror: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll a dice. If the roll exceeds the target's Control characteristic, the target cannot use commands for the rest of the turn.\nKeywords: Rampage",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "MONSTER",
+      "FLESH-EATER COURTS",
+      "ABHORRANT",
+      "FLY",
+      "WIZARD (1)",
+      "WARD (6+)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Abhorrant Gorewarden",
+    "faction": "Flesh-eater Courts",
+    "points": 150,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 7,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Gory Talons and Fangs",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Lord of the Marches: Deployment Phase Pick this unit and up to 2 friendly Flesh-eater Courts units in this unit's regiment that have not been deployed to be the targets. Set up the target units in reserve patrolling the borders. They have now been deployed.\nKeywords: Deploy\nTrespassers!: Your Movement Phase Pick this unit if it is patrolling the borders, then pick an enemy unit to be the target. Set up this unit more than 6\" from the target and more than 9\" from all other enemy units. Then, set up the units that were patrolling the borders with this unit wholly within 12\" of this unit and more than 9\" from all enemy units.\nKeywords: Core",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "FLESH-EATER COURTS",
+      "ABHORRANT",
+      "FLY",
+      "WIZARD (1)",
+      "WARD (6+)",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Anvil of Apotheosis: Flesh-eater Courts Hero",
+    "faction": "Flesh-eater Courts",
+    "points": 0,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Sharpened Talons and Fangs",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Nightshrieker's Claws and Teeth",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Colony of Bats",
+        "models": "",
+        "attacks": "2D6",
+        "hit": "3",
+        "wound": "5",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Fearsome Scream",
+        "models": "",
+        "attacks": "1",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D6"
+      },
+      {
+        "name": "Winged Abomination's Maw",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3+3"
+      },
+      {
+        "name": "Diseased Breath",
+        "models": "",
+        "attacks": "D6",
+        "hit": "2",
+        "wound": "4",
+        "rend": "1",
+        "damage": "3"
+      },
+      {
+        "name": "Corpse-beast's Maw",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "4"
+      },
+      {
+        "name": "Corpse-beast's Talons",
+        "models": "",
+        "attacks": "7",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Winged Abomination's Talons",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Vile Exhalation",
+        "models": "",
+        "attacks": "D3+3",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Tainted Talons and Fangs",
+        "models": "",
+        "attacks": "5",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Corpse-beast's Talons is 5.\nBattle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Winged Abomination's Talons is 4.\nBlind to the World: Subtract 1 from wound rolls for shooting attacks that target this unit.\nFar-Travelling Sellsword: When this unit uses the 'Run' ability, if you roll a 1-3 when determining the distance this unit can move, you can use a value of 4 instead.\nTerrifyingly Regal: Add 10 to this unit's control score while it is contesting an objective that is not being contested by any other friendly units.\nBlessed by Ushoran: Subtract 1 from ward rolls for enemy units while they are in combat with this unit.\nOld Valour Wound: Ignore positive modifiers to hit rolls for this unit's attacks.\nCourt Pariah: This unit has a maximum control score of 1.\nFrenzied Butcher: This unit cannot use commands while it is in combat.\nTilting at Windmills: In your charge phase, if this unit is not in combat and there is an enemy unit within 12\" of it, this unit must use a Charge ability, and if the charge roll would allow it to end the move within 1/2\" of an enemy unit, it must do so.\nRegal Presence: Subtract 3 from the control scores of enemy units while they are in combat with this unit.\nPowerful Maw: Once Per Turn (Army), End of Any Turn Pick an enemy Monster in combat with this unit to be the target. You and your opponent must each roll 2D6. If you roll higher, inflict an amount of mortal damage on the target equal to the difference between your roll and your opponent's roll.\nKeywords: Rampage\nMemories of Hate: While this unit has 10 or more damage points:\n• Add 2 to the Attacks characteristic of this unit's Companion melee weapons.\n• Subtract 1 from save rolls for this unit.\nInfested Corpse: If this unit is destroyed, before removing it from play, roll a D3 for each enemy unit in combat with it. Of a 2+, inflict an amount of mortal damage on that unit equal to the roll.\nMagnificent Monstrosity: Once Per Turn (Army), Any Charge Phase If this unit charged this turn, pick each enemy unit in combat with it to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\nKeywords: Rampage\nInfectious Mania: Reaction: Opponent declared a command for a unit in combat with this unit Roll a dice. On a 5+, the command has no effect, it still counts as having been used, and the command points spent to use it are still lost.\nAgitator to the Masses: Once Per Battle (Army), Your Movement Phase Pick a visible friendly Serfs or Knights unit wholly within 12\" of this unit to be the target. Roll a number of dice equal to the number of models in the target unit that have been slain. For each 4+, return 1 slain model to the target unit. No more than 3 slain models can be returned to a friendly Knights unit by this ability.\nSorcerer-Royarch: Add 1 to casting rolls and banishment rolls for this unit.\nCannibal Saint: Add 1 to chanting rolls and banishment rolls for this unit.",
+    "categories": [
+      "HERO",
+      "INFANTRY",
+      "DEATH",
+      "FLESH-EATER COURTS",
+      "WARD (6+)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Abhorrant Cardinal",
+    "faction": "Flesh-eater Courts",
+    "points": 130,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Cursed Crosier",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "-",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Insular Contemplations: While this unit is more than 6\" from all enemy units, add 1 to chanting rolls for this unit.",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "FLESH-EATER COURTS",
+      "WARD (6+)",
+      "INFANTRY",
+      "PRIEST (1)",
+      "ABHORRANT"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Crypt Haunter Courtier",
+    "faction": "Flesh-eater Courts",
+    "points": 120,
+    "models": 1,
+    "move": "7\"",
+    "wounds": 6,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Massive Bone Club and Rancid Talons",
+        "models": "",
+        "attacks": "5",
+        "hit": "4",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Knightly Exemplar: Reaction: You declared a Fight ability for this unit Pick a friendly Crypt Horrors unit that has not used a Fight ability this turn and is within this unit's combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target's attacks for the rest of the turn.\nBlessed Blood: Your Hero Phase Heal (D3) this unit.",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "FLESH-EATER COURTS",
+      "WARD (6+)",
+      "INFANTRY",
+      "NOBLE"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Crypt Infernal Courtier",
+    "faction": "Flesh-eater Courts",
+    "points": 140,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 6,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Piercing Death Screech",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "3",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Skewering Claws",
+        "models": "",
+        "attacks": "5",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Mind-shattering Cacophony: Once Per Turn (Army), Your Shooting Phase Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit's Piercing Death Screech to be the target. For the rest of the turn, add 1 to the Damage characteristic of ranged weapons used by friendly Crypt Flayers units for attacks that target that enemy unit.\nOn Winged Steeds: Once Per Turn (Army), Your Movement Phase Pick a friendly Crypt Flayers ability that used the 'To Our Liege' ability this turn and is wholly within 9\" of this unit to be the target. The target can immediately move D3\" but cannot end that move in combat.",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "FLESH-EATER COURTS",
+      "WARD (6+)",
+      "INFANTRY",
+      "NOBLE",
+      "FLY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Grand Justice Gormayne",
+    "faction": "Flesh-eater Courts",
+    "points": 130,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Gore-streaked Gavel",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "3",
+        "rend": "-",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Arrest those Miscreants: Your Charge Phase Pick a visible enemy unit within 18\" of this unit to be the target. Roll a dice. On a 3+, until the start of your next turn, the target has Strike-last while it is combat with any friendly Flesh-eater Courts Heroes and any friendly Serfs or Knights units.",
+    "categories": [
+      "DEATH",
+      "UNIQUE",
+      "HERO",
+      "FLESH-EATER COURTS",
+      "ABHORRANT",
+      "INFANTRY",
+      "WARD (6+)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Marrowscroll Herald",
+    "faction": "Flesh-eater Courts",
+    "points": 100,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Bone Scythe",
+        "models": "",
+        "attacks": "5",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Infected: Reaction: Opponent declared a command, Spell ability or Prayer ability for an Infected unit Roll a dice. On a 5+:\n• If they declared a command, that command has no effect, it still counts as having been used and the command points spent to use the command are still lost.\n• If they declared a Spell or Prayer ability, that spell or prayer fails.\nThis reaction can be used more than once per phase but only once per command, Spell ability or Prayer ability.\nThe King's Entreaty: Once Per Turn (Army), Enemy Charge Phase Pick a visible enemy unit within 6\" of this unit to be the target. Roll a dice. On a 3+, your opponent must decide whether the target will accept or reject the entreaty offered by this unit.\n*Accept:* The target has the Infected keyword for the rest of the battle.\n*Reject:* The target has Strike-last for the rest of the turn.",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "FLESH-EATER COURTS",
+      "WARD (6+)",
+      "INFANTRY",
+      "NOBLE"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Nagash, Supreme Lord of the Undead",
+    "faction": "Flesh-eater Courts",
+    "points": 750,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 18,
+    "save": 3,
+    "ward": 5,
+    "weapons": [
+      {
+        "name": "Alakanash, the Staff of Power",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "D6"
+      },
+      {
+        "name": "Zefet-nebtar, the Mortis Blade",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 10 or more damage points, subtract 3 from its power level.\nThe Staff of Power: Add 2 to casting rolls for this unit while it has not miscast any spells this turn. If this unit miscasts a spell, ignore the restriction that would stop this unit from casting any more spells this turn.\nHand of Dust: Once Per Turn (Army), End of Any Turn Pick a visible enemy Hero or Monster in combat with this unit to be the target. Hide a dice in one of your hands or under one of two appropriate containers. Your opponent must pick one of your hands or containers. If they pick the one hiding the dice, this ability has no effect. If they pick the empty one, the target is automatically destroyed.\nKeywords: Rampage\nSupreme Lord of the Undead: Once Per Battle, Your Hero Phase Pick a friendly non-Hero non-Unique Death unit that has been destroyed to be the target. Set up a replacement unit identical to the target wholly within 12\" of this unit and more than 9\" from all enemy units.\nInvocation of Nagash: Your Hero Phase This unit can cast this spell more than once per phase. Pick a visible unit wholly within 18\" of this unit that has not been picked to be the target of this spell this turn to be the target, then make a casting roll of 2D6. If the target is an enemy unit, inflict D3 mortal damage on it. If the target is a friendly Death unit, pick 1 of the following effects:\n• Return a number of slain models to the target unit with a combined Health characteristic of up to 3.\n• The target has Ward (5+) until the start of your next turn.\nKeywords: Spell\nUtter Contempt: This unit ignores the effects of Delusion abilities.",
+    "categories": [
+      "DEATH",
+      "UNIQUE",
+      "HERO",
+      "MONSTER",
+      "WIZARD (9)",
+      "WARD (5+)",
+      "FLY",
+      "WARMASTER",
+      "FLESH-EATER COURTS"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Royal Decapitator",
+    "faction": "Flesh-eater Courts",
+    "points": 100,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Headsman's Axe",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Executioner's Entourage: Reaction: You declared a Fight ability for this unit Pick a friendly Serfs unit that has not used a Fight ability this turn and is within this unit's combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, the target's melee weapons have Crit (2 Hits) for the rest of the turn.\nOff With Their Head!: Reaction: You declared a Fight ability for this unit Immediately after that Fight ability has been resolved, pick an enemy Infantry Hero in combat with this unit to be the target. Roll 2D6. If the roll exceeds the target's Health characteristic, it is automatically destroyed.",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "FLESH-EATER COURTS",
+      "WARD (6+)",
+      "INFANTRY",
+      "NOBLE"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Royal Decapitator (Scourge of Aqshy)",
+    "faction": "Flesh-eater Courts",
+    "points": 100,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Headsman's Axe",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Executioner and Enforcer: Once Per Turn (Army), Your Hero Phase Pick another friendly Flesh-eater Courts Infantry unit within this unit's combat range to be the target. 1 model in the target unit is automatically slain. Then, until the start of your next turn, ignore the first damage point that would be allocated to each visible friendly Flesh-eater Courts unit in each phase while it is wholly within 12\" of this unit.\nHeads on Pikes: Once Per Turn (Army), End of Any Turn If any damage points were allocated to an enemy Hero by this unit's combat attacks this turn and that enemy Hero has been destroyed, pick an objective or terrain feature within 6\" of this unit to be the target. Spend 1 rage dice. If your opponent's fury level is lower than yours, they must increase their fury level by 1, to a maximum of 7. Then, for the rest of the turn, subtract 5 from the control scores of enemy units while they are contesting the target objective or terrain feature.",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "FLESH-EATER COURTS",
+      "WARD (6+)",
+      "INFANTRY",
+      "NOBLE"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Ushoran, Mortarch of Delusion",
+    "faction": "Flesh-eater Courts",
+    "points": 450,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 16,
+    "save": 4,
+    "ward": 5,
+    "weapons": [
+      {
+        "name": "Sceptre of the Carrion King",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3+3"
+      },
+      {
+        "name": "Monstrous Talons",
+        "models": "",
+        "attacks": "8",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Monstrous Talons is 4.\nShroudcage Fragment: Once Per Turn (Army), Any Combat Phase Pick up to 3 enemy units in combat with this unit to be the targets. Roll a dice for each target. If the roll exceeds the target's Control characteristic, the target has Strike-last for the rest of the turn.\nKeywords: Rampage\nEpicentre of Delusion: Each time you make a delusion roll, you can add 1 or subtract 1 from the roll.\nGlimpse of Delusion: Your Hero Phase Pick a visible enemy model within 18\" of this unit to be the target, pick another enemy unit that is visible to the target and within the target's combat range to be the victim, then make a casting roll of 2D6. You can only pick the target's unit to be the victim if that unit has 2 or more models. Pick 1 of the target's melee weapons. Immediately resolve combat attacks made with that weapon against the victim.\nKeywords: Spell",
+    "categories": [
+      "DEATH",
+      "UNIQUE",
+      "HERO",
+      "MONSTER",
+      "WARD (5+)",
+      "WARMASTER",
+      "FLESH-EATER COURTS",
+      "WIZARD (2)",
+      "ABHORRANT"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Varghulf Courtier",
+    "faction": "Flesh-eater Courts",
+    "points": 100,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 8,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Immense Claws",
+        "models": "",
+        "attacks": "7",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Dagger-like Fangs",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Victory Feast: End of Any Turn If any models were slain by this unit this turn:\n• Heal (D6) this unit.\n• If this unit is in combat, this unit can immediately move 10\". It can move through the combat ranges of enemy units but must end that move in combat with the units it was already in combat with at the start of the move.\n• If that unit is not in combat, this unit can immediately move 10\" but cannot end that move in combat.",
+    "categories": [
+      "DEATH",
+      "FLESH-EATER COURTS",
+      "WARD (6+)",
+      "BEAST"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Varghulf Courtier (Scourge of Aqshy)",
+    "faction": "Flesh-eater Courts",
+    "points": 110,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 8,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Immense Claws",
+        "models": "",
+        "attacks": "7",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Dagger-like Fangs",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "The Howling Saint: Once Per Turn (Army), Any Hero Phase Pick a visible friendly Flesh-eater Courts Priest wholly within 18\" of this unit to be the target. The next time the target uses a Prayer ability this phase:\n• When picking targets for that prayer, you can measure range and visibility from this unit instead of from the chanter.\n• Add 1 to the chanting roll for that prayer.\nBeast: This unit has a maximum control score of 1.",
+    "categories": [
+      "DEATH",
+      "FLESH-EATER COURTS",
+      "WARD (6+)",
+      "BEAST"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Abhorrant Archregent",
+    "faction": "Flesh-eater Courts",
+    "points": 140,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 6,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Gory Talons and Fangs",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Countless Servants: Once Per Turn (Army), Your Hero Phase Pick a friendly Serfs or Knights unit wholly within 12\" of this unit to be the target. Roll a dice. On a 3+:\n• If the target is a Serfs unit, return up to 3 slain models to it.\n• If the target is a Knights unit, return 1 slain model to it.\nKeywords: Core",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "FLESH-EATER COURTS",
+      "WARD (6+)",
+      "INFANTRY",
+      "ABHORRANT",
+      "WIZARD (1)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Battle Traits: Flesh-eater Courts",
+    "faction": "Flesh-eater Courts",
+    "points": 0,
+    "models": 1,
+    "move": "",
+    "wounds": 1,
+    "save": "",
+    "ward": 0,
+    "weapons": [],
+    "abilities": "Royal Blood: Once Per Turn (Army), Your Hero Phase Pick any number of friendly Abhorrants to be the targets. Heal (D3) each target.\nSummon Loyal Subjects: Once Per Turn (Army) Your Movement Phase Pick a friendly Abhorrant to use this ability, then pick a friendly Serfs or Knights unit that has been destroyed to be the target. Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 6\" of a battlefield edge and more than 9\" from all enemy units.\nMuster Guard: Once Per Turn (Army), Your Movement Phase Pick any number of friendly Nobles to be the targets. For each target, pick 1 of the following:\n• Return up to 3 slain models to a friendly Serfs unit wholly within 12\" of it.\n• Return 1 slain model to a friendly Knights unit wholly within 12\" of it.\nThe same unit cannot have models returned to it by this ability more than once per turn.\nFeeding Frenzy: Once Per Battle (Army), Any Combat Phase Pick a friendly Flesh-eater Courts Hero in combat to be the target. For the rest of the turn, add 1 to the Attacks characteristic of melee weapons, including Companion weapons, used by friendly Flesh-eater Courts units while they are wholly within 12\" of the target.\nA Kingdom Deluded: Once Per Turn (Army), Start of Any Turn You must use this ability at the start of each turn. If it is the first turn of the battle, pick a Delusion from these battle traits or, unless otherwise specified, from the warscroll of a friendly unit on the battlefield. If it is not the first turn, make a delusion roll of D6. On a delusion roll of 1-2, you must pick a different Delusion to the one you picked last turn. On a 3-4, you must pick the same Delusion as the one you picked last turn, even if it is on the warscroll of a unit that has been destroyed. In such cases, the effect of that Delusion applies as if the unit had not been destroyed. On a 5-6, you must pick a Delusion like you did in the first turn. For the rest of the turn, you believe the Delusion you picked.",
+    "categories": [],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Crypt Horrors",
+    "faction": "Flesh-eater Courts",
+    "points": 160,
+    "models": 3,
+    "move": "7\"",
+    "wounds": 4,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Club and Septic Talons",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Holy Blades of Bone: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll 2 dice for each model in this unit. Add 2 to each roll if the target is Cavalry. For each 5+, inflict 1 mortal damage on the target.",
+    "categories": [
+      "WARD (6+)",
+      "DEATH",
+      "CHAMPION",
+      "FLESH-EATER COURTS",
+      "KNIGHTS",
+      "INFANTRY"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Crypt Horrors",
+    "faction": "Flesh-eater Courts",
+    "points": 100,
+    "models": 3,
+    "move": "7\"",
+    "wounds": 4,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Club and Septic Talons",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Holy Blades of Bone: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll 2 dice for each model in this unit. Add 2 to each roll if the target is Cavalry. For each 5+, inflict 1 mortal damage on the target.",
+    "categories": [
+      "WARD (6+)",
+      "DEATH",
+      "CHAMPION",
+      "FLESH-EATER COURTS",
+      "KNIGHTS",
+      "INFANTRY"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Crypt Flayers",
+    "faction": "Flesh-eater Courts",
+    "points": 90,
+    "models": 3,
+    "move": "12\"",
+    "wounds": 4,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Piercing Talons",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Death Scream",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "3",
+        "rend": "2",
+        "damage": "1"
+      }
+    ],
+    "abilities": "To Our Liege: Once Per Turn (Army), Your Movement Phase If this unit is not in combat, remove it from the battlefield and set it up again wholly within 12\" of a friendly Flesh-eater Courts Hero and more than 9\" from all enemy units.",
+    "categories": [
+      "WARD (6+)",
+      "DEATH",
+      "CHAMPION",
+      "FLY",
+      "FLESH-EATER COURTS",
+      "KNIGHTS",
+      "INFANTRY"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Crypt Flayers",
+    "faction": "Flesh-eater Courts",
+    "points": 160,
+    "models": 3,
+    "move": "12\"",
+    "wounds": 4,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Piercing Talons",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Death Scream",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "3",
+        "rend": "2",
+        "damage": "1"
+      }
+    ],
+    "abilities": "To Our Liege: Once Per Turn (Army), Your Movement Phase If this unit is not in combat, remove it from the battlefield and set it up again wholly within 12\" of a friendly Flesh-eater Courts Hero and more than 9\" from all enemy units.",
+    "categories": [
+      "WARD (6+)",
+      "DEATH",
+      "CHAMPION",
+      "FLY",
+      "FLESH-EATER COURTS",
+      "KNIGHTS",
+      "INFANTRY"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Crypt Ghouls",
+    "faction": "Flesh-eater Courts",
+    "points": 140,
+    "models": 20,
+    "move": "6\"",
+    "wounds": 1,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Sharpened Teeth and Filthy Claws",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Royal Approval: Add 1 to the Rend characteristic of this unit's melee weapons while it is wholly within 12\" of any friendly Nobles or Abhorrants.",
+    "categories": [
+      "WARD (6+)",
+      "DEATH",
+      "CHAMPION",
+      "FLESH-EATER COURTS",
+      "INFANTRY",
+      "SERFS"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Cryptguard",
+    "faction": "Flesh-eater Courts",
+    "points": 120,
+    "models": 10,
+    "move": "6\"",
+    "wounds": 1,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Cursed Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Royal Bodyguard: While any friendly non-Monster Flesh-eater Courts Heroes are wholly within this unit's combat range, both this unit and those Heroes have Ward (5+).\nElite Guardians: Once Per Turn (Army), Any Combat Phase If this unit is in combat with any enemy units that charged this turn, roll a dice. On a 3+, for the rest of the turn, this unit has Strike-first but ward rolls cannot be made for it.",
+    "categories": [
+      "WARD (6+)",
+      "DEATH",
+      "CHAMPION",
+      "FLESH-EATER COURTS",
+      "STANDARD BEARER (1/10)",
+      "MUSICIAN (1/10)",
+      "SERFS",
+      "INFANTRY"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Morbheg Knights",
+    "faction": "Flesh-eater Courts",
+    "points": 170,
+    "models": 3,
+    "move": "12\"",
+    "wounds": 4,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Nightshrieker's Claws and Teeth",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Grisly Lance",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Predator Knights: Once Per Turn (Army), End of Enemy Turn Pick an enemy unit in combat with this unit to be the target. Inflict D3 mortal damage on the target. Then, this unit can use a Retreat ability as if it were your movement phase. No mortal damage is inflicted on this unit by that Retreat ability.",
+    "categories": [
+      "WARD (6+)",
+      "DEATH",
+      "CHAMPION",
+      "FLY",
+      "CAVALRY",
+      "STANDARD BEARER (1/3)",
+      "MUSICIAN (1/3)",
+      "FLESH-EATER COURTS",
+      "KNIGHTS"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Royal Beastflayers",
+    "faction": "Flesh-eater Courts",
+    "points": 110,
+    "models": 10,
+    "move": "6\"",
+    "wounds": 1,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Beastflayer Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Hunter's Instincts: Enemy Monsters cannot use Rampage abilities while they are in combat with this unit. In addition, subtract 1 from the Damage characteristic of melee weapons used by enemy Monsters and Beast units while they are in combat with this unit.",
+    "categories": [
+      "WARD (6+)",
+      "DEATH",
+      "FLESH-EATER COURTS",
+      "INFANTRY",
+      "SERFS",
+      "CHAMPION (1/10)"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Royal Terrorgheist",
+    "faction": "Flesh-eater Courts",
+    "points": 240,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 14,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Death Shriek",
+        "models": "",
+        "attacks": "1",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D6"
+      },
+      {
+        "name": "Terrorgheist's Fanged Maw",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3+3"
+      },
+      {
+        "name": "Terrorgheist's Skeletal Talons",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Shriek of Terror: Once Per Turn (Army), Any Combat Phase Pick an enemy Infantry unit in combat with this unit to be the target. Roll a dice for each model in the target unit. For each 6, inflict 1 mortal damage on the target. If 3 or more damage points are allocated to the target by this ability, subtract 1 from hit rolls for the target's attacks for the rest of the turn.\nKeywords: Rampage\nNecromantic Limits: This unit's Skeletal Talons have a maximum Attacks characteristic of 10.\nWhile this unit has 10 or more damage points, the Attacks characteristic of its Skeletal Talons is 4.\nWicked Predator: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. For each champion, standard bearer, and musician in the target unit, add 1 to the Attacks characteristic of this unit's Terrorgheist's Skeletal Talons, to a maximum of 10, for the rest of the phase. Those additional attacks must target that enemy unit.",
+    "categories": [
+      "DEATH",
+      "MONSTER",
+      "FLESH-EATER COURTS",
+      "FLY",
+      "WARD (6+)"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Royal Zombie Dragon",
+    "faction": "Flesh-eater Courts",
+    "points": 260,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 14,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Baneful Breath",
+        "models": "",
+        "attacks": "D6",
+        "hit": "2",
+        "wound": "4",
+        "rend": "1",
+        "damage": "3"
+      },
+      {
+        "name": "Draconic Jaws",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "4"
+      },
+      {
+        "name": "Draconic Claws",
+        "models": "",
+        "attacks": "7",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Soaring Terror: Once Per Turn (Army), Any Combat Phase If this unit charged this turn, roll a dice. On a 3+, this unit can move 2D6\". It can pass through the combat ranges of enemy units but must end that move in combat. Then, pick an enemy unit that this unit passed across during that move. Inflict D3 mortal damage on that enemy unit.\nKeywords: Rampage\nOn Rotten Wings: Once Per Turn (Army), Your Movement Phase Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.\nNecromantic Limits: This unit's Draconic Claws have a maximum Attacks characteristic of 10.\nWhile this unit has 10 or more damage points, the Attacks characteristic of its Draconic Claws is 5.",
+    "categories": [
+      "DEATH",
+      "MONSTER",
+      "FLESH-EATER COURTS",
+      "WARD (6+)",
+      "FLY"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Crypt Ghast Courtier",
+    "faction": "Flesh-eater Courts",
+    "points": 80,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 4,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Bone Club and Filthy Claws",
+        "models": "",
+        "attacks": "5",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Marshal of the Peasantry: Reaction: You declared a Fight ability for this unit Pick a friendly Crypt Ghouls unit that has not used a Fight ability this turn and is within this unit's combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target's attacks for the rest of the turn.",
+    "categories": [
+      "HERO",
+      "INFANTRY",
+      "WARD (6+)",
+      "DEATH",
+      "FLESH-EATER COURTS",
+      "NOBLE"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "The Grymwatch",
+    "faction": "Flesh-eater Courts",
+    "points": 80,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 1,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Great Halberd",
+        "models": "",
+        "attacks": "4",
+        "hit": "2",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Knightly Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Knightly Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Knightly Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Knightly Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Knightly Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Knightly Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Quest to Slay the Monster: Any Combat Phase For the rest of the turn, while this unit is in combat with any enemy Monster or Beast units, it has Strike-first. However, for the rest of the turn, while it is in combat with any enemy Monster or Beast units, all of this unit's combat attacks must target an enemy Monster or Beast unit.",
+    "categories": [
+      "INFANTRY",
+      "UNIQUE",
+      "CHAMPION",
+      "WARD (6+)",
+      "DEATH",
+      "FLESH-EATER COURTS",
+      "SERFS"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "The Skinnerkin",
+    "faction": "Flesh-eater Courts",
+    "points": 80,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 2,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Butchering Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Butchering Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Butchering Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Butchering Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Butchering Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Prime Cuts: Each time a combat attack made by this unit scores a critical hit, give 1 prime cut point to this unit, to a maximum of 6.\nDinner is Served: End of Any Turn Pick a friendly Flesh-eater Courts Hero wholly within 12\" of this unit to be the target. Heal (X) the target, where X is the number of prime cut points this unit has. Then, reset this unit's prime cut points to 0.",
+    "categories": [
+      "INFANTRY",
+      "UNIQUE",
+      "CHAMPION",
+      "WARD (6+)",
+      "DEATH",
+      "FLESH-EATER COURTS",
+      "SERFS"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Charnel Throne",
+    "faction": "Flesh-eater Courts",
+    "points": 10,
+    "models": 1,
+    "move": "-",
+    "wounds": 10,
+    "save": 4,
+    "ward": 0,
+    "weapons": [],
+    "abilities": "Steward of the Realm: While this terrain feature has a Steward:\n• The Steward cannot use Move abilities.\n• Instead of measuring range or visibility to the Steward, measure to this terrain feature instead.\n• All attacks that would target the Steward target this terrain feature instead.\n• If this terrain feature is destroyed, before removing it from the battlefield, inflict D3 mortal damage on the Steward. Then, set up the Steward on the battlefield within 3\" of this terrain feature and not in combat. That unit is no longer the Steward. If it is not possible to set up the Steward, it is slain.\nReigning Champion: Your Hero Phase If this terrain feature does not have a Steward, pick a friendly Flesh-eater Courts Infantry Hero within 3\" of it and not in combat to be the target. Place the target on this terrain feature. The target is now the Steward (see 'Steward of the Realm').\nRuler of All They Survey: Your Movement Phase If this terrain feature has a Steward, pick a visible friendly non-Hero Flesh-eater Courts unit that is not in combat to be the target. The target can move D3\". If the target was set up this turn, it can move D6\" instead. It cannot move into combat during that move.\nDuty Calls: Your Movement Phase If this terrain feature has a Steward that was not placed on it this turn, set up the Steward on the battlefield wholly within 6\" of this terrain feature and not in combat. That unit is no longer the Steward.",
+    "categories": [
+      "DEATH",
+      "FACTION TERRAIN",
+      "FLESH-EATER COURTS"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Abhorrant Ghoul King (Scourge of Ghyran)",
+    "faction": "Flesh-eater Courts",
+    "points": 110,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Gory Talons and Fangs",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Long Live the King: If this unit would be destroyed, before removing it from play, friendly non-Unique Flesh-eater Courts units wholly within 12\" of this unit become enraged until the start of your next turn. Melee weapons used by friendly enraged units have Crit (Auto-wound) and score critical hits on unmodified hit rolls of 5+, even if this unit has been destroyed.\nThe King's Court: Add 1 to the Attacks characteristic of melee weapons used by other friendly non-Monster Flesh-eater Courts Heroes while they are wholly within 12\" of this unit. In addition, add 1 to the Attacks characteristic of this unit's melee weapons for each other friendly non-Monster Flesh-eater Courts Hero wholly within 12\" of this unit, to a maximum of +3.",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "FLESH-EATER COURTS",
+      "ABHORRANT",
+      "WIZARD (1)",
+      "WARD (6+)",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Abhorrant Gorewarden (Scourge of Ghyran)",
+    "faction": "Flesh-eater Courts",
+    "points": 130,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 7,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Gory Talons and Fangs",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Swooping Descent: Once Per Turn (Army), End of Enemy Turn Remove this unit from the battlefield, then set it up again more than 9\" from all enemy units and either:\n• Wholly within 6\" of the edge of the battlefield, or\n• Within 3\" of an objective you do not control.\nGlorious Charge: While this unit is within the combat range of a friendly Knights unit and has charged this turn, this unit has Ward (5+) and its Gory Talons and Fangs have Charge (+1 Damage).",
+    "categories": [
+      "DEATH",
+      "HERO",
+      "FLESH-EATER COURTS",
+      "ABHORRANT",
+      "FLY",
+      "WIZARD (1)",
+      "WARD (6+)",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "High Falconer Felgryn",
+    "faction": "Flesh-eater Courts",
+    "points": 120,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Carrion Flock",
+        "models": "",
+        "attacks": "1",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "D6"
+      },
+      {
+        "name": "Filthy Talons and Fangs",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Be Mine Eyes: Your Hero Phase This unit's Grype is a token. If this unit's Grype is not next to an enemy unit, pick an enemy unit within 18\" of this unit and not in combat to be the target. Place this unit's Grype next to the target. If the target is destroyed while this unit's Grype is next to it, remove this unit's Grype from the battlefield.\nWinged Reconnoitrer: While this unit's Grype is next to an enemy unit, ward rolls cannot be made for damage points inflicted on that enemy unit by combat attacks made by this unit and friendly Serfs units.",
+    "categories": [
+      "DEATH",
+      "UNIQUE",
+      "HERO",
+      "FLESH-EATER COURTS",
+      "ABHORRANT",
+      "INFANTRY",
+      "WARD (6+)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Delusion Tracker",
+    "faction": "Flesh-eater Courts",
+    "points": 0,
+    "models": 1,
+    "move": "",
+    "wounds": 1,
+    "save": "",
+    "ward": 0,
+    "weapons": [],
+    "abilities": "",
+    "categories": [],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  }
+]

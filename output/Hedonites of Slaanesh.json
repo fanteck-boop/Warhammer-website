@@ -1,0 +1,1715 @@
+[
+  {
+    "name": "The Masque",
+    "faction": "Hedonites of Slaanesh",
+    "points": 120,
+    "models": 1,
+    "move": "8\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 4,
+    "weapons": [
+      {
+        "name": "Razor-edged Claws",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "The Endless Dance: Any Movement Phase Pick 1 of the following effects:\n\n\n*The Dance of Dreaming:* Pick a visible enemy unit within 6\" of this unit to be the target. For the rest of the turn, if the unmodified hit roll for an attack made by that enemy unit that targets this unit is 1-4, the attack fails and the attack sequence ends.\n\n\n*The Pavane of Slaanesh:* This unit can move 2D3\". It can move through the combat ranges of enemy units and can end that move in combat.\n\n\n*The Waltz of Lethargy:* Pick a visible enemy unit within 6\" of this unit to be the target. For the rest of the turn, the target cannot use commands while it is in combat with this unit.\nCaptive Audience: Enemy units cannot use Retreat abilities while they are in combat with this unit.",
+    "categories": [
+      "HERO",
+      "UNIQUE",
+      "CHAOS",
+      "DAEMON",
+      "HEDONITES OF SLAANESH",
+      "INFANTRY",
+      "WARD (4+)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Bladebringer, Herald on Exalted Chariot",
+    "faction": "Hedonites of Slaanesh",
+    "points": 130,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 12,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Steeds' Poisoned Tongues",
+        "models": "",
+        "attacks": "8",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Flensing Whips and Piercing Claws",
+        "models": "",
+        "attacks": "12",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Soulgorgers: Once Per Turn (Army), Your Movement Phase Pick up to 3 visible friendly non-Unique Hedonites of Slaanesh War Machines wholly within 12\" of this unit to be the targets. Add 1 to the Attacks characteristic of the targets' melee weapons for the rest of the turn. This ability also affects Companion weapons.\nMutilating Blades: Any Charge Phase If this unit charged this phase, pick an enemy unit within 1\" of it to be the target. Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+    "categories": [
+      "CHAOS",
+      "DAEMON",
+      "HEDONITES OF SLAANESH",
+      "WARD (6+)",
+      "WAR MACHINE",
+      "HERO",
+      "WIZARD (1)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Contorted Epitome",
+    "faction": "Hedonites of Slaanesh",
+    "points": 150,
+    "models": 1,
+    "move": "9\"",
+    "wounds": 7,
+    "save": 5,
+    "ward": 4,
+    "weapons": [
+      {
+        "name": "Piercing Claws and Coiled Tentacles",
+        "models": "",
+        "attacks": "7",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "The Mirror's Depths: Once Per Turn (Army), Enemy Hero Phase Pick a visible enemy unit within 18\" of this unit to be the target. If the target is within 6\" of this unit, the target is gazing into eternity until the start of your next turn. Otherwise, roll a dice. On a 3+, the target is gazing into eternity until the start of your next turn.\n\n\nWhile the target is gazing into eternity, it must end all moves no further from this unit than it was at the start of the move and it cannot be removed from the battlefield by an ability that would allow it to be set up again on the battlefield.\n\n\nDesigner's Note: *This includes pile-in moves.*\nSwallow Energy: Once Per Turn (Army), End of Any Turn Pick a visible Manifestation within 12\" of this unit and that was not summoned this turn to be the target, then make a banishment roll of 2D6. If the banishment roll equals or exceeds the banishment value on the target's warscroll, it is banished and removed from play.\n\n\nThe next time a visible friendly unit wholly within 12\" of this unit uses a Summon ability, roll an additional D6, to a maximum of 3, when making the casting roll for that ability.",
+    "categories": [
+      "HERO",
+      "CHAOS",
+      "DAEMON",
+      "HEDONITES OF SLAANESH",
+      "INFANTRY",
+      "WIZARD (1)",
+      "WARD (4+)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Dexcessa, the Talon of Slaanesh",
+    "faction": "Hedonites of Slaanesh",
+    "points": 280,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 10,
+    "save": 5,
+    "ward": 5,
+    "weapons": [
+      {
+        "name": "Impaling Talons",
+        "models": "",
+        "attacks": "8",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Joyous Battle Fury: End of Any Turn If any enemy models were slain by this unit's combat attacks this turn, Heal (D3) this unit, and add 1 to the Attacks characteristic of this unit's Impaling Talons for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative.\nRedolence of Violence: Once Per Turn (Army), End of Any Turn Pick an enemy unit in combat with this unit to be the target. Roll 2D6. If this unit charged this turn, add 2 to the roll. If the roll exceeds the target's Health characteristic, 1 model in the target is automatically slain. If the target is a Manifestation and the roll exceeds its banishment value, it is banished and removed from play.\nKeywords: Rampage\nFleeting Dance of Death: This unit can use Charge abilities even if it is in combat.\nScion of Slaanesh: Reaction: You declared a Fight Ability for this unit Pick a friendly Paragon that has not used a Fight ability this turn and is within this unit's combat range and visible to this unit to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
+    "categories": [
+      "HERO",
+      "UNIQUE",
+      "CHAOS",
+      "DAEMON",
+      "MONSTER",
+      "WARD (5+)",
+      "HEDONITES OF SLAANESH",
+      "FLY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Glutos Orscollion, Lord of Gluttony",
+    "faction": "Hedonites of Slaanesh",
+    "points": 460,
+    "models": 1,
+    "move": "8\"",
+    "wounds": 18,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Kyazu's Greatblade and Mutants' Claws",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "3"
+      },
+      {
+        "name": "Leerstave of Loth'shar",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "3"
+      },
+      {
+        "name": "Glutos's Choking Tentacles",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Gorge on Excess: End of Enemy Turn Pick a friendly Sybarite unit wholly within 12\" of this unit to be the target. Heal (6) the target or return a number of slain models to the target with a combined Health characteristic of up to 3.\nParagon Of Gluttony: Start of Any Turn Pick 1 of the following delicacies for Glutos to savour. You cannot pick a delicacy that you picked in the previous turn. The effect applies for the rest of the turn.\n\n\n*Hear of a Shadow Daemon:* While they are wholly within 12\" of this unit, friendly non-Monster Hedonites of Slaanesh units are not visible to enemy units more than 12\" from them.\n\n\n*Blood of an Aelven Princeling:* Each time a friendly Hedonites of Slaanesh unit wholly within 12\" of this unit uses a Run ability if you  roll a 1-3 when determining the diistance that unit can move, you can use a value of 4 instead.\n\n\n*Crushed Incarnate's Core:* Add 1 to unbinding rolls and banishment rolls for this unit.\n\n\n*Unspeakable Viscera:* Inflict D6 mortal damage on each other unit (friendly and enemy) within this unit's combat range.\nCrippling Famishment: Your Hero Phase Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6. Until the start of your next turn:\n• Halve the target's Move characteristic.\n• Halve run rolls and charge rolls for the target.\nKeywords: Spell\nBattle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Kyazu's Greatblade and Mutants' Claws is 4.",
+    "categories": [
+      "HERO",
+      "UNIQUE",
+      "WARMASTER",
+      "CHAOS",
+      "HEDONITES OF SLAANESH",
+      "WAR MACHINE",
+      "WIZARD (2)",
+      "SYBARITE",
+      "PARAGON",
+      "WARD (6+)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Infernal Enrapturess, Herald of Slaanesh",
+    "faction": "Hedonites of Slaanesh",
+    "points": 100,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Piercing Claw",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Spell-Shredding Symphony: This unit can use Unbind and Banish abilities as if it had Wizard (1). In addition, each time this unit successfully unbinds a spell, inflict D3 mortal damage on the caster and each time this unit successfully banishes a Manifestation, inflict D3 mortal damage on the unit that summoned that Manifestation.\nMaestros Of Discordance: Once Per Turn (Army), Your Hero Phase Pick a visible enemy unit within 18\" of this unit to be the enemy target. Then, you can pick another visible friendly Hedonites of Slaanesh Daemon unit wholly within 12\" of this unit to be the friendly target. Roll a number of dice equal to the number of models in the enemy target unit. For each 6, inflict 1 mortal damage on the enemy target.\n\n\nThen, you can pick 1 of the following effects:\n• Heal (X) the friendly target, where X is the number of enemy models slain by this ability this phase.\n• Return a number of slain models to the friendly target unit with a total Health characteristic equal to or less than the number of enemy models slain by this ability this phase.",
+    "categories": [
+      "HERO",
+      "CHAOS",
+      "DAEMON",
+      "HEDONITES OF SLAANESH",
+      "INFANTRY",
+      "WARD (6+)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Infernal Enrapturess, Herald of Slaanesh (Scourge of Aqshy)",
+    "faction": "Hedonites of Slaanesh",
+    "points": 90,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Piercing Claw",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Delightful Defeatism: Each time a visible enemy unit within 18\" of this unit uses the 'Rally' command, your opponent must make 3 fewer rally rolls of D6.\nLike Nails on a Chalkboard: Once Per Turn (Army), Reaction: Opponent declared the 'Eruption of Fury' ability for a unit within 12\" of and visible to this unit You and your opponent must roll off. If you roll higher, pick another unit (friendly or enemy) within the combat range of the enemy unit using the 'Eruption of Fury' ability. That unit is now the target of that 'Eruption of Fury' ability. Your opponent must spend as many rage dice as possible as part of that ability, to a maximum of 3.",
+    "categories": [
+      "HERO",
+      "CHAOS",
+      "DAEMON",
+      "HEDONITES OF SLAANESH",
+      "INFANTRY",
+      "WARD (6+)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Keeper of Secrets",
+    "faction": "Hedonites of Slaanesh",
+    "points": 420,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 16,
+    "save": 4,
+    "ward": 5,
+    "weapons": [
+      {
+        "name": "Impaling Claws",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "4"
+      },
+      {
+        "name": "Elegant Greatblade",
+        "models": "",
+        "attacks": "5",
+        "hit": "2",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Locus of Slaanesh: Your Hero Phase Pick a friendly non-Hero Hedonites of Slaanesh Daemon unit that started the battle with 3 or more models and has been destroyed to be the target. Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.\nDark Temptations: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Pick 1 of the following musks. Its effects apply for the rest of the turn.\n\n\n\n*Alluring Musk:*\n• This unit's weapons have Crit (2 Hits) for attacks that target that enemy unit.\n• Add 1 to hit rolls for attacks made by that enemy unit that target this unit.\n\n\n*Psychotropic Musk:*\n• Subtract 1 from wound rolls for attacks made by that enemy unit that target this unit.\n• Subtract 1 from the Rend characteristic of this units melee weapons.\nKeywords: Rampage\nSupernatural Grace: This unit can use Charge abilities even if it used a Retreat ability in the same turn. In addition, no mortal damage is inflicted on this unit by Retreat abilities.\nCacophonic Choir: Your Hero Phase Pick any number of visible enemy units within 12\" of this unit to be the targets, then make a casting roll of 2D6. Subtract 1 from the casting roll for each target you picked after the first. Inflict D3 mortal damage on each target.\nBattle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Elegant Greatblade is 3.",
+    "categories": [
+      "HERO",
+      "CHAOS",
+      "DAEMON",
+      "MONSTER",
+      "WARD (5+)",
+      "HEDONITES OF SLAANESH",
+      "WIZARD (2)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits"
+    ]
+  },
+  {
+    "name": "Lord of Hubris",
+    "faction": "Hedonites of Slaanesh",
+    "points": 110,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 4,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Exquisite Scimitar",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "'You First, I Insist...': Once Per Turn (Army), Any Combat Phase If this unit has not used a Temptation ability this turn, pick an enemy unit in combat with this unit to be the target. Your opponent must decide whether the target will accept or decline this unit's challenge.\n\n\nIf they accept, for the rest of the turn, if this unit is in combat with the target when the target is picked to use a Fight ability, subtract 1 from hit rolls for the target's attacks and all of the target's attacks must target this unit.\n\n\nIf they decline, for the rest of the turn:\n• The target has Strike-last.\n• Add 1 to the Damage characteristic of this unit's melee weapons for attacks that target that enemy unit.\nKeywords: Temptation\nAllow Me To Demonstrate: Once Per Turn (Army), Reaction: You declared a Fight ability for this unit Pick a friendly non-Hero Sybarite unit that has not used a Fight ability this turn and is within this unit's combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. Add 1 to hit rolls for attacks made by this unit and the target for the rest of the turn.",
+    "categories": [
+      "HERO",
+      "CHAOS",
+      "HEDONITES OF SLAANESH",
+      "INFANTRY",
+      "SYBARITE"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Lord of Pain",
+    "faction": "Hedonites of Slaanesh",
+    "points": 120,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 4,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Soulpiercer Mace",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "4",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Share the Pain: This unit has Ward (5+) while it is in combat. In addition each time you make a successful ward roll for this unit for a damage point inflicted by a combat attack, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.\nAtrocious Ministrations: Your Hero Phase Pick a visible friendly Hedonites of Slaanesh Infantry unit wholly within 12\" of this unit to be the target. You can allocate 1 damage point to the target (ward rolls cannot be made for that damage point). Then, roll a dice. On a 3+ until the start of your next turn, the target can use Charge abilities even if they used a Run or Retreat ability in the same turn.",
+    "categories": [
+      "HERO",
+      "CHAOS",
+      "HEDONITES OF SLAANESH",
+      "INFANTRY",
+      "SYBARITE"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Shalaxi Helbane",
+    "faction": "Hedonites of Slaanesh",
+    "points": 410,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 16,
+    "save": 4,
+    "ward": 5,
+    "weapons": [
+      {
+        "name": "Impaling Claws",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "4"
+      },
+      {
+        "name": "Soulpiercer",
+        "models": "",
+        "attacks": "6",
+        "hit": "2",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "An Exquisite Trophy: Any Combat Phase Pick an enemy Hero or Monster in combat with this unit to be the target. For the rest of the phase, the following effects apply:\n\n\n• This unit's combat attacks that target that enemy unit have Crit (2 Hits) and score critical hits on unmodified hit rolls of 5+.\n• If the target is destroyed by this unit's combat attacks this phase, add 1 to the Attacks characteristic of melee weapons used by other friendly Hedonites of Slaanesh Daemon units while they are wholly within 12\" of and visible to this unit.\nParamount Hunter: Once Per Turn (Army), Reaction: Opponent declared a Charge ability for a Hero within 12\" of this unit If this unit is not in combat, it can immediately move 2D6\". It can pass through the combat ranges of enemy units but it must end that move within 1/2\" of that Hero. If it does so, this unit has charged, and that Hero's Charge ability has no effect.\nKeywords: Core, Move, Charge, Rampage\nSupernatural Grace: This unit can use Charge abilities even if it used a Retreat ability in the same turn. In addition, no mortal damage is inflicted on this unit by Retreat abilities.\nRefine Senses: Your Hero Phase Pick a visible friendly h unit wholly within 12\" of this unit to be the target, then make a casting roll of 2D6. Add 1 to the casting roll if this unit is the target. The target has Strike-first for the rest of the turn.\nKeywords: Spell\nBattle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Soulpiercer is 4.",
+    "categories": [
+      "HERO",
+      "UNIQUE",
+      "WARMASTER",
+      "CHAOS",
+      "DAEMON",
+      "MONSTER",
+      "WARD (5+)",
+      "WIZARD (2)",
+      "HEDONITES OF SLAANESH",
+      "PARAGON"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Shardspeaker of Slaanesh",
+    "faction": "Hedonites of Slaanesh",
+    "points": 120,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Haze Staff",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Truths Of The Twisted Mirror: Your Hero Phase If this unit is a Paragon, pick a visible enemy unit within 12\" of it to be the target, then make a casting roll of 2D6. Until the start of your next turn, subtract 1 from save rolls for the targett.\nKeywords: Spell\nBargain With The Mist-Daemons: Once Per Turn (Army), Reaction: You declared a Spell ability for this unit Roll a dice. On a 1, inflict 2 mortal damage on this unit. On a 3+, add 2 to the casting roll.",
+    "categories": [
+      "HERO",
+      "CHAOS",
+      "HEDONITES OF SLAANESH",
+      "INFANTRY",
+      "SYBARITE",
+      "WIZARD (1)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Sigvald, Prince of Slaanesh",
+    "faction": "Hedonites of Slaanesh",
+    "points": 240,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 7,
+    "save": 3,
+    "ward": 4,
+    "weapons": [
+      {
+        "name": "Shardslash",
+        "models": "",
+        "attacks": "6",
+        "hit": "2",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Shardslash: Subtract 1 from ward rolls for damage points inflicted by this unit's combat attacks.\nGaze Upon My Magnificence And Weep: Any Combat Phase If this unit has not used a Temptation Ability this turn, pick an enemy unit in combat with this unit to the the target. Your opponent must decide whether the target will adulate or reject Sigvald.\n\n\n*Adulate:* Until the start of your next turn, while the target is in combat with this unit, it tmust pick this unit to be the target of pile-in moves it makes.\n\n\n*Reject:* Inflict D3+3 mortal damage on the target, then *Heal (X)* this unit, where X is the number of damage points inflicted on the target this turn by this ability.\nKeywords: Temptation\nParagon Of Vainglory: If this unit charged this turn and the unmodified charge roll was 6+ for the rest of the turn:\n\n\n• This unit has Strike-first.\n• The Attacks characteristic of this unit's Shardslash is equal to the unmodified charge roll.\n• Melee weapons, including Companion weapons, used by other friendly Hedonites of Slaanesh units have Crit (2 Hits) while they are wholly within 12\" of and visible to this unit.",
+    "categories": [
+      "HERO",
+      "UNIQUE",
+      "WARMASTER",
+      "CHAOS",
+      "HEDONITES OF SLAANESH",
+      "SYBARITE",
+      "WARD (4+)",
+      "INFANTRY",
+      "PARAGON"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Syll'Esske, the Vengeful Allegiance",
+    "faction": "Hedonites of Slaanesh",
+    "points": 250,
+    "models": 1,
+    "move": "8\"",
+    "wounds": 9,
+    "save": 4,
+    "ward": 5,
+    "weapons": [
+      {
+        "name": "Axe of Dominion",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Scourging Whip",
+        "models": "",
+        "attacks": "6",
+        "hit": "2",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Champions Of The Gilded Throne: When players are alternating picking units to use a Fight ability, when it is your turn to pick a unit, instead of picking 1 unit, you can pick a friendly non-Hero Hedonites of Slaanesh Daemon unit wholly within 18\" of this unit and a friendly non-Hero Sybarite unit wholly within 18\" of this unit. Resolve the second Fight ability immediately after the first.\nUnholy Symbiosis: Your Hero Phase Pick up to 1 visible friendly Sybarite unit and up to 1 visible friendly Hedonites of Slaanesh Daemon unit to be the targets, then make a casting roll of 2D6. If you picked a Sybarite target, subtract 1 from ward rolls for damage points inflicted by its combat attacks until thte start of your next turn. If you picked a Daemon target, it has Ward (5+) until the start of your next turn.\nKeywords: Spell\nViolent Offerings: End of Any Turn If any damage points were allocated this turn by this unit's combat attacks to an enemy Wizard, Priest, Unique unit or unit with an artefact of power, and that enemy unit has been destroyed, add 1 to this unit's power level for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative.",
+    "categories": [
+      "HERO",
+      "UNIQUE",
+      "CHAOS",
+      "DAEMON",
+      "HEDONITES OF SLAANESH",
+      "WIZARD (1)",
+      "INFANTRY",
+      "WARD (5+)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Synessa, the Voice of Slaanesh",
+    "faction": "Hedonites of Slaanesh",
+    "points": 250,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 10,
+    "save": 5,
+    "ward": 5,
+    "weapons": [
+      {
+        "name": "Unraveller's Talons",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Staff of Slaanesh",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Arcane Seductor: Start of Battle Round Pick a visible enemy Wizard or Priest within 18\" of this unit to be the target. Roll a dice. If the roll is higher than the target's power level, for the rest of the battle round, while the target is within 18\" of this unit:\n• Subtract 1 from the casting rolls and chanting rolls for enemy units while they are within 18\" of this unit.\n• Add 1 to this unit's power level.\nEnthralling Splendour: Once Per Turn (Army), Any Combat Phase Pick an enemy unit with a lower Control characteristic than this unit that charged this turn and is in combat with this unit to be the target. Subtract 1 from wound rolls for the target's attacks for the rest of the turn.\nKeywords: Rampage\nWhispers of Desire: Your Hero Phase Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6. For the rest of the turn, subtract 1 from the Attacks characteristic of the target's melee weapons.\nKeywords: Spell",
+    "categories": [
+      "HERO",
+      "UNIQUE",
+      "CHAOS",
+      "DAEMON",
+      "MONSTER",
+      "WARD (5+)",
+      "HEDONITES OF SLAANESH",
+      "WIZARD (1)",
+      "FLY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Battle Traits",
+    "faction": "Hedonites of Slaanesh",
+    "points": 0,
+    "models": 1,
+    "move": "",
+    "wounds": 1,
+    "save": "",
+    "ward": 0,
+    "weapons": [],
+    "abilities": "Paragons Of Slaanesh: Start of Your Turn If there are fewer than 3 friendly Paragons on the battlefield, pick a friendly Hedonites of Slaanesh unit that does not have the Paragon keyword and has not had the Paragon keyword this battle to be the target. The target gains the Paragon keyword.\n\n\nDesigner's Note: *Friendly units with the* Paragon *keyword on their warscroll count towards the number of friendly* Paragons *on the battlefield. If there are more than 3 friendly* Paragons *on the battlefield at the same time, you must immediately remove those units from the battlefield one at a time until there are only 3 friendly* Paragons *left on the battlefield.*\nFall From Grace: A friendly non-Unique Paragon immediately loses the Paragon keyword when any of the following happen:\n\n• That Paragon has 3 or more damage points allocated to it by the same use of a non-Attack ability.\n• That Paragon uses a Charge ability and the unmodified charge roll is 5 or less (after any re-rolls).\n• A spell cast by that Paragon is miscast (after any re-rolls).\nSensuous Arcana: Once Per Turn (Army), Your Hero Phase Pick a friendly non-Unique Paragon that has successfully cast a spell this turn and has not used a Temptation ability this turn to use this ability. Until the start of your next turn, while the unit using this ability is a Paragon, add 1 to casting rolls for visible friendly Hedonites of Slaanesh units while they are wholly within 12\" of the unit using this ability.\nKeywords: Temptation\nExcess Of Agility: Once Per Turn (Army), Any Combat Phase Pick a friendly non-Unique Paragon that has not use a Temptation ability this turn to use this ability. For the rest of the turn, while the unit using this ability is a Paragon and is in combat, subtract 1 from hit rolls for attacks that target visible friendly Hedonites of Slaanesh units while they are wholly within 12\" of the unit using this ability.\nKeywords: Temptation\nEnthralling Vanity: Once Per Turn (Army), Any Combat Phase Pick a friendly Hedonites of Slaanesh Hero unit that has not used a Temptation ability this turn to use this ability. Then, pick a visible enemy unit within 12\" of that Hero to be the target. If the unit using this ability is a Paragon pick 1 of the effects below. Otherwise your opponent must pick 1 of the effects below.\n\n\n*Mesmerized:* For the rest of the turn, weapons used by friendly Hedonites of Slaanesh units for attacks that target that unit, including Companion weapons, have Crit (2 Hits).\n\n\n*Break their Gaze*: For the rest of the turn, other than the Companion ability, weapon abilities for combat attacks made by the target have no effect.\nKeywords: Temptation\nBeguiling Glance: Once Per Turn (Army), Any Shooting Phase Pick a friendly Hedonites of Slaanesh Hero unit that has not used a Temptation ability this turn to use this ability. Then, pick a visible enemy unit within 12\" of that Hero to be the target. If the unit using this ability is a Paragon, pick 1 of the effects below. Otherwise, your opponent must pick 1 of the effects below.\n\n\n*Succumb:* For the rest of the turn, when the target is using a Charge ability, it must end that charge move no further from the Hero using this ability.\n\n\n*Resist:* For the rest of the turn, subtract 2 from charge rolls for the target.\nKeywords: Temptation\nChief Of Revels: Once Per Turn (Army), Your Charge Phase Pick a friendly non-Unique Paragon that charged this turn and has not used a Temptation ability this turn to use this ability. Until the start of your next turn, while that unit using this ability is a Paragon, add 2 to charge rolls for friendly Hedonites of Slaanesh units while they are wholly within 12\" of the unit using his ability.\nKeywords: Temptation\nCutting Barbs: Once Per Turn (Army), Any Movement Phase Pick a friendly Hedonites of Slaanesh Hero that has not use a Temptation ability this turn to use this ability. Then, pick an enemy unit in combat with that Hero to be the target. If the unit using this ability is a Paragon, pick 1 of the effects below. Otherwise,  your opponent must pick 1 of the effects below.\n\n\n*Rise to the Insults:* For the rest of the turn, the target has a maximum control score of 1.\n\n\n*Turn Aside from the Insults:* For the rest of the turn, add 1 to the hit rolls for attacks made by friendly Hedonites of Slaanesh units that target that enemy unit.\nKeywords: Temptation",
+    "categories": [],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Fane of Slaanesh",
+    "faction": "Hedonites of Slaanesh",
+    "points": 0,
+    "models": 1,
+    "move": "-",
+    "wounds": 10,
+    "save": 4,
+    "ward": 6,
+    "weapons": [],
+    "abilities": "Damned Conduit: Once Per Turn (Army), Your Hero Phase Pick a visible enemy unit within 18\" of this terrain feature to be the target. Roll a dice. On a 3+, until the start of your next turn while the target is within x\" of this terrain feature, the target's weapons have the Companion weapon ability, where X is determined by the current battle round as follows:\n\n\nBattle Round 1: 9\"\nBattle Round 2: 12\"\nBattle Round 3: 15\"\nBattle Round 4: 18\"\nBattle Round 5: 21\"",
+    "categories": [
+      "FACTION TERRAIN",
+      "WARD (6+)",
+      "CHAOS",
+      "HEDONITES OF SLAANESH"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Blissbarb Archers",
+    "faction": "Hedonites of Slaanesh",
+    "points": 140,
+    "models": 10,
+    "move": "6\"",
+    "wounds": 1,
+    "save": 6,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Blissbarb Bow",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Sybarite Blade",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Blissbrew Homonculus: This unit's Blissbrew Homonculi are tokens. There is 1 Blissbrew Homonculus for every 10 models in this unit.\n\n\nThis unit has Ward (6+) while it has any Blissbrew Homonculi. If you make an unmodified ward roll of 1 for this unit, remove 1 of this unit's Blissbrew Hoomonculi from the battlefield (the damage point is still inflicted).\nThe Thrill Of Combat: Once Per Turn (Army), Your Shooting Phase Pick a visible enemy unit in combat to be the target. For the rest of the turn, this unit's ranged weapons have Shoot in Combat and they also have Crit (Auto-wound) for attacks that target that enemy unit.",
+    "categories": [
+      "INFANTRY",
+      "CHAMPION",
+      "CHAOS",
+      "HEDONITES OF SLAANESH",
+      "SYBARITE"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Blissbarb Seekers",
+    "faction": "Hedonites of Slaanesh",
+    "points": 160,
+    "models": 5,
+    "move": "14\"",
+    "wounds": 4,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Seeker Bow",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Exalted Steed's Poisoned Tongue",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Sybarite Blade",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Adrenaline Archers: Once Per Turn (Army), Your Movement Phase This unit can use Shoot abilities this turn even if it used a Retreat ability in the same turn. In addition, for the rest of the turn, no mortal damage is inflicted on this unit by Retreat abilities.",
+    "categories": [
+      "HEDONITES OF SLAANESH",
+      "CHAOS",
+      "CHAMPION",
+      "SYBARITE",
+      "CAVALRY"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Blissbarb Seekers (Scourge of Aqshy)",
+    "faction": "Hedonites of Slaanesh",
+    "points": 150,
+    "models": 5,
+    "move": "14\"",
+    "wounds": 4,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Seeker Bow",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Exalted Steed's Poisoned Tongue",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Sybarite Blade",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Numbing Toxins: Once Per Turn (Army), Any Shooting Phase Pick an enemy unit that had any damage points allocated to it this turn by this unit's shooting attacks to be the target. The target cannot use reactions or be picked to be the target of reactions used by your opponent or by units in your opponent's army for the rest of the turn.",
+    "categories": [
+      "HEDONITES OF SLAANESH",
+      "CHAOS",
+      "CHAMPION",
+      "SYBARITE",
+      "CAVALRY"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Daemonettes",
+    "faction": "Hedonites of Slaanesh",
+    "points": 110,
+    "models": 10,
+    "move": "6\"",
+    "wounds": 1,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Piercing Claws",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Lithe and Swift: Once Per Turn (Army), Any Combat Phase If this unit charged this turn, it can move D3+3\". It can pass through enemy models and the combat ranges of enemy units but must end that move within 1/2\" of a visible enemy unit.",
+    "categories": [
+      "INFANTRY",
+      "CHAMPION",
+      "STANDARD BEARER (1/10)",
+      "MUSICIAN (1/10)",
+      "CHAOS",
+      "DAEMON",
+      "WARD (6+)",
+      "HEDONITES OF SLAANESH"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Hellstriders",
+    "faction": "Hedonites of Slaanesh",
+    "points": 150,
+    "models": 5,
+    "move": "12\"",
+    "wounds": 3,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Claw-spear or Hellscourge",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Steed's Poisoned Tongue",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Maiming Charge: If this unit charged this turn, subtract 3 from the control scores of enemy Infantry units while they are in combat with this unit.",
+    "categories": [
+      "HEDONITES OF SLAANESH",
+      "CHAOS",
+      "CHAMPION",
+      "SYBARITE",
+      "MUSICIAN (1/5)",
+      "STANDARD BEARER (1/5)",
+      "CAVALRY"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Fiends",
+    "faction": "Hedonites of Slaanesh",
+    "points": 150,
+    "models": 3,
+    "move": "10\"",
+    "wounds": 4,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Pincers and Barbed Stinger",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Arcane Disruption: Subtract 1 from casting rolls and unbinding rolls for enemy Wizards while they are within 12\" of this unit.\nDisharmonious Song: Once Per Turn (Army), End of Any Turn Pick each visible enemy unit within 6'' of this unit that did not use a Charge or Fight ability this turn to be the target. Roll a D3 for each target. You can re-roll the dice if the target is a Wizard or Priest. On a 2+, inflict an amount tof mortal damage on the target equal to the roll.",
+    "categories": [
+      "DAEMON",
+      "WARD (6+)",
+      "HEDONITES OF SLAANESH",
+      "BEAST",
+      "CHAOS",
+      "CHAMPION"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Hellflayer",
+    "faction": "Hedonites of Slaanesh",
+    "points": 130,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 7,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Axle Blades",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Steeds' Poisoned Tongues",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Flensing Whips and Piercing Claws",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Soulscent: Any Movement Phase Pick up to 3 enemy units that this unit passed across this phase to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any models are slain by this ability, this unit has Ward (5+) for the rest of the turn.\nThreshing Doom: When this unit moves, it can pass through models in enemy Infantry units and can pass through the combat ranges of enemy Infantry units, but it cannot end a move in combat unless specified in the ability used.",
+    "categories": [
+      "CHAOS",
+      "DAEMON",
+      "HEDONITES OF SLAANESH",
+      "WARD (6+)",
+      "WAR MACHINE"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Myrmidesh Painbringers",
+    "faction": "Hedonites of Slaanesh",
+    "points": 120,
+    "models": 5,
+    "move": "6\"",
+    "wounds": 2,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Wicked Scimitar",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "False Serenity: While this unit has not charged this turn, it has Ward (5+)\nParagons of Battle: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. For the rest of the turn, for each unmodified hit roll of 1 for a combat attack made by that enemy unit that targets this unit, inflict 1 mortal damage on the target after the Fight ability has been resolved.",
+    "categories": [
+      "HEDONITES OF SLAANESH",
+      "CHAOS",
+      "CHAMPION",
+      "INFANTRY",
+      "SYBARITE"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Seeker Chariot",
+    "faction": "Hedonites of Slaanesh",
+    "points": 80,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 6,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Flensing Whips and Piercing Claws",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Steeds' Poisoned Tongues",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Mutilating Blades: Any Charge Phase If this unit charged this phase, pick an enemy unit within 1\" of it to be the target. Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+    "categories": [
+      "CHAOS",
+      "DAEMON",
+      "HEDONITES OF SLAANESH",
+      "WARD (6+)",
+      "WAR MACHINE"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Seekers",
+    "faction": "Hedonites of Slaanesh",
+    "points": 130,
+    "models": 5,
+    "move": "14\"",
+    "wounds": 3,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Agonising Claws",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Steed's Poisoned Tongue",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Quicksilver Speed: Once Per Turn (Army), End of Any Turn If this unit charged this turn and has not used the 'Power Through' command this turn, it can immediately use the 'Normal Move' ability as if it were your movement phase.",
+    "categories": [
+      "CHAMPION",
+      "CHAOS",
+      "DAEMON",
+      "WARD (6+)",
+      "HEDONITES OF SLAANESH",
+      "CAVALRY",
+      "STANDARD BEARER (1/5)",
+      "MUSICIAN (1/5)"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Symbaresh Twinsouls",
+    "faction": "Hedonites of Slaanesh",
+    "points": 120,
+    "models": 5,
+    "move": "6\"",
+    "wounds": 2,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Merciless Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Pah! Unworthy!: While this unit is damaged or has fewer than half its starting models, add 1 to the Rend characteristic of its melee weapons.\nEgo-driven Excess: Once Per Battle (Army), Any Combat Phase For the rest of the turn, add 1 to the Damage characteristic of this unit's melee weapons for attacks that target an enemy unit that has a higher Control characteristic than this unit.",
+    "categories": [
+      "HEDONITES OF SLAANESH",
+      "CHAOS",
+      "CHAMPION",
+      "INFANTRY",
+      "SYBARITE"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Slaangor Fiendbloods",
+    "faction": "Hedonites of Slaanesh",
+    "points": 140,
+    "models": 3,
+    "move": "8\"",
+    "wounds": 3,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Razor-sharp Claws and Gilded Weapons",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Veiled Threat: Deployment Phase Set up this unit in reserve waiting in ambush. It has now been deployed.\nKeywords: Deploy\nInstinctive Advance: Once Per Turn (Army), Reaction: Opponent declared a command for a unit within 12\" of this unit This unit can move 3\" immediately after that command has been resolved, unless that command is a reaction, in which case this unit can move after the ability that it was reacting to has been resolved. It can pass through the combat ranges of enemy units and can end that move in combat. If this unit was in combat at the start of the move, it must end that move in combat with the units it was already in combat with at the start of the move.\nBestial Onslaughted: Any Movement Phase Pick this unit if i t is waiting in ambush. Set up this unit on the battlefield wholly within 9\" of a battlefield edge and more than 9\" from all enemy units.",
+    "categories": [
+      "HEDONITES OF SLAANESH",
+      "CHAOS",
+      "CHAMPION",
+      "INFANTRY",
+      "SYBARITE"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Slickblade Seekers",
+    "faction": "Hedonites of Slaanesh",
+    "points": 170,
+    "models": 5,
+    "move": "14\"",
+    "wounds": 4,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Slickblade Glaive",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Exalted Steed's Poisoned Tongue",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Unrivalled Velocity: Once Per Turn (Army), Reaction: You declared a Charge ability for this unit You can re-roll the charge roll.",
+    "categories": [
+      "HEDONITES OF SLAANESH",
+      "CHAOS",
+      "CHAMPION",
+      "SYBARITE",
+      "CAVALRY"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Bladebringer, Herald on Hellflayer",
+    "faction": "Hedonites of Slaanesh",
+    "points": 140,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 8,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Flensing Whips and Piercing Claws",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Axle Blades",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Steeds' Poisoned Tongues",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Slavering for Sensation: Your Movement Phase Pick up to 2 friendly Hellflayer units wholly within 12\" of this unit to be the targets. Add 2\" to the Move characteristic of this unit and each target for the rest of the turn.\nSoulscent: Any Movement Phase Pick up to 3 enemy units that this unit passed across this phase to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If any models are slain by this ability, this unit has Ward (5+) for the rest of the turn.\nThreshing Doom: When this unit moves, it can pass through models in enemy Infantry units and can pass through the combat ranges of enemy Infantry units, but it cannot end a move in combat unless specified in the ability used.",
+    "categories": [
+      "HERO",
+      "CHAOS",
+      "DAEMON",
+      "HEDONITES OF SLAANESH",
+      "WAR MACHINE",
+      "WARD (6+)",
+      "WIZARD (1)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Bladebringer, Herald on Seeker Chariot",
+    "faction": "Hedonites of Slaanesh",
+    "points": 130,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 8,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Flensing Whips and Piercing Claws",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Steeds' Poisoned Tongues",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Thrillseeking Cavalcade: Your Charge Phase Pick up to 3 friendly Seeker Chariot units wholly within 12\" of this unit to be the targets. Add 1 to charge rolls for this unit and the targets for the rest of the turn. In addition, for the rest of the turn, when this unit and the targets use the 'Mutilating Blades' ability, add 1 to the amount of mortal damage inflicted (if any).\nMutilating Blades: Any Charge Phase If this unit charged this phase, pick an enemy unit within 1\" of it to be the target. Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+    "categories": [
+      "HERO",
+      "CHAOS",
+      "DAEMON",
+      "HEDONITES OF SLAANESH",
+      "WAR MACHINE",
+      "WARD (6+)",
+      "WIZARD (1)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Viceleader, Herald of Slaanesh",
+    "faction": "Hedonites of Slaanesh",
+    "points": 140,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Ravaging Claws",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Lust for Violence: Reaction: You declared a Fight ability for this unit Pick a friendly Daemonettes unit that has not used a Fight ability this turn and is within this unit's combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.\nLithe and Swift: Add 1 to the Attacks characteristic of this unit's Ravaging Claws for the rest of the turn if this unit charged in the same turn.",
+    "categories": [
+      "HERO",
+      "CHAOS",
+      "DAEMON",
+      "HEDONITES OF SLAANESH",
+      "WARD (6+)",
+      "WIZARD (1)",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Exalted Chariot",
+    "faction": "Hedonites of Slaanesh",
+    "points": 120,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 9,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Flensing Whips and Piercing Claws",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Steeds' Poisoned Tongues",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Excess of Blades: Any Charge Phase If this unit charged this phase, pick an enemy unit within 1\" of it to be the target. Roll a number of dice equal to the unmodified charge roll for that Charge ability. For each roll that exceeds the target's Save characteristic, the target suffers 1 mortal damage.",
+    "categories": [
+      "CHAOS",
+      "DAEMON",
+      "HEDONITES OF SLAANESH",
+      "WAR MACHINE",
+      "WARD (6+)"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "The Thricefold Discord",
+    "faction": "Hedonites of Slaanesh",
+    "points": 130,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 3,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Carnal Blades and Wicked Claws",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Carnal Blades and Wicked Claws",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Carnal Blades and Wicked Claws",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Indulgence Given Form: Each time an enemy unit uses a command while it is within 12\" of this unit, give 1 indulgence point to this unit, to a maximum of 6.\nSublime Harmonies: While this unit's Vashtiss is on the battlefield, it has Wizard (1). In addition, each time you make a casting roll for this unit, you can spend any number of indulgence points it has. For each point spent, add 1 to the casting roll.",
+    "categories": [
+      "INFANTRY",
+      "UNIQUE",
+      "CHAMPION",
+      "HEDONITES OF SLAANESH",
+      "DAEMON",
+      "WARD (6+)",
+      "CHAOS"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Thricefold Discord",
+    "faction": "Hedonites of Slaanesh",
+    "points": 180,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 3,
+    "save": 5,
+    "ward": 5,
+    "weapons": [
+      {
+        "name": "Carnal Blades and Wicked Claws",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Carnal Blades and Wicked Claws",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Carnal Blades and Wicked Claws",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Thricefold Court: Once Per Turn (Army), Start of Any Turn Pick 1 of the following effects that you did not pick in the previous turn. The effect applies for the rest of the turn:\n\n\n*Sins of Soul:* While an enemy Wizard or Priest is visible to this unit, add 1 to this unit's power level.\n\n\n*Sins of Flesh:* This unit's attacks score critical hits on unmodified hit rolls of 5+.\n\n\n*Sins of Mind:* Each time a visible friendly Hedonites of Slaanesh unit wholly within 12\" of this unit uses the 'Rally' command, you receive 3 additional rally points.\nGifts Of Pain And Pleasure: Your Hero Phase Pick either a visible friendly Hedonites of Slaanesh Infantry unit wholly within 12\" of this unit or a visible enemy unit wholly within 12\" of this unit to be the target. Then, make a casting roll of 2D6. If the target is a friendly unit, add 2\" to its Move characteristic until the start of your next turn.\n\n\nIf the target is an enemy unit, inflict X mortal damage on it, then Heal (X) this unit. X is equal to the number of models in this unit.\nKeywords: Spell",
+    "categories": [
+      "INFANTRY",
+      "HEDONITES OF SLAANESH",
+      "DAEMON",
+      "CHAOS",
+      "WARD (5+)",
+      "WIZARD (1)",
+      "HERO"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "The Dread Pageant",
+    "faction": "Hedonites of Slaanesh",
+    "points": 110,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 3,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Weapons of Excess",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Weapons of Excess",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Weapons of Excess",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Weapons of Excess",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Slicing Fervour: This unit has Strike-first while it is in combat with a blissmarked unit.\nBlissbarb Shafts: Once Per Turn (Army), Your Shooting Phase If this unit's Hadzu is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target. Roll a dice. On a 4+:\n• Inflict 1 mortal damage on the target.\n• The target is blissmarked for the rest of the turn.\nKeywords: Shoot",
+    "categories": [
+      "INFANTRY",
+      "UNIQUE",
+      "CHAMPION",
+      "HEDONITES OF SLAANESH",
+      "SYBARITE",
+      "CHAOS"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Syll'Esske, the Vengeful Allegiance (Scourge of Ghyran)",
+    "faction": "Hedonites of Slaanesh",
+    "points": 180,
+    "models": 1,
+    "move": "8\"",
+    "wounds": 9,
+    "save": 4,
+    "ward": 5,
+    "weapons": [
+      {
+        "name": "Axe of Dominion",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Scourging Whip",
+        "models": "",
+        "attacks": "6",
+        "hit": "2",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Wandering Minds: Your Hero Phase Pick up to 1 visible friendly non-Hero Sybarite Infantry unit and up to 1 visible friendly non-Hero Hedonites of Slaanesh Daemon Infantry unit to be the targets, then make a casting roll of 2D6. If you picked a Sybarite target, subtract 1 from ward rolls for damage points inflicted by its combat attacks until the start of your next turn. If you picked a Daemon target, it has Ward (5+) until the start of your next turn.\nKeywords: Spell\nViolent Offerings: End of Any Turn If any damage points were allocated to an enemy Wizard or Priest by this unit's combat attacks this turn and that enemy unit has been destroyed, add 1 to this unit's power level for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative.\nChampions of the Gilded Throne: When players are alternating picking units to use a Fight ability, when it is your turn to pick a unit, instead of picking 1 unit, you can pick a friendly non-Hero Hedonites of Slaanesh Daemon unit wholly within 18\" of this unit and a friendly non-Hero Sybarite unit wholly within 18\" of this unit. Resolve the second Fight ability immediately after the first.",
+    "categories": [
+      "HERO",
+      "UNIQUE",
+      "CHAOS",
+      "DAEMON",
+      "HEDONITES OF SLAANESH",
+      "WIZARD (1)",
+      "SYBARITE",
+      "INFANTRY",
+      "WARD (5+)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Slaangor Fiendbloods (Scourge of Ghyran)",
+    "faction": "Hedonites of Slaanesh",
+    "points": 150,
+    "models": 3,
+    "move": "6\"",
+    "wounds": 3,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Razor-sharp Claws and Gilded Weapons",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Veiled Threat: Deployment Phase Pick this unit if it has not been deployed. Set up this unit in reserve waiting in ambush. It has now been deployed.\nKeywords: Deploy\nBestial Onslaught: Any Movement Phase Pick this unit if it is waiting in ambush. Set up this unit on the battlefield wholly within 9\" of a battlefield edge and more than 9\" from all enemy units.\nInstinctive Advance: Once Per Phase (Army), Reaction: Opponent declared a command for a unit within 12\" of this unit This unit can move up to 3\" immediately after that command has been resolved, unless that command is a reaction, in which case this unit can move after the ability that it was reacting to has been resolved. That move can pass through the combat ranges of enemy units, and can end in combat.",
+    "categories": [
+      "HEDONITES OF SLAANESH",
+      "CHAOS",
+      "CHAMPION",
+      "INFANTRY",
+      "SYBARITE"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Lord of Hysteria",
+    "faction": "Hedonites of Slaanesh",
+    "points": 120,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 4,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Ceremonial Weapons",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "4",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Slaughterous Celebrants: While they are wholly within 12\" of and visible to this unit, melee weapons used by friendly Hedonites of Slaanesh Infantry units have Anti-charge (+1 Rend).\nMaster Of The Revels: Once Per Turn (Army), Your Hero Phase If this unit has not used a Temptation ability this turn, pick a visible friendly Sybarite unit wholly within 12\" of this unit to be the target. If the target is a Paragon, apply the following effect to the target. Otherwise, roll a dice. On a 3+, apply the following effect to the target:\n• For the rest of the turn, while the target is wholly within 12\" of this unit, add 1 to the Attacks characteristic of the target's melee weapons.\nKeywords: Temptation",
+    "categories": [
+      "HERO",
+      "CHAOS",
+      "HEDONITES OF SLAANESH",
+      "INFANTRY",
+      "SYBARITE"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Anvil of Apotheosis: Hedonites of Slaanesh Hero",
+    "faction": "Hedonites of Slaanesh",
+    "points": 0,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Weapon of Seduction",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Slaaneshi Weapon",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Steed's Poisoned Tongue",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Blissbarb Bow",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Exalted Steed's Poisoned Tongue",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Slickblade Glaive",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Swagger of a Champion: Enemy Shooting Phase This unit can move D6\" but must end that move no further from the closest visible enemy unit than it was at the start of the move. If equidistant to 2 units, pick either.\nTheatrical Nature: This unit has Ward (5+) if it charged in the same turn.\nDaemonic Paramour: When making run rolls for this unit, add 1 to the number of dice rolled, then remove 1 dice of your choice and use the remaining dice as the run roll.\nDevotee of Flesh: Add 1 to hit rolls for this unit's attacks while it is damaged.\nJealous Patron: Subtract 1 from ward rolls for other friendly units that are visible to this unit and within its combat range.\nMelodramatic Masochist: This unit cannot use the 'Rally' or 'All-out Defence' commands.\nForemost an Artist: Other than the Companion ability, weapon abilities for this unit's attacks have no effect.\nCreeping Ennui: This unit cannot be picked to be a Paragon.\nWarrior-sadist: End of Any Turn Inflict 1 mortal damage on each unit (friendly and enemy) within 3\" of and visible to this unit.\nBlessed by the Prince: Subtract 1 from casting rolls and chanting rolls for visible enemy units while they are within 12\" of this unit.\nReveller in Agony: End of Any Turn For the rest of the turn, when determining the target's control score, add the number of damage points it has to the total.\nSerpentine Evasion: Reaction: This unit was picked as a target of an Attack ability For the rest of the turn, subtract 1 from hit rolls for attacks that target this unit and subtract 1 from hit rolls for this unit's attacks.\nSage of Sin: Wizard only. Add 1 to casting rolls and banishment rolls for this unit.\nCaptivating Musk: Subtract 1 from the control scores of enemy units while they are in combat with this unit.\nImperious Gait: This unit can use the 'Power Through' command even if the target has a higher Health characteristic than this unit.\nAbove Natural Law: This unit can pass through enemy models and their combat ranges as if it had Fly.\nAnimal Ecstasy: You can re-roll charge rolls for this unit.\nTongue-bind: Any Combat Phase Pick an enemy non-Monster Hero in combat with this unit to be the target. Roll a dice. On a 3+, for the rest of the turn, while this unit has not used a Fight ability, the target has Strike-last.\nAdrenaline Fiend: Deployment Phase This unit can use the 'Normal Move' ability as if it were your movement phase.",
+    "categories": [
+      "HERO",
+      "INFANTRY",
+      "CHAOS",
+      "HEDONITES OF SLAANESH"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  }
+]

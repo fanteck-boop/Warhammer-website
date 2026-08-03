@@ -1,0 +1,1470 @@
+[
+  {
+    "name": "Arch-Revenant",
+    "faction": "Sylvaneth",
+    "points": 110,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 6,
+    "save": 4,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Revenant's Glaive and Tail Pincers",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Fight And Fly: Reaction: You declared a Fight ability for this unit If this unit charged this turn, this unit can move up to 2D6\" after that Fight ability has been resolved. It cannot end that move in combat.\nGossamid Commander: Once Per Turn (Army), Any Combat Phase If this unit charged this turn, pick a visible friendly Gossamid Archers unit that is not in combat and is wholly within 18\" of this unit to be the target. The target can immediately use a Shoot ability as if it were your shooting phase but all of the attacks made as part of that Shoot ability must target an enemy unit that is in combat with this unit.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "SYLVANETH",
+      "FLY",
+      "INFANTRY",
+      "REVENANT"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Belthanos, First Thorn of Kurnoth",
+    "faction": "Sylvaneth",
+    "points": 290,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 14,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Kurnoth Glaive",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Carnelian Greatspite's Mandibles",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Huntmaster's Strike: Once Per Turn (Army), End of Any Turn If this unit charged this turn, remove it from the battlefield and set it up again more than 6\" from all enemy units and wholly within the creeping overgrowth.\nKurnothi War-horn: Add 2\" to the Move characteristic of friendly Kurnothi units while they are wholly within 12\" of this unit.\nRhythm of the Chase: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll, then you can remove this unit from the battlefield and set it up again on the battlefield within 1\" of the target.\nKeywords: Rampage\nBattle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Carnelian Greatspite's Mandibles is 3.",
+    "categories": [
+      "UNIQUE",
+      "HERO",
+      "MONSTER",
+      "ORDER",
+      "SYLVANETH",
+      "FLY",
+      "KURNOTHI"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Branchwych",
+    "faction": "Sylvaneth",
+    "points": 100,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Greenwood Scythe and Bittergrub",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Slay The Trespassers!: Once Per Turn (Army), Your Hero Phase Pick an enemy unit that is within the creeping overgrowth or that is visible to this unit and within friendly territory to be the target. Rolla dice. On a 3+, add 1 to wound rolls for combat attacks that target that enemy unit for the rest of the turn.",
+    "categories": [
+      "ORDER",
+      "SYLVANETH",
+      "HERO",
+      "WIZARD (1)",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Drycha Hamadreth",
+    "faction": "Sylvaneth",
+    "points": 250,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 12,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Slashing Talons",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Swarm of Spites",
+        "models": "",
+        "attacks": "20",
+        "hit": "4",
+        "wound": "4",
+        "rend": "",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Terror Of The Deep Woods: Enemy units cannot use Run or Retreat abilities while they are within 9\" of this unit.\nEnrage The Spites: Your Hero Phase Pick up to 3 enemy units that are visible to and within 12\" of this unit or that are within the creeping overgrowth to be the targets, then make a casting roll of 2D6. Inflict D3 mortal damage on each target.\nKeywords: Spell\nMerciless Ambush: Your Charge Phase If this unit is not in combat and has not used a Run or Retreat ability this turn, make a charge roll of 2D6. You can remove this unit from the battlefield and set it up again within 1/2\" of an enemy unit and wholly within X\" of a terrain feature that has a friendly overgrown token, where X is equal to the charge roll. If you do so, this unit has charged.\nKeywords: Core, Move, Charge, Rampage",
+    "categories": [
+      "UNIQUE",
+      "HERO",
+      "MONSTER",
+      "ORDER",
+      "SYLVANETH",
+      "WIZARD (1)",
+      "FOREST ELDER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Spirit of Durthu",
+    "faction": "Sylvaneth",
+    "points": 320,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 14,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Verdant Blast",
+        "models": "",
+        "attacks": "5",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Guardian Sword",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "4"
+      },
+      {
+        "name": "Massive Impaling Talons",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Groundshaker: Once Per Turn (Army), Any Combat Phase Pick an enemy non-Fly Infantry or Cavalry unit in combat with this unit to be the target. Roll a dice, On a 3+, the target has Strike-last for the rest of the turn.\nKeywords: Rampage\nBattle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Guardian Sword is 3.\nGuardian Of The Glades: Once Per Turn (Army), Reaction: You declared a Charge ability for this unit Add 2 to the charge roll but this unit must end that charge move within 1/2\" of an enemy unit that is in combat with another friendly Sylvaneth Hero.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "SYLVANETH",
+      "MONSTER",
+      "FOREST ELDER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "The Lady of Vines",
+    "faction": "Sylvaneth",
+    "points": 280,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 10,
+    "save": 4,
+    "ward": 5,
+    "weapons": [
+      {
+        "name": "Kurnotheal's Wrath",
+        "models": "",
+        "attacks": "1",
+        "hit": "2",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D6"
+      },
+      {
+        "name": "Kurnotheal's Wrath and Lashing Vines",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Verdian Crown: Once Per Battle, Any Hero Phase Pick a terrain feature within 18\" of this unit that does not have a friendly overgrown token to be the target. Give the target a friendly overgrown token\nProtection Of The Everqueen: Your Hero Phase Make a casting roll of 2D6. Add 1 to the roll if this unit is wholly within the creeping overgrowth. Until the start of your next turn, friendly Sylvaneth units have Ward (5+) while they are wholly within 12\" of this unit.\nKeywords: Spell\nHands Of The Everqueen: Once Per Turn (Army), Any Hero Phase Pick a terrain feature within 18\" of this unit that has a friendly overgrown token to be the target. The next time this unit uses a non-Summon Spell ability this phase, when picking targets for that spell, you can measure range and visibility from the target terrain feature instead of from this unit, and your opponent can measure range and visibility to the target terrain feature instead of to this unit for the purposes of the 'Unbind' ability.\nKeywords: Rampage",
+    "categories": [
+      "UNIQUE",
+      "HERO",
+      "MONSTER",
+      "ORDER",
+      "SYLVANETH",
+      "WIZARD (2)",
+      "WARD (5+)",
+      "FOREST ELDER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Treelord",
+    "faction": "Sylvaneth",
+    "points": 240,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 14,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Strangleroots",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Sweeping Blows",
+        "models": "",
+        "attacks": "5",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Massive Impaling Talons",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Strangling Grasp: Once Per Turn (Army), Any Combat Phase Pick a visible enemy unit within 10\" of this unit to be the target Roll a dice. If the roll exceeds the target's Health characteristic, 1 model in the target unit is slain.\nKeywords: Rampage\nBattle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Sweeping Blows is 3.\nLash And Tangle: Once Per Turn (Army), Any Shooting Phase Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit's Strangleroots to be the target. Roll a dice. Add 1 to the roll if the target is within the creeping overgrowth. On a 3+, subtract 1 from hit rolls for the target's attacks until the start of your next turn.",
+    "categories": [
+      "ORDER",
+      "SYLVANETH",
+      "MONSTER",
+      "FOREST ELDER"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Treelord Ancient",
+    "faction": "Sylvaneth",
+    "points": 280,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 14,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Doom Tendril Staff",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "D3"
+      },
+      {
+        "name": "Sweeping Blows",
+        "models": "",
+        "attacks": "5",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Massive Impaling Talons",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Eldest Of Elders: Once Per Turn (Army), Any Combat Phase Pick each friendly Forest Elder within this unit's combat range to be the targets. Roll a dice for each target, On a 3+, add 1 to hit rolls for that target's combat attack until the start of your next turn.\nKeywords: Rampage\nBattle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Sweeping Blows is 3.\nAwaken Slumbering Spirits: Once Per Turn (Army), Your Movement Phase Pick a visible terrain feature that has a friendly overgrown token and is within 12\" of this unit. Then, pick a friendly non-Unique Kurnothi or Treelord unit that has been destroyed to be the target. Set up a replacement unit with 1 model from the target unit wholly within 6\" of that terrain feature and more than 9\" from all enemy units. Then, remove the friendly overgrown token from that terrain feature. If the target was a Treelord, allocate 10 damage points to the replacement unit (ward rolls cannot be made for those damage points).",
+    "categories": [
+      "ORDER",
+      "SYLVANETH",
+      "MONSTER",
+      "HERO",
+      "FOREST ELDER",
+      "WIZARD (2)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Warsong Revenant",
+    "faction": "Sylvaneth",
+    "points": 170,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 7,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": " Spirit Falchion and Spearing Vines",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Wyldwood Revenants: Once Per Turn (Army), Reaction: You made an unmodified chanting roll of 1 for a Sylvaneth Priest wholy within 12\" of this unit. Re-roll that chanting roll.\nAlarielle's Song: Friendly Sylvaneth units have Ward (6+) while they are wholly within 12\" of this unit. Subtract 1 from ward rolls for enemy units while they are within 12\" of this unit.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "SYLVANETH",
+      "FLY",
+      "INFANTRY",
+      "WARD (6+)",
+      "PRIEST (1)",
+      "REVENANT"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Battle Traits: Sylvaneth",
+    "faction": "Sylvaneth",
+    "points": 0,
+    "models": 1,
+    "move": "",
+    "wounds": 1,
+    "save": "",
+    "ward": 0,
+    "weapons": [],
+    "abilities": "Endless Growth: Once Per Turn (Army), End of Any Turn Pick each friendly Sylvaneth unit that is wholly within the creeping overgrowth to be the targets. For each target, roll a D3 and pick 1 of the following effects:\n\n\n• Heal (X) the target, where X is equal to the roll.\n• Return a number of slain models to it with a combined Health characteristic of up to the value of the roll.\nThe Creeping Overgrowth: The creeping overgrowth is measured from each terrain feature that has a friendly overgrown token. The range of the creeping overgrowth is based on the number of friendly, overgrown tokens on the battlefield as shown:\n\n• 0-2 overgrown tokens: 6\"\n• 3-5 overgrown tokens: 9\"\n• 6-8 overgrown tokens: 12\"\n• 9+ overgrown tokens: Whole battlefield\n\n\n*Designer's Note: Awakened Wyldwoods are your main way of generating overgrown tokens. Some unit abilities allow you to too.*\nFury of The Forest: Enemy Combat Phase Pick a friendly Sylvaneth unit wholly within the creeping overgrowth and that is in combat with only 1 enemy unit to use this ability. The unit using this ability has Strike-first for the rest of the turn.\nThe Land Awakens: End of Your Turn Pick a friendly non-Hero Revenant Infantry unit or friendly Dryads unit that has been destroyed to be the target. Setup a replacement unit with half the number of models from the target unit (rounding up) wholly within creeping overgrowth and more than 9\" from all enemy units.\nReclaimed By Nature: Once Per Turn (Army), Your Hero Phase If there are fewer than 3 friendly Awakened Wyldwoods on the battlefield, you can set up an Awakened Wyldwood on the battlefield more than 3\" from all objectives and enemy units, more than 12\" from all other friendly Awakened Wyldwoods and more than 1\" from all other terrain features.\nCreeping Dread: Once Per Turn (Army), Start of Any Turn Pick an enemy unit within the creeping overgrowth to be the target. For the rest of the turn, the first time your opponent declares a command for the target while it is not wholly within 12\" of a Hero in their army, unless your opponent spends 1 additional command point to use that command, the command has no effect, it still counts as being used and the command points spent to use the command are still lost.",
+    "categories": [],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Dryads",
+    "faction": "Sylvaneth",
+    "points": 100,
+    "models": 10,
+    "move": "6\"",
+    "wounds": 1,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Wracking Talons",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "One With The Forest: Subtract 1 from hit rolls and wound rolls for attacks that target this unit while it is wholly within the creeping overgrowth.",
+    "categories": [
+      "CHAMPION",
+      "ORDER",
+      "INFANTRY",
+      "SYLVANETH"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Gossamid Archers",
+    "faction": "Sylvaneth",
+    "points": 120,
+    "models": 5,
+    "move": "12\"",
+    "wounds": 2,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Gossamid Bow",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Cruel Talons",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Forest Fighters: This unit has a coherency range of 2\".\nZephyrspites: Reaction: You declared a Shoot ability for this unit After that Shoot ability has been resolved, this unit can move up to D6\". It cannot move into combat during any part of that move.",
+    "categories": [
+      "CHAMPION",
+      "ORDER",
+      "INFANTRY",
+      "FLY",
+      "SYLVANETH",
+      "REVENANT"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Kurnoth Hunters with Kurnoth Greatbows",
+    "faction": "Sylvaneth",
+    "points": 190,
+    "models": 3,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 4,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Kurnoth Greatbow",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Vicious Claws",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Hunter's Endurance: Subtract 1 from the Rend characteristic of weapons used for attacks that target this unit while it is wholly within the creeping overgrowth.\nSteady Aim: Once Per Turn (Army), Your Shooting Phase If this unit has not used a Move ability this turn and was not set up this turn, add 1 to hit rolls for this unit's shooting attacks for the rest of the turn.",
+    "categories": [
+      "CHAMPION",
+      "ORDER",
+      "INFANTRY",
+      "SYLVANETH",
+      "KURNOTHI"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Kurnoth Hunters with Kurnoth Greatswords",
+    "faction": "Sylvaneth",
+    "points": 210,
+    "models": 3,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 4,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Kurnoth Greatsword",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Hunter's Endurance: Subtract 1 from the Rend characteristic of weapons used for attacks that target this unit while it is wholly within the creeping overgrowth.\nCrashing Impact: Any Combat Phase If this unit charged this turn, pick an enemy unit that is in combat with this unit to be the target. Roll a dice for each model in this unit that is in combat with the target. For each 3+, inflict 1 mortal damage on the target.",
+    "categories": [
+      "CHAMPION",
+      "ORDER",
+      "INFANTRY",
+      "SYLVANETH",
+      "KURNOTHI"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Kurnoth Hunters with Kurnoth Scythes",
+    "faction": "Sylvaneth",
+    "points": 200,
+    "models": 3,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 4,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Kurnoth Scythe",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Hunter's Endurance: Subtract 1 from the Rend characteristic of weapons used for attacks that target this unit while it is wholly within the creeping overgrowth.\nTanglethorn Thicket: Any Combat Phase Pick an enemy unit that charged this turn and is in combat with this unit to be the target. Roll a dice for each model in this unit that is in combat with the target. For each 3+, inflict 1 mortal damage on the target.",
+    "categories": [
+      "CHAMPION",
+      "ORDER",
+      "INFANTRY",
+      "SYLVANETH",
+      "KURNOTHI"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Revenant Seekers",
+    "faction": "Sylvaneth",
+    "points": 180,
+    "models": 3,
+    "move": "12\"",
+    "wounds": 5,
+    "save": 4,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Seeker's Sickle",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Dragonspite's Mandibles",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Deafening Drone: Once Per Turn (Army), Any Combat Phase If this unit did not charge this turn, pick an enemy unit in combat with it to be the target. Subtract 1 from the Attacks characteristic of the target's melee weapons for the rest of the turn.\nForest Fighters: This unit has a coherency range of 2\".",
+    "categories": [
+      "CAVALRY",
+      "CHAMPION",
+      "STANDARD BEARER (1/3)",
+      "MUSICIAN (1/3)",
+      "FLY",
+      "ORDER",
+      "SYLVANETH",
+      "REVENANT"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Spite-Revenants",
+    "faction": "Sylvaneth",
+    "points": 100,
+    "models": 5,
+    "move": "6\"",
+    "wounds": 2,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Cruel Talons and Fangs",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Shadowcreep: Once Per Turn (Army), Your Movement Phase If this unit is wholly within the creeping overgrowth, remove this unit from the battlefield and set it up again wholly within 3\" of a terrain feature and more than 9\" from all enemy units. Then add 1 to charge rolls for this unit for the rest of the turn.",
+    "categories": [
+      "CHAMPION",
+      "ORDER",
+      "SYLVANETH",
+      "INFANTRY",
+      "REVENANT"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Spiterider Lancers",
+    "faction": "Sylvaneth",
+    "points": 230,
+    "models": 3,
+    "move": "12\"",
+    "wounds": 5,
+    "save": 4,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Spiterider Lance",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Dragonspite's Mandibles",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Strike And Fade: Once Per Turn (Army), End of Any Turn If this unit charged this turn, remove it from the battlefield and set it up again more than 9\" from all enemy units and wholly within the creeping overgrowth.\nForest Fighters: This unit has a coherency range of 2\".",
+    "categories": [
+      "CAVALRY",
+      "CHAMPION",
+      "STANDARD BEARER (1/3)",
+      "MUSICIAN (1/3)",
+      "FLY",
+      "ORDER",
+      "SYLVANETH",
+      "REVENANT"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "The Twistweald",
+    "faction": "Sylvaneth",
+    "points": 140,
+    "models": 5,
+    "move": "6\"",
+    "wounds": 2,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Twistroot Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Warden's Bow",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Twistroot Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Voracious Swarm",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Twistroot Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Latching Paraspites: Once Per Turn (Army), End of Any Turn Pick an enemy unit in combat with this unit to be the target. The target has the Infested keyword for the rest of the battle. Infested enemy units cannot move more than 6\" when using non-Charge Move abilities.\nPain-Induced Frenzy: This unit's melee weapons have Crit (2 Hits) if it charged in the same turn.",
+    "categories": [
+      "INFANTRY",
+      "CHAMPION (1/8)",
+      "ORDER",
+      "SYLVANETH",
+      "REVENANT"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Tree-Revenants",
+    "faction": "Sylvaneth",
+    "points": 110,
+    "models": 5,
+    "move": "6\"",
+    "wounds": 2,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Revenant Blade",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Waypiper's Dance: While this unit is in combat and has not charged this turn, add 1 to the Damage characteristic of this unit's melee weapons.",
+    "categories": [
+      "CHAMPION",
+      "ORDER",
+      "SYLVANETH",
+      "INFANTRY",
+      "STANDARD BEARER (1/5)",
+      "MUSICIAN (1/5)",
+      "REVENANT"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Skaeth's Wild Hunt",
+    "faction": "Sylvaneth",
+    "points": 90,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 2,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Tracker Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Wild Hunt Ranged Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Tracker Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Wild Hunt Ranged Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Tracker Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Tracker Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Tracker Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Karthaen: While this unit's Karthaen, Huntcaller, is on the battlefield, it has Wizard (1).\nFleet of Foot: This unit can use Shoot and/or Charge abilities even if it used a Run or Retreat ability in the same turn.",
+    "categories": [
+      "ORDER",
+      "INFANTRY",
+      "UNIQUE",
+      "CHAMPION",
+      "MUSICIAN (1/5)",
+      "KURNOTHI",
+      "SYLVANETH"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Ylthari's Guardians",
+    "faction": "Sylvaneth",
+    "points": 140,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 3,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Enchanted Glade Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Revenant Bow",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Revenant Bow",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Enchanted Glade Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Enchanted Glade Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Ylthari: While this unit's Ylthari is on the battlefield, it has Wizard (1).\nBitterness of the Soul: Add 1 to the Damage characteristic of this unit's Enchanted Glade Weapons for each model in this unit that is slain.\n*Designer's Note: Models that have been slain and returned to this unit do not count as being slain for the purposes of this ability.*",
+    "categories": [
+      "ORDER",
+      "INFANTRY",
+      "UNIQUE",
+      "CHAMPION",
+      "MUSICIAN (1/5)",
+      "SYLVANETH"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Awakened Wyldwood",
+    "faction": "Sylvaneth",
+    "points": 0,
+    "models": 1,
+    "move": "-",
+    "wounds": 8,
+    "save": 4,
+    "ward": 0,
+    "weapons": [],
+    "abilities": "Budding Forest: When this terrain feature is set up, give it a friendly overgrown token.\nVengeful Forest Spirits: Once Per Turn (Army), Any Combat Phase Pick each enemy unit within 3\" of this terrain feature to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\nEver Growing: Once Per Battle Round, Start of Battle Round Pick the closest terrain feature to this terrain feature that does not have a friendly overgrown token to be the target. If the target is not controlled by your opponent, give that target a friendly overgrown token.",
+    "categories": [
+      "FACTION TERRAIN",
+      "ORDER",
+      "SYLVANETH"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Drycha Hamadreth (Scourge of Ghyran)",
+    "faction": "Sylvaneth",
+    "points": 300,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 12,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Slashing Talons",
+        "models": "",
+        "attacks": "10",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Strength From Spite: Ward rolls cannot be made for damage points inflicted by this unit's attacks.\nTwisted Spirit-Song: Your Hero Phase Pick a visible friendly Sylvaneth unit wholly within 12\" of this unit to be the target. Then, make a casting roll of 2D6. Until the start of your next turn, add 1 to wound rolls for the target's combat attacks, including those made with Companion weapons.\nIn addition, if the target is non-Kurnothi, add 1 to the Attacks characteristics of the target's melee weapons.\nKeywords: Spell\nVicious Spiteswarms: Reaction: Opponent declared a Charge ability for a unit within 18\" of this unit Your opponent must pick 1 of the following: \n*Avoid the Swarm:* Subtract D3 from the charge roll. In addition, if your opponent re-rolls that charge roll, subtract D3 from that roll.\n*Charge Through the Swarm:* Subtract 1 from hit rolls for that unit's attacks for the rest of the turn, and add 1 to hit rolls for attacks that target that unit for the rest of the turn.\nKeywords: Rampage",
+    "categories": [
+      "UNIQUE",
+      "HERO",
+      "MONSTER",
+      "ORDER",
+      "SYLVANETH",
+      "WIZARD (1)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Revenant Seekers (Scourge of Ghyran)",
+    "faction": "Sylvaneth",
+    "points": 240,
+    "models": 3,
+    "move": "12\"",
+    "wounds": 5,
+    "save": 4,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Scourge Sickles",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Sharpened Mandibles",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Lamentiri Life Energies: Once Per Turn (Army), Any Hero Phase Pick a visible friendly Sylvaneth unit wholly within 12\" of this unit to be the target. Roll a dice. On a 3+, the target has Ward (5+) for the rest of the turn.\nForest Fighters: This unit has a coherency range of 2\".",
+    "categories": [
+      "CAVALRY",
+      "CHAMPION",
+      "STANDARD BEARER (1/3)",
+      "MUSICIAN (1/3)",
+      "FLY",
+      "ORDER",
+      "SYLVANETH"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Alarielle the Everqueen",
+    "faction": "Sylvaneth",
+    "points": 620,
+    "models": 1,
+    "move": "14\"",
+    "wounds": 16,
+    "save": 4,
+    "ward": 5,
+    "weapons": [
+      {
+        "name": "Spear of Kurnoth",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Spear of Kurnoth",
+        "models": "",
+        "attacks": "1",
+        "hit": "2",
+        "wound": "3",
+        "rend": "2",
+        "damage": "4"
+      },
+      {
+        "name": "Wardroth Beetle's Antlers",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "4"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Wardroth Beetle's Antlers is 4.\nMetamorphosis: Your Hero Phase Pick a visible enemy unit within 12\" of this unit to be the target, then make a casting roll of 2D6. Inflict 2D3 mortal damage on the target. If the target would be destroyed by this spell, before removing any models, pick the closest terrain feature to the target that does not have a friendly overgrown token and give it a friendly overgrown token. If all terrain features on the battlefield already have a friendly overgrown token, inflict D3 mortal damage on each enemy unit within 6\" of the target instead.\nKeywords: Spell\nLifebloom: Once Per Turn (Army), Any Hero Phase Heal (2D6) this unit.\nLiving Battering Ram: Once Per Turn (Army), Any Charge Phase If this unit charged this turn, pick a visible enemy unit within 1\" of it to be the target. Roll a dice. On a 3+, inflict an amount of mortal damage on the target equal to the roll.\nKeywords: Rampage\nThe Goddess Of Life: Once Per Battle, Your Movement Phase This unit can use this ability even if it has been destroyed. Set up a replacement unit with 8 damage points allocated to it (ward rolls cannot be made for those damage points) wholly within the creeping overgrowth and more than 9\" from all enemy units.\nSeasons Of War: Start of Battle Round You must use this ability. Pick 1 of the following effects to apply for the rest of the battle round. You cannot pick the effect that you picked in the previous battle round.\n\n\n*The Burgeoning*: Each time a friendly Awakened Wyldwood uses the 'Ever Growing' ability, you can pick any terrain feature your opponent does not control to be the target rather than the closest.\n\n*The Reaping*: Add 1 to casting rolls and chanting rolls for friendly Sylvaneth units while they are wholly within 12\" of this unit.\n\n\n*The Dwindling*: Friendly Sylvaneth units can use Charge abilities even if they used a Retreat ability in the same turn. In addition, no mortal damage is inflicted on those units when they use Retreat abilities.\n\n*Everdusk*: Each time you use the 'Creeping Dread' ability this battle round, you can pick up to 3 targets instead of 1.",
+    "categories": [
+      "UNIQUE",
+      "HERO",
+      "MONSTER",
+      "FLY",
+      "WARMASTER",
+      "ORDER",
+      "SYLVANETH",
+      "WIZARD (3)",
+      "WARD (5+)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Kurnoth's Heralds",
+    "faction": "Sylvaneth",
+    "points": 110,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 3,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Hunter Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Kurnothi Bow",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Hunter Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Hunter Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Graceful Leaps: Each time this unit makes a pile-in move:\n• Add 3\" to the distance this unit can move.\n• This unit can pass through models in enemy units.",
+    "categories": [
+      "ORDER",
+      "UNIQUE",
+      "CHAMPION",
+      "KURNOTHI",
+      "CAVALRY",
+      "SYLVANETH"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Grove Guardian",
+    "faction": "Sylvaneth",
+    "points": 220,
+    "models": 1,
+    "move": "4\"",
+    "wounds": 7,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Grove Sickle or Shears",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "D3"
+      },
+      {
+        "name": "Guardian Spites",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "4",
+        "rend": "1",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Soulshriek: Once Per Turn (Army), Any Combat Phase Pick each friendly non-Hero Revenant unit wholly within 12\" of and visible to this unit to be the targets. For the rest of the phase, each time a model in a target unit is slain by a combat attack, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit.\nRegenesis: Your Hero Phase Pick a friendly Sylvaneth unit that is wholly within the creeping overgrowth or that is visible to and wholly within 12\" of this unit to be the target, then make a chanting roll of D6. If the chanting roll was 6+, you can pick another eligible unit to be a second target. If a target is a non-Hero Revenant Infantry or Dryads unit, return up to D3 models to the target unit. Otherwise, Heal (3) that target\nKeywords: Prayer",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "SYLVANETH",
+      "FOREST ELDER",
+      "INFANTRY",
+      "PRIEST (2)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Anvil of Apotheosis: Tree Spirit Hero",
+    "faction": "Sylvaneth",
+    "points": 0,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Greenwood Blade",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Swarm of Spites",
+        "models": "",
+        "attacks": "10",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Sharp Mandibles",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Razor-like Mandibles",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Strangleroots",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Kurnoth Javelin",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D6"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Razor-like Mandibles is 3.\nVerdant Healer: Your Hero Phase Pick a visible friendly Sylvaneth unit wholly within 12\" of this unit to be the target. Pick 1 of the following effects:\n• Heal (D3) the target.\n• The target has Ward (6+) until the start of your next turn.\nNoble Guardian: Add 2 to the Attacks characteristic of this unit's melee weapons while it is wholly within the creeping overgrowth.\nGnarled Spirit: Subtract 3 from the control scores of enemy units while they are in combat with this unit.\nRootwalker: Enemy Movement Phase If this unit is more than 9\" from all enemy units, it can immediately use the 'Normal Move' ability as if it were your movement phase.\nTormented Memories: End of Any Turn You must use this ability if this unit is contesting an objective you do not control. Pick each other friendly unit contesting the same objective as this unit to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\nOld Barkflesh: Each time this unit uses a Move ability, roll a dice. On a 4+, inflict 1 mortal damage on it after that ability has been resolved.\nSlow to Awaken: Halve this unit's Move characteristic until the start of the second battle round.\nCautious Spirit: While this unit is wholly outside the creeping overgrowth, it can only use Move and Attack abilities.\nSlashing Wings: Your Movement Phase This unit can move a distance up to your Move characteristic. It can pass through models during that move. Then, you can pick an enemy unit that this unit passed across during that move to be the target. Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.\nKeywords: Move\nStrike and Fade: Once Per Turn (Army). End of Any Turn If this unit used a Fight ability this turn and is wholly within the creeping overgrowth, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units and wholly within the creeping overgrowth.\nCharge of the Spites: Once Per Turn (Army), Any Charge Phase If this unit charged this phase, pick up to 3 visible enemy units within 6\" of this unit to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\nKeywords: Rampage\nSeismic Stomps: Once Per Turn (Army), Any Combat Phase If this unit charged this turn, pick each enemy unit in combat with this unit to be the targets. Roll a dice for each target. On a 3+, subtract 1 from hit rolls for the target's combat attacks for the rest of the turn.\nKeywords: Rampage\nSnatching Vines: Once Per Turn (Army), Your Shooting Phase Pick an enemy Infantry Hero within 9\" of this unit to be the target. Roll a dice. On a 3+, your opponent must remove the target from the battlefield and set it up again within 1\" of this unit.\nShambling Overgrowth: You can measure the creeping overgrowth unit from this unit.",
+    "categories": [
+      "HERO",
+      "INFANTRY",
+      "ORDER",
+      "SYLVANETH"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Anvil of Apotheosis: Forest Elder Hero",
+    "faction": "Sylvaneth",
+    "points": 0,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 14,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Sweeping Branches",
+        "models": "",
+        "attacks": "5",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Strangleroots",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Kurnoth Javelin",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D6"
+      },
+      {
+        "name": "Huge Impaling Talons",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Swarm of Spites",
+        "models": "",
+        "attacks": "10",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Sweeping Branches is 3.\nVerdant Healer: Your Hero Phase Pick a visible friendly Sylvaneth unit wholly within 12\" of this unit to be the target. Pick 1 of the following effects:\n• Heal (D3) the target.\n• The target has Ward (6+) until the start of your next turn.\nNoble Guardian: Add 2 to the Attacks characteristic of this unit's melee weapons while it is wholly within the creeping overgrowth.\nGnarled Spirit: Subtract 3 from the control scores of enemy units while they are in combat with this unit.\nRootwalker: Enemy Movement Phase If this unit is more than 9\" from all enemy units, it can immediately use the 'Normal Move' ability as if it were your movement phase.\nTormented Memories: End of Any Turn You must use this ability if this unit is contesting an objective you do not control. Pick each other friendly unit contesting the same objective as this unit to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\nOld Barkflesh: Each time this unit uses a Move ability, roll a dice. On a 4+, inflict 1 mortal damage on it after that ability has been resolved.\nSlow to Awaken: Halve this unit's Move characteristic until the start of the second battle round.\nCautious Spirit: While this unit is wholly outside the creeping overgrowth, it can only use Move and Attack abilities.\nSlashing Wings: Your Movement Phase This unit can move a distance up to your Move characteristic. It can pass through models during that move. Then, you can pick an enemy unit that this unit passed across during that move to be the target. Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.\nKeywords: Move\nStrike and Fade: Once Per Turn (Army). End of Any Turn If this unit used a Fight ability this turn and is wholly within the creeping overgrowth, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units and wholly within the creeping overgrowth.\nCharge of the Spites: Once Per Turn (Army), Any Charge Phase If this unit charged this phase, pick up to 3 visible enemy units within 6\" of this unit to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\nKeywords: Rampage\nSeismic Stomps: Once Per Turn (Army), Any Combat Phase If this unit charged this turn, pick each enemy unit in combat with this unit to be the targets. Roll a dice for each target. On a 3+, subtract 1 from hit rolls for the target's combat attacks for the rest of the turn.\nKeywords: Rampage\nSnatching Vines: Once Per Turn (Army), Your Shooting Phase Pick an enemy Infantry Hero within 9\" of this unit to be the target. Roll a dice. On a 3+, your opponent must remove the target from the battlefield and set it up again within 1\" of this unit.\nShambling Overgrowth: You can measure the creeping overgrowth unit from this unit.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "SYLVANETH",
+      "MONSTER",
+      "FOREST ELDER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Kurnoth Hunters with Kurnoth Greatswords (Scourge of Aqshy)",
+    "faction": "Sylvaneth",
+    "points": 240,
+    "models": 3,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 4,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Kurnoth Greatsword",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Hunter's Endurance: Subtract 1 from the Rend characteristic of weapons used for attacks that target this unit while it is wholly within the creeping overgrowth.\nVital Rangers: Once Per Turn (Army), End of Your Turn If this unit is not in combat, it can move a distance up to its Move characteristic. It must end that move within the creeping overgrowth and not in combat.\nKeywords: Move",
+    "categories": [
+      "CHAMPION",
+      "ORDER",
+      "INFANTRY",
+      "SYLVANETH",
+      "KURNOTHI"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Treelord Ancient (Scourge of Aqshy)",
+    "faction": "Sylvaneth",
+    "points": 290,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 14,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Doom Tendril Staff",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "D3"
+      },
+      {
+        "name": "Sweeping Blows",
+        "models": "",
+        "attacks": "5",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Massive Impaling Talons",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Jade Abjuration: Your Hero Phase Pick this unit or a visible friendly Awakened Wyldwood wholly within 12\" of this unit to be the target, then make a casting roll of 2D6. Until the start of your next turn:\n• Ignore the effects of enemy Spell abilities on units (friendly and enemy) while they are within 6\" of the target.\n• Weapons used by enemy Manifestations have a maximum Attacks characteristic of 1 while they are within 6\" of the target.\nKeywords: Spell\nBattle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Sweeping Blows is 3.\nArcane Osmosis: Once Per Turn (Army), Your Hero Phase For the rest of the turn:\n• Each time you make a casting roll for this unit, add D3 to the roll.\n• This unit cannot move or be removed from the battlefield by an ability that would allow it to be set up elsewhere on the battlefield or in reserve.",
+    "categories": [
+      "ORDER",
+      "SYLVANETH",
+      "MONSTER",
+      "HERO",
+      "FOREST ELDER",
+      "WIZARD (2)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  }
+]

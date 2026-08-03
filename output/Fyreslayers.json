@@ -1,0 +1,1042 @@
+[
+  {
+    "name": "Grimwrath Berzerker",
+    "faction": "Fyreslayers",
+    "points": 110,
+    "models": 1,
+    "move": "4\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Fyrestorm Greataxe",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Grimwrath Oaths: Deployment Phase Pick 1 of the following oaths for this unit to swear:\n*'I will guard them with my life!':* While this unit is wholly within 6\" of another friendly Fyreslayers Hero:\n• Add 1 to hit rolls for this unit's attacks.\n• Add 1 to ward rolls for this unit.\nIf a friendly Fyreslayers Hero wholly within 6\" of this unit is destroyed, this effect no longer applies.\n*'I will not be stopped!':* Add 1 to charge rolls for this unit, and add 1 to save rolls for this unit while it is in combat. If this unit uses the 'Retreat' or 'Rally' abilities, this effect no longer applies.\nBattle-fury: Once Per Battle, Any Combat Phase If this unit is in combat, it can use 2 Fight abilities this phase. After the first is used, however, this unit has Strike-last for the rest of the phase.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Auric Flamekeeper",
+    "faction": "Fyreslayers",
+    "points": 80,
+    "models": 1,
+    "move": "4\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Brazier Axe",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Masterflame Rune: Once Per Turn (Army), Your Hero Phase If any friendly units have been destroyed during the battle, pick a friendly Fyreslayers Infantry unit wholly within 12\" of this unit to be the target. Roll a dice. If the roll is equal to or less than the number of Fyreslayers units that have been destroyed during the battle, pick 1 of the following effects to apply until the start of your next turn:\n*Grimnir's Grit:* The target has Ward (5+).\n*Grimnir's Resolve:* Add 2 to charge rolls for the target.\n*Grimnir's Vengeance:* Add 1 to the Damage characteristic of the target's melee weapons.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Auric Runefather",
+    "faction": "Fyreslayers",
+    "points": 130,
+    "models": 1,
+    "move": "4\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Latchkey Grandaxe",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Royal Retinue: Once Per Battle (Army), Deployment Phase Pick a friendly non-Hero Fyreslayers Infantry unit within this unit's combat range to be the royal retinue. For the rest of the battle, while the royal retinue is wholly within 6\" of this unit, add 1 to hit rolls for attacks made by the royal retinue and this unit has Ward (4+).\nCommanding Presence: End of Any Turn Add the current battle round number to the control scores of friendly Fyreslayers Infantry units wholly within 12\" of this unit for the rest of the turn.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "WARMASTER",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Auric Runefather on Magmadroth",
+    "faction": "Fyreslayers",
+    "points": 320,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 14,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Latchkey Grandaxe",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Roaring Fyrestream",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      },
+      {
+        "name": "Magmadroth's Blazing Maw",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Magmadroth's Claws and Horns",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Volcanic Blood: If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.\nWarrior-kings: Once Per Battle (Army), Your Combat Phase For the rest of the turn, add 1 to the Attacks characteristic of melee weapons used by friendly Fyreslayers units while they are wholly within 12\" of this unit.\nRaging Inferno: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll a dice. On a 3+, subtract 1 from save rolls for the target for the rest of the turn.\nKeywords: Rampage\nBattle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Magmadroth's Claws and Horns is 4.",
+    "categories": [
+      "HERO",
+      "MONSTER",
+      "ORDER",
+      "WARMASTER",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN",
+      "MAGMADROTH"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Auric Runemaster",
+    "faction": "Fyreslayers",
+    "points": 160,
+    "models": 1,
+    "move": "4\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Brazier Staff",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "High Priest of the Zharrgrim: Each time a Prayer chanted by this unit is answered, this unit gains a magmic power token.\nMaster of the Runes: Reaction: You declared an Ur-gold Rune ability Remove 3 of this unit's magmic power tokens. If you do so, apply the effect below that corresponds to the Ur-gold Rune ability that was used:\n*Rune of Fury:* For the rest of the battle round, add 1 to wound rolls for combat attacks made by friendly Fyreslayers units while they have Strike-first.\n*Rune of Fiery Determination:* Add 1 to save rolls for friendly Fyreslayers units for the rest of the battle round.\n*Rune of Relentless Zeal:* Add 1 to run rolls and charge rolls for friendly Fyreslayers units for the rest of the battle round.\n*Rune of Searing Heat:* Add 1 to the Rend characteristic of melee weapons used by friendly Fyreslayers units for the rest of the battle round.\n*Rune of Farsight:* Increase the range of the 'Rune of Farsight' ability to 16\".",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN",
+      "INFANTRY",
+      "PRIEST (2)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Auric Runesmiter",
+    "faction": "Fyreslayers",
+    "points": 90,
+    "models": 1,
+    "move": "4\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Latch-axe",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Emergence: Your Hero Phase Pick this unit if it is underground. Set up this unit anywhere on the battlefield more than 9\" from all enemy units. Then, set up the other unit that was set up underground with it (if any) wholly within 6\" of this unit and more than 9\" from all enemy units.\nMagmic Tunnelling: Deployment Phase Pick this unit and any number of other units in its regiment if none of those units have been deployed. Set up those units in reserve underground. They have now been deployed.\nKeywords: Deploy",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN",
+      "INFANTRY",
+      "PRIEST (1)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Auric Runesmiter on Magmadroth",
+    "faction": "Fyreslayers",
+    "points": 280,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 14,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Latch-axe",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Roaring Fyrestream",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      },
+      {
+        "name": "Magmadroth's Blazing Maw",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Magmadroth's Claws and Horns",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Volcanic Blood: If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.\nRunic Empowerment: Your Hero Phase Pick a friendly Fyreslayers unit wholly within 12\" of this unit to be the target. Roll a dice. On a 3+, add 1 to wound rolls for the target's attacks for the rest of the turn.\nLashing Tail: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll 2D6. If the roll is equal to or less than the number of models in the target unit, inflict D3+3 mortal damage on the target.\nKeywords: Rampage\nBattle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Magmadroth's Claws and Horns is 4.",
+    "categories": [
+      "HERO",
+      "MONSTER",
+      "ORDER",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN",
+      "MAGMADROTH",
+      "PRIEST (1)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Auric Runeson",
+    "faction": "Fyreslayers",
+    "points": 90,
+    "models": 1,
+    "move": "4\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Ancestral Weapons",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Fearless Charge: If this unit charged this turn, for the rest of the turn, add 1 to charge rolls for friendly Fyreslayers Infantry units while they are wholly within 18\" of this unit.\nDauntless Assault: Reaction: You declared a Fight ability for this unit Pick a friendly non-Hero Fyreslayers Infantry unit that has not used a Fight ability this turn and is within this unit's combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Auric Runeson on Magmadroth",
+    "faction": "Fyreslayers",
+    "points": 240,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 14,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Ancestral Weapons",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Roaring Fyrestream",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      },
+      {
+        "name": "Magmadroth's Blazing Maw",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Magmadroth's Claws and Horns",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Volcanic Blood: If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.\nBattle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Magmadroth's Claws and Horns is 4.\nDominating Roar: Once Per Turn (Army), End of Any Turn Pick an enemy Monster in combat with this unit to be the target. If this unit has fewer damage points than the target, subtract 10 from the target's control score for the rest of the turn.\nKeywords: Rampage\nVying for Glory: Each time this unit destroys a Monster, add 1 to the Attacks characteristic of this unit's Ancestral Weapons for the rest of the battle. This unit can be affected by this ability multiple times and the effects are cumulative.",
+    "categories": [
+      "HERO",
+      "MONSTER",
+      "ORDER",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN",
+      "MAGMADROTH"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Battlesmith",
+    "faction": "Fyreslayers",
+    "points": 100,
+    "models": 1,
+    "move": "4\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Ancestral Battle-axe",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Icon of Grimnir: Ignore negative modifiers to the control scores of friendly Fyreslayers units while they are wholly within 12\" of this unit.\nBard of the Lodge: If a friendly unit wholly within 12\" of this unit uses the 'Rally' command, you can make 3 additional rally rolls of D6.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Doomseeker",
+    "faction": "Fyreslayers",
+    "points": 80,
+    "models": 1,
+    "move": "4\"",
+    "wounds": 5,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Doomseeker Weapons",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Runic Power: Add 1 to the Damage characteristic of this unit's melee weapons while this unit has 1 damage point. Add 2 to the Damage characteristic of this unit's melee weapons instead while this unit has 2 or more damage points.\nOathbound: Deployment Phase Pick an enemy unit to be this unit's quarry. You can pick a unit that has been deployed in reserve. Add 1 to hit rolls and wound rolls for attacks made by this unit that target its quarry. \nIf this unit is destroyed while it is in combat with its quarry, inflict 3 mortal damage on this unit's quarry immediately after the ability that destroyed this unit has been resolved.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Grimhold Exile",
+    "faction": "Fyreslayers",
+    "points": 90,
+    "models": 1,
+    "move": "4\"",
+    "wounds": 6,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Fyre-rune Hammers",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Honour to Grimnir!: Once Per Battle, Your Hero Phase Pick up to 3 friendly Fyreslayers Infantry units wholly within 12\" of this unit to be the targets. You can re-roll charge rolls for the targets for the rest of the turn.\nLast of the Lodge-fire: Once Per Battle, Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll a number of dice equal to the target's Health characteristic. For each 4+, inflict 1 mortal damage on the target.\nKeywords: Core, Attack, Fight",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Battle Traits: Fyreslayers",
+    "faction": "Fyreslayers",
+    "points": 0,
+    "models": 1,
+    "move": "",
+    "wounds": 1,
+    "save": "",
+    "ward": 0,
+    "weapons": [],
+    "abilities": "Rune of Fiery Determination: Once Per Battle (Army), Any Hero Phase You can only use this ability if you have not used any Ur-gold Rune abilities this battle round.\nFriendly Fyreslayers units have Ward (5+) for the rest of the battle round.\nKeywords: Ur-gold Rune\nRune of Farsight: Once Per Battle (Army), Your Shooting Phase You can only use this ability if you have not used any Ur-gold Rune abilities this battle round.\nPick any number of enemy units within 10\" of any visible friendly Fyreslayers units to be targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. In addition,\nfor the rest of the battle round, ranged weapons, including Companion weapons, used by friendly Fyreslayers units have Crit (2 Hits).\nKeywords: Ur-gold Rune\nRune of Relentless Zeal: Once Per Battle (Army), Your Movement Phase You can only use this ability if you have not used any Ur-gold Rune abilities this battle round.\nFor the rest of the battle round, friendly Fyreslayers units can use Charge abilities even if they used a Run ability in the same turn.\nKeywords: Ur-gold Rune\nRune of Searing Heat: Once Per Battle (Army), Any Combat Phase You can only use this ability if you have not used any Ur-gold Rune abilities this battle round.\nMelee weapons used by friendly Fyreslayers units have Crit (Mortal) for the rest of the battle round.\nKeywords: Ur-gold Rune\nRune of Fury: Once Per Battle (Army), Start of Any Turn You can only use this ability if you have not used any Ur-gold Rune abilities this battle round.\nFor the rest of the battle round, friendly Fyreslayers units have Strike-first while they are in combat with an enemy unit that charged in the same turn.\nKeywords: Ur-gold Rune",
+    "categories": [],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Auric Hearthguard",
+    "faction": "Fyreslayers",
+    "points": 100,
+    "models": 5,
+    "move": "4\"",
+    "wounds": 2,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Magmapike",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Magmapike",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Molten Rockbolts: Each time a shooting attack made by this unit scores a critical hit, subtract 1\" from the target unit's Move characteristic until the start of your next turn. This ability cannot reduce the target unit's unmodified Move characteristic below half",
+    "categories": [
+      "INFANTRY",
+      "CHAMPION",
+      "ORDER",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN",
+      "MUSICIAN (1/10)"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Hearthguard Berzerkers with Berzerker Broadaxes",
+    "faction": "Fyreslayers",
+    "points": 100,
+    "models": 5,
+    "move": "4\"",
+    "wounds": 2,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Berzerker Broadaxe",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Duty Unto Death: While any friendly Fyreslayers Infantry Heroes are wholly within this unit's combat range, both this unit and those friendly units have Ward (5+).\nFires of Vengeance: While this unit is within the combat ranges of any damaged friendly Fyreslayers Heroes, add 1 to the Attacks characteristic of this unit's melee weapons.",
+    "categories": [
+      "INFANTRY",
+      "CHAMPION",
+      "ORDER",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Hearthguard Berzerkers with Flamestrike Poleaxes",
+    "faction": "Fyreslayers",
+    "points": 110,
+    "models": 5,
+    "move": "4\"",
+    "wounds": 2,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Flamestrike Poleaxe",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Duty Unto Death: While any friendly Fyreslayers Infantry Heroes are wholly within this unit's combat range, both this unit and those friendly units have Ward (5+).\nSmouldering Braziers: End of Any Turn Pick an enemy unit in combat with this unit to be the target. Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+    "categories": [
+      "INFANTRY",
+      "CHAMPION",
+      "ORDER",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Vulkite Berzerkers with Bladed Slingshields",
+    "faction": "Fyreslayers",
+    "points": 140,
+    "models": 10,
+    "move": "4\"",
+    "wounds": 2,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Fyresteel Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Berserk Fury: Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+    "categories": [
+      "INFANTRY",
+      "CHAMPION",
+      "ORDER",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN",
+      "MUSICIAN (1/10)"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Vulkite Berzerkers with Fyresteel Weapons",
+    "faction": "Fyreslayers",
+    "points": 120,
+    "models": 10,
+    "move": "4\"",
+    "wounds": 2,
+    "save": 6,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Fyresteel Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Whirlwind of Destruction: Add 1 to the Attacks characteristic of this unit's melee weapons if this unit charged this turn.",
+    "categories": [
+      "INFANTRY",
+      "CHAMPION",
+      "ORDER",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN",
+      "MUSICIAN (1/10)"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Vulkyn Flameseekers",
+    "faction": "Fyreslayers",
+    "points": 150,
+    "models": 7,
+    "move": "4\"",
+    "wounds": 2,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Vulkyn Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Emberteeth",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "-",
+        "damage": "2"
+      },
+      {
+        "name": "Vulkyn Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Drothmasters: Any Combat Phase Pick an enemy Monster in combat with this unit to be the target. Roll a dice. On a 3+, subtract D3 from the Damage characteristic of the target's Companion melee weapons for the rest of the turn.",
+    "categories": [
+      "INFANTRY",
+      "ORDER",
+      "CHAMPION (1/9)",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Magmic Battleforge",
+    "faction": "Fyreslayers",
+    "points": 0,
+    "models": 1,
+    "move": "-",
+    "wounds": 8,
+    "save": 3,
+    "ward": 6,
+    "weapons": [],
+    "abilities": "Spending the Forge: Once Per Battle (Army), Your Hero Phase Pick a friendly Fyreslayers Priest within this terrain feature's combat range to expend the power of the forge. Heal (D3) each friendly Fyreslayers unit on the battlefield. Once this ability has been used, this terrain feature cannot use the 'Molten Blessing' abiity for the rest of the battle.\nMolten Blessing: Start of Any Turn Pick a friendly Fyreslayers Priest within this terrain feature's combat range to be the target. Add 1 to chanting rolls for the target for the rest of the turn. In addition, the target can use the 'Unbind' ability this turn as if it had Wizard (1).",
+    "categories": [
+      "FACTION TERRAIN",
+      "FYRESLAYERS",
+      "ORDER",
+      "WARD (6+)"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "The Chosen Axes",
+    "faction": "Fyreslayers",
+    "points": 120,
+    "models": 1,
+    "move": "4\"",
+    "wounds": 3,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Fyresteel Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Latchkey Grandaxe",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Fyresteel Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Fyresteel Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Berserk Fury: Each time a model in this unit is slain by a combat attack and that model was in combat with the attacking unit, roll a dice. On a 5+, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.\nFjul's Retinue: While this unit's Fjul-Grimnir is on the battlefield, ignore the first damage point that would be allocated to this unit each phase.",
+    "categories": [
+      "ORDER",
+      "INFANTRY",
+      "UNIQUE",
+      "CHAMPION",
+      "WARD (6+)",
+      "DUARDIN",
+      "FYRESLAYERS"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Auric Runeson on Magmadroth (Scourge of Ghyran)",
+    "faction": "Fyreslayers",
+    "points": 340,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 14,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Ancestral Weapons",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Roaring Fyrestream",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      },
+      {
+        "name": "Magmadroth's Blazing Maw",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Magmadroth's Claws and Horns",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Volcanic Blood: If you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.\nBattle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Magmadroth's Claws and Horns is 4.\nFire, Blood, and Vengeance: Once Per Battle, Deployment Phase Pick a friendly Auric Runefather on Magmadroth on the battlefield to be the target. Add 1 to the Damage characteristic of this unit's melee weapons, including Companion weapons, while the target is in combat, damaged, or destroyed.\nCalamitous Crash: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll a dice. On a 3+, roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.\nKeywords: Rampage",
+    "categories": [
+      "HERO",
+      "MONSTER",
+      "ORDER",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN",
+      "MAGMADROTH"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Auric Runeson on Magmadroth (Scourge of Aqshy)",
+    "faction": "Fyreslayers",
+    "points": 330,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 14,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Ancestral Weapons",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Roaring Fyrestream",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      },
+      {
+        "name": "Magmadroth's Blazing Maw",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Magmadroth's Claws and Horns",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Volcanic Blood: Each time you make an unmodified save roll of 1 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.\nBattle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Magmadroth's Claws and Horns is 4.\nFire, Blood and Vengeance: Deployment Phase Pick a friendly Auric Runefather on Magmadroth on the battlefield to be the target. Add 1 to the Damage characteristic of this unit's melee weapons, including Companion weapons, while the target is in combat, damaged or destroyed.\nSeeing Red: Once Per Turn (Army), Any Combat Phase Spend 1 rage dice. If your opponent's fury level is lower than yours, they must increase their fury level by 1, to a maximum of 7. Then, pick 1 of the following effects:\n*Channelled Ire*: Add 1 to the Attacks characteristic of this unit's Companion melee weapons for the rest of the turn.\n*Cathartic Release*: Roll a number of dice equal to your fury level. For each 4+, Heal (1) this unit.\n*Shield of Anger*: This unit has Ward (5+) for the rest of the turn.\nKeywords: Rampage",
+    "categories": [
+      "HERO",
+      "MONSTER",
+      "ORDER",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN",
+      "MAGMADROTH"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Vulkyn Flameseekers (Scourge of Aqshy)",
+    "faction": "Fyreslayers",
+    "points": 160,
+    "models": 7,
+    "move": "4\"",
+    "wounds": 2,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Vulkyn Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Emberteeth",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "-",
+        "damage": "2"
+      },
+      {
+        "name": "Vulkyn Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Fiery Disposition: Once Per Turn (Army), Your Hero Phase Spend 1 rage dice. If your opponent's fury level is lower than yours, they must increase their fury level by 1, to a maximum of 7.\nThen, pick 1 of the following effects to apply until the start of your next turn, where X is equal to your fury level.\n*Vigour of the Ur-Salamander*: Add X\" to this unit's Move characteristic.\n*Fiery Determination*: Add X to this unit's control score.\n*Kyndlewrath*: Add X to the Attacks characteristic of this unit's Emberteeth.",
+    "categories": [
+      "INFANTRY",
+      "ORDER",
+      "CHAMPION (1/9)",
+      "WARD (6+)",
+      "FYRESLAYERS",
+      "DUARDIN"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  }
+]

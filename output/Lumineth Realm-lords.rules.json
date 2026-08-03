@@ -1,0 +1,143 @@
+{
+  "faction": "Lumineth Realm-lords",
+  "battleTraits": [
+    {
+      "name": "Depict Rune",
+      "effect": "Depict Rune (Once Per Battle Round (Army), Start of Battle Round): Pick 1 of the following runes to depict on your battle scripture. The effect and conditional enhanced effects of that rune last for the rest of the battle round. Each rune remains on your battle scripture for the rest of the battle or until it is removed or replaced by another ability.\nVarinor, Rune of Strength: Pick up to 2 friendly Lumineth Realm-lords units for each instance of this rune depicted on your battle scripture to be the targets. Add 1 to run rolls and charge rolls for each target. In addition, the following enhanced effects apply:\n• While Ydriliqi, Rune of the River is depicted on your battle scripture, add 1 to wound rolls for each target's combat attacks.\n• While Oreali, Rune of the Wind is depicted on your battle scripture, each target can use Shoot and/or Charge abilities even if it used a Retreat ability in the same turn.\nAlaithi, Rune of the Mountain: Pick up to 2 friendly Lumineth Realm-lords units for each instance of this rune depicted on your battle scripture to be the targets. Each target has Ward (5+). In addition, the following enhanced effects apply:\n• While Varinor, Rune of Strength is depicted on your battle scripture, the targets' melee weapons have Anti-charge (+1 Rend).\n• While Ydriliqi, Rune of the River is depicted on your battle scripture,subtract 1 from wound rolls for attacks made by enemy units while they are in combat with any of the targets.\nYdriliqi, Rune of the River: Pick up to 2 friendly Lumineth Realm-lords units for each instance of this rune depicted on your battle scripture to be the targets. Subtract 2 from charge rolls for enemy units while they are within 12\" of any of the targets. In addition, the following enhanced effects apply:\n• While Alaithi, Rune of the Mountain is depicted on your battle scripture, ignore negative modifiers to hit rolls and wound rolls for attacks made by the targets.\n• If Oreali, Rune of the Wind is depicted on your battle scripture, each target can immediately move 3\". They can pass through the combat ranges of enemy units and can end that move in combat.\nOreali, Rune of the Wind: Pick up to 2 friendly Lumineth Realm-lords units for each instance of this rune depicted on your battle scripture to be the targets. Subtract 1 from hit rolls for attacks made by enemy units while they are in combat with any of the targets. In addition, the following enhanced effects apply:\n• While Varinor, Rune of Strength is depicted on your battle scripture, add 4\" to each target's Move characteristic.\n• While Alaithi, Rune of the Mountain is depicted on your battle scripture, add 5 to each target's control score.\nThalari, Rune of the Zenith: Add 2 to casting rolls for friendly Lumineth Realm-lords units. In addition, if you have 4 or more unique runes depicted on your battle scripture, add 4\" to the Move characteristic of friendly Lumineth Realm-lords units and friendly Lumineth Realm-lords units' attacks score critical hits on unmodified hit rolls of 5+.\nDesigner's Note: *We recommend noting the runes you have inscribed in each battle round on a piece of paper to keep track of which are currently depicted on your battle scripture. Feel free to note them by type (Strength, River, Mountain etc.), by initial (each has a different first letter) or if you are feeling particularly adventurous, you can try your hand at aelven calligraphy and learn to draw each rune!*"
+    }
+  ],
+  "artefacts": [
+    {
+      "name": "Silver Wand",
+      "cost": 0,
+      "effect": "Silver Wand: If this unit is not a Wizard, it can use the 'Unbind' ability as if it had Wizard (1). Otherwise, add 1 to casting rolls for this unit.",
+      "restrictions": [],
+      "groupName": "Heirlooms of Hysh"
+    },
+    {
+      "name": "Waystone",
+      "cost": 0,
+      "effect": "Waystone: Your Movement Phase Remove this unit from the battlefield and set it up again wholly within friendly territory and more than 9\" from all enemy units.\nKeywords: Core",
+      "restrictions": [],
+      "groupName": "Heirlooms of Hysh"
+    },
+    {
+      "name": "Phoenix Stone",
+      "cost": 0,
+      "effect": "Phoenix Stone: The first time this unit would be destroyed, before removing it from play, roll a dice. On a 3+, this unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, Heal (D3) this unit.",
+      "restrictions": [],
+      "groupName": "Heirlooms of Hysh"
+    }
+  ],
+  "heroicTraits": [
+    {
+      "name": "Flawless Commander",
+      "cost": 0,
+      "effect": "Flawless Commander: Deployment Phase Pick up to 3 visible friendly Lumineth Realm-lords Infantry units wholly within 18\" of this unit to be the targets. Each target can use the 'Normal Move' ability as if it were your movement phase.",
+      "restrictions": [],
+      "groupName": "Facets of Brilliance"
+    },
+    {
+      "name": "Masterful Tactician",
+      "cost": 0,
+      "effect": "Masterful Tactician: Reaction: You declared the 'Redeploy' command for a friendly Lumineth Realm‑lords unit wholly within 12\" of this unit If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead.",
+      "restrictions": [],
+      "groupName": "Facets of Brilliance"
+    },
+    {
+      "name": "Acolyte of the Runes",
+      "cost": 0,
+      "effect": "Acolyte of the Runes: Start of Battle Round Pick a friendly Lumineth Realm-lords Hero wholly within 12\" of this unit to be the target. That Hero can be picked as an additional target the next time you use the 'Depict Rune' ability.",
+      "restrictions": [],
+      "groupName": "Facets of Brilliance"
+    },
+    {
+      "name": "Aetherquartz Requisitioner",
+      "cost": 0,
+      "effect": "Aetherquartz Requisitioner: Once Per Battle, Reaction: You declared a Spell ability for a Lumineth Realm-lords Wizard within this unit's combat range Add 3 to the casting roll for that spell.",
+      "restrictions": [],
+      "groupName": "Aspects of Enlightenment"
+    },
+    {
+      "name": "Martial Perfectionist",
+      "cost": 0,
+      "effect": "Martial Perfectionist: Any Combat Phase Pick a visible enemy unit within 12\" of this unit that is damaged or that had any models slain this turn to be the target. Roll a dice. On a 3+, add 1 to wound rolls for combat attacks made by friendly Lumineth Realm-lords Infantry units that target that enemy unit for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Aspects of Enlightenment"
+    },
+    {
+      "name": "Flawless Commander",
+      "cost": 0,
+      "effect": "Flawless Commander: Add 2\" to the Move characteristic of friendly Lumineth Realm-lords Infantry units while they are wholly within 12\" of this unit.",
+      "restrictions": [],
+      "groupName": "Aspects of Enlightenment"
+    },
+    {
+      "name": "Scholar of the Sigils",
+      "cost": 0,
+      "effect": "Scholar of the Sigils: Deployment Phase Pick 1 of the following runes and apply the corresponding effect for the rest of the battle. That rune cannot be depicted on your battle scripture for the rest of the battle.\n*Varinor, Rune of Strength*: Add 1 to run rolls and charge rolls for this unit.\n*Alaithi, Rune of the Mountain*: This unit has Ward (5+).\n*Ydriliqi, Rune of the River*: This unit's melee weapons have Anti-charge (+1 Rend) and this unit's ranged weapons have Shoot in Combat. \n*Oreali, Rune of the Wind*: Subtract 1 from hit rolls for combat attacks that target this unit.\n*Thalari, Rune of the Zenith*: Add 1 to casting rolls for this unit.",
+      "restrictions": [],
+      "groupName": "Facets of Brilliance"
+    },
+    {
+      "name": "Peerless Swordsman",
+      "cost": 0,
+      "effect": "Peerless Swordsman: Any Combat Phase Pick an enemy unit with a starting size of 1 that is in combat with this unit to be the target, then pick 1 of this unit's non-Companion melee weapons to be the parrying blade. Roll a number of dice equal to the Attacks characteristic of the parrying blade. For each 3+, subtract 1 from the Attacks characteristic of the target's non-Companion melee weapons for the rest of the turn. In addition, for each 5+, inflict 1 mortal damage on the target.\nKeywords: Core, Attack, Fight",
+      "restrictions": [],
+      "groupName": "Facets of Brilliance"
+    },
+    {
+      "name": "Dispassionate Soul",
+      "cost": 0,
+      "effect": "Dispassionate Soul: Once Per Battle, End of Your Turn If this unit is in combat with an enemy Hero, reduce your opponent's fury level by X, where X is the number of unique runes depicted on your battle scripture.",
+      "restrictions": [],
+      "groupName": "Facets of Brilliance"
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Scinari Council",
+      "cost": 0,
+      "effect": "Arcane Focus: Spell abilities from the Lore of Hysh or the Lore of the Awakened Realms used by friendly Lumineth Realm-lords Wizards have the Unlimited keyword. However, you cannot pick the same unit to be the target of the same Spell ability in the same turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Lumineth Realm-lords"
+    },
+    {
+      "name": "Pilgrims of Haixiah",
+      "cost": 0,
+      "effect": "Trick of the Light: Friendly Lumineth Realm-lords units can use the 'Power Through' command even if they have not charged this turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Lumineth Realm-lords"
+    },
+    {
+      "name": "Warhost of Duality",
+      "cost": 20,
+      "effect": "Strike as One: When players are alternating picking units to use a Fight ability, when it is your turn to pick a unit, you can pick 2 friendly Lumineth Realm-lords units instead of 1. Resolve the second Fight ability immediately after the first.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Lumineth Realm-lords"
+    },
+    {
+      "name": "Aelementor Guardians",
+      "cost": 10,
+      "effect": "Ancient Spirits: Once Per Turn (Army), Any Hero Phase Pick a friendly Lumineth Realm-lords Monster to be the target. For the rest of the turn, ignore the first damage point that would be allocated to each visible friendly Lumineth Realm-lords unit in each phase while it is wholly within 12\" of the target.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Lumineth Realm-lords"
+    }
+  ],
+  "boons": [],
+  "spellLores": [
+    {
+      "name": "Lore of Hysh",
+      "effect": ""
+    },
+    {
+      "name": "Lore of Prismatic Resonance",
+      "effect": ""
+    },
+    {
+      "name": "Lore of the Awakened Realms",
+      "effect": ""
+    }
+  ],
+  "prayerLores": []
+}

@@ -1,0 +1,147 @@
+{
+  "faction": "Maggotkin of Nurgle",
+  "battleTraits": [
+    {
+      "name": "Desperate Remedies",
+      "effect": "Desperate Remedies: If an ability would heal or return slain models to a Diseased enemy unit, that ability does not heal any damage points or return any slain models to it. Instead, it no longer has the Diseased keyword."
+    },
+    {
+      "name": "Wracked with Disease",
+      "effect": "Wracked with Disease (Once Per Turn (Army), End of Any Turn): Inflict D3 mortal damage on each target."
+    },
+    {
+      "name": "Blessed By the Plaguefather",
+      "effect": "Blessed By the Plaguefather (Once Per Turn (Army), End of Any Turn): Pick 1 of the following effects: \n*Infect:* Pick an enemy unit within 7\" of any friendly Maggotkin of Nurgles unit to be the target. You cannot pick a Manifestation or terrain feature.\n• If the target is in combat with any Maggotkin of Nurgle units, it has the Diseased keyword.\n• If the target is not in combat with any Maggotkin of Nurgle units, roll a dice. On a 4+, the target has the Diseased keyword.\n*Spread:* Pick a Diseased enemy unit to be the target. Each other enemy unit within the target's combat range, excluding Manifestations and terrain features, has the Diseased keyword.\n*Mutate:* If all enemy units on the battlefield, excluding Manifestations and terrain features, have the Diseased keyword, inflict 1 mortal damage on each of them."
+    },
+    {
+      "name": "Burst Pustules",
+      "effect": "Burst Pustules: Each time a Diseased enemy unit is destroyed, before the last model in the unit is removed from play, roll a dice. On a 3+, pick another enemy unit within 9\" of that model to be the target. You cannot pick a Manifestation or terrain feature. The target has the Diseased keyword."
+    },
+    {
+      "name": "Blighted Regrowth",
+      "effect": "Blighted Regrowth (Your Hero Phase): Set up a Feculent Gnarlmaw on the battlefield wholly within 12\" of an objective you control and more than 3\" from all enemy units, objectives, and other terrain features."
+    },
+    {
+      "name": "Ceaseless Infectors",
+      "effect": "Ceaseless Infectors (Once Per Turn (Army), End of Any Turn): Roll a dice. On a 3+, the target has the Diseased keyword."
+    }
+  ],
+  "artefacts": [
+    {
+      "name": "The Carrion Dirge",
+      "cost": 0,
+      "effect": "The Carrion Dirge: Once Per Battle, Any Hero Phase Pick up to 3 enemy units within 18\" of this unit to be the targets. Subtract 5 from the targets' control scores until the start of your next turn.",
+      "restrictions": [],
+      "groupName": "Boons of Nurgle"
+    },
+    {
+      "name": "Rustfang",
+      "cost": 0,
+      "effect": "Rustfang: Any Combat Phase Pick an enemy Hero or Monster in combat with this unit to be the target. Subtract 1 from save rolls for the target for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Boons of Nurgle"
+    },
+    {
+      "name": "The Witherstave",
+      "cost": 0,
+      "effect": "The Witherstave: Any Combat Phase Pick an enemy unit that charged this turn and is in combat with this unit to be the target. Roll a dice. On a 3+, subtract 1 from the Damage characteristic of the target's melee weapons for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Boons of Nurgle"
+    }
+  ],
+  "heroicTraits": [
+    {
+      "name": "Gift of Febrile Frenzy",
+      "cost": 0,
+      "effect": "Gift of Febrile Frenzy: Any Combat Phase Pick a visible friendly non-Hero Maggotkin of Nurgle unit that is wholly within 12\" of this unit to be the target. Roll a dice. On a 3+, add 1 to the Attacks characteristic of the target's melee weapons for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Avatars of Corruption"
+    },
+    {
+      "name": "Grandfather's Blessing",
+      "cost": 0,
+      "effect": "Grandfather's Blessing: End of Any Turn If this unit is in combat with a Diseased enemy unit, Heal (D3) this unit.",
+      "restrictions": [],
+      "groupName": "Avatars of Corruption"
+    },
+    {
+      "name": "Overpowering Stench",
+      "cost": 0,
+      "effect": "Overpowering Stench: Any Combat Phase Pick an enemy unit in combat with this unit to be the target. You and your opponent must roll off. If you roll is higher, pick 1 of the following effects to apply for the rest of the turn:\n• Ignore positive modifiers to save rolls for the target.\n• Subtract 1 from ward rolls for the target.",
+      "restrictions": [],
+      "groupName": "Avatars of Corruption"
+    },
+    {
+      "name": "Living Plague",
+      "cost": 0,
+      "effect": "Living Plague: Once Per Battle, Any Combat Phase If this unit charged this turn, pick an enemy unit in combat with it to be the target. The target has the Diseased keyword.",
+      "restrictions": [],
+      "groupName": "Grandfather's Gifts"
+    },
+    {
+      "name": "Corpulent Avalanche",
+      "cost": 0,
+      "effect": "Corpulent Avalanche: Any Charge Phase If this unit charged this turn, pick a visible enemy unit within 1\" of it to be the target. Roll a number of dice equal to this unit's Move characteristic. For each 3+, inflict 1 mortal damage on the target.\nIf any damage points were allocated to the target by this ability, this unit can move 2D3\". It can move through the combat ranges of enemy units but must end that move in combat with the unit it was already in combat with at the start of\nthe move.",
+      "restrictions": [],
+      "groupName": "Grandfather's Gifts"
+    },
+    {
+      "name": "Unctuous Preacher",
+      "cost": 0,
+      "effect": "Unctuous Preacher: If this unit is not a Priest, it has Priest (1). If this unit is already a Priest, add 1 to chanting rolls for this unit.",
+      "restrictions": [],
+      "groupName": "Grandfather's Gifts"
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Affliction Cyst",
+      "cost": 0,
+      "effect": "Filth-laden Daemonic Blooms: Each time you make a run roll for a friendly non-Monster Maggotkin of Nurgle Daemon unit, you can change that roll to a 4.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Maggotkin of Nurgle"
+    },
+    {
+      "name": "Tallyband of Nurgle",
+      "cost": 0,
+      "effect": "Plague Progenitor: Once Per Battle (Army), Deployment Phase Pick an enemy unit on the battlefield to be the plague progenitor for the rest of the battle. You cannot pick a Manifestation or terrain feature. Roll 2D3. On a 6, or if the roll equals or exceeds the plague progenitor's Health characteristic, it has the Diseased keyword.\nIn the first battle round, if an ability would heal or return any slain models to a Diseased plague progenitor, that ability does not\nheal any damage points or return any slain models to it.\nEach time the plague progenitor is picked to be the target of the 'Spread' effect of the 'Blessed by the Plaguefather' ability, inflict D3 mortal damage on each other enemy unit within its combat range, excluding Manifestations and terrain features, in addition to the effect of that ability.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Maggotkin of Nurgle"
+    },
+    {
+      "name": "Nurgle's Menagerie",
+      "cost": 0,
+      "effect": "Denizens of the Garden: Companion weapons used by friendly Maggotkin of Nurgle units have Crit (2 Hits).",
+      "restrictions": [],
+      "groupName": "Battle Formations: Maggotkin of Nurgle"
+    },
+    {
+      "name": "Plague Cyst",
+      "cost": 0,
+      "effect": "Vectors of Contagion: Add 5 to the control scores of friendly non-Hero Rotbringers units while they are wholly within 12\" of any friendly Maggotkin of Nurgle Daemon units.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Maggotkin of Nurgle"
+    }
+  ],
+  "boons": [],
+  "spellLores": [
+    {
+      "name": "Lore of Malignance",
+      "effect": ""
+    }
+  ],
+  "prayerLores": [
+    {
+      "name": "Benedictions of Sickness",
+      "effect": ""
+    },
+    {
+      "name": "Benedictions of Sickness",
+      "effect": ""
+    },
+    {
+      "name": "Lore of Virulence",
+      "effect": ""
+    }
+  ]
+}
