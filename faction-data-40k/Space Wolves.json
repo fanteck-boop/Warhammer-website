@@ -1,0 +1,1266 @@
+[
+  {
+    "name": "Logan Grimnar",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 100,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Terminator",
+      "Chapter Master",
+      "Logan Grimnar"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n\n■ Wolf Guard Terminators",
+      "High King of Fenris: Once per battle round, in your Movement phase, you can select one friendly Space Wolves unit that is in Reserves. If you do, until the end of the phase, for the purposes of setting up that unit on the",
+      "Guile of the Wolf (Aura): Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that usage of that Stratagem by 1CP P (this is not cumulative wi",
+      "Embarking within Transports: This model can embark within friendly Adeptus Astartes Transport models that can transport Terminator models. When doing, it takes up the space of 4 Infantry models"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Logan Grimnar on Stormrider [Legends]",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 180,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "4",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Mounted",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Chapter Master",
+      "Logan Grimnar on Stormrider"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following unit:\n\n■ Thunderwolf Cavalry",
+      "Logan Grimnar: Your army cannot contain both Logan Grimnar and Logan Grimnar on Stormrider"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Njal Stormcaller",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Psyker",
+      "Imperium",
+      "Njal Stormcaller",
+      "Tacticus"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n\n■ Blood Claws\n■ Grey Hunters\n■ Wolf Guard Headtakers",
+      "Wind Walker (Psychic): While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability and each time that unit advances, do not make an Advance roll. Instead, until the end of t",
+      "Tempest's Wrath (Psychic): In your Shooting phase, after this model's unit has shot, select one enemy unit, (excluding MONSTERS and VEHICLES) hit by one or more of those attacks made with this model's Living Lightning weapon. U"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Bjorn the Fell-Handed",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 160,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Character",
+      "Epic Hero",
+      "Smoke",
+      "Imperium",
+      "Bjorn the Fell-Handed",
+      "Dreadnought"
+    ],
+    "abilities": [
+      "Legendary Tenacity: Each time an attack is allocated to this model, if the Strength characteristic of that attack is greater than this model's Toughness characteristic, subtract 1 from the Wound roll.",
+      "Ancient Tactician: At the start of your Command phase, if this model is on the battlefield, you gain 1 CP"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Arjac Rockfist",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 95,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Terminator",
+      "Arjac Rockfist"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n\n■ Wolf Guard Terminators",
+      "Anvil of Endurance: While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6, on a 4+, do not remove the destroyed model from",
+      "Champion of the Kingsguard: Each time this model makes a melee attack that targets a CHARACTER unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ulrik the Slayer",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "5+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "Imperium",
+      "Ulrik the Slayer",
+      "Wolf Priest"
+    ],
+    "abilities": [
+      "Slayer’s Oath: At the start of the battle, select one of the following keywords to be this model's Slayer's Oath: CHARACTER, VEHICLE or MONSTER. The first time this model's unit destroys a unit with this model's Sla",
+      "Leader: This model can be attached to the following units:\n\n■ Blood Claws\n■ Grey Hunters\n■ Wolf Guard Headtakers",
+      "Oathbound: While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll. If that attack targets a unit that has this model's Slayer's Oath keyword (see above), a"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ragnar Blackmane",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 90,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Grenades",
+      "Tacticus",
+      "Captain",
+      "Ragnar Blackmane"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n\n■ Blood Claws\n■ Wolf Guard Headtakers",
+      "War Howl: While this model is leading a BLOOD CLAWS unit, each time a model in that unit makes a melee attack, you can re-roll the Wound roll. While this model is leading a WOLF GUARD HEADTAKERS UNIT, that unit",
+      "Battle-lust: Each time this model ends a Charge move, until the end of the turn, add 2 to the Attacks characteristics of this model’s Frostfang."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Krom Dragongaze [Legends]",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 65,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "Imperium",
+      "Captain",
+      "Krom Dragongaze"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n\n■ Blood Claws\n■ Grey Hunters\n■ Wolf Guard",
+      "Refuse to Accept Defeat: While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit ",
+      "The Fierce Eye: In your Shooting phase, you can select one enemy INFANTRY unit within 12\" of and visible to this model. That enemy unit must take a Battle-shock test."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Harald Deathwolf [Legends]",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "7",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Mounted",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "Imperium",
+      "Captain",
+      "Harald Deathwolf"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n\n■ Thunderwolf Cavalry",
+      "Lord of the Wolfkin: While this model is leading a unit, each time that unit makes a Charge move, until the end of the turn, crushing teeth and claws equipped by models in that unit have the [DEVASTATING WOUNDS] ability.",
+      "Mantle of the Troll King: Once per phase, when resolving an attack made against this model, after you make a saving throw for this model, you can change the Damage characteristic of that attack to 0."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Canis Wolfborn [Legends]",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Mounted",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Canis Wolfborn"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n\n■ Fenrisian Wolves\n■ Thunderwolf Cavalry",
+      "Born of Wolves: While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
+      "Alpha Predator: Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mo"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wolf Guard Battle Leader in Terminator Armour [Legends]",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Imperium",
+      "Terminator",
+      "Wolf Guard Battle Leader in Terminator Armour"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n\n■ Relic Terminator Squad\n■ Terminator Assault Squad\n■ Terminator Squad\n■ Wolf Guard Terminators\n\nYou can attach this model to one of the above units",
+      "Huskarl to the Jarl: While this model is attached to a unit that contains another CHARACTER model, all CHARACTER models in that unit have the Feel No Pain 4+ ability.",
+      "Relic shield: The bearer has a Wounds characteristic of 6."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wolf Lord on Thunderwolf [Legends]",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 100,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Mounted",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Captain",
+      "Wolf Lord on Thunderwolf"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n\n■ Thunderwolf Cavalry",
+      "Speed of the Hunter: Add 1 to Advance and Charge rolls made for this model’s unit.",
+      "Relic shield: The bearer has a Wounds characteristic of 7."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wolf Guard Battle Leader on Thunderwolf [Legends]",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Mounted",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Wolf Guard Battle Leader on Thunderwolf"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following unit:\n\n■ Thunderwolf Cavalry\n\nYou can attach this model to the above unit even if one Captain or Chapter Master model has already been attached to it. If yo",
+      "Aggressive Hunter: Once per battle, in your opponent’s Shooting phase, after an enemy unit has finished making its attacks, if this model’s unit was targeted by one or more of those attacks, this model’s unit can make a",
+      "Storm Shield: The bearer has a 4+ invulnerable save."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Blood Claws",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 135,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Imperium",
+      "Blood Claws",
+      "Tacticus"
+    ],
+    "abilities": [
+      "Berserk Charge: This unit is eligible to declare a charge in a turn in which it Advanced"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Grey Hunters",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 165,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Imperium",
+      "Grey Hunters",
+      "Tacticus"
+    ],
+    "abilities": [
+      "Cunning Hunters: Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target is within range of an objective marker, you can re-roll the Wound roll instead."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wolf Guard [Legends]",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "5+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Wolf Guard"
+    ],
+    "abilities": [
+      "Chosen Companions: While a CHARACTER model is leading this unit, each time a model in this unit makes an attack, add 1 to the Hit roll.",
+      "Attached Unit: If a CHARACTER unit from your army with the Leader ability can be attached to an STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD, it can instead be attached to this unit.",
+      "Storm Shield: The bearer has a 4+ invulnerable save."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Lukas the Trickster [Legends]",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 50,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "Imperium",
+      "Lukas the Trickster"
+    ],
+    "abilities": [
+      "Pelt of the Doppelgangrel:: While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll.",
+      "Last Laugh: If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, roll one D6: on a 4+, the attacking unit suffers D6 mortal wounds and is Battle-shocked.",
+      "Leader: This model can be attached to the following unit:\n\n■ Blood Claws",
+      "Master of Mischief: This model cannot be your WARLORD."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wolf Guard Terminators",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 150,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Imperium",
+      "Terminator",
+      "Wolf Guard Terminators",
+      "Wolf Guard"
+    ],
+    "abilities": [
+      "Rugged Resilience: Each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll.",
+      "Fierce Example: WOLF GUARD TERMINATORS unit only. This unit has +1 T"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hounds of Morkai [Legends]",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Smoke",
+      "Imperium",
+      "Phobos",
+      "Hounds of Morkai"
+    ],
+    "abilities": [
+      "Morkai’s Howl: In your Shooting phase, you can select one enemy unit within 12\" of this unit (if a LIEUTENANT IN REIVER ARMOUR is leading this unit, you can select one enemy unit within 18\" instead). That unit must ",
+      "Invulnerable Save: Models in this unit have a 6+ invulnerable save. This invulnerable save is improved to 4+ against Psychic Attacks.",
+      "Attached Unit: If a CHARACTER unit from your army with the Leader ability can be attached to a REIVER SQUAD, it can instead be attached to this unit."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wulfen",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "6",
+    "save": "4+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Imperium",
+      "Wulfen"
+    ],
+    "abilities": [
+      "Death Totem: Each time the bearer makes a melee attack, re-roll a hit roll of 1.",
+      "Savage Frenzy: Each time an enemy unit, (excluding MONSTERS and VEHICLES) within Engagement Range of this unit Falls Back, all that models in that enemy unit must take a Desperate Escape test. When doing so, if that"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wulfen Dreadnought",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 135,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Wulfen",
+      "Dreadnought"
+    ],
+    "abilities": [
+      "Bestial Rage: Each time an enemy unit is selected to shoot, after that unit has shot, if this model lost one or more wounds as a result of those attacks, this model can make a Bestial Rage move. To do so, roll one ",
+      "Violent Fury: If this model is equipped with two melee weapons, those weapon profiles have the TWIN-LINKED ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Murderfang",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 150,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Murderfang",
+      "Wulfen",
+      "Dreadnought"
+    ],
+    "abilities": [
+      "Murder-maker [Aura]: In the Fight phase, each time an attack targets a friendly WULFEN unit within 6\" of this model, if a model in that unit is destroyed as a result of that attack, if that model has not fought this phase",
+      "Force of Untamed Destruction: This model cannot be your WARLORD.",
+      "Beastial Fury: You can re-roll Advance and Charge rolls made for this model."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Thunderwolf Cavalry",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 100,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "CAVALRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Mounted",
+      "Grenades",
+      "Imperium",
+      "Thunderwolf Cavalry"
+    ],
+    "abilities": [
+      "Thunderous Charge: Each time a model in this unit makes a melee attack with its Wolf Guard weapon, if it made a Charge move this turn, add 1 to the Damage characteristic of that attack"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Fenrisian Wolves",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 45,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "4",
+    "save": "6+",
+    "wounds": "1",
+    "leadership": "8+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "BEAST",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Beast",
+      "Imperium",
+      "Fenrisian Wolves"
+    ],
+    "abilities": [
+      "Predatory Instinct: Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, it can make a Normal move of up to D6\"",
+      "Hunting Hounds: While this unit is within 6\" of one or more SPACE WOLVES CHARACTER models (excluding WULFEN models), if this unit is not Battle-shocked, models in it have an Objective Control characteristic of 1"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Skyclaws [Legends]",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 90,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Jump Pack",
+      "Fly",
+      "Grenades",
+      "Imperium",
+      "Skyclaws"
+    ],
+    "abilities": [
+      "Headstrong: You can re-roll Charge rolls made for this unit. Each time this unit makes a Charge move, until the end of the turn, each time a model in this unit makes a melee attack, add 1 to the Hit roll.",
+      "Attached Unit: If a CHARACTER unit from your army with the Leader ability can be attached to an ASSAULT INTERCESSOR SQUAD WITH JUMP PACKS or ASSAULT SQUAD WITH JUMP PACKS, it can instead be attached to this unit."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Long Fangs [Legends]",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 120,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Long Fangs"
+    ],
+    "abilities": [
+      "Fire Discipline: Each time this unit Remains Stationary, if it includes a Long Fang Pack Leader, you can select one enemy unit that is visible to that model. Until the end of the turn, each time a model in this unit m",
+      "Attached Unit: If a CHARACTER unit from your army with the Leader ability can be attached to a DEVASTATOR SQUAD, it can instead be attached to this unit.",
+      "Armorium Cherub: Once per battle, after making a Hit roll for a model in this unit, you can change that roll to an unmodified 6."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Stormfang Gunship [Legends]",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 300,
+    "models": 1,
+    "move": "20+\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Transport",
+      "Stormfang Gunship",
+      "Imperium"
+    ],
+    "abilities": [
+      "Frozen Prey: In your Shooting phase, after this model has shot, if an enemy MONSTER or VEHICLE unit was hit by one or more of those attacks made with this model’s helfrost destructor, until the end of your opponen"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Stormwolf [Legends]",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 250,
+    "models": 1,
+    "move": "20+\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Transport",
+      "Stormwolf",
+      "Imperium"
+    ],
+    "abilities": [
+      "Into the Foe: If a unit disembarks from this TRANSPORT before it moves, until the end of the turn, that unit is eligible to charge in a turn in which it Advanced."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wolf Guard Pack Leader [Legends]",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 30,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Pack Leader",
+      "Wolf Guard Pack Leader"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n\n■ Blood Claws\n■ Grey Hunters\n■ Long Fangs\n\nYou must attach this model to one of the above units, and can do so even if one or more Character units h",
+      "Storm Shield: The bearer has a 4+ invulnerable save."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wolf Guard Pack Leader with Jump Pack [Legends]",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 35,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Jump Pack",
+      "Fly",
+      "Grenades",
+      "Imperium",
+      "Pack Leader",
+      "Wolf Guard Pack Leader with Jump Pack"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following unit:\n\n■ Skyclaws\n\nYou must attach this model to the above unit, and can do so even if one or more Character units have already been attached to that unit, ",
+      "Storm Shield: The bearer has a 4+ invulnerable save."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wolf Guard Pack Leader in Terminator Armour [Legends]",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 40,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Terminator",
+      "Pack Leader",
+      "Wolf Guard Pack Leader in Terminator Armour"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n\n■ Blood Claws\n■ Grey Hunters\n■ Long Fangs\n\nYou must attach this model to one of the above units, and can do so even if one or more Character units h",
+      "Storm Shield: The bearer has a Wounds characteristic of 4."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Iron Priest",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 50,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Imperium",
+      "Techmarine",
+      "Iron Priest"
+    ],
+    "abilities": [
+      "Iron Priest: While this model is within 3\" of one or more friendly ADEPTUS ASTARTES VEHICLE units, this model has the Lone Operative ability",
+      "Gift of the Iron Wolf: In your Command phase, you can select one friendly ADEPTUS ASTARTES VEHICLE model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, sele",
+      "Leader: This model can be attached to the following units:\n\n■ Wolfguard Headtakers\n■ Blood Claws\n■ Grey Hunters",
+      "Judgement of the Omnissiah: Each time this model makes an attack that targets an enemy unit within Engagement Range of one or more friendly ADEPTUS ASTARTES VEHICLE units, you can re-roll the wound roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Cyberwolf [Legends]",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 20,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "4",
+    "save": "6+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Beast",
+      "Character",
+      "Imperium",
+      "Cyberwolf"
+    ],
+    "abilities": [
+      "Alpha Hunter: While this model is leading a unit, models in that unit have the Scouts 6\" ability.",
+      "Close In for the Kill: Each time this model makes an attack that targets an enemy unit that is Below Half-strength, add 1 to the Hit roll and add 1 to the Wound roll.",
+      "Invulnerable Save: 6+",
+      "Leader: This model can be attached to the following unit:\n\n■ Fenrisian Wolves\n\nYou must attach this model to the above unit, even if Canis Wolfborn has been attached to it. If you do, and that Bodyguard unit ",
+      "Wolfkin: This model cannot be your WARLORD and cannot be given Enhancements."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wolf Scouts [Legends]",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Smoke",
+      "Imperium",
+      "Scout Squad",
+      "Wolf Scouts"
+    ],
+    "abilities": [
+      "Guerrilla Tactics: At the end of your opponent’s turn, if this unit is more than 6\" away from all enemy models, you can remove this unit from the battlefield and place it into\nStrategic Reserves."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Venerable Dreadnought",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 125,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Smoke",
+      "Imperium",
+      "Dreadnought",
+      "Venerable Dreadnought"
+    ],
+    "abilities": [
+      "Fervour of the Ancients (Aura): While a friendly SPACE WOLVES unit is within 6\" of this model, add 1 to Advance and Charge rolls made for that unit."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Iron Priest on Thunderwolf [Legends]",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 95,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Mounted",
+      "Grenades",
+      "Imperium",
+      "Iron Priest"
+    ],
+    "abilities": [
+      "Vengeance of the Omnissiah: If a friendly ADEPTUS ASTARTES VEHICLE model is destroyed within 12\" of this model, until the end of the battle, this model’s Iron Priest hammer has an Attacks characteristic of 6.",
+      "Leader: This model can be attached to the following units:\n\n■ Thunderwolf Cavalry",
+      "Iron Priest: While this model is within 3\" of one or more friendly ADEPTUS ASTARTES VEHICLE units, this model has the Lone Operative ability",
+      "Blessing of the Omnissiah: In your Command phase, you can select one friendly ADEPTUS ASTARTES VEHICLE model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wolf Priest",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Imperium",
+      "Tacticus",
+      "Wolf Priest"
+    ],
+    "abilities": [
+      "Weaver of Sagas: WOLF PRIEST model only. (Once per battle-round, per army) In your Movement phase, at the start or end of this unit's move, you can:\n\n\n▪ Select one friendly ADEPTUS ASTARTES unit within 6\" of this unit",
+      "Leader: This model can be attached to the following units:\n\n■ Blood Claws\n■ Grey Hunters\n■ Wolf Guard Headtakers",
+      "Healing Balms: While this model is leading a unit, in your Command phase, you can return 1 model (excluding CHARACTER models) to that unit."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wolf Guard Battle Leader",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 65,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Imperium",
+      "Tacticus",
+      "Wolf Guard",
+      "Battle Leader"
+    ],
+    "abilities": [
+      "Tempered Ferocity: While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability and, each time a model in that unit makes an attack that targets an enemy unit within 6\"",
+      "Heroic Last Stand: If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. The destroyed model can fight after the attacking unit has finished mak",
+      "Leader: This model can be attached to the following units:\n\n■ Blood Claws\n■ Grey Hunters\n■ Wolf Guard Headtakers",
+      "Eye of the Hunter: WOLF GUARD BATTLE LEADER model only. This unit's ranged attacks have:\n\n\n▪ [ASSAULT].\n▪ [IGNORES COVER].\n▪ +1 AP.",
+      "Storm Shield: The bearer has a Wounds characteristic of 6"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wolf Guard Headtakers",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "4",
+    "save": "6+",
+    "wounds": "1",
+    "leadership": "8+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry"
+    ],
+    "abilities": [
+      "Let Loose the Wolves: At the start of the Declare Battle Formations step, split this unit into two units, one containing all of it's HEADTAKERS models and one containing all of its HUNTING WOLVES models, with new Starting ",
+      "Headhunters: At the start of the battle, select one unit from your opponent's army to be this unit's quarry. Weapons equipped by HEADTAKERS models in this unit have the [DEVASTATING WOUNDS] and [PRECISION] abiliti",
+      "Hunting Hounds: While this unit is within 6\" of one or more friendly SPACE WOLVES CHARACTER models (excluding WULFEN models), if this unit is not Battle-shocked, HUNTING WOLVES models in it have an Objective Control "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wulfen with Storm Shields",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 100,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "6",
+    "save": "4+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "4+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Imperium",
+      "Wulfen",
+      "Wulfen with Storm Shields"
+    ],
+    "abilities": [
+      "Death Totem: Each time the bearer makes a melee attack, re-roll a hit roll of 1.",
+      "Hammer Blow: In the Fight phase, after this unit has fought, select one enemy MONSTER or VEHICLE unit hit by one or more of those attacks. Until the end of the next turn, that enemy unit is suppressed. While a uni"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wolf Guard Headtakers",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry"
+    ],
+    "abilities": [
+      "Let Loose the Wolves: At the start of the Declare Battle Formations step, split this unit into two units, one containing all of it's HEADTAKERS models and one containing all of its HUNTING WOLVES models, with new Starting ",
+      "Headhunters: At the start of the battle, select one unit from your opponent's army to be this unit's quarry. Weapons equipped by HEADTAKERS models in this unit have the [DEVASTATING WOUNDS] and [PRECISION] abiliti",
+      "Hunting Hounds: While this unit is within 6\" of one or more friendly SPACE WOLVES CHARACTER models (excluding WULFEN models), if this unit is not Battle-shocked, HUNTING WOLVES models in it have an Objective Control "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wolf Scouts",
+    "faction": "Space Wolves",
+    "alliance": "imperium",
+    "points": 90,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Smoke",
+      "Imperium",
+      "Phobos",
+      "Wolf Scouts"
+    ],
+    "abilities": [
+      "Hunting Hounds: While this unit is within 6\" of one or more friendly ^^**Space Wolves Character**^^ models (excluding ^^**Wulfen**^^ models), if this unit is not Battle-shocked, Hunting Wolves models in this unit hav",
+      "Deadly Stalkers: Each time a model in this unit makes an attack that targets an enemy unit, if there are no other units from your opponent’s army within 6\" of that target, add 1 to the Wound roll."
+    ],
+    "system": "40k"
+  }
+]

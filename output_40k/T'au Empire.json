@@ -1,0 +1,1931 @@
+[
+  {
+    "name": "Commander Shadowsun",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 100,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Infantry",
+      "Fly",
+      "Character",
+      "Battlesuit",
+      "Commander Shadowsun",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Agile Combatant: This model is eligible to shoot in a turn in which it Fell Back.",
+      "Hero of the Empire (Aura): While a friendly **^^T’au Empire^^** unit is within 6\" of this model, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1.",
+      "Advanced Guardian Drone: Each time a ranged attack targets the bearer, subtract 1 from the Wound roll.",
+      "Command-link Drone (Aura): While a friendly **^^T’au Empire^^** unit is within 6\" of the bearer, each time you select that unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
+      "Supreme Commander: If this model is in your army, it must be your **^^Warlord^^**."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Commander Farsight",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 70,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Character",
+      "Battlesuit",
+      "Commander Farsight",
+      "Non-Kroot",
+      "Leader"
+    ],
+    "abilities": [
+      "Way of the Short Blade: While this model is leading a unit, each time a model in that unit makes an attack that targets an enemy unit within 9\", add 1 to the Wound roll.",
+      "Puretide's Teachings: Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP.",
+      "Leader: This model can be attached to the following units:\n- **CRISIS BATTLESUITS**\n- **CRISIS FIREKNIFE BATTLESUITS**\n- **CRISIS STARSCYTHE BATTLESUITS**\n- **CRISIS SUNFORGE BATTLESUITS**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Commander in Crisis Battlesuit [Legends]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 80,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Battlesuit",
+      "Commander in Crisis Battlesuit",
+      "Non-Kroot",
+      "Leader"
+    ],
+    "abilities": [
+      "Crisis Commander: While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1.",
+      "Leader: This model can be attached to the following units:\n- **CRISIS BATTLESUITS**\n- **CRISIS FIREKNIFE BATTLESUITS**\n- **CRISIS STARSCYTHE BATTLESUITS**\n- **CRISIS SUNFORGE BATTLESUITS**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Commander in Enforcer Battlesuit",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 80,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Battlesuit",
+      "Commander in Enforcer Battlesuit",
+      "Non-Kroot",
+      "Leader"
+    ],
+    "abilities": [
+      "Enforcer Commander: While this model is leading a unit, each time a ranged attack targets that unit, worsen the Armour Penetration characteristic of that attack by 1.",
+      "Leader: This model can be attached to the following units:\n- **CRISIS BATTLESUITS**\n- **CRISIS FIREKNIFE BATTLESUITS**\n- **CRISIS STARSCYTHE BATTLESUITS**\n- **CRISIS SUNFORGE BATTLESUITS**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Commander in Coldstar Battlesuit",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 95,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "6",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Battlesuit",
+      "Commander in Coldstar Battlesuit",
+      "Non-Kroot",
+      "Leader"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n- **CRISIS BATTLESUITS**\n- **CRISIS FIREKNIFE BATTLESUITS**\n- **CRISIS STARSCYTHE BATTLESUITS**\n- **CRISIS SUNFORGE BATTLESUITS**",
+      "Coldstar Commander: While this model is leading a unit, models in that unit have a Move characteristic of 12\" and ranged weapons equipped by models in that unit have the **[ASSAULT]** ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Cadre Fireblade",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 50,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Cadre Fireblade",
+      "Non-Kroot",
+      "Leader"
+    ],
+    "abilities": [
+      "Volley Fire: While this model is leading a unit, add 1 to the Attacks characteristic of ranged weapons equipped by models in that unit.",
+      "Crack Shot: Each time this model makes a ranged attack, on a Critical Wound, that attack has an Armour Penetration characteristic of -3.",
+      "Leader: This model can be attached to the following units:\n- **^^Breacher Team^^**\n- **^^Strike Team^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ethereal",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 50,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Ethereal",
+      "Non-Kroot",
+      "Leader"
+    ],
+    "abilities": [
+      "Coordinated Leadership: In your Command phase, roll one D6: on a 4+, you gain 1CP.",
+      "Leader: This model can be attached to the following units:\n- **^^Breacher Team^^**\n- **^^Strike Team^^**",
+      "Failure Is Not an Option: While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.",
+      "Hover Drone: The bearer can **^^Fly^^** and has a Move characteristic of 10\"."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Aun'va [Legends]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 65,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "5",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Duality Shield: Once per battle, each time an attack targets this unit, it can use this ability. If it does, until the end of the phase, models in this unit have a 2+ invulnerable save.",
+      "Paradox of Duality: Each time an attack targets this unit, subtract 1 from the Hit roll and subtract 1 from the Wound roll.",
+      "Supreme Loyalty (Aura): While a friendly T’AU EMPIRE unit is within 6\" of this unit, each time that unit takes a Battle-shock or Leadership test, add 1 to that test."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Aun'shi [Legends]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 50,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "6+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Ethereal",
+      "Aun'shi",
+      "Epic Hero",
+      "Non-Kroot",
+      "Leader"
+    ],
+    "abilities": [
+      "Inspirational Defiance: While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit.",
+      "Leader: This model can be attached to the following units:\n- **BREACHER TEAM**\n- **KROOT CARNIVORES**\n- **KROOT FARSTALKERS**\n- **STRIKE TEAM**",
+      "Martial Warrior: Each time this model is selected to fight, select one of the following abilities to be active while resolving those attacks:\n- Direct Grace: Fidelity has the [PRECISION] ability.\n- Forceful Strike: Fi"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Darkstrider",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 60,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Epic Hero",
+      "Darkstrider",
+      "Markerlight",
+      "Infantry",
+      "Non-Kroot",
+      "Leader"
+    ],
+    "abilities": [
+      "Structural Analyser: While this model is leading a unit, each time a model in that unit makes a ranged attack, add 1 to the Wound roll.",
+      "Jammer Array: Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of this model.",
+      "Leader: This model can be attached to the following unit:\n- **^^Pathfinder Team^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Longstrike [Legends]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 140,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Fly",
+      "Vehicle",
+      "Longstrike",
+      "Non-Kroot",
+      "Frame"
+    ],
+    "abilities": [
+      "Armour Hunter: Each time this model makes an attack that targets a MONSTER or VEHICLE, add 1 to the Hit roll.",
+      "XV02 Pilot Battlesuit: In your Command phase, you can select one friendly HAMMERHEAD GUNSHIP unit within 12\". Until the start of your next Command phase, ranged weapons equipped by models in that unit have the [LETHAL HITS]"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Strike Team",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 70,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Markerlight",
+      "Fire Warrior",
+      "Strike Team",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Suppression Volley: In your Shooting phase, after this unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks. Until the start of your next turn, while unit is on the battlefield, that enemy un",
+      "DS8 Support Turret: In your Movement phase, if this unit Remains Stationary, until the start of your next turn, its Shas’ui model is equipped with the support turret weapon.\n\nDesigner’s Note: Place a Support Turret token"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Breacher Team",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 90,
+    "models": 9,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Markerlight",
+      "Fire Warrior",
+      "Breacher Team",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Breach and Clear: Each time a model in this unit makes a ranged attack that targets an enemy unit within range of an objective marker, you can re-roll the Wound roll.",
+      "DS8 Support Turret: In your Movement phase, if this unit Remains Stationary, until the start of your next turn, its Shas’ui model is equipped with the support turret weapon.\n\nDesigner’s Note: Place a Support Turret token"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Kroot Carnivores",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 65,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "3",
+    "save": "6+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Kroot",
+      "Carnivores"
+    ],
+    "abilities": [
+      "Fieldcraft: At the end of the your Command phase, if this unit within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, unt",
+      "Bodyguard: If this unit has a Starting Strength of 20, you can attach up to two Leader units to it instead of one, provided those Leaders are not duplicates (e.g. you cannot attach two WAR SHAPERS to this unit)."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Krootox Riders",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 45,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "6",
+    "save": "5+",
+    "wounds": "5",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "CAVALRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Mounted",
+      "Kroot",
+      "Krootox Riders",
+      "Grenades"
+    ],
+    "abilities": [
+      "Kroot Packmates: Once per turn, in your opponent's Shooting phase, when a friendly KROOT INFANTRY unit within 6\" of this unit is selected as the target of an attack, one unit from your army with this ability can use i"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Crisis Battlesuits [Legends]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 200,
+    "models": 2,
+    "move": "10\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Battlesuit",
+      "Crisis",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Turbo-jets: Each time this unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit.",
+      "Crisis Bodyguard: If a **^^Character^^** unit from your army with the Leader ability can be attached to a **^^Crisis Fireknife Battlesuit^^** unit, it can be attached to this unit instead."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Stealth Battlesuits",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 100,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Fly",
+      "Battlesuit",
+      "Stealth",
+      "Grenades",
+      "Markerlight",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Forward Observers: Each time this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in a Guided unit that targets their Spotted unit, re-roll a Hit roll of 1 and re-roll "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ghostkeel Battlesuit",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 150,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "8",
+    "save": "2+",
+    "wounds": "12",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Smoke",
+      "Battlesuit",
+      "Ghostkeel",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Stealth Drones: Twice per battle, after an attack has been allocated to this model, you can change the Damage characteristic of that attack to 0.\n\nDesigner’s Note: Place two Stealth Drone tokens next to the unit, rem",
+      "Battlesuit Support System: The bearer is eligible to shoot in a turn in which it Fell Back but it loses the **^^Smoke^^** keyword."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Firesight Team",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 55,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Markerlight",
+      "Firesight Team",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Precise Targeting: Each time a model in this unit makes an attack that targets a Spotted unit, you can re-roll the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Pathfinder Team",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 85,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Markerlight",
+      "Pathfinder Team",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Target Uploaded: Each time a model in this unit makes an attack that targets their Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and that attack has the **[IGNORES COVER]** ability.",
+      "Grav-inhibitor Drone: Each time an enemy unit selects the bearer's unit as the target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other negative modifiers to that Charge roll).",
+      "Pulse Accelerator Drone: Add 6\" to the Range characteristic of pulse carbines equipped by models in the bearer’s unit.",
+      "Recon Drone: The bearer is equipped with 1 drone burst cannon and the bearer’s unit has the Infiltrators ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Piranhas",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 65,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "7",
+    "save": "4+",
+    "wounds": "7",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Piranha",
+      "Non-Kroot",
+      "Frame"
+    ],
+    "abilities": [
+      "Drone Harassment Tactics: At the end of your Movement phase, select one enemy unit within 12\" of this unit; that enemy unit must take a Battle-shock test."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Vespid Stingwings",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 70,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Fly",
+      "Vespid Stingwings",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Airborne Agility: At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.",
+      "Oversight Drone: Once per battle, when the bearer’s unit is selected to shoot, until the end of the phase, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability.\n\nDesigner’s Note: Place an Ov"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Kroot Hounds",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 45,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "3",
+    "save": "6+",
+    "wounds": "1",
+    "leadership": "8+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "BEAST",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Beast",
+      "Kroot",
+      "Hounds"
+    ],
+    "abilities": [
+      "Loping Pounce: At the start of your Command phase, if this unit is within 6\" of one or more friendly KROOT INFANTRY units, then until the end of the turn, this unit is eligible to declare a charge in a turn in which",
+      "Hunting Hounds: While this unit is within 12\" of one or more friendly KROOT CHARACTER models, the Objective Control characteristic of models in this unit is 1."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Broadside Battlesuits",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 75,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Battlesuit",
+      "Broadside",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Advanced Armour: Models in this unit have the Feel No Pain 4+ ability against mortal wounds."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Riptide Battlesuit",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 190,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "14",
+    "leadership": "7+",
+    "objectiveControl": "4",
+    "invulnerableSave": "4+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Battlesuit",
+      "Riptide",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Nova Charge: Once per battle, when this unit is selected to shoot in your Shooting phase, select one ranged weapon equipped by this model. Until the end of the phase, that weapon has the **[DEVASTATING WOUNDS]** a"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hammerhead Gunship",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 150,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Hammerhead Gunship",
+      "Non-Kroot",
+      "Frame"
+    ],
+    "abilities": [
+      "Armour Hunter: Each time this model makes an attack that targets a MONSTER or VEHICLE, add 1 to the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Sky Ray Gunship",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 140,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Markerlight",
+      "Sky Ray Gunship",
+      "Non-Kroot",
+      "Frame"
+    ],
+    "abilities": [
+      "Velocity Tracker: Each time this model makes an attack with a ranged weapon that targets a unit that can FLY, you can re-roll the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Devilfish",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 75,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "13",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Transport",
+      "Dedicated Transport",
+      "Devilfish",
+      "Non-Kroot",
+      "Frame"
+    ],
+    "abilities": [
+      "Rapid Deployment: Units can disembark from this TRANSPORT after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act norma"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Razorshark Strike Fighter",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 160,
+    "models": 1,
+    "move": "-",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "12",
+    "leadership": "7+",
+    "objectiveControl": "-",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Razorshark Strike Fighter",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Ground Strike Fighter: Each time this model makes a ranged attack that targets an enemy unit that cannot FLY, add 1 to the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Sun Shark Bomber",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 150,
+    "models": 1,
+    "move": "-",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "12",
+    "leadership": "7+",
+    "objectiveControl": "-",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Sun Shark Bomber",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Pulse Bombs: At the end of your opponent’s Fight phase, select one visible enemy unit (excluding Lone Operative units) within 24\" of this unit, and roll six D6 for that unit: For each 4+, that unit suffers 1 morta"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tidewall Shieldline",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 85,
+    "models": 1,
+    "move": "4\"",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Vehicle",
+      "Transport",
+      "Fly",
+      "Tidewall Shieldline",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Tidewall Defence Platform: If equipped with a Tidewall defence platform, this FORTIFICATION has a Wounds characteristic of 15."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tidewall Droneport",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 85,
+    "models": 1,
+    "move": "4\"",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Vehicle",
+      "Transport",
+      "Fly",
+      "Tidewall Droneport",
+      "Non-Kroot",
+      "Frame"
+    ],
+    "abilities": [
+      "Droneport: Each time this FORTIFICATION is selected to shoot, its drone defenders weapon will target and resolve attacks against every enemy unit that is an eligible target to this FORTIFICATION."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tidewall Gunrig",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 90,
+    "models": 1,
+    "move": "4\"",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Vehicle",
+      "Transport",
+      "Fly",
+      "Tidewall Gunrig",
+      "Non-Kroot",
+      "Frame"
+    ],
+    "abilities": [],
+    "system": "40k"
+  },
+  {
+    "name": "Stormsurge",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 375,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "20",
+    "leadership": "7+",
+    "objectiveControl": "6",
+    "invulnerableSave": "4+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Stormsurge",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Damaged: 1-5 Wounds Remaining: While this model has 1-5 wounds remaining, subtract 3 from this models Objective Control characteristic, and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Heavy Walker: Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there.",
+      "Support System: Each time this model makes a ranged attack, you can ignore any or all modifiers to the Hit roll.",
+      "Titan-killer: Each time this model makes a ranged attack that targets a TITANIC or TOWERING unit, you can re-roll the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tactical Drones [Legends]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 70,
+    "models": 4,
+    "move": "8\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Drone",
+      "Fly",
+      "Tactical Drones",
+      "Non-Kroot"
+    ],
+    "abilities": [],
+    "system": "40k"
+  },
+  {
+    "name": "Kroot Farstalkers",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 75,
+    "models": 2,
+    "move": "7\"",
+    "toughness": "3",
+    "save": "6+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Kroot",
+      "Farstalkers"
+    ],
+    "abilities": [
+      "Bounty Hunters: At the start of the battle, select one unit from your opponent’s army. Each time a model in this unit makes an attack that targets that unit, that attack has the [LETHAL HITS] and [PRECISION] abilitie",
+      "Pech'ra: Ranged weapons equipped by the bearer’s unit have the [IGNORES COVER] ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "R'varna Battlesuit [Legends]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 200,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "15",
+    "leadership": "7+",
+    "objectiveControl": "4",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "R'varna",
+      "Battlesuit",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Nova Shielding: Once per battle, when this model is selected as the target of a ranged attack, it can use this ability. If it does, until the end of the phase, each time an attack targets this model, if the Strength "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Y'vahra Battlesuit [Legends]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 210,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "15",
+    "leadership": "7+",
+    "objectiveControl": "4",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Battlesuit",
+      "Y'vahra",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Nova Burst: Once per battle, before this model makes a Normal, Advance or Fall Back move, it can use this ability. If it does, until the end of the phase, it has a Move characteristic of 18\"."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tetras [Legends]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 80,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "7",
+    "save": "4+",
+    "wounds": "7",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Markerlight",
+      "Tetras",
+      "Non-Kroot",
+      "Frame"
+    ],
+    "abilities": [
+      "High-intensity Markerlights: Each time this unit is an Observer unit, until the end of the phase, each time a model in its Guided unit makes an attack that targets their Spotted unit, you can re-roll the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Remora Stealth Drones [Legends]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 160,
+    "models": 2,
+    "move": "16\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Markerlight",
+      "Remora Stealth Drones",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Aerial Disengagement: In your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can ma"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ta'unar Supremacy Armour",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 790,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "30",
+    "leadership": "7+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Titanic",
+      "Walker",
+      "Towering",
+      "Ta'unar Supremacy Armour",
+      "Non-Kroot",
+      "Frame"
+    ],
+    "abilities": [
+      "Coordinated Strike: While this model is a Guided unit, each time it makes an attack that targets its Spotted unit, re-roll a Hit roll of 1.",
+      "Damaged: 1-10 Wounds Remaining: While this model has 1-10 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Barracuda [Legends]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 220,
+    "models": 1,
+    "move": "-",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "7+",
+    "objectiveControl": "-",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Barracuda",
+      "Non-Kroot",
+      "Frame"
+    ],
+    "abilities": [
+      "Agile Dogfighter: Each time an attack targets this model, subtract 1 from the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tiger Shark",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 375,
+    "models": 1,
+    "move": "-",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "18",
+    "leadership": "7+",
+    "objectiveControl": "-",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Tiger Shark",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Strafing Run: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks that cannot FLY. That enemy unit must take a Battle-shock test.",
+      "Transport bay: The bearer has the TRANSPORT keyword and has a transport capacity of 12 TACTICAL DRONES models."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "AX-1-0 Tiger Shark",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 315,
+    "models": 1,
+    "move": "-",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "18",
+    "leadership": "7+",
+    "objectiveControl": "-",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "AX-1-0 Tiger Shark",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Titan Hunter: This model’s twin heavy rail cannon and seeker missiles have the [ANTI-TITANIC 3+] ability while targeting a unit within half range."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Manta",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 2100,
+    "models": 1,
+    "move": "40\"",
+    "toughness": "14",
+    "save": "2+",
+    "wounds": "60",
+    "leadership": "7+",
+    "objectiveControl": "-",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Titanic",
+      "Transport",
+      "Markerlight",
+      "Manta",
+      "Non-Kroot",
+      "Frame"
+    ],
+    "abilities": [
+      "Aggressive Deployment: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this TRANSPOR",
+      "Air Caste Colossus: Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.",
+      "Damaged: 1-20 Wounds Remaining: While this model has 1-20 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Orca Dropship [Legends]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 275,
+    "models": 1,
+    "move": "20\"",
+    "toughness": "12",
+    "save": "3+",
+    "wounds": "28",
+    "leadership": "7+",
+    "objectiveControl": "-",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Titanic",
+      "Transport",
+      "Orca Dropship",
+      "Non-Kroot",
+      "Frame"
+    ],
+    "abilities": [
+      "Jet Pack Insertion: At the end of your opponent’s Movement phase, one or more units embarked within this TRANSPORT can disembark from it, provided every model in each of those disembarking units has the Deep Strike abili",
+      "Damaged: 1-9 Wounds Remaining: While this model has 1-9 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Heavy Gun Drones [Legends]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 45,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "5",
+    "save": "4+",
+    "wounds": "2",
+    "leadership": "8+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Heavy Gun Drones",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Drone Escort: Once per turn, in your opponent’s Shooting phase, when a friendly T'AU EMPIRE unit within 6\" of this unit is selected as the target of an attack, one unit from your army with this ability can use it. "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Great Knarloc [Legends]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 100,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "8",
+    "save": "4+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "MONSTER",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Monster",
+      "Kroot",
+      "Great Knarloc",
+      "Frame"
+    ],
+    "abilities": [
+      "Loping Stride: Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of this model.",
+      "Baggage Harness (Aura): While a friendly KROOT unit is within 3\" of the bearer, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "TX42 Piranha [Legends]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 60,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "7",
+    "save": "4+",
+    "wounds": "7",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "TX42 Piranha",
+      "Non-Kroot",
+      "Frame"
+    ],
+    "abilities": [
+      "Outflank: When this unit arrives from Strategic Reserves, it can be set up within your opponent’s deployment zone (all other restrictions still apply)."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knarloc Riders [Legends]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 110,
+    "models": 3,
+    "move": "7\"",
+    "toughness": "5",
+    "save": "5+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "CAVALRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Mounted",
+      "Kroot",
+      "Knarloc Riders"
+    ],
+    "abilities": [
+      "Thunderous Pounce: Each time this unit ends a Charge move, until the end of the turn, Knarloc beak and talons equipped by models in this unit have the [LANCE] ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Shas'o R'alai [Legends]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 80,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "6",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Markerlight",
+      "Shas'o R'alai",
+      "Battlesuit",
+      "Non-Kroot",
+      "Leader"
+    ],
+    "abilities": [
+      "Eclipse Field Generator: While this model is leading a unit, models in that unit have a 5+ invulnerable save.",
+      "Assassin: Each time this model makes an attack that targets a **^^Character^^** unit, you can re-roll the Hit roll.",
+      "Leader: This model can be attached to the following unit:\n- **^^XV9 Hazard Battlesuits^^**",
+      "Blacklight Marker Drones: Twice per battle, when this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in their Guided unit that targets their Spotted unit, re-roll a Wound rol"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Remote Sensor Tower [Legends]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 50,
+    "models": 1,
+    "move": "-",
+    "toughness": "8",
+    "save": "4+",
+    "wounds": "4",
+    "leadership": "8+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Remote Sensor Tower",
+      "Non-Kroot",
+      "Frame"
+    ],
+    "abilities": [
+      "Orbital Comms Array (Aura): While a friendly T'AU EMPIRE unit is within 6\" of this FORTIFICATION, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP.",
+      "Reinforced Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against th"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Drone Sentry Turret [Legends]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 50,
+    "models": 1,
+    "move": "-",
+    "toughness": "8",
+    "save": "4+",
+    "wounds": "4",
+    "leadership": "8+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Vehicle",
+      "Drone Sentry Turret",
+      "Non-Kroot",
+      "Frame"
+    ],
+    "abilities": [
+      "Reinforced Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against th",
+      "Sentinel Protocols: Each time you select this FORTIFICATION for the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Crisis Sunforge Battlesuits",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 125,
+    "models": 2,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Battlesuit",
+      "Crisis",
+      "Sunforge",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Sunforge: Each time a model in this unit makes a ranged attack that targets a **MONSTER** or **VEHICLE** unit, you can re-roll the Wound roll and you can re-roll the Damage roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Crisis Fireknife Battlesuits",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 100,
+    "models": 2,
+    "move": "10\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Battlesuit",
+      "Crisis",
+      "Fireknife",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Fireknife: Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If that attack targets a unit that is at its Starting Strength, you can re-roll the Hit roll instead.",
+      "Weapon Support System: Each time a model in this unit makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Crisis Starscythe Battlesuits",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 90,
+    "models": 2,
+    "move": "10\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Battlesuit",
+      "Crisis",
+      "Starscythe",
+      "Non-Kroot"
+    ],
+    "abilities": [
+      "Starscythe: Each time a model in this unit makes a ranged attack (excluding attacks that target MONSTERS and VEHICLES), improve the Armour Penetration characteristic of that attack by 1.",
+      "Battlesuit Support System: The unit is eligible to shoot in a turn in which it Fell Back."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Kroot Trail Shaper",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 50,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "3",
+    "save": "6+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Kroot",
+      "Shaper",
+      "Trail Shaper",
+      "Leader"
+    ],
+    "abilities": [
+      "Kroot Ambush: After both players have deployed their armies, you can redeploy this model’s unit and one other friendly **KROOT** unit. When doing so, any of those units can be placed into Strategic Reserves, regard",
+      "Trail Finding: In your opponent’s Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up t",
+      "Leader: This model can be attached to the following unit:\n- **^^Kroot Carnivores^^**\n- **^^Kroot Farstalkers^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Kroot War Shaper",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 60,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "3",
+    "save": "6+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Kroot",
+      "Shaper",
+      "War Shaper",
+      "Leader"
+    ],
+    "abilities": [
+      "Root of Honour: Once per battle, at the start of any phase, you can select one friendly KROOT unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked.",
+      "Leader: This model can be attached to the following unit:\n- **^^Kroot Carnivores^^**\n- **^^Kroot Farstalkers^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Kroot Flesh Shaper",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 45,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "3",
+    "save": "6+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Kroot",
+      "Shaper",
+      "Flesh Shaper",
+      "Leader"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following unit:\n- **^^Kroot Carnivores^^**\n- **^^Kroot Farstalkers^^**",
+      "Rites of Feasting: While this model is leading a unit, models in that unit have the Feel Not Pain 6+ ability. If that unit destroys one or more enemy units in the Fight phase, until the end of the battle, models in that",
+      "Ritual Butchery: While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Kroot Lone-spear",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 80,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "5",
+    "save": "5+",
+    "wounds": "6",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Mounted",
+      "Kroot",
+      "Lone-spear"
+    ],
+    "abilities": [
+      "Fire and Fade: In your Shooting phase, after this model has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this m",
+      "Advanced Scouting: Each time this model makes a ranged attack that hits an enemy unit, until the end of the turn, each time another KROOT model from your army makes an attack that targets that enemy unit, you can re-rol"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Krootox Rampagers",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 85,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "6",
+    "save": "5+",
+    "wounds": "5",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "CAVALRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Mounted",
+      "Grenades",
+      "Kroot",
+      "Krootox Rampagers"
+    ],
+    "abilities": [
+      "Kroot Linebreakers: Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 4"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Shas'nel [Crucible]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 50,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Crucible",
+      "Grenades",
+      "Shas'nel"
+    ],
+    "abilities": [
+      "Volley Fire: While this model is leading a unit, add 1 to the Attacks characteristic of ranged weapons equipped by models in that unit.",
+      "Leader: This model can be attached to the following units:\n- **^^Breacher Team^^**\n- **^^Strike Team^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Battlesuit Veteran [Crucible]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 60,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Crucible",
+      "Fly",
+      "Battlesuit",
+      "Battlesuit Veteran"
+    ],
+    "abilities": [
+      "Strategic Redeployment: The bearer's unit is eligible to shoot in a turn in which it Fell Back.",
+      "Leader: This model can be attached to the following unit:\n- **^^Stealth Battlesuits^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Kinband Champion [Crucible]",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 55,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "3",
+    "save": "6+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Crucible",
+      "Kroot",
+      "Kinband Champion"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n- **^^Kroot Carnivores^^**\n- **^^Kroot Farstalkers^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "The Twin Lance",
+    "faction": "T'au Empire",
+    "alliance": "xenos",
+    "points": 220,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Character",
+      "Battlesuit",
+      "Non-Kroot",
+      "The Twin Lance"
+    ],
+    "abilities": [
+      "Neocapacitor Shields: At the start of your opponent’s Charge phase, you can select one visible enemy unit (excluding **MONSTER** and **VEHICLE** units) within 12\" of this unit. That unit must take a Battle-shock test and, ",
+      "Exemplars of Mont’ka: Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the **[SUSTAINED HITS 1]** and **[IGNORES COVER]** abilities.",
+      "Retro-thrusters: At the end of the Fight phase, if this unit was eligible to fight this phase, this unit can either make a Normal move of up to 6\" or a Fall Back move."
+    ],
+    "system": "40k"
+  }
+]

@@ -1,0 +1,801 @@
+[
+  {
+    "name": "Lucius the Eternal",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 120,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Chaos",
+      "Slaanesh",
+      "Lucius the Eternal"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n- **^^Flawless Blades^^**",
+      "Duellist’s Hubris: At the start of the Fight phase, if this model is not leading a unit, until the end of the phase, it has the Fights First ability.",
+      "A Challenge Worthy of Skill: Each time this model makes an attack that targets a **^^Character, Monster^^** or **^^Walker^^** unit, you can re-roll the Hit roll and re-roll the Wound roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Fulgrim",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 340,
+    "models": 1,
+    "move": "16\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "5+",
+    "objectiveControl": "6",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Chaos",
+      "Slaanesh",
+      "Fulgrim",
+      "Primarch",
+      "Daemon",
+      "Monster",
+      "Fly",
+      "Epic Hero",
+      "Character",
+      "Mobile"
+    ],
+    "abilities": [
+      "Daemonic Poisons: In your Shooting phase and the Fight phase, after this model has finished making its attacks, select one enemy unit hit by one or more of those attacks. Until the end of the battle, that enemy unit is",
+      "Daemon Prince of Slaanesh: At the start of your opponent's Command phase, select one of the abilities in the Daemon Prince of Slaanesh section. Until the start of your opponent's next Command phase, this model has that ability.",
+      "Damaged: 1-6 Wounds Remaining: While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Supreme Commander: If this model is in your army, it must be your **^^Warlord^^**.",
+      "Serpentine: Each time this model makes a Normal, Advance or Fall Back move, it can move over sections of terrain features that are 4\" or less in height."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Lord Exultant",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 80,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Chaos",
+      "Slaanesh",
+      "Lord Exultant"
+    ],
+    "abilities": [
+      "Perfectionists: While this model is leading a unit, weapons equipped by models in that unit have the **^^[LETHAL HITS]^^** ability.",
+      "Euphoric Strikes: Once per battle, at the start of the Fight phase, this model can use this ability. If it does so, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this mode",
+      "Lord of the Host: If this model is attached to an **^^Emperor's Children Battleline^^** unit during the Declare Battle Formations step, this model has the Infiltrators and Scouts 6\" ability.",
+      "Leader: This model can be attached to the following units: **^^Infractors; Tormentors^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Lord Kakophonist",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 70,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Grenades",
+      "Infantry",
+      "Chaos",
+      "Slaanesh",
+      "Lord Kakophonist"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units: **^^Emperor's Children Terminator Squad; Noise Marines^^**",
+      "Obsessive Annunciation: While this model is leading a unit, ranged weapons equipped by that unit have the [SUSTAINED HITS 1] ability.",
+      "Doom Siren: In your Shooting phase, after this model's unit has shot, select one enemy **^^Infantry^^** unit hit by one or more of those attacks and roll three D6: for each 4+, that enemy unit suffers 1 mortal wo"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Sorcerer",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 55,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Psyker",
+      "Chaos",
+      "Slaanesh",
+      "Grenades",
+      "Sorcerer"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units: **^^Infractors; Noise Marines; Tormentors^^**",
+      "Warped Interference (Psychic): While this model is leading a unit, each time a ranged attack targets that unit, models in it have the Benefit of Cover against that attack.",
+      "Wracking Agonies (Psychic): In your Shooting phase, after this model has shot, select one INFANTRY unit hit by one or more of those attacks made with its Agonising Energies. Until the start of your next turn, that unit is wracke"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Daemon Prince of Slaanesh",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 170,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Monster",
+      "Character",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Daemon Prince"
+    ],
+    "abilities": [
+      "Lord of Excess: While this model is within 3\" of one or more friendly **^^Slaanesh Infantry^^**, this model has the Lone Operative ability.",
+      "Excessive Vigour (Aura): While a friendly **^^Slaanesh^^** unit is within 6\" of this model, if that unit made a Charge move this turn, improve the Armour Penetration characteristic of melee weapons equipped by that unit by 1.",
+      "Ecstatic Death: If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. This model can fight after the attacking unit has finished making its a"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Daemon Prince of Slaanesh with Wings",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 205,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Monster",
+      "Character",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Fly",
+      "Daemon Prince with Wings"
+    ],
+    "abilities": [
+      "Daemonic Destruction: Each time this model ends a Charge move, select one enemy unit within Engagement Range of this model and roll one D6 for each of this model's remaining wounds: for each 4+, that enemy unit suffers 1 m",
+      "Stimulated by Pain: Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tormentors",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 80,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Chaos",
+      "Slaanesh",
+      "Tormentors"
+    ],
+    "abilities": [
+      "Icon of Excess: At the end of your Shooting phase or the Fight phase, if the bearer's unit destroyed one or more enemy units this phase, the bearer's unit takes a Leadership test. If that test is passed, you gain 1CP",
+      "Objective Defiled: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's Level of Control over that obj"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Infractors",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 85,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Chaos",
+      "Slaanesh",
+      "Infractors"
+    ],
+    "abilities": [
+      "Excessive Assault: Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead.",
+      "Icon of Excess: At the end of your Shooting phase or the Fight phase, if the bearer's unit destroyed one or more enemy units this phase, the bearer's unit takes a Leadership test. If that test is passed, you gain 1CP"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Flawless Blades",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 95,
+    "models": 3,
+    "move": "8\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Chaos",
+      "Slaanesh",
+      "Flawless Blades"
+    ],
+    "abilities": [
+      "Daemonic Patrons: Each time this unit is selected to fight, it can call upon daemonic patrons. If it does, until the end of the phase, each time a model in this unit makes an attack. an unmodified Wound roll of 3+ scor",
+      "Eager Patrons:  This unit has +2\" **M**.",
+      "Beguiling Grotesquerie: Enemy units cannot target this unit with **snap shooting** attacks."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaos Terminators",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 145,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Chaos",
+      "Terminator",
+      "Slaanesh",
+      "Terminator Squad"
+    ],
+    "abilities": [
+      "Lethal Obsession: In your Shooting phase, after this unit has shot, you can use this ability. If you do, select one enemy unit hit by those ranged attacks. Until the end of the turn, when this unit **declares a charge*",
+      "Frenzied Ferocity: This unit's attacks have [SUSTAINED HITS 1]."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaos Spawn",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 70,
+    "models": 2,
+    "move": "10\"",
+    "toughness": "5",
+    "save": "4+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "BEAST",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Beast",
+      "Chaos",
+      "Slaanesh",
+      "Chaos Spawn"
+    ],
+    "abilities": [
+      "Scuttling Horrors: In your opponent's Movement phase, if an enemy unit ends a move within 8” of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up t"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaos Land Raider",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 220,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Transport",
+      "Smoke",
+      "Chaos",
+      "Slaanesh",
+      "Land Raider",
+      "Frame"
+    ],
+    "abilities": [
+      "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+      "Damaged: 1-5 wounds remaining: While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Noise Marines",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 145,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Chaos",
+      "Slaanesh",
+      "Noise Marines"
+    ],
+    "abilities": [
+      "Terrifying Crescendo: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, each time a Battle-shock or Leadership test is"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Heldrake",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 175,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "7+",
+    "objectiveControl": "-",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Chaos",
+      "Daemon",
+      "Heldrake",
+      "Slaanesh"
+    ],
+    "abilities": [
+      "Airborne Predator: Each time this model ends a Normal move, you can select one enemy unit that it moved over during that move and roll two D6, adding 1 to each result if that enemy unit can ^^FLY^^: for each 4+, that en"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Maulerfiend",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 120,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Maulerfiend"
+    ],
+    "abilities": [
+      "Glutton for Punishment: Each time this model makes an attack, if it is below its Starting Strength, add 1 to the Hit roll. If this model is also Below Half-Strength, add 1 to the Wound roll as well."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaos Rhino",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 70,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Transport",
+      "Dedicated Transport",
+      "Chaos",
+      "Rhino",
+      "Smoke",
+      "Slaanesh",
+      "Frame"
+    ],
+    "abilities": [
+      "Assault Vehicle: Units can disembark from this **^^Vehicle**^^ after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Shalaxi Helbane",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 315,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "20",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Monster",
+      "Character",
+      "Epic Hero",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Shalaxi Helbane"
+    ],
+    "abilities": [
+      "No Prey Can Evade: You can re-roll Advance and Charge rolls made for this model.",
+      "Monarch of the Hunt: At the start of the first battle round, select one enemy unit to be this model's quarry. Each time this model makes a melee attack that targets its quarry, you can re-roll the Hit roll and you can re-",
+      "Damaged: 1-7 wounds remaining: While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Keeper of Secrets",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 255,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "10",
+    "save": "5+",
+    "wounds": "18",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Monster",
+      "Character",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Keeper of Secrets"
+    ],
+    "abilities": [
+      "Daemon Lord of Slaanesh (Aura): While a friendly ^^**Legions of Excess**^^ unit is within 6\" of this model, improve the Armour Penetration of melee weapons in that unit by 1.",
+      "Mesmerising Form: Each time an attack targets this model, subtract 1 from the Hit roll.",
+      "Shining aegis: The bearer has a Save characteristic of 3+."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Daemonettes",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 90,
+    "models": 9,
+    "move": "9\"",
+    "toughness": "3",
+    "save": "7+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Battleline",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Daemonettes",
+      "Summoned"
+    ],
+    "abilities": [
+      "Horrifying Beauty: At the start of the Fight phase, each enemy unit in Engagement Range of one or more units from your army with this ability must take a Battle-shock test, subtracting 1 from that test if that enemy uni",
+      "Daemonic Icon: Models in the bearer's unit have a Leadership characteristic of 6+.",
+      "Instrument of Chaos: Add 1 to Charge rolls made for the bearer's unit."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Fiends",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 90,
+    "models": 2,
+    "move": "12\"",
+    "toughness": "5",
+    "save": "7+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "5+",
+    "role": "BEAST",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Beast",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Fiends",
+      "Summoned"
+    ],
+    "abilities": [
+      "Soporific Musk: Each time an enemy unit (excluding ^^**Monsters**^^ and **^^Vehicles**^^) within Engagement Range of one or more units from your army with this ability Falls Back, models in that unit must take Desper"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Seekers",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 80,
+    "models": 4,
+    "move": "14\"",
+    "toughness": "4",
+    "save": "7+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "CAVALRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Mounted",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Seekers",
+      "Summoned"
+    ],
+    "abilities": [
+      "Unholy Speed: You can re-roll Advance and Charge rolls made for this unit.",
+      "Daemonic Icon: Models in the bearer's unit have a Leadership characteristic of 6+.",
+      "Instrument of Chaos: Add 1 to Charge rolls made for the bearer's unit."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Excruciator [Crucible]",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 60,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Psyker",
+      "Grenades",
+      "Chaos",
+      "Slaanesh",
+      "Excruciator",
+      "Crucible"
+    ],
+    "abilities": [
+      "Leader: This unit can be attached to the following units: ^^**Infractors, Noise Marines, Tormentors**^^",
+      "Warped Invigoration (Psychic): In your Shooting phase, after this model has shot, if an enemy unit was hit by one or more of those attacks, until the end of the turn, add 1 to Charge rolls made for this unit."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Champion of Excess [Crucible]",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 80,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Chaos",
+      "Slaanesh",
+      "Crucible",
+      "Champion of Excess"
+    ],
+    "abilities": [
+      "Leader: This unit can be attached to the following units: ^^**Infractors, Noise Marines, Tormentors**^^",
+      "Euphoric Strikes: Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model a"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Flawless Champion [Crucible]",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 100,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Chaos",
+      "Slaanesh",
+      "Crucible",
+      "Flawless Champion"
+    ],
+    "abilities": [
+      "Leader: This unit can be attached to the following units: ^^**Flawless Blades**^^",
+      "Obsessive Huntsman: Melee weapons equipped by this model have the [Precision] ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Defiler",
+    "faction": "Chaos - Emperor's Children",
+    "alliance": "unaligned",
+    "points": 300,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "18",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Defiler"
+    ],
+    "abilities": [
+      "Scuttling Walker: Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding ^^**Titanic**^^ models) and terrain features. When doing so, it can move within Engagement Range of",
+      "Revel in Desecration: Each time this model makes an attack that targets an enemy unit that is not below Half-strength, add 1 to the Hit roll."
+    ],
+    "system": "40k"
+  }
+]

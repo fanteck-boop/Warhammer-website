@@ -1,0 +1,1137 @@
+[
+  {
+    "name": "Tervigon",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 160,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "7+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Monster",
+      "Psyker",
+      "Great Devourer",
+      "Tervigon",
+      "Synapse"
+    ],
+    "abilities": [
+      "Spawn Termagants: In your Command phase, you can select one friendly TERMAGANTS unit within 6\" of this model and return up to D3+3 destroyed TERMAGANT models to that unit. A TERMAGANTS unit cannot be selected for this ",
+      "Brood Progenitor (Aura, Psychic): While a friendly TERMAGANTS unit is within 6\" of this model, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "The Swarmlord",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 210,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Monster",
+      "The Swarmlord",
+      "Great Devourer",
+      "Synapse",
+      "Psyker",
+      "Hive Tyrant",
+      "Leader"
+    ],
+    "abilities": [
+      "Hive Commander: At the start of your Command phase, if this model is on the battlefield, you gain 1CP",
+      "Malign Presence (Aura): Once per turn, when your opponent targets a unit from their army within 12\" of this model with a **stratagem**, you can use this ability. If you do increase the CP cost of that use of that **stratagem",
+      "Domination of the Hive Mind (Aura): While a friendly TYRANIDS unit is within 9\" of this model, that unit is within your army’s Synapse Range.",
+      "Leader: This model can be attached to the following unit:\n- **^^Tyrant Guard^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Broodlord",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 80,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "5",
+    "save": "4+",
+    "wounds": "6",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Psyker",
+      "Broodlord",
+      "Great Devourer",
+      "Vanguard Invader",
+      "Synapse",
+      "Leader"
+    ],
+    "abilities": [
+      "Vicious Insight: While this model is leading a unit, weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability.",
+      "Hypnotic Gaze (Psychic): At the start of the Fight phase, select one enemy unit within Engagement Range of this model. Until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+      "Leader: This model can be attached to the following unit:\n- **^^Genestealers^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Old One Eye",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 140,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "9",
+    "leadership": "8+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Monster",
+      "Character",
+      "Great Devourer",
+      "Old One Eye",
+      "Leader"
+    ],
+    "abilities": [
+      "Alpha Leader: While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll.",
+      "Unstoppable Monster: At the start of each player’s Command phase, this model regains up to D3 lost wounds.",
+      "Leader: This model can be attached to the following unit:\n- **^^Carnifexes^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tyranid Warriors with Ranged Bio-Weapons",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 60,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "5",
+    "save": "4+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Tyranid Warriors with Ranged Bio-weapons",
+      "Synapse",
+      "Great Devourer"
+    ],
+    "abilities": [
+      "Adaptable Predators: This unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tyranid Warriors with Melee Bio-Weapons",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 75,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "5",
+    "save": "4+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Tyranid Warriors with Melee Bio-weapons",
+      "Great Devourer",
+      "Synapse",
+      "Tyranid Warriors"
+    ],
+    "abilities": [
+      "Adaptive Instincts (Once per turn, per unit): In the Fight phase, when this unit is **selected to fight** or when an enemy unit targets this unit, you can select one of the following:\n▪ This unit’s melee attacks have +1 **S**.\n▪ <ins>Or</ins>: Th"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Termagants",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 60,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Battleline",
+      "Infantry",
+      "Great Devourer",
+      "Endless Multitude",
+      "Termagants"
+    ],
+    "abilities": [
+      "Skulking Horrors: In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up t"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hormagaunts",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 70,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "1",
+    "leadership": "8+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Battleline",
+      "Great Devourer",
+      "Endless Multitude",
+      "Hormagaunts"
+    ],
+    "abilities": [
+      "Bounding Leap: This unit is eligible to declare a charge in a turn in which it Advanced."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Toxicrene",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 120,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "8+",
+    "objectiveControl": "4",
+    "invulnerableSave": "",
+    "role": "MONSTER",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Monster",
+      "Great Devourer",
+      "Toxicrene"
+    ],
+    "abilities": [
+      "Grasping Tendrils: Each time an enemy unit (excluding Titanic units) within Engagement Range of one or more units from your army with this ability is selected to Fall Back, you can roll one D6: on a 3+, that enemy unit ",
+      "Hypertoxic Miasma (Aura): At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tyrant Guard",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 80,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "8+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Great Devourer",
+      "Tyrant Guard"
+    ],
+    "abilities": [
+      "Guardian Organism: While a CHARACTER model is leading this unit, that Character has the Feel No Pain 5+ ability"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Neurotyrant",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 130,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "8",
+    "save": "4+",
+    "wounds": "9",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Monster",
+      "Fly",
+      "Psyker",
+      "Great Devourer",
+      "Neurotyrant",
+      "Synapse",
+      "Leader"
+    ],
+    "abilities": [
+      "Node Lash (Psychic): While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. If the target is Battle-shocked, add 1 to the Wound roll as well.",
+      "Psychic Terror (Psychic): If one or more Neurotyrants from your army are on the battlefield when you unleash the Shadow in the Warp, subtract 1 from the Battle-shock test each enemy unit on the battlefield must take as a resul",
+      "Synaptic Relays: In your Command phase, you can select up to two friendly Tyranids units within 18\" of this model’s unit. Until the start of your next Command phase, the selected units are always considered to be with",
+      "Leader: This model can be attached to the following units:\n- **^^Neurogaunts^^**\n- **^^Tyrant Guard^^**\n- **^^Zoanthropes^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Maleceptor",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 190,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "7+",
+    "objectiveControl": "4",
+    "invulnerableSave": "4+",
+    "role": "MONSTER",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Monster",
+      "Psyker",
+      "Great Devourer",
+      "Malceptor",
+      "Synapse"
+    ],
+    "abilities": [
+      "Encephalic Diffusion (Aura, Psychic): While an enemy unit is within 6\" of this model, each time a model in that unit makes an attack, subtract 1 from the Hit roll, and, if that enemy unit is Below Half-strength, subtract 1 from the Wound "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Pyrovores",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 45,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "8+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Pyrovores",
+      "Infantry",
+      "Great Devourer",
+      "Harvester"
+    ],
+    "abilities": [
+      "Burning Spray: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Haruspex",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 125,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "8+",
+    "objectiveControl": "4",
+    "invulnerableSave": "",
+    "role": "MONSTER",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Monster",
+      "Great Devourer",
+      "Haruspex",
+      "Harvester"
+    ],
+    "abilities": [
+      "Grisly Spectacle: Each time this model is selected to fight, after resolving its attacks, if one or more enemy units were destroyed by those attacks, each enemy unit within 6\" of this model must take a Battle-shock tes"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Venomthropes",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 55,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "5",
+    "save": "4+",
+    "wounds": "3",
+    "leadership": "8+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Fly",
+      "Venomthropes",
+      "Great Devourer"
+    ],
+    "abilities": [
+      "Foul Spores (Aura): Friendly **TYRANIDS** units within 6' of this unit have **Stealth**."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Neurogaunts",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 45,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "6+",
+    "wounds": "1",
+    "leadership": "8+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Great Devourer",
+      "Neurogaunts",
+      "Endless Multitude"
+    ],
+    "abilities": [
+      "Neurocytes: While this unit is within Synapse Range of your friendly **^^Tyranids^^** unit (excluding **^^Neurogaunt^^** units), it has the **^^Synapse^^** keyword."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Zoanthropes",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 90,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Fly",
+      "Psyker",
+      "Great Devourer",
+      "Zoanthropes",
+      "Synapse"
+    ],
+    "abilities": [
+      "Spirit Leech (Aura, Psychic): While an enemy unit is within 6\" of this unit, if it contains a Neurothrope, each time that enemy unit fails a Battle-shock test, it suffers D3 mortal wounds and one model in this unit regains up to D",
+      "Warp Field (Aura, Psychic): While a friendly TYRANIDS unit is within 6\" of this unit, models in that unit have a 6+ invulnerable save."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Spore Mines",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 55,
+    "models": 3,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "BEAST",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Spore Mines",
+      "Beast",
+      "Fly",
+      "Great Devourer"
+    ],
+    "abilities": [],
+    "system": "40k"
+  },
+  {
+    "name": "Exocrine",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 140,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "8+",
+    "objectiveControl": "4",
+    "invulnerableSave": "",
+    "role": "MONSTER",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Monster",
+      "Great Devourer",
+      "Exocrine"
+    ],
+    "abilities": [
+      "Symbiotic Targeting: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly TYRANIDS model makes an attack that targe"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Biovores",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 60,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "8+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Great Devourer",
+      "Biovore"
+    ],
+    "abilities": [
+      "Seed Spore Mines: Once per turn, in your Shooting Phase, when selected to shoot, one unit with this ability can use it instead of making any attacks with its ranged weapons. If it does, you can add one new **SPORE MINE"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Screamer-killer",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 125,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "8+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "MONSTER",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Monster",
+      "Great Devourer",
+      "Screamer-killer"
+    ],
+    "abilities": [
+      "Death Scream: In your Shooting phase, after this model has shot, select one unit hit by one or more of those attacks. That unit must take a Battle-shock test, subtracting 1 from that test."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hive Guard",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 80,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "7",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "8+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Great Devourer",
+      "Hive Guard"
+    ],
+    "abilities": [
+      "Defensive Stance: Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or unmodified Hit rolls of 4+ instead if this unit is w"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tyrannofex",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 180,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "8+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "MONSTER",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Monster",
+      "Great Devourer",
+      "Tyrannofex"
+    ],
+    "abilities": [
+      "Resilient Organism: Once per battle, when an attack is allocated to this model, you can change the Damage characteristic of that attack to 0."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hive Crone",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 170,
+    "models": 1,
+    "move": "-",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "12",
+    "leadership": "8+",
+    "objectiveControl": "-",
+    "invulnerableSave": "",
+    "role": "MONSTER",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Aircraft",
+      "Monster",
+      "Fly",
+      "Great Devourer",
+      "Hive Crone",
+      "Vanguard Invader"
+    ],
+    "abilities": [
+      "Airborne Predator: Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Harpy",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 185,
+    "models": 1,
+    "move": "-",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "12",
+    "leadership": "8+",
+    "objectiveControl": "-",
+    "invulnerableSave": "",
+    "role": "MONSTER",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Harpy",
+      "Monster",
+      "Fly",
+      "Aircraft",
+      "Great Devourer",
+      "Vanguard Invader"
+    ],
+    "abilities": [
+      "Spore Mine Cysts: At the end of your opponent’s Fight phase, you can do one of the following:\n- Select one **visible** enemy unit (excluding **Lone Operative** units) within 24\" of this unit and roll six D6 for that un"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Sporocyst",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 145,
+    "models": 1,
+    "move": "-",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "8+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "MONSTER",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Monster",
+      "Sporocyst",
+      "Great Devourer"
+    ],
+    "abilities": [
+      "Seed Mucolids: Once per turn, in your shooting phase, when selected to shoot, one unit with this ability can use it instead of making any attacks with it's ranged weapons. If it does, you can add one new **MUCOLID S",
+      "Hive Defences: You can target this model with the Fire Overwatch stratagem for 0CP, and can do so even if you have already targeted a different unit with that stratagem this turn. This model can only be targeted wit"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Psychophage",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 110,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "8+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "MONSTER",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Monster",
+      "Great Devourer",
+      "Psychophage",
+      "Harvester",
+      "Smoke"
+    ],
+    "abilities": [
+      "Bio-stimulus: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly **TYRANIDS** unit makes a melee attack tha",
+      "Feeding Frenzy: Each time this model makes a melee attack that targets a unit that is below its Starting Strength, add 1 to the Hit roll. If that target is also Below Half strength, add 1 to the Wound roll as well."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Barbgaunts",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 55,
+    "models": 5,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "2",
+    "leadership": "8+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Barbgaunts",
+      "Infantry",
+      "Great Devourer"
+    ],
+    "abilities": [
+      "Disruption Bombardment: In your Shooting phase, after this unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks. Until the end of your opponent’s next turn, that enemy unit is disrupted. While a "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Barbed Hierodule [Legends]",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 340,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "18",
+    "leadership": "8+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "MONSTER",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Monster",
+      "Great Devourer",
+      "Barbed Hierodule",
+      "Frame"
+    ],
+    "abilities": [
+      "Overgrown Barbs: In your Shooting phase, after this model has shot, select one enemy unit (excluding Titanic units) that was hit by one or more of those attacks. Until the start of your next turn, while this model is "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Scythed Hierodule [Legends]",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 330,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "18",
+    "leadership": "8+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "MONSTER",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Monster",
+      "Great Devourer",
+      "Scythed Hierodule",
+      "Frame"
+    ],
+    "abilities": [
+      "Irresistible Force: This model is eligible to declare a charge in a turn in which it Fell Back."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Harridan",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 610,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "30",
+    "leadership": "8+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "MONSTER",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Monster",
+      "Titanic",
+      "Fly",
+      "Transport",
+      "Great Devourer",
+      "Harridan",
+      "Frame"
+    ],
+    "abilities": [
+      "Damaged: 1-10 wounds remaining: While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Frenzied Metabolism: Each time this model is selected to shoot, you can use this ability. If you do, until the end of the phase, each time this model makes an attack, add 1 to the Wound roll. After resolving those attacks"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hierophant",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 810,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "14",
+    "save": "2+",
+    "wounds": "30",
+    "leadership": "8+",
+    "objectiveControl": "12",
+    "invulnerableSave": "5+",
+    "role": "MONSTER",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Monster",
+      "Titanic",
+      "Towering",
+      "Transport",
+      "Great Devourer",
+      "Hierophant",
+      "Frame"
+    ],
+    "abilities": [
+      "Damaged: 1-10 wounds remaining: While this model has 1-10 wounds remaining, subtract 6 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Apex-beast: Each time this model makes an attack that targets a unit that is Battle-shocked, add 1 to the Hit roll.",
+      "Stalking Forward: Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding TITANIC models) and terrain features that are 4\" or less in height as if they were not there."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Genestealers",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 75,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "4",
+    "save": "5+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Great Devourer",
+      "Genestealers",
+      "Vanguard Invader"
+    ],
+    "abilities": [
+      "Vanguard Predator: Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target is within range of one or more objective markers, re-roll a Wound roll 1 as well."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Dimachaeron [Legends]",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 200,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "16",
+    "leadership": "7+",
+    "objectiveControl": "5",
+    "invulnerableSave": "5+",
+    "role": "MONSTER",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Monster",
+      "Great Devourer",
+      "Dimachaeron",
+      "Frame"
+    ],
+    "abilities": [
+      "Digestion Spine: Each time this model fights, after it has resolved its attacks, if one or more enemy models (excluding Vehicle models) were destroyed as the result of those attacks, this model regains up to D3 mortal"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Sky-slasher Swarms [Legends]",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 60,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "2",
+    "save": "6+",
+    "wounds": "4",
+    "leadership": "8+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Swarm",
+      "Great Devourer",
+      "Fly",
+      "Sky-slasher Swarms"
+    ],
+    "abilities": [
+      "Chitinous Horrors: While an enemy unit is within Engagement Range of one or more units with this ability, halve the Objective Control characteristic of models in that enemy unit."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Malanthrope [Legends]",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 75,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "5",
+    "save": "4+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Fly",
+      "Great Devourer",
+      "Synapse",
+      "Leader"
+    ],
+    "abilities": [
+      "Enhanced Toxic Miasma: While this model is leading a unit, the range of that unit's Foul Spores Aura ability is increased to 9\".",
+      "Prey Adaptation: Each time this model's unit is selected to fight, select one of the following abilities to apply to all melee weapons equipped by models in that unit until the end of the phase:\n- **[SUSTAINED HITS 1]",
+      "Leader: This model can be attached to the following unit: \n- **^^Venomthropes^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Norn Assimilator",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 250,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "7+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "MONSTER",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Monster",
+      "Great Devourer",
+      "Synapse",
+      "Norn Assimilator",
+      "Harvester"
+    ],
+    "abilities": [
+      "Harpoon Barbs: Once per turn, when an enemy unit within Engagement Range of this unit is chosen to Fall Back, roll one D6; on a 2+, that unit suffers D6 mortal wounds."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Norn Emissary",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 250,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "7+",
+    "objectiveControl": "5",
+    "invulnerableSave": "4+",
+    "role": "MONSTER",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Monster",
+      "Psyker",
+      "Great Devourer",
+      "Synapse",
+      "Norn Emissary"
+    ],
+    "abilities": [
+      "Unnatural Resistance: This model has the Feel No Pain 4+ ability against Mortal Wounds."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hive Tyrant",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 195,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Monster",
+      "Character",
+      "Psyker",
+      "Hive Tyrant",
+      "Great Devourer",
+      "Synapse",
+      "Leader"
+    ],
+    "abilities": [
+      "Onslaught (Aura, Psychic): While a friendly **TYRANIDS** unit is within 6\" of this model, ranged weapons equipped by models in that unit have the **[ASSAULT]** and **[LETHAL HITS]** abilities.",
+      "Leader: This model can be attached to the following unit:\n- **^^Tyrant Guard^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tyranid Prime with Lash Whip",
+    "faction": "Tyranids",
+    "alliance": "xenos",
+    "points": 75,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "6",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Great Devourer",
+      "Synapse",
+      "Tyranid Prime with Lash Whip",
+      "Leader"
+    ],
+    "abilities": [
+      "Alpha Warrior: Weapons equipped by models in this model’s unit have the **[SUSTAINED HITS 1]** ability.",
+      "Aggressive Leader‑beast: In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was **destroyed** by those attacks, this unit can make a **surge move** of up to D6\".",
+      "Leader: This model can be attached to the following unit:\n- **^^Hormagaunts^^**\n- **^^Termagants^^**\n- **^^Tyranid Warriors with Melee Bio-weapons^^**\n- **^^Tyranid Warriors with Ranged Bio-weapons^^**"
+    ],
+    "system": "40k"
+  }
+]

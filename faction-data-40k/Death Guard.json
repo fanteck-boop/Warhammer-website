@@ -1,0 +1,1438 @@
+[
+  {
+    "name": "Daemon Prince of Nurgle",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 195,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Monster",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Daemon",
+      "Daemon Prince"
+    ],
+    "abilities": [
+      "Death Guard Defenders: While this model is within 3\" of one or more friendly ^^**Death Guard Infantry^^** units, this model has the Lone Operative ability.",
+      "Fevered Strategist: Once per Battle Round, one model from your army with this ability can use it when a friendly ^^**Death Guard^^** unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP c",
+      "Miasma of Pestilence (Aura): While a friendly ^^**Death Guard^^** unit is within 6\" of this model, each time a ranged attack targets that unit, models in that unit have the Benefit of Cover against that attack."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Daemon Prince of Nurgle with wings",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 170,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Monster",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Daemon",
+      "Fly",
+      "Daemon Prince with Wings"
+    ],
+    "abilities": [
+      "Horrifying Visage: Each time this model ends a Charge move, select one enemy unit within Engagement Range of it. That unit must take a Battle-shock test, subtracting 1 from that test.",
+      "Enfeebling Miasma (Aura): While an enemy unit (excluding ^^*Monsters^^** and ^^**Vehicles^^**) is within 6\" of this model, each time that unit is selected to Fall Back, models in that enemy unit must take Desperate Escape test"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Typhus",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 100,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "7",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Chaos",
+      "Nurgle",
+      "Psyker",
+      "Typhus",
+      "Terminator"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n■ ^^**Blightlord Terminators^^**\n■ ^^**Deathshroud Terminators^^**\n■ ^^**Poxwalkers^^**",
+      "The Destroyer Hive: While this model is leading a unit, each time a melee attack targets that unit, subtract 1 from the Hit roll.",
+      "Eater Plague (Psychic): In your Shooting phase, you can select one enemy unit within 18\" of and visible to this ^^**Psyker^^** (excluding units with the Lone Operative ability that are not part of an Attached unit and are no"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Death Guard Chaos Lord [Legends]",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 65,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Grenades",
+      "Chaos Lord"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following unit:\n■ PLAGUE MARINES"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Death Guard Chaos Lord in Terminator Armour [Legends]",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 85,
+    "models": 1,
+    "move": "4\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Chaos Lord",
+      "Terminator"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n■ BLIGHTLORD TERMINATORS\n■ DEATHSHROUD TERMINATORS"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Lord of Virulence",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 100,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "7",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Lord of Virulence",
+      "Terminator"
+    ],
+    "abilities": [
+      "Virulent Aura: While this model is leading a unit, each time a model in that unit makes a ranged attack, you can re-roll the Wound roll.",
+      "Blight Bombardment: At the start of your Shooting phase, select one enemy unit within 30\" of and visible to this model. Until the end of the phase, each time a friendly ^^**Death Guard^^** unit makes a ranged attack that",
+      "Leader: This model can be attached to the following units:\n- ^^**Blightlord Terminators^^**\n- ^^**Deathshroud Terminators^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Lord of Contagion",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 120,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "7",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Grenades",
+      "Lord of Contagion",
+      "Terminator"
+    ],
+    "abilities": [
+      "Vector of Disease: While this model is leading a unit, melee weapons equipped by models in that unit have the **[Sustained Hits 1]** and **[Lance]** abilties.",
+      "Unholy Resilience: The first time a model with this ability is destroyed in a battle round, roll one D6 at the end of the phase. On a 2+, set that model back up on the battlefield, as close as possible to where it was d",
+      "Leader: This model can be attached to the following units:\n- ^^**Blightlord Terminators^^**\n- ^^**Deathshroud Terminators^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Death Guard Sorcerer in Terminator Armour [Legends]",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 70,
+    "models": 1,
+    "move": "4\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Psyker",
+      "Sorcerer",
+      "Terminator"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n■ BLIGHTLORD TERMINATORS\n■ DEATHSHROUD TERMINATORS",
+      "Putrescent Vitality (Psychic): At the start of the Fight phase, you can roll one D6: on a 1, this PSYKER’s unit suffers D3 mortal wounds; on a 2+, until the end of the phase, each time an attack is allocated to a model in this PSYK",
+      "Pestilent Familiar (Psychic): Once per battle, after selecting targets for a Psychic weapon equipped by this model, until the end of the phase, improve the Strength and Damage characteristics of that weapon by 2."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Malignant Plaguecaster",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 60,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Psyker",
+      "Malignant Plaguecaster"
+    ],
+    "abilities": [
+      "Gift of Contagion (Psychic): While this model is leading a unit, each time a model in that unit makes an attack which targets a unit which is Afflicted, that attack has the [Sustained Hits 1] ability.",
+      "Pestilent Fallout (Psychic): In your Shooting phase, after this model has shot, select one enemy ^^**Infantry^^** unit hit by one or more of those attacks made with its Plague Wind. Until the end of your opponent's next turn, tha",
+      "Leader: This model can be attached to the following units:\n^^**Plague Marines^^**, ^^**Poxwalkers^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Plague Marines",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 90,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Chaos",
+      "Nurgle",
+      "Grenades",
+      "Battleline",
+      "Plague Marines"
+    ],
+    "abilities": [
+      "Infused with the Blessings of Nurgle: In your Shooting phase, each time this unit is selected to shoot, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that unit is A",
+      "Insectile Murmuration: When this unit’s attacks target a unit within **Contagion Range** of a friendly unit, those attacks can re‑roll **wound rolls** of 1.",
+      "Plagueveil: This unit has ‑3\" **detection range**."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Death Guard Cultists [Legends]",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 50,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "6+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Chaos",
+      "Nurgle",
+      "Cultists"
+    ],
+    "abilities": [],
+    "system": "40k"
+  },
+  {
+    "name": "Poxwalkers",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 65,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "4",
+    "save": "7+",
+    "wounds": "1",
+    "leadership": "8+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Chaos",
+      "Nurgle",
+      "Poxwalkers"
+    ],
+    "abilities": [
+      "Curse of the Walking Pox: Each time a ^^**Poxwalker^^** model in this unit makes an attack that destroys an enemy model (excluding ^^**Monster^^** and ^^**Vehicle^^** models), after this unit has resolved its attacks, you can "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Noxious Blightbringer",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 60,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Noxious Blightbringer"
+    ],
+    "abilities": [
+      "Sickening Vitality: While this model is leading a unit, add 1\" to the Move characteristic of models in that unit and you can re-roll Advance and Charge rolls made for that unit.",
+      "Tocsin of Misery (Aura): In the Battle-shock step of your opponent's Command phase, if an enemy unit that is below its Starting Strength is within 9\" of this model, that enemy unit must take a Battle-shock test, subtracting 1",
+      "Leader: This model can be attached to the following units: ^^**Plague Marines^^**, ^^**Poxwalkers^^**\n*You can attach this model to a ^^**Plague Marines^^** or ^^**Poxwalkers^^** unit, even if one other Leade"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Foul Blightspawn",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 65,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Grenades",
+      "Foul Blightspawn"
+    ],
+    "abilities": [
+      "Putrefying Stink: Enemy models cannot start or end an Advance move within 9\" of this model.",
+      "Blinding Spray: In the Fight phase, you can select one model from your army with this ability to use this ability. If you do, until the end of that phase, that model's unit has the Fights First ability. Each model ca"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Biologus Putrifier",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 60,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Grenades",
+      "Biologus Putrifier"
+    ],
+    "abilities": [
+      "Extraction of Fresh Disease: The first time this model's unit destroys an enemy unit as a result of a melee attack, until the end of the battle, add 6 to the Objective Control characteristic of this model.",
+      "Foul Infusion: While this model is leading a unit, weapons equipped by models in that unit have the [Lethal Hits] ability. In addition, each time a model in that unit makes an attack, a Critical Hit is scored on an "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tallyman",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 60,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Tallyman"
+    ],
+    "abilities": [
+      "Malicious Calculations: While this model is leading a unit, each time a model in that unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill or Weapon Skill characteristics and/or any or a",
+      "Seven-fold Chant: In your Command phase, if this model is on the battlefield, roll 2D6: on a 7+, you gain 1CP."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Plague Surgeon",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 50,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Plague Surgeon"
+    ],
+    "abilities": [
+      "Tainted Narthecium: While this model is leading a unit, in your Command phase, you can return 1 destroyed Bodyguard model to that unit.",
+      "Inflamed Infections: At the start of the Fight phase, select one enemy unit within Engagement Range of this model. Until the end of the phase, each time this model makes an attack that targets that unit, an unmodified Hit"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Deathshroud Terminators",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 160,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "7",
+    "save": "2+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Chaos",
+      "Nurgle",
+      "Deathshroud Terminators",
+      "Terminator"
+    ],
+    "abilities": [
+      "Silent Bodyguard: While a ^^**Character^^** model is leading this unit, that ^^**Character^^** model has the Feel No Pain 4+ ability.",
+      "Death Approaches: In your Movement phase, when this unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all Afflicte"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Helbrute",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 110,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Nurgle",
+      "Helbrute"
+    ],
+    "abilities": [
+      "Diseased Malice: Each time this model makes an attack that targets an Afflicted unit, add 1 to the Wound roll.",
+      "Froth-spattered Frenzy: If this model is equipped with two melee weapons in addition to its close combat weapon, add 2 to the Attacks characteristic of those two weapons."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Blightlord Terminators",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 115,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "7",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Chaos",
+      "Nurgle",
+      "Blightlord Terminators",
+      "Terminator"
+    ],
+    "abilities": [
+      "Blistering Fusillade: If this unit has a Starting Strength of 5 or more, or if a ^^**Character^^** is leading this unit, then each time a model in this unit makes a ranged attack that targets an Afflicted unit, improve the"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaos Spawn",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 80,
+    "models": 2,
+    "move": "8\"",
+    "toughness": "7",
+    "save": "4+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "BEAST",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Beast",
+      "Chaos",
+      "Nurgle",
+      "Spawn"
+    ],
+    "abilities": [
+      "Lethal Ichor: Each time a melee attack is allocated to a model in this unit, after the attacking unit has finished making its attacks, roll one D6 (to a maximum of six D6 per attacking unit): for each 4+, the attac"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Foetid Bloat-drone",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 100,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Chaos",
+      "Nurgle",
+      "Daemon",
+      "Foetid Bloat-drone"
+    ],
+    "abilities": [
+      "Hovering Death: This model is eligible to shoot and declare a charge in a turn in which it Fell Back."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Plagueburst Crawler",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 185,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Chaos",
+      "Nurgle",
+      "Daemon",
+      "Plagueburst Crawler",
+      "Frame"
+    ],
+    "abilities": [
+      "Spore-laced Shock Waves: In your Shooting phase, each time you select a target for this model's Plagueburst mortar, roll one D6 for the target unit and every other enemy unit within 3\" of the target unit, adding 1 to that rol"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaos Land Raider",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 220,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Chaos",
+      "Nurgle",
+      "Transport",
+      "Smoke",
+      "Land Raider",
+      "Frame"
+    ],
+    "abilities": [
+      "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaos Predator Annihilator",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 135,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Chaos",
+      "Nurgle",
+      "Predator Annihilator",
+      "Frame"
+    ],
+    "abilities": [
+      "Metalophagic Infection: In your Shooting phase, after this model has shot, select one enemy ^^**Monster^^** or ^^**Vehicle^^** unit hit by one or more of those attacks. Roll one D6, adding 1 to the result if that unit is Aff"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaos Predator Destructor",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 145,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Chaos",
+      "Nurgle",
+      "Smoke",
+      "Predator Destructor",
+      "Frame"
+    ],
+    "abilities": [
+      "Hail of Corrosive Disease: In your Shooting phase, after this model has shot, select one enemy unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**) hit by one or more of those attacks. Until the end of the phase, each time a "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaos Rhino",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 75,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Transport",
+      "Dedicated Transport",
+      "Smoke",
+      "Chaos",
+      "Nurgle",
+      "Rhino",
+      "Frame"
+    ],
+    "abilities": [
+      "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this ^^**Tran"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Mortarion",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 390,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "5+",
+    "objectiveControl": "6",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Monster",
+      "Psyker",
+      "Fly",
+      "Character",
+      "Epic Hero",
+      "Daemon",
+      "Grenades",
+      "Chaos",
+      "Nurgle",
+      "Primarch",
+      "Mortarion"
+    ],
+    "abilities": [
+      "Host of Plagues: At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model, adding 1 to the result if that unit is Afflicted; on a 3+, that enemy unit suffers D3 mortal wounds.",
+      "Lord of the Death Guard: Once per turn, this model can use one of the Lord of the Death Guard abilties.",
+      "Damaged: 1-6 wounds remaining: While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Icon Bearer",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 45,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "5+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Grenades",
+      "Death Guard Icon Bearer"
+    ],
+    "abilities": [
+      "Unclean Icon: While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit.",
+      "Blessed Icon of Disease: Once per battle, at the start of any phase, you can select one friendly ^^**Death Guard^^** unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Miasmic Malignifier",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 105,
+    "models": 1,
+    "move": "-",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Chaos",
+      "Nurgle",
+      "Miasmic Malignifier",
+      "Frame"
+    ],
+    "abilities": [
+      "Putrescent Fog (Aura): Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this model.",
+      "Diseased Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this **^^Fortification^^**, that model has the Benefit of Cover ag",
+      "Deployment: Both parts of this ^^**Fortification**^^ must be deployed within 1\" of each other. Both parts are then treated as a single model for all rules purposes."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaos Lord on Palanquin of Nurgle [Legends]",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 90,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Chaos",
+      "Nurgle",
+      "Chaos Lord",
+      "Palanquin of Nurgle"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following unit:\n■ CHOSEN\n■ LEGIONARIES\n■ PLAGUE MARINES",
+      "Revolting Regeneration: At the start of your Command phase, this model regains up to D3 lost wounds.",
+      "Lord of Chaos: Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Gellerpox Infected [Legends]",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 125,
+    "models": 3,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "6+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Chaos",
+      "Nurgle",
+      "Gellerpox Infected"
+    ],
+    "abilities": [
+      "Fearsome (Aura): While an enemy unit is within 6\" of this unit, each time that enemy unit takes a Battle-shock or Leadership test, subtract 1 from the result."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hellblade [Legends]",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 115,
+    "models": 1,
+    "move": "20+\"",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Chaos",
+      "Nurgle",
+      "Hellblade"
+    ],
+    "abilities": [
+      "Interceptor: Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hell Talon [Legends]",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 140,
+    "models": 1,
+    "move": "20+\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Chaos",
+      "Nurgle",
+      "Hell Talon"
+    ],
+    "abilities": [
+      "Bomb Rack: Each time this model ends a Normal move, you can select one enemy unit it moved across during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Mutoid Vermin [Legends]",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 85,
+    "models": 16,
+    "move": "8\"",
+    "toughness": "2",
+    "save": "7+",
+    "wounds": "1",
+    "leadership": "8+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Swarm",
+      "Chaos",
+      "Nurgle",
+      "Mutoid Vermin"
+    ],
+    "abilities": [
+      "Mischief Makers (Aura): While an enemy unit (excluding MONSTERS and VEHICLES) is within 6\" of this unit, each time a model in that unit makes a melee attack, subtract 1 from the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Sorcerer on Palanquin of Nurgle [Legends]",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 80,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "7",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Psyker",
+      "Chaos",
+      "Nurgle",
+      "Sorcerer",
+      "Palanquin of Nurgle"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following unit:\n■ PLAGUE MARINES",
+      "Gift of Poxes (Psychic): While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
+      "Feculent Despair (Aura, Psychic): While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock test, subtract 1 from that test."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Death Guard Possessed [Legends]",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 155,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Chaos",
+      "Daemon",
+      "Possessed"
+    ],
+    "abilities": [
+      "Infectious Bloodshed: Each time this unit makes a Charge move, until the end of the turn, weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.",
+      "Diseased icon: Melee weapons in the bearer's unit have the [LETHAL HITS] ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Lord of Poxes",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 65,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Chaos",
+      "Nurgle",
+      "Lord of Poxes"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n- ^^**Plague Marines^^**",
+      "Gift of Poxes: Add 3\" to the range of this model's Contagion Range.",
+      "Shroud of Disease: While this model is leading a unit, that unit cannot be targeted by ranged attacks unless the attacking unit is within 18\"."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Great Unclean One",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 265,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "12",
+    "save": "5+",
+    "wounds": "20",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Monster",
+      "Character",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Great Unclean One",
+      "Summoned"
+    ],
+    "abilities": [
+      "Daemon Lord of Nurgle (Aura): While a friendly ^^Plague Legions^^ unit is within 6\" of this model, add 1 to the Toughness characteristic of models in that unit.",
+      "Nurgle’s Rot (Psychic): At the end of your Movement phase, you can select one enemy unit within 12\" of this model. Until the start of your next Movement phase, that unit is rotted. While a unit is rotted, subtract 1 from the",
+      "Damaged: 1-7 wounds remaining: While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Rotigus",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 280,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "12",
+    "save": "5+",
+    "wounds": "22",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Monster",
+      "Character",
+      "Epic Hero",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Rotigus",
+      "Summoned"
+    ],
+    "abilities": [
+      "Virulent Blessing (Psychic): At the start of the Fight phase, you can select one enemy unit within 24\" of and visible to this model. Until the end of the phase, each time an attack made by a ^^**Plague Legions^^** model is alloca",
+      "Deluge of Nurgle (Aura): While an enemy unit is within 6\" of this model, subtract 2 from the Move characteristic and subtract 1 from the Objective Control characteristic of models in that unit.",
+      "Damaged: 1-7 wounds remaining: While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Plaguebearers",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 115,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "7+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "5+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Battleline",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Plaguebearers",
+      "Summoned"
+    ],
+    "abilities": [
+      "Infected Outbreak: If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Plague Drones",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 110,
+    "models": 2,
+    "move": "10\"",
+    "toughness": "8",
+    "save": "6+",
+    "wounds": "5",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "5+",
+    "role": "CAVALRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Mounted",
+      "Fly",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Summoned",
+      "Plague Drones"
+    ],
+    "abilities": [
+      "Death’s Heads: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly NURGLE LEGIONES DAEMONICA unit makes an att"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Nurglings",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 45,
+    "models": 3,
+    "move": "5\"",
+    "toughness": "3",
+    "save": "7+",
+    "wounds": "4",
+    "leadership": "8+",
+    "objectiveControl": "0",
+    "invulnerableSave": "5+",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Swarm",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Summoned",
+      "Nurglings"
+    ],
+    "abilities": [
+      "Mischief Makers (Aura): Each time an enemy unit (excluding ^^Titanic^^ units) within Engagement Range of one or more units with this ability is selected to fight, until the end of the phase, each time a model in that enemy u"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Foetid Bloat-drone with heavy blight launcher",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 125,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Chaos",
+      "Nurgle",
+      "Daemon",
+      "Foetid Bloat-drone"
+    ],
+    "abilities": [
+      "Explosive Blight: In your Shooting phase, each time this model makes an attack that destroys an enemy unit, before removing the last model in that unit from play, roll a D6, adding 1 to the result if that unit is Affli"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Plague Sorcerer [Crucible]",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 70,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Psyker",
+      "Chaos",
+      "Nurgle",
+      "Plague Sorcerer"
+    ],
+    "abilities": [
+      "Gift of Contagion (Psychic): Each time a model in this unit makes an attack that targets a unit that is Afflicted, that attack has the [Sustained Hits 1] ability.",
+      "Leader: This model can be attached to the following units: ^^**Plague Marines, Poxwalkers**^^"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Plague Lord [Crucible]",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 80,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Grenades",
+      "Plague Lord"
+    ],
+    "abilities": [
+      "Gift of Poxes: Add 3\" to the range of this model's Contagion Range.",
+      "Leader: This model can be attached to the following units: ^^**Plague Marines, Poxwalkers**^^"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tri-lobe Vectors [Crucible]",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 120,
+    "models": 3,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Chaos",
+      "Nurgle",
+      "Tri-lobe Vectors"
+    ],
+    "abilities": [
+      "Leader: This unit can be attached to the following units: ^^**Plague Marines, Poxwalkers**^^"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Defiler",
+    "faction": "Death Guard",
+    "alliance": "chaos",
+    "points": 300,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "18",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Defiler"
+    ],
+    "abilities": [
+      "Scuttling Walker: Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding ^^**Titanic**^^ models) and terrain features. When doing so, it can move within Engagement Range of",
+      "Barrage of Filth: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover."
+    ],
+    "system": "40k"
+  }
+]

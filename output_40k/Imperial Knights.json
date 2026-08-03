@@ -1,0 +1,1371 @@
+[
+  {
+    "name": "Canis Rex",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 415,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "26",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Imperium"
+    ],
+    "abilities": [
+      "Chainbreaker: Once per battle, at the start of any phase, you can select one friendly **^^Imperium^^** unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked.",
+      "Legendary Freeblade: Once per turn, you can target this model with a Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem in the same phase.",
+      "Using Sir Hekhtur: If your Canis Rex model is destroyed, this model is treated as a model disembarking from a destroyed **^^Transport^^** and must perform an Emergency Disembarkation. Sir Hekhtur cannot be selected as t"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Armiger Warglaive",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 140,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "7+",
+    "objectiveControl": "6",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Warglaive",
+      "Armiger"
+    ],
+    "abilities": [
+      "Impetuous Glory: Each time this model makes a charge move, until the end of the turn, add 1 to the Attacks characteristic of this model's reaper chain-cleaver - strike profile, and add 2 to the Attacks characteristic "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Armiger Helverin",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 140,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "7+",
+    "objectiveControl": "6",
+    "invulnerableSave": "5+*",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Helverin",
+      "Armiger"
+    ],
+    "abilities": [
+      "Suppression Protocols: In your Shooting phase, after this model has shot, select one enemy unit (excluding **^^Monsters^^** and **^^Vehicles^^**) hit by one or more of those attacks made with an Armiger autocannon. Until th"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight Paladin",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 375,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "26",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Knight Paladin",
+      "Questoris"
+    ],
+    "abilities": [
+      "Seasoned Noble: Each time this model makes a ranged attack that targets the closest eligible target, improve the Armour Penetration characteristic of that attack by 1.",
+      "Paladin’s Duty (Bondsman): While a model is affected by this ability, weapons equipped by that model have the **[LETHAL HITS]** ability, and melee weapons equipped by that model have the **[LANCE]** ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight Errant",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 355,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "26",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Knight Errant",
+      "Questoris"
+    ],
+    "abilities": [
+      "Aggressive Assault: Each time this model makes a ranged attack that targets the closest eligible target, add 1 to the Hit roll.",
+      "Errant's Duty (Bondsman): While a model is affected by this ability, you can re-roll Advance rolls made for that model and ranged weapons equipped by that model have the **[ASSAULT]** ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight Gallant",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 355,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "26",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Knight Gallant",
+      "Questoris"
+    ],
+    "abilities": [
+      "Martial Pride: Each time this unit Consolidates, models in it can move an additional 3\" provided your unit can end that move within Engagement Range of one or more enemy units.",
+      "Gallant's Duty (Bondsman): While a model is affected by this ability, you can re-roll Charge rolls made for that model and each time that model makes a melee attack, you can re-roll the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight Warden",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 375,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "26",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Knight Warden",
+      "Questoris"
+    ],
+    "abilities": [
+      "Thin Their Ranks: Each time this model makes a ranged attack that targets an enemy unit (excluding **^^Monsters^^** and **^^Vehicles^^**), that attack has the **[DEVASTATING WOUNDS]** ability.",
+      "Warden's Duty (Bondsman): While a model is affected by this ability, weapons equipped by that model have the **[SUSTAINED HITS 1]** ability, and ranged weapons equipped by that model have the **[IGNORES COVER]** ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight Crusader",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 395,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "26",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Knight Crusader",
+      "Questoris"
+    ],
+    "abilities": [
+      "Punishing Salvoes: In your Movement phase, if this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the **[SUSTAINED HITS 1]** ability.",
+      "Crusader's Duty (Bondsman): While a model is affected by this ability, each time that model makes a ranged attack, add 1 to the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight Preceptor",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 365,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "26",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Knight Preceptor",
+      "Questoris"
+    ],
+    "abilities": [
+      "Exemplar of the Code: At the start of the battle, select one unit from your opponent’s army to be this model's quarry. Each time this model makes an attack that targets its quarry, you can re-roll the Wound roll. Each time",
+      "Mentor (Bondsman): Each time a model affected by this ability makes an attack that targets this model's quarry, you can re-roll the Wound roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight Castellan",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 425,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "12",
+    "save": "3+",
+    "wounds": "28",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Knight Castellan",
+      "Dominus"
+    ],
+    "abilities": [
+      "Titan Hunter: Each time a ranged attack made by this model is allocated to a **^^Monster^^** or **^^Vehicle^^** model, you can re-roll the Damage roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight Valiant",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 400,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "12",
+    "save": "3+",
+    "wounds": "28",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Knight Valiant",
+      "Dominus"
+    ],
+    "abilities": [
+      "Thundershock: In your Shooting phase, each time you select a target for this model's thundercoil harpoon, roll one D6 for the target unit and one D6 for each other enemy unit within 6\" of the target unit. On a 4+, "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Acastus Knight Asterius",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 785,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "30",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Knight Asterius",
+      "Acastus",
+      "Frame"
+    ],
+    "abilities": [
+      "Sunderer of Fortresses: Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristics of that attack by 1. If that attack targets a FORTIFICATION, improve the Strength and Damag"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Acastus Knight Porphyrion",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 725,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "30",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Acastus",
+      "Knight Porphyrion",
+      "Frame"
+    ],
+    "abilities": [
+      "Bastion of Firepower: Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [LETHAL HITS] ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Cerastus Knight Lancer",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 415,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "28",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Knight Lancer",
+      "Cerastus"
+    ],
+    "abilities": [
+      "Shock Charge: You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
+      "Lancer’s Duty (Bondsman): While a model is affected by this ability, it is eligible to declare a charge in a turn in which it Advanced."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Cerastus Knight Castigator",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 380,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "28",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Cerastus",
+      "Knight Castigator"
+    ],
+    "abilities": [
+      "Storm of Bolts: In your Shooting phase, after this model has shot, select one unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this model is on the ",
+      "Castigator’s Duty (Bondsman): While a model is affected by this ability, its ranged weapons have the [SUSTAINED HITS 1] ability and the Armour Penetration characteristic of its ranged weapons is improved by 1."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Cerastus Knight Acheron",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 380,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "28",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Cerastus",
+      "Knight Acheron"
+    ],
+    "abilities": [
+      "Searing Flames: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the phase, that enemy unit cannot have ",
+      "Acheron’s Duty (Bondsman): While a model is affected by this ability, at the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test, subtracting 1 "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Cerastus Knight Atrapos",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 405,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "28",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Cerastus",
+      "Knight Atrapos"
+    ],
+    "abilities": [
+      "Macro-extinction Protocols: Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll. If that target is TITANIC or TOWERING, add 1 to the Wound roll as well.",
+      "Atrapos’ Duty (Bondsman): While a model is affected by this ability, each time that model makes an attack that targets a TITANIC or TOWERING model, you can re-roll the Hit roll and you can re-roll the Wound roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Questoris Knight Magaera",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 385,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "26",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Questoris",
+      "Knight Magaera"
+    ],
+    "abilities": [
+      "Repair Auto-simulacra: At the end of your Command phase, this model regains up to D3 lost wounds.",
+      "Magaera’s Duty (Bondsman): While a model is affected by this ability, each time that model makes a ranged attack that targets the closest eligible target, improve the Strength and Armour Penetration characteristics of that atta"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Questoris Knight Styrix",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 375,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "26",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Questoris",
+      "Knight Styrix"
+    ],
+    "abilities": [
+      "Grav-pinned: In your Shooting phase, after this model has shot, if an enemy INFANTRY unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enem",
+      "Styrix’s Duty (Bondsman): While a model is affected by this ability, each time that model is selected to shoot or fight, after it has resolved all of its attacks, select one enemy unit hit by one or more of those attacks; that"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Armiger Moirax",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 150,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "7+",
+    "objectiveControl": "6",
+    "invulnerableSave": "5+*",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Armiger",
+      "Moirax"
+    ],
+    "abilities": [
+      "Protection Protocols: You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight Defender",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 400,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "26",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "4+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Questoris",
+      "Knight Defender"
+    ],
+    "abilities": [
+      "Selfless Protector: Each time a ranged attack is allocated to an **^^Imperial Knights^^** model from your army, if that model is not fully visible to every model in the attacking unit because of this Knight Defender mode",
+      "Warden's Duty (Bondsman): While a model is affected by this ability, each time an attack is allocated to that model, subtract 1 from the Damage characteristic of that attack."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight Destrier",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 265,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "18",
+    "leadership": "6+",
+    "objectiveControl": "8",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Bellatus",
+      "Knight Destrier"
+    ],
+    "abilities": [
+      "Damaged: 1-6 Wounds Remaining: While this model has 1-6 wounds remaining, subtract 4 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Thundercharge: If this model is equipped with a thundershock spear and a bellatus reaper chainsword, add 2 to the Attacks characteristic of melee weapons equipped by this model.",
+      "Ram Jets: Each time this unit is selected to make a Normal or Advance move, until the end of the phase, add D3\" to the Move characteristic of this model.",
+      "Saturation Fire: Each time this model makes a ranged attack that targets a unit within range of one or more objective markers, that attack has the **[IGNORES COVER]** ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Warhound Titan",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 1100,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "40",
+    "leadership": "6+",
+    "objectiveControl": "16",
+    "invulnerableSave": "5+ (Ranged)",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Warhound Titan",
+      "Frame"
+    ],
+    "abilities": [
+      "Flank Speed: Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 8\" to the Move characteristic of this model.",
+      "Damaged: 1-13 wounds remaining: While this model has 1-13 wounds remaining, subtract 8 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Striding Colossus: Each time you target this model with a Stratagem, you must spend twice that Stratagem’s stated CP cost to do so."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Reaver Titan",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 2200,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "14",
+    "save": "2+",
+    "wounds": "60",
+    "leadership": "6+",
+    "objectiveControl": "20",
+    "invulnerableSave": "5+ (Ranged)",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Reaver Titan",
+      "Frame"
+    ],
+    "abilities": [
+      "Damaged: 1-20 wounds remaining: While this model has 1-20 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "God-machine: This model is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+      "Striding Colossus: Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Warbringer Nemesis Titan",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 2600,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "14",
+    "save": "2+",
+    "wounds": "80",
+    "leadership": "6+",
+    "objectiveControl": "20",
+    "invulnerableSave": "5+ (Ranged)",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Warbringer Nemesis Titan",
+      "Frame"
+    ],
+    "abilities": [
+      "Damaged: 1-26 wounds remaining: While this model has 1-26 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Titanic Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly IMPERIUM model makes an attack that targe",
+      "Titanic Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly CHAOS model makes an attack that targets ",
+      "Striding Colossus: Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Warlord Titan",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 3500,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "16",
+    "save": "2+",
+    "wounds": "100",
+    "leadership": "6+",
+    "objectiveControl": "30",
+    "invulnerableSave": "5+ (Ranged)",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Warlord Titan",
+      "Frame"
+    ],
+    "abilities": [
+      "Damaged: 1-33 wounds remaining: While this model has 1-33 wounds remaining, subtract 15 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Wrath of the Omnissiah: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test.",
+      "Striding Colossus: Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ambull [Legends]",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "8",
+    "leadership": "8+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Monster",
+      "Character",
+      "Ambull",
+      "Allies: Unaligned Forces"
+    ],
+    "abilities": [
+      "Frenzy: Each time an enemy unit is selected to shoot or fight, after it has finished making its attacks, if one or more of those attacks targeted this model and this model is not destroyed, this model can fig",
+      "Borewyrm Infestation: Twice per battle, at the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield. In the Reinforcements ste"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Aegis Defence Line with Weapon Emplacement [Legends]",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 145,
+    "models": 1,
+    "move": "-",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Aegis Defence Line with Weapon Emplacement"
+    ],
+    "abilities": [],
+    "system": "40k"
+  },
+  {
+    "name": "Bastion [Legends]",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 275,
+    "models": 1,
+    "move": "-",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "18",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Towering",
+      "Vehicle",
+      "Transport",
+      "Bastion"
+    ],
+    "abilities": [],
+    "system": "40k"
+  },
+  {
+    "name": "Firestorm Redoubt [Legends]",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 260,
+    "models": 1,
+    "move": "-",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "18",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Transport",
+      "Vehicle",
+      "Wall of Martyrs",
+      "Firestorm Redoubt"
+    ],
+    "abilities": [],
+    "system": "40k"
+  },
+  {
+    "name": "Fortress of Redemption [Legends]",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 480,
+    "models": 1,
+    "move": "-",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "30",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Transport",
+      "Titanic",
+      "Vehicle",
+      "Towering",
+      "Fortress of Redemption"
+    ],
+    "abilities": [
+      "Vantage Point: While a model is on top of the tower roof of this FORTIFICATION, improve the Armour Penetration characteristic of ranged weapons equipped by that model by 1."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Guardian Drone [Legends]",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 45,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "7",
+    "save": "3+",
+    "wounds": "7",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "MONSTER",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Monster",
+      "Guardian Drone",
+      "Allies: Unaligned Forces"
+    ],
+    "abilities": [
+      "Drone Commander (Aura): While a friendly **^^Spindle Drones^^** unit is within 6\" of this model, each time a model in that unit makes an attack, add 1 to the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Macro-cannon Aquila Strongpoint [Legends]",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 550,
+    "models": 1,
+    "move": "-",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "30",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Titanic",
+      "Vehicle",
+      "Transport",
+      "Wall of Martyrs",
+      "Macro-cannon Aquila Strongpoint"
+    ],
+    "abilities": [
+      "Tremor Quake: In your Shooting phase, just after selecting a target for this model’s Aquila macro-cannon, the target unit and every other enemy INFANTRY unit within 3\" of that unit must take a Battle-shock test."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Plasma Obliterator [Legends]",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 225,
+    "models": 1,
+    "move": "-",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "18",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Transport",
+      "Vehicle",
+      "Towering",
+      "Plasma Obliterator"
+    ],
+    "abilities": [
+      "Emergency Plasma Vents: Each time this FORTIFICATION suffers a mortal wound as the result of a failed Hazardous test, roll one D6: on a 4+, that wound is not lost."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Primaris Redoubt [Legends]",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 220,
+    "models": 1,
+    "move": "-",
+    "toughness": "12",
+    "save": "3+",
+    "wounds": "18",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Vehicle",
+      "Primaris Redoubt"
+    ],
+    "abilities": [],
+    "system": "40k"
+  },
+  {
+    "name": "Skyshield Landing Pad [Legends]",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 125,
+    "models": 1,
+    "move": "-",
+    "toughness": "12",
+    "save": "3+",
+    "wounds": "16",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "5+",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Skyshield Landing Pad"
+    ],
+    "abilities": [
+      "Skyshield: Friendly Infantry models and friendly units that can Fly can be set up or end any type of move on top of the platform section of this Fortification. While such a model is on the platform section of th",
+      "Repair Aircraft: At the end of your Movement phase, if there is a friendly Aircraft model on top of this Fortification, that Aircraft regains up to D3 lost wounds"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Spindle Drones [Legends]",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 35,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Spindle Drones",
+      "Allies: Unaligned Forces"
+    ],
+    "abilities": [
+      "Threat Level Rising: Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "The Archivist [Legends]",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "6",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Monster",
+      "Epic Hero",
+      "Character",
+      "The Archivist",
+      "Allies: Unaligned Forces"
+    ],
+    "abilities": [
+      "Fearsome Assault: At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test.",
+      "Disruptive Influence (Aura): While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock or Leadership test, subtract 1 from that test."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Vengeance Weapon Battery [Legends]",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 140,
+    "models": 1,
+    "move": "-",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Wall of Martyrs",
+      "Vehicle",
+      "Vengeance Weapon Battery"
+    ],
+    "abilities": [
+      "Automated Defences: Each time this model makes a ranged attack that targets the closest enemy unit:\n- If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit rol"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Void Shield Generator [Legends]",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 155,
+    "models": 1,
+    "move": "-",
+    "toughness": "12",
+    "save": "3+",
+    "wounds": "16",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "4+",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Void Shield Generator"
+    ],
+    "abilities": [
+      "Projected Void Shields (Aura): While a friendly model is wholly within 6\" of this FORTIFICATION, that model has a 4+ invulnerable save against ranged attacks."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Vortex Missile Strongpoint [Legends]",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 525,
+    "models": 1,
+    "move": "-",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "30",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Titanic",
+      "Vehicle",
+      "Transport",
+      "Wall of Martyrs",
+      "Vortex Missile Strongpoint"
+    ],
+    "abilities": [
+      "Vortex: In your Shooting phase, each time you select a target for this model’s vortex missile battery, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wall of Martyrs Bunker [Legends]",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 180,
+    "models": 1,
+    "move": "-",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Transport",
+      "Vehicle",
+      "Wall of Martyrs",
+      "Bunker"
+    ],
+    "abilities": [
+      "Inviolable Bastion: Each time an attack is allocated to this Fortification, subtract 1 from the Damage characteristic of that attack."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wall of Martyrs Defence Emplacement [Legends]",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 140,
+    "models": 1,
+    "move": "-",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Wall of Martyrs",
+      "Defence Emplacement"
+    ],
+    "abilities": [],
+    "system": "40k"
+  },
+  {
+    "name": "Wall of Martyrs Defence Line [Legends]",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 140,
+    "models": 1,
+    "move": "-",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Wall of Martyrs",
+      "Defence Line"
+    ],
+    "abilities": [],
+    "system": "40k"
+  },
+  {
+    "name": "Sentry Gun",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 30,
+    "models": 1,
+    "move": "-",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Sentry Gun",
+      "Allies: Unaligned Forces"
+    ],
+    "abilities": [
+      "Defensive Emplacement: In the Create the Battlefield and Place Objective Markers step, set this model up in one of the Sentry Gun positions (marked D1 on the mission map)."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Searchlight",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 10,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Allies: Unaligned Forces"
+    ],
+    "abilities": [
+      "Enemy Spotted: Each time a model from your army makes a ranged attack that targets an enemy unit that is within 9\" of and visible to any Searchlights from your army, re-roll a Hit of 1 and, if the model making that ",
+      "Wall: This model is a terrain feature and counts as a Wall.",
+      "Camera Network: In the Create the Battlefield and Place Objective Markers step, set this terrain feature up in one of the Searchlight positions (marked D2 on the mission map) that does not already contain a Searchlig"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Breaching Robot",
+    "faction": "Imperial Knights",
+    "alliance": "imperium",
+    "points": 35,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Breaching Robot",
+      "Allies: Unaligned Forces"
+    ],
+    "abilities": [
+      "Limited Loadout: This model cannot attempt to operate Hatchways and cannot perform Tactical Manoeuvres.",
+      "Assault Robot: In the Deploy Armies step, when setting up a unit from your army within an Entry Zone, you can set this model up alongside that unit as if it was part of it, using the same Entry Zone.",
+      "Bomb Kit: When the bearer is destroyed (other than through triggering its bomb, as described below), roll one D6 before removing it from play: on a 6 it explodes, and each other unit within 3\" of and visible to",
+      "Cutting Gear: Each time the bearer ends a Normal move, you can open one Hatchway that is within 1\" of it. Your opponent cannot attempt to prevent that Hatchway from opening."
+    ],
+    "system": "40k"
+  }
+]

@@ -1,0 +1,607 @@
+[
+  {
+    "name": "Chaplain Grimaldus",
+    "faction": "Black Templars",
+    "alliance": "imperium",
+    "points": 100,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "5+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Imperium",
+      "Tacticus",
+      "Chaplain"
+    ],
+    "abilities": [
+      "Litanies of the Devout: While this unit is leading a unit and contains a Chaplain Grimaldus model, each time a model in that unit makes a melee attack, you can re-roll the Hit roll.",
+      "Temple Relics: In your Command phase, if this unit contains one or more Cenobyte Servitor models, select one Temple Relics ability (see left). Until the start of your next Command phase, this unit’s Chaplain Grimald",
+      "Leader: This unit can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Infernus Squad\n■ Intercessor Squad\n■ Crusader Squad\n■ Sword Brethren"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "High Marshal Helbrecht",
+    "faction": "Black Templars",
+    "alliance": "imperium",
+    "points": 110,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "High Marshal Helbrecht",
+      "Infantry",
+      "Chapter Master"
+    ],
+    "abilities": [
+      "Crusade of Wrath: While this model is leading a unit, add 1 to the Attacks and Strength characteristic of melee weapons equipped by models in that unit.",
+      "High Marshal: At the start of the Fight phase, select one enemy unit within Engagement Range of this model’s unit and roll one D6, adding 1 to the result for every five models in this model's unit: on a 2-3, that e",
+      "Leader: This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Intercessor Squad\n■ Crusader Squad\n■ Sword Brethren"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Crusader Squad",
+    "faction": "Black Templars",
+    "alliance": "imperium",
+    "points": 150,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Crusader Squad"
+    ],
+    "abilities": [
+      "Righteous Zeal: In your opponent's Shooting phase, each time an enemy unit has shot, if any models in this unit were destroyed as a result of those attacks, this unit can make a surge move of up to D6+2."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Sword Brethren Squad",
+    "faction": "Black Templars",
+    "alliance": "imperium",
+    "points": 105,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Primaris Sword Brethren"
+    ],
+    "abilities": [
+      "Exploit Their Cowardice: Each time an enemy unit within Engagement Range of this unit is selected to Fall Back, after it ends that Fall Back move, if this unit is not within Engagement Range of one or more enemy units, this u",
+      "Fervent Exemplars: SWORD BRETHREN SQUAD unit only. This unit has +1 to charge rolls",
+      "Inheritors of Sigismund: SWORD BRETHREN SQUAD unit only. This unit has Fights First"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Emperor's Champion",
+    "faction": "Black Templars",
+    "alliance": "imperium",
+    "points": 90,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Emperor's Champion"
+    ],
+    "abilities": [
+      "Armour of Faith: Once per phase, when an attack is allocated to this model and the saving throw is failed, you can change the Damage characteristic of that attack to 0.",
+      "Sigismund's Heir: ▪ When this unit declares a charge, If an enemy CHARACTER unit is within 12\" of this unit, you can use this part of this ability. If you do:\n      ▫ This unit can re-roll that charge roll.\n      ▫ Thi",
+      "Leader: This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Intercessor Squad\n■ Crusader Squad\n■ Sword Brethren\n■ Sternguard Veteran Squad",
+      "Chosen of the Emperor: You cannot include more than one **^^Emperor's Champion^^** model in your army."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Crusader Squad [Legends]",
+    "faction": "Black Templars",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Imperium",
+      "Crusader Squad"
+    ],
+    "abilities": [
+      "Righteous Zeal: You can re-roll Advance and Charge rolls made for this unit."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Gladiator Lancer",
+    "faction": "Black Templars",
+    "alliance": "imperium",
+    "points": 160,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Imperium",
+      "Smoke",
+      "Gladiator Lancer",
+      "Frame"
+    ],
+    "abilities": [
+      "Aquilon Optics: Each time this model is selected to shoot, you can re-roll one Hit roll, you can re-roll one Wound roll and you can re-roll one Damage roll when resolving its attacks"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Gladiator Reaper",
+    "faction": "Black Templars",
+    "alliance": "imperium",
+    "points": 160,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Smoke",
+      "Imperium",
+      "Vehicle",
+      "Gladiator Reaper",
+      "Frame"
+    ],
+    "abilities": [
+      "Rotating Death: This model’s twin heavy onslaught gatling cannon has the [SUSTAINED HITS 2] ability when targeting Infantry units."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Gladiator Valiant",
+    "faction": "Black Templars",
+    "alliance": "imperium",
+    "points": 150,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Gladiator Valiant",
+      "Frame"
+    ],
+    "abilities": [
+      "Ferocious Assault: Each time this model makes an attack with its twin las-talon that targets the closest eligible Monster or Vehicle unit, add 1 to the Hit roll"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Impulsor",
+    "faction": "Black Templars",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Transport",
+      "Dedicated Transport",
+      "Imperium",
+      "Impulsor"
+    ],
+    "abilities": [
+      "Transport: This model has a transport capacity of 7 TACTICUS or PHOBOS INFANTRY models. It cannot transport JUMP PACK models.",
+      "Assault Vehicle: Units can disembark from this Transport after it has Advanced. Units that do so count as having made a Normal move, and cannot declare a charge that turn.",
+      "Orbital Comms Array [Aura]: While a friendly Adeptus Astartes unit is within 6\" of the bearer, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP",
+      "Shield Dome: The bearer has a 5+ invulnerable save."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Repulsor",
+    "faction": "Black Templars",
+    "alliance": "imperium",
+    "points": 170,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "12",
+    "save": "3+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Imperium",
+      "Smoke",
+      "Repulsor",
+      "Transport",
+      "Frame"
+    ],
+    "abilities": [
+      "Transport: This model has a transport capacity of 14 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 m",
+      "Stabilised Disembarkation: In your opponent's Shooting phase, each time and enemy unit is selected to shoot, after that unit has shot, if any of those attacks targeted this TRANSPORT, it can use this ability. If it does, any un"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Repulsor Executioner",
+    "faction": "Black Templars",
+    "alliance": "imperium",
+    "points": 255,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "12",
+    "save": "3+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Transport",
+      "Repulsor Executioner",
+      "Frame"
+    ],
+    "abilities": [
+      "Transport: This model has a transport capacity of 7 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space",
+      "Interception Strike: Each time this model makes a ranged attack that targets a unit that is within 12\" of one or more ADEPTUS ASTARTES units from your army, you can re-roll the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Castellan",
+    "faction": "Black Templars",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Lieutenant",
+      "Castellan"
+    ],
+    "abilities": [
+      "Support: This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Infernus Squad\n■ Intercessor Squad\n■ Crusader Squad\n■ Sword Brethren\n■ Sternguard Veteran Squad\n\nYou can attach this m",
+      "Vehement Aggression: While this model is leading a unit, each time that unit is selected to fight, take a Leadership test for that unit: if passed, until the end of the phase, each time a model in that unit makes an attac",
+      "Prioritised Eradication: Each time a model in this model's unit makes a melee attack that destroys one or more enemy units, roll one D6: on a 4+, you gain 1 CP"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Marshal",
+    "faction": "Black Templars",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Marshal",
+      "Captain"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Infernus Squad\n■ Intercessor Squad\n■ Crusader Squad\n■ Sword Brethren\n■ Sternguard Veteran Squad",
+      "Inspirational Exemplar: While this model is leading a unit, each time a model in that unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
+      "Pious Fervour: Each time this model's unit is selected to fight, until the end of the phase, add 1 to the Attacks characteristic of this model's Master-Crafted Power Weapon for each enemy unit within 6\" of this mode"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Execrator",
+    "faction": "Black Templars",
+    "alliance": "imperium",
+    "points": 50,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "5+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Chaplain",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Execrator"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n\n■ Crusader Squad\n■ Sword Brethren",
+      "Remorseless Persecution: While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced",
+      "Condemnatory Annihilation: Each time this model's unit has fought, if one or more enemy units were destroyed as a result of those attacks, each enemy unit within 6\" of this model must take a Battle-shock test"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Crusade Ancient",
+    "faction": "Black Templars",
+    "alliance": "imperium",
+    "points": 40,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Ancient",
+      "Tacticus",
+      "Imperium",
+      "Crusade Ancient"
+    ],
+    "abilities": [
+      "Vengeful Exhortation: While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play, the destroyed mode",
+      "Martial Honour: The first time a model in this model's unit makes a melee attack that destroys one or more enemy units, until the end of the battle, while this model's unit is not Battle-shocked, add 5 to this model'",
+      "Support: This model can be attached to the following units:\n\n\n■ Crusader Squad\n■ Sword Brethren Squad\n\n\nYou can attach this model to one of the above units even if one Captain, Chapter Master, Execrator or Lie"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Land Raider Crusader",
+    "faction": "Black Templars",
+    "alliance": "imperium",
+    "points": 220,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Land Raider Crusader",
+      "Smoke",
+      "Imperium",
+      "Transport",
+      "Grenades",
+      "Land Raider",
+      "Frame"
+    ],
+    "abilities": [
+      "Transport: This model has a transport capacity of 16 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the spac",
+      "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+      "Legacy of Jerulas: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly model that disembarked from this TRANSPORT"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Sternguard Veteran Squad",
+    "faction": "Black Templars",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Sternguard Veteran Squad"
+    ],
+    "abilities": [
+      "Vitruous Onslaught: Each time a model in this unit makes an attack that targets the closest eligible target, you can re-roll a Wound roll of 1."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Terminator Squad",
+    "faction": "Black Templars",
+    "alliance": "imperium",
+    "points": 160,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Imperium",
+      "Terminator",
+      "Terminator Squad"
+    ],
+    "abilities": [
+      "Teleport Homer: At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target",
+      "Judgement of the Weak: Each time an enemy unit (excluding MONSTERS and VEHICLES) within engagement range of this unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Emperor's Champion (Anointed)",
+    "faction": "Black Templars",
+    "alliance": "imperium",
+    "points": 100,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Emperor's Champion"
+    ],
+    "abilities": [
+      "Armour of Faith: Once per phase, when an attack is allocated to this model and the saving throw is failed, you can change the Damage characteristic of that attack to 0.",
+      "Sigismund's Heir: Each time this model's unit declares a charge, if one or more targets of that charge have the CHARACTER keyword, add 2 to the Charge roll. Once per battle, when this model's unit is selected to fight,",
+      "Leader: This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Intercessor Squad\n■ Crusader Squad\n■ Sword Brethren\n■ Sternguard Veteran Squad",
+      "Chosen of the Emperor: You cannot include more than one **^^Emperor's Champion^^** model in your army."
+    ],
+    "system": "40k"
+  }
+]

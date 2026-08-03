@@ -1,0 +1,685 @@
+[
+  {
+    "name": "Ûthar the Destined",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 90,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Ûthar the Destined"
+    ],
+    "abilities": [
+      "Ancestral Fortune: Once per turn, you can spend 1YP to change one Hit roll, one Wound roll or one saving throw made for this model to an unmodified 6.",
+      "Leader: This model can be attached to the following units:\n- Einhyr Hearthguard\n- Hearthkyn Warriors",
+      "Grim Efficiency: Once per battle round, when a friendly ^^**Leagues of Votann**^^ unit within 12\" of this model is targeted with a Stratagem, this model can use this ability. If it does, reduce the CP cost of that Str"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hearthkyn Warriors",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 100,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "5+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Hearthkyn Warriors"
+    ],
+    "abilities": [
+      "Luck Has, Need Keeps, Toil Earns: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, until your opponent's Level of Control over that is",
+      "Pan-spectral Scanning: Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Kâhl",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 65,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Kâhl"
+    ],
+    "abilities": [
+      "Kindred Hero: While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability.",
+      "Leader: This model can be attached to the following units:\n- EINHYR HEARTHGUARD\n- HEARTHKYN WARRIORS",
+      "Seized Opportunity: Once per phase, one model from your army with this ability can use it when its unit destroys an enemy unit. If it does, gain 1YP."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Einhyr Champion",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 65,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Exoarmour",
+      "Einhyr Champion"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following unit:\n- EINHYR HEARTHGUARD",
+      "Exemplar of the Einhyr: While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit.",
+      "Mass Driver Accelerators: Each time this model ends a Charge move, you can select one enemy unit within Engagement Range of this model and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy uni",
+      "Weavefield crest: The bearer has a 4+ invulnerable save."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Grimnyr",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 65,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "4+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following unit:\n- HEARTHKYN WARRIORS",
+      "Fortify (Psychic): While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.",
+      "Grimnyr's Regard: Once per battle, at the start of any phase, you can select one friendly ^^**Leagues of Votann**^^ unit that is Battle-shocked and within 12\" of this unit's ^^**Grimnyr**^^ model. That unit is no longe",
+      "Unit Composition: If this unit’s Grimnyr model is ever destroyed, all of this unit’s remaining CORV models are also destroyed. While embarking within a ^^**Transport^^** and while embarked within a ^^**Transport^^**, e"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Brôkhyr Iron-master",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 70,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Brôkhyr"
+    ],
+    "abilities": [
+      "Multi-spectral visor: Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1.",
+      "Brôkhyr Guild Support: While this unit is within 3\" of one or more friendly ^^**Leagues of Votann Vehicle**^^ or ^^**Ironkin Steeljacks**^^ units, if this unit is not an attached unit, it has the Lone Operative ability.",
+      "Leader: This model can be attached to the following unit:\n- HEARTHKYN WARRIORS\n- BRÔKHYR THUNDERKYN",
+      "Unit Composition: If this unit’s Brôkhyr Iron‑master model is ever destroyed, all of this unit’s remaining E‑COG models are also destroyed. While embarking within a ^^**Transport^^** and while embarked within a ^^**Tra",
+      "Forgewrought Expertise: At the end of your Movement phase, this model can repair one friendly ^^**Leagues of Votann Vehicle, Exoframe^^** or ^^**Ironkin Steeljacks^^** unit within 3\" of it. One model in that unit regains up "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Einhyr Hearthguard",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 130,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Exoarmour",
+      "Einhyr Hearthguard"
+    ],
+    "abilities": [
+      "Decisive Destruction: Each time a model in this unit makes a ranged attack that targets the closest eligible target, re-roll a Hit roll of 1.",
+      "Teleport crest: Models in the bearer's unit have the Deep Strike ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Cthonian Beserks",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 100,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "6",
+    "save": "5+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Cthonian",
+      "Beserks"
+    ],
+    "abilities": [
+      "Cyberstimms: Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6, adding one to the result if units from your army have Fortify Takeover: on a 4+, do",
+      "Subterranean Explosives: In your Shooting phase, after this unit has shot, select one enemy unit (excluding ^^**Monsters**^^ and ^^**Vehicles^^**) that was hit by one or more of those attacks made with a mole grenade launcher"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hernkyn Pioneers",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 80,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "6",
+    "save": "4+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "CAVALRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Mounted",
+      "Grenades",
+      "Fly",
+      "Pioneers",
+      "Hernkyn"
+    ],
+    "abilities": [
+      "Outflanking Mag-Riders: At the end of your opponent’s turn, if this unit is wholly within 9\" of one or more battlefield edges and not within Engagement Range of one or more enemy units, you can remove it from the battlefield",
+      "Comms array: Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP.",
+      "Pan-spectral scanner: Each time a model in the bearer's unit makes a ranged attack, re-roll a Hit roll of 1.",
+      "Rollbar searchlight: Each time a model in the bearer's unit makes a ranged attack, you can ignore any or all modifiers to the Hit roll.",
+      "Pan-spectral Lockons: In your Shooting phase, you can select one **visible** enemy unit within 12\" of this unit. That enemy unit is **spotted**: \n- While a unit is spotted, that unit has +3\" **detection range**."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Sagitaur",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 85,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "9",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Transport",
+      "Dedicated Transport",
+      "Sagitaur",
+      "Frame"
+    ],
+    "abilities": [
+      "Blistering Advance: Units can disembark from this ^^**Transport^^** after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise a",
+      "Saturation Rounds: This unit’s ranged attacks have [IGNORES COVER].",
+      "Optimised Attack Lines: This unit has MOBILE."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Brôkhyr Thunderkyn",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 80,
+    "models": 3,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Exoframe",
+      "Thunderkyn",
+      "Brôkhyr"
+    ],
+    "abilities": [
+      "Breaching Fire: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, that enemy unit cannot have the Benefit of Cov"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hekaton Land Fortress",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 250,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "7+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Transport",
+      "Hekaton Land Fortress",
+      "Frame"
+    ],
+    "abilities": [
+      "MultiCOG Targeting: Each time this model makes a ranged attack, you can ignore any or all modifiers to the following: that attack's Ballistic Skill characteristic, the Hit roll.",
+      "Damaged: 1-5 wounds remaining: While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Pan spectral scanner: Each time a model in the bearer's unit makes a ranged attack, re-roll a Hit roll of 1."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hernkyn Yaegirs",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 90,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "5",
+    "save": "5+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Yaegirs",
+      "Hernkyn"
+    ],
+    "abilities": [
+      "Pragmatic Hunters: In your opponent's Movement phase, if an enemy unit ends a move within 8” of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up t",
+      "Shroudwërke Talismans: This unit has -3\" **detection range**."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Buri Aegnirssen",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 85,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Infantry",
+      "Character",
+      "Buri Aegnirssen"
+    ],
+    "abilities": [
+      "Grudge-fuelled Fortitude: The first time this model is destroyed, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagemen",
+      "Unhinged Vengeance: In your opponent’s Shooting phase, when an enemy unit has shot, if this model lost one or more wounds as a result of those attacks, this unit can make a **surge move** of up to D6+2\"."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Memnyr Strategist",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 45,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "4+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Memnyr Strategist"
+    ],
+    "abilities": [
+      "Computational Mastermind: At the end of your Command phase, before you determine if units from your army have Hostile Acquisition or Fortify Takeover, for each objective marker you control that has one or more models with this",
+      "Predictive Guidance: Once per battle round, when you target this unit with the **Fire Overwatch/Heroic Intervention** stratagem, you can use this ability. If you do, that use of that stratagem is ‑1 CP.",
+      "Leader: This model can be attached to the following units: ^^**Ironkin Steeljacks with Heavy Volkanite Disintegrators^^**, ^^**Ironkin Steeljacks with Melee Weapons^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Arkanyst Evaluator",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 70,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Arkanyst Evaluator"
+    ],
+    "abilities": [
+      "Science Guild Support: While this model is within 3\" of one or more other friendly ^^**Leagues of Votann Infantry**^^ units (excluding units with the Lone Operative ability), this model has the Lone Operative ability.",
+      "Resource Transmutation: Once per turn, in your Shooting phase, one model with this ability can choose to use it when it is selected to shoot. If it does, you must spend 1YP and, until the end of the phase, ranged weapons equ"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Kapricus Carrier",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 70,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "7",
+    "save": "4+",
+    "wounds": "7",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Dedicated Transport",
+      "Transport",
+      "Vehicle",
+      "Fly",
+      "Hernkyn",
+      "Kapricus",
+      "Carrier"
+    ],
+    "abilities": [
+      "Scanner Uplinks: In your shooting phase, after this model has shot, select one enemy unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**) hit by one or more of those attacks. Until the start of your next turn, that ",
+      "Smoke Launcher: The bearer has the ^^**Smoke**^^ keyword."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ironkin Steeljacks with Heavy Volkanite Disintegrators",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 80,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Ironkin Steeljacks",
+      "Ironkin Steeljacks with Heavy Volkanite Disintegrators"
+    ],
+    "abilities": [
+      "Purge Response: Each time you target this unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ while resolving that Stratagem. If units from your army have Fortify Takeover, hits are "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ironkin Steeljacks with Melee Weapons",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 80,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Ironkin Steeljacks",
+      "Ironkin Steeljacks with Melee Weapons"
+    ],
+    "abilities": [
+      "Merciless Eradication: Each time an enemy unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**) that is within Engagement Range of this unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Cthonian Earthshakers",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 110,
+    "models": 2,
+    "move": "4\"",
+    "toughness": "6",
+    "save": "4+",
+    "wounds": "6",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Artillery",
+      "Cthonian",
+      "Earthshakers"
+    ],
+    "abilities": [
+      "Geomantic Hunters: Up to twice per battle, in your Shooting phase, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, each time a model in this unit makes an attack wit",
+      "Destabilising Quakes: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks made with its tremor shells. That unit must take a Battle-shock test, subtracting 1 from the"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Living Ancestor [Crucible]",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 70,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "4+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Crucible",
+      "Psyker",
+      "Living Ancestor"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units: ^^**Hearthkyn Warriors**^^",
+      "Grimnyr's Regard: Once per battle, at the start of any phase, you can select one friendly ^^**Leagues of Votann**^^ unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Kinhost Commander [Crucible]",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 65,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Kinhost Commander",
+      "Crucible"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units: ^^**Einhyr Hearthguard, Hearthkyn Warriors**^^",
+      "Seized Opportunity: Once per phase, one model from your army with this ability can use it when its unit destroys an enemy unit. If it does, you gain 1YP."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Steeljack Elder [Crucible]",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 80,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Crucible",
+      "Ironkin Steeljacks",
+      "Steeljack Elder"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units: ^^**Ironkin Steeljacks with Heavy Volkanite Disintegrators, Ironkin Steeljacks with Melee Weapons**^^",
+      "Forgewrought Skill: Each time this model makes an attack, you can re-roll the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Berehk Stornbröw",
+    "faction": "Leagues of Votann",
+    "alliance": "xenos",
+    "points": 85,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "6",
+    "save": "5+",
+    "wounds": "5",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Infantry",
+      "Character",
+      "Cthonian",
+      "Berehk Stornbröw"
+    ],
+    "abilities": [
+      "Break the Foe: Melee weapons equipped by models in this unit have the [^^Sustained Hits 1^^] ability.",
+      "Relentless Avalanche: You can target this model's unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
+      "Leader: This model can be attached to the following units: ^^**Cthonian Beserks**^^"
+    ],
+    "system": "40k"
+  }
+]

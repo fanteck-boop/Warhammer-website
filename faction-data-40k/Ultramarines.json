@@ -1,0 +1,498 @@
+[
+  {
+    "name": "Captain Sicarius",
+    "faction": "Ultramarines",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Captain",
+      "Imperium",
+      "Sicarius"
+    ],
+    "abilities": [
+      "Lead From the Front: While this model is leading a unit, models in that unit have the Scouts 6\" ability and ranged weapons equipped by models in that unit have the [ASSAULT] ability.",
+      "Knight Champion of Macragge: Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, if this model’s unit is not within Engagement Range of one or more enemy units, it can make a Normal",
+      "Leader: This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Company Heroes\n■ Sternguard Veteran Squad\n■ Tactical Squad"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaplain Cassius [Legends]",
+    "faction": "Ultramarines",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "5+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Chaplain Cassius",
+      "Imperium"
+    ],
+    "abilities": [
+      "Catechism of Death: While this model is leading a unit, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability.",
+      "Inspired Retribution: While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destr",
+      "Leader: This model can be attached to the following units:\n\n■ Assault Squad\n■ Command Squad\n■ Sternguard Veteran Squad\n■ Tactical Squad\n■ Tyrannic War Veterans\n■ Vanguard Veteran Squad"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chief Librarian Tigurius",
+    "faction": "Ultramarines",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Epic Hero",
+      "Infantry",
+      "Imperium",
+      "Psyker",
+      "Chief Librarian Tigurius"
+    ],
+    "abilities": [
+      "Hood of Hellfire: While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds.",
+      "Master of Prescience (Psychic): ▪ This unit has Stealth.\n▪ Melee attacks that target this unit have ‑1 to hit rolls.\n▪ (Once per battle round, per army) When you target this unit with the Counteroffensive/Fire Overwatch/Heroic Inter",
+      "Leader: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ DESOLATION SQUAD\n■ DEVASTATOR SQUAD\n■ INTERCESSOR SQUAD\n■ STERNGUARD VETERAN SQUAD\n■ TACTIC"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Marneus Calgar",
+    "faction": "Ultramarines",
+    "alliance": "imperium",
+    "points": 200,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Imperium",
+      "Infantry"
+    ],
+    "abilities": [
+      "Inspiring Leader: While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back.",
+      "Master Tactician: At the start of your Command phase, if this unit’s Marneus Calgar model is your WARLORD and is on the battlefield, you gain 1CP.",
+      "Honour Guard of Macragge: While this unit contains one or more Victrix Honour Guard models, this unit’s Marneus Calgar model has the Feel No Pain 4+ ability.",
+      "Leader: This unit can be attached to the following units:\n\n■ Aggressor Squad\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Company Heroes\n■ Eradicator Squad\n■ Heavy Intercessor Squad\n■ Infernus Squ"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Roboute Guilliman",
+    "faction": "Ultramarines",
+    "alliance": "imperium",
+    "points": 355,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "5+",
+    "objectiveControl": "4",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Imperium",
+      "Primarch",
+      "Roboute Guilliman",
+      "Monster",
+      "Mobile"
+    ],
+    "abilities": [
+      "Author of the Codex: At the Start of your Command phase, select two Author of the Codex abilities (see left). Until the start of your next Command phase, this model has those abilities.’\n\nPrimarch of the XIII (Aura): Whil",
+      "Ultramarines Bodyguard: While this model is within 3\" of one or more friendly Adeptus Astartes Infantry units, this model has the Lone Operative ability",
+      "Armour of Fate: The first time this model is destroyed, roll one D6 at the end of the phase: on a 3+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement",
+      "Supreme Commander: If this model is in your army, it must be your Warlord."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Sergeant Chronus [Legends]",
+    "faction": "Ultramarines",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Sergeant Chronus"
+    ],
+    "abilities": [
+      "Tank Commander: While this model is commanding a Vehicle model (see reverse):\n\n■ Ranged weapons equipped by that Vehicle model have a Ballistic Skill characteristic of 2+.\n■ Each time that Vehicle model is selected t",
+      "Chronus: When this model disembarks from a Vehicle model it was commanding, it has the Lone Operative ability until the end of the battle."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Sergeant Telion [Legends]",
+    "faction": "Ultramarines",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Imperium",
+      "Sergeant Telion"
+    ],
+    "abilities": [
+      "Voice of Experience: While this model is leading a unit, improve the Objective Control characteristic of models in that unit by 1 and each time a model in that unit makes an attack, add 1 to the Hit roll.",
+      "Guiding Hand: While this model is leading a unit, each time that unit is selected to shoot or fight, select one of the following abilities to apply to weapons equipped by models in that unit until the end of the ph",
+      "Leader: This model can be attached to the following units:\n\n■ Scout Squad\n■ Scout Sniper Squad"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tyrannic War Veterans [Legends]",
+    "faction": "Ultramarines",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tyrannic War Veterans"
+    ],
+    "abilities": [
+      "Tyrannic War Veterans: Weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability when targeting Tyranids units."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Uriel Ventris",
+    "faction": "Ultramarines",
+    "alliance": "imperium",
+    "points": 105,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Uriel Ventris",
+      "Character",
+      "Epic Hero",
+      "Infantry",
+      "Captain",
+      "Imperium",
+      "Tacticus"
+    ],
+    "abilities": [
+      "Unorthodox Strategist [Aura]: Each time your opponent targets a unit from their army with a  stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP (this is not cumulative with ",
+      "Master of the Fleet: During the Declare Battle Formations step, if your army includes this model, select one Phobos, Gravis, or Tacticus Adeptus Astartes Infantry unit from your army.  That unit gains the Deep Strike abil",
+      "Leader: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ COMPANY HEROES\n■ INTERCESSOR SQUAD\n■ STERNGUARD VETERAN SQUAD\n■ TACTICAL SQUAD"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ultramarines Honour Guard [Legends]",
+    "faction": "Ultramarines",
+    "alliance": "imperium",
+    "points": 155,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Honor Guard"
+    ],
+    "abilities": [
+      "Astartes Banner: While this unit contains a Company Ancient, add 1 to the Objective Control characteristic of models in this unit.",
+      "Honour or Death: While this unit contains a Company Champion, add 1 to Advance and Charge rolls made for this unit and you can target this unit with the Heroic  Intervention Stratagem for 0CP, even if you have already",
+      "Honour Guard: While a Captain or Chapter Master model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll.",
+      "Honour Guard of Macragge: MARNEUS CALGAR can be attached to this unit. If a CAPTAIN model from your army with the Leader ability can be attached to a COMMAND SQUAD, it can be attached to this unit instead."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Lieutenant Titus",
+    "faction": "Ultramarines",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Imperium",
+      "Grenades",
+      "Epic Hero",
+      "Lieutenant",
+      "Titus",
+      "Tacticus"
+    ],
+    "abilities": [
+      "Press the Attack: : Weapons equipped by models in this model’s unit have the [SUSTAINED HITS 1] ability.",
+      "Honour of the Chapter: If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. This model can fight after the attacking unit has finished making its a",
+      "Leader: This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Hellblaster Squad\n■ Infernus Squad\n■ Intercessor Squad\n■ Sternguard Veteran Squad"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Marneus Calgar in Armour of Antilochus",
+    "faction": "Ultramarines",
+    "alliance": "imperium",
+    "points": 155,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Imperium",
+      "Terminator",
+      "Chapter Master",
+      "Marneus Calgar"
+    ],
+    "abilities": [
+      "Inspiring Leader: This unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back.",
+      "Master Tactician: At the start of your Command phase, if this unit’s Marneus Calgar model is your ^^**Warlord**^^ and is on the battlefield, you gain 1CP.",
+      "Leader: This model can be attached to the following units:\n\n\n■ AGGRESSOR SQUAD\n■ ASSAULT INTERCESSOR SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ COMPANY HEROES\n■ ERADICATOR SQUAD\n■ HEAVY INTERCESSOR SQUAD\n■ INFERNUS S"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Cato Sicarius",
+    "faction": "Ultramarines",
+    "alliance": "imperium",
+    "points": 105,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Epic Hero",
+      "Infantry",
+      "Captain",
+      "Imperium",
+      "Tacticus",
+      "Sicarius",
+      "Cato"
+    ],
+    "abilities": [
+      "Knight Champion of Macragge: Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model’s unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal ",
+      "Honour or Death: You can target this unit with the Heroic Intervention Stratagem for 0CP, even if you have already used\nthat Stratagem on a different unit this phase.",
+      "Support: This model can be attached to the following units: \n\n\n■ VICTRIX HONOUR GUARD\n\n\nYou can attach this model to the above unit even if a Marneus Calgar unit has already been attached\nto it. If you do, and"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Victrix Honour Guard",
+    "faction": "Ultramarines",
+    "alliance": "imperium",
+    "points": 110,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Imperium",
+      "Tacticus",
+      "Honor Guard",
+      "Victrix"
+    ],
+    "abilities": [
+      "Banner of Macragge: Once per battle, at the start of the Fight phase, the bearer can use this ability. If it does, until the end of the phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped b",
+      "Attached Unit: If a Captain or Chapter Master unit from your army can be attached to a Company Heroes unit, it can\nbe attached to this unit instead.",
+      "Ultramarines Honour Guard: While a Captain or Chapter Master model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll",
+      "Glory of Ultramar: In your opponent’s Shooting phase, each time an enemy unit has shot, if any models from this unit\nwere destroyed as a result of those attacks, this unit can make a Surge move. To do so, roll one D6: m"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Captain Titus",
+    "faction": "Ultramarines",
+    "alliance": "imperium",
+    "points": 100,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Titus",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Tacticus",
+      "Grenades",
+      "Captain"
+    ],
+    "abilities": [
+      "Press the Attack: Weapons equipped by models in this model’s unit have the [SUSTAINED HITS 1] ability",
+      "Honour of Ultramar: If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+,\ndo not remove it from play. This model can fight after the attacking unit has finished making its a",
+      "Leader: This model can be attached to the following units: \n\n\n■ ASSAULT INTERCESSOR SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ COMPANY HEROES\n■ HELLBLASTER SQUAD\n■ INFERNUS SQUAD\n■ INTERCESSOR SQUAD\n■ STERNGUARD VETE"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wardens of Ultramar",
+    "faction": "Ultramarines",
+    "alliance": "imperium",
+    "points": 120,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Epic Hero",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Wardens of Ultramar"
+    ],
+    "abilities": [
+      "Second Company Banner: While this unit contains Ancient Gadriel, add 1 to the Objective Control characteristic of models in this unit. While this unit contains Ancient Gadriel and Captain Titus, improve the Leadership chara",
+      "Strategium Command: After both players have deployed their armies, if this unit is on the battlefield (or any Transport it\nis embarked within is on the battlefield), select up to three Adeptus Astartes units from your ar",
+      "Heroes of Ultramar: At the start of the Declare Battle Formations step, this unit can join one of the following units. This\nunit then counts as part of that unit for the rest of the battle, and that unit’s Starting Stren",
+      "Storm Shield: The bearer has a 4+ Invulnerable save.",
+      "Refractor Field: The bearer has a 5+ invulnerable save."
+    ],
+    "system": "40k"
+  }
+]

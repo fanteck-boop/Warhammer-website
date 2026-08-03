@@ -1,0 +1,1054 @@
+[
+  {
+    "name": "Angron",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 330,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "5+",
+    "objectiveControl": "6",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Monster",
+      "Fly",
+      "Character",
+      "Epic Hero",
+      "Chaos",
+      "Khorne",
+      "Daemon",
+      "Primarch",
+      "Angron"
+    ],
+    "abilities": [
+      "Reborn in Blood: At the start of the battle round, when you make a Blessings of Khorne roll, if this model is destroyed, you can use a triple 6 from that roll to use this ability instead of activating any Blessings of",
+      "Wrathful Presence: At the start of the battle round, select one Wrathful Presence ability. Until the start of the next battle round, this model has that ability.",
+      "Damaged: 1-6 wounds remaining: While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Khârn the Betrayer",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 115,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "Chaos",
+      "Khorne",
+      "Khârn the Betrayer"
+    ],
+    "abilities": [
+      "Legendary Killer: While this model is leading a unit, each time a model in that unit makes a melee attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.",
+      "The Betrayer: At the end of your Charge phase, if this model is leading a unit and that unit is not within Engagement Range of one or more enemy units, you must take a Leadership test for this model. If that test i",
+      "Berserker Frenzy: The first time this model is destroyed, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagemen",
+      "Leader: This model can be attached to the following unit: ^^**Khorne Berzerkers^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Lord Invocatus",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 100,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Mounted",
+      "Character",
+      "Epic Hero",
+      "Chaos",
+      "Khorne",
+      "Lord Invocatus"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**, ^^**Khorne Berzerkers^^**",
+      "Fire Riders: While this model is leading a unit, models in that unit have the Deep Strike ability and each time a model in that unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally thro",
+      "Bloody Stampede: Each time this model's unit ends a Charge move, select one enemy unit within Engagement Range of this model, then roll one D6: on a 2-3, that enemy unit suffers 1 mortal wound; on a 4-5, that enemy un"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Daemon Prince of Khorne",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 200,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Monster",
+      "Character",
+      "Chaos",
+      "Khorne",
+      "Daemon",
+      "Daemon Prince"
+    ],
+    "abilities": [
+      "Lord of Murder: While this model is within 3\" of one or more friendly ^^**World Eaters Infantry**^^ units, this model has the Lone Operative ability.",
+      "Devastating Assault: Each time this model makes a Charge move, until the end of the turn, its hellforged weapons have the [DEVASTATING WOUNDS] ability.",
+      "Direct the Slaughter: Once per battle round, one model from your army with this ability can use it when a friendly ^^**World Eaters^^** unit within 12\" of this model is targeted with a Stratagem. If it does, reduce the CP "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Daemon Prince of Khorne with wings",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 170,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Monster",
+      "Character",
+      "Chaos",
+      "Khorne",
+      "Daemon",
+      "Daemon Prince",
+      "Fly"
+    ],
+    "abilities": [
+      "Bloodied Terror: At the start of the Fight phase, each enemy unit within Engagement Range of this model must take a Battle-shock test, subtracting 1 if that enemy unit is Below Half-strength.",
+      "Swooping Predator: Each time this model ends a Normal or Advance move, you can select one enemy unit that it moved over during that move and roll 6 D6: for each 4+, that enemy unit suffers 1 mortal wound."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Lord on Juggernaut",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 95,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "7",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Mounted",
+      "Character",
+      "Chaos",
+      "Khorne",
+      "Lord on Juggernaut"
+    ],
+    "abilities": [
+      "Aggressive Advance: While this model is leading a unit, models in that unit have a Move characteristic of 10\" and each time a model in that unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally",
+      "Crush All Who Stand Before Us: Each time this model's unit is selected to fight, you can use this ability. When determining which models in this unit are eligible to fight, any models in it that are within 3\" of one or more enemy m",
+      "Leader: This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**, ^^**Khorne Berzerkers^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Master of Executions",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 60,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Khorne",
+      "Master of Executions"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following unit: ^^**Khorne Berzerkers^^**",
+      "A Worthy Skull: Each time this model makes a melee attack that targets a ^^**Character^^** unit, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model's unit destroys a ^^**Character^^",
+      "Forwards, For Blood!: While this model is leading a unit, you can re-roll Advance rolls made for that unit and each time that unit makes a Blood Surge move, you can re-roll the D6 used to determine how far models in that u"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Khorne Berzerkers",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 170,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Chaos",
+      "Khorne",
+      "Berzerkers"
+    ],
+    "abilities": [
+      "Blood Surge: In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed as a result of those attacks, this unit can make a surge move of up to D6+2\"."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaos Terminators",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 165,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Chaos",
+      "Khorne",
+      "Terminator",
+      "Terminator Squad"
+    ],
+    "abilities": [
+      "Bloody Fury: - This unit’s ranged attacks that target the closest eligible target can re-roll **hit rolls**.\n- When this unit **declares a charge**, you can use this part of this ability. \nIf you do: \n-- This unit",
+      "Sanctified in Slaughter: This unit has +1**OC**.",
+      "Gore-stained Veterans: This unit’s melee attacks have +1 WS."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Jakhals",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 65,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "4",
+    "save": "6+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Chaos",
+      "Khorne",
+      "Jakhals",
+      "Grenades"
+    ],
+    "abilities": [
+      "Objective Ravaged: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's Level of Control over that obj"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Eightbound",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 125,
+    "models": 2,
+    "move": "10\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Chaos",
+      "Khorne",
+      "Daemon",
+      "Eightbound",
+      "Possessed"
+    ],
+    "abilities": [
+      "Beacons of Rage (Aura): While a friendly ^^**World Eaters^^** unit is within 6\" of this unit, each time a model in that unit makes a melee attack that targets a unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**), add 1 t"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Exalted Eightbound",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 130,
+    "models": 2,
+    "move": "10\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Chaos",
+      "Khorne",
+      "Daemon",
+      "Exalted Eightbound",
+      "Possessed"
+    ],
+    "abilities": [
+      "Rend and Tear: Each time a model in this unit makes a melee attack that targets a ^^**Monster^^** or ^^**Vehicle^^** unit, until the end of the phase, improve the Damage characteristic of that attack by 1."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaos Land Raider",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 220,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Transport",
+      "Smoke",
+      "Chaos",
+      "Khorne",
+      "Land Raider",
+      "Frame"
+    ],
+    "abilities": [
+      "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaos Predator Annihilator",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 130,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Chaos",
+      "Khorne",
+      "Predator Annihilator",
+      "Frame"
+    ],
+    "abilities": [
+      "Blood-hungry Annihilator: Each time this model makes a ranged attack that targets the closest eligible ^^**Monster^^** or ^^**Vehicle^^** target within 18\", you can re-roll the Wound roll and you can re-roll the Damage roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaos Predator Destructor",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 130,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Chaos",
+      "Khorne",
+      "Predator Destructor",
+      "Frame"
+    ],
+    "abilities": [
+      "Punishing Suppression: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks (excluding ^^**Monsters^^** and ^^**Vehicles^^*). Until the start of your next turn, that e"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Defiler",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 270,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "18",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Khorne",
+      "Daemon",
+      "Defiler"
+    ],
+    "abilities": [
+      "Scuttling Walker: Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding ^^**Titanic**^^ models) and terrain features. When doing so, it can move within Engagement Range of",
+      "Unleash Wrath: At the end of your opponent's Movement phase, you can select one enemy unit that was set up on the battlefield within 12\" of this model; this model can then either:\n- Shoot at that unit, but only if i"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Forgefiend",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 140,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Khorne",
+      "Daemon",
+      "Forgefiend"
+    ],
+    "abilities": [
+      "Furious Onslaught: Each time this model makes a ranged attack that targets the closest eligible target within 18\", you can re-roll the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Helbrute",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 120,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Khorne",
+      "Helbrute"
+    ],
+    "abilities": [
+      "Frenzy: (Once per turn, per unit) In the Fight phase, when an enemy unit targets this unit, after that unit has resolved its attacks, you can use this ability. If you do, this unit is **eligible to fight** (e",
+      "Devoted to Destruction: If this model is equipped with 2 melee weapons in addition to its close combat weapon, add 2 to the Attacks characteristic of those two weapons."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Heldrake",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 175,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "-",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Chaos",
+      "Khorne",
+      "Daemon",
+      "Heldrake"
+    ],
+    "abilities": [
+      "Airborne Predator: Each time this model makes an attack that targets a unit that can ^^**Fly^^**, add 1 to the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Maulerfiend",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 140,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Khorne",
+      "Daemon",
+      "Maulerfiend"
+    ],
+    "abilities": [
+      "The Scent of Blood: In the Charge phase, when this unit **declares a charge**: \n- If an enemy unit **below starting strength** is within 9\" of this unit, this unit has +1 to **charge rolls**. \n- Or: If an enemy unit **be",
+      "Savage Exaltation: Each time this model makes a melee attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll and, if that attack targets an enemy unit that is Below Half-Strength, a"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaos Rhino",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 75,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Transport",
+      "Dedicated Transport",
+      "Smoke",
+      "Chaos",
+      "Khorne",
+      "Rhino",
+      "Frame"
+    ],
+    "abilities": [
+      "Meet Any Challenge: In your opponent's Movement phase, each time an enemy unit is set up or ends a Normal, Advance or Fall Back move within 8\" of this model, any units embarked within it can disembark."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaos Spawn",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 95,
+    "models": 2,
+    "move": "10\"",
+    "toughness": "5",
+    "save": "4+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "BEAST",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Beast",
+      "Chaos",
+      "Khorne",
+      "Spawn"
+    ],
+    "abilities": [
+      "To Slake Its Rage: This unit is eligible to declare a charge in a turn in which it Advanced."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Khorne Lord of Skulls",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 505,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "13",
+    "save": "3+",
+    "wounds": "24",
+    "leadership": "6+",
+    "objectiveControl": "8",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Titanic",
+      "Towering",
+      "Chaos",
+      "Khorne",
+      "Daemon",
+      "Lord of Skulls",
+      "Frame"
+    ],
+    "abilities": [
+      "Idol of Blessed Blood: At the start of the battle round, if this unit is on the battlefield, when you make a Blessings of Khorne roll, roll one additional D6.",
+      "Damaged: 1-8 wounds remaining: While this model has 1-8 wounds remaining, subtract 4 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hell Talon [Legends]",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 140,
+    "models": 1,
+    "move": "20+\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Chaos",
+      "Khorne",
+      "Hell Talon"
+    ],
+    "abilities": [
+      "Bomb Rack: Each time this model ends a Normal move, you can select one enemy unit it moved across during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hellblade [Legends]",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 115,
+    "models": 1,
+    "move": "20+\"",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Chaos",
+      "Khorne",
+      "Hellblade"
+    ],
+    "abilities": [
+      "Interceptor: Each time this model makes a ranged attack that targets a unit that can FLY, add 1 to the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Goremongers",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 75,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "4",
+    "save": "6+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Chaos",
+      "Khorne",
+      "Goremongers"
+    ],
+    "abilities": [
+      "Loping Speed: In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up t"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Slaughterbound",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 100,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Chaos",
+      "Khorne",
+      "Daemon",
+      "Possessed",
+      "Slaughterbound"
+    ],
+    "abilities": [
+      "Rage Eternal: While this model is leading a unit, in your Command phase, you can return one destroyed Bodyguard model to that unit.",
+      "Possessed Lord: Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model a",
+      "Leader: This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**",
+      "Lord of the Eightbound: If this model is attached to a ^^**World Eaters Possessed^^** unit during the Declare Battle Formations step, this model has the Deep Strike and Scouts 6\" abilities."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Skarbrand",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 315,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "20",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Monster",
+      "Character",
+      "Epic Hero",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Skarbrand"
+    ],
+    "abilities": [
+      "Rage Embodied (Aura): While a friendly ^^Blood Legions^^ unit is within 6\" of this model, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit.",
+      "Murderlust: This unit is eligible to declare a charge in a turn in which it Advanced.",
+      "Damaged: 1-7 wounds remaining: While this model has 1-7 wounds remaining, add 2 to the Attacks characteristic of this model’s Slaughter and Carnage."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Bloodthirster",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 320,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "18",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Monster",
+      "Character",
+      "Fly",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Summoned",
+      "Bloodthirster"
+    ],
+    "abilities": [
+      "Daemon Lord of Khorne (Aura): While a friendly ^^Blood Legions^^ unit is within 6\" of this model, each time a model in that unit makes a melee attack, add 1 to the Hit roll.",
+      "Relentless Carnage: At the end of the Fight phase, you can select one enemy unit within Engagement Range of this model and roll eight D6: for each 4+, that enemy unit suffers 1 mortal wound.",
+      "Damaged: 1-6 wounds remaining: While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Bloodletters",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 90,
+    "models": 9,
+    "move": "8\"",
+    "toughness": "4",
+    "save": "7+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Battleline",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Summoned"
+    ],
+    "abilities": [
+      "Bane of Cowards: Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more units from your army with this ability Falls Back, models in that enemy unit must take Desperate Escape"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Bloodcrushers",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 95,
+    "models": 2,
+    "move": "10\"",
+    "toughness": "7",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "5+",
+    "role": "CAVALRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Mounted",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Summoned",
+      "Bloodcrushers"
+    ],
+    "abilities": [
+      "Brass Stampede: Each time this unit ends a Charge move, select one enemy unit within Engagement Range of this unit and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers D3 mortal wounds."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Flesh Hounds",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 75,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "4",
+    "save": "7+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "BEAST",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Beast",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Summoned",
+      "Flesh Hounds"
+    ],
+    "abilities": [
+      "Hunters from the Warp: At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Butcherlord [Crucible]",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 90,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Chaos",
+      "Khorne",
+      "Butcherlord",
+      "Crucible"
+    ],
+    "abilities": [
+      "Endless Hatred: You can re-roll Charge rolls made for this model's unit.",
+      "Leader: This model can be attached to the following unit: ^^**Khorne Berzerkers**^^"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Eight-blessed Lord [Crucible]",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 90,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "7",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Chaos",
+      "Khorne",
+      "Mounted",
+      "Eight-blessed Lord",
+      "Crucible"
+    ],
+    "abilities": [
+      "Bloodthirst: Add 2 to Charge rolls made for this unit.",
+      "Leader: This model can be attached to the following unit: ^^**Khorne Berzerkers**^^"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Bloodcult Champion [Crucible]",
+    "faction": "Chaos - World Eaters",
+    "alliance": "unaligned",
+    "points": 60,
+    "models": 1,
+    "move": "7\"",
+    "toughness": "4",
+    "save": "6+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Khorne",
+      "Bloodcult Champion",
+      "Crucible"
+    ],
+    "abilities": [
+      "Aura of Dark Glory: Models in this unit have an invulnerable save characteristic of 5+.",
+      "Leader: This model can be attached to the following unit: ^^**Jakhals**^^"
+    ],
+    "system": "40k"
+  }
+]

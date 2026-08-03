@@ -872,6 +872,18 @@
   #faction-icon-left{ left:2vw; }
   #faction-icon-right{ right:2vw; }
   body > *:not(#faction-bg):not(#faction-bg-img):not(#faction-icon-left):not(#faction-icon-right){ position:relative; z-index:2; }
+
+  .header-controls { display:flex; align-items:center; gap:16px; }
+  .system-switch {
+    display:flex; gap:0; border:1px solid var(--gold); border-radius:6px; overflow:hidden;
+  }
+  .sys-btn {
+    background:none; border:none; color:var(--gold); padding:6px 14px;
+    font-size:12px; font-weight:700; letter-spacing:0.08em; cursor:pointer;
+    transition:background .15s, color .15s;
+  }
+  .sys-btn.active { background:var(--gold); color:var(--bg-dark); }
+  .sys-btn:hover:not(.active) { background:rgba(212,168,56,0.15); }
 </style>
 </head>
 <body>
@@ -888,9 +900,15 @@
         <h1 id="titleDisplay">Muster Roll</h1>
         <p class="tagline" id="brandTagline">Warhammer Age of Sigmar Companion</p>
       </div>
-      <div class="seal ok" id="seal">
-        <div class="seal-num" id="sealNum">0</div>
-        <div class="seal-label">POINTS</div>
+      <div class="header-controls">
+        <div class="system-switch">
+          <button class="sys-btn active" id="sys-aos" data-system="aos" type="button">AoS</button>
+          <button class="sys-btn" id="sys-40k" data-system="40k" type="button">40K</button>
+        </div>
+        <div class="seal ok" id="seal">
+          <div class="seal-num" id="sealNum">0</div>
+          <div class="seal-label">POINTS</div>
+        </div>
       </div>
     </div>
     <nav class="tab-nav" id="tabNav">
@@ -919,13 +937,8 @@
         <input id="pointsLimit" type="number" min="0" step="10" placeholder="2000">
       </div>
       <div class="field">
-        <label for="rosterAlliance">Grand Alliance</label>
+        <label for="rosterAlliance" id="allianceLabel">Grand Alliance</label>
         <select id="rosterAlliance">
-          <option value="">— unspecified —</option>
-          <option value="order">Order</option>
-          <option value="chaos">Chaos</option>
-          <option value="death">Death</option>
-          <option value="destruction">Destruction</option>
         </select>
       </div>
       <div class="field">
@@ -1168,11 +1181,6 @@
       <input type="search" id="grimSearch" class="grim-search" placeholder="Search units, factions, keywords...">
       <div class="alliance-filter" id="allianceFilter">
         <button class="alliance-pill active" data-alliance="all" type="button" style="--acc:var(--gold)">All <span class="pill-count">0</span></button>
-        <button class="alliance-pill" data-alliance="order" type="button" style="--acc:var(--order)">Order <span class="pill-count">0</span></button>
-        <button class="alliance-pill" data-alliance="chaos" type="button" style="--acc:var(--chaos)">Chaos <span class="pill-count">0</span></button>
-        <button class="alliance-pill" data-alliance="death" type="button" style="--acc:var(--death)">Death <span class="pill-count">0</span></button>
-        <button class="alliance-pill" data-alliance="destruction" type="button" style="--acc:var(--destruction)">Destruction <span class="pill-count">0</span></button>
-        <button class="alliance-pill" data-alliance="unaligned" type="button" style="--acc:var(--unaligned)">Unaligned <span class="pill-count">0</span></button>
       </div>
     </div>
 
@@ -1182,18 +1190,23 @@
 
 </div>
 
-<div class="footer-note">Saved automatically to this device</div>
+<div class="footer-note">Saved automatically &mdash; faction data loads on first visit</div>
 
 <script>
 (function(){
   const hasCloudStorage = typeof window.storage !== 'undefined' && window.storage && typeof window.storage.get === 'function';
+
+  // In-memory storage for deployed environment
+  const _memStore = {};
+  function memGet(key){ return key in _memStore ? _memStore[key] : null; }
+  function memSet(key, value){ _memStore[key] = value; }
 
   async function storageGet(key){
     if (hasCloudStorage) {
       try { const r = await window.storage.get(key, false); return r ? r.value : null; }
       catch(e){ return null; }
     }
-    try { return window.localStorage.getItem(key); } catch(e){ return null; }
+    return memGet(key);
   }
 
   async function storageSet(key, value){
@@ -1201,7 +1214,7 @@
       try { await window.storage.set(key, value, false); return; }
       catch(e){ console.error('Save failed', e); return; }
     }
-    try { window.localStorage.setItem(key, value); } catch(e){ console.error('Save failed', e); }
+    memSet(key, value);
   }
 
   const $ = (id) => document.getElementById(id);
@@ -1212,6 +1225,74 @@
   function escapeHtml(s){
     return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
   }
+
+  // ====== SYSTEM CONFIG ======
+  let activeSystem = 'aos'; // 'aos' or '40k'
+
+  const SYSTEM_CONFIG = {
+    aos: {
+      label: 'Age of Sigmar',
+      tagline: 'Warhammer Age of Sigmar Companion',
+      alliances: ['order','chaos','death','destruction','unaligned'],
+      allianceMeta: {
+        order: { label:'Order', color:'var(--order)' },
+        chaos: { label:'Chaos', color:'var(--chaos)' },
+        death: { label:'Death', color:'var(--death)' },
+        destruction: { label:'Destruction', color:'var(--destruction)' },
+        unaligned: { label:'Unaligned', color:'var(--unaligned)' }
+      },
+      statColumns: [
+        { key:'move', label:'MOVE' },
+        { key:'wounds', label:'W' },
+        { key:'save', label:'SAVE' },
+        { key:'ward', label:'WARD' }
+      ],
+      clashStats: ['move','wounds','save','ward'],
+      grimFields: ['name','faction','alliance','points','models','move','wounds','save','ward','abilities'],
+      dataDir: 'faction-data',
+      factions: [
+        'Blades of Khorne','Cities of Sigmar','Daughters of Khaine','Disciples of Tzeentch',
+        'Flesh-eater Courts','Fyreslayers','Gloomspite Gitz','Hedonites of Slaanesh',
+        'Idoneth Deepkin','Kharadron Overlords','Lumineth Realm-lords','Maggotkin of Nurgle',
+        'Nighthaunt','Ogor Mawtribes','Orruk Warclans','Ossiarch Bonereapers',
+        'Seraphon','Skaven','Slaves to Darkness','Sons of Behemat',
+        'Soulblight Gravelords','Stormcast Eternals','Sylvaneth'
+      ]
+    },
+    '40k': {
+      label: 'Warhammer 40K',
+      tagline: 'Warhammer 40,000 11th Edition Companion',
+      alliances: ['imperium','chaos','aeldari','xenos','unaligned'],
+      allianceMeta: {
+        imperium: { label:'Imperium', color:'#4a7ab5' },
+        chaos: { label:'Chaos', color:'#b53a3a' },
+        aeldari: { label:'Aeldari', color:'#7ab57a' },
+        xenos: { label:'Xenos', color:'#b59a4a' },
+        unaligned: { label:'Unaligned', color:'var(--unaligned)' }
+      },
+      statColumns: [
+        { key:'move', label:'M' },
+        { key:'toughness', label:'T' },
+        { key:'save', label:'SV' },
+        { key:'wounds', label:'W' },
+        { key:'leadership', label:'LD' },
+        { key:'objectiveControl', label:'OC' }
+      ],
+      clashStats: ['move','toughness','save','wounds','leadership','objectiveControl'],
+      grimFields: ['name','faction','alliance','points','models','move','toughness','save','wounds','leadership','objectiveControl','invulnerableSave','abilities'],
+      dataDir: 'faction-data-40k',
+      factions: [
+        'Adepta Sororitas','Adeptus Custodes','Adeptus Mechanicus','Agents of the Imperium',
+        'Astra Militarum','Black Templars','Blood Angels','Chaos Daemons','Chaos Knights',
+        'Chaos Space Marines','Craftworlds','Dark Angels','Death Guard','Deathwatch',
+        'Drukhari','Emperor\'s Children','Genestealer Cults','Grey Knights',
+        'Imperial Knights','Leagues of Votann','Necrons','Orks','Space Marines',
+        'Space Wolves','T\'au Empire','Thousand Sons','Tyranids','Ultramarines','World Eaters'
+      ]
+    }
+  };
+
+  function getSysConfig() { return SYSTEM_CONFIG[activeSystem]; }
 
   const ALLIANCE_ORDER = ['order','chaos','death','destruction','unaligned'];
   const ALLIANCE_META = {
@@ -1247,7 +1328,10 @@
     return 'unaligned';
   }
   function effectiveAlliance(entry){
-    if (entry && entry.alliance && entry.alliance !== 'auto' && ALLIANCE_META[entry.alliance]) return entry.alliance;
+    if (entry && entry.alliance && entry.alliance !== 'auto') {
+      const meta = getSysConfig().allianceMeta[entry.alliance];
+      if (meta) return entry.alliance;
+    }
     return detectAlliance(entry ? entry.faction : '');
   }
 
@@ -1260,13 +1344,88 @@
       storageSet('muster-roll-active-tab', btn.getAttribute('data-tab'));
     });
   }
+
+  function populateAllianceDropdown(){
+    const sel = $('rosterAlliance');
+    const cfg = getSysConfig();
+    const label = $('allianceLabel');
+    label.textContent = activeSystem === 'aos' ? 'Grand Alliance' : 'Faction Group';
+    sel.innerHTML = '<option value="">— unspecified —</option>';
+    cfg.alliances.forEach(a => {
+      const meta = cfg.allianceMeta[a];
+      if (meta && a !== 'unaligned') {
+        const opt = document.createElement('option');
+        opt.value = a;
+        opt.textContent = meta.label;
+        sel.appendChild(opt);
+      }
+    });
+    // Also populate alliance pills in grimoire
+    const filter = document.getElementById('allianceFilter');
+    if (filter) {
+      filter.innerHTML = '<button class="alliance-pill active" data-alliance="all" type="button" style="--acc:var(--gold)">All <span class="pill-count">0</span></button>';
+      cfg.alliances.forEach(a => {
+        const meta = cfg.allianceMeta[a];
+        if (meta) {
+          const btn = document.createElement('button');
+          btn.className = 'alliance-pill ' + a;
+          btn.dataset.alliance = a;
+          btn.type = 'button';
+          btn.style.setProperty('--acc', meta.color);
+          btn.innerHTML = meta.label + ' <span class="pill-count">0</span>';
+          filter.appendChild(btn);
+        }
+      });
+      // Re-wire click handlers
+      filter.querySelectorAll('.alliance-pill').forEach(p => {
+        p.addEventListener('click', () => {
+          filter.querySelectorAll('.alliance-pill').forEach(x => x.classList.remove('active'));
+          p.classList.add('active');
+          grimFilterAlliance = p.dataset.alliance;
+          renderGrimoire();
+        });
+      });
+    }
+  }
+
+  function switchSystem(sys){
+    if (sys === activeSystem) return;
+    activeSystem = sys;
+    // Update button states
+    document.querySelectorAll('.sys-btn').forEach(b => b.classList.toggle('active', b.dataset.system === sys));
+    // Update tagline
+    $('brandTagline').textContent = getSysConfig().tagline;
+    // Reset state for new system
+    state = { armyName:'', pointsLimit:2000, alliance:'', faction:'', units:[], generalUnitId:null,
+      armyOptions:{ battleFormation:'', heroicTrait:'', artefacts:[], boons:[] } };
+    factionRules = {};
+    grimoire = [];
+    // Re-populate dropdowns
+    populateAllianceDropdown();
+    $('rosterFaction').value = '';
+    // Load system-specific data
+    load().then(() => {
+      loadGrimoire().then(() => {
+        autoLoadFactionData();
+      });
+    });
+    render();
+    storageSet('muster-roll-active-system', sys);
+  }
+
+  // Wire up system switch buttons
+  document.querySelectorAll('.sys-btn').forEach(btn => {
+    btn.addEventListener('click', () => switchSystem(btn.dataset.system));
+  });
   function setActiveTab(tab){
     document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.getAttribute('data-tab') === tab));
     document.querySelectorAll('.tab-panel').forEach(p => p.classList.toggle('active', p.getAttribute('data-panel') === tab));
   }
 
+  function sysKey(base) { return `${activeSystem}-${base}`; }
   const STORAGE_KEY = 'muster-roll-data';
   const FACTION_RULES_KEY = 'muster-roll-faction-rules';
+  const GRIMOIRE_KEY_BASE = 'muster-roll-grimoire';
   let state = {
     armyName: '', pointsLimit: 2000, alliance: '', faction: '', units: [],
     generalUnitId: null,
@@ -1283,18 +1442,19 @@
   function updateBrand(){
     $('titleDisplay').textContent = state.armyName ? state.armyName : 'Muster Roll';
     const tagEl = $('brandTagline');
-    const meta = ALLIANCE_META[state.alliance];
+    const cfg = getSysConfig();
+    const meta = cfg.allianceMeta[state.alliance];
     if (meta) {
-      tagEl.textContent = meta.label + ' Grand Alliance';
+      tagEl.textContent = meta.label + (activeSystem === 'aos' ? ' Grand Alliance' : '');
       tagEl.style.color = meta.color;
     } else {
-      tagEl.textContent = 'Warhammer Age of Sigmar Companion';
+      tagEl.textContent = cfg.tagline;
       tagEl.style.color = '';
     }
   }
 
   function applyRosterAllianceAccent(){
-    const meta = ALLIANCE_META[state.alliance];
+    const meta = getSysConfig().allianceMeta[state.alliance];
     const ledgerEl = document.querySelector('[data-panel="roster"] .ledger');
     if (ledgerEl) ledgerEl.style.setProperty('--roster-acc', meta ? meta.color : 'var(--gold)');
     applyFactionBackground();
@@ -1347,9 +1507,10 @@
       iconR.src = iconUrl;
       iconL.style.opacity = '1';
       iconR.style.opacity = '1';
-    } else if (state.alliance && ALLIANCE_META[state.alliance]) {
+    } else if (state.alliance && getSysConfig().allianceMeta[state.alliance]) {
       // Alliance selected but no faction: use alliance color + alliance icon
-      const color = getComputedStyle(document.documentElement).getPropertyValue('--' + state.alliance).trim() || '#8a7a5a';
+      const meta = getSysConfig().allianceMeta[state.alliance];
+      const color = meta.color.startsWith('var(') ? (getComputedStyle(document.documentElement).getPropertyValue(meta.color.slice(4,-1)).trim() || '#8a7a5a') : meta.color;
       bg.style.background = `radial-gradient(ellipse at top, ${color}25 0%, #241a12 55%, #150f0a 100%)`;
       bgImg.style.opacity = '0';
       const allianceIcon = `assets/icons/${state.alliance}.png`;
@@ -1639,11 +1800,11 @@
   }
 
   async function save(){
-    await storageSet(STORAGE_KEY, JSON.stringify(state));
+    await storageSet(sysKey(STORAGE_KEY), JSON.stringify(state));
   }
 
   async function load(){
-    const raw = await storageGet(STORAGE_KEY);
+    const raw = await storageGet(sysKey(STORAGE_KEY));
     if (raw) {
       try {
         const parsed = JSON.parse(raw);
@@ -1676,7 +1837,7 @@
   }
 
   async function loadFactionRules(){
-    const raw = await storageGet(FACTION_RULES_KEY);
+    const raw = await storageGet(sysKey(FACTION_RULES_KEY));
     if (raw) {
       try { factionRules = JSON.parse(raw) || {}; } catch(e) { factionRules = {}; }
     }
@@ -1685,7 +1846,7 @@
   }
 
   async function saveFactionRules(){
-    await storageSet(FACTION_RULES_KEY, JSON.stringify(factionRules));
+    await storageSet(sysKey(FACTION_RULES_KEY), JSON.stringify(factionRules));
   }
 
   function getFactionRules(){
@@ -2187,7 +2348,7 @@
     wireWeaponsTable(p + '_weaponsBody', null, saveClash);
   });
 
-  const GRIMOIRE_KEY = 'muster-roll-grimoire';
+  const GRIMOIRE_KEY = GRIMOIRE_KEY_BASE;
   const grimFieldIds = ['name','faction','alliance','points','models','move','wounds','save','ward','abilities'];
   let grimoire = [];
 
@@ -2219,11 +2380,11 @@
   }
 
   async function saveGrimoire(){
-    await storageSet(GRIMOIRE_KEY, JSON.stringify(grimoire));
+    await storageSet(sysKey(GRIMOIRE_KEY), JSON.stringify(grimoire));
   }
 
   async function loadGrimoire(){
-    const raw = await storageGet(GRIMOIRE_KEY);
+    const raw = await storageGet(sysKey(GRIMOIRE_KEY));
     if (raw) {
       try {
         const parsed = JSON.parse(raw) || [];
@@ -2231,7 +2392,7 @@
         grimoire = parsed.filter(e => !LEGACY_FACTIONS.has((e.faction || '').trim()));
         // If we filtered some out, save the cleaned version
         if (grimoire.length !== parsed.length) {
-          await storageSet(GRIMOIRE_KEY, JSON.stringify(grimoire));
+          await storageSet(sysKey(GRIMOIRE_KEY), JSON.stringify(grimoire));
         }
       } catch(e) { grimoire = []; }
     }
@@ -2302,10 +2463,20 @@
 
   function statLine(entry){
     const parts = [];
-    if (entry.move) parts.push('Mv ' + entry.move);
-    parts.push('W ' + (entry.wounds || '1'));
-    if (entry.save) parts.push('Sv ' + entry.save + '+');
-    if (entry.ward) parts.push('Ward ' + entry.ward + '+');
+    if (activeSystem === '40k') {
+      if (entry.move) parts.push('M ' + entry.move);
+      if (entry.toughness) parts.push('T ' + entry.toughness);
+      parts.push('W ' + (entry.wounds || '1'));
+      if (entry.save) parts.push('Sv ' + entry.save);
+      if (entry.invulnerableSave) parts.push('InSv ' + entry.invulnerableSave);
+      if (entry.leadership) parts.push('LD ' + entry.leadership);
+      if (entry.objectiveControl) parts.push('OC ' + entry.objectiveControl);
+    } else {
+      if (entry.move) parts.push('Mv ' + entry.move);
+      parts.push('W ' + (entry.wounds || '1'));
+      if (entry.save) parts.push('Sv ' + entry.save + '+');
+      if (entry.ward) parts.push('Ward ' + entry.ward + '+');
+    }
     return parts.join(' \u00b7 ');
   }
 
@@ -2324,9 +2495,10 @@
   }
 
   function buildGroupedView(entries){
-    const byAlliance = { order:[], chaos:[], death:[], destruction:[], unaligned:[] };
-    entries.forEach(e => { byAlliance[effectiveAlliance(e)].push(e); });
-    return ALLIANCE_ORDER.map(a => ({ key:a, meta:ALLIANCE_META[a], items:byAlliance[a] })).filter(g => g.items.length);
+    const byAlliance = {};
+    getSysConfig().alliances.forEach(a => { byAlliance[a] = []; });
+    entries.forEach(e => { byAlliance[effectiveAlliance(e)] = byAlliance[effectiveAlliance(e)] || []; byAlliance[effectiveAlliance(e)].push(e); });
+    return getSysConfig().alliances.map(a => ({ key:a, meta:getSysConfig().allianceMeta[a], items:byAlliance[a] })).filter(g => g.items.length);
   }
 
   function groupByFaction(items){
@@ -2374,7 +2546,7 @@
   }
 
   function renderGrimCard(e, allianceKey){
-    const meta = ALLIANCE_META[allianceKey];
+    const meta = getSysConfig().allianceMeta[allianceKey] || { color:'var(--gold)' };
     return `
       <div class="grim-entry" data-id="${e.id}" style="--acc:${meta.color}">
         <div class="grim-entry-head">
@@ -2395,7 +2567,7 @@
   }
 
   function updateAllianceCounts(searchScoped){
-    ALLIANCE_ORDER.forEach(a => {
+    getSysConfig().alliances.forEach(a => {
       const n = searchScoped.filter(e => effectiveAlliance(e) === a).length;
       const el = document.querySelector('.alliance-pill[data-alliance="' + a + '"] .pill-count');
       if (el) el.textContent = n;
@@ -2742,13 +2914,60 @@
     grimFileInput.value = '';
   }
 
+  // Auto-load faction data from deployed files on first visit
+  async function autoLoadFactionData(){
+    // Only auto-load if grimoire is empty (first visit)
+    if (grimoire.length > 0) return;
+    const cfg = getSysConfig();
+    let loaded = 0;
+    for (const faction of cfg.factions) {
+      // Load units
+      try {
+        const res = await fetch(`${cfg.dataDir}/${encodeURIComponent(faction)}.json`);
+        if (res.ok) {
+          const data = await res.json();
+          let arr = Array.isArray(data) ? data : [data];
+          mergeGrimoireEntries(arr);
+          loaded++;
+        }
+      } catch(e) { /* skip */ }
+      // Load rules (AoS only for now)
+      if (activeSystem === 'aos') {
+        try {
+          const res = await fetch(`${cfg.dataDir}/${encodeURIComponent(faction)}.rules.json`);
+          if (res.ok) {
+            const data = await res.json();
+            mergeFactionRules(data);
+          }
+        } catch(e) { /* skip */ }
+      }
+    }
+    if (loaded > 0) {
+      renderGrimoire();
+      saveGrimoire();
+      if (activeSystem === 'aos') { saveFactionRules(); renderArmyRulesPanel(); }
+      console.log(`Auto-loaded ${loaded} factions for ${activeSystem}.`);
+    }
+  }
+
   renderWeaponsTable('a_weaponsBody', [{ name:'', models:'', attacks:'1', hit:'4', wound:'4', rend:'0', damage:'1' }], 'toggle');
   renderWeaponsTable('b_weaponsBody', [{ name:'', models:'', attacks:'6', hit:'3', wound:'2', rend:'2', damage:'D6' }], 'toggle');
   renderWeaponsTable('g_weaponsBody', []);
   initTabs();
-  load();
-  loadClash();
-  loadGrimoire();
+  // Load saved system preference, then init
+  storageGet('muster-roll-active-system').then(savedSys => {
+    if (savedSys === '40k' || savedSys === 'aos') {
+      activeSystem = savedSys;
+      document.querySelectorAll('.sys-btn').forEach(b => b.classList.toggle('active', b.dataset.system === savedSys));
+      $('brandTagline').textContent = getSysConfig().tagline;
+    }
+    populateAllianceDropdown();
+    load().then(() => {
+      loadGrimoire().then(() => {
+        autoLoadFactionData();
+      });
+    });
+  });
   storageGet('muster-roll-active-tab').then(t => { if (t) setActiveTab(t); });
 })();
 </script>

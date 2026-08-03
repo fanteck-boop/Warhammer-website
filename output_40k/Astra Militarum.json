@@ -1,0 +1,5382 @@
+[
+  {
+    "name": "Aegis Defence Line",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 145,
+    "models": 1,
+    "move": "-",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Aegis Defence Line",
+      "Imperium",
+      "Fortification",
+      "Frame"
+    ],
+    "abilities": [
+      "Emplacement Platform: Friendly **^^Astra Militarum Infantry**^^ models can be set up or end any type of move on top of the platform section of this **^^Fortification^^**.",
+      "Reinforced Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this **^^Fortification^^**, that model has the Benefit of Cover ag",
+      "Defence Line: While an **^^Astra Militarum Infantry^^** model has the Benefit of Cover as a result of this terrain feature, that model has a 4+ invulnerable save",
+      "Deployment: When this model is set up, it will consist of 1 platform section, up to 5 shield sections, up to 2 broken shield sections and up to 2 end sections. All sections must be connected to each other to form"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Armoured Sentinels",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 65,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "8",
+    "save": "2+",
+    "wounds": "7",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Armoured Sentinels",
+      "Imperium",
+      "Smoke",
+      "Vehicle",
+      "Walker",
+      "Regiment",
+      "Squadron"
+    ],
+    "abilities": [
+      "Mobile Hunter-killers: Each time a model in this unit makes an attack that targets a **^^Monster^^** or **^^Vehicle^^** unit, you can re-roll the Wound roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Attilan Rough Riders",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 60,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "CAVALRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Mounted",
+      "Imperium",
+      "Grenades",
+      "Regiment"
+    ],
+    "abilities": [
+      "Horsemasters: This unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Baneblade",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 415,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "24",
+    "leadership": "7+",
+    "objectiveControl": "8",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Baneblade",
+      "Imperium",
+      "Vehicle",
+      "Titanic",
+      "Smoke",
+      "Frame"
+    ],
+    "abilities": [
+      "Rolling Fortress: Each time a ranged attack is allocated to an **^^Astra Militarum^^** model from your army, if that model is not fully visible to every model in the attacking unit because of this **^^Baneblade^^** mod"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Banehammer",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 385,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "24",
+    "leadership": "7+",
+    "objectiveControl": "8",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Banehammer",
+      "Imperium",
+      "Smoke",
+      "Vehicle",
+      "Titanic",
+      "Transport",
+      "Frame"
+    ],
+    "abilities": [
+      "Tremor Quake: In your Shooting phase, just after selecting a target for this model’s tremor cannon, the target unit and every other enemy **^^Infantry^^** unit within 3\" of that unit must take a Battle-shock test.",
+      "Transport: This model has a transport capacity of 26 **^^Astra Militarum Infantry models^^**. Each **^^Ogryn^^** model takes up the space of 3 models. It cannot transport **^^Artillery^^** models."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Banesword",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 415,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "24",
+    "leadership": "7+",
+    "objectiveControl": "8",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Banesword",
+      "Imperium",
+      "Titanic",
+      "Vehicle",
+      "Smoke",
+      "Frame"
+    ],
+    "abilities": [
+      "Armour Obliteration: Each time an attack made with this model’s quake cannon destroys an enemy model that has the Deadly Demise ability, that model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 3+ instead"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Basilisk",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 115,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Imperium",
+      "Artillery",
+      "Vehicle",
+      "Squadron",
+      "Smoke",
+      "Basilisk",
+      "Frame"
+    ],
+    "abilities": [
+      "Earthshaker Rounds: In your Shooting phase, after this model has shot, if one or more of those attacks made with its earthshaker cannon scored a hit against an enemy **INFANTRY** unit, until the start of your next Shooti"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Bullgryn Squad",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 90,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Bullgryn Squad",
+      "Ogryn",
+      "Imperium",
+      "Infantry",
+      "Grenades"
+    ],
+    "abilities": [
+      "Wall of Muscle: Each time an attack is allocated to a model in this unit, subtract 1 from the Damage characteristic of that attack."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Cadian Castellan",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 55,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Cadian Castellan",
+      "Imperium",
+      "Infantry",
+      "Character",
+      "Officer",
+      "Grenades",
+      "Leader"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units: **^^Cadian Shock Troops^^**, **^^Kasrkin^^**",
+      "Senior Officer: While this model is leading a unit, ranged weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** ability",
+      "Get Back in the Fight: While this model is leading a unit, that unit is eligible to shoot in a turn in which it Fell Back."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Cadian Command Squad",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 60,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Imperium",
+      "Command Squad",
+      "Cadian",
+      "Grenades",
+      "Infantry",
+      "Character",
+      "Platoon",
+      "Leader"
+    ],
+    "abilities": [
+      "Cadia Stands!: While this unit contains an **OFFICER** model and this unit is within range of an objective, this unit can re-roll battle‑shock rolls.",
+      "Leader: This model can be attached to the following unit: **^^Cadian Shock Troops^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Cadian Shock Troops",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Cadian Shock Troops",
+      "Imperium",
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Regiment",
+      "Platoon",
+      "Cadian"
+    ],
+    "abilities": [
+      "Shock Troops: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, unti"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Catachan Jungle Fighters",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Catachan Jungle Fighters",
+      "Imperium",
+      "Platoon",
+      "Infantry",
+      "Battleline",
+      "Regiment",
+      "Grenades"
+    ],
+    "abilities": [
+      "Jungle Fighters: Each time a model in this unit makes a melee attack, if this unit made a Charge move or was charged this turn, add 1 to the Wound roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chimera",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Chimera",
+      "Imperium",
+      "Vehicle",
+      "Squadron",
+      "Transport",
+      "Dedicated Transport",
+      "Smoke",
+      "Frame"
+    ],
+    "abilities": [
+      "Mobile Command Vehicle: In your Command phase, one **^^Officer^^** model embarked within this **^^Transport^^** can issue Orders even though it is not on the battlefield. When doing so, measure distances to and from this *^^"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Commissar",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 30,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Commissar",
+      "Imperium",
+      "Infantry",
+      "Character",
+      "Officer",
+      "Leader"
+    ],
+    "abilities": [
+      "Summary Execution: Once per battle round, at the start of any phase, you can select one friendly **^^Astra Militarum Infantry^^** unit that is Battle-shocked and within 12\" of this model. If you do, one model in that un",
+      "Political Overwatch: While another **^^Officer^^** model is in the same unit as this model, you can re-roll Battle-shock tests taken for that unit.",
+      "Leader: This model can be attached to the following units:\n- **CADIAN SHOCK TROOPS**\n- **CATACHAN JUNGLE FIGHTERS**\n- **DEATH KORPS GRENADIER SQUAD**\n- **DEATH KORPS OF KRIEG**\n- **KASRKIN**\n- **KRIEG COMBAT "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Death Korps of Krieg",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Death Korps of Krieg",
+      "Imperium",
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Regiment",
+      "Platoon"
+    ],
+    "abilities": [
+      "Grim Demeanour: Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Deathstrike",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 125,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Deathstrike",
+      "Imperium",
+      "Smoke",
+      "Squadron",
+      "Vehicle",
+      "Artillery",
+      "Frame"
+    ],
+    "abilities": [
+      "Deathstrike Missile: In your Shooting phase, each time this model is selected to shoot, if it has not shot with its  Deathstrike missile this battle, you can do one of the following in addition to resolving this model’s r"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Doomhammer",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 380,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "24",
+    "leadership": "7+",
+    "objectiveControl": "8",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Doomhammer",
+      "Imperium",
+      "Smoke",
+      "Vehicle",
+      "Titanic",
+      "Transport",
+      "Frame"
+    ],
+    "abilities": [
+      "Close-range Titan Killer: Each time this model’s magma cannon targets a **^^Monster^^** or **^^Vehicle^^** unit, that target is always considered to be within half range of that weapon."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Field Ordnance Battery",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 90,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Imperium",
+      "Infantry",
+      "Artillery",
+      "Grenades",
+      "Regiment",
+      "Field Ordnance Battery"
+    ],
+    "abilities": [
+      "Rearm, Reload, Fire: While this unit is being affected by an Order, provided it Remained Stationary this turn, all Heavy weapons equipped by models in this unit have the **[SUSTAINED HITS 1]** ability"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Gaunt’s Ghosts",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 95,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": false,
+    "categories": [
+      "Gaunt’s Ghosts",
+      "Imperium",
+      "Epic Hero",
+      "Infantry",
+      "Grenades"
+    ],
+    "abilities": [
+      "Covert Stealth Team: At the end of your opponent’s turn, if this unit is **unengaged**, you can use this ability. If you do:\n- Place this unit in **strategic reserves**.\n- This unit has **Deep Strike** until the start of ",
+      "Tanith Camo-cloaks: Models in this unit have the Benefit of Cover."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Cadian Heavy Weapons Squad",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 65,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Cadian Heavy Weapons Squad",
+      "Imperium",
+      "Infantry",
+      "Grenades",
+      "Regiment"
+    ],
+    "abilities": [
+      "Covering Fire: Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or on unmodified Hit rolls of 4+ instead if this unit i"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hellhammer",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 385,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "24",
+    "leadership": "7+",
+    "objectiveControl": "8",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Hellhammer",
+      "Imperium",
+      "Vehicle",
+      "Titanic",
+      "Smoke",
+      "Frame"
+    ],
+    "abilities": [
+      "Close-quarters Warfare: This model does not suffer the penalty to its Hit rolls for making ranged attacks while enemy units are within Engagement Range of it."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hellhound",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 125,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "11",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Hellhound",
+      "Imperium",
+      "Vehicle",
+      "Squadron",
+      "Smoke",
+      "Frame"
+    ],
+    "abilities": [
+      "Flush Them Out: In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the start of your next Shooting phase, that unit is scattered. While a unit"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hydra",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 90,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Hydra",
+      "Imperium",
+      "Squadron",
+      "Smoke",
+      "Vehicle",
+      "Frame"
+    ],
+    "abilities": [
+      "Flak Battery: Each time this model makes an attack that targets a unit that can **^^Fly^^**, you can re-roll the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "‘Iron Hand’ Straken [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 55,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "‘Iron Hand’ Straken",
+      "Imperium",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "Officer",
+      "Leader"
+    ],
+    "abilities": [
+      "Been There, Seen it, Killed it: Each time this model makes a melee attack, if it made a Charge move this turn, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+      "Leader: This model can be attached to the following unit:\n- **^^Catachan Jungle Fighters**^^",
+      "Cold Steel and Courage: While this model is leading a unit, melee weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Kasrkin",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 105,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Kasrkin",
+      "Imperium",
+      "Regiment",
+      "Grenades",
+      "Infantry"
+    ],
+    "abilities": [
+      "Warrior Elite: Once per battle round, at the start of any phase, you can select one Order to affect this unit until the start of your next Command phase, in addition to any other Orders issued to this unit by an **^",
+      "Melta mine: Once per battle, at the start of any phase, you can select one enemy unit within 3\" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Leman Russ Battle Tank",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 185,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Leman Russ Battle Tank",
+      "Imperium",
+      "Vehicle",
+      "Squadron",
+      "Smoke",
+      "Frame"
+    ],
+    "abilities": [
+      "Armoured Spearhead: Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll inste"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Leman Russ Demolisher",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 180,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Leman Russ Demolisher",
+      "Imperium",
+      "Smoke",
+      "Vehicle",
+      "Squadron",
+      "Frame"
+    ],
+    "abilities": [
+      "Line-breaker: When making ranged attacks with its demolisher battle cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Leman Russ Eradicator",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 170,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Leman Russ Eradicator",
+      "Imperium",
+      "Vehicle",
+      "Squadron",
+      "Smoke",
+      "Frame"
+    ],
+    "abilities": [
+      "Urban Warfare: Each time a ranged attack targets this model, if this model has the Benefit of Cover against that attack, subtract 1 from the Damage characteristic of that attack."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Leman Russ Executioner",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 170,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Leman Russ Executioner",
+      "Imperium",
+      "Squadron",
+      "Smoke",
+      "Vehicle",
+      "Frame"
+    ],
+    "abilities": [
+      "Gung-ho Executioners: Each time this model makes an attack with its executioner plasma cannon that targets a unit that is Below Half-strength, add 1 to the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Leman Russ Exterminator",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 180,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Leman Russ Exterminator",
+      "Imperium",
+      "Smoke",
+      "Squadron",
+      "Vehicle",
+      "Frame"
+    ],
+    "abilities": [
+      "Withering Hail: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with its exterminator autocannon. Until the end of the phase, each time a friendly **^"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Leman Russ Punisher",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 150,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Leman Russ Punisher",
+      "Imperium",
+      "Vehicle",
+      "Smoke",
+      "Squadron",
+      "Frame"
+    ],
+    "abilities": [
+      "Mow Down the Enemy: Each time this model makes an attack with its punisher gatling cannon that targets an enemy unit (excluding **^^Monsters^^** and **^^Vehicles^^**), that attack has the **[DEVASTATING WOUNDS]** ability"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Leman Russ Vanquisher",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 150,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Leman Russ Vanquisher",
+      "Imperium",
+      "Squadron",
+      "Smoke",
+      "Vehicle",
+      "Frame"
+    ],
+    "abilities": [
+      "Tank-killer: Each time this model makes a ranged attack with its vanquisher battle cannon that targets a **^^Monster^^** or **^^Vehicle^^** unit, you can re-roll the Wound roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Lord Solar Leontus",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 130,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Lord Solar Leontus",
+      "Mounted",
+      "Epic Hero",
+      "Imperium",
+      "Character",
+      "Officer",
+      "Leader"
+    ],
+    "abilities": [
+      "The Lord Solar: At the start of your Command phase, If this model is on the battlefield, you gain 1CP.",
+      "The Collegiate Astrolex: After both players have deployed their armies, select up to three **^^Astra Militarum^^** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you",
+      "Supreme Commander: If this model is in your army, it must be your **^^Warlord^^**.",
+      "Leader: This model can be attached to the following units:\n- **ATTILAN ROUGH RIDERS**\n- **CADIAN SHOCK TROOPS**\n- **CATACHAN JUNGLE FIGHTERS**\n- **DEATH KORPS GRENADIER SQUAD**\n- **DEATH KORPS OF KRIEG**\n- **"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Manticore",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 150,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Manticore",
+      "Imperium",
+      "Vehicle",
+      "Artillery",
+      "Squadron",
+      "Smoke",
+      "Frame"
+    ],
+    "abilities": [
+      "Furious Barrage: In your Shooting phase, after this model has shot, select one enemy unit (excluding **^^Monsters^^** and **^^Vehicles^^**) that was hit by one or more of those attacks made with this model's storm eag"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Militarum Tempestus Command Squad",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Militarum Tempestus",
+      "Imperium",
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Command Squad",
+      "Leader"
+    ],
+    "abilities": [
+      "Medi-pack: At the start of your Command phase, if the bearer's unit is below its Starting Strength, you can return up to D3 destroyed Tempestus Scions models to this unit.",
+      "Command Rod: While the bearer is leading a unit, that unit can be affected by up to two different Orders at the same time.",
+      "Leader: This unit can be attached to the following unit:\n- **^^Tempestus Scions^^**",
+      "Tempestor Prime: While this unit contains a Tempestor Prime, ranged weapons equipped by models in this unit have the **[SUSTAINED HITS 1]** ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Munitorum Servitors [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 35,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Munitorum Servitors",
+      "Imperium",
+      "Infantry"
+    ],
+    "abilities": [
+      "Mindlock: While a friendly **^^Tech-Priest Enginseer^^** model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by **^^Munitorum Servitor^^",
+      "Servitor Retinue: At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a **^^Regimental Enginseer^^** (a unit cannot have more than one **^^Munitorum"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Nork Deddog",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 60,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "6",
+    "save": "4+",
+    "wounds": "6",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Nork Deddog",
+      "Imperium",
+      "Epic Hero",
+      "Infantry",
+      "Ogryn",
+      "Loyal Protector",
+      "Character",
+      "Grenades"
+    ],
+    "abilities": [
+      "Thunderous Head-butt: Each time this model’s unit is selected to fight, you can select one enemy unit within Engagement Range of this model and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that ",
+      "Loyal Protector: At the start of the Declare Battle Formations step, this model must join one **^^Command Squad^^** unit from your army (a **^^Command Squad^^** cannot have more than one **^^Loyal Protector^^** model "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ogryn Bodyguard",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 40,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "6",
+    "save": "5+",
+    "wounds": "6",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Bodyguard",
+      "Imperium",
+      "Infantry",
+      "Grenades",
+      "Loyal Protector",
+      "Ogryn",
+      "Character"
+    ],
+    "abilities": [
+      "Loyal Protector: At the start of the Declare Battle Formations step, this model must join one **^^Command Squad^^** unit from your army (a **^^Command Squad^^** cannot have more than one **^^Loyal Protector^^** model ",
+      "Slabshield: The bearer has a Wounds characteristic of 7."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ogryn Squad",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 60,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Ogryn Squad",
+      "Imperium",
+      "Infantry",
+      "Grenades",
+      "Ogryn"
+    ],
+    "abilities": [
+      "Point-blank Barrage: Each time a model in this unit makes a ranged attack that targets the closest eligible target, improve the Armour Penetration characteristic of that attack by 1."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Primaris Psyker",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 60,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Primaris Psyker",
+      "Imperium",
+      "Character",
+      "Infantry",
+      "Psyker",
+      "Leader"
+    ],
+    "abilities": [
+      "Psychic Barrier (Psychic): At the start of your opponent’s Shooting phase, you can roll one D6: on a 1, this **^^Psyker^^**’s unit suffers D3 mortal wounds; on a 2+, until the end of the phase, models in this **^^Psyker^^**’s u",
+      "Leader: This model can be attached to the following units:\n- **CADIAN SHOCK TROOPS**\n- **CATACHAN JUNGLE FIGHTERS**\n- **DEATH KORPS GRENADIER SQUAD**\n- **DEATH KORPS OF KRIEG**\n- **KASRKIN**\n- **KRIEG COMBAT ",
+      "Malign Wardings (Psychic): While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Regimental Attachés [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 40,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Regimental Attachés",
+      "Imperium",
+      "Infantry"
+    ],
+    "abilities": [
+      "Aeronautica Commander: At the start of your Shooting phase, select one enemy unit within 30\" of and visible to this unit’s Officer of the Fleet model. Until the end of the phase, each time a friendly **^^Astra Militarum Air",
+      "Divination (Psychic): Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this unit’s Astropath model.",
+      "Attachés: At the start of the Declare Battle Formations step, this unit must join one **^^Command Squad^^** unit from your army (a **^^Command Squad^^** unit cannot have more than one **^^Regimental Attaché^^**",
+      "Artillery Commander: At the start of your Shooting phase, select one enemy unit within 30\" of and visible to this unit’s Master of Ordnance model that has not already been selected for this ability this phase. Until the e"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tech-Priest Enginseer",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 45,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Tech-Priest Enginseer",
+      "Imperium",
+      "Infantry",
+      "Character",
+      "Leader"
+    ],
+    "abilities": [
+      "Vengeance for the Omnissiah: If a friendly **^^Astra Militarum Vehicle^^** model is destroyed within 12\" of this model, until the end of the battle, this model’s Enginseer axe has an Attacks characteristic of 6",
+      "Omnissiah’s Blessing: In your Command phase, select one friendly **^^Astra Militarum Vehicle^^** model within 3\" of this model. That **^^Vehicle^^** model regains up to D3 lost wounds and, until the start of your next Comm",
+      "Enginseer: While this model is within 3\" of one or more friendly **^^Astra Militarum Vehicle^^** units, this model has the Lone Operative ability",
+      "Leader: This model can be attached to the following units:\n- **^^Cadian Shock Troops^^**\n- **^^Catachan Jungle Fighters^^**\n- **^^Death Korps of Krieg^^**\n- **^^Kasrkin^^**\n- **^^Krieg Combat Engineers^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Rogal Dorn Battle Tank",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 260,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "18",
+    "leadership": "7+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Rogal Dorn Battle Tank",
+      "Imperium",
+      "Vehicle",
+      "Squadron",
+      "Smoke",
+      "Frame"
+    ],
+    "abilities": [
+      "Ablative Plating: Once per battle, when an attack is allocated to this model, you change the Damage characteristic of that attack to 0."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Scout Sentinels",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 55,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "7",
+    "save": "3+",
+    "wounds": "7",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Scout Sentinels",
+      "Imperium",
+      "Vehicle",
+      "Walker",
+      "Regiment",
+      "Squadron",
+      "Smoke"
+    ],
+    "abilities": [
+      "Daring Recon: At the start of your Shooting phase, select one enemy unit within 18\" of and visible to this unit. Until the end of the phase, each time a friendly **^^Astra Militarum^^** model makes an attack that t"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Sergeant Harker [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 40,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "5+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Sergeant Harker",
+      "Imperium",
+      "Grenades",
+      "Officer",
+      "Character",
+      "Epic Hero",
+      "Infantry",
+      "Leader"
+    ],
+    "abilities": [
+      "Harker’s Hellraisers: While this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is more than 12\" away, subtract 1 from the Hit roll.",
+      "Leader: This model can be attached to the following unit:\n- **CATACHAN JUNGLE FIGHTERS**",
+      "Payback Time: Once per battle, when this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its Payback weapon has an Attacks characteristic of 6 and the **[SUSTAINED HITS "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Shadowsword",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 375,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "24",
+    "leadership": "7+",
+    "objectiveControl": "8",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Shadowsword",
+      "Imperium",
+      "Smoke",
+      "Vehicle",
+      "Titanic",
+      "Frame"
+    ],
+    "abilities": [
+      "Titan-killer: Each time this model makes a ranged attack with its volcano cannon that targets a **^^Monster^^** or **^^Vehicle^^** unit, that attack has the **[DEVASTATING WOUNDS]** ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Sly Marbo",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 55,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Sly Marbo",
+      "Imperium",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "Regiment"
+    ],
+    "abilities": [
+      "Like Fighting a Shadow: In your Shooting phase, after this model has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move. If it does, until the end of the turn, this model is not ",
+      "One-man Army: Once per turn, in your opponent's Shooting phase, when an enemy unit makes a ranged attack that targets a friendly **^^Regiment^^** unit within 3\" of this model, after that enemy unit has shot, this m"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Stormlord",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 395,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "24",
+    "leadership": "7+",
+    "objectiveControl": "8",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Stormlord",
+      "Imperium",
+      "Titanic",
+      "Transport",
+      "Vehicle",
+      "Smoke",
+      "Frame"
+    ],
+    "abilities": [
+      "Mount Up!: At the end of your opponent’s Movement phase, if there are no models currently embarked within this **^^Transport^^**, you can select one friendly **^^Astra Militarum Infantry^^** unit (excluding **^^"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Stormsword",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 430,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "24",
+    "leadership": "7+",
+    "objectiveControl": "8",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Stormsword",
+      "Imperium",
+      "Smoke",
+      "Titanic",
+      "Vehicle",
+      "Frame"
+    ],
+    "abilities": [
+      "Concussive Wave: In your Shooting phase, just after selecting a target for this model’s Stormsword siege cannon, roll one D6 for the target unit and every other unit within 3\" of that unit: on a 5+, the unit being rol"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Leman Russ Commander",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 215,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "13",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Leman Russ Commander",
+      "Imperium",
+      "Officer",
+      "Vehicle",
+      "Smoke",
+      "Character",
+      "Squadron",
+      "Frame"
+    ],
+    "abilities": [
+      "Death Befitting An Officer: In your opponent’s Shooting phase, when this unit is **destroyed**, before this unit’s **deadly demise** roll, roll one D6: \n- On a 2+, do not remove this unit from the battlefield. After the attackin",
+      "Vox-net: Each time this model issues an Order, it can issue it to an eligible unit up to 12\" away"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Taurox",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 65,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Taurox",
+      "Imperium",
+      "Vehicle",
+      "Squadron",
+      "Transport",
+      "Dedicated Transport",
+      "Frame"
+    ],
+    "abilities": [
+      "Rapid Deployment: Units can disembark from this **^^Transport^^** after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise a"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Taurox Prime",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Taurox Prime",
+      "Imperium",
+      "Squadron",
+      "Vehicle",
+      "Dedicated Transport",
+      "Transport",
+      "Frame"
+    ],
+    "abilities": [
+      "Transport Support: In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tempestus Scions",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Tempestus Scions",
+      "Infantry",
+      "Grenades",
+      "Regiment",
+      "Militarum Tempestus",
+      "Imperium"
+    ],
+    "abilities": [
+      "Storm Troopers: Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Wound roll instead."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ursula Creed",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Ursula Creed",
+      "Officer",
+      "Epic Hero",
+      "Infantry",
+      "Character",
+      "Imperium",
+      "Leader"
+    ],
+    "abilities": [
+      "Lord Castellan: While this model is leading a unit, that unit can be affected by up to two different Orders at the same time.",
+      "Tactical Genius: Once per battle round, one unit from your army with this ability can use it when a friendly **^^Regiment^^** unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost ",
+      "Leader: This model can be attached to the following units:\n- ^^**Cadian Shock Troops**^^\n- **^^Kasrkin^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Valkyrie",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 170,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "14",
+    "leadership": "7+",
+    "objectiveControl": "-",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Valkyrie",
+      "Transport",
+      "Vehicle",
+      "Fly",
+      "Imperium"
+    ],
+    "abilities": [
+      "Airborne Insertion: At the end of your opponent’s Movement phase, one or more units embarked within this **^^Transport^^** can disembark from it.",
+      "Damaged: 1-5 Wounds Remaining: While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wyvern",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 95,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Wyvern",
+      "Vehicle",
+      "Imperium",
+      "Artillery",
+      "Squadron",
+      "Smoke",
+      "Frame"
+    ],
+    "abilities": [
+      "Suppression Bombardment: In your Shooting phase, after this model has shot, select one enemy unit (excluding **^^Monsters^^** and **^^Vehicles^^**) that was hit by one or more attacks made with this model’s Wyvern quad storms"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Death Riders",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 60,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "CAVALRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Mounted",
+      "Imperium",
+      "Grenades",
+      "Regiment",
+      "Death Riders"
+    ],
+    "abilities": [
+      "Screening Line: In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up t"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Carnodon [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 160,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "12",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Imperium",
+      "Squadron",
+      "Smoke",
+      "Carnodon",
+      "Frame"
+    ],
+    "abilities": [
+      "Ancient Conquest: Each time this model makes an attack that targets an enemy unit that is within your opponent’s deployment zone, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Cyclops Demolition Vehicle",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 40,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "8+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Cyclops Demolition Vehicle",
+      "Imperium",
+      "Frame"
+    ],
+    "abilities": [
+      "Demolition Charges: Each time this model or an enemy unit ends a move, if this model is within 3\" of one or more enemy units, select one of those enemy units. This model is destroyed, but instead of rolling for its Deadl",
+      "Unstable Payload: When rolling for this model’s Deadly Demise ability, units within 6\" suffer mortal wounds on a 4+, instead of on a 6.",
+      "Compact: This model can embark within an ASTRA MILITARUM TRANSPORT model as if it were an INFANTRY model. If it does, it takes up the space of 7 models."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Malcador [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 250,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "18",
+    "leadership": "7+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Imperium",
+      "Squadron",
+      "Smoke",
+      "Malcador",
+      "Frame"
+    ],
+    "abilities": [
+      "Rugged Reliability: Each time a ranged attack targets this model, worsen the Armour Penetration characteristic of that attack by 1."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Malcador Annihilator [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 270,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "18",
+    "leadership": "7+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Imperium",
+      "Squadron",
+      "Smoke",
+      "Malcador Annihilator",
+      "Frame"
+    ],
+    "abilities": [
+      "Battlefield Dominance: Ranged weapons equipped by this model have the [IGNORES COVER] ability while targeting an enemy unit within half range."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Malcador Defender [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 310,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "18",
+    "leadership": "7+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Imperium",
+      "Squadron",
+      "Smoke",
+      "Malcador Defender",
+      "Frame"
+    ],
+    "abilities": [
+      "Armoured Defender: Each time you target this model with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ while resolving that Stratagem."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Malcador Infernus [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 235,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "18",
+    "leadership": "7+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Imperium",
+      "Squadron",
+      "Smoke",
+      "Malcador",
+      "Frame"
+    ],
+    "abilities": [
+      "Explosive Death: When this model is destroyed, roll one D6: on a 3+, do not remove it from play – it can, after the attacking model’s unit has finished making its attacks, shoot with its inferno gun as if it were your"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Medusa Carriage Battery [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 125,
+    "models": 1,
+    "move": "4\"",
+    "toughness": "7",
+    "save": "4+",
+    "wounds": "6",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Infantry",
+      "Artillery",
+      "Imperium",
+      "Grenades",
+      "Regiment",
+      "Medusa Carriage Battery"
+    ],
+    "abilities": [
+      "Siege Bombardment: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Earthshaker Carriage Battery [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 120,
+    "models": 1,
+    "move": "4\"",
+    "toughness": "7",
+    "save": "4+",
+    "wounds": "6",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Artillery",
+      "Imperium",
+      "Grenades",
+      "Regiment",
+      "Earthshaker Carriage Battery",
+      "Frame"
+    ],
+    "abilities": [
+      "Earthshaker Rounds: In your Shooting phase, after this model has shot, if one or more of those attacks made with its earthshaker cannon scored a hit against an INFANTRY unit, until the end of your opponent’s next turn, t"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Stormblade [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 415,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "24",
+    "leadership": "7+",
+    "objectiveControl": "8",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Titanic",
+      "Imperium",
+      "Smoke",
+      "Stormblade",
+      "Frame"
+    ],
+    "abilities": [
+      "Close-range Devastation: Each time this model makes a ranged attack with its Stormblade plasma blastgun that targets a unit within half range, you can re-roll the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Macharius [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 310,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "20",
+    "leadership": "7+",
+    "objectiveControl": "8",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Titanic",
+      "Imperium",
+      "Smoke",
+      "Macharius",
+      "Frame"
+    ],
+    "abilities": [
+      "Battlefield Control: Each time this model makes a ranged attack, if it is within range of an objective marker you control, re-roll a Hit roll of 1."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Macharius Vanquisher [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 285,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "20",
+    "leadership": "7+",
+    "objectiveControl": "8",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Titanic",
+      "Imperium",
+      "Smoke",
+      "Macharius Vanquisher",
+      "Frame"
+    ],
+    "abilities": [
+      "Tank Hunter: Each time this model makes a ranged attack with its Macharius twin vanquisher cannon that targets a MONSTER or VEHICLE unit, you can re-roll the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Macharius Vulcan [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 310,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "20",
+    "leadership": "7+",
+    "objectiveControl": "8",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Titanic",
+      "Imperium",
+      "Smoke",
+      "Macharius Vulcan",
+      "Frame"
+    ],
+    "abilities": [
+      "Armoured Aggressor: Each time this model makes a ranged attack, it does not suffer the penalty to the Hit roll for being within Engagement Range of one or more enemy units."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Praetor [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 275,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "18",
+    "leadership": "7+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Imperium",
+      "Squadron",
+      "Smoke",
+      "Praetor",
+      "Frame"
+    ],
+    "abilities": [
+      "Targeting Coordinates: While this model is being affected by an Order, each time it makes an attack with its Praetor launcher, it does not suffer the penalty to the Hit roll for attacking a unit that is not visible to it."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Crassus [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 180,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "18",
+    "leadership": "7+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Imperium",
+      "Squadron",
+      "Transport",
+      "Smoke",
+      "Crassus",
+      "Frame"
+    ],
+    "abilities": [
+      "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Colossus [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 160,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "11",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Imperium",
+      "Squadron",
+      "Smoke",
+      "Colossus",
+      "Frame"
+    ],
+    "abilities": [
+      "Tracking Target: Each time this model is selected to shoot, provided it Remained Stationary this turn, its Colossus siege mortar has the [ANTI-MONSTER 5+] and [ANTI-VEHICLE 5+] abilities while resolving those attacks."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Valdor [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 285,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "20",
+    "leadership": "7+",
+    "objectiveControl": "8",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Titanic",
+      "Smoke",
+      "Valdor",
+      "Frame"
+    ],
+    "abilities": [
+      "Power Overload: Each time this model makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Damage roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Avenger Strike Fighter",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 130,
+    "models": 1,
+    "move": "-",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "7+",
+    "objectiveControl": "-",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Aircraft",
+      "Imperium",
+      "Avenger Strike Fighter",
+      "Frame"
+    ],
+    "abilities": [
+      "Fiery Vengeance: Once per turn, in your opponent’s Shooting phase, when another friendly ASTRA MILITARUM unit within 6\" of this model is destroyed by an attack made by a unit that can Fly, one model from your army wit"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Voss-pattern Lightning [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 130,
+    "models": 1,
+    "move": "-",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "7+",
+    "objectiveControl": "-",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Aircraft",
+      "Imperium",
+      "Voss-pattern Lightning",
+      "Frame"
+    ],
+    "abilities": [
+      "Agile Dogfighter: Each time an attack targets this model, subtract 1 from the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Vulture Gunship [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 225,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "14",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Imperium",
+      "Vulture Gunship",
+      "Frame"
+    ],
+    "abilities": [
+      "Gunship Barrage: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Marauder Bomber [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 345,
+    "models": 1,
+    "move": "-",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "20",
+    "leadership": "7+",
+    "objectiveControl": "-",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Titanic",
+      "Fly",
+      "Aircraft",
+      "Imperium",
+      "Marauder Bomber",
+      "Frame"
+    ],
+    "abilities": [
+      "Damaged: 1-7 Wounds Remaining: While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Heavy Bombs: Each time the bearer ends a Normal move, you can select one enemy unit it moved over during that move and roll nine D6, adding 1 to each result if that unit is a MONSTER or VEHICLE: for each 5+, that ",
+      "Inferno Bombs: Each time the bearer ends a Normal move, you can select one enemy unit it moved over during that move and roll nine D6, adding 1 to each result if that unit is not a MONSTER or VEHICLE: for each 5+, t"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Marauder Destroyer [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 375,
+    "models": 1,
+    "move": "-",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "20",
+    "leadership": "7+",
+    "objectiveControl": "-",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Titanic",
+      "Fly",
+      "Aircraft",
+      "Imperium",
+      "Marauder Destroyer",
+      "Frame"
+    ],
+    "abilities": [
+      "Damaged: 1-7 Wounds Remaining: While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Bomb Drop: Each time this model ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hades Breaching Drill [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 110,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "8",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Imperium",
+      "Hades Breaching Drill",
+      "Frame"
+    ],
+    "abilities": [
+      "Subterranean Assault: Each time you set up this model on the battlefield using the Deep Strike ability, you can select one friendly **^^Astra Militarum Infantry^^** unit in Strategic Reserves. If you do, set up that unit a"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Trojan Support Vehicle [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Squadron",
+      "Smoke",
+      "Imperium",
+      "Trojan Support Vehicle",
+      "Frame"
+    ],
+    "abilities": [
+      "Support Vehicle: In your Command phase, select one friendly ASTRA MILITARUM VEHICLE model within 3\" of this model. That VEHICLE model regains up to D3 lost wounds and, until the start of your next Command phase, each "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Valkyrie Sky Talon [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 185,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "14",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Imperium",
+      "Transport",
+      "Valkyrie Sky Talon",
+      "Frame"
+    ],
+    "abilities": [
+      "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from thi"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Aquila Lander [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 120,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "12",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Aquila Lander",
+      "Transport",
+      "Imperium",
+      "Frame"
+    ],
+    "abilities": [
+      "Aerial Deployment: If this model starts the game in Hover mode and in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Dominus Armoured Siege Bombard [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 325,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "20",
+    "leadership": "7+",
+    "objectiveControl": "8",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Titanic",
+      "Smoke",
+      "Dominus Armoured Siege Bombard",
+      "Frame"
+    ],
+    "abilities": [
+      "Pinning Bombardment: In your Shooting phase, after this model has shot, if one or more of those attacks made with its Dominus triple bombard scored a hit against an enemy Infantry unit, that unit must take a Battle-shock "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Gorgon Heavy Transport [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 275,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "20",
+    "leadership": "7+",
+    "objectiveControl": "8",
+    "invulnerableSave": "5+*",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Gorgon Heavy Transport",
+      "Vehicle",
+      "Smoke",
+      "Transport",
+      "Imperium",
+      "Titanic",
+      "Frame"
+    ],
+    "abilities": [
+      "Mount Up!: At the end of your opponent’s Movement phase, if there are no models currently embarked within this **^^Transport^^**, you can select one friendly **^^Astra Militarum Infantry^^** unit (excluding **^^"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Death Korps Grenadier Squad [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 110,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Imperium",
+      "Grenades",
+      "Regiment",
+      "Platoon",
+      "Death Korps Grenadier Squad",
+      "Krieg"
+    ],
+    "abilities": [
+      "Grenadiers: Once per turn, you can target this unit with the Grenade Stratagem for 0CP.",
+      "Grenadier Squad: If a model from your army with the Leader ability can be attached to a **^^Krieg Combat Engineers^^** unit, it can be attached to this unit instead."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Centaur Light Carrier [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 40,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "7",
+    "save": "3+",
+    "wounds": "7",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Transport",
+      "Imperium",
+      "Squadron",
+      "Centaur Light Carrier",
+      "Smoke",
+      "Frame"
+    ],
+    "abilities": [
+      "Blistering Advance: Units can disembark from this Transport after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act norma"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Macharius Omega [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 310,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "20",
+    "leadership": "7+",
+    "objectiveControl": "8",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Titanic",
+      "Imperium",
+      "Smoke",
+      "Macharius Omega",
+      "Frame"
+    ],
+    "abilities": [
+      "Overwhelming Short-range Firepower: Each time this model makes an attack that targets the closest eligible enemy unit, re-roll a Hit roll of 1 and re-roll a Wound roll or 1."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Stygies Destroyer Tank Hunter [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 180,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "13",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Stygies Destroyer Tank Hunter",
+      "Vehicle",
+      "Smoke",
+      "Squadron",
+      "Imperium",
+      "Frame"
+    ],
+    "abilities": [
+      "Tank Hunter: Each time this model makes a ranged attack that targets a Vehicle unit, add 1 to the Wound roll"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Rein and Raus [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 50,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "2",
+    "save": "6+",
+    "wounds": "1",
+    "leadership": "8+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Infantry",
+      "Imperium",
+      "Character",
+      "Rein and Raus"
+    ],
+    "abilities": [
+      "Shoot Sharp and Scarper: In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move. If it does, until the end of the turn, this unit is not el",
+      "The Ratling Twins: While this unit contains 2 models, each time a model in this unit makes a ranged attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Quartermaster Cadre Squad [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 45,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Imperium",
+      "Grenades",
+      "Regiment",
+      "Quartermaster Cadre Squad",
+      "Krieg",
+      "Leader"
+    ],
+    "abilities": [
+      "Medicae Medi-packs: Whilst this unit contains one or more Medicae Servitors, models in this unit have the Feel No Pain 5+ ability.",
+      "Mindlock: While this unit contains a Quartermaster Revenant model, improve the Weapon Skill characteristic of this unit's Medical scalpels by 1",
+      "Leader: This unit can be attached to the following units:\n- **DEATH KORPS GRENADIER SQUAD**\n- **DEATH KORPS OF KRIEG**\n- **KRIEG COMBAT ENGINEERS**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Atlas Recovery Vehicle [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Atlas Recovery Vehicle",
+      "Vehicle",
+      "Imperium",
+      "Squadron",
+      "Smoke",
+      "Frame"
+    ],
+    "abilities": [
+      "Recovery Vehicle: At the end of your Movement phase, you can select one friendly Astra Militarum Vehicle model within 3\" of this model. That Vehicle model regains up to D3 lost wounds. Each model can only be selected f"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Elysian Drop Sentinel [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "6",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Elysian Drop Sentinel",
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Squadron",
+      "Smoke",
+      "Regiment"
+    ],
+    "abilities": [
+      "Meteoric Descent: When this model is set up on the battlefield using the Deep Strike ability, it can perform a meteoric descent. If it does, this model can be set up anywhere on the battlefield that is more than 6\" hor"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Elysian Sniper Squad [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 65,
+    "models": 3,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Imperium",
+      "Grenades",
+      "Regiment",
+      "Elysian Sniper Squad"
+    ],
+    "abilities": [
+      "Mark the Target: Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability.",
+      "Sniper Teams: For the purposes of embarking within Transports, each Elysian Sniper Team model counts as one Heavy Weapons Team model."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Heavy Mortar Team [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 50,
+    "models": 1,
+    "move": "4\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Heavy Mortar Team",
+      "Artillery",
+      "Grenades",
+      "Imperium",
+      "Regiment",
+      "Infantry"
+    ],
+    "abilities": [
+      "Rearm, Reload, Fire: While this model is being affected by an Order, provided it Remained Stationary this turn, ranged weapons equipped by this model have the [SUSTAINED HITS 1] ability"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Armageddon-pattern Medusa [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 105,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Armageddon-pattern Medusa",
+      "Vehicle",
+      "Artillery",
+      "Imperium",
+      "Squadron",
+      "Smoke",
+      "Frame"
+    ],
+    "abilities": [
+      "Pinning Bombardment: In your Shooting phase, after this model has shot, if one or more of those attacks made with its Medusa siege cannon scored a hit against an enemy Infantry unit, that unit must take a Battle-shock tes"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Heavy Quad Launcher Team [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 50,
+    "models": 1,
+    "move": "4\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Heavy Quad Launcher Team",
+      "Infantry",
+      "Artillery",
+      "Grenades",
+      "Imperium",
+      "Regiment"
+    ],
+    "abilities": [
+      "Suppression Bombardment: In your Shooting phase, after this model has shot, select one enemy unit (excluding Monster and Vehicle units) hit by one or more of those attacks. Unit the start of your next turn, that enemy unit is"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Arvus Lighter [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 95,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "8",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Imperium",
+      "Transport",
+      "Arvus Lighter",
+      "Frame"
+    ],
+    "abilities": [
+      "Aerial Deployment: If this model starts the game in Hover mode and in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Vendetta Gunship [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 255,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "14",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vendetta Gunship",
+      "Vehicle",
+      "Fly",
+      "Imperium",
+      "Transport",
+      "Frame"
+    ],
+    "abilities": [
+      "Anti-armour Gunship: Each time a ranged attack made by this model is allocated to a Monster or Vehicle model, re-roll a Damage roll of 1"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Minotaur [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 225,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "18",
+    "leadership": "7+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Minotaur",
+      "Vehicle",
+      "Imperium",
+      "Squadron",
+      "Transport",
+      "Smoke",
+      "Artillery",
+      "Frame"
+    ],
+    "abilities": [
+      "Armoured Frontis: Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Death Rider Commissar [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 35,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Mounted",
+      "Character",
+      "Imperium",
+      "Grenades",
+      "Officer",
+      "Death Rider Commissar",
+      "Leader"
+    ],
+    "abilities": [
+      "Summary Execution: Once per battle round, at the start of any phase, you can select one friendly ASTRA MILITARUM INFANTRY or ASTRA MILITARUM MOUNTED unit that is Battle-shocked and within 12\" of this model. If you do, o",
+      "Political Overwatch: While another Officer model is in the same unit as this model, you can re-roll Battle-shock tests taken for that unit.",
+      "Leader: This model can be attached to the following unit:\n- **^^Death Riders^^**\n\n*You can attach this model to the above unit even if one **^^Death Rider Squadron Commander^^**, **^^Lord Marshal Dreir^^** or"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Sentinel Powerlifter [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 55,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "7",
+    "save": "3+",
+    "wounds": "6",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Regiment",
+      "Squadron",
+      "Smoke",
+      "Sentinel Powerlifter",
+      "Frame"
+    ],
+    "abilities": [
+      "Powerlifter Charge: Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mort"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Manticore Platform [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 95,
+    "models": 1,
+    "move": "-",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "8",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Manticore Platform",
+      "Fortification",
+      "Imperium",
+      "Artillery",
+      "Frame"
+    ],
+    "abilities": [
+      "Reinforced Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against th",
+      "Furious Barrage: Each time this model makes an attack with its storm eagle rockets that targets an enemy unit that contains five or more models, you can re-roll the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hydra Platform [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 95,
+    "models": 1,
+    "move": "-",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "8",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Hydra Platform",
+      "Fortification",
+      "Imperium",
+      "Artillery",
+      "Frame"
+    ],
+    "abilities": [
+      "Flak Battery: Each time this model makes an attack that targets a unit that can Fly, you can re-roll the Hit roll.",
+      "Reinforced Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against th"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Griffon Mortar Carrier [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 115,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Griffon Mortar Carrier",
+      "Vehicle",
+      "Artillery",
+      "Imperium",
+      "Squadron",
+      "Smoke",
+      "Frame"
+    ],
+    "abilities": [
+      "Suppression Bombardment: In your Shooting phase, after this model has shot, select one enemy unit (excluding Monster and Vehicle units) hit by one or more of those attacks made with this model’s Griffon heavy mortar. Unit the"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Earthshaker Platform [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 110,
+    "models": 1,
+    "move": "-",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "8",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Imperium",
+      "Artillery",
+      "Earthshaker Platform",
+      "Frame"
+    ],
+    "abilities": [
+      "Earthshaker Rounds: In your Shooting phase, after this model has shot, if one or more of those attacks made with its earthshaker cannon scored a hit against an enemy Infantry unit, until the end of your opponent’s next t",
+      "Reinforced Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against th",
+      "Fortification: While an enemy unit is only within Engagement Range of one or more Fortifications from your army:\n■ That unit can still be selected as the target of ranged attacks, but each time such an attack is mad"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Mukaali Riders [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 110,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "CAVALRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Mounted",
+      "Mukaali Riders",
+      "Imperium",
+      "Grenades",
+      "Regiment"
+    ],
+    "abilities": [
+      "Desert Riders: You can ignore any or all modifiers to this unit’s Move characteristic and to Advance and Charge rolls made for it. In addition, this unit is eligible to shoot and declare a charge in a turn in which "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Salamander Scout Vehicle [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 95,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Salamander Scout Vehicle",
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Squadron",
+      "Frame"
+    ],
+    "abilities": [
+      "Outflank: When this model arrives from Strategic Reserves, it can be set up within your opponent’s deployment zone (all other restrictions still apply)."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tauros Assault Vehicle [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 50,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "6",
+    "save": "4+",
+    "wounds": "6",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Tauros Assault Vehicle",
+      "Mounted",
+      "Regiment",
+      "Imperium",
+      "Tauros",
+      "Frame"
+    ],
+    "abilities": [
+      "Turbo-boost: Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of this model."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tauros Venator [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 50,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "6",
+    "save": "4+",
+    "wounds": "6",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "CAVALRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Tauros",
+      "Tauros Venator",
+      "Mounted",
+      "Imperium",
+      "Regiment",
+      "Frame"
+    ],
+    "abilities": [
+      "Mobile Hunter-killer: Each time this model makes an attack that targets a Monster or Vehicle unit, you can re-roll the Wound roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Salamander Command Vehicle [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Salamander Command Vehicle",
+      "Vehicle",
+      "Imperium",
+      "Squadron",
+      "Smoke",
+      "Frame"
+    ],
+    "abilities": [
+      "Auspex Surveyor: Each time this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Arkurian Stormhammer [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 480,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "24",
+    "leadership": "7+",
+    "objectiveControl": "8",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Titanic",
+      "Imperium",
+      "Arkurian Stormhammer",
+      "Frame"
+    ],
+    "abilities": [
+      "Rolling Fortress: Each time a ranged attack is allocated to an ASTRA MILITARUM model from your army, if that model is not fully visible to every model in the attacking unit because of this Arkurian Stormhammer model, t"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Storm Chimera [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 90,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Dedicated Transport",
+      "Imperium",
+      "Squadron",
+      "Storm Chimera",
+      "Transport",
+      "Smoke",
+      "Vehicle",
+      "Frame"
+    ],
+    "abilities": [
+      "Mobile Command Vehicle: In your Command phase, one **^^Officer^^** model embarked within this **^^Transport^^** can issue Orders even though it is not on the battlefield. When doing so, measure distances to and from this **^"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tempestus Aquilons",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 95,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Smoke",
+      "Imperium",
+      "Regiment",
+      "Militarum Tempestus",
+      "Tempestus Aquilons"
+    ],
+    "abilities": [
+      "Precision Drop: In your Movement phase, when this unit is set up on the battlefield using the Deep Strike ability, it can perform a precision drop. If it does, this unit can be set up anywhere on the battlefield that",
+      "Servo-sentry: When this unit is set up on the battlefield using the Deep Strike ability, the Tempestor Aquilon can shoot with its sentry weapon (its sentry flamer, sentry grenade launcher or sentry hot-shot volley "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ratlings",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 60,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Imperium",
+      "Infantry",
+      "Ratlings"
+    ],
+    "abilities": [
+      "Shoot Sharp and Scarper: In your Shooting phase, after this unit has shot, if it is not within Engagement Range of any enemy units, it can make a Normal move as if it were your Movement phase. If it does, until the end of the",
+      "Ratling Battlemutt: Once per battle, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the **[LETHAL HITS]** ability",
+      "Demolition Gear: The bearer’s unit has the **^^Grenades^^** keyword."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Krieg Command Squad",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 60,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Imperium",
+      "Command Squad",
+      "Grenades",
+      "Infantry",
+      "Character",
+      "Platoon",
+      "Krieg",
+      "Leader"
+    ],
+    "abilities": [
+      "Grim Determination: While this unit contains an **^^Officer^^**, you can target this unit with Stratagems even while it is Battle-shocked and Orders issued to this unit do not cease to affect this unit if it becomes Batt",
+      "Leader: This model can be attached to the following units:\n- **DEATH KORPS GRENADIER SQUAD**\n- **DEATH KORPS OF KRIEG**\n- **KRIEG COMBAT ENGINEERS**",
+      "Alchemyk Counteragents: The bearer's unit has the Feel No Pain 6+ ability against mortal wounds.",
+      "Servo-scribes: Once per battle, when issuing an Order, the Lord Commissar can issue one additional Order.\n\n\nDesigner's Note: Place a Servo-scribes token next to the unit, removing it when this ability has been used."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Lord Marshal Dreir",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "6",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Mounted",
+      "Epic Hero",
+      "Imperium",
+      "Character",
+      "Officer",
+      "Grenades",
+      "Lord Marshal Dreir",
+      "Leader"
+    ],
+    "abilities": [
+      "Tough to Kill: The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement",
+      "Leader: This model can be attached to the following unit:\n- **^^Death Riders^^**",
+      "Leading the Charge: Each time this model's unit makes a Charge move, until the end of the turn, melee weapons equipped by models in that unit have the **[DEVASTATING WOUNDS]** ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Catachan Command Squad",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 60,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Imperium",
+      "Command Squad",
+      "Grenades",
+      "Infantry",
+      "Character",
+      "Platoon",
+      "Catachan",
+      "Leader"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following unit: **^^Catachan Jungle Fighters^^**",
+      "Gung-ho Command: While this unit contains an **^^Officer^^**, ranged weapons equipped by models in this unit have the **[ASSAULT]** ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Rogal Dorn Commander",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 290,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "18",
+    "leadership": "7+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Imperium",
+      "Vehicle",
+      "Squadron",
+      "Smoke",
+      "Rogal Dorn Commander",
+      "Character",
+      "Officer",
+      "Frame"
+    ],
+    "abilities": [
+      "Called Shots: Each time this model is selected to shoot, you can re-roll one Hit roll, you can re-roll one Wound roll and you can re-roll one Damage roll when resolving its attacks.",
+      "Vox-net: Each time this model issues an Order, it can issue it to an eligible unit up to 12\" away"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ministorum Priest",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 35,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "6+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Imperium",
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Ministorum Priest",
+      "Leader"
+    ],
+    "abilities": [
+      "Holy Piety: Each time this model makes a melee attack, unless this model's unit is Battle-shocked, you can re-roll the Hit roll.",
+      "War Hymns: While this model is leading a unit, melee weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** ability.",
+      "Leader: This model can be attached to the following units:\n- **CADIAN SHOCK TROOPS**\n- **CATACHAN JUNGLE FIGHTERS**\n- **DEATH KORPS GRENADIER SQUAD**\n- **DEATH KORPS OF KRIEG**\n- **KASRKIN**\n- **KRIEG COMBAT "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Krieg Combat Engineers",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 65,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Imperium",
+      "Regiment",
+      "Grenades",
+      "Infantry",
+      "Smoke",
+      "Krieg Combat Engineers"
+    ],
+    "abilities": [
+      "Grenadiers: Once per turn, you can target this unit with the Grenade Stratagem for 0CP.",
+      "Remote mine: Once per battle, at the start of your Shooting phase, you can select one enemy unit within 9\" of and visible to the bearer and roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds, or 2D3 mo"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Catachan Heavy Weapons Squad",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 65,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Imperium",
+      "Infantry",
+      "Grenades",
+      "Regiment",
+      "Catachan Heavy Weapons Squad"
+    ],
+    "abilities": [
+      "Bring it Down!: Each time a model in this unit makes a ranged attack that targets a **^^Monster^^** or **^^Vehicle^^** unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Krieg Heavy Weapons Squad",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 60,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Imperium",
+      "Infantry",
+      "Grenades",
+      "Regiment",
+      "Krieg Heavy Weapons Squad"
+    ],
+    "abilities": [
+      "Final Duty: While the Fire Coordinator model is on the battlefield, each time a Heavy Weapons Gunner model is destroyed, roll one D6: on a 3+, do not remove it from play. The destroyed model can shoot after the a",
+      "Embarking: While embarked within a **^^Transport^^**, each Heavy Weapons Gunner model takes up the space of 2 models, and each weapon equipped by these models is considered to be 2 models' weapons for the purpos"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Artillery Team",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 95,
+    "models": 1,
+    "move": "3\"",
+    "toughness": "7",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Imperium",
+      "Infantry",
+      "Artillery",
+      "Grenades",
+      "Regiment",
+      "Artillery Team"
+    ],
+    "abilities": [
+      "Remorseless Barrage: In your Shooting phase, after this model has shot, if one or more of those attacks made with an Indirect Fire weapon scored a hit against an enemy unit, that unit must take a Battle-shock test (if an "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Provisionally Prepared [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 40,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "2",
+    "save": "6+",
+    "wounds": "2",
+    "leadership": "8+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Imperium",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "Provisionally Prepared",
+      "Leader"
+    ],
+    "abilities": [
+      "Well-stocked Supplies: While this model is leading a unit, improve the Leadership and Objective Control characteristics of models in that unit by 1.",
+      "A Hearty 'Pick Me Up': While this model is leading a unit, in your Command phase, you can return up to D3 destroyed models to that unit.",
+      "Leader: This model can be attached to the following unit:\n- **^^Ratlings^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hell's Last [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": false,
+    "categories": [
+      "Imperium",
+      "Infantry",
+      "Grenades",
+      "Platoon",
+      "Command Squad",
+      "Hell's Last",
+      "Epic Hero",
+      "Leader"
+    ],
+    "abilities": [
+      "Lesk’s Heroes: Add 1 to the Leadership characteristic of models in this unit and you can re-roll Battle-shock and Leadership tests taken for this unit.",
+      "Heroic Example: While this unit’s Minka Lesk model is on the battlefield, each time a model in this unit makes an attack, you can re-roll the Hit roll.",
+      "Leader: This model can be attached to the following unit:\n- **^^Cadian Shock Troops^^**",
+      "Regimental Banner: Add 1 to the Objective Control characteristic of models in the bearer’s unit."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Front-line Commander [Crucible]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 55,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Crucible",
+      "Imperium",
+      "Grenades",
+      "Officer",
+      "Front-line Commander"
+    ],
+    "abilities": [
+      "Get Back in the Fight: While this model is leading a unit, that unit is eligible to shoot in a turn in which it Fell Back.",
+      "Leader: This model can be attached to the following units:\n- **^^Astra Militarum Battleline^^**\n- **^^Kasrkin^^**\n- **^^Krieg Combat Engineers^^**\n- **^^Tempestus Scions^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Augmented Bone 'Ead [Crucible]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 60,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Crucible",
+      "Imperium",
+      "Grenades",
+      "Regiment",
+      "Augmented Bone 'Ead",
+      "Ogryn"
+    ],
+    "abilities": [
+      "You 'Eard 'Em: Each time an Order is issued to this model's unit, this model can issue that Order to one other friendly **^^Platoon^^** or **^^Ogryn^^** unit in the same way as an **^^Officer^^**.",
+      "Leader: This model can be attached to the following units:\n- **^^Bullgryn Squad^^**\n- **^^Ogryn Squad^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Sentinel Commander [Crucible]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "7",
+    "save": "3+",
+    "wounds": "7",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Crucible",
+      "Imperium",
+      "Officer",
+      "Vehicle",
+      "Walker",
+      "Smoke",
+      "Sentinel Commander"
+    ],
+    "abilities": [
+      "Mobile Firebase: Ranged weapons equipped by models in this unit have the **[ASSAULT]** ability.",
+      "Leader: This model can be attached to the following units:\n- **^^Armoured Sentinels^^**\n- **^^Scout Sentinels^^***"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Commissar Yarrick",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 120,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Imperium",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Officer",
+      "Commissar Yarrick",
+      "Leader"
+    ],
+    "abilities": [
+      "Will of Iron: The first time this model is destroyed, remove it from play, then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroy",
+      "Leader: This model can be attached to the following units:\n- **CADIAN SHOCK TROOPS**\n- **CATACHAN JUNGLE FIGHTERS**\n- **DEATH KORPS GRENADIER SQUAD**\n- **DEATH KORPS OF KRIEG**\n- **KASRKIN**\n- **KRIEG COMBAT ",
+      "Hero of Hades Hive: In your Command phase, you can select one of the abilities in the Hero of Hades Hive section. Until the start of your next Command phase, this model has that ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Commissar Graves",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 125,
+    "models": 2,
+    "move": "12\"",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Imperium",
+      "Epic Hero",
+      "Officer",
+      "Vehicle",
+      "Squadron",
+      "Commissar Graves",
+      "Character"
+    ],
+    "abilities": [
+      "Brutal Disciplinarian: Once per turn, at the start of any phase, you can select one friendly **^^Astra Militarum Infantry^^** unit (excluding units that only contain one model) that is Battle‑shocked and within 24\" of and v",
+      "Mechanised Spearhead: In your Movement phase, each time a friendly **^^Astra Militarum Regiment^^** unit disembarks from a **^^Transport^^** that is within 6\" of this model, after that unit has been set up, this model can ",
+      "Aquiline Prow: Each time this unit ends a Charge move, you can select one enemy unit within Engagement Range of it, then roll one D6: on a 2‑3, that enemy unit suffers D3 mortal wounds; on a 4‑5, that enemy unit suf"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Commissar Graves on Foot",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 65,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Imperium",
+      "Epic Hero",
+      "Commissar Graves",
+      "Character",
+      "Infantry",
+      "Leader"
+    ],
+    "abilities": [
+      "Brutal Disciplinarian: Once per turn, at the start of any phase, you can select one friendly **^^Astra Militarum Infantry^^** (excluding units that only contain one model) unit that is Battle‑shocked and within 12\" of this ",
+      "Leader: This model can be attached to the following units:\n- **CADIAN SHOCK TROOPS**\n- **CATACHAN JUNGLE FIGHTERS**\n- **DEATH KORPS GRENADIER SQUAD**\n- **DEATH KORPS OF KRIEG**\n- **KASRKIN**\n- **KRIEG COMBAT ",
+      "Icon of Discipline: This model’s unit is eligible to shoot and declare a Charge in a turn in which it Fell Back.",
+      "Using Commissar Graves: Your army can only include one **^^Commissar Graves^^** or **^^Commissar Graves on Foot^^** unit."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Centaur RSV",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 65,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "7",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Imperium",
+      "Smoke",
+      "Squadron",
+      "Vehicle",
+      "Centaur RSV",
+      "Dedicated Transport",
+      "Transport"
+    ],
+    "abilities": [
+      "Rapid Strike Vehicle: While one or more units are embarked within this model, unless this model is Battle‑shocked, add 1 to this model’s Objective Control characteristic for every 3 models (rounding down) embarked within i"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Cadian Recon Squad",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Imperium",
+      "Infantry",
+      "Grenades",
+      "Regiment",
+      "Smoke",
+      "Cadian Recon Squad"
+    ],
+    "abilities": [
+      "Vox-caster: Each time you target the bearer’s unit with a Stratagem, roll one D6, adding 1 to the result if there are one or more friendly **^^Officer^^** models within 6\": on a 5+, you gain 1CP.",
+      "Vox-relay beacon: At the start of the battle, you can set up one Vox‑relay Beacon token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. While a friendly **^^Astra Militarum Reg",
+      "Independent Operatives: Each time an Order is issued to this unit, that Order affects this unit until a new Order is issued to this unit, or until this unit becomes Battle‑shocked, or until the battle ends (whichever happens"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ciaphas Cain [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Imperium",
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Officer",
+      "Leader",
+      "Ciaphas Cain"
+    ],
+    "abilities": [
+      "Unparalleled Luck (Once per battle, per army): At the start of a phase, you can use this ability. if you do, this model has 2+ InSv.",
+      "Leader: This model can be attached to the following units:\n- **CADIAN SHOCK TROOPS**\n- **CATACHAN JUNGLE FIGHTERS**\n- **DEATH KORPS OF KRIEG**\n- **KASRKIN**\n- **TEMPESTUS SCIONS**",
+      "Psychic Blank: This model has Feel No Pain 4+ against **psychic attacks** and **mortal wounds**.",
+      "Hero of the Imperium (Aura): While a friendly **ASTRA MILITARUM** unit is within 6\" of this model, that unit can re-roll **battle-shock rolls**.",
+      "Trapped by Excuses: In the Deploy Armies step, you must set this unit up on the battlefield, or embarked within a **TRANSPORT** unit that is set up on the battlefield. Abilities that allow you to redeploy a unit or place"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Canis Rex",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 415,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "26",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Imperium"
+    ],
+    "abilities": [
+      "Chainbreaker: Once per battle, at the start of any phase, you can select one friendly **^^Imperium^^** unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked.",
+      "Legendary Freeblade: Once per turn, you can target this model with a Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem in the same phase.",
+      "Using Sir Hekhtur: If your Canis Rex model is destroyed, this model is treated as a model disembarking from a destroyed **^^Transport^^** and must perform an Emergency Disembarkation. Sir Hekhtur cannot be selected as t"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Armiger Warglaive",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 140,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "7+",
+    "objectiveControl": "6",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Warglaive",
+      "Armiger"
+    ],
+    "abilities": [
+      "Impetuous Glory: Each time this model makes a charge move, until the end of the turn, add 1 to the Attacks characteristic of this model's reaper chain-cleaver - strike profile, and add 2 to the Attacks characteristic "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Armiger Helverin",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 140,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "7+",
+    "objectiveControl": "6",
+    "invulnerableSave": "5+*",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Helverin",
+      "Armiger"
+    ],
+    "abilities": [
+      "Suppression Protocols: In your Shooting phase, after this model has shot, select one enemy unit (excluding **^^Monsters^^** and **^^Vehicles^^**) hit by one or more of those attacks made with an Armiger autocannon. Until th"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight Paladin",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 375,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "26",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Knight Paladin",
+      "Questoris"
+    ],
+    "abilities": [
+      "Seasoned Noble: Each time this model makes a ranged attack that targets the closest eligible target, improve the Armour Penetration characteristic of that attack by 1.",
+      "Paladin’s Duty (Bondsman): While a model is affected by this ability, weapons equipped by that model have the **[LETHAL HITS]** ability, and melee weapons equipped by that model have the **[LANCE]** ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight Errant",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 355,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "26",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Knight Errant",
+      "Questoris"
+    ],
+    "abilities": [
+      "Aggressive Assault: Each time this model makes a ranged attack that targets the closest eligible target, add 1 to the Hit roll.",
+      "Errant's Duty (Bondsman): While a model is affected by this ability, you can re-roll Advance rolls made for that model and ranged weapons equipped by that model have the **[ASSAULT]** ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight Gallant",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 355,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "26",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Knight Gallant",
+      "Questoris"
+    ],
+    "abilities": [
+      "Martial Pride: Each time this unit Consolidates, models in it can move an additional 3\" provided your unit can end that move within Engagement Range of one or more enemy units.",
+      "Gallant's Duty (Bondsman): While a model is affected by this ability, you can re-roll Charge rolls made for that model and each time that model makes a melee attack, you can re-roll the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight Warden",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 375,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "26",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Knight Warden",
+      "Questoris"
+    ],
+    "abilities": [
+      "Thin Their Ranks: Each time this model makes a ranged attack that targets an enemy unit (excluding **^^Monsters^^** and **^^Vehicles^^**), that attack has the **[DEVASTATING WOUNDS]** ability.",
+      "Warden's Duty (Bondsman): While a model is affected by this ability, weapons equipped by that model have the **[SUSTAINED HITS 1]** ability, and ranged weapons equipped by that model have the **[IGNORES COVER]** ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight Crusader",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 395,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "26",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Knight Crusader",
+      "Questoris"
+    ],
+    "abilities": [
+      "Punishing Salvoes: In your Movement phase, if this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the **[SUSTAINED HITS 1]** ability.",
+      "Crusader's Duty (Bondsman): While a model is affected by this ability, each time that model makes a ranged attack, add 1 to the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight Preceptor",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 365,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "26",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Knight Preceptor",
+      "Questoris"
+    ],
+    "abilities": [
+      "Exemplar of the Code: At the start of the battle, select one unit from your opponent’s army to be this model's quarry. Each time this model makes an attack that targets its quarry, you can re-roll the Wound roll. Each time",
+      "Mentor (Bondsman): Each time a model affected by this ability makes an attack that targets this model's quarry, you can re-roll the Wound roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight Castellan",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 425,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "12",
+    "save": "3+",
+    "wounds": "28",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Knight Castellan",
+      "Dominus"
+    ],
+    "abilities": [
+      "Titan Hunter: Each time a ranged attack made by this model is allocated to a **^^Monster^^** or **^^Vehicle^^** model, you can re-roll the Damage roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight Valiant",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 400,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "12",
+    "save": "3+",
+    "wounds": "28",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Knight Valiant",
+      "Dominus"
+    ],
+    "abilities": [
+      "Thundershock: In your Shooting phase, each time you select a target for this model's thundercoil harpoon, roll one D6 for the target unit and one D6 for each other enemy unit within 6\" of the target unit. On a 4+, "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Acastus Knight Asterius",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 785,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "30",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Knight Asterius",
+      "Acastus",
+      "Frame"
+    ],
+    "abilities": [
+      "Sunderer of Fortresses: Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristics of that attack by 1. If that attack targets a FORTIFICATION, improve the Strength and Damag"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Acastus Knight Porphyrion",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 725,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "30",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Acastus",
+      "Knight Porphyrion",
+      "Frame"
+    ],
+    "abilities": [
+      "Bastion of Firepower: Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [LETHAL HITS] ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Cerastus Knight Lancer",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 415,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "28",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Knight Lancer",
+      "Cerastus"
+    ],
+    "abilities": [
+      "Shock Charge: You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
+      "Lancer’s Duty (Bondsman): While a model is affected by this ability, it is eligible to declare a charge in a turn in which it Advanced."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Cerastus Knight Castigator",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 380,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "28",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Cerastus",
+      "Knight Castigator"
+    ],
+    "abilities": [
+      "Storm of Bolts: In your Shooting phase, after this model has shot, select one unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this model is on the ",
+      "Castigator’s Duty (Bondsman): While a model is affected by this ability, its ranged weapons have the [SUSTAINED HITS 1] ability and the Armour Penetration characteristic of its ranged weapons is improved by 1."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Cerastus Knight Acheron",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 380,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "28",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Cerastus",
+      "Knight Acheron"
+    ],
+    "abilities": [
+      "Searing Flames: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the phase, that enemy unit cannot have ",
+      "Acheron’s Duty (Bondsman): While a model is affected by this ability, at the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test, subtracting 1 "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Cerastus Knight Atrapos",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 405,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "28",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Cerastus",
+      "Knight Atrapos"
+    ],
+    "abilities": [
+      "Macro-extinction Protocols: Each time this model makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll. If that target is TITANIC or TOWERING, add 1 to the Wound roll as well.",
+      "Atrapos’ Duty (Bondsman): While a model is affected by this ability, each time that model makes an attack that targets a TITANIC or TOWERING model, you can re-roll the Hit roll and you can re-roll the Wound roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Questoris Knight Magaera",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 385,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "26",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Questoris",
+      "Knight Magaera"
+    ],
+    "abilities": [
+      "Repair Auto-simulacra: At the end of your Command phase, this model regains up to D3 lost wounds.",
+      "Magaera’s Duty (Bondsman): While a model is affected by this ability, each time that model makes a ranged attack that targets the closest eligible target, improve the Strength and Armour Penetration characteristics of that atta"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Questoris Knight Styrix",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 375,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "26",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Questoris",
+      "Knight Styrix"
+    ],
+    "abilities": [
+      "Grav-pinned: In your Shooting phase, after this model has shot, if an enemy INFANTRY unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enem",
+      "Styrix’s Duty (Bondsman): While a model is affected by this ability, each time that model is selected to shoot or fight, after it has resolved all of its attacks, select one enemy unit hit by one or more of those attacks; that"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Armiger Moirax",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 150,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "7+",
+    "objectiveControl": "6",
+    "invulnerableSave": "5+*",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Armiger",
+      "Moirax"
+    ],
+    "abilities": [
+      "Protection Protocols: You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight Defender",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 400,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "26",
+    "leadership": "6+",
+    "objectiveControl": "10",
+    "invulnerableSave": "4+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Questoris",
+      "Knight Defender"
+    ],
+    "abilities": [
+      "Selfless Protector: Each time a ranged attack is allocated to an **^^Imperial Knights^^** model from your army, if that model is not fully visible to every model in the attacking unit because of this Knight Defender mode",
+      "Warden's Duty (Bondsman): While a model is affected by this ability, each time an attack is allocated to that model, subtract 1 from the Damage characteristic of that attack."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight Destrier",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 265,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "18",
+    "leadership": "6+",
+    "objectiveControl": "8",
+    "invulnerableSave": "5+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Character",
+      "Imperium",
+      "Bellatus",
+      "Knight Destrier"
+    ],
+    "abilities": [
+      "Damaged: 1-6 Wounds Remaining: While this model has 1-6 wounds remaining, subtract 4 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Thundercharge: If this model is equipped with a thundershock spear and a bellatus reaper chainsword, add 2 to the Attacks characteristic of melee weapons equipped by this model.",
+      "Ram Jets: Each time this unit is selected to make a Normal or Advance move, until the end of the phase, add D3\" to the Move characteristic of this model.",
+      "Saturation Fire: Each time this model makes a ranged attack that targets a unit within range of one or more objective markers, that attack has the **[IGNORES COVER]** ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Warhound Titan",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 1100,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "40",
+    "leadership": "6+",
+    "objectiveControl": "16",
+    "invulnerableSave": "5+ (Ranged)",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Warhound Titan",
+      "Frame"
+    ],
+    "abilities": [
+      "Flank Speed: Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 8\" to the Move characteristic of this model.",
+      "Damaged: 1-13 wounds remaining: While this model has 1-13 wounds remaining, subtract 8 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Striding Colossus: Each time you target this model with a Stratagem, you must spend twice that Stratagem’s stated CP cost to do so."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Reaver Titan",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 2200,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "14",
+    "save": "2+",
+    "wounds": "60",
+    "leadership": "6+",
+    "objectiveControl": "20",
+    "invulnerableSave": "5+ (Ranged)",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Reaver Titan",
+      "Frame"
+    ],
+    "abilities": [
+      "Damaged: 1-20 wounds remaining: While this model has 1-20 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "God-machine: This model is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+      "Striding Colossus: Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Warbringer Nemesis Titan",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 2600,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "14",
+    "save": "2+",
+    "wounds": "80",
+    "leadership": "6+",
+    "objectiveControl": "20",
+    "invulnerableSave": "5+ (Ranged)",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Warbringer Nemesis Titan",
+      "Frame"
+    ],
+    "abilities": [
+      "Damaged: 1-26 wounds remaining: While this model has 1-26 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Titanic Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly IMPERIUM model makes an attack that targe",
+      "Titanic Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly CHAOS model makes an attack that targets ",
+      "Striding Colossus: Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Warlord Titan",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 3500,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "16",
+    "save": "2+",
+    "wounds": "100",
+    "leadership": "6+",
+    "objectiveControl": "30",
+    "invulnerableSave": "5+ (Ranged)",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Warlord Titan",
+      "Frame"
+    ],
+    "abilities": [
+      "Damaged: 1-33 wounds remaining: While this model has 1-33 wounds remaining, subtract 15 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Wrath of the Omnissiah: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test.",
+      "Striding Colossus: Each time you target this model with a Stratagem, you must spend four times that Stratagem’s stated CP cost to do so."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ambull [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "8",
+    "leadership": "8+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Monster",
+      "Character",
+      "Ambull",
+      "Allies: Unaligned Forces"
+    ],
+    "abilities": [
+      "Frenzy: Each time an enemy unit is selected to shoot or fight, after it has finished making its attacks, if one or more of those attacks targeted this model and this model is not destroyed, this model can fig",
+      "Borewyrm Infestation: Twice per battle, at the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield. In the Reinforcements ste"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Aegis Defence Line with Weapon Emplacement [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 145,
+    "models": 1,
+    "move": "-",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Aegis Defence Line with Weapon Emplacement"
+    ],
+    "abilities": [],
+    "system": "40k"
+  },
+  {
+    "name": "Bastion [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 275,
+    "models": 1,
+    "move": "-",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "18",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Towering",
+      "Vehicle",
+      "Transport",
+      "Bastion"
+    ],
+    "abilities": [],
+    "system": "40k"
+  },
+  {
+    "name": "Firestorm Redoubt [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 260,
+    "models": 1,
+    "move": "-",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "18",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Transport",
+      "Vehicle",
+      "Wall of Martyrs",
+      "Firestorm Redoubt"
+    ],
+    "abilities": [],
+    "system": "40k"
+  },
+  {
+    "name": "Fortress of Redemption [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 480,
+    "models": 1,
+    "move": "-",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "30",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Transport",
+      "Titanic",
+      "Vehicle",
+      "Towering",
+      "Fortress of Redemption"
+    ],
+    "abilities": [
+      "Vantage Point: While a model is on top of the tower roof of this FORTIFICATION, improve the Armour Penetration characteristic of ranged weapons equipped by that model by 1."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Guardian Drone [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 45,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "7",
+    "save": "3+",
+    "wounds": "7",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "MONSTER",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Monster",
+      "Guardian Drone",
+      "Allies: Unaligned Forces"
+    ],
+    "abilities": [
+      "Drone Commander (Aura): While a friendly **^^Spindle Drones^^** unit is within 6\" of this model, each time a model in that unit makes an attack, add 1 to the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Macro-cannon Aquila Strongpoint [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 550,
+    "models": 1,
+    "move": "-",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "30",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Titanic",
+      "Vehicle",
+      "Transport",
+      "Wall of Martyrs",
+      "Macro-cannon Aquila Strongpoint"
+    ],
+    "abilities": [
+      "Tremor Quake: In your Shooting phase, just after selecting a target for this model’s Aquila macro-cannon, the target unit and every other enemy INFANTRY unit within 3\" of that unit must take a Battle-shock test."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Plasma Obliterator [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 225,
+    "models": 1,
+    "move": "-",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "18",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Transport",
+      "Vehicle",
+      "Towering",
+      "Plasma Obliterator"
+    ],
+    "abilities": [
+      "Emergency Plasma Vents: Each time this FORTIFICATION suffers a mortal wound as the result of a failed Hazardous test, roll one D6: on a 4+, that wound is not lost."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Primaris Redoubt [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 220,
+    "models": 1,
+    "move": "-",
+    "toughness": "12",
+    "save": "3+",
+    "wounds": "18",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Vehicle",
+      "Primaris Redoubt"
+    ],
+    "abilities": [],
+    "system": "40k"
+  },
+  {
+    "name": "Skyshield Landing Pad [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 125,
+    "models": 1,
+    "move": "-",
+    "toughness": "12",
+    "save": "3+",
+    "wounds": "16",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "5+",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Skyshield Landing Pad"
+    ],
+    "abilities": [
+      "Skyshield: Friendly Infantry models and friendly units that can Fly can be set up or end any type of move on top of the platform section of this Fortification. While such a model is on the platform section of th",
+      "Repair Aircraft: At the end of your Movement phase, if there is a friendly Aircraft model on top of this Fortification, that Aircraft regains up to D3 lost wounds"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Spindle Drones [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 35,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Spindle Drones",
+      "Allies: Unaligned Forces"
+    ],
+    "abilities": [
+      "Threat Level Rising: Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "The Archivist [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "6",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Monster",
+      "Epic Hero",
+      "Character",
+      "The Archivist",
+      "Allies: Unaligned Forces"
+    ],
+    "abilities": [
+      "Fearsome Assault: At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test.",
+      "Disruptive Influence (Aura): While an enemy unit is within 6\" of this model, each time that unit takes a Battle-shock or Leadership test, subtract 1 from that test."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Vengeance Weapon Battery [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 140,
+    "models": 1,
+    "move": "-",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Wall of Martyrs",
+      "Vehicle",
+      "Vengeance Weapon Battery"
+    ],
+    "abilities": [
+      "Automated Defences: Each time this model makes a ranged attack that targets the closest enemy unit:\n- If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit rol"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Void Shield Generator [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 155,
+    "models": 1,
+    "move": "-",
+    "toughness": "12",
+    "save": "3+",
+    "wounds": "16",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "4+",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Void Shield Generator"
+    ],
+    "abilities": [
+      "Projected Void Shields (Aura): While a friendly model is wholly within 6\" of this FORTIFICATION, that model has a 4+ invulnerable save against ranged attacks."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Vortex Missile Strongpoint [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 525,
+    "models": 1,
+    "move": "-",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "30",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Titanic",
+      "Vehicle",
+      "Transport",
+      "Wall of Martyrs",
+      "Vortex Missile Strongpoint"
+    ],
+    "abilities": [
+      "Vortex: In your Shooting phase, each time you select a target for this model’s vortex missile battery, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wall of Martyrs Bunker [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 180,
+    "models": 1,
+    "move": "-",
+    "toughness": "13",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Transport",
+      "Vehicle",
+      "Wall of Martyrs",
+      "Bunker"
+    ],
+    "abilities": [
+      "Inviolable Bastion: Each time an attack is allocated to this Fortification, subtract 1 from the Damage characteristic of that attack."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Wall of Martyrs Defence Emplacement [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 140,
+    "models": 1,
+    "move": "-",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Wall of Martyrs",
+      "Defence Emplacement"
+    ],
+    "abilities": [],
+    "system": "40k"
+  },
+  {
+    "name": "Wall of Martyrs Defence Line [Legends]",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 140,
+    "models": 1,
+    "move": "-",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Wall of Martyrs",
+      "Defence Line"
+    ],
+    "abilities": [],
+    "system": "40k"
+  },
+  {
+    "name": "Sentry Gun",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 30,
+    "models": 1,
+    "move": "-",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Sentry Gun",
+      "Allies: Unaligned Forces"
+    ],
+    "abilities": [
+      "Defensive Emplacement: In the Create the Battlefield and Place Objective Markers step, set this model up in one of the Sentry Gun positions (marked D1 on the mission map)."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Searchlight",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 10,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Allies: Unaligned Forces"
+    ],
+    "abilities": [
+      "Enemy Spotted: Each time a model from your army makes a ranged attack that targets an enemy unit that is within 9\" of and visible to any Searchlights from your army, re-roll a Hit of 1 and, if the model making that ",
+      "Wall: This model is a terrain feature and counts as a Wall.",
+      "Camera Network: In the Create the Battlefield and Place Objective Markers step, set this terrain feature up in one of the Searchlight positions (marked D2 on the mission map) that does not already contain a Searchlig"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Breaching Robot",
+    "faction": "Astra Militarum",
+    "alliance": "imperium",
+    "points": 35,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Breaching Robot",
+      "Allies: Unaligned Forces"
+    ],
+    "abilities": [
+      "Limited Loadout: This model cannot attempt to operate Hatchways and cannot perform Tactical Manoeuvres.",
+      "Assault Robot: In the Deploy Armies step, when setting up a unit from your army within an Entry Zone, you can set this model up alongside that unit as if it was part of it, using the same Entry Zone.",
+      "Bomb Kit: When the bearer is destroyed (other than through triggering its bomb, as described below), roll one D6 before removing it from play: on a 6 it explodes, and each other unit within 3\" of and visible to",
+      "Cutting Gear: Each time the bearer ends a Normal move, you can open one Hatchway that is within 1\" of it. Your opponent cannot attempt to prevent that Hatchway from opening."
+    ],
+    "system": "40k"
+  }
+]

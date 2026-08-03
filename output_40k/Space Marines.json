@@ -1,0 +1,4084 @@
+[
+  {
+    "name": "Captain in Gravis Armour",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Captain",
+      "Grenades",
+      "Imperium",
+      "Gravis"
+    ],
+    "abilities": [
+      "Refuse to Yield: Each time an attack is allocated to this model, halve the Damage characteristic of that attack.",
+      "Leader: This model can be attached to the following units:\n\n■ AGGRESSOR SQUAD\n■ ERADICATOR SQUAD\n■ HEAVY INTERCESSOR SQUAD\n■ INDOMITOR KILL TEAM"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Captain in Phobos Armour",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Captain",
+      "Phobos"
+    ],
+    "abilities": [
+      "Master of Deceit: After both players have deployed their armies, if your army includes one or more models with this ability, you can select up to three friendly ADEPTUS ASTARTES INFANTRY units and redeploy all of those",
+      "Leader: This model can be attached to the following units:\n\n■ ELIMINATOR SQUAD\n■ INCURSOR SQUAD\n■ INFILTRATOR SQUAD\n■ REIVER SQUAD\n■ SCOUT SQUAD\n■ SPECTRUS KILL TEAM"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Captain in Terminator Armour",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Captain",
+      "Imperium",
+      "Terminator"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n\n■ DEATHWATCH TERMINATOR SQUAD\n■ DEATHWING KNIGHTS\n■ DEATHWING TERMINATOR SQUAD\n■ TERMINATOR ASSAULT SQUAD\n■ TERMINATOR SQUAD",
+      "Unstoppable Valour: You can re-roll Charge rolls made for this model’s unit."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Captain with Jump Pack",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Captain",
+      "Imperium",
+      "Fly",
+      "Jump Pack",
+      "Tacticus"
+    ],
+    "abilities": [
+      "Angel's Wrath: While this model is leading a unit, each time that unit ends a Charge move, until the end of the turn, add 1 to the Strength characteristic of melee  weapons equipped by models in that unit.",
+      "Leader: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSORS WITH JUMP PACKS\n■ SANGUINARY GUARD\n■ TALONSTRIKE KILL TEAM\n■ VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Intercessor Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Intercessor Squad"
+    ],
+    "abilities": [
+      "Objective Secured: If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models",
+      "Hail of Bolts: In your Shooting phase, when this unit is selected to shoot, select up to one visible enemy unit. While making those attacks, this unit’s Bolt Rifle attacks that targeted that enemy unit have +2 A"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Infernus Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Infernus Squad"
+    ],
+    "abilities": [
+      "Purge the Foe: In your Shooting phase, after this unit has shot, you can select one enemy Infantry unit hit by one or more of those attacks made with a pyreblaster. That enemy unit must take a Battle-shock test, sub"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Assault Intercessor Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Imperium",
+      "Assault Intercessor Squad",
+      "Tacticus"
+    ],
+    "abilities": [
+      "Shock Assault: Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Heavy Intercessor Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 100,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Imperium",
+      "Gravis",
+      "Heavy Intercessor Squad"
+    ],
+    "abilities": [
+      "Unyielding in the Face of the Foe: While this unit is within range of an objective marker you control, each time an attack with a Damage characteristic of 1 is allocated to a model in \nthis unit, add 1 to any armour saving throw made a"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Infiltrator Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 110,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Smoke",
+      "Phobos",
+      "Infiltrator Squad"
+    ],
+    "abilities": [
+      "Omni-scramblers: Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of this unit.",
+      "Helix Gauntlet: Models in the bearer’s unit have the Feel No Pain 6+ ability.",
+      "Infiltrator Comms Array: Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Incursor Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Smoke",
+      "Phobos",
+      "Incursor Squad"
+    ],
+    "abilities": [
+      "Multi-spectrum Array: In your Shooting phase, after this unit has shot, select one enemy unit that was hit by one or more attacks made by this unit this phase. Until the end of the phase, each time a friendly Adeptus Astar",
+      "Haywire Mine: Once per battle, at the start of any phase, you can select one enemy unit within 3\" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tactical Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 140,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Imperium",
+      "Tactical Squad"
+    ],
+    "abilities": [
+      "Combat Squads: At the start of the Declare Battle Formations step, before any units have been set up, this unit can be split into two units, each containing five models"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Scout Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 65,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Smoke",
+      "Scout Squad"
+    ],
+    "abilities": [
+      "Guerrilla Tactics: At the end of your opponent’s turn, if this unit is more than 6\" away from all enemy models, you can remove this unit from the battlefield and place it into\nStrategic Reserves."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Scout Sniper Squad [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Smoke",
+      "Scout Sniper Squad"
+    ],
+    "abilities": [
+      "Concealed Positions: This unit can only be selected as the target of a ranged attack if the attacking model is within 12\"."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Bladeguard Veteran Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Bladeguard Veteran Squad"
+    ],
+    "abilities": [
+      "Bladeguard: (Once per turn, per unit): In the Fight phase, when this unit is selected to fight or when an enemy unit targets this unit, you can select one of the following:\n\n\n▪ This unit’s melee attacks have +1 t"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Vanguard Veteran Squad with Jump Packs",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 105,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Vanguard Veteran Squad with Jump Packs",
+      "Jump Pack",
+      "Fly",
+      "Vanguard Veteran Squad"
+    ],
+    "abilities": [
+      "Vanguard Assault: Each time this unit ends a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability.",
+      "Storm Shield: The bearer has a 4+ invulnerable save",
+      "Storm Shield: The bearer has a 4+ invulnerable save"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Vanguard Veteran Squad [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 120,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Vanguard Veteran Squad"
+    ],
+    "abilities": [
+      "Vanguard Assault: Each time this unit ends a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability.",
+      "Storm Shield: The bearer has a 4+ invulnerable save",
+      "Storm Shield: The bearer has a 4+ invulnerable save",
+      "Vanguard Assault: Each time this unit ends a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Sternguard Veteran Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 100,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Sternguard Veteran Squad"
+    ],
+    "abilities": [
+      "Sternguard Focus: Each time a model in this unit makes an attack that targets your Oath of Moment Target, you can re-roll the wound roll"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Reiver Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Smoke",
+      "Phobos",
+      "Reiver Squad"
+    ],
+    "abilities": [
+      "Fearsome Assault: At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test subtracting 1 from that test",
+      "Terror Troops: While an enemy unit (excluding Monsters and Vehicles) is within 3\" of one or more units with this ability, subtract 1 from the Objective Control characteristic of models in that enemy unit.",
+      "Grapnel Launchers: Each time the bearer’s unit makes a Normal, Advance, Fall Back or Charge move, ignore any vertical distance when determining the total distance the\nbearer can be moved during that move",
+      "Reiver Grav-chute: The bearer has the Deep Strike ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Aggressor Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Imperium",
+      "Gravis",
+      "Aggressor Squad"
+    ],
+    "abilities": [
+      "Close-quarters Firepower: Each time a model in this unit makes a ranged attack that targets the closest eligible target, improve the Armour Penetration characteristic of that attack\nby 1."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Terminator Assault Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 155,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Imperium",
+      "Terminator Assault Squad",
+      "Terminator"
+    ],
+    "abilities": [
+      "Teleport Homer: At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target",
+      "Terminatus Assault: At the start of the Fight phase, each enemy unit within Engagement Range of this unit must take a Battle-Shock test.",
+      "Storm Shield: The bearer has a Wounds characteristic of 4.",
+      "Storm Shield: The bearer has a Wounds characteristic of 4."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Terminator Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 160,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Imperium",
+      "Terminator",
+      "Terminator Squad"
+    ],
+    "abilities": [
+      "Teleport Homer: At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target",
+      "Fury of the First: Each time a model in this unit makes an attack that targets your Oath of Moment target, add 1 to the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Relic Terminator Squad [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 200,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Imperium",
+      "Terminator",
+      "Relic Terminator Squad"
+    ],
+    "abilities": [
+      "Fury of the First: Each time a model in this unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristic and/or to the Hit roll. In addition, each time a mod",
+      "Grenade Harness: The bearer has the Grenades keyword"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Centurion Assault Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 150,
+    "models": 1,
+    "move": "4\"",
+    "toughness": "7",
+    "save": "2+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Imperium",
+      "Centurion Assault Squad",
+      "Centurion"
+    ],
+    "abilities": [
+      "Annihilator Protocols: Melee weapons equipped by models in this unit have the [SUSTAINED HITS 2] ability when targeting Monster, Vehicle or Fortification units",
+      "Centurion Assault Launchers: The bearer has the Grenades keyword.",
+      "Centurion Assault Launchers: The bearer has the Grenades keyword."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Centurion Devastator Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 175,
+    "models": 1,
+    "move": "4\"",
+    "toughness": "7",
+    "save": "2+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Imperium",
+      "Centurion Devastator Squad",
+      "Centurion"
+    ],
+    "abilities": [
+      "Decimator Protocols: Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Hit roll instead."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Invictor Tactical Warsuit",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 125,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "4",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Invictor Tactical Warsuit",
+      "Imperium",
+      "Phobos"
+    ],
+    "abilities": [
+      "Combat Support: Once per turn, in your opponent’s Shooting phase, when a friendly Adeptus Astartes Phobos Infantry unit within 6\" of this model is selected as the target of an attack, this model can use this ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Dreadnought",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 135,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Walker",
+      "Dreadnought"
+    ],
+    "abilities": [
+      "Wisdom of the Ancients [Aura]: While a friendly Adeptus Astartes Infantry unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ironclad Dreadnought [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 150,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Smoke",
+      "Imperium",
+      "Ironclad Dreadnought",
+      "Dreadnought"
+    ],
+    "abilities": [
+      "Siege-breaker Protocols: Each time this model makes a melee attack that targets a Vehicle or Fortification unit, add 1 to the Hit roll and add 1 to the Wound roll",
+      "Ironclad Assault Launchers: The bearer has the Grenades keyword."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Redemptor Dreadnought",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 195,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "4",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Redemptor Dreadnought",
+      "Dreadnought"
+    ],
+    "abilities": [
+      "Duty Eternal: Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ballistus Dreadnought",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 150,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "4",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Ballistus Dreadnought",
+      "Dreadnought"
+    ],
+    "abilities": [
+      "Ballistus Strike: Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Brutalis Dreadnought",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 150,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "4",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Brutalis Dreadnought",
+      "Imperium",
+      "Dreadnought"
+    ],
+    "abilities": [
+      "Brutalis Charge: Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mo"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Assault Squad [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 95,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Assault Squad"
+    ],
+    "abilities": [
+      "Astartes Shield: The bearer has a 4+ invulnerable save.",
+      "Chainsword Doctrines: Each time this unit is selected to fight, select one of the following abilities to apply to all Astartes chainswords equipped by models in this unit until the end of the phase: \n\n■ [SUSTAINED HITS 1]\n"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Assault Squad with Jump Packs [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 115,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Assault Squad with Jump Packs",
+      "Jump Pack",
+      "Fly"
+    ],
+    "abilities": [
+      "Astartes Shield: The bearer has a 4+ invulnerable save.",
+      "Hammer of Wrath: Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Invader ATV",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 60,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "CAVALRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Mounted",
+      "Grenades",
+      "Imperium",
+      "Invader ATV",
+      "Frame"
+    ],
+    "abilities": [
+      "Outrider Escort: Once per turn, in your opponent's Shooting phase, when another friendly ^^Adeptus Astartes Mounted^^ unit within 6\" of this model is selected as the target of an attack, one model from your army with "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Outrider Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "CAVALRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Mounted",
+      "Grenades",
+      "Imperium",
+      "Outrider Squad"
+    ],
+    "abilities": [
+      "Thunderous Impact: Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, improve the Strength and Damage characteristics of that attack by 1"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Bike Squad [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "CAVALRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Mounted",
+      "Grenades",
+      "Imperium",
+      "Bike Squad"
+    ],
+    "abilities": [
+      "Turbo Boost: Each time this unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Scout Bike Squad [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "5",
+    "save": "4+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "CAVALRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Mounted",
+      "Grenades",
+      "Imperium",
+      "Smoke",
+      "Scout Bike Squad"
+    ],
+    "abilities": [
+      "Outflank: When this unit arrives from Strategic Reserves, it can be set up within your opponent’s deployment zone (all other restrictions still apply)."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Suppressor Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Smoke",
+      "Fly",
+      "Jump Pack",
+      "Suppressor Squad"
+    ],
+    "abilities": [
+      "Suppression Fire: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks made with an accelerator autocannon. Until the start of your next turn, while this unit is o"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Inceptor Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 125,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Fly",
+      "Jump Pack",
+      "Imperium",
+      "Gravis",
+      "Inceptor Squad"
+    ],
+    "abilities": [
+      "Meteoric Descent: In your Movement phase, when this unit is set up on the battlefield using the Deep Strike ability, it can perform a meteoric descent. If it does, this unit can be set up anywhere on the battlefield th"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Storm Speeder Hailstrike",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 105,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Imperium",
+      "Storm Speeder Hailstrike",
+      "Frame"
+    ],
+    "abilities": [
+      "Hailstrike: Each time this model has shot, select one enemy unit (excluding MONSTERS or VEHICLES) that was hit by one or more of those attacks. Until the end of the phase, each time a friendly ADEPTUS ASTARTES un"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Storm Speeder Thunderstrike",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 135,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Imperium",
+      "Storm Speeder Thunderstrike",
+      "Frame"
+    ],
+    "abilities": [
+      "Thunderstrike: Each time this model has shot, select one enemy MONSTER or VEHICLE unit that was hit by one or more of those attacks. Until the end of the phase, each time a friendly ADEPTUS ASTARTES unit makes a ran"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Storm Speeder Hammerstrike",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 140,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Imperium",
+      "Fly",
+      "Vehicle",
+      "Storm Speeder Hammerstrike",
+      "Frame"
+    ],
+    "abilities": [
+      "Hammerstrike: Each time this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Land Speeder Typhoon [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 100,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "7",
+    "save": "3+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Imperium",
+      "Land Speeder Typhoon"
+    ],
+    "abilities": [
+      "Fire and Redeploy: In your Shooting phase, each time this model has shot, if it is not within Engagement Range of any enemy units, it can make a Normal move of up to D6\". If it does, until the end of the turn, this mode"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Land Speeder Tornado [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 95,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "7",
+    "save": "3+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Imperium",
+      "Land Speeder Tornado"
+    ],
+    "abilities": [
+      "Strafing Enfilade: Each time this model ends a Normal move, you can select one enemy unit (excluding Monster and Vehicle units) that it moved over during that move, then roll six D6: for each 4+, that enemy unit suffers"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hellblaster Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 110,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Hellblaster Squad",
+      "Tacticus"
+    ],
+    "abilities": [
+      "For the Chapter!: Each time a model in this unit is destroyed, roll one D6: on a 3+, do not remove it from play. The destroyed model can shoot after the attacking model’s unit has finished making its attacks, and is th",
+      "Entreaty of Perpetual Ardour: HELLBLASTER SQUAD only. This unit’s snap shooting attacks hit on unmodified hit rolls of 5+."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Eliminator Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Imperium",
+      "Grenades",
+      "Phobos",
+      "Eliminator Squad"
+    ],
+    "abilities": [
+      "Reposition Under Covering Fire: In your Shooting phase, after this unit has shot, if it contains an Eliminator Sergeant equipped with an instigator bolt carbine, this unit can make a\nNormal move. If it does so, until the end of the ",
+      "Mark the Target: Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Eradicator Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 90,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Gravis",
+      "Eradicator Squad"
+    ],
+    "abilities": [
+      "Total Obliteration: Each time a ranged attack made by a model in this unit targets a Monster or Vehicle model, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Devastator Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 120,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Devastator Squad"
+    ],
+    "abilities": [
+      "Signum: Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability.",
+      "Armorium Cherub: Once per battle, after making a Hit roll for a model in this unit, you can change that roll to an unmodified 6."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Desolation Squad",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 180,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Desolation Squad"
+    ],
+    "abilities": [
+      "Targeter Optics: Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit have the  [IGNORES COVER] ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Thunderfire Cannon [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 90,
+    "models": 1,
+    "move": "3\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Imperium",
+      "Thunderfire Cannon",
+      "Artillery"
+    ],
+    "abilities": [
+      "Tremor Shells: In your Shooting phase, after this unit has shot, if an enemy Infantry unit was hit by one or more attacks made by this unit’s thunderfire cannon this  phase, until the end of your opponent’s next tur",
+      "Crewed Artillery: If one model in this unit is destroyed, the remaining model in this unit is also destroyed"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hunter [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 100,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Hunter"
+    ],
+    "abilities": [
+      "Hunter Missile Targeting: Each time this model makes an attack with its skyspear missile launcher that targets a Monster or Vehicle unit, that attack scores a hit on an unmodified Hit roll of 2+."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Stalker [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 140,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "11",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Imperium",
+      "Vehicle",
+      "Smoke",
+      "Stalker"
+    ],
+    "abilities": [
+      "Skyfire Protocols: Each time you target this model with the Overwatch Stratagem just after an enemy unit that can Fly starts or ends a Normal, Advance or Fall Back move, when resolving that Stratagem, in addition to sho"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Whirlwind",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 175,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Imperium",
+      "Vehicle",
+      "Smoke",
+      "Whirlwind"
+    ],
+    "abilities": [
+      "Pinning Bombardment: In your Shooting phase, after this model has shot, if one or more of those attacks made with its Whirlwind vengeance launcher scored a hit against an enemy Infantry unit, that unit must take a Battle-"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Predator Destructor",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 140,
+    "models": 1,
+    "move": "10",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Predator Destructor"
+    ],
+    "abilities": [
+      "Destructor: Each time this model makes a ranged attack that targets an Infantry unit, improve the Armour Penetration characteristic of that attack by 1."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Predator Annihilator",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 135,
+    "models": 1,
+    "move": "10",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Predator Annihilator"
+    ],
+    "abilities": [
+      "Annihilator: Each time a ranged attack made by this model is allocated to a Monster or Vehicle model, you can re‑roll the Damage roll"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Gladiator Lancer",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 160,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Imperium",
+      "Smoke",
+      "Gladiator Lancer",
+      "Frame"
+    ],
+    "abilities": [
+      "Aqullon Optics: Each time this model is selected to shoot, you can re-roll one Hit roll, you can re-roll one Wound roll and you can re-roll one Damage roll when resolving its attacks"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Gladiator Reaper",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 160,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Smoke",
+      "Imperium",
+      "Vehicle",
+      "Gladiator Reaper",
+      "Frame"
+    ],
+    "abilities": [
+      "Rotating Death: This model’s twin heavy onslaught gatling cannon has the [SUSTAINED HITS 2] ability when targeting Infantry units."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Gladiator Valiant",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 150,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Gladiator Valiant",
+      "Frame"
+    ],
+    "abilities": [
+      "Ferocious Assault: Each time this model makes an attack with its twin las-talon that targets the closest eligible Monster or Vehicle unit, add 1 to the Hit roll"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Vindicator",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 185,
+    "models": 1,
+    "move": "9\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "11",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Vindicator"
+    ],
+    "abilities": [
+      "Siege Shield: When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Land Raider",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 220,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Land Raider",
+      "Transport",
+      "Frame"
+    ],
+    "abilities": [
+      "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+      "Transport: This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the spac"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Land Raider Crusader",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 220,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Land Raider Crusader",
+      "Smoke",
+      "Imperium",
+      "Transport",
+      "Grenades",
+      "Land Raider",
+      "Frame"
+    ],
+    "abilities": [
+      "Transport: This model has a transport capacity of 16 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the spac",
+      "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Land Raider Redeemer",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 250,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Grenades",
+      "Imperium",
+      "Smoke",
+      "Land Raider Redeemer",
+      "Transport",
+      "Land Raider",
+      "Frame"
+    ],
+    "abilities": [
+      "Transport: This model has a transport capacity of 14 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the spac",
+      "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Repulsor",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 170,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "12",
+    "save": "3+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Imperium",
+      "Smoke",
+      "Repulsor",
+      "Transport",
+      "Frame"
+    ],
+    "abilities": [
+      "Transport: This model has a transport capacity of 14 ADEPTUS ASTARTES INFANTRY models. Each JUMP PACK, WULFEN, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the spac",
+      "Emergency Combat Embarkation: Once per turn, in your opponent’s Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move, you can select one Adeptus Astartes unit from your army that "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Repulsor Executioner",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 255,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "12",
+    "save": "3+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Transport",
+      "Repulsor Executioner",
+      "Frame"
+    ],
+    "abilities": [
+      "Transport: This model has a transport capacity of 7 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space",
+      "Executioner: Each time this model makes an attack that targets a unit that is Below Half-strength, add 1 to the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Rhino",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 65,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Imperium",
+      "Smoke",
+      "Dedicated Transport",
+      "Transport",
+      "Vehicle",
+      "Rhino",
+      "Frame"
+    ],
+    "abilities": [
+      "Self Repair: At the end of your Command phase, this model regains 1 lost wound.",
+      "Transport: This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY models. It cannot transport JUMP PACK, WULFEN, PHOBOS, GRAVIS, CENTURION, TERMINATOR or TACTICUS models (excluding TACTICUS CHARACTE"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Razorback",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Dedicated Transport",
+      "Transport",
+      "Razorback",
+      "Frame"
+    ],
+    "abilities": [
+      "Fire Support: In your Shooting phase, after this model has  shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from th",
+      "Transport: This model has a transport capacity of 6 Adeptus Astartes Infantry models.  It cannot transport JUMP PACK, WULFEN, PHOBOS, GRAVIS, CENTURION, TERMINATOR or TACTICUS models (excluding TACTICUS CHARACTE"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Impulsor",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Transport",
+      "Dedicated Transport",
+      "Imperium",
+      "Impulsor"
+    ],
+    "abilities": [
+      "Transport: This model has a transport capacity of 7 TACTICUS or PHOBOS INFANTRY models. It cannot transport JUMP PACK models.",
+      "Assault Vehicle: Units can disembark from this Transport after it has Advanced. Units that do so count as having made a Normal move, and cannot declare a charge that turn.",
+      "Orbital Comms Array [Aura]: While a friendly Adeptus Astartes unit is within 6\" of the bearer, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP",
+      "Shield Dome: The bearer has a 5+ invulnerable save."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Drop Pod",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 60,
+    "models": 1,
+    "move": "-",
+    "toughness": "7",
+    "save": "3+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Imperium",
+      "Drop Pod",
+      "Transport",
+      "Dedicated Transport",
+      "Frame"
+    ],
+    "abilities": [
+      "Drop Pod Assault: This model must start the battle in Reserves and can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this",
+      "Transport: This model has a transport capacity of 12 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Gravis, Centurion or Terminator models.",
+      "Combat Disembarkation: Each time a unit disembarks from this model after it has been set up on the battlefield, that unit is still eligible to declare a charge this turn",
+      "Deployment Complete: Once this unit is set up on the battlefield and all units within it have disembarked, until the end of the battle, units cannot embark within this TRANSPORT"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Stormhawk Interceptor",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 155,
+    "models": 1,
+    "move": "-",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "-",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Aircraft",
+      "Vehicle",
+      "Imperium",
+      "Fly",
+      "Smoke",
+      "Stormhawk Interceptor"
+    ],
+    "abilities": [
+      "Interceptor: Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Stormtalon Gunship",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 165,
+    "models": 1,
+    "move": "-",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "-",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Aircraft",
+      "Vehicle",
+      "Imperium",
+      "Fly",
+      "Stormtalon Gunship"
+    ],
+    "abilities": [
+      "Strafing Run: Each time this model makes a ranged attack that targets a unit that cannot Fly, add 1 to the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Stormraven Gunship",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 280,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Imperium",
+      "Fly",
+      "Transport",
+      "Stormraven Gunship"
+    ],
+    "abilities": [
+      "Armoured Resilience: Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.",
+      "Transport: This model has a transport capacity of 12 Adeptus Astartes Infantry models and 1 Dreadnought model. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Hammerfall Bunker",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 175,
+    "models": 1,
+    "move": "-",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "14",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "Other",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fortification",
+      "Imperium",
+      "Hammerfall Bunker",
+      "Frame"
+    ],
+    "abilities": [
+      "Fortification: While an enemy unit is only within Engagement Range of one or more Fortifications from your army:\n■ That unit can still be selected as the target of ranged attacks, but each time such an attack is mad",
+      "Ceramite Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against th",
+      "Defensive Array: You can target this Fortification with the Fire Overwatch Strategem for 0CP, and can do so even if you have already targeted another unit with that Stratagem this turn. This Fortification can only be ",
+      "Defensive Array: You can target this Fortification with the Fire Overwatch Strategem for 0CP, and can do so even if you have already targeted another unit with that Stratagem this turn. This Fortification can only be "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Captain on Bike [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 95,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Grenades",
+      "Captain",
+      "Imperium",
+      "Mounted"
+    ],
+    "abilities": [
+      "Swift Assault: While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability.",
+      "Leader: This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Lieutenant",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 45,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Lieutenant"
+    ],
+    "abilities": [
+      "Storm Shield: The bearer has a 4+ invulnerable save",
+      "Support: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ COMPANY HEROES\n■ CRUSADER SQUAD\n■ DEATHWATCH VETERANS\n■ DECIMUS KILL TEAM\n■ FORTIS KILL TEA"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Lieutenant in Reiver Armour",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 45,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Smoke",
+      "Imperium",
+      "Phobos",
+      "Lieutenant",
+      "Lieutenant in Reiver Armour"
+    ],
+    "abilities": [
+      "Deadly Terror: While this model is leading a unit, increase the range of that unit’s Terror Troops ability by 3\".",
+      "Support: This model can be attached to the following unit:\n\n■ REIVER SQUAD\n\nYou can attach this model a unit it can lead even if one Captain or Chapter Master model has already been attached to it. If you do, "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Lieutenant in Phobos Armour",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 45,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Phobos",
+      "Lieutenant"
+    ],
+    "abilities": [
+      "Strategic Dispersal: In your Shooting phase, after this model’s unit has shot, if it is not within Engagement Range of any enemy models, it can make a Normal move of up to  6\". If it does, until the end of the turn, that ",
+      "Support: This model can be attached to the following units:\n\n■ INCURSOR SQUAD\n■ INFILTRATOR SQUAD\n■ REIVER SQUAD\n■ SPECTRUS KILL TEAM\n\nYou can attach this model to a unit it can lead units even if one Captain "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Librarian",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Psyker",
+      "Tacticus",
+      "Librarian"
+    ],
+    "abilities": [
+      "Mental Fortress [Psychic]: While this model is leading a unit, models in that unit have a 4+ invulnerable save.",
+      "Leader: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ DEATHWATCH VETERANS\n■ DECIMUS KILL TEAM\n■ DESOLATION SQUAD\n■ DEVASTATOR SQUAD\n■ FORTIS KILL TEAM\n■ HELLBLASTER SQUAD\n■"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Librarian in Phobos Armour",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Psyker",
+      "Phobos",
+      "Librarian",
+      "Infantry"
+    ],
+    "abilities": [
+      "Shrouding [Psychic]: While this model is leading a unit, models in that unit have the Stealth ability and that unit cannot be targeted by ranged attacks unless the attacking\nmodel is within 12\".",
+      "Leader: This model can be attached to the following units:\n\n■ ELIMINATOR SQUAD\n■ INCURSOR SQUAD\n■ INFILTRATOR SQUAD\n■ REIVER SQUAD\n■ SPECTRUS KILL TEAM"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Librarian in Terminator Armour",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Imperium",
+      "Psyker",
+      "Terminator",
+      "Librarian"
+    ],
+    "abilities": [
+      "Veil of Time [Psychic]: While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
+      "Leader: This model can be attached to the following units:\n\n■ DEATHWATCH TERMINATOR SQUAD\n■ DEATHWING KNIGHTS\n■ DEATHWING TERMINATOR SQUAD\n■ TERMINATOR ASSAULT SQUAD\n■ TERMINATOR SQUAD"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Librarian with Jump Pack [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Librarian",
+      "Psyker",
+      "Fly",
+      "Jump Pack"
+    ],
+    "abilities": [
+      "Might of Heroes [Pyschic]: While this model is leading a unit, improve the Strength and Armour Penetration characteristic of melee weapons equipped by models in that unit by 1.",
+      "Leader: This model can be attached to the following units:\n\n■ Assault Squad with Jump Packs\n■ Vanguard Veteran Squad with Jump Packs"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaplain",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 60,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "5+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Tacticus",
+      "Imperium",
+      "Chaplain"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ CRUSADER SQUAD\n■ DEATH COMPANY MARINES\n■ DEATH COMPANY MARINES WITH BOLT RIFLES\n■ DEATHWATC"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaplain in Terminator Armour",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "5+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Terminator",
+      "Chaplain",
+      "Imperium"
+    ],
+    "abilities": [
+      "Recitation of Faith: While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds.",
+      "Leader: This model can be attached to the following units:\n\n■ DEATHWATCH TERMINATOR SQUAD\n■ DEATHWING KNIGHTS\n■ DEATHWING TERMINATOR SQUAD\n■ TERMINATOR ASSAULT SQUAD\n■ TERMINATOR SQUAD"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaplain on Bike",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "5+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Mounted",
+      "Imperium",
+      "Grenades",
+      "Chaplain"
+    ],
+    "abilities": [
+      "Catechism of Fire: Each time this model’s unit is selected to shoot, you can select one enemy unit within 12\" of and visible to this model. Until the end of the phase, ranged\nweapons equipped by models in this model’s u",
+      "Leader: This model can be attached to the following units:\n\n■ OUTRIDER SQUAD\n■ RAVENWING BLACK KNIGHTS"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaplain with Jump Pack",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "5+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+\n",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Imperium",
+      "Chaplain",
+      "Fly",
+      "Jump Pack"
+    ],
+    "abilities": [
+      "Exhortation of Rage: Each time this model’s unit is selected to fight, you can select one enemy unit within Engagement Range of this model’s unit and roll one D6: on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6",
+      "Leader: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSORS WITH JUMP PACKS\n■ DEATH COMPANY MARINES WITH JUMP PACKS\n■ TALONSTRIKE KILL TEAM\n■ VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Techmarine",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 55,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Techmarine"
+    ],
+    "abilities": [
+      "Techmarine: While this model is within 3\" of one or more friendly Adeptus Astartes Vehicle units, this model has the Lone Operative ability",
+      "Blessing of the Omnissiah: In your Command phase, you can select one friendly Adeptus Astartes Vehicle model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each",
+      "Vengeance of the Omnissiah: If a friendly Adeptus Astartes Vehicle model is destroyed within 12\" of this model, until the end of the battle, this model’s Omnissian power axe has an\nAttacks characteristic of 7.",
+      "Leader: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ CRUSADER SQUAD\n■ DECIMUS KILL TEAM\n■ DESOLATION SQUAD\n■ DEVASTATOR SQUAD\n■ FORTIS KILL TEAM\n■ INTERCESSOR SQUAD\n■ SWOR"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Astartes Servitors [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 55,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "8+",
+    "objectiveControl": "0",
+    "invulnerableSave": "6+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Imperium",
+      "Astartes Servitors"
+    ],
+    "abilities": [
+      "Mindlock: While a Techmarine model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by  Astartes Servitor models in this unit by 1.",
+      "Servitor Retinue: At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a Techmarine. If it does, until the end of the battle, every model in this uni"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Lieutenant with Combi-weapon",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 95,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Lieutenant with Combi-weapon",
+      "Phobos",
+      "Lieutenant"
+    ],
+    "abilities": [
+      "Priority Objective Identified: At the start of the first battle round, if your army includes one or more models with this ability, you can select one objective marker on the battlefield. Until the end of the battle, while one or mo",
+      "Evade and Survive: Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move",
+      "Lone Survivor: This model cannot be selected to be your **^^Warlord^^**."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Primaris Company Champion [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 55,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Imperium",
+      "Grenades",
+      "Tacticus",
+      "Primaris Company Champion"
+    ],
+    "abilities": [
+      "Honour or Death: While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit and you can target that unit with the Heroic Intervention  stratagem for 0CP, even if you have already used tha",
+      "Martial Superiority: Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll",
+      "Leader: This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Infernus Squad\n■ Intercessor Squad\n■ Sternguard Veteran Squad"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Apothecary",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 40,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Infantry",
+      "Apothecary"
+    ],
+    "abilities": [
+      "Narthecium: While this model is leading a unit, in your Command phase, you can return 1 destroyed model (excluding Character models) to that unit.",
+      "Gene Seed Recovery: When this model’s Bodyguard unit is destroyed, roll one D6: on a 2+, you gain 1CP.",
+      "Support: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD \n■ CRUSADER SQUAD \n■ DEATHWATCH VETERANS \n■ DECIMUS KILL TEAM \n■ DESOLATION SQUAD \n■ DEVASTATOR SQUAD \n■ FORTIS KILL TEA"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Apothecary Biologis",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Imperium",
+      "Gravis",
+      "Apothecary",
+      "Biologis"
+    ],
+    "abilities": [
+      "Surgical Precision: While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability.",
+      "Vivispectrum: If this model’s unit destroys an enemy unit as the result of a melee attack, until the end of the battle, this model has an Objective Control characteristic of 9.",
+      "Support: This model can be attached to the following units:\n\n■ AGGRESSOR SQUAD\n■ ERADICATOR SQUAD\n■ HEAVY INTERCESSOR SQUAD\n■ INDOMITOR KILL TEAM\n\nYou can attach this model to one of the above units even if on"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ancient",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 40,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Ancient"
+    ],
+    "abilities": [
+      "Unbreakable Duty: While this model is within range of an objective marker and/or within 6\" of the centre of the battlefield, this model has the Feel No Pain 4+ ability.",
+      "Support: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD \n■ CRUSADER SQUAD \n■ DEATHWATCH VETERANS \n■ DECIMUS KILL TEAM \n■ DESOLATION SQUAD \n■ DEVASTATOR SQUAD \n■ FORTIS KILL TEA"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Bladeguard Ancient",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 40,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Bladeguard Ancient",
+      "Tacticus",
+      "Ancient"
+    ],
+    "abilities": [
+      "Deeds of Heroism: Once per battle, when this model is selected to fight, it can use this ability. If it does, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in this ",
+      "Support: This model can be attached to the following unit:\n\n■ BLADEGUARD VETERAN SQUAD\n\nYou can attach this model to the above unit even if one Captain, Chapter Master or Lieutenant model has already been atta"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ancient in Terminator Armor",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 65,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Imperium",
+      "Terminator",
+      "Ancient"
+    ],
+    "abilities": [
+      "Keep the Banner High: While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit ",
+      "Support: This model can be attached to the following units:\n\n■ DEATHWATCH TERMINATOR SQUAD\n■ DEATHWING KNIGHTS\n■ DEATHWING TERMINATOR SQUAD\n■ TERMINATOR ASSAULT SQUAD\n■ TERMINATOR SQUAD\n\nYou can attach this mo",
+      "Terminator Storm Shield: The bearer has a Wounds characteristic of 6."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Command Squad [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 165,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Command Squad"
+    ],
+    "abilities": [
+      "Narthecium: While this unit contains an Apothecary, in your Command phase, you can return 1 destroyed model (excluding Character models) to this unit",
+      "Astartes Banner: While this unit contains a Company Ancient, add 1 to the Objective Control characteristic of models in this unit.",
+      "Astartes Shield: The bearer has a 4+ invulnerable save.",
+      "Honour or Death: While this unit contains a Company Champion, add 1 to Advance and Charge rolls made for this unit and you can target this unit with the Heroic  Intervention Stratagem for 0CP, even if you have already",
+      "Astartes Shield: The bearer has a 4+ invulnerable save."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Judiciar",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 55,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "5+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+*",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Imperium",
+      "Tacticus",
+      "Judiciar"
+    ],
+    "abilities": [
+      "Tempormortis: While this model is leading a unit, that unit has the Fights First ability.",
+      "Silent Fury: Each time this model destroys an enemy Character model, until the end of the battle, add 1 to the Attacks characteristic of its executioner relic blade.",
+      "*Invulnerable Save: This model has a 4+ invulnerable save against melee attacks.",
+      "Leader: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ CRUSADER SQUAD\n■ DEATHWATCH VETERANS\n■ DECIMUS KILL TEAM\n■ FORTIS KILL TEAM\n■ INFERNUS SQUA"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Captain",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Captain",
+      "Grenades",
+      "Imperium",
+      "Tacticus"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ COMPANY HEROES, CRUSADER SQUAD\n■ DEATHWATCH VETERANS\n■ DECIMUS KILL TEAM\n■ FORTIS KILL TEAM",
+      "Relic Shield: The bearer has a Wounds characteristic of 6."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Astraeus",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 525,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "24",
+    "leadership": "6+",
+    "objectiveControl": "8",
+    "invulnerableSave": "5+*",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Titanic",
+      "Imperium",
+      "Astraeus"
+    ],
+    "abilities": [
+      "Suppression Fire: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more attacks made with its twin macro-accelerator cannon this phase. Until the start of your next turn, while thi",
+      "*Invulnerable Save: This model has a 5+ invulnerable save against ranged attacks."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Thunderhawk Gunship",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 840,
+    "models": 1,
+    "move": "20+\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "30",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Titanic",
+      "Fly",
+      "Transport",
+      "Imperium",
+      "Thunderhawk Gunship"
+    ],
+    "abilities": [
+      "Aerial Assault: Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+      "Damaged: 1-10 wounds remaining: While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Thunderhawk Cluster Bombs: Each time the bearer ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Land Raider Helios [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 265,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Transport",
+      "Imperium",
+      "Land Raider Helios"
+    ],
+    "abilities": [
+      "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+      "Transport: This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the spac"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Mortis Dreadnought [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 130,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Dreadnought",
+      "Mortis Dreadnought"
+    ],
+    "abilities": [
+      "Mortis Strike: Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Deimos Predator [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 115,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "11",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Deimos Predator"
+    ],
+    "abilities": [
+      "Armoured Spearhead: Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll inste"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Chaplain Venerable Dreadnought [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 150,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Dreadnought",
+      "Chaplain Venerable Dreadnought"
+    ],
+    "abilities": [
+      "Invulnerable Save: 5+"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Land Speeder Tempest [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 95,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "7",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Imperium",
+      "Land Speeder Tempest"
+    ],
+    "abilities": [
+      "Isolate and Destroy: Each time this model makes an attack that targets an enemy unit, if there are no other units from your opponent’s army within 6\" of that target, add 1 to the Wound roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Carab Culln the Risen [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 250,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "4",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Smoke",
+      "Character",
+      "Epic Hero",
+      "Dreadnought",
+      "Carab Culln the Risen"
+    ],
+    "abilities": [
+      "Invulnerable Save: 5+",
+      "Death-hold: When making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Caestus Assault Ram [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 215,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "18",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Aircraft",
+      "Transport",
+      "Fly",
+      "Imperium",
+      "Caestus Assault Ram"
+    ],
+    "abilities": [
+      "Transport: This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the spac",
+      "Into the Foe: If a unit disembarks from this Transport before it moves, until the end of the turn, that unit is eligible to charge in a turn in which it Advanced."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Land Raider Prometheus [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 250,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Transport",
+      "Imperium",
+      "Land Raider Prometheus"
+    ],
+    "abilities": [
+      "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+      "Transport: This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the spac"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Venerable Dreadnought [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 165,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Venerable",
+      "Walker",
+      "Smoke",
+      "Imperium",
+      "Dreadnought"
+    ],
+    "abilities": [
+      "Wisdom of the Ancients [Aura]: While a friendly Adeptus Astartes Infantry unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Rhino Primaris [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 95,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Transport",
+      "Imperium",
+      "Rhino Primaris"
+    ],
+    "abilities": [
+      "Self Repair: At the end of your Command phase, this model regains 1 lost wound.",
+      "Transport: This model has a transport capacity of 6 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Phobos, Gravis, Centurion, Terminator or Tacticus models (except for Tacticus Characte",
+      "Orbital Comms Array [Aura]: While a friendly Adeptus Astartes unit is within 6\" of the bearer, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Land Raider Excelsior [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 250,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Transport",
+      "Imperium",
+      "Land Raider Excelsior"
+    ],
+    "abilities": [
+      "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+      "Transport: This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the spac",
+      "Invulnerable Save: 5+"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Imperial Space Marine [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 40,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Imperium",
+      "Imperial Space Marine",
+      "Grenades"
+    ],
+    "abilities": [
+      "Swift Assault: While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability.",
+      "Unbreakable Duty: While this model is within range of an objective marker and/or within 6\" of the centre of the battlefield, this model has the Feel No Pain 4+ ability.",
+      "Leader: This model can be attached to the following units:\n\n■ Assault Squad\n■ Command Squad\n■ Tactical Squad\n■ Vanguard Veteran Squad\n■ Devastator Squad\n\nYou can attach this model to one of the above units ev"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Terminus Ultra [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 285,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Transport",
+      "Imperium",
+      "Terminus Ultra"
+    ],
+    "abilities": [
+      "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Relic Razorback [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 105,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Transport",
+      "Dedicated Transport",
+      "Imperium",
+      "Relic Razorback"
+    ],
+    "abilities": [
+      "Fire Support: In your Shooting phase, after this model has  shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from th",
+      "Transport: This model has a transport capacity of 6 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Tacticus, Phobos, Gravis, Centurion or Terminator models."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Company Veterans on Bikes [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 110,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "CAVALRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Mounted",
+      "Imperium",
+      "Grenades",
+      "Company Veterans"
+    ],
+    "abilities": [
+      "Vanguard Assault: Each time this unit ends a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the [LETHAL HITS] ability.",
+      "Storm Shield: The bearer has a 4+ invulnerable save",
+      "Storm Shield: The bearer has a 4+ invulnerable save"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Company Champion on Bike [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 60,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Mounted",
+      "Grenades",
+      "Imperium",
+      "Company Champion"
+    ],
+    "abilities": [
+      "Martial Superiority: Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll",
+      "Honour or Death: While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit and you can target that unit with the Heroic Intervention  stratagem for 0CP, even if you have already used tha",
+      "Leader: This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ancient on Bike [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 90,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Mounted",
+      "Grenades",
+      "Imperium",
+      "Ancient"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad",
+      "Unbreakable Duty: While this model is within range of an objective marker and/or within 6\" of the centre of the battlefield, this model has the Feel No Pain 4+ ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Apothecary on Bike [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 65,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Mounted",
+      "Grenades",
+      "Imperium",
+      "Apothecary"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad",
+      "Gene Seed Recovery: When this model’s Bodyguard unit is destroyed, roll one D6: on a 2+, you gain 1CP.",
+      "Narthecium: While this model is leading a unit, in your Command phase, you can return 1 destroyed model (excluding Character models) to that unit."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Techmarine on Bike [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 110,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Mounted",
+      "Grenades",
+      "Imperium",
+      "Techmarine"
+    ],
+    "abilities": [
+      "Blessing of the Omnissiah: In your Command phase, you can select one friendly Adeptus Astartes Vehicle model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each",
+      "Leader: This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad",
+      "Techmarine: While this model is within 3\" of one or more friendly Adeptus Astartes Vehicle units, this model has the Lone Operative ability",
+      "Vengeance of the Omnissiah: If a friendly Adeptus Astartes Vehicle model is destroyed within 12\" of this model, until the end of the battle, this model’s Omnissian power axe has an\nAttacks characteristic of 7."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Librarian on Bike [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Mounted",
+      "Grenades",
+      "Psyker",
+      "Imperium",
+      "Librarian"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad",
+      "Mental Fortress: While this model is leading a unit, models in that unit have a 4+ invulnerable save."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Thunderhawk Transporter [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 495,
+    "models": 1,
+    "move": "20+\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "30",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Titanic",
+      "Fly",
+      "Aircraft",
+      "Transport",
+      "Imperium",
+      "Thunderhawk Transporter"
+    ],
+    "abilities": [
+      "Damaged: 1-10 wounds remaining: While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Transport: This model has a transport capacity of 15 Adeptus Astartes Infantry or Adeptus Astartes Mounted models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models. Each Centurio",
+      "Aerial Deployment: If this model starts the game in Hover mode and in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tarantula Air Defense Battery [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "-",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Imperium",
+      "Tarantula Air Defence Battery"
+    ],
+    "abilities": [
+      "Sentry Programming: You can target this model with the Fire Overwatch Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this turn.  This model can only be targeted wi"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Assault Intercessors with Jump Packs",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Fly",
+      "Tacticus",
+      "Jump Pack",
+      "Assault Intercessors with Jump Packs"
+    ],
+    "abilities": [
+      "Hammer of Wrath: Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 4"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Company Heroes",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 105,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Company Heroes"
+    ],
+    "abilities": [
+      "Ancient Banner: While this unit contains an Ancient, add 1 to the Objective Control characteristic of models in this unit",
+      "Command Squad: While a Character model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ferren Areios [Legends]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Epic Hero",
+      "Infantry",
+      "Captain",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Ferren Areios"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Company Heroes\n■ Hellblaster Squad\n■ Infernus Squad\n■ Intercessor Squad\n■ Sternguard Vetera",
+      "Master of Rites: In your Command phase, select one of the following to apply to this model’s unit until the end of the turn: \n\n\n■ This model’s unit is eligible to shoot in a turn in which it Advanced.\n\n\n■ This model’s",
+      "Unrelenting and Uncompromising: While this model is leading a unit, each time a model in that unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristics and/or all modi"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Champion of the Chapter [Crucible]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Champion of the Chapter",
+      "Tacticus",
+      "Crucible"
+    ],
+    "abilities": [
+      "Exemplar Warrior: Once per turn, when this model's unit is selected to shoot or fight, it can use this ability. If it does, until the end of the phase, each time this model makes an attack, you can re-roll the Wound Ro",
+      "Leader: This model can be attached to the following units:\n- **^^Tacticus^^** (Excluding ^^**Character^^** and **^^Fly**^^)\n- **^^Tactical Squad^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Librarius Adept [Crucible]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Psyker",
+      "Tacticus",
+      "Librarius Adept",
+      "Crucible"
+    ],
+    "abilities": [
+      "Veil of Time (Psychic): Weapons equipped by models in this unit have the [Sustained Hits 1] ability",
+      "Leader: This model can be attached to the following units:\n- **^^Tacticus^^** (Excluding ^^**Character^^** and **^^Fly**^^)\n- **^^Tactical Squad^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Venerable Battle-Brother [Crucible]",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 160,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "4",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Vehicle",
+      "Dreadnought",
+      "Venerable Battle-Brother",
+      "Imperium",
+      "Walker",
+      "Crucible"
+    ],
+    "abilities": [
+      "Wisdom of the Ancients [Aura]: When a friendly ^^**Adeptus Astartes Infantry**^^ unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Eradicator Squad with Heavy Bolters",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Imperium",
+      "Gravis",
+      "Eradicator Squad",
+      "Eradicator Squad with Heavy Bolters"
+    ],
+    "abilities": [
+      "Overlapping Detonations: In your Shooting phase, when this unit is selected to shoot you can select one non-**MONSTER/VEHICLE** enemy unit visible to it. While making attacks, this unit’s heavy bolters that targeted that sele"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Land Speeder",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 105,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "8",
+    "save": "3+",
+    "wounds": "9",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Imperium",
+      "Land Speeder"
+    ],
+    "abilities": [
+      "Purgation Run: In your Shooting phase, after this unit has shot, it can make a normal move of up to D6\". If it does,\nuntil the end of the turn, this unit is not eligible to declare a charge."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Adrax Agatone",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Captain",
+      "Adrax Agatone",
+      "Imperium",
+      "Tacticus"
+    ],
+    "abilities": [
+      "Unto the Anvil: While this model is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Wound roll.",
+      "Lord of the Pyroclasts: While an enemy unit is within Engagement Range of this model, halve the Objective Control characteristic of models in that enemy unit",
+      "Leader: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ COMPANY HEROES\n■ INFERNUS SQUAD\n■ INTERCESSOR SQUAD\n■ STERNGUARD VETERAN SQUAD\n■ TACTICAL S"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Vulkan He'stan",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Captain",
+      "Imperium",
+      "Grenades",
+      "Vulkan He'stan",
+      "Tacticus"
+    ],
+    "abilities": [
+      "Forgefather: In your Shooting phase, select one enemy unit within 24\" of and visible to this model. Until the end of the phase, each time a friendly Adeptus Astartes model makes a ranged attack with a Torrent or M",
+      "Seeker of the Unfound: The first time this model is set up on the battlefield, select one objective marker on the battlefield. While this model is within range of that objective marker, it has an Objective Control character",
+      "Leader: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ COMPANY HEROES\n■ INFERNUS SQUAD\n■ TACTICAL SQUAD",
+      "Inspiring Commander: If you include this model in your army, until the end of the battle, non-Character models in Infernus Squad units from your army have an Objective Control characteristic of 2 while they are not Battle"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Darnath Lysander",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 100,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "7",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Captain",
+      "Imperium",
+      "Terminator",
+      "Darnath Lysander"
+    ],
+    "abilities": [
+      "Icon of Obstinacy: Each time an attack targets this model's unit, if the Strength characteristic of that attack is greater than or equal to the Toughness characteristic of that unit, subtract 1 from the Wound roll.",
+      "Rampart: Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 2+ invulnerable save.",
+      "Leader: This model can be attached to the following units:\n\n■ TERMINATOR ASSAULT SQUAD\n■ TERMINATOR SQUAD",
+      "Inspiring Commander: ‘If you include this model in your army, until the end of the battle, non-Character models in Terminator Assault Squad and Terminator Squad units from your army have an Objective Control characteristi"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Tor Garadon",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Captain",
+      "Gravis",
+      "Tor Garadon",
+      "Imperium"
+    ],
+    "abilities": [
+      "Signum Array: While this model is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability.",
+      "Siege Captain: Each time this model makes an attack that targets a Monster, Vehicle, or Fortification unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 2.",
+      "Leader: This model can be attached to the following units:\n\n■ AGGRESSOR SQUAD\n■ ERADICATOR SQUAD\n■ HEAVY INTERCESSOR SQUAD"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Pedro Kantor",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 80,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Chapter Master",
+      "Pedro Kantor"
+    ],
+    "abilities": [
+      "Oath of Rynn: Once per battle, at the start of either player’s Command phase, this model can use this ability. When it does, until the end of the turn, add 1 to the Attacks characteristic of weapons equipped by mod",
+      "To the Last: While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit ",
+      "Leader: This model can be attached to the following units:\n\n■ BLADEGUARD VETERAN SQUAD\n■ COMPANY HEROES\n■ STERNGUARD VETERAN SQUAD\n■ TACTICAL SQUAD",
+      "Inspiring Commander: If you include this model in your army, until the end of the battle, non-Character models in Sternguard\nVeteran Squad units from your army have an Objective Control characteristic of 2 while they are "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Iron Father Feirros",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 85,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Epic Hero",
+      "Infantry",
+      "Imperium",
+      "Gravis",
+      "Iron Father Ferrios"
+    ],
+    "abilities": [
+      "Rites of Tempering: While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability",
+      "Iron Father: While this model is within 3\" of one or more friendly Adeptus Astartes Vehicle units, it has the Lone Operative ability.",
+      "Master of the Forge: In your Command phase, select one friendly Adeptus Astartes Vehicle model within 3\" of this model. That model regains up to 3 lost wounds and, until the start of your next Command phase, each time tha",
+      "Leader: This model can be attached to the following units:\n\n■ AGGRESSOR SQUAD\n■ ERADICATOR SQUAD\n■ HEAVY INTERCESSOR SQUAD",
+      "Inspiring Commander: If you include this model in your army, until the end of the battle, non-Character models in Heavy\nIntercessor Squad units from your army have an Objective Control characteristic of 3 while they are\nn"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Caanok Var",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 90,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Terminator",
+      "Captain",
+      "Caanok Var"
+    ],
+    "abilities": [
+      "Cold and Calculating: Each time a model in this model’s unit makes an attack that targets a Monster or Vehicle unit, that\nattack has the [LETHAL HITS] ability. Each time a model in this model’s unit makes an attack that ta",
+      "Cerebrex Logic Engine: ■ At the start of the Declare Battle Formations step, you can select one Adeptus Astartes Infantry unit from your army. Until the end of the battle, that unit gains the Scouts 6\" ability.\n\n\n■ After bo",
+      "Leader: This model can be attached to the following units: \n\n\n■ TERMINATOR ASSAULT SQUAD\n■ TERMINATOR SQUAD"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Kayvaan Shrike",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 100,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Imperium",
+      "Fly",
+      "Jump Pack",
+      "Chapter Master",
+      "Kayvaan Shrike",
+      "Phobos"
+    ],
+    "abilities": [
+      "Trifold Path of Shadow: While this model is leading a unit, models  in this unit cannot be targeted by ranged attacks unless the attacking model is within 12\".",
+      "Echo of the Ravenspire: At the end of your opponent’s turn, if this model’s unit is not within Engagement Range of any enemy models, you can remove it from the battlefield and place it into Strategic Reserves.",
+      "Leader: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSORS WITH JUMP PACKS\n■ VANGUARD VETERAN SQUAD WITH JUMP PACKS",
+      "Inspiring Commander: If you include this model in your army, until the end of the battle, non-Character models in Assault\nIntercessors with Jump Packs units from your army have an Objective Control characteristic of 2 whi"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Aethon Shaan",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 100,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Epic Hero",
+      "Infantry",
+      "Fly",
+      "Jump Pack",
+      "Imperium",
+      "Tacticus",
+      "Chapter Master",
+      "Aethon Shaan"
+    ],
+    "abilities": [
+      "Chapter Master of the Raven Guard: At the start of the Declare Battle Formations step, if your army includes Aethon Shaan and Kayvaan\nShrike, until the end of the battle, your Kayvaan Shrike unit loses its Lone Operative ability and it",
+      "Master of Shadows: In your Command phase, you can select one unit from your opponent’s army. Until the start of your next Command phase, each time an Adeptus Astartes unit from your army declares a charge while it is wi",
+      "Blackwing Mantle: You can target this model’s unit with the Rapid Ingress and Heroic Intervention Stratagems for 0CP,\neven if you have already used that Stratagem on a different unit this phase."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Kor'sarro Khan",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 55,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Captain",
+      "Imperium",
+      "Kor'sarro Khan",
+      "Tacticus"
+    ],
+    "abilities": [
+      "For the Khan!: While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability and melee weapons equipped by models in that unit have the [LANCE] ability.",
+      "Trophy Taker: Each time this model destroys an enemy Character model, you gain 1CP",
+      "Leader: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ COMPANY HEROES\n■ INTERCESSOR SQUAD\n■ STERNGUARD VETERAN SQUAD\n■ TACTICAL SQUAD",
+      "Inspiring Commander: If you include this model in your army, until the end of the battle, non-Character models in Outrider Squad units from your army have an Objective Control characteristic of 3 while they are not Battle"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Suboden Khan",
+    "faction": "Space Marines",
+    "alliance": "imperium",
+    "points": 90,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Mounted",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Grenades",
+      "Captain",
+      "Suboden Khan"
+    ],
+    "abilities": [
+      "Spear of Chogoris: This model’s unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back. If that unit is already eligible to shoot and declare a charge in a turn in which it Advanced, ",
+      "Skilled Riders: Each time a model in this model’s unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally through terrain features.",
+      "Leader: This model can be attached to the following units: \n\n\nOUTRIDER SQUAD"
+    ],
+    "system": "40k"
+  }
+]

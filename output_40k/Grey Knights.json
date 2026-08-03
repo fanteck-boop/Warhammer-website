@@ -1,0 +1,1035 @@
+[
+  {
+    "name": "Brother-Captain",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 95,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Brother-Captain",
+      "Terminator",
+      "Psyker",
+      "Infantry",
+      "Imperium",
+      "Character",
+      "Leader"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n■ Brotherhood Terminator Squad\n■ Paladin Squad",
+      "Hammerhand (Psychic): While this model is leading a unit, melee weapons equipped by models in that unit have the [Lethal Hits] ability.",
+      "Eye of Judgement (Psychic): Each time this model makes an attack, you can re-roll the Wound roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Brother-Captain Stern [Legends]",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 90,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Imperium",
+      "Psyker",
+      "Terminator",
+      "Brother-Captain Stern",
+      "Leader"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n■ Brotherhood Terminator Squad\n■ Paladin Squad",
+      "Exemplar of the Silvered Host: While this model is leading a unit, each time a model in that unit makes a melee attack, on a Critical Wound, the target suffers 1 mortal wound in addition to any normal damage.",
+      "Strands of Fate (Psychic): The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Brotherhood Champion",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Psyker",
+      "Imperium",
+      "Brotherhood Champion",
+      "Leader"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n■ Purgation Squad\n■ Strike Squad",
+      "Clarion of Haste (Psychic): While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced.",
+      "Inspiring Exemplar: Each time this model destroys a Character model in the Fight phase, you gain 1CP and, until the end of the battle, add 1 to the Attacks characteristic of its Nemesis force weapon."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Brotherhood Chaplain",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 65,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "5+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Brotherhood Chaplain",
+      "Terminator",
+      "Psyker",
+      "Imperium",
+      "Infantry",
+      "Character",
+      "Leader"
+    ],
+    "abilities": [
+      "Zealous Path: While this model is leading a unit, you can re-roll Charge rolls made for that unit.",
+      "Leader: This model can be attached to the following units:\n■ Brotherhood Terminator Squad\n■ Paladin Squad"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Brotherhood Librarian",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 90,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Brotherhood Librarian",
+      "Imperium",
+      "Terminator",
+      "Infantry",
+      "Character",
+      "Psyker",
+      "Leader"
+    ],
+    "abilities": [
+      "Haloed in Soulfire (Psychic): While this model is leading a unit, that unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+      "Leader: This model can be attached to the following units:\n- **^^Brotherhood Terminator Squad^^**\n- **^^Paladin Squad^^**",
+      "Sanctic Hood: While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Brotherhood Techmarine",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Psyker",
+      "Imperium",
+      "Brotherhood Techmarine",
+      "Leader"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n■ Strike Squad\n■ Purgation Squad\n■ Purifier Squad",
+      "Guardians of the Machine: Each time an enemy unit ends a **charge move engaged** with one or more friendly **GREY KNIGHTS VEHICLE** units and within 6\" of this unit, you can target this unit with the **Heroic Intervention stra",
+      "Blessing of the Omnissiah: In your Command phase, you can select one friendly ^^**Grey Knights Vehicle**^^ model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, ",
+      "Techmarine: While this model is within 3\" of one or more friendly ^^**Grey Knights Vehicle**^^ units, this model has the Lone Operative ability."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Brotherhood Terminator Squad",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 140,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Battleline",
+      "Infantry",
+      "Grenades",
+      "Psyker",
+      "Imperium",
+      "Terminator",
+      "Brotherhood Terminator Squad"
+    ],
+    "abilities": [
+      "Force Edge (Psychic): Each time a model in this unit makes a melee attack that targets a unit (excluding ^^**Vehicles^^** or ^^**Monsters^^**), improve the Armour Penetration characteristic of that attack by 1.",
+      "Ancient's Banner: Add 1 to the Objective Control characteristic of models in the bearer’s unit.",
+      "Apothecary's narthecium: In your Command phase, if the bearer is not destroyed, you can return 1 destroyed model (excluding ^^**Characters^^**) to the bearer’s unit."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Castellan Crowe",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 100,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Castellan Crowe",
+      "Psyker",
+      "Imperium",
+      "Epic Hero",
+      "Infantry",
+      "Character",
+      "Leader"
+    ],
+    "abilities": [
+      "Champion of the Order of Purifiers (Psychic): While this model is leading a unit, add 1 to the Attacks characteristic of Purifying Flame weapons equipped by that unit.",
+      "Foesight (Psychic): Each time this model makes an attack that targets a ^^**Character^^** unit, you can re-roll the Hit roll.",
+      "Leader: This model can be attached to the following unit:\n■ Purifier Squad"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Grand Master",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 95,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "7",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Psyker",
+      "Terminator",
+      "Grand Master",
+      "Imperium",
+      "Leader"
+    ],
+    "abilities": [
+      "Might of Titan (Psychic): Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks and Strength characteristics of melee weapons equipped b",
+      "Leader: This model can be attached to the following units:\n- **^^Brotherhood Terminator Squad^^**\n- **^^Paladin Squad^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Grand Master in Nemesis Dreadknight",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 200,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "8",
+    "save": "2+",
+    "wounds": "13",
+    "leadership": "6+",
+    "objectiveControl": "4",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Vehicle",
+      "Walker",
+      "Psyker",
+      "Imperium",
+      "Grand Master in Nemesis Dreadknight"
+    ],
+    "abilities": [
+      "Surge of Wrath (Psychic): Each time this model makes a melee attack that targets a **^^Monster^^** or **^^Vehicle^^** unit, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Grand Master Voldus",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 125,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "7",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Psyker",
+      "Imperium",
+      "Terminator",
+      "Grand Master Voldus",
+      "Leader"
+    ],
+    "abilities": [
+      "Sanctuary (Psychic): - This unit has **Stealth**.\n- Melee attacks that target this unit have -1 to **hit rolls**.",
+      "Hammer Aflame (Psychic): Each time this model’s unit is selected to fight, you can select one enemy unit within Engagement Range of this model’s unit and roll one D6: on a 2-3, that enemy unit suffers 1 mortal wound; on a 4-5",
+      "Leader: This model can be attached to the following units:\n■ Brotherhood Terminator Squad\n■ Paladin Squad"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Land Raider",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 220,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Smoke",
+      "Transport",
+      "Imperium",
+      "Land Raider",
+      "Frame"
+    ],
+    "abilities": [
+      "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Land Raider Crusader",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 220,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Transport",
+      "Smoke",
+      "Imperium",
+      "Grenades",
+      "Land Raider Crusader",
+      "Frame"
+    ],
+    "abilities": [
+      "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Land Raider Redeemer",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 250,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Land Raider Redeemer",
+      "Grenades",
+      "Imperium",
+      "Vehicle",
+      "Transport",
+      "Smoke",
+      "Frame"
+    ],
+    "abilities": [
+      "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Razorback",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 75,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Razorback",
+      "Dedicated Transport",
+      "Vehicle",
+      "Transport",
+      "Smoke",
+      "Imperium",
+      "Frame"
+    ],
+    "abilities": [
+      "Fire Focus: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly model that disembarked from this ^^**Trans"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Rhino",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 70,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Rhino",
+      "Transport",
+      "Vehicle",
+      "Dedicated Transport",
+      "Imperium",
+      "Smoke",
+      "Rhino",
+      "Frame"
+    ],
+    "abilities": [
+      "Truesilver Aegis (Psychic): While a friendly ^^**Grey Knights^^** unit is wholly within 6\" of this model, models in that unit have the Feel No Pain 6+ ability against mortal wounds."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Stormhawk Interceptor",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 160,
+    "models": 1,
+    "move": "-",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "-",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Stormhawk Interceptor",
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Smoke",
+      "Imperium"
+    ],
+    "abilities": [
+      "Interceptor: Each time this model makes a ranged attack that targets a unit that can ^^**Fly^^**, add 1 to the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Stormraven Gunship",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 280,
+    "models": 1,
+    "move": "14\"",
+    "toughness": "10",
+    "save": "3+",
+    "wounds": "14",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Stormraven Gunship",
+      "Vehicle",
+      "Transport",
+      "Fly",
+      "Imperium"
+    ],
+    "abilities": [
+      "Armoured Resilience: Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Stormtalon Gunship",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 170,
+    "models": 1,
+    "move": "-",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "-",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Stormtalon Gunship",
+      "Aircraft",
+      "Vehicle",
+      "Fly",
+      "Imperium"
+    ],
+    "abilities": [
+      "Strafing Run: Each time this model makes a ranged attack that targets a unit that cannot ^^**Fly^^**, add 1 to the Hit roll"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Venerable Dreadnought",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 130,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Venerable Dreadnought",
+      "Walker",
+      "Vehicle",
+      "Psyker",
+      "Smoke",
+      "Imperium",
+      "Character"
+    ],
+    "abilities": [
+      "Guidance of the Ancients (Psychic): In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a ^^**Grey Knights^^** model from your army makes an "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Interceptor Squad",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 125,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Fly",
+      "Psyker",
+      "Interceptor Squad"
+    ],
+    "abilities": [
+      "Personal Teleporters: In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\" as if it were your Movement phase. If it does, "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Kaldor Draigo [Legends]",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 125,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "2+",
+    "wounds": "7",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Epic Hero",
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Psyker",
+      "Terminator",
+      "Imperium",
+      "Kaldor Draigo",
+      "Leader"
+    ],
+    "abilities": [
+      "Untouchable Purity: While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds",
+      "One With the Warp (Psychic): Once per battle, when this model’s unit declares a charge in the same turn it was set up on the battlefield using the Deep Strike or Teleport Assault ability, add 3 to the Charge roll.",
+      "Leader: This model can be attached to the following units:\n■ Brotherhood Terminator Squad\n■ Paladin Squad",
+      "Supreme Commander: If this model is in your army, it must be your WARLORD."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Nemesis Dreadknight",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 195,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "8",
+    "save": "2+",
+    "wounds": "13",
+    "leadership": "6+",
+    "objectiveControl": "4",
+    "invulnerableSave": "4+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Nemesis Dreadknight",
+      "Vehicle",
+      "Walker",
+      "Psyker",
+      "Imperium"
+    ],
+    "abilities": [
+      "Indomitable Spirit (Psychic): This model is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Paladin Squad",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 170,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Psyker",
+      "Terminator",
+      "Paladin Squad"
+    ],
+    "abilities": [
+      "Attuned Onslaught (Psychic): Each time this unit makes a Charge move, until the end of the turn, add 1 to the Damage characteristic of melee weapons equipped by ^^**Paladin Squad**^^ models in this unit.",
+      "Ancient's Banner: Add 1 to the Objective Control characteristic of models in the bearer’s unit.",
+      "Apothecary's narthecium: In your Command phase, if the bearer is not destroyed, you can return 1 destroyed model (excluding ^^**Characters^^**) to the bearer’s unit."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Purgation Squad",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 110,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Purgation Squad",
+      "Psyker",
+      "Imperium",
+      "Grenades",
+      "Infantry"
+    ],
+    "abilities": [
+      "Righteous Persecution: In your Shooting phase, after this unit has shot, select one enemy unit (excluding ^^**Monsters^^** or ^^**Vehicles^^**) hit by one or more of those attacks; until the start of your next turn, that en"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Purifier Squad",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 130,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Purifier Squad",
+      "Psyker",
+      "Imperium",
+      "Grenades",
+      "Infantry"
+    ],
+    "abilities": [
+      "Sanctity of Purpose: Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target is within range of an objective marker, you can re-roll the Wound roll instead."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Servitors [Legends]",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 60,
+    "models": 1,
+    "move": "",
+    "toughness": "",
+    "save": "",
+    "wounds": "",
+    "leadership": "",
+    "objectiveControl": "",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Imperium",
+      "Servitors"
+    ],
+    "abilities": [
+      "Invulnerable Save (6+): This unit has a 6+ Invulnerable Save",
+      "Mindlock: While a **^^Brotherhood Techmarine^^** model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by **^^Servitor^^** models in this ",
+      "Servitor Retinue: At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a **^^Brotherhood Techmarine^^** (a unit cannot have more than one **^^Servito",
+      "Retinue: While a **^^Brotherhood Techmarine^^** model is leading this unit, models in this unit have the Deep Strike and Teleport Assault abilities"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Strike Squad",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 115,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Strike Squad",
+      "Psyker",
+      "Imperium",
+      "Grenades",
+      "Battleline",
+      "Infantry"
+    ],
+    "abilities": [
+      "Sanctifying Ritual (Psychic): At the end of your Command phase, if this unit is within range of an objective marker that you control, that objective marker remains under you control until your opponent's Level of Control over that"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Grey Knights Thunderhawk Gunship",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 805,
+    "models": 1,
+    "move": "20\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "30",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Thunderhawk Gunship",
+      "Titanic",
+      "Vehicle",
+      "Fly",
+      "Transport",
+      "Imperium"
+    ],
+    "abilities": [
+      "Damaged: 1-10 Wounds Remaining: While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Aerial Assault: Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+      "Thunderhawk cluster bombs: Each time the bearer ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Grey Knights Dreadnought [Legends]",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 160,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Dreadnought",
+      "Walker",
+      "Vehicle",
+      "Psyker",
+      "Smoke",
+      "Imperium"
+    ],
+    "abilities": [
+      "Wisdom of the Ancients (Aura): While a friendly **^^Grey Knights Infantry^^** unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Grey Knights Relic Razorback [Legends]",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 95,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Dedicated Transport",
+      "Vehicle",
+      "Transport",
+      "Smoke",
+      "Imperium",
+      "Relic Razorback"
+    ],
+    "abilities": [
+      "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from thi"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Champion of Titan [Crucible]",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 90,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "4",
+    "save": "2+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Crucible",
+      "Psyker",
+      "Grenades",
+      "Imperium",
+      "Champion of Titan"
+    ],
+    "abilities": [
+      "Might of Titan: Once per battle, at the start of a phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks and Strength characteristics of melee weapons equipped by this m",
+      "Leader: This model can be attached to the following units:\n- **^^Purgation Squad^^**\n- **^^Strike Squad^^**"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Venerable Daemon Slayer [Crucible]",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 175,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Crucible",
+      "Psyker",
+      "Imperium",
+      "Vehicle",
+      "Walker",
+      "Smoke",
+      "Venerable Daemon Slayer"
+    ],
+    "abilities": [
+      "Guidance of the Ancients: In your Shooting phase, after this unit has shot, select one unit hit by one or more of those attacks. Until the end of the phase, each time a **^^Grey Knights^^** model from your army makes an attack"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Dreadknight Champion [Crucible]",
+    "faction": "Grey Knights",
+    "alliance": "imperium",
+    "points": 210,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "8",
+    "save": "2+",
+    "wounds": "13",
+    "leadership": "6+",
+    "objectiveControl": "4",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Crucible",
+      "Psyker",
+      "Imperium",
+      "Vehicle",
+      "Walker",
+      "Dreadknight Champion"
+    ],
+    "abilities": [
+      "Surge of Wrath: Each time this model makes a melee attack that targets a **^^Monster^^** or **^^Vehicle^^** unit, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll.",
+      "Damaged: 1-4 Wounds Remaining: When Damaged, subtract 1 from Hit rolls when it makes attacks."
+    ],
+    "system": "40k"
+  }
+]

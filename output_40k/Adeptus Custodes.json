@@ -1,0 +1,987 @@
+[
+  {
+    "name": "Aleya",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 55,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Aleya",
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Imperium",
+      "Anathema Psykana"
+    ],
+    "abilities": [
+      "Tactical Perception: While this model is leading a unit, models in that unit have the Fights First ability.",
+      "Tenacious Spirit: While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit ",
+      "Leader: This model can be attached to the following units:\n■ Prosecutors\n■ Vigilators\n■ Witchseekers"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Allarus Custodians",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 110,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "7",
+    "save": "2+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Allarus Custodians",
+      "Imperium",
+      "Terminator",
+      "Infantry"
+    ],
+    "abilities": [
+      "Slayers of Tyrants: Each time a model in this unit makes an attack that targets a ^^Character, Monster^^ or ^^Vehicle^^ unit, you can re-roll the Wound roll.",
+      "From Golden Light: Once per battle, at the end of your opponent's turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Anathema Psykana Rhino",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 65,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Rhino",
+      "Anathema Psykana",
+      "Vehicle",
+      "Dedicated Transport",
+      "Transport",
+      "Smoke",
+      "Imperium",
+      "Frame"
+    ],
+    "abilities": [
+      "Self Repair: At the start of your Command phase, this model regains 1 lost wound."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Blade Champion",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 110,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Blade Champion",
+      "Infantry",
+      "Character",
+      "Imperium"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n■ Custodian Guard\n■ Custodian Wardens",
+      "Martial Inspiration: Once per battle, in your Charge phase, this model's unit is eligible to declare a charge in a turn in which it Advanced.",
+      "Swift Onslaught: While this model is leading a unit, you can re-roll Charge rolls made for that unit."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Custodian Guard",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 170,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Custodian Guard",
+      "Infantry",
+      "Battleline",
+      "Imperium"
+    ],
+    "abilities": [
+      "Stand Vigil: Each time a model in this unit makes an attack, re-roll a Wound roll of 1. While this unit is within range of an objective marker you control, you can re-roll the Wound roll instead.",
+      "Sentinel Storm: Once per battle, in your Shooting phase, after the unit has shot, it can shoot again."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Custodian Wardens",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 200,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Custodian Wardens",
+      "Infantry",
+      "Imperium"
+    ],
+    "abilities": [
+      "Resolute Will: While a CHARACTER is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from ",
+      "Living Fortress: Once per battle, at the start of any phase, this unit can use this ability. If it does, until the end of the phase, models in this unit have the Feel No Pain 4+ ability.",
+      "Vexilla: Add 1 to the Objective Control characteristic of models in the bearer’s unit."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Knight-Centura",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 55,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Knight-Centura",
+      "Infantry",
+      "Anathema Psykana",
+      "Imperium",
+      "Character"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n■ Prosecutors\n■ Vigilators\n■ Witchseekers",
+      "Seeker's Instincts: While this model is leading a unit, add 2\" to the Move characteristic of models in that unit and add 2 to Advance and Charge rolls made for that unit.",
+      "Corner the Quarry: Each time an enemy unit (excluding MONSTERS and VEHICLES) that is within Engagement Range of this model’s unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing s"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Prosecutors",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 45,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "3+",
+    "wounds": "1",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Prosecutors",
+      "Imperium",
+      "Infantry",
+      "Anathema Psykana"
+    ],
+    "abilities": [
+      "Purity of Execution: Each time a model in this unit makes a ranged attack that targets a Psyker unit, that attack has the [PRECISION] and [DEVASTATING WOUNDS] abilities."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Shield-Captain",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 110,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Shield-Captain",
+      "Imperium",
+      "Character",
+      "Infantry"
+    ],
+    "abilities": [
+      "Master of the Stances: Once per battle, when this model's unit is selected to fight, it can use this ability. If it does, until that fight is resolved, both Ka'tah Stances are active for that unit, instead of only one.",
+      "Leader: This model can be attached to the following units:\n■ Custodian Guard\n■ Custodian Wardens"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Shield-Captain in Allarus Terminator Armour",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 130,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "7",
+    "save": "2+",
+    "wounds": "7",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Terminator",
+      "Shield-Captain",
+      "Infantry",
+      "Imperium",
+      "Character"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n■ Allarus Custodians",
+      "Auramite and Adamantite: Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, each time an attack is allocated to this model, change the Damage characteristic of"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Shield-Captain on Dawneagle Jetbike",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 140,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "7",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Dawneagle Jetbike",
+      "Imperium",
+      "Mounted",
+      "Character",
+      "Fly",
+      "Shield-Captain",
+      "Frame"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n■ Vertus Praetors",
+      "Sweeping Advance: Once per battle, at the end of the Fight phase, if this model's unit fought this phase, if it is within Engagement Range of one or more enemy units, it can make a Fall Back move or, if it is not withi"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Trajann Valoris",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 135,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "7",
+    "leadership": "5+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Trajann Valoris",
+      "Epic Hero",
+      "Character",
+      "Infantry",
+      "Imperium"
+    ],
+    "abilities": [
+      "Feel No Pain: 5+",
+      "Leader: This model can be attached to the following units:\n■ Custodian Guard\n■ Custodian Wardens",
+      "Captain-General: While this model is leading a unit, each time a model in that unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill or Weapon Skill characteristics and/or all modi",
+      "Moment Shackle: Once per battle, at the start of the Fight phase, you can select one of the following to take effect until the end of the phase:\n■ This model's Watcher's Axe melee weapon has an Attacks characteristic"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Valerian",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 110,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Valerian",
+      "Infantry",
+      "Character",
+      "Imperium",
+      "Shield-Captain",
+      "Epic Hero"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units:\n■ Custodian Guard\n■ Custodian Wardens",
+      "Golden Laurels: While this model is leading a unit, each time a melee attack targets that unit, worsen that Armour Penetration characteristic of that attack by 1.",
+      "Hero of Lion's Gate: Once per battle, after making a Hit roll, Wound roll or saving throw for this model, you can change the result of that roll to an unmodified 6."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Venerable Contemptor Dreadnought",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 170,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Venerable Contemptor Dreadnought",
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "AC Walker"
+    ],
+    "abilities": [
+      "Unyielding Ancient: The first time this model is destroyed, remove it from play without resolving its Deadly Demise ability. Then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Venerable Land Raider",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 220,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Venerable Land Raider",
+      "Transport",
+      "Vehicle",
+      "Imperium",
+      "Smoke",
+      "Frame"
+    ],
+    "abilities": [
+      "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+      "Damaged: 1-5 Wounds remaining: While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Vertus Praetors",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 145,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "7",
+    "save": "2+",
+    "wounds": "5",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "CAVALRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Fly",
+      "Mounted",
+      "Imperium",
+      "Vertus Praetors"
+    ],
+    "abilities": [
+      "Turbo Boost: Each time this unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit.",
+      "Quicksilver Execution: Once per battle, after this unit ends a normal or Advance move, you can select one enemy unit (excluding **MONSTERS** and **VEHICLES**) that it moved over during that move, then roll one D6 for each m"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Vigilators",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 50,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "3+",
+    "wounds": "1",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vigilators",
+      "Anathema Psykana",
+      "Infantry",
+      "Imperium"
+    ],
+    "abilities": [
+      "Deft Parry: Each time a melee attack targets this unit, subtract 1 from the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Witchseekers",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 50,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "3+",
+    "wounds": "1",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Witchseekers",
+      "Anathema Psykana",
+      "Infantry",
+      "Imperium"
+    ],
+    "abilities": [
+      "Sanctified Flames: In your Shooting phase, after this unit has shot, select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Custodian Guard with Adrasite and Pyrithite spears",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 250,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Custodian Guard",
+      "Infantry",
+      "Imperium"
+    ],
+    "abilities": [
+      "Stand Vigil: Each time a model in this unit makes an attack, re-roll a Wound roll of 1. While this unit is within range of an objective marker you control, you can re-roll the Wound roll instead.",
+      "No Foe Shall Stand: Once per battle, at the start of your Shooting phase, this unit can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [LETHAL HITS] and "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Sagittarum Custodians",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 225,
+    "models": 5,
+    "move": "6\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Infantry",
+      "Imperium",
+      "Sagittarum Custodians"
+    ],
+    "abilities": [
+      "Disintegration Beams: Once per battle, at the start of your Shooting phase, this unit can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the Devastating Wounds",
+      "Saturation Volleys: In your Shooting phase, after this unit has shot, select one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this unit is on "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Aquilon Custodians",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 195,
+    "models": 1,
+    "move": "5\"",
+    "toughness": "7",
+    "save": "2+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Imperium",
+      "Terminator",
+      "Infantry",
+      "Aquilon Custodians"
+    ],
+    "abilities": [
+      "Heavy Assault Infantry: Each time a model in this unit makes a ranged attack that targets the closest eligible target, re-roll a Wound roll of 1.",
+      "From Golden Light: Once per battle, at the end of your opponent's turn, if this unit is not whithin Engagement Range of one or more enemy units, you can remove it from the battlefield. In the Reinforcements step of your"
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Agamatus Custodians",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 225,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "CAVALRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Mounted",
+      "Fly",
+      "Imperium",
+      "Agamatus Custodians",
+      "Frame"
+    ],
+    "abilities": [
+      "Implacable Vanguard: Once per battle, in your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of ",
+      "Turbo Boost: Each time this unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Venatari Custodians",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 150,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "INFANTRY",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Imperium",
+      "Infantry",
+      "Fly",
+      "Jump Pack",
+      "Venatari Custodians"
+    ],
+    "abilities": [
+      "Strike from the Skies: This unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+      "Swooping Dive: Once per battle, you can target this unit with the Rapid Ingress Stratagem for 0 CP, and can do so even if you have already targeted a different unit with that Stratagem that phase.",
+      "Tarsis Buckler: The bearer has a Wounds characteristic of 4."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Contemptor-Galatus Dreadnought",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 165,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "4+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Contemptor-Galatus Dreadnought",
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "AC Walker"
+    ],
+    "abilities": [
+      "Galatus Shield: Each time a melee attack targets this model subtract 1 from the Wound roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Contemptor-Achillus Dreadnought",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 155,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "9",
+    "save": "2+",
+    "wounds": "10",
+    "leadership": "6+",
+    "objectiveControl": "3",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Imperium",
+      "Walker",
+      "Contemptor-Achillus Dreadnought",
+      "AC Walker"
+    ],
+    "abilities": [
+      "Dread Foe: Each time this model is selected to fight, you can select one enemy unit within Engagement Range of it and roll one D6, adding 2 to the result if this model made a Charge move this turn: on 4-5, that "
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Pallas Grav-attack",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 100,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "8",
+    "save": "2+",
+    "wounds": "9",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Pallas Grav-attack",
+      "Imperium",
+      "Frame"
+    ],
+    "abilities": [
+      "Merciless Hunter: In your Shooting phase, each time this model makes an attack that targets an enemy unit that is Below Half-strength, add 1 to the Wound roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Caladius Grav-tank",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 210,
+    "models": 1,
+    "move": "10\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "14",
+    "leadership": "6+",
+    "objectiveControl": "4",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Fly",
+      "Imperium",
+      "Caladius Grav-tank",
+      "Frame"
+    ],
+    "abilities": [
+      "Advanced Firepower: Each time this model makes an attack with its Twin iliastus accelerator cannon that targets an enemy unit (excluding MONSTERS and VEHICLES), that attack has the [LETHAL HITS] ability. Each time this m",
+      "Damaged: 1-5 wounds remaining: While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Telemon Heavy Dreadnought",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 225,
+    "models": 1,
+    "move": "8\"",
+    "toughness": "10",
+    "save": "2+",
+    "wounds": "12",
+    "leadership": "6+",
+    "objectiveControl": "4",
+    "invulnerableSave": "4+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Imperium",
+      "Telemon Heavy Dreadnought",
+      "Walker",
+      "AC Walker"
+    ],
+    "abilities": [
+      "Guardian Eternal: Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack.",
+      "Damaged: 1-4 wounds remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Devoted to Destruction: If this model is equipped with 2 Telemon caestus weapons in addition to its armoured feet weapon, add 2 to the Attacks characteristic of those Telemon caestus weapons."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Coronus Grav-carrier",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 180,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "16",
+    "leadership": "6+",
+    "objectiveControl": "5",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Transport",
+      "Fly",
+      "Imperium",
+      "Coronus Grav-carrier",
+      "Frame"
+    ],
+    "abilities": [
+      "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this ^^Transp",
+      "Damaged: 1-5 wounds remaining: While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Orion Assault Dropship",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 690,
+    "models": 1,
+    "move": "20+\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "22",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Transport",
+      "Aircraft",
+      "Fly",
+      "Imperium",
+      "Orion Assault Dropship"
+    ],
+    "abilities": [
+      "Damaged: 1-7 wounds remaining: While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+      "Assault Dropship: If a unit disembarks from this TRANSPORT before it moves, until the end of the turn, that unit is eligibile to charge in a turn in which it Advanced."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Ares Gunship",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 580,
+    "models": 1,
+    "move": "20+\"",
+    "toughness": "12",
+    "save": "2+",
+    "wounds": "22",
+    "leadership": "6+",
+    "objectiveControl": "0",
+    "invulnerableSave": "5+",
+    "role": "WAR MACHINE",
+    "isHero": false,
+    "canReinforce": true,
+    "categories": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Imperium",
+      "Ares Gunship"
+    ],
+    "abilities": [
+      "Infernus Firebomb: At the end of your Movement phase, select one **visible** enemy unit (excluding **AIRCRAFT/Lone Operative** units) within 24\" of this unit: \n- That enemy unit cannot have the **benefit of cover** unti",
+      "Damaged: 1-7 wounds remaining: While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Guardian of the Throne [Crucible]",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 130,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "6",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Imperium",
+      "Guardian of the Throne",
+      "Crucible"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units: ^^**Custodian Guard, Custodian Wardens**^^",
+      "Ka'tah Master: Once per phase, you can re-roll one Hit roll or one Wound roll for an attack made by this model."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Null Maiden [Crucible]",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 65,
+    "models": 1,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Infantry",
+      "Imperium",
+      "Crucible",
+      "Null Maiden",
+      "Anathema Psykana"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units: ^^**Prosecutors, Vigilators, Witchseekers**^^",
+      "Daughter of the Abyss: This model has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds."
+    ],
+    "system": "40k"
+  },
+  {
+    "name": "Kataphraktoi Exemplar [Crucible]",
+    "faction": "Adeptus Custodes",
+    "alliance": "imperium",
+    "points": 150,
+    "models": 1,
+    "move": "12\"",
+    "toughness": "7",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
+    "role": "HERO",
+    "isHero": true,
+    "canReinforce": false,
+    "categories": [
+      "Character",
+      "Imperium",
+      "Crucible",
+      "Kataphraktoi Exemplar",
+      "Mounted",
+      "Dawneagle Jetbike",
+      "Fly"
+    ],
+    "abilities": [
+      "Leader: This model can be attached to the following units: ^^**Vertus Praetors**^^",
+      "Fiend Slayer: Each time this model makes an attack that targets a ^^**Monster**^^ or ^^**Vehicle**^^ unit, you can re-roll the Wound roll."
+    ],
+    "system": "40k"
+  }
+]
