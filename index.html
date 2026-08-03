@@ -794,8 +794,45 @@
     color:var(--seal-red); border:1px solid var(--seal-red);
     padding:1px 5px; margin-left:6px; white-space:nowrap;
   }
+  .base-pts{
+    font-size:9px; color:var(--text-soft); margin-left:4px;
+    font-family:'JetBrains Mono', monospace;
+  }
   .unit-name-cell .badge-stack{display:inline-flex; align-items:center; gap:0; flex-wrap:wrap;}
 
+  /* Points breakdown */
+  .points-breakdown{
+    display:flex; gap:16px; justify-content:flex-end;
+    font-family:'JetBrains Mono', monospace; font-size:10px;
+    color:var(--text-soft); margin-top:4px;
+  }
+  .points-breakdown span{white-space:nowrap;}
+
+  /* Alliance-colored elements */
+  .alliance-pill.order{background:var(--order);}
+  .alliance-pill.chaos{background:var(--chaos);}
+  .alliance-pill.death{background:var(--death);}
+  .alliance-pill.destruction{background:var(--destruction);}
+  select.alliance-colored option{color:inherit;}
+  select.alliance-colored option[data-alliance="Order"]{color:var(--order);}
+  select.alliance-colored option[data-alliance="Chaos"]{color:var(--chaos);}
+  select.alliance-colored option[data-alliance="Death"]{color:var(--death);}
+  select.alliance-colored option[data-alliance="Destruction"]{color:var(--destruction);}
+
+  /* Print styles */
+  @media print{
+    body{background:#fff;}
+    .app-header, .tab-bar, .unit-actions-cell, .del-cell, button, .paste-import, .army-rules-panel details > summary,
+    .grim-search, .grim-filters, .dropzone, #grimoireForm, .grimoire-card .card-actions{display:none !important;}
+    .ledger{border:none; box-shadow:none; padding:0; max-width:100%;}
+    .tab-panel{display:block !important;}
+    .parchment-card{box-shadow:none; border:1px solid #999;}
+    .roster-table th{background:#f0e3c4 !important; -webkit-print-color-adjust:exact; print-color-adjust:exact;}
+    .roster-section-head td{font-weight:bold;}
+    .base-pts{display:none;}
+  }
+
+  /* Mobile responsive roster */
   @media (max-width:640px){
     .ledger{padding:30px 18px 26px;}
     thead th:nth-child(6), tbody td:nth-child(6){display:none;}
@@ -804,6 +841,13 @@
     .seal .seal-num{font-size:14px;}
     .enhancement-assign-row{flex-direction:column; align-items:stretch;}
     .enhancement-assign-row select{width:100%;}
+    .meta-row{flex-direction:column; gap:8px;}
+    .meta-row .field{flex:1 1 100%;}
+    .roster-table{font-size:13px;}
+    .roster-table input[type="number"]{width:42px;}
+    .unit-name-cell input[type="text"]{font-size:13px;}
+    .roster-section-head td{font-size:11px;}
+    .points-breakdown{flex-wrap:wrap; gap:8px;}
   }
 </style>
 </head>
@@ -908,9 +952,8 @@
         <tr>
           <th class="row-idx">#</th>
           <th>Unit</th>
-          <th class="num">Qty</th>
-          <th class="num">Pts / Model</th>
-          <th class="num">Pts Total</th>
+          <th class="num">Models</th>
+          <th class="num">Points</th>
           <th class="num">Wounds Ea.</th>
           <th class="num">Wounds Total</th>
           <th class="del-cell"></th>
@@ -919,7 +962,7 @@
       <tbody id="rosterBody"></tbody>
       <tfoot>
         <tr>
-          <td colspan="4">Totals</td>
+          <td colspan="3">Totals</td>
           <td class="num" id="totalPoints">0</td>
           <td></td>
           <td class="num" id="totalWounds">0</td>
@@ -927,9 +970,11 @@
         </tr>
       </tfoot>
     </table>
+    <div class="points-breakdown" id="pointsBreakdown"></div>
 
     <div class="empty-state" id="emptyState" style="display:none;">
-      No units mustered yet. Paste a list above, or add one by hand.
+      No units mustered yet. Paste a list above, add one by hand, or 
+      <a href="#" id="emptyStateGrimLink" style="color:var(--gold);text-decoration:underline;">import a faction from the Grimoire</a>.
     </div>
 
     <div class="add-row">
@@ -1256,7 +1301,7 @@
     function sectionHead(label){
       const tr = document.createElement('tr');
       tr.className = 'roster-section-head';
-      tr.innerHTML = `<td colspan="8">${escapeHtml(label)}</td>`;
+      tr.innerHTML = `<td colspan="7">${escapeHtml(label)}</td>`;
       rosterBody.appendChild(tr);
     }
 
@@ -1266,7 +1311,7 @@
       const pts = Number(u.points) || 0;
       const w = Number(u.wounds) || 0;
       const effQty = effectiveQty(u);
-      const ptsTotal = effQty * pts;
+      const ptsTotal = pts * (u.reinforced ? 2 : 1);
       const woundsTotal = effQty * w;
       totalPts += ptsTotal;
       totalWounds += woundsTotal;
@@ -1295,14 +1340,18 @@
       }
       actions += `<button class="small danger" data-del="${u.id}" type="button" title="Remove unit">&times;</button></div>`;
 
+      // Points cell: editable when not reinforced, static (doubled) when reinforced
+      const pointsCell = u.reinforced
+        ? `<td class="num" data-cell="ptsTotal">${ptsTotal}<span class="base-pts">(${pts})</span></td>`
+        : `<td class="num"><input class="num" type="number" min="0" value="${pts}" data-field="points" data-id="${u.id}"></td>`;
+
       const tr = document.createElement('tr');
       if (isGen) tr.className = 'is-general';
       tr.innerHTML = `
         <td class="row-idx">${displayIdx}</td>
         <td><div class="unit-name-cell">${dot}<input type="text" value="${escapeAttr(u.name)}" data-field="name" data-id="${u.id}">${heroBadge}${reinforcedBadge}${generalBadge}</div></td>
         ${qtyCell}
-        <td class="num"><input class="num" type="number" min="0" value="${pts}" data-field="points" data-id="${u.id}"></td>
-        <td class="num" data-cell="ptsTotal">${ptsTotal}</td>
+        ${pointsCell}
         <td class="num"><input class="num" type="number" min="0" value="${w}" data-field="wounds" data-id="${u.id}"></td>
         <td class="num" data-cell="woundsTotal">${woundsTotal}</td>
         <td class="del-cell">${actions}</td>
@@ -1320,6 +1369,17 @@
 
     $('totalPoints').textContent = totalPts;
     $('totalWounds').textContent = totalWounds;
+
+    // Points breakdown
+    const unitPts2 = state.units.reduce((sum, u) => sum + (Number(u.points) || 0) * (u.reinforced ? 2 : 1), 0);
+    const bd = $('pointsBreakdown');
+    if (bd) {
+      let bhtml = `<span>Units: ${unitPts2}</span>`;
+      if (enhCost > 0) bhtml += `<span>Enhancements: ${enhCost}</span>`;
+      bhtml += `<span>Total: ${totalPts}</span>`;
+      if (limit > 0) bhtml += `<span>Limit: ${limit}</span>`;
+      bd.innerHTML = bhtml;
+    }
 
     const limit = Number(state.pointsLimit) || 0;
     const seal = $('seal');
@@ -1556,7 +1616,8 @@
     let totalPts = 0, totalWounds = 0;
     state.units.forEach(u => {
       const effQty = effectiveQty(u);
-      totalPts += effQty * (Number(u.points) || 0);
+      const pts = Number(u.points) || 0;
+      totalPts += pts * (u.reinforced ? 2 : 1);
       totalWounds += effQty * (Number(u.wounds) || 0);
     });
     totalPts += computeEnhancementCosts();
@@ -1587,7 +1648,7 @@
       const w = Number(unit.wounds) || 0;
       const ptsCell = tr.querySelector('[data-cell="ptsTotal"]');
       const wndCell = tr.querySelector('[data-cell="woundsTotal"]');
-      if (ptsCell) ptsCell.textContent = effQty * pts;
+      if (ptsCell) ptsCell.textContent = pts * (unit.reinforced ? 2 : 1);
       if (wndCell) wndCell.textContent = effQty * w;
     }
     refreshTotals();
@@ -1655,6 +1716,10 @@
     render();
     save();
   });
+
+  // Empty state CTA: switch to Grimoire tab
+  const grimLink = $('emptyStateGrimLink');
+  if (grimLink) grimLink.addEventListener('click', (e) => { e.preventDefault(); switchTab('grimoire'); });
 
   // ===== Army Rules Panel handlers =====
   $('armyBattleFormation').addEventListener('change', (e) => {
@@ -1746,8 +1811,8 @@
     }
     parsed.forEach(u => {
       const qty = Math.max(1, Number(u.qty) || 1);
-      const perModelPts = Math.round((Number(u.points || 0) / qty) * 100) / 100;
-      state.units.push({ id:newId(), name:u.name, qty, points:perModelPts, wounds:0, reinforced:false, isHero:false, canReinforce:false, categories:[], enhancementTypes:[] });
+      const unitPts = Number(u.points || 0);
+      state.units.push({ id:newId(), name:u.name, qty, points:unitPts, wounds:0, reinforced:false, isHero:false, canReinforce:false, categories:[], enhancementTypes:[] });
     });
     $('importStatus').textContent = `Imported ${parsed.length} unit${parsed.length === 1 ? '' : 's'}. Fill in wounds per model as needed.`;
     $('importText').value = '';
@@ -2037,9 +2102,8 @@
   function grimEntryToRosterUnit(entry){
     const models = Math.max(1, Number(entry.models) || 1);
     const totalPts = Number(entry.points) || 0;
-    const perModelPts = Math.round((totalPts / models) * 100) / 100;
     return {
-      id:newId(), name:entry.name, qty:models, points:perModelPts, wounds:entry.wounds || 0,
+      id:newId(), name:entry.name, qty:models, points:totalPts, wounds:entry.wounds || 0,
       alliance:effectiveAlliance(entry),
       reinforced:false,
       isHero:!!entry.isHero,
@@ -2164,6 +2228,38 @@
     }));
   }
 
+  // Role categories in display order
+  const ROLE_ORDER = [
+    { cats: ['HERO'], label: 'Heroes' },
+    { cats: ['MONSTER'], label: 'Monsters' },
+    { cats: ['WAR MACHINE'], label: 'War Machines' },
+    { cats: ['CAVALRY'], label: 'Cavalry' },
+    { cats: ['BEAST'], label: 'Beasts' },
+    { cats: ['INFANTRY'], label: 'Infantry' },
+  ];
+  const ROLE_OTHER = 'Other';
+
+  function unitRole(e){
+    const cats = Array.isArray(e.categories) ? e.categories : [];
+    for (const r of ROLE_ORDER){
+      if (r.cats.some(c => cats.includes(c))) return r.label;
+    }
+    return ROLE_OTHER;
+  }
+
+  function groupByRole(items){
+    const map = {};
+    items.forEach(e => {
+      const r = unitRole(e);
+      (map[r] = map[r] || []).push(e);
+    });
+    const allLabels = ROLE_ORDER.map(r => r.label).concat([ROLE_OTHER]);
+    return allLabels.filter(r => map[r]).map(r => ({
+      role: r,
+      items: map[r].slice().sort((a,b) => (a.name||'').localeCompare(b.name||''))
+    }));
+  }
+
   function renderGrimCard(e, allianceKey){
     const meta = ALLIANCE_META[allianceKey];
     return `
@@ -2233,22 +2329,35 @@
   function populateGrimPickers(){
     const groups = buildGroupedView(grimoire);
     function optionsHtml(){
+      // Clash pickers: Alliance > Faction > Role
       return groups.map(g => {
-        const items = groupByFaction(g.items).reduce((acc, fg) => acc.concat(fg.items.map(e => ({ e, faction: fg.faction }))), []);
-        const opts = items.map(({e, faction}) => {
-          const label = (faction ? faction + ' — ' : '') + (e.name || 'Unnamed unit');
-          return `<option value="${e.id}">${escapeHtml(label)}</option>`;
+        const facGroups = groupByFaction(g.items);
+        const facOpts = facGroups.map(fg => {
+          const roleGroups = groupByRole(fg.items);
+          const roleOpts = roleGroups.map(rg => {
+            const opts = rg.items.map(e => {
+              const label = (e.name || 'Unnamed unit') + (e.points ? ' (' + e.points + ' pts)' : '');
+              return `<option value="${e.id}">${escapeHtml(label)}</option>`;
+            }).join('');
+            return `<optgroup label="${escapeAttr(rg.role)}">${opts}</optgroup>`;
+          }).join('');
+          return `<optgroup label="${escapeAttr(fg.faction)}">${roleOpts}</optgroup>`;
         }).join('');
-        return `<optgroup label="${escapeAttr(g.meta.label)}">${opts}</optgroup>`;
+        return `<optgroup label="${escapeAttr(g.meta.label)}">${facOpts}</optgroup>`;
       }).join('');
     }
     function optionsHtmlByFaction(items){
+      // Roster picker: Faction > Role
       return groupByFaction(items).map(fg => {
-        const opts = fg.items.map(e => {
-          const label = (e.name || 'Unnamed unit') + (e.points ? ' (' + e.points + ' pts)' : '');
+        const roleGroups = groupByRole(fg.items);
+        const roleOpts = roleGroups.map(rg => {
+          const opts = rg.items.map(e => {
+            const label = (e.name || 'Unnamed unit') + (e.points ? ' (' + e.points + ' pts)' : '');
           return `<option value="${e.id}">${escapeHtml(label)}</option>`;
+          }).join('');
+          return `<optgroup label="${escapeAttr(rg.role)}">${opts}</optgroup>`;
         }).join('');
-        return `<optgroup label="${escapeAttr(fg.faction)}">${opts}</optgroup>`;
+        return `<optgroup label="${escapeAttr(fg.faction)}">${roleOpts}</optgroup>`;
       }).join('');
     }
     let rosterScoped = grimoire;
