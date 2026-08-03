@@ -1345,8 +1345,8 @@
       const iconUrl = `assets/icons/${fb.icon}`;
       iconL.src = iconUrl;
       iconR.src = iconUrl;
-      iconL.style.opacity = '0.75';
-      iconR.style.opacity = '0.75';
+      iconL.style.opacity = '1';
+      iconR.style.opacity = '1';
     } else if (state.alliance && ALLIANCE_META[state.alliance]) {
       // Alliance selected but no faction: use alliance color + alliance icon
       const color = getComputedStyle(document.documentElement).getPropertyValue('--' + state.alliance).trim() || '#8a7a5a';
@@ -1356,8 +1356,8 @@
       // Try jpg fallback if png doesn't exist
       iconL.src = allianceIcon;
       iconR.src = allianceIcon;
-      iconL.style.opacity = '0.75';
-      iconR.style.opacity = '0.75';
+      iconL.style.opacity = '1';
+      iconR.style.opacity = '1';
     } else {
       // Default: dark brown radial, no icons
       bg.style.background = '';
