@@ -1388,6 +1388,18 @@
     }
   }
 
+  function updateClashLabels(){
+    const is40k = activeSystem === '40k';
+    ['a','b'].forEach(p => {
+      const saveLabel = document.querySelector(`label[for="${p}_save"]`);
+      const wardLabel = document.querySelector(`label[for="${p}_ward"]`);
+      const woundsLabel = document.querySelector(`label[for="${p}_wounds"]`);
+      if (saveLabel) saveLabel.textContent = is40k ? 'Save (X+)' : 'Save (X+)';
+      if (wardLabel) wardLabel.textContent = is40k ? 'Inv. Save (X+, opt.)' : 'Ward (X+, optional)';
+      if (woundsLabel) woundsLabel.textContent = is40k ? 'Wounds / model' : 'Wounds / model';
+    });
+  }
+
   function switchSystem(sys){
     if (sys === activeSystem) return;
     activeSystem = sys;
@@ -1402,6 +1414,7 @@
     grimoire = [];
     // Re-populate dropdowns
     populateAllianceDropdown();
+    updateClashLabels();
     $('rosterFaction').value = '';
     // Load system-specific data
     load().then(() => {
@@ -2699,17 +2712,34 @@
   }
 
   function applyGrimToClash(entry, prefix){
-    const map = { name:'name', models:'models', wounds:'wounds', save:'save', ward:'ward' };
-    Object.keys(map).forEach(f => {
-      const el = document.getElementById(prefix + '_' + map[f]);
-      if (el && entry[f] !== undefined && entry[f] !== '') el.value = entry[f];
-    });
-    renderWeaponsTable(prefix + '_weaponsBody', getWeapons(entry), 'toggle');
-    const wrap = document.querySelector('#' + (prefix === 'a' ? 'a_name' : 'b_name')).closest('.clash-col').querySelector('.abilities-ref-wrap');
-    if (entry.abilities) {
-      wrap.innerHTML = `<details class="abilities-toggle" open><summary>Abilities &amp; Keywords (from Grimoire)</summary><div class="grim-abilities">${escapeHtml(entry.abilities)}</div></details>`;
+    // Map fields based on system
+    if (activeSystem === '40k') {
+      const setVal = (id, val) => { const el = document.getElementById(prefix + '_' + id); if (el && val) el.value = val; };
+      setVal('name', entry.name || '');
+      setVal('models', entry.models || '1');
+      setVal('wounds', entry.wounds || '1');
+      // Save: strip '+' suffix, keep just the number
+      const saveVal = (entry.save || '').replace(/\+/g, '');
+      setVal('save', saveVal);
+      // Invulnerable save maps to ward field
+      const invSaveVal = (entry.invulnerableSave || '').replace(/\+/g, '');
+      setVal('ward', invSaveVal);
     } else {
-      wrap.innerHTML = '';
+      const map = { name:'name', models:'models', wounds:'wounds', save:'save', ward:'ward' };
+      Object.keys(map).forEach(f => {
+        const el = document.getElementById(prefix + '_' + map[f]);
+        if (el && entry[f] !== undefined && entry[f] !== '') el.value = entry[f];
+      });
+    }
+    renderWeaponsTable(prefix + '_weaponsBody', getWeapons(entry), 'toggle');
+    const nameEl = document.getElementById(prefix === 'a' ? 'a_name' : 'b_name');
+    const wrap = nameEl ? nameEl.closest('.clash-col').querySelector('.abilities-ref-wrap') : null;
+    if (wrap) {
+      if (entry.abilities) {
+        wrap.innerHTML = `<details class="abilities-toggle" open><summary>Abilities &amp; Keywords (from Grimoire)</summary><div class="grim-abilities">${escapeHtml(entry.abilities)}</div></details>`;
+      } else {
+        wrap.innerHTML = '';
+      }
     }
     saveClash();
   }
@@ -2982,6 +3012,7 @@
       $('brandTagline').textContent = getSysConfig().tagline;
     }
     populateAllianceDropdown();
+    updateClashLabels();
     load().then(() => {
       loadGrimoire().then(() => {
         autoLoadFactionData();
