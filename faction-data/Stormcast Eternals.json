@@ -1,0 +1,4410 @@
+[
+  {
+    "name": "Battle Traits: Stormcast Eternals",
+    "faction": "Stormcast Eternals",
+    "points": 0,
+    "models": 1,
+    "move": "",
+    "wounds": 1,
+    "save": "",
+    "ward": 0,
+    "weapons": [],
+    "abilities": "Heavens-sent: Once Per Battle, Your Movement Phase Pick a friendly non-Unique Stormcast Eternals Infantry or Cavalry unit that started the battle with 2 or more models and that has been destroyed to be the target. Set up a replacement unit with half the number of models from the target unit (rounding up) more than 9\" from all enemy units.\nTheir Finest Hour: Once Per Turn (Army), Your Hero Phase Pick a friendly Stormcast Eternals unit that has not used this ability this battle to use this ability For the rest of the turn, add 1 to wound rolls for that unit's combat attacks and add 1 to save rolls for that unit.\nScions of the Storm: Your Movement Phase Pick a friendly Stormcast Eternals unit that is in the Celestial Realm. Set up that unit anywhere on the battlefield more than 9\" from all enemy units.\nThe Celestial Realm: Deployment Phase If there are more friendly Stormcast Eternals units on the battlefield than there are set up in reserve, pick a friendly Stormcast Eternals unit that has not been deployed. Set up that unit in reserve in the Celestial Realm. It has now been deployed.\nKeywords: Deploy",
+    "categories": [],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Neave Blacktalon",
+    "faction": "Stormcast Eternals",
+    "points": 280,
+    "models": 1,
+    "move": "7\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Relic Boltstorm Pistol",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Whirlwind Axes",
+        "models": "",
+        "attacks": "7",
+        "hit": "2",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Justice From Azyr: Add 1 to the Damage characteristic of this unit's Whirlwind Axes for attacks that target a Hero.\nWindrider: Your Combat Phase If this unit is in combat or charged this turn, this unit can make a pile-in move. Then, if this unit is in combat, you must pick 1 or more enemy units to be the target(s) of this unit's attacks. Resolve combat attacks against the target unit(s). Then, roll a dice. On a 3+, remove this unit from the battlefield and set it up again on the battlefield more than 3\" from all enemy units and wholly within the combat range of a friendly The Blacktalons unit that is not in combat.\nKeywords: Core, Attack, Fight",
+    "categories": [
+      "HERO",
+      "UNIQUE",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "VANGUARD CHAMBER",
+      "THE BLACKTALONS"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Lorai, Child of the Abyss",
+    "faction": "Stormcast Eternals",
+    "points": 0,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 5,
+    "save": 4,
+    "ward": 5,
+    "weapons": [
+      {
+        "name": "Abyssal Touch",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Aquatic Illusions: Subtract 1 from hit rolls for attacks that target this unit.\nNebulous Sea-fog: Your Hero Phase Make a casting roll of 2D6. Until the start of your next turn, while a friendly The Blacktalons unit is wholly within 6\" of this unit, if the unmodified hit roll for a shooting attack that targets that unit is 1-5, the attack fails and the attack sequence ends.\nKeywords: Spell",
+    "categories": [
+      "HERO",
+      "UNIQUE",
+      "ORDER",
+      "INFANTRY",
+      "THE BLACKTALONS",
+      "WIZARD (1)",
+      "WARD (5+)",
+      "IDONETH DEEPKIN"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Yndrasta, the Celestial Spear",
+    "faction": "Stormcast Eternals",
+    "points": 270,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 8,
+    "save": 3,
+    "ward": 5,
+    "weapons": [
+      {
+        "name": "Thengavar",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "4"
+      },
+      {
+        "name": "Blade of the High Heavens",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Thengavar",
+        "models": "",
+        "attacks": "2",
+        "hit": "2",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "The Prime Huntress: Double the Damage characteristic of this unit's Thengavar for attacks that target Monsters.\nDazzling Radiance: Ignore negative modifiers to the control scores of friendly Stormcast Eternals units while they are wholly within 12\" of this unit.\nOn Wings of Brilliance: Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.",
+    "categories": [
+      "HERO",
+      "WARD (5+)",
+      "UNIQUE",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "WARMASTER",
+      "FLY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Astreia Solbright",
+    "faction": "Stormcast Eternals",
+    "points": 220,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 8,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Astreia's Aetherstave",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Kazra's Monstrous Claws",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Lightning Pulse: Your Hero Phase Pick up to 3 enemy units in combat with this unit to be the targets, then make a casting roll of 2D6. If you picked 1 unit, inflict 3 mortal damage on the target. If you picked 2 units, inflict 2 mortal damage on each target. If you picked 3 units, inflict 1 mortal damage on each target.\nKeywords: Spell\nThunderous Pounce: Your Charge Phase Add 2 to charge rolls for friendly Sacrosanct Chamber Cavalry units while they are wholly within 12\" of this unit.\nSoul Energy of the First Host: Any Combat Phase Pick a visible friendly Sacrosanct Chamber unit wholly within 12\" of this unit to be the target. Add 1 to wound rolls for the target's attacks for the rest of the turn.",
+    "categories": [
+      "HERO",
+      "UNIQUE",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "SACROSANCT CHAMBER",
+      "CAVALRY",
+      "WIZARD (1)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Aventis Firestrike, Magister of Hammerhal",
+    "faction": "Stormcast Eternals",
+    "points": 310,
+    "models": 1,
+    "move": "14\"",
+    "wounds": 12,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Staff of Hammerhal",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Loithar's Stamping Hooves",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Pyroelectric Blast: Your Hero Phase Pick a visible enemy unit within 12\" of this unit to be the target. Inflict 3 mortal damage on the target, then inflict 1 mortal damage on each other enemy unit within 3\" of the target.\nKeywords: Spell\nComet Trail: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. For the rest of the phase, add 1 to hit rolls for combat attacks that target that enemy unit.\nKeywords: Rampage\nThunderhead Crown: Your Hero Phase Heal (3) this unit.",
+    "categories": [
+      "HERO",
+      "FLY",
+      "UNIQUE",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "MONSTER",
+      "WIZARD (2)",
+      "SACROSANCT CHAMBER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Celestant-Prime, Hammer of Sigmar",
+    "faction": "Stormcast Eternals",
+    "points": 240,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 10,
+    "save": 3,
+    "ward": 5,
+    "weapons": [
+      {
+        "name": "Cometstrike Sceptre",
+        "models": "",
+        "attacks": "1",
+        "hit": "2",
+        "wound": "⟝See 'Cometstrike Sceptre' ability⟞",
+        "rend": "⟝See 'Cometstrike Sceptre' ability⟞",
+        "damage": "⟝See 'Cometstrike Sceptre' ability⟞"
+      },
+      {
+        "name": "Ghal Maraz",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "4"
+      }
+    ],
+    "abilities": "Cometstrike Sceptre: Each time this unit attacks with its Cometstrike Sceptre, if the attack scores a hit, inflict D3 mortal damage on the target.\nRetribution From on High: Once Per Battle, Your Movement Phase Pick this unit if it is in the Celestial Realm. Subtract the current battle round number from 10 to determine this unit's strike zone. Set up this unit on the battlefield more than a number of inches equal to its strike zone from all enemy units.",
+    "categories": [
+      "HERO",
+      "FLY",
+      "WARD (5+)",
+      "WARMASTER",
+      "UNIQUE",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Drakesworn Templar",
+    "faction": "Stormcast Eternals",
+    "points": 390,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 18,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Skybolt Bow",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "2",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Templar Weapons",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Stardrake's Cavernous Jaws",
+        "models": "",
+        "attacks": "7",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Rain of Stars",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Monstrous Challenge: Once Per Turn (Army), Your Combat Phase Pick an enemy Monster in combat with this unit to be the target. Roll a dice. On a 2+, for the rest of the turn:\n• Add 1 to the Damage characteristic of this unit's Stardrake's Cavernous Jaws for attacks that target that enemy Monster.\n• If that enemy Monster is also a Hero, add 1 to the Damage characteristic of this unit's Templar Weapons for attacks that target that unit.\nKeywords: Rampage\nBattle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Stardrake's Cavernous Jaws is 4.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "MONSTER",
+      "FLY",
+      "EXTREMIS CHAMBER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits"
+    ]
+  },
+  {
+    "name": "Gardus Steel Soul",
+    "faction": "Stormcast Eternals",
+    "points": 160,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 5,
+    "weapons": [
+      {
+        "name": "Sigmarite Runeblade and Warhammer",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Aura of Purity: If this unit charged this turn, for the rest of the turn, friendly Stormcast Eternals units have Ward (5+) while they are wholly within 12\" of this unit.\nSaintly Assault: Once Per Battle, Your Charge Phase Pick up to 3 visible friendly Stormcast Eternals Infantry units wholly within 6\" of this unit to be the targets. For the rest of the turn:\n• Add 1 to charge rolls for the targets.\n• Add 1 to the Attacks characteristic of the targets' melee weapons.",
+    "categories": [
+      "HERO",
+      "WARD (5+)",
+      "UNIQUE",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Gavriel Sureheart",
+    "faction": "Stormcast Eternals",
+    "points": 120,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Starbound Blade",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Once More, For Sigmar, Charge!: Your Charge Phase Pick this unit and another visible friendly Warrior Chamber unit within 3\" of it to be the targets. For the rest of the phase, when making charge rolls for the targets, add 1 to the number of dice rolled, then remove 1 dice of your choice and use the remaining dice as the charge roll.\nSigmarite Thundershield: Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "WARRIOR CHAMBER",
+      "UNIQUE"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Ionus Cryptborn, Warden of Lost Souls",
+    "faction": "Stormcast Eternals",
+    "points": 340,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 16,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Spirit-scouring Flames",
+        "models": "",
+        "attacks": "9",
+        "hit": "2",
+        "wound": "4",
+        "rend": "2",
+        "damage": "1"
+      },
+      {
+        "name": "Soulbreaker",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Cthorak's Ancient Claws",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of Cthorak's Ancient Claws is 4.\nLightning Tempest: Your Hero Phase Pick a visible enemy unit within 12\" of this unit to be struck by lightning, then make a chanting roll of D6. Inflict D3 mortal damage on that unit, then roll a dice. On a 1-2, the sequence ends. On a 3+, pick another enemy unit within 3\" of that unit to be struck by lightning and inflict D3 mortal damage on it. If the chanting roll was 10+, you can pick another enemy unit within 6\" of that unit instead of 3\". Keep rolling dice in this way until the sequence ends or there are no other enemy units eligible to be struck by lightning. A unit cannot be struck by lightning more than once per turn.\nKeywords: Prayer\nSpirit-scouring Flames: Once Per Turn (Army), Any Shooting Phase Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit's Spirit-scouring Flames to be the target. The target has the Soulburned keyword for the rest of the battle.\nKeywords: Rampage\nSoulburned: Any Shooting Phase This unit can use this ability even if it has been destroyed. Pick any number of Soulburned enemy units to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+    "categories": [
+      "HERO",
+      "FLY",
+      "WARMASTER",
+      "UNIQUE",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "MONSTER",
+      "PRIEST (2)",
+      "RUINATION CHAMBER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Karazai the Scarred",
+    "faction": "Stormcast Eternals",
+    "points": 420,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 20,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Blazing Tempest",
+        "models": "",
+        "attacks": "1",
+        "hit": "2",
+        "wound": "3",
+        "rend": "2",
+        "damage": "D3+3"
+      },
+      {
+        "name": "Annihilating Jaws",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "4"
+      },
+      {
+        "name": "Drake-lord's Talons",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Calamitous Tail Sweep: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target.\nKeywords: Rampage\nFires of Retribution: While this unit has 5-9 damage points, add 1 to the Attacks characteristic of its melee weapons.\nWhile this unit has 10 or more damage points, add 2 to the Attacks characteristic of its melee weapons instead.\nAncient Master of War: Any Combat Phase Pick an enemy unit within this unit's combat range to be the target. Subtract 1 from the Attacks characteristic of the target's melee weapons for the rest of the turn.",
+    "categories": [
+      "HERO",
+      "UNIQUE",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "WARMASTER",
+      "MONSTER",
+      "FLY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Knight-Arcanum",
+    "faction": "Stormcast Eternals",
+    "points": 120,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Valedictor's Stave",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Indomitable Loreseekers: Add 1 to casting rolls for this unit when it uses a Summon ability and add 1 to banishment rolls for this unit.\nEnemy Manifestations cannot pass through or end any move within this unit's combat range unless they started that move within this unit's combat range.\nThis unit has Ward (4+) against mortal damage inflicted by Manifestations.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "WARRIOR CHAMBER",
+      "WIZARD (1)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Knight-Draconis",
+    "faction": "Stormcast Eternals",
+    "points": 230,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 11,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Draconic Flamestream",
+        "models": "",
+        "attacks": "4",
+        "hit": "2",
+        "wound": "3",
+        "rend": "2",
+        "damage": "1"
+      },
+      {
+        "name": "Aeonfire Blade",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Draconith's Fangs and Talons",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Arcane Heritage: Reaction: Opponent declared a Spell ability If this unit or a friendly Stormdrake Guard unit wholly within 12\" of this unit was picked to be the target of that spell, roll a dice. On a 4+, ignore the effect of that spell on this unit or that friendly unit. This unit can use this ability more than once per phase but only once per Spell ability\nWrath of the Draconith: Once Per Turn (Army), Any Combat Phase Pick a friendly Stormdrake Guard unit within this unit's combat range to be the target. Roll a dice. On a 2+, add 1 to the Attacks characteristic of both this unit's and the target's Draconith's Fangs and Talons for the rest of the turn.\nKeywords: Rampage",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "MONSTER",
+      "FLY",
+      "EXTREMIS CHAMBER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Knight-Heraldor",
+    "faction": "Stormcast Eternals",
+    "points": 110,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Sigmarite Broadsword",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Thunderblast: Your Shooting Phase Pick a visible faction terrain feature within 18\" of this unit to be the target. Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\nCall to Battle: If a friendly Warrior Chamber unit wholly within 12\" of this unit uses the 'Rally' command, you can make 3 additional rally rolls of D6.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Knight-Incantor",
+    "faction": "Stormcast Eternals",
+    "points": 140,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Incantor's Staff",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Voidstorm Scroll: Once Per Battle, Reaction: Opponent declared a Spell ability for a Wizard within 30\" of this unit The spell is unbound and its effect is not resolved.\nKeywords: Unbind\nAetheric Destabilisation: While they are within 30\" of this unit, subtract 1 from casting rolls for enemy units when they use Summon abilities.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "SACROSANCT CHAMBER",
+      "WIZARD (1)",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Knight-Judicator with Gryph-hounds",
+    "faction": "Stormcast Eternals",
+    "points": 130,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Terminus Greatbow",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Judicator's Warblade",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Faithful Gryph-hounds: This unit's Gryph-hounds are tokens. After setting up this unit on the battlefield for the first time, place both Gryph-hounds next to it.\nHunting Hounds: Once Per Turn (Army), Your Movement Phase If this unit was not set up this turn and any of this unit's Gryph-hounds are on the battlefield, pick an enemy unit within 12\" of this unit to be the target. Roll a dice. On a 1, remove 1 of this unit's Gryph-hounds from the battlefield. On a 2+, pick 1 of this unit's Gryph-hounds that is next to this unit or next to an enemy unit and place it next to the target instead.\nWhile any of this unit's Gryph-hounds are next to an enemy unit, add 1 to hit rolls and wound rolls for this unit's shooting attacks that target that unit.\nIf an enemy unit is destroyed or removed from the battlefield while any of this unit's Gryph-hounds are next to it, place those Gryph-hounds next to this unit.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Knight-Questor",
+    "faction": "Stormcast Eternals",
+    "points": 110,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Questor Warblade",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "His Will Be Done\nHeroic Retribution: Reaction: You declared a Fight ability for this unit Pick a friendly Questor Soulsworn unit that has not used a Fight ability this turn and is within this unit's combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.\nOrdained Quest: Once Per Battle (Army), Deployment Phase Pick an objective wholly outside friendly territory. That objective is considered by you to be questmarked.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Knight-Relictor",
+    "faction": "Stormcast Eternals",
+    "points": 120,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Relic Maul",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Relic Censer: Your Shooting Phase Pick an enemy unit within 12\" of this unit to be the target. Roll a dice. On a 2+, subtract 1 from ward rolls made by the target for the rest of the turn.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "WARRIOR CHAMBER",
+      "PRIEST (1)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Knight-Venator",
+    "faction": "Stormcast Eternals",
+    "points": 170,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Realmhunter's Bow",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Bowstave",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Star-eagle's Celestial Talons",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Star-fated Arrow: Once Per Battle (Army), Your Shooting Phase Pick a visible enemy unit within 24\" of this unit to be the target. If the target is a non-Monster unit, inflict D6 mortal damage on it. If the target is a Monster, inflict D6+3 mortal damage on it.\nKeywords: Core, Attack, Shoot",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "WARRIOR CHAMBER",
+      "FLY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Knight-Vexillor",
+    "faction": "Stormcast Eternals",
+    "points": 100,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Sigmarite Warblade",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "The Banner of the Reforged: Any Hero Phase Pick up to D3 friendly Stormcast Eternals units wholly within 12\" of this unit to be the targets. Add 3 to each target's control score for the rest of the turn. In addition, Heal (D3) each target.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Knight-Zephyros",
+    "faction": "Stormcast Eternals",
+    "points": 130,
+    "models": 1,
+    "move": "7\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Stormshot Pistol",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Tempest Axes",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Tireless Hunter: Once Per Turn (Army), Your Movement Phase Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "VANGUARD CHAMBER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Krondys, Son of Dracothion",
+    "faction": "Stormcast Eternals",
+    "points": 480,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 20,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Blazing Tempest",
+        "models": "",
+        "attacks": "1",
+        "hit": "2",
+        "wound": "3",
+        "rend": "2",
+        "damage": "D3+3"
+      },
+      {
+        "name": "Apex Maw",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "4"
+      },
+      {
+        "name": "Drake-lord's Talons",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Soul-shaking Roar: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.\nKeywords: Rampage\nBattle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Apex Maw is 2.\nRegalia Fulmentarus: Add 2 to casting rolls for this unit.\nAtavistic Tempest: Your Hero Phase Pick a visible enemy unit within 18\" of the caster to be the target, then make a casting roll of 2D6. Pick 1 of the following effects to apply to the target until the start of your next turn:\n*Blinding Gales:* Subtract 1 from hit rolls for the target's attacks.\n*Meteor-hail:* Subtract 1 from the Rend characteristic of the target's weapons.\n*Flash-freezing Blizzard:* Subtract 1 from save rolls for the target.\nKeywords: Spell",
+    "categories": [
+      "HERO",
+      "UNIQUE",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "WARMASTER",
+      "MONSTER",
+      "FLY",
+      "WIZARD (2)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Lord-Aquilor",
+    "faction": "Stormcast Eternals",
+    "points": 140,
+    "models": 1,
+    "move": "14\"",
+    "wounds": 8,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Heavy Boltstorm Pistol",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Starbound Blade and Shock Handaxe",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Gryph-charger's Razor Beak",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Ride the Winds Aetheric: Your Movement  Phase If this unit is not in combat, you can pick up to 2 friendly Vanguard-Palladors units that are not in combat to be the targets. Remove this unit and the targets (if any) from the battlefield. Set this unit up again on the battlefield more than 9\" from all enemy units. Then, set up each target wholly within 12\" of this unit and more than 9\" from all enemy units.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "CAVALRY",
+      "VANGUARD CHAMBER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Lord-Arcanum",
+    "faction": "Stormcast Eternals",
+    "points": 140,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Aetherstave",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Magical Mending: End of Any Turn Pick a visible friendly Manifestation wholly within 12\" of this unit to be the target. Heal (D6) the target.\nAetheric Manipulation: Add 1 to casting rolls for this unit when it uses a SUMMON ability.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "SACROSANCT CHAMBER",
+      "WIZARD (1)",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Lord-Arcanum on Celestial Dracoline",
+    "faction": "Stormcast Eternals",
+    "points": 210,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 8,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Astreia's Aetherstave",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Celestial Dracoline's Claws",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Storm Wave: Once Per Turn (Army), Any Charge Phase Pick a visible friendly Sacrosanct Chamber Cavalry unit that charged this phase and is wholly within 12\" of this unit to be the target. Inflict D3 mortal damage on each enemy unit in combat with the target.\nPack Alpha: Any Combat Phase If this unit is in combat, pick this unit and up to 1 other visible friendly Sacrosanct Chamber Cavalry unit within its combat range to be the targets. Add 1 to the Attacks characteristic of the targets' Companion melee weapons for the rest of the turn.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "SACROSANCT CHAMBER",
+      "CAVALRY",
+      "WIZARD (1)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Lord-Arcanum on Gryph-charger",
+    "faction": "Stormcast Eternals",
+    "points": 220,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 8,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Aetherstave",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Gryph-charger's Razor Beak",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Healing Light: End of Any Turn Pick a visible friendly Sacrosanct Chamber unit that is not in combat and is within 12\" of this unit to be the target. If the target is damaged, Heal (D6) the target. If the target is not damaged, return a slain model to it.\nOn the Winds Aetheric: Your Movement Phase If this unit is not in combat, remove it from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "SACROSANCT CHAMBER",
+      "CAVALRY",
+      "WIZARD (1)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Lord-Arcanum on Tauralon",
+    "faction": "Stormcast Eternals",
+    "points": 280,
+    "models": 1,
+    "move": "14\"",
+    "wounds": 12,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Tauralon's Hooves",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      },
+      {
+        "name": "Aetherstave",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Trails of Astral Light: Add 1 to casting rolls for friendly Stormcast Eternals Wizards while they are wholly within 12\" of this unit.\nStarlight Mantle: Once Per Turn (Army), Any Combat Phase If this unit is in combat, pick each visible friendly Stormcast Eternals unit within its combat range to be the targets. For the rest of the turn, the targets have Ward (5+) and this unit has Strike-last.\nKeywords: Rampage\nAetheric Deflection: Once Per Turn (Army), Enemy Hero Phase Pick a visible enemy Wizard that used a Spell ability this phase and is within 30\" of this unit to be the target. Roll X+1 dice, where X is an amount equal to the target's power level. For each 2+, inflict 1 mortal damage on the target.",
+    "categories": [
+      "HERO",
+      "FLY",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "MONSTER",
+      "SACROSANCT CHAMBER",
+      "WIZARD (1)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Lord-Castellant",
+    "faction": "Stormcast Eternals",
+    "points": 150,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Castellant's Halberd",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Gryph-hound's Beak",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Loyal Companion: Once Per Battle, Any Combat Phase For the rest of the turn, this unit has Ward (4+). Remove this unit's Gryph-hound from the battlefield at the end of the turn.\nDutiful Gryph-hound: This unit's Gryph-hound is a token. If this unit's Gryph-hound has been removed, it can no longer attack with its Gryph-hound's Beak and it cannot use the 'Loyal Companion' ability\nWarding Lantern: Your Hero Phase Pick an objective within 12\" of this unit to be the target. For the rest of the turn:\n• Friendly Stormcast Eternals units have Ward (6+) while they are contesting the target.\n• Ward rolls cannot be made for enemy units while they are contesting the target.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Lord-Celestant",
+    "faction": "Stormcast Eternals",
+    "points": 100,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Weapons of Legend",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Furious Retribution: Reaction: You declared a Fight ability for this unit Pick a friendly non-Hero Warrior Chamber Infantry unit that has not used a Fight ability this turn and is within this unit's combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to wound rolls for the target's attacks for the rest of the turn.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Lord-Celestant on Dracoth",
+    "faction": "Stormcast Eternals",
+    "points": 150,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 8,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Stormblast",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Dracoth's Claws and Fangs",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Weapons of Legend",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Righteous Avengers: Reaction: You declared a Fight ability for this unit Pick a friendly non-Hero Extremis Chamber Cavalry unit that has not used a Fight ability this turn and is within this unit's combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "CAVALRY",
+      "EXTREMIS CHAMBER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Lord-Celestant on Stardrake",
+    "faction": "Stormcast Eternals",
+    "points": 490,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 18,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Rain of Stars",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Stardrake's Cavernous Jaws",
+        "models": "",
+        "attacks": "7",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Weapons of Legend",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Cavernous Jaws: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll 3 dice. For each roll that equals or exceeds the target's Health characteristic, 1 model in the target unit is slain.\nKeywords: Rampage\nBattle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Stardrake's Cavernous Jaws is 4.\nLord of the Host: Once Per Battle, Any Combat Phase Add 1 to the Attacks characteristic of other friendly Extremis Chamber units wholly within 12\" of this unit for the rest of the turn.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "MONSTER",
+      "FLY",
+      "EXTREMIS CHAMBER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits"
+    ]
+  },
+  {
+    "name": "Lord-Commander Bastian Carthalos",
+    "faction": "Stormcast Eternals",
+    "points": 190,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 8,
+    "save": 3,
+    "ward": 5,
+    "weapons": [
+      {
+        "name": "Thunderbolts of Azyr",
+        "models": "",
+        "attacks": "2",
+        "hit": "2",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Uskavar, the Sunderer",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "4"
+      }
+    ],
+    "abilities": "Voice of Thunder: Each time a friendly Stormcast Eternals unit wholly within 12\" of this unit uses the 'All-out Attack' command, no command points are spent.\nCastellan of Azyr: Deployment Phase Pick up to 3 friendly Stormcast Eternals Infantry units to be the targets. Each target can use the 'Normal Move' ability as if it were your movement phase.\nMantle of the First Storm: End of Any Turn If any enemy models were slain by this unit's attacks this turn, Heal (4) this unit.",
+    "categories": [
+      "HERO",
+      "UNIQUE",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "WARD (5+)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Lord-Exorcist",
+    "faction": "Stormcast Eternals",
+    "points": 150,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Redemption Stave",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Purifying Blast: Your Hero Phase Pick a visible enemy Priest within 18\" of this unit to be the target. Roll a dice. On a 2+:\n• If the target has any ritual points, remove a number of ritual points from it equal to the roll.\n• If the target has no ritual points, inflict D3 mortal damage on it.\nRedemptor Casket: Models cannot be returned to enemy units within 12\" of this unit.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "SACROSANCT CHAMBER",
+      "WIZARD (1)",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Lord-Imperatant",
+    "faction": "Stormcast Eternals",
+    "points": 110,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Blessed Warhammer",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Guided by Lightning: Once Per Battle (Army), Your Movement Phase Pick up to 3 friendly Stormcast Eternals units wholly within 12\" of this unit that were set up this turn using the 'Scions of the Storm' ability to be the targets. Each target can immediately move D3\". The targets cannot move into combat during any part of that move.\nLoyal Gryph-hound: This unit's Gryph-hound is a token. This unit has Ward (5+) while its Gryph-hound is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove its Gryph-hound from the battlefield after the Attack ability has been resolved (the damage point is still inflicted).",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Lord-Ordinator",
+    "faction": "Stormcast Eternals",
+    "points": 100,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Astral Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Arcane Engineer: Once Per Turn (Army), Any Shooting Phase Pick a visible friendly Sacrosanct Chamber War Machine wholly within 12\" of this unit to be the target. The target's attacks score critical hits on unmodified hit rolls of 4+ for the rest of the phase.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "SACROSANCT CHAMBER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Lord-Terminos",
+    "faction": "Stormcast Eternals",
+    "points": 140,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "The Blade Terminos",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Earn an Honourable Death: Reaction: You declared a Fight ability for this unit Pick a friendly non-Hero Ruination Chamber Infantry unit that has not used a Fight ability this turn and is within this unit's combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target's attacks for the rest of the turn.\nMemorian: This unit's Memorian is a token. Add 3 to the control scores of friendly Ruination Chamber units wholly within 12\" of this unit while its Memorian is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove its Memorian from the battlefield after the Attack ability has been resolved (the damage point is still inflicted).",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "RUINATION CHAMBER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Lord-Veritant",
+    "faction": "Stormcast Eternals",
+    "points": 110,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Staff of Abjuration",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "3"
+      },
+      {
+        "name": "Judgement Blade",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Sense Unholy Sorcery: This unit's Gryph-crow is a token. Subtract 1 from casting rolls and chanting rolls for enemy units within 12\" of this unit while its Gryph-crow is on the battlefield.\nIf you make an unmodified save roll of 1 for this unit, remove its Gryph-crow from the battlefield after the Attack ability has been resolved (the damage point is still inflicted).\nStaff of Abjuration: This unit can use Unbind abilities as if it had Wizard (1).",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "RUINATION CHAMBER",
+      "PRIEST (1)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Lord-Vigilant on Gryph-stalker",
+    "faction": "Stormcast Eternals",
+    "points": 120,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 8,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Gryph-stalker's Beak and Talons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Hallowed Greataxe",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Deliver Judgement: Once Per Battle (Army), Any Combat Phase Pick a friendly non-Hero Ruination Chamber unit wholly within 12\" of this unit. That unit can use 2 Fight abilities this phase. After the first is used, however, that unit has Strike-last for the rest of the turn.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "RUINATION CHAMBER",
+      "CAVALRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Vandus Hammerhand",
+    "faction": "Stormcast Eternals",
+    "points": 160,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 8,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Stormblast",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Heldensen",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Calanax's Claws and Fangs",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Lord of the Hammerhands: Add 3 to the control scores of friendly Warrior Chamber units while they are wholly within 12\" of this unit.\nVengeance Unleashed: Reaction: You declared a Fight ability for this unit Pick a friendly non-Hero Warrior Chamber unit that has not used a Fight ability this turn and is within this unit's combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target's attacks for the rest of the turn.",
+    "categories": [
+      "HERO",
+      "UNIQUE",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "WARRIOR CHAMBER",
+      "CAVALRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Aetherwings",
+    "faction": "Stormcast Eternals",
+    "points": 80,
+    "models": 3,
+    "move": "14\"",
+    "wounds": 2,
+    "save": 6,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Beak and Claws",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Marked for Destruction: Add 1 to hit rolls for shooting attacks made by friendly Vanguard Chamber units if the target is within 9\" of this unit.",
+    "categories": [
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "VANGUARD CHAMBER",
+      "BEAST",
+      "FLY"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Dracothian Guard Desolators",
+    "faction": "Stormcast Eternals",
+    "points": 170,
+    "models": 2,
+    "move": "10\"",
+    "wounds": 5,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Stormblast",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Thunderaxe",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Dracoth's Claws and Fangs",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Cleaving Blow: Add 1 to the Damage characteristic of this unit's Thunderaxes if the target unit has 10 or more models.",
+    "categories": [
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "EXTREMIS CHAMBER",
+      "CAVALRY"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Dracothian Guard Concussors",
+    "faction": "Stormcast Eternals",
+    "points": 200,
+    "models": 2,
+    "move": "10\"",
+    "wounds": 5,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Stormblast",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Lightning Hammer",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Dracoth's Claws and Fangs",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Thunderstruck: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.",
+    "categories": [
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "EXTREMIS CHAMBER",
+      "CAVALRY"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Dracothian Guard Concussors",
+    "faction": "Stormcast Eternals",
+    "points": 120,
+    "models": 2,
+    "move": "10\"",
+    "wounds": 5,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Stormblast",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Lightning Hammer",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Dracoth's Claws and Fangs",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Thunderstruck: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.",
+    "categories": [
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "EXTREMIS CHAMBER",
+      "CAVALRY"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Annihilators with Meteoric Grandhammers",
+    "faction": "Stormcast Eternals",
+    "points": 180,
+    "models": 3,
+    "move": "4\"",
+    "wounds": 3,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Meteoric Grandhammer",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Force of a Falling Star: Any Charge Phase If this unit charged this phase and the unmodified charge roll was 8+, pick an enemy unit within 1\" of it to be the target. The target has Strike-last for the rest of the turn.\nBlazing Impact: Your Movement Phase If this unit was set up this turn using the 'Scions of the Storm' ability, pick up to 3 enemy units within 10\" of it to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+    "categories": [
+      "Warrior Chamber Infantry",
+      "INFANTRY",
+      "CHAMPION",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Decimators",
+    "faction": "Stormcast Eternals",
+    "points": 240,
+    "models": 5,
+    "move": "4\"",
+    "wounds": 3,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Starsoul Mace",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Decimator Thunderaxe",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Decimating Blow: Add 1 to the Damage characteristic of this unit's Decimator Thunderaxes if the target unit has 10 or more models.",
+    "categories": [
+      "Warrior Chamber Infantry",
+      "CHAMPION",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Annihilators",
+    "faction": "Stormcast Eternals",
+    "points": 130,
+    "models": 3,
+    "move": "4\"",
+    "wounds": 3,
+    "save": 2,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Meteoric Hammer",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Brace for Impact: Any Charge Phase Pick an enemy unit that charged this turn and is in combat with this unit to be the target. Roll a dice for each model in this unit. If any of the rolls are a 6, the target has Strike-last for the rest of the turn.\nBlazing Impact: Your Movement Phase If this unit was set up this turn using the 'Scions of the Storm' ability, pick up to 3 enemy units within 10\" of it to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+    "categories": [
+      "Warrior Chamber Infantry",
+      "INFANTRY",
+      "CHAMPION",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Celestar Ballista",
+    "faction": "Stormcast Eternals",
+    "points": 120,
+    "models": 1,
+    "move": "3\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Celestar Stormbolts",
+        "models": "",
+        "attacks": "D6+6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Sacristan Engineers' Blades",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Stormbolt Tempest: Once Per Battle (Army), Any Combat Phase Pick an enemy unit in combat with this unit and that charged this turn to be the target. Roll a dice. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+    "categories": [
+      "Sacrosanct Chamber War Machine",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "SACROSANCT CHAMBER",
+      "WAR MACHINE"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Castigators",
+    "faction": "Stormcast Eternals",
+    "points": 110,
+    "models": 3,
+    "move": "5\"",
+    "wounds": 2,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Thunderhead Greatbow",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Greatbow Stock",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Dependable Gryph-hound: This unit's Gryph-hound is a token. If this unit's Gryph-hound has been removed, it cannot use the 'Scouting Companion' ability.\nCastigator Aetheric Channelling: Your Shooting Phase If this unit has not used a Move ability this turn and was not set up this turn, this unit's shooting attacks score critical hits on unmodified hit rolls of 5+ for the rest of the turn.\nScouting Companion: Reaction: You declared a Shoot ability for this unit Until the Shoot ability is resolved, add 3\" to the Range characteristic of this unit's Thunderhead Greatbows and add 1 to hit rolls for this unit's shooting attacks. Remove this unit's Gryph-hound from the battlefield after the Shoot ability has been resolved.",
+    "categories": [
+      "Sacrosanct Chamber Infantry",
+      "CHAMPION",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "SACROSANCT CHAMBER",
+      "INFANTRY"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Dracothian Guard Tempestors",
+    "faction": "Stormcast Eternals",
+    "points": 170,
+    "models": 2,
+    "move": "10\"",
+    "wounds": 5,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Volleystorm Crossbow",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Warblade",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Dracoth's Claws and Fangs",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Stormblast",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Overwhelming Volleystorm: Any Shooting Phase Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit's Volleystorm Crossbows to be the target. Roll a dice. On a 2+, the target cannot use the 'All-out Defence' command in the following combat phase.",
+    "categories": [
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "EXTREMIS CHAMBER",
+      "CAVALRY"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Dracothian Guard Desolators",
+    "faction": "Stormcast Eternals",
+    "points": 100,
+    "models": 2,
+    "move": "10\"",
+    "wounds": 5,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Stormblast",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Thunderaxe",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Dracoth's Claws and Fangs",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Cleaving Blow: Add 1 to the Damage characteristic of this unit's Thunderaxes if the target unit has 10 or more models.",
+    "categories": [
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "EXTREMIS CHAMBER",
+      "CAVALRY"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Dracothian Guard Fulminators",
+    "faction": "Stormcast Eternals",
+    "points": 190,
+    "models": 2,
+    "move": "10\"",
+    "wounds": 5,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Stormblast",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Stormstrike Glaive",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Dracoth's Claws and Fangs",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Impaling Strikes: Any Charge Phase If this unit charged this phase, pick an enemy unit within 1\" of it to be the target. Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+    "categories": [
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "EXTREMIS CHAMBER",
+      "CAVALRY"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Dracothian Guard Fulminators",
+    "faction": "Stormcast Eternals",
+    "points": 100,
+    "models": 2,
+    "move": "10\"",
+    "wounds": 5,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Stormblast",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Stormstrike Glaive",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Dracoth's Claws and Fangs",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Impaling Strikes: Any Charge Phase If this unit charged this phase, pick an enemy unit within 1\" of it to be the target. Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+    "categories": [
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "EXTREMIS CHAMBER",
+      "CAVALRY"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Gryph-hounds",
+    "faction": "Stormcast Eternals",
+    "points": 90,
+    "models": 6,
+    "move": "9\"",
+    "wounds": 2,
+    "save": 6,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Vicious Beak and Claws",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Warning Cry: Any Shooting Phase Pick an enemy unit within 12\" of this unit that was set up this turn. Then, pick up to 3 friendly Stormcast Eternals units armed with ranged weapons that are within 12\" of that enemy unit to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
+    "categories": [
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "BEAST",
+      "CHAMPION"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Dracothian Guard Tempestors",
+    "faction": "Stormcast Eternals",
+    "points": 90,
+    "models": 2,
+    "move": "10\"",
+    "wounds": 5,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Volleystorm Crossbow",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Warblade",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Dracoth's Claws and Fangs",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Stormblast",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Overwhelming Volleystorm: Any Shooting Phase Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit's Volleystorm Crossbows to be the target. Roll a dice. On a 2+, the target cannot use the 'All-out Defence' command in the following combat phase.",
+    "categories": [
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "EXTREMIS CHAMBER",
+      "CAVALRY"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Evocators",
+    "faction": "Stormcast Eternals",
+    "points": 180,
+    "models": 5,
+    "move": "5\"",
+    "wounds": 3,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Evocator Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Warrior Mages: This unit can use Unbind abilities as if it had Wizard (1).\nEmpower: Any Combat Phase Add 1 to wound rolls for the target's combat attacks for the rest of the turn.",
+    "categories": [
+      "Sacrosanct Chamber Infantry",
+      "CHAMPION",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "SACROSANCT CHAMBER",
+      "INFANTRY"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Evocators on Celestial Dracolines",
+    "faction": "Stormcast Eternals",
+    "points": 240,
+    "models": 3,
+    "move": "10\"",
+    "wounds": 5,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Evocator Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Celestial Dracoline's Claws",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Warrior Mages: This unit can use Unbind abilities as if it had Wizard (1).\nDracoline Fury: While this unit is contesting an objective you do not control, it has Strike-first.",
+    "categories": [
+      "Sacrosanct Chamber Cavalry",
+      "CHAMPION",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "SACROSANCT CHAMBER",
+      "CAVALRY"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Praetors",
+    "faction": "Stormcast Eternals",
+    "points": 120,
+    "models": 3,
+    "move": "5\"",
+    "wounds": 3,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Soulguard's Halberd",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Soul-bonded: Deployment Phase Pick a friendly Stormcast Eternals Hero to be this unit's soul-bonded charge for the rest of the battle. This unit can use this ability while it is in reserve.\nSoul-forged Guardians: While this unit's soul-bonded charge is within this unit's combat range, both this unit and that soul-bonded charge have Ward (5+).",
+    "categories": [
+      "Warrior Chamber Infantry",
+      "INFANTRY",
+      "CHAMPION",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Judicators with Skybolt Bows",
+    "faction": "Stormcast Eternals",
+    "points": 140,
+    "models": 5,
+    "move": "5\"",
+    "wounds": 2,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Storm Gladius",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Shockbolt Bow",
+        "models": "",
+        "attacks": "D3+3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Skybolt Bow",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Subduing Shots: Once Per Turn (Army), Any Shooting Phase Pick a visible enemy Monster that had any damage points allocated to it this phase by this unit's shooting attacks to be the target. Roll a dice. On a 3+, the target cannot use Rampage abilities until the start of your next turn.",
+    "categories": [
+      "Warrior Chamber Infantry",
+      "CHAMPION",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Questor Soulsworn",
+    "faction": "Stormcast Eternals",
+    "points": 210,
+    "models": 6,
+    "move": "5\"",
+    "wounds": 3,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Questor Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Ordained Quest: Once Per Battle (Army), Deployment Phase Pick an objective wholly outside friendly territory. That objective is considered by you to be questmarked.\nHis Will Be Done\nRelictor Soulguide: Once Per Battle, Your Movement Phase You can pick a friendly Knight-Questor within this unit's combat range to be the target. Remove this unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units. Then, if you picked a target, remove it from the battlefield and set it up again within this unit's combat range and more than 9\" from all enemy units.\nKeywords: Core",
+    "categories": [
+      "Warrior Chamber Infantry",
+      "INFANTRY",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "WARRIOR CHAMBER",
+      "CHAMPION (1/6)"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Judicators with Boltstorm Crossbows",
+    "faction": "Stormcast Eternals",
+    "points": 160,
+    "models": 5,
+    "move": "5\"",
+    "wounds": 2,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Storm Gladius",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Boltstorm Crossbow",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Thunderbolt Crossbow",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "-",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Hail of Bolts: Once Per Turn (Army), Any Shooting Phase Pick a visible enemy Infantry unit that had any models slain this phase by this unit's shooting attacks to be the target. Roll a dice. On a 3+, for the rest of the turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1.",
+    "categories": [
+      "Warrior Chamber Infantry",
+      "CHAMPION",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Liberators",
+    "faction": "Stormcast Eternals",
+    "points": 90,
+    "models": 5,
+    "move": "5\"",
+    "wounds": 2,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Grandhammer",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Warhammer",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Stalwart Defenders",
+    "categories": [
+      "Warrior Chamber Infantry",
+      "CHAMPION",
+      "INFANTRY",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Neave's Companions",
+    "faction": "Stormcast Eternals",
+    "points": 0,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 3,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Cyclone Sword and Axe",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Stormcharged Warhammer",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Typhoon Crossbow",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Anda's Celestial Talons",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Shield of Azyr: While any friendly The Blacktalons Heroes are wholly within this unit's combat range, both this unit and those friendly units have Ward (5+).",
+    "categories": [
+      "INFANTRY",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "UNIQUE",
+      "THE BLACKTALONS"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Prosecutors",
+    "faction": "Stormcast Eternals",
+    "points": 150,
+    "models": 3,
+    "move": "12\"",
+    "wounds": 2,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Stormcall Javelin",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Stormcall Javelin",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Dispersed Formation: This unit has a coherency range of 2\".\nHeralds of Righteousness: Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.",
+    "categories": [
+      "INFANTRY",
+      "CHAMPION",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "FLY",
+      "RUINATION CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Reclusians",
+    "faction": "Stormcast Eternals",
+    "points": 140,
+    "models": 3,
+    "move": "5\"",
+    "wounds": 3,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Rune-blessed Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Memorian Descendants: This unit's Memorians are tokens. There are 2 Memorians for every 3 models in this unit. While any of this unit's Memorians are on the battlefield, add 1 to this unit's resistance rolls when using the 'Ruination Chamber' ability. Each time you make an unmodified save roll of 1 for this unit, remove 1 of its Memorians from the battlefield after the Attack ability has been resolved (the damage point is still inflicted).",
+    "categories": [
+      "INFANTRY",
+      "CHAMPION",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "RUINATION CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Retributors",
+    "faction": "Stormcast Eternals",
+    "points": 170,
+    "models": 5,
+    "move": "4\"",
+    "wounds": 3,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Starsoul Mace",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Retributor Lightning Hammer",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Crushing Counter-blow: If this unit is damaged or if any models in this unit were slain this turn, add 1 to hit rolls for this unit's attacks for the rest of the turn.",
+    "categories": [
+      "Warrior Chamber Infantry",
+      "CHAMPION",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Sequitors",
+    "faction": "Stormcast Eternals",
+    "points": 120,
+    "models": 5,
+    "move": "5\"",
+    "wounds": 2,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Stormsmite Greatmace",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Sacrosanct Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Sequitor Aetheric Channelling: Any Combat Phase",
+    "categories": [
+      "Sacrosanct Chamber Infantry",
+      "CHAMPION",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "SACROSANCT CHAMBER",
+      "INFANTRY"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Stormdrake Guard",
+    "faction": "Stormcast Eternals",
+    "points": 310,
+    "models": 2,
+    "move": "12\"",
+    "wounds": 9,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Draconith's Fangs and Talons",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Draconic Flamestream",
+        "models": "",
+        "attacks": "4",
+        "hit": "2",
+        "wound": "3",
+        "rend": "2",
+        "damage": "1"
+      },
+      {
+        "name": "Drakerider's Lance",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Drakerider's Warblade",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Dispersed Formation: This unit has a coherency range of 2\".\nDraconic Onslaught: Once Per Turn (Army), Any Combat Phase If this unit charged this turn, roll a dice. On a 3+, this unit can move 2D6\". It can pass through the combat ranges of enemy units and can end that move in combat. Then, pick an enemy unit that this unit passed across during that move. Inflict D3 mortal damage on that enemy unit.\nKeywords: Rampage",
+    "categories": [
+      "CHAMPION",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "FLY",
+      "MONSTER",
+      "EXTREMIS CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Stormdrake Guard",
+    "faction": "Stormcast Eternals",
+    "points": 160,
+    "models": 2,
+    "move": "12\"",
+    "wounds": 9,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Draconith's Fangs and Talons",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Draconic Flamestream",
+        "models": "",
+        "attacks": "4",
+        "hit": "2",
+        "wound": "3",
+        "rend": "2",
+        "damage": "1"
+      },
+      {
+        "name": "Drakerider's Lance",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Drakerider's Warblade",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Dispersed Formation: This unit has a coherency range of 2\".\nDraconic Onslaught: Once Per Turn (Army), Any Combat Phase If this unit charged this turn, roll a dice. On a 3+, this unit can move 2D6\". It can pass through the combat ranges of enemy units and can end that move in combat. Then, pick an enemy unit that this unit passed across during that move. Inflict D3 mortal damage on that enemy unit.\nKeywords: Rampage",
+    "categories": [
+      "CHAMPION",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "FLY",
+      "MONSTER",
+      "EXTREMIS CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Vanguard-Palladors with Shock Handaxes",
+    "faction": "Stormcast Eternals",
+    "points": 250,
+    "models": 3,
+    "move": "14\"",
+    "wounds": 5,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Shock Handaxe",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Boltstorm Pistol",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Gryph-charger's Razor Beak",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Shocking Strikes: If any damage points are allocated to an enemy unit by attacks made with this unit's Shock Handaxes, subtract 1 from wound rolls for that enemy unit's combat attacks for the rest of the turn.",
+    "categories": [
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "CAVALRY",
+      "CHAMPION",
+      "VANGUARD CHAMBER",
+      "VANGUARD-PALLADORS"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Stormstrike Chariot",
+    "faction": "Stormcast Eternals",
+    "points": 110,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 10,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Gryph-chargers' Razor Beaks",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Stormstrike Axe",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Great Stormbow",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Tempestuous Spear",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Celestial Blaze: When this unit uses the 'Power Through' command, inflict an additional D3 mortal damage on the target and add D6\" to the distance this unit can move as part of that ability\nAzyr Unleashed: Any Charge Phase If this unit charged this phase, pick an enemy unit within 1\" of it to be the target. Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+    "categories": [
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "WAR MACHINE",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Vanguard-Hunters",
+    "faction": "Stormcast Eternals",
+    "points": 120,
+    "models": 5,
+    "move": "5\"",
+    "wounds": 2,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Boltstorm Pistol",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Stormwrought Weapon",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Star-marked: Add 2\" to this unit's Move characteristic while a Hunted enemy unit is on the battlefield. In addition, add 1 to hit rolls for this unit's attacks that target a Hunted enemy unit.\nAstral Compass: Once Per Battle (Army), Deployment Phase Pick an enemy unit to be the target. The target has the Hunted keyword for the rest of the battle.",
+    "categories": [
+      "INFANTRY",
+      "CHAMPION",
+      "STANDARD BEARER (1/5)",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "VANGUARD CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Vanguard-Raptors with Hurricane Crossbows",
+    "faction": "Stormcast Eternals",
+    "points": 110,
+    "models": 3,
+    "move": "5\"",
+    "wounds": 2,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Hurricane Crossbow",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Heavy Stock",
+        "models": "",
+        "attacks": "1",
+        "hit": "4",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Coordinated Strike: Your Shooting Phase Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit's Hurricane Crossbows to be the target. Add 1 to wound rolls for combat attacks made by friendly Vanguard Chamber units that target that enemy unit for the rest of the turn.",
+    "categories": [
+      "INFANTRY",
+      "CHAMPION",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "VANGUARD CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Vanguard-Raptors with Longstrike Crossbows",
+    "faction": "Stormcast Eternals",
+    "points": 200,
+    "models": 3,
+    "move": "5\"",
+    "wounds": 2,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Heavy Stock",
+        "models": "",
+        "attacks": "1",
+        "hit": "4",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Longstrike Crossbow",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Headshot: Your Shooting Phase If this unit has not used a Move ability this turn and was not set up this turn, for the rest of the turn, this unit can ignore the effects of the 'Guarded Hero' ability (Core Rules, 25.0) when picking targets for its shooting attacks.",
+    "categories": [
+      "INFANTRY",
+      "CHAMPION",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "VANGUARD CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Vindictors",
+    "faction": "Stormcast Eternals",
+    "points": 90,
+    "models": 5,
+    "move": "5\"",
+    "wounds": 2,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Stormspear",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Hold the Shieldwall: Any Combat Phase If this unit did not charge this turn and is in combat with an enemy unit that charged this turn, roll a dice. On a 4+, this unit has Strike-first for the rest of the turn.",
+    "categories": [
+      "Warrior Chamber Infantry",
+      "INFANTRY",
+      "CHAMPION",
+      "STANDARD BEARER (1/5)",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Vanguard-Palladors with Starstrike Javelins",
+    "faction": "Stormcast Eternals",
+    "points": 260,
+    "models": 3,
+    "move": "14\"",
+    "wounds": 5,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Starstrike Javelin",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Starstrike Javelin",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Boltstorm Pistol",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Gryph-charger's Razor Beak",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Charging Volley: Your Charge Phase If this unit charged this phase, pick an enemy unit in combat with it to be the target. This unit can immediately use a Shoot ability as if it were your shooting phase, but all of its attacks must target that enemy unit. In addition, unit's Starstrike Javelins have Shoot in Combat this phase.",
+    "categories": [
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "CAVALRY",
+      "CHAMPION",
+      "VANGUARD CHAMBER",
+      "VANGUARD-PALLADORS"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Vanquishers",
+    "faction": "Stormcast Eternals",
+    "points": 90,
+    "models": 5,
+    "move": "5\"",
+    "wounds": 2,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Celestial Greatsword",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Lightning Strikes: Add 1 to the Damage characteristic of this unit's Celestial Greatswords for attacks that target an enemy unit that has 5 or more models.",
+    "categories": [
+      "Warrior Chamber Infantry",
+      "INFANTRY",
+      "CHAMPION",
+      "MUSICIAN (1/5)",
+      "STANDARD BEARER (1/5)",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Vigilors",
+    "faction": "Stormcast Eternals",
+    "points": 140,
+    "models": 5,
+    "move": "6\"",
+    "wounds": 2,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Stormcaller Bow",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Stormblade",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Navigators of the Storm: If an enemy unit had any damage points allocated to it this turn by this unit's shooting attacks, add 1 to hit rolls for attacks made by friendly Stormcast Eternals units that target that unit for the rest of the turn.",
+    "categories": [
+      "Warrior Chamber Infantry",
+      "INFANTRY",
+      "CHAMPION",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Lord-Relictor",
+    "faction": "Stormcast Eternals",
+    "points": 120,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Relic Hammer",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Mortis Priest: Add 1 to chanting rolls for this unit.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "PRIEST (1)",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Domitan's Stormcoven",
+    "faction": "Stormcast Eternals",
+    "points": 210,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 3,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Azyrite Bolts",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "D3"
+      },
+      {
+        "name": "Valedictor Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      },
+      {
+        "name": "Azyrite Bolts",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "D3"
+      },
+      {
+        "name": "Valedictor Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      },
+      {
+        "name": "Azyrite Bolts",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "D3"
+      },
+      {
+        "name": "Valedictor Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Gather the Aether\nAethershock: Your Hero Phase Pick a visible unit within 12\" of the caster to be the target, then make a casting roll of 2D6. If the target is a friendly unit, it has Strike-first for the rest of the turn. If the target is an enemy unit, it has Strike-last for the rest of the turn.\nKeywords: Spell",
+    "categories": [
+      "Warrior Chamber Infantry",
+      "ORDER",
+      "INFANTRY",
+      "UNIQUE",
+      "STORMCAST ETERNALS",
+      "WIZARD (1)",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Steelheart's Champions",
+    "faction": "Stormcast Eternals",
+    "points": 110,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 3,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Heavens-wrought Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Heavens-wrought Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Heavens-wrought Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Heroic Guard: Add 1 to save rolls for this unit while it is in combat with any enemy units that charged in the same turn.\nStalwart Defenders",
+    "categories": [
+      "Warrior Chamber Infantry",
+      "ORDER",
+      "INFANTRY",
+      "UNIQUE",
+      "STORMCAST ETERNALS",
+      "WARRIOR CHAMBER",
+      "CHAMPION"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Xandire's Truthseekers",
+    "faction": "Stormcast Eternals",
+    "points": 130,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 3,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Truthseeker Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Great Hammer",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Stormcaller Bow",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Truthseeker Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Taros: This unit's Taros is a token. After setting up this unit on the battlefield for the first time, place Taros next to it.\nHarrying Aetherwing: Your Shooting Phase If any attacks made with this unit's Stormcaller Bow scored a critical hit this phase, pick an enemy unit targeted by those attacks to be the target. Until the start of your next turn, place Taros next to the target. While Taros is placed next to an enemy unit, that enemy unit cannot use commands.",
+    "categories": [
+      "Warrior Chamber Infantry",
+      "ORDER",
+      "INFANTRY",
+      "UNIQUE",
+      "STORMCAST ETERNALS",
+      "WARRIOR CHAMBER",
+      "CHAMPION"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "The Farstriders",
+    "faction": "Stormcast Eternals",
+    "points": 100,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 3,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Boltstorm Pistol",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Stormwrought Weapon",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Boltstorm Pistol",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Stormwrought Weapon",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Boltstorm Pistol",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Stormwrought Weapon",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Star Falcon: Your Shooting Phase If this unit's Sanson Farstrider is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target. Roll a dice. On a 3+, inflict 1 mortal damage on the target.",
+    "categories": [
+      "ORDER",
+      "INFANTRY",
+      "UNIQUE",
+      "STORMCAST ETERNALS",
+      "CHAMPION",
+      "VANGUARD CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Stormsire's Cursebreakers",
+    "faction": "Stormcast Eternals",
+    "points": 130,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 3,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Cursebreaker Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Cursebreaker Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Cursebreaker Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Averon Stormsire: While this unit's Averon Stormsire is on the battlefield, it has Wizard (1).\nOverwhelming Storm: Any Combat Phase For the rest of the phase, add 1 to wound rolls for the target's combat attacks.",
+    "categories": [
+      "Sacrosanct Chamber Infantry",
+      "ORDER",
+      "INFANTRY",
+      "UNIQUE",
+      "STORMCAST ETERNALS",
+      "SACROSANCT CHAMBER",
+      "CHAMPION"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Protectors",
+    "faction": "Stormcast Eternals",
+    "points": 220,
+    "models": 5,
+    "move": "4\"",
+    "wounds": 3,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Starsoul Mace",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Protector Stormstrike Glaive",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Shield of the Storm: While any friendly Stormcast Eternals Infantry Heroes are within this unit's combat range, both this unit and those friendly units have Ward (5+).",
+    "categories": [
+      "Warrior Chamber Infantry",
+      "CHAMPION",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "INFANTRY",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Knight-Azyros",
+    "faction": "Stormcast Eternals",
+    "points": 110,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Star-blessed Weapon",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Light in the Dark: Once Per Turn (Army), End of Any Turn Pick a friendly Prosecutors unit wholly within 12\" of this unit to be the target. Roll a dice. On a 3+, pick 1 of the following effects:\n• If the target is in combat, the target can immediately use the 'Retreat' ability as if it were your movement phase without any mortal damage being inflicted on it.\n• If the target is not in combat, the target can immediately use the 'Normal Move' ability as if it were your movement phase.\nThe Light of Sigmar: Any Combat Phase Roll a dice. On a 3+, pick 1 of the following effects:\n• For the rest of the turn, subtract 1 from hit rolls for attacks made by enemy units while they are in combat with this unit.\n• Heal (D3) each friendly Stormcast Eternals unit within this unit's combat range.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "RUINATION CHAMBER",
+      "FLY",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Lord-Vigilant on Morrgryph",
+    "faction": "Stormcast Eternals",
+    "points": 160,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 12,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Morrgryph's Talons",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Hallowed Glaive",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Direct the Assault: Once Per Turn (Army), Your Hero Phase Pick a friendly non-Hero Ruination Chamber unit wholly within 12\" of this unit to be the target. For the rest of the turn, while the target is wholly within 12\" of this unit, add 5 to the target's control score.\nVice-like Grip: Once Per Turn (Army), Any Charge Phase Pick an enemy non-Monster Hero in combat with this unit to be the target. Roll 2D6. If the result exceeds the target's Health characteristic, for the rest of the turn:\n• The target has Strike-last.\n• The target cannot use commands.",
+    "categories": [
+      "HERO",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "RUINATION CHAMBER",
+      "MONSTER",
+      "FLY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Iridan the Witness",
+    "faction": "Stormcast Eternals",
+    "points": 260,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 12,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Axe of the Final Threshold",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Ariax's Talons",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Prayer of the Witness: Your Hero Phase Make a chanting roll of D6. For the rest of the turn, each time a friendly Ruination Chamber unit uses a Fight ability while it is wholly within 18\" of this unit, after that ability has been resolved:\n• Heal (D3) that unit. If the chanting roll was 8+, Heal (3) that unit instead.\n• That unit has Ward (6+) for the rest of the turn.\nKeywords: Prayer\nDark Flight: Once Per Turn (Army), End of Any Turn Pick an enemy unit in combat with this unit to be the target. Roll a dice. If the roll exceeds the target's Health characteristic:\n• 1 model in the target unit is slain.\n• This unit can immediately use the 'Retreat' ability without any mortal damage being inflicted upon it.\nKeywords: Rampage",
+    "categories": [
+      "HERO",
+      "FLY",
+      "UNIQUE",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "MONSTER",
+      "PRIEST (1)",
+      "RUINATION CHAMBER"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Tornus the Redeemed",
+    "faction": "Stormcast Eternals",
+    "points": 150,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 8,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Hallowed Greatspear",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Hallowed Greatspear",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "The Light of Sigmar: Any Combat Phase Roll a dice. On a 3+, pick 1 of the following effects:\n• For the rest of the turn, subtract 1 from hit rolls for attacks made by enemy units while they are in combat with this unit.\n• Heal (D3) each friendly Stormcast Eternals unit within this unit's combat range.\nHerald of Redemption: If a friendly Ruination Chamber unit wholly within 12\" of this unit uses the 'Rally' command, you receive 3 additional rally points.",
+    "categories": [
+      "HERO",
+      "FLY",
+      "UNIQUE",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "RUINATION CHAMBER",
+      "INFANTRY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Stormcoven",
+    "faction": "Stormcast Eternals",
+    "points": 210,
+    "models": 3,
+    "move": "5\"",
+    "wounds": 3,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Azyrite Bolts",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "D3"
+      },
+      {
+        "name": "Valedictor Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Gather the Aether\nAethershock: Your Hero Phase Pick a visible unit within 12\" of the caster to be the target, then make a casting roll of 2D6. If the target is a friendly unit, it has Strike-first for the rest of the turn. If the target is an enemy unit, it has Strike-last for the rest of the turn.\nKeywords: Spell",
+    "categories": [
+      "ORDER",
+      "INFANTRY",
+      "STORMCAST ETERNALS",
+      "WIZARD (1)",
+      "WARRIOR CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Stormstrike Palladors",
+    "faction": "Stormcast Eternals",
+    "points": 180,
+    "models": 3,
+    "move": "12\"",
+    "wounds": 5,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Stormstrike Lance or Blade",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Gryph-charger's Talons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Ride for Vengeance: If any friendly Warrior Chamber units have been destroyed this battle:\n• You can re-roll charge rolls for this unit.\n• This unit has Strike-first if it charged in the same turn.",
+    "categories": [
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "CAVALRY",
+      "CHAMPION",
+      "WARRIOR CHAMBER",
+      "MUSICIAN (1/3)",
+      "STANDARD BEARER (1/3)"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Stormreach Portal",
+    "faction": "Stormcast Eternals",
+    "points": 20,
+    "models": 1,
+    "move": "-",
+    "wounds": 12,
+    "save": 4,
+    "ward": 0,
+    "weapons": [],
+    "abilities": "Step Into the Storm: Your Movement Phase Pick a friendly non-Monster Stormcast Eternals unit that is not in combat and is wholly within 6\" of this terrain feature to be the target. Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units.",
+    "categories": [
+      "FACTION TERRAIN",
+      "ORDER",
+      "STORMCAST ETERNALS"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "The Emberwatch",
+    "faction": "Stormcast Eternals",
+    "points": 140,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 3,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Boltstorm Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Stormwrought Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Stormwrought Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Boltstorm Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Stormwrought Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Boltstorm Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Merciless Sentinels: Add 1 to wound rolls for this unit's attacks while it contests an objective that is wholly outside friendly territory.",
+    "categories": [
+      "ORDER",
+      "INFANTRY",
+      "UNIQUE",
+      "STORMCAST ETERNALS",
+      "CHAMPION",
+      "VANGUARD CHAMBER"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Anvil of Apotheosis: Stormcast Eternals Hero",
+    "faction": "Stormcast Eternals",
+    "points": 0,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 5,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Warblade",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Stormblast",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Mighty Flying Noble Beast's Claws",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Flying Noble Beast's Claws",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Fiery Breath",
+        "models": "",
+        "attacks": "4",
+        "hit": "2",
+        "wound": "3",
+        "rend": "2",
+        "damage": "1"
+      },
+      {
+        "name": "Noble Beast's Claws",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "2",
+        "damage": "1"
+      },
+      {
+        "name": "Heavy Boltstorm Pistol",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Terminus Greatbow",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Mighty Flying Noble Beast's Claws is 4.\nFreshly Forged: When this unit earns the Aspiring rank on its Path, it gets both the abilities for that rank instead of just one of them.\nSnatched From the Grave: Enemy units cannot use the 'Rally' command while they are within 18\" of this unit.\nTribal Warleader: Your Charge Phase Pick up to 2 other friendly units wholly within 12\" of this unit to be the targets. For the rest of the turn, add 1 to charge rolls for this unit and the targets.\nRedeemed: End of Any Turn Pick up to 2 other friendly units wholly within 12\" of this unit to be the targets. Heal (D3) this unit and each target.\nBrash and Impulsive: This unit cannot contest objectives.\nUnvanquishable Pride: This unit cannot use Retreat abilities.\nFractured Soul: End of Any Turn This unit must use this ability at the end of each turn. Roll a dice. On a 4+, allocate 1 damage point to this unit (a ward roll cannot be made for that damage point).\nFuelled by Hatred: In each combat phase, if this unit is in combat and does not have Strike-last, after friendly units with Strike-first have been picked to use a Fight ability, this unit must be the next friendly unit that is picked to use a Fight ability.\nMighty Roar: Once Per Turn (Army), Any Combat Phase Pick up to 3 enemy units in combat with this unit to be the targets. Roll a dice for each target. On a 4+, the target cannot use commands for the rest of the turn.\nKeywords: Rampage\nTitanic Duel: Once Per Turn (Army), Any Combat Phase Roll a dice. On a 3+, add 1 to the Damage characteristic of this unit's Companion melee weapons for attacks that target enemy Monsters for the rest of the turn.\nKeywords: Rampage\nLoyal Companion: This unit's Loyal Companion is a token. This unit has Ward (5+) while its Loyal Companion is on the battlefield. If you make an unmodified save roll of 1 for this unit, remove its Loyal Companion from the battlefield.",
+    "categories": [
+      "HERO",
+      "INFANTRY",
+      "ORDER",
+      "STORMCAST ETERNALS"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Iridan the Witness (Scourge of Ghyran)",
+    "faction": "Stormcast Eternals",
+    "points": 320,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 12,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Axe of the Final Threshold",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Ariax's Talons",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Demands of the Witness: Your Hero Phase Pick a visible friendly Ruination Chamber unit wholly within 12\" of this unit to be the target, then make a chanting roll of D6. Until the start of your next turn, add 1 to the Rend characteristic of the target's melee weapons. If the chanting roll was 7+, you can pick another eligible unit to be a second target.\nKeywords: Prayer\nOn Wings of Death: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll a dice. On a 3+:\n• You can remove this unit from the battlefield and set it up again on the battlefield within 1\" of the target.\n• If the target charged this turn, subtract 1 from hit rolls for the target's attacks for the rest of the turn.\nKeywords: Rampage\nThe Flames of Hope: You can re-roll resistance rolls for friendly Ruination Chamber units while they are wholly within 12\" of this unit.\nGuardian of the Final Threshold: Once Per Turn, Reaction: This unit was picked as the target of a non-Core ability Make a resistance roll of D6. On a 3+, that ability has no effect on this unit.",
+    "categories": [
+      "HERO",
+      "FLY",
+      "UNIQUE",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "MONSTER",
+      "PRIEST (1)",
+      "RUINATION CHAMBER",
+      "WARD (6+)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Stormstrike Palladors (Scourge of Aqshy)",
+    "faction": "Stormcast Eternals",
+    "points": 220,
+    "models": 3,
+    "move": "12\"",
+    "wounds": 5,
+    "save": 3,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Stormstrike Lance or Blade",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Gryph-charger's Talons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Lightning Quick: No mortal damage is inflicted on this unit by Retreat abilities.\nShock Cavalry: Once Per Turn (Army), Any Combat Phase If this unit charged this turn, pick an enemy unit in combat with both of the following units to be the target:\n• This unit.\n• A friendly unit that did not charge this turn. Add 1 to the Damage characteristic of this unit's melee\nweapons for attacks that target that enemy unit for the rest of the turn.",
+    "categories": [
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "CAVALRY",
+      "CHAMPION",
+      "WARRIOR CHAMBER",
+      "MUSICIAN (1/3)",
+      "STANDARD BEARER (1/3)"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Iridan the Witness (Scourge of Aqshy)",
+    "faction": "Stormcast Eternals",
+    "points": 320,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 12,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Axe of the Final Threshold",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Ariax's Plunging Talons",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Demands of the Witness: Your Hero Phase Pick a visible friendly Ruination Chamber unit wholly within 12\" of this unit to be the target, then make a chanting roll of D6. Until the start of your next turn, add 1 to the Rend characteristic of each target's melee weapons. If the chanting roll was 7+, you can pick another eligible unit to be a second target.\nKeywords: Prayer\nOn Wings of Death: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. If the target charged this turn, apply the effects below. Otherwise, roll a dice. On a 3+, apply the effects below: \n\n• You can remove this unit from the battlefield and set it up again within 1\" of the target.\n• Subtract 1 from hit rolls for the target's attacks for the rest of the turn.\nKeywords: Rampage\nThe Flames of Hope: You can re-roll resistance rolls for friendly Ruination Chamber units while they are wholly within 12\" of this unit.\nGuardian of the Final Threshold: Once Per Turn (Army), Reaction: This unit was picked to be the target of a non-Core ability Make a resistance roll of D6. On a 3+, that ability has no effect on this unit.",
+    "categories": [
+      "HERO",
+      "FLY",
+      "UNIQUE",
+      "ORDER",
+      "STORMCAST ETERNALS",
+      "MONSTER",
+      "PRIEST (1)",
+      "RUINATION CHAMBER",
+      "WARD (6+)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  }
+]

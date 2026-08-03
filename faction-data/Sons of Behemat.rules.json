@@ -1,0 +1,165 @@
+{
+  "faction": "Sons of Behemat",
+  "battleTraits": [
+    {
+      "name": "Colossal Slam",
+      "effect": "Colossal Slam (Once Per Turn (Army), Any Combat Phase): Roll a dice. On a 3+, remove the target from the battlefield and set it up again within 1\" of the unit using this ability. Then, inflict D3 mortal damage on the target."
+    },
+    {
+      "name": "Gargant Charge",
+      "effect": "Gargant Charge (Any Charge Phase): Inflict D3 mortal damage on the target."
+    },
+    {
+      "name": "Timberrrrr!",
+      "effect": "Timberrrrr!: Each time a friendly Mega‑Gargant or Gargant model is slain, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of that model. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than that model."
+    },
+    {
+      "name": "Jump Up and Down",
+      "effect": "Jump Up and Down (Once Per Turn (Army), Any Combat Phase): Roll a dice. On a 3+, roll a dice for each model in the target unit. If the unit using this ability is a Gargant, inflict 1 mortal damage on the target for each 6. If it is a Mega-Gargant, inflict 1 mortal damage on the target for each 5+."
+    },
+    {
+      "name": "Earthshaking Roar",
+      "effect": "Earthshaking Roar (Once Per Turn (Army), Any Combat Phase): Roll a dice. On a 3+, the target cannot use commands for the rest of the turn."
+    }
+  ],
+  "artefacts": [
+    {
+      "name": "Glowy Lantern",
+      "cost": 0,
+      "effect": "Glowy Lantern: This unit can use Summon abilities from the manifestation lore you picked during army composition as if it had Wizard (1).",
+      "restrictions": [],
+      "groupName": "Titanic Trophies"
+    },
+    {
+      "name": "Amberbone Totem",
+      "cost": 0,
+      "effect": "Amberbone Totem: Once Per Battle, Your Charge Phase For the rest of the turn, this unit can use Charge abilities even if it used a Run ability in the same turn.",
+      "restrictions": [],
+      "groupName": "Titanic Trophies"
+    },
+    {
+      "name": "Glowy Shield of Protectiness",
+      "cost": 0,
+      "effect": "Glowy Shield of Protectiness: Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+      "restrictions": [],
+      "groupName": "Titanic Trophies"
+    },
+    {
+      "name": "Extra-Calloused Feet",
+      "cost": 10,
+      "effect": "Extra-Calloused Feet: Add 1 to the Attacks characteristic, Rend characteristic and Damage characteristic of this unit's Almighty Stomp or Almightier Stomp.",
+      "restrictions": [],
+      "groupName": "Titanic Trophies"
+    },
+    {
+      "name": "Mantle of Tusk and Horns",
+      "cost": 10,
+      "effect": "Mantle of Tusk and Horns: Once Per Battle, Your Combat Phase For the rest of the turn, add 1 to hit rolls for combat attacks made by friendly Sons of Behemat units while they are wholly within 12\" of this unit.",
+      "restrictions": [],
+      "groupName": "Titanic Trophies"
+    },
+    {
+      "name": "Kingslaughter Cowl",
+      "cost": 0,
+      "effect": "Kingslaughter Cowl: Add 1 to the Attacks characteristic of this unit's melee weapons while this unit is in combat with an enemy Hero.",
+      "restrictions": [],
+      "groupName": "Titanic Trophies"
+    }
+  ],
+  "heroicTraits": [
+    {
+      "name": "Furious Temper",
+      "cost": 0,
+      "effect": "Furious Temper: Once Per Battle, Any Combat Phase For the rest of the turn:\n• Add 2 to the Attacks characteristic of this unit's melee weapons.\n• Subtract 1 from save rolls for this unit.",
+      "restrictions": [],
+      "groupName": "Big Personalities"
+    },
+    {
+      "name": "Rabble Rouser",
+      "cost": 0,
+      "effect": "Rabble Rouser: Add 1 to charge rolls for friendly Sons of Behemat units while they are wholly within 12\" of this unit.",
+      "restrictions": [],
+      "groupName": "Big Personalities"
+    },
+    {
+      "name": "Monstrously Tough",
+      "cost": 0,
+      "effect": "Monstrously Tough: This unit has a Health characteristic of 40 instead of 35.",
+      "restrictions": [],
+      "groupName": "Big Personalities"
+    },
+    {
+      "name": "Terrifying Hulk",
+      "cost": 0,
+      "effect": "Terrifying Hulk: Once Per Turn, Reaction: Your opponent declared a Charge ability for a visible non-Monster enemy unit within 12\" of this unit If this unit is not in combat, roll a dice. On a 3+, you can change one of the dice in that charge roll to a 1.",
+      "restrictions": [],
+      "groupName": "Big Personalities"
+    },
+    {
+      "name": "Grabby",
+      "cost": 0,
+      "effect": "Grabby: Add 1 to hit rolls for this unit's combat attacks that target an enemy unit contesting an objective you do not control.",
+      "restrictions": [],
+      "groupName": "Big Personalities"
+    },
+    {
+      "name": "Mega-Grump",
+      "cost": 0,
+      "effect": "Mega-Grump: This unit has Ward (5+) while it has 25 or more damage points.",
+      "restrictions": [],
+      "groupName": "Big Personalities"
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Boss Tribe",
+      "cost": 0,
+      "effect": "Big Mouth: Once Per Turn (Army), Reaction: You declared a Fight ability for a friendly Mega-Gargant Pick a friendly Gargant unit that has not used a Fight ability this turn and is wholly within 12\" of this unit to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Sons of Behemat"
+    },
+    {
+      "name": "Taker Tribe",
+      "cost": 0,
+      "effect": "More Stuff for Me Collection: Once Per Battle, Deployment Phase Pick a friendly non-Unique Sons of Behemat Hero that does not have an artefact of power. Give that Hero 1 artefact of power from 'Titanic Trophies'.\nDesigner's Note: *This artefact of power is given to the unit during the deployment phase, not during army composition.*",
+      "restrictions": [],
+      "groupName": "Battle Formations: Sons of Behemat"
+    },
+    {
+      "name": "Breaker Tribe",
+      "cost": 0,
+      "effect": "Besieging Bulk: Friendly Mega-Gargants have Ward (6+) while they are within the combat ranges of any other friendly Mega-Gargants.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Sons of Behemat"
+    },
+    {
+      "name": "Stomper Tribe",
+      "cost": 0,
+      "effect": "Revel in War: You can pick 2 friendly Mega‑Gargants or Gargant units that have not used a Rampage ability this turn to use the 'Jump Up and Down' ability instead of 1.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Sons of Behemat"
+    },
+    {
+      "name": "Manskittle Mob",
+      "cost": 0,
+      "effect": "Strike! Hur Hur!: Once Per Turn (Army), Your Shooting Phase Pick up to 2 friendly Mega-Gargant units within 3\" of any terrain features and pick any friendly Gargant units within 3\" of any terrain features to be the targets. Double the Attacks characteristic of each target's ranged weapons for the rest of the turn. If the target has no ranged weapons, pick an enemy unit within 12\" of the target instead and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Sons of Behemat"
+    },
+    {
+      "name": "Big Toes",
+      "cost": 0,
+      "effect": "Lofty Louts: Pick a friendly Mancrusher Gargant unit to be the target. For the rest of the battle, add 1 to hit rolls for combat attacks made by friendly Gargant units while they are wholly within 12\" of the target and not wholly within 12\" of any friendly Mega-Gargant units.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Sons of Behemat"
+    }
+  ],
+  "boons": [],
+  "spellLores": [],
+  "prayerLores": [
+    {
+      "name": "Brodd's Bellows",
+      "effect": ""
+    }
+  ]
+}

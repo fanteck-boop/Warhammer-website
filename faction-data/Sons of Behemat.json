@@ -1,0 +1,657 @@
+[
+  {
+    "name": "Warstomper Mega-Gargant",
+    "faction": "Sons of Behemat",
+    "points": 450,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 35,
+    "save": 4,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Death Grip",
+        "models": "",
+        "attacks": "1",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D6"
+      },
+      {
+        "name": "Almightier Stomp",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Titanic Boulderclub",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 15 or more damage points, the Attacks characteristic of its Titanic Boulderclub is 3 and this unit has a Control characteristic of 10.\nHurled Body: Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll a dice. If the roll is at least double the target's Health characteristic, 1 model in that unit is slain and you can pick a visible enemy unit within 12\" of this unit. Inflict an amount of mortal damage on that unit equal to the target's Health characteristic.\nTitanic Boulderclub: If all of the attacks made with this unit's Titanic Boulderclub target the same enemy unit, for every 5 models in the target unit, add 2 to its Attacks characteristic for the rest of the phase.",
+    "categories": [
+      "HERO",
+      "MONSTER",
+      "DESTRUCTION",
+      "SONS OF BEHEMAT",
+      "MEGA-GARGANT"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Beast-smasher Mega-Gargant",
+    "faction": "Sons of Behemat",
+    "points": 470,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 35,
+    "save": 4,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Menhir Club",
+        "models": "",
+        "attacks": "5",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "5"
+      },
+      {
+        "name": "Death Grip",
+        "models": "",
+        "attacks": "1",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D6"
+      },
+      {
+        "name": "Almighty Stomp",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 15 or more damage points, the Attacks characteristic of its Menhir Club is 3 and this unit has a Control characteristic of 10.\nBehemoth Brawler: Subtract 1 from the Attacks characteristic of enemy Monsters while they are in combat with this unit.\nBeast-breaking Strike: Any Combat Phase Pick an enemy Monster in combat with this unit to be the target. This unit can make a pile-in move. Then, roll a dice. On a 4+, inflict 5D6 mortal damage on the target.\nKeywords: Core, Attack, Fight",
+    "categories": [
+      "HERO",
+      "MONSTER",
+      "DESTRUCTION",
+      "SONS OF BEHEMAT",
+      "MEGA-GARGANT"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Gatebreaker Mega-Gargant",
+    "faction": "Sons of Behemat",
+    "points": 490,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 35,
+    "save": 4,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Hurled Boulder",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "2",
+        "rend": "3",
+        "damage": "4"
+      },
+      {
+        "name": "Death Grip",
+        "models": "",
+        "attacks": "1",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D6"
+      },
+      {
+        "name": "Almighty Stomp",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Fortcrusha Flail",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "4"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 15 or more damage points, the Attacks characteristic of its Fortcrusha Flail is 4 and this unit has a Control characteristic of 10.\nSmash Down: Once Per Turn (Army), Any Combat Phase Pick a terrain feature within 3\" of this unit to be the target. If the target is Faction Terrain, inflict D3+3 mortal damage on it. Then, roll a D3 for each non-Monster unit (friendly and enemy) within 3\" of the target. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.\nPulverising Strike: Any Combat Phase Pick an enemy unit in combat with this unit to be the target. This unit can make a pile-in move. Then, roll a dice. On a 4+, inflict 4D6 mortal damage on the target.\nKeywords: Core, Attack, Fight",
+    "categories": [
+      "HERO",
+      "MONSTER",
+      "DESTRUCTION",
+      "SONS OF BEHEMAT",
+      "MEGA-GARGANT"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Gatebreaker Mega-Gargant (Scourge of Aqshy)",
+    "faction": "Sons of Behemat",
+    "points": 490,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 35,
+    "save": 4,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Hurled Boulder",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "2",
+        "rend": "3",
+        "damage": "4"
+      },
+      {
+        "name": "Death Grip",
+        "models": "",
+        "attacks": "1",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D6"
+      },
+      {
+        "name": "Almighty Stomp",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Fortcrusha Flail",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "4"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 15 or more damage points, the Attacks characteristic of its Fortcrusha Flail is 4 and this unit has a Control characteristic of 10.\nIt's Goin' Down: Once Per Battle, Your Hero Phase Until the start of your next turn:\n• This unit has a Move characteristic of 4D6\".\n• While this unit is within 1\" of a terrain feature, the Attacks characteristic of its Hurled Boulder is D6 instead of 1.\nOff in a Huff: Once Per Turn (Army), Your Movement Phase You and your opponent must roll off. Each player adds their fury level to their roll. Then, this unit can move a distance up to its Move characteristic. It can move through the combat ranges of enemy units, but it cannot end that move in combat unless you won the roll-off.\nKeywords: Core, Move",
+    "categories": [
+      "HERO",
+      "MONSTER",
+      "DESTRUCTION",
+      "SONS OF BEHEMAT",
+      "MEGA-GARGANT"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "King Brodd",
+    "faction": "Sons of Behemat",
+    "points": 520,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 40,
+    "save": 4,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Obelisk of Tor Crania",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "5"
+      },
+      {
+        "name": "Death Grip",
+        "models": "",
+        "attacks": "1",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D6"
+      },
+      {
+        "name": "Almighty Stomp",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 15 or more damage points, the Attacks characteristic of its Obelisk of Tor Crania is 4 and this unit has a Control characteristic of 10.\nCreepers: This unit cannot be picked to be the target of enemy Rampage abilities.\nPower of Behemat: Your Hero Phase Make a chanting roll of D6. Pick 1 of the following effects. If the chanting roll was 10+, pick 2 instead:\n*Shatter the Mountains:* Add 2\" to the Move characteristic of friendly Sons of Behemat units for the rest of the turn.\n*Might of the Earth:* Heal (D3) each friendly Sons of Behemat unit.\n*Pummel All to Dust:* For the rest of the turn, add 1 to the Rend characteristic of the Obelisk of Tor Crania, Menhir Club, Fortcrusha Flail, Shipwrecka Warclub, Titanic Boulderclub and Massive Club used by friendly Sons of Behemat units.\nKeywords: Prayer",
+    "categories": [
+      "HERO",
+      "UNIQUE",
+      "MONSTER",
+      "WARMASTER",
+      "DESTRUCTION",
+      "SONS OF BEHEMAT",
+      "MEGA-GARGANT",
+      "PRIEST (1)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Kragnos, the End of Empires",
+    "faction": "Sons of Behemat",
+    "points": 590,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 18,
+    "save": 4,
+    "ward": 5,
+    "weapons": [
+      {
+        "name": "The Dread Mace",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "2",
+        "rend": "3",
+        "damage": "4"
+      },
+      {
+        "name": "Tuskbreaker",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Hooves of Wrack and Ruin",
+        "models": "",
+        "attacks": "6",
+        "hit": "3",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of The Dread Mace is 4 and this unit has a Control characteristic of 10.\nAvatar of Destruction: If this unit would be automatically destroyed, it is not automatically destroyed. Instead, allocate 6 damage points to it (ward rolls cannot be made for those damage points).\nThe End of Empires: Your Charge Phase For the rest of the turn, add 1 to the number of dice rolled when making charge rolls for friendly Destruction units while they are wholly within 12\" of this unit, to a maximum of 3.\nThe Shield Inviolate: Reaction: Opponent declared a Spell ability If this unit was picked to be the target of that spell, roll a dice. On a 3+, ignore the effect of that spell on this unit. This unit can use this ability more than once per phase but only once per Spell ability.\nRampaging Destruction: Once Per Turn (Army), Any Charge Phase If this unit charged this phase, pick 1 of the following effects:\n• Roll a dice for each enemy unit within 1\" of this unit. On a 2+, inflict an amount of mortal damage on that unit equal to the roll.\n• Pick an enemy Monster in combat with this unit and roll 2D6. On a 7, this ability has no effect. Otherwise, inflict an amount of mortal damage on that unit equal to the results on the dice used for the 2D6 roll multiplied together. For example, a 2D6 roll of 2 and 6 would inflict 12 mortal damage (2 × 6).\nKeywords: Rampage",
+    "categories": [
+      "HERO",
+      "UNIQUE",
+      "MONSTER",
+      "WARMASTER",
+      "WARD (5+)",
+      "DESTRUCTION",
+      "SONS OF BEHEMAT"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Kraken-eater Mega-Gargant",
+    "faction": "Sons of Behemat",
+    "points": 410,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 35,
+    "save": 4,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Hurled Debris",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      },
+      {
+        "name": "Death Grip",
+        "models": "",
+        "attacks": "1",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D6"
+      },
+      {
+        "name": "Almighty Stomp",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Shipwrecka Warclub",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "4"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 15 or more damage points, the Attacks characteristic of its Shipwrecka Warclub is 3 and this unit has a Control characteristic of 10.\nStuff 'Em in Me Net: Once Per Turn, Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll 3 dice. For each roll that is at least double the target's Health characteristic, 1 model in the target unit is slain.\nGet Orf Me Land!: Once Per Turn (Army), Your Hero Phase Pick an objective within 1\" of this unit to be the target. Roll a dice. On a 2+, move the target 2D6\" to a new position on the battlefield more than 1\" from all models, terrain features and other objectives. That objective is treated as if it were in the same territories as it was when it was first set up on the battlefield for the purposes of the battleplan.",
+    "categories": [
+      "HERO",
+      "MONSTER",
+      "DESTRUCTION",
+      "SONS OF BEHEMAT",
+      "MEGA-GARGANT"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Battle Traits: Sons of Behemat",
+    "faction": "Sons of Behemat",
+    "points": 0,
+    "models": 1,
+    "move": "",
+    "wounds": 1,
+    "save": "",
+    "ward": 0,
+    "weapons": [],
+    "abilities": "Colossal Slam: Once Per Turn (Army), Any Combat Phase Pick a friendly Mega‑Gargant that has not used a Rampage ability this turn to use this ability, then pick an enemy Monster or War Machine that has a unit size of 1 and is within 1\" of it to be the target. Roll a dice. On a 3+, remove the target from the battlefield and set it up again within 1\" of the unit using this ability. Then, inflict D3 mortal damage on the target.\nKeywords: Rampage\nGargant Charge: Any Charge Phase Pick a friendly Mega-Gargant or Gargant unit that charged this turn to use this ability, then pick an enemy unit that has not been picked as the target of this ability this turn and that is in combat with that unit to be the target. Inflict D3 mortal damage on the target.\nTimberrrrr!: Each time a friendly Mega‑Gargant or Gargant model is slain, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of that model. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than that model.\nJump Up and Down: Once Per Turn (Army), Any Combat Phase Pick a friendly Mega‑Gargant or Gargant unit that has not used a Rampage ability this turn to use this ability, then pick an enemy Infantry unit in combat with it to be the target. Roll a dice. On a 3+, roll a dice for each model in the target unit. If the unit using this ability is a Gargant, inflict 1 mortal damage on the target for each 6. If it is a Mega-Gargant, inflict 1 mortal damage on the target for each 5+.\nKeywords: Rampage\nEarthshaking Roar: Once Per Turn (Army), Any Combat Phase Pick a friendly Mega‑Gargant or Gargant unit that has not used a Rampage ability this turn to use this ability, then pick an enemy unit in combat with it to be the target. Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.\nKeywords: Rampage",
+    "categories": [],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Mancrusher Gargant",
+    "faction": "Sons of Behemat",
+    "points": 120,
+    "models": 1,
+    "move": "8\"",
+    "wounds": 12,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "'Eadbutt",
+        "models": "",
+        "attacks": "1",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "4"
+      },
+      {
+        "name": "Throwin' Rocks",
+        "models": "",
+        "attacks": "1",
+        "hit": "5",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Massive Club",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Mighty Kick",
+        "models": "",
+        "attacks": "1",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Stuff 'Em in Me Bag: Once Per Turn, Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll a dice. If the roll is at least double the target's Health characteristic, 1 model in the target unit is slain.\nKeep Up!: While this unit is wholly within 12\" of a friendly Mega-Gargant, this unit can use Charge abilities even if it used a Run ability in the same turn.",
+    "categories": [
+      "MONSTER",
+      "DESTRUCTION",
+      "SONS OF BEHEMAT",
+      "GARGANT"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Mancrusher Gargant (Scourge of Aqshy)",
+    "faction": "Sons of Behemat",
+    "points": 120,
+    "models": 1,
+    "move": "8\"",
+    "wounds": 12,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "'Eadbutt",
+        "models": "",
+        "attacks": "1",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "4"
+      },
+      {
+        "name": "Throwin' Rocks",
+        "models": "",
+        "attacks": "1",
+        "hit": "5",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Massive Club",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Mighty Kick",
+        "models": "",
+        "attacks": "1",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Statue Tossing: Once Per Turn (Army), Your Shooting Phase For the rest of the turn, the Damage characteristic of this unit's Throwin' Rocks is 3 instead of D3.\nThen, you can spend up to 3 rage dice. If you do:\n• For each rage dice spent, add 2 to the Attacks characteristic of this unit's Throwin' Rocks for the rest of the turn.\n• If your opponent's fury level is lower than yours, they must increase their fury level by 1, to a maximum of 7.",
+    "categories": [
+      "MONSTER",
+      "DESTRUCTION",
+      "SONS OF BEHEMAT",
+      "GARGANT"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Mancrusher Mob",
+    "faction": "Sons of Behemat",
+    "points": 350,
+    "models": 3,
+    "move": "8\"",
+    "wounds": 12,
+    "save": 5,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "'Eadbutt",
+        "models": "",
+        "attacks": "1",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "4"
+      },
+      {
+        "name": "Throwin' Rocks",
+        "models": "",
+        "attacks": "1",
+        "hit": "5",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Massive Club",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Mighty Kick",
+        "models": "",
+        "attacks": "1",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Stuff 'Em in Me Bag: Once Per Turn, Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll a dice. If the roll is at least double the target's Health characteristic, 1 model in the target unit is slain.\nKeep Up!: While this unit is wholly within 12\" of a friendly Mega-Gargant, this unit can use Charge abilities even if it used a Run ability in the same turn.\n'Oo's Under The Heel Now?: Each time this unit uses the 'Gargant Charge' ability, add 1 to the amount of mortal damage inflicted, if any, for each model in this unit.",
+    "categories": [
+      "MONSTER",
+      "DESTRUCTION",
+      "SONS OF BEHEMAT",
+      "GARGANT"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Kraken-eater Mega-Gargant (Scourge of Ghyran)",
+    "faction": "Sons of Behemat",
+    "points": 430,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 35,
+    "save": 4,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Hurled Debris",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      },
+      {
+        "name": "Death Grip",
+        "models": "",
+        "attacks": "1",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D6"
+      },
+      {
+        "name": "Spine-shattering Stomp",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "D3"
+      },
+      {
+        "name": "Shipwrecka Warclub",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "5"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 15 or more damage points, the Attacks characteristic of its Shipwrecka Warclub is 3 and this unit has a Control characteristic of 10.\nLurking Beneath the Waves: Once Per Battle (Army), Deployment Phase Pick this unit if it has not been deployed. Set up this unit in reserve beneath the waves. It has now been deployed.\nEmerge from the Deep: Your Movement Phase Pick this unit if it is beneath the waves. Set up this unit anywhere on the battlefield more than 9\" from all enemy units and wholly within 9\" of a battlefield edge.",
+    "categories": [
+      "HERO",
+      "MONSTER",
+      "DESTRUCTION",
+      "SONS OF BEHEMAT",
+      "MEGA-GARGANT"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  }
+]

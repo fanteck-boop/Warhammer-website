@@ -1,0 +1,146 @@
+{
+  "faction": "Kharadron Overlords",
+  "battleTraits": [
+    {
+      "name": "Skyvessel Cover",
+      "effect": "Skyvessel Cover: Subtract 1 from hit rolls for attacks that target friendly Kharadron Overlords Infantry units that have not charged in the same turn while they are wholly within 6\" of a friendly Arkanaut Ironclad or Arkanaut Frigate that has not charged in the same turn."
+    },
+    {
+      "name": "Flying High",
+      "effect": "Flying High (Once Per Battle (Army), Deployment Phase): Set up all of those units in reserve in the clouds. They have now been deployed."
+    },
+    {
+      "name": "Descend from the Clouds",
+      "effect": "Descend from the Clouds (Your Movement Phase): Set up that Skyvessel anywhere on the battlefield more than 9\" from all enemy units. Then, set up all other units that were set up in the clouds with that Skyvessel wholly within 6\" of it and more than 9\" from all enemy units."
+    },
+    {
+      "name": "Transport Skyfarers",
+      "effect": "Transport Skyfarers (Your Movement Phase, Reaction: You declared a non-Charge Move ability for a friendly Skyvessel): Pick a number of units up to that Skyvessel's Transport Capacity (see its warscroll) that are wholly within 6\" of it and not in combat to be the targets. Units that have been transported this turn cannot be targets.\nRemove the targets from the battlefield. After the Skyvessel ends its move, you must set up each target unit on the battlefield, wholly within 6\" of that Skyvessel and not in combat. Those units have been transported. A unit cannot use Charge abilities if it was transported in the same turn."
+    },
+    {
+      "name": "The Flagship",
+      "effect": "The Flagship (Once Per Battle (Army), Deployment Phase): The target has the Flagship keyword for the rest of the battle. If the target does not have a Great Endrinwork, give the target 1 Great Endrinwork.\nDesigner's Note: *This Great Endrinwork is given to the unit during the deployment phase not during army composition.*"
+    }
+  ],
+  "artefacts": [
+    {
+      "name": "Celestium Burst Grenade",
+      "cost": 10,
+      "effect": "Celestium Burst Grenade: Once Per Battle, Your Shooting Phase Pick a visible enemy unit within 12\" of this unit to be the target. Ward rolls cannot be made for the target for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Inventions of the Sky-ports"
+    },
+    {
+      "name": "Voidstone Orb",
+      "cost": 0,
+      "effect": "Voidstone Orb: Once Per Battle, Reaction: Opponent declared a Spell ability for a Wizard within 30\" of this unit That spell is unbound.",
+      "restrictions": [],
+      "groupName": "Inventions of the Sky-ports"
+    },
+    {
+      "name": "Blazebeard and Sons Bamboozling Flakgun",
+      "cost": 10,
+      "effect": "Blazebeard and Sons Bamboozling Flakgun: Once Per Turn, Reaction: Opponent declared a Charge ability for a unit within 12\" of this unit. Pick 1 dice in that charge roll. Then, make a bamboozling flak roll of D6. If the roll equals or exceeds the value on the dice, remove that dice from the charge roll.",
+      "restrictions": [],
+      "groupName": "Inventions of the Sky-ports"
+    },
+    {
+      "name": "Emberstone Flare",
+      "cost": 0,
+      "effect": "Emberstone Flare: Once Per Battle, Your Movement Phase Pick a friendly Kharadron Overlords unit that has Fly and is not in combat to be the target. Remove the target from the battlefield and set it up again wholly within 9\" of this unit and more than 9\" from all enemy units.",
+      "restrictions": [],
+      "groupName": "Ingenious Innovations"
+    },
+    {
+      "name": "Karst-Bana Aether-Powered Combat Rig",
+      "cost": 0,
+      "effect": "Karst-Bana Aether-Powered Combat Rig: This unit has Ward (5+). In addition, add 1 to the Attacks characteristic of this unit's melee weapons.",
+      "restrictions": [],
+      "groupName": "Ingenious Innovations"
+    },
+    {
+      "name": "Spell in a Bottle",
+      "cost": 0,
+      "effect": "Spell in a Bottle: Once Per Battle, Your Hero Phase This unit can use a Summon ability from the manifestation lore you picked during army composition as if it had Wizard (1). Instead of making a casting roll for that Summon ability, the casting roll is 7 and cannot be modified. That Summon ability cannot be unbound.",
+      "restrictions": [],
+      "groupName": "Ingenious Innovations"
+    },
+    {
+      "name": "Persistent Drillbill",
+      "cost": 0,
+      "effect": "Persistent Drillbill: Your Hero Phase Pick a visible enemy unit within 12\" of this unit to be the target. Roll a D3. On a 2+:\n• Inflict an amount of mortal damage on the target equal to the roll.\n• If the target unit's starting size was 1, subtract 1 from hit rolls for the target's attacks until the start of your next turn.",
+      "restrictions": [],
+      "groupName": "Ingenious Innovations"
+    },
+    {
+      "name": "Experimental Aether-powered Ejector Rig",
+      "cost": 0,
+      "effect": "Experimental Aether-powered Ejector Rig: Once Per Battle, Any Combat Phase Remove this unit from the battlefield and set it up again wholly within 3\" of a friendly Skyvessel or Zontari Endrin Dock and more than 9\" from all enemy units.",
+      "restrictions": [],
+      "groupName": "Ingenious Innovations"
+    },
+    {
+      "name": "Heat-seeking Auto-endrin",
+      "cost": 0,
+      "effect": "Heat-seeking Auto-endrin: Your Movement Phase Pick a visible enemy unit within 18\" of this unit to be the target. Until the start of your next turn, subtract your opponent's fury level from the target's control score.\nDesigner's Note: *Use your opponent's fury level at the point the unit's control score is determined.*",
+      "restrictions": [],
+      "groupName": "Ingenious Innovations"
+    }
+  ],
+  "heroicTraits": [
+    {
+      "name": "Bold as Brass",
+      "cost": 0,
+      "effect": "Bold as Brass: Add 5 to this unit's control score.",
+      "restrictions": [],
+      "groupName": "Lords of the Sky-fleets"
+    },
+    {
+      "name": "Combat Grafter",
+      "cost": 0,
+      "effect": "Combat Grafter: Once Per Battle, Any Combat Phase This unit can use 2 Fight abilities this phase. After the first is used, however, this unit has Strike-last for the rest of the phase.",
+      "restrictions": [],
+      "groupName": "Lords of the Sky-fleets"
+    },
+    {
+      "name": "Shrewd Opportunist",
+      "cost": 10,
+      "effect": "Shrewd Opportunist: Deployment Phase Pick this unit and up to 2 other friendly Kharadron Overlords non-Hero Infantry units to be the targets. Each target can immediately use the 'Normal Move' ability as if it were your movement phase.",
+      "restrictions": [],
+      "groupName": "Lords of the Sky-fleets"
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Veteran Ground Troops",
+      "cost": 0,
+      "effect": "Entrenched Crews: Once Per Turn (Army), Start of Battle Round Pick up to 3 friendly Arkanaut Company units to be the targets. For the rest of the battle round, if the target has not been set up this battle round and while it has not moved this turn, subtract 1 from the Rend characteristic of attacks that target that unit.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Kharadron Overlords"
+    },
+    {
+      "name": "Rapid Redeployment Squadron",
+      "cost": 0,
+      "effect": "Extra Rappel Anchors: Friendly Grundstok Gunhaulers can transport up to 2 friendly Kharadron Overlords Infantry units instead of 1 and with a combined model count of up to 6 instead of 5 (see Battle Traits).",
+      "restrictions": [],
+      "groupName": "Battle Formations: Kharadron Overlords"
+    },
+    {
+      "name": "Endrineers Guild Expeditionary Force",
+      "cost": 20,
+      "effect": "Special Procurement: Once Per Battle, Deployment Phase Pick a friendly non-Unique Kharadron Overlords Hero that does not have an artefact of power. Give that Hero 1 artefact of power from the 'Inventions of the Sky-ports' or the 'Ingenious Innovations'.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Kharadron Overlords"
+    },
+    {
+      "name": "Pioneers and Scavengers",
+      "cost": 10,
+      "effect": "Gritty Fortune-Hunters: Friendly Vongrim Harpoon Crew and Vongrim Salvagers units have Ward (6+) while they are contesting an objective.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Kharadron Overlords"
+    }
+  ],
+  "boons": [],
+  "spellLores": [],
+  "prayerLores": []
+}

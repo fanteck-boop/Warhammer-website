@@ -1,0 +1,117 @@
+{
+  "faction": "Fyreslayers",
+  "battleTraits": [
+    {
+      "name": "Rune of Fiery Determination",
+      "effect": "Rune of Fiery Determination (Once Per Battle (Army), Any Hero Phase): You can only use this ability if you have not used any Ur-gold Rune abilities this battle round.\nFriendly Fyreslayers units have Ward (5+) for the rest of the battle round."
+    },
+    {
+      "name": "Rune of Farsight",
+      "effect": "Rune of Farsight (Once Per Battle (Army), Your Shooting Phase): Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. In addition,\nfor the rest of the battle round, ranged weapons, including Companion weapons, used by friendly Fyreslayers units have Crit (2 Hits)."
+    },
+    {
+      "name": "Rune of Relentless Zeal",
+      "effect": "Rune of Relentless Zeal (Once Per Battle (Army), Your Movement Phase): You can only use this ability if you have not used any Ur-gold Rune abilities this battle round.\nFor the rest of the battle round, friendly Fyreslayers units can use Charge abilities even if they used a Run ability in the same turn."
+    },
+    {
+      "name": "Rune of Searing Heat",
+      "effect": "Rune of Searing Heat (Once Per Battle (Army), Any Combat Phase): You can only use this ability if you have not used any Ur-gold Rune abilities this battle round.\nMelee weapons used by friendly Fyreslayers units have Crit (Mortal) for the rest of the battle round."
+    },
+    {
+      "name": "Rune of Fury",
+      "effect": "Rune of Fury (Once Per Battle (Army), Start of Any Turn): You can only use this ability if you have not used any Ur-gold Rune abilities this battle round.\nFor the rest of the battle round, friendly Fyreslayers units have Strike-first while they are in combat with an enemy unit that charged in the same turn."
+    }
+  ],
+  "artefacts": [
+    {
+      "name": "Droth-helm",
+      "cost": 0,
+      "effect": "Droth-helm: Add 1 to hit rolls for Companion weapons used by friendly Fyreslayers units while they are wholly within 12\" of this unit.",
+      "restrictions": [],
+      "groupName": "Heirlooms of the Lodge"
+    },
+    {
+      "name": "Draught of the Finest Magmalt",
+      "cost": 0,
+      "effect": "Draught of the Finest Magmalt: Once Per Battle, Any Combat Phase Add 3 to the Attacks characteristic of this unit's melee weapons for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Heirlooms of the Lodge"
+    },
+    {
+      "name": "Ash-cloud Rune",
+      "cost": 0,
+      "effect": "Ash-cloud Rune: Once Per Battle, Enemy Hero Phase Until the start of your next turn, friendly Infantry units cannot be targeted by shooting attacks while they are wholly within 12\" of this unit.",
+      "restrictions": [],
+      "groupName": "Heirlooms of the Lodge"
+    }
+  ],
+  "heroicTraits": [
+    {
+      "name": "Ash-beard",
+      "cost": 0,
+      "effect": "Ash-beard: If this unit is not a Priest, they have Priest (1). If this unit was already a Priest, add 1 to this unit's chanting rolls.",
+      "restrictions": [],
+      "groupName": "Inheritance of Grimnir"
+    },
+    {
+      "name": "Blood of the Berzerker",
+      "cost": 0,
+      "effect": "Blood of the Berzerker: Add 1 to charge rolls for friendly Fyreslayers units while they are wholly within 12\" of this unit.",
+      "restrictions": [],
+      "groupName": "Inheritance of Grimnir"
+    },
+    {
+      "name": "Fiercely Competitive",
+      "cost": 0,
+      "effect": "Fiercely Competitive: If this unit is in combat with an enemy unit that has Strike-first, this unit has Strike-first. If this unit is in combat with an enemy unit that uses the 'All-out Attack' command, add 1 to hit rolls for this unit's attacks for the rest of the turn",
+      "restrictions": [],
+      "groupName": "Inheritance of Grimnir"
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Forge Brethren",
+      "cost": 0,
+      "effect": "Bulwark of Molten Stone: Add 1 to save rolls for friendly Fyreslayers Infantry units while they are wholly within friendly territory.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Fyreslayers"
+    },
+    {
+      "name": "Scales of Vulcatrix",
+      "cost": 0,
+      "effect": "Ancient Bloodlines: Add 2 to the Health characteristic of friendly Magmadroth units.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Fyreslayers"
+    },
+    {
+      "name": "Warrior Kinband",
+      "cost": 0,
+      "effect": "Berserk Kindred: Add 1 to wound rolls for combat attacks made by friendly Fyreslayers Infantry units that charged in the same turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Fyreslayers"
+    },
+    {
+      "name": "Lords of the Lodge",
+      "cost": 0,
+      "effect": "Martial Pride and Stubborn Will: Add 3 to the control scores of friendly Fyreslayers Heroes. In addition, the control scores of Fyreslayers Heroes cannot be modified by enemy abilities.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Fyreslayers"
+    }
+  ],
+  "boons": [],
+  "spellLores": [],
+  "prayerLores": [
+    {
+      "name": "Zharrgrim Blessings",
+      "effect": ""
+    },
+    {
+      "name": "Vulkyn Gifts",
+      "effect": ""
+    },
+    {
+      "name": "Vulkyn Gifts",
+      "effect": ""
+    }
+  ]
+}

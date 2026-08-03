@@ -1,0 +1,155 @@
+{
+  "faction": "Blades of Khorne",
+  "battleTraits": [
+    {
+      "name": "Blood-drenched",
+      "effect": "Blood-drenched (Reaction: You declared the 'Skulls for the Skull Throne' ability): After that ability has been resolved, if you unlocked a Blood Tithe ability this turn, pick a friendly Blades of Khorne unit to be the target. The following effects apply to the target for the rest of the battle:\n*Wild-eyed Brutality:* Ignore positive modifiers to save rolls for friendly Blades of Khorne units.\n*Blood Haze:* Blood-hungry weapons used by friendly Bloodbound units have Crit (Mortal).\n*Weapons of Murder:* Add 1 to the Rend characteristic of Blood-hungry weapons used by friendly Blades of Khorne non-Monster Daemon units, including Blood-hungry Companion weapons.\n*Bloodlords Supreme:* Add 1 to the Damage characteristic of Blood-hungry weapons used by friendly Blades of Khorne Monster units."
+    },
+    {
+      "name": "Blood for the Blood God",
+      "effect": "Blood for the Blood God: Earn 1 blood tithe point each time a unit (friendly or enemy) is destroyed. Blood tithe points are spent to unlock Blood Tithe abilities. You can only use Blood Tithe abilities that are unlocked. Once a Blood Tithe ability is unlocked, you do not need to spend further blood tithe points to use it."
+    },
+    {
+      "name": "Skulls for the Skull Throne",
+      "effect": "Skulls for the Skull Throne (Once Per Turn (Army), Start of Any Turn): Pick a Blood Tithe ability that you have not unlocked and spend the number of blood tithe points required to unlock that ability. That Blood Tithe ability is now unlocked for the rest of the battle."
+    },
+    {
+      "name": "Murderlust",
+      "effect": "Murderlust (Once Per Turn (Army), Reaction: You declared a Charge ability.): Roll a dice. You can replace one of the dice in the charge roll with that value. If you do so, inflict D3 mortal damage on the unit using that Charge ability after that ability is resolved."
+    },
+    {
+      "name": "Divine Scorn",
+      "effect": "Divine Scorn (Once Per Turn, Start of Any Turn): Roll a dice for each target. On a 3+, subtract 1 from the target's power level, to a minimum of 0, until the start of the next turn."
+    },
+    {
+      "name": "Punish the Pacifist",
+      "effect": "Punish the Pacifist (Once Per Turn (Army), Your Combat Phase): Roll a dice. On a 1-2, inflict 1 mortal damage on each target. On a 3+, inflict 1 mortal damage on each enemy target."
+    },
+    {
+      "name": "Murder the Mystic",
+      "effect": "Murder the Mystic (Once Per Turn (Army),Your Hero Phase): Make a banishment roll of 2D6 for each target. If the banishment roll equals or exceeds the banishment value listed on that Manifestation's warscroll, inflict D3 mortal damage on each enemy unit within 3\" of it and then it is banished and removed from play."
+    },
+    {
+      "name": "Glorious Combat or Naught",
+      "effect": "Glorious Combat or Naught (Passive): Subtract 1 from hit rolls for shooting attacks that target friendly Blades of Khorne units."
+    },
+    {
+      "name": "Revel in Battle",
+      "effect": "Revel in Battle (Passive): Other than the Companion weapon ability, weapon abilities for combat attacks made by enemy units that charged this turn and that target a friendly Blades of Khorne unit have no effect."
+    },
+    {
+      "name": "Slaughter Triumphant",
+      "effect": "Slaughter Triumphant (Passive): Add 1 to the Attacks characteristic of weapons used by friendly Blades of Khorne units that charged in the same turn."
+    },
+    {
+      "name": "Cleave Wide the Grin of Khorne",
+      "effect": "Cleave Wide the Grin of Khorne (Passive): Add 1 to hit rolls for combat attacks made by friendly Blades of Khorne units."
+    }
+  ],
+  "artefacts": [
+    {
+      "name": "Collar of Contempt",
+      "cost": 0,
+      "effect": "Collar of Contempt: This unit can use Unbind abilities as if it had Wizard (1). Each time this unit successfully unbinds a spell, inflict D3 mortal damage on the caster.",
+      "restrictions": [],
+      "groupName": "Murderous Artefacts"
+    },
+    {
+      "name": "Butcher's Blade",
+      "cost": 0,
+      "effect": "Butcher's Blade: End of Your Turn Pick each enemy unit that had any damage points allocated to it this turn by this unit's combat attacks to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
+      "restrictions": [],
+      "groupName": "Murderous Artefacts"
+    },
+    {
+      "name": "Ar'gath, the King of Blades",
+      "cost": 0,
+      "effect": "Ar'gath, the King of Blades: Ward rolls cannot be made for enemy Heroes while they are in combat with this unit.",
+      "restrictions": [],
+      "groupName": "Murderous Artefacts"
+    }
+  ],
+  "heroicTraits": [
+    {
+      "name": "Magical Scorn",
+      "cost": 0,
+      "effect": "Magical Scorn: Subtract 1 from casting rolls for Wizards while they are within 12\" of this unit.\nSubtract 1 from chanting rolls for enemy Priests while they are within 12\" of this unit.",
+      "restrictions": [],
+      "groupName": "Commanders of the Blood Legions"
+    },
+    {
+      "name": "Skull Collector",
+      "cost": 0,
+      "effect": "Skull Collector: End of Any Turn If any damage points were allocated to an enemy Hero by this unit's combat attacks this turn and that enemy Hero has been destroyed, add 1 to the Attacks characteristic of this unit's melee weapons for the rest of the battle.\nThis unit can be affected by this ability multiple times and the effects are cumulative.",
+      "restrictions": [],
+      "groupName": "Commanders of the Blood Legions"
+    },
+    {
+      "name": "Frenzied Taskmaster",
+      "cost": 0,
+      "effect": "Frenzied Taskmaster: Your Movement Phase Pick a friendly Blades of Khorne Infantry or Cavalry unit within this unit's combat range that is not in combat to be the target. The target can move D6\" but cannot end that move in combat. If the target ends that move within this unit's combat range, inflict an amount of mortal damage on the target equal to the roll.",
+      "restrictions": [],
+      "groupName": "Commanders of the Blood Legions"
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Brass Stampede",
+      "cost": 0,
+      "effect": "Obliterating Charge: Add X to charge rolls for friendly Blades of Khorne units, where X is the number of friendly Blades of Khorne Cavalry or Monster units that have already charged this phase and that are wholly within 12\" of the unit being rolled for.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Blades of Khorne"
+    },
+    {
+      "name": "Khornate Legion",
+      "cost": 0,
+      "effect": "Butchers of Nations: Once Per Turn (Army), Reaction: You declared a Fight ability for a friendly Blades of Khorne Daemon unit Pick a friendly Bloodbound unit that has not used a Fight ability this turn and is wholly within 12\" of the unit using this ability to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Blades of Khorne"
+    },
+    {
+      "name": "Murderhost",
+      "cost": 0,
+      "effect": "Eager Killers: End of Your Turn Each friendly Blades of Khorne Daemon unit that has used a Fight ability this turn and is not in combat can move D6\". It cannot end that move in combat.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Blades of Khorne"
+    },
+    {
+      "name": "Bloodbound Warhorde",
+      "cost": 0,
+      "effect": "Tireless Conquerors",
+      "restrictions": [],
+      "groupName": "Battle Formations: Blades of Khorne"
+    },
+    {
+      "name": "Tournament of Skulls",
+      "cost": 0,
+      "effect": "Bloody Competitors: Once Per Turn (Army), Your Hero Phase Pick a friendly non-Hero Bloodbound unit and a friendly non-Hero Blades of Khorne Daemon unit to be the targets. Until the start of your next turn, while the targets are wholly within 12\" of each other, add 1 to wound rolls for the targets' combat attacks.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Blades of Khorne"
+    },
+    {
+      "name": "The Goretide",
+      "cost": 0,
+      "effect": "Tide of Savagery: Once Per Turn (Army), Your Movement Phase Pick a friendly Bloodbound Hero and up to 2 other friendly Bloodbound units that are wholly within 12\" of that Hero to be the targets. Add 2\" to the targets' Move characteristic for the rest of the turn.",
+      "restrictions": [],
+      "groupName": "Battle Formations: Blades of Khorne"
+    }
+  ],
+  "boons": [],
+  "spellLores": [],
+  "prayerLores": [
+    {
+      "name": "Proclamations of Murder",
+      "effect": ""
+    },
+    {
+      "name": "Blood Blessings of Khorne",
+      "effect": ""
+    },
+    {
+      "name": "Gifts of the Blood God",
+      "effect": ""
+    }
+  ]
+}

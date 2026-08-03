@@ -1,0 +1,1348 @@
+[
+  {
+    "name": "Mortek Guard",
+    "faction": "Ossiarch Bonereapers",
+    "points": 110,
+    "models": 10,
+    "move": "4\"",
+    "wounds": 1,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Nadirite Blades",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Shields of the Legion: Once Per Phase (Army), Reaction: Opponent declared an Attack ability that targeted a visible Ossiarch Bonereapers unit within this unit's combat range. Subtract 1 from the Rend characteristic of weapons used for attacks made as part of that Attack ability that target any friendly Ossiarch Bonereapers units within this unit's combat range.",
+    "categories": [
+      "INFANTRY",
+      "OSSIARCH BONEREAPERS",
+      "WARD (6+)",
+      "DEATH",
+      "CHAMPION",
+      "STANDARD BEARER (1/10)"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Teratic Cohort",
+    "faction": "Ossiarch Bonereapers",
+    "points": 90,
+    "models": 8,
+    "move": "7\"",
+    "wounds": 1,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Cohort Weapons",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Bone-deep Savagery: Once Per Turn (Army), Any Hero Phase This unit can move 3\". If it can move into combat, it must. If it was in combat at the start of the move, it must end that move in combat.\nHunters Unleashed: Deployment Phase This unit can use the 'Normal Move' ability as if it were your movement phase.",
+    "categories": [
+      "OSSIARCH BONEREAPERS",
+      "WARD (6+)",
+      "DEATH",
+      "CHAMPION (1/8)",
+      "BEAST"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Bone-tithe Nexus",
+    "faction": "Ossiarch Bonereapers",
+    "points": 0,
+    "models": 1,
+    "move": "-",
+    "wounds": 13,
+    "save": 4,
+    "ward": 0,
+    "weapons": [
+      {
+        "name": "Almighty Obsidian Blade",
+        "models": "",
+        "attacks": "2",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Deathly Aura: Enemy units cannot be set up within X\" Of this terrain feature, where X is determined by the current battle round, as follows:\n1    9\"\n2    12\"\n3    15\"\n4    18\"\n5    21\"",
+    "categories": [
+      "DEATH",
+      "OSSIARCH BONEREAPERS",
+      "FACTION TERRAIN"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Gothizzar Harvester",
+    "faction": "Ossiarch Bonereapers",
+    "points": 200,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 10,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Soulcrusher Weapons",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Bone Harvest: Once Per Turn (Army), End of Any Turn Roll a dice for each enemy unit that has been destroyed this battle. Add 1 to each roll if this unit used a Fight ability this turn. If any of the rolls are a 4+, this unit is full.\nBone Cage: This unit is either full or empty. It starts the battle full.\nRepair Construct: Once Per Turn (Army), Your Hero Phase If this unit is full, pick a visible friendly Ossiarch Bonereapers unit wholly within 12\" of this unit to be the target. Return 1 slain model to the target unit. If the target has a Health characteristic of 1, return 3 slain models to it instead. Then, this unit is empty.",
+    "categories": [
+      "OSSIARCH BONEREAPERS",
+      "WARD (6+)",
+      "DEATH",
+      "WAR MACHINE"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Immortis Guard",
+    "faction": "Ossiarch Bonereapers",
+    "points": 170,
+    "models": 3,
+    "move": "5\"",
+    "wounds": 4,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Dread Halberd",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Immortal Bulwark: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit and that charged this turn to be the target. Other than the Companion weapon ability, weapon abilities for the target's combat attacks have no effect for the rest of the turn.",
+    "categories": [
+      "INFANTRY",
+      "OSSIARCH BONEREAPERS",
+      "WARD (6+)",
+      "DEATH"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Kavalos Deathriders",
+    "faction": "Ossiarch Bonereapers",
+    "points": 150,
+    "models": 5,
+    "move": "10\"",
+    "wounds": 3,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Kavalos Blades",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Kavalos Steed's Hooves and Teeth",
+        "models": "",
+        "attacks": "2",
+        "hit": "5",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Deathrider Wedge: Any Combat Phase If this unit charged this turn, pick an enemy unit in combat with it to be the enemy target. Then, you can pick a friendly Liege-Kavalos within this unit's combat range to be the friendly target. Inflict D3 mortal damage on the enemy target. Inflict an additional D3 mortal damage on the enemy target if you picked a friendly target. Then, this unit and the friendly target (if any) can move 10\". They can move through the combat ranges of enemy units but cannot end that move in combat.\nKeywords: Core, Attack, Fight",
+    "categories": [
+      "OSSIARCH BONEREAPERS",
+      "WARD (6+)",
+      "DEATH",
+      "CHAMPION",
+      "CAVALRY",
+      "STANDARD BEARER (1/5)"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Morghast Archai",
+    "faction": "Ossiarch Bonereapers",
+    "points": 250,
+    "models": 2,
+    "move": "10\"",
+    "wounds": 6,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Spirit Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Discharge Armour: Once Per Turn (Army), Any Hero Phase Pick a friendly Ossiarch Bonereapers Wizard wholly within 12\" of this unit to be the target. Roll a dice. On a 3+, add 1 to casting rolls for the target for the rest of the turn.\nEbon-wrought Armour: This unit has Ward (3+) against damage points inflicted by Spell abilities, Prayer abilities and abilities used by Manifestations.",
+    "categories": [
+      "INFANTRY",
+      "OSSIARCH BONEREAPERS",
+      "WARD (6+)",
+      "DEATH",
+      "FLY"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Morghast Harbingers",
+    "faction": "Ossiarch Bonereapers",
+    "points": 240,
+    "models": 2,
+    "move": "10\"",
+    "wounds": 6,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Spirit Weapons",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Harbingers of Death: Add 1 to the number of dice rolled when making charge rolls for this unit, to a maximum of 3.",
+    "categories": [
+      "INFANTRY",
+      "OSSIARCH BONEREAPERS",
+      "WARD (6+)",
+      "DEATH",
+      "FLY"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Mortek Crawler",
+    "faction": "Ossiarch Bonereapers",
+    "points": 250,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 12,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Attendants' Crawler Tools",
+        "models": "",
+        "attacks": "6",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Dread Catapult",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "2",
+        "rend": "1",
+        "damage": "D3+2"
+      }
+    ],
+    "abilities": "Deathly Barrage: Once Per Turn (Army), Reaction: You declared a Shoot ability for this unit. After that Shoot ability has been resolved, if all of this unit's attacks targeted the same enemy unit, roll a dice. Add 1 to the roll if this unit is wholly within 12\" of a friendly Mortisan Ossifector, and add 1 to the roll if any other friendly Mortek Crawler units picked that enemy unit to be the target of all of their shooting attacks this turn. On a 4+, the target has Strike-Last for the rest of the turn\nCursed Stele: Once Per Turn (Army), Your Shooting Phase For the rest of the turn:\n• This unit's ranged weapons have Anti-Faction Terrain (+1 Rend).\n• Add 1 to the Damage characteristic of this unit's ranged weapons for attacks that target faction terrain features.",
+    "categories": [
+      "OSSIARCH BONEREAPERS",
+      "WARD (6+)",
+      "DEATH",
+      "WAR MACHINE"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Necropolis Stalkers",
+    "faction": "Ossiarch Bonereapers",
+    "points": 130,
+    "models": 3,
+    "move": "7\"",
+    "wounds": 4,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Stalker Blades",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Fourfold Slayers: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll a number of dice equal to the number of models in the target unit. For each 6, inflict 1 mortal damage on the target. If this unit has 3 or more models, inflict 1 mortal damage on the target for each 5+ instead.",
+    "categories": [
+      "INFANTRY",
+      "OSSIARCH BONEREAPERS",
+      "WARD (6+)",
+      "DEATH"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Arch-Kavalos Zandtos",
+    "faction": "Ossiarch Bonereapers",
+    "points": 220,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 8,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Kavalos Steed's Hooves, Teeth, and Barbed Tails",
+        "models": "",
+        "attacks": "4",
+        "hit": "5",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "The Dark Lance",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Unstoppable Charge: Once Per Battle, Any Combat Phase If this unit charged this turn, pick each enemy unit in combat with it to be the targets. The targets have Strike-last for the rest of the turn.\nStill Their Breath!: Any Combat Phase Pick a friendly non-Hero Ossiarch Bonereapers Cavalry unit wholly within 12\" of this unit to be the target. Spend 1 relentless discipline point. If this unit is in combat, no relentless discipline points are spent. The target's melee weapons have Charge (+1 Damage) for the rest of the turn.\nKeywords: Relentless Discipline",
+    "categories": [
+      "HERO",
+      "DEATH",
+      "OSSIARCH BONEREAPERS",
+      "WARD (6+)",
+      "UNIQUE",
+      "CAVALRY",
+      "RELENTLESS DISCIPLINE (7)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Arkhan the Black, Mortarch of Sacrament",
+    "faction": "Ossiarch Bonereapers",
+    "points": 440,
+    "models": 1,
+    "move": "12\"",
+    "wounds": 14,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Razarak's Ebon Claws",
+        "models": "",
+        "attacks": "5",
+        "hit": "4",
+        "wound": "2",
+        "rend": "3",
+        "damage": "3"
+      },
+      {
+        "name": "Zefet-kar and Khenash-an",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of Razarak's Ebon Claws is 3.\nThe Staff of Spirits: Add 1 to casting rolls for this unit. Each time this unit successfully casts a spell, Heal (1) this unit after that Spell ability has been resolved.\nThe Doom of Traitors: Once Per Turn (Army), Any Combat Phase If this unit charged this turn, pick an enemy unit in combat with it to be the target. Roll a D3. Add 1 to the roll if the target is a Wizard or Priest. On a 2+, add an amount equal to the roll to the Attacks characteristic of this unit's Razarak's Ebon Claws for the rest of the phase, but while this unit is in combat with the target, all attacks made with that weapon this phase must target that enemy unit.\nDesigner's Note: *If the target is a* Wizard *or* Priest*, this ability cannot fail; however you still need to roll to determine the number of extra attacks it generates.*\nKeywords: Rampage\nMortarch of Sacrament: Once Per Turn, Reaction: Opponent declared a Spell ability for a unit within 18\" of this unit Roll 2D6. If the roll exceeds the casting roll for the spell, then the spell is unbound, its effect is not resolved and that Spell ability cannot be used by enemy units until the start of your next turn.\nCurse of Years: Your Hero Phase Pick a visible enemy unit within 12\" of this unit to be the target, then make a casting roll of 2D6. Roll 10 dice. For each 6:\n• Give the target 1 necrotic withering point.\n• Roll an extra dice.\nFor each 5+ on those extra dice, repeat the above bullet points. Then, do the same for each 4+, and then each 3+. Finally, for each 2+, give the target 1 necrotic withering point (do not roll any extra dice),\nAfter a roll, if the target has 8 or more necrotic withering points, it is automatically destroyed. Otherwise, after the last roll, inflict an amount of mortal damage on the target equal to the number of necrotic withering points it has. Then, those necrotic withering points are lost.\nKeywords: Spell",
+    "categories": [
+      "HERO",
+      "DEATH",
+      "UNIQUE",
+      "OSSIARCH BONEREAPERS",
+      "WARD (6+)",
+      "FLY",
+      "MONSTER",
+      "WIZARD (3)",
+      "WARMASTER",
+      "RELENTLESS DISCIPLINE (3)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Katakros, Mortarch of the Necropolis",
+    "faction": "Ossiarch Bonereapers",
+    "points": 470,
+    "models": 1,
+    "move": "4\"",
+    "wounds": 20,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Inda-Khaat",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Retinue Blades",
+        "models": "",
+        "attacks": "10",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "The Shield Immortis",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 10 or more damage points, the number after its Relentless Discipline keyword is 4.\nMortarch of the Necropolis: Add 3 to the control scores of visible friendly Ossiarch Bonereapers units that have used any Relentless Discipline abilities this turn.\nAviarch Spymaster: Any Hero Phase Pick a visible enemy unit within 18\" of this unit to be the target. Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.\nYou Dare?!: Once Per Battle, Start of Any Turn This unit can only use this ability if at least half the units from your starting army have been destroyed. For the rest of the battle round:\n• Add 5 to the Attacks characteristic of this unit's Inda-Khaat.\n• Add 3 to the Attacks characteristic of this unit's The Shield Immortis.\n• This unit cannot use the 'Supreme Lord of the Bonereaper Legions' ability.\nSupreme Lord of the Bonereaper Legions: Any Combat Phase If this unit is not in combat, pick a visible friendly Ossiarch Bonereapers unit wholly within 12\" of this unit that is in combat and has not used a Relentless Discipline ability this phase to be the target. Spend a number of relentless discipline points equal to the target's Health characteristic. If the target is reinforced and has more than half of its starting models, spend an additional relentless discipline point. The target can use 2 Fight abilities this phase. After the first is used, however, the target has Strike-last for the rest of the turn. In addition, the target cannot use Relentless Discipline abilities for the rest of the phase.",
+    "categories": [
+      "OSSIARCH BONEREAPERS",
+      "DEATH",
+      "WARD (6+)",
+      "HERO",
+      "INFANTRY",
+      "UNIQUE",
+      "WARMASTER",
+      "RELENTLESS DISCIPLINE (10)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Liege-Kavalos",
+    "faction": "Ossiarch Bonereapers",
+    "points": 180,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 7,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Commander's Blade",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Kavalos Steed's Hooves, Teeth, and Barbed Tails",
+        "models": "",
+        "attacks": "4",
+        "hit": "5",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Deathrider Commander: This unit and visible friendly Kavalos Deathriders units wholly within 12\" Of this unit can move 12\" instead of 10\" when they use the 'Deathrider Wedge' ability.\nMaster of Cavalry: Reaction: You declared a Fight ability for this unit Pick a friendly Kavalos Deathriders unit that has not used a Fight ability this turn and is within this unit's combat range to be the target. The target can be picked to use a Fight ability immediately after the Fight ability used by this unit has been resolved. If it is picked to do so, add 1 to hit rolls for the target's combat attacks for the rest of the turn.",
+    "categories": [
+      "HERO",
+      "DEATH",
+      "OSSIARCH BONEREAPERS",
+      "WARD (6+)",
+      "CAVALRY",
+      "RELENTLESS DISCIPLINE (6)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Nagash, Supreme Lord of the Undead",
+    "faction": "Ossiarch Bonereapers",
+    "points": 830,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 18,
+    "save": 3,
+    "ward": 5,
+    "weapons": [
+      {
+        "name": "Alakanash, the Staff of Power",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "D6"
+      },
+      {
+        "name": "Zefet-nebtar, the Mortis Blade",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Battle Damaged: While this unit has 10 or more damage points, subtract 3 from its power level.\nThe Staff of Power: Add 2 to casting rolls for this unit while it has not miscast any spells this turn. If this unit miscasts a spell, ignore the restriction that would stop this unit from casting any more spells this turn.\nHand of Dust: Once Per Turn (Army), End of Any Turn Pick a visible enemy Hero or Monster in combat with this unit to be the target. Hide a dice in one of your hands or under one of two appropriate containers. Your opponent must pick one of your hands or containers. If they pick the one hiding the dice, this ability has no effect. If they pick the empty one, the target is automatically destroyed.\nKeywords: Rampage\nSupreme Lord of the Undead: Once Per Battle, Your Hero Phase Pick a friendly non-Hero non-Unique Death unit that has been destroyed to be the target. Set up a replacement unit identical to the target wholly within 12\" of this unit and more than 9\" from all enemy units.\nInvocation of Nagash: Your Hero Phase This unit can cast this spell more than once per phase. Pick a visible unit wholly within 18\" of this unit that has not been picked to be the target of this spell this turn to be the target, then make a casting roll of 2D6. If the target is an enemy unit, inflict D3 mortal damage on it. If the target is a friendly Death unit, pick 1 of the following effects:\n• Return a number of slain models to the target unit with a combined Health characteristic of up to 3.\n• The target has Ward (5+) until the start of your next turn.\nKeywords: Spell",
+    "categories": [
+      "DEATH",
+      "OSSIARCH BONEREAPERS",
+      "UNIQUE",
+      "HERO",
+      "MONSTER",
+      "WIZARD (9)",
+      "WARD (5+)",
+      "FLY",
+      "WARMASTER",
+      "RELENTLESS DISCIPLINE (3)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Vokmortian, Master of the Bone-tithe",
+    "faction": "Ossiarch Bonereapers",
+    "points": 140,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 5,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Staff of Retribution",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      },
+      {
+        "name": "Gaze of Death",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "2",
+        "rend": "1",
+        "damage": "D6"
+      }
+    ],
+    "abilities": "Voice of Nagash: Enemy Hero Phase Pick a visible enemy unit within 12\" of this unit to be the target. The target cannot be picked to be the target of or be affected by any non-Core abilities used by other enemy units for the rest of the turn.\nMortal Contract: Your Hero Phase Pick a visible enemy unit within 18\" of this unit to be the target, then make a casting roll of 2D6. Until the start of your next turn, each time the target is picked to use a Core ability, roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If the target is destroyed by this ability, do not resolve the effect of that Core ability.\nKeywords: Spell",
+    "categories": [
+      "HERO",
+      "UNIQUE",
+      "WIZARD (2)",
+      "INFANTRY",
+      "WARD (6+)",
+      "DEATH",
+      "OSSIARCH BONEREAPERS",
+      "RELENTLESS DISCIPLINE (2)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Vokmortian, Master of the Bone-tithe (Scourge of Aqshy)",
+    "faction": "Ossiarch Bonereapers",
+    "points": 180,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 5,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Staff of Retribution",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "D3"
+      },
+      {
+        "name": "Gaze of Death",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "2",
+        "rend": "1",
+        "damage": "D6"
+      }
+    ],
+    "abilities": "Master of the Bone-Tithe: Your Hero Phase Your opponent must pick 1 of the following effects:\nPay the Tithe: Your opponent must pick a unit in their army on the battlefield to be the target. They cannot pick a Manifestation or terrain feature. Then:\n• Inflict D6 mortal damage on the target.\n• Until the start of your next turn, the target cannot be healed, have slain models returned to it or be replaced.\nDeny the Ossiarchs their Rightful Due: Pick 1 of the following effects:\n• You gain 4 relentless discipline points.\n• Pick an objective you do not control. For the rest of the turn, add 5 to the control scores of friendly Ossiarch Bonereapers units while they are contesting that objective.\n• For the rest of the turn, add 2 to the Attacks characteristic and add 6\" to the Range characteristic of this unit's Gaze of Death.\nCowed into Inaction: Your Hero Phase Pick a visible enemy Hero within 18\" of this unit to be the target, then make a casting roll of 2D6. Until the start of your next turn, each time an enemy unit within the target's combat range uses a command, unless your opponent spends 1 rage dice to use that command, the command has no effect, it still counts as having been used and the command points spent to use it are lost.\nKeywords: Spell",
+    "categories": [
+      "HERO",
+      "UNIQUE",
+      "WIZARD (2)",
+      "INFANTRY",
+      "WARD (6+)",
+      "DEATH",
+      "OSSIARCH BONEREAPERS",
+      "RELENTLESS DISCIPLINE (2)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Mortisan Boneshaper",
+    "faction": "Ossiarch Bonereapers",
+    "points": 140,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 5,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Ossified Talons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Legion Quartermaster: Each time a friendly non-Hero Ossiarch Bonereapers unit wholly within 12\" of this unit uses the 'Rally' command, you can make 3 additional rally rolls of D6.\nBoneshaper: Your Hero Phase If this unit is not in combat, pick a friendly Mortek Guard  or Mortek Triaxes unit that has been destroyed to be the target. Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and not in combat.",
+    "categories": [
+      "HERO",
+      "WIZARD (1)",
+      "INFANTRY",
+      "WARD (6+)",
+      "OSSIARCH BONEREAPERS",
+      "DEATH",
+      "RELENTLESS DISCIPLINE (2)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Mortisan Ossifector",
+    "faction": "Ossiarch Bonereapers",
+    "points": 110,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 5,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Ossified Talons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Refined Creations: Once Per Turn (Army), Your Hero Phase Pick a friendly Mortek Crawler, Gothizzar Harvester, Morghast Archai or Morghast Harbingers unit wholly within 12\" of this unit to be the target. Roll a dice. On a 3+, add 1 to the Rend characteristic of the target's weapons until the start of your next turn.",
+    "categories": [
+      "HERO",
+      "WIZARD (1)",
+      "INFANTRY",
+      "WARD (6+)",
+      "OSSIARCH BONEREAPERS",
+      "DEATH",
+      "RELENTLESS DISCIPLINE (2)",
+      "FLY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Mortisan Soulmason",
+    "faction": "Ossiarch Bonereapers",
+    "points": 140,
+    "models": 1,
+    "move": "6\"",
+    "wounds": 6,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Soulmason's Staff",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Soul-guide: Your Hero Phase Pick a visible friendly Ossiarch Bonereapers unit wholly within 12\" of the caster to be the target, then make a casting roll of 2D6. The target has Strike-first for the rest of the turn.\nKeywords: Spell",
+    "categories": [
+      "HERO",
+      "INFANTRY",
+      "WARD (6+)",
+      "OSSIARCH BONEREAPERS",
+      "DEATH",
+      "WIZARD (2)",
+      "RELENTLESS DISCIPLINE (2)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Mortisan Soulreaper",
+    "faction": "Ossiarch Bonereapers",
+    "points": 120,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 5,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Soulreaper Scythe",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "4",
+        "rend": "2",
+        "damage": "D3"
+      }
+    ],
+    "abilities": "Soulreaper: Subtract 1 from wound rolls for combat attacks made by enemy units while they are in combat with this unit.\nNecrotic Impetus: Once Per Turn (Army), Any Combat Phase Pick each enemy unit in combat with this unit to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. After this ability has been resolved, you gain a number of relentless discipline points equal to the number of total damage points allocated by this ability this turn.",
+    "categories": [
+      "HERO",
+      "WIZARD (1)",
+      "INFANTRY",
+      "WARD (6+)",
+      "OSSIARCH BONEREAPERS",
+      "DEATH",
+      "RELENTLESS DISCIPLINE (2)",
+      "FLY"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Battle Traits: Ossiarch Bonereapers",
+    "faction": "Ossiarch Bonereapers",
+    "points": 0,
+    "models": 1,
+    "move": "",
+    "wounds": 1,
+    "save": "",
+    "ward": 0,
+    "weapons": [],
+    "abilities": "Immortal Elite: Once Per Battle Round (Army), Start of Battle Round You must use this ability if there are any Ossiarch Bonereapers Heroes on the battlefield. Pick a friendly Ossiarch Bonereapers Hero to be the target. You gain a number of relentless discipline points equal to the number after the target's Relentless Discipline keyword. At the end of the battle round, any unspent relentless discipline points are lost.\nKeywords: Relentless Discipline\nImpassive Retreat: Your Movement Phase Pick a friendly Ossiarch Bonereapers unit that has not used a Relentless Discipline ability this phase to use this ability. Spend 1 relentless discipline point. If that unit is reinforced and has more than half of its starting models, spend 2 relentless discipline points instead. For the rest of the turn, that unit can use Charge abilities even if it used a Retreat ability in the same turn.\nKeywords: Relentless Discipline\nRuthless Extermination: Once Per Turn (Army), Reaction: You declared a Shoot ability for a unit that has not used a Relentless Discipline ability this phase Spend 1 relentless discipline point. If that unit is reinforced and has more than half of its starting models, spend 2 relentless discipline points instead. Subtract 1 from ward rolls for damage points inflicted by attacks made as part of that Shoot ability.\nKeywords: Relentless Discipline\nPitiless Assault: Reaction: You declared a Fight ability for a unit that has not used a Relentless Discipline ability this phase. Spend 1 relentless discipline point. If that unit is reinforced and has more than half of its starting models, spend 2 relentless discipline points instead. Add 1 to wound rolls for attacks made as part of that Fight ability.\nKeywords: Relentless Discipline\nRemorseless March: Your Movement Phase Pick a friendly Ossiarch Bonereapers unit that has not used a Relentless Discipline ability this phase to use this ability. Spend 1 relentless discipline point. If that unit is reinforced and has more than half of its starting models, spend 2 relentless discipline points instead. Add 3\" to the Move characteristic of that unit for the rest of the phase. That unit cannot use run abilities for the rest of the turn.\nKeywords: Relentless Discipline\nInviolate Legions: Reaction: Opponent declared an Attack ability. Spend 1 relentless discipline point. If that unit is reinforced and has more than half of its starting models, spend 2 relentless discipline points instead. That unit has Ward (5+) against damage points inflicted by attacks made as part of that Attack ability.\nKeywords: Relentless Discipline",
+    "categories": [],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Kainan's Reapers",
+    "faction": "Ossiarch Bonereapers",
+    "points": 140,
+    "models": 1,
+    "move": "8\"",
+    "wounds": 2,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Soulreaper Axe",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Nadirite Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Nadirite Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Nadirite Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Nadirite Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Nadirite Weapon",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Nadirite Bow: Your Shooting Phase If this unit's Nohem is on the battlefield, pick a visible enemy unit within 18\" of this unit to be the target. Roll a dice. On a 4+, inflict 1 mortal damage on the target.\nMir Kainan: While this unit's Mir Kainan is on the battlefield, this unit has Wizard (1), Relentless Discipline (2) and can be picked as the target of the 'Immortal Elite' ability as if it had the Hero\nkeyword.",
+    "categories": [
+      "INFANTRY",
+      "UNIQUE",
+      "WARD (6+)",
+      "DEATH",
+      "OSSIARCH BONEREAPERS",
+      "MORTISAN"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Mortek Guard (Scourge of Ghyran)",
+    "faction": "Ossiarch Bonereapers",
+    "points": 100,
+    "models": 10,
+    "move": "4\"",
+    "wounds": 1,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Nadirite Blade or Spear",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Shields of the Legion: Once Per Phase (Army), Reaction: A friendly Ossiarch Bonereapers War Machine or Wizardwithin this unit's combat range was targeted by an Attack ability For the rest of the phase, subtract 1 from the Rend characteristic of weapons used for attacks that target that friendly unit.",
+    "categories": [
+      "INFANTRY",
+      "OSSIARCH BONEREAPERS",
+      "WARD (6+)",
+      "DEATH",
+      "CHAMPION",
+      "STANDARD BEARER (1/10)"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Mortisan Boneshaper (Scourge of Ghyran)",
+    "faction": "Ossiarch Bonereapers",
+    "points": 100,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 5,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Ossified Talons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Boneshaper: Your Hero Phase If this unit is not in combat, pick a friendly Mortek Guardunit that has been destroyed to be the target. Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of this unit and more than 9\" from all enemy units.\nLegion Quartermaster: Each time a friendly non-Hero Ossiarch Bonereapers unit wholly within 12\" of this unit uses the 'Rally' command, you can make 3 additional rally rolls of D6.",
+    "categories": [
+      "HERO",
+      "WIZARD (1)",
+      "INFANTRY",
+      "WARD (6+)",
+      "OSSIARCH BONEREAPERS",
+      "MORTISAN",
+      "DEATH"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Liege-Kavalos on War Chariot",
+    "faction": "Ossiarch Bonereapers",
+    "points": 210,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 12,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Commander's Blade",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Kavalos Steed's Hooves, Teeth, and Barbed Tails",
+        "models": "",
+        "attacks": "6",
+        "hit": "5",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Grind Them to Dust: Once Per Turn (Army), Any Movement Phase If this unit is in combat, pick this unit and up to 2 visible friendly Kavalos War Chariots wholly within 12\" of this unit and in combat to be the targets. For each target:\n• Make a pile-in move.\n• Then, pick an enemy unit in combat with the target and roll a D3. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll.\nMasterful Charioteer: Once Per Turn (Army), Any Combat Phase If this unit is in combat and has charged this turn, pick this unit and up to 2 visible friendly Kavalos War Chariots that have charged this turn, that are wholly within 12\" Of this unit and that are in combat to be the targets. Each target has Ward (5+) for the rest of the turn.",
+    "categories": [
+      "HERO",
+      "DEATH",
+      "OSSIARCH BONEREAPERS",
+      "WARD (6+)",
+      "RELENTLESS DISCIPLINE (6)",
+      "WAR MACHINE"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Liege-Mortek",
+    "faction": "Ossiarch Bonereapers",
+    "points": 120,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 5,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Commander's Weapon",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      }
+    ],
+    "abilities": "Clinical Efficiency: Once Per Turn (Army), Any Combat Phase, Reaction: You declared a Fight ability for this unit Pick a visible friendly Mortek Guard, Mortek Triaxes or Mortek Crawler unit that has not used an Attack ability this phase and is wholly within 12\" Of this unit to be the target. Immediately after the Fight ability used by this unit has been resolved, the target can be picked to use either a Shoot ability as if it were your shooting phase or a Fight ability. If it is picked to do so:\n• Add 1 to hit rolls for the target's attacks for the rest of the turn.\n• The target's ranged weapons (if any) have Shoot in Combat for the rest of the turn.\n• If the target uses a Shoot ability and is not in combat, all of its shooting attacks must target units in combat with this unit.",
+    "categories": [
+      "HERO",
+      "DEATH",
+      "OSSIARCH BONEREAPERS",
+      "WARD (6+)",
+      "INFANTRY",
+      "RELENTLESS DISCIPLINE (5)"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  },
+  {
+    "name": "Kavalos War Chariot",
+    "faction": "Ossiarch Bonereapers",
+    "points": 150,
+    "models": 1,
+    "move": "10\"",
+    "wounds": 10,
+    "save": 3,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Charioteers' Weapons",
+        "models": "",
+        "attacks": "4",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Kavalos Steed's Hooves, Teeth, and Barbed Tails",
+        "models": "",
+        "attacks": "6",
+        "hit": "5",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Scything Assault: Any Combat Phase If this unit charged this turn, pick an enemy unit in combat with it to be the target. Inflict D3 mortal damage on the target. Then, you can remove this unit from the battlefield and set it up again within 1\" of the target.\nKeywords: Core, Attack, Fight\nPinning Attacks: Once Per Turn (Army), Your Shooting Phase Pick a visible enemy unit within 18\" of this unit to be the target. If this unit is wholly within 12\" of a friendly Liege-Kavalos on War Chariot, apply the effect below. Otherwise, roll a dice. On a 3+, apply the effect below.\n• Inflict 1 mortal damage on the target.\n• The target cannot make pile-in moves for the rest of the turn.",
+    "categories": [
+      "DEATH",
+      "OSSIARCH BONEREAPERS",
+      "WARD (6+)",
+      "WAR MACHINE"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Mortis Reapers",
+    "faction": "Ossiarch Bonereapers",
+    "points": 110,
+    "models": 5,
+    "move": "6\"",
+    "wounds": 2,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Reaper' Blades",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Necrocaches: Once Per Turn (Army), End of Any Turn Pick each enemy unit in combat with this unit to be the targets. Roll a D3 for each target. On a 2+, inflict an amount of mortal damage on the target equal to the roll. Then, this unit can move 6\". It can move through the combat ranges of enemy units but cannot end that move in combat.\nNo Escaping the Tithe: Once Per Turn (Army), Any Movement Phase If there are no enemy units within 6\" of this unit, pick a terrain feature within 3\" of this unit to be the target. Remove this unit from the battlefield and set it up again wholly within 3\" of the target and more than 9\" from all enemy units.",
+    "categories": [
+      "INFANTRY",
+      "OSSIARCH BONEREAPERS",
+      "WARD (6+)",
+      "DEATH",
+      "CHAMPION"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Mortis Reapers (Scourge of Aqshy)",
+    "faction": "Ossiarch Bonereapers",
+    "points": 90,
+    "models": 5,
+    "move": "6\"",
+    "wounds": 2,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Reaper' Blades",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "The Coldness of Death: Once Per Turn (Army), End of Any Turn If an enemy Hero was destroyed by this unit's combat attacks this turn, your opponent must reduce their fury level to 0.\nTerminate their Command: Once Per Turn (Army), Any Charge Phase If this unit is in combat, pick a visible enemy Hero within 12\" of this unit to be the target. If the target is more than 3\" from all other enemy units, apply the effect below. Otherwise, roll a dice. On a 3+, apply the effect below.\nRemove this unit from the battlefield and set it up again within 1\" of the target.",
+    "categories": [
+      "INFANTRY",
+      "OSSIARCH BONEREAPERS",
+      "WARD (6+)",
+      "DEATH",
+      "CHAMPION"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Mortek Triaxes",
+    "faction": "Ossiarch Bonereapers",
+    "points": 140,
+    "models": 10,
+    "move": "4\"",
+    "wounds": 1,
+    "save": 5,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Osseous Bow",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      },
+      {
+        "name": "Nadirite Dagger",
+        "models": "",
+        "attacks": "1",
+        "hit": "3",
+        "wound": "4",
+        "rend": "-",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Balefire Braziers: This unit's Balefire Braziers are tokens. There are 2 Balefire Braziers for every 10 models in this unit. After setting up this unit on the battlefield for the first time, place its Balefire Braziers next to it.\nCursed Flames: Once Per Turn (Army), Reaction: You declared a Shoot ability for this unit. After that Shoot ability has been resolved, if all of this unit's attacks targeted the same enemy unit and this unit has any Balefire Braziers next to it, place 1 of those Balefire Braziers next to that enemy unit.\nAtavistic Nightmares: While any of this unit's Balefire Braziers are next to an enemy unit, subtract 3 from the control scores of enemy units within that enemy unit's combat range.\nIf an ability would heal or return slain models to an enemy unit while any of this unit's Balefire Braziers are next to it, that ability does not heal or return any slain models to it. Instead, place those Balefire Braziers next to this unit.",
+    "categories": [
+      "INFANTRY",
+      "OSSIARCH BONEREAPERS",
+      "WARD (6+)",
+      "DEATH",
+      "CHAMPION"
+    ],
+    "isHero": false,
+    "canReinforce": true,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Thanatek's Tithe",
+    "faction": "Ossiarch Bonereapers",
+    "points": 90,
+    "models": 1,
+    "move": "4\"",
+    "wounds": 2,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Weapons of the Tithe-reapers",
+        "models": "",
+        "attacks": "2",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "1"
+      }
+    ],
+    "abilities": "Truebone Mastery: Your Hero Phase Spend any number of this unit's portions of truebone. For each portion spent, pick 1 of the effects below. Each effect can be picked multiple times and the effects are cumulative.\n• Add 1 to casting rolls for this unit for the rest of the turn.\n• Add 1 to banishment rolls for this unit for the rest of the turn.\n• Gain 1 relentless discipline point.\n• Return 1 slain model to this unit.\nSeeker of Truebone: This unit can be picked to be the target of the 'Immortal Elite' ability as if it had the Hero keyword.\nEach time a visible enemy unit within 12\" of this unit is destroyed, roll a dice. On a 3+, this unit gains 1 portion of truebone. Each time a visible friendly non-Beast Ossiarch Bonereapers unit wholly within 12\" of this unit is destroyed, this unit gains 1 portion of truebone.",
+    "categories": [
+      "INFANTRY",
+      "UNIQUE",
+      "WARD (6+)",
+      "DEATH",
+      "OSSIARCH BONEREAPERS",
+      "RELENTLESS DISCIPLINE (2)",
+      "WIZARD (1)"
+    ],
+    "isHero": false,
+    "canReinforce": false,
+    "enhancementTypes": []
+  },
+  {
+    "name": "Anvil of Apotheosis: Ossiarch Bonereapers Hero",
+    "faction": "Ossiarch Bonereapers",
+    "points": 0,
+    "models": 1,
+    "move": "5\"",
+    "wounds": 5,
+    "save": 4,
+    "ward": 6,
+    "weapons": [
+      {
+        "name": "Nadirite Blade",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "4",
+        "rend": "1",
+        "damage": "2"
+      },
+      {
+        "name": "Monstrous Blades",
+        "models": "",
+        "attacks": "3",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Kavalos Steed's Hooves, Teeth, and Barbed Tails",
+        "models": "",
+        "attacks": "4",
+        "hit": "5",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Chariot Steeds' Fangs and Hooves",
+        "models": "",
+        "attacks": "6",
+        "hit": "5",
+        "wound": "3",
+        "rend": "-",
+        "damage": "1"
+      },
+      {
+        "name": "Crushing Appendages",
+        "models": "",
+        "attacks": "7",
+        "hit": "4",
+        "wound": "3",
+        "rend": "-",
+        "damage": "2"
+      },
+      {
+        "name": "Ossified Talons",
+        "models": "",
+        "attacks": "3",
+        "hit": "4",
+        "wound": "4",
+        "rend": "-",
+        "damage": "D3"
+      },
+      {
+        "name": "Guardian's Weapons",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "3",
+        "rend": "2",
+        "damage": "2"
+      },
+      {
+        "name": "Titanic Weapons",
+        "models": "",
+        "attacks": "5",
+        "hit": "3",
+        "wound": "2",
+        "rend": "2",
+        "damage": "3"
+      },
+      {
+        "name": "Morbid Catapult",
+        "models": "",
+        "attacks": "4",
+        "hit": "4",
+        "wound": "3",
+        "rend": "1",
+        "damage": "3"
+      }
+    ],
+    "abilities": "Soul-guide: Your Hero Phase Pick a visible friendly Ossiarch Bonereapers unit wholly within 12\" of the caster to be the target, then make a casting roll of 2D6. The target has Strike-first for the rest of the turn.\nBattle Damaged: While this unit has 10 or more damage points, the Attacks characteristic of its Crushing Appendages is 5.\nWalking Death: Add 2 to charge rolls for this unit.\nMeticulously Crafted: This unit has Ward (5+)\nPrecision Duellist: This unit's melee weapons have Anti-Hero (+1 Rend).\nKatakrosian Dynast: Add 2 to the number after this unit's Relentless Discipline keyword.\nFond Memories: You must spend 1 additional command point for this unit to use a command.\nPetty Rival: Ward rolls cannot be made for this unit.\nHastily Repaired: In your charge phase, if this unit is not in combat and there are any enemy units within 12\" of it, this unit must use the 'Charge' ability, and if the charge roll would allow it to finish within 1/2\" of any enemy units, it would do so.\nOstracised: The number after this unit's Relentless Discipline keyword is 0.\nImpossible Precision: Any Hero Phase Pick 1 of the following weapon abilities for this unit's melee weapons to have for the rest of the turn:\n• Anti-Infantry (+1 Rend)\n• Anti-Cavalry (+1 Rend)\n• Anti-Monster (+1 Rend)\n• Anti-War Machine (+1 Rend)\n• Anti-Beast (+1 Rend)\nUnliving Regeneration: End of Any Turn Heal (D3) this unit.\nGrasping Limbs: Any Combat Phase Pick each enemy Infantry unit in combat with this unit to be the targets. Roll a dice for each target. On a 3+, the target has Strike-last for the rest of the turn.\nHasty Advance: Deployment Phase This unit can use the 'Normal Move' ability as if it were your movement phase.\nAggressive Commander: Add 1 to charge rolls for this unit.\nPeerless Leader: Once Per Turn, Reaction: You declared a Relentless Discipline ability for this unit No relentless discipline points are spent to use that ability.\nCounter-strike: Any Charge Phase Pick any number of visible friendly units wholly within 12\" of this unit to be the targets. Spend 1 relentless discipline point for each target. The targets' melee weapons have Anti-charge (+1 Rend) for the rest of the turn.\nNadirite Blademaster: Any Combat Phase Pick an enemy unit in combat with this unit to be the target Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.\nDisturbing Stillness: Subtract 1 from wound rolls for combat attacks that target this unit if it did not charge in the same turn.\nRemorseless Conquerer: Add 2 to run rolls for visible friendly Ossiarch Bonereapers units while they are wholly within 12\" of this unit.",
+    "categories": [
+      "HERO",
+      "INFANTRY",
+      "WARD (6+)",
+      "RELENTLESS DISCIPLINE (2)",
+      "DEATH",
+      "OSSIARCH BONEREAPERS"
+    ],
+    "isHero": true,
+    "canReinforce": false,
+    "enhancementTypes": [
+      "artefacts",
+      "heroicTraits",
+      "warlord"
+    ]
+  }
+]
