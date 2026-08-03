@@ -1368,7 +1368,7 @@
         const meta = cfg.allianceMeta[a];
         if (meta) {
           const btn = document.createElement('button');
-          btn.className = 'alliance-pill ' + a;
+          btn.className = 'alliance-pill';
           btn.dataset.alliance = a;
           btn.type = 'button';
           btn.style.setProperty('--acc', meta.color);
@@ -2525,6 +2525,11 @@
   const ROLE_OTHER = 'Other';
 
   function unitRole(e){
+    // Check the role field first (set by converter)
+    if (e.role && e.role !== 'Other') {
+      const match = ROLE_ORDER.find(r => r.cats.includes(e.role));
+      if (match) return match.label;
+    }
     const cats = Array.isArray(e.categories) ? e.categories : [];
     for (const r of ROLE_ORDER){
       if (r.cats.some(c => cats.includes(c))) return r.label;
