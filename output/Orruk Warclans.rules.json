@@ -1,0 +1,74 @@
+{
+  "faction": "Big Waaagh!",
+  "battleTraits": [
+    {
+      "name": "Possessed by the Power of the Waaagh!",
+      "effect": "Possessed by the Power of the Waaagh!: While a friendly unit has the Power of the Waaagh! keyword:\n• If that unit has the Ironjawz keyword, add 1 to run rolls and charge rolls for that unit.\n• If that unit has the Kruleboyz keyword, that unit's attacks score critical hits on unmodified hit rolls of 5+."
+    },
+    {
+      "name": "Rally the Warclans",
+      "effect": "Rally the Warclans (Once Per Turn, Your Movement Phase): Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of your general and more than 9\" from all enemy units."
+    },
+    {
+      "name": "Notorious Bosses",
+      "effect": "Notorious Bosses (Once Per Battle, Deployment Phase): Give each target 1 heroic trait from the Big Waaagh! heroic traits.\nDesigner's Note: *These heroic traits are given to the targets during the deployment phase, not during army composition.*"
+    },
+    {
+      "name": "The Power of the Waaagh!",
+      "effect": "The Power of the Waaagh! (Once Per Turn, Your Hero Phase): The targets have the Power of the Waaagh! keyword for the rest of the battle round."
+    }
+  ],
+  "artefacts": [
+    {
+      "name": "Da Sneaky Stab-slab",
+      "cost": 0,
+      "effect": "Da Sneaky Stab-slab: Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the Fight ability has been resolved.",
+      "restrictions": [],
+      "groupName": "Artefacts of Power: Big Waaagh!"
+    }
+  ],
+  "heroicTraits": [
+    {
+      "name": "Takin' Names",
+      "cost": 0,
+      "effect": "Takin' Names: If an enemy Hero is destroyed by this unit, this unit has the Power of the Waaagh! keyword for the rest of the battle.",
+      "restrictions": [],
+      "groupName": "Heroic Traits: Big Waaagh!"
+    },
+    {
+      "name": "A Proper Sneak",
+      "cost": 0,
+      "effect": "A Proper Sneak: Once Per Battle, Your Hero Phase You can use this ability if this unit has the Power of the Waaagh! keyword and a friendly unit has not used a Brutal Kunnin' ability this turn. For the rest of the battle round, friendly Big Waaagh! units have Ward (5+) while they are wholly within 12\" of this unit.\nKeywords: Brutal Kunnin'",
+      "restrictions": [],
+      "groupName": "Heroic Traits: Big Waaagh!"
+    },
+    {
+      "name": "Da Old One-Two",
+      "cost": 0,
+      "effect": "Da Old One-Two: Once Per Battle, Your Hero Phase You can use this ability if this unit has the Power of the Waaagh! keyword and a friendly unit has not used a Brutal Kunnin' ability this turn. For the rest of the battle round, friendly Big Waaagh! units' melee weapons have Crit (2 Hits) while they are wholly within 12\" of this unit.\nKeywords: Brutal Kunnin'",
+      "restrictions": [],
+      "groupName": "Heroic Traits: Big Waaagh!"
+    },
+    {
+      "name": "Get Krumpin'!",
+      "cost": 0,
+      "effect": "Get Krumpin'!: Once Per Battle, Your Hero Phase You can use this ability if this unit has the Power of the Waaagh! keyword and a friendly unit has not used a Brutal Kunnin' ability this turn. For the rest of the battle round, add 1 to wound roll for combat attacks made by friendly Big Waaagh! units while they are wholly within 12\" of this unit.\nKeywords: Brutal Kunnin'",
+      "restrictions": [],
+      "groupName": "Heroic Traits: Big Waaagh!"
+    }
+  ],
+  "battleFormations": [],
+  "boons": [],
+  "spellLores": [
+    {
+      "name": "Spell Lore: Big Waaagh!",
+      "effect": ""
+    }
+  ],
+  "prayerLores": [
+    {
+      "name": "Prayer Lore: Big Waaagh!",
+      "effect": ""
+    }
+  ]
+}

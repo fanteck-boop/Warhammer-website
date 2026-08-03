@@ -509,7 +509,6 @@ def main():
         # Skip legacy/discontinued factions and non-faction files
         SKIP_FACTIONS = {
             'Beasts of Chaos',       # discontinued in 4th ed
-            'Big Waaagh!',           # merged into Orruk Warclans
             'Bonesplitterz',         # merged into Orruk Warclans
             'Ironjawz',              # merged into Orruk Warclans
             'Kruleboyz',             # merged into Orruk Warclans
@@ -520,6 +519,10 @@ def main():
             'Path to Glory',         # not a faction
             'Regiments of Renown',   # not a faction
         }
+        # Rename factions: BSData name → 4th edition name
+        RENAME_FACTIONS = {
+            'Big Waaagh!': 'Orruk Warclans',
+        }
         factions = []
         for f in sorted(os.listdir(bsdata_dir)):
             if f.endswith('.cat') and ' - ' not in f.replace('.cat', '') and 'Library' not in f:
@@ -527,7 +530,11 @@ def main():
                 if name in SKIP_FACTIONS:
                     print(f'  Skipping legacy/non-faction: {name}')
                     continue
-                factions.append(name)
+                # Apply rename
+                output_name = RENAME_FACTIONS.get(name, name)
+                factions.append(output_name)
+                if output_name != name:
+                    print(f'  Renaming: {name} → {output_name}')
     else:
         factions = [a for a in sys.argv[1:] if not a.startswith('-')]
     
@@ -538,8 +545,14 @@ def main():
     total_units = 0
     total_rules = 0
     for faction in factions:
-        print(f'\nConverting: {faction}')
-        units, rules = convert_faction(bsdata_dir, faction, cat_map)
+        # Check if this is a renamed faction and find the original .cat name
+        cat_name = faction
+        for orig, renamed in RENAME_FACTIONS.items():
+            if faction == renamed:
+                cat_name = orig
+                break
+        print(f'\nConverting: {cat_name}' + (f' (output: {faction})' if cat_name != faction else ''))
+        units, rules = convert_faction(bsdata_dir, cat_name, cat_map)
         if units is None:
             continue
         
