@@ -2349,7 +2349,7 @@
   });
 
   const GRIMOIRE_KEY = GRIMOIRE_KEY_BASE;
-  const grimFieldIds = ['name','faction','alliance','points','models','move','wounds','save','ward','abilities'];
+  function getGrimFieldIds(){ return getSysConfig().grimFields.concat(['role']); }
   let grimoire = [];
 
   // Legacy/discontinued factions to filter out
@@ -2417,7 +2417,7 @@
   }
 
   function fillGrimForm(entry){
-    grimFieldIds.forEach(f => {
+    getGrimFieldIds().forEach(f => {
       const el = document.getElementById('g_' + f);
       if (!el) return;
       if (f === 'alliance') {
@@ -2431,7 +2431,7 @@
   }
 
   function clearGrimForm(){
-    grimFieldIds.forEach(f => {
+    getGrimFieldIds().forEach(f => {
       const el = document.getElementById('g_' + f);
       if (el) el.value = '';
     });
@@ -2704,7 +2704,7 @@
     arr.forEach(item => {
       if (!item || !item.name) return;
       const entry = {};
-      grimFieldIds.forEach(f => { entry[f] = item[f] !== undefined ? String(item[f]) : ''; });
+      getGrimFieldIds().forEach(f => { entry[f] = item[f] !== undefined ? String(item[f]) : ''; });
       // Carry over new data-model fields from the updated converter
       entry.isHero = !!item.isHero;
       entry.canReinforce = !!item.canReinforce;
