@@ -973,7 +973,7 @@
           <select id="addDetachmentSelect"><option value="">— add a detachment —</option></select>
         </div>
 
-        <div class="enhancement-row">
+        <div class="enhancement-row aos-only">
           <label for="armyHeroicTrait" id="heroicTraitLabel">Heroic Trait (assigned to the General)</label>
           <select id="armyHeroicTrait"><option value="">— none —</option></select>
           <div class="enhancement-effect" id="heroicTraitEffect"></div>
@@ -1483,7 +1483,7 @@
   const STORAGE_KEY = 'muster-roll-data';
   const FACTION_RULES_KEY = 'muster-roll-faction-rules';
   const GRIMOIRE_KEY_BASE = 'muster-roll-grimoire';
-  const DATA_VERSION = 'v5-enhancements'; // Bump when data format changes to force re-import
+  const DATA_VERSION = 'v6-no-warlord-trait'; // Bump when data format changes to force re-import
   let state = {
     armyName: '', pointsLimit: 2000, alliance: '', faction: '', units: [],
     generalUnitId: null,
@@ -1779,7 +1779,7 @@
     const summaryEl = $('armyRulesSummary');
     if (summaryEl) summaryEl.textContent = is40k ? 'Army Rules · Detachments & Enhancements' : 'Army Rules · Enhancements';
     const htLabel = $('heroicTraitLabel');
-    if (htLabel) htLabel.textContent = is40k ? 'Warlord Trait (assigned to the Warlord)' : 'Heroic Trait (assigned to the General)';
+    if (htLabel) htLabel.textContent = 'Heroic Trait (assigned to the General)';
     const artLabel = $('artefactLabel');
     if (artLabel) artLabel.textContent = is40k ? 'Enhancements (assigned to Characters)' : 'Artefacts (assigned to Heroes)';
 
@@ -1812,11 +1812,13 @@
       bfEff.textContent = bf ? bf.effect : '';
     }
 
-    // Heroic Trait / Warlord Trait
-    htSel.innerHTML = '<option value="">— none —</option>' + enhancementOptionList(rules.heroicTraits, true);
-    htSel.value = state.armyOptions.heroicTrait || '';
-    const ht = (rules.heroicTraits || []).find(t => t.name === state.armyOptions.heroicTrait);
-    htEff.textContent = ht ? ht.effect : '';
+    // Heroic Trait (AoS only — 11th ed 40K folded this into Detachment rules + Enhancements)
+    if (!is40k) {
+      htSel.innerHTML = '<option value="">— none —</option>' + enhancementOptionList(rules.heroicTraits, true);
+      htSel.value = state.armyOptions.heroicTrait || '';
+      const ht = (rules.heroicTraits || []).find(t => t.name === state.armyOptions.heroicTrait);
+      htEff.textContent = ht ? ht.effect : '';
+    }
 
     renderArtefactRows(rules);
     if (!is40k) renderBoonRows(rules);
