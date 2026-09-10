@@ -1,0 +1,80 @@
+{
+  "faction": "Necrons",
+  "battleFormations": [
+    {
+      "name": "Starshatter Arsenal",
+      "dp": 3,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Awakened Dynasty",
+      "dp": 3,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Canoptek Court",
+      "dp": 3,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Obeisance Phalanx",
+      "dp": 2,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Pantheon of Woe",
+      "dp": 2,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Cryptek Conclave",
+      "dp": 2,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Annihilation Legion",
+      "dp": 2,
+      "effect": "Category: Purge the Foe"
+    },
+    {
+      "name": "Cursed Legion",
+      "dp": 2,
+      "effect": "Category: Purge the Foe"
+    },
+    {
+      "name": "Hypercrypt Legion",
+      "dp": 2,
+      "effect": "Category: Reconnaissance"
+    },
+    {
+      "name": "The Phaeron's Armoury",
+      "dp": 1,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Skyshroud Spearhead",
+      "dp": 1,
+      "effect": "Category: Reconnaissance"
+    },
+    {
+      "name": "Hand of the Dynasty",
+      "dp": 1,
+      "effect": "Category: Take and Hold"
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "Reanimation Protocols",
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Weapons of Fate",
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Lychguard attachments",
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    }
+  ]
+}

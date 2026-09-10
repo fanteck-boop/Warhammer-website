@@ -1,0 +1,57 @@
+{
+  "faction": "Death Guard",
+  "battleFormations": [
+    {
+      "name": "Virulent Vectorium",
+      "dp": 3,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Shamblerot Vectorium",
+      "dp": 2,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Tallyband Summoners",
+      "dp": 2,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Death Lord's Chosen",
+      "dp": 2,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Mortarion's Hammer",
+      "dp": 2,
+      "effect": "Category: Purge the Foe"
+    },
+    {
+      "name": "Champions of Contagion",
+      "dp": 2,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Paragons of Putrescence",
+      "dp": 1,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Contagion Engines",
+      "dp": 1,
+      "effect": "Category: Reconnaissance"
+    },
+    {
+      "name": "Flyblown Host",
+      "dp": 1,
+      "effect": "Category: Reconnaissance"
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "shield of faith",
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    }
+  ]
+}

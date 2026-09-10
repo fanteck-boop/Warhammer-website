@@ -397,7 +397,75 @@
       "Robotic Bodyguard: While a ^^**Cybernetica Datasmith^^** model is leading this unit, that model has the Feel No Pain 4+ ability.",
       "Repulsor Grid: When an enemy unit targets this unit with ranged attacks, until that enemy unit has shot, when this unit makes a save roll: \n- On an unmodified 6, that enemy unit suffers 1 mortal wound after that ene"
     ],
-    "weapons": [],
+    "weapons": [
+      {
+        "name": "Heavy phosphor blaster",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "2",
+        "range": "36\""
+      },
+      {
+        "name": "Incendine combustor",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "6",
+        "ap": "-1",
+        "d": "1",
+        "range": "12\""
+      },
+      {
+        "name": "Kastelan phosphor blaster",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1",
+        "range": "24\""
+      },
+      {
+        "name": "Twin Kastelan phosphor blaster",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1",
+        "range": "24\""
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "6",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Kastelan fist",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Twin Kastelan fist",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-2",
+        "d": "3"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1444,7 +1512,28 @@
       "Dynamic Efficiency: This unit is eligible to declare a charge in a turn in which it Advanced or Fell Back, and you can re-roll Desperate Escape tests taken for models in this unit.",
       "Broad Spectrum Data-tether: Each time you select the bearer as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
     ],
-    "weapons": [],
+    "weapons": [
+      {
+        "name": "Phosphor serpenta",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2",
+        "range": "18\""
+      },
+      {
+        "name": "Taser lance",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "7",
+        "ap": "-2",
+        "d": "2",
+        "keywords": "Anti-Walker 2+, Lance, Sustained Hits 2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -2051,6 +2140,16 @@
       "Broad Spectrum Data-tether: Each time you select the bearer as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
     ],
     "weapons": [
+      {
+        "name": "Radium jezzail",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-2",
+        "d": "3",
+        "range": "36\""
+      },
       {
         "name": "Ironstrider feet",
         "type": "Melee",

@@ -1,0 +1,62 @@
+{
+  "faction": "Tyranids",
+  "battleFormations": [
+    {
+      "name": "Subterranean Assault",
+      "dp": 3,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Invasion Fleet",
+      "dp": 3,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Synaptic Nexus",
+      "dp": 2,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Assimilation Swarm",
+      "dp": 2,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Crusher Stampede",
+      "dp": 2,
+      "effect": "Category: Purge the Foe"
+    },
+    {
+      "name": "Vanguard Onslaught",
+      "dp": 2,
+      "effect": "Category: Reconnaissance"
+    },
+    {
+      "name": "Unending Swarm",
+      "dp": 2,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Ambush Predators",
+      "dp": 1,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Talons of the Norn Queen",
+      "dp": 1,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Warrior Bioform Onslaught",
+      "dp": 1,
+      "effect": "Category: Take and Hold"
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "Norn Emissary upgrade",
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    }
+  ]
+}

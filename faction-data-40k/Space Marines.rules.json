@@ -1,0 +1,87 @@
+{
+  "faction": "Space Marines",
+  "battleFormations": [
+    {
+      "name": "Stormlance Task Force",
+      "dp": 3,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Gladius Strike Force",
+      "dp": 3,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Armoured Speartip",
+      "dp": 3,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Ceramite Sentinels",
+      "dp": 3,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Firestorm Assault Force",
+      "dp": 2,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Headhunter Task Force",
+      "dp": 2,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "1st Company Task Force",
+      "dp": 2,
+      "effect": "Category: Purge the Foe"
+    },
+    {
+      "name": "Vanguard Spearhead",
+      "dp": 2,
+      "effect": "Category: Reconnaissance"
+    },
+    {
+      "name": "Anvil Siege Force",
+      "dp": 2,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Bastion Task Force",
+      "dp": 2,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Ironstorm Spearhead",
+      "dp": 2,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Orbital Assault Force",
+      "dp": 2,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Subversion Assets",
+      "dp": 1,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Fulguris Task Force",
+      "dp": 1,
+      "effect": "Category: Reconnaissance"
+    },
+    {
+      "name": "Librarius Conclave",
+      "dp": 1,
+      "effect": "Category: Reconnaissance"
+    },
+    {
+      "name": "Vengeful Hosts",
+      "dp": 1,
+      "effect": "Category: Take and Hold"
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": []
+}

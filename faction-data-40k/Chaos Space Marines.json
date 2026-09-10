@@ -1650,7 +1650,17 @@
     "abilities": [
       "Warp Strike: At the end of the Fight phase, if this unit destroyed one or more enemy units this phase and is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield an"
     ],
-    "weapons": [],
+    "weapons": [
+      {
+        "name": "Warp claws (twin-linked)",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {

@@ -1,0 +1,65 @@
+{
+  "faction": "Drukhari",
+  "battleFormations": [
+    {
+      "name": "Reaper's Wager",
+      "dp": 3,
+      "effect": "Category: Purge the Foe"
+    },
+    {
+      "name": "Kabalite Cartel",
+      "dp": 2,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Realspace Raiders",
+      "dp": 2,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Spectacle of Spite",
+      "dp": 2,
+      "effect": "Category: Purge the Foe"
+    },
+    {
+      "name": "Skysplinter Assault",
+      "dp": 2,
+      "effect": "Category: Reconnaissance"
+    },
+    {
+      "name": "Covenite Coterie",
+      "dp": 2,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Kabalite Agonysts",
+      "dp": 1,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Exhibition of Slaughter",
+      "dp": 1,
+      "effect": "Category: Reconnaissance"
+    },
+    {
+      "name": "Tools of Torment",
+      "dp": 1,
+      "effect": "Category: Take and Hold"
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "Pain Station",
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Torture Matrix",
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Plane-Smasher",
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    }
+  ]
+}

@@ -515,7 +515,35 @@
     "abilities": [
       "Guardian Organism: While a CHARACTER model is leading this unit, that Character has the Feel No Pain 5+ ability"
     ],
-    "weapons": [],
+    "weapons": [
+      {
+        "name": "Bone cleaver, lash whip and rending claws",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Crushing claws and rending claws",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "4+",
+        "s": "8",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Scything talons and rending claws",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1675,7 +1703,17 @@
     "abilities": [
       "Vanguard Predator: Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target is within range of one or more objective markers, re-roll a Wound roll 1 as well."
     ],
-    "weapons": [],
+    "weapons": [
+      {
+        "name": "Genestealer claws and talons",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "2+",
+        "s": "4",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {

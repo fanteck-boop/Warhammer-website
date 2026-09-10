@@ -690,7 +690,17 @@
     "abilities": [
       "Rend and Tear: Each time a model in this unit makes a melee attack that targets a ^^**Monster^^** or ^^**Vehicle^^** unit, until the end of the phase, improve the Damage characteristic of that attack by 1."
     ],
-    "weapons": [],
+    "weapons": [
+      {
+        "name": "Chainblades",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {

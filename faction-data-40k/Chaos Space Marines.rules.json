@@ -1,0 +1,101 @@
+{
+  "faction": "Chaos Space Marines",
+  "battleFormations": [
+    {
+      "name": "Pactbound Zealots",
+      "dp": 3,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Creations of Bile",
+      "dp": 3,
+      "effect": "Category: Purge the Foe"
+    },
+    {
+      "name": "Huron's Marauders",
+      "dp": 3,
+      "effect": "Category: Purge the Foe"
+    },
+    {
+      "name": "Renegade Raiders",
+      "dp": 3,
+      "effect": "Category: Reconnaissance"
+    },
+    {
+      "name": "Deceptors",
+      "dp": 2,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Dread Talons",
+      "dp": 2,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Nightmare Hunt",
+      "dp": 2,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Warpstrike Champions",
+      "dp": 2,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Chaos Cult",
+      "dp": 2,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Cult of the Arkifane",
+      "dp": 2,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Renegade Warband",
+      "dp": 2,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Fellhammer Siege-Host",
+      "dp": 2,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Soulforged Warpack",
+      "dp": 2,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Veterans of the Long War",
+      "dp": 2,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Cabal of Chaos",
+      "dp": 1,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Devotees of Destruction",
+      "dp": 1,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Murdertalon Raiders",
+      "dp": 1,
+      "effect": "Category: Reconnaissance"
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "Daemon Hammer",
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Disciple of Khorne",
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    }
+  ]
+}

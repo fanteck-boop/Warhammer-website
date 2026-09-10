@@ -4757,7 +4757,94 @@
       "Devoted to Pain: If a model in this unit is equipped with 2 macro-scalpels, those weapons have the ^^**[Twin-Linked]**^^ ability.",
       "Mindless Killing Machines (Pain): At the start of the Fight phase, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit is destroyed by a melee attack, if that model has not fought this phas"
     ],
-    "weapons": [],
+    "weapons": [
+      {
+        "name": "Stinger pod",
+        "type": "Ranged",
+        "attacks": "2D6",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1",
+        "range": "24\""
+      },
+      {
+        "name": "Twin haywire blaster",
+        "type": "Ranged",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "3",
+        "ap": "-1",
+        "d": "3",
+        "range": "24\""
+      },
+      {
+        "name": "Twin heat lance",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "14",
+        "ap": "-4",
+        "d": "D6",
+        "range": "18\""
+      },
+      {
+        "name": "Twin liquifier gun",
+        "type": "Ranged",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "4",
+        "ap": "-1",
+        "d": "1",
+        "range": "12\""
+      },
+      {
+        "name": "Twin splinter cannon",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "3",
+        "ap": "-1",
+        "d": "2",
+        "range": "36\""
+      },
+      {
+        "name": "Chain-flails",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-1",
+        "d": "1"
+      },
+      {
+        "name": "Macro-scalpel",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Talos gauntlet",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3"
+      },
+      {
+        "name": "Talos ichor injector",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "2+",
+        "s": "8",
+        "ap": "-2",
+        "d": "D6"
+      }
+    ],
     "system": "40k"
   },
   {

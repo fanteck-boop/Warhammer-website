@@ -1,0 +1,62 @@
+{
+  "faction": "Thousand Sons",
+  "battleFormations": [
+    {
+      "name": "Grand Coven",
+      "dp": 3,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Hexwarp Thrallband",
+      "dp": 3,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Sorcerous Vanguard",
+      "dp": 2,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Manicus Cabal",
+      "dp": 2,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Warp-Touched Cohort",
+      "dp": 2,
+      "effect": "Category: Purge the Foe"
+    },
+    {
+      "name": "Spell-Slinger Detachment",
+      "dp": 1,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Tzeentch's Devotees",
+      "dp": 1,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Alchemical Assault",
+      "dp": 1,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Chaos Cult",
+      "dp": 1,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Infernal Pacts",
+      "dp": 1,
+      "effect": "Category: Purge the Foe"
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "Tzeentch magic items",
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    }
+  ]
+}

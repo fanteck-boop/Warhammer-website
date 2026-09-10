@@ -1,0 +1,95 @@
+{
+  "faction": "Craftworlds",
+  "battleFormations": [
+    {
+      "name": "Aspect Host",
+      "dp": 3,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Warhost",
+      "dp": 3,
+      "effect": "Category: Reconnaissance"
+    },
+    {
+      "name": "Ghosts of the Webway",
+      "dp": 2,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Windrider Host",
+      "dp": 2,
+      "effect": "Category: Reconnaissance"
+    },
+    {
+      "name": "Corsair Coterie",
+      "dp": 2,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Devoted of Ynnead",
+      "dp": 2,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Seer Council",
+      "dp": 2,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Eldritch Raiders",
+      "dp": 2,
+      "effect": "Category: Purge the Foe"
+    },
+    {
+      "name": "Serpent's Brood",
+      "dp": 2,
+      "effect": "Category: Purge the Foe"
+    },
+    {
+      "name": "Guardian Battlehost",
+      "dp": 2,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Spirit Conclave",
+      "dp": 2,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Fateful Performance",
+      "dp": 1,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Armoured Warhost",
+      "dp": 1,
+      "effect": "Category: Reconnaissance"
+    },
+    {
+      "name": "Path of the Outcast",
+      "dp": 1,
+      "effect": "Category: Reconnaissance"
+    },
+    {
+      "name": "Twilight Flickers",
+      "dp": 1,
+      "effect": "Category: Take and Hold"
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "Khaine's Avatar",
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Yvraine's Blessing",
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Absolute Faith",
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    }
+  ]
+}

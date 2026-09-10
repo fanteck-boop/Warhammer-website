@@ -886,6 +886,10 @@
   .sys-btn:hover:not(.active) { background:rgba(212,168,56,0.15); }
   .a40k-only{display:none;}
   body.sys-40k .a40k-only{display:block;}
+  .a40k-only-cell{display:none;}
+  body.sys-40k .a40k-only-cell{display:table-cell;}
+  .aos-only{display:block;}
+  body.sys-40k .aos-only{display:none;}
 </style>
 </head>
 <body>
@@ -952,25 +956,34 @@
     </div>
 
     <details class="import army-rules-panel" id="armyRulesPanel">
-      <summary>Army Rules &middot; Enhancements</summary>
+      <summary id="armyRulesSummary">Army Rules &middot; Enhancements</summary>
       <div class="import-body">
-        <p style="font-size:13px; color:var(--text-soft); margin:0 0 14px; line-height:1.5;">Assign a battle formation, give your general a heroic trait, and hand out artefacts and boons. Options come from the faction rules JSON &mdash; import a <code>.rules.json</code> file in the Grimoire tab to populate them. Enhancement costs are added to your points total automatically.</p>
-        <div class="enhancement-row">
+        <p id="armyRulesNote" style="font-size:13px; color:var(--text-soft); margin:0 0 14px; line-height:1.5;" class="aos-only">Assign a battle formation, give your general a heroic trait, and hand out artefacts and boons. Options come from the faction rules JSON &mdash; import a <code>.rules.json</code> file in the Grimoire tab to populate them. Enhancement costs are added to your points total automatically.</p>
+        <p style="font-size:13px; color:var(--text-soft); margin:0 0 14px; line-height:1.5;" class="a40k-only">Pick 1&ndash;3 Detachments up to your Detachment Point (DP) budget (2 DP under 1000pts, 3 DP at 1000+), then assign Enhancements to your characters. Options come from the faction rules JSON &mdash; import a <code>.rules.json</code> file in the Grimoire tab (with a <code>dp</code> cost per detachment) to populate them.</p>
+
+        <div class="enhancement-row aos-only">
           <label for="armyBattleFormation">Battle Formation</label>
           <select id="armyBattleFormation"><option value="">— none —</option></select>
           <div class="enhancement-effect" id="battleFormationEffect"></div>
         </div>
+
+        <div class="enhancement-row a40k-only">
+          <label>Detachments <span id="dpBudgetLabel" class="enhancement-effect" style="display:inline;"></span></label>
+          <div id="detachmentRows"></div>
+          <select id="addDetachmentSelect"><option value="">— add a detachment —</option></select>
+        </div>
+
         <div class="enhancement-row">
-          <label for="armyHeroicTrait">Heroic Trait (assigned to the General)</label>
+          <label for="armyHeroicTrait" id="heroicTraitLabel">Heroic Trait (assigned to the General)</label>
           <select id="armyHeroicTrait"><option value="">— none —</option></select>
           <div class="enhancement-effect" id="heroicTraitEffect"></div>
         </div>
         <div class="enhancement-row">
-          <label>Artefacts (assigned to Heroes)</label>
+          <label id="artefactLabel">Artefacts (assigned to Heroes)</label>
           <div id="artefactRows"></div>
           <button class="ghost small" id="addArtefactBtn" type="button">+ Add Artefact</button>
         </div>
-        <div class="enhancement-row">
+        <div class="enhancement-row aos-only">
           <label>Boons (for non-Hero units with the “boons” enhancement type)</label>
           <div id="boonRows"></div>
           <button class="ghost small" id="addBoonBtn" type="button">+ Add Boon</button>
@@ -1047,13 +1060,14 @@
           <div class="field"><label for="a_wounds">Wounds / model</label><input type="number" id="a_wounds" min="1" value="1"></div>
           <div class="field"><label for="a_save">Save (X+)</label><input type="number" id="a_save" min="2" max="7" value="6"></div>
           <div class="field a40k-only"><label for="a_toughness">Toughness</label><input type="number" id="a_toughness" min="1" value="4"></div>
-          <div class="field"><label for="a_ward">Ward (X+, optional)</label><input type="text" id="a_ward" placeholder="e.g. 6"></div>
+          <div class="field"><label for="a_ward" id="a_wardLabel">Ward (X+, optional)</label><input type="text" id="a_ward" placeholder="e.g. 6"></div>
+          <div class="field a40k-only"><label for="a_fnp">Feel No Pain (X+, opt.)</label><input type="text" id="a_fnp" placeholder="e.g. 5"></div>
         </div>
         <div class="weapons-block">
           <label class="weapons-label">Weapons</label>
           <div class="table-scroll">
             <table class="weapon-table">
-              <thead><tr><th></th><th>Weapon</th><th>Models</th><th>Atks</th><th>Hit</th><th>Wound</th><th>Rend</th><th>Dmg</th></tr></thead>
+              <thead><tr><th></th><th>Weapon</th><th>Models</th><th>Atks</th><th>Hit</th><th>Wound</th><th>Rend</th><th>Dmg</th><th class="a40k-only-cell">Keywords</th></tr></thead>
               <tbody id="a_weaponsBody"></tbody>
             </table>
           </div>
@@ -1073,12 +1087,13 @@
           <div class="field"><label for="b_save">Save (X+)</label><input type="number" id="b_save" min="2" max="7" value="3"></div>
           <div class="field a40k-only"><label for="b_toughness">Toughness</label><input type="number" id="b_toughness" min="1" value="8"></div>
           <div class="field"><label for="b_ward">Ward (X+, optional)</label><input type="text" id="b_ward" placeholder="e.g. 5"></div>
+          <div class="field a40k-only"><label for="b_fnp">Feel No Pain (X+, opt.)</label><input type="text" id="b_fnp" placeholder="e.g. 5"></div>
         </div>
         <div class="weapons-block">
           <label class="weapons-label">Weapons</label>
           <div class="table-scroll">
             <table class="weapon-table">
-              <thead><tr><th></th><th>Weapon</th><th>Models</th><th>Atks</th><th>Hit</th><th>Wound</th><th>Rend</th><th>Dmg</th></tr></thead>
+              <thead><tr><th></th><th>Weapon</th><th>Models</th><th>Atks</th><th>Hit</th><th>Wound</th><th>Rend</th><th>Dmg</th><th class="a40k-only-cell">Keywords</th></tr></thead>
               <tbody id="b_weaponsBody"></tbody>
             </table>
           </div>
@@ -1142,7 +1157,7 @@
       <label class="weapons-label">Weapons</label>
       <div class="table-scroll">
         <table class="weapon-table">
-          <thead><tr><th>Weapon</th><th>Models</th><th>Atks</th><th>Hit</th><th>Wound</th><th>Rend</th><th>Dmg</th><th></th></tr></thead>
+          <thead><tr><th>Weapon</th><th>Models</th><th>Atks</th><th>Hit</th><th>Wound</th><th>Rend</th><th>Dmg</th><th class="a40k-only-cell">Keywords</th><th></th></tr></thead>
           <tbody id="g_weaponsBody"></tbody>
         </table>
       </div>
@@ -1215,10 +1230,19 @@
 
   async function storageSet(key, value){
     if (hasCloudStorage) {
-      try { await window.storage.set(key, value, false); return; }
-      catch(e){ console.error('Save failed', e); return; }
+      try { await window.storage.set(key, value, false); return true; }
+      catch(e){ console.error('Save failed', e); return false; }
     }
     memSet(key, value);
+    return true;
+  }
+
+  async function storageDelete(key){
+    if (hasCloudStorage) {
+      try { await window.storage.delete(key, false); return; }
+      catch(e){ return; }
+    }
+    delete _memStore[key];
   }
 
   const $ = (id) => document.getElementById(id);
@@ -1266,13 +1290,11 @@
     '40k': {
       label: 'Warhammer 40K',
       tagline: 'Warhammer 40,000 11th Edition Companion',
-      alliances: ['imperium','chaos','aeldari','xenos','unaligned'],
+      alliances: ['imperium','chaos','xenos'],
       allianceMeta: {
         imperium: { label:'Imperium', color:'#4a7ab5' },
         chaos: { label:'Chaos', color:'#b53a3a' },
-        aeldari: { label:'Aeldari', color:'#7ab57a' },
-        xenos: { label:'Xenos', color:'#b59a4a' },
-        unaligned: { label:'Unaligned', color:'var(--unaligned)' }
+        xenos: { label:'Xenos', color:'#b59a4a' }
       },
       statColumns: [
         { key:'move', label:'M' },
@@ -1319,17 +1341,32 @@
     'ironjawz':'destruction', 'kruleboyz':'destruction', 'sons of behemat':'destruction',
     'bonesplitterz':'destruction'
   };
+  const ALLIANCE_BY_FACTION_40K = {
+    'adepta sororitas':'imperium', 'adeptus custodes':'imperium', 'adeptus mechanicus':'imperium',
+    'agents of the imperium':'imperium', 'astra militarum':'imperium', 'black templars':'imperium',
+    'blood angels':'imperium', 'dark angels':'imperium', 'deathwatch':'imperium',
+    'grey knights':'imperium', 'imperial knights':'imperium', 'space marines':'imperium',
+    'space wolves':'imperium', 'ultramarines':'imperium',
+    'chaos daemons':'chaos', 'chaos knights':'chaos', 'chaos space marines':'chaos',
+    'death guard':'chaos', "emperor's children":'chaos', 'emperors children':'chaos',
+    'thousand sons':'chaos', 'world eaters':'chaos',
+    'craftworlds':'xenos', 'drukhari':'xenos', 'genestealer cults':'xenos',
+    'leagues of votann':'xenos', 'necrons':'xenos', 'orks':'xenos',
+    "t'au empire":'xenos', 'taus empire':'xenos', 'tau empire':'xenos', 'tyranids':'xenos'
+  };
   function normalizeFaction(s){
     return String(s ?? '').toLowerCase().trim().replace(/[-–—]/g,' ').replace(/\s+/g,' ');
   }
   function detectAlliance(factionName){
     const key = normalizeFaction(factionName);
-    if (!key) return 'unaligned';
-    if (ALLIANCE_BY_FACTION[key]) return ALLIANCE_BY_FACTION[key];
-    for (const k in ALLIANCE_BY_FACTION) {
-      if (key.includes(k) || k.includes(key)) return ALLIANCE_BY_FACTION[k];
+    const map = activeSystem === '40k' ? ALLIANCE_BY_FACTION_40K : ALLIANCE_BY_FACTION;
+    const fallback = activeSystem === '40k' ? 'xenos' : 'unaligned';
+    if (!key) return fallback;
+    if (map[key]) return map[key];
+    for (const k in map) {
+      if (key.includes(k) || k.includes(key)) return map[k];
     }
-    return 'unaligned';
+    return fallback;
   }
   function effectiveAlliance(entry){
     if (entry && entry.alliance && entry.alliance !== 'auto') {
@@ -1416,7 +1453,7 @@
     $('brandTagline').textContent = getSysConfig().tagline;
     // Reset state for new system
     state = { armyName:'', pointsLimit:2000, alliance:'', faction:'', units:[], generalUnitId:null,
-      armyOptions:{ battleFormation:'', heroicTrait:'', artefacts:[], boons:[] } };
+      armyOptions:{ battleFormation:'', heroicTrait:'', artefacts:[], boons:[], detachments:[] } };
     factionRules = {};
     grimoire = [];
     // Re-populate dropdowns
@@ -1446,7 +1483,7 @@
   const STORAGE_KEY = 'muster-roll-data';
   const FACTION_RULES_KEY = 'muster-roll-faction-rules';
   const GRIMOIRE_KEY_BASE = 'muster-roll-grimoire';
-  const DATA_VERSION = 'v3-weapons'; // Bump when data format changes to force re-import
+  const DATA_VERSION = 'v5-enhancements'; // Bump when data format changes to force re-import
   let state = {
     armyName: '', pointsLimit: 2000, alliance: '', faction: '', units: [],
     generalUnitId: null,
@@ -1729,6 +1766,7 @@
 
   function renderArmyRulesPanel(){
     const rules = getFactionRules();
+    const is40k = activeSystem === '40k';
     const bfSel = $('armyBattleFormation');
     const htSel = $('armyHeroicTrait');
     const bfEff = $('battleFormationEffect');
@@ -1736,6 +1774,14 @@
     const artWrap = $('artefactRows');
     const boonWrap = $('boonRows');
     if (!bfSel) return; // not yet in DOM
+
+    // Relabel for 40K terminology
+    const summaryEl = $('armyRulesSummary');
+    if (summaryEl) summaryEl.textContent = is40k ? 'Army Rules · Detachments & Enhancements' : 'Army Rules · Enhancements';
+    const htLabel = $('heroicTraitLabel');
+    if (htLabel) htLabel.textContent = is40k ? 'Warlord Trait (assigned to the Warlord)' : 'Heroic Trait (assigned to the General)';
+    const artLabel = $('artefactLabel');
+    if (artLabel) artLabel.textContent = is40k ? 'Enhancements (assigned to Characters)' : 'Artefacts (assigned to Heroes)';
 
     if (!rules) {
       const note = state.faction
@@ -1747,23 +1793,73 @@
       htEff.textContent = '';
       artWrap.innerHTML = `<div class="enhancement-effect">${note}</div>`;
       boonWrap.innerHTML = '';
+      const detWrap = $('detachmentRows');
+      const addDetSel = $('addDetachmentSelect');
+      if (detWrap) detWrap.innerHTML = `<div class="enhancement-effect">${note}</div>`;
+      if (addDetSel) addDetSel.innerHTML = '<option value="">— add a detachment —</option>';
+      const dpLabel = $('dpBudgetLabel');
+      if (dpLabel) dpLabel.textContent = '';
       return;
     }
 
-    // Battle Formation
-    bfSel.innerHTML = '<option value="">— none —</option>' + enhancementOptionList(rules.battleFormations, true);
-    bfSel.value = state.armyOptions.battleFormation || '';
-    const bf = (rules.battleFormations || []).find(b => b.name === state.armyOptions.battleFormation);
-    bfEff.textContent = bf ? bf.effect : '';
+    if (is40k) {
+      renderDetachmentRows(rules);
+    } else {
+      // Battle Formation (AoS single-select)
+      bfSel.innerHTML = '<option value="">— none —</option>' + enhancementOptionList(rules.battleFormations, true);
+      bfSel.value = state.armyOptions.battleFormation || '';
+      const bf = (rules.battleFormations || []).find(b => b.name === state.armyOptions.battleFormation);
+      bfEff.textContent = bf ? bf.effect : '';
+    }
 
-    // Heroic Trait
+    // Heroic Trait / Warlord Trait
     htSel.innerHTML = '<option value="">— none —</option>' + enhancementOptionList(rules.heroicTraits, true);
     htSel.value = state.armyOptions.heroicTrait || '';
     const ht = (rules.heroicTraits || []).find(t => t.name === state.armyOptions.heroicTrait);
     htEff.textContent = ht ? ht.effect : '';
 
     renderArtefactRows(rules);
-    renderBoonRows(rules);
+    if (!is40k) renderBoonRows(rules);
+  }
+
+  function detachmentPointBudget(){
+    const pts = Number(state.pointsLimit) || 0;
+    if (pts >= 1000) return 3;
+    return 2;
+  }
+
+  function renderDetachmentRows(rules){
+    const wrap = $('detachmentRows');
+    const addSel = $('addDetachmentSelect');
+    const dpLabel = $('dpBudgetLabel');
+    if (!wrap || !addSel) return;
+    const list = rules.battleFormations || [];
+    const chosen = state.armyOptions.detachments || [];
+    const budget = detachmentPointBudget();
+    const usedDp = chosen.reduce((sum, name) => {
+      const d = list.find(x => x.name === name);
+      return sum + (d && d.dp ? Number(d.dp) : 1);
+    }, 0);
+    if (dpLabel) dpLabel.textContent = `(${usedDp} / ${budget} DP used)`;
+
+    if (!chosen.length) {
+      wrap.innerHTML = '<div class="enhancement-effect">No detachments selected yet.</div>';
+    } else {
+      wrap.innerHTML = chosen.map((name, i) => {
+        const d = list.find(x => x.name === name);
+        const dp = d && d.dp ? d.dp : 1;
+        return `<div class="enhancement-assign-row">
+            <span>${escapeHtml(name)} <em>(${dp} DP)</em></span>
+            <button class="ghost small remove-assign" data-detachment-remove="${i}" type="button">&times;</button>
+          </div>${d && d.effect ? `<div class="enhancement-effect">${escapeHtml(d.effect)}</div>` : ''}`;
+      }).join('');
+    }
+
+    const remaining = budget - usedDp;
+    const options = list.filter(d => !chosen.includes(d.name) && (d.dp ? Number(d.dp) : 1) <= remaining);
+    addSel.innerHTML = '<option value="">— add a detachment —</option>' + options.map(d =>
+      `<option value="${escapeAttr(d.name)}">${escapeHtml(d.name)}${d.dp ? ' (' + d.dp + ' DP)' : ''}</option>`
+    ).join('');
   }
 
   function renderArtefactRows(rules){
@@ -1832,12 +1928,12 @@
         state = Object.assign({
           armyName:'', pointsLimit:2000, alliance:'', faction:'', units:[],
           generalUnitId:null,
-          armyOptions:{ battleFormation:'', heroicTrait:'', artefacts:[], boons:[] }
+          armyOptions:{ battleFormation:'', heroicTrait:'', artefacts:[], boons:[], detachments:[] }
         }, parsed);
         if (!state.armyOptions || typeof state.armyOptions !== 'object') {
           state.armyOptions = { battleFormation:'', heroicTrait:'', artefacts:[], boons:[] };
         }
-        ['artefacts','boons'].forEach(k => {
+        ['artefacts','boons','detachments'].forEach(k => {
           if (!Array.isArray(state.armyOptions[k])) state.armyOptions[k] = [];
         });
         if (state.armyOptions.battleFormation === undefined) state.armyOptions.battleFormation = '';
@@ -2007,6 +2103,22 @@
     render();
     save();
   });
+  $('addDetachmentSelect').addEventListener('change', (e) => {
+    const val = e.target.value;
+    if (!val) return;
+    if (!Array.isArray(state.armyOptions.detachments)) state.armyOptions.detachments = [];
+    if (!state.armyOptions.detachments.includes(val)) state.armyOptions.detachments.push(val);
+    render();
+    save();
+  });
+  $('detachmentRows').addEventListener('click', (e) => {
+    const idx = e.target.getAttribute('data-detachment-remove');
+    if (idx !== null) {
+      state.armyOptions.detachments.splice(Number(idx), 1);
+      render();
+      save();
+    }
+  });
   $('armyHeroicTrait').addEventListener('change', (e) => {
     state.armyOptions.heroicTrait = e.target.value;
     render();
@@ -2126,7 +2238,8 @@
       <td><input type="text" class="wpn-hit" value="${escapeAttr(w.hit||'')}" placeholder="3+"></td>
       <td><input type="text" class="wpn-wound" value="${escapeAttr(w.wound||'')}" placeholder="4"></td>
       <td><input type="text" class="wpn-rend" value="${escapeAttr(w.rend||'0')}" placeholder="0"></td>
-      <td><input type="text" class="wpn-damage" value="${escapeAttr(w.damage||'1')}"></td>`;
+      <td><input type="text" class="wpn-damage" value="${escapeAttr(w.damage||'1')}"></td>
+      <td class="a40k-only-cell"><input type="text" class="wpn-keywords" value="${escapeAttr(w.keywords||'')}" placeholder="e.g. Sustained Hits 1, Lethal Hits"></td>`;
     if (mode === 'toggle') {
       return `<tr class="${off ? 'wpn-off' : ''}">
         <td class="toggle-cell"><input type="checkbox" class="wpn-enabled" ${off ? '' : 'checked'} title="Include this weapon in the clash"></td>
@@ -2150,6 +2263,7 @@
     if (!body) return [];
     return Array.from(body.querySelectorAll('tr')).map(row => {
       const enabledBox = row.querySelector('.wpn-enabled');
+      const kwEl = row.querySelector('.wpn-keywords');
       return {
         name: row.querySelector('.wpn-name').value.trim(),
         models: row.querySelector('.wpn-models').value.trim(),
@@ -2158,6 +2272,7 @@
         wound: row.querySelector('.wpn-wound').value.trim(),
         rend: row.querySelector('.wpn-rend').value.trim() || '0',
         damage: row.querySelector('.wpn-damage').value.trim() || '1',
+        keywords: kwEl ? kwEl.value.trim() : '',
         enabled: enabledBox ? enabledBox.checked : true
       };
     });
@@ -2198,13 +2313,14 @@
           wound: w.s || '',   // Strength maps to wound
           rend: w.ap || '0',  // AP maps to rend
           damage: w.d || '1', // Damage maps to damage
+          keywords: w.keywords || '',
           enabled: true
         }));
       }
       return entry.weapons;
     }
     if (entry.attacks || entry.hit || entry.wound || entry.damage) {
-      return [{ name:'', models:'', attacks:entry.attacks||'1', hit:entry.hit||'', wound:entry.wound||'', rend:entry.rend||'0', damage:entry.damage||'1' }];
+      return [{ name:'', models:'', attacks:entry.attacks||'1', hit:entry.hit||'', wound:entry.wound||'', rend:entry.rend||'0', damage:entry.damage||'1', keywords:entry.keywords||'' }];
     }
     return [];
   }
@@ -2234,6 +2350,16 @@
     return { roll: () => fallback, average: fallback };
   }
 
+  function parseWeaponKeywords(str){
+    const s = String(str || '').toLowerCase();
+    const sustainedMatch = s.match(/sustained\s*hits?\s*(\d+)?/);
+    const sustainedHits = sustainedMatch ? (sustainedMatch[1] ? parseInt(sustainedMatch[1], 10) : 1) : 0;
+    const lethalHits = /lethal\s*hits?/.test(s);
+    const devastatingWounds = /devastating\s*wounds?/.test(s);
+    const twinLinked = /twin[-\s]?linked/.test(s) || /reroll(s|ed)?\s*wounds?/.test(s);
+    return { sustainedHits, lethalHits, devastatingWounds, twinLinked };
+  }
+
   function readProfile(prefix){
     const get = (f) => document.getElementById(prefix + '_' + f).value;
     const is40k = activeSystem === '40k';
@@ -2244,6 +2370,7 @@
       save: (() => { const v = parseInt(get('save'), 10); return v && v >= 2 && v <= 6 ? v : null; })(),
       ward: (() => { const v = parseInt(get('ward'), 10); return v && v >= 2 && v <= 6 ? v : null; })(),
       toughness: is40k ? (() => { const v = parseInt(get('toughness'), 10); return v && v > 0 ? v : null; })() : null,
+      fnp: is40k ? (() => { const v = parseInt(get('fnp'), 10); return v && v >= 2 && v <= 6 ? v : null; })() : null,
       weapons: readWeaponsTable(prefix + '_weaponsBody')
     };
   }
@@ -2251,7 +2378,8 @@
   function simulateClash(attacker, defender, trials){
     const is40k = activeSystem === '40k';
     const defenderToughness = is40k ? (defender.toughness || 4) : null;
-    
+    const defenderFnp = is40k ? defender.fnp : null;
+
     const weapons = (attacker.weapons || []).map(w => {
       const hitRaw = String(w.hit || '').trim();
       const isAutoHit = hitRaw.toUpperCase() === 'N/A' || hitRaw === '';
@@ -2265,6 +2393,7 @@
       } else {
         woundTarget = parseInt(w.wound, 10) || 0;
       }
+      const kw = is40k ? parseWeaponKeywords(w.keywords) : { sustainedHits:0, lethalHits:false, devastatingWounds:false, twinLinked:false };
       return {
         name: w.name,
         enabled: w.enabled !== false,
@@ -2278,7 +2407,11 @@
         dmgSum: 0,
         is40k: is40k,
         strength: is40k ? (parseInt(w.wound, 10) || 0) : null,
-        ap: is40k ? (parseInt(w.rend, 10) || 0) : null
+        ap: is40k ? (parseInt(w.rend, 10) || 0) : null,
+        sustainedHits: kw.sustainedHits,
+        lethalHits: kw.lethalHits,
+        devastatingWounds: kw.devastatingWounds,
+        twinLinked: kw.twinLinked
       };
     }).filter(w => w.enabled && w.modelsCount > 0 && (w.isAutoHit || (w.hit >= 2 && w.hit <= 6)) && w.wound >= 2 && w.wound <= 6);
 
@@ -2290,41 +2423,79 @@
     let avgAttacksTotal = 0;
     weapons.forEach(w => { avgAttacksTotal += w.modelsCount * w.attacksDice.average; });
 
+    // Feel No Pain: rolled per point of damage that gets through; a roll below
+    // the FNP threshold ignores that point of damage entirely.
+    function applyFnp(dmgVal){
+      if (!defenderFnp || dmgVal <= 0) return dmgVal;
+      let through = 0;
+      for (let p = 0; p < dmgVal; p++) {
+        const rFnp = 1 + Math.floor(Math.random() * 6);
+        if (rFnp < defenderFnp) through++;
+      }
+      return through;
+    }
+
     for (let t = 0; t < trials; t++) {
       let dmgThisTrial = 0;
       weapons.forEach(w => {
         const totalAttacks = Math.round(w.modelsCount * w.attacksDice.roll());
         // 40K: AP is negative (e.g., -2 makes save worse). AoS: rend is positive (same effect)
-        const effSave = defender.save !== null ? 
+        const effSave = defender.save !== null ?
           (is40k ? defender.save - w.rend : defender.save + w.rend) : null;
         let wDmg = 0;
-        for (let i = 0; i < totalAttacks; i++) {
-          // Auto-hit weapons (e.g. flamers with BS N/A) skip the hit roll
-          if (!w.isAutoHit) {
-            const rHit = 1 + Math.floor(Math.random() * 6);
-            if (rHit < w.hit) continue;
+
+        // Resolves everything from the wound roll onward for a single hit.
+        // autoWound: Lethal Hits triggered (unmodified 6 to hit) — skip the wound roll.
+        function resolveFromWound(autoWound){
+          let woundSuccess, natural6Wound = false;
+          if (autoWound) {
+            woundSuccess = true;
+          } else {
+            let rWound = 1 + Math.floor(Math.random() * 6);
+            if (w.twinLinked && rWound < w.wound) rWound = 1 + Math.floor(Math.random() * 6);
+            natural6Wound = rWound === 6;
+            woundSuccess = rWound >= w.wound;
           }
-          const rWound = 1 + Math.floor(Math.random() * 6);
-          if (rWound < w.wound) continue;
+          if (!woundSuccess) return;
+
+          const dmgVal = Math.max(0, Math.round(w.damageDice.roll()));
+          if (w.devastatingWounds && natural6Wound && !autoWound) {
+            // Devastating Wounds: bypasses saves/invuln entirely. FNP still applies.
+            wDmg += applyFnp(dmgVal);
+            return;
+          }
           // Determine effective save: in 40K, use invulnerable save if better than armor save after AP
           let useSave = effSave;
-          if (is40k && defender.ward && defender.ward !== null) {
-            // Invulnerable save ignores AP — use if better than modified armor save
-            if (effSave === null || defender.ward < effSave) {
-              useSave = defender.ward;
-            }
+          if (is40k && defender.ward) {
+            if (effSave === null || defender.ward < effSave) useSave = defender.ward;
           }
           if (useSave !== null && useSave <= 6) {
             const rSave = 1 + Math.floor(Math.random() * 6);
-            if (rSave >= useSave) continue;
+            if (rSave >= useSave) return;
           }
-          // In 40K, invulnerable save was already handled above. In AoS, ward is separate
+          // In AoS, ward is a separate roll after armor save (not an invuln substitute)
           if (!is40k && defender.ward) {
             const rWard = 1 + Math.floor(Math.random() * 6);
-            if (rWard >= defender.ward) continue;
+            if (rWard >= defender.ward) return;
           }
-          wDmg += Math.max(0, Math.round(w.damageDice.roll()));
+          wDmg += applyFnp(dmgVal);
         }
+
+        let extraSustainedHits = 0;
+        for (let i = 0; i < totalAttacks; i++) {
+          let natural6Hit = false;
+          if (!w.isAutoHit) {
+            const rHit = 1 + Math.floor(Math.random() * 6);
+            if (rHit < w.hit) continue;
+            natural6Hit = rHit === 6;
+          }
+          if (natural6Hit && w.sustainedHits > 0) extraSustainedHits += w.sustainedHits;
+          const autoWound = natural6Hit && w.lethalHits;
+          resolveFromWound(autoWound);
+        }
+        // Sustained Hits extra hits: automatic hits, still need a normal wound roll.
+        for (let i = 0; i < extraSustainedHits; i++) resolveFromWound(false);
+
         w.dmgSum += wDmg;
         dmgThisTrial += wDmg;
       });
@@ -2335,12 +2506,20 @@
 
     const avgDamage = totalDamageSum / trials;
     const avgModelsSlain = Math.min(defender.models, avgDamage / defender.wounds);
-    const weaponSummaries = weapons.map(w => ({
-      name: w.name,
-      avgAttacks: w.modelsCount * w.attacksDice.average,
-      hit: w.hit, wound: w.wound, rend: w.rend,
-      avgDamage: w.dmgSum / trials
-    }));
+    const weaponSummaries = weapons.map(w => {
+      const kwParts = [];
+      if (w.sustainedHits) kwParts.push(`Sustained Hits ${w.sustainedHits}`);
+      if (w.lethalHits) kwParts.push('Lethal Hits');
+      if (w.devastatingWounds) kwParts.push('Devastating Wounds');
+      if (w.twinLinked) kwParts.push('Twin-linked');
+      return {
+        name: w.name,
+        avgAttacks: w.modelsCount * w.attacksDice.average,
+        hit: w.hit, wound: w.wound, rend: w.rend,
+        keywords: kwParts.join(', '),
+        avgDamage: w.dmgSum / trials
+      };
+    });
 
     return {
       avgAttacks: avgAttacksTotal,
@@ -2372,14 +2551,16 @@
       const statsLabel = is40k 
         ? `${w.hit}+ BS/WS, S vs T, AP ${w.rend}`
         : `${w.hit}+/${w.wound}+, Rend ${w.rend}`;
+      const kwLabel = w.keywords ? ` &middot; <em>${escapeHtml(w.keywords)}</em>` : '';
       return `
-      <div class="result-line"><span>${escapeHtml(w.name || 'Weapon')} &middot; ${num(w.avgAttacks)} atks, ${statsLabel}</span><span class="val">${num(w.avgDamage)} dmg</span></div>`;
+      <div class="result-line"><span>${escapeHtml(w.name || 'Weapon')} &middot; ${num(w.avgAttacks)} atks, ${statsLabel}${kwLabel}</span><span class="val">${num(w.avgDamage)} dmg</span></div>`;
     }).join('') : '<div class="result-line"><span>No valid weapon profiles entered</span><span class="val">&mdash;</span></div>';
     const wardLabel = is40k ? 'Chance inv. save fails (per hit)' : 'Chance ward fails (per hit)';
     card.innerHTML = `<h4 id="${titleId}">${escapeHtml(attacker.name)} attacks ${escapeHtml(defender.name)}</h4>
       <div class="result-line"><span>Total avg. attacks swung</span><span class="val">${num(res.avgAttacks)}</span></div>
       ${weaponLines}
       ${defender.ward ? `<div class="result-line"><span>${wardLabel}</span><span class="val">${pct(res.pWardFails)}</span></div>` : ''}
+      ${is40k && defender.fnp ? `<div class="result-line"><span>Feel No Pain (per damage point)</span><span class="val">${defender.fnp}+</span></div>` : ''}
       <div class="result-line"><span>Expected damage dealt</span><span class="val">${num(res.avgDamage)}</span></div>
       <div class="result-line"><span>Expected models slain</span><span class="val">${num(res.avgModelsSlain)} / ${defender.models}</span></div>
       <div class="result-line"><span>Chance to wipe the unit</span><span class="val">${pct(res.chanceWipe)}</span></div>`;
@@ -2413,7 +2594,7 @@
     saveClash();
   }
 
-  const clashScalarIds = ['name','models','wounds','save','ward','toughness'];
+  const clashScalarIds = ['name','models','wounds','save','ward','toughness','fnp'];
 
   async function saveClash(){
     const data = {};
@@ -2480,22 +2661,78 @@
     };
   }
 
+  // Grimoire is sharded into one storage key per faction (plus an index key
+  // listing which faction shards exist) to stay well under the per-key
+  // storage size limit. A single blob holding every faction's full unit
+  // list (weapons, abilities, etc. included) can run past that limit,
+  // which surfaces as "Storage set failed: Internal server error".
+  function grimSlug(faction){
+    const s = normalizeFaction(faction || 'unknown').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
+    return s || 'unknown';
+  }
+  function grimShardKey(faction){ return sysKey(GRIMOIRE_KEY) + '__' + grimSlug(faction); }
+  function grimIndexKey(){ return sysKey(GRIMOIRE_KEY) + '-index'; }
+
   async function saveGrimoire(){
-    await storageSet(sysKey(GRIMOIRE_KEY), JSON.stringify(grimoire));
+    const groups = {};
+    grimoire.forEach(e => {
+      const f = (e.faction || 'unknown').trim() || 'unknown';
+      (groups[f] = groups[f] || []).push(e);
+    });
+    const factionNames = Object.keys(groups);
+    let ok = await storageSet(grimIndexKey(), JSON.stringify(factionNames));
+    for (const f of factionNames) {
+      const shardOk = await storageSet(grimShardKey(f), JSON.stringify(groups[f]));
+      ok = ok && shardOk;
+    }
+    if (!ok) {
+      const status = document.getElementById('grimoireStatus');
+      if (status) status.textContent = 'Warning: some grimoire data may not have saved (storage limit).';
+    }
+    return ok;
+  }
+
+  async function clearGrimoireStorage(){
+    let factionNames = [];
+    try {
+      const idxRaw = await storageGet(grimIndexKey());
+      if (idxRaw) factionNames = JSON.parse(idxRaw) || [];
+    } catch(e) {}
+    for (const f of factionNames) await storageDelete(grimShardKey(f));
+    await storageDelete(grimIndexKey());
+    // Clean up any legacy single-blob key from before sharding
+    await storageDelete(sysKey(GRIMOIRE_KEY));
   }
 
   async function loadGrimoire(){
-    const raw = await storageGet(sysKey(GRIMOIRE_KEY));
-    if (raw) {
-      try {
-        const parsed = JSON.parse(raw) || [];
-        // Filter out legacy/discontinued factions
-        grimoire = parsed.filter(e => !LEGACY_FACTIONS.has((e.faction || '').trim()));
-        // If we filtered some out, save the cleaned version
-        if (grimoire.length !== parsed.length) {
-          await storageSet(sysKey(GRIMOIRE_KEY), JSON.stringify(grimoire));
-        }
-      } catch(e) { grimoire = []; }
+    grimoire = [];
+    let factionNames = [];
+    try {
+      const idxRaw = await storageGet(grimIndexKey());
+      if (idxRaw) factionNames = JSON.parse(idxRaw) || [];
+    } catch(e) { factionNames = []; }
+
+    if (factionNames.length > 0) {
+      for (const f of factionNames) {
+        try {
+          const raw = await storageGet(grimShardKey(f));
+          if (raw) {
+            const parsed = JSON.parse(raw) || [];
+            grimoire = grimoire.concat(parsed.filter(e => !LEGACY_FACTIONS.has((e.faction || '').trim())));
+          }
+        } catch(e) { /* skip corrupt shard */ }
+      }
+    } else {
+      // One-time migration from the old single-blob storage format
+      const legacyRaw = await storageGet(sysKey(GRIMOIRE_KEY));
+      if (legacyRaw) {
+        try {
+          const parsed = JSON.parse(legacyRaw) || [];
+          grimoire = parsed.filter(e => !LEGACY_FACTIONS.has((e.faction || '').trim()));
+          await saveGrimoire();
+          await storageDelete(sysKey(GRIMOIRE_KEY));
+        } catch(e) { grimoire = []; }
+      }
     }
     renderGrimoire();
   }
@@ -2799,10 +3036,17 @@
     }
   }
 
+  function extractFeelNoPain(entry){
+    const ab = entry.abilities;
+    const text = Array.isArray(ab) ? ab.join(' ') : String(ab || '');
+    const m = text.match(/Feel No Pain\s*(\d)\+/i);
+    return m ? m[1] : '';
+  }
+
   function applyGrimToClash(entry, prefix){
     // Map fields based on system
     if (activeSystem === '40k') {
-      const setVal = (id, val) => { const el = document.getElementById(prefix + '_' + id); if (el && val) el.value = val; };
+      const setVal = (id, val) => { const el = document.getElementById(prefix + '_' + id); if (el) el.value = val || ''; };
       setVal('name', entry.name || '');
       setVal('models', entry.models || '1');
       setVal('wounds', entry.wounds || '1');
@@ -2813,12 +3057,13 @@
       const invSaveVal = (entry.invulnerableSave || '').replace(/\+/g, '');
       setVal('ward', invSaveVal);
       setVal('toughness', entry.toughness || '');
+      // Feel No Pain isn't a structured field in the source data — pull it out
+      // of the ability text (e.g. "...has the Feel No Pain 4+ ability.")
+      setVal('fnp', extractFeelNoPain(entry));
     } else {
+      const setVal = (id, val) => { const el = document.getElementById(prefix + '_' + id); if (el) el.value = val || ''; };
       const map = { name:'name', models:'models', wounds:'wounds', save:'save', ward:'ward' };
-      Object.keys(map).forEach(f => {
-        const el = document.getElementById(prefix + '_' + map[f]);
-        if (el && entry[f] !== undefined && entry[f] !== '') el.value = entry[f];
-      });
+      Object.keys(map).forEach(f => { setVal(map[f], entry[f] !== undefined ? entry[f] : ''); });
     }
     renderWeaponsTable(prefix + '_weaponsBody', getWeapons(entry), 'toggle');
     const nameEl = document.getElementById(prefix === 'a' ? 'a_name' : 'b_name');
@@ -3078,7 +3323,7 @@
     if (forceReload) {
       // Clear old grimoire data to ensure clean re-import with correct weapon fields
       grimoire = [];
-      await storageSet(sysKey(GRIMOIRE_KEY), '[]');
+      await clearGrimoireStorage();
     }
     // Only auto-load if grimoire is empty (first visit or version bump)
     if (grimoire.length > 0) return;
@@ -3095,21 +3340,20 @@
           loaded++;
         }
       } catch(e) { /* skip */ }
-      // Load rules (AoS only for now)
-      if (activeSystem === 'aos') {
-        try {
-          const res = await fetch(`${cfg.dataDir}/${encodeURIComponent(faction)}.rules.json`);
-          if (res.ok) {
-            const data = await res.json();
-            mergeFactionRules(data);
-          }
-        } catch(e) { /* skip */ }
-      }
+      // Load rules (battle formations / detachments, artefacts, etc.)
+      try {
+        const res = await fetch(`${cfg.dataDir}/${encodeURIComponent(faction)}.rules.json`);
+        if (res.ok) {
+          const data = await res.json();
+          mergeFactionRules(data);
+        }
+      } catch(e) { /* skip */ }
     }
     if (loaded > 0) {
       renderGrimoire();
       saveGrimoire();
-      if (activeSystem === 'aos') { saveFactionRules(); renderArmyRulesPanel(); }
+      saveFactionRules();
+      renderArmyRulesPanel();
       storageSet('muster-roll-data-version', DATA_VERSION);
       console.log(`Auto-loaded ${loaded} factions for ${activeSystem}.`);
     }

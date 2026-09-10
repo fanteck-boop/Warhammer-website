@@ -1,0 +1,56 @@
+{
+  "faction": "Imperial Knights",
+  "battleFormations": [
+    {
+      "name": "Valourstrike Lance",
+      "dp": 3,
+      "effect": ""
+    },
+    {
+      "name": "Thundering Legion",
+      "dp": 2,
+      "effect": ""
+    },
+    {
+      "name": "Realm Victors",
+      "dp": 2,
+      "effect": ""
+    },
+    {
+      "name": "Crusader Champions",
+      "dp": 1,
+      "effect": ""
+    },
+    {
+      "name": "Cogbound Alliance",
+      "dp": 1,
+      "effect": ""
+    },
+    {
+      "name": "Chivalric Exemplar",
+      "dp": 1,
+      "effect": ""
+    },
+    {
+      "name": "Hold the Bastion",
+      "dp": 1,
+      "effect": ""
+    },
+    {
+      "name": "Damaged Knight",
+      "dp": 1,
+      "effect": ""
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "Bold Gallantry (+AT on melee)",
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Run Them Through!",
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    }
+  ]
+}

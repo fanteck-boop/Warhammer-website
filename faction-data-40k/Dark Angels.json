@@ -889,7 +889,44 @@
       "Attached Unit: If a Character unit from your army with the Leader ability can be attached to a Terminator Squad, it can be attached to this unit instead.",
       "Teleport Homer: At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target"
     ],
-    "weapons": [],
+    "weapons": [
+      {
+        "name": "Great weapon of the Unforgiven",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Mace of absolution",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Power weapon",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "2+",
+        "s": "6",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Relic weapon",
+        "type": "Melee",
+        "attacks": "6",
+        "bs": "2+",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {

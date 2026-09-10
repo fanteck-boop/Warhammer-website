@@ -1008,7 +1008,46 @@
       "Anchorite Sarcophagus: The bearer has a Move characteristic of 7\" and a Save Characteristic of 3+.",
       "Anguish of the Unredeemed: Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 2+, do not remove it from play; that destroyed model can fight after attacking"
     ],
-    "weapons": [],
+    "weapons": [
+      {
+        "name": "Heavy bolter",
+        "type": "Ranged",
+        "range": "36\"",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "2"
+      },
+      {
+        "name": "Mortifier flamer",
+        "type": "Ranged",
+        "range": "12\"",
+        "attacks": "D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Penitent buzz-blade",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "10",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Penitent flail",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1269,7 +1308,36 @@
     "abilities": [
       "Endless Suffering: This unit is eligible to declare a charge in a turn in which it Advanced"
     ],
-    "weapons": [],
+    "weapons": [
+      {
+        "name": "Penitent flamers",
+        "type": "Ranged",
+        "range": "12\"",
+        "attacks": "2D6",
+        "bs": "N/A",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Penitent buzz-blade",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "4+",
+        "s": "10",
+        "ap": "-3",
+        "d": "2"
+      },
+      {
+        "name": "Penitent flail",
+        "type": "Melee",
+        "attacks": "8",
+        "bs": "4+",
+        "s": "5",
+        "ap": "-1",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {

@@ -1,0 +1,68 @@
+{
+  "faction": "Chaos Knights",
+  "battleFormations": [
+    {
+      "name": "Lords of Dread",
+      "dp": 3,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Chaos Knights of the Realm",
+      "dp": 3,
+      "effect": "Category: Purge the Foe"
+    },
+    {
+      "name": "Daemon Knights",
+      "dp": 2,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Knight Crusaders",
+      "dp": 1,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Renegade Knights",
+      "dp": 1,
+      "effect": "Category: Reconnaissance"
+    },
+    {
+      "name": "Wraith Knights",
+      "dp": 1,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Knight Errant",
+      "dp": 1,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Mercenary Knights",
+      "dp": 1,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Nightmare's Master",
+      "dp": 1,
+      "effect": "Category: Priority Assets"
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "Nightmare's Master",
+      "cost": 20,
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Tyrant's Shadow",
+      "cost": 25,
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Malevolent",
+      "cost": 15,
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    }
+  ]
+}

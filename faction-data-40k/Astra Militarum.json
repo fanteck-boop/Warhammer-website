@@ -1105,7 +1105,46 @@
     "abilities": [
       "Grim Demeanour: Each time a model in this unit makes an attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength."
     ],
-    "weapons": [],
+    "weapons": [
+      {
+        "name": "Lasgun",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1",
+        "range": "24\""
+      },
+      {
+        "name": "Laspistol",
+        "type": "Ranged",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "3",
+        "ap": "0",
+        "d": "1",
+        "range": "12\""
+      },
+      {
+        "name": "Chainsword",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Close combat weapon",
+        "type": "Melee",
+        "attacks": "1",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {

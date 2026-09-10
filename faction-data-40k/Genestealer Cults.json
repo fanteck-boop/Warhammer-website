@@ -106,7 +106,57 @@
       "Spotter: The bearer’s ranged weapons have a Ballistic Skill characteristic of 3+.",
       "Survey Augur: Each time the bearer’s unit has shot, select one enemy unit that was hit by one or more attacks made by the bearer this phase. Until the end of the phase, each time a friendly GENESTEALER CULTS model "
     ],
-    "weapons": [],
+    "weapons": [
+      {
+        "name": "Achilles missile launcher",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "9",
+        "ap": "-2",
+        "d": "3",
+        "range": "36\""
+      },
+      {
+        "name": "Heavy mining laser",
+        "type": "Ranged",
+        "attacks": "D3",
+        "bs": "4+",
+        "s": "12",
+        "ap": "-3",
+        "d": "D6+1",
+        "range": "36\""
+      },
+      {
+        "name": "Heavy mortar",
+        "type": "Ranged",
+        "attacks": "D6+3",
+        "bs": "4+",
+        "s": "6",
+        "ap": "0",
+        "d": "1",
+        "range": "48\""
+      },
+      {
+        "name": "Twin heavy stubber",
+        "type": "Ranged",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "4",
+        "ap": "0",
+        "d": "1",
+        "range": "36\""
+      },
+      {
+        "name": "Armoured hull",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "4+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {

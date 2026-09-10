@@ -1,0 +1,66 @@
+{
+  "faction": "World Eaters",
+  "battleFormations": [
+    {
+      "name": "Khorne Daemonkin",
+      "dp": 3,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Slaughterbound",
+      "dp": 2,
+      "effect": "Category: Purge the Foe"
+    },
+    {
+      "name": "Eightbound",
+      "dp": 2,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Bloodletters",
+      "dp": 1,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Bloodcrushers",
+      "dp": 1,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Flesh Hounds",
+      "dp": 1,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Goremongers",
+      "dp": 1,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Jakhals",
+      "dp": 1,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Khorne Daemonhost",
+      "dp": 1,
+      "effect": "Category: Purge the Foe"
+    },
+    {
+      "name": "Flood of Carnage",
+      "dp": 1,
+      "effect": "Category: Take and Hold"
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "Disciple of Khorne",
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Murder-Forged Entity",
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    }
+  ]
+}

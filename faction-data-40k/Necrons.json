@@ -1127,7 +1127,26 @@
       "Dispersion Shield: The bearer has a 4+ invulnerable save.",
       "Guardian Protocols: While a NOBLE model is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 fro"
     ],
-    "weapons": [],
+    "weapons": [
+      {
+        "name": "Hyperphase sword",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "6",
+        "ap": "-2",
+        "d": "1"
+      },
+      {
+        "name": "Warscythe",
+        "type": "Melee",
+        "attacks": "2",
+        "bs": "3+",
+        "s": "8",
+        "ap": "-3",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1282,7 +1301,17 @@
     "abilities": [
       "Whirling Onslaught: Each time a model in this unit makes a melee attack, re-roll a Hit roll of 1. If this unit made a Charge move this turn, you can re-roll the Hit roll instead."
     ],
-    "weapons": [],
+    "weapons": [
+      {
+        "name": "Skorpekh hyperphase weapons",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "7",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1693,7 +1722,17 @@
     "abilities": [
       "Tunnelling Horrors: At the end of your opponent’s turn, if this unit is unengaged, you can use this ability. If you do: \n- Place this unit in strategic reserves. \n- This unit must make an ingress move in your next Moveme"
     ],
-    "weapons": [],
+    "weapons": [
+      {
+        "name": "Ophydian hyperphase weapons",
+        "type": "Melee",
+        "attacks": "5",
+        "bs": "3+",
+        "s": "4",
+        "ap": "-2",
+        "d": "2"
+      }
+    ],
     "system": "40k"
   },
   {
@@ -1761,7 +1800,46 @@
     "abilities": [
       "Relentless Combatants: You can re-roll Charge rolls made for this unit, and this unit is eligible to declare a charge in a turn in which it Fell Back."
     ],
-    "weapons": [],
+    "weapons": [
+      {
+        "name": "Particle caster",
+        "type": "Ranged",
+        "range": "12\"",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "0",
+        "d": "1"
+      },
+      {
+        "name": "Rod of covenant (ranged)",
+        "type": "Ranged",
+        "range": "12\"",
+        "attacks": "1",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Rod of covenant",
+        "type": "Melee",
+        "attacks": "3",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-2",
+        "d": "2"
+      },
+      {
+        "name": "Voidblade",
+        "type": "Melee",
+        "attacks": "4",
+        "bs": "3+",
+        "s": "5",
+        "ap": "-2",
+        "d": "1"
+      }
+    ],
     "system": "40k"
   },
   {

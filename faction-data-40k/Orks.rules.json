@@ -1,0 +1,77 @@
+{
+  "faction": "Orks",
+  "battleFormations": [
+    {
+      "name": "Green Tide",
+      "dp": 3,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "War Horde",
+      "dp": 3,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Kult of Speed",
+      "dp": 2,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Dread Mob",
+      "dp": 2,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Bully Boyz",
+      "dp": 2,
+      "effect": "Category: Purge the Foe"
+    },
+    {
+      "name": "Da Big Hunt",
+      "dp": 2,
+      "effect": "Category: Purge the Foe"
+    },
+    {
+      "name": "Blitz Brigade",
+      "dp": 2,
+      "effect": "Category: Reconnaissance"
+    },
+    {
+      "name": "Speedwaaagh!",
+      "dp": 2,
+      "effect": "Category: Reconnaissance"
+    },
+    {
+      "name": "Freebooter Krew",
+      "dp": 2,
+      "effect": "Category: Take and Hold"
+    },
+    {
+      "name": "Equatorial Hordes",
+      "dp": 1,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "More Dakka!",
+      "dp": 1,
+      "effect": "Category: Disruption"
+    },
+    {
+      "name": "Rollin' Deff",
+      "dp": 1,
+      "effect": "Category: Priority Assets"
+    },
+    {
+      "name": "Taktikal Brigade",
+      "dp": 1,
+      "effect": "Category: Reconnaissance"
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "Shotta Smasha",
+      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    }
+  ]
+}
