@@ -1,0 +1,158 @@
+{
+  "faction": "T'au Empire",
+  "armyRules": [
+    {
+      "name": "For the Greater Good",
+      "effect": "At the start of your Shooting phase, select units to become Observer units. Each Observer unit (that hasn't shot yet, isn't a Fortification, and isn't Battle-shocked) marks one visible enemy unit as Spotted until the end of the phase. Other units with this ability targeting Spotted units become Guided units and gain +1 Ballistic Skill (plus [IGNORES COVER] if spotted via a MARKERLIGHT unit)."
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Kauyon",
+      "dp": 2,
+      "effect": "Patient Hunter: During battle rounds 3-5, T'au Empire ranged weapons gain [SUSTAINED HITS 1]. During rounds 3-5, Guided units attacking Spotted units can ignore modifiers to Ballistic Skill and to the Hit roll."
+    },
+    {
+      "name": "Mont'ka",
+      "dp": 3,
+      "effect": "Killing Blow: During battle rounds 1-3, T'au Empire ranged weapons gain [ASSAULT]. During rounds 1-3, Guided units' ranged weapons gain [LETHAL HITS]."
+    },
+    {
+      "name": "Retaliation Cadre",
+      "dp": 3,
+      "effect": "Bonded Heroes: T'au Empire BATTLESUIT ranged attacks against targets within 12\" gain +1 Strength; against targets within 8\" also gain +1 AP. Unique: BATTLESUIT."
+    },
+    {
+      "name": "Kroot Hunting Pack",
+      "dp": 2,
+      "effect": "Hunter's Instincts: Kroot attacks against below-strength targets gain +1 Hit (+1 Wound also if Below Half-strength). Skirmish Fighters: Kroot models gain a 6+ invulnerable save vs melee and 5+ vs ranged. KROOT CARNIVORE units gain BATTLELINE."
+    },
+    {
+      "name": "Advanced Acquisition Cadre",
+      "dp": 1,
+      "effect": "Expert Fieldcraft: PATHFINDER TEAM/STEALTH BATTLESUITS units that shoot do not lose the 'hidden' state."
+    },
+    {
+      "name": "Auxiliary Cadre",
+      "dp": 1,
+      "effect": "Integrated Command Structure: Friendly KROOT/VESPID STINGWINGS units gain a Harnessed Aggression-type ability (text partial — verify remainder on Wahapedia)."
+    },
+    {
+      "name": "Experimental Prototype Cadre",
+      "dp": 0,
+      "effect": "Superior Craftsmanship: (Detachment rule text not captured this pass — verify on Wahapedia.)"
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "Exemplar of the Kauyon",
+      "cost": 20,
+      "effect": "[T'AU EMPIRE model only (excl. KROOT SHAPER)] While leading a unit, the Patient Hunter rule applies to that unit from round 2 instead of round 3.",
+      "detachment": "Kauyon"
+    },
+    {
+      "name": "Precision of the Patient Hunter",
+      "cost": 15,
+      "effect": "[T'AU EMPIRE model only] +1 to Hit roll on ranged attacks; from round 3 onward also +1 to Wound roll.",
+      "detachment": "Kauyon"
+    },
+    {
+      "name": "Solid-image Projection Unit",
+      "cost": 20,
+      "effect": "[T'AU EMPIRE model only] After deployment, redeploy up to 3 units, any to Strategic Reserves.",
+      "detachment": "Kauyon"
+    },
+    {
+      "name": "Through Unity, Devastation",
+      "cost": 30,
+      "effect": "[T'AU EMPIRE model only (excl. KROOT SHAPER)] While leading an Observer unit, Guided units targeting the Spotted unit gain [LETHAL HITS].",
+      "detachment": "Kauyon"
+    },
+    {
+      "name": "Coordinated Exploitation",
+      "cost": 30,
+      "effect": "[T'AU EMPIRE model only (excl. KROOT SHAPER)] While leading an Observer unit, Guided units targeting the Spotted unit gain [SUSTAINED HITS 1].",
+      "detachment": "Mont'ka"
+    },
+    {
+      "name": "Exemplar of the Mont'ka",
+      "cost": 10,
+      "effect": "[T'AU EMPIRE model only (excl. KROOT SHAPER)] The Killing Blow rule applies to the led unit during round 4 as well.",
+      "detachment": "Mont'ka"
+    },
+    {
+      "name": "Strategic Conqueror",
+      "cost": 15,
+      "effect": "[T'AU EMPIRE model only] Select an objective at battle start; while the bearer is on the battlefield and near it, +1 Objective Control to friendly models there.",
+      "detachment": "Mont'ka"
+    },
+    {
+      "name": "Strike Swiftly",
+      "cost": 45,
+      "effect": "[T'AU EMPIRE model only] Grant Scouts 6\" to up to two nearby units at battle start.",
+      "detachment": "Mont'ka"
+    },
+    {
+      "name": "Internal Grenade Racks",
+      "cost": 20,
+      "effect": "[T'AU EMPIRE BATTLESUIT model only] Gains GRENADES keyword; can inflict mortal wounds on units moved over.",
+      "detachment": "Retaliation Cadre"
+    },
+    {
+      "name": "Prototype Weapon System",
+      "cost": 15,
+      "effect": "[T'AU EMPIRE BATTLESUIT model only] Select [LETHAL HITS] or [SUSTAINED HITS 1] for the bearer's ranged weapons each time it shoots.",
+      "detachment": "Retaliation Cadre"
+    },
+    {
+      "name": "Puretide Engram Neurochip",
+      "cost": 15,
+      "effect": "[T'AU EMPIRE BATTLESUIT model only] Each time the bearer's unit is targeted by a Stratagem, on a 4+ gain 1CP.",
+      "detachment": "Retaliation Cadre"
+    },
+    {
+      "name": "Starflare Ignition System",
+      "cost": 20,
+      "effect": "[T'AU EMPIRE BATTLESUIT model only] If unengaged at end of opponent's turn, retreat to Strategic Reserves.",
+      "detachment": "Retaliation Cadre"
+    },
+    {
+      "name": "Borthrod Gland",
+      "cost": 15,
+      "effect": "[Kroot Flesh Shaper only] While leading a unit, an unmodified Hit roll of 5+ in melee scores a Critical Hit.",
+      "detachment": "Kroot Hunting Pack"
+    },
+    {
+      "name": "Kroothawk Flock",
+      "cost": 10,
+      "effect": "[KROOT model only] Ranged weapons gain [IGNORES COVER]; enemy Reinforcements cannot set up within 12\" of the bearer.",
+      "detachment": "Kroot Hunting Pack"
+    },
+    {
+      "name": "Nomadic Hunter",
+      "cost": 20,
+      "effect": "[KROOT TRAIL SHAPER model only] While leading a unit, +3\" Move and ranged weapons gain [ASSAULT].",
+      "detachment": "Kroot Hunting Pack"
+    },
+    {
+      "name": "Root-carved Weapons",
+      "cost": 10,
+      "effect": "[Kroot War Shaper model only] All weapons gain [PRECISION] and [DEVASTATING WOUNDS].",
+      "detachment": "Kroot Hunting Pack"
+    },
+    {
+      "name": "Negation Emitters",
+      "cost": 15,
+      "effect": "[STEALTH BATTLESUITS unit only] -3\" detection range.",
+      "detachment": "Advanced Acquisition Cadre"
+    },
+    {
+      "name": "Unmasking Suite",
+      "cost": 15,
+      "effect": "[GHOSTKEEL BATTLESUIT/PATHFINDER TEAM/STEALTH BATTLESUITS unit only] Select an enemy unit within 24\"; it gains +9\" detection range until this unit shoots.",
+      "detachment": "Advanced Acquisition Cadre"
+    }
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation."
+}

@@ -1,0 +1,160 @@
+{
+  "faction": "Chaos Daemons",
+  "armyRules": [
+    {
+      "name": "The Shadow of Chaos",
+      "effect": "If your Army Faction is LEGIONES DAEMONICA, your deployment zone is always within your army’s Shadow of Chaos. At the start of any phase, No Man’s Land is within it until the end of that phase if you control at least half of its objective markers; likewise, your opponent’s deployment zone is within it if you control at least half of its objective markers. While a friendly LEGIONES DAEMONICA unit is within it, add 1 to its Battle-shock rolls; on a successful roll one model heals D3 wounds, or a BATTLELINE unit can instead return up to D3 destroyed non-CHARACTER models. Enemies in the Shadow and/or within 6 inches of named Greater Daemons take Battle-shock tests at -1 and suffer D3 mortal wounds if they fail."
+    },
+    {
+      "name": "Daemonic Pact",
+      "effect": "If every model in your army has the CHAOS KNIGHTS or HERETIC ASTARTES keyword, you can include LEGIONES DAEMONICA units without their faction being your Army Faction, capped at 250/500/750 points for Incursion/Strike Force/Onslaught. Such models cannot be your Warlord or receive Enhancements. For each of KHORNE, TZEENTCH, NURGLE and SLAANESH, non-BATTLELINE units included this way cannot outnumber BATTLELINE units with that keyword."
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Daemonic Incursion",
+      "dp": 3,
+      "effect": "Warp Rifts: When a LEGIONES DAEMONICA unit is set up with Deep Strike wholly in your Shadow of Chaos and/or wholly within 6 inches of a friendly named Greater Daemon with which it shares KHORNE, TZEENTCH, NURGLE or SLAANESH, it can be set up more than 6 inches horizontally from enemy models instead of more than 8 inches."
+    },
+    {
+      "name": "Shadow Legion",
+      "dp": 2,
+      "effect": "Thralls of the First Prince: You cannot include Daemon Prince, Daemon Prince with Wings or EPIC HERO units except BE’LAKOR, but can include listed HERETIC ASTARTES units up to 500/1000/1500 points by battle size. All BE’LAKOR and included HERETIC ASTARTES units gain SHADOW LEGION and UNDIVIDED, and LEGIONES DAEMONICA units gain SHADOW LEGION. First Prince of Chaos grants keyword-specific bonuses: KHORNE can shoot and charge after Advancing; TZEENTCH has Stealth and -1 to be hit in melee; NURGLE subtracts 1 from Wound rolls by stronger attacks; SLAANESH cannot be targeted by snap shooting; UNDIVIDED has Dark Pacts and HERETIC ASTARTES models gain Deep Strike."
+    },
+    {
+      "name": "Blood Legion",
+      "dp": 2,
+      "effect": "Murdercall: In your opponent’s Movement phase, each time an enemy unit excluding AIRCRAFT ends a move within 8 inches of one or more LEGIONES DAEMONICA KHORNE units from your army, one such KHORNE unit can make a surge move of up to D6 inches. Blood Tainted: After a KHORNE unit destroys an enemy unit that was on an objective, that objective remains under your control until your opponent’s Level of Control becomes greater."
+    },
+    {
+      "name": "Legion of Excess",
+      "dp": 2,
+      "effect": "Beguiling Aura: LEGIONES DAEMONICA SLAANESH units are eligible to charge in a turn in which they Fell Back. Seductive Gambit: After ending a Charge move, a SLAANESH unit may lose Fights First until end of turn to instead re-roll Hit rolls and re-roll Wound rolls of 1."
+    },
+    {
+      "name": "Plague Legion",
+      "dp": 2,
+      "effect": "Melancholic Miasma: Rule name and 2DP confirmed; full rule text requires a follow-up fetch because the faction page was truncated after Legion of Excess."
+    },
+    {
+      "name": "Scintillating Legion",
+      "dp": 2,
+      "effect": "Fates in Flux: Rule name and 2DP confirmed; full rule text requires a follow-up fetch."
+    },
+    {
+      "name": "Cavalcade of Chaos",
+      "dp": 2,
+      "effect": "Unholy Avalanche: Rule name and 2DP confirmed; full rule text requires a follow-up fetch."
+    },
+    {
+      "name": "Lords of the Warp",
+      "dp": 2,
+      "effect": "Loci of Power: Rule name and 2DP confirmed; full rule text requires a follow-up fetch."
+    },
+    {
+      "name": "Warptide",
+      "dp": 2,
+      "effect": "Shudderblink: Rule name and 2DP confirmed; full rule text requires a follow-up fetch."
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "A’rgath, the King of Blades",
+      "cost": 20,
+      "effect": "[KHORNE LEGIONES DAEMONICA model only] Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. While the bearer is within your army’s Shadow of Chaos, add 2 instead.",
+      "detachment": "Daemonic Incursion"
+    },
+    {
+      "name": "Soulstealer",
+      "cost": 15,
+      "effect": "[SLAANESH LEGIONES DAEMONICA model only] Each time the bearer destroys an enemy model with a melee attack, roll one D6, adding 1 while the bearer is within your Shadow of Chaos; on a 4+ the bearer regains 1 lost wound.",
+      "detachment": "Daemonic Incursion"
+    },
+    {
+      "name": "The Endless Gift",
+      "cost": 30,
+      "effect": "[NURGLE LEGIONES DAEMONICA model only] The bearer has Feel No Pain 5+.",
+      "detachment": "Daemonic Incursion"
+    },
+    {
+      "name": "The Everstave",
+      "cost": 25,
+      "effect": "[TZEENTCH LEGIONES DAEMONICA model only] Add 1 Strength and 3 inches Range to the bearer’s ranged weapons. While within your Shadow of Chaos, add 2 Strength and 6 inches Range instead.",
+      "detachment": "Daemonic Incursion"
+    },
+    {
+      "name": "Leaping Shadows",
+      "cost": 25,
+      "effect": "[SHADOW LEGION model only] Models in the bearer’s unit have Scouts 9 inches.",
+      "detachment": "Shadow Legion"
+    },
+    {
+      "name": "Mantle of Gloom",
+      "cost": 20,
+      "effect": "[SHADOW LEGION model only] Aura: enemy models within Engagement Range of the bearer’s unit lose 1 Objective Control.",
+      "detachment": "Shadow Legion"
+    },
+    {
+      "name": "Fade to Darkness",
+      "cost": 30,
+      "effect": "[SHADOW LEGION model only] At the end of the Fight phase, if the bearer’s unit destroyed one or more enemy units that phase and is not within Engagement Range, you can place it into Strategic Reserves.",
+      "detachment": "Shadow Legion"
+    },
+    {
+      "name": "Malice Made Manifest",
+      "cost": 25,
+      "effect": "[SHADOW LEGION model only] At the start of the Fight phase, select an enemy unit within Engagement Range of the bearer’s unit; roll a D6: 2-5 inflicts D3 mortal wounds, 6 inflicts 3 mortal wounds.",
+      "detachment": "Shadow Legion"
+    },
+    {
+      "name": "Slaughterthirst",
+      "cost": 25,
+      "effect": "[LEGIONES DAEMONICA KHORNE model only] Aura: while a friendly non-MONSTER LEGIONES DAEMONICA KHORNE unit is within 6 inches, its weapons have [LANCE].",
+      "detachment": "Blood Legion"
+    },
+    {
+      "name": "Fury’s Cage",
+      "cost": 20,
+      "effect": "[LEGIONES DAEMONICA KHORNE MONSTER model only] When selected to fight, the bearer may suffer D3+1 mortal wounds; if it does, it can re-roll Hit and Wound rolls until the end of the phase.",
+      "detachment": "Blood Legion"
+    },
+    {
+      "name": "Brazenmaw",
+      "cost": 15,
+      "effect": "[LEGIONES DAEMONICA KHORNE model only] Add 2 to Charge rolls made for the bearer’s unit.",
+      "detachment": "Blood Legion"
+    },
+    {
+      "name": "Gateway Unto Damnation",
+      "cost": 10,
+      "effect": "[LEGIONES DAEMONICA KHORNE MONSTER model only] The bearer’s Deadly Demise triggers on 2+ instead of 6. If it has destroyed one or more enemy units this battle, it has Deadly Demise D3+3 instead of any other Deadly Demise ability.",
+      "detachment": "Blood Legion"
+    },
+    {
+      "name": "False Majesty",
+      "cost": 30,
+      "effect": "[LEGIONES DAEMONICA SLAANESH model only] Aura: friendly non-MONSTER LEGIONES DAEMONICA SLAANESH units within 6 inches add 1 to melee Wound rolls.",
+      "detachment": "Legion of Excess"
+    },
+    {
+      "name": "Dreaming Crown",
+      "cost": 30,
+      "effect": "[LEGIONES DAEMONICA SLAANESH model only] Aura: friendly non-MONSTER LEGIONES DAEMONICA SLAANESH units within 6 inches add 1 to melee Hit rolls.",
+      "detachment": "Legion of Excess"
+    },
+    {
+      "name": "Avatar of Perfection",
+      "cost": 15,
+      "effect": "[LEGIONES DAEMONICA SLAANESH MONSTER model only] At the start of each phase, if there are no other friendly units within 6 inches, the bearer can re-roll Advance and Charge rolls and ignore modifiers to Move, Advance and Charge rolls.",
+      "detachment": "Legion of Excess"
+    },
+    {
+      "name": "Soul Glutton",
+      "cost": 10,
+      "effect": "[LEGIONES DAEMONICA SLAANESH MONSTER model only] At the end of the Fight phase, if the bearer destroyed one or more enemy models with its attacks that phase, it regains up to D3 lost wounds.",
+      "detachment": "Legion of Excess"
+    }
+  ],
+  "sourceNotes": "Direct Wahapedia 11th-edition fetch, Faction Pack: Chaos Daemons v1.1 (July 2026). The fetched page was truncated after the Legion of Excess content. The final five Detachments are named and their rule names are confirmed, but their exact rules and Enhancement records still need a lower-page extraction. Plague Legion, Scintillating Legion, Cavalcade of Chaos, Lords of the Warp, and Warptide have confirmed names/DP only — effect text is a placeholder pending a follow-up fetch."
+}

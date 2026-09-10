@@ -1,60 +1,151 @@
 {
   "faction": "Adepta Sororitas",
+  "armyRules": [
+    {
+      "name": "Acts of Faith",
+      "effect": "Each unit with this ability can perform one Act of Faith per phase using Miracle dice. Gain 1 Miracle dice at the start of each turn and each time an Adepta Sororitas unit is destroyed (roll 1D6 for its value, fixed unless stated otherwise). Before any Advance roll, Battle-shock test, Charge roll, Damage roll, Hit roll, saving throw, or Wound roll, you can substitute one Miracle dice's value for that roll instead of rolling (only a single dice within a multi-dice roll can be substituted)."
+    }
+  ],
   "battleFormations": [
     {
-      "name": "Zealotry of Vigilance",
+      "name": "Hallowed Martyrs",
       "dp": 3,
-      "effect": "DP cost not confirmed in source data — check codex/Wahapedia."
+      "effect": "The Blood of Martyrs: Adepta Sororitas attacks gain +1 to Hit if the unit is below Starting Strength, and +1 to Wound as well if Below Half-strength."
     },
     {
-      "name": "Sacrosanct Shield",
+      "name": "Penitent Host",
       "dp": 2,
-      "effect": "DP cost not confirmed in source data — check codex/Wahapedia."
+      "effect": "Desperate for Redemption: At the start of the battle round, select one Vow of Atonement (once each per battle): The Path of the Penitent (+3\" Move for Penitent models), Absolution in Battle (+1 Attacks/Strength on melee for Penitent models that charged), or Death Before Disgrace (destroyed Penitent models fight-on-death on a 2+)."
     },
     {
-      "name": "Crusading Armada",
+      "name": "Bringers of Flame",
       "dp": 2,
-      "effect": "DP cost not confirmed in source data — check codex/Wahapedia."
+      "effect": "Fervent Purgation: Adepta Sororitas ranged weapons gain [ASSAULT]; attacks against targets within 6\" get +1 Strength."
     },
     {
-      "name": "Orders of Protected Artifice",
-      "dp": 1,
-      "effect": "DP cost not confirmed in source data — check codex/Wahapedia."
+      "name": "Army of Faith",
+      "dp": 2,
+      "effect": "Sacred Rites: Each Adepta Sororitas unit can perform up to two Acts of Faith per phase instead of one."
     },
     {
-      "name": "Conviction Malers",
-      "dp": 1,
-      "effect": "DP cost not confirmed in source data — check codex/Wahapedia."
+      "name": "Champions of Faith",
+      "dp": 2,
+      "effect": "Righteous Purpose: (Detachment rule text not captured this pass — verify on Wahapedia.)"
     },
     {
-      "name": "Silence Universalis",
-      "dp": 1,
-      "effect": "DP cost not confirmed in source data — check codex/Wahapedia."
+      "name": "Chorus of Condemnation",
+      "dp": 2,
+      "effect": "Angelic Judgement: (Detachment rule text not captured this pass — verify on Wahapedia.)"
     },
     {
-      "name": "Canoness Vanguard",
-      "dp": 1,
-      "effect": "DP cost not confirmed in source data — check codex/Wahapedia."
+      "name": "Sacred Champions",
+      "dp": 2,
+      "effect": "Holy Quest: (Detachment rule text not captured this pass — verify on Wahapedia.)"
     },
     {
-      "name": "Sisters of Silence Vow",
-      "dp": 1,
-      "effect": "DP cost not confirmed in source data — check codex/Wahapedia."
+      "name": "Sanctified Orators",
+      "dp": 2,
+      "effect": "Hymns of Battle: (Detachment rule text not captured this pass — verify on Wahapedia.)"
     }
   ],
   "heroicTraits": [],
   "artefacts": [
     {
-      "name": "Shield of the Emperor",
-      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+      "name": "Saintly Example",
+      "cost": 10,
+      "effect": "[ADEPTA SORORITAS model only] When the bearer is destroyed, gain an additional D3 Miracle dice.",
+      "detachment": "Hallowed Martyrs"
     },
     {
-      "name": "Sword of Sanctity",
-      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+      "name": "Through Suffering, Strength",
+      "cost": 25,
+      "effect": "[ADEPTA SORORITAS model only] +1 Attacks/Strength/Damage in melee (+2 instead if the bearer has lost any wounds).",
+      "detachment": "Hallowed Martyrs"
     },
     {
-      "name": "Blessing of the Immaculate",
-      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+      "name": "Chaplet of Sacrifice",
+      "cost": 25,
+      "effect": "[ADEPTA SORORITAS model only] At the end of your Command phase, re-roll one Miracle dice (up to 3 if the bearer's unit is below Starting Strength).",
+      "detachment": "Hallowed Martyrs"
+    },
+    {
+      "name": "Mantle of Ophelia",
+      "cost": 20,
+      "effect": "[CANONESS or PALATINE model only] Attacks allocated to the bearer have Damage changed to 1.",
+      "detachment": "Hallowed Martyrs"
+    },
+    {
+      "name": "Psalm of Righteous Judgement",
+      "cost": 20,
+      "effect": "[ADEPTA SORORITAS model only] When a Penitent unit destroys an enemy, discard a Miracle dice to gain one showing a 6.",
+      "detachment": "Penitent Host"
+    },
+    {
+      "name": "Verse of Holy Piety",
+      "cost": 15,
+      "effect": "[PENITENT model only] Once per battle, select an additional Vow of Atonement active for the bearer's unit, even if already selected this battle.",
+      "detachment": "Penitent Host"
+    },
+    {
+      "name": "Refrain of Enduring Faith",
+      "cost": 15,
+      "effect": "[PENITENT model only] While leading a unit, models in it gain a 5+ invulnerable save.",
+      "detachment": "Penitent Host"
+    },
+    {
+      "name": "Catechism of Divine Penitence",
+      "cost": 15,
+      "effect": "[CANONESS/PALATINE/MINISTORUM PRIEST model only] The bearer gains the PENITENT keyword.",
+      "detachment": "Penitent Host"
+    },
+    {
+      "name": "Righteous Rage",
+      "cost": 15,
+      "effect": "[ADEPTA SORORITAS model only] Discard up to 3 Miracle dice when fighting for +1 Attacks/Strength per dice discarded.",
+      "detachment": "Bringers of Flame"
+    },
+    {
+      "name": "Manual of Saint Griselda",
+      "cost": 20,
+      "effect": "[ADEPTA SORORITAS model only] At the start of your Command phase, discard up to 2 Miracle dice and gain 1 showing their combined value (max 6).",
+      "detachment": "Bringers of Flame"
+    },
+    {
+      "name": "Fire and Fury",
+      "cost": 30,
+      "effect": "[ADEPTA SORORITAS model only] While leading a unit, Torrent weapons get +1 Attacks; other ranged weapons gain [SUSTAINED HITS 1].",
+      "detachment": "Bringers of Flame"
+    },
+    {
+      "name": "Iron Surplice of Saint Istalela",
+      "cost": 10,
+      "effect": "[CANONESS or PALATINE model only] Save characteristic of 2+ and Feel No Pain 5+.",
+      "detachment": "Bringers of Flame"
+    },
+    {
+      "name": "Litanies of Faith",
+      "cost": 10,
+      "effect": "[CANONESS or PALATINE model only] At the start of your Command phase, pass a Leadership test to gain 1 Miracle dice.",
+      "detachment": "Army of Faith"
+    },
+    {
+      "name": "Blade of Saint Ellynor",
+      "cost": 15,
+      "effect": "[ADEPTA SORORITAS model only] +1 Strength/AP on melee weapons, gains [PRECISION]; gain 1 Miracle dice on a kill.",
+      "detachment": "Army of Faith"
+    },
+    {
+      "name": "Divine Aspect",
+      "cost": 5,
+      "effect": "[ADEPTA SORORITAS model only] In your Movement phase, force a nearby enemy Battle-shock test; on failure gain 1 Miracle dice.",
+      "detachment": "Army of Faith"
+    },
+    {
+      "name": "Triptych of the Macharian Crusade",
+      "cost": 20,
+      "effect": "[ADEPTA SORORITAS model only] Miracle-dice-substituted saving throws always succeed regardless of the dice's value.",
+      "detachment": "Army of Faith"
     }
-  ]
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation."
 }

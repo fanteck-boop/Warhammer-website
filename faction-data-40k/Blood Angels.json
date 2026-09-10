@@ -39,7 +39,8 @@
         "bs": "2+",
         "s": "7",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds, Precision"
       }
     ],
     "system": "40k"
@@ -87,7 +88,8 @@
         "bs": "2+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Storm bolter",
@@ -96,7 +98,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Baal Flamestorm Cannon",
@@ -105,7 +108,8 @@
         "bs": "N/A",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Assault, Ignores Cover, Torrent"
       },
       {
         "name": "Twin Assault Cannon",
@@ -114,7 +118,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Twin-Linked"
       }
     ],
     "system": "40k"
@@ -157,7 +162,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Heaven's Teeth",
@@ -166,7 +172,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -210,7 +217,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Blood Song",
@@ -219,7 +227,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Infantry 4+, Devastating Wounds, Melta 2"
       },
       {
         "name": "Dead Man's Hand",
@@ -272,7 +281,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -314,7 +324,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "-1",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Pistol, Psychic, Sustained Hits 1"
       },
       {
         "name": "➤ Fury of the Ancients - Focused Witchfire",
@@ -323,7 +334,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-2",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Hazardous, Pistol, Psychic, Sustained Hits 3"
       },
       {
         "name": "Vitarus",
@@ -332,7 +344,8 @@
         "bs": "2+",
         "s": "9",
         "ap": "-3",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Lethal Hits, Psychic"
       },
       {
         "name": "➤ Plasma pistol - standard",
@@ -341,7 +354,8 @@
         "bs": "2+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -387,7 +401,8 @@
         "bs": "2+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2, Pistol, Sustained Hits D3"
       },
       {
         "name": "The Axe Mortalis",
@@ -396,7 +411,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       }
     ],
     "system": "40k"
@@ -437,7 +453,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Twin Furioso Fists",
@@ -446,7 +463,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Heavy Flamer",
@@ -455,7 +473,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Storm Bolter",
@@ -464,7 +483,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Meltagun",
@@ -473,7 +493,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       }
     ],
     "system": "40k"
@@ -510,7 +531,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Thunder Hammer",
@@ -519,7 +541,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Power weapon",
@@ -528,7 +551,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Bolt pistol",
@@ -537,7 +561,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Heavy Bolt Pistol",
@@ -546,7 +571,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Close combat weapon",
@@ -555,7 +581,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Hand flamer",
@@ -564,7 +591,8 @@
         "bs": "N/A",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "➤ Plasma pistol - standard",
@@ -573,7 +601,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Astartes Chainsword",
@@ -582,7 +611,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Astartes Grenade Launcher - Frag",
@@ -591,7 +621,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       }
     ],
     "system": "40k"
@@ -664,7 +695,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Heavy Bolt Pistol",
@@ -673,7 +705,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "➤ Plasma pistol - standard",
@@ -682,7 +715,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Hand flamer",
@@ -691,7 +725,8 @@
         "bs": "N/A",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "Inferno Pistol",
@@ -700,7 +735,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-4",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Melta 2, Pistol"
       },
       {
         "name": "Power weapon",
@@ -709,7 +745,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Power fist",
@@ -718,7 +755,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Eviscerator",
@@ -727,7 +765,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       }
     ],
     "system": "40k"
@@ -767,7 +806,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Twin Furioso Fists",
@@ -776,7 +816,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "Twin-linked"
       }
     ],
     "system": "40k"
@@ -819,7 +860,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Blood Reaver",
@@ -828,7 +870,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -873,7 +916,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Absolvor Bolt Pistol",
@@ -882,7 +926,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -924,7 +969,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+3"
+        "d": "D6+3",
+        "keywords": "Hazardous, Psychic, Sustained Hits D3"
       },
       {
         "name": "➤ Blood Lance - Witchfire",
@@ -933,7 +979,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Psychic, Sustained Hits D3"
       },
       {
         "name": "Furioso Fist",
@@ -951,7 +998,8 @@
         "bs": "2+",
         "s": "9",
         "ap": "-3",
-        "d": "D6+3"
+        "d": "D6+3",
+        "keywords": "Extra Attacks, Psychic"
       },
       {
         "name": "Storm bolter",
@@ -960,7 +1008,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy Flamer",
@@ -969,7 +1018,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Meltagun",
@@ -978,7 +1028,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       }
     ],
     "system": "40k"
@@ -1021,7 +1072,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-4",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Melta 2, Pistol"
       }
     ],
     "system": "40k"
@@ -1063,7 +1115,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Pistol"
       },
       {
         "name": "Astartes Chainsword",
@@ -1072,7 +1125,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -1114,7 +1168,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       }
     ],
     "system": "40k"
@@ -1157,7 +1212,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Bolt pistol",
@@ -1166,7 +1222,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -1207,7 +1264,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Bolt pistol",
@@ -1216,7 +1274,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Hand flamer",
@@ -1225,7 +1284,8 @@
         "bs": "N/A",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "Inferno Pistol",
@@ -1234,7 +1294,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-4",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Melta 2, Pistol"
       },
       {
         "name": "Grav-pistol",
@@ -1243,7 +1304,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Vehicle 2+, Pistol"
       },
       {
         "name": "➤ Plasma pistol - standard",
@@ -1252,7 +1314,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Combi-weapon",
@@ -1261,7 +1324,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
       },
       {
         "name": "Storm bolter",
@@ -1270,7 +1334,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Astartes Chainsword",
@@ -1279,7 +1344,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Power weapon",
@@ -1288,7 +1354,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -1328,7 +1395,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Relic Weapon",
@@ -1337,7 +1405,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Master-crafted Chainsword",
@@ -1346,7 +1415,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Inferno pistol",
@@ -1355,7 +1425,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-4",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Melta 2, Pistol"
       },
       {
         "name": "Heavy Bolt Pistol",
@@ -1364,7 +1435,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -1407,7 +1479,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Relic Weapon",
@@ -1416,7 +1489,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Master-crafted Chainsword",
@@ -1425,7 +1499,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Inferno pistol",
@@ -1434,7 +1509,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-4",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Melta 2, Pistol"
       },
       {
         "name": "Heavy Bolt Pistol",
@@ -1443,7 +1519,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -1488,7 +1565,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Relic Weapon",
@@ -1497,7 +1575,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Astartes Chainsword",
@@ -1506,7 +1585,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Hand flamer",
@@ -1515,7 +1595,8 @@
         "bs": "N/A",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "➤ Plasma pistol - standard",
@@ -1524,7 +1605,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Heavy Bolt Pistol",
@@ -1533,7 +1615,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -1574,7 +1657,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Heavy"
       },
       {
         "name": "Bolt pistol",
@@ -1583,7 +1667,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Close combat weapon",
@@ -1592,7 +1677,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Eviscerator",
@@ -1601,7 +1687,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Thunder Hammer",
@@ -1610,7 +1697,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Power weapon",
@@ -1619,7 +1707,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Astartes Chainsword",
@@ -1628,7 +1717,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Hand flamer",
@@ -1637,7 +1727,8 @@
         "bs": "N/A",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "Inferno Pistol",
@@ -1646,7 +1737,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-4",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Melta 2, Pistol"
       },
       {
         "name": "➤ Plasma pistol - standard",
@@ -1655,7 +1747,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -1696,7 +1789,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Heavy Bolt Pistol",
@@ -1705,7 +1799,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Astartes Chainsword",
@@ -1714,7 +1809,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Hand flamer",
@@ -1723,7 +1819,8 @@
         "bs": "N/A",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "Inferno Pistol",
@@ -1732,7 +1829,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-4",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Melta 2, Pistol"
       },
       {
         "name": "➤ Plasma pistol - standard",
@@ -1741,7 +1839,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Thunder Hammer",
@@ -1750,7 +1849,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Power weapon",
@@ -1759,7 +1859,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Power fist",
@@ -1768,7 +1869,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       }
     ],
     "system": "40k"
@@ -1808,7 +1910,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-FLY 4+, Rapid Fire 3, Twin-linked"
       },
       {
         "name": "➤ Blood Talons - Strike",
@@ -1817,7 +1920,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Twin-linked"
       },
       {
         "name": "➤ Blood Talons - Sweep",
@@ -1826,7 +1930,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Twin heavy bolter",
@@ -1835,7 +1940,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1, Twin-linked"
       },
       {
         "name": "Twin multi-melta",
@@ -1844,7 +1950,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2, Twin-Linked"
       }
     ],
     "system": "40k"

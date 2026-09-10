@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#b59a4a" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#2a2410" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#2a2410" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="94" fill="url(#g)"/>
+  <circle cx="100" cy="100" r="86" fill="none" stroke="#b59a4a" stroke-width="3" stroke-dasharray="1 6" stroke-linecap="round" opacity="0.9"/>
+  
+  <path d="M100 38 L112 45 L112 59 L100 66 L88 59 L88 45 Z" fill="none" stroke="#b59a4a" stroke-width="4"/>
+  <text x="100" y="132" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="44" fill="#b59a4a" letter-spacing="1">GC</text>
+</svg>

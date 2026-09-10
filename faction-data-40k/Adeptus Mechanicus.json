@@ -36,7 +36,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Cognis heavy stubber array",
@@ -45,7 +46,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 9, Sustained Hits 1, Twin-linked"
       }
     ],
     "system": "40k"
@@ -87,7 +89,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Cognis heavy stubber",
@@ -96,7 +99,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3, Sustained Hits 1"
       },
       {
         "name": "Heavy phosphor blaster",
@@ -105,7 +109,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Ignores Cover"
       },
       {
         "name": "Twin cognis lascannon",
@@ -114,7 +119,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Sustained hits 1, Twin-linked"
       }
     ],
     "system": "40k"
@@ -156,7 +162,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Cognis heavy stubber array",
@@ -165,7 +172,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 9, Sustained Hits 1, Twin-linked"
       }
     ],
     "system": "40k"
@@ -210,7 +218,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Vehicle 4+, Devastating Wounds, Extra Attacks"
       },
       {
         "name": "Cawl's Omnissian axe",
@@ -228,7 +237,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Solar atomiser",
@@ -237,7 +247,8 @@
         "bs": "2+",
         "s": "14",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 3"
       }
     ],
     "system": "40k"
@@ -276,7 +287,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol, Sustained Hits 2"
       },
       {
         "name": "Electrostatic gauntlets (Melee)",
@@ -285,7 +297,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol, Sustained Hits 2"
       }
     ],
     "system": "40k"
@@ -324,7 +337,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       }
     ],
     "system": "40k"
@@ -406,7 +420,8 @@
         "s": "6",
         "ap": "-1",
         "d": "2",
-        "range": "36\""
+        "range": "36\"",
+        "keywords": "Ignores Cover"
       },
       {
         "name": "Incendine combustor",
@@ -416,7 +431,8 @@
         "s": "6",
         "ap": "-1",
         "d": "1",
-        "range": "12\""
+        "range": "12\"",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Kastelan phosphor blaster",
@@ -426,7 +442,8 @@
         "s": "6",
         "ap": "-1",
         "d": "1",
-        "range": "24\""
+        "range": "24\"",
+        "keywords": "Ignores Cover"
       },
       {
         "name": "Twin Kastelan phosphor blaster",
@@ -436,7 +453,8 @@
         "s": "6",
         "ap": "-1",
         "d": "1",
-        "range": "24\""
+        "range": "24\"",
+        "keywords": "Ignores Cover, Twin-linked"
       },
       {
         "name": "Close combat weapon",
@@ -445,7 +463,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Kastelan fist",
@@ -454,7 +473,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "-"
       },
       {
         "name": "Twin Kastelan fist",
@@ -463,7 +483,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Twin-linked"
       }
     ],
     "system": "40k"
@@ -502,7 +523,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Vehicle 4+"
       },
       {
         "name": "Heavy arc rifle",
@@ -511,7 +533,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-Vehicle 4+, Rapid Fire 2"
       },
       {
         "name": "Hydraulic claw",
@@ -529,7 +552,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Infantry 2+, Blast"
       }
     ],
     "system": "40k"
@@ -568,7 +592,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Vehicle 2+"
       },
       {
         "name": "Cognis flamer",
@@ -577,7 +602,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Close combat weapon",
@@ -586,7 +612,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Phosphor blaster",
@@ -595,7 +622,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Rapid Fire 1"
       },
       {
         "name": "➤ Kataphron plasma culverin - supercharge",
@@ -604,7 +632,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous"
       }
     ],
     "system": "40k"
@@ -647,7 +676,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3, Sustained Hits 1"
       },
       {
         "name": "Dunecrawler legs",
@@ -665,7 +695,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Sustained Hits 1"
       },
       {
         "name": "➤ Eradication beamer - focused",
@@ -674,7 +705,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Sustained Hits 1"
       },
       {
         "name": "Twin Onager heavy phosphor blaster",
@@ -683,7 +715,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Ignores Cover, Twin-linked"
       }
     ],
     "system": "40k"
@@ -726,7 +759,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Taser goad",
@@ -735,7 +769,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 2"
       },
       {
         "name": "Close combat weapon",
@@ -744,7 +779,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Flechette carbine",
@@ -795,7 +831,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Taser goad",
@@ -804,7 +841,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 2"
       },
       {
         "name": "Pteraxii talons",
@@ -822,7 +860,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       }
     ],
     "system": "40k"
@@ -863,7 +902,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Cavalry sabre & clawed limbs",
@@ -881,7 +921,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Pistol"
       }
     ],
     "system": "40k"
@@ -920,7 +961,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Vehicle 4+, Devastating Wounds, Extra Attacks"
       },
       {
         "name": "Clawed limbs",
@@ -938,7 +980,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Pistol"
       },
       {
         "name": "Sulphur breath",
@@ -947,7 +990,8 @@
         "bs": "N/A",
         "s": "3",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "Phosphor pistol",
@@ -956,7 +1000,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol"
       },
       {
         "name": "Phosphor blast carbine",
@@ -965,7 +1010,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Ignores cover"
       }
     ],
     "system": "40k"
@@ -1005,7 +1051,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Stubcarbine",
@@ -1014,7 +1061,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Flechette blaster",
@@ -1023,7 +1071,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Taser goad",
@@ -1032,7 +1081,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 2"
       }
     ],
     "system": "40k"
@@ -1071,7 +1121,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Infantry 3+, Precision"
       },
       {
         "name": "Transonic blades",
@@ -1080,7 +1131,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Precision"
       },
       {
         "name": "Transonic blades & chordclaw",
@@ -1089,7 +1141,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Devastating Wounds, Precision"
       }
     ],
     "system": "40k"
@@ -1139,7 +1192,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Pistol"
       }
     ],
     "system": "40k"
@@ -1190,7 +1244,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Pistol"
       },
       {
         "name": "Alpha combat weapon",
@@ -1208,7 +1263,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Transuranic arquebus",
@@ -1217,7 +1273,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-2",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Heavy, Precision"
       },
       {
         "name": "Arc rifle",
@@ -1226,7 +1283,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-1",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Anti-Vehicle 4+, Devastating Wounds, Rapid Fire 1"
       },
       {
         "name": "➤ Plasma caliver -  supercharge",
@@ -1235,7 +1293,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous"
       },
       {
         "name": "➤ Plasma caliver - standard",
@@ -1285,7 +1344,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 4+"
       },
       {
         "name": "Mechanicus pistol",
@@ -1294,7 +1354,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Pistol"
       },
       {
         "name": "Alpha combat weapon",
@@ -1312,7 +1373,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Transuranic arquebus",
@@ -1321,7 +1383,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-2",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Heavy, Precision"
       },
       {
         "name": "Arc rifle",
@@ -1330,7 +1393,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-1",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Anti-Vehicle 4+, Devastating Wounds, Rapid Fire 1"
       },
       {
         "name": "➤ Plasma caliver -  supercharge",
@@ -1339,7 +1403,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous"
       },
       {
         "name": "➤ Plasma caliver - standard",
@@ -1390,7 +1455,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Cognis heavy stubber",
@@ -1399,7 +1465,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3, Sustained Hits 1"
       },
       {
         "name": "Disruptor missile launcher",
@@ -1408,7 +1475,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Belleros energy cannon",
@@ -1417,7 +1485,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Indirect Fire"
       },
       {
         "name": "Ferrumite cannon",
@@ -1469,7 +1538,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Cognis heavy stubber array",
@@ -1478,7 +1548,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 9, Sustained Hits 1, Twin-linked"
       }
     ],
     "system": "40k"
@@ -1521,7 +1592,8 @@
         "s": "5",
         "ap": "-1",
         "d": "2",
-        "range": "18\""
+        "range": "18\"",
+        "keywords": "Ignores Cover, Pistol"
       },
       {
         "name": "Taser lance",
@@ -1582,7 +1654,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Phosphor serpenta",
@@ -1591,7 +1664,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Ignores Cover, Pistol"
       },
       {
         "name": "➤ Eradication ray - dissipated",
@@ -1618,7 +1692,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       }
     ],
     "system": "40k"
@@ -1661,7 +1736,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Omnissian axe",
@@ -1679,7 +1755,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Pistol"
       }
     ],
     "system": "40k"
@@ -1721,7 +1798,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy"
       },
       {
         "name": "Transonic cannon",
@@ -1730,7 +1808,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds, Torrent"
       },
       {
         "name": "Omnissian staff",
@@ -1781,7 +1860,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Vehicle 4+, Devastating Wounds"
       },
       {
         "name": "Mechanicus pistol",
@@ -1790,7 +1870,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Pistol"
       }
     ],
     "system": "40k"
@@ -1832,7 +1913,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Pistol"
       },
       {
         "name": "Power fist",
@@ -1841,7 +1923,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       }
     ],
     "system": "40k"
@@ -1891,7 +1974,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Vehicle 4+, Devastating Wounds, Lance"
       },
       {
         "name": "Arc lance (Ranged)",
@@ -1900,7 +1984,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Vehicle 4+, Devastating Wounds, Lance"
       },
       {
         "name": "Archeotech pistol",
@@ -1909,7 +1994,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Pistol"
       }
     ],
     "system": "40k"
@@ -1959,7 +2045,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "➤ Galvanic caster - flechette",
@@ -1968,7 +2055,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault"
       },
       {
         "name": "➤ Galvanic caster - hammershot",
@@ -1977,7 +2065,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy"
       },
       {
         "name": "Archeotech pistol",
@@ -1986,7 +2075,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Pistol"
       }
     ],
     "system": "40k"
@@ -2027,7 +2117,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-2",
-        "d": "D3+3"
+        "d": "D3+3",
+        "keywords": "Anti-Vehicle 3+"
       },
       {
         "name": "Terrax melta cutter",
@@ -2036,7 +2127,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       }
     ],
     "system": "40k"
@@ -2078,7 +2170,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Pistol"
       },
       {
         "name": "Sydonian Feet",
@@ -2096,7 +2189,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy, Precision, Anti-Infantry 3+"
       },
       {
         "name": "Skatros transuranic arquebus",
@@ -2105,7 +2199,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Heavy, Precision, Anti-Monster 4+, Anti-Vehicle 4+"
       }
     ],
     "system": "40k"
@@ -2148,7 +2243,8 @@
         "s": "5",
         "ap": "-2",
         "d": "3",
-        "range": "36\""
+        "range": "36\"",
+        "keywords": "Heavy, Precision, Anti-Infantry 3+"
       },
       {
         "name": "Ironstrider feet",
@@ -2244,7 +2340,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Pistol"
       },
       {
         "name": "Dataspikes",
@@ -2262,7 +2359,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-Vehicle 4+, Rapid Fire 2"
       },
       {
         "name": "Servo-claw",
@@ -2280,7 +2378,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Incendine igniter",
@@ -2289,7 +2388,8 @@
         "bs": "N/A",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Meltagun",
@@ -2298,7 +2398,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Phosphor blaster",
@@ -2307,7 +2408,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Rapid Fire 1"
       }
     ],
     "system": "40k"
@@ -2468,7 +2570,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Sustained Hits 1"
       },
       {
         "name": "➤ Jericho-class conversion resonator - titanic impact",
@@ -2477,7 +2580,8 @@
         "bs": "2+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+2"
+        "d": "D6+2",
+        "keywords": "Devastating Wounds"
       }
     ],
     "system": "40k"
@@ -2517,7 +2621,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Hastarii arc blaster",
@@ -2526,7 +2631,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Vehicle 4+, Devastating Wounds"
       },
       {
         "name": "➤ Eradication caster - dissipated",
@@ -2535,7 +2641,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Infantry 4+"
       },
       {
         "name": "Close combat weapon",
@@ -2544,7 +2651,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -2584,7 +2692,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover"
       },
       {
         "name": "Neutron fusil",
@@ -2602,7 +2711,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Close combat weapon",
@@ -2611,7 +2721,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"

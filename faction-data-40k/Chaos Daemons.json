@@ -52,7 +52,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Daemonbreath meltagun",
@@ -61,7 +62,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       }
     ],
     "system": "40k"
@@ -100,7 +102,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Havoc multi-launcher",
@@ -109,7 +112,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Indirect Fire"
       },
       {
         "name": "Avenger chaincannon",
@@ -127,7 +131,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 4"
       },
       {
         "name": "Slaughterclaw",
@@ -136,7 +141,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+2"
+        "d": "D6+2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Reaper chaintalon - sweep",
@@ -184,7 +190,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Slaughterclaw",
@@ -193,7 +200,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+2"
+        "d": "D6+2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Diabolus heavy stubber",
@@ -202,7 +210,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Havoc multi-launcher",
@@ -211,7 +220,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Indirect Fire"
       }
     ],
     "system": "40k"
@@ -268,7 +278,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 4"
       },
       {
         "name": "Diabolus heavy stubber",
@@ -277,7 +288,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Havoc multi-launcher",
@@ -286,7 +298,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Indirect Fire"
       }
     ],
     "system": "40k"
@@ -326,7 +339,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 4"
       },
       {
         "name": "➤ Reaper chaintalon - sweep",
@@ -344,7 +358,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Daemonbreath meltagun",
@@ -353,7 +368,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       }
     ],
     "system": "40k"
@@ -406,7 +422,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Indirect Fire"
       },
       {
         "name": "Ruinspear rocket pod",
@@ -424,7 +441,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-FLY 2, Twin-linked"
       },
       {
         "name": "Despoiler gatling cannon",
@@ -442,7 +460,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Torrent, Ignores Cover"
       },
       {
         "name": "Despoiler battle cannon",
@@ -451,7 +470,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Rapid Fire D6+3"
       },
       {
         "name": "Diabolus heavy stubber",
@@ -460,7 +480,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "➤ Reaper chainsword - sweep",
@@ -469,7 +490,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Daemonbreath thermal cannon",
@@ -478,7 +500,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Blast, Melta 6"
       }
     ],
     "system": "40k"
@@ -522,7 +545,8 @@
         "bs": "2+",
         "s": "18",
         "ap": "-4",
-        "d": "D6+3"
+        "d": "D6+3",
+        "keywords": "Devastating Wounds: Monster/Vehicle"
       },
       {
         "name": "Diabolus heavy stubber",
@@ -531,7 +555,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "➤ Reaper chainsword - sweep",
@@ -540,7 +565,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Warpstrike claw - sweep",
@@ -549,7 +575,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -593,7 +620,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "➤ Reaper chainsword - strike",
@@ -602,7 +630,8 @@
         "bs": "2+",
         "s": "14",
         "ap": "-4",
-        "d": "6"
+        "d": "6",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Reaper chainsword - sweep",
@@ -611,7 +640,8 @@
         "bs": "2+",
         "s": "9",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Warpstrike claw - strike",
@@ -620,7 +650,8 @@
         "bs": "2+",
         "s": "20",
         "ap": "-3",
-        "d": "8"
+        "d": "8",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Warpstrike claw - sweep",
@@ -629,7 +660,8 @@
         "bs": "2+",
         "s": "10",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -674,7 +706,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Electroscourge",
@@ -683,7 +716,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Volkite combustor",
@@ -692,7 +726,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "0",
-        "d": "3"
+        "d": "3",
+        "keywords": "Devastating Wounds, Ignores Cover"
       },
       {
         "name": "Diabolus heavy stubber",
@@ -701,7 +736,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       }
     ],
     "system": "40k"
@@ -753,7 +789,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2, Twin-linked"
       },
       {
         "name": "Gheiststrike missile launcher",
@@ -762,7 +799,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-6",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Anti-TITANIC 4+, Devastating Wounds"
       },
       {
         "name": "Twin desecrator cannon",
@@ -771,7 +809,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Twin-linked"
       }
     ],
     "system": "40k"
@@ -813,7 +852,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Karacnos mortar battery",
@@ -822,7 +862,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-INFANTRY 2+, Blast, Ignores Cover, Indirect Fire"
       },
       {
         "name": "Twin conversion beam cannon",
@@ -831,7 +872,8 @@
         "bs": "3+",
         "s": "16",
         "ap": "-2",
-        "d": "6"
+        "d": "6",
+        "keywords": "Conversion, Twin-linked, Sustained Hits D3"
       },
       {
         "name": "Titanic feet",
@@ -891,7 +933,8 @@
         "bs": "3+",
         "s": "18",
         "ap": "-4",
-        "d": "D6+6"
+        "d": "D6+6",
+        "keywords": "Blast, Twin-linked"
       },
       {
         "name": "Acastus ironstorm missile pod",
@@ -900,7 +943,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Heavy, Indirect Fire"
       },
       {
         "name": "Helios defence missiles",
@@ -909,7 +953,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Anti-FLY 2+, Heavy"
       },
       {
         "name": "Acastus autocannon",
@@ -927,7 +972,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       }
     ],
     "system": "40k"
@@ -971,7 +1017,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "2"
+        "d": "2",
+        "keywords": "Assault, Sustained Hits 2"
       },
       {
         "name": "➤ Cerastus shock lance - strike",
@@ -980,7 +1027,8 @@
         "bs": "2+",
         "s": "20",
         "ap": "-3",
-        "d": "8"
+        "d": "8",
+        "keywords": "Lance"
       },
       {
         "name": "➤ Cerastus shock lance - sweep",
@@ -1033,7 +1081,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Twin-linked"
       },
       {
         "name": "➤ Tempest warblade - strike",
@@ -1094,7 +1143,8 @@
         "bs": "N/A",
         "s": "8",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "➤ Reaper chainfist - strike",
@@ -1121,7 +1171,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1, Twin-linked"
       }
     ],
     "system": "40k"
@@ -1165,7 +1216,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Atrapos lascutter - low intensity (Ranged)",
@@ -1174,7 +1226,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Atrapos lascutter - high intensity (Ranged 2)",
@@ -1183,7 +1236,8 @@
         "bs": "3+",
         "s": "14",
         "ap": "-3",
-        "d": "4"
+        "d": "4",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Atrapos lascutter - high intensity (Melee 2)",
@@ -1192,7 +1246,8 @@
         "bs": "3+",
         "s": "14",
         "ap": "-3",
-        "d": "4"
+        "d": "4",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Graviton singularity cannon - contained",
@@ -1201,7 +1256,8 @@
         "bs": "3+",
         "s": "16",
         "ap": "-4",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Blast"
       },
       {
         "name": "➤ Graviton singularity cannon - singularity",
@@ -1210,7 +1266,8 @@
         "bs": "3+",
         "s": "16",
         "ap": "-4",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Blast, Devastating Wounds, Hazardous"
       }
     ],
     "system": "40k"
@@ -1254,7 +1311,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "0",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 2"
       },
       {
         "name": "Phased plasma-fusil",
@@ -1263,7 +1321,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "➤ Reaper chainsword - sweep",
@@ -1272,7 +1331,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -1317,7 +1377,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-VEHICLE 2+, Blast"
       },
       {
         "name": "Volkite chierovile",
@@ -1326,7 +1387,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "0",
-        "d": "3"
+        "d": "3",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "➤ Reaper chainsword - sweep",
@@ -1335,7 +1397,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -1383,7 +1446,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "0",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Conversion beam cannon",
@@ -1392,7 +1456,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Conversion, Sustained Hits D3"
       },
       {
         "name": "Graviton pulsar",
@@ -1401,7 +1466,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-VEHICLE 2+, Blast"
       },
       {
         "name": "Lightning lock",
@@ -1410,7 +1476,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 2"
       }
     ],
     "system": "40k"
@@ -1454,7 +1521,8 @@
         "bs": "N/A",
         "s": "8",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "➤ Fellbore - strike",
@@ -1463,7 +1531,8 @@
         "bs": "3+",
         "s": "14",
         "ap": "-3",
-        "d": "6"
+        "d": "6",
+        "keywords": "Anti-Monster 2+, Anti-Vehicle 2+"
       },
       {
         "name": "➤ Fellbore - sweep",
@@ -1481,7 +1550,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast"
       }
     ],
     "system": "40k"
@@ -1532,7 +1602,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Warhound inferno gun",
@@ -1541,7 +1612,8 @@
         "bs": "N/A",
         "s": "7",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "➤ Warhound plasma blastgun - standard",
@@ -1550,7 +1622,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-3",
-        "d": "4"
+        "d": "4",
+        "keywords": "Blast"
       },
       {
         "name": "➤ Warhound plasma blastgun - supercharge",
@@ -1559,7 +1632,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-3",
-        "d": "5"
+        "d": "5",
+        "keywords": "Blast, Hazardous"
       },
       {
         "name": "Warhound turbo-laser destructor",
@@ -1568,7 +1642,8 @@
         "bs": "3+",
         "s": "20",
         "ap": "-3",
-        "d": "2D6"
+        "d": "2D6",
+        "keywords": "Blast"
       }
     ],
     "system": "40k"
@@ -1610,7 +1685,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Reaver laser blaster",
@@ -1619,7 +1695,8 @@
         "bs": "3+",
         "s": "20",
         "ap": "-3",
-        "d": "D6+2"
+        "d": "D6+2",
+        "keywords": "Blast"
       },
       {
         "name": "Reaver melta cannon",
@@ -1628,7 +1705,8 @@
         "bs": "3+",
         "s": "13",
         "ap": "-4",
-        "d": "6"
+        "d": "6",
+        "keywords": "Blast, Melta 4"
       },
       {
         "name": "Reaver volcano cannon",
@@ -1637,7 +1715,8 @@
         "bs": "3+",
         "s": "24",
         "ap": "-5",
-        "d": "14"
+        "d": "14",
+        "keywords": "Blast, Heavy"
       },
       {
         "name": "➤ Reaver power fist - strike",
@@ -1673,7 +1752,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Indirect Fire"
       }
     ],
     "system": "40k"
@@ -1716,7 +1796,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-FLY 4+"
       },
       {
         "name": "Ardex-defensor mauler",
@@ -1743,7 +1824,8 @@
         "bs": "3+",
         "s": "16",
         "ap": "-4",
-        "d": "4"
+        "d": "4",
+        "keywords": "Blast, Indirect Fire"
       },
       {
         "name": "Nemesis volcano cannon",
@@ -1752,7 +1834,8 @@
         "bs": "3+",
         "s": "24",
         "ap": "-5",
-        "d": "14"
+        "d": "14",
+        "keywords": "Blast"
       },
       {
         "name": "Reaver gatling blaster",
@@ -1761,7 +1844,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Reaver laser blaster",
@@ -1770,7 +1854,8 @@
         "bs": "3+",
         "s": "20",
         "ap": "-3",
-        "d": "D6+2"
+        "d": "D6+2",
+        "keywords": "Blast"
       },
       {
         "name": "Reaver melta cannon",
@@ -1779,7 +1864,8 @@
         "bs": "3+",
         "s": "13",
         "ap": "-4",
-        "d": "6"
+        "d": "6",
+        "keywords": "Blast, Melta 4"
       },
       {
         "name": "Reaver volcano cannon",
@@ -1788,7 +1874,8 @@
         "bs": "3+",
         "s": "24",
         "ap": "-5",
-        "d": "14"
+        "d": "14",
+        "keywords": "Blast, Heavy"
       }
     ],
     "system": "40k"
@@ -1830,7 +1917,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Arioch power claw - strike",
@@ -1857,7 +1945,8 @@
         "bs": "3+",
         "s": "32",
         "ap": "-5",
-        "d": "18"
+        "d": "18",
+        "keywords": "Blast"
       },
       {
         "name": "Macro gatling blaster",
@@ -1866,7 +1955,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Mori quake cannon",
@@ -1875,7 +1965,8 @@
         "bs": "3+",
         "s": "16",
         "ap": "-4",
-        "d": "6"
+        "d": "6",
+        "keywords": "Blast, Ignores Cover"
       },
       {
         "name": "➤ Sunfury plasma annihilator - standard",
@@ -1884,7 +1975,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-3",
-        "d": "5"
+        "d": "5",
+        "keywords": "Blast"
       },
       {
         "name": "➤ Sunfury plasma annihilator - supercharge",
@@ -1893,7 +1985,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-3",
-        "d": "8"
+        "d": "8",
+        "keywords": "Blast, Hazardous"
       },
       {
         "name": "Ardex-defensor lascannon",

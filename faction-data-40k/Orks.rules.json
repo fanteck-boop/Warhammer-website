@@ -3,38 +3,38 @@
   "battleFormations": [
     {
       "name": "Green Tide",
-      "dp": 3,
-      "effect": "Category: Take and Hold"
+      "dp": 1,
+      "effect": "Mob-handed Brutality: Friendly BOYZ units' melee attacks have [SUSTAINED HITS 1]. If an ORKS INFANTRY unit made a charge move this turn, its melee attacks have [LETHAL HITS: non-Monster/Vehicle]."
     },
     {
       "name": "War Horde",
       "dp": 3,
-      "effect": "Category: Take and Hold"
+      "effect": "Get Stuck In: Friendly ORKS units' melee attacks have [SUSTAINED HITS 1]."
     },
     {
       "name": "Kult of Speed",
-      "dp": 2,
-      "effect": "Category: Disruption"
+      "dp": 1,
+      "effect": "Adrenaline Junkies: Friendly WARBIKERS have BATTLELINE. SPEED FREEKS Advance/Fall Back moves grant [ASSAULT] to ranged weapons and do not prevent charge eligibility."
     },
     {
       "name": "Dread Mob",
-      "dp": 2,
-      "effect": "Category: Priority Assets"
+      "dp": 1,
+      "effect": "Try Dat Button!: ORKS WALKER units (excl. TITANIC) can roll 1 or 2 D6 for random attack bonuses (+1 Attacks, +2 Strength, or +1 AP) when attacking; rolling two D6 requires a hazard roll after."
     },
     {
       "name": "Bully Boyz",
-      "dp": 2,
-      "effect": "Category: Purge the Foe"
+      "dp": 1,
+      "effect": "Displays of Savagery: Friendly MEGANOBZ/NOBZ units' melee attacks have [SUSTAINED HITS 1]."
     },
     {
       "name": "Da Big Hunt",
-      "dp": 2,
-      "effect": "Category: Purge the Foe"
+      "dp": 1,
+      "effect": "Da Hunt is On: Friendly BEAST SNAGGA units' attacks against MONSTER/VEHICLE units gain +1 AP."
     },
     {
       "name": "Blitz Brigade",
-      "dp": 2,
-      "effect": "Category: Reconnaissance"
+      "dp": 1,
+      "effect": "Unstoppable Momentum: Friendly WAGON units can re-roll charge rolls; Advancing WAGONs can change the Advance roll to a 6."
     },
     {
       "name": "Speedwaaagh!",
@@ -64,7 +64,42 @@
     {
       "name": "Taktikal Brigade",
       "dp": 1,
-      "effect": "Category: Reconnaissance"
+      "effect": "Suspiciously Well Organised: Friendly STORMBOYZ units have BATTLELINE. BOYZ/KOMMANDOS/STORMBOYZ Fall Back moves do not prevent charge eligibility."
+    },
+    {
+      "name": "Runt Swarm",
+      "dp": 1,
+      "effect": "Sneaky Little Gitz: Friendly GRETCHIN units have BATTLELINE; their Advance/Fall Back moves do not prevent them from starting an action."
+    },
+    {
+      "name": "Shoota Boyz",
+      "dp": 1,
+      "effect": "Dakka! Dakka! Dakka!: Friendly ORKS INFANTRY units' ranged attacks gain [ASSAULT]; while riled up, +3\" Range."
+    },
+    {
+      "name": "Wreckas",
+      "dp": 1,
+      "effect": "Wreckin' and Lootin': BREAKA BOYZ/FLASH GITZ/TANKBUSTAS units can re-roll Hit rolls of 1 in the Shooting phase while near an objective, or targeting a unit near one."
+    },
+    {
+      "name": "Madcap Meks",
+      "dp": 1,
+      "effect": "Unpredictable Genius: When a BIG MEK/MEK GUNZ/MORKANAUT/WAZBOM BLASTAJET unit targets a single enemy unit with all ranged attacks, roll a D6 for a randomized bonus effect (invuln debuff, mortal wounds, +1 Hit, Fly+no cover, or -1 Toughness)."
+    },
+    {
+      "name": "Flyboyz",
+      "dp": 1,
+      "effect": "Skyborne Loons: (Detachment rule text not fully captured this pass — verify on Wahapedia.)"
+    },
+    {
+      "name": "Brute Bosses",
+      "dp": 1,
+      "effect": "'Ard as Nails: (Detachment rule text not fully captured this pass — verify on Wahapedia.)"
+    },
+    {
+      "name": "Wurrband",
+      "dp": 1,
+      "effect": "Powers of da Waaagh!: (Detachment rule text not fully captured this pass — verify on Wahapedia.)"
     }
   ],
   "heroicTraits": [],
@@ -72,6 +107,183 @@
     {
       "name": "Shotta Smasha",
       "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Headwoppa's Killchoppa",
+      "cost": 15,
+      "effect": "[ORKS model only] If this unit made a charge move this turn, the bearer's melee attacks have +1 AP.",
+      "detachment": "War Horde"
+    },
+    {
+      "name": "Da Boss is Watchin'",
+      "cost": 25,
+      "effect": "[ORKS model only (once per battle, per army)] In your Movement phase, this unit becomes riled up until the start of your next turn.",
+      "detachment": "War Horde"
+    },
+    {
+      "name": "Kunnin' But Brutal",
+      "cost": 20,
+      "effect": "[ORKS model only] This unit's Fall Back moves do not prevent it from being eligible to shoot/declare a charge.",
+      "detachment": "War Horde"
+    },
+    {
+      "name": "Follow Me Ladz",
+      "cost": 20,
+      "effect": "[ORKS model only] This unit has +2\" Move.",
+      "detachment": "War Horde"
+    },
+    {
+      "name": "Ferocious Show-off",
+      "cost": 15,
+      "effect": "[ORKS INFANTRY model only] Melee attacks gain +1 Attacks (+2 if the unit has 11+ models).",
+      "detachment": "Green Tide"
+    },
+    {
+      "name": "'Ardboyz",
+      "cost": 25,
+      "effect": "[BOYZ unit only] This unit has a Save characteristic of 4+.",
+      "detachment": "Green Tide"
+    },
+    {
+      "name": "Wimp-kickaz",
+      "cost": 15,
+      "effect": "[NOBZ unit only] Enemy units engaged with this unit must select Desperate Escape when Falling Back; worsened hazard rolls if riled up.",
+      "detachment": "Bully Boyz"
+    },
+    {
+      "name": "Tellyporta Boss",
+      "cost": 20,
+      "effect": "[MEGA ARMOUR model only] This unit (excl. Vehicle) gains Deep Strike.",
+      "detachment": "Bully Boyz"
+    },
+    {
+      "name": "Extra Sneaky",
+      "cost": 10,
+      "effect": "[GRETCHIN unit only] This unit has -3\" detection range.",
+      "detachment": "Runt Swarm"
+    },
+    {
+      "name": "Minefield Detail",
+      "cost": 10,
+      "effect": "[GRETCHIN unit only] While not embarked, this unit has Scouts 6\".",
+      "detachment": "Runt Swarm"
+    },
+    {
+      "name": "Supa-glowy Fing",
+      "cost": 25,
+      "effect": "[ORKS INFANTRY model only (excl. WEIRDBOY)] Ranged attacks gain [ANTI-INFANTRY 4+], [DEVASTATING WOUNDS], and [SUPA-HAZARDOUS] (extra hazard rolls after shooting).",
+      "detachment": "Shoota Boyz"
+    },
+    {
+      "name": "Targetin' Squigs",
+      "cost": 20,
+      "effect": "[BIG MEK/BIGBOSS/WARBOSS model only] Ranged attacks (excl. Torrent) gain +3\" Range.",
+      "detachment": "Shoota Boyz"
+    },
+    {
+      "name": "Kill Kommanda",
+      "cost": 20,
+      "effect": "[BIG MEK/WARBOSS INFANTRY model only] While part of an attached unit, this model gains Infiltrators and Stealth.",
+      "detachment": "Taktikal Brigade"
+    },
+    {
+      "name": "Throat-slittas",
+      "cost": 15,
+      "effect": "[KOMMANDOS/STORMBOYZ unit only] Melee attacks gain [LETHAL HITS: non-Monster/Vehicle].",
+      "detachment": "Taktikal Brigade"
+    },
+    {
+      "name": "Kaptin's Hat",
+      "cost": 25,
+      "effect": "[BIG MEK/WARBOSS INFANTRY model only] After deployment, redeploy up to 3 ORKS INFANTRY units to Strategic Reserves regardless of normal limits.",
+      "detachment": "Wreckas"
+    },
+    {
+      "name": "Supa-snazz Dakka",
+      "cost": 20,
+      "effect": "[FLASH GITZ unit only] Snazzgun weapons gain [RAPID FIRE 1].",
+      "detachment": "Wreckas"
+    },
+    {
+      "name": "Glory Hog",
+      "cost": 25,
+      "effect": "[BEAST SNAGGA model only] Fall Back moves do not prevent charge eligibility.",
+      "detachment": "Da Big Hunt"
+    },
+    {
+      "name": "It Came from da Drops",
+      "cost": 20,
+      "effect": "[BEASTBOSS ON SQUIGOSAUR model only] +1 Toughness.",
+      "detachment": "Da Big Hunt"
+    },
+    {
+      "name": "Mekwaaagh! Mastermind",
+      "cost": 30,
+      "effect": "[BIG MEK model only] This unit is riled up.",
+      "detachment": "Madcap Meks"
+    },
+    {
+      "name": "Temperamental Shokka",
+      "cost": 20,
+      "effect": "[BIG MEK WITH SHOKK ATTACK GUN model only] Random shooting bonus each turn: Torrent+self-destruct, +1 Attacks, or [SUSTAINED HITS 2].",
+      "detachment": "Madcap Meks"
+    },
+    {
+      "name": "Enhanced Runt-maw",
+      "cost": 10,
+      "effect": "[BIG MEK WITH SHOKK ATTACK GUN model only] Target unit hit becomes 'infested with Snotlings', suffering -1 to Leadership rolls until your next turn.",
+      "detachment": "Madcap Meks"
+    },
+    {
+      "name": "Cybork Boosta",
+      "cost": 10,
+      "effect": "[BIG MEK/MEK model only] +2\" Move.",
+      "detachment": "Dread Mob"
+    },
+    {
+      "name": "Dreadherder",
+      "cost": 20,
+      "effect": "[BIG MEK model only] Gains Lone Operative near friendly Walkers; can grant re-roll Hit 1s to a nearby Walker unit.",
+      "detachment": "Dread Mob"
+    },
+    {
+      "name": "Targetin' Gizmos",
+      "cost": 10,
+      "effect": "[WAGON unit only] While a Big Mek is embarked, ranged attacks gain [IGNORES COVER] (+[SUSTAINED HITS 1] if riled up).",
+      "detachment": "Blitz Brigade"
+    },
+    {
+      "name": "Boss Boomer",
+      "cost": 10,
+      "effect": "[WAGON unit only] While a Warboss is embarked, this unit gains that Warboss's Intimidating Motivation/Keep Huntin' ability.",
+      "detachment": "Blitz Brigade"
+    },
+    {
+      "name": "Smoky Gubbinz",
+      "cost": 10,
+      "effect": "[SPEED FREEKS unit only (excl. AIRCRAFT)] Grants Benefit of Cover to units this unit blocks line of sight for.",
+      "detachment": "Kult of Speed"
+    },
+    {
+      "name": "Competitive Streak",
+      "cost": 15,
+      "effect": "[DEFFKILLA WARTRIKE model only] Re-roll charge rolls.",
+      "detachment": "Kult of Speed"
     }
-  ]
+  ],
+  "armyRules": [
+    {
+      "name": "Waaagh!",
+      "effect": "Friendly ORKS units with this ability can re-roll Advance rolls and become 'riled up' as stated in other rules. While riled up: unit has 5+ invulnerable save, ranged attacks gain [ASSAULT], and Advance moves do not prevent charge eligibility. War Cry (once per battle, per army): at the start of the Command phase, make all ORKS units with this ability riled up until the end of the next turn."
+    },
+    {
+      "name": "Da Boss",
+      "effect": "At the start of the battle round, if a model with this ability is your Warlord, gain 1CP."
+    },
+    {
+      "name": "Unstable Energies",
+      "effect": "ORKS PSYKER units have a psyker level; in a battle round they can use psychic abilities whose total psychic level does not exceed their psyker level."
+    }
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation."
 }

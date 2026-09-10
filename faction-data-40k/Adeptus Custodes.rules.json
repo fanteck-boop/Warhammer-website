@@ -1,0 +1,160 @@
+{
+  "faction": "Adeptus Custodes",
+  "armyRules": [
+    {
+      "name": "Martial Ka'tah",
+      "effect": "When a unit is selected to fight, choose one Ka'tah Stance until it finishes making attacks: Dacatarai Stance (melee weapons gain [SUSTAINED HITS 1]) or Rendax Stance (melee weapons gain [LETHAL HITS])."
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Talons Of The Emperor",
+      "dp": 3,
+      "effect": "Revered Companions: ANATHEMA PSYKANA units gain Null Aegis (Aura 6\": Feel No Pain 5+ vs Psychic Attacks/mortal wounds for nearby CUSTODES); other CUSTODES gain Deadly Unity (Aura 6\": +1 to Hit for nearby ANATHEMA PSYKANA attacks)."
+    },
+    {
+      "name": "Shield Host",
+      "dp": 2,
+      "effect": "Martial Mastery: At the start of the battle round, select until the next battle round: an unmodified Hit roll of 5+ scores a Critical Hit for Ka'tah models, OR Ka'tah models gain +1 AP in melee."
+    },
+    {
+      "name": "Null Maiden Vigil",
+      "dp": 2,
+      "effect": "Creeping Dread (Aura): Enemy PSYKER or below-starting-strength units within 12\" of ANATHEMA PSYKANA models must take a Battle-shock test in their own Command phase (-1 if Below Half-strength). PROSECUTORS gain the BATTLELINE keyword."
+    },
+    {
+      "name": "Auric Champions",
+      "dp": 2,
+      "effect": "Assemblage of Might: Select an enemy unit each Command phase; CUSTODES CHARACTER attacks against it gain +1 to the Wound roll."
+    },
+    {
+      "name": "Solar Spearhead",
+      "dp": 2,
+      "effect": "Auric Armour + Moritoi Ancients: Full-strength non-Battle-shocked, non-AIRCRAFT VEHICLE units get +2 OC; below-strength re-roll Hit rolls of 1; below-half re-roll Hit and Wound rolls of 1. WALKER units get +2\" Move and +1 to Advance/Charge rolls. Up to 2 WALKER models can gain the CHARACTER keyword."
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "Aegis Projector",
+      "cost": 20,
+      "effect": "[ADEPTUS CUSTODES only] Once per turn, the first failed save against the bearer this turn instead inflicts Damage 0.",
+      "detachment": "Talons Of The Emperor"
+    },
+    {
+      "name": "Champion of the Imperium",
+      "cost": 25,
+      "effect": "[ADEPTUS CUSTODES only] The bearer's aura abilities have their range increased to 9\".",
+      "detachment": "Talons Of The Emperor"
+    },
+    {
+      "name": "Gift of Terran Artifice",
+      "cost": 15,
+      "effect": "[ADEPTUS CUSTODES only] Add 1 to the Wound roll for melee attacks made by the bearer.",
+      "detachment": "Talons Of The Emperor"
+    },
+    {
+      "name": "Radiant Mantle",
+      "cost": 30,
+      "effect": "[ADEPTUS CUSTODES only] Attackers within 12\" of the bearer suffer -1 to Hit rolls against the bearer's unit.",
+      "detachment": "Talons Of The Emperor"
+    },
+    {
+      "name": "Auric Mantle",
+      "cost": 15,
+      "effect": "[SHIELD-CAPTAIN/BLADE CHAMPION only] Add 2 to the bearer's Wounds characteristic.",
+      "detachment": "Shield Host"
+    },
+    {
+      "name": "Castellan's Mark",
+      "cost": 20,
+      "effect": "[SHIELD-CAPTAIN only] Redeploy up to 2 units (excluding ANATHEMA PSYKANA), any of which can instead be placed into Strategic Reserves.",
+      "detachment": "Shield Host"
+    },
+    {
+      "name": "From the Hall of Armouries",
+      "cost": 20,
+      "effect": "[SHIELD-CAPTAIN only] Add 1 to the Strength and Damage characteristics of the bearer's melee weapons.",
+      "detachment": "Shield Host"
+    },
+    {
+      "name": "Panoptispex",
+      "cost": 5,
+      "effect": "[SHIELD-CAPTAIN/BLADE CHAMPION only] Ranged weapons equipped by the bearer's led unit gain the [IGNORES COVER] ability.",
+      "detachment": "Shield Host"
+    },
+    {
+      "name": "Enhanced Voidsheen Cloak",
+      "cost": 10,
+      "effect": "[ANATHEMA PSYKANA only] Subtract 1 from the Damage characteristic of attacks that target the bearer (to a minimum of 1), worsened further vs PSYKER or Battle-shocked attackers.",
+      "detachment": "Null Maiden Vigil"
+    },
+    {
+      "name": "Huntress' Eye",
+      "cost": 15,
+      "effect": "[ANATHEMA PSYKANA only] In your Command phase, force a nearby enemy unit to take a Battle-shock test.",
+      "detachment": "Null Maiden Vigil"
+    },
+    {
+      "name": "Oblivion Knight",
+      "cost": 25,
+      "effect": "[ANATHEMA PSYKANA only] The bearer's led unit gains +1 to Hit rolls; +1 to Wound rolls against PSYKER units.",
+      "detachment": "Null Maiden Vigil"
+    },
+    {
+      "name": "Raptor Blade",
+      "cost": 5,
+      "effect": "[ANATHEMA PSYKANA only] Add 1 to the Attacks, Strength, and Damage characteristics of the bearer's melee weapons (add 2 instead vs Battle-shocked PSYKER units in range).",
+      "detachment": "Null Maiden Vigil"
+    },
+    {
+      "name": "Blade Imperator",
+      "cost": 25,
+      "effect": "[ADEPTUS CUSTODES only] Charge-move mortal wound trigger; once per battle, a Battle-shock pulse ability.",
+      "detachment": "Auric Champions"
+    },
+    {
+      "name": "Inspirational Exemplar",
+      "cost": 10,
+      "effect": "[ADEPTUS CUSTODES only] The bearer has a Leadership characteristic of 5+; can clear Battle-shock from a nearby unit once per battle.",
+      "detachment": "Auric Champions"
+    },
+    {
+      "name": "Martial Philosopher",
+      "cost": 30,
+      "effect": "[ADEPTUS CUSTODES only] Eligible to shoot and charge after Falling Back; once per battle a reactive move ability.",
+      "detachment": "Auric Champions"
+    },
+    {
+      "name": "Veiled Blade",
+      "cost": 25,
+      "effect": "[ADEPTUS CUSTODES only] Add 2 to the bearer's Attacks characteristic in melee; once per battle triple the bearer's Objective Control.",
+      "detachment": "Auric Champions"
+    },
+    {
+      "name": "Adamantine Talisman",
+      "cost": 25,
+      "effect": "[ADEPTUS CUSTODES only] Add 1 to the Attacks, Strength, and Damage characteristics of the bearer's melee weapons.",
+      "detachment": "Solar Spearhead"
+    },
+    {
+      "name": "Augury Uplink",
+      "cost": 35,
+      "effect": "[ADEPTUS CUSTODES only] The bearer has the Feel No Pain 5+ ability.",
+      "detachment": "Solar Spearhead"
+    },
+    {
+      "name": "Honoured Fallen",
+      "cost": 15,
+      "effect": "[ADEPTUS CUSTODES VEHICLE only] Aura: nearby friendly Infantry/Mounted units re-roll Hit rolls of 1.",
+      "detachment": "Solar Spearhead"
+    },
+    {
+      "name": "Veteran of the Kataphraktoi",
+      "cost": 10,
+      "effect": "[ADEPTUS CUSTODES INFANTRY/MOUNTED only] Grants a nearby friendly Vehicle/Mounted unit the ability to shoot after Falling Back.",
+      "detachment": "Solar Spearhead"
+    }
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation."
+}

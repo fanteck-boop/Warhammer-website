@@ -1,0 +1,85 @@
+{
+  "faction": "Black Templars",
+  "armyRules": [
+    {
+      "name": "Oath of Moment",
+      "effect": "Inherited from base Space Marines. See Space-Marines.rules-verified.json."
+    },
+    {
+      "name": "Chapter Restriction",
+      "effect": "Your army can include BLACK TEMPLARS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter. Cannot include ADEPTUS ASTARTES PSYKER models. Additional model exclusions apply per the base Space Marines Chapters rule (GLADIATOR LANCER, GLADIATOR REAPER, GLADIATOR VALIANT, IMPULSOR, REPULSOR, REPULSOR EXECUTIONER unless they have the Black Templars keyword)."
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Companions of Vehemence",
+      "dp": 2,
+      "effect": "You can re-roll Advance and Charge rolls made for ADEPTUS ASTARTES units from your army. RESTRICTIONS: Your army can include BLACK TEMPLARS units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter."
+    },
+    {
+      "name": "Vindication Task Force",
+      "dp": 2,
+      "effect": "Detachment rule text not yet captured — DP and full rule pending further fetch. Confirmed Stratagems: Reclaim Our Honour! (Strategic Ploy), Spoor of the Unholy (Battle Tactic), Perfervid Intervention (Strategic Ploy, 2CP), Litanies of Purgation (Battle Tactic)."
+    },
+    {
+      "name": "Godhammer Assault Force",
+      "dp": 2,
+      "effect": "Detachment rule text not yet captured. Confirmed Stratagems: Focused Hatred (Strategic Ploy), A Ceaseless Cause (Strategic Ploy), Condemnatory Info-screed (Battle Tactic)."
+    },
+    {
+      "name": "Marshal's Household",
+      "dp": 2,
+      "effect": "Detachment rule text not yet captured (no confirmed Stratagems found this pass)."
+    },
+    {
+      "name": "The Living Miracle",
+      "dp": 2,
+      "effect": "Detachment rule text not yet captured (no confirmed Stratagems found this pass)."
+    },
+    {
+      "name": "Wrathful Procession",
+      "dp": 2,
+      "effect": "Detachment rule text not yet captured. Confirmed Stratagems: Fuelled by Faith, Castigate the Demagogues, Rite of Perfervid Wrath (all Stratagems, cost unconfirmed)."
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "Chorus of Relentless Hate",
+      "cost": 0,
+      "effect": "Add 2\" to the Move characteristic of models in this unit and add 1 to Advance rolls made for it.",
+      "detachment": "Companions of Vehemence"
+    },
+    {
+      "name": "Sacred Rage",
+      "cost": 30,
+      "effect": "[ADEPTUS ASTARTES model only] Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer's unit have the Fights First ability.",
+      "detachment": "Companions of Vehemence"
+    },
+    {
+      "name": "Unnamed AP Enhancement",
+      "cost": 0,
+      "effect": "[CHAPLAIN or JUDICIAR model only] Improve the Armour Penetration characteristic of melee weapons equipped by models in the bearer's unit by 1.",
+      "detachment": "Companions of Vehemence"
+    },
+    {
+      "name": "Unnamed Strength Enhancement",
+      "cost": 0,
+      "effect": "Add 1 to the Strength characteristic of melee weapons equipped by models in this unit.",
+      "detachment": "Companions of Vehemence"
+    },
+    {
+      "name": "Unnamed Invulnerable Save Enhancement",
+      "cost": 0,
+      "effect": "Models in this unit have a 5+ invulnerable save against ranged attacks.",
+      "detachment": "Companions of Vehemence"
+    },
+    {
+      "name": "Unnamed Stealth Enhancement",
+      "cost": 0,
+      "effect": "[BLACK TEMPLARS model only] Models in the bearer's unit have the Stealth ability.",
+      "detachment": "Companions of Vehemence"
+    }
+  ],
+  "sourceNotes": "LOW CONFIDENCE per source: only Companions of Vehemence detachment is verified in full; Vindication Task Force/Godhammer Assault Force/Marshal's Household/The Living Miracle/Wrathful Procession names are confirmed to exist (via Stratagem refs) but their rule text, DP cost and Enhancements are NOT captured (defaulted to 2 DP) and need direct Wahapedia verification."
+}

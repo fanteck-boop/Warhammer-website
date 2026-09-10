@@ -7,9 +7,9 @@
       "effect": "Category: Disruption"
     },
     {
-      "name": "Gladius Strike Force",
+      "name": "Gladius Task Force",
       "dp": 3,
-      "effect": "Category: Priority Assets"
+      "effect": "Combat Doctrines: At the start of your Command phase, select one of Devastator Doctrine (eligible to shoot after Advancing), Tactical Doctrine (eligible to shoot and charge after Falling Back), or Assault Doctrine (eligible to charge after Advancing). Each can only be selected once per battle."
     },
     {
       "name": "Armoured Speartip",
@@ -24,7 +24,7 @@
     {
       "name": "Firestorm Assault Force",
       "dp": 2,
-      "effect": "Category: Priority Assets"
+      "effect": "Ranged weapons equipped by ADEPTUS ASTARTES models gain [ASSAULT]; attacks against targets within 12\" gain +1 Strength."
     },
     {
       "name": "Headhunter Task Force",
@@ -39,12 +39,12 @@
     {
       "name": "Vanguard Spearhead",
       "dp": 2,
-      "effect": "Category: Reconnaissance"
+      "effect": "Shadow Masters: Each time a ranged attack targets an ADEPTUS ASTARTES unit from your army, unless the attacking model is within 12\", subtract 1 from the Hit roll and the target gets the Benefit of Cover against that attack."
     },
     {
       "name": "Anvil Siege Force",
       "dp": 2,
-      "effect": "Category: Take and Hold"
+      "effect": "Shield of the Imperium: ADEPTUS ASTARTES ranged weapons gain [HEAVY]; if they already have [HEAVY], add 1 to the Wound roll instead while the bearer's unit remains stationary."
     },
     {
       "name": "Bastion Task Force",
@@ -54,7 +54,7 @@
     {
       "name": "Ironstorm Spearhead",
       "dp": 2,
-      "effect": "Category: Take and Hold"
+      "effect": "Armoured Wrath: Once per phase, per unit, you can re-roll one Hit roll, Wound roll, or Damage roll. (Full text partial — verify remaining wording on Wahapedia.)"
     },
     {
       "name": "Orbital Assault Force",
@@ -83,5 +83,89 @@
     }
   ],
   "heroicTraits": [],
-  "artefacts": []
+  "artefacts": [
+    {
+      "name": "Artificer Armour",
+      "cost": 20,
+      "effect": "[ADEPTUS ASTARTES model only] The bearer has a Save characteristic of 2+ and the Feel No Pain 5+ ability.",
+      "detachment": "Gladius Task Force"
+    },
+    {
+      "name": "The Honour Vehement",
+      "cost": 15,
+      "effect": "[ADEPTUS ASTARTES model only] Add 1 to the Attacks and Strength characteristics of melee weapons equipped by the bearer (add 2 instead while Assault Doctrine is active).",
+      "detachment": "Gladius Task Force"
+    },
+    {
+      "name": "Adept of the Codex",
+      "cost": 20,
+      "effect": "[CAPTAIN model only] The bearer's unit can select the Tactical Doctrine even if it has already been selected this battle by another unit.",
+      "detachment": "Gladius Task Force"
+    },
+    {
+      "name": "Fire Discipline",
+      "cost": 25,
+      "effect": "[ADEPTUS ASTARTES model only] The bearer's unit's ranged weapons gain [SUSTAINED HITS 1]; while Devastator Doctrine is active, you can re-roll Advance rolls made for the bearer's unit.",
+      "detachment": "Gladius Task Force"
+    },
+    {
+      "name": "Indomitable Fury",
+      "cost": 20,
+      "effect": "[GRAVIS model only] The first time the bearer is destroyed, roll one D6 at the end of the phase: on a 2+ set it back up on the battlefield with its full wounds.",
+      "detachment": "Anvil Siege Force"
+    },
+    {
+      "name": "Fleet Commander",
+      "cost": 15,
+      "effect": "[CAPTAIN model only] Once per battle, resolve an orbital bombardment along a line: each unit crossed suffers D3 mortal wounds on a 3+.",
+      "detachment": "Anvil Siege Force"
+    },
+    {
+      "name": "Stoic Defender",
+      "cost": 15,
+      "effect": "[ADEPTUS ASTARTES model only] The bearer's unit has the Feel No Pain 6+ ability while within range of an objective marker. If Battle-shocked, halve its Objective Control instead of reducing it to 0.",
+      "detachment": "Anvil Siege Force"
+    },
+    {
+      "name": "Architect of War",
+      "cost": 25,
+      "effect": "[ADEPTUS ASTARTES model only] Ranged weapons equipped by models in the bearer's unit have the [IGNORES COVER] ability.",
+      "detachment": "Anvil Siege Force"
+    },
+    {
+      "name": "The Blade Driven Deep",
+      "cost": 0,
+      "effect": "[ADEPTUS ASTARTES INFANTRY model only] While the bearer is leading a unit, models in that unit have the Infiltrators ability.",
+      "detachment": "Vanguard Spearhead"
+    },
+    {
+      "name": "Ghostweave Cloak",
+      "cost": 0,
+      "effect": "[ADEPTUS ASTARTES model only] The bearer has the Stealth and Lone Operative abilities.",
+      "detachment": "Vanguard Spearhead"
+    },
+    {
+      "name": "Execute and Redeploy",
+      "cost": 0,
+      "effect": "[PHOBOS model only] In the Shooting phase, after the bearer's unit shoots, if it isn't within Engagement Range of an enemy, it can make a Normal move of up to 6\"; until end of turn it is not eligible to charge.",
+      "detachment": "Vanguard Spearhead"
+    },
+    {
+      "name": "Shadow War Veteran",
+      "cost": 30,
+      "effect": "[PHOBOS model only] Once per battle, after your opponent uses a Battle Tactic Stratagem, the bearer can use this to increase that Stratagem's cost by 1CP for the rest of the battle.",
+      "detachment": "Vanguard Spearhead"
+    }
+  ],
+  "armyRules": [
+    {
+      "name": "Oath of Moment",
+      "effect": "At the start of your Command phase, select one unit from your opponent's army as your Oath of Moment target until the start of your next Command phase. Each time a model with this ability makes an attack that targets your Oath of Moment target, you can re-roll the Hit roll. If you are using a Codex: Space Marines Detachment and your army does not include units with the BLACK TEMPLARS, BLOOD ANGELS, DARK ANGELS, DEATHWATCH or SPACE WOLVES keywords, add 1 to the Wound roll as well."
+    },
+    {
+      "name": "Space Marine Chapters",
+      "effect": "If an ADEPTUS ASTARTES unit has a second Faction keyword on its datasheet, that is the unit's Chapter. You cannot include units from more than one Chapter in your army. Chapter-specific restrictions apply for Black Templars, Deathwatch, and Space Wolves army lists."
+    }
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation. Renamed 'Gladius Strike Force' to its correct name 'Gladius Task Force'."
 }

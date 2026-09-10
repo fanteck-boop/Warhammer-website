@@ -9,17 +9,17 @@
     {
       "name": "Awakened Dynasty",
       "dp": 3,
-      "effect": "Category: Take and Hold"
+      "effect": "Command Protocols: While a NECRONS CHARACTER is leading a unit, add 1 to Hit rolls made for that unit."
     },
     {
       "name": "Canoptek Court",
       "dp": 3,
-      "effect": "Category: Take and Hold"
+      "effect": "Power Matrix: Your deployment zone is always within the Power Matrix; you contest No Man's Land/enemy deployment zone via objective control. CRYPTEK/CANOPTEK units re-roll Hit rolls of 1 (full re-roll if wholly within the Power Matrix)."
     },
     {
       "name": "Obeisance Phalanx",
       "dp": 2,
-      "effect": "Category: Disruption"
+      "effect": "Worthy Foes: Select an enemy unit each Command phase; NOBLE/LYCHGUARD/TRIARCH attacks against it gain +1 to the Wound roll."
     },
     {
       "name": "Pantheon of Woe",
@@ -34,7 +34,7 @@
     {
       "name": "Annihilation Legion",
       "dp": 2,
-      "effect": "Category: Purge the Foe"
+      "effect": "Annihilation Protocol: DESTROYER CULT and FLAYED ONES units re-roll Charge rolls (+1 vs below-half-strength targets); DESTROYER CULT ranged attacks against the closest target gain +1 AP."
     },
     {
       "name": "Cursed Legion",
@@ -44,7 +44,7 @@
     {
       "name": "Hypercrypt Legion",
       "dp": 2,
-      "effect": "Category: Reconnaissance"
+      "effect": "Hyperphasing: (Partial capture — concerns selecting NECRONS units at the end of the opponent's turn; verify full text on Wahapedia.)"
     },
     {
       "name": "The Phaeron's Armoury",
@@ -75,6 +75,109 @@
     {
       "name": "Lychguard attachments",
       "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Veil of Darkness",
+      "cost": 20,
+      "effect": "[NECRONS only (once per battle/army)] If unengaged, move the bearer's unit to Strategic Reserves; it gains Deep Strike until the next Shooting phase and must ingress next Movement phase.",
+      "detachment": "Awakened Dynasty"
+    },
+    {
+      "name": "Nether-realm Casket",
+      "cost": 20,
+      "effect": "[NECRONS only] The bearer's led unit gains the Stealth ability.",
+      "detachment": "Awakened Dynasty"
+    },
+    {
+      "name": "Phasal Subjugator",
+      "cost": 35,
+      "effect": "[NECRONS only] Aura: nearby non-Character units gain +1 to Hit rolls.",
+      "detachment": "Awakened Dynasty"
+    },
+    {
+      "name": "Enaegic Dermal Bond",
+      "cost": 30,
+      "effect": "[NECRONS only] The bearer has the Feel No Pain 4+ ability.",
+      "detachment": "Awakened Dynasty"
+    },
+    {
+      "name": "Eternal Madness",
+      "cost": 20,
+      "effect": "[NECRONS only] Destroyed models can fight on death on a 4+.",
+      "detachment": "Annihilation Legion"
+    },
+    {
+      "name": "Ingrained Superiority",
+      "cost": 5,
+      "effect": "[NECRONS only] A Critical Wound scored by the bearer gains +1 AP.",
+      "detachment": "Annihilation Legion"
+    },
+    {
+      "name": "Soulless Reaper",
+      "cost": 15,
+      "effect": "[DESTROYER CULT only] On a 3+, prevent a nearby enemy unit from Falling Back.",
+      "detachment": "Annihilation Legion"
+    },
+    {
+      "name": "Eldritch Nightmare",
+      "cost": 10,
+      "effect": "[DESTROYER CULT only] At the start of the Fight phase, force nearby enemy units to take a Battle-shock test.",
+      "detachment": "Annihilation Legion"
+    },
+    {
+      "name": "Dimensional Sanctum",
+      "cost": 20,
+      "effect": "[CRYPTEK only] The bearer's unit gains the Infiltrators ability.",
+      "detachment": "Canoptek Court"
+    },
+    {
+      "name": "Hyperphasic Fulcrum",
+      "cost": 15,
+      "effect": "[CRYPTEK only] The bearer's led unit re-rolls Wound rolls of 1 within the Power Matrix.",
+      "detachment": "Canoptek Court"
+    },
+    {
+      "name": "Autodivinator",
+      "cost": 15,
+      "effect": "[CRYPTEK only] When the opponent gains CP from an ability, on a 2+ you also gain 1CP.",
+      "detachment": "Canoptek Court"
+    },
+    {
+      "name": "Metalodermal Tesla Weave",
+      "cost": 10,
+      "effect": "[CRYPTEK only] Charge trigger: inflict D3/3 mortal wounds on the charging unit.",
+      "detachment": "Canoptek Court"
+    },
+    {
+      "name": "Honourable Combatant",
+      "cost": 10,
+      "effect": "[OVERLORD only] Destroying an enemy Character costs the opponent 1CP.",
+      "detachment": "Obeisance Phalanx"
+    },
+    {
+      "name": "Unflinching Will",
+      "cost": 20,
+      "effect": "[OVERLORD only] The bearer's melee weapons gain [PRECISION] and [ANTI-INFANTRY 5+].",
+      "detachment": "Obeisance Phalanx"
+    },
+    {
+      "name": "Warrior Noble",
+      "cost": 15,
+      "effect": "[OVERLORD only] Melee attacks against the bearer's unit suffer -1 to Hit.",
+      "detachment": "Obeisance Phalanx"
+    },
+    {
+      "name": "Eternal Conqueror",
+      "cost": 25,
+      "effect": "[OVERLORD only] Re-roll Hit rolls against targets near objective markers.",
+      "detachment": "Obeisance Phalanx"
     }
-  ]
+  ],
+  "armyRules": [
+    {
+      "name": "Reanimation Protocols",
+      "effect": "At the end of your Command phase, each friendly unit with this ability heals D3 wounds, returning destroyed models first per standard resurrection sequencing."
+    }
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation."
 }

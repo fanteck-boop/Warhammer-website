@@ -1,0 +1,136 @@
+{
+  "faction": "Leagues of Votann",
+  "armyRules": [
+    {
+      "name": "Prioritised Efficiency",
+      "effect": "LEAGUES OF VOTANN units have Hostile Acquisition (re-roll Advance/Charge; +1 Hit near objectives) or Fortify Takeover (+1 Hit while holding an objective; -1 Wound vs high-Strength attacks) depending on Yield Points (YP). Start of battle: Hostile Acquisition. End of Command phase: fewer than 7YP = Hostile Acquisition; 7YP+ = Fortify Takeover. Gain YP for holding objectives each Command phase, more for additional objective-control conditions from round 2 onward."
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Needgaârd Oathband",
+      "dp": 2,
+      "effect": "Martial Leverage: Each time an enemy unit is destroyed, gain 1YP."
+    },
+    {
+      "name": "Persecution Prospect",
+      "dp": 2,
+      "effect": "Assailed From Every Angle: Guerrilla Adepts ability — units can restrict their shooting to one enemy unit to mark it 'assailed' (and 'pinned' with -2\" Move/-2 Charge if already assailed) until your next Shooting phase."
+    },
+    {
+      "name": "Dêlve Assault Shift",
+      "dp": 2,
+      "effect": "Fury From The Dêlve: CTHONIAN BESERKS units gain Deep Strike and the BATTLELINE keyword."
+    },
+    {
+      "name": "Brandfast Oathband",
+      "dp": 2,
+      "effect": "Mobile Sensor Relays (Firebase Control Aura): LEAGUES OF VOTANN INFANTRY units wholly within 6\" of a friendly Transport gain [SUSTAINED HITS 1] on ranged weapons."
+    },
+    {
+      "name": "Hearthfyre Arsenal",
+      "dp": 2,
+      "effect": "Optimal Application: (Detachment rule text not fully captured this pass — verify on Wahapedia.)"
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "Oathbound Speculator",
+      "cost": 30,
+      "effect": "[LEAGUES OF VOTANN model only] Re-roll Wound rolls of 1; spend 3YP for +1 Wound roll for the unit that phase.",
+      "detachment": "Needgaârd Oathband"
+    },
+    {
+      "name": "Dead Reckoning",
+      "cost": 10,
+      "effect": "[LEAGUES OF VOTANN model only] At the end of a turn with no YP spent, gain 1YP.",
+      "detachment": "Needgaârd Oathband"
+    },
+    {
+      "name": "Iron Ambassador",
+      "cost": 5,
+      "effect": "[LEAGUES OF VOTANN model with Autoch-pattern combi-bolter only] Once per battle, spend up to 3YP to add that much Damage to the bearer's ranged weapons that phase.",
+      "detachment": "Needgaârd Oathband"
+    },
+    {
+      "name": "Ancestral Crest",
+      "cost": 15,
+      "effect": "[LEAGUES OF VOTANN model only] Once per turn, spend 1YP to reduce the Command Re-roll Stratagem's cost by 1CP.",
+      "detachment": "Needgaârd Oathband"
+    },
+    {
+      "name": "Eye for Weakness",
+      "cost": 25,
+      "effect": "[LEAGUES OF VOTANN model only] +1 Wound roll for attacks against assailed units.",
+      "detachment": "Persecution Prospect"
+    },
+    {
+      "name": "Writ of Acquisition",
+      "cost": 10,
+      "effect": "[LEAGUES OF VOTANN model only] Gain 1YP per assailed enemy unit hit while shooting (max 3YP).",
+      "detachment": "Persecution Prospect"
+    },
+    {
+      "name": "Surgical Saboteur",
+      "cost": 10,
+      "effect": "[LEAGUES OF VOTANN model only] A Monster/Vehicle unit hit while shooting becomes pinned until your next Shooting phase.",
+      "detachment": "Persecution Prospect"
+    },
+    {
+      "name": "Nomad Strategist",
+      "cost": 20,
+      "effect": "[LEAGUES OF VOTANN model only] Once per battle, spend up to 4YP to retreat multiple Hernkyn units to Strategic Reserves.",
+      "detachment": "Persecution Prospect"
+    },
+    {
+      "name": "Dêlvwerke Navigator",
+      "cost": 25,
+      "effect": "[LEAGUES OF VOTANN model only] Spend YP to return destroyed models to a visible Cthonian Beserks unit.",
+      "detachment": "Dêlve Assault Shift"
+    },
+    {
+      "name": "Multiwave System Jammer",
+      "cost": 10,
+      "effect": "[LEAGUES OF VOTANN model only] Once per battle, a Cthonian unit in Reserves treats the round number as one higher for setup purposes.",
+      "detachment": "Dêlve Assault Shift"
+    },
+    {
+      "name": "Quake Supervisor",
+      "cost": 20,
+      "effect": "[LEAGUES OF VOTANN model only] Lone Operative near friendly Artillery; +1 Hit for their ranged attacks vs visible enemies.",
+      "detachment": "Dêlve Assault Shift"
+    },
+    {
+      "name": "Piledriver",
+      "cost": 15,
+      "effect": "[LEAGUES OF VOTANN model only] Spend up to 2YP to add that much Damage to the bearer's melee weapons that phase.",
+      "detachment": "Dêlve Assault Shift"
+    },
+    {
+      "name": "Tactical Alchemy",
+      "cost": 10,
+      "effect": "[KÂHL model only] Spend 1YP near a non-deployment-zone objective for a 4+ chance at 1CP.",
+      "detachment": "Brandfast Oathband"
+    },
+    {
+      "name": "Trivärg Cyber Implant",
+      "cost": 40,
+      "effect": "[LEAGUES OF VOTANN model only] Ranged weapons gain [SUSTAINED HITS 2] if disembarked this turn or if 2YP spent.",
+      "detachment": "Brandfast Oathband"
+    },
+    {
+      "name": "Precursive Judgement",
+      "cost": 15,
+      "effect": "[KÂHL model only] Fire Overwatch for 0CP near friendly Transports, hitting on 5+.",
+      "detachment": "Brandfast Oathband"
+    },
+    {
+      "name": "Signature Restoration",
+      "cost": 5,
+      "effect": "[IRON-MASTER model only] Forgewrought Expertise repairs heal 1 additional wound.",
+      "detachment": "Brandfast Oathband"
+    }
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation."
+}

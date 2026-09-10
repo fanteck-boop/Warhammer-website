@@ -9,7 +9,7 @@
     {
       "name": "Warhost",
       "dp": 3,
-      "effect": "Category: Reconnaissance"
+      "effect": "Martial Grace: Gain 1 extra Battle Focus token per round; Swift as the Wind gives +1\" extra Move; Agile Manoeuvres that use a D6 roll get +1 to that roll."
     },
     {
       "name": "Ghosts of the Webway",
@@ -19,7 +19,7 @@
     {
       "name": "Windrider Host",
       "dp": 2,
-      "effect": "Category: Reconnaissance"
+      "effect": "Ride the Wind: MOUNTED/VYPER units can deploy in Reserves; select units (1/2/3 by battle size) can retreat to Strategic Reserves at the end of the opponent's turn. WINDRIDERS gain the BATTLELINE keyword."
     },
     {
       "name": "Corsair Coterie",
@@ -49,12 +49,12 @@
     {
       "name": "Guardian Battlehost",
       "dp": 2,
-      "effect": "Category: Take and Hold"
+      "effect": "Defend at All Costs: DIRE AVENGER/GUARDIAN/SUPPORT WEAPON/WAR WALKER attacks gain +1 to Hit if either unit is near an objective marker."
     },
     {
       "name": "Spirit Conclave",
       "dp": 2,
-      "effect": "Category: Take and Hold"
+      "effect": "Shepherds of the Dead: If an ASURYANI PSYKER is destroyed, the enemy gains a 'Vengeful Dead' token; WRAITH CONSTRUCT attacks against tokened units gain +1 to Hit and +1 to Wound. WRAITHBLADES/WRAITHGUARD gain the BATTLELINE keyword."
     },
     {
       "name": "Fateful Performance",
@@ -90,6 +90,113 @@
     {
       "name": "Absolute Faith",
       "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Phoenix Gem",
+      "cost": 35,
+      "effect": "[ASURYANI only] The first time the bearer is destroyed, roll one D6 at the end of the phase: on a 2+ set it back up on the battlefield with its full wounds.",
+      "detachment": "Warhost"
+    },
+    {
+      "name": "Timeless Strategist",
+      "cost": 15,
+      "effect": "[ASURYANI only] While the bearer is on the battlefield, gain 1 extra Battle Focus token per round.",
+      "detachment": "Warhost"
+    },
+    {
+      "name": "Gift of Foresight",
+      "cost": 15,
+      "effect": "[ASURYANI only] Once per round, gain a free Command Re-roll (0CP) for the bearer's unit.",
+      "detachment": "Warhost"
+    },
+    {
+      "name": "Psychic Destroyer",
+      "cost": 30,
+      "effect": "[ASURYANI PSYKER only] Add 1 to the Damage characteristic of ranged Psychic weapons equipped by the bearer.",
+      "detachment": "Warhost"
+    },
+    {
+      "name": "Firstdrawn Blade",
+      "cost": 10,
+      "effect": "[ASURYANI MOUNTED only] The bearer's unit gains the Scouts 9\" ability.",
+      "detachment": "Windrider Host"
+    },
+    {
+      "name": "Mirage Field",
+      "cost": 25,
+      "effect": "[ASURYANI MOUNTED only] Attacks against the bearer's unit suffer -1 to Hit.",
+      "detachment": "Windrider Host"
+    },
+    {
+      "name": "Seersight Strike",
+      "cost": 15,
+      "effect": "[ASURYANI MOUNTED PSYKER only] The bearer's Psychic weapons gain [ANTI-MONSTER 2+] and [ANTI-VEHICLE 2+].",
+      "detachment": "Windrider Host"
+    },
+    {
+      "name": "Echoes of Ulthanesh",
+      "cost": 20,
+      "effect": "[ASURYANI MOUNTED only] Each Command phase, spend 1CP to return a destroyed model on a 5+ (+1 outside deployment zone, +1 more in enemy deployment zone).",
+      "detachment": "Windrider Host"
+    },
+    {
+      "name": "Light of Clarity",
+      "cost": 30,
+      "effect": "[SPIRITSEER only] Boosts a nearby Wraith unit's Objective Control (+1 Infantry / +3 Monster).",
+      "detachment": "Spirit Conclave"
+    },
+    {
+      "name": "Stave of Kurnous",
+      "cost": 15,
+      "effect": "[SPIRITSEER only] A nearby Wraith unit's Critical Wounds gain the [PRECISION] ability.",
+      "detachment": "Spirit Conclave"
+    },
+    {
+      "name": "Rune of Mists",
+      "cost": 10,
+      "effect": "[SPIRITSEER only] A nearby Wraith unit gains Benefit of Cover against long-range attacks.",
+      "detachment": "Spirit Conclave"
+    },
+    {
+      "name": "Higher Duty",
+      "cost": 25,
+      "effect": "[SPIRITSEER only] Reactive 6\" move when an enemy ends a move within 8\" of the bearer.",
+      "detachment": "Spirit Conclave"
+    },
+    {
+      "name": "Craftworld's Champion",
+      "cost": 25,
+      "effect": "[ASURYANI only] The bearer has an Objective Control characteristic of 5.",
+      "detachment": "Guardian Battlehost"
+    },
+    {
+      "name": "Ethereal Pathway",
+      "cost": 30,
+      "effect": "[ASURYANI only] Up to 2 Guardians units gain the Infiltrators ability.",
+      "detachment": "Guardian Battlehost"
+    },
+    {
+      "name": "Protector of the Paths",
+      "cost": 20,
+      "effect": "[ASURYANI only] Free Fire Overwatch once per round; improved hit thresholds near objectives.",
+      "detachment": "Guardian Battlehost"
+    },
+    {
+      "name": "Breath of Vaul",
+      "cost": 10,
+      "effect": "[ASURYANI only] Re-roll flamer attack count / fusion gun Damage for the bearer's led Storm Guardians.",
+      "detachment": "Guardian Battlehost"
     }
-  ]
+  ],
+  "armyRules": [
+    {
+      "name": "Battle Focus",
+      "effect": "Gain Battle Focus tokens each round (2/4/6 by battle size). Spend to trigger Agile Manoeuvres: Swift as the Wind (+2\" Move), Flitting Shadows (immune to Fire Overwatch), Star Engines (Vehicle Advance gains [ASSAULT]), Sudden Strike (Pile-in/Consolidate +3\"), Opportunity Seized (move D6+1\" when an enemy Falls Back from Engagement Range), Fade Back (move D6+1\" after being shot)."
+    },
+    {
+      "name": "Strands of Fate",
+      "effect": "Roll 6D6 at the start of the battle; you can re-roll all remaining dice (losing one die each time) until satisfied. Remaining dice form a Fate dice pool; substitute for any Advance, Battle-shock, Charge, Damage, Hit, Save, or Wound roll once per phase per die used."
+    }
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation."
 }

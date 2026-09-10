@@ -3,7 +3,8 @@
   "battleFormations": [
     {
       "name": "Sanctic Spearhead",
-      "effect": "DP cost not confirmed in source data — check codex/Wahapedia."
+      "dp": 2,
+      "effect": "Mailed Fist: GREY KNIGHTS VEHICLE units Advance without a roll (add 6\" to Move); ranged weapons gain [ASSAULT] until the end of the turn."
     },
     {
       "name": "Purifying Fire",
@@ -28,13 +29,35 @@
     {
       "name": "Purge Squad",
       "effect": "DP cost not confirmed in source data — check codex/Wahapedia."
+    },
+    {
+      "name": "Brotherhood Strike",
+      "dp": 2,
+      "effect": "Fury of Titan: Units set up via Deep Strike re-roll Hit rolls of 1 and Wound rolls of 1 until the end of the turn."
+    },
+    {
+      "name": "Hallowed Conclave",
+      "dp": 2,
+      "effect": "Duty Before All: GREY KNIGHTS TERMINATOR units are eligible to shoot and declare a charge in a turn in which they Fell Back."
+    },
+    {
+      "name": "Banishers",
+      "dp": 2,
+      "effect": "Channelled Force: A unit selected to fight can take a Leadership test; on a pass, choose [SUSTAINED HITS 1] or [LETHAL HITS] for its Psychic melee weapons that phase."
+    },
+    {
+      "name": "Augurium Task Force",
+      "dp": 2,
+      "effect": "Prescient Redeployment: From round 2, if the Gate of Infinity selection limit was not reached, move one eligible unit into Strategic Reserves at the start of the Movement phase."
     }
   ],
   "heroicTraits": [],
   "artefacts": [
     {
       "name": "Sigil of Exigence",
-      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+      "cost": 30,
+      "effect": "[GREY KNIGHTS only] Once per battle, teleport-dodge a ranged attack, redeploying more than 8\" from enemy units.",
+      "detachment": "Sanctic Spearhead"
     },
     {
       "name": "Hallowed Shackles",
@@ -43,6 +66,127 @@
     {
       "name": "Nemesis Bow",
       "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Banishing Wave",
+      "cost": 20,
+      "effect": "[GREY KNIGHTS only (Psychic)] Deep Strike trigger: roll D6 per nearby enemy unit; 2-5 = 1 mortal wound, 6 = D3 mortal wounds.",
+      "detachment": "Brotherhood Strike"
+    },
+    {
+      "name": "Blinding Aura",
+      "cost": 10,
+      "effect": "[GREY KNIGHTS only] Deep Strike trigger: the bearer's unit is immune to Fire Overwatch that turn.",
+      "detachment": "Brotherhood Strike"
+    },
+    {
+      "name": "Purity of Purpose",
+      "cost": 15,
+      "effect": "[GREY KNIGHTS only] Deep Strike trigger: re-roll Charge rolls for the bearer's unit that turn.",
+      "detachment": "Brotherhood Strike"
+    },
+    {
+      "name": "Tome of Forbidden Ways",
+      "cost": 25,
+      "effect": "[GREY KNIGHTS only] Increases the number of units selectable for Gate of Infinity by 1.",
+      "detachment": "Brotherhood Strike"
+    },
+    {
+      "name": "Eye of the Augurium",
+      "cost": 25,
+      "effect": "[GREY KNIGHTS only] Gain an extra Heroic Intervention use at -1CP.",
+      "detachment": "Hallowed Conclave"
+    },
+    {
+      "name": "Inescapable Judgement",
+      "cost": 20,
+      "effect": "[GREY KNIGHTS only (Psychic)] When an enemy unit Falls Back from Engagement Range, it suffers D3 or D3+3 mortal wounds.",
+      "detachment": "Hallowed Conclave"
+    },
+    {
+      "name": "Sanctic Reaper",
+      "cost": 15,
+      "effect": "[GREY KNIGHTS TERMINATOR only] Add 3 to the bearer's Attacks characteristic in melee.",
+      "detachment": "Hallowed Conclave"
+    },
+    {
+      "name": "Nemesis Rounds",
+      "cost": 10,
+      "effect": "[GREY KNIGHTS TERMINATOR only] Fire Overwatch attacks made by the bearer's unit hit on an unmodified 5+.",
+      "detachment": "Hallowed Conclave"
+    },
+    {
+      "name": "Sigil of the Hunt",
+      "cost": 10,
+      "effect": "[GREY KNIGHTS only] Re-roll Hit rolls of 1 in the Shooting phase for the bearer.",
+      "detachment": "Banishers"
+    },
+    {
+      "name": "The Ephemeral Tome",
+      "cost": 15,
+      "effect": "[GREY KNIGHTS INFANTRY only] The bearer's unit can move D6\" instead of shooting; it loses eligibility to charge that turn.",
+      "detachment": "Banishers"
+    },
+    {
+      "name": "The Sixty-sixth Seal",
+      "cost": 25,
+      "effect": "[GREY KNIGHTS only] Add 1 AP to the bearer's ranged attacks in the Shooting phase.",
+      "detachment": "Banishers"
+    },
+    {
+      "name": "Pyresoul",
+      "cost": 20,
+      "effect": "[GREY KNIGHTS only (Psychic)] Once per turn, inflict D3 mortal wounds on an enemy unit within 24\".",
+      "detachment": "Banishers"
+    },
+    {
+      "name": "Driven by Duty",
+      "cost": 10,
+      "effect": "[GREY KNIGHTS WALKER only] The bearer can Pile-in and Consolidate up to 6\".",
+      "detachment": "Sanctic Spearhead"
+    },
+    {
+      "name": "Quickening Foci",
+      "cost": 15,
+      "effect": "[GREY KNIGHTS INFANTRY only] Re-roll Charge rolls after disembarking.",
+      "detachment": "Sanctic Spearhead"
+    },
+    {
+      "name": "Spiritus Machina",
+      "cost": 25,
+      "effect": "[GREY KNIGHTS INFANTRY only] Re-roll Wound rolls after disembarking and shooting.",
+      "detachment": "Sanctic Spearhead"
+    },
+    {
+      "name": "Grimoire of Conjunctions",
+      "cost": 10,
+      "effect": "[GREY KNIGHTS only] Once per battle, add 4 to the bearer's Strength characteristic in melee.",
+      "detachment": "Augurium Task Force"
+    },
+    {
+      "name": "Shield of Prophecy",
+      "cost": 20,
+      "effect": "[GREY KNIGHTS only] Once per battle, add 2 to the bearer's Toughness for the round.",
+      "detachment": "Augurium Task Force"
+    },
+    {
+      "name": "One Foot in the Future",
+      "cost": 15,
+      "effect": "[GREY KNIGHTS only] After an ingress move, move D6\" further (loses charge eligibility that turn).",
+      "detachment": "Augurium Task Force"
+    },
+    {
+      "name": "Doomseer's Amulet",
+      "cost": 25,
+      "effect": "[GREY KNIGHTS only] On Reinforcements setup, force a nearby enemy unit to take a Battle-shock test at -1.",
+      "detachment": "Augurium Task Force"
     }
-  ]
+  ],
+  "armyRules": [
+    {
+      "name": "Gate of Infinity",
+      "effect": "At the end of your opponent's Fight phase, select up to 2/3/4 eligible units (by battle size, all must have this ability and be outside Engagement Range) and place them into Strategic Reserves; they can make an ingress move in your next Movement phase, including turn 1."
+    }
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation."
 }

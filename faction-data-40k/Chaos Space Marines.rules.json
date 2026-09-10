@@ -19,17 +19,17 @@
     {
       "name": "Renegade Raiders",
       "dp": 3,
-      "effect": "Category: Reconnaissance"
+      "effect": "Raiders and Reavers: HERETIC ASTARTES ranged weapons gain [ASSAULT]; attacks against units within/near objectives gain +1 AP."
     },
     {
       "name": "Deceptors",
       "dp": 2,
-      "effect": "Category: Disruption"
+      "effect": "Masters of Misdirection: Select 2/3/4 LEGIONARIES or CULTIST MOB units (by battle size) to gain the Infiltrators ability until the end of the battle."
     },
     {
       "name": "Dread Talons",
       "dp": 2,
-      "effect": "Category: Disruption"
+      "effect": "Terror Descends (Aura): Enemy Battle-shocked or below-starting-strength units within 12\" must take a Battle-shock test in their own Command phase, with -1 to that test."
     },
     {
       "name": "Nightmare Hunt",
@@ -57,9 +57,9 @@
       "effect": "Category: Priority Assets"
     },
     {
-      "name": "Fellhammer Siege-Host",
+      "name": "Fellhammer Siege-host",
       "dp": 2,
-      "effect": "Category: Take and Hold"
+      "effect": "Iron Fortitude: (Partial capture — concerns defence against high-Strength ranged attacks targeting HERETIC ASTARTES excluding DAMNED units; verify full text on Wahapedia.)"
     },
     {
       "name": "Soulforged Warpack",
@@ -69,7 +69,7 @@
     {
       "name": "Veterans of the Long War",
       "dp": 2,
-      "effect": "Category: Take and Hold"
+      "effect": "Focus of Hatred: Select one enemy unit as your focus of hatred each Command phase; re-roll Hit rolls for attacks made by HERETIC ASTARTES (excluding DAMNED) units targeting it."
     },
     {
       "name": "Cabal of Chaos",
@@ -96,6 +96,113 @@
     {
       "name": "Disciple of Khorne",
       "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Eager for Vengeance",
+      "cost": 20,
+      "effect": "[HERETIC ASTARTES (excl. DAMNED)] The bearer's unit is eligible to shoot and declare a charge in a turn in which it Fell Back; add 1 to Charge rolls against its focus of hatred.",
+      "detachment": "Veterans of the Long War"
+    },
+    {
+      "name": "Eye of Abaddon",
+      "cost": 15,
+      "effect": "[HERETIC ASTARTES (excl. DAMNED)] Each time the focus of hatred is destroyed, you can spend 1CP to return a destroyed model to the bearer's unit on a 4+.",
+      "detachment": "Veterans of the Long War"
+    },
+    {
+      "name": "Mark of Legend",
+      "cost": 10,
+      "effect": "[HERETIC ASTARTES (excl. DAMNED)] Once per turn, you can re-roll a Hit roll, Wound roll, or saving throw made for the bearer.",
+      "detachment": "Veterans of the Long War"
+    },
+    {
+      "name": "Warmaster's Gift",
+      "cost": 15,
+      "effect": "[CHAOS LORD only] Each time the bearer makes a melee attack against its focus of hatred, an unmodified Wound roll of 5+ scores a Critical Wound.",
+      "detachment": "Veterans of the Long War"
+    },
+    {
+      "name": "Cursed Fang",
+      "cost": 10,
+      "effect": "[HERETIC ASTARTES INFANTRY only] Melee weapons equipped by the bearer have +1 AP and the [PRECISION] ability.",
+      "detachment": "Deceptors"
+    },
+    {
+      "name": "Falsehood",
+      "cost": 10,
+      "effect": "[CHAOS LORD only (excl. TERMINATOR/JUMP PACK)] Deploy the bearer in Reserves; it can be swapped in to replace a destroyed model and attach as a Leader.",
+      "detachment": "Deceptors"
+    },
+    {
+      "name": "Shroud of Obfuscation",
+      "cost": 15,
+      "effect": "[HERETIC ASTARTES INFANTRY only] The bearer's unit gains Stealth and Lone Operative.",
+      "detachment": "Deceptors"
+    },
+    {
+      "name": "Soul Link",
+      "cost": 5,
+      "effect": "[HERETIC ASTARTES INFANTRY only] The bearer gains the PSYKER keyword and copies another friendly Character's abilities until the next Command phase.",
+      "detachment": "Deceptors"
+    },
+    {
+      "name": "Despot's Claim",
+      "cost": 15,
+      "effect": "[HERETIC ASTARTES only] Each Command phase, spend 1CP to return a destroyed model on a 5+ (4+ if the bearer's unit is in the enemy deployment zone).",
+      "detachment": "Renegade Raiders"
+    },
+    {
+      "name": "Dread Reaver",
+      "cost": 15,
+      "effect": "[HERETIC ASTARTES only] Re-roll Hit and Wound rolls in melee while the bearer's unit is in the enemy deployment zone.",
+      "detachment": "Renegade Raiders"
+    },
+    {
+      "name": "Mark of the Hound",
+      "cost": 25,
+      "effect": "[HERETIC ASTARTES only] The bearer's unit gains the Scouts 6\" ability.",
+      "detachment": "Renegade Raiders"
+    },
+    {
+      "name": "Tyrant's Lash",
+      "cost": 20,
+      "effect": "[HERETIC ASTARTES only] Re-roll Advance rolls for the bearer's unit; it is eligible to shoot after Falling Back.",
+      "detachment": "Renegade Raiders"
+    },
+    {
+      "name": "Eater of Dread",
+      "cost": 15,
+      "effect": "[HERETIC ASTARTES only] Spend 1CP to return a destroyed model on a 5+ (+1 per Battle-shocked enemy unit within range).",
+      "detachment": "Dread Talons"
+    },
+    {
+      "name": "Night's Shroud",
+      "cost": 10,
+      "effect": "[CHAOS LORD only (excl. TERMINATOR)] The bearer's unit gains Stealth.",
+      "detachment": "Dread Talons"
+    },
+    {
+      "name": "Warp-fuelled Thrusters",
+      "cost": 20,
+      "effect": "[JUMP PACK CHAOS LORD only] If unengaged, the bearer's unit can retreat to Strategic Reserves at the end of the opponent's turn.",
+      "detachment": "Dread Talons"
+    },
+    {
+      "name": "Willbreaker",
+      "cost": 10,
+      "effect": "[HERETIC ASTARTES only] After the bearer's unit fights, a target unit hit must take a Battle-shock test.",
+      "detachment": "Dread Talons"
     }
-  ]
+  ],
+  "armyRules": [
+    {
+      "name": "Dark Pacts",
+      "effect": "Each time a HERETIC ASTARTES unit is selected to shoot or fight, it can make a Dark Pact: first take a Leadership test (on a failure, that unit suffers D3 mortal wounds), then select either [LETHAL HITS] or [SUSTAINED HITS 1] for that unit's weapons of the matching type until the end of the phase."
+    },
+    {
+      "name": "Cult of the Dark Gods",
+      "effect": "Your army can include KHORNE BERZERKERS, RUBRIC MARINES, PLAGUE MARINES, or NOISE MARINES with their Faction keyword replaced by HERETIC ASTARTES, subject to points caps by battle size (250/500/750pts for Incursion/Strike Force/Onslaught)."
+    }
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation."
 }

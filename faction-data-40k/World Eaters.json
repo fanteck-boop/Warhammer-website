@@ -39,7 +39,8 @@
         "bs": "2+",
         "s": "14",
         "ap": "-3",
-        "d": "D6+2"
+        "d": "D6+2",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "➤ Samni’arius and Spinegrinder - sweep",
@@ -48,7 +49,8 @@
         "bs": "2+",
         "s": "7",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       }
     ],
     "system": "40k"
@@ -101,7 +103,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Pistol"
       }
     ],
     "system": "40k"
@@ -143,7 +146,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Coward's Bane",
@@ -152,7 +156,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Bladed horn",
@@ -161,7 +166,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Extra Attacks, Lance"
       }
     ],
     "system": "40k"
@@ -203,7 +209,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "➤ Hellforged weapons - sweep",
@@ -212,7 +219,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Infernal cannon",
@@ -221,7 +229,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Rapid Fire 3"
       }
     ],
     "system": "40k"
@@ -263,7 +272,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "➤ Hellforged weapons - sweep",
@@ -272,7 +282,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Infernal cannon",
@@ -281,7 +292,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Rapid Fire 3"
       }
     ],
     "system": "40k"
@@ -322,7 +334,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Extra Attacks, Lance"
       },
       {
         "name": "Exalted chainblade",
@@ -340,7 +353,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Pistol"
       }
     ],
     "system": "40k"
@@ -381,7 +395,8 @@
         "bs": "2+",
         "s": "7",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds, Precision"
       },
       {
         "name": "Bolt pistol",
@@ -390,7 +405,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -430,7 +446,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Chainblade",
@@ -439,7 +456,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Lance"
       },
       {
         "name": "Khornate eviscerator",
@@ -489,7 +507,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
       },
       {
         "name": "Power fist",
@@ -498,7 +517,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Accursed weapon",
@@ -516,7 +536,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-VEHICLE 3+"
       },
       {
         "name": "Combi-bolter",
@@ -525,7 +546,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Paired accursed weapons",
@@ -534,7 +556,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Heavy flamer",
@@ -543,7 +566,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       }
     ],
     "system": "40k"
@@ -582,7 +606,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Chainblades",
@@ -591,7 +616,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-MONSTER 3+, Anti-VEHICLE 3+"
       },
       {
         "name": "Mauler chainblade",
@@ -658,7 +684,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-MONSTER 3+, Anti-VEHICLE 3+"
       }
     ],
     "system": "40k"
@@ -698,7 +725,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-MONSTER 3+, Anti-VEHICLE 3+"
       }
     ],
     "system": "40k"
@@ -748,7 +776,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Havoc launcher",
@@ -757,7 +786,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       },
       {
         "name": "Twin heavy bolter",
@@ -766,7 +796,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1, Twin-linked"
       },
       {
         "name": "Combi-bolter",
@@ -775,7 +806,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Combi-weapon",
@@ -784,7 +816,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
       }
     ],
     "system": "40k"
@@ -833,7 +866,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       },
       {
         "name": "Predator twin lascannon",
@@ -842,7 +876,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Combi-bolter",
@@ -851,7 +886,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Combi-weapon",
@@ -860,7 +896,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
       },
       {
         "name": "Heavy bolter",
@@ -869,7 +906,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Lascannon",
@@ -878,7 +916,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       }
     ],
     "system": "40k"
@@ -927,7 +966,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       },
       {
         "name": "Predator autocannon",
@@ -936,7 +976,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Combi-bolter",
@@ -945,7 +986,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Combi-weapon",
@@ -954,7 +996,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
       },
       {
         "name": "Heavy bolter",
@@ -963,7 +1006,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Lascannon",
@@ -972,7 +1016,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       }
     ],
     "system": "40k"
@@ -1013,7 +1058,8 @@
         "bs": "3+",
         "s": "16",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Shearing claws - sweep",
@@ -1022,7 +1068,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "➤ Heavy missile launcher - frag",
@@ -1031,7 +1078,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       },
       {
         "name": "➤ Heavy missile launcher - krak",
@@ -1040,7 +1088,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-2",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Electroscourge",
@@ -1049,7 +1098,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Hades lascannon",
@@ -1058,7 +1108,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Heavy reaper autocannon",
@@ -1067,7 +1118,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Devastating Wounds, Sustained Hits 1"
       },
       {
         "name": "Hades battle cannon",
@@ -1076,7 +1128,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Ectoplasma destructor",
@@ -1085,7 +1138,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Heavy baleflamer",
@@ -1094,7 +1148,8 @@
         "bs": "N/A",
         "s": "7",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Ignores Cover, Torrent"
       }
     ],
     "system": "40k"
@@ -1134,7 +1189,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Hades autocannon",
@@ -1143,7 +1199,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Rapid Fire 4"
       },
       {
         "name": "Forgefiend jaws",
@@ -1192,7 +1249,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Combi-bolter",
@@ -1201,7 +1259,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy flamer",
@@ -1210,7 +1269,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "➤ Missile launcher - frag",
@@ -1219,7 +1279,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Heavy"
       },
       {
         "name": "➤ Missile launcher - krak",
@@ -1228,7 +1289,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Heavy"
       },
       {
         "name": "Helbrute hammer",
@@ -1255,7 +1317,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Twin autocannon",
@@ -1264,7 +1327,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Plasma cannon",
@@ -1273,7 +1337,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Hazardous, Lethal Hits"
       }
     ],
     "system": "40k"
@@ -1313,7 +1378,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-FLY 2+, Devastating Wounds"
       },
       {
         "name": "Baleflamer",
@@ -1322,7 +1388,8 @@
         "bs": "N/A",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Hades autocannon",
@@ -1331,7 +1398,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Rapid Fire 4"
       }
     ],
     "system": "40k"
@@ -1381,7 +1449,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       }
     ],
     "system": "40k"
@@ -1432,7 +1501,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Havoc launcher",
@@ -1441,7 +1511,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       },
       {
         "name": "Combi-weapon",
@@ -1450,7 +1521,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
       }
     ],
     "system": "40k"
@@ -1549,7 +1621,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Skullhurler",
@@ -1558,7 +1631,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Gorestorm cannon",
@@ -1567,7 +1641,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Daemongore cannon",
@@ -1576,7 +1651,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-4",
-        "d": "D6+2"
+        "d": "D6+2",
+        "keywords": "Blast"
       },
       {
         "name": "Ichor cannon",
@@ -1585,7 +1661,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast"
       }
     ],
     "system": "40k"
@@ -1625,7 +1702,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Twin lascannon",
@@ -1634,7 +1712,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Havoc launcher",
@@ -1643,7 +1722,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       },
       {
         "name": "Autocannon",
@@ -1652,7 +1732,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy"
       }
     ],
     "system": "40k"
@@ -1692,7 +1773,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Twin autocannon",
@@ -1701,7 +1783,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Twin lascannon",
@@ -1710,7 +1793,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Twin-linked"
       }
     ],
     "system": "40k"
@@ -1749,7 +1833,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Chainblade",
@@ -1758,7 +1843,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Lance"
       },
       {
         "name": "Close combat weapon",
@@ -1767,7 +1853,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Blood harpoon",
@@ -1776,7 +1863,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Assault, Sustained Hits D3"
       }
     ],
     "system": "40k"
@@ -1863,7 +1951,8 @@
         "bs": "N/A",
         "s": "8",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "➤ Slaughter and Carnage - strike",
@@ -1925,7 +2014,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "➤ Great axe of Khorne - strike",
@@ -2032,7 +2122,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks, Lance"
       }
     ],
     "system": "40k"
@@ -2081,7 +2172,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       }
     ],
     "system": "40k"
@@ -2154,7 +2246,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Extra Attacks, Lance"
       }
     ],
     "system": "40k"

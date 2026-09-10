@@ -34,7 +34,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
       },
       {
         "name": "➤ Plasma Pistol - Supercharge",
@@ -43,7 +44,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Pistol"
       },
       {
         "name": "➤ Plasma Pistol - Standard",
@@ -52,7 +54,8 @@
         "bs": "2+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Close Combat Weapon",
@@ -61,7 +64,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -123,7 +127,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-infantry 4+, Devastating Wounds"
       }
     ],
     "system": "40k"
@@ -163,7 +168,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Heavy Bolt Pistol",
@@ -172,7 +178,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Pyre Pistol",
@@ -181,7 +188,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "Close combat weapon",
@@ -190,7 +198,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Bolt Rifle",
@@ -199,7 +208,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Heavy"
       },
       {
         "name": "Bolt pistol",
@@ -208,7 +218,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Astartes Chainsword",
@@ -217,7 +228,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Power fist",
@@ -226,7 +238,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Pyreblaster",
@@ -235,7 +248,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       }
     ],
     "system": "40k"
@@ -276,7 +290,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "➤ Plasma pistol - standard",
@@ -285,7 +300,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Pyre Pistol",
@@ -294,7 +310,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "Twin Lightning Claws",
@@ -303,7 +320,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Twin-linked"
       }
     ],
     "system": "40k"
@@ -346,7 +364,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-Character 5+, Precision"
       },
       {
         "name": "➤ Black Sword - Sweep",
@@ -364,7 +383,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -403,7 +423,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Combat Knife",
@@ -412,7 +433,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Precision"
       },
       {
         "name": "Astartes Shotgun",
@@ -421,7 +443,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault"
       },
       {
         "name": "Boltgun",
@@ -430,7 +453,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Astartes Chainsword",
@@ -439,7 +463,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Power weapon",
@@ -448,7 +473,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Power fist",
@@ -457,7 +483,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Heavy Bolter",
@@ -466,7 +493,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy Flamer",
@@ -475,7 +503,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Grav-cannon",
@@ -484,7 +513,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-vehicle 2+, Heavy"
       }
     ],
     "system": "40k"
@@ -523,7 +553,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Icarus Rocket Pod",
@@ -532,7 +563,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-fly 2+"
       },
       {
         "name": "Lancer Laser Destroyer",
@@ -541,7 +573,8 @@
         "bs": "3+",
         "s": "14",
         "ap": "-4",
-        "d": "D6+3"
+        "d": "D6+3",
+        "keywords": "Heavy"
       },
       {
         "name": "Ironhail Heavy Stubber",
@@ -550,7 +583,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Multi-melta",
@@ -559,7 +593,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Fragstorm grenade launcher",
@@ -568,7 +603,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       },
       {
         "name": "Storm bolter",
@@ -577,7 +613,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       }
     ],
     "system": "40k"
@@ -616,7 +653,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Icarus Rocket Pod",
@@ -625,7 +663,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-fly 2+"
       },
       {
         "name": "Tempest Bolter",
@@ -634,7 +673,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 4"
       },
       {
         "name": "Twin Heavy Onslaught Gatling Cannon",
@@ -643,7 +683,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Twin-linked"
       },
       {
         "name": "Ironhail Heavy Stubber",
@@ -652,7 +693,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Multi-melta",
@@ -661,7 +703,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       }
     ],
     "system": "40k"
@@ -700,7 +743,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Icarus Rocket Pod",
@@ -709,7 +753,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-fly 2+"
       },
       {
         "name": "Twin Las-talon",
@@ -718,7 +763,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Ironhail Heavy Stubber",
@@ -727,7 +773,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Multi-melta",
@@ -736,7 +783,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       }
     ],
     "system": "40k"
@@ -778,7 +826,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Ironhail Skytalon Array",
@@ -787,7 +836,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Fly 4+, Sustained Hits 1"
       },
       {
         "name": "➤ Bellicatus Missile Array - Krak",
@@ -805,7 +855,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Multi-melta",
@@ -814,7 +865,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Fragstorm grenade launcher",
@@ -823,7 +875,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       },
       {
         "name": "Storm bolter",
@@ -832,7 +885,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       }
     ],
     "system": "40k"
@@ -873,7 +927,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Multi-melta",
@@ -882,7 +937,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Hunter-slayer missile",
@@ -891,7 +947,8 @@
         "bs": "2+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Indirect Fire, One Shot"
       },
       {
         "name": "Repulsor Defensive Array",
@@ -909,7 +966,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1, Twin-linked"
       },
       {
         "name": "Twin lascannon",
@@ -918,7 +976,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Heavy Onslaught Gatling Cannon",
@@ -927,7 +986,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Las-talon",
@@ -977,7 +1037,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Heavy Onslaught Gatling Cannon",
@@ -986,7 +1047,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Icarus Rocket Pod",
@@ -995,7 +1057,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-fly 2+"
       },
       {
         "name": "Twin heavy bolter",
@@ -1004,7 +1067,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1, Twin-linked"
       },
       {
         "name": "Twin Icarus ironhail heavy stubber",
@@ -1013,7 +1077,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-FLY 4+, Rapid Fire 3, Twin-linked"
       },
       {
         "name": "Repulsor Executioner Defensive Array",
@@ -1031,7 +1096,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Multi-melta",
@@ -1040,7 +1106,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "➤ Macro Plasma Incinerator - Supercharge",
@@ -1049,7 +1116,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Hazardous"
       },
       {
         "name": "Heavy Laser Destroyer",
@@ -1058,7 +1126,8 @@
         "bs": "3+",
         "s": "16",
         "ap": "-4",
-        "d": "D6+4"
+        "d": "D6+4",
+        "keywords": "Heavy"
       }
     ],
     "system": "40k"
@@ -1101,7 +1170,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Master-crafted Power Weapon",
@@ -1110,7 +1180,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Heavy Bolt Pistol",
@@ -1119,7 +1190,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Combi-weapon",
@@ -1128,7 +1200,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
       }
     ],
     "system": "40k"
@@ -1171,7 +1244,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Combi-weapon",
@@ -1180,7 +1254,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
       },
       {
         "name": "➤ Plasma Pistol - Standard",
@@ -1189,7 +1264,8 @@
         "bs": "2+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "➤ Plasma Pistol - Supercharge",
@@ -1198,7 +1274,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Pistol"
       }
     ],
     "system": "40k"
@@ -1241,7 +1318,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Crozius arcanum",
@@ -1259,7 +1337,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "Absolvor bolt pistol",
@@ -1268,7 +1347,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -1311,7 +1391,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Master-crafted Power Weapon",
@@ -1320,7 +1401,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       }
     ],
     "system": "40k"
@@ -1373,7 +1455,8 @@
         "bs": "2+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Hurricane Bolter",
@@ -1382,7 +1465,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 6, Twin-Linked"
       },
       {
         "name": "Multi-melta",
@@ -1391,7 +1475,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Storm bolter",
@@ -1400,7 +1485,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Twin assault cannon",
@@ -1409,7 +1495,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Twin-Linked"
       }
     ],
     "system": "40k"
@@ -1448,7 +1535,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Pistol"
       },
       {
         "name": "Sternguard Bolt Rifle",
@@ -1457,7 +1545,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Devastating Wounds, Heavy, Rapid Fire 1"
       },
       {
         "name": "Close combat weapon",
@@ -1466,7 +1555,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Combi-weapon",
@@ -1475,7 +1565,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
       },
       {
         "name": "Pyrecannon",
@@ -1484,7 +1575,8 @@
         "bs": "N/A",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Sternguard Heavy Bolter",
@@ -1493,7 +1585,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds, Heavy, Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -1532,7 +1625,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Power weapon",
@@ -1541,7 +1635,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Chainfist",
@@ -1550,7 +1645,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-VEHICLE 3+"
       },
       {
         "name": "Power fist",
@@ -1559,7 +1655,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Heavy Flamer",
@@ -1568,7 +1665,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Assault Cannon",
@@ -1577,7 +1675,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds"
       }
     ],
     "system": "40k"
@@ -1620,7 +1719,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-Character 5+, Precision"
       },
       {
         "name": "➤ Black Sword - Sweep",
@@ -1638,7 +1738,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"

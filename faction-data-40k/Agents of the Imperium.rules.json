@@ -1,40 +1,164 @@
 {
   "faction": "Agents of the Imperium",
+  "armyRules": [
+    {
+      "name": "Assigned Agents",
+      "effect": "If your Army Faction is AGENTS OF THE IMPERIUM, select a Detachment from this book as normal. If your Army Faction is different but every model in your army has the IMPERIUM keyword, you can include Agents of the Imperium units subject to limits by battle size: Incursion 1 Retinue/1 Character/1 Requisitioned; Strike Force 2/2/1; Onslaught 3/3/2. Dedicated Transports must start embarked or count as destroyed round 1."
+    },
+    {
+      "name": "Kill Team",
+      "effect": "Mixed-Toughness units use the majority Toughness (highest if tied) when being wounded. Kill Team Terminator/Outrider/Biker models and jump pack models take up 2 Transport slots each. All models in such units count as INFANTRY for terrain interaction purposes."
+    }
+  ],
   "battleFormations": [
     {
-      "name": "Rogue Trader Entourage",
-      "effect": "DP cost not confirmed in source data — check codex/Wahapedia."
+      "name": "Ordo Xenos Alien Hunters",
+      "dp": 2,
+      "effect": "Deathwatch Mission Tactics: At the start of your Command phase, select one (once each per battle): Furor Tactics ([SUSTAINED HITS 1] for Deathwatch weapons), Malleus Tactics ([LETHAL HITS]), or Purgatus Tactics (Critical Wound gains [PRECISION]). Active until your next Command phase."
     },
     {
-      "name": "Callidus Assassin Squad",
-      "effect": "DP cost not confirmed in source data — check codex/Wahapedia."
+      "name": "Ordo Hereticus Purgation Force",
+      "dp": 2,
+      "effect": "Root out Heresy: Adeptus Arbites/Inquisitor/Inquisitorial Agents/Ordo Hereticus ranged weapons gain [IGNORES COVER]; attacks vs Chaos units of 5+ models gain [SUSTAINED HITS 1]."
     },
     {
-      "name": "Jokaero Weaponsmith",
-      "effect": "DP cost not confirmed in source data — check codex/Wahapedia."
+      "name": "Ordo Malleus Daemon Hunters",
+      "dp": 2,
+      "effect": "Destroy the Daemonic: Inquisitor/Inquisitorial Agents/Ordo Malleus attacks re-roll Hit rolls of 1; re-roll Wound rolls of 1 as well vs Daemon units."
     },
     {
-      "name": "Black Library Librarian",
-      "effect": "DP cost not confirmed in source data — check codex/Wahapedia."
+      "name": "Imperialis Fleet",
+      "dp": 2,
+      "effect": "At all Costs: At the start of your Command phase, select Eliminate At All Costs (+1 Hit vs a chosen enemy unit) or Acquire At All Costs (+1 Leadership/OC and 5+ invuln near a chosen objective). Active until your next Command phase."
     },
     {
-      "name": "Ordo Malleator",
-      "effect": "DP cost not confirmed in source data — check codex/Wahapedia."
-    },
-    {
-      "name": "Mercenary Company",
-      "effect": "DP cost not confirmed in source data — check codex/Wahapedia."
+      "name": "Veiled Blade Elimination Force",
+      "dp": 1,
+      "effect": "Extremis Sanction: Officio Assassinorum units can use their signature ability (Overkill/Soulless Horror/Shieldbreaker) twice per battle instead of once (not more than once per battle round). Each Assassin unit also gains a points-costed Extremis ability shown below."
     }
   ],
   "heroicTraits": [],
   "artefacts": [
     {
-      "name": "Universal Anathema",
-      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+      "name": "Amulet of Auto-Chastisement",
+      "cost": 25,
+      "effect": "[WATCH MASTER model only] At the start of the opponent's Shooting phase, force a nearby enemy Vehicle to test Leadership: pass = -1 Hit that phase, fail = cannot shoot.",
+      "detachment": "Ordo Xenos Alien Hunters"
+    },
+    {
+      "name": "Beacon Angelis",
+      "cost": 30,
+      "effect": "[WATCH MASTER model only] The bearer's unit gains Deep Strike; can be targeted with Rapid Ingress for 0CP.",
+      "detachment": "Ordo Xenos Alien Hunters"
     },
     {
       "name": "Blackweave Shroud",
-      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+      "cost": 15,
+      "effect": "[AGENTS OF THE IMPERIUM model only] The bearer has Feel No Pain 4+.",
+      "detachment": "Ordo Xenos Alien Hunters"
+    },
+    {
+      "name": "Universal Anathema",
+      "cost": 10,
+      "effect": "[AGENTS OF THE IMPERIUM model only] The bearer's melee weapons gain [ANTI-INFANTRY 2+] and [ANTI-MONSTER 4+].",
+      "detachment": "Ordo Xenos Alien Hunters"
+    },
+    {
+      "name": "Ignis Judicium",
+      "cost": 10,
+      "effect": "[INQUISITOR or MINISTORUM PRIEST model only] Ranged weapons gain [DEVASTATING WOUNDS], [MELTA 1], and [PRECISION].",
+      "detachment": "Ordo Hereticus Purgation Force"
+    },
+    {
+      "name": "Liber Heresius",
+      "cost": 10,
+      "effect": "[INQUISITOR or MINISTORUM PRIEST model only] After deployment, redeploy up to 3 units, any to Strategic Reserves.",
+      "detachment": "Ordo Hereticus Purgation Force"
+    },
+    {
+      "name": "No Escape",
+      "cost": 25,
+      "effect": "[INQUISITOR model only] Aura: enemy units within 6\" trying to Fall Back must pass a Leadership test or Remain Stationary instead.",
+      "detachment": "Ordo Hereticus Purgation Force"
+    },
+    {
+      "name": "Witch Hunter",
+      "cost": 15,
+      "effect": "[INQUISITOR or MINISTORUM PRIEST model only] While leading a unit, re-roll Hit rolls against Psyker units.",
+      "detachment": "Ordo Hereticus Purgation Force"
+    },
+    {
+      "name": "Daemon Slayer",
+      "cost": 10,
+      "effect": "[INQUISITOR model only] +1 Attacks on melee weapons; they gain [ANTI-DAEMON 3+].",
+      "detachment": "Ordo Malleus Daemon Hunters"
+    },
+    {
+      "name": "Formidable Resolve",
+      "cost": 5,
+      "effect": "[INQUISITOR model only] +1 Leadership/Wounds; once per battle clear Battle-shock from a nearby unit.",
+      "detachment": "Ordo Malleus Daemon Hunters"
+    },
+    {
+      "name": "Gift of the Prescient",
+      "cost": 20,
+      "effect": "[INQUISITOR model only] Once per battle, use Rapid Ingress for 0CP on a Grey Knights Terminator Squad, setting up more than 6\" from enemies.",
+      "detachment": "Ordo Malleus Daemon Hunters"
+    },
+    {
+      "name": "Grimoire of True Names",
+      "cost": 10,
+      "effect": "[INQUISITOR model only] Aura: enemies within 9\" have -1 Leadership; Daemon units within 9\" also suffer -1 Hit/-1 Wound.",
+      "detachment": "Ordo Malleus Daemon Hunters"
+    },
+    {
+      "name": "Clandestine Operation",
+      "cost": 15,
+      "effect": "[AGENTS OF THE IMPERIUM model only] At deployment, up to 3 Infantry units (excl. Grey Knights Terminator Squad) gain Infiltrators.",
+      "detachment": "Imperialis Fleet"
+    },
+    {
+      "name": "Combat Landers",
+      "cost": 10,
+      "effect": "[VOIDFARERS model only] At deployment, up to 3 Voidfarers units gain Deep Strike.",
+      "detachment": "Imperialis Fleet"
+    },
+    {
+      "name": "Digital Weapons",
+      "cost": 10,
+      "effect": "[AGENTS OF THE IMPERIUM model only] When fighting, roll 3D6: each 4+ inflicts 1 mortal wound (with [PRECISION]) on a nearby enemy unit.",
+      "detachment": "Imperialis Fleet"
+    },
+    {
+      "name": "Fleetmaster",
+      "cost": 20,
+      "effect": "[VOIDFARERS model only] Once per battle round, target the bearer's unit with Violent Acquisition, Masters of the Void, or Close-quarters Barrage for 0CP.",
+      "detachment": "Imperialis Fleet"
+    },
+    {
+      "name": "Decoy Targets",
+      "cost": 15,
+      "effect": "[CALLIDUS ASSASSIN model only] Twice per battle, swap position with a friendly unengaged Infantry model, destroying it in the process.",
+      "detachment": "Veiled Blade Elimination Force"
+    },
+    {
+      "name": "Esoteric Explosives",
+      "cost": 10,
+      "effect": "[CULEXUS ASSASSIN model only] Explosives Stratagem inflicts a mortal wound on a 3+ instead of 4+.",
+      "detachment": "Veiled Blade Elimination Force"
+    },
+    {
+      "name": "Intraneural Biotech",
+      "cost": 15,
+      "effect": "[EVERSOR ASSASSIN model only] Target with Heroic Intervention for -1CP regardless of prior uses that phase.",
+      "detachment": "Veiled Blade Elimination Force"
+    },
+    {
+      "name": "Micromelta Rounds",
+      "cost": 20,
+      "effect": "[VINDICARE ASSASSIN model only] The exitus rifle gains [ANTI-MONSTER 4+] and [ANTI-VEHICLE 4+].",
+      "detachment": "Veiled Blade Elimination Force"
     }
-  ]
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation."
 }

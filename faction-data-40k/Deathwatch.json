@@ -37,7 +37,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lance"
       },
       {
         "name": "Vigil spear (Melee)",
@@ -46,7 +47,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Lance"
       }
     ],
     "system": "40k"
@@ -90,7 +92,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 4+, Devastating Wounds, Ignores Cover, Torrent"
       },
       {
         "name": "Master-crafted power weapon",
@@ -99,7 +102,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       }
     ],
     "system": "40k"
@@ -143,7 +147,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Hurricane bolter",
@@ -152,7 +157,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 6, Twin-Linked"
       },
       {
         "name": "Twin assault cannon",
@@ -161,7 +167,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Twin-Linked"
       },
       {
         "name": "Twin lascannon",
@@ -170,7 +177,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Twin-linked"
       }
     ],
     "system": "40k"
@@ -215,7 +223,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Artificer crozius",
@@ -224,7 +233,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
       },
       {
         "name": "Close combat weapon",
@@ -233,7 +243,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Boltgun",
@@ -242,7 +253,8 @@
         "bs": "3",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Long Vigil ranged weapon",
@@ -251,7 +263,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
       },
       {
         "name": "Long Vigil melee weapon",
@@ -269,7 +282,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Heavy, Rapid Fire D3"
       },
       {
         "name": "Twin lightning claws",
@@ -278,7 +292,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Psychic Cleanse",
@@ -287,7 +302,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Psychic"
       },
       {
         "name": "Force weapon",
@@ -296,7 +312,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-3",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -339,7 +356,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Assault Cannon",
@@ -348,7 +366,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Heavy flamer",
@@ -357,7 +376,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       }
     ],
     "system": "40k"
@@ -398,7 +418,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "➤ Plasma pistol - Supercharge",
@@ -407,7 +428,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Pistol"
       },
       {
         "name": "➤ Plasma incinerator - Supercharge",
@@ -416,7 +438,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Assault, Hazardous, Heavy"
       },
       {
         "name": "Bolt pistol",
@@ -425,7 +448,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Castellan Launcher",
@@ -434,7 +458,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Indirect Fire"
       },
       {
         "name": "Vengor launcher",
@@ -443,7 +468,8 @@
         "bs": "2+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Indirect Fire"
       },
       {
         "name": "Deathwatch bolt rifle",
@@ -452,7 +478,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Heavy, Lethal Hits"
       },
       {
         "name": "➤ Astartes grenade launcher - frag",
@@ -461,7 +488,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       },
       {
         "name": "Astartes Chainsword",
@@ -470,7 +498,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Heavy bolt pistol",
@@ -479,7 +508,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -520,7 +550,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Close combat weapon",
@@ -529,7 +560,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Melta rifle",
@@ -538,7 +570,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Heavy, Melta 2"
       },
       {
         "name": "Multi-melta",
@@ -547,7 +580,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Fragstorm grenade launcher",
@@ -556,7 +590,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       }
     ],
     "system": "40k"
@@ -601,7 +636,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Lethal Hits"
       },
       {
         "name": "Bolt pistol",
@@ -610,7 +646,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Close combat weapon",
@@ -619,7 +656,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Deathwatch occulus bolt carbine",
@@ -628,7 +666,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Ignores Cover, Lethal Hits"
       },
       {
         "name": "Paired combat blades",
@@ -637,7 +676,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Las fusil",
@@ -646,7 +686,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Heavy"
       }
     ],
     "system": "40k"
@@ -688,7 +729,8 @@
         "bs": "3",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Power weapon",
@@ -697,7 +739,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Deathwatch thunder hammer",
@@ -706,7 +749,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Close combat weapon",
@@ -715,7 +759,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Frag cannon",
@@ -724,7 +769,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Heavy, Rapid Fire D3"
       },
       {
         "name": "➤ Infernus heavy bolter - heavy flamer",
@@ -733,7 +779,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores cover, Torrent"
       },
       {
         "name": "Stalker-pattern boltgun",
@@ -742,7 +789,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Precision"
       },
       {
         "name": "Deathwatch shotgun",
@@ -751,7 +799,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "2"
+        "d": "2",
+        "keywords": "Assault"
       },
       {
         "name": "Blackshield blades",
@@ -760,7 +809,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Xenophase blade",
@@ -769,7 +819,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds"
       }
     ],
     "system": "40k"
@@ -811,7 +862,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Hand flamer",
@@ -820,7 +872,8 @@
         "bs": "N/A",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "➤ Plasma pistol - Supercharge",
@@ -829,7 +882,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Pistol"
       },
       {
         "name": "Astartes Chainsword",
@@ -838,7 +892,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Power fist",
@@ -847,7 +902,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Power weapon",
@@ -856,7 +912,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Close combat weapon",
@@ -865,7 +922,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -907,7 +965,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol, Precision"
       }
     ],
     "system": "40k"

@@ -34,7 +34,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Volkanite disintegrator",
@@ -43,7 +44,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds"
       }
     ],
     "system": "40k"
@@ -82,7 +84,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Theyn's melee weapon",
@@ -100,7 +103,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Autoch-pattern bolter",
@@ -109,7 +113,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Ion blaster",
@@ -127,7 +132,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Plasma knife",
@@ -202,7 +208,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds"
       }
     ],
     "system": "40k"
@@ -300,7 +307,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Psychic"
       },
       {
         "name": "➤ Ancestral Wrath - witchfire",
@@ -309,7 +317,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-2",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Psychic"
       },
       {
         "name": "➤ Ancestral Wrath - focused witchfire",
@@ -318,7 +327,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-2",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Hazardous, Psychic"
       },
       {
         "name": "Autoch-pattern bolter",
@@ -327,7 +337,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Close combat weapon",
@@ -336,7 +347,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -377,7 +389,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Close combat weapon",
@@ -386,7 +399,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Plasma torch",
@@ -422,7 +436,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-MONSTER 3+, Anti-VEHICLE 3+"
       },
       {
         "name": "Graviton rifle",
@@ -431,7 +446,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-MONSTER 3+, Anti-VEHICLE 3+"
       }
     ],
     "system": "40k"
@@ -469,7 +485,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       },
       {
         "name": "EtaCarn plasma gun",
@@ -478,7 +495,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Volkanite disintegrator",
@@ -487,7 +505,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Concussion gauntlet",
@@ -496,7 +515,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Plasma blade gauntlet",
@@ -514,7 +534,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-MONSTER 3+, Anti-VEHICLE 3+"
       }
     ],
     "system": "40k"
@@ -552,7 +573,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Mole grenade launcher",
@@ -561,7 +583,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Indirect Fire"
       }
     ],
     "system": "40k"
@@ -604,7 +627,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Bolt shotgun",
@@ -613,7 +637,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault"
       },
       {
         "name": "Magna-coil autocannon",
@@ -681,7 +706,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 2, Twin-linked"
       },
       {
         "name": "HYLas beam cannon",
@@ -699,7 +725,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Assault, Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -737,7 +764,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Bolt cannon",
@@ -746,7 +774,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 2"
       },
       {
         "name": "Graviton blast cannon",
@@ -755,7 +784,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-MONSTER 3+, Anti-VEHICLE 3+"
       },
       {
         "name": "SP conversion beamer",
@@ -764,7 +794,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Conversion, Lethal Hits"
       }
     ],
     "system": "40k"
@@ -813,7 +844,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Assault, Sustained Hits 1"
       },
       {
         "name": "SP heavy conversion beamer",
@@ -822,7 +854,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-2",
-        "d": "4"
+        "d": "4",
+        "keywords": "Conversion, Lethal Hits"
       },
       {
         "name": "Heavy magna-rail cannon",
@@ -831,7 +864,8 @@
         "bs": "4+",
         "s": "18",
         "ap": "-4",
-        "d": "D6+4"
+        "d": "D6+4",
+        "keywords": "Devastating Wounds, Heavy"
       },
       {
         "name": "Cyclic ion cannon",
@@ -840,7 +874,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast"
       },
       {
         "name": "Twin ion beamer",
@@ -849,7 +884,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Twin-linked"
       },
       {
         "name": "Twin bolt cannon",
@@ -858,7 +894,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 2, Twin-linked"
       },
       {
         "name": "Hekaton warhead",
@@ -867,7 +904,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, One Shot"
       }
     ],
     "system": "40k"
@@ -906,7 +944,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Bolt shotgun",
@@ -915,7 +954,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault"
       },
       {
         "name": "APM launcher",
@@ -924,7 +964,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Anti-MONSTER 3+, Anti-VEHICLE 3+"
       },
       {
         "name": "Magna-coil rifle",
@@ -933,7 +974,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Ignores Cover, Precision"
       },
       {
         "name": "Bolt revolver",
@@ -942,7 +984,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Plasma knife",
@@ -990,7 +1033,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "➤ Bane - strike",
@@ -999,7 +1043,8 @@
         "bs": "2+",
         "s": "12",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "Precision"
       },
       {
         "name": "➤ Bane - sweep",
@@ -1047,7 +1092,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Close combat weapon",
@@ -1056,7 +1102,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -1094,7 +1141,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "➤ Transmatter inverter - full charge",
@@ -1103,7 +1151,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Rapid Fire 2"
       },
       {
         "name": "➤ Transmatter inverter - overcharge",
@@ -1112,7 +1161,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "Hazardous, Overcharge, Rapid Fire 3"
       },
       {
         "name": "Close combat weapon",
@@ -1121,7 +1171,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -1163,7 +1214,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Magna-coil autocannon",
@@ -1181,7 +1233,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       }
     ],
     "system": "40k"
@@ -1218,7 +1271,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Plasma knife",
@@ -1236,7 +1290,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Plasma sword",
@@ -1245,7 +1300,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -1282,7 +1338,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Concussion gauntlet",
@@ -1291,7 +1348,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Autoch-pattern bolter",
@@ -1300,7 +1358,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -1348,7 +1407,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Breacher ordnance",
@@ -1357,7 +1417,8 @@
         "bs": "5+",
         "s": "10",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Heavy, Indirect Fire"
       },
       {
         "name": "Tremor shells",
@@ -1366,7 +1427,8 @@
         "bs": "5+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Heavy, Indirect Fire"
       }
     ],
     "system": "40k"
@@ -1526,7 +1588,8 @@
         "bs": "2+",
         "s": "10",
         "ap": "-2",
-        "d": "4"
+        "d": "4",
+        "keywords": "Anti-Monster 3+, Anti-Vehicle 3+, Sustained Hits 1"
       },
       {
         "name": "➤ Kromlôk's Revenge - plasma sweeps",
@@ -1535,7 +1598,8 @@
         "bs": "2+",
         "s": "7",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Warforge gauntlets",
@@ -1544,7 +1608,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks, Sustained Hits 1"
       }
     ],
     "system": "40k"

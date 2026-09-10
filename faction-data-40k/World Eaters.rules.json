@@ -1,66 +1,155 @@
 {
   "faction": "World Eaters",
+  "armyRules": [
+    {
+      "name": "Pact of Blood",
+      "effect": "Unless stated otherwise, you cannot select BLOOD LEGIONS as your Army Faction."
+    },
+    {
+      "name": "Blessings of Khorne",
+      "effect": "At the start of the battle round, roll 8D6 to activate up to two Blessings of Khorne (each requires a specific double/triple threshold): Unbridled Bloodlust (+1 Charge rolls), Rage-fuelled Invigoration (Pile-in/Consolidate up to 6\"), Total Carnage (destroyed models fight-on-death on 4+), Martial Excellence ([SUSTAINED HITS 1] melee), Warp Blades ([LETHAL HITS] melee), Decapitating Strikes ([DEVASTATING WOUNDS] vs Infantry). Active until end of the battle round."
+    }
+  ],
   "battleFormations": [
     {
-      "name": "Khorne Daemonkin",
+      "name": "Berzerker Warband",
       "dp": 3,
-      "effect": "Category: Priority Assets"
+      "effect": "Relentless Rage: Each time a WORLD EATERS unit makes a Charge move, until end of turn add 1 Attacks and 2 Strength to its melee weapons."
     },
     {
-      "name": "Slaughterbound",
+      "name": "Cult of Blood",
       "dp": 2,
-      "effect": "Category: Purge the Foe"
+      "effect": "Idols of Khorne: At the start of your Command phase, select one aura ability (Idol of Infinite Rage +1Hit/+1Wound, Idol of Burning Wrath +1\"Move/+1Advance/Charge, or Idol of Blessed Blood 4+ invuln) active until your next Command phase for nearby JAKHALS/GOREMONGERS units, each selectable once per battle. JAKHALS/GOREMONGERS gain BATTLELINE."
     },
     {
-      "name": "Eightbound",
+      "name": "Khorne Daemonkin",
       "dp": 2,
-      "effect": "Category: Take and Hold"
+      "effect": "Blood Tithe: Gain Blood Tithe Points (BTP) on a 3+ each time a Blood Legions/World Eaters unit destroys an enemy. Spend BTP at the start of the Command phase: Enraged Abjuration [2BTP] Feel No Pain 5+ vs Psychic/mortal wounds, Daemonic Rage [3BTP] melee gains [LANCE], Boon of Blood [4BTP] 4+ invuln, Might of Khorne [5BTP] Blood Legions gain Blessings of Khorne. Can include Blood Legions up to 500/1000/1500pts by battle size; cannot be Warlord."
     },
     {
-      "name": "Bloodletters",
-      "dp": 1,
-      "effect": "Category: Priority Assets"
+      "name": "Possessed Slaughterband",
+      "dp": 2,
+      "effect": "Brazen Fury: WORLD EATERS POSSESSED units can make a surge move of up to D6\" in the opponent's Shooting phase if a model in the unit was destroyed by those attacks."
     },
     {
-      "name": "Bloodcrushers",
-      "dp": 1,
-      "effect": "Category: Take and Hold"
+      "name": "Goretrack Onslaught",
+      "dp": 2,
+      "effect": "Rush to the Fray: (Detachment rule text not fully captured this pass — verify remainder on Wahapedia.)"
     },
     {
-      "name": "Flesh Hounds",
-      "dp": 1,
-      "effect": "Category: Take and Hold"
+      "name": "Brazen Engines",
+      "dp": 2,
+      "effect": "Rampaging Terrors: (Detachment rule text not captured this pass — verify on Wahapedia.)"
     },
     {
-      "name": "Goremongers",
-      "dp": 1,
-      "effect": "Category: Priority Assets"
+      "name": "Butchers of Khorne",
+      "dp": 2,
+      "effect": "Adamantine Avalanche: (Detachment rule text not captured this pass — verify on Wahapedia.)"
     },
     {
-      "name": "Jakhals",
-      "dp": 1,
-      "effect": "Category: Disruption"
-    },
-    {
-      "name": "Khorne Daemonhost",
-      "dp": 1,
-      "effect": "Category: Purge the Foe"
-    },
-    {
-      "name": "Flood of Carnage",
-      "dp": 1,
-      "effect": "Category: Take and Hold"
+      "name": "Vessels of Wrath",
+      "dp": 2,
+      "effect": "Wrath of Khorne: (Detachment rule text not captured this pass — verify on Wahapedia.)"
     }
   ],
   "heroicTraits": [],
   "artefacts": [
     {
-      "name": "Disciple of Khorne",
-      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+      "name": "Berzerker Glaive",
+      "cost": 35,
+      "effect": "[WORLD EATERS model only] +1 Attacks/Damage on melee weapons (excl. Extra Attacks weapons).",
+      "detachment": "Berzerker Warband"
     },
     {
-      "name": "Murder-Forged Entity",
-      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+      "name": "Helm of Brazen Ire",
+      "cost": 30,
+      "effect": "[WORLD EATERS model only] Attacks allocated to the bearer have Damage reduced by 1.",
+      "detachment": "Berzerker Warband"
+    },
+    {
+      "name": "Favoured of Khorne",
+      "cost": 20,
+      "effect": "[WORLD EATERS model only] Re-roll up to two D6 on your Blessings of Khorne roll if the bearer is on the battlefield.",
+      "detachment": "Berzerker Warband"
+    },
+    {
+      "name": "Battle-lust",
+      "cost": 20,
+      "effect": "[WORLD EATERS model only] Re-roll Charge rolls for the bearer's unit; +1 Charge roll while Unbridled Bloodlust is active.",
+      "detachment": "Berzerker Warband"
+    },
+    {
+      "name": "Chosen of the Blood God",
+      "cost": 15,
+      "effect": "[WORLD EATERS MONSTER model only] +3\" range to the bearer's Aura abilities.",
+      "detachment": "Cult of Blood"
+    },
+    {
+      "name": "Butcher Lord",
+      "cost": 10,
+      "effect": "[WORLD EATERS INFANTRY model only] The bearer gains the Infiltrators ability.",
+      "detachment": "Cult of Blood"
+    },
+    {
+      "name": "Brazen Form",
+      "cost": 25,
+      "effect": "[WORLD EATERS MONSTER model only] +1 Toughness; Feel No Pain 5+.",
+      "detachment": "Cult of Blood"
+    },
+    {
+      "name": "Strategic Slaughter",
+      "cost": 20,
+      "effect": "[WORLD EATERS model only] Redeploy up to 3 Jakhals/Goremongers units after deployment, any to Strategic Reserves regardless of normal limits.",
+      "detachment": "Cult of Blood"
+    },
+    {
+      "name": "Icon of War",
+      "cost": 25,
+      "effect": "[WORLD EATERS model only] Nearby Blood Legions units gain Blessings of Khorne; if Might of Khorne is active, also re-roll their Battle-shock tests.",
+      "detachment": "Khorne Daemonkin"
+    },
+    {
+      "name": "Blood-forged Armour",
+      "cost": 20,
+      "effect": "[BLOOD LEGIONS or WORLD EATERS model only] Save characteristic of 2+; if destroyed, gain 1 Blood Tithe point.",
+      "detachment": "Khorne Daemonkin"
+    },
+    {
+      "name": "Disciple of Khorne",
+      "cost": 15,
+      "effect": "[LORD ON JUGGERNAUT model only] Gains Deep Strike; has the BLOOD LEGIONS Faction keyword instead of WORLD EATERS.",
+      "detachment": "Khorne Daemonkin"
+    },
+    {
+      "name": "Blade of Endless Bloodshed",
+      "cost": 30,
+      "effect": "[WORLD EATERS model only] +1 Attacks/Strength/Damage on melee weapons; melee kills automatically grant 1 Blood Tithe point instead of rolling.",
+      "detachment": "Khorne Daemonkin"
+    },
+    {
+      "name": "Malicious Vigour",
+      "cost": 30,
+      "effect": "[SLAUGHTERBOUND model only] Brazen Fury moves are treated as a rolled 6.",
+      "detachment": "Possessed Slaughterband"
+    },
+    {
+      "name": "Killing Clarity",
+      "cost": 15,
+      "effect": "[WORLD EATERS DAEMON model only] On destroying an enemy unit, 4+ grants 1CP.",
+      "detachment": "Possessed Slaughterband"
+    },
+    {
+      "name": "Frenzied Focus",
+      "cost": 20,
+      "effect": "[WORLD EATERS DAEMON model only] Critical Hits scored on unmodified 5+ instead of only 6.",
+      "detachment": "Possessed Slaughterband"
+    },
+    {
+      "name": "Violent Demise",
+      "cost": 10,
+      "effect": "[WORLD EATERS DAEMON model only] Deadly Demise triggers on 2+ instead of 6; upgraded to Deadly Demise D3+1.",
+      "detachment": "Possessed Slaughterband"
     }
-  ]
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation."
 }

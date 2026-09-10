@@ -3,8 +3,8 @@
   "battleFormations": [
     {
       "name": "Valourstrike Lance",
-      "dp": 3,
-      "effect": ""
+      "dp": 2,
+      "effect": "Bold Gallantry: Each time an IMPERIAL KNIGHTS unit Advances, until the end of the turn ranged weapons equipped by your Imperial Knights models gain [ASSAULT]."
     },
     {
       "name": "Thundering Legion",
@@ -22,9 +22,9 @@
       "effect": ""
     },
     {
-      "name": "Cogbound Alliance",
-      "dp": 1,
-      "effect": ""
+      "name": "Questor Forgepact",
+      "dp": 2,
+      "effect": "Cogbound Alliance: Allows inclusion of Adeptus Mechanicus units in a Questor Forgepact army. Note: Adeptus Mechanicus units taken this way cannot use Doctrina Imperatives (per FAQ). Remaining detachment rule text not fully captured this pass."
     },
     {
       "name": "Chivalric Exemplar",
@@ -40,6 +40,36 @@
       "name": "Damaged Knight",
       "dp": 1,
       "effect": ""
+    },
+    {
+      "name": "Gate Warden Lance",
+      "dp": 2,
+      "effect": "Dauntless Defenders: At the start of the first battle round, select two objectives as 'foundations.' Units on the line between them are 'on your defensive line' and gain Against the Horde: ignore Hit roll modifiers vs visible targets and ranged/melee weapons gain [SUSTAINED HITS 1]."
+    },
+    {
+      "name": "Questoris Companions",
+      "dp": 3,
+      "effect": "Heroes of Legend + Valour's Reward: When your Oath is fulfilled, determine an additional Oath (no repeated Deed/Quality); fulfilling further Deeds grants 1CP instead. Enhancements listed for this Detachment can become 'expended' and are restored when you fulfil your Oath."
+    },
+    {
+      "name": "Spearhead-At-Arms",
+      "dp": 2,
+      "effect": "Knightly Teachings: When a model uses its Bondsman ability (first use per turn), select up to three friendly ARMIGER models (within 12\", or 15\" while Honoured) instead of one. ARMIGER units gain the BATTLELINE keyword. Unique: ARMIGERS."
+    },
+    {
+      "name": "Freeblade Company",
+      "dp": 2,
+      "effect": "Knights of Legend: (Detachment rule text not captured this pass — verify on Wahapedia.)"
+    },
+    {
+      "name": "Dominus Foebreakers",
+      "dp": 2,
+      "effect": "Rain of Devastation: (Detachment rule text not captured this pass — verify on Wahapedia.)"
+    },
+    {
+      "name": "Throne-Bonded Outriders",
+      "dp": 2,
+      "effect": "Driven from Their Lairs: (Detachment rule text not captured this pass — verify on Wahapedia.)"
     }
   ],
   "heroicTraits": [],
@@ -51,6 +81,121 @@
     {
       "name": "Run Them Through!",
       "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Bearer of the Iron Chalice",
+      "cost": 20,
+      "effect": "[IMPERIAL KNIGHTS model only] At the end of your Movement phase, another Imperial Knights model within 12\" and visible regains up to D3 lost wounds (up to 3 if Honoured).",
+      "detachment": "Valourstrike Lance"
+    },
+    {
+      "name": "Bearer of the Evanescent Ion",
+      "cost": 15,
+      "effect": "[IMPERIAL KNIGHTS model only] At the end of your Movement phase, another Imperial Knights model within 12\" and visible gains Stealth until your next Movement phase.",
+      "detachment": "Valourstrike Lance"
+    },
+    {
+      "name": "Bearer of the Judicant's Helm",
+      "cost": 25,
+      "effect": "[IMPERIAL KNIGHTS model only] At the start of your Shooting phase, another Imperial Knights model within 12\" and visible has ranged weapons gain [IGNORES COVER] that phase.",
+      "detachment": "Valourstrike Lance"
+    },
+    {
+      "name": "Bearer of the Lancer's Sigil",
+      "cost": 25,
+      "effect": "[IMPERIAL KNIGHTS model only] At the start of your Charge phase, re-roll Charge rolls for another Imperial Knights model within 12\" and visible.",
+      "detachment": "Valourstrike Lance"
+    },
+    {
+      "name": "Acquisitor-at-Arms",
+      "cost": 15,
+      "effect": "[IMPERIAL KNIGHTS model only] While on your defensive line with no enemy units on it, add the bearer's Objective Control to models affected by its Bondsman ability.",
+      "detachment": "Gate Warden Lance"
+    },
+    {
+      "name": "Purgation's Hand",
+      "cost": 20,
+      "effect": "[IMPERIAL KNIGHTS model only] While on your defensive line, melee attacks re-roll Hit rolls of 1 and Wound rolls of 1.",
+      "detachment": "Gate Warden Lance"
+    },
+    {
+      "name": "Augury Halo",
+      "cost": 20,
+      "effect": "[IMPERIAL KNIGHTS model only] While on your defensive line, ranged weapons gain [IGNORES COVER].",
+      "detachment": "Gate Warden Lance"
+    },
+    {
+      "name": "Vengeful Tread",
+      "cost": 15,
+      "effect": "[IMPERIAL KNIGHTS model only] Once per turn, target the bearer with the Crushing Impact Stratagem for 0CP.",
+      "detachment": "Gate Warden Lance"
+    },
+    {
+      "name": "Herald of Triumph",
+      "cost": 15,
+      "effect": "[IMPERIAL KNIGHTS model only] After a Charge move, force enemy units within Engagement Range to Battle-shock test at -1 (expended until Oath fulfilled).",
+      "detachment": "Questoris Companions"
+    },
+    {
+      "name": "Wyrmslayer Divination",
+      "cost": 10,
+      "effect": "[IMPERIAL KNIGHTS model only] Once used, re-roll Hit rolls vs FLY units for the rest of the phase (expended until Oath fulfilled).",
+      "detachment": "Questoris Companions"
+    },
+    {
+      "name": "Pennant of Silvered Fury",
+      "cost": 15,
+      "effect": "[IMPERIAL KNIGHTS model only] When fighting, melee weapons gain [SUSTAINED HITS 2] for the phase (expended until Oath fulfilled).",
+      "detachment": "Questoris Companions"
+    },
+    {
+      "name": "Crushing Condemnation",
+      "cost": 10,
+      "effect": "[IMPERIAL KNIGHTS model only] After destroying a unit in the Fight phase, roll 6D6 against a nearby unengaged enemy unit — each 4+ inflicts 1 mortal wound (expended until Oath fulfilled).",
+      "detachment": "Questoris Companions"
+    },
+    {
+      "name": "Mentor's Pride",
+      "cost": 20,
+      "effect": "[IMPERIAL KNIGHTS model only] While 2+ Armiger models are under the bearer's Bondsman effect, they re-roll Hit rolls of 1.",
+      "detachment": "Spearhead-At-Arms"
+    },
+    {
+      "name": "Fables of Nightmare",
+      "cost": 10,
+      "effect": "[IMPERIAL KNIGHTS model only] While 2+ Armiger models are under the bearer's Bondsman effect, their melee weapons gain [PRECISION].",
+      "detachment": "Spearhead-At-Arms"
+    },
+    {
+      "name": "Tales of Heroism",
+      "cost": 10,
+      "effect": "[IMPERIAL KNIGHTS model only] While 2+ Armiger models are under the bearer's Bondsman effect, ignore Hit/Wound modifiers on their melee attacks.",
+      "detachment": "Spearhead-At-Arms"
+    },
+    {
+      "name": "Martial Tuition",
+      "cost": 15,
+      "effect": "[IMPERIAL KNIGHTS model only] While 2+ Armiger models are affected, target one with the Counter-offensive Stratagem for 0CP once per turn.",
+      "detachment": "Spearhead-At-Arms"
     }
-  ]
+  ],
+  "armyRules": [
+    {
+      "name": "Code Chivalric",
+      "effect": "At the end of Read Mission Objectives, determine your army's Oath (one Deed + one Quality, selected or rolled on D6 each). The first time your Deed is completed, your army becomes Honoured and you gain 2CP (3CP if either part was randomly rolled), exempt from the normal 1CP-per-round cap."
+    },
+    {
+      "name": "Bondsman",
+      "effect": "In your Command phase, models with a Bondsman ability can select one friendly ARMIGER model within 12\" (not already affected by a Bondsman ability); until your next Command phase that Armiger is affected by that ability."
+    },
+    {
+      "name": "Super-heavy Walker",
+      "effect": "Models with this ability can move through non-TITANIC models and terrain 4\" or less in height (can move within, but not end within, Engagement Range); moving through taller terrain risks Battle-shock on a D6 roll of 1."
+    },
+    {
+      "name": "Freeblades",
+      "effect": "If every model in your army has the IMPERIUM keyword, you can include one TITANIC Imperial Knights model or up to three ARMIGER models regardless of Faction keyword. These cannot be Warlord and cannot receive Enhancements."
+    }
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation."
 }

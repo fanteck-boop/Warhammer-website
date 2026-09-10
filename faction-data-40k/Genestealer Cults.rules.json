@@ -4,12 +4,7 @@
     {
       "name": "Host of Ascension",
       "dp": 3,
-      "effect": "Category: Priority Assets"
-    },
-    {
-      "name": "Cult Ambush",
-      "dp": 2,
-      "effect": "Category: Disruption"
+      "effect": "A Perfect Ambush: Each time a Genestealer Cults unit is set up as Reinforcements, until the end of your next Fight phase its weapons gain [SUSTAINED HITS 1] and [IGNORES COVER]."
     },
     {
       "name": "Subterranean Breach",
@@ -50,8 +45,127 @@
       "name": "Outbreak",
       "dp": 1,
       "effect": "Category: Purge the Foe"
+    },
+    {
+      "name": "Xenocreed Congregation",
+      "dp": 2,
+      "effect": "Unquestioning Fanaticism: ACOLYTE HYBRIDS/HYBRID METAMORPHS/NEOPHYTE HYBRIDS units led by a Character re-roll Advance and Charge rolls; if that Character is a MAGUS, PRIMUS, or ACOLYTE ICONWARD, it also gains Feel No Pain 3+ while leading."
+    },
+    {
+      "name": "Biosanctic Broodsurge",
+      "dp": 2,
+      "effect": "Hypermorphic Fury: +1 Charge roll for ABERRANTS/BIOPHAGUS/PURESTRAIN GENESTEALERS units; if they charged this turn, their melee weapons also get +1 Attacks that phase."
+    },
+    {
+      "name": "Outlander Claw",
+      "dp": 2,
+      "effect": "Rapid Takeover: Non-Battle-shocked Genestealer Cults MOUNTED/VEHICLE models get +1 Objective Control. If an Atalan Jackals unit is near a controlled objective, it remains secured until your opponent's control level exceeds yours."
     }
   ],
   "heroicTraits": [],
-  "artefacts": []
+  "artefacts": [
+    {
+      "name": "Prowling Agitant",
+      "cost": 15,
+      "effect": "[GENESTEALER CULTS model only] If unengaged and an enemy ends a move within 8\", the bearer's unit can make a Normal move of up to D6\".",
+      "detachment": "Host of Ascension"
+    },
+    {
+      "name": "A Chink in Their Armour",
+      "cost": 20,
+      "effect": "[GENESTEALER CULTS model only] When set up as Reinforcements, until your next Fight phase the bearer's unit's ranged weapons gain [LETHAL HITS].",
+      "detachment": "Host of Ascension"
+    },
+    {
+      "name": "Our Time Is Nigh",
+      "cost": 20,
+      "effect": "[GENESTEALER CULTS model only] Once per battle, when declaring a charge, add 2 to the Charge roll for the bearer's unit.",
+      "detachment": "Host of Ascension"
+    },
+    {
+      "name": "Assassination Edict",
+      "cost": 15,
+      "effect": "[GENESTEALER CULTS model only] Attacks by the bearer's unit against Character units gain +1 to Hit.",
+      "detachment": "Host of Ascension"
+    },
+    {
+      "name": "Gene-sire's Reliquant",
+      "cost": 5,
+      "effect": "[MAGUS/PRIMUS/ACOLYTE ICONWARD model only] Re-roll Battle-shock tests for the bearer's unit.",
+      "detachment": "Xenocreed Congregation"
+    },
+    {
+      "name": "Denunciator of Tyrants",
+      "cost": 25,
+      "effect": "[MAGUS/PRIMUS/ACOLYTE ICONWARD model only] Attacks by the bearer's unit against Character units gain +1 to Hit and +1 to Wound.",
+      "detachment": "Xenocreed Congregation"
+    },
+    {
+      "name": "Deeds That Speak to the Masses",
+      "cost": 25,
+      "effect": "[MAGUS/PRIMUS/ACOLYTE ICONWARD model only] Start the battle with 2 additional Resurgence points.",
+      "detachment": "Xenocreed Congregation"
+    },
+    {
+      "name": "Incendiary Inspiration",
+      "cost": 15,
+      "effect": "[MAGUS/PRIMUS/ACOLYTE ICONWARD model only] The bearer's unit is eligible to declare a charge in a turn in which it Advanced.",
+      "detachment": "Xenocreed Congregation"
+    },
+    {
+      "name": "Predatory Instincts",
+      "cost": 20,
+      "effect": "[ABOMINANT/BIOPHAGUS/PATRIARCH model only] The bearer's unit gains Infiltrators; can be targeted with Heroic Intervention for -1CP regardless of prior uses that phase.",
+      "detachment": "Biosanctic Broodsurge"
+    },
+    {
+      "name": "Biomorph Adaptation",
+      "cost": 25,
+      "effect": "[ABOMINANT or PATRIARCH model only] +1 AP/Damage on the bearer's melee weapons.",
+      "detachment": "Biosanctic Broodsurge"
+    },
+    {
+      "name": "Mutagenic Regeneration",
+      "cost": 10,
+      "effect": "[ABOMINANT/BIOPHAGUS/PATRIARCH model only] Each Command phase, one model in the bearer's unit regains 1 lost wound.",
+      "detachment": "Biosanctic Broodsurge"
+    },
+    {
+      "name": "Alien Majesty",
+      "cost": 15,
+      "effect": "[ABOMINANT/BIOPHAGUS/PATRIARCH model only] Enemy units within Engagement Range of the bearer's unit have Objective Control reduced by 1 (min 1).",
+      "detachment": "Biosanctic Broodsurge"
+    },
+    {
+      "name": "Serpentine Tactics",
+      "cost": 10,
+      "effect": "[GENESTEALER CULTS MOUNTED model only] The bearer's unit is eligible to shoot in a turn in which it Fell Back.",
+      "detachment": "Outlander Claw"
+    },
+    {
+      "name": "Cartographic Data-leech",
+      "cost": 10,
+      "effect": "[GENESTEALER CULTS model only] While embarked, +1 Ballistic Skill to the Transport's Firing Deck attacks.",
+      "detachment": "Outlander Claw"
+    },
+    {
+      "name": "Starfall Shells",
+      "cost": 10,
+      "effect": "[GENESTEALER CULTS MOUNTED model only] After shooting with a cult sniper rifle, hit units suffer -1 to Hit until your next Shooting phase.",
+      "detachment": "Outlander Claw"
+    },
+    {
+      "name": "Assault Commando",
+      "cost": 15,
+      "effect": "[GENESTEALER CULTS model only] Re-roll Hit rolls for ranged attacks made after disembarking that turn.",
+      "detachment": "Outlander Claw"
+    }
+  ],
+  "armyRules": [
+    {
+      "name": "Cult Ambush",
+      "effect": "Start with Resurgence points by battle size (6/10/14). When a fully-eligible unit is destroyed, spend the listed Resurgence cost (based on Starting Strength) to add an identical replacement unit in Cult Ambush (a type of Strategic Reserves) and place a Cult Ambush marker more than 8\" from all enemy units. Units set up via a Cult Ambush marker enter with one model in base contact and the rest within 3\" of it; the marker is removed when an enemy model ends a move within 8\" of it, or when used for an ingress move at the end of your opponent's next Movement phase."
+    }
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation. Removed 'Cult Ambush' from detachments list: it is the faction's always-on army rule, not a selectable Detachment."
 }

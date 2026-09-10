@@ -14,27 +14,27 @@
     {
       "name": "Data-Psalm Conclave",
       "dp": 2,
-      "effect": "Category: Disruption"
+      "effect": "Benedictions of the Omnissiah: Select for the whole battle: Panegyric Procession (+1 AP at half range) or Citation in Savagery (+1 Strength/Attacks in melee after charging)."
     },
     {
       "name": "Explorator Maniple",
       "dp": 2,
-      "effect": "Category: Priority Assets"
+      "effect": "Acquisition At Any Cost: Select an 'Acquisition' objective marker each Command phase; re-roll Wound rolls of 1 for attacks made near it."
     },
     {
       "name": "Skitarii Hunter Cohort",
       "dp": 2,
-      "effect": "Category: Reconnaissance"
+      "effect": "Stealth Optimisation: SKITARII INFANTRY/MOUNTED and IRONSTRIDER BALLISTARII units gain the Stealth ability."
     },
     {
       "name": "Cohort Cybernetica",
       "dp": 2,
-      "effect": "Category: Take and Hold"
+      "effect": "Cyber-Psalm Programming: Non-Battle-shocked LEGIO CYBERNETICA units get +2\" Move and +1 OC."
     },
     {
       "name": "Rad-Zone Corps",
       "dp": 2,
-      "effect": "Category: Take and Hold"
+      "effect": "Rad-bombardment: Round 1, bombard enemy units in their deployment zone for mortal wounds/Battle-shock. Rounds 2-5, Fallout ability: on a 3+ per enemy unit in their deployment zone, inflict 1 mortal wound and a Battle-shock test."
     },
     {
       "name": "Luminen Auto-choir",
@@ -69,6 +69,133 @@
     {
       "name": "Ironstrider feet",
       "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Radial Suffusion",
+      "cost": 25,
+      "effect": "[ADEPTUS MECHANICUS only] Extends the Fallout ability's range to 6\" beyond the enemy deployment zone.",
+      "detachment": "Rad-Zone Corps"
+    },
+    {
+      "name": "Malphonic Susurrus",
+      "cost": 20,
+      "effect": "[ADEPTUS MECHANICUS only] The bearer's led unit gains the Stealth ability.",
+      "detachment": "Rad-Zone Corps"
+    },
+    {
+      "name": "Peerless Eradicator",
+      "cost": 20,
+      "effect": "[ADEPTUS MECHANICUS only] Ranged weapons equipped by the bearer's led unit gain [SUSTAINED HITS 1].",
+      "detachment": "Rad-Zone Corps"
+    },
+    {
+      "name": "Autoclavic Denunciation",
+      "cost": 15,
+      "effect": "[ADEPTUS MECHANICUS only] Ranged weapons equipped by the bearer gain [ANTI-INFANTRY 2+] and [ANTI-MONSTER 4+].",
+      "detachment": "Rad-Zone Corps"
+    },
+    {
+      "name": "Cantic Thrallnet",
+      "cost": 25,
+      "effect": "[SKITARII MARSHAL only] Grants both Doctrina Imperatives to one unit for a round.",
+      "detachment": "Skitarii Hunter Cohort"
+    },
+    {
+      "name": "Clandestine Infiltrator",
+      "cost": 15,
+      "effect": "[SKITARII only] The bearer's unit gains Infiltrators and Scouts 6\".",
+      "detachment": "Skitarii Hunter Cohort"
+    },
+    {
+      "name": "Veiled Hunter",
+      "cost": 10,
+      "effect": "[SKITARII MARSHAL only] Redeploy up to 3 Infantry units, any of which can instead be placed into Reserves.",
+      "detachment": "Skitarii Hunter Cohort"
+    },
+    {
+      "name": "Battle-sphere Uplink",
+      "cost": 25,
+      "effect": "[SKITARII only] The bearer's unit can move after shooting (loses charge eligibility that turn).",
+      "detachment": "Skitarii Hunter Cohort"
+    },
+    {
+      "name": "Mechanicus Locum",
+      "cost": 5,
+      "effect": "[TECH-PRIEST only] The bearer has a Leadership characteristic of 6+ and can clear Battle-shock once per battle.",
+      "detachment": "Data-Psalm Conclave"
+    },
+    {
+      "name": "Mantle of the Gnosticarch",
+      "cost": 10,
+      "effect": "[TECH-PRIEST only] Damage against the bearer is capped to 1.",
+      "detachment": "Data-Psalm Conclave"
+    },
+    {
+      "name": "Data-blessed Autosermon",
+      "cost": 15,
+      "effect": "[TECH-PRIEST only] Once per battle, activate the other Benediction ability for the bearer's own unit.",
+      "detachment": "Data-Psalm Conclave"
+    },
+    {
+      "name": "Temporcopia",
+      "cost": 20,
+      "effect": "[TECH-PRIEST only] The bearer's unit gains the Fights First ability.",
+      "detachment": "Data-Psalm Conclave"
+    },
+    {
+      "name": "Magos",
+      "cost": 10,
+      "effect": "[TECH-PRIEST only] On a 4+, near the Acquisition marker, for 1CP.",
+      "detachment": "Explorator Maniple"
+    },
+    {
+      "name": "Genetor",
+      "cost": 20,
+      "effect": "[TECH-PRIEST only] The bearer's led unit has a 4+ invulnerable save near the Acquisition marker.",
+      "detachment": "Explorator Maniple"
+    },
+    {
+      "name": "Logis",
+      "cost": 15,
+      "effect": "[TECH-PRIEST only] Add 1 to Hit rolls against targets near the Acquisition marker.",
+      "detachment": "Explorator Maniple"
+    },
+    {
+      "name": "Artisan",
+      "cost": 10,
+      "effect": "[TECH-PRIEST only] Once per phase, set a roll to an unmodified 6 near the Acquisition marker.",
+      "detachment": "Explorator Maniple"
+    },
+    {
+      "name": "Necromechanic",
+      "cost": 20,
+      "effect": "[TECH-PRIEST only] Once per round, negate a failed save (Damage 0) for a nearby Vehicle/Cybernetica unit.",
+      "detachment": "Cohort Cybernetica"
+    },
+    {
+      "name": "Lord of Machines",
+      "cost": 15,
+      "effect": "[TECH-PRIEST only] Debuff or disable an enemy Vehicle's shooting once per turn.",
+      "detachment": "Cohort Cybernetica"
+    },
+    {
+      "name": "Emotionless Clarity",
+      "cost": 10,
+      "effect": "[TECH-PRIEST only] Auto-inflict Deadly Demise mortal wounds instead of rolling.",
+      "detachment": "Cohort Cybernetica"
+    },
+    {
+      "name": "Arch-negator",
+      "cost": 5,
+      "effect": "[TECH-PRIEST only] The bearer's ranged weapons gain [ANTI-VEHICLE 4+].",
+      "detachment": "Cohort Cybernetica"
     }
-  ]
+  ],
+  "armyRules": [
+    {
+      "name": "Doctrina Imperatives",
+      "effect": "At the start of the battle round, select one: Protector Imperative (ranged weapons gain [HEAVY], +1 BS, and -1 to Hit vs melee for BATTLELINE units or units near one) or Conqueror Imperative (ranged weapons gain [ASSAULT], +1 WS, and +1 AP for BATTLELINE units or units near one)."
+    }
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation."
 }

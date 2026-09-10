@@ -6,28 +6,29 @@
 <meta name="theme-color" content="#150f0a">
 <title>Muster Roll</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Spectral:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --ink:#241a12;
-    --ink-2:#150f0a;
-    --parchment:#ece0c4;
-    --parchment-2:#e2d3ab;
-    --line:#b8a06e;
-    --seal-red:#8b1e1e;
-    --gold:#a9812f;
-    --steel:#5b6570;
-    --text:#2b2016;
-    --text-soft:#5a4a35;
+    --ink:#12141c;
+    --ink-2:#0a0b10;
+    --parchment:#f2f3f7;
+    --parchment-2:#e8eaf0;
+    --line:#e3e5eb;
+    --seal-red:#e0384a;
+    --gold:#5457f6;
+    --gold-2:#7274ff;
+    --steel:#64748b;
+    --text:#161821;
+    --text-soft:#6b7180;
 
-    --order:#3d5a80;
-    --chaos:#8b1e1e;
-    --death:#5a3d70;
-    --destruction:#5c7a35;
-    --unaligned:#5b6570;
+    --order:#2f6fed;
+    --chaos:#e0384a;
+    --death:#8b5cf6;
+    --destruction:#17a673;
+    --unaligned:#64748b;
 
-    --hdr-fg:#f0e3c4;
-    --hdr-fg-dim:#b8a06e;
+    --hdr-fg:#f4f5fb;
+    --hdr-fg-dim:#9296ab;
 
     --roster-acc:var(--gold);
   }
@@ -36,10 +37,13 @@
   body{
     margin:0;
     min-height:100vh;
+    overflow-x:hidden;
     background:
-      radial-gradient(ellipse at top, #3a2c1c 0%, var(--ink) 55%, var(--ink-2) 100%);
+      radial-gradient(ellipse 1200px 700px at 15% -10%, #1c2036 0%, transparent 55%),
+      radial-gradient(ellipse 1000px 800px at 100% 0%, #191c2e 0%, transparent 50%),
+      var(--ink-2);
     background-attachment:fixed;
-    font-family:'Spectral', serif;
+    font-family:'Inter', sans-serif;
     color:var(--text);
   }
   @media (prefers-reduced-motion: reduce){
@@ -55,9 +59,11 @@
     position:sticky;
     top:0;
     z-index:30;
-    background:linear-gradient(180deg, var(--ink-2) 0%, #1c140d 100%);
-    border-bottom:1px solid rgba(169,129,47,0.4);
-    box-shadow:0 8px 20px -8px rgba(0,0,0,0.6);
+    background:linear-gradient(180deg, #14162200 0%, transparent 100%), rgba(18,20,32,0.82);
+    -webkit-backdrop-filter:blur(14px);
+    backdrop-filter:blur(14px);
+    border-bottom:1px solid rgba(255,255,255,0.08);
+    box-shadow:0 8px 24px -12px rgba(0,0,0,0.5);
   }
   .app-header-inner{
     max-width:900px;
@@ -72,7 +78,7 @@
   }
   .brand{display:flex; flex-direction:column; gap:2px; min-width:0;}
   .brand h1{
-    font-family:'Cinzel', serif;
+    font-family:'Inter', sans-serif;
     font-weight:700;
     font-size:23px;
     letter-spacing:1px;
@@ -93,26 +99,25 @@
   }
 
   .seal{
-    width:66px;
-    height:66px;
+    width:64px;
+    height:64px;
     border-radius:50%;
     display:flex;
     align-items:center;
     justify-content:center;
     flex-direction:column;
-    color:#f3e6c8;
-    font-family:'Cinzel', serif;
-    transform:rotate(-6deg);
-    box-shadow:0 8px 16px rgba(0,0,0,0.5), inset 0 0 0 3px rgba(0,0,0,0.25);
-    border:2px solid rgba(243,230,200,0.35);
+    color:#ffffff;
+    font-family:'Inter', sans-serif;
+    box-shadow:0 6px 18px rgba(0,0,0,0.35), inset 0 0 0 1px rgba(255,255,255,0.15);
+    border:none;
     flex-shrink:0;
     transition:background 0.4s ease;
   }
-  .seal .seal-num{font-size:16px; font-weight:700; line-height:1;}
-  .seal .seal-label{font-size:6.5px; letter-spacing:1.2px; margin-top:3px; opacity:0.85;}
-  .seal.ok{background:radial-gradient(circle at 35% 30%, #6b7680, var(--steel) 70%, #3d444b);}
-  .seal.near{background:radial-gradient(circle at 35% 30%, #c9a04a, var(--gold) 70%, #7a5e20);}
-  .seal.over{background:radial-gradient(circle at 35% 30%, #b23a3a, var(--seal-red) 70%, #5c1010);}
+  .seal .seal-num{font-size:17px; font-weight:800; line-height:1;}
+  .seal .seal-label{font-size:6.5px; letter-spacing:1.2px; margin-top:3px; opacity:0.85; text-transform:uppercase;}
+  .seal.ok{background:radial-gradient(circle at 32% 28%, #7c8ba1, var(--steel) 70%, #3f4a5c);}
+  .seal.near{background:radial-gradient(circle at 32% 28%, var(--gold-2), var(--gold) 70%, #3634a8);}
+  .seal.over{background:radial-gradient(circle at 32% 28%, #f0616f, var(--seal-red) 70%, #9c1c28);}
 
   .tab-nav{
     display:flex;
@@ -124,21 +129,30 @@
   }
   .tab-nav::-webkit-scrollbar{display:none;}
   .tab-btn{
-    font-family:'Cinzel', serif;
+    font-family:'Inter', sans-serif;
     font-size:12px;
     letter-spacing:0.8px;
     text-transform:uppercase;
     background:transparent;
     color:var(--hdr-fg-dim);
     border:none;
-    border-bottom:2px solid transparent;
-    padding:10px 14px;
+    border-radius:6px 6px 0 0;
+    padding:10px 16px;
     cursor:pointer;
     white-space:nowrap;
-    transition:color .15s ease, border-color .15s ease;
+    position:relative;
+    transition:color .15s ease, background .15s ease;
   }
-  .tab-btn:hover{color:var(--hdr-fg);}
-  .tab-btn.active{color:var(--hdr-fg); border-bottom-color:var(--gold);}
+  .tab-btn:hover{color:var(--hdr-fg); background:rgba(84,87,246,0.08);}
+  .tab-btn.active{color:var(--hdr-fg); background:rgba(84,87,246,0.14);}
+  .tab-btn.active::after{
+    content:"";
+    position:absolute;
+    left:10px; right:10px; bottom:0;
+    height:2px;
+    border-radius:2px 2px 0 0;
+    background:var(--gold);
+  }
 
   .page-wrap{
     max-width:900px;
@@ -146,32 +160,26 @@
     padding:24px 16px 90px;
   }
   .tab-panel{display:none;}
+  section[data-panel="grimoire"]{display:none !important;}
   .tab-panel.active{display:block;}
 
   .ledger{
     position:relative;
     background-color:var(--parchment);
-    border-radius:2px;
+    border-radius:16px;
     box-shadow:
-      0 30px 60px -20px rgba(0,0,0,0.7),
-      0 0 0 1px rgba(0,0,0,0.15);
+      0 24px 60px -24px rgba(10,11,20,0.5),
+      0 0 0 1px rgba(20,22,34,0.06);
     padding:36px 40px 40px;
-    border-top:4px solid var(--gold);
+    border-top:3px solid var(--gold);
   }
   [data-panel="roster"] .ledger{border-top-color:var(--roster-acc, var(--gold));}
-  .ledger::before{
-    content:"";
-    position:absolute;
-    inset:10px;
-    border:1px solid rgba(43,32,22,0.35);
-    pointer-events:none;
-  }
 
   h1{
-    font-family:'Cinzel', serif;
-    font-weight:700;
+    font-family:'Inter', sans-serif;
+    font-weight:800;
+    letter-spacing:-0.5px;
     font-size:26px;
-    letter-spacing:1px;
     margin:0 0 4px;
     color:var(--text);
   }
@@ -200,7 +208,7 @@
     color:var(--text-soft);
   }
   .field input, .field select{
-    font-family:'Spectral', serif;
+    font-family:'Inter', sans-serif;
     font-size:16px;
     background:transparent;
     border:none;
@@ -252,7 +260,7 @@
     min-height:110px;
     font-family:'JetBrains Mono', monospace;
     font-size:12.5px;
-    background:#f5eed8;
+    background:#f4f5f8;
     border:1px solid var(--line);
     padding:10px;
     color:var(--text);
@@ -273,7 +281,7 @@
     cursor:pointer;
     transition:background .15s ease, border-color .15s ease;
   }
-  .dropzone.drag{background:rgba(169,129,47,0.2); border-color:var(--gold);}
+  .dropzone.drag{background:rgba(84,87,246,0.2); border-color:var(--gold);}
   .dropzone-label{
     font-family:'JetBrains Mono', monospace;
     font-size:12px;
@@ -282,32 +290,36 @@
   }
 
   button{
-    font-family:'Cinzel', serif;
+    font-family:'Inter', sans-serif;
     font-size:12px;
-    letter-spacing:1px;
-    text-transform:uppercase;
-    background:var(--ink);
-    color:#f3e6c8;
-    border:1px solid #000;
+    font-weight:600;
+    letter-spacing:0.4px;
+    background:var(--gold);
+    color:#ffffff;
+    border:1px solid var(--gold);
+    border-radius:8px;
     padding:10px 16px;
     cursor:pointer;
-    transition:transform 0.15s ease, background 0.15s ease;
+    box-shadow:0 2px 6px rgba(84,87,246,0.35);
+    transition:transform 0.15s ease, background 0.15s ease, box-shadow 0.15s ease;
     min-height:40px;
   }
-  button:hover{background:#3a2c1c;}
-  button:active{transform:translateY(1px);}
+  button:hover{background:var(--gold-2); border-color:var(--gold-2); box-shadow:0 4px 12px rgba(84,87,246,0.4); transform:translateY(-1px);}
+  button:active{transform:translateY(1px); box-shadow:0 1px 3px rgba(84,87,246,0.3);}
   button.ghost{
     background:transparent;
     color:var(--text);
     border:1px solid var(--line);
+    box-shadow:none;
   }
-  button.ghost:hover{background:rgba(0,0,0,0.05);}
+  button.ghost:hover{background:rgba(0,0,0,0.05); box-shadow:none; transform:none;}
   button.small{
     padding:6px 10px;
     font-size:10px;
     min-height:32px;
+    border-radius:12px;
   }
-  button.danger{color:#f3e6c8; background:var(--seal-red); border-color:#4a0e0e;}
+  button.danger{color:#ffffff; background:var(--seal-red); border-color:var(--seal-red); box-shadow:0 2px 6px rgba(224,56,74,0.35);}
 
   table{
     width:100%;
@@ -343,7 +355,7 @@
     width:100%;
     background:transparent;
     border:none;
-    font-family:'Spectral', serif;
+    font-family:'Inter', sans-serif;
     font-size:14.5px;
     color:var(--text);
     padding:4px 2px;
@@ -382,9 +394,118 @@
 
   .add-row{margin-top:14px; display:flex; justify-content:flex-start; gap:12px; flex-wrap:wrap; align-items:center;}
 
+  /* Order of Battle: compact "currently editing" strip */
+  .current-army-strip{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin:0 0 20px;
+    padding:10px 14px;
+    background:rgba(84,87,246,0.06);
+    border:1px solid rgba(84,87,246,0.18);
+    border-radius:10px;
+  }
+  .cas-label{
+    font-family:'JetBrains Mono', monospace;
+    font-size:9.5px;
+    letter-spacing:0.8px;
+    text-transform:uppercase;
+    color:var(--text-soft);
+  }
+  .cas-name{font-weight:700; color:var(--text); flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+
+  /* Armies hub tab */
+  .armies-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(240px, 1fr));
+    gap:14px;
+    margin:20px 0;
+  }
+  .army-card{
+    background:var(--parchment-2);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:16px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    transition:box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  .army-card:hover{box-shadow:0 8px 20px -10px rgba(20,22,34,0.25); transform:translateY(-2px);}
+  .army-card.active{border-color:var(--gold); box-shadow:0 0 0 1px var(--gold);}
+  .army-card-top{display:flex; align-items:flex-start; justify-content:space-between; gap:8px;}
+  .army-card-name{font-weight:700; font-size:15px; color:var(--text); word-break:break-word;}
+  .army-card-current{
+    flex-shrink:0;
+    font-family:'JetBrains Mono', monospace;
+    font-size:9px;
+    letter-spacing:0.5px;
+    text-transform:uppercase;
+    color:var(--gold);
+    background:rgba(84,87,246,0.12);
+    border-radius:8px;
+    padding:2px 7px;
+    white-space:nowrap;
+  }
+  .army-card-meta{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px;
+    color:var(--text-soft);
+  }
+  .army-card-actions{display:flex; gap:6px; flex-wrap:wrap; margin-top:4px;}
+  .army-card-actions button{min-height:32px; padding:6px 12px; font-size:10.5px;}
+  .army-card-open{flex:1;}
+
+  /* Collection tab */
+  .collection-summary{
+    display:flex;
+    gap:24px;
+    margin-bottom:16px;
+  }
+  .collection-summary .result-line{border-bottom:none; padding:0;}
+  .collection-faction-group{margin-bottom:18px;}
+  .collection-faction-head{
+    font-family:'Inter', sans-serif;
+    font-size:14px;
+    letter-spacing:0.5px;
+    margin:0 0 8px;
+    padding-bottom:6px;
+    border-bottom:1px solid var(--line);
+    color:var(--text);
+  }
+  .collection-rows{display:flex; flex-direction:column; gap:1px;}
+  .collection-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    padding:7px 10px;
+    background:rgba(255,255,255,0.3);
+    border-radius:4px;
+  }
+  .collection-row:nth-child(odd){background:rgba(255,255,255,0.5);}
+  .coll-name{font-size:13px; color:var(--text);}
+  .coll-name em{color:var(--text-soft); font-style:normal; font-size:11.5px;}
+  .coll-owned{display:flex; align-items:center; gap:6px;}
+  .coll-owned label{font-size:10px; text-transform:uppercase; letter-spacing:0.5px; color:var(--text-soft);}
+  .coll-owned-input{
+    width:56px;
+    font-family:'JetBrains Mono', monospace;
+    font-size:12.5px;
+    padding:4px 6px;
+    border:1px solid var(--line);
+    border-radius:4px;
+    background:#ffffff;
+    text-align:center;
+  }
+  .coll-owned-input:not([value=""]):not([value="0"]){border-color:var(--gold); background:#eef0ff;}
+
   .footer-note{
     text-align:center;
-    color:#7a6a52;
+    color:#8a8fa3;
     font-family:'JetBrains Mono', monospace;
     font-size:11px;
     letter-spacing:1px;
@@ -410,7 +531,7 @@
     min-width:0;
   }
   .clash-col h3{
-    font-family:'Cinzel', serif;
+    font-family:'Inter', sans-serif;
     font-size:15px;
     letter-spacing:0.5px;
     margin:0 0 14px;
@@ -439,10 +560,14 @@
     padding:16px 18px;
     border:1px solid var(--line);
     background:rgba(255,255,255,0.35);
+    border-radius:6px;
     min-width:0;
+    box-shadow:0 1px 3px rgba(0,0,0,0.06);
   }
+  .col-a .result-card, #resultA{ border-top:3px solid var(--chaos); }
+  .col-b .result-card, #resultB{ border-top:3px solid var(--order); }
   .result-card h4{
-    font-family:'Cinzel', serif;
+    font-family:'Inter', sans-serif;
     font-size:13px;
     letter-spacing:0.5px;
     margin:0 0 12px;
@@ -450,23 +575,98 @@
   }
   .result-line{
     display:flex;
-    justify-content:space-between;
+    flex-direction:column;
+    gap:3px;
     font-family:'JetBrains Mono', monospace;
     font-size:12.5px;
-    padding:5px 0;
-    border-bottom:1px solid rgba(184,160,110,0.4);
+    padding:6px 0;
+    border-bottom:1px solid rgba(20,22,34,0.4);
   }
   .result-line:last-child{border-bottom:none;}
-  .result-line .val{font-weight:600;}
+  .result-line-top{display:flex; justify-content:space-between; gap:10px; align-items:baseline;}
+  .result-line .val{font-weight:700; white-space:nowrap;}
+  .result-line.hero .val{font-size:15px; color:var(--gold-dark, var(--gold));}
+  .stat-bar{
+    height:5px;
+    background:rgba(20,22,34,0.14);
+    border-radius:3px;
+    overflow:hidden;
+    margin-top:2px;
+  }
+  .stat-bar-fill{
+    height:100%;
+    border-radius:3px;
+    background:var(--gold);
+    transition:width 0.4s ease;
+  }
+  .col-a .stat-bar-fill, #resultA .stat-bar-fill{background:var(--chaos);}
+  .col-b .stat-bar-fill, #resultB .stat-bar-fill{background:var(--order);}
+
+  /* Weapon keyword tag chips */
+  .kw-chips{display:inline-flex; flex-wrap:wrap; gap:4px; margin-top:2px;}
+  .kw-chip{
+    display:inline-block;
+    font-family:'JetBrains Mono', monospace;
+    font-size:10px;
+    line-height:1.5;
+    padding:1px 7px;
+    border-radius:10px;
+    white-space:nowrap;
+    background:#eef0f5;
+    color:var(--text-soft);
+    border:1px solid rgba(20,22,34,0.25);
+  }
+  .kw-chip.kw-sustained{background:#fde3c4; color:#7a4a10; border-color:#e0b273;}
+  .kw-chip.kw-lethal{background:#f6d3d3; color:#7a1c1c; border-color:#d98f8f;}
+  .kw-chip.kw-devastating{background:#e5d6f6; color:#4a2a7a; border-color:#b393db;}
+  .kw-chip.kw-twinlinked{background:#d3e8f6; color:#1c4a7a; border-color:#8fbedd;}
+  .kw-chip.kw-anti{background:#d9ecd3; color:#28541c; border-color:#9dc98f;}
+  .kw-chip.kw-utility{background:#e8e2f0; color:#4a3a6a; border-color:#c3b3db;}
+  .kw-chip.kw-warn{background:#f6e3d3; color:#7a4a1c; border-color:#dbab8f;}
+  .kw-chip-unmodeled{opacity:0.55; border-style:dashed;}
+
   .verdict{
     grid-column:1 / -1;
     text-align:center;
-    font-family:'Cinzel', serif;
+    font-family:'Inter', sans-serif;
     font-size:15px;
-    padding:14px;
+    padding:16px 18px;
     background:rgba(0,0,0,0.05);
     border:1px dashed var(--line);
+    border-radius:6px;
   }
+  .verdict-bar{
+    display:flex;
+    height:14px;
+    border-radius:7px;
+    overflow:hidden;
+    margin:10px auto 4px;
+    max-width:420px;
+    border:1px solid var(--line);
+    background:rgba(255,255,255,0.5);
+  }
+  .verdict-bar-a{background:var(--chaos);}
+  .verdict-bar-b{background:var(--order);}
+  .verdict-bar-mid{width:2px; background:var(--line);}
+  .verdict-legend{
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px;
+    color:var(--text-soft);
+    margin-top:2px;
+  }
+  .verdict-legend span::before{
+    content:'';
+    display:inline-block;
+    width:8px; height:8px;
+    border-radius:50%;
+    margin-right:5px;
+    position:relative; top:0.5px;
+  }
+  .verdict-legend .leg-a::before{background:var(--chaos);}
+  .verdict-legend .leg-b::before{background:var(--order);}
 
   @media (max-width:640px){
     .clash-grid, .clash-results{grid-template-columns:1fr;}
@@ -508,7 +708,7 @@
     padding:4px 2px;
   }
   .weapon-table td:first-child input{
-    font-family:'Spectral', serif;
+    font-family:'Inter', sans-serif;
     min-width:180px;
   }
   .weapon-table td input:focus{outline:none; border-color:var(--seal-red);}
@@ -517,7 +717,7 @@
   .weapon-table .toggle-cell{width:26px; text-align:center; padding:6px 2px;}
   .weapon-table .wpn-enabled{width:16px; height:16px; cursor:pointer; accent-color:var(--seal-red);}
   .weapon-table tr.wpn-off{opacity:0.42;}
-  .weapon-table tr.wpn-off td input{color:var(--text-soft); border-bottom-color:rgba(184,160,110,0.4);}
+  .weapon-table tr.wpn-off td input{color:var(--text-soft); border-bottom-color:rgba(20,22,34,0.4);}
 
   .grim-weapons{margin:6px 0 0;}
   .grim-weapon-line{
@@ -527,10 +727,21 @@
     padding:2px 0;
   }
 
+  .clash-grim-filters{
+    display:flex;
+    gap:8px;
+    max-width:280px;
+  }
+  .clash-grim-filters select{
+    flex:1;
+    min-width:0;
+    margin-bottom:0;
+  }
+
   .grim-pick{
     font-family:'JetBrains Mono', monospace;
     font-size:11px;
-    background:#f5eed8;
+    background:#f4f5f8;
     border:1px solid var(--line);
     color:var(--text-soft);
     padding:8px;
@@ -546,9 +757,9 @@
     margin-bottom:20px;
   }
   .grim-search{
-    font-family:'Spectral', serif;
+    font-family:'Inter', sans-serif;
     font-size:14.5px;
-    background:#f5eed8;
+    background:#f4f5f8;
     border:1px solid var(--line);
     padding:10px 12px;
     color:var(--text);
@@ -580,7 +791,7 @@
     padding:1px 5px;
   }
   .alliance-pill:hover{background:rgba(0,0,0,0.06);}
-  .alliance-pill.active{background:var(--acc); color:#f3e6c8;}
+  .alliance-pill.active{background:var(--acc); color:#f4f5fb;}
   .alliance-pill.active .pill-count{background:rgba(0,0,0,0.25);}
 
   .alliance-badge{
@@ -610,7 +821,7 @@
     flex-shrink:0;
   }
   .alliance-section-head h3{
-    font-family:'Cinzel', serif;
+    font-family:'Inter', sans-serif;
     font-size:16px;
     letter-spacing:0.5px;
     margin:0;
@@ -649,7 +860,7 @@
     gap:8px;
   }
   .grim-entry-head .name{
-    font-family:'Cinzel', serif;
+    font-family:'Inter', sans-serif;
     font-size:15px;
     color:var(--text);
   }
@@ -667,7 +878,7 @@
     flex-wrap:wrap;
     gap:12px;
   }
-  details.abilities-toggle{margin:8px 0 0; padding-top:8px; border-top:1px solid rgba(184,160,110,0.4);}
+  details.abilities-toggle{margin:8px 0 0; padding-top:8px; border-top:1px solid rgba(20,22,34,0.4);}
   details.abilities-toggle summary{
     cursor:pointer;
     font-family:'JetBrains Mono', monospace;
@@ -708,9 +919,9 @@
   }
   .enhancement-row > select,
   .enhancement-assign-row select{
-    font-family:'Spectral', serif;
+    font-family:'Inter', sans-serif;
     font-size:14px;
-    background:#f5eed8;
+    background:#f4f5f8;
     border:1px solid var(--line);
     padding:6px 8px;
     color:var(--text);
@@ -743,19 +954,330 @@
     min-height:0;
   }
 
-  .roster-section-head td{
-    font-family:'Cinzel', serif;
+  .roster-section-head{
+    font-family:'Inter', sans-serif;
     font-size:12px;
     letter-spacing:1px;
     text-transform:uppercase;
     color:var(--text-soft);
-    padding:14px 8px 6px;
+    padding:14px 4px 6px;
+    margin-top:4px;
     border-bottom:2px solid var(--gold);
-    background:rgba(0,0,0,0.04);
   }
-  tbody tr.is-general td{background:rgba(169,129,47,0.12);}
-  tbody tr.is-general:hover td{background:rgba(169,129,47,0.18);}
+  .roster-section-head:first-child{margin-top:0;}
   .unit-actions-cell{display:flex; gap:4px; align-items:center; flex-wrap:wrap; justify-content:flex-end;}
+
+  /* ===== Order of Battle: two-pane roster layout (New Recruit / BattleScribe style) ===== */
+  .roster-layout{
+    display:grid;
+    grid-template-columns:minmax(280px, 360px) 1fr;
+    gap:22px;
+    align-items:start;
+  }
+  .roster-list-pane{min-width:0;}
+  .roster-list{display:flex; flex-direction:column; gap:6px;}
+
+  .unit-card{
+    --acc: var(--gold);
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:10px 12px;
+    background:rgba(255,255,255,0.45);
+    border:1px solid var(--line);
+    border-left:4px solid var(--acc);
+    border-radius:6px;
+    cursor:pointer;
+    transition:background 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
+  }
+  .unit-card:hover{background:rgba(255,255,255,0.7); box-shadow:0 2px 6px rgba(0,0,0,0.12); transform:translateY(-1px);}
+  .unit-card.selected{background:#eef0ff; box-shadow:0 0 0 2px var(--gold), 0 3px 10px rgba(0,0,0,0.15);}
+  .unit-card.is-general{background:rgba(84,87,246,0.12);}
+  .unit-card.is-general.selected{background:#eef0ff;}
+  .unit-card-main{flex:1; min-width:0;}
+  .unit-card-name{
+    font-family:'Inter', sans-serif;
+    font-size:14px;
+    color:var(--text);
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:0;
+    white-space:normal;
+  }
+  .unit-card-name .ucn-text{overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:100%;}
+  .unit-card-meta{
+    display:flex;
+    gap:10px;
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px;
+    color:var(--text-soft);
+    margin-top:2px;
+  }
+  .uc-pts em{font-style:normal; opacity:0.75;}
+  .unit-card-del{
+    flex-shrink:0;
+    width:26px; height:26px;
+    min-height:0;
+    padding:0;
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-size:14px;
+    opacity:0.5;
+  }
+  .unit-card-del:hover{opacity:1;}
+
+  .roster-totals-bar{
+    display:flex;
+    gap:10px;
+    margin-top:16px;
+  }
+  .roster-totals-stat{
+    flex:1;
+    background:rgba(0,0,0,0.04);
+    border:1px solid var(--line);
+    border-radius:6px;
+    padding:8px 12px;
+    display:flex;
+    flex-direction:column;
+    gap:2px;
+  }
+  .roster-totals-stat .rt-label{
+    font-family:'JetBrains Mono', monospace;
+    font-size:9.5px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    color:var(--text-soft);
+  }
+  .roster-totals-stat .rt-val{
+    font-family:'Inter', sans-serif;
+    font-size:19px;
+    font-weight:700;
+    color:var(--text);
+  }
+
+  .roster-detail-pane{
+    position:sticky;
+    top:80px;
+    background:rgba(255,255,255,0.55);
+    border:1px solid var(--line);
+    border-radius:8px;
+    padding:18px 20px;
+    min-height:120px;
+    box-shadow:0 4px 14px rgba(0,0,0,0.08);
+  }
+  .roster-detail-empty{
+    color:var(--text-soft);
+    font-size:13px;
+    text-align:center;
+    padding:30px 10px;
+    font-family:'JetBrains Mono', monospace;
+  }
+  .detail-head{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:14px;
+  }
+  .detail-name-input{
+    flex:1;
+    font-family:'Inter', sans-serif;
+    font-size:18px;
+    font-weight:700;
+    color:var(--text);
+    background:transparent;
+    border:none;
+    border-bottom:1px solid var(--line);
+    padding:4px 2px;
+  }
+  .detail-name-input:focus{outline:none; border-bottom-color:var(--gold);}
+  .detail-fields{
+    display:flex;
+    gap:14px;
+    flex-wrap:wrap;
+    margin-bottom:12px;
+  }
+  .detail-fields .field label{
+    font-family:'JetBrains Mono', monospace;
+    font-size:9.5px;
+    letter-spacing:0.8px;
+    text-transform:uppercase;
+    color:var(--text-soft);
+    display:block;
+    margin-bottom:3px;
+  }
+  .detail-fields .field input{width:100px;}
+  .detail-totals{
+    display:flex;
+    gap:20px;
+    font-family:'JetBrains Mono', monospace;
+    font-size:12px;
+    color:var(--text-soft);
+    margin-bottom:12px;
+    padding-bottom:12px;
+    border-bottom:1px solid var(--line);
+  }
+  .detail-totals b{font-size:16px; color:var(--text); font-family:'Inter', sans-serif;}
+  .detail-actions{display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px;}
+  .detail-section-title{
+    font-family:'Inter', sans-serif;
+    font-size:13px;
+    letter-spacing:0.5px;
+    color:var(--text);
+    margin:0 0 10px;
+    display:flex;
+    align-items:baseline;
+    gap:8px;
+  }
+  .detail-profile-source{
+    font-family:'JetBrains Mono', monospace;
+    font-size:9.5px;
+    text-transform:uppercase;
+    letter-spacing:0.5px;
+    color:var(--text-soft);
+    font-weight:400;
+  }
+  .detail-profile-missing{
+    font-size:12.5px;
+    color:var(--text-soft);
+    font-style:italic;
+    padding:10px 0;
+  }
+  .stat-pills{display:flex; gap:6px; flex-wrap:wrap; margin-bottom:14px;}
+  .stat-pill{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    min-width:40px;
+    background:rgba(0,0,0,0.04);
+    border:1px solid var(--line);
+    border-radius:5px;
+    padding:4px 8px;
+  }
+  .stat-pill .sp-label{
+    font-family:'JetBrains Mono', monospace;
+    font-size:8.5px;
+    letter-spacing:0.5px;
+    text-transform:uppercase;
+    color:var(--text-soft);
+  }
+  .stat-pill .sp-val{
+    font-family:'Inter', sans-serif;
+    font-size:14px;
+    font-weight:700;
+    color:var(--text);
+  }
+  .grim-weapons{display:flex; flex-direction:column; gap:6px; margin-bottom:14px;}
+  .grim-weapon-line{
+    font-size:12px;
+    padding:7px 10px;
+    background:rgba(0,0,0,0.035);
+    border-radius:5px;
+    border-left:3px solid var(--line);
+  }
+
+  @media (max-width:820px){
+    .roster-layout{grid-template-columns:1fr;}
+    .roster-detail-pane{position:static;}
+  }
+
+  /* ===== Categorized "Add Units" browser (New Recruit / BattleScribe style) ===== */
+  .add-unit-browser{
+    margin-top:10px;
+    border:1px solid var(--line);
+    border-radius:10px;
+    background:var(--parchment-2);
+    padding:10px;
+  }
+  .add-unit-browser .grim-search{width:100%; max-width:none; margin-bottom:8px;}
+  .au-category{
+    border:1px solid var(--line);
+    border-radius:8px;
+    background:var(--parchment);
+    margin-bottom:6px;
+    overflow:hidden;
+  }
+  .au-category:last-child{margin-bottom:0;}
+  .au-cat-head{
+    all:unset;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    width:100%;
+    padding:10px 12px;
+    cursor:pointer;
+    font-family:'Inter', sans-serif;
+    font-weight:600;
+    font-size:13px;
+    color:var(--text);
+    box-sizing:border-box;
+  }
+  .au-cat-head:hover{background:rgba(84,87,246,0.06);}
+  .au-chevron{
+    display:inline-block;
+    font-size:10px;
+    color:var(--text-soft);
+    transition:transform 0.15s ease;
+  }
+  .au-category.open .au-chevron{transform:rotate(90deg);}
+  .au-cat-count{
+    margin-left:auto;
+    font-family:'JetBrains Mono', monospace;
+    font-size:10.5px;
+    color:var(--text-soft);
+    background:rgba(20,22,34,0.06);
+    border-radius:10px;
+    padding:1px 8px;
+  }
+  .au-cat-body{display:none;}
+  .au-category.open .au-cat-body{display:block; border-top:1px solid var(--line);}
+  .au-row{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:8px 12px;
+    font-size:12.5px;
+    border-top:1px solid rgba(20,22,34,0.05);
+  }
+  .au-row:first-child{border-top:none;}
+  .au-row:hover{background:rgba(84,87,246,0.05);}
+  .au-row.disabled{opacity:0.55;}
+  .au-name{flex:1; min-width:0; color:var(--text); overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+  .au-pts{
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px;
+    color:var(--text-soft);
+    white-space:nowrap;
+  }
+  .au-limit{
+    font-family:'JetBrains Mono', monospace;
+    font-size:10px;
+    padding:1px 6px;
+    border-radius:8px;
+    background:rgba(20,22,34,0.06);
+    color:var(--text-soft);
+    white-space:nowrap;
+  }
+  .au-limit.at-limit{background:rgba(224,56,74,0.12); color:var(--seal-red); font-weight:600;}
+  .au-add-btn{
+    all:unset;
+    width:24px; height:24px;
+    min-height:0;
+    border-radius:50%;
+    background:var(--gold);
+    color:#fff;
+    display:flex; align-items:center; justify-content:center;
+    font-size:15px;
+    line-height:1;
+    cursor:pointer;
+    flex-shrink:0;
+    box-shadow:0 1px 3px rgba(84,87,246,0.4);
+    transition:background 0.15s ease, transform 0.1s ease;
+  }
+  .au-add-btn:hover{background:var(--gold-2); transform:scale(1.08);}
+  .au-add-btn:active{transform:scale(0.95);}
+  .au-add-btn:disabled{background:var(--line); color:var(--text-soft); cursor:not-allowed; box-shadow:none;}
+  .au-add-btn:disabled:hover{transform:none;}
   .reinforce-btn{
     font-family:'JetBrains Mono', monospace;
     font-size:9.5px;
@@ -768,8 +1290,8 @@
     min-height:0;
     cursor:pointer;
   }
-  .reinforce-btn.active{background:var(--gold); color:#f3e6c8; border-color:var(--gold);}
-  .reinforce-btn:hover{background:rgba(169,129,47,0.2);}
+  .reinforce-btn.active{background:var(--gold); color:#f4f5fb; border-color:var(--gold);}
+  .reinforce-btn:hover{background:rgba(84,87,246,0.2);}
   .reinforce-btn.active:hover{background:#b8900f;}
   .general-badge{
     display:inline-flex; align-items:center; gap:3px;
@@ -777,7 +1299,7 @@
     font-size:9.5px; letter-spacing:0.8px; text-transform:uppercase;
     color:var(--gold); border:1px solid var(--gold);
     padding:2px 6px; margin-left:6px; white-space:nowrap;
-    background:rgba(169,129,47,0.12);
+    background:rgba(84,87,246,0.12);
   }
   .role-badge{
     display:inline-block;
@@ -826,8 +1348,9 @@
     .grim-search, .grim-filters, .dropzone, #grimoireForm, .grimoire-card .card-actions{display:none !important;}
     .ledger{border:none; box-shadow:none; padding:0; max-width:100%;}
     .tab-panel{display:block !important;}
+    section[data-panel="grimoire"]{display:none !important;}
     .parchment-card{box-shadow:none; border:1px solid #999;}
-    .roster-table th{background:#f0e3c4 !important; -webkit-print-color-adjust:exact; print-color-adjust:exact;}
+    .roster-table th{background:#f4f5f8 !important; -webkit-print-color-adjust:exact; print-color-adjust:exact;}
     .roster-section-head td{font-weight:bold;}
     .base-pts{display:none;}
   }
@@ -852,7 +1375,7 @@
   /* Faction background */
   #faction-bg{
     position:fixed; inset:0; z-index:0; pointer-events:none;
-    background: radial-gradient(ellipse at top, #3a2c1c 0%, #241a12 55%, #150f0a 100%);
+    background: radial-gradient(ellipse at top, #1c2036 0%, #12141c 55%, #0a0b10 100%);
     transition: background 1.5s ease;
   }
   #faction-bg-img{
@@ -883,7 +1406,7 @@
     transition:background .15s, color .15s;
   }
   .sys-btn.active { background:var(--gold); color:var(--bg-dark); }
-  .sys-btn:hover:not(.active) { background:rgba(212,168,56,0.15); }
+  .sys-btn:hover:not(.active) { background:rgba(84,87,246,0.15); }
   .a40k-only{display:none;}
   body.sys-40k .a40k-only{display:block;}
   .a40k-only-cell{display:none;}
@@ -918,20 +1441,36 @@
       </div>
     </div>
     <nav class="tab-nav" id="tabNav">
+      <button class="tab-btn" data-tab="armies" type="button">Armies</button>
       <button class="tab-btn active" data-tab="roster" type="button">Order of Battle</button>
       <button class="tab-btn" data-tab="clash" type="button">Clash of Arms</button>
-      <button class="tab-btn" data-tab="grimoire" type="button">Grimoire</button>
+      <button class="tab-btn" data-tab="collection" type="button">Collection</button>
     </nav>
   </div>
 </header>
 
 <div class="page-wrap">
 
+  <!-- ================= ARMIES HUB ================= -->
+  <section class="tab-panel" data-panel="armies">
+  <div class="ledger">
+    <h1>My Armies</h1>
+    <p class="subtitle">Saved Army Lists</p>
+    <p class="clash-note">Every list you build is saved here. Open one to keep editing it in the Order of Battle tab, duplicate one as a starting point for a variant, or start a new one from scratch.</p>
+    <div class="armies-grid" id="armiesGrid"></div>
+    <button id="newArmyBtn" type="button">+ New Army</button>
+  </div>
+  </section>
+
   <!-- ================= ROSTER ================= -->
   <section class="tab-panel active" data-panel="roster">
   <div class="ledger">
     <h1>Order of Battle</h1>
-    <p class="subtitle">Personal Roster</p>
+    <div class="current-army-strip" id="currentArmyStrip">
+      <span class="cas-label">Editing</span>
+      <span class="cas-name" id="currentArmyStripName">My Army</span>
+      <button class="ghost small" id="switchArmyBtn" type="button">Switch Army</button>
+    </div>
 
     <div class="meta-row">
       <div class="field">
@@ -1003,39 +1542,34 @@
       </div>
     </details>
 
-    <table>
-      <thead>
-        <tr>
-          <th class="row-idx">#</th>
-          <th>Unit</th>
-          <th class="num">Models</th>
-          <th class="num">Points</th>
-          <th class="num">Wounds Ea.</th>
-          <th class="num">Wounds Total</th>
-          <th class="del-cell"></th>
-        </tr>
-      </thead>
-      <tbody id="rosterBody"></tbody>
-      <tfoot>
-        <tr>
-          <td colspan="3">Totals</td>
-          <td class="num" id="totalPoints">0</td>
-          <td></td>
-          <td class="num" id="totalWounds">0</td>
-          <td></td>
-        </tr>
-      </tfoot>
-    </table>
-    <div class="points-breakdown" id="pointsBreakdown"></div>
+    <div class="roster-layout">
+      <div class="roster-list-pane">
+        <div class="roster-list" id="rosterList"></div>
 
-    <div class="empty-state" id="emptyState" style="display:none;">
-      No units mustered yet. Paste a list above, add one by hand, or 
-      <a href="#" id="emptyStateGrimLink" style="color:var(--gold);text-decoration:underline;">import a faction from the Grimoire</a>.
-    </div>
+        <div class="empty-state" id="emptyState" style="display:none;">
+          No units mustered yet. Paste a list above, add one by hand, or
+          <a href="#" id="emptyStateGrimLink" style="color:var(--gold);text-decoration:underline;">add one from the Grimoire library</a>.
+        </div>
 
-    <div class="add-row">
-      <button class="ghost" id="addRowBtn" type="button">+ Add Unit</button>
-      <select id="rosterGrimoirePick" class="grim-pick" style="margin:0;"><option value="">Add from Grimoire...</option></select>
+        <div class="add-row">
+          <button class="ghost" id="addRowBtn" type="button">+ Add blank unit</button>
+          <button id="addUnitToggleBtn" type="button">+ Add Units</button>
+        </div>
+        <div class="add-unit-browser" id="addUnitBrowser" hidden>
+          <input type="search" id="addUnitSearch" class="grim-search" placeholder="Search units...">
+          <div id="addUnitCategories"></div>
+        </div>
+
+        <div class="roster-totals-bar">
+          <div class="roster-totals-stat"><span class="rt-label">Points</span><span class="rt-val" id="totalPoints">0</span></div>
+          <div class="roster-totals-stat"><span class="rt-label">Wounds</span><span class="rt-val" id="totalWounds">0</span></div>
+        </div>
+        <div class="points-breakdown" id="pointsBreakdown"></div>
+      </div>
+
+      <div class="roster-detail-pane" id="rosterDetailPane">
+        <div class="roster-detail-empty">Select a unit on the left to see its full profile and edit it here.</div>
+      </div>
     </div>
   </div>
   </section>
@@ -1050,7 +1584,11 @@
     <div class="clash-grid">
       <div class="clash-col col-a">
         <h3 id="clashALabel">Unit A</h3>
-        <select id="a_grimPick" class="grim-pick"><option value="">Load from Grimoire...</option></select>
+        <div class="clash-grim-filters">
+          <select id="a_allianceFilter" class="grim-pick"><option value="">— alliance/group —</option></select>
+          <select id="a_factionFilter" class="grim-pick"><option value="">— faction —</option></select>
+        </div>
+        <select id="a_grimPick" class="grim-pick"><option value="">Choose a faction above first...</option></select>
         <div class="clash-fields">
           <div class="field wide">
             <label for="a_name">Name</label>
@@ -1076,7 +1614,11 @@
       </div>
       <div class="clash-col col-b">
         <h3 id="clashBLabel">Unit B</h3>
-        <select id="b_grimPick" class="grim-pick"><option value="">Load from Grimoire...</option></select>
+        <div class="clash-grim-filters">
+          <select id="b_allianceFilter" class="grim-pick"><option value="">— alliance/group —</option></select>
+          <select id="b_factionFilter" class="grim-pick"><option value="">— faction —</option></select>
+        </div>
+        <select id="b_grimPick" class="grim-pick"><option value="">Choose a faction above first...</option></select>
         <div class="clash-fields">
           <div class="field wide">
             <label for="b_name">Name</label>
@@ -1207,6 +1749,23 @@
   </div>
   </section>
 
+  <!-- ================= COLLECTION ================= -->
+  <section class="tab-panel" data-panel="collection">
+  <div class="ledger">
+    <h1>Collection</h1>
+    <p class="subtitle">Models You Own</p>
+    <p class="clash-note">A personal inventory of what's actually in your case. It doesn't limit what you can put in a roster &mdash; it's just here so you know what you can field before buying more.</p>
+
+    <div class="grim-toolbar">
+      <input type="search" id="collSearch" class="grim-search" placeholder="Search units or factions...">
+      <select id="collFactionFilter" class="grim-pick" style="max-width:240px; margin-bottom:0;"><option value="">— any faction —</option></select>
+    </div>
+
+    <div class="collection-summary" id="collectionSummary"></div>
+    <div id="collectionList"></div>
+  </div>
+  </section>
+
 </div>
 
 <div class="footer-note">Saved automatically &mdash; faction data loads on first visit</div>
@@ -1216,7 +1775,18 @@
   const hasCloudStorage = typeof window.storage !== 'undefined' && window.storage && typeof window.storage.get === 'function';
 
   // In-memory storage for deployed environment
+  // Real-browser fallback: localStorage persists across reloads/sessions.
+  // A last-resort in-memory store only covers environments where even
+  // localStorage throws (e.g. some locked-down private-browsing modes).
   const _memStore = {};
+  let hasLocalStorage = false;
+  try {
+    const t = '__muster_roll_test__';
+    window.localStorage.setItem(t, '1');
+    window.localStorage.removeItem(t);
+    hasLocalStorage = true;
+  } catch (e) { hasLocalStorage = false; }
+
   function memGet(key){ return key in _memStore ? _memStore[key] : null; }
   function memSet(key, value){ _memStore[key] = value; }
 
@@ -1225,6 +1795,9 @@
       try { const r = await window.storage.get(key, false); return r ? r.value : null; }
       catch(e){ return null; }
     }
+    if (hasLocalStorage) {
+      try { return window.localStorage.getItem(key); } catch(e){ return memGet(key); }
+    }
     return memGet(key);
   }
 
@@ -1232,6 +1805,10 @@
     if (hasCloudStorage) {
       try { await window.storage.set(key, value, false); return true; }
       catch(e){ console.error('Save failed', e); return false; }
+    }
+    if (hasLocalStorage) {
+      try { window.localStorage.setItem(key, value); return true; }
+      catch(e){ memSet(key, value); return true; }
     }
     memSet(key, value);
     return true;
@@ -1242,7 +1819,30 @@
       try { await window.storage.delete(key, false); return; }
       catch(e){ return; }
     }
+    if (hasLocalStorage) {
+      try { window.localStorage.removeItem(key); } catch(e){}
+    }
     delete _memStore[key];
+  }
+
+  async function storageKeys(prefix){
+    if (hasCloudStorage) {
+      try {
+        const r = await window.storage.list ? window.storage.list(prefix, false) : null;
+        return r && r.keys ? r.keys : [];
+      } catch(e){ return []; }
+    }
+    if (hasLocalStorage) {
+      try {
+        const out = [];
+        for (let i = 0; i < window.localStorage.length; i++) {
+          const k = window.localStorage.key(i);
+          if (k && k.startsWith(prefix)) out.push(k);
+        }
+        return out;
+      } catch(e){ return []; }
+    }
+    return Object.keys(_memStore).filter(k => k.startsWith(prefix));
   }
 
   const $ = (id) => document.getElementById(id);
@@ -1456,6 +2056,8 @@
       armyOptions:{ battleFormation:'', heroicTrait:'', artefacts:[], boons:[], detachments:[] } };
     factionRules = {};
     grimoire = [];
+    clashPick.a.alliance = ''; clashPick.a.faction = '';
+    clashPick.b.alliance = ''; clashPick.b.faction = '';
     // Re-populate dropdowns
     populateAllianceDropdown();
     updateClashLabels();
@@ -1492,8 +2094,10 @@
   let factionRules = {};
   let idCounter = 1;
 
-  const rosterBody = $('rosterBody');
+  const rosterListEl = $('rosterList');
+  const rosterDetailEl = $('rosterDetailPane');
   const emptyState = $('emptyState');
+  let selectedUnitId = null;
 
   function newId(){ return 'u' + (idCounter++) + '-' + Date.now().toString(36); }
 
@@ -1545,6 +2149,40 @@
     'orruk warclans':       { c1:'#2a3a1a', c2:'#1a1a0a', accent:'#8a8a3a', img:'Orruk-warclans.jpg', icon:'Orruk-warclans.png' },
     'sons of behemat':      { c1:'#3a2a2a', c2:'#1a0a0a', accent:'#8a6a4a', img:'Sons-of-behamat.jpg', icon:'Sons-of-behamat.png' }
   };
+  // 40K has no official-art assets (can't ship GW artwork), so these are
+  // procedurally generated abstract monogram badges instead — same lookup
+  // shape as FACTION_BG above, served from assets/factions-40k/.
+  const FACTION_BG_40K = {
+    'adepta sororitas': { c1:'#4a7ab5', c2:'#1a2a4a', img:'adepta-sororitas.svg', icon:'adepta-sororitas.svg' },
+    'adeptus custodes': { c1:'#4a7ab5', c2:'#1a2a4a', img:'adeptus-custodes.svg', icon:'adeptus-custodes.svg' },
+    'adeptus mechanicus': { c1:'#4a7ab5', c2:'#1a2a4a', img:'adeptus-mechanicus.svg', icon:'adeptus-mechanicus.svg' },
+    'agents of the imperium': { c1:'#4a7ab5', c2:'#1a2a4a', img:'agents-of-the-imperium.svg', icon:'agents-of-the-imperium.svg' },
+    'astra militarum': { c1:'#4a7ab5', c2:'#1a2a4a', img:'astra-militarum.svg', icon:'astra-militarum.svg' },
+    'black templars': { c1:'#4a7ab5', c2:'#1a2a4a', img:'black-templars.svg', icon:'black-templars.svg' },
+    'blood angels': { c1:'#4a7ab5', c2:'#1a2a4a', img:'blood-angels.svg', icon:'blood-angels.svg' },
+    'chaos daemons': { c1:'#b53a3a', c2:'#2a1010', img:'chaos-daemons.svg', icon:'chaos-daemons.svg' },
+    'chaos knights': { c1:'#b53a3a', c2:'#2a1010', img:'chaos-knights.svg', icon:'chaos-knights.svg' },
+    'chaos space marines': { c1:'#b53a3a', c2:'#2a1010', img:'chaos-space-marines.svg', icon:'chaos-space-marines.svg' },
+    'craftworlds': { c1:'#b59a4a', c2:'#2a2410', img:'craftworlds.svg', icon:'craftworlds.svg' },
+    'dark angels': { c1:'#4a7ab5', c2:'#1a2a4a', img:'dark-angels.svg', icon:'dark-angels.svg' },
+    'death guard': { c1:'#b53a3a', c2:'#2a1010', img:'death-guard.svg', icon:'death-guard.svg' },
+    'deathwatch': { c1:'#4a7ab5', c2:'#1a2a4a', img:'deathwatch.svg', icon:'deathwatch.svg' },
+    'drukhari': { c1:'#b59a4a', c2:'#2a2410', img:'drukhari.svg', icon:'drukhari.svg' },
+    "emperor's children": { c1:'#b53a3a', c2:'#2a1010', img:'emperors-children.svg', icon:'emperors-children.svg' },
+    'genestealer cults': { c1:'#b59a4a', c2:'#2a2410', img:'genestealer-cults.svg', icon:'genestealer-cults.svg' },
+    'grey knights': { c1:'#4a7ab5', c2:'#1a2a4a', img:'grey-knights.svg', icon:'grey-knights.svg' },
+    'imperial knights': { c1:'#4a7ab5', c2:'#1a2a4a', img:'imperial-knights.svg', icon:'imperial-knights.svg' },
+    'leagues of votann': { c1:'#b59a4a', c2:'#2a2410', img:'leagues-of-votann.svg', icon:'leagues-of-votann.svg' },
+    'necrons': { c1:'#b59a4a', c2:'#2a2410', img:'necrons.svg', icon:'necrons.svg' },
+    'orks': { c1:'#b59a4a', c2:'#2a2410', img:'orks.svg', icon:'orks.svg' },
+    'space marines': { c1:'#4a7ab5', c2:'#1a2a4a', img:'space-marines.svg', icon:'space-marines.svg' },
+    'space wolves': { c1:'#4a7ab5', c2:'#1a2a4a', img:'space-wolves.svg', icon:'space-wolves.svg' },
+    "t'au empire": { c1:'#b59a4a', c2:'#2a2410', img:'tau-empire.svg', icon:'tau-empire.svg' },
+    'thousand sons': { c1:'#b53a3a', c2:'#2a1010', img:'thousand-sons.svg', icon:'thousand-sons.svg' },
+    'tyranids': { c1:'#b59a4a', c2:'#2a2410', img:'tyranids.svg', icon:'tyranids.svg' },
+    'ultramarines': { c1:'#4a7ab5', c2:'#1a2a4a', img:'ultramarines.svg', icon:'ultramarines.svg' },
+    'world eaters': { c1:'#b53a3a', c2:'#2a1010', img:'world-eaters.svg', icon:'world-eaters.svg' },
+  };
   function applyFactionBackground(){
     const bg = $('faction-bg');
     const bgImg = $('faction-bg-img');
@@ -1552,31 +2190,43 @@
     const iconR = $('faction-icon-right');
     if (!bg || !bgImg || !iconL || !iconR) return;
 
+    const is40k = activeSystem === '40k';
     const key = normalizeFaction(state.faction || '');
-    const fb = key ? FACTION_BG[key] : null;
+    const table = is40k ? FACTION_BG_40K : FACTION_BG;
+    const assetDir = is40k ? 'factions-40k' : 'factions';
+    const iconDir = is40k ? 'factions-40k' : 'icons';
+    const fb = key ? table[key] : null;
 
     if (fb) {
       // Faction selected: full-screen art + faction icons on sides
-      bg.style.background = `radial-gradient(ellipse at top, ${fb.c1}40 0%, ${fb.c2} 55%, #150f0a 100%)`;
-      bgImg.style.backgroundImage = `url(assets/factions/${fb.img})`;
-      bgImg.style.opacity = '1';
-      const iconUrl = `assets/icons/${fb.icon}`;
+      bg.style.background = `radial-gradient(ellipse at top, ${fb.c1}40 0%, ${fb.c2} 55%, #0a0b10 100%)`;
+      bgImg.style.backgroundImage = `url(assets/${assetDir}/${fb.img})`;
+      bgImg.style.opacity = is40k ? '0.5' : '1';
+      const iconUrl = `assets/${iconDir}/${fb.icon}`;
       iconL.src = iconUrl;
       iconR.src = iconUrl;
       iconL.style.opacity = '1';
       iconR.style.opacity = '1';
-    } else if (state.alliance && getSysConfig().allianceMeta[state.alliance]) {
+    } else if (!is40k && state.alliance && getSysConfig().allianceMeta[state.alliance]) {
       // Alliance selected but no faction: use alliance color + alliance icon
+      // (40K has no alliance-level icon assets, so it falls through to the
+      // plain colored-gradient branch below instead.)
       const meta = getSysConfig().allianceMeta[state.alliance];
       const color = meta.color.startsWith('var(') ? (getComputedStyle(document.documentElement).getPropertyValue(meta.color.slice(4,-1)).trim() || '#8a7a5a') : meta.color;
-      bg.style.background = `radial-gradient(ellipse at top, ${color}25 0%, #241a12 55%, #150f0a 100%)`;
+      bg.style.background = `radial-gradient(ellipse at top, ${color}25 0%, #1c2036 55%, #0a0b10 100%)`;
       bgImg.style.opacity = '0';
       const allianceIcon = `assets/icons/${state.alliance}.png`;
-      // Try jpg fallback if png doesn't exist
       iconL.src = allianceIcon;
       iconR.src = allianceIcon;
       iconL.style.opacity = '1';
       iconR.style.opacity = '1';
+    } else if (is40k && state.alliance && getSysConfig().allianceMeta[state.alliance]) {
+      const meta = getSysConfig().allianceMeta[state.alliance];
+      const color = meta.color.startsWith('var(') ? (getComputedStyle(document.documentElement).getPropertyValue(meta.color.slice(4,-1)).trim() || '#8a7a5a') : meta.color;
+      bg.style.background = `radial-gradient(ellipse at top, ${color}25 0%, #1c2036 55%, #0a0b10 100%)`;
+      bgImg.style.opacity = '0';
+      iconL.style.opacity = '0';
+      iconR.style.opacity = '0';
     } else {
       // Default: dark brown radial, no icons
       bg.style.background = '';
@@ -1601,7 +2251,7 @@
     applyFactionBackground();
     pruneArmyOptions();
 
-    rosterBody.innerHTML = '';
+    rosterListEl.innerHTML = '';
     emptyState.style.display = state.units.length ? 'none' : 'block';
 
     // Validate general: must exist and be a hero
@@ -1612,17 +2262,17 @@
     const others = state.units.filter(u => !u.isHero && u.id !== state.generalUnitId);
 
     let totalPts = 0, totalWounds = 0;
-    let displayIdx = 0;
+
+    if (selectedUnitId && !state.units.some(u => u.id === selectedUnitId)) selectedUnitId = null;
 
     function sectionHead(label){
-      const tr = document.createElement('tr');
-      tr.className = 'roster-section-head';
-      tr.innerHTML = `<td colspan="7">${escapeHtml(label)}</td>`;
-      rosterBody.appendChild(tr);
+      const el = document.createElement('div');
+      el.className = 'roster-section-head';
+      el.textContent = label;
+      rosterListEl.appendChild(el);
     }
 
-    function renderUnitRow(u){
-      displayIdx++;
+    function renderUnitCard(u){
       const qty = Number(u.qty) || 0;
       const pts = Number(u.points) || 0;
       const w = Number(u.wounds) || 0;
@@ -1632,52 +2282,33 @@
       totalPts += ptsTotal;
       totalWounds += woundsTotal;
 
-      const dotStyle = u.alliance && ALLIANCE_META[u.alliance] ? ` style="--acc:${ALLIANCE_META[u.alliance].color}"` : '';
-      const dot = u.alliance ? `<span class="alliance-dot"${dotStyle}></span>` : '';
+      const accColor = u.alliance && ALLIANCE_META[u.alliance] ? ALLIANCE_META[u.alliance].color : 'var(--gold)';
       const isGen = u.id === state.generalUnitId;
       const heroBadge = u.isHero ? '<span class="role-badge hero">Hero</span>' : '';
       const reinforcedBadge = u.reinforced ? '<span class="reinforced-badge">Reinforced</span>' : '';
-      const generalBadge = isGen ? '<span class="general-badge">★ General</span>' : '';
+      const generalBadge = isGen ? '<span class="general-badge">&#9733; General</span>' : '';
 
-      // qty is editable when not reinforced; static (derived) when reinforced
-      const qtyCell = u.reinforced
-        ? `<td class="num">${effQty}</td>`
-        : `<td class="num"><input class="num" type="number" min="0" value="${qty}" data-field="qty" data-id="${u.id}"></td>`;
-
-      let actions = '<div class="unit-actions-cell">';
-      if (u.canReinforce) {
-        actions += `<button class="reinforce-btn ${u.reinforced ? 'active' : ''}" data-reinforce="${u.id}" type="button">${u.reinforced ? 'Reinforced' : 'Reinforce'}</button>`;
-      }
-      if (u.isHero && !isGen) {
-        actions += `<button class="ghost small" data-makegeneral="${u.id}" type="button" title="Designate as General">Make General</button>`;
-      }
-      if (isGen) {
-        actions += `<button class="ghost small" data-removegeneral type="button">Remove General</button>`;
-      }
-      actions += `<button class="small danger" data-del="${u.id}" type="button" title="Remove unit">&times;</button></div>`;
-
-      // Points cell: editable when not reinforced, static (doubled) when reinforced
-      const pointsCell = u.reinforced
-        ? `<td class="num" data-cell="ptsTotal">${ptsTotal}<span class="base-pts">(${pts})</span></td>`
-        : `<td class="num"><input class="num" type="number" min="0" value="${pts}" data-field="points" data-id="${u.id}"></td>`;
-
-      const tr = document.createElement('tr');
-      if (isGen) tr.className = 'is-general';
-      tr.innerHTML = `
-        <td class="row-idx">${displayIdx}</td>
-        <td><div class="unit-name-cell">${dot}<input type="text" value="${escapeAttr(u.name)}" data-field="name" data-id="${u.id}">${heroBadge}${reinforcedBadge}${generalBadge}</div></td>
-        ${qtyCell}
-        ${pointsCell}
-        <td class="num"><input class="num" type="number" min="0" value="${w}" data-field="wounds" data-id="${u.id}"></td>
-        <td class="num" data-cell="woundsTotal">${woundsTotal}</td>
-        <td class="del-cell">${actions}</td>
+      const card = document.createElement('div');
+      card.className = 'unit-card' + (isGen ? ' is-general' : '') + (u.id === selectedUnitId ? ' selected' : '');
+      card.style.setProperty('--acc', accColor);
+      card.setAttribute('data-unit-id', u.id);
+      card.innerHTML = `
+        <div class="unit-card-main">
+          <div class="unit-card-name"><span class="ucn-text">${escapeHtml(u.name || 'Unnamed unit')}</span>${heroBadge}${reinforcedBadge}${generalBadge}</div>
+          <div class="unit-card-meta">
+            <span>${effQty}&times;</span>
+            <span class="uc-pts">${ptsTotal}${u.reinforced ? ` <em>(${pts})</em>` : ''} pts</span>
+            ${w ? `<span>${woundsTotal} wounds</span>` : ''}
+          </div>
+        </div>
+        <button class="small danger unit-card-del" data-del="${u.id}" type="button" title="Remove unit">&times;</button>
       `;
-      rosterBody.appendChild(tr);
+      rosterListEl.appendChild(card);
     }
 
-    if (general) { sectionHead('General'); renderUnitRow(general); }
-    if (heroes.length) { sectionHead('Heroes'); heroes.forEach(renderUnitRow); }
-    if (others.length) { sectionHead('Units'); others.forEach(renderUnitRow); }
+    if (general) { sectionHead('General'); renderUnitCard(general); }
+    if (heroes.length) { sectionHead('Heroes'); heroes.forEach(renderUnitCard); }
+    if (others.length) { sectionHead('Units'); others.forEach(renderUnitCard); }
 
     // Enhancement costs (artefacts, boons, etc.)
     const enhCost = computeEnhancementCosts();
@@ -1709,7 +2340,9 @@
     }
     $('sealNum').textContent = totalPts;
 
+    renderUnitDetail();
     renderArmyRulesPanel();
+    if (!$('addUnitBrowser')?.hidden) renderAddUnitBrowser();
   }
 
   function pruneArmyOptions(){
@@ -1918,42 +2551,255 @@
     }).join('');
   }
 
+  // ===== Multi-army save system (one army list = one saved slot, per system) =====
+  const ARMIES_INDEX_KEY = 'muster-roll-armies-index';
+  const ARMY_PREFIX = 'muster-roll-army-';
+  const CURRENT_ARMY_KEY = 'muster-roll-current-army';
+  let armiesIndex = [];
+  let currentArmyId = null;
+
+  function defaultArmyState(){
+    return { armyName:'', pointsLimit:2000, alliance:'', faction:'', units:[],
+      generalUnitId:null,
+      armyOptions:{ battleFormation:'', heroicTrait:'', artefacts:[], boons:[], detachments:[] } };
+  }
+  function normalizeArmyState(parsed){
+    const s = Object.assign(defaultArmyState(), parsed || {});
+    if (!s.armyOptions || typeof s.armyOptions !== 'object') {
+      s.armyOptions = { battleFormation:'', heroicTrait:'', artefacts:[], boons:[] };
+    }
+    ['artefacts','boons','detachments'].forEach(k => {
+      if (!Array.isArray(s.armyOptions[k])) s.armyOptions[k] = [];
+    });
+    if (s.armyOptions.battleFormation === undefined) s.armyOptions.battleFormation = '';
+    if (s.armyOptions.heroicTrait === undefined) s.armyOptions.heroicTrait = '';
+    if (s.generalUnitId === undefined) s.generalUnitId = null;
+    (s.units || []).forEach(u => {
+      if (u.reinforced === undefined) u.reinforced = false;
+      if (u.isHero === undefined) u.isHero = false;
+      if (u.canReinforce === undefined) u.canReinforce = false;
+      if (!Array.isArray(u.categories)) u.categories = [];
+      if (!Array.isArray(u.enhancementTypes)) u.enhancementTypes = [];
+    });
+    return s;
+  }
+  function newArmyId(){ return 'arm' + Date.now().toString(36) + Math.random().toString(36).slice(2, 7); }
+  function armyKey(id){ return sysKey(ARMY_PREFIX + id); }
+
+  async function loadArmiesIndex(){
+    const raw = await storageGet(sysKey(ARMIES_INDEX_KEY));
+    try { armiesIndex = raw ? JSON.parse(raw) : []; } catch(e) { armiesIndex = []; }
+    if (!Array.isArray(armiesIndex)) armiesIndex = [];
+  }
+  async function saveArmiesIndex(){
+    await storageSet(sysKey(ARMIES_INDEX_KEY), JSON.stringify(armiesIndex));
+  }
+
+  // First run per system: if no armies exist yet but the old single-slot save
+  // does, migrate it into "My Army" instead of losing it.
+  async function migrateLegacyArmyIfNeeded(){
+    await loadArmiesIndex();
+    if (armiesIndex.length) return;
+    const legacyRaw = await storageGet(sysKey(STORAGE_KEY));
+    let seed = defaultArmyState();
+    if (legacyRaw) {
+      try { seed = normalizeArmyState(JSON.parse(legacyRaw)); } catch(e) {}
+    }
+    if (!seed.armyName) seed.armyName = 'My Army';
+    const id = newArmyId();
+    await storageSet(armyKey(id), JSON.stringify(seed));
+    armiesIndex = [{ id, name: seed.armyName, faction: seed.faction || '', pointsLimit: seed.pointsLimit || 2000, updatedAt: Date.now() }];
+    await saveArmiesIndex();
+    await storageSet(sysKey(CURRENT_ARMY_KEY), id);
+  }
+
+  async function ensureCurrentArmy(){
+    await migrateLegacyArmyIfNeeded();
+    currentArmyId = await storageGet(sysKey(CURRENT_ARMY_KEY));
+    if (!currentArmyId || !armiesIndex.some(a => a.id === currentArmyId)) {
+      currentArmyId = armiesIndex.length ? armiesIndex[0].id : null;
+    }
+    if (!currentArmyId) {
+      const id = newArmyId();
+      const seed = defaultArmyState();
+      seed.armyName = 'My Army';
+      await storageSet(armyKey(id), JSON.stringify(seed));
+      armiesIndex = [{ id, name: seed.armyName, faction: '', pointsLimit: 2000, updatedAt: Date.now() }];
+      await saveArmiesIndex();
+      currentArmyId = id;
+    }
+    await storageSet(sysKey(CURRENT_ARMY_KEY), currentArmyId);
+  }
+
   async function save(){
-    await storageSet(sysKey(STORAGE_KEY), JSON.stringify(state));
+    if (!currentArmyId) return;
+    await storageSet(armyKey(currentArmyId), JSON.stringify(state));
+    const idx = armiesIndex.find(a => a.id === currentArmyId);
+    if (idx) {
+      idx.name = state.armyName || 'Untitled Army';
+      idx.faction = state.faction || '';
+      idx.pointsLimit = state.pointsLimit || 2000;
+      idx.updatedAt = Date.now();
+      await saveArmiesIndex();
+    }
+    renderArmiesBar();
   }
 
   async function load(){
-    const raw = await storageGet(sysKey(STORAGE_KEY));
+    await ensureCurrentArmy();
+    const raw = await storageGet(armyKey(currentArmyId));
+    state = defaultArmyState();
     if (raw) {
-      try {
-        const parsed = JSON.parse(raw);
-        state = Object.assign({
-          armyName:'', pointsLimit:2000, alliance:'', faction:'', units:[],
-          generalUnitId:null,
-          armyOptions:{ battleFormation:'', heroicTrait:'', artefacts:[], boons:[], detachments:[] }
-        }, parsed);
-        if (!state.armyOptions || typeof state.armyOptions !== 'object') {
-          state.armyOptions = { battleFormation:'', heroicTrait:'', artefacts:[], boons:[] };
-        }
-        ['artefacts','boons','detachments'].forEach(k => {
-          if (!Array.isArray(state.armyOptions[k])) state.armyOptions[k] = [];
-        });
-        if (state.armyOptions.battleFormation === undefined) state.armyOptions.battleFormation = '';
-        if (state.armyOptions.heroicTrait === undefined) state.armyOptions.heroicTrait = '';
-        if (state.generalUnitId === undefined) state.generalUnitId = null;
-        (state.units || []).forEach(u => {
-          if (u.reinforced === undefined) u.reinforced = false;
-          if (u.isHero === undefined) u.isHero = false;
-          if (u.canReinforce === undefined) u.canReinforce = false;
-          if (!Array.isArray(u.categories)) u.categories = [];
-          if (!Array.isArray(u.enhancementTypes)) u.enhancementTypes = [];
-        });
-      } catch(e) { /* ignore corrupt data */ }
+      try { state = normalizeArmyState(JSON.parse(raw)); } catch(e) { /* ignore corrupt data */ }
     }
     pruneArmyOptions();
     render();
+    renderArmiesBar();
     await loadFactionRules();
+    await loadCollection();
+    renderCollection();
   }
+
+  async function switchArmy(id){
+    if (id === currentArmyId) return;
+    await save();
+    currentArmyId = id;
+    await storageSet(sysKey(CURRENT_ARMY_KEY), id);
+    await load();
+  }
+
+  async function createArmy(){
+    await save();
+    const id = newArmyId();
+    const st = defaultArmyState();
+    st.armyName = 'New Army';
+    await storageSet(armyKey(id), JSON.stringify(st));
+    armiesIndex.push({ id, name: st.armyName, faction: '', pointsLimit: 2000, updatedAt: Date.now() });
+    await saveArmiesIndex();
+    currentArmyId = id;
+    await storageSet(sysKey(CURRENT_ARMY_KEY), id);
+    await load();
+  }
+
+  async function duplicateArmy(id){
+    const raw = await storageGet(armyKey(id));
+    const srcEntry = armiesIndex.find(a => a.id === id);
+    let st;
+    try { st = raw ? JSON.parse(raw) : defaultArmyState(); } catch(e) { st = defaultArmyState(); }
+    st.armyName = (st.armyName || (srcEntry ? srcEntry.name : '') || 'Army') + ' (copy)';
+    const newId = newArmyId();
+    await storageSet(armyKey(newId), JSON.stringify(st));
+    armiesIndex.push({ id: newId, name: st.armyName, faction: st.faction || '', pointsLimit: st.pointsLimit || 2000, updatedAt: Date.now() });
+    await saveArmiesIndex();
+    currentArmyId = newId;
+    await storageSet(sysKey(CURRENT_ARMY_KEY), newId);
+    await load();
+  }
+
+  async function deleteArmy(id){
+    const entry = armiesIndex.find(a => a.id === id);
+    if (!entry) return;
+    await storageDelete(armyKey(id));
+    armiesIndex = armiesIndex.filter(a => a.id !== id);
+    if (!armiesIndex.length) {
+      const newId = newArmyId();
+      const st = defaultArmyState();
+      st.armyName = 'My Army';
+      await storageSet(armyKey(newId), JSON.stringify(st));
+      armiesIndex = [{ id: newId, name: st.armyName, faction: '', pointsLimit: 2000, updatedAt: Date.now() }];
+    }
+    await saveArmiesIndex();
+    if (id === currentArmyId) {
+      currentArmyId = armiesIndex[0].id;
+      await storageSet(sysKey(CURRENT_ARMY_KEY), currentArmyId);
+      await load();
+    } else {
+      renderArmiesBar();
+    }
+  }
+
+  // No native confirm()/prompt(): those silently no-op in some embedded/iframe
+  // preview contexts, which made Delete look broken. Use a two-click inline
+  // confirm instead — click once to arm it, click again (within a few
+  // seconds) on the same button to actually delete.
+  let pendingDeleteId = null;
+  let pendingDeleteTimer = null;
+  function clearPendingDelete(){
+    pendingDeleteId = null;
+    if (pendingDeleteTimer) { clearTimeout(pendingDeleteTimer); pendingDeleteTimer = null; }
+  }
+
+  function formatUpdatedAt(ts){
+    if (!ts) return '';
+    const diff = Date.now() - ts;
+    const min = Math.floor(diff / 60000);
+    if (min < 1) return 'just now';
+    if (min < 60) return `${min}m ago`;
+    const hr = Math.floor(min / 60);
+    if (hr < 24) return `${hr}h ago`;
+    const day = Math.floor(hr / 24);
+    if (day < 30) return `${day}d ago`;
+    return new Date(ts).toLocaleDateString();
+  }
+
+  function renderArmiesBar(){
+    updateCurrentArmyStrip();
+    const wrap = $('armiesGrid');
+    if (!wrap) return;
+    const sorted = armiesIndex.slice().sort((a, b) => (b.updatedAt || 0) - (a.updatedAt || 0));
+    wrap.innerHTML = sorted.map(a => {
+      const confirming = a.id === pendingDeleteId;
+      const isCurrent = a.id === currentArmyId;
+      return `
+      <div class="army-card${isCurrent ? ' active' : ''}" data-army-id="${escapeAttr(a.id)}">
+        <div class="army-card-top">
+          <div class="army-card-name">${escapeHtml(a.name || 'Untitled Army')}</div>
+          ${isCurrent ? '<span class="army-card-current">Currently editing</span>' : ''}
+        </div>
+        <div class="army-card-meta">
+          <span>${escapeHtml(a.faction || 'No faction set')}</span>
+          <span>${a.pointsLimit ? a.pointsLimit + ' pts' : ''}</span>
+          <span>${formatUpdatedAt(a.updatedAt)}</span>
+        </div>
+        <div class="army-card-actions">
+          <button type="button" class="army-card-open" data-army-open="${escapeAttr(a.id)}">${isCurrent ? 'Continue Editing' : 'Open'}</button>
+          <button type="button" class="ghost small" data-army-dup="${escapeAttr(a.id)}" title="Duplicate">Duplicate</button>
+          ${confirming
+            ? `<button type="button" class="small danger" data-army-del="${escapeAttr(a.id)}" title="Click again to confirm">Sure? Delete</button>`
+            : `<button type="button" class="ghost small" data-army-del="${escapeAttr(a.id)}" title="Delete">Delete</button>`}
+        </div>
+      </div>`;
+    }).join('');
+  }
+
+  function updateCurrentArmyStrip(){
+    const entry = armiesIndex.find(a => a.id === currentArmyId);
+    const nameEl = $('currentArmyStripName');
+    if (nameEl) nameEl.textContent = (entry && entry.name) || state.armyName || 'My Army';
+  }
+
+  document.getElementById('newArmyBtn').addEventListener('click', () => { createArmy().then(() => setActiveTab('roster')); });
+  const switchArmyBtnEl = document.getElementById('switchArmyBtn');
+  if (switchArmyBtnEl) switchArmyBtnEl.addEventListener('click', () => setActiveTab('armies'));
+  document.getElementById('armiesGrid').addEventListener('click', (e) => {
+    const open = e.target.closest('[data-army-open]');
+    const dup = e.target.closest('[data-army-dup]');
+    const del = e.target.closest('[data-army-del]');
+    if (open) { clearPendingDelete(); switchArmy(open.getAttribute('data-army-open')).then(() => setActiveTab('roster')); return; }
+    if (dup) { clearPendingDelete(); duplicateArmy(dup.getAttribute('data-army-dup')); return; }
+    if (del) {
+      const id = del.getAttribute('data-army-del');
+      if (pendingDeleteId === id) {
+        clearPendingDelete();
+        deleteArmy(id);
+      } else {
+        clearPendingDelete();
+        pendingDeleteId = id;
+        pendingDeleteTimer = setTimeout(() => { clearPendingDelete(); renderArmiesBar(); }, 4000);
+        renderArmiesBar();
+      }
+    }
+  });
 
   async function loadFactionRules(){
     const raw = await storageGet(sysKey(FACTION_RULES_KEY));
@@ -2009,7 +2855,105 @@
     $('sealNum').textContent = totalPts;
   }
 
-  rosterBody.addEventListener('input', (e) => {
+  function findGrimoireEntryForUnit(u){
+    if (!u || !u.name) return null;
+    const name = u.name.trim().toLowerCase();
+    if (!name) return null;
+    let candidates = grimoire.filter(e => (e.name || '').trim().toLowerCase() === name);
+    if (u.faction && candidates.length > 1) {
+      const withFaction = candidates.filter(e => (e.faction || '').trim().toLowerCase() === u.faction.trim().toLowerCase());
+      if (withFaction.length) candidates = withFaction;
+    }
+    return candidates[0] || null;
+  }
+
+  function statPillsHtml(entry){
+    const is40k = activeSystem === '40k';
+    const cols = is40k
+      ? [['M', entry.move], ['T', entry.toughness], ['Sv', entry.save ? entry.save + '+' : ''], ['W', entry.wounds],
+         ['Ld', entry.leadership], ['OC', entry.objectiveControl], ['InvSv', entry.invulnerableSave ? entry.invulnerableSave + '+' : '']]
+      : [['Mv', entry.move], ['W', entry.wounds], ['Sv', entry.save ? entry.save + '+' : ''], ['Ward', entry.ward ? entry.ward + '+' : '']];
+    const pills = cols.filter(([, v]) => v).map(([k, v]) => `<div class="stat-pill"><span class="sp-label">${k}</span><span class="sp-val">${escapeHtml(String(v))}</span></div>`).join('');
+    return pills ? `<div class="stat-pills">${pills}</div>` : '';
+  }
+
+  function renderUnitDetail(){
+    if (!rosterDetailEl) return;
+    const u = selectedUnitId ? state.units.find(x => x.id === selectedUnitId) : null;
+    if (!u) {
+      rosterDetailEl.innerHTML = '<div class="roster-detail-empty">Select a unit on the left to see its full profile and edit it here.</div>';
+      return;
+    }
+    const qty = Number(u.qty) || 0;
+    const pts = Number(u.points) || 0;
+    const w = Number(u.wounds) || 0;
+    const effQty = effectiveQty(u);
+    const ptsTotal = pts * (u.reinforced ? 2 : 1);
+    const woundsTotal = effQty * w;
+    const isGen = u.id === state.generalUnitId;
+    const entry = findGrimoireEntryForUnit(u);
+
+    let actionsHtml = '';
+    if (u.canReinforce) {
+      actionsHtml += `<button class="ghost small reinforce-btn ${u.reinforced ? 'active' : ''}" data-reinforce="${u.id}" type="button">${u.reinforced ? 'Reinforced ✓' : 'Reinforce (double models &amp; pts)'}</button>`;
+    }
+    if (u.isHero && !isGen) {
+      actionsHtml += `<button class="ghost small" data-makegeneral="${u.id}" type="button">Make General</button>`;
+    }
+    if (isGen) {
+      actionsHtml += `<button class="ghost small" data-removegeneral type="button">Remove General</button>`;
+    }
+
+    const profileHtml = entry ? `
+      <div class="detail-profile">
+        <h4 class="detail-section-title">Profile <span class="detail-profile-source">from Grimoire</span></h4>
+        ${statPillsHtml(entry)}
+        ${weaponsSummaryHtml(entry)}
+        ${entry.abilities ? `<details class="abilities-toggle" open><summary>Abilities &amp; Keywords</summary><div class="grim-abilities">${escapeHtml(entry.abilities)}</div></details>` : ''}
+      </div>` : `<div class="detail-profile-missing">No matching Grimoire entry found, so there's no weapon/ability profile to show &mdash; edit the stats above by hand, or add this unit via the Grimoire picker instead for a full profile.</div>`;
+
+    rosterDetailEl.innerHTML = `
+      <div class="detail-head">
+        <input type="text" class="detail-name-input" value="${escapeAttr(u.name)}" data-field="name" data-id="${u.id}" placeholder="Unit name">
+        <button class="small danger" data-del="${u.id}" type="button" title="Remove unit">&times; Remove</button>
+      </div>
+      <div class="detail-fields">
+        <div class="field"><label>Models</label><input type="number" min="0" class="num" value="${qty}" data-field="qty" data-id="${u.id}" ${u.reinforced ? 'disabled' : ''}></div>
+        <div class="field"><label>Points (base)</label><input type="number" min="0" class="num" value="${pts}" data-field="points" data-id="${u.id}" ${u.reinforced ? 'disabled' : ''}></div>
+        <div class="field"><label>Wounds / model</label><input type="number" min="0" class="num" value="${w}" data-field="wounds" data-id="${u.id}"></div>
+      </div>
+      <div class="detail-totals">
+        <span><b data-cell="ptsTotal">${ptsTotal}</b> pts total</span>
+        <span><b data-cell="woundsTotal">${woundsTotal}</b> wounds total</span>
+      </div>
+      ${actionsHtml ? `<div class="detail-actions">${actionsHtml}</div>` : ''}
+      ${profileHtml}
+    `;
+  }
+
+  function deleteUnit(delId){
+    state.units = state.units.filter(u => u.id !== delId);
+    if (state.generalUnitId === delId) state.generalUnitId = null;
+    if (selectedUnitId === delId) selectedUnitId = null;
+    state.armyOptions.artefacts = (state.armyOptions.artefacts || []).filter(a => a.unitId !== delId);
+    state.armyOptions.boons = (state.armyOptions.boons || []).filter(b => b.unitId !== delId);
+    render(); save();
+  }
+
+  rosterListEl.addEventListener('click', (e) => {
+    const delId = e.target.closest('[data-del]')?.getAttribute('data-del');
+    if (delId) { deleteUnit(delId); return; }
+    const card = e.target.closest('.unit-card');
+    if (card) {
+      selectedUnitId = card.getAttribute('data-unit-id');
+      rosterListEl.querySelectorAll('.unit-card.selected').forEach(c => c.classList.remove('selected'));
+      card.classList.add('selected');
+      renderUnitDetail();
+      rosterDetailEl.scrollIntoView({ behavior:'smooth', block:'nearest' });
+    }
+  });
+
+  rosterDetailEl.addEventListener('input', (e) => {
     const t = e.target;
     const id = t.getAttribute('data-id');
     const field = t.getAttribute('data-field');
@@ -2017,22 +2961,28 @@
     const unit = state.units.find(u => u.id === id);
     if (!unit) return;
     unit[field] = t.value;
-    // Update derived cells in this row without a full re-render (keeps focus)
-    const tr = t.closest('tr');
-    if (tr) {
-      const effQty = effectiveQty(unit);
-      const pts = Number(unit.points) || 0;
-      const w = Number(unit.wounds) || 0;
-      const ptsCell = tr.querySelector('[data-cell="ptsTotal"]');
-      const wndCell = tr.querySelector('[data-cell="woundsTotal"]');
-      if (ptsCell) ptsCell.textContent = pts * (unit.reinforced ? 2 : 1);
-      if (wndCell) wndCell.textContent = effQty * w;
+    // Update derived totals without a full re-render (keeps input focus)
+    const effQty = effectiveQty(unit);
+    const pts = Number(unit.points) || 0;
+    const w = Number(unit.wounds) || 0;
+    const ptsCell = rosterDetailEl.querySelector('[data-cell="ptsTotal"]');
+    const wndCell = rosterDetailEl.querySelector('[data-cell="woundsTotal"]');
+    if (ptsCell) ptsCell.textContent = pts * (unit.reinforced ? 2 : 1);
+    if (wndCell) wndCell.textContent = effQty * w;
+    const card = rosterListEl.querySelector(`.unit-card[data-unit-id="${id}"]`);
+    if (card) {
+      const nameEl = card.querySelector('.ucn-text');
+      if (nameEl && field === 'name') nameEl.textContent = unit.name || 'Unnamed unit';
+      const metaEl = card.querySelector('.unit-card-meta');
+      if (metaEl) {
+        metaEl.innerHTML = `<span>${effQty}&times;</span><span class="uc-pts">${pts * (unit.reinforced?2:1)}${unit.reinforced ? ` <em>(${pts})</em>` : ''} pts</span>${w ? `<span>${effQty*w} wounds</span>` : ''}`;
+      }
     }
     refreshTotals();
     save();
   });
 
-  rosterBody.addEventListener('click', (e) => {
+  rosterDetailEl.addEventListener('click', (e) => {
     const reinforceId = e.target.getAttribute('data-reinforce');
     if (reinforceId) {
       const u = state.units.find(x => x.id === reinforceId);
@@ -2049,13 +2999,9 @@
       render(); save();
       return;
     }
-    const delId = e.target.getAttribute('data-del');
+    const delId = e.target.closest('[data-del]')?.getAttribute('data-del');
     if (delId) {
-      state.units = state.units.filter(u => u.id !== delId);
-      if (state.generalUnitId === delId) state.generalUnitId = null;
-      state.armyOptions.artefacts = (state.armyOptions.artefacts || []).filter(a => a.unitId !== delId);
-      state.armyOptions.boons = (state.armyOptions.boons || []).filter(b => b.unitId !== delId);
-      render(); save();
+      deleteUnit(delId);
     }
   });
 
@@ -2095,9 +3041,12 @@
     save();
   });
 
-  // Empty state CTA: switch to Grimoire tab
+  // Empty state CTA: open the "Add Units" browser
   const grimLink = $('emptyStateGrimLink');
-  if (grimLink) grimLink.addEventListener('click', (e) => { e.preventDefault(); switchTab('grimoire'); });
+  if (grimLink) grimLink.addEventListener('click', (e) => {
+    e.preventDefault();
+    openAddUnitBrowser();
+  });
 
   // ===== Army Rules Panel handlers =====
   $('armyBattleFormation').addEventListener('change', (e) => {
@@ -2315,7 +3264,7 @@
           wound: w.s || '',   // Strength maps to wound
           rend: w.ap || '0',  // AP maps to rend
           damage: w.d || '1', // Damage maps to damage
-          keywords: w.keywords || '',
+          keywords: (w.keywords && w.keywords !== '-') ? w.keywords : '',
           enabled: true
         }));
       }
@@ -2354,12 +3303,45 @@
 
   function parseWeaponKeywords(str){
     const s = String(str || '').toLowerCase();
-    const sustainedMatch = s.match(/sustained\s*hits?\s*(\d+)?/);
-    const sustainedHits = sustainedMatch ? (sustainedMatch[1] ? parseInt(sustainedMatch[1], 10) : 1) : 0;
+    // Sustained Hits X can be a flat number or dice notation (e.g. "Sustained Hits D3").
+    const sustainedMatch = s.match(/sustained\s*hits?\s*(\d*d\d+(?:\s*\+\s*\d+)?|\d+)?/);
+    const sustainedExpr = sustainedMatch ? (sustainedMatch[1] ? sustainedMatch[1].replace(/\s+/g, '') : '1') : '0';
+    const sustainedHits = parseDiceExpr(sustainedExpr);
+    const sustainedLabel = sustainedMatch ? `Sustained Hits ${sustainedMatch[1] ? sustainedMatch[1].toUpperCase().replace(/\s+/g, '') : '1'}` : '';
     const lethalHits = /lethal\s*hits?/.test(s);
     const devastatingWounds = /devastating\s*wounds?/.test(s);
     const twinLinked = /twin[-\s]?linked/.test(s) || /reroll(s|ed)?\s*wounds?/.test(s);
-    return { sustainedHits, lethalHits, devastatingWounds, twinLinked };
+    return { sustainedHits, sustainedLabel, lethalHits, devastatingWounds, twinLinked };
+  }
+
+  // Warhammer rule-keyword -> chip color class, for tag-style keyword display.
+  const KEYWORD_CHIP_CLASS = [
+    [/sustained\s*hits?/i, 'kw-sustained'],
+    [/lethal\s*hits?/i, 'kw-lethal'],
+    [/devastating\s*wounds?/i, 'kw-devastating'],
+    [/twin[-\s]?linked/i, 'kw-twinlinked'],
+    [/anti[-\s]?\w+/i, 'kw-anti'],
+    [/ignores?\s*cover/i, 'kw-utility'],
+    [/precision/i, 'kw-utility'],
+    [/rapid\s*fire/i, 'kw-utility'],
+    [/blast/i, 'kw-utility'],
+    [/hazardous/i, 'kw-warn'],
+  ];
+  function keywordChipClass(kwText){
+    const hit = KEYWORD_CHIP_CLASS.find(([re]) => re.test(kwText));
+    return hit ? hit[1] : 'kw-plain';
+  }
+  // Renders a raw comma-separated keyword string ("Sustained Hits 1, Lethal Hits")
+  // as small colored tag chips. `modeledSet` (optional) lowercases-matches which
+  // rule names the combat math actually accounts for, to visually flag the rest.
+  function keywordChipsHtml(rawKeywords, modeledNames){
+    const parts = String(rawKeywords || '').split(',').map(s => s.trim()).filter(Boolean);
+    if (!parts.length) return '';
+    return '<span class="kw-chips">' + parts.map(p => {
+      const cls = keywordChipClass(p);
+      const modeled = !modeledNames || modeledNames.some(n => p.toLowerCase().includes(n));
+      return `<span class="kw-chip ${cls}${modeled ? '' : ' kw-chip-unmodeled'}"${modeled ? '' : ' title="Shown for reference — not yet factored into the damage calc"'}>${escapeHtml(p)}</span>`;
+    }).join('') + '</span>';
   }
 
   function readProfile(prefix){
@@ -2395,9 +3377,10 @@
       } else {
         woundTarget = parseInt(w.wound, 10) || 0;
       }
-      const kw = is40k ? parseWeaponKeywords(w.keywords) : { sustainedHits:0, lethalHits:false, devastatingWounds:false, twinLinked:false };
+      const kw = is40k ? parseWeaponKeywords(w.keywords) : { sustainedHits:{roll:()=>0,average:0}, sustainedLabel:'', lethalHits:false, devastatingWounds:false, twinLinked:false };
       return {
         name: w.name,
+        rawKeywords: is40k ? (w.keywords || '') : '',
         enabled: w.enabled !== false,
         modelsCount: w.models ? Math.max(0, parseInt(w.models, 10) || 0) : attacker.models,
         attacksDice: parseDiceExpr(w.attacks || '1'),
@@ -2411,6 +3394,7 @@
         strength: is40k ? (parseInt(w.wound, 10) || 0) : null,
         ap: is40k ? (parseInt(w.rend, 10) || 0) : null,
         sustainedHits: kw.sustainedHits,
+        sustainedLabel: kw.sustainedLabel,
         lethalHits: kw.lethalHits,
         devastatingWounds: kw.devastatingWounds,
         twinLinked: kw.twinLinked
@@ -2491,7 +3475,7 @@
             if (rHit < w.hit) continue;
             natural6Hit = rHit === 6;
           }
-          if (natural6Hit && w.sustainedHits > 0) extraSustainedHits += w.sustainedHits;
+          if (natural6Hit && w.sustainedHits.average > 0) extraSustainedHits += Math.max(0, Math.round(w.sustainedHits.roll()));
           const autoWound = natural6Hit && w.lethalHits;
           resolveFromWound(autoWound);
         }
@@ -2510,7 +3494,7 @@
     const avgModelsSlain = Math.min(defender.models, avgDamage / defender.wounds);
     const weaponSummaries = weapons.map(w => {
       const kwParts = [];
-      if (w.sustainedHits) kwParts.push(`Sustained Hits ${w.sustainedHits}`);
+      if (w.sustainedHits.average > 0) kwParts.push(w.sustainedLabel || `Sustained Hits ${w.sustainedHits.average}`);
       if (w.lethalHits) kwParts.push('Lethal Hits');
       if (w.devastatingWounds) kwParts.push('Devastating Wounds');
       if (w.twinLinked) kwParts.push('Twin-linked');
@@ -2519,6 +3503,7 @@
         avgAttacks: w.modelsCount * w.attacksDice.average,
         hit: w.hit, wound: w.wound, rend: w.rend,
         keywords: kwParts.join(', '),
+        rawKeywords: w.rawKeywords || '',
         avgDamage: w.dmgSum / trials
       };
     });
@@ -2546,26 +3531,36 @@
   function pct(x){ return (x * 100).toFixed(1) + '%'; }
   function num(x){ return Math.round(x * 10) / 10; }
 
+  const MODELED_KEYWORD_NAMES = ['sustained hits', 'lethal hits', 'devastating wounds', 'twin-linked', 'twin linked'];
+
   function renderResultCard(cardId, titleId, attacker, defender, res){
     const card = document.getElementById(cardId);
     const is40k = activeSystem === '40k';
+    const maxWeaponDmg = Math.max(0.0001, ...res.weaponSummaries.map(w => w.avgDamage));
     const weaponLines = res.weaponSummaries.length ? res.weaponSummaries.map(w => {
-      const statsLabel = is40k 
+      const statsLabel = is40k
         ? `${w.hit}+ BS/WS, S vs T, AP ${w.rend}`
         : `${w.hit}+/${w.wound}+, Rend ${w.rend}`;
-      const kwLabel = w.keywords ? ` &middot; <em>${escapeHtml(w.keywords)}</em>` : '';
+      const chips = keywordChipsHtml(w.rawKeywords, MODELED_KEYWORD_NAMES);
+      const barPct = Math.max(2, Math.round((w.avgDamage / maxWeaponDmg) * 100));
       return `
-      <div class="result-line"><span>${escapeHtml(w.name || 'Weapon')} &middot; ${num(w.avgAttacks)} atks, ${statsLabel}${kwLabel}</span><span class="val">${num(w.avgDamage)} dmg</span></div>`;
+      <div class="result-line">
+        <div class="result-line-top"><span>${escapeHtml(w.name || 'Weapon')} &middot; ${num(w.avgAttacks)} atks, ${statsLabel}</span><span class="val">${num(w.avgDamage)} dmg</span></div>
+        ${chips}
+        <div class="stat-bar"><div class="stat-bar-fill" style="width:${barPct}%"></div></div>
+      </div>`;
     }).join('') : '<div class="result-line"><span>No valid weapon profiles entered</span><span class="val">&mdash;</span></div>';
     const wardLabel = is40k ? 'Chance inv. save fails (per hit)' : 'Chance ward fails (per hit)';
     card.innerHTML = `<h4 id="${titleId}">${escapeHtml(attacker.name)} attacks ${escapeHtml(defender.name)}</h4>
-      <div class="result-line"><span>Total avg. attacks swung</span><span class="val">${num(res.avgAttacks)}</span></div>
+      <div class="result-line"><div class="result-line-top"><span>Total avg. attacks swung</span><span class="val">${num(res.avgAttacks)}</span></div></div>
       ${weaponLines}
-      ${defender.ward ? `<div class="result-line"><span>${wardLabel}</span><span class="val">${pct(res.pWardFails)}</span></div>` : ''}
-      ${is40k && defender.fnp ? `<div class="result-line"><span>Feel No Pain (per damage point)</span><span class="val">${defender.fnp}+</span></div>` : ''}
-      <div class="result-line"><span>Expected damage dealt</span><span class="val">${num(res.avgDamage)}</span></div>
-      <div class="result-line"><span>Expected models slain</span><span class="val">${num(res.avgModelsSlain)} / ${defender.models}</span></div>
-      <div class="result-line"><span>Chance to wipe the unit</span><span class="val">${pct(res.chanceWipe)}</span></div>`;
+      ${defender.ward ? `<div class="result-line"><div class="result-line-top"><span>${wardLabel}</span><span class="val">${pct(res.pWardFails)}</span></div></div>` : ''}
+      ${is40k && defender.fnp ? `<div class="result-line"><div class="result-line-top"><span>Feel No Pain (per damage point)</span><span class="val">${defender.fnp}+</span></div></div>` : ''}
+      <div class="result-line hero"><div class="result-line-top"><span>Expected damage dealt</span><span class="val">${num(res.avgDamage)}</span></div></div>
+      <div class="result-line"><div class="result-line-top"><span>Expected models slain</span><span class="val">${num(res.avgModelsSlain)} / ${defender.models}</span></div>
+        <div class="stat-bar"><div class="stat-bar-fill" style="width:${Math.max(2, Math.round(100 * res.avgModelsSlain / Math.max(1, defender.models)))}%"></div></div></div>
+      <div class="result-line"><div class="result-line-top"><span>Chance to wipe the unit</span><span class="val">${pct(res.chanceWipe)}</span></div>
+        <div class="stat-bar"><div class="stat-bar-fill" style="width:${Math.max(2, Math.round(res.chanceWipe * 100))}%"></div></div></div>`;
   }
 
   function runClash(){
@@ -2590,7 +3585,11 @@
     } else {
       verdictText = `${escapeHtml(b.name)} comes out ahead, dealing ${num(resBonA.avgDamage)} avg damage vs ${num(resAonB.avgDamage)} avg back.`;
     }
-    verdict.innerHTML = verdictText;
+    const totalDmg = Math.max(0.0001, resAonB.avgDamage + resBonA.avgDamage);
+    const aShare = Math.round((resAonB.avgDamage / totalDmg) * 100);
+    verdict.innerHTML = `${verdictText}
+      <div class="verdict-bar"><div class="verdict-bar-a" style="width:${aShare}%"></div><div class="verdict-bar-mid"></div><div class="verdict-bar-b" style="width:${100 - aShare}%"></div></div>
+      <div class="verdict-legend"><span class="leg-a">${escapeHtml(a.name)} &middot; ${num(resAonB.avgDamage)}</span><span class="leg-b">${escapeHtml(b.name)} &middot; ${num(resBonA.avgDamage)}</span></div>`;
 
     document.getElementById('clashResults').style.display = 'grid';
     saveClash();
@@ -2655,6 +3654,7 @@
     return {
       id:newId(), name:entry.name, qty:models, points:totalPts, wounds:entry.wounds || 0,
       alliance:effectiveAlliance(entry),
+      faction:entry.faction || '',
       reinforced:false,
       isHero:!!entry.isHero,
       canReinforce:!!entry.canReinforce,
@@ -2662,6 +3662,109 @@
       enhancementTypes:Array.isArray(entry.enhancementTypes) ? entry.enhancementTypes.slice() : []
     };
   }
+
+  // ===== Add Units browser: categorized picker with per-unit limits =====
+  const openAddUnitCategories = new Set();
+  let isLoadingFactionData = false;
+
+  // Heroes are capped at one of the same named unit in the roster, matching
+  // how BattleScribe/New Recruit show a "0/1" limit on hero/character entries.
+  // Regular troops carry no such cap in our data, so they stay unlimited.
+  function heroLimitInfo(entry){
+    if (!entry.isHero) return null;
+    const name = (entry.name || '').trim().toLowerCase();
+    const count = state.units.filter(u => (u.name || '').trim().toLowerCase() === name).length;
+    return { count, max: 1 };
+  }
+
+  function openAddUnitBrowser(){
+    const browser = $('addUnitBrowser');
+    if (!browser) return;
+    browser.hidden = false;
+    renderAddUnitBrowser();
+    browser.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    const search = $('addUnitSearch');
+    if (search) search.focus();
+  }
+
+  function addUnitScopedGrimoire(){
+    let scoped = grimoire;
+    if (state.faction) {
+      scoped = scoped.filter(e => (e.faction || '').trim().toLowerCase() === state.faction.trim().toLowerCase());
+    } else if (state.alliance) {
+      scoped = scoped.filter(e => effectiveAlliance(e) === state.alliance);
+    }
+    return scoped;
+  }
+
+  function renderAddUnitBrowser(){
+    const wrap = $('addUnitCategories');
+    if (!wrap) return;
+    if (isLoadingFactionData) {
+      wrap.innerHTML = '<div class="enhancement-effect">Loading factions…</div>';
+      return;
+    }
+    let scoped = addUnitScopedGrimoire();
+    const q = ($('addUnitSearch')?.value || '').trim().toLowerCase();
+    if (q) scoped = scoped.filter(e => (e.name || '').toLowerCase().includes(q));
+
+    if (!scoped.length) {
+      wrap.innerHTML = `<div class="enhancement-effect">${(state.faction || state.alliance) ? 'No matching units in the Grimoire yet.' : 'Pick a faction above to browse its units, or search to look across all factions.'}</div>`;
+      return;
+    }
+    const groups = groupByRole(scoped);
+    wrap.innerHTML = groups.map(g => {
+      const isOpen = openAddUnitCategories.has(g.role) || !!q;
+      const rows = g.items.map(e => {
+        const limit = heroLimitInfo(e);
+        const atLimit = !!(limit && limit.count >= limit.max);
+        const limitBadge = limit ? `<span class="au-limit${atLimit ? ' at-limit' : ''}">${limit.count}/${limit.max}</span>` : '';
+        return `<div class="au-row${atLimit ? ' disabled' : ''}">
+          <span class="au-name">${escapeHtml(e.name || 'Unnamed unit')}</span>
+          <span class="au-pts">${e.points ? e.points + ' pts' : ''}</span>
+          ${limitBadge}
+          <button type="button" class="au-add-btn" data-add-id="${e.id}" ${atLimit ? 'disabled' : ''} title="${atLimit ? 'Limit reached' : 'Add to roster'}">+</button>
+        </div>`;
+      }).join('');
+      return `<div class="au-category${isOpen ? ' open' : ''}" data-role="${escapeAttr(g.role)}">
+        <button type="button" class="au-cat-head" data-cat-toggle="${escapeAttr(g.role)}">
+          <span class="au-chevron">&#9656;</span> ${escapeHtml(g.role)} <span class="au-cat-count">${g.items.length}</span>
+        </button>
+        <div class="au-cat-body">${rows}</div>
+      </div>`;
+    }).join('');
+  }
+
+  const addUnitToggleBtn = $('addUnitToggleBtn');
+  if (addUnitToggleBtn) addUnitToggleBtn.addEventListener('click', () => {
+    const browser = $('addUnitBrowser');
+    if (!browser) return;
+    if (browser.hidden) openAddUnitBrowser();
+    else browser.hidden = true;
+  });
+  const addUnitSearchEl = $('addUnitSearch');
+  if (addUnitSearchEl) addUnitSearchEl.addEventListener('input', renderAddUnitBrowser);
+  const addUnitCategoriesEl = $('addUnitCategories');
+  if (addUnitCategoriesEl) addUnitCategoriesEl.addEventListener('click', (e) => {
+    const catToggle = e.target.closest('[data-cat-toggle]');
+    if (catToggle) {
+      const role = catToggle.getAttribute('data-cat-toggle');
+      if (openAddUnitCategories.has(role)) openAddUnitCategories.delete(role); else openAddUnitCategories.add(role);
+      renderAddUnitBrowser();
+      return;
+    }
+    const addBtn = e.target.closest('[data-add-id]');
+    if (addBtn && !addBtn.disabled) {
+      const entry = grimoire.find(g => g.id === addBtn.getAttribute('data-add-id'));
+      if (!entry) return;
+      const limit = heroLimitInfo(entry);
+      if (limit && limit.count >= limit.max) return;
+      state.units.push(grimEntryToRosterUnit(entry));
+      render();
+      save();
+      renderAddUnitBrowser();
+    }
+  });
 
   // Grimoire is sharded into one storage key per faction (plus an index key
   // listing which faction shards exist) to stay well under the per-key
@@ -2824,7 +3927,7 @@
     const weapons = getWeapons(entry).filter(w => w.hit || w.wound || w.name);
     if (!weapons.length) return '';
     return '<div class="grim-weapons">' + weapons.map(w =>
-      `<div class="grim-weapon-line">${escapeHtml(w.name || 'Weapon')} &mdash; ${w.models ? escapeHtml(w.models) + 'x, ' : ''}${escapeHtml(w.attacks || '1')} atks, ${escapeHtml(w.hit || '-')}+/${escapeHtml(w.wound || '-')}+, Rend ${escapeHtml(w.rend || '0')}, Dmg ${escapeHtml(w.damage || '1')}</div>`
+      `<div class="grim-weapon-line">${escapeHtml(w.name || 'Weapon')} &mdash; ${w.models ? escapeHtml(w.models) + 'x, ' : ''}${escapeHtml(w.attacks || '1')} atks, ${escapeHtml(w.hit || '-')}+/${escapeHtml(w.wound || '-')}+, Rend ${escapeHtml(w.rend || '0')}, Dmg ${escapeHtml(w.damage || '1')}${keywordChipsHtml(w.keywords, MODELED_KEYWORD_NAMES)}</div>`
     ).join('') + '</div>';
   }
 
@@ -2971,53 +4074,82 @@
     populateGrimPickers();
   }
 
-  function populateGrimPickers(){
-    const groups = buildGroupedView(grimoire);
-    function optionsHtml(){
-      // Clash pickers: flattened Alliance > Faction — Role
-      return groups.map(g => {
-        const facGroups = groupByFaction(g.items);
-        const facOpts = facGroups.map(fg => {
-          const roleGroups = groupByRole(fg.items);
-          return roleGroups.map(rg => {
-            const opts = rg.items.map(e => {
-              const label = (e.name || 'Unnamed unit') + (e.points ? ' (' + e.points + ' pts)' : '');
-              return `<option value="${e.id}">${escapeHtml(label)}</option>`;
-            }).join('');
-            return `<optgroup label="${escapeAttr(g.meta.label + ' — ' + fg.faction + ' — ' + rg.role)}">${opts}</optgroup>`;
-          }).join('');
-        }).join('');
-        return facOpts;
-      }).join('');
-    }
-    function optionsHtmlByFaction(items){
-      // Roster picker: flattened Faction — Role
-      let result = [];
-      groupByFaction(items).forEach(fg => {
-        groupByRole(fg.items).forEach(rg => {
-          const opts = rg.items.map(e => {
-            const label = (e.name || 'Unnamed unit') + (e.points ? ' (' + e.points + ' pts)' : '');
-            return `<option value="${e.id}">${escapeHtml(label)}</option>`;
-          }).join('');
-          result.push(`<optgroup label="${escapeAttr(fg.faction + ' — ' + rg.role)}">${opts}</optgroup>`);
-        });
-      });
-      return result.join('');
-    }
-    let rosterScoped = grimoire;
-    if (state.faction) {
-      rosterScoped = rosterScoped.filter(e => (e.faction || '').trim().toLowerCase() === state.faction.trim().toLowerCase());
-    } else if (state.alliance) {
-      rosterScoped = rosterScoped.filter(e => effectiveAlliance(e) === state.alliance);
-    }
-    const base = '<option value="">Load from Grimoire...</option>' + optionsHtml();
-    ['a_grimPick','b_grimPick'].forEach(id => { document.getElementById(id).innerHTML = base; });
-    const rosterPlaceholder = (state.faction || state.alliance) && !rosterScoped.length
-      ? 'No matching units in the Grimoire yet'
-      : 'Add from Grimoire...';
-    document.getElementById('rosterGrimoirePick').innerHTML = `<option value="">${rosterPlaceholder}</option>` + optionsHtmlByFaction(rosterScoped);
+  // Clash of Arms unit pickers: alliance/group -> faction -> unit cascade, per column.
+  const clashPick = { a: { alliance:'', faction:'' }, b: { alliance:'', faction:'' } };
 
+  function populateClashAllianceOptions(prefix){
+    const sel = document.getElementById(prefix + '_allianceFilter');
+    if (!sel) return;
+    const cfg = getSysConfig();
+    sel.innerHTML = '<option value="">— alliance/group —</option>' +
+      cfg.alliances.filter(a => a !== 'unaligned' && cfg.allianceMeta[a]).map(a => `<option value="${escapeAttr(a)}">${escapeHtml(cfg.allianceMeta[a].label)}</option>`).join('');
+    sel.value = clashPick[prefix].alliance || '';
+  }
+
+  function populateClashFactionOptions(prefix){
+    const sel = document.getElementById(prefix + '_factionFilter');
+    if (!sel) return;
+    const alliance = clashPick[prefix].alliance;
+    const factions = new Set();
+    grimoire.forEach(e => {
+      const fac = (e.faction || '').trim();
+      if (fac && !LEGACY_FACTIONS.has(fac) && (!alliance || effectiveAlliance(e) === alliance)) factions.add(fac);
+    });
+    const sorted = Array.from(factions).sort((a, b) => a.localeCompare(b));
+    sel.innerHTML = '<option value="">— faction —</option>' + sorted.map(f => `<option value="${escapeAttr(f)}">${escapeHtml(f)}</option>`).join('');
+    if (sorted.includes(clashPick[prefix].faction)) {
+      sel.value = clashPick[prefix].faction;
+    } else {
+      clashPick[prefix].faction = '';
+      sel.value = '';
+    }
+  }
+
+  function populateClashUnitOptions(prefix){
+    const sel = document.getElementById(prefix + '_grimPick');
+    if (!sel) return;
+    const faction = clashPick[prefix].faction;
+    if (!faction) {
+      sel.innerHTML = '<option value="">Choose a faction above first...</option>';
+      return;
+    }
+    const items = grimoire.filter(e => (e.faction || '').trim().toLowerCase() === faction.trim().toLowerCase());
+    const opts = groupByRole(items).map(rg => {
+      const o = rg.items.map(e => {
+        const label = (e.name || 'Unnamed unit') + (e.points ? ' (' + e.points + ' pts)' : '');
+        return `<option value="${e.id}">${escapeHtml(label)}</option>`;
+      }).join('');
+      return `<optgroup label="${escapeAttr(rg.role)}">${o}</optgroup>`;
+    }).join('');
+    sel.innerHTML = '<option value="">Load unit...</option>' + (opts || '');
+  }
+
+  function refreshClashPicker(prefix){
+    populateClashAllianceOptions(prefix);
+    populateClashFactionOptions(prefix);
+    populateClashUnitOptions(prefix);
+  }
+
+  ['a', 'b'].forEach(prefix => {
+    document.getElementById(prefix + '_allianceFilter').addEventListener('change', (e) => {
+      clashPick[prefix].alliance = e.target.value;
+      clashPick[prefix].faction = '';
+      populateClashFactionOptions(prefix);
+      populateClashUnitOptions(prefix);
+    });
+    document.getElementById(prefix + '_factionFilter').addEventListener('change', (e) => {
+      clashPick[prefix].faction = e.target.value;
+      populateClashUnitOptions(prefix);
+    });
+  });
+
+  function populateGrimPickers(){
+    refreshClashPicker('a');
+    refreshClashPicker('b');
+    renderAddUnitBrowser();
     populateRosterFactionOptions();
+    populateCollectionFactionFilter();
+    renderCollection();
   }
 
   function populateRosterFactionOptions(){
@@ -3038,10 +4170,89 @@
     }
   }
 
+  // ===== Collection: personal inventory of owned models =====
+  const COLLECTION_KEY = 'muster-roll-collection';
+  let collection = {};
+
+  function collKey(faction, name){ return (faction || '').trim() + '|||' + (name || '').trim(); }
+
+  async function loadCollection(){
+    const raw = await storageGet(sysKey(COLLECTION_KEY));
+    try { collection = raw ? JSON.parse(raw) : {}; } catch(e) { collection = {}; }
+    if (!collection || typeof collection !== 'object') collection = {};
+  }
+  async function saveCollection(){
+    await storageSet(sysKey(COLLECTION_KEY), JSON.stringify(collection));
+  }
+
+  function populateCollectionFactionFilter(){
+    const sel = $('collFactionFilter');
+    if (!sel) return;
+    const factions = new Set();
+    grimoire.forEach(e => { const f = (e.faction || '').trim(); if (f && !LEGACY_FACTIONS.has(f)) factions.add(f); });
+    const sorted = Array.from(factions).sort((a, b) => a.localeCompare(b));
+    const cur = sel.value;
+    sel.innerHTML = '<option value="">— any faction —</option>' + sorted.map(f => `<option value="${escapeAttr(f)}">${escapeHtml(f)}</option>`).join('');
+    if (sorted.includes(cur)) sel.value = cur;
+  }
+
+  function renderCollection(){
+    const list = $('collectionList');
+    const summary = $('collectionSummary');
+    if (!list || !summary) return;
+    const q = ($('collSearch').value || '').trim().toLowerCase();
+    const fFilter = $('collFactionFilter').value;
+    let items = grimoire.filter(e => e.name);
+    if (fFilter) items = items.filter(e => (e.faction || '').trim() === fFilter);
+    if (q) items = items.filter(e => (e.name || '').toLowerCase().includes(q) || (e.faction || '').toLowerCase().includes(q));
+
+    let totalOwned = 0, unitTypesOwned = 0;
+    Object.values(collection).forEach(n => { const v = Number(n) || 0; if (v > 0) { totalOwned += v; unitTypesOwned++; } });
+    summary.innerHTML = `
+      <div class="result-line"><div class="result-line-top"><span>Models owned</span><span class="val">${totalOwned}</span></div></div>
+      <div class="result-line"><div class="result-line-top"><span>Unit types owned</span><span class="val">${unitTypesOwned}</span></div></div>`;
+
+    const groups = groupByFaction(items);
+    if (!groups.length) {
+      list.innerHTML = '<div class="enhancement-effect">No units match your search or faction filter.</div>';
+      return;
+    }
+    list.innerHTML = groups.map(g => `
+      <div class="collection-faction-group">
+        <h3 class="collection-faction-head">${escapeHtml(g.faction)}</h3>
+        <div class="collection-rows">
+          ${g.items.map(e => {
+            const key = collKey(e.faction, e.name);
+            const owned = Number(collection[key]) || 0;
+            return `<div class="collection-row" data-key="${escapeAttr(key)}">
+              <span class="coll-name">${escapeHtml(e.name || 'Unnamed unit')}${e.points ? ` <em>(${escapeHtml(String(e.points))} pts)</em>` : ''}</span>
+              <div class="coll-owned"><label for="coll_${escapeAttr(key)}">Owned</label><input id="coll_${escapeAttr(key)}" type="number" min="0" class="coll-owned-input" value="${owned || ''}" placeholder="0"></div>
+            </div>`;
+          }).join('')}
+        </div>
+      </div>`).join('');
+  }
+
+  const collSearchEl = $('collSearch');
+  const collFactionFilterEl = $('collFactionFilter');
+  if (collSearchEl) collSearchEl.addEventListener('input', renderCollection);
+  if (collFactionFilterEl) collFactionFilterEl.addEventListener('change', renderCollection);
+  const collectionListEl = $('collectionList');
+  if (collectionListEl) collectionListEl.addEventListener('change', (e) => {
+    if (!e.target.classList.contains('coll-owned-input')) return;
+    const row = e.target.closest('.collection-row');
+    if (!row) return;
+    const key = row.getAttribute('data-key');
+    const val = Math.max(0, parseInt(e.target.value, 10) || 0);
+    if (val > 0) collection[key] = val; else delete collection[key];
+    saveCollection();
+    renderCollection();
+  });
+
   function extractFeelNoPain(entry){
     const ab = entry.abilities;
     const text = Array.isArray(ab) ? ab.join(' ') : String(ab || '');
-    const m = text.match(/Feel No Pain\s*(\d)\+/i);
+    const m = text.match(/Feel No Pain\s*:?\s*(\d)\+/i);
     return m ? m[1] : '';
   }
 
@@ -3104,7 +4315,8 @@
               bs: w.bs !== undefined ? String(w.bs) : '',
               s: w.s !== undefined ? String(w.s) : '',
               ap: w.ap !== undefined ? String(w.ap) : '0',
-              d: w.d !== undefined ? String(w.d) : '1'
+              d: w.d !== undefined ? String(w.d) : '1',
+              keywords: (w.keywords && w.keywords !== '-') ? String(w.keywords) : ''
             };
           }
           // AoS weapon fields
@@ -3231,15 +4443,6 @@
     const entry = grimoire.find(g => g.id === e.target.value);
     if (entry) applyGrimToClash(entry, 'b');
   });
-  document.getElementById('rosterGrimoirePick').addEventListener('change', (e) => {
-    const entry = grimoire.find(g => g.id === e.target.value);
-    if (!entry) return;
-    state.units.push(grimEntryToRosterUnit(entry));
-    render();
-    save();
-    e.target.value = '';
-  });
-
   document.getElementById('grimSearch').addEventListener('input', (e) => {
     grimFilterSearch = e.target.value;
     renderGrimoire();
@@ -3318,6 +4521,23 @@
   }
 
   // Auto-load faction data from deployed files on first visit
+  function setFactionDataLoading(isLoading){
+    isLoadingFactionData = isLoading;
+    const label = isLoading ? 'Loading factions…' : null;
+    ['a_grimPick', 'b_grimPick'].forEach(id => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.disabled = isLoading;
+      if (isLoading && !el.dataset.loadingPlaceholder) {
+        el.dataset.loadingPlaceholder = el.options.length ? el.options[0].textContent : '';
+        el.innerHTML = `<option value="">${label}</option>`;
+      } else if (!isLoading && el.dataset.loadingPlaceholder !== undefined) {
+        delete el.dataset.loadingPlaceholder;
+      }
+    });
+    renderAddUnitBrowser();
+  }
+
   async function autoLoadFactionData(){
     // Check data version — force re-import if version changed
     const storedVersion = await storageGet('muster-roll-data-version');
@@ -3330,34 +4550,41 @@
     // Only auto-load if grimoire is empty (first visit or version bump)
     if (grimoire.length > 0) return;
     const cfg = getSysConfig();
-    let loaded = 0;
-    for (const faction of cfg.factions) {
-      // Load units
-      try {
-        const res = await fetch(`${cfg.dataDir}/${encodeURIComponent(faction)}.json`);
-        if (res.ok) {
-          const data = await res.json();
-          let arr = Array.isArray(data) ? data : [data];
-          mergeGrimoireEntries(arr);
+    setFactionDataLoading(true);
+    try {
+      const results = await Promise.all(cfg.factions.map(async (faction) => {
+        let unitsData = null, rulesData = null;
+        try {
+          const res = await fetch(`${cfg.dataDir}/${encodeURIComponent(faction)}.json`);
+          if (res.ok) unitsData = await res.json();
+        } catch(e) { /* skip */ }
+        try {
+          const res = await fetch(`${cfg.dataDir}/${encodeURIComponent(faction)}.rules.json`);
+          if (res.ok) rulesData = await res.json();
+        } catch(e) { /* skip */ }
+        return { unitsData, rulesData };
+      }));
+      let loaded = 0;
+      results.forEach(({ unitsData, rulesData }) => {
+        if (unitsData) {
+          mergeGrimoireEntries(Array.isArray(unitsData) ? unitsData : [unitsData]);
           loaded++;
         }
-      } catch(e) { /* skip */ }
-      // Load rules (battle formations / detachments, artefacts, etc.)
-      try {
-        const res = await fetch(`${cfg.dataDir}/${encodeURIComponent(faction)}.rules.json`);
-        if (res.ok) {
-          const data = await res.json();
-          mergeFactionRules(data);
-        }
-      } catch(e) { /* skip */ }
-    }
-    if (loaded > 0) {
-      renderGrimoire();
-      saveGrimoire();
-      saveFactionRules();
-      renderArmyRulesPanel();
-      storageSet('muster-roll-data-version', DATA_VERSION);
-      console.log(`Auto-loaded ${loaded} factions for ${activeSystem}.`);
+        if (rulesData) mergeFactionRules(rulesData);
+      });
+      if (loaded > 0) {
+        renderGrimoire();
+        saveGrimoire();
+        saveFactionRules();
+        renderArmyRulesPanel();
+        storageSet('muster-roll-data-version', DATA_VERSION);
+        console.log(`Auto-loaded ${loaded} factions for ${activeSystem}.`);
+      } else {
+        console.error(`Failed to load any ${activeSystem} faction data — check that ${cfg.dataDir}/ is reachable (this page needs to be served over http(s), not opened as a local file).`);
+      }
+    } finally {
+      setFactionDataLoading(false);
+      populateGrimPickers();
     }
   }
 

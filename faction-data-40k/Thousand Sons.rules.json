@@ -4,7 +4,7 @@
     {
       "name": "Grand Coven",
       "dp": 3,
-      "effect": "Category: Priority Assets"
+      "effect": "Kindred Sorcery: In your Command phase, select one (once per battle each): Imbued Manifestation (+6\" range to Psychic ranged weapons), Psychic Maelstrom (+1 Wound roll on Psychic attacks), or Wrath of the Immaterium (Psychic weapons gain [DEVASTATING WOUNDS]). Active until your next Command phase."
     },
     {
       "name": "Hexwarp Thrallband",
@@ -50,6 +50,21 @@
       "name": "Infernal Pacts",
       "dp": 1,
       "effect": "Category: Purge the Foe"
+    },
+    {
+      "name": "Changehost of Deceit",
+      "dp": 2,
+      "effect": "Infernal Pacts: SCINTILLATING LEGIONS units gain Daemonic Illusions (4+ invuln vs ranged while near a friendly Thousand Sons Psyker); Thousand Sons units gain Mortal Sorcery (grants Cabal of Sorcerers to a nearby Scintillating Legions Psyker unit). Can include Scintillating Legions up to 500/1000/1500pts by battle size; cannot be Warlord."
+    },
+    {
+      "name": "Warpmeld Pact",
+      "dp": 2,
+      "effect": "Warpmeld Sacrifice: TZEENTCH MUTANT INFANTRY/MOUNTED units can sacrifice themselves (-1 Wound roll taken, or +1 Wound roll dealt) for D3 mortal wounds at end of phase. TZAANGORS gain BATTLELINE and +1 OC while not Battle-shocked."
+    },
+    {
+      "name": "Rubricae Phalanx",
+      "dp": 3,
+      "effect": "All is Dust: Attacks with unmodified Damage 1 allocated to RUBRICAE models get +1 to the armour save."
     }
   ],
   "heroicTraits": [],
@@ -57,6 +72,89 @@
     {
       "name": "Tzeentch magic items",
       "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Lord of Forbidden Lore",
+      "cost": 20,
+      "effect": "[THOUSAND SONS model only] When the bearer manifests a Ritual, add 6\" to its range while resolving.",
+      "detachment": "Grand Coven"
+    },
+    {
+      "name": "Incandaeum",
+      "cost": 15,
+      "effect": "[EXALTED SORCERER model only] Once per battle, select Doombolt even if already attempted this phase.",
+      "detachment": "Grand Coven"
+    },
+    {
+      "name": "Umbralefic Crystal",
+      "cost": 30,
+      "effect": "[THOUSAND SONS model only (once per battle/army)] If unengaged, place unit in Strategic Reserves with Deep Strike until your next Shooting phase; must ingress next Movement phase (incl. turn 1).",
+      "detachment": "Grand Coven"
+    },
+    {
+      "name": "Eldritch Vortex of E'taph",
+      "cost": 35,
+      "effect": "[THOUSAND SONS model only] +1 Strength/Damage on the bearer's Psychic weapons.",
+      "detachment": "Grand Coven"
+    },
+    {
+      "name": "Nethershriek Mind-eater",
+      "cost": 10,
+      "effect": "[THOUSAND SONS or LORD OF CHANGE model only] At the start of your Shooting phase, force a nearby enemy Battle-shock test; on failure, 3 mortal wounds.",
+      "detachment": "Changehost of Deceit"
+    },
+    {
+      "name": "Diabolic Savant",
+      "cost": 20,
+      "effect": "[THOUSAND SONS INFANTRY model only] While within 6\" of a friendly Scintillating Legions unit, add 1 to the Psychic test result when Channelling the Warp.",
+      "detachment": "Changehost of Deceit"
+    },
+    {
+      "name": "Duplicitous Malediction",
+      "cost": 15,
+      "effect": "[THOUSAND SONS or LORD OF CHANGE model only] After deployment, redeploy up to 3 units, any to Strategic Reserves.",
+      "detachment": "Changehost of Deceit"
+    },
+    {
+      "name": "Tome of True Names",
+      "cost": 20,
+      "effect": "[THOUSAND SONS INFANTRY model only] Once per battle, gain a 2+ invulnerable save for a phase.",
+      "detachment": "Changehost of Deceit"
+    },
+    {
+      "name": "Warpmeld Dagger",
+      "cost": 10,
+      "effect": "[TZAANGOR SHAMAN model only] Suffer D3 mortal wounds to add 1 to the Psychic test result per wound.",
+      "detachment": "Warpmeld Pact"
+    },
+    {
+      "name": "Diamond of Distortion",
+      "cost": 20,
+      "effect": "[TZAANGOR SHAMAN model only] While leading a unit, attacks against it suffer -1 to Hit.",
+      "detachment": "Warpmeld Pact"
+    },
+    {
+      "name": "Bray Lord",
+      "cost": 15,
+      "effect": "[SORCERER or INFERNAL MASTER model only] The bearer gains the Scouts 6\" ability.",
+      "detachment": "Warpmeld Pact"
+    },
+    {
+      "name": "Flowing Flesh",
+      "cost": 10,
+      "effect": "[TZAANGOR SHAMAN model only] The bearer has Feel No Pain 4+ and a Wounds characteristic of 5.",
+      "detachment": "Warpmeld Pact"
     }
-  ]
+  ],
+  "armyRules": [
+    {
+      "name": "Cabal of Sorcerers",
+      "effect": "At the start of your Shooting phase, models with this ability can attempt Rituals: roll 2D6 (optionally Channel the Warp for +1D6, risking D3 mortal wounds on a double/triple); if the total meets the Ritual's Warp Charge value, it manifests. Rituals: Destiny's Ruin (WC5, re-roll Hit 1s vs a target, full re-roll if 10+), Temporal Surge (WC6, move a friendly unit D6\"/6\" but it can't charge), Doombolt (WC7, D3 mortal wounds, D3+3 if 11+), Twist of Fate (WC9, +1 AP vs a target, +2 if 12+)."
+    },
+    {
+      "name": "Pact of Sorcery",
+      "effect": "Unless stated otherwise, you cannot select SCINTILLATING LEGIONS as your Army Faction."
+    }
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation."
 }

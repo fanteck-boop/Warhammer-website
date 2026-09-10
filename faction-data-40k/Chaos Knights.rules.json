@@ -3,8 +3,8 @@
   "battleFormations": [
     {
       "name": "Lords of Dread",
-      "dp": 3,
-      "effect": "Category: Priority Assets"
+      "dp": 2,
+      "effect": "Tyrannical Court: +2 Objective Control for CHAOS KNIGHTS CHARACTER models. Once per battle round, if your Warlord is on the battlefield, use the Claimed for the Dark Gods Stratagem for 0CP."
     },
     {
       "name": "Chaos Knights of the Realm",
@@ -42,9 +42,39 @@
       "effect": "Category: Priority Assets"
     },
     {
-      "name": "Nightmare's Master",
-      "dp": 1,
-      "effect": "Category: Priority Assets"
+      "name": "Traitoris Lance",
+      "dp": 2,
+      "effect": "Paragons of Terror: At the start of the first battle round, after selecting Dread abilities normally, select one additional Dread ability for your army (cannot be randomly selected)."
+    },
+    {
+      "name": "Infernal Lance",
+      "dp": 3,
+      "effect": "Malefic Surge: In your Command phase, units can make a Malefic Surge (Leadership test, fail = D3 mortal wounds) to become Empowered until your next Command phase, then use one of: Unholy Hunger (+3\" Move), Diabolic Power ([LETHAL HITS] or [SUSTAINED HITS 1]), or Unnatural Fortitude (5+ invuln or Feel No Pain 6+)."
+    },
+    {
+      "name": "Houndpack Lance",
+      "dp": 2,
+      "effect": "Marked Prey: Select an enemy unit each Command phase; WAR DOG attacks against it gain [SUSTAINED HITS 1] if visible. Requires 3+ WAR DOG units; they gain BATTLELINE; select 3 WAR DOG units to gain the CHARACTER keyword for the battle."
+    },
+    {
+      "name": "Helhunt Lance",
+      "dp": 2,
+      "effect": "Masters of the Pack: (Detachment rule text not fully captured this pass — verify remainder on Wahapedia.)"
+    },
+    {
+      "name": "Bastions of Tyranny",
+      "dp": 2,
+      "effect": "Annihilate the Unworthy: (Detachment rule text not captured this pass — verify on Wahapedia.)"
+    },
+    {
+      "name": "Hunting Warpack",
+      "dp": 2,
+      "effect": "Scenting Fear: (Detachment rule text not captured this pass — verify on Wahapedia.)"
+    },
+    {
+      "name": "Iconoclast Fiefdom",
+      "dp": 2,
+      "effect": "Wretched Thralls: (Detachment rule text not captured this pass — verify on Wahapedia.)"
     }
   ],
   "heroicTraits": [],
@@ -52,17 +82,130 @@
     {
       "name": "Nightmare's Master",
       "cost": 20,
-      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+      "effect": "[CHAOS KNIGHTS model only] At the start of the Fight phase, enemy units within Engagement Range of the bearer must take a Battle-shock test.",
+      "detachment": "Traitoris Lance"
     },
     {
       "name": "Tyrant's Shadow",
       "cost": 25,
-      "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+      "effect": "[CHAOS KNIGHTS model only] At the end of your Command phase, secure a controlled objective near the bearer; while held, that objective has the Deathly Terror ability.",
+      "detachment": "Traitoris Lance"
     },
     {
       "name": "Malevolent",
       "cost": 15,
       "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Malevolent Heraldry",
+      "cost": 30,
+      "effect": "[CHAOS KNIGHTS model only] Re-roll one or both dice when randomly selecting Dread abilities, if the bearer is on the battlefield.",
+      "detachment": "Traitoris Lance"
+    },
+    {
+      "name": "Veil of Medrengard",
+      "cost": 35,
+      "effect": "[CHAOS KNIGHTS model only] The bearer has a 4+ invulnerable save against ranged attacks and 5+ against melee attacks.",
+      "detachment": "Traitoris Lance"
+    },
+    {
+      "name": "Knight Diabolus",
+      "cost": 25,
+      "effect": "[CHAOS KNIGHTS model only] +1 Weapon Skill; melee weapons gain [LANCE] while using Diabolic Power.",
+      "detachment": "Infernal Lance"
+    },
+    {
+      "name": "Blasphemous Engine",
+      "cost": 35,
+      "effect": "[CHAOS KNIGHTS model only] +2 Wounds; re-roll the Leadership test taken during Malefic Surge.",
+      "detachment": "Infernal Lance"
+    },
+    {
+      "name": "Fleshmetal Fusion",
+      "cost": 35,
+      "effect": "[CHAOS KNIGHTS model only] +1 Toughness; while using Unnatural Fortitude, add 1 to armour saves against Damage-1 attacks.",
+      "detachment": "Infernal Lance"
+    },
+    {
+      "name": "Bestial Aspect",
+      "cost": 30,
+      "effect": "[CHAOS KNIGHTS model only] Ranged weapons gain [ASSAULT]; while using Unholy Hunger, ignore Move/Advance modifiers.",
+      "detachment": "Infernal Lance"
+    },
+    {
+      "name": "Throne Mechanicum of Skulls",
+      "cost": 25,
+      "effect": "[CHAOS KNIGHTS model only] Re-roll Charge rolls; once per battle, eligible to charge in a turn it Advanced.",
+      "detachment": "Lords of Dread"
+    },
+    {
+      "name": "Blade of Celerity",
+      "cost": 35,
+      "effect": "[CHAOS KNIGHTS model only] Ranged weapons gain [ASSAULT]; once per battle, the bearer's unit gains Fights First.",
+      "detachment": "Lords of Dread"
+    },
+    {
+      "name": "Warp-borne Stalker",
+      "cost": 25,
+      "effect": "[CHAOS KNIGHTS model only] The bearer has Deep Strike; once per battle, if unengaged at the end of the opponent's turn, retreat to Strategic Reserves.",
+      "detachment": "Lords of Dread"
+    },
+    {
+      "name": "Putrid Carapace",
+      "cost": 30,
+      "effect": "[CHAOS KNIGHTS model only] Save characteristic of 2+; once per battle, regain up to D6 wounds at the start of a Command phase.",
+      "detachment": "Lords of Dread"
+    },
+    {
+      "name": "Mirror of Fates",
+      "cost": 30,
+      "effect": "[CHAOS KNIGHTS model only] Once per turn, increase the CP cost of an opponent's Stratagem targeting a unit within 12\" by 1CP.",
+      "detachment": "Lords of Dread"
+    },
+    {
+      "name": "Blessing of the Dark Master",
+      "cost": 20,
+      "effect": "[CHAOS KNIGHTS model only] The bearer has Stealth; once per battle, change a saving throw's Damage to 0.",
+      "detachment": "Lords of Dread"
+    },
+    {
+      "name": "Preyslayer's Mantle",
+      "cost": 15,
+      "effect": "[WAR DOG model only] The bearer gains the Super-heavy Walker ability.",
+      "detachment": "Houndpack Lance"
+    },
+    {
+      "name": "Final Howl",
+      "cost": 20,
+      "effect": "[WAR DOG model only] Aura: nearby friendly War Dogs re-roll Wound rolls of 1.",
+      "detachment": "Houndpack Lance"
+    },
+    {
+      "name": "Loping Predator",
+      "cost": 10,
+      "effect": "[WAR DOG model only] The bearer's ranged weapons gain [ASSAULT].",
+      "detachment": "Houndpack Lance"
+    },
+    {
+      "name": "Panoply of the Cursed Knight",
+      "cost": 15,
+      "effect": "[WAR DOG model only] Attacks against the bearer worsen Armour Penetration by 1.",
+      "detachment": "Houndpack Lance"
     }
-  ]
+  ],
+  "armyRules": [
+    {
+      "name": "Harbingers of Dread",
+      "effect": "Deathly Terror (Aura, always active): enemy units within 9\" have Leadership worsened by 1. At the start of battle rounds 1, 3, and 5, select or randomly roll two additional Dread abilities from: Despair (further -1 LD aura, cumulative), Doom (+1 Wound vs Battle-shocked targets), Darkness (Stealth), Dismay (aura forces Battle-shock tests on below-strength units), Delirium (aura inflicts D3 mortal wounds on failed Battle-shock for Below Half-strength units), Dominion (+3\" aura range). Selected abilities last the rest of the battle; cannot repeat one."
+    },
+    {
+      "name": "Dreadblades",
+      "effect": "If every model in your army has the CHAOS keyword, you can include 1 TITANIC Chaos Knights model or up to 3 WAR DOG models regardless of Faction keyword. Cannot be Warlord, cannot receive Enhancements."
+    },
+    {
+      "name": "Super-heavy Walker",
+      "effect": "As per Imperial Knights: move through non-TITANIC models/terrain 4\" or less in height (can move within, not end within, Engagement Range); taller terrain risks Battle-shock on a D6 roll of 1."
+    }
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation. Removed \"Nightmare's Master\" from detachments list: it is an Artefact (under Houndpack Lance), not a Detachment."
 }

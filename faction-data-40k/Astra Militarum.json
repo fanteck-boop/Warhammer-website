@@ -66,7 +66,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Sentinel chainsaw",
@@ -113,7 +114,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Lasgun",
@@ -122,7 +124,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "➤ Hunting lance - melta tip",
@@ -131,7 +134,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Lance"
       },
       {
         "name": "Steed's hooves",
@@ -140,7 +144,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Goad lance",
@@ -149,7 +154,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lance"
       }
     ],
     "system": "40k"
@@ -207,7 +213,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Blast"
       },
       {
         "name": "Heavy stubber",
@@ -216,7 +223,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Lascannon",
@@ -225,7 +233,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Twin heavy bolter",
@@ -234,7 +243,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1, Twin-linked"
       },
       {
         "name": "Twin heavy flamer",
@@ -243,7 +253,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent, Twin-linked"
       },
       {
         "name": "Baneblade cannon",
@@ -252,7 +263,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       }
     ],
     "system": "40k"
@@ -303,7 +315,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Twin heavy bolter",
@@ -312,7 +325,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1, Twin-linked"
       },
       {
         "name": "Twin heavy flamer",
@@ -321,7 +335,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent, Twin-linked"
       },
       {
         "name": "Tremor cannon",
@@ -330,7 +345,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       }
     ],
     "system": "40k"
@@ -379,7 +395,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Twin heavy bolter",
@@ -388,7 +405,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1, Twin-linked"
       },
       {
         "name": "Twin heavy flamer",
@@ -397,7 +415,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent, Twin-linked"
       },
       {
         "name": "Quake cannon",
@@ -406,7 +425,8 @@
         "bs": "4+",
         "s": "16",
         "ap": "-4",
-        "d": "4"
+        "d": "4",
+        "keywords": "Blast, Ignores Cover"
       }
     ],
     "system": "40k"
@@ -447,7 +467,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Indirect Fire,"
       },
       {
         "name": "Armoured tracks",
@@ -465,7 +486,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -474,7 +496,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Hunter-killer missile",
@@ -483,7 +506,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       }
     ],
     "system": "40k"
@@ -522,7 +546,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Bullgryn maul",
@@ -540,7 +565,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       }
     ],
     "system": "40k"
@@ -583,7 +609,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Laspistol",
@@ -592,7 +619,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "➤ Plasma pistol - supercharge",
@@ -601,7 +629,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Pistol"
       },
       {
         "name": "Power weapon",
@@ -610,7 +639,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Chainsword",
@@ -619,7 +649,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Precision"
       },
       {
         "name": "Close combat weapon",
@@ -628,7 +659,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Boltgun",
@@ -637,7 +669,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Power fist",
@@ -646,7 +679,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       }
     ],
     "system": "40k"
@@ -689,7 +723,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Flamer",
@@ -698,7 +733,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Ignores cover, Torrent"
       },
       {
         "name": "➤ Grenade launcher - krak",
@@ -716,7 +752,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "➤ Plasma gun - supercharge",
@@ -725,7 +762,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Rapid Fire 1"
       },
       {
         "name": "Chainsword",
@@ -734,7 +772,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Precision"
       },
       {
         "name": "Power fist",
@@ -743,7 +782,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Power weapon",
@@ -752,7 +792,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Bolt pistol",
@@ -761,7 +802,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Laspistol",
@@ -770,7 +812,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -812,7 +855,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Flamer",
@@ -821,7 +865,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Ignores cover, Torrent"
       },
       {
         "name": "➤ Grenade launcher - krak",
@@ -839,7 +884,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "➤ Plasma gun - supercharge",
@@ -848,7 +894,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Rapid Fire 1"
       }
     ],
     "system": "40k"
@@ -889,7 +936,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Close combat weapon",
@@ -898,7 +946,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -949,7 +998,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 6"
       },
       {
         "name": "Heavy bolter",
@@ -958,7 +1008,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -967,7 +1018,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Multi-laser",
@@ -985,7 +1037,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy stubber",
@@ -994,7 +1047,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Hunter-killer missile",
@@ -1003,7 +1057,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       }
     ],
     "system": "40k"
@@ -1045,7 +1100,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "➤ Plasma pistol - supercharge",
@@ -1054,7 +1110,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Pistol"
       },
       {
         "name": "Power weapon",
@@ -1063,7 +1120,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Chainsword",
@@ -1072,7 +1130,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Precision"
       }
     ],
     "system": "40k"
@@ -1114,7 +1173,8 @@
         "s": "3",
         "ap": "0",
         "d": "1",
-        "range": "24\""
+        "range": "24\"",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Laspistol",
@@ -1124,7 +1184,8 @@
         "s": "3",
         "ap": "0",
         "d": "1",
-        "range": "12\""
+        "range": "12\"",
+        "keywords": "Pistol"
       },
       {
         "name": "Chainsword",
@@ -1133,7 +1194,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Precision"
       },
       {
         "name": "Close combat weapon",
@@ -1142,7 +1204,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -1192,7 +1255,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -1201,7 +1265,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Hunter-killer missile",
@@ -1210,7 +1275,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Deathstrike Missile",
@@ -1219,7 +1285,8 @@
         "bs": "2+",
         "s": "16",
         "ap": "-4",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, One Shot, Plasma Warhead"
       }
     ],
     "system": "40k"
@@ -1269,7 +1336,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Twin heavy bolter",
@@ -1278,7 +1346,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1, Twin-linked"
       },
       {
         "name": "Twin heavy flamer",
@@ -1287,7 +1356,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent, Twin-linked"
       },
       {
         "name": "Magma cannon",
@@ -1296,7 +1366,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Blast, Melta 6"
       }
     ],
     "system": "40k"
@@ -1336,7 +1407,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Laspistol",
@@ -1345,7 +1417,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Battery close combat weapons",
@@ -1363,7 +1436,8 @@
         "bs": "5+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Heavy"
       },
       {
         "name": "Bombast field gun",
@@ -1372,7 +1446,8 @@
         "bs": "5+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Heavy, Indirect Fire"
       },
       {
         "name": "Heavy lascannon",
@@ -1381,7 +1456,8 @@
         "bs": "5+",
         "s": "14",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       }
     ],
     "system": "40k"
@@ -1430,7 +1506,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Straight silver knife",
@@ -1448,7 +1525,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault"
       },
       {
         "name": "Larkin's long-las",
@@ -1457,7 +1535,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-2",
-        "d": "4"
+        "d": "4",
+        "keywords": "Heavy, Precision"
       },
       {
         "name": "Lascarbine",
@@ -1466,7 +1545,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault"
       },
       {
         "name": "Mkoll's straight silver knife",
@@ -1475,7 +1555,8 @@
         "bs": "2+",
         "s": "3",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Precision"
       },
       {
         "name": "Rawne's lascarbine",
@@ -1484,7 +1565,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Sustained Hits 1"
       },
       {
         "name": "Bragg's autocannon",
@@ -1493,7 +1575,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy"
       }
     ],
     "system": "40k"
@@ -1532,7 +1615,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Close combat weapon",
@@ -1541,7 +1625,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Heavy bolter",
@@ -1550,7 +1635,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Mortar",
@@ -1559,7 +1645,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Heavy, Indirect Fire"
       },
       {
         "name": "➤ Missile launcher - krak",
@@ -1568,7 +1655,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Heavy"
       },
       {
         "name": "Lascannon",
@@ -1577,7 +1665,8 @@
         "bs": "5+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Autocannon",
@@ -1586,7 +1675,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy"
       }
     ],
     "system": "40k"
@@ -1644,7 +1734,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Blast"
       },
       {
         "name": "Heavy stubber",
@@ -1653,7 +1744,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Lascannon",
@@ -1662,7 +1754,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Twin heavy bolter",
@@ -1671,7 +1764,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1, Twin-linked"
       },
       {
         "name": "Twin heavy flamer",
@@ -1680,7 +1774,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent, Twin-linked"
       },
       {
         "name": "Hellhammer cannon",
@@ -1689,7 +1784,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Ignores Cover"
       }
     ],
     "system": "40k"
@@ -1729,7 +1825,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Armoured tracks",
@@ -1747,7 +1844,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Multi-melta",
@@ -1756,7 +1854,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Heavy bolter",
@@ -1765,7 +1864,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Chem cannon",
@@ -1774,7 +1874,8 @@
         "bs": "N/A",
         "s": "2",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Infantry 2+, Torrent"
       },
       {
         "name": "Inferno cannon",
@@ -1783,7 +1884,8 @@
         "bs": "N/A",
         "s": "6",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Melta cannon",
@@ -1792,7 +1894,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Blast, Melta 4"
       }
     ],
     "system": "40k"
@@ -1841,7 +1944,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -1850,7 +1954,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Hunter-killer missile",
@@ -1859,7 +1964,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Hydra autocannon",
@@ -1868,7 +1974,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-Fly 2+, Twin-linked"
       }
     ],
     "system": "40k"
@@ -1912,7 +2019,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "2"
+        "d": "2",
+        "keywords": "Assault"
       },
       {
         "name": "Bionic Arm with Devil's Claw",
@@ -1921,7 +2029,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Monster 4+"
       },
       {
         "name": "➤ Plasma pistol - supercharge",
@@ -1930,7 +2039,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Pistol"
       }
     ],
     "system": "40k"
@@ -1970,7 +2080,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Close combat weapon",
@@ -1979,7 +2090,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Hot-shot marksman rifle",
@@ -1988,7 +2100,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy, Precision"
       },
       {
         "name": "Hot-shot laspistol",
@@ -1997,7 +2110,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Flamer",
@@ -2006,7 +2120,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Ignores cover, Torrent"
       },
       {
         "name": "➤ Plasma gun - supercharge",
@@ -2015,7 +2130,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Rapid Fire 1"
       },
       {
         "name": "Hot-shot volley gun",
@@ -2024,7 +2140,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Meltagun",
@@ -2033,7 +2150,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "➤ Grenade launcher - krak",
@@ -2051,7 +2169,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Pistol"
       }
     ],
     "system": "40k"
@@ -2091,7 +2210,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy bolter",
@@ -2100,7 +2220,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -2109,7 +2230,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Multi-melta",
@@ -2118,7 +2240,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "➤ Plasma cannon - supercharge",
@@ -2127,7 +2250,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Heavy, Blast"
       },
       {
         "name": "Storm bolter",
@@ -2136,7 +2260,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy stubber",
@@ -2145,7 +2270,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Hunter-killer missile",
@@ -2154,7 +2280,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Leman Russ battle cannon",
@@ -2163,7 +2290,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Armoured tracks",
@@ -2212,7 +2340,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy bolter",
@@ -2221,7 +2350,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -2230,7 +2360,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Multi-melta",
@@ -2239,7 +2370,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "➤ Plasma cannon - supercharge",
@@ -2248,7 +2380,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Heavy, Blast"
       },
       {
         "name": "Storm bolter",
@@ -2257,7 +2390,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy stubber",
@@ -2266,7 +2400,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Hunter-killer missile",
@@ -2275,7 +2410,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Demolisher battle cannon",
@@ -2284,7 +2420,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Blast"
       },
       {
         "name": "Armoured tracks",
@@ -2333,7 +2470,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy bolter",
@@ -2342,7 +2480,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -2351,7 +2490,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Multi-melta",
@@ -2360,7 +2500,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "➤ Plasma cannon - supercharge",
@@ -2369,7 +2510,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Heavy, Blast"
       },
       {
         "name": "Storm bolter",
@@ -2378,7 +2520,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy stubber",
@@ -2387,7 +2530,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Hunter-killer missile",
@@ -2396,7 +2540,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Eradicator nova cannon",
@@ -2405,7 +2550,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Ignores Cover"
       },
       {
         "name": "Armoured tracks",
@@ -2463,7 +2609,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Hazardous"
       },
       {
         "name": "Lascannon",
@@ -2472,7 +2619,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy bolter",
@@ -2481,7 +2629,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -2490,7 +2639,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Multi-melta",
@@ -2499,7 +2649,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "➤ Plasma cannon - supercharge",
@@ -2508,7 +2659,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Heavy, Blast"
       },
       {
         "name": "Storm bolter",
@@ -2517,7 +2669,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy stubber",
@@ -2526,7 +2679,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Hunter-killer missile",
@@ -2535,7 +2689,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       }
     ],
     "system": "40k"
@@ -2575,7 +2730,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy bolter",
@@ -2584,7 +2740,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -2593,7 +2750,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Multi-melta",
@@ -2602,7 +2760,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "➤ Plasma cannon - supercharge",
@@ -2611,7 +2770,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Heavy, Blast"
       },
       {
         "name": "Storm bolter",
@@ -2620,7 +2780,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy stubber",
@@ -2629,7 +2790,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Hunter-killer missile",
@@ -2638,7 +2800,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Exterminator autocannon",
@@ -2647,7 +2810,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Rapid Fire 4, Twin-linked"
       },
       {
         "name": "Armoured tracks",
@@ -2696,7 +2860,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy bolter",
@@ -2705,7 +2870,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -2714,7 +2880,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Multi-melta",
@@ -2723,7 +2890,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "➤ Plasma cannon - supercharge",
@@ -2732,7 +2900,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Heavy, Blast"
       },
       {
         "name": "Storm bolter",
@@ -2741,7 +2910,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy stubber",
@@ -2750,7 +2920,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Hunter-killer missile",
@@ -2759,7 +2930,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Punisher gatling cannon",
@@ -2817,7 +2989,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy bolter",
@@ -2826,7 +2999,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -2835,7 +3009,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Multi-melta",
@@ -2844,7 +3019,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "➤ Plasma cannon - supercharge",
@@ -2853,7 +3029,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Heavy, Blast"
       },
       {
         "name": "Storm bolter",
@@ -2862,7 +3039,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy stubber",
@@ -2871,7 +3049,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Hunter-killer missile",
@@ -2880,7 +3059,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Armoured tracks",
@@ -2898,7 +3078,8 @@
         "bs": "4+",
         "s": "18",
         "ap": "-4",
-        "d": "D6+6"
+        "d": "D6+6",
+        "keywords": "Heavy"
       }
     ],
     "system": "40k"
@@ -2942,7 +3123,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Pistol"
       },
       {
         "name": "Conquest",
@@ -2960,7 +3142,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       }
     ],
     "system": "40k"
@@ -3001,7 +3184,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -3010,7 +3194,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Hunter-killer missile",
@@ -3019,7 +3204,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Armoured tracks",
@@ -3037,7 +3223,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-Infantry 2+, Blast, Indirect Fire"
       }
     ],
     "system": "40k"
@@ -3081,7 +3268,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Ignores cover, Torrent"
       },
       {
         "name": "➤ Grenade launcher - krak",
@@ -3099,7 +3287,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Hot-shot volley gun",
@@ -3108,7 +3297,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "➤ Plasma gun - supercharge",
@@ -3117,7 +3307,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Rapid Fire 1"
       },
       {
         "name": "Hot-shot lasgun",
@@ -3126,7 +3317,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Close combat weapon",
@@ -3135,7 +3327,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Hot-shot laspistol",
@@ -3144,7 +3337,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -3225,7 +3419,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Ripper gun",
@@ -3234,7 +3429,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Rapid Fire 3"
       }
     ],
     "system": "40k"
@@ -3276,7 +3472,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Huge knife",
@@ -3285,7 +3482,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Bullgryn maul",
@@ -3303,7 +3501,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Grenadier gauntlet",
@@ -3312,7 +3511,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       }
     ],
     "system": "40k"
@@ -3351,7 +3551,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       }
     ],
     "system": "40k"
@@ -3393,7 +3594,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Devastating Wounds, Psychic"
       },
       {
         "name": "➤ Psychic maelstrom - focused witchfire",
@@ -3402,7 +3604,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Devastating Wounds, Hazardous, Psychic"
       },
       {
         "name": "Force weapon",
@@ -3411,7 +3614,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Psychic"
       },
       {
         "name": "Laspistol",
@@ -3420,7 +3624,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -3460,7 +3665,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Astropath's stave",
@@ -3469,7 +3675,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Psychic"
       },
       {
         "name": "Close combat weapon",
@@ -3478,7 +3685,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -3529,7 +3737,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Pistol"
       },
       {
         "name": "Servo-arm",
@@ -3538,7 +3747,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Extra Attacks"
       }
     ],
     "system": "40k"
@@ -3587,7 +3797,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Coaxial autocannon",
@@ -3605,7 +3816,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Twin battle cannon",
@@ -3614,7 +3826,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Twin-linked"
       },
       {
         "name": "Castigator gatling cannon",
@@ -3632,7 +3845,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Multi-melta",
@@ -3641,7 +3855,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Heavy bolter",
@@ -3650,7 +3865,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Meltagun",
@@ -3659,7 +3875,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       }
     ],
     "system": "40k"
@@ -3700,7 +3917,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Hunter-killer missile",
@@ -3709,7 +3927,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Sentinel chainsaw",
@@ -3762,7 +3981,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Close combat weapon",
@@ -3771,7 +3991,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -3811,7 +4032,8 @@
         "bs": "4+",
         "s": "24",
         "ap": "-5",
-        "d": "12"
+        "d": "12",
+        "keywords": "Blast, Heavy"
       },
       {
         "name": "Armoured tracks",
@@ -3829,7 +4051,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Twin heavy bolter",
@@ -3838,7 +4061,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1, Twin-linked"
       },
       {
         "name": "Twin heavy flamer",
@@ -3847,7 +4071,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent, Twin-linked"
       }
     ],
     "system": "40k"
@@ -3889,7 +4114,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Infantry 2+, Pistol, Precision"
       },
       {
         "name": "Envenomed blade",
@@ -3898,7 +4124,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Infantry 2+, Precision"
       }
     ],
     "system": "40k"
@@ -3939,7 +4166,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent, Twin-linked"
       },
       {
         "name": "Twin heavy bolter",
@@ -3948,7 +4176,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1, Twin-linked"
       },
       {
         "name": "Lascannon",
@@ -3957,7 +4186,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy stubber",
@@ -3966,7 +4196,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Armoured tracks",
@@ -3984,7 +4215,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -4024,7 +4256,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1, Twin-linked"
       },
       {
         "name": "Lascannon",
@@ -4033,7 +4266,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Armoured tracks",
@@ -4051,7 +4285,8 @@
         "bs": "4+",
         "s": "16",
         "ap": "-4",
-        "d": "D6+2"
+        "d": "D6+2",
+        "keywords": "Blast, Ignores Cover"
       }
     ],
     "system": "40k"
@@ -4103,7 +4338,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Leman Russ battle cannon",
@@ -4112,7 +4348,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Demolisher battle cannon",
@@ -4121,7 +4358,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Blast"
       },
       {
         "name": "Vanquisher battle cannon",
@@ -4130,7 +4368,8 @@
         "bs": "4+",
         "s": "18",
         "ap": "-4",
-        "d": "D6+6"
+        "d": "D6+6",
+        "keywords": "Heavy"
       },
       {
         "name": "Eradicator nova cannon",
@@ -4139,7 +4378,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Ignores Cover"
       },
       {
         "name": "➤ Executioner plasma cannon - supercharge",
@@ -4148,7 +4388,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Hazardous"
       },
       {
         "name": "Punisher gatling cannon",
@@ -4166,7 +4407,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Rapid Fire 4, Twin-linked"
       },
       {
         "name": "Heavy bolter",
@@ -4175,7 +4417,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -4216,7 +4459,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Twin autocannon",
@@ -4225,7 +4469,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Armoured tracks",
@@ -4284,7 +4529,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       }
     ],
     "system": "40k"
@@ -4324,7 +4570,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Close combat weapon",
@@ -4333,7 +4580,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Hot-shot lasgun",
@@ -4342,7 +4590,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Flamer",
@@ -4351,7 +4600,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Ignores cover, Torrent"
       },
       {
         "name": "➤ Grenade launcher - krak",
@@ -4369,7 +4619,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Meltagun",
@@ -4378,7 +4629,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "➤ Plasma gun - supercharge",
@@ -4387,7 +4639,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Rapid Fire 1"
       },
       {
         "name": "Bolt pistol",
@@ -4396,7 +4649,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "➤ Plasma pistol - supercharge",
@@ -4405,7 +4659,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Pistol"
       }
     ],
     "system": "40k"
@@ -4448,7 +4703,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Power weapon",
@@ -4457,7 +4713,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -4497,7 +4754,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Hellstrike missiles",
@@ -4506,7 +4764,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Anti-fly 2"
       },
       {
         "name": "Multi-laser",
@@ -4524,7 +4783,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy bolter",
@@ -4533,7 +4793,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -4574,7 +4835,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -4583,7 +4845,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Hunter-killer missile",
@@ -4592,7 +4855,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Armoured tracks",
@@ -4610,7 +4874,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Indirect Fire, Twin-linked"
       }
     ],
     "system": "40k"
@@ -4649,7 +4914,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Power sabre",
@@ -4667,7 +4933,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault"
       },
       {
         "name": "Frag lance",
@@ -4676,7 +4943,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Lance"
       }
     ],
     "system": "40k"
@@ -4716,7 +4984,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Autocannon",
@@ -4725,7 +4994,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy flamer",
@@ -4734,7 +5004,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Lascannon",
@@ -4743,7 +5014,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Multi-laser",
@@ -4761,7 +5033,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Carnodon twin lascannon",
@@ -4770,7 +5043,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Carnodon twin multi-laser",
@@ -4779,7 +5053,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Volkite culverin",
@@ -4788,7 +5063,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Armoured tracks",
@@ -4867,7 +5143,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy bolter",
@@ -4876,7 +5153,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Lascannon",
@@ -4885,7 +5163,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy stubber",
@@ -4894,7 +5173,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Storm bolter",
@@ -4903,7 +5183,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Armoured tracks",
@@ -4921,7 +5202,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Malcador battle cannon",
@@ -4930,7 +5212,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       }
     ],
     "system": "40k"
@@ -4970,7 +5253,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy bolter",
@@ -4979,7 +5263,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Lascannon",
@@ -4988,7 +5273,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy stubber",
@@ -4997,7 +5283,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Storm bolter",
@@ -5006,7 +5293,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Armoured tracks",
@@ -5024,7 +5312,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Demolisher cannon",
@@ -5033,7 +5322,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Blast"
       },
       {
         "name": "Malcador twin lascannon",
@@ -5042,7 +5332,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Twin-linked"
       }
     ],
     "system": "40k"
@@ -5082,7 +5373,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy bolter",
@@ -5091,7 +5383,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Lascannon",
@@ -5100,7 +5393,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy stubber",
@@ -5109,7 +5403,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Storm bolter",
@@ -5118,7 +5413,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Armoured tracks",
@@ -5136,7 +5432,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Demolisher cannon",
@@ -5145,7 +5442,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Blast"
       }
     ],
     "system": "40k"
@@ -5185,7 +5483,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy bolter",
@@ -5194,7 +5493,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Lascannon",
@@ -5203,7 +5503,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy flamer",
@@ -5212,7 +5513,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Heavy stubber",
@@ -5221,7 +5523,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Storm bolter",
@@ -5230,7 +5533,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Armoured tracks",
@@ -5248,7 +5552,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Inferno gun",
@@ -5257,7 +5562,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Ignores Cover, Torrent"
       }
     ],
     "system": "40k"
@@ -5307,7 +5613,8 @@
         "bs": "5+",
         "s": "10",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Heavy, Indirect Fire"
       }
     ],
     "system": "40k"
@@ -5357,7 +5664,8 @@
         "bs": "5+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Indirect Fire,"
       }
     ],
     "system": "40k"
@@ -5397,7 +5705,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Heavy stubber",
@@ -5406,7 +5715,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Storm bolter",
@@ -5415,7 +5725,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "➤ Stormblade plasma blastgun - standard",
@@ -5424,7 +5735,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "➤ Stormblade plasma blastgun - supercharge",
@@ -5433,7 +5745,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-3",
-        "d": "4"
+        "d": "4",
+        "keywords": "Blast, Hazardous"
       },
       {
         "name": "Armoured tracks",
@@ -5451,7 +5764,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       }
     ],
     "system": "40k"
@@ -5500,7 +5814,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Twin heavy stubber",
@@ -5509,7 +5824,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Twin-linked, Rapid Fire 3"
       },
       {
         "name": "Macharius twin battlecannon",
@@ -5518,7 +5834,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Twin-linked"
       },
       {
         "name": "Heavy stubber",
@@ -5527,7 +5844,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Storm bolter",
@@ -5536,7 +5854,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy bolter",
@@ -5545,7 +5864,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -5554,7 +5874,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       }
     ],
     "system": "40k"
@@ -5594,7 +5915,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Heavy bolter",
@@ -5603,7 +5925,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -5612,7 +5935,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Storm bolter",
@@ -5621,7 +5945,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Armoured tracks",
@@ -5639,7 +5964,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Twin heavy stubber",
@@ -5648,7 +5974,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Twin-linked, Rapid Fire 3"
       },
       {
         "name": "Macharius twin vanquisher cannon",
@@ -5657,7 +5984,8 @@
         "bs": "4+",
         "s": "18",
         "ap": "-4",
-        "d": "D6+6"
+        "d": "D6+6",
+        "keywords": "Heavy, Twin-linked"
       }
     ],
     "system": "40k"
@@ -5697,7 +6025,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Heavy bolter",
@@ -5706,7 +6035,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -5715,7 +6045,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Storm bolter",
@@ -5724,7 +6055,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Armoured tracks",
@@ -5742,7 +6074,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Twin heavy stubber",
@@ -5751,7 +6084,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Twin-linked, Rapid Fire 3"
       },
       {
         "name": "Macharius vulcan mega-bolter",
@@ -5760,7 +6094,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -5800,7 +6135,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Storm bolter",
@@ -5809,7 +6145,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Armoured tracks",
@@ -5827,7 +6164,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Heavy, Ignores Cover, Indirect Fire"
       },
       {
         "name": "➤ Praetor launcher - foehammer",
@@ -5836,7 +6174,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-MONSTER 4+, Anti-VEHICLE 4+, Blast, Heavy, Indirect Fire"
       },
       {
         "name": "Heavy bolter",
@@ -5845,7 +6184,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -5886,7 +6226,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Storm bolter",
@@ -5895,7 +6236,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy bolter",
@@ -5904,7 +6246,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Armoured tracks",
@@ -5962,7 +6305,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Colossus siege mortar",
@@ -5971,7 +6315,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "D6+2"
+        "d": "D6+2",
+        "keywords": "Blast, Devastating Wounds"
       },
       {
         "name": "Heavy stubber",
@@ -5980,7 +6325,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Storm bolter",
@@ -5989,7 +6335,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       }
     ],
     "system": "40k"
@@ -6028,7 +6375,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Storm bolter",
@@ -6037,7 +6385,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Autocannon",
@@ -6046,7 +6395,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy bolter",
@@ -6055,7 +6405,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -6064,7 +6415,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Lascannon",
@@ -6073,7 +6425,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Valdor neutron laser",
@@ -6082,7 +6435,8 @@
         "bs": "4+",
         "s": "16",
         "ap": "-4",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Armoured tracks",
@@ -6100,7 +6454,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       }
     ],
     "system": "40k"
@@ -6140,7 +6495,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Heavy stubber",
@@ -6149,7 +6505,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Lascannon",
@@ -6158,7 +6515,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Avenger bolt cannon",
@@ -6167,7 +6525,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -6207,7 +6566,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Lascannon",
@@ -6216,7 +6576,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Lightning hellstrike rack",
@@ -6225,7 +6586,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Anti-Fly 2+"
       }
     ],
     "system": "40k"
@@ -6264,7 +6626,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Heavy bolter",
@@ -6273,7 +6636,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -6316,7 +6680,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Heavy bolter",
@@ -6325,7 +6690,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Lascannon",
@@ -6334,7 +6700,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       }
     ],
     "system": "40k"
@@ -6376,7 +6743,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Assault cannon",
@@ -6385,7 +6753,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Hellstrike missile rack",
@@ -6394,7 +6763,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Anti-Fly 2+"
       },
       {
         "name": "Armoured hull",
@@ -6403,7 +6773,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Heavy bolter",
@@ -6412,7 +6783,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -6490,7 +6862,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -6499,7 +6872,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Hunter-killer missile",
@@ -6508,7 +6882,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Armoured tracks",
@@ -6557,7 +6932,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       },
       {
         "name": "Hellstrike missiles",
@@ -6566,7 +6942,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Anti-fly 2"
       },
       {
         "name": "Heavy bolter",
@@ -6575,7 +6952,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Armoured hull",
@@ -6584,7 +6962,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       }
     ],
     "system": "40k"
@@ -6624,7 +7003,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Heavy bolter",
@@ -6633,7 +7013,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Autocannon",
@@ -6642,7 +7023,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy"
       },
       {
         "name": "Multi-laser",
@@ -6690,7 +7072,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy stubber",
@@ -6699,7 +7082,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Heavy bolter",
@@ -6708,7 +7092,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Autocannon",
@@ -6717,7 +7102,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy flamer",
@@ -6726,7 +7112,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Lascannon",
@@ -6735,7 +7122,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Armoured tracks",
@@ -6753,7 +7141,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Dominus triple bombard",
@@ -6762,7 +7151,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Indirect Fire"
       }
     ],
     "system": "40k"
@@ -6803,7 +7193,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -6812,7 +7203,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Heavy stubber",
@@ -6821,7 +7213,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Twin heavy stubber",
@@ -6830,7 +7223,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Twin-linked, Rapid Fire 3"
       },
       {
         "name": "Hunter-killer missile",
@@ -6839,7 +7233,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Landing ramp",
@@ -6890,7 +7285,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Close combat weapon",
@@ -6899,7 +7295,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Heavy flamer",
@@ -6908,7 +7305,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "➤ Grenade launcher - krak",
@@ -6926,7 +7324,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "➤ Plasma gun - supercharge",
@@ -6935,7 +7334,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Rapid Fire 1"
       },
       {
         "name": "Sniper rifle",
@@ -6944,7 +7344,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Precision"
       },
       {
         "name": "Flamer",
@@ -6953,7 +7354,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Ignores cover, Torrent"
       },
       {
         "name": "Sergeant's pistol",
@@ -6962,7 +7364,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Sergeant's close combat weapon",
@@ -7012,7 +7415,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Armoured tracks",
@@ -7030,7 +7434,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       }
     ],
     "system": "40k"
@@ -7079,7 +7484,8 @@
         "bs": "4",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast"
       },
       {
         "name": "➤ Omega-pattern plasma blastgun - supercharged",
@@ -7088,7 +7494,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Hazardous"
       },
       {
         "name": "Autocannon",
@@ -7097,7 +7504,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy bolter",
@@ -7106,7 +7514,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -7115,7 +7524,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Storm bolter",
@@ -7124,7 +7534,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy stubber",
@@ -7133,7 +7544,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       }
     ],
     "system": "40k"
@@ -7173,7 +7585,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy stubber",
@@ -7182,7 +7595,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Armoured tracks",
@@ -7200,7 +7614,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Stygies laser destroyer",
@@ -7209,7 +7624,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-4",
-        "d": "D6+3"
+        "d": "D6+3",
+        "keywords": "Heavy"
       }
     ],
     "system": "40k"
@@ -7249,7 +7665,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Sniper rifle",
@@ -7258,7 +7675,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Precision"
       },
       {
         "name": "Close Combat Weapon",
@@ -7267,7 +7685,8 @@
         "bs": "5+",
         "s": "2",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Demolition Charge",
@@ -7276,7 +7695,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Assault, Blast, Hazardous, One Shot"
       }
     ],
     "system": "40k"
@@ -7369,7 +7789,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Hunter-killer missile",
@@ -7378,7 +7799,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Storm bolter",
@@ -7387,7 +7809,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy stubber",
@@ -7396,7 +7819,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       }
     ],
     "system": "40k"
@@ -7437,7 +7861,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Heavy flamer",
@@ -7446,7 +7871,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Close Combat Weapons",
@@ -7464,7 +7890,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Hunter-killer missile",
@@ -7473,7 +7900,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       }
     ],
     "system": "40k"
@@ -7513,7 +7941,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Sniper rifle",
@@ -7522,7 +7951,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Precision"
       },
       {
         "name": "Close combat weapon",
@@ -7531,7 +7961,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -7571,7 +8002,8 @@
         "bs": "5+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Indirect Fire"
       },
       {
         "name": "Close combat weapons",
@@ -7630,7 +8062,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Medusa siege cannon",
@@ -7639,7 +8072,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-2",
-        "d": "4"
+        "d": "4",
+        "keywords": "Blast, Heavy, Indirect Fire"
       },
       {
         "name": "Heavy bolter",
@@ -7648,7 +8082,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -7657,7 +8092,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Storm bolter",
@@ -7666,7 +8102,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy stubber",
@@ -7675,7 +8112,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       }
     ],
     "system": "40k"
@@ -7724,7 +8162,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Indirect Fire"
       }
     ],
     "system": "40k"
@@ -7764,7 +8203,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       }
     ],
     "system": "40k"
@@ -7804,7 +8244,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Vendetta hellstrike rack",
@@ -7813,7 +8254,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Anti-fly 2+"
       },
       {
         "name": "Armoured hull",
@@ -7822,7 +8264,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Heavy bolter",
@@ -7831,7 +8274,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -7882,7 +8326,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Indirect Fire, Twin-Linked"
       }
     ],
     "system": "40k"
@@ -7925,7 +8370,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Commissar’s close combat weapon",
@@ -7943,7 +8389,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       }
     ],
     "system": "40k"
@@ -8034,7 +8481,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-Infantry 2+, Blast, Indirect Fire"
       }
     ],
     "system": "40k"
@@ -8074,7 +8522,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-fly 2+, Twin-linked"
       },
       {
         "name": "Close combat weapons",
@@ -8133,7 +8582,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Indirect Fire"
       },
       {
         "name": "Heavy bolter",
@@ -8142,7 +8592,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -8151,7 +8602,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Storm bolter",
@@ -8160,7 +8612,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy stubber",
@@ -8169,7 +8622,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       }
     ],
     "system": "40k"
@@ -8210,7 +8664,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Indirect Fire,"
       },
       {
         "name": "Close combat weapons",
@@ -8258,7 +8713,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Hunting lance",
@@ -8267,7 +8723,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Lance"
       },
       {
         "name": "Chainsword",
@@ -8276,7 +8733,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Precision"
       },
       {
         "name": "Power weapon",
@@ -8285,7 +8743,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Stomping Feet",
@@ -8294,7 +8753,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Flamer",
@@ -8303,7 +8763,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Ignores cover, Torrent"
       },
       {
         "name": "➤ Plasma gun - supercharge",
@@ -8312,7 +8773,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Rapid Fire 1"
       },
       {
         "name": "Meltagun",
@@ -8321,7 +8783,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "➤ Grenade launcher - krak",
@@ -8379,7 +8842,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy"
       },
       {
         "name": "Heavy bolter",
@@ -8388,7 +8852,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Hunter-killer missile",
@@ -8397,7 +8862,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Storm bolter",
@@ -8406,7 +8872,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy stubber",
@@ -8415,7 +8882,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       }
     ],
     "system": "40k"
@@ -8464,7 +8932,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Heavy flamer",
@@ -8473,7 +8942,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "➤ Tauros grenade launcher - frag",
@@ -8482,7 +8952,8 @@
         "bs": "4",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       },
       {
         "name": "➤ Tauros grenade launcher - krak",
@@ -8531,7 +9002,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Twin multi-laser",
@@ -8540,7 +9012,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Hunter-killer missile",
@@ -8549,7 +9022,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Armoured frame",
@@ -8598,7 +9072,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy stubber",
@@ -8607,7 +9082,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Armoured tracks",
@@ -8625,7 +9101,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -8634,7 +9111,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Hunter-killer missile",
@@ -8643,7 +9121,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       }
     ],
     "system": "40k"
@@ -8691,7 +9170,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Lascannon",
@@ -8700,7 +9180,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Stormhammer cannon",
@@ -8709,7 +9190,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Twin battle cannon",
@@ -8718,7 +9200,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Twin-linked"
       },
       {
         "name": "Heavy bolter",
@@ -8727,7 +9210,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -8736,7 +9220,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Storm bolter",
@@ -8745,7 +9230,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy stubber",
@@ -8754,7 +9240,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       }
     ],
     "system": "40k"
@@ -8796,7 +9283,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy stubber",
@@ -8805,7 +9293,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Heavy bolter",
@@ -8814,7 +9303,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Heavy flamer",
@@ -8823,7 +9313,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Armoured tracks",
@@ -8841,7 +9332,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy"
       },
       {
         "name": "Hunter-killer missile",
@@ -8850,7 +9342,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       }
     ],
     "system": "40k"
@@ -8892,7 +9385,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault"
       },
       {
         "name": "Close combat weapon",
@@ -8901,7 +9395,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Hot-shot laspistol",
@@ -8910,7 +9405,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Hot-shot long las",
@@ -8919,7 +9415,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy, Precision"
       },
       {
         "name": "Chainsword",
@@ -8928,7 +9425,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Precision"
       },
       {
         "name": "Power weapon",
@@ -8937,7 +9435,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Bolt pistol",
@@ -8946,7 +9445,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -8985,7 +9485,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Precision"
       },
       {
         "name": "Close combat weapon",
@@ -8994,7 +9495,8 @@
         "bs": "5+",
         "s": "2",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Tankstopper rifle",
@@ -9003,7 +9505,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Heavy"
       }
     ],
     "system": "40k"
@@ -9048,7 +9551,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Close combat weapon",
@@ -9057,7 +9561,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Boltgun",
@@ -9066,7 +9571,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "➤ Plasma gun - supercharge",
@@ -9075,7 +9581,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Rapid Fire 1"
       },
       {
         "name": "Meltagun",
@@ -9084,7 +9591,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "➤ Grenade launcher - krak",
@@ -9102,7 +9610,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Ignores cover, Torrent"
       },
       {
         "name": "Chainsword",
@@ -9111,7 +9620,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Precision"
       },
       {
         "name": "Power weapon",
@@ -9120,7 +9630,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Bolt pistol",
@@ -9129,7 +9640,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -9173,7 +9685,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Sabre of Sacrifice",
@@ -9182,7 +9695,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 4+"
       },
       {
         "name": "Savage claws",
@@ -9191,7 +9705,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       }
     ],
     "system": "40k"
@@ -9234,7 +9749,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Laspistol",
@@ -9243,7 +9759,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Lasgun",
@@ -9252,7 +9769,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Flamer",
@@ -9261,7 +9779,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Ignores cover, Torrent"
       },
       {
         "name": "➤ Grenade launcher - krak",
@@ -9279,7 +9798,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Meltagun",
@@ -9288,7 +9808,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "➤ Plasma gun - supercharge",
@@ -9297,7 +9818,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Rapid Fire 1"
       },
       {
         "name": "Sniper rifle",
@@ -9306,7 +9828,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Precision"
       }
     ],
     "system": "40k"
@@ -9358,7 +9881,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Castigator gatling cannon",
@@ -9376,7 +9900,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Meltagun",
@@ -9385,7 +9910,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Multi-melta",
@@ -9394,7 +9920,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Heavy bolter",
@@ -9403,7 +9930,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Coaxial autocannon",
@@ -9421,7 +9949,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Twin battle cannon",
@@ -9430,7 +9959,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Twin-linked"
       }
     ],
     "system": "40k"
@@ -9472,7 +10002,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Zealot's vindicator (Ranged)",
@@ -9481,7 +10012,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       }
     ],
     "system": "40k"
@@ -9522,7 +10054,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Trench club",
@@ -9540,7 +10073,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Flamer",
@@ -9549,7 +10083,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Ignores cover, Torrent"
       },
       {
         "name": "Combat shotgun",
@@ -9558,7 +10093,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault"
       }
     ],
     "system": "40k"
@@ -9597,7 +10133,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Heavy bolter",
@@ -9606,7 +10143,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Lasgun",
@@ -9615,7 +10153,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Mortar",
@@ -9624,7 +10163,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Heavy, Indirect Fire"
       },
       {
         "name": "➤ Missile launcher - krak",
@@ -9633,7 +10173,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Heavy"
       },
       {
         "name": "Lascannon",
@@ -9642,7 +10183,8 @@
         "bs": "5+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       },
       {
         "name": "Autocannon",
@@ -9651,7 +10193,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy"
       }
     ],
     "system": "40k"
@@ -9691,7 +10234,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Laspistol",
@@ -9700,7 +10244,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Krieg heavy flamer",
@@ -9709,7 +10254,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Twin Krieg heavy stubber",
@@ -9718,7 +10264,8 @@
         "bs": "5+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3, Twin-linked"
       },
       {
         "name": "Lascannon",
@@ -9727,7 +10274,8 @@
         "bs": "5+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Heavy"
       }
     ],
     "system": "40k"
@@ -9776,7 +10324,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Heavy mortar",
@@ -9785,7 +10334,8 @@
         "bs": "5+",
         "s": "8",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Indirect Fire"
       },
       {
         "name": "Siege cannon",
@@ -9794,7 +10344,8 @@
         "bs": "5+",
         "s": "12",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Heavy, Indirect Fire"
       },
       {
         "name": "Multiple rocket launcher",
@@ -9803,7 +10354,8 @@
         "bs": "5+",
         "s": "2",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Blast, Heavy, Indirect Fire"
       },
       {
         "name": "Heavy quad launcher",
@@ -9812,7 +10364,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Indirect Fire"
       }
     ],
     "system": "40k"
@@ -9864,7 +10417,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Precision"
       }
     ],
     "system": "40k"
@@ -9909,7 +10463,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Power weapon",
@@ -9918,7 +10473,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Meltagun",
@@ -9927,7 +10483,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Close combat weapon",
@@ -9936,7 +10493,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Demolitions",
@@ -9945,7 +10503,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, One Shot"
       },
       {
         "name": "Hot-shot laspistol",
@@ -9954,7 +10513,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Dirk",
@@ -9963,7 +10523,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Precision"
       }
     ],
     "system": "40k"
@@ -10005,7 +10566,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Heavy flamer",
@@ -10014,7 +10576,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Ripper gun",
@@ -10023,7 +10586,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Hand flamer",
@@ -10032,7 +10596,8 @@
         "bs": "N/A",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "Bolt pistol",
@@ -10041,7 +10606,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Laspistol",
@@ -10050,7 +10616,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "➤ Plasma pistol - supercharge",
@@ -10059,7 +10626,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Pistol"
       },
       {
         "name": "Chainsword",
@@ -10068,7 +10636,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Precision"
       },
       {
         "name": "Close combat weapon",
@@ -10077,7 +10646,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Frag lance",
@@ -10086,7 +10656,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Lance"
       }
     ],
     "system": "40k"
@@ -10129,7 +10700,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Heavy flamer",
@@ -10138,7 +10710,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Ripper gun",
@@ -10147,7 +10720,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Hand flamer",
@@ -10156,7 +10730,8 @@
         "bs": "N/A",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "Bolt pistol",
@@ -10165,7 +10740,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Laspistol",
@@ -10174,7 +10750,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "➤ Plasma pistol - supercharge",
@@ -10183,7 +10760,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Pistol"
       },
       {
         "name": "Chainsword",
@@ -10192,7 +10770,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Precision"
       },
       {
         "name": "Close combat weapon",
@@ -10201,7 +10780,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Frag lance",
@@ -10210,7 +10790,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Lance"
       }
     ],
     "system": "40k"
@@ -10253,7 +10834,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Heavy flamer",
@@ -10262,7 +10844,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Ripper gun",
@@ -10271,7 +10854,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Hand flamer",
@@ -10280,7 +10864,8 @@
         "bs": "N/A",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "Bolt pistol",
@@ -10289,7 +10874,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Laspistol",
@@ -10298,7 +10884,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "➤ Plasma pistol - supercharge",
@@ -10307,7 +10894,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Pistol"
       },
       {
         "name": "Chainsword",
@@ -10316,7 +10904,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Precision"
       },
       {
         "name": "Close combat weapon",
@@ -10325,7 +10914,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Frag lance",
@@ -10334,7 +10924,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Lance"
       }
     ],
     "system": "40k"
@@ -10377,7 +10968,8 @@
         "bs": "2+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Power sword",
@@ -10386,7 +10978,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Power klaw",
@@ -10404,7 +10997,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "D3+1"
+        "d": "D3+1",
+        "keywords": "Precision"
       },
       {
         "name": "Storm bolter",
@@ -10413,7 +11007,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       }
     ],
     "system": "40k"
@@ -10456,7 +11051,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Enforcer crew",
@@ -10465,7 +11061,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Armoured hull",
@@ -10474,7 +11071,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Chiron gatling cannon",
@@ -10483,7 +11081,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault"
       },
       {
         "name": "Power sword and Manus Mortis",
@@ -10492,7 +11091,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lance"
       }
     ],
     "system": "40k"
@@ -10535,7 +11135,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Power sword and Manus Mortis",
@@ -10544,7 +11145,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lance"
       }
     ],
     "system": "40k"
@@ -10585,7 +11187,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Pintle-mounted heavy stubber",
@@ -10594,7 +11197,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       }
     ],
     "system": "40k"
@@ -10636,7 +11240,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Close combat weapon",
@@ -10645,7 +11250,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Autostubber",
@@ -10654,7 +11260,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Long-las",
@@ -10663,7 +11270,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Precision"
       },
       {
         "name": "➤ Missile launcher - krak",
@@ -10672,7 +11280,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Heavy"
       },
       {
         "name": "Laspistol",
@@ -10681,7 +11290,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "➤ Plasma gun - supercharge",
@@ -10690,7 +11300,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Rapid Fire 1"
       },
       {
         "name": "Meltagun",
@@ -10699,7 +11310,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       }
     ],
     "system": "40k"
@@ -10744,7 +11356,8 @@
         "bs": "2+",
         "s": "3",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Precision"
       },
       {
         "name": "Chainsword and gun butt",
@@ -10762,7 +11375,8 @@
         "bs": "2+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       }
     ],
     "system": "40k"
@@ -10801,7 +11415,8 @@
         "bs": "2+",
         "s": "14",
         "ap": "-3",
-        "d": "4"
+        "d": "4",
+        "keywords": "Blast, Sustained Hits 1"
       },
       {
         "name": "➤ Las-impulsor - low intensity",
@@ -10810,7 +11425,8 @@
         "bs": "2+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Sustained Hits 1"
       },
       {
         "name": "➤ Freedom's Hand - strike",
@@ -10819,7 +11435,8 @@
         "bs": "2+",
         "s": "20",
         "ap": "-3",
-        "d": "9"
+        "d": "9",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Freedom's Hand - sweep",
@@ -10828,7 +11445,8 @@
         "bs": "2+",
         "s": "10",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Questoris multi-laser",
@@ -10837,7 +11455,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Close combat weapon",
@@ -10846,7 +11465,8 @@
         "bs": "2+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Hekhtur's pistol",
@@ -10855,7 +11475,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -10912,7 +11533,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 4"
       },
       {
         "name": "Meltagun",
@@ -10921,7 +11543,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Questoris heavy stubber",
@@ -10930,7 +11553,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       }
     ],
     "system": "40k"
@@ -10978,7 +11602,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Questoris heavy stubber",
@@ -10987,7 +11612,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Armoured feet",
@@ -11039,7 +11665,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Rapid-fire battle cannon",
@@ -11048,7 +11675,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Rapid Fire D6+3"
       },
       {
         "name": "Meltagun",
@@ -11057,7 +11685,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "➤ Reaper chainsword - sweep",
@@ -11066,7 +11695,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Thunderstrike gauntlet - sweep",
@@ -11075,7 +11705,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Lethal Hits"
       }
     ],
     "system": "40k"
@@ -11118,7 +11749,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Blast, Melta 6"
       },
       {
         "name": "Meltagun",
@@ -11127,7 +11759,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Questoris heavy stubber",
@@ -11136,7 +11769,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "➤ Reaper chainsword - sweep",
@@ -11145,7 +11779,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Thunderstrike gauntlet - sweep",
@@ -11154,7 +11789,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Lethal Hits"
       }
     ],
     "system": "40k"
@@ -11197,7 +11833,8 @@
         "bs": "2+",
         "s": "9",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Reaper chainsword - strike",
@@ -11206,7 +11843,8 @@
         "bs": "2+",
         "s": "14",
         "ap": "-4",
-        "d": "6"
+        "d": "6",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Thunderstrike gauntlet - strike",
@@ -11215,7 +11853,8 @@
         "bs": "2+",
         "s": "20",
         "ap": "-3",
-        "d": "8"
+        "d": "8",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "➤ Thunderstrike gauntlet - sweep",
@@ -11224,7 +11863,8 @@
         "bs": "2+",
         "s": "10",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Meltagun",
@@ -11233,7 +11873,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Questoris heavy stubber",
@@ -11242,7 +11883,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       }
     ],
     "system": "40k"
@@ -11294,7 +11936,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Meltagun",
@@ -11303,7 +11946,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Questoris heavy stubber",
@@ -11312,7 +11956,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "➤ Reaper chainsword - sweep",
@@ -11321,7 +11966,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Thunderstrike gauntlet - sweep",
@@ -11330,7 +11976,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Lethal Hits"
       }
     ],
     "system": "40k"
@@ -11382,7 +12029,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Meltagun",
@@ -11391,7 +12039,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Questoris heavy stubber",
@@ -11400,7 +12049,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Titanic feet",
@@ -11418,7 +12068,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Rapid Fire D6+3"
       },
       {
         "name": "Thermal cannon",
@@ -11427,7 +12078,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Blast, Melta 6"
       }
     ],
     "system": "40k"
@@ -11470,7 +12122,8 @@
         "bs": "3+",
         "s": "14",
         "ap": "-3",
-        "d": "4"
+        "d": "4",
+        "keywords": "Blast, Sustained Hits 1"
       },
       {
         "name": "➤ Las-impulsor - low intensity",
@@ -11479,7 +12132,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Sustained Hits 1"
       },
       {
         "name": "➤ Reaper chainsword - sweep",
@@ -11488,7 +12142,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Thunderstrike gauntlet - sweep",
@@ -11497,7 +12152,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Preceptor multi-laser",
@@ -11515,7 +12171,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Meltagun",
@@ -11524,7 +12181,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       }
     ],
     "system": "40k"
@@ -11566,7 +12224,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast"
       },
       {
         "name": "➤ Plasma decimator - supercharge",
@@ -11575,7 +12234,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Hazardous"
       },
       {
         "name": "Volcano lance",
@@ -11584,7 +12244,8 @@
         "bs": "3+",
         "s": "18",
         "ap": "-5",
-        "d": "D6+8"
+        "d": "D6+8",
+        "keywords": "Blast"
       },
       {
         "name": "Titanic feet",
@@ -11602,7 +12263,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2, Twin-Linked"
       },
       {
         "name": "Shieldbreaker missile launcher",
@@ -11611,7 +12273,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-6",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Anti-Titanic 4+, Devastating Wounds"
       },
       {
         "name": "Twin siegebreaker cannon",
@@ -11620,7 +12283,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Twin-Linked"
       }
     ],
     "system": "40k"
@@ -11662,7 +12326,8 @@
         "bs": "N/A",
         "s": "8",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Thundercoil harpoon",
@@ -11671,7 +12336,8 @@
         "bs": "3+",
         "s": "24",
         "ap": "-6",
-        "d": "10"
+        "d": "10",
+        "keywords": "Blast, Devastating Wounds"
       },
       {
         "name": "Titanic feet",
@@ -11689,7 +12355,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2, Twin-Linked"
       },
       {
         "name": "Shieldbreaker missile launcher",
@@ -11698,7 +12365,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-6",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Anti-Titanic 4+, Devastating Wounds"
       },
       {
         "name": "Twin siegebreaker cannon",
@@ -11707,7 +12375,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Twin-Linked"
       }
     ],
     "system": "40k"
@@ -11749,7 +12418,8 @@
         "bs": "3+",
         "s": "16",
         "ap": "-2",
-        "d": "6"
+        "d": "6",
+        "keywords": "Conversion, Twin-linked, Sustained Hits D3"
       },
       {
         "name": "Asterius volkite culverin",
@@ -11758,7 +12428,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Karacnos mortar battery",
@@ -11767,7 +12438,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-INFANTRY 2+, Blast, Ignores Cover, Indirect Fire"
       },
       {
         "name": "Titanic feet",
@@ -11818,7 +12490,8 @@
         "bs": "3+",
         "s": "18",
         "ap": "-4",
-        "d": "D6+6"
+        "d": "D6+6",
+        "keywords": "Blast, Twin-linked"
       },
       {
         "name": "Acastus ironstorm missile pod",
@@ -11827,7 +12500,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Heavy, Indirect Fire"
       },
       {
         "name": "Helios defence missiles",
@@ -11836,7 +12510,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Anti-FLY 2+, Heavy"
       },
       {
         "name": "Titanic feet",
@@ -11888,7 +12563,8 @@
         "bs": "2+",
         "s": "20",
         "ap": "-3",
-        "d": "8"
+        "d": "8",
+        "keywords": "Lance"
       },
       {
         "name": "Cerastus shock lance",
@@ -11897,7 +12573,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "2"
+        "d": "2",
+        "keywords": "Assault, Sustained Hits 2"
       },
       {
         "name": "➤ Cerastus shock lance - sweep",
@@ -11949,7 +12626,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Twin-linked"
       },
       {
         "name": "➤ Tempest warblade - strike",
@@ -12010,7 +12688,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1, Twin-linked"
       },
       {
         "name": "Acheron flame cannon",
@@ -12019,7 +12698,8 @@
         "bs": "N/A",
         "s": "8",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "➤ Reaper chainfist - strike",
@@ -12080,7 +12760,8 @@
         "bs": "3+",
         "s": "14",
         "ap": "-3",
-        "d": "4"
+        "d": "4",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Atrapos lascutter - low intensity (melee)",
@@ -12089,7 +12770,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Atrapos lascutter - high intensity (ranged)",
@@ -12098,7 +12780,8 @@
         "bs": "3+",
         "s": "14",
         "ap": "-3",
-        "d": "4"
+        "d": "4",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Atrapos lascutter - low intensity (ranged)",
@@ -12107,7 +12790,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Graviton singularity cannon - singularity",
@@ -12116,7 +12800,8 @@
         "bs": "3+",
         "s": "16",
         "ap": "-4",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Blast, Devastating Wounds, Hazardous"
       },
       {
         "name": "➤ Graviton singularity cannon - contained",
@@ -12125,7 +12810,8 @@
         "bs": "3+",
         "s": "16",
         "ap": "-4",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Blast"
       }
     ],
     "system": "40k"
@@ -12168,7 +12854,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Hekaton siege claw - sweep",
@@ -12186,7 +12873,8 @@
         "bs": "N/A",
         "s": "2",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-INFANTRY 2+, Ignores Cover, Torrent, Twin-linked"
       },
       {
         "name": "Phased plasma-fusil",
@@ -12195,7 +12883,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Lightning cannon",
@@ -12204,7 +12893,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "0",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 2"
       }
     ],
     "system": "40k"
@@ -12247,7 +12937,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-VEHICLE 2+, Blast"
       },
       {
         "name": "Volkite chierovile",
@@ -12256,7 +12947,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "0",
-        "d": "3"
+        "d": "3",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "➤ Reaper chainsword - sweep",
@@ -12265,7 +12957,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Hekaton siege claw - sweep",
@@ -12283,7 +12976,8 @@
         "bs": "N/A",
         "s": "2",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-INFANTRY 2+, Ignores Cover, Torrent, Twin-linked"
       }
     ],
     "system": "40k"
@@ -12322,7 +13016,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "0",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Graviton pulsar",
@@ -12331,7 +13026,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-VEHICLE 2+, Blast"
       },
       {
         "name": "Lightning lock",
@@ -12340,7 +13036,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 2"
       },
       {
         "name": "Conversion beam cannon",
@@ -12349,7 +13046,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Conversion, Sustained Hits D3"
       },
       {
         "name": "Armoured feet",
@@ -12410,7 +13108,8 @@
         "bs": "N/A",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent, Twin-linked"
       },
       {
         "name": "Conversion beam obliterator",
@@ -12419,7 +13118,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-2",
-        "d": "4"
+        "d": "4",
+        "keywords": "Conversion, Sustained Hits D3"
       },
       {
         "name": "➤ Plasma executor - standard",
@@ -12428,7 +13128,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast"
       },
       {
         "name": "➤ Plasma executor - supercharge",
@@ -12437,7 +13138,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Hazardous"
       },
       {
         "name": "Phosphor blaster",
@@ -12446,7 +13148,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Rapid Fire 1"
       }
     ],
     "system": "40k"
@@ -12491,7 +13194,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 3"
       },
       {
         "name": "Titanic feet",
@@ -12509,7 +13213,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Assault"
       },
       {
         "name": "➤ Bellatus reaper chainsword - sweep",
@@ -12527,7 +13232,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lance"
       },
       {
         "name": "Frag bombard",
@@ -12536,7 +13242,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Assault, Blast, Rapid Fire D6+3"
       }
     ],
     "system": "40k"
@@ -12587,7 +13294,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Warhound inferno gun",
@@ -12596,7 +13304,8 @@
         "bs": "N/A",
         "s": "7",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "➤ Warhound plasma blastgun - standard",
@@ -12605,7 +13314,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-3",
-        "d": "4"
+        "d": "4",
+        "keywords": "Blast"
       },
       {
         "name": "➤ Warhound plasma blastgun - supercharge",
@@ -12614,7 +13324,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-3",
-        "d": "5"
+        "d": "5",
+        "keywords": "Blast, Hazardous"
       },
       {
         "name": "Warhound turbo-laser destructor",
@@ -12623,7 +13334,8 @@
         "bs": "3+",
         "s": "20",
         "ap": "-3",
-        "d": "2D6"
+        "d": "2D6",
+        "keywords": "Blast"
       }
     ],
     "system": "40k"
@@ -12665,7 +13377,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Reaver laser blaster",
@@ -12674,7 +13387,8 @@
         "bs": "3+",
         "s": "20",
         "ap": "-3",
-        "d": "D6+2"
+        "d": "D6+2",
+        "keywords": "Blast"
       },
       {
         "name": "Reaver melta cannon",
@@ -12683,7 +13397,8 @@
         "bs": "3+",
         "s": "13",
         "ap": "-4",
-        "d": "6"
+        "d": "6",
+        "keywords": "Blast, Melta 4"
       },
       {
         "name": "Reaver volcano cannon",
@@ -12692,7 +13407,8 @@
         "bs": "3+",
         "s": "24",
         "ap": "-5",
-        "d": "14"
+        "d": "14",
+        "keywords": "Blast, Heavy"
       },
       {
         "name": "➤ Reaver power fist - strike",
@@ -12728,7 +13444,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Indirect Fire"
       }
     ],
     "system": "40k"
@@ -12771,7 +13488,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-FLY 4+"
       },
       {
         "name": "Ardex-defensor mauler",
@@ -12798,7 +13516,8 @@
         "bs": "3+",
         "s": "16",
         "ap": "-4",
-        "d": "4"
+        "d": "4",
+        "keywords": "Blast, Indirect Fire"
       },
       {
         "name": "Nemesis volcano cannon",
@@ -12807,7 +13526,8 @@
         "bs": "3+",
         "s": "24",
         "ap": "-5",
-        "d": "14"
+        "d": "14",
+        "keywords": "Blast"
       },
       {
         "name": "Reaver gatling blaster",
@@ -12816,7 +13536,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Reaver laser blaster",
@@ -12825,7 +13546,8 @@
         "bs": "3+",
         "s": "20",
         "ap": "-3",
-        "d": "D6+2"
+        "d": "D6+2",
+        "keywords": "Blast"
       },
       {
         "name": "Reaver melta cannon",
@@ -12834,7 +13556,8 @@
         "bs": "3+",
         "s": "13",
         "ap": "-4",
-        "d": "6"
+        "d": "6",
+        "keywords": "Blast, Melta 4"
       },
       {
         "name": "Reaver volcano cannon",
@@ -12843,7 +13566,8 @@
         "bs": "3+",
         "s": "24",
         "ap": "-5",
-        "d": "14"
+        "d": "14",
+        "keywords": "Blast, Heavy"
       }
     ],
     "system": "40k"
@@ -12885,7 +13609,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Arioch power claw - strike",
@@ -12912,7 +13637,8 @@
         "bs": "3+",
         "s": "32",
         "ap": "-5",
-        "d": "18"
+        "d": "18",
+        "keywords": "Blast"
       },
       {
         "name": "Macro gatling blaster",
@@ -12921,7 +13647,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Mori quake cannon",
@@ -12930,7 +13657,8 @@
         "bs": "3+",
         "s": "16",
         "ap": "-4",
-        "d": "6"
+        "d": "6",
+        "keywords": "Blast, Ignores Cover"
       },
       {
         "name": "➤ Sunfury plasma annihilator - standard",
@@ -12939,7 +13667,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-3",
-        "d": "5"
+        "d": "5",
+        "keywords": "Blast"
       },
       {
         "name": "➤ Sunfury plasma annihilator - supercharge",
@@ -12948,7 +13677,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-3",
-        "d": "8"
+        "d": "8",
+        "keywords": "Blast, Hazardous"
       },
       {
         "name": "Ardex-defensor lascannon",
@@ -13039,7 +13769,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-Fly 3+, Twin-linked"
       },
       {
         "name": "Icarus Lascannon",
@@ -13048,7 +13779,8 @@
         "bs": "5+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Anti-Fly 2+"
       }
     ],
     "system": "40k"
@@ -13085,7 +13817,8 @@
         "bs": "5+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Anti-Fly 2+"
       },
       {
         "name": "Quad-gun",
@@ -13094,7 +13827,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-Fly 3+, Twin-linked"
       },
       {
         "name": "Heavy bolter",
@@ -13103,7 +13837,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -13140,7 +13875,8 @@
         "bs": "5+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Anti-Fly 2+"
       },
       {
         "name": "Quad-gun",
@@ -13149,7 +13885,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-Fly 3+, Twin-linked"
       },
       {
         "name": "Battle cannon",
@@ -13158,7 +13895,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Punisher gatling cannon",
@@ -13176,7 +13914,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Twin-linked, Anti-Fly 2+"
       }
     ],
     "system": "40k"
@@ -13216,7 +13955,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Redemptor lascannons",
@@ -13225,7 +13965,8 @@
         "bs": "4+",
         "s": "14",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Anti-Fly 2+"
       },
       {
         "name": "➤ Redemptor missile silo - superfrag",
@@ -13234,7 +13975,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       },
       {
         "name": "➤ Redemptor missile silo - superkrak",
@@ -13280,7 +14022,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Pistol"
       },
       {
         "name": "Guardian salvo launchers",
@@ -13289,7 +14032,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       },
       {
         "name": "Manipulator limbs",
@@ -13347,7 +14091,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -13386,7 +14131,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "➤ Plasma obliterator - supercharge",
@@ -13395,7 +14141,8 @@
         "bs": "5+",
         "s": "10",
         "ap": "-4",
-        "d": "4"
+        "d": "4",
+        "keywords": "Blast, Hazardous"
       }
     ],
     "system": "40k"
@@ -13430,7 +14177,8 @@
         "bs": "4+",
         "s": "16",
         "ap": "-3",
-        "d": "D6+3"
+        "d": "D6+3",
+        "keywords": "Blast"
       },
       {
         "name": "Heavy bolter",
@@ -13439,7 +14187,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Primaris air defence missiles",
@@ -13448,7 +14197,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Fly 2+"
       },
       {
         "name": "Primaris Icarus lascannon",
@@ -13457,7 +14207,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Anti-Fly 2+"
       },
       {
         "name": "Primaris Icarus quad lascannon",
@@ -13466,7 +14217,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Anti-Fly 2+, Twin-linked"
       },
       {
         "name": "Primaris quad-gun",
@@ -13484,7 +14236,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Indirect Fire"
       },
       {
         "name": "Primaris vengeance launcher",
@@ -13493,7 +14246,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Indirect Fire"
       },
       {
         "name": "Battle cannon",
@@ -13502,7 +14256,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Multi-melta",
@@ -13511,7 +14266,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       }
     ],
     "system": "40k"
@@ -13575,7 +14331,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Close combat weapon",
@@ -13584,7 +14341,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -13624,7 +14382,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Ignores Cover, Pistol"
       },
       {
         "name": "Eradicator glove",
@@ -13671,7 +14430,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Punisher gatling cannon",
@@ -13689,7 +14449,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Twin-linked, Anti-Fly 2+"
       }
     ],
     "system": "40k"
@@ -13755,7 +14516,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Vortex missile battery",
@@ -13764,7 +14526,8 @@
         "bs": "5+",
         "s": "16",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Blast, Devastating Wounds, Hazardous, Indirect Fire"
       }
     ],
     "system": "40k"
@@ -13803,7 +14566,8 @@
         "bs": "5+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Anti-Fly 2+"
       },
       {
         "name": "Quad-gun",
@@ -13812,7 +14576,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-Fly 3+, Twin-linked"
       }
     ],
     "system": "40k"
@@ -13899,7 +14664,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1, Twin-linked"
       }
     ],
     "system": "40k"

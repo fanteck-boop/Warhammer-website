@@ -125,7 +125,8 @@
         "s": "12",
         "ap": "-3",
         "d": "D6+1",
-        "range": "36\""
+        "range": "36\"",
+        "keywords": "Blast"
       },
       {
         "name": "Heavy mortar",
@@ -135,7 +136,8 @@
         "s": "6",
         "ap": "0",
         "d": "1",
-        "range": "48\""
+        "range": "48\"",
+        "keywords": "Blast, Indirect Fire"
       },
       {
         "name": "Twin heavy stubber",
@@ -145,7 +147,8 @@
         "s": "4",
         "ap": "0",
         "d": "1",
-        "range": "36\""
+        "range": "36\"",
+        "keywords": "Twin-linked, Rapid Fire 3"
       },
       {
         "name": "Armoured hull",
@@ -154,7 +157,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       }
     ],
     "system": "40k"
@@ -194,7 +198,8 @@
         "bs": "N/A",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "Cult claws and knife",
@@ -212,7 +217,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Assault, Blast, Hazardous, One Shot"
       }
     ],
     "system": "40k"
@@ -254,7 +260,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Cult claws",
@@ -311,7 +318,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Atalan small arms",
@@ -320,7 +328,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Atalan power weapon",
@@ -371,7 +380,8 @@
         "bs": "3+",
         "s": "2",
         "ap": "0",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Anti-infantry 2+"
       },
       {
         "name": "Autopistol",
@@ -380,7 +390,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Chemical vials",
@@ -389,7 +400,8 @@
         "bs": "3+",
         "s": "1",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Infantry 2+"
       }
     ],
     "system": "40k"
@@ -430,7 +442,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Close combat weapon",
@@ -439,7 +452,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -478,7 +492,8 @@
         "bs": "N/A",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Heavy seismic cannon",
@@ -487,7 +502,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-2",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Heavy mining laser",
@@ -496,7 +512,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Blast"
       },
       {
         "name": "Heavy stubber",
@@ -505,7 +522,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Demolition charge cache",
@@ -514,7 +532,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Assault, Blast, Hazardous"
       },
       {
         "name": "Drilldozer blade",
@@ -563,7 +582,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Twin-linked"
       },
       {
         "name": "Goliath wheels",
@@ -581,7 +601,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Assault, Blast, Hazardous"
       },
       {
         "name": "Heavy stubber",
@@ -590,7 +611,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       }
     ],
     "system": "40k"
@@ -637,7 +659,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Hand flamer",
@@ -646,7 +669,8 @@
         "bs": "N/A",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       }
     ],
     "system": "40k"
@@ -688,7 +712,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Close combat weapon",
@@ -697,7 +722,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Cult sniper rifle",
@@ -706,7 +732,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy, Precision"
       }
     ],
     "system": "40k"
@@ -745,7 +772,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Liberator autostubs",
@@ -754,7 +782,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Pistol"
       }
     ],
     "system": "40k"
@@ -838,7 +867,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Psychic"
       },
       {
         "name": "Autopistol",
@@ -847,7 +877,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -887,7 +918,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Autopistol",
@@ -896,7 +928,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Close combat weapon",
@@ -905,7 +938,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Heavy stubber",
@@ -914,7 +948,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Heavy, Rapid Fire 3"
       },
       {
         "name": "Webber",
@@ -923,7 +958,8 @@
         "bs": "N/A",
         "s": "2",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Torrent"
       },
       {
         "name": "Flamer",
@@ -932,7 +968,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Ignores cover, Torrent"
       },
       {
         "name": "➤ Grenade launcher - krak",
@@ -982,7 +1019,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Close combat weapon",
@@ -991,7 +1029,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -1035,7 +1074,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds, Twin-linked"
       }
     ],
     "system": "40k"
@@ -1076,7 +1116,8 @@
         "bs": "2+",
         "s": "2",
         "ap": "0",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Anti-infantry 2+, Extra Attacks"
       },
       {
         "name": "Scoped needle pistol",
@@ -1085,7 +1126,8 @@
         "bs": "2+",
         "s": "1",
         "ap": "0",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Anti-infantry 2+, Ignores Cover, Pistol"
       },
       {
         "name": "Cult bonesword",
@@ -1171,7 +1213,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Remote explosives",
@@ -1180,7 +1223,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Indirect Fire"
       },
       {
         "name": "Close combat weapon",
@@ -1189,7 +1233,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Demolition charges",
@@ -1198,7 +1243,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Assault, Blast, One Shot"
       }
     ],
     "system": "40k"
@@ -1238,7 +1284,8 @@
         "bs": "2+",
         "s": "3",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-infantry 3+, Precision"
       },
       {
         "name": "Cult sniper rifle",
@@ -1247,7 +1294,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy, Precision"
       },
       {
         "name": "Close combat weapon",
@@ -1256,7 +1304,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -1339,7 +1388,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Hazardous, Ignores Cover, Psychic"
       },
       {
         "name": "Close combat weapon",
@@ -1348,7 +1398,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -1388,7 +1439,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Cult claws and knife",
@@ -1406,7 +1458,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-Vehicle 4+"
       }
     ],
     "system": "40k"
@@ -1446,7 +1499,8 @@
         "bs": "3+",
         "s": "1",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Infantry 2+"
       },
       {
         "name": "Cult sniper rifle",
@@ -1455,7 +1509,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy, Precision"
       },
       {
         "name": "Flamer",
@@ -1464,7 +1519,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Ignores cover, Torrent"
       },
       {
         "name": "➤ Psionic cascade - focused witchfire",
@@ -1473,7 +1529,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Hazardous, Ignores Cover, Psychic"
       },
       {
         "name": "Webber",
@@ -1482,7 +1539,8 @@
         "bs": "N/A",
         "s": "2",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Torrent"
       },
       {
         "name": "Remote explosives",
@@ -1491,7 +1549,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Indirect Fire"
       },
       {
         "name": "Scoped needle pistol",
@@ -1500,7 +1559,8 @@
         "bs": "2+",
         "s": "1",
         "ap": "0",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Anti-infantry 2+, Ignores Cover, Pistol"
       },
       {
         "name": "Hand flamer",
@@ -1509,7 +1569,8 @@
         "bs": "N/A",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "Cult bonesword",
@@ -1568,7 +1629,8 @@
         "bs": "3+",
         "s": "1",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Infantry 2+"
       },
       {
         "name": "Cult sniper rifle",
@@ -1577,7 +1639,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy, Precision"
       },
       {
         "name": "Flamer",
@@ -1586,7 +1649,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Ignores cover, Torrent"
       },
       {
         "name": "➤ Psionic cascade - focused witchfire",
@@ -1595,7 +1659,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Hazardous, Ignores Cover, Psychic"
       },
       {
         "name": "Webber",
@@ -1604,7 +1669,8 @@
         "bs": "N/A",
         "s": "2",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Torrent"
       },
       {
         "name": "Remote explosives",
@@ -1613,7 +1679,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Indirect Fire"
       },
       {
         "name": "Scoped needle pistol",
@@ -1622,7 +1689,8 @@
         "bs": "2+",
         "s": "1",
         "ap": "0",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Anti-infantry 2+, Ignores Cover, Pistol"
       },
       {
         "name": "Hand flamer",
@@ -1631,7 +1699,8 @@
         "bs": "N/A",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "Cult bonesword",
@@ -1690,7 +1759,8 @@
         "bs": "3+",
         "s": "1",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Infantry 2+"
       },
       {
         "name": "Cult sniper rifle",
@@ -1699,7 +1769,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Heavy, Precision"
       },
       {
         "name": "Flamer",
@@ -1708,7 +1779,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Ignores cover, Torrent"
       },
       {
         "name": "➤ Psionic cascade - focused witchfire",
@@ -1717,7 +1789,8 @@
         "bs": "3+",
         "s": "12",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "Hazardous, Ignores Cover, Psychic"
       },
       {
         "name": "Webber",
@@ -1726,7 +1799,8 @@
         "bs": "N/A",
         "s": "2",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Torrent"
       },
       {
         "name": "Remote explosives",
@@ -1735,7 +1809,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Indirect Fire"
       },
       {
         "name": "Scoped needle pistol",
@@ -1744,7 +1819,8 @@
         "bs": "2+",
         "s": "1",
         "ap": "0",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Anti-infantry 2+, Ignores Cover, Pistol"
       },
       {
         "name": "Hand flamer",
@@ -1753,7 +1829,8 @@
         "bs": "N/A",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "Cult bonesword",

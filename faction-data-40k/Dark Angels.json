@@ -40,7 +40,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
       },
       {
         "name": "The Sword of Secrets",
@@ -49,7 +50,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-4",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       }
     ],
     "system": "40k"
@@ -93,7 +95,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "2"
+        "d": "2",
+        "keywords": "Precision, Rapid Fire 2"
       },
       {
         "name": "The Sword of Silence",
@@ -102,7 +105,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Precision"
       }
     ],
     "system": "40k"
@@ -148,7 +152,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Master-crafted plasma cannon",
@@ -157,7 +162,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast"
       },
       {
         "name": "Twin storm bolter",
@@ -166,7 +172,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2, Twin-Linked"
       },
       {
         "name": "The Raven Sword",
@@ -175,7 +182,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 2"
       }
     ],
     "system": "40k"
@@ -220,7 +228,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Pistol, Precision"
       },
       {
         "name": "➤ Mind Wipe - witchfire",
@@ -229,7 +238,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Devastating Wounds, Precision, Psychic"
       },
       {
         "name": "➤ Mind Wipe - focussed witchfire",
@@ -238,7 +248,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Anti-Character 4+, Devastating Wounds, Hazardous, Precision, Psychic"
       },
       {
         "name": "Traitor's Bane",
@@ -247,7 +258,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Anti-Chaos 2+, Psychic"
       }
     ],
     "system": "40k"
@@ -292,7 +304,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "➤ Crozius Arcanum and Power Weapon - strike",
@@ -353,7 +366,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Pistol"
       },
       {
         "name": "➤ Arma Luminis - plasma",
@@ -362,7 +376,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Pistol"
       },
       {
         "name": "➤ Fealty - strike",
@@ -371,7 +386,8 @@
         "bs": "2+",
         "s": "12",
         "ap": "-4",
-        "d": "4"
+        "d": "4",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "➤ Fealty - sweep",
@@ -380,7 +396,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -425,7 +442,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Enmity’s Edge",
@@ -434,7 +452,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Psyker 2+"
       }
     ],
     "system": "40k"
@@ -476,7 +495,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Blacksword missiles",
@@ -485,7 +505,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Anti-Fly 2+"
       },
       {
         "name": "Twin heavy bolter",
@@ -494,7 +515,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1, Twin-linked"
       },
       {
         "name": "Avenger mega bolter",
@@ -503,7 +525,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Nephilim lascannons",
@@ -553,7 +576,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Hurricane bolter",
@@ -562,7 +586,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 6, Twin-Linked"
       },
       {
         "name": "Rift cannon",
@@ -571,7 +596,8 @@
         "bs": "3+",
         "s": "16",
         "ap": "-4",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Devastating Wounds"
       }
     ],
     "system": "40k"
@@ -613,7 +639,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "➤ Plasma storm battery - standard",
@@ -622,7 +649,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Blast, Twin-Linked"
       },
       {
         "name": "➤ Plasma storm battery - supercharge",
@@ -631,7 +659,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Hazardous, Twin-Linked"
       },
       {
         "name": "Assault cannon",
@@ -640,7 +669,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Heavy bolter",
@@ -649,7 +679,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -690,7 +721,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Assault cannon",
@@ -699,7 +731,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Heavy bolter",
@@ -708,7 +741,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -748,7 +782,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Black Knight combat weapon",
@@ -757,7 +792,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "➤ Astartes grenade launcher - frag",
@@ -766,7 +802,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       },
       {
         "name": "➤ Plasma talon - Supercharged",
@@ -775,7 +812,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Rapid Fire 1"
       }
     ],
     "system": "40k"
@@ -819,7 +857,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "➤ Astartes grenade launcher - frag",
@@ -828,7 +867,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       },
       {
         "name": "➤ Plasma talon - Supercharged",
@@ -837,7 +877,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Rapid Fire 1"
       },
       {
         "name": "Black Knight combat weapon",
@@ -846,7 +887,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Master-crafted power weapon",
@@ -855,7 +897,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       }
     ],
     "system": "40k"
@@ -897,7 +940,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds, Sustained Hits 1"
       },
       {
         "name": "Mace of absolution",
@@ -906,7 +950,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
       },
       {
         "name": "Power weapon",
@@ -915,7 +960,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Relic weapon",
@@ -924,7 +970,8 @@
         "bs": "2+",
         "s": "7",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       }
     ],
     "system": "40k"
@@ -966,7 +1013,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Power Weapon",
@@ -975,7 +1023,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Power Fist",
@@ -984,7 +1033,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Chainfist",
@@ -993,7 +1043,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-VEHICLE 3+"
       },
       {
         "name": "➤ Plasma cannon - supercharge",
@@ -1002,7 +1053,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Heavy, Blast"
       },
       {
         "name": "Assault cannon",
@@ -1011,7 +1063,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Heavy Flamer",
@@ -1020,7 +1073,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Storm bolter",
@@ -1029,7 +1083,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       }
     ],
     "system": "40k"
@@ -1070,7 +1125,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "➤ Calibanite Greatsword - Strike",
@@ -1079,7 +1135,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "➤ Calibanite Greatsword - Sweep",
@@ -1088,7 +1145,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 2"
       }
     ],
     "system": "40k"
@@ -1131,7 +1189,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1, Twin-linked"
       },
       {
         "name": "Power Weapon",
@@ -1140,7 +1199,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Twin Assault Cannon",
@@ -1149,7 +1209,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds, Twin-Linked"
       }
     ],
     "system": "40k"
@@ -1194,7 +1255,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Master-crafted Power Weapon",
@@ -1203,7 +1265,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Chainfist",
@@ -1212,7 +1275,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-VEHICLE 3+"
       },
       {
         "name": "Mace of Absolution",
@@ -1221,7 +1285,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
       },
       {
         "name": "Power Fist",
@@ -1230,7 +1295,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Thunder Hammer",
@@ -1239,7 +1305,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Twin Lightning Claws",
@@ -1248,7 +1315,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Twin-linked"
       }
     ],
     "system": "40k"
@@ -1291,7 +1359,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Storm Bolter",
@@ -1300,7 +1369,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Chainfist",
@@ -1309,7 +1379,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-VEHICLE 3+"
       },
       {
         "name": "Halberd of Caliban",
@@ -1318,7 +1389,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Precision"
       },
       {
         "name": "Assault cannon",
@@ -1327,7 +1399,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Heavy Flamer",
@@ -1336,7 +1409,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "➤ Plasma cannon - supercharge",
@@ -1345,7 +1419,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Heavy, Blast"
       },
       {
         "name": "Storm bolter",
@@ -1354,7 +1429,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Power Weapon",
@@ -1363,7 +1439,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Twin lightning claws",
@@ -1372,7 +1449,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Twin-linked"
       }
     ],
     "system": "40k"

@@ -33,7 +33,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "ANTI-INFANTRY 3+, BLAST 1, RAPID FIRE 4"
       },
       {
         "name": "Zzap gun",
@@ -42,7 +43,8 @@
         "bs": "5+",
         "s": "D6+6",
         "ap": "-3",
-        "d": "5"
+        "d": "5",
+        "keywords": "ANTI-MONSTER/VEHICLE 4+, DEVASTATING WOUNDS: MONSTER/VEHICLE, RAPID FIRE 2, SUSTAINED HITS 2"
       },
       {
         "name": "➤ Kannon - shell",
@@ -51,7 +53,8 @@
         "bs": "5+",
         "s": "10",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "HEAVY"
       },
       {
         "name": "➤ Kannon - frag",
@@ -60,7 +63,8 @@
         "bs": "5+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "BLAST 2"
       },
       {
         "name": "Deff rolla",
@@ -87,7 +91,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "BLAST 3, INDIRECT FIRE"
       },
       {
         "name": "Wreckin' ball",
@@ -96,7 +101,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "0",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "CLEAVE 2, EXTRA ATTACKS"
       },
       {
         "name": "Grabbin' klaw",
@@ -105,7 +111,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "EXTRA ATTACKS"
       },
       {
         "name": "Big shoota",
@@ -114,7 +121,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       }
     ],
     "system": "40k"
@@ -153,7 +161,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Thump gun",
@@ -162,7 +171,8 @@
         "bs": "5+",
         "s": "6",
         "ap": "0",
-        "d": "2"
+        "d": "2",
+        "keywords": "ANTI-MONSTER/VEHICLE 4+"
       },
       {
         "name": "Slugga",
@@ -171,7 +181,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Choppa",
@@ -189,7 +200,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "ANTI-MONSTER/VEHICLE 4+"
       }
     ],
     "system": "40k"
@@ -231,7 +243,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "ANTI-MONSTER/VEHICLE 4+"
       },
       {
         "name": "Shoota",
@@ -240,7 +253,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "LETHAL HITS: non-MONSTER/VEHICLE, RAPID FIRE 1"
       },
       {
         "name": "Beastchoppa",
@@ -249,7 +263,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
       }
     ],
     "system": "40k"
@@ -291,7 +306,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
       },
       {
         "name": "Slugga",
@@ -300,7 +316,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Squigosaur’s jaws",
@@ -309,7 +326,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "ANTI-MONSTER/VEHICLE 3+, EXTRA ATTACKS"
       },
       {
         "name": "Thump gun",
@@ -318,7 +336,8 @@
         "bs": "5+",
         "s": "6",
         "ap": "0",
-        "d": "2"
+        "d": "2",
+        "keywords": "ANTI-MONSTER/VEHICLE 4+"
       }
     ],
     "system": "40k"
@@ -361,7 +380,8 @@
         "bs": "5+",
         "s": "8",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "BLAST 1"
       },
       {
         "name": "Kustom mega-blasta",
@@ -370,7 +390,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "HAZARDOUS"
       },
       {
         "name": "Kustom shoota",
@@ -379,7 +400,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "LETHAL HITS: non-MONSTER/VEHICLE, RAPID FIRE 2"
       },
       {
         "name": "Kombi-weapon",
@@ -388,7 +410,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
       },
       {
         "name": "Killsaw",
@@ -450,7 +473,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Choppa",
@@ -502,7 +526,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Shokk attack gun",
@@ -511,7 +536,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "BLAST 1, HEAVY"
       }
     ],
     "system": "40k"
@@ -550,7 +576,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "BLAST 1"
       },
       {
         "name": "➤ Gaze of Gork - squint",
@@ -568,7 +595,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       }
     ],
     "system": "40k"
@@ -607,7 +635,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Twin supa-shoota",
@@ -625,7 +654,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       }
     ],
     "system": "40k"
@@ -663,7 +693,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Grot blasta",
@@ -672,7 +703,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Spiked wheels",
@@ -733,7 +765,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Mork’s Teeth",
@@ -785,7 +818,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Da Vulcha’s Klaws and choppa",
@@ -842,7 +876,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Shoota",
@@ -851,7 +886,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "LETHAL HITS: non-MONSTER/VEHICLE, RAPID FIRE 1"
       },
       {
         "name": "Big shoota",
@@ -860,7 +896,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Close combat weapon",
@@ -869,7 +906,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Rokkit launcha",
@@ -878,7 +916,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       }
     ],
     "system": "40k"
@@ -915,7 +954,8 @@
         "s": "5",
         "ap": "0",
         "d": "1",
-        "range": "36\""
+        "range": "36\"",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Burna",
@@ -925,7 +965,8 @@
         "s": "4",
         "ap": "0",
         "d": "1",
-        "range": "12\""
+        "range": "12\"",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Kustom mega-blasta",
@@ -935,7 +976,8 @@
         "s": "9",
         "ap": "-2",
         "d": "D6",
-        "range": "24\""
+        "range": "24\"",
+        "keywords": "HAZARDOUS"
       },
       {
         "name": "Rokkit launcha",
@@ -945,7 +987,8 @@
         "s": "9",
         "ap": "-2",
         "d": "3",
-        "range": "24\""
+        "range": "24\"",
+        "keywords": "Blast"
       },
       {
         "name": "Close combat weapon",
@@ -954,7 +997,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Cuttin' flames",
@@ -1002,7 +1046,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2, Twin-linked"
       },
       {
         "name": "Twin supa-shoota",
@@ -1020,7 +1065,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Skorcha missile rack",
@@ -1029,7 +1075,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "BLAST 2, IGNORES COVER"
       }
     ],
     "system": "40k"
@@ -1077,7 +1124,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       }
     ],
     "system": "40k"
@@ -1114,7 +1162,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Kustom mega-blasta",
@@ -1123,7 +1172,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "HAZARDOUS"
       },
       {
         "name": "Rokkit launcha",
@@ -1132,7 +1182,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Skorcha",
@@ -1141,7 +1192,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Dread klaw",
@@ -1210,7 +1262,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLEAVE 1, EXTRA ATTACKS"
       },
       {
         "name": "➤ Killa jet - cutta",
@@ -1219,7 +1272,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "EXTRA ATTACKS"
       },
       {
         "name": "Snagga klaw",
@@ -1228,7 +1282,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "ASSAULT, PRECISION"
       }
     ],
     "system": "40k"
@@ -1267,7 +1322,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Twin-linked"
       },
       {
         "name": "Slugga",
@@ -1276,7 +1332,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Spinnin’ blades",
@@ -1285,7 +1342,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLEAVE 1, HAZARDOUS"
       },
       {
         "name": "Kustom mega-blasta",
@@ -1294,7 +1352,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "HAZARDOUS"
       }
     ],
     "system": "40k"
@@ -1341,7 +1400,8 @@
         "bs": "5+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -1478,7 +1538,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Skorcha",
@@ -1487,7 +1548,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Twin big shoota",
@@ -1496,7 +1558,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2, Twin-linked"
       }
     ],
     "system": "40k"
@@ -1534,7 +1597,8 @@
         "bs": "5+",
         "s": "2",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Grot blasta",
@@ -1543,7 +1607,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLOSE-QUARTERS"
       }
     ],
     "system": "40k"
@@ -1581,7 +1646,8 @@
         "bs": "5+",
         "s": "6",
         "ap": "0",
-        "d": "2"
+        "d": "2",
+        "keywords": "BLAST 2, INDIRECT FIRE"
       },
       {
         "name": "Butcha boyz",
@@ -1590,7 +1656,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "ANTI-MONSTER/VEHICLE 4+"
       },
       {
         "name": "Savage horns and hooves",
@@ -1599,7 +1666,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "EXTRA ATTACKS, LANCE"
       },
       {
         "name": "Saw blades",
@@ -1608,7 +1676,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "CLEAVE 1, EXTRA ATTACKS"
       },
       {
         "name": "Stikka kannon",
@@ -1617,7 +1686,8 @@
         "bs": "5+",
         "s": "12",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "ANTI-MONSTER/VEHICLE 2+"
       }
     ],
     "system": "40k"
@@ -1658,7 +1728,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Choppa",
@@ -1676,7 +1747,8 @@
         "bs": "5+",
         "s": "7",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "HEAVY, SUSTAINED HITS 1"
       },
       {
         "name": "➤ Da Rippa - supercharge",
@@ -1685,7 +1757,8 @@
         "bs": "5+",
         "s": "8",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "HAZARDOUS, HEAVY, SUSTAINED HITS 1"
       }
     ],
     "system": "40k"
@@ -1724,7 +1797,8 @@
         "bs": "5+",
         "s": "6",
         "ap": "0",
-        "d": "2"
+        "d": "2",
+        "keywords": "BLAST 2, INDIRECT FIRE"
       },
       {
         "name": "Butcha boyz",
@@ -1733,7 +1807,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "ANTI-MONSTER/VEHICLE 4+"
       },
       {
         "name": "Savage horns and hooves",
@@ -1742,7 +1817,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "EXTRA ATTACKS, LANCE"
       },
       {
         "name": "Saw blades",
@@ -1751,7 +1827,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "CLEAVE 1, EXTRA ATTACKS"
       },
       {
         "name": "Stikka kannon",
@@ -1760,7 +1837,8 @@
         "bs": "5+",
         "s": "12",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "ANTI-MONSTER/VEHICLE 2+"
       },
       {
         "name": "Wurrtower",
@@ -1769,7 +1847,8 @@
         "bs": "N/A",
         "s": "12",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "HAZARDOUS, PSYCHIC, TORRENT"
       }
     ],
     "system": "40k"
@@ -1816,7 +1895,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "BLAST 1, IGNORES COVER"
       },
       {
         "name": "Rokkit launcha",
@@ -1825,7 +1905,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Skorcha",
@@ -1834,7 +1915,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       }
     ],
     "system": "40k"
@@ -1874,7 +1956,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Choppa",
@@ -1892,7 +1975,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "LETHAL HITS: non-MONSTER/VEHICLE, RAPID FIRE 2"
       },
       {
         "name": "Close combat weapon",
@@ -1901,7 +1985,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Breacha ram",
@@ -1919,7 +2004,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Rokkit launcha",
@@ -1928,7 +2014,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Power klaw",
@@ -1946,7 +2033,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "CLEAVE 2"
       }
     ],
     "system": "40k"
@@ -2002,7 +2090,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Spiked wheels",
@@ -2048,7 +2137,8 @@
         "s": "5",
         "ap": "0",
         "d": "1",
-        "range": "36\""
+        "range": "36\"",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Deffgun",
@@ -2058,7 +2148,8 @@
         "s": "8",
         "ap": "-1",
         "d": "2",
-        "range": "48\""
+        "range": "48\"",
+        "keywords": "HEAVY, RAPID FIRE 1"
       },
       {
         "name": "Kustom mega-blasta",
@@ -2068,7 +2159,8 @@
         "s": "9",
         "ap": "-2",
         "d": "D6",
-        "range": "24\""
+        "range": "24\"",
+        "keywords": "HAZARDOUS"
       },
       {
         "name": "Rokkit launcha",
@@ -2078,7 +2170,8 @@
         "s": "9",
         "ap": "-2",
         "d": "3",
-        "range": "24\""
+        "range": "24\"",
+        "keywords": "Blast"
       },
       {
         "name": "Close combat weapon",
@@ -2087,7 +2180,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -2137,7 +2231,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "’Urty syringe",
@@ -2146,7 +2241,8 @@
         "bs": "3+",
         "s": "2",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS: INFANTRY, EXTRA ATTACKS"
       }
     ],
     "system": "40k"
@@ -2184,7 +2280,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "LETHAL HITS: non-MONSTER/VEHICLE, RAPID FIRE 2"
       },
       {
         "name": "Power klaw",
@@ -2202,7 +2299,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
       },
       {
         "name": "Killsaw",
@@ -2220,7 +2318,8 @@
         "bs": "4+",
         "s": "12",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "TWIN-LINKED"
       }
     ],
     "system": "40k"
@@ -2284,7 +2383,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2, Twin-linked"
       }
     ],
     "system": "40k"
@@ -2342,7 +2442,8 @@
         "bs": "5+",
         "s": "8",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "CLOSE-QUARTERS, HAZARDOUS"
       }
     ],
     "system": "40k"
@@ -2438,7 +2539,8 @@
         "bs": "5+",
         "s": "10",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "BLAST 1, HAZARDOUS"
       },
       {
         "name": "Kustom mega-blasta",
@@ -2447,7 +2549,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "HAZARDOUS"
       },
       {
         "name": "Rokkit launcha",
@@ -2456,7 +2559,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Twin big shoota",
@@ -2465,7 +2569,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2, Twin-linked"
       }
     ],
     "system": "40k"
@@ -2508,7 +2613,8 @@
         "bs": "5+",
         "s": "6",
         "ap": "0",
-        "d": "2"
+        "d": "2",
+        "keywords": "ANTI-MONSTER/VEHICLE 4+"
       },
       {
         "name": "Big Chompa’s jaws",
@@ -2517,7 +2623,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "4"
+        "d": "4",
+        "keywords": "ANTI-MONSTER/VEHICLE 3+, EXTRA ATTACKS"
       },
       {
         "name": "Gutrippa",
@@ -2565,7 +2672,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "LETHAL HITS: non-MONSTER/VEHICLE, RAPID FIRE 1"
       },
       {
         "name": "Choppa",
@@ -2612,7 +2720,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Big choppa",
@@ -2621,7 +2730,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "CLEAVE 2"
       },
       {
         "name": "Power klaw",
@@ -2639,7 +2749,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Kombi-weapon",
@@ -2648,7 +2759,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
       }
     ],
     "system": "40k"
@@ -2690,7 +2802,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "ANTI-MONSTER/VEHICLE 4+"
       }
     ],
     "system": "40k"
@@ -2731,7 +2844,8 @@
         "bs": "3+",
         "s": "2",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS: INFANTRY, EXTRA ATTACKS"
       },
       {
         "name": "Power klaw",
@@ -2778,7 +2892,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "CLEAVE 1, EXTRA ATTACKS"
       },
       {
         "name": "Sawn-off shotgun",
@@ -2787,7 +2902,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "ASSAULT, LETHAL HITS: non-MONSTER/VEHICLE"
       },
       {
         "name": "Squig launchas",
@@ -2796,7 +2912,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "IGNORES COVER"
       }
     ],
     "system": "40k"
@@ -2842,7 +2959,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Saw blades",
@@ -2851,7 +2969,8 @@
         "bs": "4+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "CLEAVE 1, EXTRA ATTACKS"
       }
     ],
     "system": "40k"
@@ -2890,7 +3009,8 @@
         "s": "3",
         "ap": "0",
         "d": "1",
-        "range": "9\""
+        "range": "9\"",
+        "keywords": "ASSAULT"
       },
       {
         "name": "Slugga",
@@ -2900,7 +3020,8 @@
         "s": "4",
         "ap": "0",
         "d": "1",
-        "range": "12\""
+        "range": "12\"",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Stikka (ranged)",
@@ -2910,7 +3031,8 @@
         "s": "5",
         "ap": "-1",
         "d": "2",
-        "range": "9\""
+        "range": "9\"",
+        "keywords": "ANTI-MONSTER/VEHICLE 4+, ASSAULT"
       },
       {
         "name": "Big Choppa",
@@ -2919,7 +3041,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "CLEAVE 2"
       },
       {
         "name": "Squig's Jaws",
@@ -2980,7 +3103,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Skorcha",
@@ -2989,7 +3113,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Twin big shoota",
@@ -2998,7 +3123,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2, Twin-linked"
       },
       {
         "name": "Deffkannon",
@@ -3082,7 +3208,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Choppa",
@@ -3139,7 +3266,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
       },
       {
         "name": "Rokkit pistol",
@@ -3148,7 +3276,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Choppa",
@@ -3166,7 +3295,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Close combat weapon",
@@ -3175,7 +3305,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -3214,7 +3345,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Wreckin' ball",
@@ -3223,7 +3355,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "0",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "CLEAVE 2, EXTRA ATTACKS"
       },
       {
         "name": "Spiked wheel",
@@ -3270,7 +3403,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Rapid Fire 2, Twin-linked"
       },
       {
         "name": "Close combat weapon",
@@ -3279,7 +3413,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Slugga",
@@ -3288,7 +3423,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Choppa",
@@ -3306,7 +3442,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "CLEAVE 2"
       },
       {
         "name": "Power klaw",
@@ -3356,7 +3493,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Kombi-weapon",
@@ -3365,7 +3503,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
       },
       {
         "name": "Big choppa",
@@ -3374,7 +3513,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "CLEAVE 2"
       },
       {
         "name": "Kustom shoota",
@@ -3383,7 +3523,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "LETHAL HITS: non-MONSTER/VEHICLE, RAPID FIRE 2"
       },
       {
         "name": "Power klaw",
@@ -3434,7 +3575,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "’Uge choppa",
@@ -3443,7 +3585,8 @@
         "bs": "2+",
         "s": "12",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "CLEAVE 2"
       }
     ],
     "system": "40k"
@@ -3484,7 +3627,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-3",
-        "d": "4"
+        "d": "4",
+        "keywords": "BLAST 1"
       },
       {
         "name": "Twin wazbom mega-kannon",
@@ -3520,7 +3664,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       }
     ],
     "system": "40k"
@@ -3561,7 +3706,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-1",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Psychic"
       },
       {
         "name": "’Eadbanger",
@@ -3570,7 +3716,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-3",
-        "d": "1"
+        "d": "1",
+        "keywords": "Precision, Psychic"
       }
     ],
     "system": "40k"
@@ -3612,7 +3759,8 @@
         "bs": "5+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Psychic"
       },
       {
         "name": "Close combat weapon",
@@ -3621,7 +3769,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -3671,7 +3820,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "ANTI-MONSTER/VEHICLE 4+, CLOSE-QUARTERS, DEVASTATING WOUNDS: MONSTER/VEHICLE"
       }
     ],
     "system": "40k"
@@ -3736,7 +3886,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "DEVASTATING WOUNDS, RAPID FIRE 2"
       },
       {
         "name": "Ramshackle hull",
@@ -3754,7 +3905,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "BLAST 1, IGNORES COVER"
       },
       {
         "name": "Kustom mega-blasta",
@@ -3763,7 +3915,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "HAZARDOUS"
       },
       {
         "name": "Rokkit launcha",
@@ -3772,7 +3925,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Skorcha",
@@ -3781,7 +3935,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       }
     ],
     "system": "40k"
@@ -3818,7 +3973,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Mega-tank weapons",
@@ -3827,7 +3983,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "RAPID FIRE 10"
       },
       {
         "name": "Twin big shoota",
@@ -3836,7 +3993,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2, Twin-linked"
       },
       {
         "name": "Twin grotzooka",
@@ -3928,7 +4086,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "BLAST 2"
       }
     ],
     "system": "40k"
@@ -3970,7 +4129,8 @@
         "bs": "5+",
         "s": "12",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "➤ Kannon - frag",
@@ -3979,7 +4139,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "BLAST 2"
       },
       {
         "name": "➤ Huge tusks - strike",
@@ -3988,7 +4149,8 @@
         "bs": "3+",
         "s": "14",
         "ap": "-3",
-        "d": "12"
+        "d": "12",
+        "keywords": "Lance"
       },
       {
         "name": "➤ Huge tusks - sweep",
@@ -4063,7 +4225,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Twin big shoota",
@@ -4072,7 +4235,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2, Twin-linked"
       }
     ],
     "system": "40k"
@@ -4128,7 +4292,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "ANTI-INFANTRY 3+, BLAST 1, RAPID FIRE 4"
       },
       {
         "name": "Dread rippa klaw",
@@ -4193,7 +4358,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "ANTI-INFANTRY 3+, BLAST 1, RAPID FIRE 4"
       },
       {
         "name": "Dread rippa klaw",
@@ -4248,7 +4414,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Armoured hull",
@@ -4257,7 +4424,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "➤ Kannon - frag",
@@ -4266,7 +4434,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "BLAST 2"
       },
       {
         "name": "➤ Supa-kannon - frag",
@@ -4275,7 +4444,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "BLAST 2"
       }
     ],
     "system": "40k"
@@ -4317,7 +4487,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Rapid Fire 2, Twin-linked"
       },
       {
         "name": "Killsaw",
@@ -4335,7 +4506,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "CLEAVE 2"
       },
       {
         "name": "Power klaw",
@@ -4383,7 +4555,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Power stabba",
@@ -4410,7 +4583,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "CLEAVE 2"
       },
       {
         "name": "Power klaw",
@@ -4437,7 +4611,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Rapid Fire 2, Twin-linked"
       },
       {
         "name": "Close combat weapon",
@@ -4446,7 +4621,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -4483,7 +4659,8 @@
         "bs": "4+",
         "s": "8",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLEAVE 1"
       },
       {
         "name": "Big shoota",
@@ -4492,7 +4669,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "➤ Supa-kannon - frag",
@@ -4501,7 +4679,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "BLAST 2"
       }
     ],
     "system": "40k"
@@ -4544,7 +4723,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Icon of da Revolushun",
@@ -4594,7 +4774,8 @@
         "bs": "3+",
         "s": "2",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS: INFANTRY, EXTRA ATTACKS"
       },
       {
         "name": "Twin dakkagun",
@@ -4603,7 +4784,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Rapid Fire 2, Twin-linked"
       },
       {
         "name": "Power klaw",
@@ -4667,7 +4849,8 @@
         "bs": "5+",
         "s": "10",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Kustom shoota",
@@ -4676,7 +4859,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "LETHAL HITS: non-MONSTER/VEHICLE, RAPID FIRE 2"
       }
     ],
     "system": "40k"
@@ -4714,7 +4898,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Spinnin’ blades",
@@ -4723,7 +4908,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLEAVE 1, HAZARDOUS"
       },
       {
         "name": "Killsaw",
@@ -4741,7 +4927,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2, Twin-linked"
       },
       {
         "name": "Kopta rokkits",
@@ -4750,7 +4937,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Twin-linked"
       },
       {
         "name": "Kustom mega-blasta",
@@ -4759,7 +4947,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "HAZARDOUS"
       }
     ],
     "system": "40k"
@@ -4797,7 +4986,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Twin big shoota",
@@ -4806,7 +4996,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2, Twin-linked"
       },
       {
         "name": "Skorcha",
@@ -4815,7 +5006,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "➤ Krusha kannon - tankhamma shell",
@@ -4889,7 +5081,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "BLAST 2"
       },
       {
         "name": "Lobba",
@@ -4898,7 +5091,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "BLAST 3, INDIRECT FIRE"
       },
       {
         "name": "Zzap gun",
@@ -4907,7 +5101,8 @@
         "bs": "5+",
         "s": "2D6",
         "ap": "-3",
-        "d": "3"
+        "d": "3",
+        "keywords": "ANTI-MONSTER/VEHICLE 4+, DEVASTATING WOUNDS: MONSTER/VEHICLE, RAPID FIRE 2, SUSTAINED HITS 2"
       },
       {
         "name": "Big shoota",
@@ -4916,7 +5111,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Twin big shoota",
@@ -4925,7 +5121,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2, Twin-linked"
       },
       {
         "name": "Skorcha",
@@ -4934,7 +5131,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Rokkit launcha",
@@ -4943,7 +5141,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       }
     ],
     "system": "40k"
@@ -4983,7 +5182,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Kustom mega-blasta",
@@ -4992,7 +5192,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "HAZARDOUS"
       },
       {
         "name": "Rokkit launcha",
@@ -5001,7 +5202,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Skorcha",
@@ -5010,7 +5212,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Armoured hull",
@@ -5019,7 +5222,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       }
     ],
     "system": "40k"
@@ -5068,7 +5272,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2, Twin-linked"
       },
       {
         "name": "Armoured hull",
@@ -5077,7 +5282,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       }
     ],
     "system": "40k"
@@ -5117,7 +5323,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2, Twin-linked"
       },
       {
         "name": "Wing missiles",
@@ -5135,7 +5342,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       }
     ],
     "system": "40k"
@@ -5189,7 +5397,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "EXTRA ATTACKS"
       },
       {
         "name": "Wreckin' ball",
@@ -5198,7 +5407,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "0",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "CLEAVE 2, EXTRA ATTACKS"
       },
       {
         "name": "Lifta-droppa",
@@ -5207,7 +5417,8 @@
         "bs": "5+",
         "s": "6",
         "ap": "-3",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "ANTI-VEHICLE 3+"
       }
     ],
     "system": "40k"
@@ -5297,7 +5508,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Kombi-weapon",
@@ -5306,7 +5518,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
       },
       {
         "name": "Kustom mega-blasta",
@@ -5315,7 +5528,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "HAZARDOUS"
       },
       {
         "name": "Rokkit launcha",
@@ -5324,7 +5538,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "Big choppa",
@@ -5333,7 +5548,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "CLEAVE 2"
       },
       {
         "name": "Power klaw",
@@ -5351,7 +5567,8 @@
         "bs": "5+",
         "s": "8",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "CLOSE-QUARTERS, HAZARDOUS"
       },
       {
         "name": "Shokk attack gun",
@@ -5360,7 +5577,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "BLAST 1, HEAVY"
       },
       {
         "name": "Choppa",
@@ -5428,7 +5646,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Extra Attacks"
       }
     ],
     "system": "40k"
@@ -5549,7 +5768,8 @@
         "bs": "5+",
         "s": "10",
         "ap": "-2",
-        "d": "D6+1"
+        "d": "D6+1",
+        "keywords": "ANTI-FLY 2+"
       },
       {
         "name": "Kustom mega-blasta",
@@ -5558,7 +5778,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "HAZARDOUS"
       }
     ],
     "system": "40k"
@@ -5597,7 +5818,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-Monster 4+, Anti-Vehicle 4+"
       },
       {
         "name": "Tankhammer",
@@ -5606,7 +5828,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "DEVASTATING WOUNDS, HAZARDOUS"
       },
       {
         "name": "Knucklebustas",
@@ -5615,7 +5838,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "ANTI-MONSTER/VEHICLE 4+"
       },
       {
         "name": "Rokkit pistol",
@@ -5624,7 +5848,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Choppa",
@@ -5672,7 +5897,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Pistol"
       },
       {
         "name": "Close combat weapon",
@@ -5681,7 +5907,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -5770,7 +5997,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Rapid Fire 2, Twin-linked"
       },
       {
         "name": "Squig jaws",
@@ -5779,7 +6007,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "EXTRA ATTACKS"
       },
       {
         "name": "Burna",
@@ -5788,7 +6017,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Big shoota",
@@ -5797,7 +6027,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Rokkit launcha",
@@ -5806,7 +6037,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "’Eadbanger",
@@ -5815,7 +6047,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-3",
-        "d": "1"
+        "d": "1",
+        "keywords": "Precision, Psychic"
       },
       {
         "name": "Eyez of Mork",
@@ -5824,7 +6057,8 @@
         "bs": "5+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Psychic"
       },
       {
         "name": "Kombi-weapon",
@@ -5833,7 +6067,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
       },
       {
         "name": "Kustom mega-blasta",
@@ -5842,7 +6077,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "HAZARDOUS"
       },
       {
         "name": "Kustom mega-slugga",
@@ -5851,7 +6087,8 @@
         "bs": "5+",
         "s": "8",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "CLOSE-QUARTERS, HAZARDOUS"
       }
     ],
     "system": "40k"
@@ -5891,7 +6128,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Rapid Fire 2, Twin-linked"
       },
       {
         "name": "Squig jaws",
@@ -5900,7 +6138,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "EXTRA ATTACKS"
       },
       {
         "name": "Burna",
@@ -5909,7 +6148,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Big shoota",
@@ -5918,7 +6158,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Rokkit launcha",
@@ -5927,7 +6168,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "’Eadbanger",
@@ -5936,7 +6178,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-3",
-        "d": "1"
+        "d": "1",
+        "keywords": "Precision, Psychic"
       },
       {
         "name": "Eyez of Mork",
@@ -5945,7 +6188,8 @@
         "bs": "5+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Psychic"
       },
       {
         "name": "Kombi-weapon",
@@ -5954,7 +6198,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
       },
       {
         "name": "Kustom mega-blasta",
@@ -5963,7 +6208,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "HAZARDOUS"
       },
       {
         "name": "Kustom mega-slugga",
@@ -5972,7 +6218,8 @@
         "bs": "5+",
         "s": "8",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "CLOSE-QUARTERS, HAZARDOUS"
       }
     ],
     "system": "40k"
@@ -6013,7 +6260,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Rapid Fire 2, Twin-linked"
       },
       {
         "name": "Squig jaws",
@@ -6022,7 +6270,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "EXTRA ATTACKS"
       },
       {
         "name": "Burna",
@@ -6031,7 +6280,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Big shoota",
@@ -6040,7 +6290,8 @@
         "bs": "5+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Rokkit launcha",
@@ -6049,7 +6300,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       },
       {
         "name": "’Eadbanger",
@@ -6058,7 +6310,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-3",
-        "d": "1"
+        "d": "1",
+        "keywords": "Precision, Psychic"
       },
       {
         "name": "Eyez of Mork",
@@ -6067,7 +6320,8 @@
         "bs": "5+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Psychic"
       },
       {
         "name": "Kombi-weapon",
@@ -6076,7 +6330,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
       },
       {
         "name": "Kustom mega-blasta",
@@ -6085,7 +6340,8 @@
         "bs": "5+",
         "s": "9",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "HAZARDOUS"
       },
       {
         "name": "Kustom mega-slugga",
@@ -6094,7 +6350,8 @@
         "bs": "5+",
         "s": "8",
         "ap": "-2",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "CLOSE-QUARTERS, HAZARDOUS"
       }
     ],
     "system": "40k"
@@ -6137,7 +6394,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "EXTRA ATTACKS"
       },
       {
         "name": "Psyko-gatler",
@@ -6146,7 +6404,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "ASSAULT, LETHAL HITS: non-MONSTER/VEHICLE, SUSTAINED HITS 1"
       },
       {
         "name": "Grabba dragga (Melee)",
@@ -6155,7 +6414,8 @@
         "bs": "2+",
         "s": "10",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "CLEAVE 2, LANCE"
       },
       {
         "name": "Grabba dragga (Ranged)",
@@ -6164,7 +6424,8 @@
         "bs": "2+",
         "s": "10",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "CLEAVE 2, LANCE"
       },
       {
         "name": "Speeding bulk and flaming exhaust",
@@ -6173,7 +6434,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLEAVE 1, EXTRA ATTACKS"
       }
     ],
     "system": "40k"
@@ -6213,7 +6475,8 @@
         "bs": "5+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "CLOSE-QUARTERS"
       },
       {
         "name": "Two-handed big choppa",
@@ -6269,7 +6532,8 @@
         "bs": "5+",
         "s": "7",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "IGNORES COVER, LETHAL HITS: non-MONSTER/VEHICLE"
       },
       {
         "name": "Rokkit launcha",
@@ -6278,7 +6542,8 @@
         "bs": "5+",
         "s": "10",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast"
       }
     ],
     "system": "40k"

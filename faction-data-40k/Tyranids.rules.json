@@ -9,7 +9,7 @@
     {
       "name": "Invasion Fleet",
       "dp": 3,
-      "effect": "Category: Take and Hold"
+      "effect": "Hyper-adaptations: Select one for the whole battle: Swarming Instincts ([SUSTAINED HITS 1] vs Infantry/Swarm), Hyper-aggression ([LETHAL HITS] vs Monster/Vehicle), or Hive Predators ([PRECISION] on a Critical Hit vs Character)."
     },
     {
       "name": "Synaptic Nexus",
@@ -19,12 +19,12 @@
     {
       "name": "Assimilation Swarm",
       "dp": 2,
-      "effect": "Category: Priority Assets"
+      "effect": "Feed the Swarm: Each Command phase, HARVESTER units regenerate one nearby friendly unit — heal D3+1 wounds, or return a destroyed Infantry model (up to 3 for Endless Multitude units)."
     },
     {
       "name": "Crusher Stampede",
       "dp": 2,
-      "effect": "Category: Purge the Foe"
+      "effect": "Enraged Behemoths: Below-strength MONSTER models get +1 to Hit; below-half get +1 to Wound as well. Full-strength non-Battle-shocked Monster units get +2 OC."
     },
     {
       "name": "Vanguard Onslaught",
@@ -34,7 +34,7 @@
     {
       "name": "Unending Swarm",
       "dp": 2,
-      "effect": "Category: Take and Hold"
+      "effect": "Insurmountable Odds: After the opponent shoots and destroys a model from an ENDLESS MULTITUDE unit, that unit can make a surge move of D6\"."
     },
     {
       "name": "Ambush Predators",
@@ -57,6 +57,113 @@
     {
       "name": "Norn Emissary upgrade",
       "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Alien Cunning",
+      "cost": 30,
+      "effect": "[TYRANIDS only] After deployment, redeploy up to 3 units, any of which can instead be placed into Strategic Reserves.",
+      "detachment": "Invasion Fleet"
+    },
+    {
+      "name": "Perfectly Adapted",
+      "cost": 15,
+      "effect": "[TYRANIDS only] Once per turn, re-roll any one roll made for the bearer.",
+      "detachment": "Invasion Fleet"
+    },
+    {
+      "name": "Synaptic Linchpin",
+      "cost": 20,
+      "effect": "[TYRANIDS only] Extends Synapse Range to 9\" around the bearer.",
+      "detachment": "Invasion Fleet"
+    },
+    {
+      "name": "Adaptive Biology",
+      "cost": 25,
+      "effect": "[TYRANIDS only] The bearer has the Feel No Pain 5+ ability (4+ once damaged).",
+      "detachment": "Invasion Fleet"
+    },
+    {
+      "name": "Ominous Presence",
+      "cost": 15,
+      "effect": "[TYRANIDS MONSTER only] Add 3 to the bearer's Objective Control characteristic.",
+      "detachment": "Crusher Stampede"
+    },
+    {
+      "name": "Enraged Reserves",
+      "cost": 20,
+      "effect": "[TYRANIDS MONSTER only] The bearer can fight on death (melee) on a 3+.",
+      "detachment": "Crusher Stampede"
+    },
+    {
+      "name": "Null Nodules",
+      "cost": 10,
+      "effect": "[TYRANIDS MONSTER only] Once per battle, gain Feel No Pain 5+ against Psychic Attacks.",
+      "detachment": "Crusher Stampede"
+    },
+    {
+      "name": "Monstrous Nemesis",
+      "cost": 25,
+      "effect": "[TYRANIDS MONSTER only] Add 1 to the Wound roll for the bearer's melee attacks against Monster/Vehicle units.",
+      "detachment": "Crusher Stampede"
+    },
+    {
+      "name": "Relentless Hunger",
+      "cost": 20,
+      "effect": "[TYRANIDS only] Add 2\" to the bearer's Move characteristic.",
+      "detachment": "Unending Swarm"
+    },
+    {
+      "name": "Naturalised Camouflage",
+      "cost": 30,
+      "effect": "[TYRANIDS only] In round 1, grant Benefit of Cover to up to 3 nearby Endless Multitude units.",
+      "detachment": "Unending Swarm"
+    },
+    {
+      "name": "Piercing Talons",
+      "cost": 25,
+      "effect": "[TYRANIDS only] A Critical Wound scored by the bearer gains +1 AP.",
+      "detachment": "Unending Swarm"
+    },
+    {
+      "name": "Adrenalised Onslaught",
+      "cost": 15,
+      "effect": "[TYRANIDS only] The bearer's unit can Pile-in and Consolidate 3\" further.",
+      "detachment": "Unending Swarm"
+    },
+    {
+      "name": "Regenerating Monstrosity",
+      "cost": 20,
+      "effect": "[TYRANIDS (excl. MONSTER) only] The bearer's unit can regenerate twice per phase via the Harvester ability.",
+      "detachment": "Assimilation Swarm"
+    },
+    {
+      "name": "Instinctive Defence",
+      "cost": 15,
+      "effect": "[TYRANIDS only] Heroic Intervention costs -1CP near the Harvester; units near the Harvester gain Fights First.",
+      "detachment": "Assimilation Swarm"
+    },
+    {
+      "name": "Biophagic Flow",
+      "cost": 10,
+      "effect": "[TYRANIDS only] Aura: extends the Harvester's regeneration range to 9\".",
+      "detachment": "Assimilation Swarm"
+    },
+    {
+      "name": "Parasitic Biomorphology",
+      "cost": 25,
+      "effect": "[TYRANIDS only] Add 1 to the bearer's Strength in melee; add 1 Attack after the first kill near the Harvester (persists).",
+      "detachment": "Assimilation Swarm"
     }
-  ]
+  ],
+  "armyRules": [
+    {
+      "name": "Synapse",
+      "effect": "TYRANIDS units within 6\" of a friendly SYNAPSE model are 'within Synapse Range': Battle-shock tests are taken on 3D6 instead of 2D6; melee attacks gain +1 Strength."
+    },
+    {
+      "name": "Shadow in the Warp",
+      "effect": "Once per battle, in either Command phase, force all enemy units to take a Battle-shock test (-1 to that test if within 6\" of a friendly Synapse unit)."
+    }
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation."
 }

@@ -4,17 +4,17 @@
     {
       "name": "Virulent Vectorium",
       "dp": 3,
-      "effect": "Category: Take and Hold"
+      "effect": "Worldblight: At the end of your Command phase, controlled objectives become secured; enemy units within range of that objective are Afflicted until you lose control."
     },
     {
       "name": "Shamblerot Vectorium",
       "dp": 2,
-      "effect": "Category: Disruption"
+      "effect": "Numberless Horde: In specified Command phases (round 2/3 for Incursion; 2-4 for Strike Force; 2-5 for Onslaught), add a new 10-model Poxwalkers unit to Strategic Reserves. Poxwalkers gain BATTLELINE."
     },
     {
       "name": "Tallyband Summoners",
       "dp": 2,
-      "effect": "Category: Disruption"
+      "effect": "Reverberant Rancidity: PLAGUE LEGIONS units within 7\" of Death Guard units gain Nurgle's Gift; Death Guard units within 7\" of Plague Legions units get +3\" Contagion Range. Can include PLAGUE LEGIONS up to 500/1000/1500pts by battle size (cannot be Warlord)."
     },
     {
       "name": "Death Lord's Chosen",
@@ -24,12 +24,12 @@
     {
       "name": "Mortarion's Hammer",
       "dp": 2,
-      "effect": "Category: Purge the Foe"
+      "effect": "Miasmic Bombardment: At the start of the battle round, select 1/2/3 enemy units (by battle size) more than 12\" from all your models; they are Afflicted until the end of the battle round."
     },
     {
       "name": "Champions of Contagion",
       "dp": 2,
-      "effect": "Category: Take and Hold"
+      "effect": "Manifold Maladies: At the start of the battle round, you can change your chosen Plague to a different one from Nurgle's Gift, effective for the rest of the battle."
     },
     {
       "name": "Paragons of Putrescence",
@@ -52,6 +52,137 @@
     {
       "name": "shield of faith",
       "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Daemon Weapon of Nurgle",
+      "cost": 10,
+      "effect": "[DEATH GUARD model only] An unmodified Hit roll of 5+ in melee scores a Critical Hit.",
+      "detachment": "Virulent Vectorium"
+    },
+    {
+      "name": "Furnace of Plagues",
+      "cost": 25,
+      "effect": "[DEATH GUARD model only] +1 Strength/Attacks in melee; melee weapons gain [DEVASTATING WOUNDS].",
+      "detachment": "Virulent Vectorium"
+    },
+    {
+      "name": "Arch Contaminator",
+      "cost": 25,
+      "effect": "[DEATH GUARD model only] While near a controlled objective, re-roll Wound rolls for the bearer's unit.",
+      "detachment": "Virulent Vectorium"
+    },
+    {
+      "name": "Revolting Regeneration",
+      "cost": 30,
+      "effect": "[DEATH GUARD model only] The bearer has the Feel No Pain 5+ ability.",
+      "detachment": "Virulent Vectorium"
+    },
+    {
+      "name": "Eye of Affliction",
+      "cost": 20,
+      "effect": "[DEATH GUARD model only] Ranged weapons gain [IGNORES COVER] against Afflicted units.",
+      "detachment": "Mortarion's Hammer"
+    },
+    {
+      "name": "Bilemaw Blight",
+      "cost": 10,
+      "effect": "[MALIGNANT PLAGUECASTER only] +12\" Range on the Plague Wind weapon.",
+      "detachment": "Mortarion's Hammer"
+    },
+    {
+      "name": "Shriekworm Familiar",
+      "cost": 15,
+      "effect": "[DEATH GUARD model only] Once per battle round, target the bearer's unit with Fire Overwatch for 0CP.",
+      "detachment": "Mortarion's Hammer"
+    },
+    {
+      "name": "Tendrilous Emissions",
+      "cost": 30,
+      "effect": "[LORD OF VIRULENCE only] Lone Operative near friendly Vehicles; re-roll Wound 1s for their ranged attacks vs visible enemies.",
+      "detachment": "Mortarion's Hammer"
+    },
+    {
+      "name": "Final Ingredient",
+      "cost": 20,
+      "effect": "[BIOLOGUS PUTRIFIER only] Once per battle, if a Character was destroyed by the bearer's unit fighting, select an additional Plague to apply alongside your chosen one.",
+      "detachment": "Champions of Contagion"
+    },
+    {
+      "name": "Visions of Virulence",
+      "cost": 15,
+      "effect": "[MALIGNANT PLAGUECASTER only] Units enfeebled by Pestilent Fallout are also Afflicted.",
+      "detachment": "Champions of Contagion"
+    },
+    {
+      "name": "Needle of Nurgle",
+      "cost": 25,
+      "effect": "[PLAGUE SURGEON only] Tainted Narthecium returns up to D3 destroyed models instead of 1.",
+      "detachment": "Champions of Contagion"
+    },
+    {
+      "name": "Cornucophagus",
+      "cost": 35,
+      "effect": "[LORD OF POXES only] Select a Plague at deployment; enemies within Contagion Range of the bearer gain its effect in addition to any other.",
+      "detachment": "Champions of Contagion"
+    },
+    {
+      "name": "Beckoning Blight",
+      "cost": 20,
+      "effect": "[DEATH GUARD model only] PLAGUE LEGIONS Deep Striking within 12\" of the bearer can set up more than 6\" from enemies instead of 8\".",
+      "detachment": "Tallyband Summoners"
+    },
+    {
+      "name": "Fell Harvester",
+      "cost": 10,
+      "effect": "[DEATH GUARD model only] +2 Attacks in melee.",
+      "detachment": "Tallyband Summoners"
+    },
+    {
+      "name": "Entropic Knell",
+      "cost": 15,
+      "effect": "[GREAT UNCLEAN ONE only] Below-strength enemy units within 6\" must Battle-shock test at -1 during their Command phase.",
+      "detachment": "Tallyband Summoners"
+    },
+    {
+      "name": "Tome of Bounteous Blessings",
+      "cost": 20,
+      "effect": "[MALIGNANT PLAGUECASTER only] Nearby Plague Legions units passing Battle-shock tests can heal D3 wounds or return D3 Battleline models.",
+      "detachment": "Tallyband Summoners"
+    },
+    {
+      "name": "Witherbone Pipes",
+      "cost": 25,
+      "effect": "[NOXIOUS BLIGHTBRINGER only] +1 OC while leading Poxwalkers; +1 to their Battle-shock/Leadership tests.",
+      "detachment": "Shamblerot Vectorium"
+    },
+    {
+      "name": "Lord of the Walking Pox",
+      "cost": 15,
+      "effect": "[DEATH GUARD model only] If in Strategic Reserves leading Poxwalkers, treat the current round as round 3 for setup purposes.",
+      "detachment": "Shamblerot Vectorium"
+    },
+    {
+      "name": "Sorrowsyphon",
+      "cost": 10,
+      "effect": "[MALIGNANT PLAGUECASTER only] +1 Damage on Plague Wind while leading Poxwalkers; D3 Bodyguard models destroyed after attacking.",
+      "detachment": "Shamblerot Vectorium"
+    },
+    {
+      "name": "Talisman of Burgeoning",
+      "cost": 25,
+      "effect": "[DEATH GUARD model only] +1 Toughness to the led unit (remainder of text truncated in source fetch).",
+      "detachment": "Shamblerot Vectorium"
     }
-  ]
+  ],
+  "armyRules": [
+    {
+      "name": "Nurgle's Gift (Aura)",
+      "effect": "Enemy units within Contagion Range (max 12\") of Death Guard models are 'Afflicted': -1 Toughness plus the effect of one selected Plague (Skullsquirm Blight: Benefit of Cover for the afflicted unit's ranged attacks vs it, -1 Hit for its melee; Rattlejoint Ague: -1 Save; Scabrous Soulrot: -1 Move/Leadership/OC)."
+    },
+    {
+      "name": "Pact of Decay",
+      "effect": "Unless stated otherwise, you cannot select PLAGUE LEGIONS as your Army Faction."
+    }
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation."
 }

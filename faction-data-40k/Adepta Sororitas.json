@@ -83,7 +83,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -122,7 +123,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Inferno pistol",
@@ -131,7 +133,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-4",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Melta 2, Pistol"
       },
       {
         "name": "Ministorum hand flamer",
@@ -140,7 +143,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "➤ Plasma pistol - standard",
@@ -149,7 +153,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Ministorum flamer",
@@ -158,7 +163,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Heavy bolter",
@@ -167,7 +173,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Ministorum heavy flamer",
@@ -176,7 +183,8 @@
         "bs": "N/A",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Multi-melta",
@@ -185,7 +193,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       }
     ],
     "system": "40k"
@@ -227,7 +236,8 @@
         "bs": "N/A",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Ignores Cover, One Shot, Torrent"
       },
       {
         "name": "Blessed blade",
@@ -236,7 +246,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Power weapon",
@@ -245,7 +256,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Hallowed Chainsword",
@@ -263,7 +275,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Condemnor boltgun",
@@ -272,7 +285,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Psyker 2+, Devastating Wounds, Precision, Rapid Fire 1"
       },
       {
         "name": "Inferno Pistol",
@@ -281,7 +295,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-4",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Melta 2, Pistol"
       },
       {
         "name": "➤ Plasma pistol - standard",
@@ -290,7 +305,8 @@
         "bs": "2+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "➤ Plasma pistol - supercharge",
@@ -299,7 +315,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Pistol"
       }
     ],
     "system": "40k"
@@ -348,7 +365,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Castigator autocannons",
@@ -357,7 +375,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Twin-Linked, Rapid Fire 4"
       },
       {
         "name": "Castigator battle cannon",
@@ -366,7 +385,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-1",
-        "d": "3"
+        "d": "3",
+        "keywords": "Blast, Ignores Cover"
       },
       {
         "name": "Storm bolter",
@@ -375,7 +395,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Hunter-killer missile",
@@ -384,7 +405,8 @@
         "bs": "2+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       }
     ],
     "system": "40k"
@@ -423,7 +445,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Hallowed Mace",
@@ -432,7 +455,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Spear of the Faithful",
@@ -450,7 +474,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Inferno pistol",
@@ -459,7 +484,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-4",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Melta 2, Pistol"
       },
       {
         "name": "Ministorum hand flamer",
@@ -468,7 +494,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       }
     ],
     "system": "40k"
@@ -510,7 +537,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Chaos 2+, Precision"
       },
       {
         "name": "The Outcast's Blades",
@@ -519,7 +547,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Precision"
       }
     ],
     "system": "40k"
@@ -641,7 +670,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Inferno pistol",
@@ -650,7 +680,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-4",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Melta 2, Pistol"
       },
       {
         "name": "Ministorum hand flamer",
@@ -659,7 +690,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "➤ Plasma pistol - standard",
@@ -668,7 +700,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -718,7 +751,8 @@
         "bs": "2+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Heavy Bolter",
@@ -727,7 +761,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Exorcist Missile Launcher",
@@ -736,7 +771,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Indirect Fire"
       },
       {
         "name": "Exorcist Conflagration Rockets",
@@ -745,7 +781,8 @@
         "bs": "3+",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast, Ignores Cover, Indirect Fire"
       }
     ],
     "system": "40k"
@@ -828,7 +865,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Close combat weapon",
@@ -837,7 +875,8 @@
         "bs": "4+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -888,7 +927,8 @@
         "bs": "2+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Heavy Bolter",
@@ -897,7 +937,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Immolation Flamers",
@@ -906,7 +947,8 @@
         "bs": "N/A",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Twin Heavy Bolter",
@@ -915,7 +957,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1, Twin-linked"
       },
       {
         "name": "Twin Multi-melta",
@@ -924,7 +967,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2, Twin-Linked"
       }
     ],
     "system": "40k"
@@ -967,7 +1011,8 @@
         "bs": "N/A",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent, Twin-Linked"
       },
       {
         "name": "Mace of Castigation",
@@ -1017,7 +1062,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Mortifier flamer",
@@ -1027,7 +1073,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent, Twin-Linked"
       },
       {
         "name": "Penitent buzz-blade",
@@ -1036,7 +1083,8 @@
         "bs": "3+",
         "s": "10",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Penitent flail",
@@ -1045,7 +1093,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -1088,7 +1137,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "➤ Lance of Illumination - sweep",
@@ -1097,7 +1147,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Fidelis",
@@ -1106,7 +1157,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "➤ Paragon missile launcher - prioris",
@@ -1124,7 +1176,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Blast"
       }
     ],
     "system": "40k"
@@ -1175,7 +1228,8 @@
         "bs": "2+",
         "s": "8",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Hazardous, Pistol"
       },
       {
         "name": "➤ Plasma pistol - standard",
@@ -1184,7 +1238,8 @@
         "bs": "2+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -1223,7 +1278,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2, Twin-Linked"
       },
       {
         "name": "Paragon Grenade Launchers",
@@ -1232,7 +1288,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-2",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Twin-Linked"
       },
       {
         "name": "Paragon War Blade",
@@ -1259,7 +1316,8 @@
         "bs": "3+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Multi-melta",
@@ -1268,7 +1326,8 @@
         "bs": "3+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Ministorum heavy flamer",
@@ -1277,7 +1336,8 @@
         "bs": "N/A",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       }
     ],
     "system": "40k"
@@ -1317,7 +1377,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Assault, Ignores Cover, Torrent, Twin-Linked"
       },
       {
         "name": "Penitent buzz-blade",
@@ -1326,7 +1387,8 @@
         "bs": "4+",
         "s": "10",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Penitent flail",
@@ -1335,7 +1397,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -1378,7 +1441,8 @@
         "bs": "4+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Power weapon",
@@ -1387,7 +1451,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Zealot's vindictor (Ranged)",
@@ -1396,7 +1461,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Zealot's vindictor (Melee)",
@@ -1405,7 +1471,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Ignores Cover, Torrent"
       }
     ],
     "system": "40k"
@@ -1444,7 +1511,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Neural Whips",
@@ -1453,7 +1521,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 4+"
       }
     ],
     "system": "40k"
@@ -1492,7 +1561,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "Inferno pistol",
@@ -1501,7 +1571,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-4",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Melta 2, Pistol"
       },
       {
         "name": "Ministorum hand flamer",
@@ -1510,7 +1581,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "➤ Plasma pistol - standard",
@@ -1519,7 +1591,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Ministorum heavy flamer",
@@ -1528,7 +1601,8 @@
         "bs": "N/A",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Multi-melta",
@@ -1537,7 +1611,8 @@
         "bs": "4+",
         "s": "9",
         "ap": "-4",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "Melta 2"
       },
       {
         "name": "Heavy bolter",
@@ -1546,7 +1621,8 @@
         "bs": "4+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -1589,7 +1665,8 @@
         "bs": "N/A",
         "s": "6",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "The Ardent Blade (Melee)",
@@ -1598,7 +1675,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-3",
-        "d": "2"
+        "d": "2",
+        "keywords": "Ignores Cover, Torrent"
       }
     ],
     "system": "40k"
@@ -1638,7 +1716,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Close combat weapon",
@@ -1647,7 +1726,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       }
     ],
     "system": "40k"
@@ -1686,7 +1766,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       },
       {
         "name": "Boltgun",
@@ -1695,7 +1776,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 1"
       },
       {
         "name": "➤ Plasma pistol - standard",
@@ -1704,7 +1786,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       }
     ],
     "system": "40k"
@@ -1755,7 +1838,8 @@
         "bs": "2+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Storm bolter",
@@ -1764,7 +1848,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       }
     ],
     "system": "40k"
@@ -1809,7 +1894,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Relic Weapons",
@@ -1859,7 +1945,8 @@
         "bs": "3+",
         "s": "7",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Pistol"
       },
       {
         "name": "Power weapon",
@@ -1868,7 +1955,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -1910,7 +1998,8 @@
         "bs": "2+",
         "s": "14",
         "ap": "-3",
-        "d": "D6"
+        "d": "D6",
+        "keywords": "One Shot"
       },
       {
         "name": "Storm bolter",
@@ -1919,7 +2008,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Rapid Fire 2"
       },
       {
         "name": "Dozer Ram",
@@ -1937,7 +2027,8 @@
         "bs": "N/A",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent, Twin-Linked"
       },
       {
         "name": "Heavy flamer",
@@ -1946,7 +2037,8 @@
         "bs": "N/A",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       }
     ],
     "system": "40k"
@@ -1998,7 +2090,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "Power weapon",
@@ -2007,7 +2100,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       },
       {
         "name": "Holy Eviscerator",
@@ -2016,7 +2110,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -2053,7 +2148,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Precision"
       }
     ],
     "system": "40k"
@@ -2091,7 +2187,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       }
     ],
     "system": "40k"
@@ -2162,7 +2259,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "The Thorn of the White Rose",
@@ -2213,7 +2311,8 @@
         "bs": "3+",
         "s": "3",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Psychic"
       },
       {
         "name": "Ministorum hand flamer",
@@ -2222,7 +2321,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "Sanctifier melee weapon",
@@ -2240,7 +2340,8 @@
         "bs": "N/A",
         "s": "6",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Ignores Cover, One Shot, Torrent"
       },
       {
         "name": "Burning hands",
@@ -2249,7 +2350,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Devastating Wounds"
       },
       {
         "name": "Death Cult blades",
@@ -2258,7 +2360,8 @@
         "bs": "2+",
         "s": "4",
         "ap": "-2",
-        "d": "1"
+        "d": "1",
+        "keywords": "Precision"
       },
       {
         "name": "Ministorum flamer",
@@ -2267,7 +2370,8 @@
         "bs": "N/A",
         "s": "5",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       }
     ],
     "system": "40k"
@@ -2309,7 +2413,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-PSYKER 4+, Devastating Wounds"
       },
       {
         "name": "Inferno pistol",
@@ -2318,7 +2423,8 @@
         "bs": "3+",
         "s": "8",
         "ap": "-4",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Melta 2, Pistol"
       },
       {
         "name": "Condemnor bolt pistol",
@@ -2327,7 +2433,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Anti-PSYKER 4+, Devastating Wounds, Pistol"
       },
       {
         "name": "Ministorum hand flamer",
@@ -2336,7 +2443,8 @@
         "bs": "N/A",
         "s": "4",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Pistol, Torrent"
       },
       {
         "name": "Blessed sword",
@@ -2345,7 +2453,8 @@
         "bs": "3+",
         "s": "4",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Lethal Hits"
       },
       {
         "name": "Virge of Admonition",
@@ -2354,7 +2463,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "-2",
-        "d": "3"
+        "d": "3",
+        "keywords": "Anti-PSYKER 4+, Devastating Wounds"
       }
     ],
     "system": "40k"
@@ -2496,7 +2606,8 @@
         "bs": "2+",
         "s": "5",
         "ap": "-1",
-        "d": "2"
+        "d": "2",
+        "keywords": "Heavy, Sustained Hits 1"
       },
       {
         "name": "Melta missile array",
@@ -2505,7 +2616,8 @@
         "bs": "2+",
         "s": "9",
         "ap": "-2",
-        "d": "D3"
+        "d": "D3",
+        "keywords": "Melta 2"
       },
       {
         "name": "Mace of Saint Praxedes",
@@ -2514,7 +2626,8 @@
         "bs": "2+",
         "s": "6",
         "ap": "-2",
-        "d": "2"
+        "d": "2",
+        "keywords": "Sustained Hits 1"
       },
       {
         "name": "Throne of Blame",
@@ -2523,7 +2636,8 @@
         "bs": "4+",
         "s": "6",
         "ap": "0",
-        "d": "1"
+        "d": "1",
+        "keywords": "Extra Attacks"
       },
       {
         "name": "Ministorum heavy flamer",
@@ -2532,7 +2646,8 @@
         "bs": "N/A",
         "s": "6",
         "ap": "-1",
-        "d": "1"
+        "d": "1",
+        "keywords": "Ignores Cover, Torrent"
       }
     ],
     "system": "40k"

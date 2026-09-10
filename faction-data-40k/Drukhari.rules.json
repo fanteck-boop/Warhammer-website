@@ -9,27 +9,27 @@
     {
       "name": "Kabalite Cartel",
       "dp": 2,
-      "effect": "Category: Disruption"
+      "effect": "Murderous Agenda: (Detachment rule text not fully captured this pass — verify on Wahapedia.)"
     },
     {
       "name": "Realspace Raiders",
       "dp": 2,
-      "effect": "Category: Priority Assets"
+      "effect": "Alliance of Agony: At the start of the battle, gain 2 Pain tokens for each qualifying combination in your army: Archon+Kabalite Warriors, Succubus+Wyches, Haemonculus+Wracks (cumulative, up to 6 Pain tokens)."
     },
     {
       "name": "Spectacle of Spite",
       "dp": 2,
-      "effect": "Category: Purge the Foe"
+      "effect": "Combat Drugs: At the start of your Command phase, select or randomly roll two Combat Drugs (Adrenalight +1A, Hypex +2\"M, Serpentin +1WS, Painbringer +1T, Grave Lotus +1S, Splintermind +1LD/+1BS) active for WYCH CULT models until your next Command phase."
     },
     {
       "name": "Skysplinter Assault",
       "dp": 2,
-      "effect": "Category: Reconnaissance"
+      "effect": "Rain Of Cruelty: Each time a DRUKHARI unit disembarks from a Transport, until the end of the turn its ranged weapons gain [IGNORES COVER] and melee weapons gain [LANCE]."
     },
     {
       "name": "Covenite Coterie",
       "dp": 2,
-      "effect": "Category: Take and Hold"
+      "effect": "Stitchflesh Abominations: Each time an attack targets a HAEMONCULUS COVENS unit with Strength greater than its Toughness, subtract 1 from the Wound roll."
     },
     {
       "name": "Kabalite Agonysts",
@@ -60,6 +60,113 @@
     {
       "name": "Plane-Smasher",
       "effect": "Enhancement named in source notes — exact rules text/cost not confirmed; check codex/Wahapedia."
+    },
+    {
+      "name": "Dark Vitality",
+      "cost": 20,
+      "effect": "[DRUKHARI model only] The bearer's unit is always Empowered without spending Pain tokens.",
+      "detachment": "Realspace Raiders"
+    },
+    {
+      "name": "Labyrinthine Cunning",
+      "cost": 25,
+      "effect": "[ARCHON model only] At the start of your Command phase, spend 1 Pain token to gain 1CP, or roll a D6 (4+ = gain 1CP).",
+      "detachment": "Realspace Raiders"
+    },
+    {
+      "name": "Eye of Spite",
+      "cost": 15,
+      "effect": "[SUCCUBUS model only] +1 Attacks/AP in melee (spend 1 Pain token for +2/+2 instead).",
+      "detachment": "Realspace Raiders"
+    },
+    {
+      "name": "Crucible of Malediction",
+      "cost": 15,
+      "effect": "[HAEMONCULUS model only] Once per battle, force nearby enemy units to Battle-shock test (spend 1 Pain token for -1 to the test); failed PSYKER units suffer 3 mortal wounds.",
+      "detachment": "Realspace Raiders"
+    },
+    {
+      "name": "Phantasmal Smoke",
+      "cost": 15,
+      "effect": "[DRUKHARI model only] While within 6\" of a friendly Transport, the bearer's unit gains Stealth and Benefit of Cover against ranged attacks.",
+      "detachment": "Skysplinter Assault"
+    },
+    {
+      "name": "Sadistic Fulcrum",
+      "cost": 15,
+      "effect": "[DRUKHARI model only] When spending a Pain token to Empower the bearer's unit in the Shooting phase, a nearby Transport can re-roll Hit rolls.",
+      "detachment": "Skysplinter Assault"
+    },
+    {
+      "name": "Spiteful Raider",
+      "cost": 10,
+      "effect": "[DRUKHARI model only] Destroying an enemy unit near an objective in the Fight phase grants an additional Pain token.",
+      "detachment": "Skysplinter Assault"
+    },
+    {
+      "name": "Nightmare Shroud",
+      "cost": 20,
+      "effect": "[DRUKHARI model only] After disembarking, enemies cannot use Fire Overwatch against the bearer's unit that turn.",
+      "detachment": "Skysplinter Assault"
+    },
+    {
+      "name": "Pharmacophex",
+      "cost": 15,
+      "effect": "[SUCCUBUS model only] Roll an extra random Combat Drug that applies only to the bearer's unit.",
+      "detachment": "Spectacle of Spite"
+    },
+    {
+      "name": "Chronoshard",
+      "cost": 15,
+      "effect": "[SUCCUBUS model only] Once per battle, the bearer's unit gains Fights First.",
+      "detachment": "Spectacle of Spite"
+    },
+    {
+      "name": "Periapt of Torments",
+      "cost": 25,
+      "effect": "[SUCCUBUS model only] Enemies cannot use Fire Overwatch against the bearer's unit.",
+      "detachment": "Spectacle of Spite"
+    },
+    {
+      "name": "Morghenna's Curse",
+      "cost": 20,
+      "effect": "[SUCCUBUS model only] +1 AP/Damage on the bearer's melee weapons.",
+      "detachment": "Spectacle of Spite"
+    },
+    {
+      "name": "Master Regenesist",
+      "cost": 25,
+      "effect": "[HAEMONCULUS model only] Fleshcraft returns up to D3+3 destroyed models instead of D3+1.",
+      "detachment": "Covenite Coterie"
+    },
+    {
+      "name": "Master Nemesine",
+      "cost": 5,
+      "effect": "[HAEMONCULUS model only] Weapons gain [ANTI-BEAST 2+] and [ANTI-MONSTER 4+].",
+      "detachment": "Covenite Coterie"
+    },
+    {
+      "name": "Master Artisan",
+      "cost": 20,
+      "effect": "[HAEMONCULUS model only] +1 Wounds to bearer; +1 Toughness to unit.",
+      "detachment": "Covenite Coterie"
+    },
+    {
+      "name": "Master Repugnomancer",
+      "cost": 15,
+      "effect": "[HAEMONCULUS model only] Aura: +3\" range to Fear Incarnate; chance to gain a Pain token each time a nearby unit fails Battle-shock or is destroyed.",
+      "detachment": "Covenite Coterie"
     }
-  ]
+  ],
+  "armyRules": [
+    {
+      "name": "Power from Pain",
+      "effect": "All DRUKHARI units have Pain abilities that only apply while Empowered. Gain 1 Pain token at the start of your Command phase, each time an enemy unit is destroyed, and each time an enemy unit fails a Battle-shock test. Spend Pain tokens to Empower a unit until the end of the phase, activating its Pain abilities (and those of its Leader/Bodyguard units)."
+    },
+    {
+      "name": "Corsairs and Travelling Players",
+      "effect": "Your army can include HARLEQUINS and ANHRATHE units without the DRUKHARI Faction keyword, up to 250/500/750pts by battle size. These models cannot be Warlord and cannot receive Enhancements."
+    }
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation."
 }

@@ -4,17 +4,17 @@
     {
       "name": "Grizzled Company",
       "dp": 3,
-      "effect": "Category: Priority Assets"
+      "effect": "Ruthless Discipline: Each OFFICER can issue 1 additional Order per Command phase; ordered units can re-roll Hit rolls of 1."
     },
     {
       "name": "Siege Regiment",
       "dp": 2,
-      "effect": "Category: Disruption"
+      "effect": "Artillery Support: At the start of the battle round, select one: Creeping Barrage (mortal wounds to far enemy units on 5+ and shaken effect), Incendiary Bombardment (remove Benefit of Cover from selected units), or Smoke Shells (grant Stealth to selected units). Number of units affected scales with battle size."
     },
     {
       "name": "Hammer of the Emperor",
       "dp": 2,
-      "effect": "Category: Purge the Foe"
+      "effect": "Iron Tread: SQUADRON units Advance without a roll, adding 6\" to Move; can move within (but not end within) Engagement Range of enemy units."
     },
     {
       "name": "Steel Hammer",
@@ -24,12 +24,12 @@
     {
       "name": "Mechanised Assault",
       "dp": 2,
-      "effect": "Category: Reconnaissance"
+      "effect": "Armoured Fist: Add 1 to the Wound roll for ranged attacks made by models that disembarked from a Transport this turn."
     },
     {
       "name": "Recon Element",
       "dp": 2,
-      "effect": "Category: Reconnaissance"
+      "effect": "Masters of Camouflage: Friendly ASTRA MILITARUM units (excluding TITANIC) have the Stealth ability."
     },
     {
       "name": "Storm Division",
@@ -85,8 +85,147 @@
       "name": "Jungle Fighters",
       "dp": 1,
       "effect": "Category: Disruption"
+    },
+    {
+      "name": "Combined Arms",
+      "dp": 2,
+      "effect": "Born Soldiers: REGIMENT ranged attacks vs non-MONSTER/VEHICLE units gain [LETHAL HITS]; SQUADRON ranged attacks vs MONSTER/VEHICLE units gain [LETHAL HITS]."
     }
   ],
   "heroicTraits": [],
-  "artefacts": []
+  "artefacts": [
+    {
+      "name": "Death Mask of Ollanius",
+      "cost": 10,
+      "effect": "[OFFICER only] If the bearer's unit is Battle-shocked, reduce its Objective Control by 1 instead of to 0.",
+      "detachment": "Combined Arms"
+    },
+    {
+      "name": "Drill Commander",
+      "cost": 20,
+      "effect": "[OFFICER only] While the bearer's unit remains stationary, an unmodified Hit roll of 5+ scores a Critical Hit.",
+      "detachment": "Combined Arms"
+    },
+    {
+      "name": "Grand Strategist",
+      "cost": 15,
+      "effect": "[OFFICER only] The bearer can issue 1 additional Order per Command phase.",
+      "detachment": "Combined Arms"
+    },
+    {
+      "name": "Reactive Command",
+      "cost": 15,
+      "effect": "[OFFICER only] If an enemy unit sets up within 8\" of the bearer, it can issue 1 extra Order (does not count toward normal limit).",
+      "detachment": "Combined Arms"
+    },
+    {
+      "name": "Eager Advance",
+      "cost": 20,
+      "effect": "[INFANTRY OFFICER only] A REGIMENT unit led by the bearer gains the Scouts 6\" ability.",
+      "detachment": "Siege Regiment"
+    },
+    {
+      "name": "Flash Grenades",
+      "cost": 20,
+      "effect": "[INFANTRY OFFICER only] The bearer's unit is immune to Fire Overwatch.",
+      "detachment": "Siege Regiment"
+    },
+    {
+      "name": "Legacy Sidearm",
+      "cost": 10,
+      "effect": "[INFANTRY OFFICER only] Add 2 to the Attacks characteristic of Pistols equipped by the bearer.",
+      "detachment": "Siege Regiment"
+    },
+    {
+      "name": "Stalwart's Honours",
+      "cost": 15,
+      "effect": "[OFFICER only] A unit that receives an Order from the bearer also automatically gains the Take Cover! Order's effect.",
+      "detachment": "Siege Regiment"
+    },
+    {
+      "name": "Bold Leadership",
+      "cost": 25,
+      "effect": "[INFANTRY OFFICER only] The bearer's unit retains control of a contested objective marker under specified conditions.",
+      "detachment": "Mechanised Assault"
+    },
+    {
+      "name": "Sacred Unguents",
+      "cost": 10,
+      "effect": "[TECH-PRIEST ENGINSEER only] Re-roll Hit rolls for a nearby friendly Transport.",
+      "detachment": "Mechanised Assault"
+    },
+    {
+      "name": "Smoke Grenades",
+      "cost": 10,
+      "effect": "[INFANTRY OFFICER only] Grants Benefit of Cover and Stealth to units near friendly Transports.",
+      "detachment": "Mechanised Assault"
+    },
+    {
+      "name": "Vanguard Honours",
+      "cost": 15,
+      "effect": "[INFANTRY OFFICER only] The bearer's unit can disembark from a Transport even after that Transport has Advanced (shock disembark).",
+      "detachment": "Mechanised Assault"
+    },
+    {
+      "name": "Calm Under Fire",
+      "cost": 15,
+      "effect": "[VEHICLE OFFICER only] The bearer can issue the same Order to a second Squadron.",
+      "detachment": "Hammer of the Emperor"
+    },
+    {
+      "name": "Indomitable Steed",
+      "cost": 15,
+      "effect": "[VEHICLE OFFICER only] The bearer has the Feel No Pain 6+ ability.",
+      "detachment": "Hammer of the Emperor"
+    },
+    {
+      "name": "Regimental Banner",
+      "cost": 20,
+      "effect": "[VEHICLE OFFICER only] Add 3 to the bearer's Objective Control characteristic.",
+      "detachment": "Hammer of the Emperor"
+    },
+    {
+      "name": "Veteran Crew",
+      "cost": 20,
+      "effect": "[VEHICLE OFFICER only] Re-roll Hit rolls of 1 for the bearer.",
+      "detachment": "Hammer of the Emperor"
+    },
+    {
+      "name": "Guerrilla Honours",
+      "cost": 25,
+      "effect": "[INFANTRY OFFICER only] After deployment, redeploy up to 3 units, any of which can instead be placed into Strategic Reserves.",
+      "detachment": "Recon Element"
+    },
+    {
+      "name": "Scare Gas Grenades",
+      "cost": 5,
+      "effect": "[INFANTRY only] Once per battle, force a nearby enemy unit to take a Battle-shock test.",
+      "detachment": "Recon Element"
+    },
+    {
+      "name": "Survival Gear",
+      "cost": 5,
+      "effect": "[INFANTRY only] The bearer's unit gains the Scouts 6\" ability.",
+      "detachment": "Recon Element"
+    },
+    {
+      "name": "Tripwires",
+      "cost": 20,
+      "effect": "[INFANTRY only] If an enemy unit ends a move within 8\" of the bearer's unit, on a 4+ that enemy unit suffers -1 to Hit rolls.",
+      "detachment": "Recon Element"
+    },
+    {
+      "name": "Abhuman Detail",
+      "cost": 20,
+      "effect": "[COMMISSAR only] The bearer can issue Orders to units with the OGRYN keyword, and can attach to OGRYN SQUAD/BULLGRYN SQUAD units.",
+      "detachment": "Grizzled Company"
+    }
+  ],
+  "armyRules": [
+    {
+      "name": "Voice of Command (Orders)",
+      "effect": "OFFICER models can issue an Order to a friendly ASTRA MILITARUM unit within 6\" in your Command phase (and on disembark/setup). Orders: Move! Move! Move! (+3\" Move), Fix Bayonets! (+1 WS melee), Take Aim! (+1 BS ranged), First Rank Fire! Second Rank Fire! (+1 Attacks to Rapid Fire weapons), Take Cover! (+1 Save, max 3+), Duty and Honour! (+1 Leadership, +1 OC). One Order per unit at a time; cannot target Battle-shocked units."
+    }
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation."
 }

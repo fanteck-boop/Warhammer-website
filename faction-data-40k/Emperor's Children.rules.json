@@ -1,0 +1,189 @@
+{
+  "faction": "Emperor's Children",
+  "armyRules": [
+    {
+      "name": "Thrill Seekers",
+      "effect": "Units are eligible to shoot and declare a charge in a turn in which they Advanced or Fell Back, but cannot target a unit they were within Engagement Range of at the start of the turn, nor a unit already targeted by another unit's charge or attack this phase."
+    },
+    {
+      "name": "Pact of Excess",
+      "effect": "Unless stated otherwise, you cannot select LEGIONS OF EXCESS as your Army Faction."
+    }
+  ],
+  "battleFormations": [
+    {
+      "name": "Mercurial Host",
+      "dp": 2,
+      "effect": "Quicksilver Grace: Re-roll Advance rolls made for Emperor's Children units."
+    },
+    {
+      "name": "Peerless Bladesmen",
+      "dp": 2,
+      "effect": "Exquisite Swordsmanship: If a unit made a Charge move this turn, select [LETHAL HITS] or [SUSTAINED HITS 1] for its melee weapons that Fight phase."
+    },
+    {
+      "name": "Rapid Evisceration",
+      "dp": 2,
+      "effect": "Mechanised Murder: Attacks made by Transport models or models that disembarked this turn re-roll Hit rolls of 1 and Wound rolls of 1."
+    },
+    {
+      "name": "Carnival of Excess",
+      "dp": 2,
+      "effect": "Daemonic Empowerment: Emperor's Children and Legions of Excess units within 6\" of each other are 'Empowered' — their weapons gain [SUSTAINED HITS 1] (or score Critical Hits on 5+ if already having that ability). Can include Legions of Excess up to 500/1000/1500pts by battle size; cannot be Warlord."
+    },
+    {
+      "name": "Coterie of the Conceited",
+      "dp": 3,
+      "effect": "Pledges to the Dark Prince: At the start of the battle round, if your Warlord is on the battlefield, pledge a number of enemy units to destroy. Meet it to gain Pact points equal to the pledge (fail = Warlord suffers D3 mortal wounds). Pact points grant cumulative army-wide bonuses: 1+ re-roll Hit 1s, 3+ re-roll Wound 1s, 5+ melee gains [LETHAL HITS]+[SUSTAINED HITS 1], 7+ Critical Hit on unmodified 5+."
+    },
+    {
+      "name": "Slaanesh's Chosen",
+      "dp": 2,
+      "effect": "Internal Rivalries: (Detachment rule text not captured this pass — verify on Wahapedia.)"
+    },
+    {
+      "name": "Court of the Phoenician",
+      "dp": 2,
+      "effect": "Sensational Performance / Master of the Pageant: (Detachment rule text not captured this pass — verify on Wahapedia.)"
+    },
+    {
+      "name": "Elegant Brutes",
+      "dp": 2,
+      "effect": "Eager to Kill: (Detachment rule text not captured this pass — verify on Wahapedia.)"
+    },
+    {
+      "name": "Frenzied Host",
+      "dp": 2,
+      "effect": "Frantic Focus: (Detachment rule text not captured this pass — verify on Wahapedia.)"
+    },
+    {
+      "name": "Spectacle of Slaughter",
+      "dp": 2,
+      "effect": "Entitled to Victory: (Detachment rule text not captured this pass — verify on Wahapedia.)"
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "Steeped in Suffering",
+      "cost": 20,
+      "effect": "[EMPEROR'S CHILDREN model only] +1 Hit vs below-strength targets; +1 Wound as well vs Below Half-strength targets.",
+      "detachment": "Mercurial Host"
+    },
+    {
+      "name": "Intoxicating Musk",
+      "cost": 20,
+      "effect": "[EMPEROR'S CHILDREN model only] Melee attacks with Strength greater than the bearer's unit's Toughness suffer -1 to Wound.",
+      "detachment": "Mercurial Host"
+    },
+    {
+      "name": "Tactical Perfection",
+      "cost": 15,
+      "effect": "[EMPEROR'S CHILDREN model only] After deployment, redeploy up to 2 units, any to Strategic Reserves.",
+      "detachment": "Mercurial Host"
+    },
+    {
+      "name": "Loathsome Dexterity",
+      "cost": 10,
+      "effect": "[EMPEROR'S CHILDREN model only] The bearer's unit can move through enemy models (not ending within Engagement Range); Desperate Escape auto-passes.",
+      "detachment": "Mercurial Host"
+    },
+    {
+      "name": "Faultless Opportunist",
+      "cost": 15,
+      "effect": "[EMPEROR'S CHILDREN model only] Target with Heroic Intervention for -1CP regardless of prior uses that phase.",
+      "detachment": "Peerless Bladesmen"
+    },
+    {
+      "name": "Blinding Speed",
+      "cost": 25,
+      "effect": "[EMPEROR'S CHILDREN model only] Once per battle, the bearer's unit gains Fights First for the phase.",
+      "detachment": "Peerless Bladesmen"
+    },
+    {
+      "name": "Distortion",
+      "cost": 25,
+      "effect": "[EMPEROR'S CHILDREN model only] +1 Attacks/Damage on the bearer's melee weapons.",
+      "detachment": "Peerless Bladesmen"
+    },
+    {
+      "name": "Rise to the Challenge",
+      "cost": 30,
+      "effect": "[EMPEROR'S CHILDREN INFANTRY model only] Once per battle, if engaged with 3+ enemy models at end of Fight phase, fight one additional time.",
+      "detachment": "Peerless Bladesmen"
+    },
+    {
+      "name": "Sublime Prescience",
+      "cost": 25,
+      "effect": "[EMPEROR'S CHILDREN INFANTRY model only] Once per turn, treat a Transport in Strategic Reserves as arriving one round later for setup purposes.",
+      "detachment": "Rapid Evisceration"
+    },
+    {
+      "name": "Spearhead Striker",
+      "cost": 20,
+      "effect": "[EMPEROR'S CHILDREN INFANTRY model only] After disembarking, re-roll Charge rolls; enemies cannot use Fire Overwatch against the bearer's unit that turn.",
+      "detachment": "Rapid Evisceration"
+    },
+    {
+      "name": "Accomplished Tactician",
+      "cost": 35,
+      "effect": "[EMPEROR'S CHILDREN INFANTRY model only] Once per turn, after being shot, a nearby hit unit can embark into a nearby Transport.",
+      "detachment": "Rapid Evisceration"
+    },
+    {
+      "name": "Heretek Adept",
+      "cost": 35,
+      "effect": "[EMPEROR'S CHILDREN INFANTRY model only] Once per battle round, change a failed save's Damage to 0 for a nearby friendly Vehicle.",
+      "detachment": "Rapid Evisceration"
+    },
+    {
+      "name": "Empyric Suffusion",
+      "cost": 15,
+      "effect": "[EMPEROR'S CHILDREN model only] Heroic Intervention targeting this unit costs -1CP.",
+      "detachment": "Carnival of Excess"
+    },
+    {
+      "name": "Dark Blessings",
+      "cost": 10,
+      "effect": "[EMPEROR'S CHILDREN INFANTRY model only] Once per battle, gain a 3+ invulnerable save for a phase.",
+      "detachment": "Carnival of Excess"
+    },
+    {
+      "name": "Possessed Blade",
+      "cost": 35,
+      "effect": "[EMPEROR'S CHILDREN model only] +1 Attacks on a chosen melee weapon; when fighting, +1 Damage and gains [DEVASTATING WOUNDS]/[HAZARDOUS].",
+      "detachment": "Carnival of Excess"
+    },
+    {
+      "name": "Warp Walker",
+      "cost": 35,
+      "effect": "[EMPEROR'S CHILDREN or KEEPER OF SECRETS model only] Advances without a roll (+6\" Move); can move through enemy models without ending within Engagement Range.",
+      "detachment": "Carnival of Excess"
+    },
+    {
+      "name": "Pledge of Eternal Servitude",
+      "cost": 25,
+      "effect": "[EMPEROR'S CHILDREN model only] First destruction: Leadership test to return with D6 wounds.",
+      "detachment": "Coterie of the Conceited"
+    },
+    {
+      "name": "Pledge of Dark Glory",
+      "cost": 25,
+      "effect": "[EMPEROR'S CHILDREN model only] While leading a unit, +1 Leadership/Objective Control for that unit.",
+      "detachment": "Coterie of the Conceited"
+    },
+    {
+      "name": "Pledge of Mortal Pain",
+      "cost": 15,
+      "effect": "[EMPEROR'S CHILDREN model only] At the start of your Shooting phase, force a nearby Leadership test; on failure inflict 3 mortal wounds.",
+      "detachment": "Coterie of the Conceited"
+    },
+    {
+      "name": "Pledge of Unholy Fortune",
+      "cost": 30,
+      "effect": "[EMPEROR'S CHILDREN model only] Once per turn, treat a Hit/Wound/Save roll as an unmodified 6 if not Battle-shocked.",
+      "detachment": "Coterie of the Conceited"
+    }
+  ],
+  "sourceNotes": "Detachment rules/Enhancements verified against Wahapedia wh40k11ed where marked; entries carried over from prior data are unverified placeholders pending confirmation."
+}
