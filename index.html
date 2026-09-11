@@ -2155,7 +2155,7 @@
     'ossiarch bonereapers': { c1:'#5a4a2a', c2:'#2a1a0a', accent:'#c4b478', img:'Ossiarch-bonereapers.jpg', icon:'Osshiarch-bonereapers.png' },
     'ogor mawtribes':       { c1:'#4a3a1a', c2:'#2a1a0a', accent:'#b48a3a', img:'Ogres.jpg', icon:'Ogre-mawtribes.png' },
     'orruk warclans':       { c1:'#2a3a1a', c2:'#1a1a0a', accent:'#8a8a3a', img:'Orruk-warclans.jpg', icon:'Orruk-warclans.png' },
-    'sons of behemat':      { c1:'#3a2a2a', c2:'#1a0a0a', accent:'#8a6a4a', img:'Sons-of-behamat.jpg', icon:'Sons-of-behamat.svg' }
+    'sons of behemat':      { c1:'#3a2a2a', c2:'#1a0a0a', accent:'#8a6a4a', img:'Sons-of-behamat.jpg', icon:'' }
   };
   // 40K has no official-art assets (can't ship GW artwork), so these are
   // procedurally generated abstract monogram badges instead — same lookup
@@ -2210,11 +2210,17 @@
       bg.style.background = `radial-gradient(ellipse at top, ${fb.c1}40 0%, ${fb.c2} 55%, #0a0b10 100%)`;
       bgImg.style.backgroundImage = `url(assets/${assetDir}/${fb.img})`;
       bgImg.style.opacity = is40k ? '0.5' : '1';
-      const iconUrl = `assets/${iconDir}/${fb.icon}`;
-      iconL.src = iconUrl;
-      iconR.src = iconUrl;
-      iconL.style.opacity = '1';
-      iconR.style.opacity = '1';
+      if (fb.icon) {
+        const iconUrl = `assets/${iconDir}/${fb.icon}`;
+        iconL.src = iconUrl;
+        iconR.src = iconUrl;
+        iconL.style.opacity = '1';
+        iconR.style.opacity = '1';
+      } else {
+        // No crest icon for this faction — background art only.
+        iconL.style.opacity = '0';
+        iconR.style.opacity = '0';
+      }
     } else if (!is40k && state.alliance && getSysConfig().allianceMeta[state.alliance]) {
       // Alliance selected but no faction: use alliance color + alliance icon
       // (40K has no alliance-level icon assets, so it falls through to the
