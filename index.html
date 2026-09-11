@@ -1377,20 +1377,27 @@
     position:fixed; inset:0; z-index:0; pointer-events:none;
     background: radial-gradient(ellipse at top, #1c2036 0%, #12141c 55%, #0a0b10 100%);
     transition: background 1.5s ease;
+    transform: translateZ(0);
   }
   #faction-bg-img{
     position:fixed; inset:0; z-index:0; pointer-events:none;
     background-size: cover; background-position: center; background-repeat: no-repeat;
     opacity:0; transition: opacity 1.5s ease;
+    will-change: opacity;
+    transform: translateZ(0);
+    backface-visibility: hidden;
   }
   #faction-icon-left, #faction-icon-right{
-    position:fixed; top:50%; transform:translateY(-50%);
+    position:fixed; top:50%;
     z-index:1; pointer-events:none;
     height:50vh; width:auto;
     opacity:0; transition:opacity 1.5s ease;
     mix-blend-mode:normal;
     object-fit:contain;
     filter: drop-shadow(0 0 6px rgba(255,255,255,0.5));
+    will-change: opacity;
+    transform: translateY(-50%) translateZ(0);
+    backface-visibility: hidden;
   }
   #faction-icon-left{ left:2vw; }
   #faction-icon-right{ right:2vw; }
@@ -1758,6 +1765,7 @@
 
     <div class="grim-toolbar">
       <input type="search" id="collSearch" class="grim-search" placeholder="Search units or factions...">
+      <select id="collAllianceFilter" class="grim-pick" style="max-width:200px; margin-bottom:0;"><option value="">— alliance/group —</option></select>
       <select id="collFactionFilter" class="grim-pick" style="max-width:240px; margin-bottom:0;"><option value="">— any faction —</option></select>
     </div>
 
@@ -2234,6 +2242,12 @@
       iconL.style.opacity = '0';
       iconR.style.opacity = '0';
     }
+    // Some browsers don't repaint position:fixed layers promptly after a
+    // style-only change (no layout impact) until something else forces a
+    // frame — nudge it explicitly so the art doesn't sit invisible until
+    // the user scrolls or resizes.
+    void bg.offsetHeight;
+    requestAnimationFrame(() => { void bgImg.offsetHeight; });
   }
 
   function effectiveQty(u){
@@ -4148,6 +4162,7 @@
     refreshClashPicker('b');
     renderAddUnitBrowser();
     populateRosterFactionOptions();
+    populateCollectionAllianceFilter();
     populateCollectionFactionFilter();
     renderCollection();
   }
@@ -4185,15 +4200,29 @@
     await storageSet(sysKey(COLLECTION_KEY), JSON.stringify(collection));
   }
 
+  function populateCollectionAllianceFilter(){
+    const sel = $('collAllianceFilter');
+    if (!sel) return;
+    const cfg = getSysConfig();
+    const cur = sel.value;
+    sel.innerHTML = '<option value="">— alliance/group —</option>' +
+      cfg.alliances.filter(a => a !== 'unaligned' && cfg.allianceMeta[a]).map(a => `<option value="${escapeAttr(a)}">${escapeHtml(cfg.allianceMeta[a].label)}</option>`).join('');
+    if (cfg.alliances.includes(cur)) sel.value = cur;
+  }
+
   function populateCollectionFactionFilter(){
     const sel = $('collFactionFilter');
     if (!sel) return;
+    const alliance = $('collAllianceFilter')?.value || '';
     const factions = new Set();
-    grimoire.forEach(e => { const f = (e.faction || '').trim(); if (f && !LEGACY_FACTIONS.has(f)) factions.add(f); });
+    grimoire.forEach(e => {
+      const f = (e.faction || '').trim();
+      if (f && !LEGACY_FACTIONS.has(f) && (!alliance || effectiveAlliance(e) === alliance)) factions.add(f);
+    });
     const sorted = Array.from(factions).sort((a, b) => a.localeCompare(b));
     const cur = sel.value;
     sel.innerHTML = '<option value="">— any faction —</option>' + sorted.map(f => `<option value="${escapeAttr(f)}">${escapeHtml(f)}</option>`).join('');
-    if (sorted.includes(cur)) sel.value = cur;
+    if (sorted.includes(cur)) sel.value = cur; else sel.value = '';
   }
 
   function renderCollection(){
@@ -4201,9 +4230,11 @@
     const summary = $('collectionSummary');
     if (!list || !summary) return;
     const q = ($('collSearch').value || '').trim().toLowerCase();
+    const aFilter = $('collAllianceFilter')?.value || '';
     const fFilter = $('collFactionFilter').value;
     let items = grimoire.filter(e => e.name);
     if (fFilter) items = items.filter(e => (e.faction || '').trim() === fFilter);
+    else if (aFilter) items = items.filter(e => effectiveAlliance(e) === aFilter);
     if (q) items = items.filter(e => (e.name || '').toLowerCase().includes(q) || (e.faction || '').toLowerCase().includes(q));
 
     let totalOwned = 0, unitTypesOwned = 0;
@@ -4214,7 +4245,7 @@
 
     const groups = groupByFaction(items);
     if (!groups.length) {
-      list.innerHTML = '<div class="enhancement-effect">No units match your search or faction filter.</div>';
+      list.innerHTML = '<div class="enhancement-effect">No units match your search or filters.</div>';
       return;
     }
     list.innerHTML = groups.map(g => `
@@ -4234,8 +4265,13 @@
   }
 
   const collSearchEl = $('collSearch');
+  const collAllianceFilterEl = $('collAllianceFilter');
   const collFactionFilterEl = $('collFactionFilter');
   if (collSearchEl) collSearchEl.addEventListener('input', renderCollection);
+  if (collAllianceFilterEl) collAllianceFilterEl.addEventListener('change', () => {
+    populateCollectionFactionFilter();
+    renderCollection();
+  });
   if (collFactionFilterEl) collFactionFilterEl.addEventListener('change', renderCollection);
   const collectionListEl = $('collectionList');
   if (collectionListEl) collectionListEl.addEventListener('change', (e) => {
