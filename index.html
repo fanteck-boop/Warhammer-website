@@ -1390,7 +1390,7 @@
   #faction-icon-left, #faction-icon-right{
     position:fixed; top:50%;
     z-index:1; pointer-events:none;
-    height:50vh; width:auto;
+    height:28vh; max-height:260px; width:auto;
     opacity:0; transition:opacity 1.5s ease;
     mix-blend-mode:normal;
     object-fit:contain;
@@ -2155,7 +2155,7 @@
     'ossiarch bonereapers': { c1:'#5a4a2a', c2:'#2a1a0a', accent:'#c4b478', img:'Ossiarch-bonereapers.jpg', icon:'Osshiarch-bonereapers.png' },
     'ogor mawtribes':       { c1:'#4a3a1a', c2:'#2a1a0a', accent:'#b48a3a', img:'Ogres.jpg', icon:'Ogre-mawtribes.png' },
     'orruk warclans':       { c1:'#2a3a1a', c2:'#1a1a0a', accent:'#8a8a3a', img:'Orruk-warclans.jpg', icon:'Orruk-warclans.png' },
-    'sons of behemat':      { c1:'#3a2a2a', c2:'#1a0a0a', accent:'#8a6a4a', img:'Sons-of-behamat.jpg', icon:'Sons-of-behamat.png' }
+    'sons of behemat':      { c1:'#3a2a2a', c2:'#1a0a0a', accent:'#8a6a4a', img:'Sons-of-behamat.jpg', icon:'Sons-of-behamat.svg' }
   };
   // 40K has no official-art assets (can't ship GW artwork), so these are
   // procedurally generated abstract monogram badges instead — same lookup
@@ -2245,9 +2245,21 @@
     // Some browsers don't repaint position:fixed layers promptly after a
     // style-only change (no layout impact) until something else forces a
     // frame — nudge it explicitly so the art doesn't sit invisible until
-    // the user scrolls or resizes.
+    // the user scrolls or resizes. Double rAF (not single) because a lone
+    // rAF can still land inside the same frame the style was set in on some
+    // engines, which doesn't reliably force the repaint.
     void bg.offsetHeight;
-    requestAnimationFrame(() => { void bgImg.offsetHeight; });
+    void bgImg.offsetHeight;
+    void iconL.offsetHeight;
+    void iconR.offsetHeight;
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        void bg.offsetHeight;
+        void bgImg.offsetHeight;
+        void iconL.offsetHeight;
+        void iconR.offsetHeight;
+      });
+    });
   }
 
   function effectiveQty(u){
