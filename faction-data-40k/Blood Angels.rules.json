@@ -1,0 +1,211 @@
+{
+  "faction": "Blood Angels",
+  "battleFormations": [
+    {
+      "name": "Liberator Assault Group",
+      "dp": 3,
+      "effect": "Red Thirst: Each time an ADEPTUS ASTARTES unit is selected to fight, if that unit made a Charge move this turn, until end of phase add 1 to the Attacks and add 2 to the Strength characteristic of melee weapons equipped by models in that unit. Restriction: army can include BLOOD ANGELS units only, no other Chapter's ADEPTUS ASTARTES units."
+    },
+    {
+      "name": "The Lost Brethren",
+      "dp": 2,
+      "effect": "A Noble Death in Combat: Each time a DEATH COMPANY model makes a melee attack, re-roll a Wound roll of 1 if that model's unit is below Starting Strength (re-roll the Wound roll instead if Below Half-strength). DEATH COMPANY MARINES and DEATH COMPANY MARINES WITH BOLT RIFLES units gain the BATTLELINE keyword. Restriction: army can include BLOOD ANGELS units only, no other Chapter's ADEPTUS ASTARTES units."
+    },
+    {
+      "name": "The Angelic Host",
+      "dp": 2,
+      "effect": "Upon Wings of Fire: At the end of your opponent's turn, select up to 1/2/3 (Incursion/Strike Force/Onslaught) ADEPTUS ASTARTES JUMP PACK units not within Engagement Range of enemies; remove them to Strategic Reserves and set them up again via Deep Strike in your next Movement phase. Restriction: army can include BLOOD ANGELS units only, no other Chapter's ADEPTUS ASTARTES units."
+    },
+    {
+      "name": "Angelic Inheritors",
+      "dp": 3,
+      "effect": "Legacy of the Angel: At the start of the first battle round, select two Angelic Legacy abilities (Sanguinary Grace: eligible to shoot/charge after Falling Back; Carmine Wrath: re-roll Hit/Wound rolls of 1; Their Appointed Hour: re-roll Advance/Charge rolls) to apply to all ADEPTUS ASTARTES CHARACTER units for the rest of the battle. Restriction: army can include BLOOD ANGELS units only, no other Chapter's ADEPTUS ASTARTES units."
+    },
+    {
+      "name": "Rage-cursed Onslaught",
+      "dp": 3,
+      "effect": "Maddened Ferocity: Each time an ADEPTUS ASTARTES model makes a melee attack, re-roll a Wound roll of 1. Each time an ADEPTUS ASTARTES unit is selected to fight, if it made a Charge move this turn, add 1 to the Attacks characteristic of melee weapons (add 2 instead if the unit is Battle-shocked) until end of phase. Restriction: army can include BLOOD ANGELS units only, no other Chapter's ADEPTUS ASTARTES units."
+    },
+    {
+      "name": "Legacy of Grace",
+      "dp": 1,
+      "effect": "Legacy of the Angel: Friendly BLOOD ANGELS INFANTRY CHARACTER units (excluding COMMANDER DANTE) have +1 to Advance rolls and Charge rolls. Has the GRACE tag; cannot be taken with another GRACE detachment. Restriction: army can include BLOOD ANGELS units only, no other Chapter's ADEPTUS ASTARTES units."
+    },
+    {
+      "name": "Encarmine Speartip",
+      "dp": 1,
+      "effect": "Wrath of Angels: When a friendly SANGUINARY GUARD unit is selected to make a Fall Back move, that move does not prevent it from being eligible to shoot or declare a charge. Restriction: army can include BLOOD ANGELS units only, no other Chapter's ADEPTUS ASTARTES units."
+    },
+    {
+      "name": "Wrath of the Doomed",
+      "dp": 1,
+      "effect": "Fanatical Celerity: When a friendly DEATH COMPANY unit is selected to Advance, you can choose for it to suffer D3+1 mortal wounds; if so, that move does not prevent it from being eligible to declare a charge. Has the DOOMED tag; cannot be taken with another DOOMED detachment. Restriction: army can include BLOOD ANGELS units only, no other Chapter's ADEPTUS ASTARTES units."
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "Speed of the Primarch",
+      "cost": 25,
+      "effect": "[ADEPTUS ASTARTES model only] Once per battle, at the start of the Fight phase, models in the bearer's unit have the Fights First ability until end of phase.",
+      "detachment": "Liberator Assault Group"
+    },
+    {
+      "name": "Rage-fuelled Warrior",
+      "cost": 35,
+      "effect": "[ADEPTUS ASTARTES model only] Once per battle, at the start of the Fight phase, the bearer's melee weapons have the [SUSTAINED HITS 3] ability until end of phase.",
+      "detachment": "Liberator Assault Group"
+    },
+    {
+      "name": "Icon of the Angel",
+      "cost": 20,
+      "effect": "[ADEPTUS ASTARTES model only] Enemy units (excluding MONSTERS/VEHICLES) within Engagement Range of the bearer's unit that Fall Back must take Desperate Escape tests as if Battle-shocked (with -1 if already Battle-shocked).",
+      "detachment": "Liberator Assault Group"
+    },
+    {
+      "name": "Gift of Foresight",
+      "cost": 15,
+      "effect": "[ADEPTUS ASTARTES model only] Once per battle round, treat a Hit roll, Wound roll or saving throw for the bearer as an unmodified 6.",
+      "detachment": "Liberator Assault Group"
+    },
+    {
+      "name": "Sanguinius' Grace",
+      "cost": 20,
+      "effect": "[DEATH COMPANY model only] Once per battle, at the end of the Fight phase, if within Engagement Range of three or more enemy models, the bearer can fight one additional time.",
+      "detachment": "The Lost Brethren"
+    },
+    {
+      "name": "Blood Shard",
+      "cost": 25,
+      "effect": "[DEATH COMPANY model only] The first time the bearer is destroyed, roll one D6 at end of phase: on a 2+, set it back up unengaged as close as possible with 3 wounds remaining.",
+      "detachment": "The Lost Brethren"
+    },
+    {
+      "name": "To Slay the Warmaster",
+      "cost": 15,
+      "effect": "[DEATH COMPANY model only] Once per battle, at the start of the Fight phase, if within Engagement Range of an enemy CHARACTER unit, roll six D6: each 4+ inflicts 1 mortal wound on a model in that unit.",
+      "detachment": "The Lost Brethren"
+    },
+    {
+      "name": "Vengeful Onslaught",
+      "cost": 10,
+      "effect": "[DEATH COMPANY model only] If the bearer is destroyed, until end of your next turn, add 1 to the Hit roll for attacks made by friendly DEATH COMPANY models.",
+      "detachment": "The Lost Brethren"
+    },
+    {
+      "name": "Artisan of War",
+      "cost": 20,
+      "effect": "[ADEPTUS ASTARTES JUMP PACK model only] Improve the Armour Penetration characteristic of the bearer's weapons by 1; the bearer has a Save characteristic of 2+.",
+      "detachment": "The Angelic Host"
+    },
+    {
+      "name": "Visage of Death",
+      "cost": 15,
+      "effect": "[ADEPTUS ASTARTES JUMP PACK model only] In the Battle-shock step of your opponent's Command phase, each enemy unit (excluding MONSTERS/VEHICLES) within Engagement Range of the bearer must take a Battle-shock test.",
+      "detachment": "The Angelic Host"
+    },
+    {
+      "name": "Archangel's Shard",
+      "cost": 15,
+      "effect": "[ADEPTUS ASTARTES JUMP PACK model only] The bearer's melee weapons have the [ANTI-CHAOS 5+] and [LANCE] abilities.",
+      "detachment": "The Angelic Host"
+    },
+    {
+      "name": "Gleaming Pinions",
+      "cost": 25,
+      "effect": "[ADEPTUS ASTARTES JUMP PACK model only] In your opponent's Movement phase, if an enemy unit ends a move within 8\" and the bearer's unit isn't within Engagement Range of an enemy, it can make a Normal move of up to 6\".",
+      "detachment": "The Angelic Host"
+    },
+    {
+      "name": "Prescient Flash",
+      "cost": 20,
+      "effect": "[ADEPTUS ASTARTES model only] Models in the bearer's unit have the Scouts 6\" ability.",
+      "detachment": "Angelic Inheritors"
+    },
+    {
+      "name": "Troubling Visions",
+      "cost": 15,
+      "effect": "[ADEPTUS ASTARTES model only] Once per battle, in your Command phase, all Angelic Legacy abilities become active for the bearer's unit (instead of only two) until your next Command phase.",
+      "detachment": "Angelic Inheritors"
+    },
+    {
+      "name": "Blazing Icon",
+      "cost": 20,
+      "effect": "[ADEPTUS ASTARTES INFANTRY model only] Enemy units cannot use the Fire Overwatch Stratagem to shoot at the bearer's unit.",
+      "detachment": "Angelic Inheritors"
+    },
+    {
+      "name": "Ordained Sacrifice",
+      "cost": 25,
+      "effect": "[ADEPTUS ASTARTES model only] The first time the bearer is destroyed, roll one D6 at end of phase: on a 2+, set it back up unengaged as close as possible with 3 wounds remaining.",
+      "detachment": "Angelic Inheritors"
+    },
+    {
+      "name": "Carmine Reliquary",
+      "cost": 30,
+      "effect": "[CHAPLAIN model only] Models in the bearer's unit have the Scouts 6\" ability. You can re-roll Battle-shock tests for ADEPTUS ASTARTES units within 6\" of the bearer.",
+      "detachment": "Rage-cursed Onslaught"
+    },
+    {
+      "name": "Master of the Red Thirst",
+      "cost": 25,
+      "effect": "[ADEPTUS ASTARTES model only] Once per battle, at the start of the Fight phase, models in the bearer's unit have the Fights First ability until end of phase.",
+      "detachment": "Rage-cursed Onslaught"
+    },
+    {
+      "name": "Sanguinary Tear",
+      "cost": 35,
+      "effect": "[ADEPTUS ASTARTES model only, Aura] While a friendly DEATH COMPANY unit is within 6\" of the bearer, add 1 to the Strength characteristic of weapons equipped by models in that unit.",
+      "detachment": "Rage-cursed Onslaught"
+    },
+    {
+      "name": "Angel's Fang",
+      "cost": 25,
+      "effect": "[ADEPTUS ASTARTES model only] Each time the bearer makes a melee attack that targets a CHARACTER, MONSTER or VEHICLE unit, that attack has the [SUSTAINED HITS 2] ability.",
+      "detachment": "Rage-cursed Onslaught"
+    },
+    {
+      "name": "Blood Boil",
+      "cost": 10,
+      "effect": "[ADEPTUS ASTARTES PSYKER model only] This model's [PSYCHIC] attacks have [ANTI: non-MONSTER/VEHICLE 5+] and can re-roll Damage rolls.",
+      "detachment": "Legacy of Grace"
+    },
+    {
+      "name": "Aureole of the Angel",
+      "cost": 20,
+      "effect": "[ADEPTUS ASTARTES model only] This unit has -3\" detection range.",
+      "detachment": "Legacy of Grace"
+    },
+    {
+      "name": "Angelic Executioner",
+      "cost": 25,
+      "effect": "[ADEPTUS ASTARTES JUMP PACK model only] When selected to fight, this unit's melee attacks have [LETHAL HITS] or [SUSTAINED HITS 1] (your choice).",
+      "detachment": "Encarmine Speartip"
+    },
+    {
+      "name": "Shadow of Abomination",
+      "cost": 25,
+      "effect": "[ADEPTUS ASTARTES JUMP PACK model only] Once per battle, when selected to fight, this model's melee attacks have +1 Damage.",
+      "detachment": "Encarmine Speartip"
+    },
+    {
+      "name": "Instinctive Interception",
+      "cost": 10,
+      "effect": "[DEATH COMPANY model only] When you target this unit with the Heroic Intervention Stratagem, that use costs 1 fewer CP.",
+      "detachment": "Wrath of the Doomed"
+    },
+    {
+      "name": "On the Archtraitor's Bridge",
+      "cost": 20,
+      "effect": "[DEATH COMPANY model only] This model's melee attacks have +2 Attacks.",
+      "detachment": "Wrath of the Doomed"
+    }
+  ],
+  "armyRules": [
+    {
+      "name": "The Sons of Sanguinius",
+      "effect": "If an ADEPTUS ASTARTES unit has a second Faction keyword on its datasheet, that is the unit's Chapter (e.g. Lemartes is BLOOD ANGELS). You cannot include units from more than one Chapter in your army."
+    }
+  ],
+  "sourceNotes": "Extracted from Wahapedia wh40k11ed Space Marines page, Blood Angels Codex Supplement section (Chapter filter: Blood Angels). Covers all 8 Blood Angels Detachments, the Army Rule (The Sons of Sanguinius), and Enhancements. Stratagems and base Codex: Space Marines Detachments not included (see Space Marines.rules.json for shared ADEPTUS ASTARTES detachments/Oath of Moment)."
+}

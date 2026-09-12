@@ -1,0 +1,2705 @@
+{
+  "legion": "Legions of Mordor",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/legions_of_mordor/",
+    "https://github.com/BSData/middle-earth (Rohan.cat/Mordor.cat/The_Easterlings.cat, publication: Armies of Lord of the Rings) for hero profiles/points/wargear/tiers"
+  ],
+  "additionalRules": [
+    "Mordor Warrior models can only be included in the Warband of a Mordor Hero.",
+    "Harad Warrior models can only be included in the Warband of a Harad Hero.",
+    "Easterling Warrior models can only be included in the Warband of an Easterling Hero.",
+    "Hero warband/follower system (current 'Armies of The Lord of the Rings' edition): each Hero anchors a warband of Independent (non-Hero) followers up to a cap set by their tier for this army list — Hero of Legend: up to 18 followers; Hero of Valour: up to 15; Hero of Fortitude: up to 12; Minor Hero: up to 6; Independent Hero: 0 (occupies a slot in another Hero's warband instead). The army's General is typically a Hero of Valour or Hero of Legend — check this army list's own requirements. Heroic tier is assigned per army list, not an inherent property of the hero."
+  ],
+  "specialRules": [
+    {
+      "name": "Bring the City to its Knees",
+      "text": "Friendly Hero models may re-roll To Wound Rolls of a natural 1 when making Strikes against an enemy Hero model."
+    }
+  ],
+  "units": [
+    {
+      "name": "Great Beast of Gorgoroth",
+      "points": 175,
+      "keywords": "GREAT BEAST | MORDOR | WAR BEAST | 120MM OVAL",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": 4,
+        "Sv": "6+",
+        "S": 6,
+        "D": 7,
+        "A": 3,
+        "W": 6,
+        "C": "7+",
+        "I": "8+",
+        "Might": 2,
+        "Will": 1,
+        "Fate": 1
+      },
+      "wargear": [
+        "Hooves (hand weapon)"
+      ],
+      "specialRules": [
+        {
+          "name": "Dominant (6)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Large Target",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Trample",
+          "type": "ACTIVE",
+          "text": "When a Great Beast Tramples, it will inflict 3 Strength 6 hits."
+        }
+      ],
+      "howdah": {
+        "profile": {
+          "Sv": "5+",
+          "D": 7,
+          "W": 9
+        },
+        "specialRules": [
+          {
+            "name": "Orc Archers",
+            "type": "PASSIVE",
+            "text": "The Orcs in the Howdah are not treated as separate models, and as such cannot be targeted individually. During the Shoot Phase, the Howdah can make a number of shooting attacks equal to its remaining Wounds, using its own Shoot Value. These shots are treated as being made with an Orc bow, can still be made if the Great Beast has Moved over half its Move Value, and do not suffer the -1 penalty for Moving and Shooting. Measure the range from the base of the Great Beast, and Line of Sight from the Commander."
+          }
+        ],
+        "commander": {
+          "name": "Orc Commander",
+          "profile": {
+            "Mv": "6\"",
+            "Fv": 4,
+            "Sv": "5+",
+            "S": 4,
+            "D": 5,
+            "A": 2,
+            "W": 2,
+            "C": "6+",
+            "I": "7+",
+            "Might": 2,
+            "Will": 1,
+            "Fate": 1
+          },
+          "wargear": [
+            "Armour",
+            "Spear"
+          ],
+          "heroicActions": [
+            "Heroic March"
+          ],
+          "specialRules": [
+            {
+              "name": "Plenty of Orcs",
+              "type": "PASSIVE",
+              "text": "If the Orc Commander would lose its last Wound whilst riding the Great Beast, then the Howdah will suffer the Wound instead (this represents an Orc from the Howdah taking command). If the Great Beast is slain, then the Orc Commander will also be slain and removed as a casualty."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "War Mumak of Harad",
+      "points": 250,
+      "keywords": "MUMAK | HARAD | WAR BEAST | 180X140MM",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": 4,
+        "Sv": "6+",
+        "S": 10,
+        "D": 7,
+        "A": 3,
+        "W": 10,
+        "C": "7+",
+        "I": "9+",
+        "Might": 2,
+        "Will": 1,
+        "Fate": 1
+      },
+      "wargear": [
+        "Tusks and Huge Stomping Feet (hand weapons)"
+      ],
+      "options": [
+        "Gnarled Hide - 25 points",
+        "Mahud Beastmaster Chieftain - 25 points",
+        "Rocks - 20 points",
+        "Sigils of Defiance - 20 points",
+        "Tusk Weapons - 20 points",
+        "Foul Temperament - 15 points",
+        "Rappelling Lines - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Dominant (10)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Large Target",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Trample",
+          "type": "ACTIVE",
+          "text": "When a Mûmak Tramples, it will inflict 3 Strength 9 Impact Hits."
+        },
+        {
+          "name": "Awesome Presence",
+          "type": "PASSIVE",
+          "text": "Friendly models treat this model as a banner with a range of 6\"."
+        }
+      ],
+      "howdah": {
+        "profile": {
+          "D": 9,
+          "W": 5
+        },
+        "commander": {
+          "name": "Haradrim Commander",
+          "profile": {
+            "Mv": "6\"",
+            "Fv": 4,
+            "Sv": "4+",
+            "S": 4,
+            "D": 5,
+            "A": 2,
+            "W": 2,
+            "C": "6+",
+            "I": "6+",
+            "Might": 2,
+            "Will": 1,
+            "Fate": 1
+          },
+          "wargear": [
+            "Armour",
+            "Spear"
+          ],
+          "heroicActions": [
+            "Heroic March"
+          ]
+        },
+        "mahudBeastmasterChieftainOption": {
+          "name": "Mahud Beastmaster Chieftain",
+          "note": "Replaces the Haradrim Commander, placed at the front of the Howdah.",
+          "profile": {
+            "Mv": "6\"",
+            "Fv": 5,
+            "Sv": "3+",
+            "S": 5,
+            "D": 5,
+            "A": 2,
+            "W": 2,
+            "C": "5+",
+            "I": "6+"
+          },
+          "wargear": [
+            "Armour",
+            "Spear",
+            "War Horn"
+          ],
+          "heroicActions": [
+            "Heroic March"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Abrakhan Merchant Guard",
+      "points": 9,
+      "keywords": "MAN | HARAD | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 4,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Two-handed Weapon"
+      ],
+      "specialRules": [
+        {
+          "name": "Burly",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Black Dragon Warrior",
+      "points": 10,
+      "keywords": "MAN | EASTERLING, BLACK DRAGON | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "6+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Shield",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Exchange Shield for Banner - 25 points",
+        "Easterling Halberd - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Easterling Halberd",
+          "type": "ACTIVE",
+          "text": "This can be used as either a pike or a two-handed weapon."
+        },
+        {
+          "name": "Phalanx",
+          "type": "ACTIVE",
+          "text": "A model with this special rule can use a pike and a shield at the same time without penalty. Additionally, should an Infantry model with this special rule lose a Combat, up to two friendly models with this special rule can Make Way instead of one."
+        },
+        {
+          "name": "Warriors of the Dragon Cult",
+          "type": "PASSIVE",
+          "text": "This model may only be included in the Warband of a Black Dragon Hero. Additionally, whilst within 3\" of a Black Dragon Hero, this model gains a bonus of +1 to their Fight Value."
+        }
+      ]
+    },
+    {
+      "name": "Black Numenorean Knight",
+      "points": 20,
+      "keywords": "MAN | MORDOR | WARRIOR, CAVALRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "6+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Lance",
+        "Shield",
+        "Armoured Horse"
+      ],
+      "options": [
+        "Exchange Lance for Banner - 25 points",
+        "Exchange Lance for War Horn - 25 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Visage of Terror",
+          "type": "PASSIVE",
+          "text": "If an enemy model attempts to Charge this model and fails its Courage Test as a result of the Terror special rule, then their Activation will immediately end rather than them just not being able to Move that turn. Models affected by this special rule cannot Shoot in the Shoot Phase, and cannot Move in the Fight Phase if part of a successful Heroic Combat, but may otherwise act normally in those phases."
+        }
+      ]
+    },
+    {
+      "name": "Black Numenorean Warrior",
+      "points": 10,
+      "keywords": "MAN | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "6+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "specialRules": [
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Visage of Terror",
+          "type": "PASSIVE",
+          "text": "If an enemy model attempts to Charge this model and fails its Courage Test as a result of the Terror special rule, then their Activation will immediately end rather than them just not being able to Move that turn. Models affected by this special rule cannot Shoot in the Shoot Phase, and cannot Move in the Fight Phase if part of a successful Heroic Combat, but may otherwise act normally in those phases."
+        }
+      ]
+    },
+    {
+      "name": "Easterling Kataphrakt",
+      "points": 15,
+      "keywords": "MAN | EASTERLING | WARRIOR, CAVALRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Shield",
+        "Hand Weapon",
+        "Armoured Horse"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Exchange Shield for War Drum (Easterling) - 25 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Phalanx",
+          "type": "ACTIVE",
+          "text": "A model with this special rule can use a pike and a shield at the same time without penalty. Additionally, should an Infantry model with this special rule lose a Combat, up to two friendly models with this special rule can Make Way instead of one."
+        },
+        {
+          "name": "The Gleaming Horde",
+          "type": "ACTIVE",
+          "text": "This model gains the Shieldwall special rule whilst they have the Cavalry keyword, and may still benefit from the special rule whilst mounted. The bonus of +1 Defence is applied to both rider and Mount. Hero models with this special rule that do not have a shield will still benefit from this special rule."
+        }
+      ]
+    },
+    {
+      "name": "Easterling Warrior",
+      "points": 8,
+      "keywords": "MAN | EASTERLING | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Easterling Halberd and Shield - 2 points",
+        "Shield - 1 point",
+        "Bow - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Easterling Halberd",
+          "type": "ACTIVE",
+          "text": "This can be used as either a pike or a two-handed weapon."
+        },
+        {
+          "name": "Phalanx",
+          "type": "ACTIVE",
+          "text": "A model with this special rule can use a pike and a shield at the same time without penalty. Additionally, should an Infantry model with this special rule lose a Combat, up to two friendly models with this special rule can Make Way instead of one."
+        }
+      ]
+    },
+    {
+      "name": "Haradrim Raider",
+      "points": 11,
+      "keywords": "MAN | HARAD | WARRIOR, CAVALRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Horse"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Bow & War Spear - 2 points",
+        "Bow - 1 point",
+        "War Spear - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Poisoned Attacks (Bow)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Haradrim Warrior",
+      "points": 6,
+      "keywords": "MAN | HARAD | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "War Horn - 25 points",
+        "Banner - 25 points",
+        "Bow - 1 point",
+        "Spear - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Poisoned Attacks (Bow)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Morannon Orc Warrior",
+      "points": 8,
+      "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 4,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Shield and Spear - 2 points",
+        "Shield - 1 point",
+        "Spear - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "End the Race of Men",
+          "type": "ACTIVE",
+          "text": "Whilst Engaged in Combat with an enemy Man model, this model gains a bonus of +1 to their Fight Value."
+        }
+      ]
+    },
+    {
+      "name": "Mordor Orc Warrior",
+      "points": 5,
+      "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "5+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Orc Bow - 1 point",
+        "Shield - 1 point",
+        "Spear - 1 point",
+        "Two-handed Weapon - 1 point"
+      ]
+    },
+    {
+      "name": "Mordor Troll",
+      "points": 90,
+      "keywords": "TROLL | MORDOR | WARRIOR, INFANTRY, MONSTER | 60MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 7,
+        "Sv": "5+",
+        "S": 7,
+        "D": 7,
+        "A": 3,
+        "W": 4,
+        "C": "6+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand-and-a-half Weapon"
+      ],
+      "options": [
+        "War Drum (Mordor) - 25 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Dominant (3)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 12\", Strength 8)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Watcher of Karna",
+      "points": 9,
+      "keywords": "MAN | HARAD | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "3+",
+        "S": 3,
+        "D": 3,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "5+"
+      },
+      "wargear": [
+        "Light Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Bow - 1 point",
+        "Twin Blades - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Hatred (Spirit)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Poisoned Attacks (Bow)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Twin Blades",
+          "type": "ACTIVE",
+          "text": "A Watcher of Karna with Twin Blades increases its Attacks to 2."
+        },
+        {
+          "name": "Steely Nerve",
+          "type": "ACTIVE",
+          "text": "Watchers of Karna gain a bonus of +2 to their Courage Test when attempting to Charge an enemy with the Terror special rule. Additionally, when an enemy model with the Blades of the Dead makes Strikes against this model, this model will treat its Courage value as 5+ rather than 7+ (before any modifiers are applied)."
+        }
+      ]
+    },
+    {
+      "name": "Mordor Siege Bow",
+      "points": 50,
+      "keywords": "SIEGE ENGINE | 40MM",
+      "profile": {
+        "range": "6\"-48\"",
+        "S": 8,
+        "D": 9,
+        "W": 3
+      },
+      "composition": "Crewed by three Mordor Orc Siege Crew, one of which is a Siege Veteran.",
+      "options": [
+        "Flaming Ammunition - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Direct Shot",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Flaming Ammunition",
+          "type": "",
+          "text": "A Siege Engine upgraded with Flaming Ammunition may re-roll any failed To Wound Rolls against a Siege Target."
+        },
+        {
+          "name": "Accurate",
+          "type": "ACTIVE",
+          "text": "A Mordor Siege Bow will only Scatter 3\" rather than 6\"."
+        },
+        {
+          "name": "Piercing Shot",
+          "type": "ACTIVE",
+          "text": "A model that is hit by the shot of a Mordor Siege Bow will be flung back D6\" directly away from the Siege Bow if it has a Strength of 5 or lower. Any model that is passed over by the flung model suffers a Strength 5 hit and will be knocked Prone. If the flung model comes into contact with a piece of impassable terrain or a model with a Strength of 6 or higher, then it will stop and both the flung model and the model or piece of terrain that was hit will suffer one Strength 6 hit. After being flung back, the flung model will be knocked Prone if they survive. If after the model is flung back it would finish over other models and it has survived, then simply move other models the minimum distance possible to allow the flung model to be placed where it has landed."
+        }
+      ],
+      "crew": {
+        "name": "Mordor Orc Siege Crew",
+        "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+        "profile": {
+          "Mv": "6\"",
+          "Fv": 3,
+          "Sv": "4+",
+          "S": 3,
+          "D": 4,
+          "A": 1,
+          "W": 1,
+          "C": "8+",
+          "I": "8+"
+        },
+        "wargear": [
+          "Armour",
+          "Hand Weapon"
+        ]
+      }
+    },
+    {
+      "name": "Mordor War Catapult",
+      "points": 150,
+      "keywords": "SIEGE ENGINE | 120MM",
+      "profile": {
+        "range": "12\"-96\"",
+        "S": 10,
+        "D": 10,
+        "W": 4
+      },
+      "composition": "Crewed by three Mordor Orc Siege Crew, one of which is a Siege Veteran, and a Mordor Siege Troll.",
+      "options": [
+        "Severed Heads - 20 points",
+        "Flaming Ammunition - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Arcing Shot",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Severed Heads",
+          "type": "",
+          "text": "If a Mordor War Catapult chooses to fire Severed Heads, determine the actual target as normal. Then, instead of rolling To Wound, the actual target and any enemy model within 3\" of them must each take a Courage Test. If the test is failed, the model flees and is removed as a casualty."
+        },
+        {
+          "name": "Flaming Ammunition",
+          "type": "",
+          "text": "A Siege Engine upgraded with Flaming Ammunition may re-roll any failed To Wound Rolls against a Siege Target."
+        },
+        {
+          "name": "Troll Loader",
+          "type": "ACTIVE",
+          "text": "If the Mordor Siege Troll is one of the models firing the Mordor War Catapult this turn, then the Mordor Siege Catapult may re-roll the To Hit Roll."
+        },
+        {
+          "name": "Area Effect",
+          "type": "ACTIVE",
+          "text": "After rolling To Hit against the actual target, if the actual target was a Battlefield Target then all other models within 2\" of the actual target suffer a Strength 5 hit and, if they survive, will be knocked Prone."
+        },
+        {
+          "name": "Wall-breaker",
+          "type": "ACTIVE",
+          "text": "When rolling To Wound against a Siege Target, a Mordor War Catapult makes 2 To Wound Rolls and picks the highest. Additionally, a successful To Wound Roll against a Siege Target will do D3 Wounds rather than 1."
+        }
+      ],
+      "crew": {
+        "name": "Mordor Orc Siege Crew",
+        "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+        "profile": {
+          "Mv": "6\"",
+          "Fv": 3,
+          "Sv": "4+",
+          "S": 3,
+          "D": 4,
+          "A": 1,
+          "W": 1,
+          "C": "8+",
+          "I": "8+"
+        },
+        "wargear": [
+          "Armour",
+          "Hand Weapon"
+        ]
+      },
+      "siegeTroll": {
+        "name": "Mordor Siege Troll",
+        "keywords": "TROLL | MORDOR | WARRIOR, INFANTRY, MONSTER | 60MM",
+        "profile": {
+          "Mv": "6\"",
+          "Fv": 7,
+          "Sv": "4+",
+          "S": 7,
+          "D": 6,
+          "A": 3,
+          "W": 4,
+          "C": "6+",
+          "I": "7+"
+        },
+        "wargear": [
+          "Hand Weapon"
+        ],
+        "specialRules": [
+          {
+            "name": "Dominant (3)",
+            "type": "",
+            "text": ""
+          },
+          {
+            "name": "Terror",
+            "type": "",
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "The Witch-king of Angmar",
+      "points": 70,
+      "heroicTier": "Hero of Legend",
+      "keywords": "SPIRIT, RINGWRAITH, MORDOR, ANGMAR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "6",
+        "Might": "0",
+        "Will": "10",
+        "Fate": "0"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Sword",
+        "Crown of Morgul",
+        "Mounts",
+        "Teeth and Claws"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Channelling",
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [
+        {
+          "power": "Your Staff is Broken",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range, so long as they have a staff. This power destroys the staff of the target model. All the advantages associated with the staff are immediately lost (including the hand-and-a-half weapon bonus). The target additionally suffers a Strength 7 hit."
+        },
+        {
+          "power": "Sap Will",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately loses D3 Will point. If the target is a Cavalry model, the caster must choose whether the rider or the mount loses the Will. The target loses D6 Will points."
+        },
+        {
+          "power": "Instill Fear",
+          "duration": "Instant",
+          "text": "This power targets all enemy models within range. Each affected model must take a Courage test, in an order chosen by the caster; if the test is failed then the model must move its maximum Move distance directly away from the caster. If the model comes into contact with another model, or impassable terrain, then it will stop so it is not in base contact with it. If a model comes into base contact with the edge of the board, they will immediately stop moving; this will not allow or force models to leave the board in Scenarios where models may leave the board. Models that fail a Courage test due to the effects of this Magical Power may then move no further that turn, for any reason. Courage tests caused by this Magical Power are taken on 3D6, discarding the highest result."
+        },
+        {
+          "power": "Immobilise/Transfix",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. While this power is in effect, the target model may not move (except to Back Away should they lose a Fight), shoot, cast Magical Powers, declare Heroic Actions, call a Stand Fast! or use Active abilities and may not Strike if they win a Duel. Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (rounding up)."
+        },
+        {
+          "power": "Drain Courage",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately reduces their Courage characteristic by 1 for the remainder of the battle, to a minimum of 1. This power can take effect multiple times over the course of a battle, reducing the target's Courage each time. If the target is a Cavalry model, the caster must choose whether the rider or the mount reduces their Courage value. The target's Courage is instead reduced by D3."
+        },
+        {
+          "power": "Command/Compel",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. The caster may move the target model up to half of its maximum Move distance. They can do this even if the model has already moved this turn. The move cannot force the targat to jump, leap, climb, dismount or lie down, but it can take them into difficult terrain, and even make them Charge an enemy. No Courage test is required to Charge Terror-causing foes (See page 107). It can even force an unengaged victim to drop an object (but not wargear) that it is holding or to put on The One Ring (if they carry it). Once the target has finished the move, it may move no further that turn for any reason.  Finally, the target suffers the effect of the Immobilise/Transifx magical power (see page 98). Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (Rounding up), and may not Strike if they win a Duel."
+        },
+        {
+          "power": "Black Dart",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately suffers one Strength 9 hit. Do not roll To Hit or for In The Way tests. If the target is a Cavalry model then the Attacker must choose whether the rider or the mount is hit. This power can still be used on a target that is Engaged in combat. A wounding hit will cause D3 Wounds rather than 1."
+        }
+      ],
+      "options": [
+        "Extra Will - 5 points",
+        "Extra Might - 5 points",
+        "Extra Fate - 5 points",
+        "Morgal Blade - 10 points",
+        "Two-handed Flail - 5 points",
+        "Armoured Fell Beast - 70 points",
+        "Horse - 10 points",
+        "Armoured Horse - 15 points",
+        "Fell Beast - 50 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Crown of Morgul",
+          "type": "ACTIVE",
+          "text": "If the Witch-king has the Crown of Morgul, his Attack value is increased to 3. Additionally, whilst wearing the Crown of Morgul, the Witch-king of Angmar can choose to re-roll one dice when making Casting or Resist tests."
+        },
+        {
+          "name": "Will of Evil (Passive)",
+          "type": "",
+          "text": "This model must give up 1 point of Will at the end of the Fight phase if it has been involved in one or more Fights that turn. Note that if a model is in base contact with an enemy model then it must fight - it cannot choose not to fight! Once the model is reduced to 0 Will points, it is banished and therefore removed as a casualty. If a model with this special rule uses their last Will points to cast a Magical Power with the Instant duration, the effects of the Magical Power will be resolved before the model is removed as a casualty.\n\nAdditionally, a Hero wearing The One Ring is not invisible to this model as they are to others. Furthermore, this model does not need to give up a point of Will if they are fighting a model wearing the Ring - not even if other enemy models are included as part of a Multiple Combat."
+        },
+        {
+          "name": "Terror (Passive)",
+          "type": "",
+          "text": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\n\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are affected are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terrior in all Orc models."
+        },
+        {
+          "name": "Harbinger of Evil (Passive)",
+          "type": "",
+          "text": "An enemy model within 12\" of this model suffers a -1 penalty to its Courage. Note, this is not cumulative with other similar penalties such as those provided by Goblin Drums, The Harbinger of Evil special rule and so on."
+        }
+      ]
+    },
+    {
+      "name": "The Tainted",
+      "points": 120,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH, MORDOR, ANGMAR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "6",
+        "Might": "2",
+        "Will": "14",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Sword",
+        "Heavy Armour",
+        "Mounts",
+        "Teeth and Claws"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        {
+          "power": "Sap Will",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately loses D3 Will point. If the target is a Cavalry model, the caster must choose whether the rider or the mount loses the Will. The target loses D6 Will points."
+        },
+        {
+          "power": "Instill Fear",
+          "duration": "Instant",
+          "text": "This power targets all enemy models within range. Each affected model must take a Courage test, in an order chosen by the caster; if the test is failed then the model must move its maximum Move distance directly away from the caster. If the model comes into contact with another model, or impassable terrain, then it will stop so it is not in base contact with it. If a model comes into base contact with the edge of the board, they will immediately stop moving; this will not allow or force models to leave the board in Scenarios where models may leave the board. Models that fail a Courage test due to the effects of this Magical Power may then move no further that turn, for any reason. Courage tests caused by this Magical Power are taken on 3D6, discarding the highest result."
+        },
+        {
+          "power": "Immobilise/Transfix",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. While this power is in effect, the target model may not move (except to Back Away should they lose a Fight), shoot, cast Magical Powers, declare Heroic Actions, call a Stand Fast! or use Active abilities and may not Strike if they win a Duel. Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (rounding up)."
+        },
+        {
+          "power": "Drain Courage",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately reduces their Courage characteristic by 1 for the remainder of the battle, to a minimum of 1. This power can take effect multiple times over the course of a battle, reducing the target's Courage each time. If the target is a Cavalry model, the caster must choose whether the rider or the mount reduces their Courage value. The target's Courage is instead reduced by D3."
+        },
+        {
+          "power": "Command/Compel",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. The caster may move the target model up to half of its maximum Move distance. They can do this even if the model has already moved this turn. The move cannot force the targat to jump, leap, climb, dismount or lie down, but it can take them into difficult terrain, and even make them Charge an enemy. No Courage test is required to Charge Terror-causing foes (See page 107). It can even force an unengaged victim to drop an object (but not wargear) that it is holding or to put on The One Ring (if they carry it). Once the target has finished the move, it may move no further that turn for any reason.  Finally, the target suffers the effect of the Immobilise/Transifx magical power (see page 98). Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (Rounding up), and may not Strike if they win a Duel."
+        },
+        {
+          "power": "Black Dart",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately suffers one Strength 9 hit. Do not roll To Hit or for In The Way tests. If the target is a Cavalry model then the Attacker must choose whether the rider or the mount is hit. This power can still be used on a target that is Engaged in combat. A wounding hit will cause D3 Wounds rather than 1."
+        }
+      ],
+      "options": [
+        "Armoured Fell Beast - 70 points",
+        "Horse - 10 points",
+        "Armoured Horse - 15 points",
+        "Fell Beast - 50 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Will of Evil (Passive)",
+          "type": "",
+          "text": "This model must give up 1 point of Will at the end of the Fight phase if it has been involved in one or more Fights that turn. Note that if a model is in base contact with an enemy model then it must fight - it cannot choose not to fight! Once the model is reduced to 0 Will points, it is banished and therefore removed as a casualty. If a model with this special rule uses their last Will points to cast a Magical Power with the Instant duration, the effects of the Magical Power will be resolved before the model is removed as a casualty.\n\nAdditionally, a Hero wearing The One Ring is not invisible to this model as they are to others. Furthermore, this model does not need to give up a point of Will if they are fighting a model wearing the Ring - not even if other enemy models are included as part of a Multiple Combat."
+        },
+        {
+          "name": "Terror (Passive)",
+          "type": "",
+          "text": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\n\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are affected are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terrior in all Orc models."
+        },
+        {
+          "name": "Harbinger of Evil (Passive)",
+          "type": "",
+          "text": "An enemy model within 12\" of this model suffers a -1 penalty to its Courage. Note, this is not cumulative with other similar penalties such as those provided by Goblin Drums, The Harbinger of Evil special rule and so on."
+        }
+      ]
+    },
+    {
+      "name": "The Dwimmerlaik",
+      "points": 120,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH, MORDOR, ANGMAR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "6",
+        "Might": "0",
+        "Will": "16",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Two-Handed Sword",
+        "Mounts",
+        "Teeth and Claws"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        {
+          "power": "Sap Will",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately loses D3 Will point. If the target is a Cavalry model, the caster must choose whether the rider or the mount loses the Will. The target loses D6 Will points."
+        },
+        {
+          "power": "Instill Fear",
+          "duration": "Instant",
+          "text": "This power targets all enemy models within range. Each affected model must take a Courage test, in an order chosen by the caster; if the test is failed then the model must move its maximum Move distance directly away from the caster. If the model comes into contact with another model, or impassable terrain, then it will stop so it is not in base contact with it. If a model comes into base contact with the edge of the board, they will immediately stop moving; this will not allow or force models to leave the board in Scenarios where models may leave the board. Models that fail a Courage test due to the effects of this Magical Power may then move no further that turn, for any reason. Courage tests caused by this Magical Power are taken on 3D6, discarding the highest result."
+        },
+        {
+          "power": "Immobilise/Transfix",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. While this power is in effect, the target model may not move (except to Back Away should they lose a Fight), shoot, cast Magical Powers, declare Heroic Actions, call a Stand Fast! or use Active abilities and may not Strike if they win a Duel. Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (rounding up)."
+        },
+        {
+          "power": "Drain Courage",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately reduces their Courage characteristic by 1 for the remainder of the battle, to a minimum of 1. This power can take effect multiple times over the course of a battle, reducing the target's Courage each time. If the target is a Cavalry model, the caster must choose whether the rider or the mount reduces their Courage value. The target's Courage is instead reduced by D3."
+        },
+        {
+          "power": "Command/Compel",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. The caster may move the target model up to half of its maximum Move distance. They can do this even if the model has already moved this turn. The move cannot force the targat to jump, leap, climb, dismount or lie down, but it can take them into difficult terrain, and even make them Charge an enemy. No Courage test is required to Charge Terror-causing foes (See page 107). It can even force an unengaged victim to drop an object (but not wargear) that it is holding or to put on The One Ring (if they carry it). Once the target has finished the move, it may move no further that turn for any reason.  Finally, the target suffers the effect of the Immobilise/Transifx magical power (see page 98). Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (Rounding up), and may not Strike if they win a Duel."
+        },
+        {
+          "power": "Black Dart",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately suffers one Strength 9 hit. Do not roll To Hit or for In The Way tests. If the target is a Cavalry model then the Attacker must choose whether the rider or the mount is hit. This power can still be used on a target that is Engaged in combat. A wounding hit will cause D3 Wounds rather than 1."
+        }
+      ],
+      "options": [
+        "Armoured Fell Beast - 70 points",
+        "Horse - 10 points",
+        "Armoured Horse - 15 points",
+        "Fell Beast - 50 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Will of Evil (Passive)",
+          "type": "",
+          "text": "This model must give up 1 point of Will at the end of the Fight phase if it has been involved in one or more Fights that turn. Note that if a model is in base contact with an enemy model then it must fight - it cannot choose not to fight! Once the model is reduced to 0 Will points, it is banished and therefore removed as a casualty. If a model with this special rule uses their last Will points to cast a Magical Power with the Instant duration, the effects of the Magical Power will be resolved before the model is removed as a casualty.\n\nAdditionally, a Hero wearing The One Ring is not invisible to this model as they are to others. Furthermore, this model does not need to give up a point of Will if they are fighting a model wearing the Ring - not even if other enemy models are included as part of a Multiple Combat."
+        },
+        {
+          "name": "Terror (Passive)",
+          "type": "",
+          "text": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\n\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are affected are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terrior in all Orc models."
+        },
+        {
+          "name": "Harbinger of Evil (Passive)",
+          "type": "",
+          "text": "An enemy model within 12\" of this model suffers a -1 penalty to its Courage. Note, this is not cumulative with other similar penalties such as those provided by Goblin Drums, The Harbinger of Evil special rule and so on."
+        }
+      ]
+    },
+    {
+      "name": "Orc Captain",
+      "points": 40,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "3",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Weapon",
+        "Pick",
+        "Sword"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Warg - 10 points",
+        "Shield - 5 points",
+        "Orc Bow - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature (Active)",
+          "type": "ACTIVE",
+          "text": "An Infantry model with this special rule may move through woods and forests that are classified as difficult terrain as if they are open ground. Note that this doesn't mean they can automatically climb terrain in those areas, nor move through any tree trunks or jump falled Obstacles."
+        },
+        {
+          "name": "Hatred (Active)",
+          "type": "ACTIVE",
+          "text": "A model with this special rule adds 1 to their To Wound rolls when fighting in combat against the models with the keyword listed in the brackets in its profile. For example, a model that has the Hatred (Man) special rule will get +1 to their To Wound rolls against all models with the Man keyword. A model that has the Hatred (Mordor) special rule will get +1 to their To Wound rolls against all models with the Mordor keyword."
+        }
+      ]
+    },
+    {
+      "name": "Orc Shaman",
+      "points": 50,
+      "heroicTier": "Minor Hero",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "5",
+        "A": "1",
+        "W": "2",
+        "C": "3",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Spear",
+        "Dagger",
+        "Heavy Armour"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        {
+          "power": "Immobilise/Transfix",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. While this power is in effect, the target model may not move (except to Back Away should they lose a Fight), shoot, cast Magical Powers, declare Heroic Actions, call a Stand Fast! or use Active abilities and may not Strike if they win a Duel. Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (rounding up)."
+        },
+        {
+          "power": "Fury ",
+          "duration": "Exhaustion",
+          "text": "Every model with this Magical Power will have a bracket after Fury denoting the models that will be affected by the power (e.g., Fury (Goblin)). This power targets all friendly models within 6\" that are included in the bracket. Note that if there is more than one keyword within the brackets, then a model must have all the keywords to benefit from Fury. Whilst this power is in effect, all targets will automatically pass any Courage tests they are required to make. In the case of Cavalry models, a degree of common sense is required when applying this effect. For example, if a Mordor Orc Shaman casts Fury (Mordor Orc) and a Warg Rider is within range of the Magical Power, only the Orc rider will feel the benefits as only the rider is a Mordor Orc. Additionally, each time a target suffers a Wound whilst within range of at least one friendly model that has cast Fury, roll a D6. On the roll of a 6, the target ignores the Wound exactly as if a point on Fate has been spent. This roll is taken immediately after the Wound has been suffered, can be taken before Fate rolls are made and Might may be used to influence it."
+        }
+      ],
+      "options": [
+        "Warg - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature (Active)",
+          "type": "ACTIVE",
+          "text": "An Infantry model with this special rule may move through woods and forests that are classified as difficult terrain as if they are open ground. Note that this doesn't mean they can automatically climb terrain in those areas, nor move through any tree trunks or jump falled Obstacles."
+        },
+        {
+          "name": "Hatred (Active)",
+          "type": "ACTIVE",
+          "text": "A model with this special rule adds 1 to their To Wound rolls when fighting in combat against the models with the keyword listed in the brackets in its profile. For example, a model that has the Hatred (Man) special rule will get +1 to their To Wound rolls against all models with the Man keyword. A model that has the Hatred (Mordor) special rule will get +1 to their To Wound rolls against all models with the Mordor keyword."
+        }
+      ]
+    },
+    {
+      "name": "Ringwraith",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "SPIRIT, RINGWRAITH, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "6",
+        "Might": "0",
+        "Will": "7",
+        "Fate": "0"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Sword",
+        "Mounts",
+        "Teeth and Claws"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        {
+          "power": "Sap Will",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately loses D3 Will point. If the target is a Cavalry model, the caster must choose whether the rider or the mount loses the Will. The target loses D6 Will points."
+        },
+        {
+          "power": "Instill Fear",
+          "duration": "Instant",
+          "text": "This power targets all enemy models within range. Each affected model must take a Courage test, in an order chosen by the caster; if the test is failed then the model must move its maximum Move distance directly away from the caster. If the model comes into contact with another model, or impassable terrain, then it will stop so it is not in base contact with it. If a model comes into base contact with the edge of the board, they will immediately stop moving; this will not allow or force models to leave the board in Scenarios where models may leave the board. Models that fail a Courage test due to the effects of this Magical Power may then move no further that turn, for any reason. Courage tests caused by this Magical Power are taken on 3D6, discarding the highest result."
+        },
+        {
+          "power": "Immobilise/Transfix",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. While this power is in effect, the target model may not move (except to Back Away should they lose a Fight), shoot, cast Magical Powers, declare Heroic Actions, call a Stand Fast! or use Active abilities and may not Strike if they win a Duel. Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (rounding up)."
+        },
+        {
+          "power": "Drain Courage",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately reduces their Courage characteristic by 1 for the remainder of the battle, to a minimum of 1. This power can take effect multiple times over the course of a battle, reducing the target's Courage each time. If the target is a Cavalry model, the caster must choose whether the rider or the mount reduces their Courage value. The target's Courage is instead reduced by D3."
+        },
+        {
+          "power": "Command/Compel",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. The caster may move the target model up to half of its maximum Move distance. They can do this even if the model has already moved this turn. The move cannot force the targat to jump, leap, climb, dismount or lie down, but it can take them into difficult terrain, and even make them Charge an enemy. No Courage test is required to Charge Terror-causing foes (See page 107). It can even force an unengaged victim to drop an object (but not wargear) that it is holding or to put on The One Ring (if they carry it). Once the target has finished the move, it may move no further that turn for any reason.  Finally, the target suffers the effect of the Immobilise/Transifx magical power (see page 98). Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (Rounding up), and may not Strike if they win a Duel."
+        },
+        {
+          "power": "Black Dart",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately suffers one Strength 9 hit. Do not roll To Hit or for In The Way tests. If the target is a Cavalry model then the Attacker must choose whether the rider or the mount is hit. This power can still be used on a target that is Engaged in combat. A wounding hit will cause D3 Wounds rather than 1."
+        }
+      ],
+      "options": [
+        "Extra Will - 5 points",
+        "Extra Might - 5 points",
+        "Extra Fate - 5 points",
+        "Armoured Fell Beast - 70 points",
+        "Horse - 10 points",
+        "Armoured Horse - 15 points",
+        "Fell Beast - 50 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Will of Evil (Passive)",
+          "type": "",
+          "text": "This model must give up 1 point of Will at the end of the Fight phase if it has been involved in one or more Fights that turn. Note that if a model is in base contact with an enemy model then it must fight - it cannot choose not to fight! Once the model is reduced to 0 Will points, it is banished and therefore removed as a casualty. If a model with this special rule uses their last Will points to cast a Magical Power with the Instant duration, the effects of the Magical Power will be resolved before the model is removed as a casualty.\n\nAdditionally, a Hero wearing The One Ring is not invisible to this model as they are to others. Furthermore, this model does not need to give up a point of Will if they are fighting a model wearing the Ring - not even if other enemy models are included as part of a Multiple Combat."
+        },
+        {
+          "name": "Terror (Passive)",
+          "type": "",
+          "text": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\n\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are affected are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terrior in all Orc models."
+        },
+        {
+          "name": "Harbinger of Evil (Passive)",
+          "type": "",
+          "text": "An enemy model within 12\" of this model suffers a -1 penalty to its Courage. Note, this is not cumulative with other similar penalties such as those provided by Goblin Drums, The Harbinger of Evil special rule and so on."
+        }
+      ]
+    },
+    {
+      "name": "Orc Taskmaster",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "3",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Mace",
+        "Whip"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": [
+        {
+          "name": "Woodland Creature (Active)",
+          "type": "ACTIVE",
+          "text": "An Infantry model with this special rule may move through woods and forests that are classified as difficult terrain as if they are open ground. Note that this doesn't mean they can automatically climb terrain in those areas, nor move through any tree trunks or jump falled Obstacles."
+        },
+        {
+          "name": "Hatred (Active)",
+          "type": "ACTIVE",
+          "text": "A model with this special rule adds 1 to their To Wound rolls when fighting in combat against the models with the keyword listed in the brackets in its profile. For example, a model that has the Hatred (Man) special rule will get +1 to their To Wound rolls against all models with the Man keyword. A model that has the Hatred (Mordor) special rule will get +1 to their To Wound rolls against all models with the Mordor keyword."
+        },
+        {
+          "name": "Whip of the Masters (Active)",
+          "type": "ACTIVE",
+          "text": "Each time a friendly Hero model within 6\" of the Taskmaster from the same army list, including the Taskmaster, attempts a Heroic Move, Heroic March or a Heroic Shoot, roll a D6. On a 4+, they may call the declared Heroic Action without expending Might."
+        }
+      ]
+    },
+    {
+      "name": "Black Númenórean Marshal",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "5",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Shield",
+        "Heavy Armour",
+        "Sword"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Two-handed Weapon - 5 points",
+        "Armoured Horse - 15 points",
+        "Lance - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Terror (Passive)",
+          "type": "",
+          "text": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\n\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are affected are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terrior in all Orc models."
+        }
+      ]
+    },
+    {
+      "name": "Mordor Troll Chieftain",
+      "points": 140,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "TROLL, MORDOR, MONSTER, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "5+",
+        "S": "7",
+        "D": "8",
+        "A": "3",
+        "W": "3",
+        "C": "4",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Sword",
+        "Heavy Armour"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": [
+        {
+          "name": "Throw Stones (Active)",
+          "type": "ACTIVE",
+          "text": "If this model does not move at all during the Move phase, then in the Shoot phase it may make a shooting attack with the Strength and range specified in the model's profile."
+        },
+        {
+          "name": "Terror (Passive)",
+          "type": "",
+          "text": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\n\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are affected are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terrior in all Orc models."
+        }
+      ]
+    },
+    {
+      "name": "The Knight of Umbar",
+      "points": 120,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "6",
+        "Might": "2",
+        "Will": "12",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Armour of the Sundered Land",
+        "Sword",
+        "Mounts",
+        "Teeth and Claws"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        {
+          "power": "Sap Will",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately loses D3 Will point. If the target is a Cavalry model, the caster must choose whether the rider or the mount loses the Will. The target loses D6 Will points."
+        },
+        {
+          "power": "Instill Fear",
+          "duration": "Instant",
+          "text": "This power targets all enemy models within range. Each affected model must take a Courage test, in an order chosen by the caster; if the test is failed then the model must move its maximum Move distance directly away from the caster. If the model comes into contact with another model, or impassable terrain, then it will stop so it is not in base contact with it. If a model comes into base contact with the edge of the board, they will immediately stop moving; this will not allow or force models to leave the board in Scenarios where models may leave the board. Models that fail a Courage test due to the effects of this Magical Power may then move no further that turn, for any reason. Courage tests caused by this Magical Power are taken on 3D6, discarding the highest result."
+        },
+        {
+          "power": "Immobilise/Transfix",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. While this power is in effect, the target model may not move (except to Back Away should they lose a Fight), shoot, cast Magical Powers, declare Heroic Actions, call a Stand Fast! or use Active abilities and may not Strike if they win a Duel. Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (rounding up)."
+        },
+        {
+          "power": "Drain Courage",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately reduces their Courage characteristic by 1 for the remainder of the battle, to a minimum of 1. This power can take effect multiple times over the course of a battle, reducing the target's Courage each time. If the target is a Cavalry model, the caster must choose whether the rider or the mount reduces their Courage value. The target's Courage is instead reduced by D3."
+        },
+        {
+          "power": "Command/Compel",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. The caster may move the target model up to half of its maximum Move distance. They can do this even if the model has already moved this turn. The move cannot force the targat to jump, leap, climb, dismount or lie down, but it can take them into difficult terrain, and even make them Charge an enemy. No Courage test is required to Charge Terror-causing foes (See page 107). It can even force an unengaged victim to drop an object (but not wargear) that it is holding or to put on The One Ring (if they carry it). Once the target has finished the move, it may move no further that turn for any reason.  Finally, the target suffers the effect of the Immobilise/Transifx magical power (see page 98). Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (Rounding up), and may not Strike if they win a Duel."
+        },
+        {
+          "power": "Black Dart",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately suffers one Strength 9 hit. Do not roll To Hit or for In The Way tests. If the target is a Cavalry model then the Attacker must choose whether the rider or the mount is hit. This power can still be used on a target that is Engaged in combat. A wounding hit will cause D3 Wounds rather than 1."
+        }
+      ],
+      "options": [
+        "Armoured Fell Beast - 70 points",
+        "Horse - 10 points",
+        "Armoured Horse - 15 points",
+        "Fell Beast - 50 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Armour of the Sundered Land",
+          "type": "ACTIVE",
+          "text": "The Knight of Umbar only loses a point of Will for having been in a Fight if he loses a Fight during the Fight phase (for example, if he doesn't win the Duel roll to see which side may make Strikes)."
+        },
+        {
+          "name": "Will of Evil (Passive)",
+          "type": "",
+          "text": "This model must give up 1 point of Will at the end of the Fight phase if it has been involved in one or more Fights that turn. Note that if a model is in base contact with an enemy model then it must fight - it cannot choose not to fight! Once the model is reduced to 0 Will points, it is banished and therefore removed as a casualty. If a model with this special rule uses their last Will points to cast a Magical Power with the Instant duration, the effects of the Magical Power will be resolved before the model is removed as a casualty.\n\nAdditionally, a Hero wearing The One Ring is not invisible to this model as they are to others. Furthermore, this model does not need to give up a point of Will if they are fighting a model wearing the Ring - not even if other enemy models are included as part of a Multiple Combat."
+        },
+        {
+          "name": "Terror (Passive)",
+          "type": "",
+          "text": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\n\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are affected are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terrior in all Orc models."
+        },
+        {
+          "name": "Harbinger of Evil (Passive)",
+          "type": "",
+          "text": "An enemy model within 12\" of this model suffers a -1 penalty to its Courage. Note, this is not cumulative with other similar penalties such as those provided by Goblin Drums, The Harbinger of Evil special rule and so on."
+        }
+      ]
+    },
+    {
+      "name": "Khamûl The Easterling",
+      "points": 120,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH, EASTERLING, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "6",
+        "Might": "2",
+        "Will": "12",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Sword",
+        "Mounts",
+        "Teeth and Claws"
+      ],
+      "heroicActions": [
+        "Heroic Channelling",
+        "Heroic Strike",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [
+        {
+          "power": "Sap Will",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately loses D3 Will point. If the target is a Cavalry model, the caster must choose whether the rider or the mount loses the Will. The target loses D6 Will points."
+        },
+        {
+          "power": "Instill Fear",
+          "duration": "Instant",
+          "text": "This power targets all enemy models within range. Each affected model must take a Courage test, in an order chosen by the caster; if the test is failed then the model must move its maximum Move distance directly away from the caster. If the model comes into contact with another model, or impassable terrain, then it will stop so it is not in base contact with it. If a model comes into base contact with the edge of the board, they will immediately stop moving; this will not allow or force models to leave the board in Scenarios where models may leave the board. Models that fail a Courage test due to the effects of this Magical Power may then move no further that turn, for any reason. Courage tests caused by this Magical Power are taken on 3D6, discarding the highest result."
+        },
+        {
+          "power": "Immobilise/Transfix",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. While this power is in effect, the target model may not move (except to Back Away should they lose a Fight), shoot, cast Magical Powers, declare Heroic Actions, call a Stand Fast! or use Active abilities and may not Strike if they win a Duel. Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (rounding up)."
+        },
+        {
+          "power": "Drain Courage",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately reduces their Courage characteristic by 1 for the remainder of the battle, to a minimum of 1. This power can take effect multiple times over the course of a battle, reducing the target's Courage each time. If the target is a Cavalry model, the caster must choose whether the rider or the mount reduces their Courage value. The target's Courage is instead reduced by D3."
+        },
+        {
+          "power": "Command/Compel",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. The caster may move the target model up to half of its maximum Move distance. They can do this even if the model has already moved this turn. The move cannot force the targat to jump, leap, climb, dismount or lie down, but it can take them into difficult terrain, and even make them Charge an enemy. No Courage test is required to Charge Terror-causing foes (See page 107). It can even force an unengaged victim to drop an object (but not wargear) that it is holding or to put on The One Ring (if they carry it). Once the target has finished the move, it may move no further that turn for any reason.  Finally, the target suffers the effect of the Immobilise/Transifx magical power (see page 98). Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (Rounding up), and may not Strike if they win a Duel."
+        },
+        {
+          "power": "Black Dart",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately suffers one Strength 9 hit. Do not roll To Hit or for In The Way tests. If the target is a Cavalry model then the Attacker must choose whether the rider or the mount is hit. This power can still be used on a target that is Engaged in combat. A wounding hit will cause D3 Wounds rather than 1."
+        }
+      ],
+      "options": [
+        "Armoured Fell Beast - 70 points",
+        "Horse - 10 points",
+        "Armoured Horse - 15 points",
+        "Fell Beast - 50 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Will of Evil (Passive)",
+          "type": "",
+          "text": "This model must give up 1 point of Will at the end of the Fight phase if it has been involved in one or more Fights that turn. Note that if a model is in base contact with an enemy model then it must fight - it cannot choose not to fight! Once the model is reduced to 0 Will points, it is banished and therefore removed as a casualty. If a model with this special rule uses their last Will points to cast a Magical Power with the Instant duration, the effects of the Magical Power will be resolved before the model is removed as a casualty.\n\nAdditionally, a Hero wearing The One Ring is not invisible to this model as they are to others. Furthermore, this model does not need to give up a point of Will if they are fighting a model wearing the Ring - not even if other enemy models are included as part of a Multiple Combat."
+        },
+        {
+          "name": "Terror (Passive)",
+          "type": "",
+          "text": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\n\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are affected are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terrior in all Orc models."
+        },
+        {
+          "name": "Harbinger of Evil (Passive)",
+          "type": "",
+          "text": "An enemy model within 12\" of this model suffers a -1 penalty to its Courage. Note, this is not cumulative with other similar penalties such as those provided by Goblin Drums, The Harbinger of Evil special rule and so on."
+        }
+      ]
+    },
+    {
+      "name": "The Betrayer",
+      "points": 120,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH, HARADRIM, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "6",
+        "Might": "2",
+        "Will": "14",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Sword",
+        "Mounts",
+        "Teeth and Claws"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        {
+          "power": "Sap Will",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately loses D3 Will point. If the target is a Cavalry model, the caster must choose whether the rider or the mount loses the Will. The target loses D6 Will points."
+        },
+        {
+          "power": "Instill Fear",
+          "duration": "Instant",
+          "text": "This power targets all enemy models within range. Each affected model must take a Courage test, in an order chosen by the caster; if the test is failed then the model must move its maximum Move distance directly away from the caster. If the model comes into contact with another model, or impassable terrain, then it will stop so it is not in base contact with it. If a model comes into base contact with the edge of the board, they will immediately stop moving; this will not allow or force models to leave the board in Scenarios where models may leave the board. Models that fail a Courage test due to the effects of this Magical Power may then move no further that turn, for any reason. Courage tests caused by this Magical Power are taken on 3D6, discarding the highest result."
+        },
+        {
+          "power": "Immobilise/Transfix",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. While this power is in effect, the target model may not move (except to Back Away should they lose a Fight), shoot, cast Magical Powers, declare Heroic Actions, call a Stand Fast! or use Active abilities and may not Strike if they win a Duel. Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (rounding up)."
+        },
+        {
+          "power": "Drain Courage",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately reduces their Courage characteristic by 1 for the remainder of the battle, to a minimum of 1. This power can take effect multiple times over the course of a battle, reducing the target's Courage each time. If the target is a Cavalry model, the caster must choose whether the rider or the mount reduces their Courage value. The target's Courage is instead reduced by D3."
+        },
+        {
+          "power": "Command/Compel",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. The caster may move the target model up to half of its maximum Move distance. They can do this even if the model has already moved this turn. The move cannot force the targat to jump, leap, climb, dismount or lie down, but it can take them into difficult terrain, and even make them Charge an enemy. No Courage test is required to Charge Terror-causing foes (See page 107). It can even force an unengaged victim to drop an object (but not wargear) that it is holding or to put on The One Ring (if they carry it). Once the target has finished the move, it may move no further that turn for any reason.  Finally, the target suffers the effect of the Immobilise/Transifx magical power (see page 98). Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (Rounding up), and may not Strike if they win a Duel."
+        },
+        {
+          "power": "Black Dart",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately suffers one Strength 9 hit. Do not roll To Hit or for In The Way tests. If the target is a Cavalry model then the Attacker must choose whether the rider or the mount is hit. This power can still be used on a target that is Engaged in combat. A wounding hit will cause D3 Wounds rather than 1."
+        }
+      ],
+      "options": [
+        "Armoured Fell Beast - 70 points",
+        "Horse - 10 points",
+        "Armoured Horse - 15 points",
+        "Fell Beast - 50 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Will of Evil (Passive)",
+          "type": "",
+          "text": "This model must give up 1 point of Will at the end of the Fight phase if it has been involved in one or more Fights that turn. Note that if a model is in base contact with an enemy model then it must fight - it cannot choose not to fight! Once the model is reduced to 0 Will points, it is banished and therefore removed as a casualty. If a model with this special rule uses their last Will points to cast a Magical Power with the Instant duration, the effects of the Magical Power will be resolved before the model is removed as a casualty.\n\nAdditionally, a Hero wearing The One Ring is not invisible to this model as they are to others. Furthermore, this model does not need to give up a point of Will if they are fighting a model wearing the Ring - not even if other enemy models are included as part of a Multiple Combat."
+        },
+        {
+          "name": "Terror (Passive)",
+          "type": "",
+          "text": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\n\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are affected are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terrior in all Orc models."
+        },
+        {
+          "name": "Harbinger of Evil (Passive)",
+          "type": "",
+          "text": "An enemy model within 12\" of this model suffers a -1 penalty to its Courage. Note, this is not cumulative with other similar penalties such as those provided by Goblin Drums, The Harbinger of Evil special rule and so on."
+        },
+        {
+          "name": "Bane of Kings (Active)",
+          "type": "ACTIVE",
+          "text": "This model must re-roll all failed To Wound rolls when making Strikes in close combat."
+        }
+      ]
+    },
+    {
+      "name": "The Dark Marshal",
+      "points": 120,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "5+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "6",
+        "Might": "2",
+        "Will": "14",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Sword",
+        "Heavy Armour",
+        "Mounts",
+        "Teeth and Claws"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        {
+          "power": "Sap Will",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately loses D3 Will point. If the target is a Cavalry model, the caster must choose whether the rider or the mount loses the Will. The target loses D6 Will points."
+        },
+        {
+          "power": "Instill Fear",
+          "duration": "Instant",
+          "text": "This power targets all enemy models within range. Each affected model must take a Courage test, in an order chosen by the caster; if the test is failed then the model must move its maximum Move distance directly away from the caster. If the model comes into contact with another model, or impassable terrain, then it will stop so it is not in base contact with it. If a model comes into base contact with the edge of the board, they will immediately stop moving; this will not allow or force models to leave the board in Scenarios where models may leave the board. Models that fail a Courage test due to the effects of this Magical Power may then move no further that turn, for any reason. Courage tests caused by this Magical Power are taken on 3D6, discarding the highest result."
+        },
+        {
+          "power": "Immobilise/Transfix",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. While this power is in effect, the target model may not move (except to Back Away should they lose a Fight), shoot, cast Magical Powers, declare Heroic Actions, call a Stand Fast! or use Active abilities and may not Strike if they win a Duel. Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (rounding up)."
+        },
+        {
+          "power": "Drain Courage",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately reduces their Courage characteristic by 1 for the remainder of the battle, to a minimum of 1. This power can take effect multiple times over the course of a battle, reducing the target's Courage each time. If the target is a Cavalry model, the caster must choose whether the rider or the mount reduces their Courage value. The target's Courage is instead reduced by D3."
+        },
+        {
+          "power": "Command/Compel",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. The caster may move the target model up to half of its maximum Move distance. They can do this even if the model has already moved this turn. The move cannot force the targat to jump, leap, climb, dismount or lie down, but it can take them into difficult terrain, and even make them Charge an enemy. No Courage test is required to Charge Terror-causing foes (See page 107). It can even force an unengaged victim to drop an object (but not wargear) that it is holding or to put on The One Ring (if they carry it). Once the target has finished the move, it may move no further that turn for any reason.  Finally, the target suffers the effect of the Immobilise/Transifx magical power (see page 98). Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (Rounding up), and may not Strike if they win a Duel."
+        },
+        {
+          "power": "Black Dart",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately suffers one Strength 9 hit. Do not roll To Hit or for In The Way tests. If the target is a Cavalry model then the Attacker must choose whether the rider or the mount is hit. This power can still be used on a target that is Engaged in combat. A wounding hit will cause D3 Wounds rather than 1."
+        }
+      ],
+      "options": [
+        "Armoured Fell Beast - 70 points",
+        "Horse - 10 points",
+        "Armoured Horse - 15 points",
+        "Fell Beast - 50 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Will of Evil (Passive)",
+          "type": "",
+          "text": "This model must give up 1 point of Will at the end of the Fight phase if it has been involved in one or more Fights that turn. Note that if a model is in base contact with an enemy model then it must fight - it cannot choose not to fight! Once the model is reduced to 0 Will points, it is banished and therefore removed as a casualty. If a model with this special rule uses their last Will points to cast a Magical Power with the Instant duration, the effects of the Magical Power will be resolved before the model is removed as a casualty.\n\nAdditionally, a Hero wearing The One Ring is not invisible to this model as they are to others. Furthermore, this model does not need to give up a point of Will if they are fighting a model wearing the Ring - not even if other enemy models are included as part of a Multiple Combat."
+        },
+        {
+          "name": "Terror (Passive)",
+          "type": "",
+          "text": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\n\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are affected are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terrior in all Orc models."
+        },
+        {
+          "name": "Harbinger of Evil (Passive)",
+          "type": "",
+          "text": "An enemy model within 12\" of this model suffers a -1 penalty to its Courage. Note, this is not cumulative with other similar penalties such as those provided by Goblin Drums, The Harbinger of Evil special rule and so on."
+        }
+      ]
+    },
+    {
+      "name": "The Shadow Lord",
+      "points": 120,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "5",
+        "Might": "2",
+        "Will": "14",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Sword",
+        "Heavy Armour",
+        "Mounts",
+        "Teeth and Claws"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        {
+          "power": "Sap Will",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately loses D3 Will point. If the target is a Cavalry model, the caster must choose whether the rider or the mount loses the Will. The target loses D6 Will points."
+        },
+        {
+          "power": "Instill Fear",
+          "duration": "Instant",
+          "text": "This power targets all enemy models within range. Each affected model must take a Courage test, in an order chosen by the caster; if the test is failed then the model must move its maximum Move distance directly away from the caster. If the model comes into contact with another model, or impassable terrain, then it will stop so it is not in base contact with it. If a model comes into base contact with the edge of the board, they will immediately stop moving; this will not allow or force models to leave the board in Scenarios where models may leave the board. Models that fail a Courage test due to the effects of this Magical Power may then move no further that turn, for any reason. Courage tests caused by this Magical Power are taken on 3D6, discarding the highest result."
+        },
+        {
+          "power": "Immobilise/Transfix",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. While this power is in effect, the target model may not move (except to Back Away should they lose a Fight), shoot, cast Magical Powers, declare Heroic Actions, call a Stand Fast! or use Active abilities and may not Strike if they win a Duel. Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (rounding up)."
+        },
+        {
+          "power": "Drain Courage",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately reduces their Courage characteristic by 1 for the remainder of the battle, to a minimum of 1. This power can take effect multiple times over the course of a battle, reducing the target's Courage each time. If the target is a Cavalry model, the caster must choose whether the rider or the mount reduces their Courage value. The target's Courage is instead reduced by D3."
+        },
+        {
+          "power": "Command/Compel",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. The caster may move the target model up to half of its maximum Move distance. They can do this even if the model has already moved this turn. The move cannot force the targat to jump, leap, climb, dismount or lie down, but it can take them into difficult terrain, and even make them Charge an enemy. No Courage test is required to Charge Terror-causing foes (See page 107). It can even force an unengaged victim to drop an object (but not wargear) that it is holding or to put on The One Ring (if they carry it). Once the target has finished the move, it may move no further that turn for any reason.  Finally, the target suffers the effect of the Immobilise/Transifx magical power (see page 98). Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (Rounding up), and may not Strike if they win a Duel."
+        },
+        {
+          "power": "Black Dart",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately suffers one Strength 9 hit. Do not roll To Hit or for In The Way tests. If the target is a Cavalry model then the Attacker must choose whether the rider or the mount is hit. This power can still be used on a target that is Engaged in combat. A wounding hit will cause D3 Wounds rather than 1."
+        }
+      ],
+      "options": [
+        "Armoured Fell Beast - 70 points",
+        "Horse - 10 points",
+        "Armoured Horse - 15 points",
+        "Fell Beast - 50 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Will of Evil (Passive)",
+          "type": "",
+          "text": "This model must give up 1 point of Will at the end of the Fight phase if it has been involved in one or more Fights that turn. Note that if a model is in base contact with an enemy model then it must fight - it cannot choose not to fight! Once the model is reduced to 0 Will points, it is banished and therefore removed as a casualty. If a model with this special rule uses their last Will points to cast a Magical Power with the Instant duration, the effects of the Magical Power will be resolved before the model is removed as a casualty.\n\nAdditionally, a Hero wearing The One Ring is not invisible to this model as they are to others. Furthermore, this model does not need to give up a point of Will if they are fighting a model wearing the Ring - not even if other enemy models are included as part of a Multiple Combat."
+        },
+        {
+          "name": "Harbinger of Evil (Passive)",
+          "type": "",
+          "text": "An enemy model within 12\" of this model suffers a -1 penalty to its Courage. Note, this is not cumulative with other similar penalties such as those provided by Goblin Drums, The Harbinger of Evil special rule and so on."
+        },
+        {
+          "name": "Terror (Passive)",
+          "type": "",
+          "text": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\n\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are affected are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terrior in all Orc models."
+        }
+      ]
+    },
+    {
+      "name": "The Undying",
+      "points": 120,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "6",
+        "Might": "2",
+        "Will": "18",
+        "Fate": "0"
+      },
+      "wargear": [
+        "Staff",
+        "Heavy Armour",
+        "Mounts",
+        "Teeth and Claws"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        {
+          "power": "Sap Will",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately loses D3 Will point. If the target is a Cavalry model, the caster must choose whether the rider or the mount loses the Will. The target loses D6 Will points."
+        },
+        {
+          "power": "Instill Fear",
+          "duration": "Instant",
+          "text": "This power targets all enemy models within range. Each affected model must take a Courage test, in an order chosen by the caster; if the test is failed then the model must move its maximum Move distance directly away from the caster. If the model comes into contact with another model, or impassable terrain, then it will stop so it is not in base contact with it. If a model comes into base contact with the edge of the board, they will immediately stop moving; this will not allow or force models to leave the board in Scenarios where models may leave the board. Models that fail a Courage test due to the effects of this Magical Power may then move no further that turn, for any reason. Courage tests caused by this Magical Power are taken on 3D6, discarding the highest result."
+        },
+        {
+          "power": "Immobilise/Transfix",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. While this power is in effect, the target model may not move (except to Back Away should they lose a Fight), shoot, cast Magical Powers, declare Heroic Actions, call a Stand Fast! or use Active abilities and may not Strike if they win a Duel. Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (rounding up)."
+        },
+        {
+          "power": "Drain Courage",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately reduces their Courage characteristic by 1 for the remainder of the battle, to a minimum of 1. This power can take effect multiple times over the course of a battle, reducing the target's Courage each time. If the target is a Cavalry model, the caster must choose whether the rider or the mount reduces their Courage value. The target's Courage is instead reduced by D3."
+        },
+        {
+          "power": "Command/Compel",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. The caster may move the target model up to half of its maximum Move distance. They can do this even if the model has already moved this turn. The move cannot force the targat to jump, leap, climb, dismount or lie down, but it can take them into difficult terrain, and even make them Charge an enemy. No Courage test is required to Charge Terror-causing foes (See page 107). It can even force an unengaged victim to drop an object (but not wargear) that it is holding or to put on The One Ring (if they carry it). Once the target has finished the move, it may move no further that turn for any reason.  Finally, the target suffers the effect of the Immobilise/Transifx magical power (see page 98). Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (Rounding up), and may not Strike if they win a Duel."
+        },
+        {
+          "power": "Black Dart",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately suffers one Strength 9 hit. Do not roll To Hit or for In The Way tests. If the target is a Cavalry model then the Attacker must choose whether the rider or the mount is hit. This power can still be used on a target that is Engaged in combat. A wounding hit will cause D3 Wounds rather than 1."
+        }
+      ],
+      "options": [
+        "Armoured Fell Beast - 70 points",
+        "Horse - 10 points",
+        "Armoured Horse - 15 points",
+        "Fell Beast - 50 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Will of Evil (Passive)",
+          "type": "",
+          "text": "This model must give up 1 point of Will at the end of the Fight phase if it has been involved in one or more Fights that turn. Note that if a model is in base contact with an enemy model then it must fight - it cannot choose not to fight! Once the model is reduced to 0 Will points, it is banished and therefore removed as a casualty. If a model with this special rule uses their last Will points to cast a Magical Power with the Instant duration, the effects of the Magical Power will be resolved before the model is removed as a casualty.\n\nAdditionally, a Hero wearing The One Ring is not invisible to this model as they are to others. Furthermore, this model does not need to give up a point of Will if they are fighting a model wearing the Ring - not even if other enemy models are included as part of a Multiple Combat."
+        },
+        {
+          "name": "Terror (Passive)",
+          "type": "",
+          "text": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\n\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are affected are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terrior in all Orc models."
+        },
+        {
+          "name": "Harbinger of Evil (Passive)",
+          "type": "",
+          "text": "An enemy model within 12\" of this model suffers a -1 penalty to its Courage. Note, this is not cumulative with other similar penalties such as those provided by Goblin Drums, The Harbinger of Evil special rule and so on."
+        }
+      ]
+    },
+    {
+      "name": "Gothmog, Lieutenant of Sauron",
+      "points": 130,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "5+",
+        "S": "4",
+        "D": "6",
+        "A": "3",
+        "W": "3",
+        "C": "5",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Sword",
+        "Heavy Armour"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Strike",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Warg - 10 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Master of Battle (Active)",
+          "type": "ACTIVE",
+          "text": "Whenever an enemy Hero attempts a Heroic Action within 6\" of a model with this special rule, this model may call the same Heroic Action without spending Might, even if they would not usually have access to it.\n\nSometimes a model with this special rule will have a number after the rule in brackets, e.g., Master of Battle (5+). In this situation, wheneveran enemy Hero attempts a Heroic Action within 6\" of a model with this special rule, roll a D6. If the dice score equals of beats the number after the special rule, this model may call the same Heroic Action without spending Might - even if they would not normally be able to call the same Heroic Action."
+        }
+      ]
+    },
+    {
+      "name": "The Mouth of Sauron",
+      "points": 70,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "5",
+        "Might": "2",
+        "Will": "4",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand-and-a-Half Sword"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        {
+          "power": "Instill Fear",
+          "duration": "",
+          "text": ""
+        },
+        {
+          "power": "Immobilise/Transfix",
+          "duration": "",
+          "text": ""
+        },
+        {
+          "power": "Drain Courage",
+          "duration": "",
+          "text": ""
+        }
+      ],
+      "options": [
+        "Armoured Horse - 15 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Terror (Passive)",
+          "type": "",
+          "text": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\n\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are affected are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terrior in all Orc models."
+        }
+      ]
+    },
+    {
+      "name": "Shagrat, Captain of Cirith Ungol",
+      "points": 100,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "URUK-HAI, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "5",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "4",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Sword",
+        "Armour",
+        "Shield of Cirith Ungol"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Heavy Armour - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Shield of Cirith Ungol",
+          "type": "ACTIVE",
+          "text": "This is a shield. Additionally, in a turn in which Shagrat charges, he gains the knock to the Ground bonus exactly as if he were a Cavalry model."
+        },
+        {
+          "name": "Blood & Glory (Active)",
+          "type": "ACTIVE",
+          "text": "If this model kills an enemy Hero model in a Fight, they immediately regain a single point of Might spent earlier in the battle."
+        }
+      ]
+    },
+    {
+      "name": "Gorbag, Orc Captain",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "4",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Sword",
+        "Armour"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Shield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Grishnákh, Orc Captain",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "3",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Sword",
+        "Armour"
+      ],
+      "heroicActions": [
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Shield - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Backstabbers (Active)",
+          "type": "ACTIVE",
+          "text": "This model receives +1 to their To Wound rolls when making Strikes against a Trapped model. This bonus is cumulative with other bonuses, such as using a two-handed weapon."
+        },
+        {
+          "name": "Woodland Creature (Active)",
+          "type": "ACTIVE",
+          "text": "An Infantry model with this special rule may move through woods and forests that are classified as difficult terrain as if they are open ground. Note that this doesn't mean they can automatically climb terrain in those areas, nor move through any tree trunks or jump falled Obstacles."
+        }
+      ]
+    },
+    {
+      "name": "Kardûsh The Firecaller",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "3",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Spear"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        {
+          "power": "Fury ",
+          "duration": "",
+          "text": ""
+        },
+        {
+          "power": "Flameburst",
+          "duration": "",
+          "text": ""
+        }
+      ],
+      "options": [],
+      "specialRules": []
+    },
+    {
+      "name": "Morannon Orc Captain",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "5",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "3",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Sword"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Two-handed Weapon - 5 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Captain of the Black Guard",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "URUK-HAI, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "5",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "4",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Sword",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": []
+    },
+    {
+      "name": "Black Guard Drummer",
+      "points": 35,
+      "heroicTier": "Independent Hero",
+      "keywords": "URUK-HAI, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "5",
+        "D": "5",
+        "A": "1",
+        "W": "1",
+        "C": "4",
+        "Might": "0",
+        "Will": "0",
+        "Fate": "1"
+      },
+      "wargear": [
+        "War Drum (Mordor Uruk-hai)",
+        "Heavy Armour",
+        "Sword"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": []
+    },
+    {
+      "name": "Mordor Uruk-hai Captain",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "URUK-HAI, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "5",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "4",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Sword"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Shield - 5 points",
+        "Orc Bow - 5 points",
+        "Two-handed Weapon - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Guritz, Master of Reservers",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "5",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "3",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Two-handed Pick",
+        "Heavy Armour",
+        "Sword"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": []
+    },
+    {
+      "name": "Gothmog's Enforcer",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "3",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Sword",
+        "Heavy Armour"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": []
+    },
+    {
+      "name": "Orc Drummer",
+      "points": 30,
+      "heroicTier": "Independent Hero",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "1",
+        "C": "3",
+        "Might": "0",
+        "Will": "0",
+        "Fate": "1"
+      },
+      "wargear": [
+        "War Drum (Mordor Orc)",
+        "Dagger",
+        "Armour"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": [
+        {
+          "name": "Woodland Creature (Active)",
+          "type": "ACTIVE",
+          "text": "An Infantry model with this special rule may move through woods and forests that are classified as difficult terrain as if they are open ground. Note that this doesn't mean they can automatically climb terrain in those areas, nor move through any tree trunks or jump falled Obstacles."
+        },
+        {
+          "name": "Hatred (Active)",
+          "type": "ACTIVE",
+          "text": "A model with this special rule adds 1 to their To Wound rolls when fighting in combat against the models with the keyword listed in the brackets in its profile. For example, a model that has the Hatred (Man) special rule will get +1 to their To Wound rolls against all models with the Man keyword. A model that has the Hatred (Mordor) special rule will get +1 to their To Wound rolls against all models with the Mordor keyword."
+        },
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader. They may, however, be included in another Hero model's warband as one of their followers."
+        }
+      ]
+    },
+    {
+      "name": "Shelob",
+      "points": 90,
+      "heroicTier": "Independent Hero",
+      "keywords": "SPIDER, MORDOR, MONSTER, INFANTRY, HERO",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": "7",
+        "Sv": "6+",
+        "S": "7",
+        "D": "7",
+        "A": "1",
+        "W": "6",
+        "C": "4",
+        "Might": "0",
+        "Will": "6",
+        "Fate": "0"
+      },
+      "wargear": [
+        "Large Venomous Fangs"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": [
+        {
+          "name": "Venom (Active)",
+          "type": "ACTIVE",
+          "text": "This model must re-roll all failed To Wound rolls when making Strikes in close combat."
+        },
+        {
+          "name": "Terror (Passive)",
+          "type": "",
+          "text": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\n\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are affected are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terrior in all Orc models."
+        },
+        {
+          "name": "Swift Movement (Active)",
+          "type": "ACTIVE",
+          "text": "A model with this special rule can climb on any surface, regardless of angle. They can therefore move at full speed over any type of difficult terrain and ignore all obstacles except for water features and gaps such as chasms, ditches and other spaces, which they have to jump as normal. The model must be able to balance safely upon wherever it finished its movement - no spiders finishing upside down, for example!"
+        },
+        {
+          "name": "Survival Instinct (Active)",
+          "type": "ACTIVE",
+          "text": "Each time a model with this special rul suffers a Wound, it must take a Courage test. If the test is failed then the model flees the battlefield and counts as a casualty. This is an exception to the usual rules for taking multiple Courage tests in a turn."
+        },
+        {
+          "name": "Monstrous Charge (Active)",
+          "type": "ACTIVE",
+          "text": "If a model with this special rule charges into combat, it will gain the Knock to Ground and Extra Attack bonuses as if it were Cavalry, with a couple of exceptions:\n\nThis model will Knock to the Ground any model that it Charges, including Cavalry or Monster models, with a lower Strength value than it, even if the charged model has a Strength of 6 or higher. The rider of a Cavalry model will automatically suffer the Knocked Flying result for its Thrown Rider test.\n\nAdditionally, this model will still get the Extra Attack bonus if it Charges, or is subsequently charged by, Cavalry or another model with this special rule.\n\nIf a model with this special rule is a Cavalry model, the mount will count as being In The Way of its rider, except that the rider will only be hit on a 5-6; a roll of 1-4 will hit the mount."
+        },
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader. They may, however, be included in another Hero model's warband as one of their followers."
+        }
+      ]
+    },
+    {
+      "name": "Zagdûsh, Orc Captain",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "2",
+        "C": "4",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Sword",
+        "Armour"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": []
+    },
+    {
+      "name": "Goroth, Captain of the Morannon",
+      "points": 80,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "5+",
+        "S": "5",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Two-handed Mace",
+        "Heavy Armour"
+      ],
+      "heroicActions": [
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": [
+        {
+          "name": "Burly (Passive)",
+          "type": "",
+          "text": "When fighting with a two-handed weapon, a model with this special rule does not suffer the -1 penalty to their Duel roll.\n\nAdditionally, Burly models may carry a Heavy Object and move their full distance."
+        }
+      ]
+    },
+    {
+      "name": "Black Gate Troll Chieftain",
+      "points": 140,
+      "heroicTier": "Hero of Valour",
+      "keywords": "TROLL, MORDOR, MONSTER, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "5+",
+        "S": "7",
+        "D": "8",
+        "A": "3",
+        "W": "3",
+        "C": "4",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Sword",
+        "Heavy Armour"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": [
+        {
+          "name": "Throw Stones (Active)",
+          "type": "ACTIVE",
+          "text": "If this model does not move at all during the Move phase, then in the Shoot phase it may make a shooting attack with the Strength and range specified in the model's profile."
+        },
+        {
+          "name": "Terror (Passive)",
+          "type": "",
+          "text": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\n\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are affected are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terrior in all Orc models."
+        },
+        {
+          "name": "Fearless (Passive)",
+          "type": "",
+          "text": "This model automatically passes any Courage test it is required to make."
+        }
+      ]
+    },
+    {
+      "name": "Razgûsh, War Leader of the North",
+      "points": 110,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "5",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Bone-breaker",
+        "Heavy Armour",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": [
+        {
+          "name": "Bone-breaker",
+          "type": "ACTIVE",
+          "text": "This is a mace. Additionally, enemy models do not receive any bonus for an Elven-made weapon when fighting against Razgûsh."
+        },
+        {
+          "name": "Hatred (Active)",
+          "type": "ACTIVE",
+          "text": "A model with this special rule adds 1 to their To Wound rolls when fighting in combat against the models with the keyword listed in the brackets in its profile. For example, a model that has the Hatred (Man) special rule will get +1 to their To Wound rolls against all models with the Man keyword. A model that has the Hatred (Mordor) special rule will get +1 to their To Wound rolls against all models with the Mordor keyword."
+        },
+        {
+          "name": "Bane Weapons (Active)",
+          "type": "ACTIVE",
+          "text": "Bane Weapons cause D3 Wounds rather than 1, per successful Strike, on specific races - the race in question will be presented as Xbane, where X is the race in question. For example, a model with the Orcbane special rule will cause D3 Wounds per successful Strike against models with the Orc keyword."
+        }
+      ]
+    },
+    {
+      "name": "Muzgúr, Orc Shaman",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "4",
+        "Might": "2",
+        "Will": "4",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Spear",
+        "Dagger",
+        "Armour"
+      ],
+      "heroicActions": [
+        "Heroic Channelling",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [
+        {
+          "power": "Drain Courage",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately reduces their Courage characteristic by 1 for the remainder of the battle, to a minimum of 1. This power can take effect multiple times over the course of a battle, reducing the target's Courage each time. If the target is a Cavalry model, the caster must choose whether the rider or the mount reduces their Courage value. The target's Courage is instead reduced by D3."
+        },
+        {
+          "power": "Wither",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target's Strength is reduced by 1 (to a minimum of 1) for the remainder of the game. If the target is a Cavalry model, the caster must choose whether the rider or the mount has their Strength reduced. The target's Strength is instead reduced by D3."
+        },
+        {
+          "power": "Immobilise/Transfix",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. While this power is in effect, the target model may not move (except to Back Away should they lose a Fight), shoot, cast Magical Powers, declare Heroic Actions, call a Stand Fast! or use Active abilities and may not Strike if they win a Duel. Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (rounding up)."
+        }
+      ],
+      "options": [],
+      "specialRules": []
+    },
+    {
+      "name": "The Spider Queen",
+      "points": 115,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIDER, MIRKWOOD, MONSTER, INFANTRY, HERO",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": "6",
+        "Sv": "6+",
+        "S": "6",
+        "D": "4",
+        "A": "2",
+        "W": "3",
+        "C": "4",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "0"
+      },
+      "wargear": [
+        "Venomous Fangs"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": [
+        {
+          "name": "Venom (Active)",
+          "type": "ACTIVE",
+          "text": "This model must re-roll all failed To Wound rolls when making Strikes in close combat."
+        },
+        {
+          "name": "Terror (Passive)",
+          "type": "",
+          "text": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\n\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are affected are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terrior in all Orc models."
+        },
+        {
+          "name": "Swift Movement (Active)",
+          "type": "ACTIVE",
+          "text": "A model with this special rule can climb on any surface, regardless of angle. They can therefore move at full speed over any type of difficult terrain and ignore all obstacles except for water features and gaps such as chasms, ditches and other spaces, which they have to jump as normal. The model must be able to balance safely upon wherever it finished its movement - no spiders finishing upside down, for example!"
+        },
+        {
+          "name": "Monstrous Charge (Active)",
+          "type": "ACTIVE",
+          "text": "If a model with this special rule charges into combat, it will gain the Knock to Ground and Extra Attack bonuses as if it were Cavalry, with a couple of exceptions:\n\nThis model will Knock to the Ground any model that it Charges, including Cavalry or Monster models, with a lower Strength value than it, even if the charged model has a Strength of 6 or higher. The rider of a Cavalry model will automatically suffer the Knocked Flying result for its Thrown Rider test.\n\nAdditionally, this model will still get the Extra Attack bonus if it Charges, or is subsequently charged by, Cavalry or another model with this special rule.\n\nIf a model with this special rule is a Cavalry model, the mount will count as being In The Way of its rider, except that the rider will only be hit on a 5-6; a roll of 1-4 will hit the mount."
+        },
+        {
+          "name": "Hatred (Active)",
+          "type": "ACTIVE",
+          "text": "A model with this special rule adds 1 to their To Wound rolls when fighting in combat against the models with the keyword listed in the brackets in its profile. For example, a model that has the Hatred (Man) special rule will get +1 to their To Wound rolls against all models with the Man keyword. A model that has the Hatred (Mordor) special rule will get +1 to their To Wound rolls against all models with the Mordor keyword."
+        },
+        {
+          "name": "Woodland Creature (Active)",
+          "type": "ACTIVE",
+          "text": "An Infantry model with this special rule may move through woods and forests that are classified as difficult terrain as if they are open ground. Note that this doesn't mean they can automatically climb terrain in those areas, nor move through any tree trunks or jump falled Obstacles."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Troop (non-Hero) entries retain points from the original prancingponypub scrape (BSData troop-cost extraction was unreliable). All Hero entries refreshed from BSData (current edition) with heroicTier added."
+}

@@ -1420,6 +1420,12 @@
   body.sys-40k .a40k-only-cell{display:table-cell;}
   .aos-only{display:block;}
   body.sys-40k .aos-only{display:none;}
+  body.sys-mesbg .aos-only, body.sys-mesbg .a40k-only{display:none;}
+  .mesbg-only{display:none;}
+  body.sys-mesbg .mesbg-only{display:block;}
+  body.sys-mesbg #armyRulesPanel{display:none;}
+  .mesbg-hide{display:block;}
+  body.sys-mesbg .mesbg-hide{display:none;}
 </style>
 </head>
 <body>
@@ -1440,6 +1446,7 @@
         <div class="system-switch">
           <button class="sys-btn active" id="sys-aos" data-system="aos" type="button">AoS</button>
           <button class="sys-btn" id="sys-40k" data-system="40k" type="button">40K</button>
+          <button class="sys-btn" id="sys-mesbg" data-system="mesbg" type="button">MESBG</button>
         </div>
         <div class="seal ok" id="seal">
           <div class="seal-num" id="sealNum">0</div>
@@ -1586,7 +1593,8 @@
   <div class="ledger">
     <h1>Clash of Arms</h1>
     <p class="subtitle">Combat Comparator &middot; One Round</p>
-    <p class="clash-note">Load a unit from the Grimoire (or fill in the fields by hand) to get its defensive profile plus one row per weapon it carries. Untick a weapon's box to leave it out of this particular clash without losing its stats &mdash; handy for comparing loadouts, like a champion's alternate weapon or a monster's secondary attack, one at a time. Set a row's "Models" to how many models actually swing it (leave blank to mean all models in the unit). Values change between editions and points updates, so double check against the live warscroll. Attacks and Damage accept dice notation like <code>D6</code>, <code>2D6</code> or <code>D3+1</code>. This runs a single combat round in each direction and ignores spillover, abilities, and command points &mdash; a rough guide, not a rules engine.</p>
+    <p class="clash-note mesbg-hide">Load a unit from the Grimoire (or fill in the fields by hand) to get its defensive profile plus one row per weapon it carries. Untick a weapon's box to leave it out of this particular clash without losing its stats &mdash; handy for comparing loadouts, like a champion's alternate weapon or a monster's secondary attack, one at a time. Set a row's "Models" to how many models actually swing it (leave blank to mean all models in the unit). Values change between editions and points updates, so double check against the live warscroll. Attacks and Damage accept dice notation like <code>D6</code>, <code>2D6</code> or <code>D3+1</code>. This runs a single combat round in each direction and ignores spillover, abilities, and command points &mdash; a rough guide, not a rules engine.</p>
+    <p class="clash-note mesbg-only">Load a unit from the Grimoire (or fill in the fields by hand) to get its Fight Value, Strength, Defence and Attacks. Values change between army list updates, so double check against the live army list. This runs a single Fight phase in each direction and ignores everything outside the checkboxes below &mdash; a rough guide, not a rules engine.</p>
 
     <div class="clash-grid">
       <div class="clash-col col-a">
@@ -1603,12 +1611,22 @@
           </div>
           <div class="field"><label for="a_models">Models</label><input type="number" id="a_models" min="1" value="10"></div>
           <div class="field"><label for="a_wounds">Wounds / model</label><input type="number" id="a_wounds" min="1" value="1"></div>
-          <div class="field"><label for="a_save">Save (X+)</label><input type="number" id="a_save" min="2" max="7" value="6"></div>
+          <div class="field mesbg-hide"><label for="a_save">Save (X+)</label><input type="number" id="a_save" min="2" max="7" value="6"></div>
           <div class="field a40k-only"><label for="a_toughness">Toughness</label><input type="number" id="a_toughness" min="1" value="4"></div>
-          <div class="field"><label for="a_ward" id="a_wardLabel">Ward (X+, optional)</label><input type="text" id="a_ward" placeholder="e.g. 6"></div>
+          <div class="field mesbg-hide"><label for="a_ward" id="a_wardLabel">Ward (X+, optional)</label><input type="text" id="a_ward" placeholder="e.g. 6"></div>
           <div class="field a40k-only"><label for="a_fnp">Feel No Pain (X+, opt.)</label><input type="text" id="a_fnp" placeholder="e.g. 5"></div>
+          <div class="field mesbg-only"><label for="a_fv">Fight Value</label><input type="number" id="a_fv" min="1" value="3"></div>
+          <div class="field mesbg-only"><label for="a_str">Strength</label><input type="number" id="a_str" min="1" value="3"></div>
+          <div class="field mesbg-only"><label for="a_def">Defence</label><input type="number" id="a_def" min="1" value="3"></div>
+          <div class="field mesbg-only"><label for="a_atk">Attacks (dice in roll-off)</label><input type="number" id="a_atk" min="1" value="1"></div>
         </div>
-        <div class="weapons-block">
+        <div class="mesbg-only" style="display:flex; flex-direction:column; gap:6px; margin:4px 0 14px;">
+          <label><input type="checkbox" id="a_mightFight"> Spend Might: re-roll the Fight roll-off if lost</label>
+          <label><input type="checkbox" id="a_mightWound"> Spend Might: re-roll a failed Wound roll</label>
+          <label><input type="checkbox" id="a_heroicStrike"> Heroic Strike (1 Might): auto-win the Fight roll-off</label>
+          <label><input type="checkbox" id="a_fateSave"> Spend Fate: force a re-roll of a successful Wound roll against this unit</label>
+        </div>
+        <div class="weapons-block mesbg-hide">
           <label class="weapons-label">Weapons</label>
           <div class="table-scroll">
             <table class="weapon-table">
@@ -1633,12 +1651,22 @@
           </div>
           <div class="field"><label for="b_models">Models</label><input type="number" id="b_models" min="1" value="1"></div>
           <div class="field"><label for="b_wounds">Wounds / model</label><input type="number" id="b_wounds" min="1" value="18"></div>
-          <div class="field"><label for="b_save">Save (X+)</label><input type="number" id="b_save" min="2" max="7" value="3"></div>
+          <div class="field mesbg-hide"><label for="b_save">Save (X+)</label><input type="number" id="b_save" min="2" max="7" value="3"></div>
           <div class="field a40k-only"><label for="b_toughness">Toughness</label><input type="number" id="b_toughness" min="1" value="8"></div>
-          <div class="field"><label for="b_ward">Ward (X+, optional)</label><input type="text" id="b_ward" placeholder="e.g. 5"></div>
+          <div class="field mesbg-hide"><label for="b_ward">Ward (X+, optional)</label><input type="text" id="b_ward" placeholder="e.g. 5"></div>
           <div class="field a40k-only"><label for="b_fnp">Feel No Pain (X+, opt.)</label><input type="text" id="b_fnp" placeholder="e.g. 5"></div>
+          <div class="field mesbg-only"><label for="b_fv">Fight Value</label><input type="number" id="b_fv" min="1" value="5"></div>
+          <div class="field mesbg-only"><label for="b_str">Strength</label><input type="number" id="b_str" min="1" value="6"></div>
+          <div class="field mesbg-only"><label for="b_def">Defence</label><input type="number" id="b_def" min="1" value="7"></div>
+          <div class="field mesbg-only"><label for="b_atk">Attacks (dice in roll-off)</label><input type="number" id="b_atk" min="1" value="3"></div>
         </div>
-        <div class="weapons-block">
+        <div class="mesbg-only" style="display:flex; flex-direction:column; gap:6px; margin:4px 0 14px;">
+          <label><input type="checkbox" id="b_mightFight"> Spend Might: re-roll the Fight roll-off if lost</label>
+          <label><input type="checkbox" id="b_mightWound"> Spend Might: re-roll a failed Wound roll</label>
+          <label><input type="checkbox" id="b_heroicStrike"> Heroic Strike (1 Might): auto-win the Fight roll-off</label>
+          <label><input type="checkbox" id="b_fateSave"> Spend Fate: force a re-roll of a successful Wound roll against this unit</label>
+        </div>
+        <div class="weapons-block mesbg-hide">
           <label class="weapons-label">Weapons</label>
           <div class="table-scroll">
             <table class="weapon-table">
@@ -1650,6 +1678,7 @@
         <div class="abilities-ref-wrap"></div>
       </div>
     </div>
+    <p class="clash-note mesbg-only" style="margin-top:10px;">Simplified melee-only model: each side's Attacks stat sets how many D6 it rolls to find its best die in the Fight roll-off (ties go to the higher Fight Value); the winner then rolls once to wound using the standard Strength-vs-Defence chart. The checkboxes model Might re-rolls, Heroic Strike and a Fate save as one-off approximations (re-roll = a second independent shot at the same chance; Heroic Strike auto-wins the roll-off; Fate forces the wound to succeed twice). Shooting, terrain, charge bonuses, other Heroic Actions and outnumbering extra wounds still aren't modelled.</p>
 
     <div class="run-row"><button id="runClashBtn" type="button">Run the Clash</button></div>
 
@@ -1923,6 +1952,24 @@
         'Imperial Knights','Leagues of Votann','Necrons','Orks','Space Marines',
         'Space Wolves','T\'au Empire','Thousand Sons','Tyranids','Ultramarines','World Eaters'
       ]
+    },
+    mesbg: {
+      label: 'Middle-earth SBG',
+      tagline: 'The Lord of the Rings Strategy Battle Game Companion',
+      alliances: ['good','evil'],
+      allianceMeta: {
+        good: { label:'Good', color:'#4a7ab5' },
+        evil: { label:'Evil', color:'#b53a3a' }
+      },
+      statColumns: [
+        { key:'mv', label:'MV' }, { key:'fv', label:'FV' }, { key:'sv', label:'SV' },
+        { key:'s', label:'S' }, { key:'d', label:'D' }, { key:'a', label:'A' },
+        { key:'w', label:'W' }, { key:'c', label:'C' }, { key:'i', label:'I' }
+      ],
+      clashStats: [],
+      grimFields: ['name','faction','alliance','points','models','mv','fv','sv','s','d','a','w','c','i','might','will','fate','heroicTier','abilities'],
+      dataDir: 'faction-data-mesbg',
+      factions: ['Kingdom of Rohan','Legions of Mordor','The Easterlings']
     }
   };
 
@@ -1962,13 +2009,16 @@
     'leagues of votann':'xenos', 'necrons':'xenos', 'orks':'xenos',
     "t'au empire":'xenos', 'taus empire':'xenos', 'tau empire':'xenos', 'tyranids':'xenos'
   };
+  const ALLIANCE_BY_FACTION_MESBG = {
+    'kingdom of rohan':'good', 'legions of mordor':'evil', 'the easterlings':'evil'
+  };
   function normalizeFaction(s){
     return String(s ?? '').toLowerCase().trim().replace(/[-–—]/g,' ').replace(/\s+/g,' ');
   }
   function detectAlliance(factionName){
     const key = normalizeFaction(factionName);
-    const map = activeSystem === '40k' ? ALLIANCE_BY_FACTION_40K : ALLIANCE_BY_FACTION;
-    const fallback = activeSystem === '40k' ? 'xenos' : 'unaligned';
+    const map = activeSystem === '40k' ? ALLIANCE_BY_FACTION_40K : activeSystem === 'mesbg' ? ALLIANCE_BY_FACTION_MESBG : ALLIANCE_BY_FACTION;
+    const fallback = activeSystem === '40k' ? 'xenos' : activeSystem === 'mesbg' ? 'good' : 'unaligned';
     if (!key) return fallback;
     if (map[key]) return map[key];
     for (const k in map) {
@@ -1998,7 +2048,7 @@
     const sel = $('rosterAlliance');
     const cfg = getSysConfig();
     const label = $('allianceLabel');
-    label.textContent = activeSystem === 'aos' ? 'Grand Alliance' : 'Faction Group';
+    label.textContent = activeSystem === 'aos' ? 'Grand Alliance' : activeSystem === 'mesbg' ? 'Side' : 'Faction Group';
     sel.innerHTML = '<option value="">— unspecified —</option>';
     cfg.alliances.forEach(a => {
       const meta = cfg.allianceMeta[a];
@@ -2093,7 +2143,7 @@
   const STORAGE_KEY = 'muster-roll-data';
   const FACTION_RULES_KEY = 'muster-roll-faction-rules';
   const GRIMOIRE_KEY_BASE = 'muster-roll-grimoire';
-  const DATA_VERSION = 'v6-no-warlord-trait'; // Bump when data format changes to force re-import
+  const DATA_VERSION = 'v8-mesbg-hero-tiers'; // Bump when data format changes to force re-import
   let state = {
     armyName: '', pointsLimit: 2000, alliance: '', faction: '', units: [],
     generalUnitId: null,
@@ -2199,8 +2249,9 @@
     if (!bg || !bgImg || !iconL || !iconR) return;
 
     const is40k = activeSystem === '40k';
+    const isMesbg = activeSystem === 'mesbg';
     const key = normalizeFaction(state.faction || '');
-    const table = is40k ? FACTION_BG_40K : FACTION_BG;
+    const table = is40k ? FACTION_BG_40K : isMesbg ? {} : FACTION_BG;
     const assetDir = is40k ? 'factions-40k' : 'factions';
     const iconDir = is40k ? 'factions-40k' : 'icons';
     const fb = key ? table[key] : null;
@@ -2221,10 +2272,10 @@
         iconL.style.opacity = '0';
         iconR.style.opacity = '0';
       }
-    } else if (!is40k && state.alliance && getSysConfig().allianceMeta[state.alliance]) {
+    } else if (!is40k && !isMesbg && state.alliance && getSysConfig().allianceMeta[state.alliance]) {
       // Alliance selected but no faction: use alliance color + alliance icon
-      // (40K has no alliance-level icon assets, so it falls through to the
-      // plain colored-gradient branch below instead.)
+      // (40K and MESBG have no alliance-level icon assets, so they fall
+      // through to the plain colored-gradient branch below instead.)
       const meta = getSysConfig().allianceMeta[state.alliance];
       const color = meta.color.startsWith('var(') ? (getComputedStyle(document.documentElement).getPropertyValue(meta.color.slice(4,-1)).trim() || '#8a7a5a') : meta.color;
       bg.style.background = `radial-gradient(ellipse at top, ${color}25 0%, #1c2036 55%, #0a0b10 100%)`;
@@ -2234,7 +2285,7 @@
       iconR.src = allianceIcon;
       iconL.style.opacity = '1';
       iconR.style.opacity = '1';
-    } else if (is40k && state.alliance && getSysConfig().allianceMeta[state.alliance]) {
+    } else if ((is40k || isMesbg) && state.alliance && getSysConfig().allianceMeta[state.alliance]) {
       const meta = getSysConfig().allianceMeta[state.alliance];
       const color = meta.color.startsWith('var(') ? (getComputedStyle(document.documentElement).getPropertyValue(meta.color.slice(4,-1)).trim() || '#8a7a5a') : meta.color;
       bg.style.background = `radial-gradient(ellipse at top, ${color}25 0%, #1c2036 55%, #0a0b10 100%)`;
@@ -2901,9 +2952,13 @@
 
   function statPillsHtml(entry){
     const is40k = activeSystem === '40k';
+    const isMesbg = activeSystem === 'mesbg';
     const cols = is40k
       ? [['M', entry.move], ['T', entry.toughness], ['Sv', entry.save ? entry.save + '+' : ''], ['W', entry.wounds],
          ['Ld', entry.leadership], ['OC', entry.objectiveControl], ['InvSv', entry.invulnerableSave ? entry.invulnerableSave + '+' : '']]
+      : isMesbg
+      ? [['Mv', entry.mv], ['Fv', entry.fv], ['Sv', entry.sv], ['S', entry.s], ['D', entry.d], ['A', entry.a],
+         ['W', entry.w], ['C', entry.c], ['I', entry.i], ['Might', entry.might], ['Will', entry.will], ['Fate', entry.fate]]
       : [['Mv', entry.move], ['W', entry.wounds], ['Sv', entry.save ? entry.save + '+' : ''], ['Ward', entry.ward ? entry.ward + '+' : '']];
     const pills = cols.filter(([, v]) => v).map(([k, v]) => `<div class="stat-pill"><span class="sp-label">${k}</span><span class="sp-val">${escapeHtml(String(v))}</span></div>`).join('');
     return pills ? `<div class="stat-pills">${pills}</div>` : '';
@@ -3560,6 +3615,78 @@
     return 5;
   }
 
+  // ===== MESBG: simplified melee-only Clash of Arms =====
+  function readMesbgProfile(prefix){
+    const get = (f) => document.getElementById(prefix + '_' + f).value;
+    const checked = (f) => { const el = document.getElementById(prefix + '_' + f); return !!(el && el.checked); };
+    return {
+      name: get('name') || (prefix === 'a' ? 'Unit A' : 'Unit B'),
+      models: Math.max(1, parseInt(get('models'), 10) || 1),
+      wounds: Math.max(1, parseInt(get('wounds'), 10) || 1),
+      fv: Math.max(1, parseInt(get('fv'), 10) || 1),
+      str: Math.max(1, parseInt(get('str'), 10) || 1),
+      def: Math.max(1, parseInt(get('def'), 10) || 1),
+      atk: Math.max(1, parseInt(get('atk'), 10) || 1),
+      mightFight: checked('mightFight'),
+      mightWound: checked('mightWound'),
+      heroicStrike: checked('heroicStrike'),
+      fateSave: checked('fateSave')
+    };
+  }
+  // P(highest of n d6 == k) for k=1..6.
+  function diceMaxDist(n){
+    const probs = [];
+    for (let k = 1; k <= 6; k++) {
+      const le = Math.pow(k / 6, n);
+      const lePrev = k > 1 ? Math.pow((k - 1) / 6, n) : 0;
+      probs.push(le - lePrev);
+    }
+    return probs;
+  }
+  // Reuses the 40K Strength-vs-Toughness chart, which is the same 5-tier
+  // table MESBG uses for Strength vs Defence.
+  function mesbgWoundChance(str, def){ return (7 - woundTarget40k(str, def)) / 6; }
+
+  function computeMesbgClash(attacker, defender){
+    const nPairs = Math.min(attacker.models, defender.models);
+    let pAWinsFight;
+    if (attacker.heroicStrike) {
+      pAWinsFight = 1;
+    } else {
+      const pA = diceMaxDist(attacker.atk);
+      const pB = diceMaxDist(defender.atk);
+      let pAWinsRoll = 0, pTie = 0;
+      for (let i = 0; i < 6; i++) {
+        for (let j = 0; j < 6; j++) {
+          const p = pA[i] * pB[j];
+          if (i > j) pAWinsRoll += p;
+          else if (i === j) pTie += p;
+        }
+      }
+      pAWinsFight = pAWinsRoll;
+      if (attacker.fv > defender.fv) pAWinsFight += pTie;
+      else if (attacker.fv === defender.fv) pAWinsFight += pTie / 2;
+      // Spending Might to re-roll a lost roll-off: a second independent shot
+      // at the same win chance if the first one is lost.
+      if (attacker.mightFight) pAWinsFight += (1 - pAWinsFight) * pAWinsFight;
+    }
+    let pWoundOnWin = mesbgWoundChance(attacker.str, defender.def);
+    // Might re-rolls a failed Wound roll (attacker); Fate forces a re-roll of
+    // a successful one (defender) — applied after, so both can stack.
+    if (attacker.mightWound) pWoundOnWin += (1 - pWoundOnWin) * pWoundOnWin;
+    if (defender.fateSave) pWoundOnWin = pWoundOnWin * pWoundOnWin;
+    const pInflictPerPair = pAWinsFight * pWoundOnWin;
+    const avgDamage = pInflictPerPair * nPairs;
+    const defenderPool = defender.models * defender.wounds;
+    const avgModelsSlain = Math.min(defender.models, avgDamage / defender.wounds);
+    const chanceWipe = (nPairs >= defenderPool) ? Math.pow(pInflictPerPair, defenderPool) : 0;
+    return {
+      avgAttacks: attacker.atk * nPairs, avgDamage, avgModelsSlain, chanceWipe,
+      defenderPool, weaponSummaries: [], pWardFails: 0,
+      pWinFight: pAWinsFight, pWoundOnWin, nPairs
+    };
+  }
+
   function pct(x){ return (x * 100).toFixed(1) + '%'; }
   function num(x){ return Math.round(x * 10) / 10; }
 
@@ -3568,6 +3695,24 @@
   function renderResultCard(cardId, titleId, attacker, defender, res){
     const card = document.getElementById(cardId);
     const is40k = activeSystem === '40k';
+    if (activeSystem === 'mesbg') {
+      const opts = [];
+      if (attacker.heroicStrike) opts.push('Heroic Strike');
+      else if (attacker.mightFight) opts.push('Might re-roll (Fight)');
+      if (attacker.mightWound) opts.push('Might re-roll (Wound)');
+      if (defender.fateSave) opts.push(`${escapeHtml(defender.name)} spends Fate`);
+      const optsLine = opts.length ? `<div class="result-line"><div class="result-line-top"><span>Options in effect</span><span class="val">${opts.join(', ')}</span></div></div>` : '';
+      card.innerHTML = `<h4 id="${titleId}">${escapeHtml(attacker.name)} fights ${escapeHtml(defender.name)}</h4>
+        ${optsLine}
+        <div class="result-line"><div class="result-line-top"><span>Chance to win the Fight roll-off</span><span class="val">${pct(res.pWinFight)}</span></div></div>
+        <div class="result-line"><div class="result-line-top"><span>Chance to wound if won (S ${attacker.str} vs D ${defender.def})</span><span class="val">${pct(res.pWoundOnWin)}</span></div></div>
+        <div class="result-line hero"><div class="result-line-top"><span>Expected wounds dealt (${res.nPairs} paired duel${res.nPairs===1?'':'s'})</span><span class="val">${num(res.avgDamage)}</span></div></div>
+        <div class="result-line"><div class="result-line-top"><span>Expected models slain</span><span class="val">${num(res.avgModelsSlain)} / ${defender.models}</span></div>
+          <div class="stat-bar"><div class="stat-bar-fill" style="width:${Math.max(2, Math.round(100 * res.avgModelsSlain / Math.max(1, defender.models)))}%"></div></div></div>
+        <div class="result-line"><div class="result-line-top"><span>Chance to wipe the unit this round</span><span class="val">${pct(res.chanceWipe)}</span></div>
+          <div class="stat-bar"><div class="stat-bar-fill" style="width:${Math.max(2, Math.round(res.chanceWipe * 100))}%"></div></div></div>`;
+      return;
+    }
     const maxWeaponDmg = Math.max(0.0001, ...res.weaponSummaries.map(w => w.avgDamage));
     const weaponLines = res.weaponSummaries.length ? res.weaponSummaries.map(w => {
       const statsLabel = is40k
@@ -3596,11 +3741,12 @@
   }
 
   function runClash(){
-    const a = readProfile('a');
-    const b = readProfile('b');
+    const isMesbg = activeSystem === 'mesbg';
+    const a = isMesbg ? readMesbgProfile('a') : readProfile('a');
+    const b = isMesbg ? readMesbgProfile('b') : readProfile('b');
     const trials = 12000;
-    const resAonB = simulateClash(a, b, trials);
-    const resBonA = simulateClash(b, a, trials);
+    const resAonB = isMesbg ? computeMesbgClash(a, b) : simulateClash(a, b, trials);
+    const resBonA = isMesbg ? computeMesbgClash(b, a) : simulateClash(b, a, trials);
 
     document.getElementById('clashALabel').textContent = a.name;
     document.getElementById('clashBLabel').textContent = b.name;
@@ -3627,7 +3773,7 @@
     saveClash();
   }
 
-  const clashScalarIds = ['name','models','wounds','save','ward','toughness','fnp'];
+  const clashScalarIds = ['name','models','wounds','save','ward','toughness','fnp','fv','str','def','atk'];
 
   async function saveClash(){
     const data = {};
@@ -3684,7 +3830,7 @@
     const models = Math.max(1, Number(entry.models) || 1);
     const totalPts = Number(entry.points) || 0;
     return {
-      id:newId(), name:entry.name, qty:models, points:totalPts, wounds:entry.wounds || 0,
+      id:newId(), name:entry.name, qty:models, points:totalPts, wounds:entry.wounds || entry.w || 0,
       alliance:effectiveAlliance(entry),
       faction:entry.faction || '',
       reinforced:false,
@@ -3946,6 +4092,16 @@
       if (entry.invulnerableSave) parts.push('InSv ' + entry.invulnerableSave);
       if (entry.leadership) parts.push('LD ' + entry.leadership);
       if (entry.objectiveControl) parts.push('OC ' + entry.objectiveControl);
+    } else if (activeSystem === 'mesbg') {
+      if (entry.mv) parts.push('Mv ' + entry.mv);
+      if (entry.fv) parts.push('Fv ' + entry.fv);
+      if (entry.sv) parts.push('Sv ' + entry.sv);
+      if (entry.s) parts.push('S ' + entry.s);
+      if (entry.d) parts.push('D ' + entry.d);
+      if (entry.a) parts.push('A ' + entry.a);
+      if (entry.w) parts.push('W ' + entry.w);
+      if (entry.c) parts.push('C ' + entry.c);
+      if (entry.i) parts.push('I ' + entry.i);
     } else {
       if (entry.move) parts.push('Mv ' + entry.move);
       parts.push('W ' + (entry.wounds || '1'));
@@ -4010,7 +4166,19 @@
     { cats: ['Battleline'], label: 'Battleline' },
     { cats: ['Infantry'], label: 'Infantry' },
   ];
-  function getRoleOrder(){ return activeSystem === '40k' ? ROLE_ORDER_40K : ROLE_ORDER_AOS; }
+  const ROLE_ORDER_MESBG = [
+    { cats: ['Hero of Legend'], label: 'Heroes of Legend' },
+    { cats: ['Hero of Valour'], label: 'Heroes of Valour' },
+    { cats: ['Hero of Fortitude'], label: 'Heroes of Fortitude' },
+    { cats: ['Minor Hero'], label: 'Minor Heroes' },
+    { cats: ['Independent Hero'], label: 'Independent Heroes' },
+    { cats: ['HERO'], label: 'Heroes' },
+    { cats: ['MONSTER'], label: 'Monsters' },
+    { cats: ['CAVALRY'], label: 'Cavalry' },
+    { cats: ['SIEGE'], label: 'Siege Engines' },
+    { cats: ['INFANTRY'], label: 'Warriors' },
+  ];
+  function getRoleOrder(){ return activeSystem === '40k' ? ROLE_ORDER_40K : activeSystem === 'mesbg' ? ROLE_ORDER_MESBG : ROLE_ORDER_AOS; }
   const ROLE_OTHER = 'Other';
 
   function unitRole(e){
@@ -4327,6 +4495,15 @@
       // Feel No Pain isn't a structured field in the source data — pull it out
       // of the ability text (e.g. "...has the Feel No Pain 4+ ability.")
       setVal('fnp', extractFeelNoPain(entry));
+    } else if (activeSystem === 'mesbg') {
+      const setVal = (id, val) => { const el = document.getElementById(prefix + '_' + id); if (el) el.value = val || ''; };
+      setVal('name', entry.name || '');
+      setVal('models', entry.models || '1');
+      setVal('wounds', entry.w || '1');
+      setVal('fv', entry.fv || '3');
+      setVal('str', entry.s || '3');
+      setVal('def', entry.d || '3');
+      setVal('atk', entry.a || '1');
     } else {
       const setVal = (id, val) => { const el = document.getElementById(prefix + '_' + id); if (el) el.value = val || ''; };
       const map = { name:'name', models:'models', wounds:'wounds', save:'save', ward:'ward' };
@@ -4592,9 +4769,74 @@
     renderAddUnitBrowser();
   }
 
+  // MESBG faction files are shaped {legion, units:[{name,points,keywords,profile:{Mv,Fv,...},
+  // wargear,heroicActions,magicalPowers,options,specialRules}]} rather than the flat
+  // AoS/40K unit-array shape, so they need flattening into grimoire-entry fields.
+  // A handful of Ringwraiths have a scalable "Varies (N as fielded: X
+  // Attacks/Y Might/Z Will/W Fate, ...)" points string instead of a plain
+  // number, with '*' in place of the Attacks/Might/Will/Fate profile fields.
+  function parseMesbgVariableProfile(pointsStr){
+    const m = String(pointsStr).match(/(\d+)\s+as fielded:\s*(\d+)\s*Attacks?\/(\d+)\s*Might\/(\d+)\s*Will\/(\d+)\s*Fate/i);
+    if (!m) return null;
+    return { points: +m[1], a: +m[2], might: +m[3], will: +m[4], fate: +m[5] };
+  }
+
+  function mesbgLegionToGrimEntries(data, legionName){
+    if (!data || !Array.isArray(data.units)) return [];
+    return data.units.map(u => {
+      const p = u.profile || {};
+      const variable = typeof u.points !== 'number' ? parseMesbgVariableProfile(u.points) : null;
+      const lines = [];
+      if (u.keywords) lines.push(u.keywords);
+      if (u.heroicTier) lines.push(`${u.heroicTier} — leads up to ${MESBG_FOLLOWER_CAP[u.heroicTier] ?? '?'} followers in its warband.`);
+      if (variable) lines.push(`Variable profile — stats shown as fielded at ${variable.points}pts; see Options for other loadouts.`);
+      if (Array.isArray(u.wargear) && u.wargear.length) lines.push('Wargear: ' + u.wargear.join(', '));
+      if (Array.isArray(u.heroicActions) && u.heroicActions.length) lines.push('Heroic Actions: ' + u.heroicActions.join(', '));
+      if (Array.isArray(u.magicalPowers) && u.magicalPowers.length) {
+        u.magicalPowers.forEach(mp => {
+          if (typeof mp === 'string') { lines.push('Magical Power: ' + mp); return; }
+          if (mp.text) lines.push(`${mp.power}${mp.duration ? ' (' + mp.duration + ')' : ''}: ${mp.text}`);
+          else lines.push(`${mp.power}${mp.range ? ' (range ' + mp.range + (mp.cv ? ', CV ' + mp.cv : '') + ')' : ''}`);
+        });
+      }
+      if (Array.isArray(u.options) && u.options.length) lines.push('Options: ' + u.options.join('; '));
+      if (Array.isArray(u.specialRules)) {
+        u.specialRules.forEach(r => { if (r && r.name) lines.push(r.text ? `${r.name}: ${r.text}` : r.name); });
+      }
+      const kw = (u.keywords || '').toUpperCase();
+      const categories = [];
+      const isHeroUnit = kw.includes('HERO') || !!u.heroicTier;
+      if (u.heroicTier) categories.push(u.heroicTier);
+      else if (isHeroUnit) categories.push('HERO');
+      if (kw.includes('MONSTER') || kw.includes('BEAST') || kw.includes('MUMAK')) categories.push('MONSTER');
+      if (kw.includes('SIEGE')) categories.push('SIEGE');
+      if (kw.includes('CAVALRY') || kw.includes('MOUNTED')) categories.push('CAVALRY');
+      if (!categories.length) categories.push('INFANTRY');
+      const starOr = (val, fallback) => val === '*' ? (fallback !== undefined ? fallback : '') : val;
+      return {
+        name: u.name || '', faction: legionName, alliance: 'auto',
+        points: typeof u.points === 'number' ? u.points : (variable ? variable.points : 0),
+        models: 1,
+        mv: p.Mv, fv: p.Fv, sv: p.Sv, s: p.S, d: p.D,
+        a: starOr(p.A, variable && variable.a), w: p.W, c: p.C, i: p.I,
+        might: starOr(p.Might, variable && variable.might),
+        will: starOr(p.Will, variable && variable.will),
+        fate: starOr(p.Fate, variable && variable.fate),
+        abilities: lines.join('\n'),
+        isHero: isHeroUnit,
+        heroicTier: u.heroicTier || '',
+        categories
+      };
+    });
+  }
+  const MESBG_FOLLOWER_CAP = {
+    'Hero of Legend': 18, 'Hero of Valour': 15, 'Hero of Fortitude': 12,
+    'Minor Hero': 6, 'Independent Hero': 0
+  };
+
   async function autoLoadFactionData(){
     // Check data version — force re-import if version changed
-    const storedVersion = await storageGet('muster-roll-data-version');
+    const storedVersion = await storageGet(sysKey('muster-roll-data-version'));
     const forceReload = storedVersion !== DATA_VERSION;
     if (forceReload) {
       // Clear old grimoire data to ensure clean re-import with correct weapon fields
@@ -4610,7 +4852,10 @@
         let unitsData = null, rulesData = null;
         try {
           const res = await fetch(`${cfg.dataDir}/${encodeURIComponent(faction)}.json`);
-          if (res.ok) unitsData = await res.json();
+          if (res.ok) {
+            const raw = await res.json();
+            unitsData = activeSystem === 'mesbg' ? mesbgLegionToGrimEntries(raw, faction) : raw;
+          }
         } catch(e) { /* skip */ }
         try {
           const res = await fetch(`${cfg.dataDir}/${encodeURIComponent(faction)}.rules.json`);
@@ -4631,7 +4876,7 @@
         saveGrimoire();
         saveFactionRules();
         renderArmyRulesPanel();
-        storageSet('muster-roll-data-version', DATA_VERSION);
+        storageSet(sysKey('muster-roll-data-version'), DATA_VERSION);
         console.log(`Auto-loaded ${loaded} factions for ${activeSystem}.`);
       } else {
         console.error(`Failed to load any ${activeSystem} faction data — check that ${cfg.dataDir}/ is reachable (this page needs to be served over http(s), not opened as a local file).`);
@@ -4648,7 +4893,7 @@
   initTabs();
   // Load saved system preference, then init
   storageGet('muster-roll-active-system').then(savedSys => {
-    if (savedSys === '40k' || savedSys === 'aos') {
+    if (savedSys === '40k' || savedSys === 'aos' || savedSys === 'mesbg') {
       activeSystem = savedSys;
       document.querySelectorAll('.sys-btn').forEach(b => b.classList.toggle('active', b.dataset.system === savedSys));
       document.body.classList.add('sys-' + savedSys);

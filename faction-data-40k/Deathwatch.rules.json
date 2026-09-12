@@ -1,0 +1,48 @@
+{
+  "faction": "Deathwatch",
+  "battleFormations": [
+    {
+      "name": "Black Spear Task Force",
+      "dp": 3,
+      "effect": "Mission Tactics: At the start of your Command phase, select one Mission Tactic (Furor: [SUSTAINED HITS 1] on ADEPTUS ASTARTES weapons; Malleus: [LETHAL HITS] on ADEPTUS ASTARTES weapons; Purgatus: Critical Hits gain [PRECISION]) to apply to all units with this ability until your next Command phase; each can only be selected once per battle. Restriction: army can include ADEPTUS ASTARTES DEATHWATCH units only (no other Chapter's units, with exception of Kill Team Cassius); cannot include Assault Squad, Assault Squad with Jump Packs, Attack Bike Squad, Devastator Squad, Land Speeder Storm, Relic Terminator Squad, Scout Bike Squad, Scout Squad, Scout Sniper Squad, Tactical Squad, Terminator Assault Squad, Terminator Squad."
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "Thief of Secrets",
+      "cost": 25,
+      "effect": "[ADEPTUS ASTARTES model only] Improve the Strength, Damage and Armour Penetration characteristics of the bearer's melee weapons by 1 (by 2 instead, for the rest of the battle, once the bearer destroys an enemy model in melee in a Fight phase).",
+      "detachment": "Black Spear Task Force"
+    },
+    {
+      "name": "Osseus Key",
+      "cost": 15,
+      "effect": "[WATCH MASTER or TECHMARINE model only] At the start of your opponent's Shooting phase, select one enemy VEHICLE unit (excluding TITANIC) within 12\" and visible; it must take a Leadership test — if passed, subtract 1 from Hit rolls for that unit until end of phase; if failed, that unit is not eligible to shoot this phase.",
+      "detachment": "Black Spear Task Force"
+    },
+    {
+      "name": "Beacon Angelis",
+      "cost": 25,
+      "effect": "[ADEPTUS ASTARTES model only] Models in the bearer's unit have the Deep Strike ability; you can target the bearer's unit with the Rapid Ingress Stratagem for 0CP.",
+      "detachment": "Black Spear Task Force"
+    },
+    {
+      "name": "The Tome of Ectoclades",
+      "cost": 30,
+      "effect": "[WATCH MASTER or CAPTAIN model only] Once per battle, after selecting your Oath of Moment target, select a second enemy unit to also be an Oath of Moment target.",
+      "detachment": "Black Spear Task Force"
+    }
+  ],
+  "armyRules": [
+    {
+      "name": "Kill Teams",
+      "effect": "Each time an attack targets a KILL TEAM unit containing models with different Toughness characteristics, use the Toughness of the majority of models in that unit to determine wounding (highest if tied). KILL TEAM models follow normal TRANSPORT embarkation restrictions."
+    },
+    {
+      "name": "Deathwatch",
+      "effect": "Your army can include ADEPTUS ASTARTES DEATHWATCH units, but it cannot include any ADEPTUS ASTARTES units drawn from any other Chapter (except KILL TEAM CASSIUS). Cannot include Assault Squad, Assault Squad with Jump Packs, Attack Bike Squad, Devastator Squad, Land Speeder Storm, Relic Terminator Squad, Scout Bike Squad, Scout Squad, Scout Sniper Squad, Tactical Squad, Terminator Assault Squad, Terminator Squad."
+    }
+  ],
+  "sourceNotes": "Extracted from Wahapedia wh40k11ed Space Marines page, Deathwatch Codex Supplement section (Chapter filter: Deathwatch). Covers the Deathwatch Army Rule (Kill Teams), the unique Black Spear Task Force Detachment, and its Enhancements. Stratagems and base Codex: Space Marines Detachments not included (see Space Marines.rules.json for shared ADEPTUS ASTARTES detachments/Oath of Moment)."
+}

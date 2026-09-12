@@ -1,0 +1,674 @@
+{
+  "legion": "The Easterlings",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/the_easterlings/",
+    "https://github.com/BSData/middle-earth (Rohan.cat/Mordor.cat/The_Easterlings.cat, publication: Armies of Lord of the Rings) for hero profiles/points/wargear/tiers"
+  ],
+  "additionalRules": [
+    "An Easterlings Army must always contain Amdûr, who is always the Army's General.",
+    "Hero warband/follower system (current 'Armies of The Lord of the Rings' edition): each Hero anchors a warband of Independent (non-Hero) followers up to a cap set by their tier for this army list — Hero of Legend: up to 18 followers; Hero of Valour: up to 15; Hero of Fortitude: up to 12; Minor Hero: up to 6; Independent Hero: 0 (occupies a slot in another Hero's warband instead). The army's General is typically a Hero of Valour or Hero of Legend — check this army list's own requirements. Heroic tier is assigned per army list, not an inherent property of the hero."
+  ],
+  "specialRules": [
+    {
+      "name": "No quarter was asked...",
+      "text": "Friendly Easterling models gain a bonus of +1 to any Courage Tests they are required to take once their Army is Broken. Additionally, once per game in Scenarios in which a dice is rolled to see when the game ends, you may choose to have the dice re-rolled if the Scenario ends before you wish it to."
+    },
+    {
+      "name": "Press the advantage",
+      "text": "Whilst the enemy Army is Broken, friendly Easterling Hero models gain the Fearless special rule."
+    },
+    {
+      "name": "Raze the White City",
+      "text": "Friendly models gain the Ancient Enemies (Gondor) special rule."
+    }
+  ],
+  "units": [
+    {
+      "name": "Black Dragon Warrior",
+      "points": 10,
+      "keywords": "MAN | EASTERLING, BLACK DRAGON | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "6+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Shield",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Exchange Shield for Banner - 25 points",
+        "Easterling Halberd - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Easterling Halberd",
+          "type": "ACTIVE",
+          "text": "This can be used as either a pike or a two-handed weapon."
+        },
+        {
+          "name": "Phalanx",
+          "type": "ACTIVE",
+          "text": "A model with this special rule can use a pike and a shield at the same time without penalty. Additionally, should an Infantry model with this special rule lose a Combat, up to two friendly models with this special rule can Make Way instead of one."
+        },
+        {
+          "name": "Warriors of the Dragon Cult",
+          "type": "PASSIVE",
+          "text": "This model may only be included in the Warband of a Black Dragon Hero. Additionally, whilst within 3\" of a Black Dragon Hero, this model gains a bonus of +1 to their Fight Value."
+        }
+      ]
+    },
+    {
+      "name": "Dragon Cult Acolyte",
+      "points": 11,
+      "keywords": "MAN | EASTERLING, BLACK DRAGON | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 4,
+        "A": 2,
+        "W": 1,
+        "C": "6+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Throwing Weapons",
+        "Hand Weapons"
+      ],
+      "specialRules": [
+        {
+          "name": "Unyielding Combat Stance",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Supreme Agility",
+          "type": "ACTIVE",
+          "text": "This model gains a +2 bonus to any Climb, Jump or Leap Tests they take. Additionally, this model automatically passes all In the Way Tests when making Strikes against a model that is defending a barrier or a doorway."
+        },
+        {
+          "name": "Warriors of the Dragon Cult",
+          "type": "PASSIVE",
+          "text": "This model may only be included in the Warband of a Black Dragon Hero. Additionally, whilst within 3\" of a Black Dragon Hero, this model gains a bonus of +1 to their Fight Value."
+        }
+      ]
+    },
+    {
+      "name": "Easterling Kataphrakt",
+      "points": 15,
+      "keywords": "MAN | EASTERLING | WARRIOR, CAVALRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Shield",
+        "Hand Weapon",
+        "Armoured Horse"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Exchange Shield for War Drum (Easterling) - 25 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Phalanx",
+          "type": "ACTIVE",
+          "text": "A model with this special rule can use a pike and a shield at the same time without penalty. Additionally, should an Infantry model with this special rule lose a Combat, up to two friendly models with this special rule can Make Way instead of one."
+        },
+        {
+          "name": "The Gleaming Horde",
+          "type": "ACTIVE",
+          "text": "This model gains the Shieldwall special rule whilst they have the Cavalry keyword, and may still benefit from the special rule whilst mounted. The bonus of +1 Defence is applied to both rider and Mount. Hero models with this special rule that do not have a shield will still benefit from this special rule."
+        }
+      ]
+    },
+    {
+      "name": "Easterling Warrior",
+      "points": 8,
+      "keywords": "MAN | EASTERLING | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Easterling Halberd and Shield - 2 points",
+        "Shield - 1 point",
+        "Bow - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Easterling Halberd",
+          "type": "ACTIVE",
+          "text": "This can be used as either a pike or a two-handed weapon."
+        },
+        {
+          "name": "Phalanx",
+          "type": "ACTIVE",
+          "text": "A model with this special rule can use a pike and a shield at the same time without penalty. Additionally, should an Infantry model with this special rule lose a Combat, up to two friendly models with this special rule can Make Way instead of one."
+        }
+      ]
+    },
+    {
+      "name": "War Drake of Rhun",
+      "points": 20,
+      "keywords": "DRAKE | EASTERLING | WARRIOR, INFANTRY, BEAST | 40MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "6+",
+        "S": 4,
+        "D": 5,
+        "A": 2,
+        "W": 2,
+        "C": "6+",
+        "I": "9+"
+      },
+      "wargear": [
+        "Armour, Claws and Teeth (hand weapons)"
+      ],
+      "specialRules": [
+        {
+          "name": "Dominant (2)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Venom",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Slow-acting Venom",
+          "type": "PASSIVE",
+          "text": "Any model that suffers a Wound from a War Drake of Rhûn which isn't prevented, and is not slain, will reduce their Fight Value and Attacks by 1 (to a minimum of 1) for the remainder of the game. A model can only be affected by this special rule once per game, even if Wounded multiple times or by different models with this special rule."
+        }
+      ]
+    },
+    {
+      "name": "Khamûl The Easterling",
+      "points": 120,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH, EASTERLING, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "6",
+        "Might": "2",
+        "Will": "12",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Sword",
+        "Mounts",
+        "Teeth and Claws"
+      ],
+      "heroicActions": [
+        "Heroic Channelling",
+        "Heroic Strike",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [
+        {
+          "power": "Sap Will",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately loses D3 Will point. If the target is a Cavalry model, the caster must choose whether the rider or the mount loses the Will. The target loses D6 Will points."
+        },
+        {
+          "power": "Instill Fear",
+          "duration": "Instant",
+          "text": "This power targets all enemy models within range. Each affected model must take a Courage test, in an order chosen by the caster; if the test is failed then the model must move its maximum Move distance directly away from the caster. If the model comes into contact with another model, or impassable terrain, then it will stop so it is not in base contact with it. If a model comes into base contact with the edge of the board, they will immediately stop moving; this will not allow or force models to leave the board in Scenarios where models may leave the board. Models that fail a Courage test due to the effects of this Magical Power may then move no further that turn, for any reason. Courage tests caused by this Magical Power are taken on 3D6, discarding the highest result."
+        },
+        {
+          "power": "Immobilise/Transfix",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. While this power is in effect, the target model may not move (except to Back Away should they lose a Fight), shoot, cast Magical Powers, declare Heroic Actions, call a Stand Fast! or use Active abilities and may not Strike if they win a Duel. Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (rounding up)."
+        },
+        {
+          "power": "Drain Courage",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately reduces their Courage characteristic by 1 for the remainder of the battle, to a minimum of 1. This power can take effect multiple times over the course of a battle, reducing the target's Courage each time. If the target is a Cavalry model, the caster must choose whether the rider or the mount reduces their Courage value. The target's Courage is instead reduced by D3."
+        },
+        {
+          "power": "Command/Compel",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. The caster may move the target model up to half of its maximum Move distance. They can do this even if the model has already moved this turn. The move cannot force the targat to jump, leap, climb, dismount or lie down, but it can take them into difficult terrain, and even make them Charge an enemy. No Courage test is required to Charge Terror-causing foes (See page 107). It can even force an unengaged victim to drop an object (but not wargear) that it is holding or to put on The One Ring (if they carry it). Once the target has finished the move, it may move no further that turn for any reason.  Finally, the target suffers the effect of the Immobilise/Transifx magical power (see page 98). Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (Rounding up), and may not Strike if they win a Duel."
+        },
+        {
+          "power": "Black Dart",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target immediately suffers one Strength 9 hit. Do not roll To Hit or for In The Way tests. If the target is a Cavalry model then the Attacker must choose whether the rider or the mount is hit. This power can still be used on a target that is Engaged in combat. A wounding hit will cause D3 Wounds rather than 1."
+        }
+      ],
+      "options": [
+        "Armoured Fell Beast - 70 points",
+        "Horse - 10 points",
+        "Armoured Horse - 15 points",
+        "Fell Beast - 50 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Will of Evil (Passive)",
+          "type": "",
+          "text": "This model must give up 1 point of Will at the end of the Fight phase if it has been involved in one or more Fights that turn. Note that if a model is in base contact with an enemy model then it must fight - it cannot choose not to fight! Once the model is reduced to 0 Will points, it is banished and therefore removed as a casualty. If a model with this special rule uses their last Will points to cast a Magical Power with the Instant duration, the effects of the Magical Power will be resolved before the model is removed as a casualty.\n\nAdditionally, a Hero wearing The One Ring is not invisible to this model as they are to others. Furthermore, this model does not need to give up a point of Will if they are fighting a model wearing the Ring - not even if other enemy models are included as part of a Multiple Combat."
+        },
+        {
+          "name": "Terror (Passive)",
+          "type": "",
+          "text": "Should a model wish to Charge this model, it must first take a Courage test before it moves. If the test is passed, the model may Charge as normal. If the test is failed, the model does not Charge and may not move at all this turn.\n\nSometimes, a model will only cause Terror in certain enemies. In these instances, the creatures that are affected are clearly listed, and only those models need to make a Courage test before charging this model. For example, a model with the Terror (Orc) will cause Terrior in all Orc models."
+        },
+        {
+          "name": "Harbinger of Evil (Passive)",
+          "type": "",
+          "text": "An enemy model within 12\" of this model suffers a -1 penalty to its Courage. Note, this is not cumulative with other similar penalties such as those provided by Goblin Drums, The Harbinger of Evil special rule and so on."
+        }
+      ]
+    },
+    {
+      "name": "Easterling War Priest",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, EASTERLING, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "4+",
+        "S": "3",
+        "D": "5",
+        "A": "1",
+        "W": "2",
+        "C": "4",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Easterling Battle Stave"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        {
+          "power": "Fury ",
+          "duration": "",
+          "text": ""
+        },
+        {
+          "power": "Bladewrath",
+          "duration": "",
+          "text": ""
+        }
+      ],
+      "options": [
+        "Armoured Horse - 15 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Easterling Battle Stave",
+          "type": "ACTIVE",
+          "text": "Can be used as a Spear or a Two-Handed Axe."
+        }
+      ]
+    },
+    {
+      "name": "Easterling Captain",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, EASTERLING, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Easterling Glaive",
+        "Heavy Armour"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Armoured Horse and Sword - 10 points",
+        "Shield - 5 points",
+        "Bow - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Easterling Glaive",
+          "type": "ACTIVE",
+          "text": "Hand-and-a-Half Axe"
+        },
+        {
+          "name": "The Gleaming Horde (Active)",
+          "type": "ACTIVE",
+          "text": "This model gains the Shieldwall special rule while they remain mounted, even though they are not on foot. The +1 Defence bonus is applied to both rider and steed. Hero models with this special rule that do not have a shield will still benefit from this rule."
+        },
+        {
+          "name": "Phalanx (Active)",
+          "type": "ACTIVE",
+          "text": "Easterling models can use pikes and shields at the same time without penalty. Furthermore, should an Easterling model on foot with this special rule lose a Duel roll, up to two other models that also have the Phalanx special rule can Make Way instead of one."
+        }
+      ]
+    },
+    {
+      "name": "Easterling Dragon Knight",
+      "points": 65,
+      "heroicTier": "Minor Hero",
+      "keywords": "MAN, EASTERLING, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "3",
+        "W": "2",
+        "C": "4",
+        "Might": "2",
+        "Will": "0",
+        "Fate": "0"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Sword"
+      ],
+      "heroicActions": [
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Armoured Horse - 15 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Unyielding Combat Stance (Active)",
+          "type": "ACTIVE",
+          "text": "If a model with this special rule is knocked Prone, roll a D6. On a 4+, this model keeps theirfooting and is not knocked Prone. If this model was mounted when knocked Prone, and passes the roll to keep their footing, they will stay on their feet but they will still be separated from their mount. This model may still make this roll even it it automatically suffers the Knocked Flying result and, if the roll is successful, will not suffer any of its effects."
+        },
+        {
+          "name": "The Gleaming Horde (Active)",
+          "type": "ACTIVE",
+          "text": "This model gains the Shieldwall special rule while they remain mounted, even though they are not on foot. The +1 Defence bonus is applied to both rider and steed. Hero models with this special rule that do not have a shield will still benefit from this rule."
+        },
+        {
+          "name": "Phalanx (Active)",
+          "type": "ACTIVE",
+          "text": "Easterling models can use pikes and shields at the same time without penalty. Furthermore, should an Easterling model on foot with this special rule lose a Duel roll, up to two other models that also have the Phalanx special rule can Make Way instead of one."
+        },
+        {
+          "name": "Blood & Glory (Active)",
+          "type": "ACTIVE",
+          "text": "If this model kills an enemy Hero model in a Fight, they immediately regain a single point of Might spent earlier in the battle."
+        }
+      ]
+    },
+    {
+      "name": "Amdûr, Lord of Blades",
+      "points": 130,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, EASTERLING, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "3",
+        "W": "3",
+        "C": "5",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Durtûz",
+        "Heavy Armour"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Armoured Horse - 15 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Durtûz",
+          "type": "ACTIVE",
+          "text": "Durtûz is a Elven-made Hand-and-a-Half sword."
+        },
+        {
+          "name": "Unyielding Combat Stance (Active)",
+          "type": "ACTIVE",
+          "text": "If a model with this special rule is knocked Prone, roll a D6. On a 4+, this model keeps theirfooting and is not knocked Prone. If this model was mounted when knocked Prone, and passes the roll to keep their footing, they will stay on their feet but they will still be separated from their mount. This model may still make this roll even it it automatically suffers the Knocked Flying result and, if the roll is successful, will not suffer any of its effects."
+        },
+        {
+          "name": "The Gleaming Horde (Active)",
+          "type": "ACTIVE",
+          "text": "This model gains the Shieldwall special rule while they remain mounted, even though they are not on foot. The +1 Defence bonus is applied to both rider and steed. Hero models with this special rule that do not have a shield will still benefit from this rule."
+        },
+        {
+          "name": "Phalanx (Active)",
+          "type": "ACTIVE",
+          "text": "Easterling models can use pikes and shields at the same time without penalty. Furthermore, should an Easterling model on foot with this special rule lose a Duel roll, up to two other models that also have the Phalanx special rule can Make Way instead of one."
+        },
+        {
+          "name": "Blood & Glory (Active)",
+          "type": "ACTIVE",
+          "text": "If this model kills an enemy Hero model in a Fight, they immediately regain a single point of Might spent earlier in the battle."
+        }
+      ]
+    },
+    {
+      "name": "The Dragon Emperor of Rhûn",
+      "points": 200,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, EASTERLING, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "6",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Sword",
+        "Shield",
+        "Heavy Armour",
+        "Helm of the Dragon Emperor",
+        "The Emperor's Glaive"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": [
+        {
+          "name": "Helm of the Dragon Emperor",
+          "type": "ACTIVE",
+          "text": "The Helm of the Dragon Emperor gives him the Resistant to Magic special rule."
+        },
+        {
+          "name": "The Emperor's Glaive",
+          "type": "ACTIVE",
+          "text": "This is an Elven-made spear that may use the Feint special strike. Additionally, the bearer may use the Shielding special rule even though they do not have a shield. The Dragon Emperor of Rhûn may not support whilst mounted upon his Royal Palanquin."
+        },
+        {
+          "name": "Phalanx (Active)",
+          "type": "ACTIVE",
+          "text": "Easterling models can use pikes and shields at the same time without penalty. Furthermore, should an Easterling model on foot with this special rule lose a Duel roll, up to two other models that also have the Phalanx special rule can Make Way instead of one."
+        }
+      ]
+    },
+    {
+      "name": "Brórgîr, the Conjurer",
+      "points": 80,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, EASTERLING, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "4+",
+        "S": "3",
+        "D": "5",
+        "A": "1",
+        "W": "2",
+        "C": "4",
+        "Might": "2",
+        "Will": "5",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Easterling Battle Stave",
+        "Heavy Armour"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        {
+          "power": "Fury ",
+          "duration": "",
+          "text": ""
+        },
+        {
+          "power": "Enchanted Blades",
+          "duration": "",
+          "text": ""
+        },
+        {
+          "power": "Tremor",
+          "duration": "",
+          "text": ""
+        },
+        {
+          "power": "Bladewrath",
+          "duration": "",
+          "text": ""
+        }
+      ],
+      "options": [],
+      "specialRules": [
+        {
+          "name": "Easterling Battle Stave",
+          "type": "ACTIVE",
+          "text": "Can be used as a Spear or a Two-Handed Axe."
+        }
+      ]
+    },
+    {
+      "name": "Rutabi, General of the Dragon Legion",
+      "points": 110,
+      "heroicTier": "Hero of Valour",
+      "keywords": "WOMAN, EASTERLING, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "5",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Sword",
+        "Shield",
+        "Heavy Armour"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": [
+        {
+          "name": "Phalanx (Active)",
+          "type": "ACTIVE",
+          "text": "Easterling models can use pikes and shields at the same time without penalty. Furthermore, should an Easterling model on foot with this special rule lose a Duel roll, up to two other models that also have the Phalanx special rule can Make Way instead of one."
+        },
+        {
+          "name": "Unyielding Combat Stance (Active)",
+          "type": "ACTIVE",
+          "text": "If a model with this special rule is knocked Prone, roll a D6. On a 4+, this model keeps theirfooting and is not knocked Prone. If this model was mounted when knocked Prone, and passes the roll to keep their footing, they will stay on their feet but they will still be separated from their mount. This model may still make this roll even it it automatically suffers the Knocked Flying result and, if the roll is successful, will not suffer any of its effects."
+        },
+        {
+          "name": "Master of Battle (Active)",
+          "type": "ACTIVE",
+          "text": "Whenever an enemy Hero attempts a Heroic Action within 6\" of a model with this special rule, this model may call the same Heroic Action without spending Might, even if they would not usually have access to it.\n\nSometimes a model with this special rule will have a number after the rule in brackets, e.g., Master of Battle (5+). In this situation, wheneveran enemy Hero attempts a Heroic Action within 6\" of a model with this special rule, roll a D6. If the dice score equals of beats the number after the special rule, this model may call the same Heroic Action without spending Might - even if they would not normally be able to call the same Heroic Action."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Troop (non-Hero) entries retain points from the original prancingponypub scrape (BSData troop-cost extraction was unreliable). All Hero entries refreshed from BSData (current edition) with heroicTier added."
+}

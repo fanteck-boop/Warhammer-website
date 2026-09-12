@@ -1,0 +1,186 @@
+{
+  "faction": "Space Wolves",
+  "battleFormations": [
+    {
+      "name": "Saga of the Hunter",
+      "dp": 2,
+      "effect": "Pack's Quarry: Each time a model in a SPACE WOLVES unit makes a melee attack that targets an enemy unit, if that enemy unit is within Engagement Range of one or more other ADEPTUS ASTARTES units from your army, or if the attacking unit contains more models than that enemy unit, add 1 to the Hit roll (add 1 to the Wound roll as well if your Saga is completed). Saga of the Hunter is completed once your Quarry tally (gained by destroying enemy units in the Fight phase) reaches 2/3/4 depending on battle size (Incursion/Strike Force/Onslaught)."
+    },
+    {
+      "name": "Saga of the Bold",
+      "dp": 2,
+      "effect": "Heroes All: Each time an ADEPTUS ASTARTES unit is selected to shoot or fight, if your Saga is completed you can re-roll one Hit roll, one Wound roll and one Damage roll; otherwise if that unit is a SPACE WOLVES CHARACTER unit you can re-roll one Hit roll, Wound roll or Damage roll. Saga of the Bold is completed once SPACE WOLVES CHARACTER units have achieved three or more different Boasts (Your Hide as a Trophy, Slay Them All, Overrun Their Position, Hold the Line)."
+    },
+    {
+      "name": "Saga of the Beastslayer",
+      "dp": 2,
+      "effect": "Legendary Slayers: Each time an ADEPTUS ASTARTES model makes an attack, if that attack targets a CHARACTER, MONSTER or VEHICLE unit, or if your Saga is completed, that attack has the [LETHAL HITS] ability. Saga of the Beastslayer is completed once your Beastslayer tally (gained by destroying enemy CHARACTER/MONSTER/VEHICLE units) reaches your Beastslayer target (half the number of such units in your opponent's army, rounded up)."
+    },
+    {
+      "name": "Champions of Fenris",
+      "dp": 1,
+      "effect": "The Great Wolf Watches: Friendly ADEPTUS ASTARTES INFANTRY CHARACTER units have the Countercharge ability (once per battle round, per unit, you can target this unit with the Heroic Intervention Stratagem regardless of other uses that phase, and that use does not prevent other uses this phase). Restriction: army can include SPACE WOLVES units only, no other Chapter's ADEPTUS ASTARTES units."
+    },
+    {
+      "name": "Legends of Saga and Song",
+      "dp": 1,
+      "effect": "Loping Charge: Friendly ADEPTUS ASTARTES TERMINATOR units have +1 to Charge rolls. Restriction: army can include SPACE WOLVES units only, no other Chapter's ADEPTUS ASTARTES units."
+    },
+    {
+      "name": "Veterans of the Fang",
+      "dp": 1,
+      "effect": "Old Greymanes: When a friendly GREY HUNTERS unit starts an action, that action does not prevent it from being eligible to shoot. In the Declare Battle Formations step, you can split a friendly GREY HUNTERS unit into two equal-as-possible units. Restriction: army can include SPACE WOLVES units only, no other Chapter's ADEPTUS ASTARTES units."
+    },
+    {
+      "name": "Saga of the Great Wolf",
+      "dp": 2,
+      "effect": "Master of Wolves: At the start of your Command phase, select one Hunting Pack (Encircling Jaws: re-roll Advance/Charge rolls; Hunter's Eye: +1 to Hit rolls for ranged attacks; Ferocious Strike: [LETHAL HITS] or [SUSTAINED HITS 1] when fighting) to apply to all ADEPTUS ASTARTES units until your next Command phase; each can only be selected once per battle. Howling Onslaught: once per battle, if LOGAN GRIMNAR is on the battlefield, you can select a Hunting Pack you've already selected this battle. Restriction: army can include SPACE WOLVES units only, no other Chapter's ADEPTUS ASTARTES units."
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "Swift Hunter",
+      "cost": 20,
+      "effect": "[SPACE WOLVES model only] Models in the bearer's unit have the Scouts 7\" ability.",
+      "detachment": "Saga of the Hunter"
+    },
+    {
+      "name": "Fenrisian Grit",
+      "cost": 15,
+      "effect": "[ADEPTUS ASTARTES model only] The bearer has the Feel No Pain 4+ ability.",
+      "detachment": "Saga of the Hunter"
+    },
+    {
+      "name": "Wolf Master",
+      "cost": 5,
+      "effect": "[SPACE WOLVES model only] In your Command phase, select one friendly SPACE WOLVES unit within 9\" of the bearer; until your next Command phase, teeth/claws and Tyrnak/Fenrir weapons equipped by models in that unit have the [LETHAL HITS] ability.",
+      "detachment": "Saga of the Hunter"
+    },
+    {
+      "name": "Feral Rage",
+      "cost": 10,
+      "effect": "[ADEPTUS ASTARTES model only] Add 1 to the Attacks characteristic of the bearer's melee weapons (add an additional 1 after the bearer ends a Charge move, until end of turn).",
+      "detachment": "Saga of the Hunter"
+    },
+    {
+      "name": "Braggart's Steel",
+      "cost": 20,
+      "effect": "[SPACE WOLVES model only] Add 2 to the Strength characteristic of the bearer's melee weapons; if the bearer's unit has achieved one or more Boasts, add 1 to the Damage characteristic as well.",
+      "detachment": "Saga of the Bold"
+    },
+    {
+      "name": "Skjald",
+      "cost": 15,
+      "effect": "[ADEPTUS ASTARTES model only] Each time a SPACE WOLVES CHARACTER unit achieves a Boast, if the bearer is on the battlefield, you gain 1CP.",
+      "detachment": "Saga of the Bold"
+    },
+    {
+      "name": "Hordeslayer",
+      "cost": 15,
+      "effect": "[SPACE WOLVES model only] At the start of the Fight phase, if there are more enemy models than friendly models wholly within 6\" of the bearer, add 2 to the Attacks characteristic of the bearer's melee weapons until end of phase (add 3 instead if the bearer's unit has achieved one or more Boasts).",
+      "detachment": "Saga of the Bold"
+    },
+    {
+      "name": "Thunderwolf's Fortitude",
+      "cost": 25,
+      "effect": "[ADEPTUS ASTARTES model only] Once per battle, when this model is destroyed, roll one D6 at the end of the phase: on a 2+, set it up again unengaged and as close as possible to where it was destroyed, as its own unit with 3 wounds remaining.",
+      "detachment": "Saga of the Bold"
+    },
+    {
+      "name": "Wolf-touched",
+      "cost": 15,
+      "effect": "[SPACE WOLVES model only; WULFEN/WULFEN WITH STORM SHIELDS leader] Add 2\" to the Move characteristic of the bearer.",
+      "detachment": "Saga of the Beastslayer"
+    },
+    {
+      "name": "Hunter's Guile",
+      "cost": 20,
+      "effect": "[ADEPTUS ASTARTES model only] After both players deploy, select up to three THUNDERWOLF CAVALRY, WULFEN and/or BLOOD CLAWS units and redeploy them (can be placed into Strategic Reserves regardless of the normal limit).",
+      "detachment": "Saga of the Beastslayer"
+    },
+    {
+      "name": "Elder's Guidance",
+      "cost": 20,
+      "effect": "[SPACE WOLVES model only] Once per battle, at the start of the Fight phase, if the bearer is leading a BLOOD CLAWS unit, improve the Armour Penetration characteristic of that unit's melee weapons by 1 until end of phase.",
+      "detachment": "Saga of the Beastslayer"
+    },
+    {
+      "name": "Helm of the Beastslayer",
+      "cost": 15,
+      "effect": "[ADEPTUS ASTARTES model only] Each time an attack made by a CHARACTER, MONSTER or VEHICLE model targets the bearer's unit, reduce the Armour Penetration characteristic of that attack by 1.",
+      "detachment": "Saga of the Beastslayer"
+    },
+    {
+      "name": "A Giant Amongst Giants",
+      "cost": 15,
+      "effect": "[ADEPTUS ASTARTES INFANTRY model only] This model has +2 Wounds and its melee attacks have +1 Strength.",
+      "detachment": "Champions of Fenris"
+    },
+    {
+      "name": "Preyslayer",
+      "cost": 15,
+      "effect": "[ADEPTUS ASTARTES INFANTRY model only] This unit can re-roll Advance rolls and Countercharge rolls.",
+      "detachment": "Champions of Fenris"
+    },
+    {
+      "name": "Thirst For Glory",
+      "cost": 15,
+      "effect": "[ADEPTUS ASTARTES TERMINATOR model only] This unit has +1 Objective Control.",
+      "detachment": "Legends of Saga and Song"
+    },
+    {
+      "name": "Fierce Example",
+      "cost": 25,
+      "effect": "[WOLF GUARD TERMINATORS unit only] This unit has +1 Toughness.",
+      "detachment": "Legends of Saga and Song"
+    },
+    {
+      "name": "Eye of the Hunter",
+      "cost": 20,
+      "effect": "[WOLF GUARD BATTLE LEADER model only] This unit's ranged attacks have [ASSAULT], [IGNORES COVER], and +1 Armour Penetration.",
+      "detachment": "Veterans of the Fang"
+    },
+    {
+      "name": "Weaver of Sagas",
+      "cost": 15,
+      "effect": "[WOLF PRIEST model only] Once per battle round, in your Movement phase, remove Battle-shock from a friendly ADEPTUS ASTARTES unit within 6\" or a friendly GREY HUNTERS unit within 18\".",
+      "detachment": "Veterans of the Fang"
+    },
+    {
+      "name": "Grimnar's Mark",
+      "cost": 20,
+      "effect": "[ADEPTUS ASTARTES TERMINATOR CAPTAIN model only; WOLF GUARD TERMINATORS leader] Once per battle round, from round 2 onward, you can target the bearer's unit with the Rapid Ingress or Heroic Intervention Stratagem for 0CP, even if already used that turn. Can be attached to a WOLF GUARD TERMINATORS unit.",
+      "detachment": "Saga of the Great Wolf"
+    },
+    {
+      "name": "Howlmaw",
+      "cost": 15,
+      "effect": "[WOLF PRIEST model only] At the start of the Fight phase, select one enemy unit within 6\"; it must take a Battle-shock test with -1 to the result.",
+      "detachment": "Saga of the Great Wolf"
+    },
+    {
+      "name": "Chariots of the Storm",
+      "cost": 25,
+      "effect": "[ADEPTUS ASTARTES model only] After both players deploy, select up to three ADEPTUS ASTARTES units and redeploy them (can be placed into Strategic Reserves regardless of the normal limit).",
+      "detachment": "Saga of the Great Wolf"
+    },
+    {
+      "name": "Skjald's Foretelling",
+      "cost": 25,
+      "effect": "[WOLF GUARD BATTLE LEADER model only] While the bearer is leading a unit, weapons equipped by models in that unit have the [LANCE] ability.",
+      "detachment": "Saga of the Great Wolf"
+    }
+  ],
+  "armyRules": [
+    {
+      "name": "Curse of the Wulfen",
+      "effect": "While a WULFEN unit is within 6\" of one or more friendly SPACE WOLVES CHARACTER models (excluding WULFEN) or within 12\" of one or more friendly WOLF PRIEST models, if it is not Battle-shocked, add 1 to the Objective Control characteristic of INFANTRY models in it and add 3 to the Objective Control characteristic of VEHICLE models in it."
+    },
+    {
+      "name": "Sons of Russ",
+      "effect": "If an ADEPTUS ASTARTES unit has a second Faction keyword on its datasheet, that is the unit's Chapter (e.g. Ragnar Blackmane is SPACE WOLVES). You cannot include units from more than one Chapter in your army. If your army uses a Space Wolves Detachment, it can include SPACE WOLVES units but no ADEPTUS ASTARTES units from any other Chapter."
+    }
+  ],
+  "sourceNotes": "Extracted from Wahapedia wh40k11ed Space Marines page, Space Wolves Codex Supplement section (Chapter filter: Space Wolves). Covers all 7 Space Wolves Detachments (Sagas), Army Rules, and Enhancements. Stratagems and base Codex: Space Marines Detachments not included (see Space Marines.rules.json for shared ADEPTUS ASTARTES detachments/Oath of Moment)."
+}

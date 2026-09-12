@@ -1,0 +1,68 @@
+{
+  "faction": "Ultramarines",
+  "battleFormations": [
+    {
+      "name": "Blade of Ultramar",
+      "dp": 3,
+      "effect": "Mastered Doctrines: At the start of up to three of your Command phases, select one Combat Doctrine (Devastator/Tactical/Assault) to apply to all ADEPTUS ASTARTES units until your next Command phase; cannot re-select a Doctrine already used this battle unless MARNEUS CALGAR is on the battlefield. Restriction: army can include ULTRAMARINES units only, no other Chapter's ADEPTUS ASTARTES units."
+    },
+    {
+      "name": "Reclamation Force",
+      "dp": 2,
+      "effect": "Oath of Reclamation: Each time an ADEPTUS ASTARTES model makes a melee attack that targets a unit within range of an objective marker, improve the Armour Penetration characteristic of that attack by 1. Each time an attack targets an ADEPTUS ASTARTES unit within range of an objective marker you controlled at the start of the phase, if the Strength of that attack exceeds the Toughness of your unit (or your unit has the TITUS keyword), subtract 1 from the Wound roll. Restriction: army can include ULTRAMARINES units only, no other Chapter's ADEPTUS ASTARTES units."
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "Armour of Antoninus",
+      "cost": 20,
+      "effect": "[ADEPTUS ASTARTES model only] The bearer has a Save characteristic of 2+ and the Feel No Pain 5+ ability.",
+      "detachment": "Blade of Ultramar"
+    },
+    {
+      "name": "Oath of Macragge",
+      "cost": 15,
+      "effect": "[ADEPTUS ASTARTES model only] Add 1 to the Attacks and Strength characteristics of the bearer's melee weapons (add 2 instead while under the Assault Doctrine).",
+      "detachment": "Blade of Ultramar"
+    },
+    {
+      "name": "Student of the Codex",
+      "cost": 20,
+      "effect": "[ADEPTUS ASTARTES model only] At the start of your Command phase, the Tactical Doctrine becomes active for the bearer's unit until your next Command phase, instead of/even without any Combat Doctrine active for your army.",
+      "detachment": "Blade of Ultramar"
+    },
+    {
+      "name": "Veteran of Behemoth",
+      "cost": 25,
+      "effect": "[ADEPTUS ASTARTES model only] While leading a unit, that unit's ranged weapons have [SUSTAINED HITS 1]; while under the Devastator Doctrine, you can re-roll Advance rolls for that unit.",
+      "detachment": "Blade of Ultramar"
+    },
+    {
+      "name": "Seals of Reconquest",
+      "cost": 20,
+      "effect": "[ADEPTUS ASTARTES model only] Models in the bearer's unit have a 5+ invulnerable save.",
+      "detachment": "Reclamation Force"
+    },
+    {
+      "name": "Avenging Avatar",
+      "cost": 10,
+      "effect": "[ADEPTUS ASTARTES model only, Aura] In the Battle-shock step of your opponent's Command phase, an enemy unit below Starting Strength within 9\" of the bearer must take a Battle-shock test.",
+      "detachment": "Reclamation Force"
+    },
+    {
+      "name": "Scroll of Proclamation",
+      "cost": 15,
+      "effect": "[ADEPTUS ASTARTES model only] When this unit declares a charge against an enemy unit within range of an objective within 12\", you can re-roll the charge roll but must end the charge engaged with one of those units.",
+      "detachment": "Reclamation Force"
+    },
+    {
+      "name": "Liberatum",
+      "cost": 25,
+      "effect": "[ADEPTUS ASTARTES model only] Each time the bearer attacks a unit within range of an objective marker, you can re-roll the Hit roll and the Wound roll.",
+      "detachment": "Reclamation Force"
+    }
+  ],
+  "armyRules": [],
+  "sourceNotes": "Extracted from Wahapedia wh40k11ed Space Marines page (Chapter filter: Ultramarines). Covers the two unique Ultramarines Detachments (Blade of Ultramar, Reclamation Force) and their Enhancements. Ultramarines use the shared Oath of Moment/Space Marine Chapters Army Rules with no unique chapter-specific Army Rule override. Stratagems and base Codex: Space Marines Detachments not included (see Space Marines.rules.json)."
+}

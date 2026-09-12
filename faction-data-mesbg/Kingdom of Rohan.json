@@ -1,0 +1,1398 @@
+{
+  "legion": "Kingdom of Rohan",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/kingdom_of_rohan/",
+    "https://github.com/BSData/middle-earth (Rohan.cat/Mordor.cat/The_Easterlings.cat, publication: Armies of Lord of the Rings) for hero profiles/points/wargear/tiers"
+  ],
+  "additionalRules": [
+    "Riders of Rohan do not count towards this Army's Bow Limit.",
+    "Hero warband/follower system (current 'Armies of The Lord of the Rings' edition): each Hero anchors a warband of Independent (non-Hero) followers up to a cap set by their tier for this army list — Hero of Legend: up to 18 followers; Hero of Valour: up to 15; Hero of Fortitude: up to 12; Minor Hero: up to 6; Independent Hero: 0 (occupies a slot in another Hero's warband instead). The army's General is typically a Hero of Valour or Hero of Legend — check this army list's own requirements. Heroic tier is assigned per army list, not an inherent property of the hero."
+  ],
+  "specialRules": [
+    {
+      "name": "\"Ride for ruin and the world's ending\"",
+      "text": "Friendly Rohan Cavalry models gain a bonus of +1 to their Strength on a turn in which they Charge."
+    },
+    {
+      "name": "Home of the Horse Lords",
+      "text": "When rolling for their Horse Lord special rule, friendly models will pass the roll on a natural 5+ rather than a natural 6."
+    }
+  ],
+  "units": [
+    {
+      "name": "Rider of Rohan",
+      "points": 14,
+      "keywords": "MAN | ROHAN | WARRIOR, CAVALRY | 40MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Shield",
+        "Bow",
+        "Horse"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Throwing Spear - 2 points",
+        "Westfold Redshield - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Arise, Riders of Rohan!",
+          "type": "ACTIVE",
+          "text": "If this model is within 12\" of a Rohan General and has the Cavalry keyword, then it gains a bonus of +1 to its Fight Value in a turn in which it Charges."
+        },
+        {
+          "name": "Spear Mastery",
+          "type": "ACTIVE",
+          "text": "This model may use its throwing spear as a normal spear during the Fight Phase, so long as it hasn't made a shooting attack with it in either the preceding Move Phase or Shoot Phase."
+        }
+      ]
+    },
+    {
+      "name": "Rohan Outrider",
+      "points": 8,
+      "keywords": "MAN | ROHAN | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "3+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Bow"
+      ],
+      "options": [
+        "Horse - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Vanguard",
+          "type": "ACTIVE",
+          "text": "This model may benefit from a friendly Hero model's Stand Fast regardless of range."
+        }
+      ]
+    },
+    {
+      "name": "Rohan Royal Guard",
+      "points": 11,
+      "keywords": "MAN | ROHAN | WARRIOR, INFANTRY, ELITE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "options": [
+        "Horse and Throwing Spear - 7 points",
+        "Horse - 5 points",
+        "Throwing Spear - 2 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Bodyguard",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Arise, Riders of Rohan!",
+          "type": "ACTIVE",
+          "text": "If this model is within 12\" of a Rohan General and has the Cavalry keyword, then it gains a bonus of +1 to its Fight Value in a turn in which it Charges."
+        },
+        {
+          "name": "Spear Mastery",
+          "type": "ACTIVE",
+          "text": "This model may use its throwing spear as a normal spear during the Fight Phase, so long as it hasn't made a shooting attack with it in either the preceding Move Phase or Shoot Phase."
+        }
+      ]
+    },
+    {
+      "name": "Warrior of Rohan",
+      "points": 6,
+      "keywords": "MAN | ROHAN | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "War Horn, Shield, Throwing Spear - 28 points",
+        "Banner - 25 points",
+        "Shield and Throwing Spear - 3 points",
+        "Shield - 1 point",
+        "Bow - 1 point",
+        "Upgrade to Helmingas - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Spear Mastery",
+          "type": "ACTIVE",
+          "text": "This model may use its throwing spear as a normal spear during the Fight Phase, so long as it hasn't made a shooting attack with it in either the preceding Move Phase or Shoot Phase."
+        }
+      ]
+    },
+    {
+      "name": "Théodred, Heir of Rohan",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "3",
+        "W": "2",
+        "C": "5",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Sword",
+        "Heavy Armour"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Shield - 5 points",
+        "Horse - 10 points",
+        "Throwing Spears - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Horse Lord (Passive)",
+          "type": "",
+          "text": "Whilst this model is mounted, they may choose to expend their own Fate points to prevent Wounds caused to their mount."
+        },
+        {
+          "name": "Expert Rider (Active)",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, an Expert Rider may re-roll the dice when making Jump, Swim, and Thrown Rider tests.\n\nWhile mounted, a model carrying both a shield and a bow will still receive the +1 Defence bonus for being armed with a shield. If the model dismouts, they will lose this bonus.\n\nAdditionally, an Expert Rider can pick up Light Objects without having to dismount."
+        },
+        {
+          "name": "Sworn Protector (Active)",
+          "type": "ACTIVE",
+          "text": "Models with this special rule will have a specific model in brackets after the special rule. Whilst the named model is alive and on the battlefield, this model passes all Courage tests."
+        }
+      ]
+    },
+    {
+      "name": "Éomer, Marshal of the Riddermark",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "3",
+        "W": "3",
+        "C": "5",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Sword",
+        "Heavy Armour"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Shield - 5 points",
+        "Horse - 10 points",
+        "Throwing Spears - 5 points",
+        "Armoured Horse - 15 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Horse Lord (Passive)",
+          "type": "",
+          "text": "Whilst this model is mounted, they may choose to expend their own Fate points to prevent Wounds caused to their mount."
+        },
+        {
+          "name": "Expert Rider (Active)",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, an Expert Rider may re-roll the dice when making Jump, Swim, and Thrown Rider tests.\n\nWhile mounted, a model carrying both a shield and a bow will still receive the +1 Defence bonus for being armed with a shield. If the model dismouts, they will lose this bonus.\n\nAdditionally, an Expert Rider can pick up Light Objects without having to dismount."
+        }
+      ]
+    },
+    {
+      "name": "Grimbold of Grimslade",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "4",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Two-Handed Axe"
+      ],
+      "heroicActions": [
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": [
+        {
+          "name": "Mighty Blow (Active)",
+          "type": "ACTIVE",
+          "text": "For each Strike that succesesfully Wounds in close combat, this model inflicts 2 Wounds rather than 1."
+        },
+        {
+          "name": "Sworn Protector (Active)",
+          "type": "ACTIVE",
+          "text": "Models with this special rule will have a specific model in brackets after the special rule. Whilst the named model is alive and on the battlefield, this model passes all Courage tests."
+        }
+      ]
+    },
+    {
+      "name": "Captain of Rohan",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "4",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Axe",
+        "Sword"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 10 points",
+        "Shield - 5 points",
+        "Heavy Armour - 5 points",
+        "Throwing Spears - 5 points",
+        "Bow - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Sworn Protector (Active)",
+          "type": "ACTIVE",
+          "text": "Models with this special rule will have a specific model in brackets after the special rule. Whilst the named model is alive and on the battlefield, this model passes all Courage tests."
+        },
+        {
+          "name": "Horse Lord (Passive)",
+          "type": "",
+          "text": "Whilst this model is mounted, they may choose to expend their own Fate points to prevent Wounds caused to their mount."
+        },
+        {
+          "name": "Expert Rider (Active)",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, an Expert Rider may re-roll the dice when making Jump, Swim, and Thrown Rider tests.\n\nWhile mounted, a model carrying both a shield and a bow will still receive the +1 Defence bonus for being armed with a shield. If the model dismouts, they will lose this bonus.\n\nAdditionally, an Expert Rider can pick up Light Objects without having to dismount."
+        },
+        {
+          "name": "Arise Riders of Théoden! (Active)",
+          "type": "ACTIVE",
+          "text": "If this model is within 12\" of Théoden and has the Cavalry keyword, then a model with this special rule receives a +1 bonus to their Fight value on a turn in which they Charge."
+        }
+      ]
+    },
+    {
+      "name": "Meriadoc Brandybuck, Knight of the Mark",
+      "points": 25,
+      "heroicTier": "Independent Hero",
+      "keywords": "HOBBIT, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "4",
+        "A": "1",
+        "W": "1",
+        "C": "4",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Armour",
+        "Dagger"
+      ],
+      "heroicActions": [
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Shield - 5 points",
+        "Elven Cloak - 5 points",
+        "Pony - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic (Passive)",
+          "type": "",
+          "text": "If this model is targeted by a Magical Power, it may use an additional 'free' dice when it makes a Resist test, even if it has no Will remaining or decides not to use any Will points from its store."
+        },
+        {
+          "name": "Throw Stones (Active)",
+          "type": "ACTIVE",
+          "text": "If this model does not move at all during the Move phase, then in the Shoot phase it may make a shooting attack with the Strength and range specified in the model's profile."
+        },
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader. They may, however, be included in another Hero model's warband as one of their followers."
+        }
+      ]
+    },
+    {
+      "name": "Gamling, Captain of Rohan",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Sword",
+        "Royal Standard of Rohan"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Royal Standard of Rohan",
+          "type": "ACTIVE",
+          "text": "This precious heirloom is a banner. Additionally, any Rohan Hero models that are within 3\" of the Royal Standard of Rohan at the start of any turn, and have no Might remaining, automatically add 1 point of Might to their store. This cannot take a Hero model's Might beyond its starting level. Gamling suffers no penalties for carrying the Royal Standard of Rohan."
+        },
+        {
+          "name": "Sworn Protector (Active)",
+          "type": "ACTIVE",
+          "text": "Models with this special rule will have a specific model in brackets after the special rule. Whilst the named model is alive and on the battlefield, this model passes all Courage tests."
+        },
+        {
+          "name": "Horse Lord (Passive)",
+          "type": "",
+          "text": "Whilst this model is mounted, they may choose to expend their own Fate points to prevent Wounds caused to their mount."
+        },
+        {
+          "name": "Expert Rider (Active)",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, an Expert Rider may re-roll the dice when making Jump, Swim, and Thrown Rider tests.\n\nWhile mounted, a model carrying both a shield and a bow will still receive the +1 Defence bonus for being armed with a shield. If the model dismouts, they will lose this bonus.\n\nAdditionally, an Expert Rider can pick up Light Objects without having to dismount."
+        }
+      ]
+    },
+    {
+      "name": "King's Huntsman",
+      "points": 50,
+      "heroicTier": "Minor Hero",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "2",
+        "C": "4",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Longbow",
+        "Armour",
+        "Sword"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": []
+    },
+    {
+      "name": "Eorl the Young",
+      "points": 115,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, ROHAN, CAVALRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "5",
+        "Might": "3*",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Throwing Spears",
+        "Felarof",
+        "Sword",
+        "Heavy Armour",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": [
+        {
+          "name": "Horse Lord (Passive)",
+          "type": "",
+          "text": "Whilst this model is mounted, they may choose to expend their own Fate points to prevent Wounds caused to their mount."
+        },
+        {
+          "name": "Expert Rider (Active)",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, an Expert Rider may re-roll the dice when making Jump, Swim, and Thrown Rider tests.\n\nWhile mounted, a model carrying both a shield and a bow will still receive the +1 Defence bonus for being armed with a shield. If the model dismouts, they will lose this bonus.\n\nAdditionally, an Expert Rider can pick up Light Objects without having to dismount."
+        }
+      ]
+    },
+    {
+      "name": "Háma, Captain of Rohan",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Sword"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 10 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Sworn Protector (Active)",
+          "type": "ACTIVE",
+          "text": "Models with this special rule will have a specific model in brackets after the special rule. Whilst the named model is alive and on the battlefield, this model passes all Courage tests."
+        },
+        {
+          "name": "Horse Lord (Passive)",
+          "type": "",
+          "text": "Whilst this model is mounted, they may choose to expend their own Fate points to prevent Wounds caused to their mount."
+        },
+        {
+          "name": "Expert Rider (Active)",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, an Expert Rider may re-roll the dice when making Jump, Swim, and Thrown Rider tests.\n\nWhile mounted, a model carrying both a shield and a bow will still receive the +1 Defence bonus for being armed with a shield. If the model dismouts, they will lose this bonus.\n\nAdditionally, an Expert Rider can pick up Light Objects without having to dismount."
+        }
+      ]
+    },
+    {
+      "name": "Erkenbrand, Captain of Rohan",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "4",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Horn of the Hammerhand",
+        "Shield",
+        "Sword",
+        "Heavy Armour"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Horn of the Hammerhand",
+          "type": "ACTIVE",
+          "text": "This is a War Horn that adds +2 Courage rather than +1. However, this War Horn only affects friendly Rohan models."
+        },
+        {
+          "name": "Horse Lord (Passive)",
+          "type": "",
+          "text": "Whilst this model is mounted, they may choose to expend their own Fate points to prevent Wounds caused to their mount."
+        },
+        {
+          "name": "Expert Rider (Active)",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, an Expert Rider may re-roll the dice when making Jump, Swim, and Thrown Rider tests.\n\nWhile mounted, a model carrying both a shield and a bow will still receive the +1 Defence bonus for being armed with a shield. If the model dismouts, they will lose this bonus.\n\nAdditionally, an Expert Rider can pick up Light Objects without having to dismount."
+        }
+      ]
+    },
+    {
+      "name": "Éowyn, Shield Maiden of Rohan",
+      "points": 40,
+      "heroicTier": "Minor Hero",
+      "keywords": "WOMAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "3",
+        "D": "3",
+        "A": "2",
+        "W": "2",
+        "C": "5",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Sword"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Armour - 5 points",
+        "Throwing Spears - 5 points",
+        "Shield - 5 points",
+        "Horse - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Horse Lord (Passive)",
+          "type": "",
+          "text": "Whilst this model is mounted, they may choose to expend their own Fate points to prevent Wounds caused to their mount."
+        },
+        {
+          "name": "Expert Rider (Active)",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, an Expert Rider may re-roll the dice when making Jump, Swim, and Thrown Rider tests.\n\nWhile mounted, a model carrying both a shield and a bow will still receive the +1 Defence bonus for being armed with a shield. If the model dismouts, they will lose this bonus.\n\nAdditionally, an Expert Rider can pick up Light Objects without having to dismount."
+        }
+      ]
+    },
+    {
+      "name": "Théoden, King of Rohan",
+      "points": 75,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Herugrim",
+        "Armour"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Strike",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 10 points",
+        "Shield - 5 points",
+        "Heavy Armour - 5 points",
+        "Armoured Horse - 15 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Herugrim",
+          "type": "ACTIVE",
+          "text": "Herugrim is a sword. Additionally, Théoden may use the Feint Special Strike even if his Fight is lower than his opponent's."
+        },
+        {
+          "name": "Horse Lord (Passive)",
+          "type": "",
+          "text": "Whilst this model is mounted, they may choose to expend their own Fate points to prevent Wounds caused to their mount."
+        },
+        {
+          "name": "Expert Rider (Active)",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, an Expert Rider may re-roll the dice when making Jump, Swim, and Thrown Rider tests.\n\nWhile mounted, a model carrying both a shield and a bow will still receive the +1 Defence bonus for being armed with a shield. If the model dismouts, they will lose this bonus.\n\nAdditionally, an Expert Rider can pick up Light Objects without having to dismount."
+        }
+      ]
+    },
+    {
+      "name": "Dernhelm",
+      "points": 75,
+      "heroicTier": "Minor Hero",
+      "keywords": "WOMAN, ROHAN, CAVALRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "3",
+        "D": "5",
+        "A": "3",
+        "W": "2",
+        "C": "5",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Horse",
+        "Sword",
+        "Shield",
+        "Armour",
+        "Dagger"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Throwing Spears - 5 points",
+        "Elven Cloak - 5 points",
+        "Pony - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Horse Lord (Passive)",
+          "type": "",
+          "text": "Whilst this model is mounted, they may choose to expend their own Fate points to prevent Wounds caused to their mount."
+        },
+        {
+          "name": "Expert Rider (Active)",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, an Expert Rider may re-roll the dice when making Jump, Swim, and Thrown Rider tests.\n\nWhile mounted, a model carrying both a shield and a bow will still receive the +1 Defence bonus for being armed with a shield. If the model dismouts, they will lose this bonus.\n\nAdditionally, an Expert Rider can pick up Light Objects without having to dismount."
+        }
+      ]
+    },
+    {
+      "name": "Elfhelm, Captain of Rohan",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Throwing Spears",
+        "Shield",
+        "Sword",
+        "Armour"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Horse Lord (Passive)",
+          "type": "",
+          "text": "Whilst this model is mounted, they may choose to expend their own Fate points to prevent Wounds caused to their mount."
+        },
+        {
+          "name": "Expert Rider (Active)",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, an Expert Rider may re-roll the dice when making Jump, Swim, and Thrown Rider tests.\n\nWhile mounted, a model carrying both a shield and a bow will still receive the +1 Defence bonus for being armed with a shield. If the model dismouts, they will lose this bonus.\n\nAdditionally, an Expert Rider can pick up Light Objects without having to dismount."
+        },
+        {
+          "name": "Sworn Protector (Active)",
+          "type": "ACTIVE",
+          "text": "Models with this special rule will have a specific model in brackets after the special rule. Whilst the named model is alive and on the battlefield, this model passes all Courage tests."
+        }
+      ]
+    },
+    {
+      "name": "Déorwine, Chief of the King's Knights",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "4",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Shield",
+        "Sword",
+        "Heavy Armour"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Horse Lord (Passive)",
+          "type": "",
+          "text": "Whilst this model is mounted, they may choose to expend their own Fate points to prevent Wounds caused to their mount."
+        },
+        {
+          "name": "Expert Rider (Active)",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, an Expert Rider may re-roll the dice when making Jump, Swim, and Thrown Rider tests.\n\nWhile mounted, a model carrying both a shield and a bow will still receive the +1 Defence bonus for being armed with a shield. If the model dismouts, they will lose this bonus.\n\nAdditionally, an Expert Rider can pick up Light Objects without having to dismount."
+        },
+        {
+          "name": "Bodyguard (Active)",
+          "type": "ACTIVE",
+          "text": "All Warrior and Hero models from the same army list with this special rule will automatically Bodyguard the Hero from the same army list with the highest Heroic Tier. If there is more than one Hero with the highest Heroic Tier, the controlling player may choose. As long as the bodyguarded model is alive on the battlefield, this model passes all Courage tests.\n\nModels that are part of an allied contingent must select a model from their own army lilst."
+        }
+      ]
+    },
+    {
+      "name": "Aldor, Rohan Archer",
+      "points": 20,
+      "heroicTier": "Independent Hero",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "1",
+        "C": "4",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Sword",
+        "Armour",
+        "Bow"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": [
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader. They may, however, be included in another Hero model's warband as one of their followers."
+        }
+      ]
+    },
+    {
+      "name": "Haleth, Son of Háma",
+      "points": 30,
+      "heroicTier": "Independent Hero",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "4+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "5",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Sword",
+        "Armour",
+        "Bow"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": [
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader. They may, however, be included in another Hero model's warband as one of their followers."
+        }
+      ]
+    },
+    {
+      "name": "Helm Hammerhand",
+      "points": 165,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "5",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "6",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Horn of The Hammerhand",
+        "Two-Handed Sword",
+        "Heavy Armour"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Defence",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Horn of The Hammerhand",
+          "type": "ACTIVE",
+          "text": "This is a War Horn. Additionally, in a turn in which Helm Hammerhand charges into combat, he causes Terror until the end of the turn."
+        },
+        {
+          "name": "Horse Lord (Passive)",
+          "type": "",
+          "text": "Whilst this model is mounted, they may choose to expend their own Fate points to prevent Wounds caused to their mount."
+        },
+        {
+          "name": "Expert Rider (Active)",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, an Expert Rider may re-roll the dice when making Jump, Swim, and Thrown Rider tests.\n\nWhile mounted, a model carrying both a shield and a bow will still receive the +1 Defence bonus for being armed with a shield. If the model dismouts, they will lose this bonus.\n\nAdditionally, an Expert Rider can pick up Light Objects without having to dismount."
+        },
+        {
+          "name": "Burly (Passive)",
+          "type": "",
+          "text": "When fighting with a two-handed weapon, a model with this special rule does not suffer the -1 penalty to their Duel roll.\n\nAdditionally, Burly models may carry a Heavy Object and move their full distance."
+        },
+        {
+          "name": "Mighty Hero (Passive)",
+          "type": "",
+          "text": "A model with this special rule may expend 1 point of Might each turn without reducing their own store of Might."
+        }
+      ]
+    },
+    {
+      "name": "Ghân-Buri-Ghân",
+      "points": 65,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "4",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Dagger",
+        "Spear",
+        "Poisoned Blowpipe"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "options": [],
+      "specialRules": [
+        {
+          "name": "Woodland Creature (Active)",
+          "type": "ACTIVE",
+          "text": "An Infantry model with this special rule may move through woods and forests that are classified as difficult terrain as if they are open ground. Note that this doesn't mean they can automatically climb terrain in those areas, nor move through any tree trunks or jump falled Obstacles."
+        },
+        {
+          "name": "Stalk Unseen (Passive)",
+          "type": "",
+          "text": "If a model with this special rule is partially concealed from view by a piece of terrain, they cannot be seen at all at distances of more than 6\" - they appear to melt into the background. This means that enemies cannot Charge, Shoot, or target them with Magical Powers of special rules at ranges of greater than 6\", unless they have a completely clear view of the target.\n\nIf the model is ridng a mount, Stalk Unseen has no effect."
+        },
+        {
+          "name": "Hatred (Active)",
+          "type": "ACTIVE",
+          "text": "A model with this special rule adds 1 to their To Wound rolls when fighting in combat against the models with the keyword listed in the brackets in its profile. For example, a model that has the Hatred (Man) special rule will get +1 to their To Wound rolls against all models with the Man keyword. A model that has the Hatred (Mordor) special rule will get +1 to their To Wound rolls against all models with the Mordor keyword."
+        }
+      ]
+    },
+    {
+      "name": "Gandalf the White",
+      "points": 220,
+      "heroicTier": "Hero of Valour",
+      "keywords": "WIZARD, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "3",
+        "C": "7",
+        "Might": "3",
+        "Will": "6*",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Staff of Power*",
+        "Glamdring",
+        "Narya"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Channeling",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [
+        {
+          "power": "Your Staff is Broken",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range, so long as they have a staff. This power destroys the staff of the target model. All the advantages associated with the staff are immediately lost (including the hand-and-a-half weapon bonus). The target additionally suffers a Strength 7 hit."
+        },
+        {
+          "power": "Terrifying Aura",
+          "duration": "Exhaustion",
+          "text": "This power targets the caster themselves. While this power is in effect, the caster causes Terror (see page 107). Models wishing to Charge the caster whilst this power is in effect must take their Courage test on 3D6, discarding the highest dice."
+        },
+        {
+          "power": "Strengthen Will",
+          "duration": "Instant",
+          "text": "This power targets one friendly model within range. The caster can use this spell to give 1 Will point to a friendly Hero within range. The target's Will can be increased past their starting amount, and this power can used even if they started the game without any Will points. If the target is a Cavalry model, the caster must choose whether the rider or the mount regains the Will point. The target instead receives D3 Will points."
+        },
+        {
+          "power": "Sorcerous Blast",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. The target is blasted D6\" directly away from the caster and knocked Prone. If the target comes into contact with another model that is Strength 5 or less, it will immediately stop and both models will be knocked Prone. If the target, or one of the models that is knocked Prone is Engaged in combat, then all the models (friend and foe) in the same Fight are also knocked Prone. The target model suffers one Strength 5 hit, and any other model knocked Prone suffers one Strength 3 hit. Cavalry models are treated as having rolled the Knocked Flying result on the Thrown Rider chart.  Additionally, if the target comes into contact with a piece of terrain, such as an Obstacle like a hedge, house or large rock, or a model that is Strength 6 or higher, then it will immediately stop and be knocked Prone, however the Strength 6 model will not be knocked Prone. Both the target and the Obstacle or model (if it has a Defence value) will suffer one Strength 3 hit.  Note: Even Transfixed/Compelled or otherwise immobilised models will be blasted by this power. The initial hit is instead Strength 6 and every other model suffers instead one Strength 4 hit."
+        },
+        {
+          "power": "Immobilise/Transfix",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. While this power is in effect, the target model may not move (except to Back Away should they lose a Fight), shoot, cast Magical Powers, declare Heroic Actions, call a Stand Fast! or use Active abilities and may not Strike if they win a Duel. Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (rounding up)."
+        },
+        {
+          "power": "Fortify Spirit",
+          "duration": "Exhaustion",
+          "text": "This power may target one friendly model within range. While this power is in effect, the target rolls two extra dice when making Resist tests. These extra dice do not reduce the target's store of Will and can even be rolled if the target has no Will points remaining or chooses not to expend any Will. The target also adds 1 to their highest dice score when resisting magic."
+        },
+        {
+          "power": "Command/Compel",
+          "duration": "Temporary",
+          "text": "This power targets one enemy model within range. The caster may move the target model up to half of its maximum Move distance. They can do this even if the model has already moved this turn. The move cannot force the targat to jump, leap, climb, dismount or lie down, but it can take them into difficult terrain, and even make them Charge an enemy. No Courage test is required to Charge Terror-causing foes (See page 107). It can even force an unengaged victim to drop an object (but not wargear) that it is holding or to put on The One Ring (if they carry it). Once the target has finished the move, it may move no further that turn for any reason.  Finally, the target suffers the effect of the Immobilise/Transifx magical power (see page 98). Additionally, while this power is in effect, the target will halve their Fight and Attacks characteristics (Rounding up), and may not Strike if they win a Duel."
+        },
+        {
+          "power": "Blinding Light",
+          "duration": "Temporary",
+          "text": "This power targets the caster themselves. While this power is in effect, any shooting attacks directed at the caster, or a friendly model within 6\" of them, will only hit on a To Hit roll of a 6. Additionally, an area within a 12\" radius around the caster is illuminated as if it were daylight (perfect when you are fighting underground!). The duration becomes Exhaustion."
+        },
+        {
+          "power": "Banishment",
+          "duration": "Instant",
+          "text": "This power targets one enemy model within range. This power only affects Spirit models. The target model automatically suffers 1 Wound, exactly as if it had been wounded in combat. If the target is a Cavalry model, the caster must choose whether the rider or the mount suffers the effects. The target suffers D3 Wounds rather than 1."
+        }
+      ],
+      "options": [],
+      "specialRules": [
+        {
+          "name": "Glamdring",
+          "type": "ACTIVE",
+          "text": "Glamdring is an Elven-made hand-and-a-half sword. Additionally, Glamdring increases Gandalf's Strength by 1 when making Strikes with it."
+        },
+        {
+          "name": "Narya",
+          "type": "ACTIVE",
+          "text": "Gandalf may re-roll his dice when making Fate rolls."
+        }
+      ]
+    },
+    {
+      "name": "Haldir",
+      "points": 70,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF, LÓRIEN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "6",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Elven-Made Hand-and-a-Half Sword"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy",
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Elven Cloak - 5 points",
+        "Elf Bow - 5 points",
+        "Heavy Armour - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature (Active)",
+          "type": "ACTIVE",
+          "text": "An Infantry model with this special rule may move through woods and forests that are classified as difficult terrain as if they are open ground. Note that this doesn't mean they can automatically climb terrain in those areas, nor move through any tree trunks or jump falled Obstacles."
+        },
+        {
+          "name": "Expert Shot (Active)",
+          "type": "ACTIVE",
+          "text": "A model with this special rule may fire twice in the Shoot phase. These shots are resolved one at a time, meaning that the shooter can target the same model twice or two different models, once each, if they wish."
+        }
+      ]
+    },
+    {
+      "name": "Galadhrim Captain",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, LÓRIEN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Elven-Made Hand-and-a-Half Sword",
+        "Heavy Armour"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Elf Bow - 5 points",
+        "Armoured Horse - 15 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature (Active)",
+          "type": "ACTIVE",
+          "text": "An Infantry model with this special rule may move through woods and forests that are classified as difficult terrain as if they are open ground. Note that this doesn't mean they can automatically climb terrain in those areas, nor move through any tree trunks or jump falled Obstacles."
+        },
+        {
+          "name": "Fleetfoot (Active)",
+          "type": "ACTIVE",
+          "text": "A model that has this special rule, and the Woodland Creature special rule, will also apply the effects of Woodland Creature to their moiunt, so the whole model treats woodland terrain as clear terrain for the purposes of movement."
+        },
+        {
+          "name": "Expert Rider (Active)",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, an Expert Rider may re-roll the dice when making Jump, Swim, and Thrown Rider tests.\n\nWhile mounted, a model carrying both a shield and a bow will still receive the +1 Defence bonus for being armed with a shield. If the model dismouts, they will lose this bonus.\n\nAdditionally, an Expert Rider can pick up Light Objects without having to dismount."
+        }
+      ]
+    },
+    {
+      "name": "Legolas Greenleaf",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF, MIRKWOOD, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "6",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Elf Bow",
+        "Elven-made Daggers"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 10 points",
+        "Armour - 5 points",
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Deadly Shot (Active)",
+          "type": "ACTIVE",
+          "text": "Legolas may fire his bow three times in the Shoot phase rather than once. Each of these shots may be made against a different target. Alternatively, Legolas may instead choose to make one shot, but in this case he will always hit on the roll of a 2+, regardless of In The Way tests, if the target is Engaged in combat or any other factors including modifiers, Magical Powers and so forth. If Legolas uses this one shot to target a Cavalry model, he may choose whether he hits the rider or the mount."
+        },
+        {
+          "name": "Woodland Creature (Active)",
+          "type": "ACTIVE",
+          "text": "An Infantry model with this special rule may move through woods and forests that are classified as difficult terrain as if they are open ground. Note that this doesn't mean they can automatically climb terrain in those areas, nor move through any tree trunks or jump falled Obstacles."
+        }
+      ]
+    },
+    {
+      "name": "Gimli, Son of Glóin",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, EREBOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "6",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Master Forged Two-Handed Axe",
+        "Axe",
+        "Heavy Dwarf Armour",
+        "Throwing Axes"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Aragorn - Strider",
+      "points": 160,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "6",
+        "Might": "3*",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Sword",
+        "Andúril, Flame of the West"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic March",
+        "Heroic Accuracy",
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Defence",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 10 points",
+        "Armour - 5 points",
+        "Bow - 5 points",
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Mighty Hero (Passive)",
+          "type": "",
+          "text": "A model with this special rule may expend 1 point of Might each turn without reducing their own store of Might."
+        },
+        {
+          "name": "Horse Lord (Passive)",
+          "type": "",
+          "text": "Whilst this model is mounted, they may choose to expend their own Fate points to prevent Wounds caused to their mount."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Troop (non-Hero) entries retain points from the original prancingponypub scrape (BSData troop-cost extraction was unreliable). All Hero entries refreshed from BSData (current edition) with heroicTier added."
+}
