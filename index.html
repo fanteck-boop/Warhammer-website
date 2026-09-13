@@ -1561,12 +1561,11 @@
         <div class="roster-list" id="rosterList"></div>
 
         <div class="empty-state" id="emptyState" style="display:none;">
-          No units mustered yet. Paste a list above, add one by hand, or
+          No units mustered yet. Paste a list above, or
           <a href="#" id="emptyStateGrimLink" style="color:var(--gold);text-decoration:underline;">add one from the Grimoire library</a>.
         </div>
 
         <div class="add-row">
-          <button class="ghost" id="addRowBtn" type="button">+ Add blank unit</button>
           <button id="addUnitToggleBtn" type="button">+ Add Units</button>
         </div>
         <div class="add-unit-browser" id="addUnitBrowser" hidden>
@@ -1678,7 +1677,7 @@
         <div class="abilities-ref-wrap"></div>
       </div>
     </div>
-    <p class="clash-note mesbg-only" style="margin-top:10px;">Simplified melee-only model: each side's Attacks stat sets how many D6 it rolls to find its best die in the Fight roll-off (ties go to the higher Fight Value); the winner then rolls once to wound using the standard Strength-vs-Defence chart. The checkboxes model Might re-rolls, Heroic Strike and a Fate save as one-off approximations (re-roll = a second independent shot at the same chance; Heroic Strike auto-wins the roll-off; Fate forces the wound to succeed twice). Shooting, terrain, charge bonuses, other Heroic Actions and outnumbering extra wounds still aren't modelled.</p>
+    <p class="clash-note mesbg-only" style="margin-top:10px;">Melee-only model of the Duel Roll (2024 Rules Manual): each side rolls D6 equal to its Attacks and takes the highest single die; ties go to the higher Fight Value. The winner then makes one Strike (a To Wound roll, Strength vs Defence) per point of Attacks &mdash; the loser doesn't strike back this duel. The checkboxes model Might re-rolls, Heroic Strike and a Fate save as one-off approximations (re-roll = a second independent shot at the same chance; Heroic Strike auto-wins the roll-off; Fate forces a successful wound to succeed twice). Not modelled: Backing Away/Trapped (and its doubled To Wound rolls), spear/pike supports, shooting, terrain, charge bonuses, two-handed/special-strike penalties and bonuses, and other Heroic Actions.</p>
 
     <div class="run-row"><button id="runClashBtn" type="button">Run the Clash</button></div>
 
@@ -1942,7 +1941,7 @@
         { key:'objectiveControl', label:'OC' }
       ],
       clashStats: ['move','toughness','save','wounds','leadership','objectiveControl'],
-      grimFields: ['name','faction','alliance','points','models','move','toughness','save','wounds','leadership','objectiveControl','invulnerableSave','abilities'],
+      grimFields: ['name','faction','alliance','points','models','move','toughness','save','wounds','leadership','objectiveControl','invulnerableSave','abilities','leaderOf'],
       dataDir: 'faction-data-40k',
       factions: [
         'Adepta Sororitas','Adeptus Custodes','Adeptus Mechanicus','Agents of the Imperium',
@@ -2143,7 +2142,7 @@
   const STORAGE_KEY = 'muster-roll-data';
   const FACTION_RULES_KEY = 'muster-roll-faction-rules';
   const GRIMOIRE_KEY_BASE = 'muster-roll-grimoire';
-  const DATA_VERSION = 'v8-mesbg-hero-tiers'; // Bump when data format changes to force re-import
+  const DATA_VERSION = 'v9-40k-leader-attach'; // Bump when data format changes to force re-import
   let state = {
     armyName: '', pointsLimit: 2000, alliance: '', faction: '', units: [],
     generalUnitId: null,
@@ -2337,12 +2336,29 @@
     rosterListEl.innerHTML = '';
     emptyState.style.display = state.units.length ? 'none' : 'block';
 
+    const isMesbg = activeSystem === 'mesbg';
+    const is40k = activeSystem === '40k';
+
     // Validate general: must exist and be a hero
     const general = state.units.find(u => u.id === state.generalUnitId);
     if (state.generalUnitId && (!general || !general.isHero)) state.generalUnitId = null;
 
+    // Followers can only point at a hero that still exists in the roster;
+    // 40K Leaders can only be attached to a unit that still exists.
+    if (isMesbg) {
+      const heroIds = new Set(state.units.filter(u => u.isHero).map(u => u.id));
+      state.units.forEach(u => { if (u.leaderId && !heroIds.has(u.leaderId)) u.leaderId = null; });
+    }
+    if (is40k) {
+      const unitIds = new Set(state.units.filter(u => !u.isHero).map(u => u.id));
+      state.units.forEach(u => { if (u.attachedToUnitId && !unitIds.has(u.attachedToUnitId)) u.attachedToUnitId = null; });
+    }
+
     const heroes = state.units.filter(u => u.isHero && u.id !== state.generalUnitId);
     const others = state.units.filter(u => !u.isHero && u.id !== state.generalUnitId);
+    const unattached = isMesbg ? others.filter(u => !u.leaderId) : others;
+    const heroesStandalone = is40k ? heroes.filter(h => !h.attachedToUnitId) : heroes;
+    const generalAttached = is40k && general && general.attachedToUnitId;
 
     let totalPts = 0, totalWounds = 0;
 
@@ -2355,7 +2371,11 @@
       rosterListEl.appendChild(el);
     }
 
-    function renderUnitCard(u){
+    function followerCount(heroId){
+      return state.units.filter(u => u.leaderId === heroId).reduce((s, u) => s + effectiveQty(u), 0);
+    }
+
+    function renderUnitCard(u, indent){
       const qty = Number(u.qty) || 0;
       const pts = Number(u.points) || 0;
       const w = Number(u.wounds) || 0;
@@ -2370,14 +2390,22 @@
       const heroBadge = u.isHero ? '<span class="role-badge hero">Hero</span>' : '';
       const reinforcedBadge = u.reinforced ? '<span class="reinforced-badge">Reinforced</span>' : '';
       const generalBadge = isGen ? '<span class="general-badge">&#9733; General</span>' : '';
+      let followerBadge = '';
+      if (isMesbg && u.isHero) {
+        const cap = MESBG_FOLLOWER_CAP[u.heroicTier];
+        const count = followerCount(u.id);
+        const over = cap !== undefined && count > cap;
+        followerBadge = `<span class="reinforced-badge uc-followers"${over ? ' style="background:var(--chaos,#b53a3a)"' : ''}>${count}${cap !== undefined ? '/' + cap : ''} followers</span>`;
+      }
 
       const card = document.createElement('div');
       card.className = 'unit-card' + (isGen ? ' is-general' : '') + (u.id === selectedUnitId ? ' selected' : '');
+      if (indent) card.style.marginLeft = '18px';
       card.style.setProperty('--acc', accColor);
       card.setAttribute('data-unit-id', u.id);
       card.innerHTML = `
         <div class="unit-card-main">
-          <div class="unit-card-name"><span class="ucn-text">${escapeHtml(u.name || 'Unnamed unit')}</span>${heroBadge}${reinforcedBadge}${generalBadge}</div>
+          <div class="unit-card-name"><span class="ucn-text">${escapeHtml(u.name || 'Unnamed unit')}</span>${heroBadge}${reinforcedBadge}${generalBadge}${followerBadge}</div>
           <div class="unit-card-meta">
             <span>${effQty}&times;</span>
             <span class="uc-pts">${ptsTotal}${u.reinforced ? ` <em>(${pts})</em>` : ''} pts</span>
@@ -2389,9 +2417,26 @@
       rosterListEl.appendChild(card);
     }
 
-    if (general) { sectionHead('General'); renderUnitCard(general); }
-    if (heroes.length) { sectionHead('Heroes'); heroes.forEach(renderUnitCard); }
-    if (others.length) { sectionHead('Units'); others.forEach(renderUnitCard); }
+    function renderHeroWithFollowers(hero){
+      renderUnitCard(hero, false);
+      if (isMesbg) {
+        state.units.filter(u => u.leaderId === hero.id).forEach(f => renderUnitCard(f, true));
+      }
+    }
+
+    function renderUnitWithAttachedLeaders(unit){
+      renderUnitCard(unit, false);
+      if (is40k) {
+        state.units.filter(h => h.isHero && h.attachedToUnitId === unit.id).forEach(h => renderUnitCard(h, true));
+      }
+    }
+
+    if (general && !generalAttached) { sectionHead('General'); renderHeroWithFollowers(general); }
+    if (heroesStandalone.length) { sectionHead('Heroes'); heroesStandalone.forEach(renderHeroWithFollowers); }
+    if (unattached.length) {
+      sectionHead(isMesbg ? 'Unattached Units' : 'Units');
+      unattached.forEach(u => is40k ? renderUnitWithAttachedLeaders(u) : renderUnitCard(u, false));
+    }
 
     // Enhancement costs (artefacts, boons, etc.)
     const enhCost = computeEnhancementCosts();
@@ -2980,6 +3025,41 @@
     const isGen = u.id === state.generalUnitId;
     const entry = findGrimoireEntryForUnit(u);
 
+    const isMesbg = activeSystem === 'mesbg';
+    let warbandHtml = '';
+    if (isMesbg && u.isHero) {
+      const cap = MESBG_FOLLOWER_CAP[u.heroicTier];
+      const count = state.units.filter(x => x.leaderId === u.id).reduce((s, x) => s + effectiveQty(x), 0);
+      const over = cap !== undefined && count > cap;
+      warbandHtml = `<div class="detail-totals"><span${over ? ' style="color:var(--chaos,#b53a3a)"' : ''}><b>${count}</b>${cap !== undefined ? ' / ' + cap : ''} followers${u.heroicTier ? ' (' + u.heroicTier + ')' : ''}</span></div>`;
+    } else if (isMesbg && !u.isHero) {
+      const heroOptions = state.units.filter(x => x.isHero).map(h => {
+        const cap = MESBG_FOLLOWER_CAP[h.heroicTier];
+        const count = state.units.filter(x => x.leaderId === h.id).reduce((s, x) => s + effectiveQty(x), 0);
+        return `<option value="${h.id}" ${u.leaderId === h.id ? 'selected' : ''}>${escapeHtml(h.name)} (${count}${cap !== undefined ? '/' + cap : ''})</option>`;
+      }).join('');
+      warbandHtml = `<div class="detail-fields"><div class="field"><label>Warband Leader</label>
+        <select data-leaderselect="${u.id}"><option value="">&mdash; unattached &mdash;</option>${heroOptions}</select>
+      </div></div>`;
+    } else if (activeSystem === '40k' && u.isHero) {
+      // Core Rules 19.02: a bodyguard unit can only take one Leader (this
+      // doesn't separately track the one-Support cap since Support units
+      // aren't parsed out from ordinary Leaders here).
+      const claimedUnitIds = new Set(state.units.filter(x => x.isHero && x.id !== u.id && x.attachedToUnitId).map(x => x.attachedToUnitId));
+      const eligible = state.units.filter(x => !x.isHero && heroCanLeadUnit(u, x) && !claimedUnitIds.has(x.id));
+      const unitOptions = eligible.map(x => `<option value="${x.id}" ${u.attachedToUnitId === x.id ? 'selected' : ''}>${escapeHtml(x.name)}</option>`).join('');
+      const hint = eligible.length ? '' : '<div class="enhancement-effect">No eligible units in this roster yet (based on this model\'s Leader ability and other Leaders already attached).</div>';
+      warbandHtml = `<div class="detail-fields"><div class="field"><label>Attach to Unit (Leader)</label>
+        <select data-attachselect="${u.id}"><option value="">&mdash; not attached &mdash;</option>${unitOptions}</select>
+        ${hint}
+      </div></div>`;
+    } else if (activeSystem === '40k' && !u.isHero) {
+      const leaders = state.units.filter(x => x.isHero && x.attachedToUnitId === u.id);
+      if (leaders.length) {
+        warbandHtml = `<div class="detail-totals"><span>Attached: <b>${leaders.map(l => escapeHtml(l.name)).join(', ')}</b></span></div>`;
+      }
+    }
+
     let actionsHtml = '';
     if (u.canReinforce) {
       actionsHtml += `<button class="ghost small reinforce-btn ${u.reinforced ? 'active' : ''}" data-reinforce="${u.id}" type="button">${u.reinforced ? 'Reinforced ✓' : 'Reinforce (double models &amp; pts)'}</button>`;
@@ -3013,6 +3093,7 @@
         <span><b data-cell="ptsTotal">${ptsTotal}</b> pts total</span>
         <span><b data-cell="woundsTotal">${woundsTotal}</b> wounds total</span>
       </div>
+      ${warbandHtml}
       ${actionsHtml ? `<div class="detail-actions">${actionsHtml}</div>` : ''}
       ${profileHtml}
     `;
@@ -3065,8 +3146,35 @@
         metaEl.innerHTML = `<span>${effQty}&times;</span><span class="uc-pts">${pts * (unit.reinforced?2:1)}${unit.reinforced ? ` <em>(${pts})</em>` : ''} pts</span>${w ? `<span>${effQty*w} wounds</span>` : ''}`;
       }
     }
+    // A follower's model count feeds its leader's follower badge, which lives
+    // on a different card — patch that one too instead of a full re-render.
+    if (activeSystem === 'mesbg' && field === 'qty' && unit.leaderId) updateHeroFollowerBadge(unit.leaderId);
     refreshTotals();
     save();
+  });
+  function updateHeroFollowerBadge(heroId){
+    const hero = state.units.find(u => u.id === heroId);
+    const card = hero && rosterListEl.querySelector(`.unit-card[data-unit-id="${heroId}"]`);
+    const badge = card && card.querySelector('.uc-followers');
+    if (!hero || !badge) return;
+    const cap = MESBG_FOLLOWER_CAP[hero.heroicTier];
+    const count = state.units.filter(u => u.leaderId === heroId).reduce((s, u) => s + effectiveQty(u), 0);
+    badge.textContent = `${count}${cap !== undefined ? '/' + cap : ''} followers`;
+    badge.style.background = (cap !== undefined && count > cap) ? 'var(--chaos,#b53a3a)' : '';
+  }
+
+  rosterDetailEl.addEventListener('change', (e) => {
+    const sel = e.target.closest('[data-leaderselect]');
+    if (sel) {
+      const unit = state.units.find(u => u.id === sel.getAttribute('data-leaderselect'));
+      if (unit) { unit.leaderId = sel.value || null; render(); save(); }
+      return;
+    }
+    const attachSel = e.target.closest('[data-attachselect]');
+    if (attachSel) {
+      const hero = state.units.find(u => u.id === attachSel.getAttribute('data-attachselect'));
+      if (hero) { hero.attachedToUnitId = attachSel.value || null; render(); save(); }
+    }
   });
 
   rosterDetailEl.addEventListener('click', (e) => {
@@ -3118,12 +3226,6 @@
     state.faction = e.target.value;
     applyFactionBackground();
     populateGrimPickers();
-    render();
-    save();
-  });
-
-  $('addRowBtn').addEventListener('click', () => {
-    state.units.push({ id:newId(), name:'New Unit', qty:1, points:0, wounds:0, reinforced:false, isHero:false, canReinforce:false, categories:[], enhancementTypes:[] });
     render();
     save();
   });
@@ -3675,16 +3777,48 @@
     // a successful one (defender) — applied after, so both can stack.
     if (attacker.mightWound) pWoundOnWin += (1 - pWoundOnWin) * pWoundOnWin;
     if (defender.fateSave) pWoundOnWin = pWoundOnWin * pWoundOnWin;
-    const pInflictPerPair = pAWinsFight * pWoundOnWin;
-    const avgDamage = pInflictPerPair * nPairs;
+    // The winner of a duel makes one Strike (a To Wound roll) per point of
+    // their Attacks characteristic, not just a single wound roll.
+    const strikes = attacker.atk;
+    const avgDamage = pAWinsFight * strikes * pWoundOnWin * nPairs;
     const defenderPool = defender.models * defender.wounds;
     const avgModelsSlain = Math.min(defender.models, avgDamage / defender.wounds);
-    const chanceWipe = (nPairs >= defenderPool) ? Math.pow(pInflictPerPair, defenderPool) : 0;
+
+    // Per-duel wound-count distribution: 0 wounds if the attacker loses;
+    // otherwise Binomial(strikes, pWoundOnWin) successful Strikes.
+    const binom = binomialPmf(strikes, pWoundOnWin);
+    const perDuelDist = [1 - pAWinsFight];
+    for (let k = 0; k <= strikes; k++) perDuelDist[k] = (perDuelDist[k] || 0) + pAWinsFight * binom[k];
+    // Convolve across all paired duels to get the chance the total wounds
+    // dealt reach the defender's whole wound pool (a wipe this round).
+    let dist = [1];
+    for (let d = 0; d < nPairs; d++) {
+      const next = new Array(Math.min(dist.length - 1 + perDuelDist.length - 1, defenderPool) + 1).fill(0);
+      for (let i = 0; i < dist.length; i++) {
+        if (!dist[i]) continue;
+        for (let k = 0; k < perDuelDist.length; k++) {
+          const total = Math.min(i + k, defenderPool);
+          next[total] = (next[total] || 0) + dist[i] * perDuelDist[k];
+        }
+      }
+      dist = next;
+    }
+    const chanceWipe = dist[defenderPool] || 0;
+
     return {
-      avgAttacks: attacker.atk * nPairs, avgDamage, avgModelsSlain, chanceWipe,
+      avgAttacks: strikes * nPairs, avgDamage, avgModelsSlain, chanceWipe,
       defenderPool, weaponSummaries: [], pWardFails: 0,
-      pWinFight: pAWinsFight, pWoundOnWin, nPairs
+      pWinFight: pAWinsFight, pWoundOnWin, nPairs, strikes
     };
+  }
+  function binomialPmf(n, p){
+    const pmf = new Array(n + 1);
+    let coeff = 1;
+    for (let k = 0; k <= n; k++) {
+      pmf[k] = coeff * Math.pow(p, k) * Math.pow(1 - p, n - k);
+      coeff = coeff * (n - k) / (k + 1);
+    }
+    return pmf;
   }
 
   function pct(x){ return (x * 100).toFixed(1) + '%'; }
@@ -3705,7 +3839,7 @@
       card.innerHTML = `<h4 id="${titleId}">${escapeHtml(attacker.name)} fights ${escapeHtml(defender.name)}</h4>
         ${optsLine}
         <div class="result-line"><div class="result-line-top"><span>Chance to win the Fight roll-off</span><span class="val">${pct(res.pWinFight)}</span></div></div>
-        <div class="result-line"><div class="result-line-top"><span>Chance to wound if won (S ${attacker.str} vs D ${defender.def})</span><span class="val">${pct(res.pWoundOnWin)}</span></div></div>
+        <div class="result-line"><div class="result-line-top"><span>Strikes if won (1 per Attack) &middot; wound chance each (S ${attacker.str} vs D ${defender.def})</span><span class="val">${res.strikes} &middot; ${pct(res.pWoundOnWin)}</span></div></div>
         <div class="result-line hero"><div class="result-line-top"><span>Expected wounds dealt (${res.nPairs} paired duel${res.nPairs===1?'':'s'})</span><span class="val">${num(res.avgDamage)}</span></div></div>
         <div class="result-line"><div class="result-line-top"><span>Expected models slain</span><span class="val">${num(res.avgModelsSlain)} / ${defender.models}</span></div>
           <div class="stat-bar"><div class="stat-bar-fill" style="width:${Math.max(2, Math.round(100 * res.avgModelsSlain / Math.max(1, defender.models)))}%"></div></div></div>
@@ -3837,7 +3971,11 @@
       isHero:!!entry.isHero,
       canReinforce:!!entry.canReinforce,
       categories:Array.isArray(entry.categories) ? entry.categories.slice() : [],
-      enhancementTypes:Array.isArray(entry.enhancementTypes) ? entry.enhancementTypes.slice() : []
+      enhancementTypes:Array.isArray(entry.enhancementTypes) ? entry.enhancementTypes.slice() : [],
+      heroicTier: entry.heroicTier || '',
+      leaderId: null,
+      leaderOf: entry.leaderOf ? String(entry.leaderOf).split(',').map(s => s.trim()).filter(Boolean) : [],
+      attachedToUnitId: null
     };
   }
 
@@ -4834,6 +4972,58 @@
     'Minor Hero': 6, 'Independent Hero': 0
   };
 
+  // ===== 40K: Leader attachment (parsed from each hero's "Leader:" ability text) =====
+  // Wahapedia/army-data text for this ability is inconsistent — bulleted with
+  // '■', bulleted with '-', or a single comma-separated line, sometimes with
+  // markdown bold/underline (**/^^) and the odd "(including X, Y and Z)"
+  // aside. This is a best-effort parser, not a rules database: some heroes
+  // list a generic keyword phrase (e.g. "Battleline Imperium Infantry")
+  // instead of named units, which heroCanLeadUnit below falls back to
+  // matching against the candidate unit's categories.
+  function parseLeaderUnits(abilities){
+    if (!Array.isArray(abilities)) return [];
+    const leaderAb = abilities.find(a => typeof a === 'string' && a.trim().startsWith('Leader:'));
+    if (!leaderAb) return [];
+    let text = leaderAb.split(/\n\s*\*[^*]/)[0];
+    text = text.replace(/^Leader:\s*This (?:model|unit) can (?:also )?be attached to the following units?:?/i, '');
+    text = text.replace(/[ ]/g, ' ').replace(/\*\*|\^\^/g, '').trim();
+    let items;
+    if (/[■]/.test(text) || /\n-\s*\S/.test(text)) {
+      items = text.split(/\n/).map(l => l.replace(/^[■\-]\s*/, '').trim()).filter(Boolean);
+    } else {
+      items = text.split(',').map(s => s.trim()).filter(Boolean);
+    }
+    const out = [];
+    items.forEach(it => {
+      const m = it.match(/^(.*?)\s*\(including (.+)\)\s*$/i);
+      if (m) {
+        if (m[1].trim()) out.push(m[1].trim());
+        m[2].replace(/\)$/, '').split(/,| and /i).forEach(x => { const t = x.trim(); if (t) out.push(t); });
+      } else if (it) {
+        out.push(it);
+      }
+    });
+    return out;
+  }
+  function heroCanLeadUnit(hero, unit){
+    if (!hero.leaderOf || !hero.leaderOf.length || unit.isHero) return false;
+    const uname = (unit.name || '').trim().toLowerCase();
+    if (!uname) return false;
+    return hero.leaderOf.some(raw => {
+      const r = (raw || '').trim().toLowerCase();
+      if (!r) return false;
+      // Exact match only — no substring fallback: real datasheets have many
+      // unit names that are substrings of a different, distinct unit (e.g.
+      // "Death Company Marines" vs "Death Company Marines with Jump Packs"),
+      // so a loose match would offer rules-incorrect attachment targets.
+      if (r === uname) return true;
+      const words = r.split(/\s+/).filter(w => w.length > 2);
+      if (words.length < 2) return false;
+      const cats = (unit.categories || []).map(c => String(c).toLowerCase());
+      return words.every(w => cats.some(c => c.includes(w)));
+    });
+  }
+
   async function autoLoadFactionData(){
     // Check data version — force re-import if version changed
     const storedVersion = await storageGet(sysKey('muster-roll-data-version'));
@@ -4854,7 +5044,13 @@
           const res = await fetch(`${cfg.dataDir}/${encodeURIComponent(faction)}.json`);
           if (res.ok) {
             const raw = await res.json();
-            unitsData = activeSystem === 'mesbg' ? mesbgLegionToGrimEntries(raw, faction) : raw;
+            if (activeSystem === 'mesbg') {
+              unitsData = mesbgLegionToGrimEntries(raw, faction);
+            } else if (activeSystem === '40k' && Array.isArray(raw)) {
+              unitsData = raw.map(u => u.isHero ? Object.assign({}, u, { leaderOf: parseLeaderUnits(u.abilities).join(', ') }) : u);
+            } else {
+              unitsData = raw;
+            }
           }
         } catch(e) { /* skip */ }
         try {
