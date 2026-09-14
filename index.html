@@ -4028,6 +4028,33 @@
     'Helsmiths of Hashut', 'Legions of Nagash [LEGENDS]', 'The Duardin Ascendant [LEGENDS]',
     'Lores', 'Path to Glory', 'Regiments of Renown'
   ]);
+  // MESBG army lists tied to The Hobbit films/book; everything else defaults to LOTR.
+  const HOBBIT_FACTIONS_MESBG = new Set([
+    'army of dale', 'army of erebor', 'army of lake-town', 'army of thror',
+    'assault on ravenhill', 'the battle of five armies', 'the beornings',
+    'defenders of erebor', 'erebor & dale', 'erebor reclaimed', 'garrison of dale',
+    'halls of thranduil', 'the iron hills', 'radagasts alliance', 'rangers of mirkwood',
+    'survivors of lake town', 'thorins company', 'the white council',
+    'army of gundabad', "azog's hunters", 'desolator of the north', 'dragons of the north',
+    'goblin-town', 'pits of dol guldur', 'rise of the necromancer',
+    "the spider queen's brood [legacy]", 'the three trolls', 'fell beings of mirkwood [legacy]'
+  ]);
+  function mesbgFranchise(factionName){
+    return HOBBIT_FACTIONS_MESBG.has(String(factionName).trim().toLowerCase()) ? 'The Hobbit' : 'The Lord of the Rings';
+  }
+  // Renders a sorted faction list as <option>s, grouped by franchise (<optgroup>) for MESBG.
+  function buildFactionOptionsHtml(sorted, placeholder){
+    const plain = `<option value="">${placeholder}</option>`;
+    if (activeSystem !== 'mesbg') {
+      return plain + sorted.map(f => `<option value="${escapeAttr(f)}">${escapeHtml(f)}</option>`).join('');
+    }
+    const groups = { 'The Lord of the Rings': [], 'The Hobbit': [] };
+    sorted.forEach(f => groups[mesbgFranchise(f)].push(f));
+    return plain + ['The Lord of the Rings', 'The Hobbit'].filter(g => groups[g].length).map(g =>
+      `<optgroup label="${escapeAttr(g)}">${groups[g].map(f => `<option value="${escapeAttr(f)}">${escapeHtml(f)}</option>`).join('')}</optgroup>`
+    ).join('');
+  }
+
   let editingGrimId = null;
   let grimIdCounter = 1;
   let grimFilterAlliance = 'all';
@@ -4509,7 +4536,7 @@
       if (fac && !LEGACY_FACTIONS.has(fac) && (!alliance || effectiveAlliance(e) === alliance)) factions.add(fac);
     });
     const sorted = Array.from(factions).sort((a, b) => a.localeCompare(b));
-    sel.innerHTML = '<option value="">— faction —</option>' + sorted.map(f => `<option value="${escapeAttr(f)}">${escapeHtml(f)}</option>`).join('');
+    sel.innerHTML = buildFactionOptionsHtml(sorted, '— faction —');
     if (sorted.includes(clashPick[prefix].faction)) {
       sel.value = clashPick[prefix].faction;
     } else {
@@ -4575,7 +4602,7 @@
       if (fac && !LEGACY_FACTIONS.has(fac) && (!state.alliance || effectiveAlliance(e) === state.alliance)) factions.add(fac);
     });
     const sorted = Array.from(factions).sort((a, b) => a.localeCompare(b));
-    sel.innerHTML = '<option value="">— any faction —</option>' + sorted.map(f => `<option value="${escapeAttr(f)}">${escapeHtml(f)}</option>`).join('');
+    sel.innerHTML = buildFactionOptionsHtml(sorted, '— any faction —');
     if (sorted.includes(state.faction)) {
       sel.value = state.faction;
     } else if (state.faction) {
@@ -4620,7 +4647,7 @@
     });
     const sorted = Array.from(factions).sort((a, b) => a.localeCompare(b));
     const cur = sel.value;
-    sel.innerHTML = '<option value="">— any faction —</option>' + sorted.map(f => `<option value="${escapeAttr(f)}">${escapeHtml(f)}</option>`).join('');
+    sel.innerHTML = buildFactionOptionsHtml(sorted, '— any faction —');
     if (sorted.includes(cur)) sel.value = cur; else sel.value = '';
   }
 
