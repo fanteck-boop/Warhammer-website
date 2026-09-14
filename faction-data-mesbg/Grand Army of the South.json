@@ -1,0 +1,352 @@
+{
+  "legion": "Grand Army of the South",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/grand_army_of_the_south/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/fallen_realms/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/evil_legacy/"
+  ],
+  "additionalRules": [
+    "Corsair Warrior models can only be included in the Warband of a Corsair Hero.",
+    "Harad Warrior models can only be included in the Warband of a Harad Hero.",
+    "Easterling Warrior models can only be included in the Warband of an Easterling Hero."
+  ],
+  "specialRules": [
+    { "name": "Pride of the Southlands", "type": "", "text": "Friendly models gain a bonus of +1 to any Courage Tests they are required to take." }
+  ],
+  "units": [
+    { "name": "Dalamyr, Fleetmaster of Umbar", "points": 100, "heroicTier": "Hero of Legend", "keywords": "MAN, CORSAIR, UMBAR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "6", "Sv": "3+", "S": "4", "D": "4", "A": "3", "W": "2", "C": "6+", "Might": "2", "Will": "2", "Fate": "3" },
+      "wargear": ["Hand Weapon", "Throwing Weapons", "Smoke Bombs"], "heroicActions": ["Heroic Defence", "Heroic Strike"], "magicalPowers": [],
+      "specialRules": [
+        { "name": "Backstabbers", "type": "", "text": "" }, { "name": "Bane of Kings", "type": "", "text": "" }, { "name": "Stalk Unseen", "type": "", "text": "" },
+        { "name": "Smoke Bombs", "type": "ACTIVE", "text": "These are throwing weapons with a Strength of 1. Any model hit, but not slain, must immediately expend a Will Point or suffer the effects of Transfix and have their Fight Value halved until the End Phase. If Dalamyr rolls a 1 To Hit his supply has run out." },
+        { "name": "Preternatural Agility", "type": "ACTIVE", "text": "Dalamyr can never count as Trapped whilst still standing." }
+      ]
+    },
+    { "name": "Mumak War Leader", "points": 400, "heroicTier": "Hero of Legend", "keywords": "MAN, HARAD, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "6", "Sv": "3+", "S": "5", "D": "5", "A": "3", "W": "3", "C": "4+", "Might": "3", "Will": "2", "Fate": "2" },
+      "wargear": ["Armour", "Long-bladed Spear", "Royal War Mumak"], "heroicActions": ["Heroic March", "Heroic Strike", "Heroic Strength", "Heroic Challenge"], "magicalPowers": [],
+      "specialRules": [
+        { "name": "Long-bladed Spear", "type": "ACTIVE", "text": "This weapon can either be used as a spear or a two-handed weapon." },
+        { "name": "Imposing Presence", "type": "PASSIVE", "text": "Whilst atop his Royal War Mumak, the first time each turn an enemy model within 12\" declares a Heroic Move, roll a D6. On a 4+, the Heroic Move is cancelled and the Might Point spent is lost." },
+        { "name": "High King of the South", "type": "PASSIVE", "text": "The range of the Mumak War Leader's Stand Fast is 12\" rather than 6\". Warband models can be deployed within 12\" rather than 6\", even outside the Howdah." },
+        { "name": "Royal War Mumak mount", "type": "PASSIVE", "text": "MUMAK | HARAD | WAR BEAST | 180X140MM. Mv 8\", Fv 5, Sv 6+, S 10, D 8, A 4, W 10, C 7+, I 9+. Wargear: Tusks and huge stomping feet (hand weapons). Special Rules: Dominant (10), Large Target, Terror, Trample (4 Strength 9 Impact Hits), Sigils of Defiance (Resistant to Magic; a D6 roll of natural 6 prevents a Wound), Awesome Presence (counts as a banner, range 6\"). Howdah: D 9, W 6, capacity 12 models plus the Mumak War Leader; may only include Haradrim Warriors." }
+      ]
+    },
+    { "name": "Suladan, The Serpent Lord", "points": 120, "heroicTier": "Hero of Legend", "keywords": "MAN, HARAD, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "5", "A": "3", "W": "3", "C": "5+", "Might": "3", "Will": "3", "Fate": "1" },
+      "wargear": ["Armour", "Hand Weapon", "Serpent Banner"], "heroicActions": ["Heroic Resolve", "Heroic March", "Heroic Strike", "Heroic Challenge"], "magicalPowers": [],
+      "options": ["Armoured Horse - 25 points"],
+      "specialRules": [
+        { "name": "Leader (Serpent Guard)", "type": "", "text": "" }, { "name": "Poisoned Attacks", "type": "", "text": "" }, { "name": "Leader (Serpent Rider)", "type": "", "text": "" },
+        { "name": "The Serpent Banner", "type": "ACTIVE", "text": "Unique banner with a range of 6\". Suladan never suffers the -1 penalty to his Duel Rolls for carrying a banner." },
+        { "name": "Ascendant", "type": "ACTIVE", "text": "The range of Suladan's Stand Fast is 12\" rather than 6\"." }
+      ]
+    },
+    { "name": "Amdur, Lord of Blades", "points": 135, "heroicTier": "Hero of Valour", "keywords": "MAN, EASTERLING, BLACK DRAGON, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "7", "Sv": "4+", "S": "4", "D": "6", "A": "3", "W": "3", "C": "5+", "Might": "3", "Will": "3", "Fate": "1" },
+      "wargear": ["Heavy Armour", "Durtuz, the Silver Falchion"], "heroicActions": ["Heroic Strike", "Heroic Challenge"], "magicalPowers": [],
+      "options": ["Armoured Horse - 25 points"],
+      "specialRules": [
+        { "name": "General Hunter", "type": "", "text": "" }, { "name": "Unyielding Combat Stance", "type": "", "text": "" },
+        { "name": "The Lord of Blades", "type": "ACTIVE", "text": "Whenever an enemy Hero Engaged with Amdur declares a Heroic Strike, Amdur may declare a Heroic Strike for free, or convert his declared Heroic Action to one (losing any Might spent)." },
+        { "name": "Herald of Victory", "type": "PASSIVE", "text": "Friendly Easterling models treat Amdur as a banner. If Amdur slays the enemy General, the banner range becomes 6\"." },
+        { "name": "Durtuz, the Silver Falchion", "type": "ACTIVE", "text": "Unique Elven hand-and-a-half weapon. Against enemy Hero models, a natural 5+ To Wound roll always Wounds regardless of Defence." },
+        { "name": "Phalanx", "type": "ACTIVE", "text": "Can use a pike and a shield together without penalty. Up to two friendly models with this rule can Make Way instead of one." },
+        { "name": "The Gleaming Horde", "type": "ACTIVE", "text": "Gains Shieldwall whilst Cavalry, even mounted; the +1 Defence applies to rider and Mount. Works without a shield for Heroes." }
+      ]
+    },
+    { "name": "Delgamar, Gatemaster of Umbar", "points": 75, "heroicTier": "Hero of Valour", "keywords": "MAN, CORSAIR, UMBAR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "3+", "S": "4", "D": "5", "A": "3", "W": "2", "C": "6+", "Might": "3", "Will": "1", "Fate": "1" },
+      "wargear": ["Armour", "Hand Weapon", "Whip", "Throwing Weapons"], "heroicActions": ["Heroic Strength"], "magicalPowers": [],
+      "specialRules": [
+        { "name": "Ruthless Commander", "type": "ACTIVE", "text": "Friendly Corsair Warrior models within 3\" may re-roll a single D6 during a Duel Roll after other re-rolls, but suffer a Strength 2 hit if they fail after doing so. Only one Corsair Warrior per Combat." }
+      ]
+    },
+    { "name": "Haradrim King", "points": 70, "heroicTier": "Hero of Valour", "keywords": "MAN, HARAD, HERO, INFANTRY",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "5", "A": "2", "W": "2", "C": "5+", "Might": "2", "Will": "2", "Fate": "2" },
+      "wargear": ["Armour", "Hand Weapon"], "heroicActions": ["Heroic Strength", "Heroic March"], "magicalPowers": [],
+      "options": ["Horse - 20 points"],
+      "specialRules": [
+        { "name": "Bane of Kings", "type": "", "text": "" },
+        { "name": "Tribal King", "type": "ACTIVE", "text": "If this model is your General, it increases its Attacks to 3 and gains the General Hunter special rule." }
+      ]
+    },
+    { "name": "Khamul the Easterling", "points": 130, "heroicTier": "Hero of Valour", "keywords": "SPIRIT, RINGWRAITH, MORDOR, EASTERLING, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "8", "A": "1", "W": "1", "C": "5+", "Might": "2", "Will": "12", "Fate": "2" },
+      "wargear": ["Heavy Armour", "Hand Weapon"], "heroicActions": ["Heroic Challenge", "Heroic Channelling", "Heroic Strike"],
+      "magicalPowers": ["Bladewrath - 12\" - 4+", "Compel - 12\" - 4+", "Transfix - 12\" - 4+", "Drain Courage - 12\" - 5+", "Black Dart - 6\" - 6+", "Instill Fear - Self - 6+"],
+      "options": ["Horse - 20 points"],
+      "specialRules": [
+        { "name": "Harbinger of Evil (12\")", "type": "", "text": "" }, { "name": "Terror", "type": "", "text": "" }, { "name": "Will of Evil", "type": "", "text": "" },
+        { "name": "Essence Leech", "type": "ACTIVE", "text": "Each time Khamul slays an enemy model in Combat, he regains a spent Will Point. At the start of the Fight Phase he may spend a Will Point to increase his Fight Value, Strength or Attacks by 1 until the End Phase - affects only Khamul, not a Mount." }
+      ]
+    },
+    { "name": "Khandish King", "points": 100, "heroicTier": "Hero of Valour", "keywords": "MAN, KHAND, HERO, INFANTRY",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "6", "A": "3", "W": "2", "C": "5+", "Might": "2", "Will": "2", "Fate": "1" },
+      "wargear": ["Heavy Armour", "Hand-and-a-half Weapon", "Bow"], "heroicActions": ["Heroic Strike", "Heroic Resolve", "Heroic March"], "magicalPowers": [],
+      "options": ["Khandish Chariot - 35 points"],
+      "specialRules": [
+        { "name": "Commanding Presence", "type": "PASSIVE", "text": "Friendly Khand models treat a Khandish King as a banner with a range of 6\"." }
+      ]
+    },
+    { "name": "Mahud King", "points": 70, "heroicTier": "Hero of Valour", "keywords": "MAN, HARAD, MAHUD, HERO, INFANTRY",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "3+", "S": "5", "D": "6", "A": "3", "W": "2", "C": "5+", "Might": "2", "Will": "2", "Fate": "1" },
+      "wargear": ["Armour", "Hand Weapon", "Shield"], "heroicActions": ["Heroic Strength", "Heroic Strike"], "magicalPowers": [],
+      "options": ["War Camel - 25 points"], "specialRules": []
+    },
+    { "name": "The Betrayer", "points": 130, "heroicTier": "Hero of Valour", "keywords": "SPIRIT, RINGWRAITH, MORDOR, HARAD, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "8", "A": "1", "W": "1", "C": "4+", "Might": "2", "Will": "14", "Fate": "2" },
+      "wargear": ["Heavy Armour", "Hand Weapon"], "heroicActions": ["Heroic Channelling"],
+      "magicalPowers": ["Compel - 12\" - 4+", "Transfix - 12\" - 4+", "Drain Courage - 12\" - 4+", "Black Dart - 6\" - 4+", "Panic Steed - 12\" - 5+", "Instill Fear - Self - 6+"],
+      "options": ["Horse - 20 points"],
+      "specialRules": [
+        { "name": "Bane of Kings", "type": "", "text": "" }, { "name": "Harbinger of Evil (12\")", "type": "", "text": "" }, { "name": "Terror", "type": "", "text": "" }, { "name": "Will of Evil", "type": "", "text": "" },
+        { "name": "Master of Poisons", "type": "PASSIVE", "text": "At the start of the Move Phase, may spend a Will Point so that until the End Phase, friendly models with Poisoned Attacks within 6\" may re-roll all failed To Wound rolls for their Poisoned Attacks, rather than just naturals 1." }
+      ]
+    },
+    { "name": "The Golden King of Abrakhan", "points": 130, "heroicTier": "Hero of Valour", "keywords": "MAN, HARAD, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "5", "A": "4", "W": "4", "C": "6+", "Might": "2", "Will": "6", "Fate": "2" },
+      "wargear": ["Two-handed Weapon", "The Golden Throne"], "heroicActions": ["Heroic Resolve"], "magicalPowers": [],
+      "specialRules": [
+        { "name": "Burly", "type": "", "text": "" },
+        { "name": "The Golden Throne", "type": "PASSIVE", "text": "Unique banner; the Golden King does not suffer the -1 penalty to his Duel Rolls for carrying a banner." },
+        { "name": "Riches Beyond Renown", "type": "ACTIVE", "text": "May spend Will Points when an enemy Hero within 12\" and Line of Sight takes a Courage Test, reducing the Test by 1 per Will Point spent, even after the roll." },
+        { "name": "The Lure of Wealth", "type": "ACTIVE", "text": "If the Golden King loses a Duel Roll, may spend a Will Point so enemy models may not make Strikes against him for the rest of the Combat." }
+      ]
+    },
+    { "name": "The Knight of Umbar", "points": 130, "heroicTier": "Hero of Valour", "keywords": "SPIRIT, RINGWRAITH, MORDOR, UMBAR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "8", "A": "1", "W": "1", "C": "4+", "Might": "2", "Will": "12", "Fate": "2" },
+      "wargear": ["Armour of the Sundered Land", "Hand Weapon"], "heroicActions": ["Heroic Channelling"],
+      "magicalPowers": ["Compel - 12\" - 4+", "Transfix - 12\" - 4+", "Drain Courage - 12\" - 4+", "Black Dart - 6\" - 4+", "Enchant Blades - 12\" - 5+", "Instill Fear - Self - 6+"],
+      "options": ["Horse - 20 points"],
+      "specialRules": [
+        { "name": "Harbinger of Evil (12\")", "type": "", "text": "" }, { "name": "Terror", "type": "", "text": "" }, { "name": "Will of Evil", "type": "", "text": "" },
+        { "name": "Armour of the Sundered Land", "type": "PASSIVE", "text": "Unique heavy armour; only loses a Will Point for having been in a Combat if his side loses a Combat that Fight Phase." },
+        { "name": "Combat Mimicry", "type": "ACTIVE", "text": "At the start of the Fight Phase may spend a Will Point to use a single engaged enemy model's Fight Value, Attacks and/or Strength (any combination) until the End Phase." }
+      ]
+    },
+    { "name": "Corsair Bo'sun", "points": 50, "heroicTier": "Hero of Fortitude", "keywords": "MAN, CORSAIR, UMBAR, HERO, INFANTRY",
+      "profile": { "Mv": "6\"", "Fv": "4", "Sv": "3+", "S": "4", "D": "4", "A": "2", "W": "2", "C": "6+", "Might": "1", "Will": "1", "Fate": "1" },
+      "wargear": ["Light Armour", "Hand Weapon", "Spear", "Throwing Weapons"], "heroicActions": ["Heroic March"], "magicalPowers": [],
+      "options": ["Exchange Spear for Crossbow - Free"],
+      "specialRules": [ { "name": "Commanding Bellow", "type": "ACTIVE", "text": "Friendly Corsair models treat a Corsair Bo'sun as a banner." } ]
+    },
+    { "name": "Corsair Captain", "points": 55, "heroicTier": "Hero of Fortitude", "keywords": "MAN, CORSAIR, UMBAR, HERO, INFANTRY",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "3+", "S": "4", "D": "4", "A": "2", "W": "2", "C": "6+", "Might": "2", "Will": "1", "Fate": "1" },
+      "wargear": ["Light Armour", "Hand Weapon", "Two-handed Weapon", "Throwing Weapons"], "heroicActions": ["Heroic March"], "magicalPowers": [],
+      "options": ["Exchange Two-handed Weapon for Crossbow - Free"], "specialRules": []
+    },
+    { "name": "Easterling Captain", "points": 60, "heroicTier": "Hero of Fortitude", "keywords": "MAN, EASTERLING, HERO, INFANTRY",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "6", "A": "2", "W": "2", "C": "6+", "Might": "2", "Will": "1", "Fate": "1" },
+      "wargear": ["Heavy Armour", "Easterling Halberd"], "heroicActions": ["Heroic March"], "magicalPowers": [],
+      "specialRules": [
+        { "name": "Easterling Halberd", "type": "ACTIVE", "text": "Can be used as either a pike or a two-handed weapon." },
+        { "name": "Phalanx", "type": "ACTIVE", "text": "Can use a pike and a shield at the same time without penalty. Up to two friendly models with this rule can Make Way instead of one." }
+      ]
+    },
+    { "name": "Easterling Kataphrakt Captain", "points": 90, "heroicTier": "Hero of Fortitude", "keywords": "MAN, EASTERLING, HERO, CAVALRY",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "7", "A": "2", "W": "2", "C": "5+", "Might": "2", "Will": "1", "Fate": "1" },
+      "wargear": ["Heavy Armour", "Shield", "Hand Weapon", "Armoured Horse"], "heroicActions": ["Heroic March"], "magicalPowers": [],
+      "specialRules": [
+        { "name": "Phalanx", "type": "ACTIVE", "text": "Can use a pike and a shield at the same time without penalty; up to two Make Way instead of one." },
+        { "name": "The Gleaming Horde", "type": "ACTIVE", "text": "Gains Shieldwall whilst Cavalry, even mounted; +1 Defence applies to rider and Mount, even without a shield." }
+      ]
+    },
+    { "name": "Easterling War Priest", "points": 60, "heroicTier": "Hero of Fortitude", "keywords": "MAN, EASTERLING, HERO, INFANTRY",
+      "profile": { "Mv": "6\"", "Fv": "4", "Sv": "4+", "S": "3", "D": "5", "A": "1", "W": "2", "C": "6+", "Might": "1", "Will": "3", "Fate": "1" },
+      "wargear": ["Heavy Armour", "Easterling Halberd"], "heroicActions": ["Heroic Channelling"],
+      "magicalPowers": ["Bladewrath - 6\" - 3+", "Fury (Easterling) - Self - 3+", "Enchant Blades - 6\" - 4+"],
+      "options": ["Armoured Horse - 25 points"],
+      "specialRules": [ { "name": "Easterling Halberd", "type": "ACTIVE", "text": "Can be used as either a pike or a two-handed weapon." } ]
+    },
+    { "name": "Haradrim Chieftain", "points": 50, "heroicTier": "Hero of Fortitude", "keywords": "MAN, HARAD, HERO, INFANTRY",
+      "profile": { "Mv": "6\"", "Fv": "4", "Sv": "4+", "S": "4", "D": "5", "A": "2", "W": "2", "C": "6+", "Might": "2", "Will": "1", "Fate": "1" },
+      "wargear": ["Armour", "Spear", "Hand Weapon"], "heroicActions": ["Heroic March"], "magicalPowers": [],
+      "options": ["Bow - 5 points"], "specialRules": [ { "name": "Poisoned Attacks (Bow)", "type": "", "text": "" } ]
+    },
+    { "name": "Haradrim Taskmaster", "points": 45, "heroicTier": "Hero of Fortitude", "keywords": "MAN, HARAD, HERO, INFANTRY",
+      "profile": { "Mv": "6\"", "Fv": "4", "Sv": "4+", "S": "4", "D": "5", "A": "2", "W": "2", "C": "7+", "Might": "1", "Will": "1", "Fate": "1" },
+      "wargear": ["Armour", "Hand Weapon", "Whip"], "heroicActions": ["Heroic March"], "magicalPowers": [],
+      "specialRules": [ { "name": "Whip of the Masters", "type": "ACTIVE", "text": "Whenever a friendly Hero within 6\" declares a Heroic Move, Heroic March or Heroic Shoot, roll a D6; on a 4+ it is free." } ]
+    },
+    { "name": "Hasharin", "points": 80, "heroicTier": "Hero of Fortitude", "keywords": "MAN, HARAD, UMBAR, HERO, INFANTRY",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "3+", "S": "4", "D": "4", "A": "3", "W": "2", "C": "4+", "Might": "1", "Will": "1", "Fate": "3" },
+      "wargear": ["Hand Weapons", "Throwing Weapons", "Blowpipe"], "heroicActions": ["Heroic Strike", "Heroic Defence"], "magicalPowers": [],
+      "specialRules": [
+        { "name": "Backstabbers", "type": "", "text": "" }, { "name": "Bane of Kings", "type": "", "text": "" }, { "name": "Stalk Unseen", "type": "", "text": "" }, { "name": "General Hunter", "type": "", "text": "" },
+        { "name": "Preternatural Agility", "type": "ACTIVE", "text": "A Hasharin can never be Trapped while still standing." }
+      ]
+    },
+    { "name": "Khandish Chieftain", "points": 55, "heroicTier": "Hero of Fortitude", "keywords": "MAN, KHAND, HERO, INFANTRY",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "5", "A": "2", "W": "2", "C": "6+", "Might": "2", "Will": "1", "Fate": "1" },
+      "wargear": ["Armour", "Hand-and-a-half Weapon", "Bow"], "heroicActions": ["Heroic March"], "magicalPowers": [],
+      "options": ["Horse - 20 points"], "specialRules": []
+    },
+    { "name": "Mahud Tribesmaster", "points": 55, "heroicTier": "Hero of Fortitude", "keywords": "MAN, HARAD, MAHUD, HERO, INFANTRY",
+      "profile": { "Mv": "6\"", "Fv": "4", "Sv": "3+", "S": "5", "D": "5", "A": "2", "W": "2", "C": "7+", "Might": "2", "Will": "1", "Fate": "1" },
+      "wargear": ["Armour", "Hand Weapon"], "heroicActions": ["Heroic Strength", "Heroic March"], "magicalPowers": [],
+      "options": ["War Camel - 25 points", "Blowpipe - 5 points", "Shield - 5 points", "War Spear - 5 points"],
+      "specialRules": [ { "name": "Poisoned Attacks (blowpipe)", "type": "", "text": "" } ]
+    },
+    { "name": "Raza, Fang of the Serpent", "points": 75, "heroicTier": "Hero of Fortitude", "keywords": "MAN, HARAD, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "4", "Sv": "4+", "S": "4", "D": "5", "A": "3", "W": "2", "C": "5+", "Might": "2", "Will": "2", "Fate": "2" },
+      "wargear": ["Armour", "Spear"], "heroicActions": ["Heroic Strike", "Heroic Challenge"], "magicalPowers": [],
+      "specialRules": [
+        { "name": "Bane of Kings", "type": "", "text": "" }, { "name": "Leader (Serpent Guard)", "type": "", "text": "" }, { "name": "Sworn Protector (Suladan)", "type": "", "text": "" },
+        { "name": "The Serpent's Weapon", "type": "ACTIVE", "text": "Secretly select an enemy Hero at deployment as Raza's target. Whilst Engaged with that target, after Heroic Actions are resolved and the target is revealed, Raza gains +2 Fight Value against them." }
+      ]
+    },
+    { "name": "War Mumak of Harad", "points": 250, "keywords": "MUMAK | HARAD | WAR BEAST | 180X140MM",
+      "profile": { "Mv": "8\"", "Fv": 4, "Sv": "6+", "S": 10, "D": 7, "A": 3, "W": 10, "C": "7+", "I": "9+" },
+      "wargear": ["Tusks and Huge Stomping Feet (hand weapons)"],
+      "options": ["Gnarled Hide - 25 points", "Mahud Beastmaster Chieftain - 25 points", "Rocks - 20 points", "Sigils of Defiance - 20 points", "Tusk Weapons - 20 points", "Foul Temperament - 15 points", "Rappelling Lines - 10 points"],
+      "specialRules": [
+        { "name": "Dominant (10)", "type": "", "text": "" }, { "name": "Large Target", "type": "", "text": "" }, { "name": "Terror", "type": "", "text": "" },
+        { "name": "Trample", "type": "ACTIVE", "text": "When a Mumak Tramples, it inflicts 3 Strength 9 Impact Hits." },
+        { "name": "Awesome Presence", "type": "PASSIVE", "text": "Friendly models treat this model as a banner with a range of 6\"." },
+        { "name": "Howdah", "type": "PASSIVE", "text": "D 9, W 5. Includes an optional Haradrim Commander (Mv 6\", Fv 4, Sv 4+, S 4, D 5, A 2, W 2, C 6+, I 6+, Might 2, Will 1, Fate 1; Armour, Spear; Heroic March) which may be replaced by a Mahud Beastmaster Chieftain (Mv 6\", Fv 5, Sv 3+, S 5, D 5, A 2, W 2, C 5+, I 6+; Armour, Spear, War Horn; Heroic March)." }
+      ]
+    },
+    { "name": "Easterling Dragon Knight", "points": 70, "heroicTier": "Minor Hero", "keywords": "MAN, EASTERLING, BLACK DRAGON, HERO, INFANTRY",
+      "profile": { "Mv": "6\"", "Fv": "6", "Sv": "4+", "S": "4", "D": "6", "A": "3", "W": "2", "C": "6+", "Might": "2", "Will": "0", "Fate": "0" },
+      "wargear": ["Heavy Armour", "Hand Weapons"], "heroicActions": ["Heroic Challenge"], "magicalPowers": [],
+      "options": ["Armoured Horse - 25 points"],
+      "specialRules": [
+        { "name": "General Hunter", "type": "", "text": "" }, { "name": "Unyielding Combat Stance", "type": "", "text": "" },
+        { "name": "Shield of Blades", "type": "ACTIVE", "text": "May use the Shielding rule even though they do not have a shield." },
+        { "name": "Phalanx", "type": "ACTIVE", "text": "Can use a pike and a shield together without penalty; up to two Make Way instead of one." },
+        { "name": "The Gleaming Horde", "type": "ACTIVE", "text": "Gains Shieldwall whilst Cavalry, even mounted; +1 Defence to rider and Mount." },
+        { "name": "Leader of the Dragon Cult", "type": "PASSIVE", "text": "May only include Black Dragon Warrior models in their Warband." }
+      ]
+    },
+    { "name": "Abrakhan Merchant Guard", "points": 9, "keywords": "MAN | HARAD | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 4, "D": 4, "A": 1, "W": 1, "C": "7+", "I": "7+" },
+      "wargear": ["Two-handed Weapon"], "specialRules": [ { "name": "Burly", "type": "", "text": "" } ]
+    },
+    { "name": "Black Dragon Warrior", "points": 10, "keywords": "MAN | EASTERLING, BLACK DRAGON | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 6, "A": 1, "W": 1, "C": "6+", "I": "6+" },
+      "wargear": ["Heavy Armour", "Shield", "Hand Weapon"],
+      "options": ["Exchange Shield for Banner - 25 points", "Easterling Halberd - 1 point"],
+      "specialRules": [
+        { "name": "Easterling Halberd", "type": "ACTIVE", "text": "Can be used as either a pike or a two-handed weapon." },
+        { "name": "Phalanx", "type": "ACTIVE", "text": "Can use a pike and a shield at the same time without penalty; up to two Make Way instead of one." },
+        { "name": "Warriors of the Dragon Cult", "type": "PASSIVE", "text": "May only be included in the Warband of a Black Dragon Hero; gains +1 Fight Value within 3\" of one." }
+      ]
+    },
+    { "name": "Corsair Crossbowman", "points": 10, "keywords": "MAN | CORSAIR, UMBAR | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 3, "A": 1, "W": 1, "C": "7+", "I": "7+" },
+      "wargear": ["Pavise", "Crossbow", "Hand Weapon"],
+      "specialRules": [ { "name": "Pavise", "type": "PASSIVE", "text": "This is a shield giving +3 Defence rather than +1, but not whilst Engaged in Combat." } ]
+    },
+    { "name": "Corsair Reaver", "points": 9, "keywords": "MAN | CORSAIR | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 3, "A": 2, "W": 1, "C": "6+", "I": "8+" },
+      "wargear": ["Hand Weapons"],
+      "specialRules": [
+        { "name": "Fearless", "type": "", "text": "" },
+        { "name": "Mindless Killers", "type": "ACTIVE", "text": "If more than 6\" from a friendly Corsair Bo'sun at the start of its Activation, must take an Intelligence Test or Charge (suffering/inflicting a Strength 3 hit on a nearby friendly model), gaining a To Wound bonus that turn." }
+      ]
+    },
+    { "name": "Corsair of Umbar", "points": 8, "keywords": "MAN | CORSAIR, UMBAR | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 3, "A": 1, "W": 1, "C": "7+", "I": "7+" },
+      "wargear": ["Light Armour", "Hand Weapon"],
+      "options": ["Bow - 1 point", "Light Shield and Throwing Weapons - 1 point", "Spear - 1 point"], "specialRules": []
+    },
+    { "name": "Dragon Cult Acolyte", "points": 11, "keywords": "MAN | EASTERLING, BLACK DRAGON | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 4, "A": 2, "W": 1, "C": "6+", "I": 6 },
+      "wargear": ["Armour", "Throwing Weapons", "Hand Weapons"],
+      "specialRules": [
+        { "name": "Unyielding Combat Stance", "type": "", "text": "" },
+        { "name": "Supreme Agility", "type": "ACTIVE", "text": "+2 bonus to Climb, Jump or Leap Tests; automatically passes In the Way Tests when Striking a model defending a barrier or doorway." },
+        { "name": "Warriors of the Dragon Cult", "type": "PASSIVE", "text": "May only be included in the Warband of a Black Dragon Hero; gains +1 Fight Value within 3\" of one." }
+      ]
+    },
+    { "name": "Easterling Kataphrakt", "points": 15, "keywords": "MAN | EASTERLING | WARRIOR, CAVALRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 6, "A": 1, "W": 1, "C": "7+", "I": "6+" },
+      "wargear": ["Heavy Armour", "Shield", "Hand Weapon", "Armoured Horse"], "heroicActions": ["Heroic March"],
+      "options": ["Banner - 25 points", "Exchange Shield for War Drum (Easterling) - 25 points"],
+      "specialRules": [
+        { "name": "Phalanx", "type": "ACTIVE", "text": "Can use a pike and a shield together without penalty; up to two Make Way instead of one." },
+        { "name": "The Gleaming Horde", "type": "ACTIVE", "text": "Gains Shieldwall whilst Cavalry, even mounted; +1 Defence to rider and Mount." }
+      ]
+    },
+    { "name": "Easterling Warrior", "points": 8, "keywords": "MAN | EASTERLING | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 5, "A": 1, "W": 1, "C": "7+", "I": "6+" },
+      "wargear": ["Heavy Armour", "Hand Weapon"],
+      "options": ["Banner - 25 points", "Easterling Halberd and Shield - 2 points", "Shield - 1 point", "Bow - 1 point"],
+      "specialRules": [
+        { "name": "Easterling Halberd", "type": "ACTIVE", "text": "Can be used as either a pike or a two-handed weapon." },
+        { "name": "Phalanx", "type": "ACTIVE", "text": "Can use a pike and a shield at the same time without penalty; up to two Make Way instead of one." }
+      ]
+    },
+    { "name": "Half Troll", "points": 25, "keywords": "MAN | HARAD, MAHUD | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 5, "Sv": "6+", "S": 5, "D": 6, "A": 2, "W": 2, "C": "8+", "I": "9+" },
+      "wargear": ["Armour", "Hand Weapon"], "options": ["Exchange Hand Weapon for Two-handed Weapon - Free"],
+      "specialRules": [ { "name": "Dominant (2)", "type": "", "text": "" }, { "name": "Terror", "type": "", "text": "" } ]
+    },
+    { "name": "Haradrim Raider", "points": 11, "keywords": "MAN | HARAD | WARRIOR, CAVALRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 3, "Sv": "4+", "S": 3, "D": 4, "A": 1, "W": 1, "C": "7+", "I": "7+" },
+      "wargear": ["Armour", "Hand Weapon", "Horse"],
+      "options": ["Banner - 25 points", "Bow & War Spear - 2 points", "Bow - 1 point", "War Spear - 1 point"],
+      "specialRules": [ { "name": "Poisoned Attacks (Bow)", "type": "", "text": "" } ]
+    },
+    { "name": "Haradrim Warrior", "points": 6, "keywords": "MAN | HARAD | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 3, "Sv": "4+", "S": 3, "D": 4, "A": 1, "W": 1, "C": "7+", "I": "7+" },
+      "wargear": ["Armour", "Hand Weapon"],
+      "options": ["War Horn - 25 points", "Banner - 25 points", "Bow - 1 point", "Spear - 1 point"],
+      "specialRules": [ { "name": "Poisoned Attacks (Bow)", "type": "", "text": "" } ]
+    },
+    { "name": "Khandish Charioteer", "points": 40, "keywords": "MAN | KHAND | WARRIOR, CHARIOT | 60MM",
+      "profile": { "Mv": "10\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 7, "A": 1, "W": 3, "C": "7+", "I": "7+" },
+      "wargear": ["Armour", "Hand-and-a-half Weapon", "Hand Weapon"], "options": ["Exchange Hand-and-a-half Weapon for Bow - Free"],
+      "specialRules": [
+        { "name": "Dominant (3)", "type": "", "text": "" },
+        { "name": "Chariot Charge", "type": "ACTIVE", "text": "When a Khandish Charioteer Moves via Chariot Charge, it inflicts 2 Strength 4 Impact Hits." }
+      ]
+    },
+    { "name": "Khandish Horseman", "points": 14, "keywords": "MAN | KHAND | WARRIOR, CAVALRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 4, "A": 1, "W": 1, "C": "7+", "I": "7+" },
+      "wargear": ["Armour", "Hand-and-a-half Weapon", "Hand Weapon", "Bow", "Horse"], "specialRules": []
+    },
+    { "name": "Khandish Warrior", "points": 8, "keywords": "MAN | KHAND | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 4, "A": 1, "W": 1, "C": "7+", "I": "7+" },
+      "wargear": ["Armour", "Hand-and-a-half Weapon", "Hand Weapon"], "options": ["Exchange Hand-and-a-half Weapon for Bow - Free"], "specialRules": []
+    },
+    { "name": "Mahud Raider", "points": 17, "keywords": "MAN | HARAD, MAHUD | WARRIOR, CAVALRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 3, "Sv": "3+", "S": 4, "D": 5, "A": 1, "W": 1, "C": "8+", "I": "8+" },
+      "wargear": ["Armour", "Hand Weapon", "Shield", "War Camel"], "options": ["Blowpipe - 1 point", "War Spear - 1 point"],
+      "specialRules": [ { "name": "Poisoned Attacks (blowpipe)", "type": "", "text": "" } ]
+    },
+    { "name": "Mahud Warrior", "points": 8, "keywords": "MAN | HARAD, MAHUD | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 3, "Sv": "3+", "S": 4, "D": 5, "A": 1, "W": 1, "C": "8+", "I": "8+" },
+      "wargear": ["Armour", "Hand Weapon", "Shield"], "options": ["Blowpipe - 1 point", "Spear - 1 point"],
+      "specialRules": [ { "name": "Poisoned Attacks (blowpipe)", "type": "", "text": "" } ]
+    },
+    { "name": "Serpent Guard", "points": 8, "keywords": "MAN | HARAD | WARRIOR, INFANTRY, ELITE | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 4, "A": 1, "W": 1, "C": "7+", "I": "7+" },
+      "wargear": ["Armour", "Spear"], "specialRules": [ { "name": "Poisoned Attacks", "type": "", "text": "" } ]
+    },
+    { "name": "Serpent Rider", "points": 14, "keywords": "MAN | HARAD | WARRIOR, CAVALRY, ELITE | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 4, "A": 1, "W": 1, "C": "7+", "I": "7+" },
+      "wargear": ["Armour", "War Spear", "Horse"], "specialRules": [ { "name": "Poisoned Attacks", "type": "", "text": "" } ]
+    },
+    { "name": "War Drake of Rhun", "points": 20, "keywords": "DRAKE | EASTERLING | WARRIOR, INFANTRY, BEAST | 40MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "6+", "S": 4, "D": 5, "A": 2, "W": 2, "C": "6+", "I": "9+" },
+      "wargear": ["Armour, Claws and Teeth (hand weapons)"],
+      "specialRules": [
+        { "name": "Dominant (2)", "type": "", "text": "" }, { "name": "Terror", "type": "", "text": "" }, { "name": "Venom", "type": "", "text": "" },
+        { "name": "Slow-acting Venom", "type": "PASSIVE", "text": "A model Wounded (not slain) by a War Drake of Rhun and not prevented reduces Fight Value and Attacks by 1 (min 1) for the rest of the game. Only once per game per model." }
+      ]
+    },
+    { "name": "Watcher of Karna", "points": 9, "keywords": "MAN | HARAD | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "3+", "S": 3, "D": 3, "A": 1, "W": 1, "C": "7+", "I": "5+" },
+      "wargear": ["Light Armour", "Hand Weapon"], "options": ["Bow - 1 point", "Twin Blades - 1 point"],
+      "specialRules": [
+        { "name": "Hatred (Spirit)", "type": "", "text": "" }, { "name": "Poisoned Attacks (Bow)", "type": "", "text": "" }, { "name": "Resistant to Magic", "type": "", "text": "" },
+        { "name": "Twin Blades", "type": "ACTIVE", "text": "A Watcher of Karna with Twin Blades increases its Attacks to 2." },
+        { "name": "Steely Nerve", "type": "ACTIVE", "text": "+2 Courage bonus when Charging a Terror-causing enemy. Against Blades of the Dead attacks, treats Courage as 5+ rather than 7+ before modifiers." }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Grand Army of the South army-list page (a very large combined Corsair/Harad/Easterling/Khand list). Full stat blocks, wargear, and special-rule text from the Fallen Realms faction page (Corsair, Harad, Easterling, Serpent units) and the Evil Legacy faction page (Khamul the Easterling, Khandish and remaining Mahud/Harad units, Corsair Reaver, Abrakhan Merchant Guard). Some lengthy special-rule texts have been condensed for length while preserving their game effect; consult the live pages for verbatim wording."
+}

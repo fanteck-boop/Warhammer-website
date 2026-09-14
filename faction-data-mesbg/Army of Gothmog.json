@@ -1,0 +1,596 @@
+{
+  "legion": "Army of Gothmog",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/army_of_gothmog/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/mordor/"
+  ],
+  "additionalRules": [
+    "The Army of Gothmog must always contain Gothmog, who is always the Army's General.",
+    "Hero warband/follower system (current 'Armies of The Lord of the Rings' edition): each Hero anchors a warband of Independent (non-Hero) followers up to a cap set by their tier for this army list — Hero of Legend: up to 18 followers; Hero of Valour: up to 15; Hero of Fortitude: up to 12; Minor Hero: up to 6; Independent Hero: 0 (occupies a slot in another Hero's warband instead). The army's General is typically a Hero of Valour or Hero of Legend — check this army list's own requirements. Heroic tier is assigned per army list, not an inherent property of the hero."
+  ],
+  "specialRules": [
+    {
+      "name": "Tyrannical Rule",
+      "text": "Friendly Orc Hero models may benefit from Gothmog's Stand Fast."
+    },
+    {
+      "name": "Ruthless Assault",
+      "text": "Friendly Orc models may re-roll To Wound Rolls of a natural 1 when making Strikes against a Trapped model."
+    },
+    {
+      "name": "The Destruction of Men",
+      "text": "The range of Gothmog's \"The Age of Men is Over\" special rule is increased to 12\". The range of his \"The Time of the Orc has come\" special rule is increased to battlefield wide."
+    }
+  ],
+  "units": [
+    {
+      "name": "Morannon Orc Warrior",
+      "points": 8,
+      "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 4,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Shield and Spear - 2 points",
+        "Shield - 1 point",
+        "Spear - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "End the Race of Men",
+          "type": "ACTIVE",
+          "text": "Whilst Engaged in Combat with an enemy Man model, this model gains a bonus of +1 to their Fight Value."
+        }
+      ]
+    },
+    {
+      "name": "Mordor Orc Warrior",
+      "points": 5,
+      "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "5+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Orc Bow - 1 point",
+        "Shield - 1 point",
+        "Spear - 1 point",
+        "Two-handed Weapon - 1 point"
+      ]
+    },
+    {
+      "name": "Mordor Troll",
+      "points": 90,
+      "keywords": "TROLL | MORDOR | WARRIOR, INFANTRY, MONSTER | 60MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 7,
+        "Sv": "5+",
+        "S": 7,
+        "D": 7,
+        "A": 3,
+        "W": 4,
+        "C": "6+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand-and-a-half Weapon"
+      ],
+      "options": [
+        "War Drum (Mordor) - 25 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Dominant (3)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones",
+          "type": "",
+          "text": "Range 12\", Strength 8."
+        }
+      ]
+    },
+    {
+      "name": "Mordor Siege Bow",
+      "points": 50,
+      "keywords": "SIEGE ENGINE | 40MM",
+      "profile": {
+        "range": "6\"-48\"",
+        "S": 8,
+        "D": 9,
+        "W": 3
+      },
+      "composition": "Crewed by three Mordor Orc Siege Crew, one of which is a Siege Veteran.",
+      "options": [
+        "Flaming Ammunition - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Direct Shot",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Flaming Ammunition",
+          "type": "",
+          "text": "A Siege Engine upgraded with Flaming Ammunition may re-roll any failed To Wound Rolls against a Siege Target."
+        },
+        {
+          "name": "Accurate",
+          "type": "ACTIVE",
+          "text": "A Mordor Siege Bow will only Scatter 3\" rather than 6\"."
+        },
+        {
+          "name": "Piercing Shot",
+          "type": "ACTIVE",
+          "text": "A model hit by the shot is flung back D6\" if Strength 5 or lower, hitting anything it passes over with a Strength 5 hit and knocking them Prone; if it hits impassable terrain or a Strength 6+ model both suffer a Strength 6 hit. It is knocked Prone if it survives."
+        }
+      ],
+      "crew": {
+        "name": "Mordor Orc Siege Crew",
+        "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+        "profile": {
+          "Mv": "6\"",
+          "Fv": 3,
+          "Sv": "4+",
+          "S": 3,
+          "D": 4,
+          "A": 1,
+          "W": 1,
+          "C": "8+",
+          "I": "8+"
+        },
+        "wargear": [
+          "Armour",
+          "Hand Weapon"
+        ]
+      }
+    },
+    {
+      "name": "Mordor War Catapult",
+      "points": 150,
+      "keywords": "SIEGE ENGINE | 120MM",
+      "profile": {
+        "range": "12\"-96\"",
+        "S": 10,
+        "D": 10,
+        "W": 4
+      },
+      "composition": "Crewed by three Mordor Orc Siege Crew, one of which is a Siege Veteran, and a Mordor Siege Troll.",
+      "options": [
+        "Severed Heads - 20 points",
+        "Flaming Ammunition - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Arcing Shot",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Severed Heads",
+          "type": "",
+          "text": "If fired, the actual target and any enemy model within 3\" take a Courage Test instead of a To Wound Roll; on a failure the model flees and is removed as a casualty."
+        },
+        {
+          "name": "Flaming Ammunition",
+          "type": "",
+          "text": "A Siege Engine upgraded with Flaming Ammunition may re-roll any failed To Wound Rolls against a Siege Target."
+        },
+        {
+          "name": "Troll Loader",
+          "type": "ACTIVE",
+          "text": "If the Mordor Siege Troll is one of the models firing, the Catapult may re-roll the To Hit Roll."
+        },
+        {
+          "name": "Area Effect",
+          "type": "ACTIVE",
+          "text": "After hitting a Battlefield Target, all other models within 2\" suffer a Strength 5 hit and are knocked Prone if they survive."
+        },
+        {
+          "name": "Wall-breaker",
+          "type": "ACTIVE",
+          "text": "Against a Siege Target, makes 2 To Wound Rolls and picks the highest; a successful Wound does D3 Wounds rather than 1."
+        }
+      ],
+      "crew": {
+        "name": "Mordor Orc Siege Crew",
+        "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+        "profile": {
+          "Mv": "6\"",
+          "Fv": 3,
+          "Sv": "4+",
+          "S": 3,
+          "D": 4,
+          "A": 1,
+          "W": 1,
+          "C": "8+",
+          "I": "8+"
+        },
+        "wargear": [
+          "Armour",
+          "Hand Weapon"
+        ]
+      },
+      "siegeTroll": {
+        "name": "Mordor Siege Troll",
+        "keywords": "TROLL | MORDOR | WARRIOR, INFANTRY, MONSTER | 60MM",
+        "profile": {
+          "Mv": "6\"",
+          "Fv": 7,
+          "Sv": "4+",
+          "S": 7,
+          "D": 6,
+          "A": 3,
+          "W": 4,
+          "C": "6+",
+          "I": "7+"
+        },
+        "wargear": [
+          "Hand Weapon"
+        ],
+        "specialRules": [
+          {
+            "name": "Dominant (3)",
+            "type": "",
+            "text": ""
+          },
+          {
+            "name": "Terror",
+            "type": "",
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mordor Orc Shaman",
+      "points": 50,
+      "heroicTier": "Minor Hero",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "5",
+        "A": "1",
+        "W": "2",
+        "C": "7",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Spear"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        {
+          "power": "Fury (Mordor Orc)",
+          "duration": "Exhaustion",
+          "text": "Friendly Mordor Orc models within 6\" automatically pass Courage Tests while it is in effect; each Wound suffered within range has a 1-in-6 chance to be ignored, as if a point of Fate had been spent."
+        },
+        {
+          "power": "Curse",
+          "duration": "",
+          "text": "Casting Value 4+, range 12\"."
+        },
+        {
+          "power": "Transfix",
+          "duration": "Temporary",
+          "text": "Casting Value 5+, range 12\". Target cannot move, shoot, cast, declare Heroic Actions or Strike if they win a Duel; halves Fight and Attacks."
+        }
+      ],
+      "options": [
+        "Warg - 20 points"
+      ]
+    },
+    {
+      "name": "Mordor Orc Captain",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "7",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Shield",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": []
+    },
+    {
+      "name": "Morannon Orc Captain",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "5",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "7",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Shield - 5 points",
+        "Two-handed Weapon - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "End the Race of Men",
+          "type": "ACTIVE",
+          "text": "Whilst Engaged in Combat with an enemy Man model, this model gains a bonus of +1 to their Fight Value."
+        }
+      ]
+    },
+    {
+      "name": "Guritz",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "5",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "7",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Two-handed Weapon",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Master of Reserves",
+          "type": "PASSIVE",
+          "text": "May modify a roll for his own Warband's arrival/deployment side by +1 or -1 even off the battlefield; if on the battlefield, may also modify other Warbands' rolls by +1 or -1."
+        },
+        {
+          "name": "End the Race of Men",
+          "type": "ACTIVE",
+          "text": "Whilst Engaged in Combat with an enemy Man model, this model gains a bonus of +1 to their Fight Value."
+        }
+      ]
+    },
+    {
+      "name": "Gothmog's Enforcer",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Gothmog's Right Hand",
+          "type": "PASSIVE",
+          "text": "Whilst within 3\" of Gothmog, Gothmog can spend the Enforcer's Will Points instead of his own Might to declare a Heroic Move or Heroic March, and may measure the range of With Me/At the Double from the Enforcer instead of himself."
+        }
+      ]
+    },
+    {
+      "name": "Goroth, Captain of the Morannon",
+      "points": 85,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "5+",
+        "S": "5",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Burly",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Dominant (2)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Come here maggot!",
+          "type": "ACTIVE",
+          "text": "Whenever Goroth suffers a Wound, before Fate Rolls, he may roll a D6; on a 2+ a friendly Mordor Orc model within 1\" suffers the Wound instead."
+        }
+      ]
+    },
+    {
+      "name": "Zagdush, Orc Captain",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "2",
+        "C": "7",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Reckless Fighter",
+          "type": "ACTIVE",
+          "text": "At the start of a Combat involving Zagdush, before any dice are rolled, he may choose to reduce his Defence by 1 and increase his Strength by 1 for that Combat."
+        }
+      ]
+    },
+    {
+      "name": "Gothmog",
+      "points": 120,
+      "heroicTier": "Hero of Legend",
+      "keywords": "ORC, MORDOR, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "5+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "3",
+        "C": "5",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Warg - 20 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Master of Battle (2+)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "\"The time of the Orc has come\"",
+          "type": "ACTIVE",
+          "text": "Once per game, at the start of any Fight Phase, until the end of the turn friendly Mordor Orc models within 12\" may re-roll failed To Wound Rolls when making Strikes."
+        },
+        {
+          "name": "\"The Age of Men is Over\"",
+          "type": "PASSIVE",
+          "text": "Friendly Mordor Orc models within 3\" of Gothmog gain the Hatred (Man) special rule."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Composition/points from the prancingponypub army list page; full profiles from the Mordor forces page."
+}

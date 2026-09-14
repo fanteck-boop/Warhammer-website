@@ -1,0 +1,284 @@
+{
+  "legion": "Riders of Eomer",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/riders_of_eomer/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/rohan/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/gondor/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/good_legacy/"
+  ],
+  "additionalRules": [
+    "A Riders of Eomer Army must include Eomer, who is always the Army's General.",
+    "Riders of Rohan do not count towards this Army's Bow Limit."
+  ],
+  "specialRules": [
+    {
+      "name": "Look to the sun",
+      "type": "",
+      "text": "Once per game, at the start of any friendly Activation Phase, Gandalf can use this special rule so long as he is alive and on the battlefield. If he does, then until the end of the turn, enemy models Engaged in Combat with a friendly Cavalry model that made a Charge that turn, or Supporting a Combat against a friendly Cavalry model that made a Charge that turn, suffer a -1 penalty to their Duel Roll."
+    },
+    {
+      "name": "\"Ride for ruin and the world's ending\"",
+      "type": "",
+      "text": "Friendly Rohan Cavalry models gain a bonus of +1 to their Strength on a turn in which they Charge."
+    },
+    {
+      "name": "\"To the King!\"",
+      "type": "",
+      "text": "Eomer may declare a Heroic Combat each turn for free."
+    }
+  ],
+  "units": [
+    {
+      "name": "Eomer",
+      "points": 140,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "3",
+        "W": "3",
+        "C": "5+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Guthwine",
+        "Firefoot with Armour",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic Strength",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Throwing spears - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Leader (Rohan Royal Guard)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Guthwine",
+          "type": "ACTIVE",
+          "text": "This is a Unique hand weapon. Additionally, each time a model armed with Gúthwinë rolls a natural 6 To Wound when making a Strike, they may immediately make a single additional To Wound Roll against the same target. If this additional To Wound Roll is a natural 6, this will not benefit from this special rule."
+        }
+      ]
+    },
+    {
+      "name": "Gandalf the White",
+      "points": 225,
+      "heroicTier": "Hero of Valour",
+      "keywords": "WIZARD, FELLOWSHIP, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "6",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Glamdring",
+        "Narya",
+        "Staff of Power",
+        "Shadowfax"
+      ],
+      "heroicActions": [
+        "Heroic Channelling",
+        "Heroic Defence",
+        "Heroic Resolve",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [
+        "Blinding Light (Self, 3+)",
+        "Terrifying Aura (Self, 3+)",
+        "Transfix (12\", 3+)",
+        "Foil Magic (12\", 4+)",
+        "Fortify Spirit (12\", 4+)",
+        "Strengthen Will (12\", 4+)",
+        "Banishment (12\", 5+)",
+        "Sorcerous Blast (12\", 5+)",
+        "Your Staff is Broken (12\", 5+)"
+      ],
+      "specialRules": [
+        {
+          "name": "Glamdring",
+          "type": "ACTIVE",
+          "text": "This is a Unique Elven hand-and-a-half weapon. A model gains a bonus of +1 to their Strength when making Strikes with Glamdring."
+        },
+        {
+          "name": "Narya",
+          "type": "PASSIVE",
+          "text": "This is a Unique piece of Wargear. Gandalf may re-roll any failed Fate rolls."
+        },
+        {
+          "name": "Lord of the Mearas",
+          "type": "ACTIVE",
+          "text": "Whilst mounted upon Shadowfax, Gandalf rolls two dice and picks for the highest for Jump, Leap and Swim tests. Also, Shadowfax only halves his Move value in difficult terrain, rather than quartering it."
+        }
+      ]
+    },
+    {
+      "name": "Erkenbrand, Captain of Rohan",
+      "points": 90,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield",
+        "Horse",
+        "Horn of the Hammerhand"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Horn of the Hammerhand",
+          "type": "ACTIVE",
+          "text": "This is a Unique war horn. Additionally, once per game at the start of any Move Phase, Erkenbrand can unleash a fearsome blow of the Horn of the Hammerhand. Until the End Phase of the turn, enemy models within 24\" of Erkenbrand suffer a -1 penalty to any Courage Test they are required to make."
+        }
+      ]
+    },
+    {
+      "name": "Captain of Rohan",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Horse"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Exchange Armour for Heavy Armour - 5 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Rider of Rohan",
+      "points": 14,
+      "keywords": "MAN | ROHAN | WARRIOR, CAVALRY | 40MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Shield",
+        "Bow",
+        "Horse"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Throwing spears - 2 points",
+        "Upgrade to Westfold Redshield - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Arise, Riders of Rohan!",
+          "type": "ACTIVE",
+          "text": "If this model is within 12\" of a Rohan General and has the Cavalry keyword, then it gains a bonus of +1 to its Fight Value in a turn in which it Charges."
+        },
+        {
+          "name": "Spear Mastery",
+          "type": "ACTIVE",
+          "text": "This model may use its throwing spear as a normal spear during the Fight Phase, so long as it hasn't made a shooting attack with it in either the preceding Move Phase or Shoot Phase."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Riders of Eomer army-list page. Eomer, Captain of Rohan, and Rider of Rohan stat blocks from the Rohan faction page; Gandalf the White from the Gondor faction page; Erkenbrand, Captain of Rohan from the Good Legacy faction page."
+}

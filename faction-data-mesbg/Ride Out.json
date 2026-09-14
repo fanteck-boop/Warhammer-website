@@ -1,0 +1,392 @@
+{
+  "legion": "Ride Out",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/ride_out/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/rohan/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/the_free_peoples/"
+  ],
+  "additionalRules": [
+    "A Ride Out Army must always contain Theoden, who is always the Army's General.",
+    "Riders of Rohan do not count towards this Army's Bow Limit."
+  ],
+  "specialRules": [
+    {
+      "name": "\"Now for wrath, now for ruin and the red dawn\"",
+      "type": "",
+      "text": "When a friendly Cavalry model Moves, it must Charge if able. Additionally, on a turn in which a friendly Cavalry model Charges, they gain a bonus of +1 to their Strength and may re-roll any 1s during a Duel Roll that turn."
+    },
+    {
+      "name": "\"The horn of Helm Hammerhand shall sound in the deep; one last time\"",
+      "type": "",
+      "text": "Once per game, at the start of any Move phase, you can declare you are using this special rule. Until the end of the turn, friendly Cavalry models gain the Terror special rule."
+    },
+    {
+      "name": "\"For Death and Glory\"",
+      "type": "",
+      "text": "Friendly models gain the Fearless special rule."
+    }
+  ],
+  "units": [
+    {
+      "name": "Theoden",
+      "points": 110,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Herugrim",
+        "Snowmane with armour"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Strike",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Exchange Armour for Heavy Armour - 5 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Leader (Rohan Royal Guard)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Herugrim",
+          "type": "ACTIVE",
+          "text": "This is a Unique hand weapon. Additionally, if a model armed with Herugrim is involved in a Drawn Combat where the Combat is tied at this model's Fight Value, then instead of rolling off to see who wins, this model wins instead. If both sides have a similar special rule, roll off as normal."
+        },
+        {
+          "name": "Forth, and Fear no Darkness",
+          "type": "ACTIVE",
+          "text": "The range of Théoden's Stand Fast is 12\" rather than 6\"."
+        }
+      ]
+    },
+    {
+      "name": "Aragorn, Strider",
+      "points": 185,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, FELLOWSHIP, DUNEDAIN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Ring of Barahir",
+        "Hand-and-a-half Sword",
+        "Brego",
+        "Armour"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic March",
+        "Heroic Accuracy",
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Defence",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Mighty Hero",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Ring of Barahir",
+          "type": "PASSIVE",
+          "text": "This is a Unique piece of Wargear. Whenever Aragorn is affected by a Magical Power, after any Resist Tests have been made (if able), he may roll a D6. On a natural 6, Aragorn is not affected by that Magical Power."
+        }
+      ]
+    },
+    {
+      "name": "Legolas",
+      "points": 125,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF, FELLOWSHIP, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "2+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Elven-made Weapon",
+        "Elf Bow",
+        "Horse",
+        "Armour"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Sharpshooter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Deadly Shot",
+          "type": "ACTIVE",
+          "text": "Legolas may make three shooting attacks during the Shoot Phase instead of one, using all the normal rules for shooting."
+        },
+        {
+          "name": "Pinpoint Shot",
+          "type": "ACTIVE",
+          "text": "Instead of shooting normally, Legolas may make a single shooting attack against an enemy model Engaged in Combat with a friendly model (including himself). If the To Hit Roll is successful, Legolas doesn't need to make any In The Way Rolls."
+        }
+      ]
+    },
+    {
+      "name": "Captain of Rohan",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Horse"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Exchange Armour for Heavy Armour - 5 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Gamling",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Horse",
+        "Royal Standard of Rohan"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Leader (Rohan Royal Guard)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sworn Protector (Theoden)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Royal Standard of Rohan",
+          "type": "PASSIVE",
+          "text": "This is a Unique banner with a range of 6\". Gamling does not suffer the -1 penalty to his Duel Roll for carrying a banner. Additionally, whenever a friendly Rohan Hero model within 6\" of the Royal Standard of Rohan spends a Might Point, they may roll a D6. On a natural 6, the Might Point is free and is not spent."
+        }
+      ]
+    },
+    {
+      "name": "Rider of Rohan",
+      "points": 14,
+      "keywords": "MAN | ROHAN | WARRIOR, CAVALRY | 40MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Shield",
+        "Bow",
+        "Horse"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Throwing spears - 2 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Arise, Riders of Rohan!",
+          "type": "ACTIVE",
+          "text": "If this model is within 12\" of a Rohan General and has the Cavalry keyword, then it gains a bonus of +1 to its Fight Value in a turn in which it Charges."
+        },
+        {
+          "name": "Spear Mastery",
+          "type": "ACTIVE",
+          "text": "This model may use its throwing spear as a normal spear during the Fight Phase, so long as it hasn't made a shooting attack with it in either the preceding Move Phase or Shoot Phase."
+        }
+      ]
+    },
+    {
+      "name": "Rohan Royal Guard",
+      "points": 16,
+      "keywords": "MAN | ROHAN | WARRIOR, INFANTRY, ELITE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield",
+        "Horse",
+        "Throwing spears"
+      ],
+      "specialRules": [
+        {
+          "name": "Bodyguard",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Arise, Riders of Rohan!",
+          "type": "ACTIVE",
+          "text": "If this model is within 12\" of a Rohan General and has the Cavalry keyword, then it gains a bonus of +1 to its Fight Value in a turn in which it Charges."
+        },
+        {
+          "name": "Spear Mastery",
+          "type": "ACTIVE",
+          "text": "This model may use its throwing spear as a normal spear during the Fight Phase, so long as it hasn't made a shooting attack with it in either the preceding Move Phase or Shoot Phase."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Ride Out army-list page. Full stat blocks, wargear, and special-rule text for Theoden, Captain of Rohan, Gamling, Rider of Rohan, and Rohan Royal Guard from the Rohan faction page; Aragorn Strider and Legolas from The Free Peoples faction page (Fellowship subsection)."
+}

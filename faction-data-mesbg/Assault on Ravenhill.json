@@ -1,0 +1,432 @@
+{
+  "legion": "Assault on Ravenhill",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/assault_on_ravenhill/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/dwarven_holds/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/elven_kingdoms/"
+  ],
+  "additionalRules": [
+    "An Assault on Ravenhill Army must include Thorin, who is always the Army's General.",
+    "An Assault on Ravenhill Army is always deployed as a single Warband with Thorin as the Warband's Captain."
+  ],
+  "specialRules": [
+    {
+      "name": "Orcrist",
+      "type": "",
+      "text": "Legolas begins the game with Orcrist - no points are paid for Orcrist, it is free. Additionally, at the start of any Fight Phase, if Legolas is within 6\" of Thorin and Thorin is Engaged in Combat, then Legolas can throw Orcrist to Thorin. From that point on, Thorin carries Orcrist instead of Legolas."
+    },
+    {
+      "name": "The Line of Durin",
+      "type": "",
+      "text": "Friendly models treat Thorin as a banner with a range of 6\". So long as he is still alive, Thorin will count as a banner for the purpose of Victory Points in Scenarios that award Victory Points for having a banner left alive. Additionally, Kili and Fili increase their Attacks to 3 in this Army List."
+    },
+    {
+      "name": "The King's Protector",
+      "type": "",
+      "text": "If Thorin is Engaged in Combat within 6\" of Dwalin, then Dwalin may declare a Heroic Combat for free. If the Heroic Combat is successful then Dwalin must use the following Move to join Thorin's Combat. If this is not possible then Dwalin must Move as close as possible to Thorin."
+    },
+    {
+      "name": "Heroes of Mirkwood",
+      "type": "",
+      "text": "Legolas increases his Fight Value to 7 and his Attacks to 3. Additionally, Tauriel must re-roll all failed To Wound Rolls when making Strikes."
+    },
+    {
+      "name": "Throwing Stones",
+      "type": "",
+      "text": "Instead of using his Throw Stones special rule as normal, Bilbo may use stones in the same way as a Throwing Weapon. These have a Strength of 1 and a range of 8\", and Bilbo may re-roll any failed To Wound Rolls when using stones as a Throwing Weapon."
+    }
+  ],
+  "units": [
+    {
+      "name": "Thorin Oakenshield, King Under the Mountain",
+      "points": 130,
+      "heroicTier": "Hero of Legend",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Challenge",
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Orcrist - 10 points (in this list Orcrist may instead be given for free to Legolas, see Orcrist special rule)"
+      ],
+      "specialRules": [
+        {
+          "name": "Fearless",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Hatred (Gundabad)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Du Bekar",
+          "type": "",
+          "text": "Friendly Dwarf models treat Thorin as a banner."
+        },
+        {
+          "name": "Ancestral Fury",
+          "type": "ACTIVE",
+          "text": "If Thorin Charges into Combat with the Infantry keyword, he may declare a free Heroic Combat in the Fight phase."
+        }
+      ]
+    },
+    {
+      "name": "Dwalin the Dwarf, Champion of Erebor",
+      "points": 110,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "5",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Grasper & Keeper",
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Burly",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Fearless",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sworn Protector (Thorin)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Grasper & Keeper",
+          "type": "ACTIVE",
+          "text": "These are Unique hand weapons. Additionally, a model gains a bonus of +1 to its Attacks characteristic when using Grasper & Keeper, and any To Wound Rolls of a natural 6 that are not prevented will deal 2 Wounds rather than 1."
+        },
+        {
+          "name": "Weapon Master",
+          "type": "ACTIVE",
+          "text": "Dwalin is never considered Unarmed."
+        },
+        {
+          "name": "The King's Axemen",
+          "type": "ACTIVE",
+          "text": "At the beginning of a Combat, so long as he is within 3\" of Thorin, Dwalin can use this special rule. If he does, Dwalin increases his Strength by 1 when making Strikes should he win the Duel Roll; however, if he loses the Duel Roll he will reduce his Defence by D3 until the end of the Combat, before any enemy models make Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Fili the Dwarf, Champion of Erebor",
+      "points": 70,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Sworn Protector (Thorin)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Combat Synergy",
+          "type": "ACTIVE",
+          "text": "At the start of any phase, before the Declare Heroic Actions step, if Kili and Fili are within 1\" of each other, then they can swap places and not have it count as Moving. If they do this, then during the Fight phase of that turn they may re-roll a single D6 in the Duel roll."
+        },
+        {
+          "name": "The Line of Durin (Attacks 3)",
+          "type": "",
+          "text": "In this Army List, Fili increases his Attacks characteristic to 3."
+        }
+      ]
+    },
+    {
+      "name": "Kili the Dwarf, Champion of Erebor",
+      "points": 70,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Sworn Protector (Thorin)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Combat Synergy",
+          "type": "ACTIVE",
+          "text": "At the start of any Phase, before the Declare Heroic Actions step, if Kili and Fili are within 1\" of each other then they can swap places with each other - this does not count as Moving. If they have used this special rule during a turn, then during the Fight Phase of that turn they may each re-roll a single D6 when making a Duel Roll."
+        },
+        {
+          "name": "The Line of Durin (Attacks 3)",
+          "type": "",
+          "text": "In this Army List, Kili increases his Attacks characteristic to 3."
+        }
+      ]
+    },
+    {
+      "name": "Legolas Greenleaf, Prince of Mirkwood",
+      "points": 105,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF, MIRKWOOD, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "2+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Armour",
+        "Elf Bow",
+        "Elven-made Dagger",
+        "Orcrist (free in this Army List, see Orcrist special rule)"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points",
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Sharpshooter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Leader (Palace Guard)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Deadly Shot",
+          "type": "ACTIVE",
+          "text": "Legolas may make three shooting attacks during the Shoot Phase instead of one, using all the normal rules for shooting. Additionally, Legolas may still make shooting attacks whilst he is Engaged in Combat if there are no other friendly models engaged in the same combat, and does not suffer the -1 penalty To Hit for Moving and Shooting so long as he has the Infantry keyword. If Legolas shoots whilst he is Engaged in Combat, he may shoot at enemy models he is Engaged in Combat with, and does not need to make In The Way Tests for shooting at models he is Engaged in Combat with (though they may still block Line of Sight as normal)."
+        },
+        {
+          "name": "Pinpoint Shot",
+          "type": "ACTIVE",
+          "text": "Instead of shooting normally, Legolas may make a single shooting attack against an enemy model Engaged in Combat with a friendly model (including himself). If he does, then if the To Hit Roll is successful, Legolas doesn't need to make any In The Way Rolls - the shot will automatically hit its target."
+        },
+        {
+          "name": "Heroes of Mirkwood (this list)",
+          "type": "",
+          "text": "In this Army List, Legolas increases his Fight Value to 7 and his Attacks to 3."
+        }
+      ]
+    },
+    {
+      "name": "Bilbo Baggins, Master Burglar",
+      "points": 75,
+      "heroicTier": "Independent Hero",
+      "keywords": "HOBBIT, THORIN'S COMPANY, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Resolve",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Sting - 5 points",
+        "The One Ring - Free"
+      ],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sting",
+          "type": "ACTIVE",
+          "text": "This is a Unique Elven hand weapon. A model gains a bonus of +1 to their Strength when making Strikes with Sting."
+        },
+        {
+          "name": "It has not yet Awoken",
+          "type": "PASSIVE",
+          "text": "Bilbo ignores the Sauron's Will section of the rules for the One Ring. Furthermore, if Bilbo is the only model left on his controlling player's side, and is wearing the One Ring, he is not removed as a casualty as would usually be the case."
+        },
+        {
+          "name": "Throwing Stones (this list)",
+          "type": "",
+          "text": "Instead of using his Throw Stones special rule as normal, Bilbo may use stones in the same way as a Throwing Weapon. These have a Strength of 1 and a range of 8\", and Bilbo may re-roll any failed To Wound Rolls when using stones as a Throwing Weapon."
+        }
+      ]
+    },
+    {
+      "name": "Tauriel, Ranger of Mirkwood",
+      "points": 90,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, MIRKWOOD, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Armour",
+        "Elven Cloak",
+        "Elven Hand Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Elf Bow - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Shot",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sharpshooter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Blade Mistress",
+          "type": "ACTIVE",
+          "text": "If Tauriel is Outnumbered in a Combat, then before making her Duel Roll she gains an additional Attack for each model she is Engaged in Combat with after the first. This bonus lasts until the end of the Combat."
+        },
+        {
+          "name": "Vengeful Fury",
+          "type": "PASSIVE",
+          "text": "If your Army also includes Kili, and he is removed as a casualty, then Tauriel's Strength is increased to 5 and her Defence reduced to 4 for the remainder of the battle. Additionally, if Kili is slain, then Tauriel must always Charge an enemy model when she Activates if possible."
+        },
+        {
+          "name": "Heroes of Mirkwood (this list)",
+          "type": "",
+          "text": "In this Army List, Tauriel must re-roll all failed To Wound Rolls when making Strikes."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Assault on Ravenhill army-list page. Full stat blocks, wargear, and special-rule text for the Dwarf heroes from the Dwarven Holds faction page (Thorin's Company/Erebor entries) and for Legolas and Tauriel from the Elven Kingdoms faction page (Mirkwood entries). Note: Bilbo Baggins' base profile matches the standard Bilbo Baggins (Thorin's Company) datasheet on the Dwarven Holds page; the Assault on Ravenhill list prices him at 75 points under the title 'Master Burglar', which is not broken down further on the site."
+}

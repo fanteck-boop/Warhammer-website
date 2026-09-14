@@ -1,0 +1,405 @@
+{
+  "legion": "Fell Beings of Mirkwood [Legacy]",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/legacy_fell_beings_of_mirkwood/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/evil_legacy/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/mordor/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/gundabad_and_dol_guldur/"
+  ],
+  "additionalRules": [
+    "A Fell Beings of Mirkwood Army must always contain Razgush, who is always the Army's General."
+  ],
+  "specialRules": [
+    {
+      "name": "Through the Forest",
+      "type": "",
+      "text": "Friendly Infantry models gain the Woodland Creature special rule."
+    },
+    {
+      "name": "Death to the Elves",
+      "type": "",
+      "text": "Friendly models gain the Hatred (Elf) special rule."
+    },
+    {
+      "name": "The War Leader",
+      "type": "",
+      "text": "Whilst Engaged in Combat with an enemy Elf model, Razgush gains a bonus of +1 to his Fight Value."
+    }
+  ],
+  "units": [
+    {
+      "name": "Razgush, War Leader of the North",
+      "points": 120,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ORC, MORDOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "5+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Bone-breakers",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic Strength",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Elfbane", "type": "", "text": "" },
+        { "name": "Hatred (Elf)", "type": "", "text": "" },
+        { "name": "Bone-breakers", "type": "ACTIVE", "text": "This is a Unique hand weapon. Enemy models with an Elven weapon Engaged in Combat with, or supporting a model Engaged in Combat with, Razgush do not receive the bonus to the roll-off should the Duel Roll result in a Drawn Combat." },
+        { "name": "The Beasts of Mirkwood", "type": "PASSIVE", "text": "Razgush may include Bat Swarms, Mirkwood Giant Spiders, Mirkwood Hunting Spiders and Fell Wargs in his Warband even if they are not listed in the Army List Razgush is included in." },
+        { "name": "War Leader of the North", "type": "PASSIVE", "text": "The range of Razgush's Stand Fast is 12\" rather than 6\"." }
+      ]
+    },
+    {
+      "name": "The Spider Queen",
+      "points": 120,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIDER, DOL GULDUR, HERO, INFANTRY, MONSTER, BEAST, UNIQUE",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": "6",
+        "Sv": "6+",
+        "S": "6",
+        "D": "4",
+        "A": "2",
+        "W": "3",
+        "C": "6+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "0"
+      },
+      "wargear": [
+        "Large Venomous Fangs (hand weapons)"
+      ],
+      "heroicActions": [
+        "Heroic Defence",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Dominant (3)", "type": "", "text": "" },
+        { "name": "Monstrous Charge", "type": "", "text": "" },
+        { "name": "Swift Movement", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Venom", "type": "", "text": "" },
+        { "name": "Progeny", "type": "ACTIVE", "text": "At the beginning of her Activation, the Spider Queen may spend any number of Will Points she has remaining to summon a Broodling. For each Will Point spent, place a single Broodling anywhere within 3\" of the Spider Queen. Broodlings placed in this manner can never be placed in base contact with enemy models, but may be placed within the Control Zones of enemy models. Broodlings may be Activated on a turn in which they were summoned, though may not Activate as part of a Heroic Move or Heroic March declared by a friendly model that turn as they were not on the board when the Heroic Action was declared. Broodlings are never taken into account when working out if an Army is Broken or reduced to 25%. Broodling profile: Mv 10\", Fv 2, Sv 6+, S 3, D 3, A 1, W 1, C 8+, I 8+; Wargear: Fangs (hand weapons); Special Rules: Poisoned Attacks, Swift Movement." }
+      ]
+    },
+    {
+      "name": "Mordor Orc Captain",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Shield",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": []
+    },
+    {
+      "name": "Mordor Orc Taskmaster",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Whip"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Whip of the Masters", "type": "ACTIVE", "text": "Whenever a friendly Hero model within 6\" declares a Heroic Move, Heroic March or Heroic Shoot, roll a D6. On a 4+ the Hero does not spend the Might Point and the Heroic Action is free." }
+      ]
+    },
+    {
+      "name": "Mordor Orc Shaman",
+      "points": 50,
+      "heroicTier": "Minor Hero",
+      "keywords": "ORC, MORDOR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "5",
+        "A": "1",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Spear"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Fury (Mordor Orc) - Self - 3+",
+        "Curse - 12\" - 4+",
+        "Transfix - 12\" - 5+"
+      ],
+      "options": [
+        "Warg - 20 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Mordor Orc Drummer",
+      "points": 30,
+      "heroicTier": "Independent Hero",
+      "keywords": "ORC, MORDOR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "1",
+        "C": "8+",
+        "Might": "0",
+        "Will": "0",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "War Drum (Mordor Orc)"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": []
+    },
+    {
+      "name": "Bat Swarm",
+      "points": 35,
+      "keywords": "BAT | MORIA | WARRIOR, INFANTRY, BEAST, SWARM | 40MM",
+      "profile": {
+        "Mv": "12\"",
+        "Fv": 1,
+        "Sv": "6+",
+        "S": 3,
+        "D": 3,
+        "A": 2,
+        "W": 4,
+        "C": "8+",
+        "I": "9+"
+      },
+      "wargear": [
+        "Claws and Teeth (hand weapons)"
+      ],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" },
+        { "name": "Fly", "type": "", "text": "" },
+        { "name": "Blinding Swarm", "type": "ACTIVE", "text": "Enemy models Engaged in Combat with a Bat Swarm halve their Fight value." }
+      ]
+    },
+    {
+      "name": "Fell Warg",
+      "points": 8,
+      "keywords": "WARG | GUNDABAD | WARRIOR, INFANTRY, BEAST | 40MM",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": 3,
+        "Sv": "6+",
+        "S": 4,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Claws and Teeth (hand weapon)"
+      ],
+      "specialRules": [
+        { "name": "Fell Sight", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Mirkwood Giant Spider",
+      "points": 20,
+      "keywords": "SPIDER | DOL GULDUR | WARRIOR, INFANTRY, BEAST | 60MM",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": 2,
+        "Sv": "5+",
+        "S": 5,
+        "D": 3,
+        "A": 2,
+        "W": 2,
+        "C": "7+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Fangs (hand weapons)"
+      ],
+      "specialRules": [
+        { "name": "Poisoned Attacks (Fangs)", "type": "", "text": "" },
+        { "name": "Swift Movement", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Spider Webs", "type": "ACTIVE", "text": "A Mirkwood Giant Spider can shoot spider webs; these are treated as throwing weapons with a range of 8\". If a model is hit by a webs shot by a Mirkwood Giant Spider, no To Wound Roll is made. Instead, the hit model is immediately counted as being under the effects of the Paralyse Magical Power; however, the effects will not immediately end should this model have no Will Points or be slain. If a Cavalry model is hit by this shooting attack, do not roll to see which part of the model (rider or Mount) is hit; both are automatically hit. A Hero model hit by a web may spend a Fate Point to avoid its effects. If they do, reduce their Fate Points by 1 and the webs have no effect. If the Hero is a Cavalry model, then a Fate Point spent in this manner will negate the webs on both rider and Mount." }
+      ]
+    },
+    {
+      "name": "Mirkwood Hunting Spider",
+      "points": 20,
+      "keywords": "SPIDER | DOL GULDUR | WARRIOR, INFANTRY, BEAST | 40MM",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": 3,
+        "Sv": "6+",
+        "S": 5,
+        "D": 3,
+        "A": 2,
+        "W": 2,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Fangs (hand weapons)"
+      ],
+      "options": [
+        "Venom-back - 2 points"
+      ],
+      "specialRules": [
+        { "name": "Poisoned Attacks (Fangs)", "type": "", "text": "" },
+        { "name": "Stalk Unseen", "type": "", "text": "" },
+        { "name": "Swift Movement", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Silent Hunters", "type": "PASSIVE", "text": "If a Mirkwood Hunting Spider is within a piece of woodland terrain (such as a forest), or is partially concealed by a piece of woodland terrain, then they cannot be seen by enemy models unless they are within 6\" of the Mirkwood Hunting Spider." }
+      ]
+    },
+    {
+      "name": "Mordor Orc Warrior",
+      "points": 5,
+      "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "5+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Orc bow - 1 point",
+        "Shield - 1 point",
+        "Spear - 1 point",
+        "Two-handed weapon - 1 point"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Mordor Warg Rider",
+      "points": 11,
+      "keywords": "ORC | MORDOR | WARRIOR, CAVALRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "5+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Warg"
+      ],
+      "options": [
+        "Shield and Throwing Spear - 2 points",
+        "Orc Bow - 1 point",
+        "Shield - 1 point",
+        "Throwing Spear - 1 point"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Orc Tracker",
+      "points": 6,
+      "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 3,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Orc Bow"
+      ],
+      "specialRules": [
+        { "name": "Mountain Dweller", "type": "", "text": "" }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Fell Beings of Mirkwood [Legacy] army-list page. Full stat blocks, wargear, and special-rule text drawn from the Evil Legacy page (Razgush, Spider Queen, Orc Tracker), the Mordor faction page (Mordor Orc Captain/Taskmaster/Shaman/Drummer/Warrior, Mordor Warg Rider), and the Gundabad & Dol Guldur faction page (Bat Swarm, Fell Warg, Mirkwood Giant/Hunting Spider)."
+}

@@ -1,0 +1,610 @@
+{
+  "legion": "Rivendell",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/rivendell/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/elven_kingdoms/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/good_legacy/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/the_free_peoples/"
+  ],
+  "additionalRules": [
+    "If your Army includes Elrond, then Rivendell Knights do not count towards this Army's Bow Limit."
+  ],
+  "specialRules": [
+    {
+      "name": "Protection of Imladris",
+      "type": "",
+      "text": "Friendly models gain a bonus of +1 to any Courage Tests they are required to take."
+    },
+    {
+      "name": "Defensive Stance",
+      "type": "",
+      "text": "Friendly Elf Warrior models may re-roll To Wound rolls of a natural 1 when making Strikes so long as they have not Moved during the preceding Move Phase."
+    },
+    {
+      "name": "Invoke the Bruinen",
+      "type": "ACTIVE",
+      "text": "Once per game, so long as either Elrond or Arwen are alive and on the battlefield, you may use this special rule at the start of any Move Phase in which your Army is Broken. Place a 25mm Marker anywhere within 12\" and Line of Sight of Elrond or Arwen, and then roll a D6 for each enemy model within 3\" of that Marker. If the roll is equal to or over the Strength of the model, or is a natural 6, then the model immediately suffers a Strength 4 hit and, if it survives, will be knocked Prone."
+    }
+  ],
+  "units": [
+    {
+      "name": "Elrond",
+      "points": 170,
+      "heroicTier": "Hero of Legend",
+      "keywords": "ELF, RIVENDELL, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "3+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Hadhafang",
+        "Heavy Armour",
+        "Vilya",
+        "Horse"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Channelling",
+        "Heroic Strike",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [
+        "Renew (12\", 3+)",
+        "Wrath of Bruinen (3\", 4+)"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Hadhafang",
+          "type": "ACTIVE",
+          "text": "This is a Unique Elven hand-and-a-half weapon. A model wielding Hadhafang gains a bonus of +1 To Wound when making Strikes against a Spirit model."
+        },
+        {
+          "name": "Vilya",
+          "type": "PASSIVE",
+          "text": "This is a Unique piece of Wargear. Elrond may re-roll any failed Fate rolls."
+        },
+        {
+          "name": "Lord of the West",
+          "type": "ACTIVE",
+          "text": "This model may re-roll a single D6 when making a Duel Roll. Additionally, they may re-roll a single D6 when rolling To Wound when making Strikes."
+        },
+        {
+          "name": "Foresight of the Eldar",
+          "type": "PASSIVE",
+          "text": "At the start of the game, roll a D6 for Foresight Points. During the roll for Priority, so long as he is alive, Elrond can spend Foresight Points to increase the roll on his controlling player's roll for Priority, to a maximum of 6."
+        }
+      ]
+    },
+    {
+      "name": "Glorfindel, Lord of the West",
+      "points": 160,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF, RIVENDELL, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "3+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Elven Hand-and-a-half Weapon",
+        "Asfaloth",
+        "Horse"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Arwen",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, RIVENDELL, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "4",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Elven Hand Weapon",
+        "Asfaloth",
+        "Hadhafang"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Channelling",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [
+        "Renew (12\", 3+)",
+        "Wrath of Bruinen (3\", 4+)"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Hadhafang",
+          "type": "ACTIVE",
+          "text": "This is a Unique Elven hand-and-a-half weapon. A model wielding Hadhafang gains a bonus of +1 To Wound when making Strikes against a Spirit model."
+        }
+      ]
+    },
+    {
+      "name": "Elladan",
+      "points": 80,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, RIVENDELL, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Elven Hand Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Strength",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Unbreakable Bond",
+          "type": "ACTIVE",
+          "text": "If Elrohir is slain, for the remainder of the game Elladan increases his Strength by 1 and must always Charge an enemy model when able, prioritising the model that killed Elrohir."
+        },
+        {
+          "name": "Twin Elven Blades",
+          "type": "ACTIVE",
+          "text": "Whilst he has the Infantry Keyword, Elladan can choose to fight with 3 Attacks rather than 2, use his Elven weapons as hand-and-a-half weapons, or use them to parry (counts as Shielding)."
+        },
+        {
+          "name": "Strength of Brotherhood",
+          "type": "ACTIVE",
+          "text": "Whilst within 3\" of Elrohir, Elladan gains the Dominant (2) special rule and may re-roll To Wound Rolls of a natural 1 when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Elrohir",
+      "points": 80,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, RIVENDELL, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Elven Hand Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Defence",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Unbreakable Bond",
+          "type": "ACTIVE",
+          "text": "If Elladan is slain, for the remainder of the game Elrohir increases his Strength by 1 and must always Charge an enemy model when able, prioritising the model that killed Elladan."
+        },
+        {
+          "name": "Twin Elven Blades",
+          "type": "ACTIVE",
+          "text": "Whilst he has the Infantry Keyword, Elrohir can choose to fight with 3 Attacks rather than 2, use his Elven weapons as hand-and-a-half weapons, or use them to parry (counts as Shielding)."
+        },
+        {
+          "name": "Strength of Brotherhood",
+          "type": "ACTIVE",
+          "text": "Whilst within 3\" of Elladan, Elrohir gains the Dominant (2) special rule and may re-roll To Wound Rolls of a natural 1 when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Erestor",
+      "points": 85,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, RIVENDELL, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Noldorin Daggers"
+      ],
+      "heroicActions": [
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Noldorin Daggers",
+          "type": "ACTIVE",
+          "text": "These are Elven hand weapons, which Erestor may also use as Elven throwing weapons. Erestor may re-roll To Wound rolls of a natural 1 when making Strikes or shooting attacks with these weapons."
+        }
+      ]
+    },
+    {
+      "name": "Lindir",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, RIVENDELL, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Elven Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Foil Magic (6\", 4+)",
+        "Renew (6\", 4+)"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Song of Elbereth",
+          "type": "ACTIVE",
+          "text": "Friendly Rivendell models within 3\" of Lindir gain the Resistant to Magic special rule."
+        },
+        {
+          "name": "Wise Counsel",
+          "type": "PASSIVE",
+          "text": "If Elrond is within 6\" of Lindir at the start of a turn, then Elrond gains a free Will Point for the turn."
+        }
+      ]
+    },
+    {
+      "name": "Rivendell Captain",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, RIVENDELL, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Elven Hand-and-a-half Weapon",
+        "Horse",
+        "Elf Bow",
+        "Elven Lance"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Shield - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Rivendell Stormcaller",
+      "points": 65,
+      "heroicTier": "Minor Hero",
+      "keywords": "ELF, RIVENDELL, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "5+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Elven Hand Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Call Winds (12\", 3+)",
+        "Foil Magic (12\", 4+)",
+        "Strengthen Will (12\", 3+)"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Powers of Nature",
+          "type": "PASSIVE",
+          "text": "If this model rolls a natural 6 during its Casting Test, then upon completion of the Magical Power it regains a number of Will Points equal to the number of Will Points spent during the Casting Test."
+        }
+      ]
+    },
+    {
+      "name": "Bilbo Baggins, Ageing Hobbit",
+      "points": 45,
+      "heroicTier": "Independent Hero",
+      "keywords": "HOBBIT, SHIRE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "2",
+        "A": "1",
+        "W": "2",
+        "C": "4+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Mithril Coat",
+        "Sting",
+        "The One Ring"
+      ],
+      "heroicActions": [
+        "Heroic Resolve"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader. They may, however, be included in another Hero model's warband as one of their followers."
+        },
+        {
+          "name": "Mithril Coat",
+          "type": "PASSIVE",
+          "text": "This is a Unique piece of Mithril armour. The wearer may re-roll Fate rolls of a 1."
+        },
+        {
+          "name": "Sting",
+          "type": "ACTIVE",
+          "text": "This is a Unique Elven hand weapon. A model gains a bonus of +1 to their Strength when making Strikes with Sting."
+        },
+        {
+          "name": "Slip Away",
+          "type": "PASSIVE",
+          "text": "Whilst Bilbo is wearing the One Ring and is Invisible, enemy models Engaged in Combat with Bilbo will halve their Fight Value even if there are other models friendly to Bilbo Engaged in the same Combat."
+        }
+      ]
+    },
+    {
+      "name": "Rivendell Knight",
+      "points": 20,
+      "keywords": "ELF | RIVENDELL | WARRIOR, CAVALRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 5,
+        "Sv": "3+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "5+",
+        "I": "5+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Elven Lance",
+        "Horse",
+        "Elven Hand-and-a-half Weapon",
+        "Elf Bow"
+      ],
+      "options": [
+        "Exchange Elven lance for banner - 25 points",
+        "Shield - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Rivendell Warrior",
+      "points": 9,
+      "keywords": "ELF | RIVENDELL | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 5,
+        "Sv": "3+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "5+",
+        "I": "5+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Elven Hand-and-a-half Weapon"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Elf bow - 2 points",
+        "Shield and Elven spear - 2 points",
+        "Shield - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Rivendell army-list page. Full stat blocks, wargear, and special-rule text from the Elven Kingdoms faction page; Erestor and Rivendell Stormcaller from the Good Legacy faction page; Bilbo Baggins, Ageing Hobbit from The Free Peoples faction page."
+}

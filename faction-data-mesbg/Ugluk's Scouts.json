@@ -1,0 +1,237 @@
+{
+  "legion": "Ugluk's Scouts",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/ugluks_scouts/"
+  ],
+  "additionalRules": [
+    "An Ugluk's Scouts Army must always contain Ugluk, who is always the Army's General.",
+    "Orc Warrior models can only be included in the Warband of an Orc Hero.",
+    "Uruk-hai Warrior models can only be included in the Warband of an Uruk-hai Hero."
+  ],
+  "specialRules": [
+    {
+      "name": "\"Their pace has quickened\"",
+      "type": "",
+      "text": "Friendly Uruk-hai models increase their Move Value to 8\". Additionally, friendly Uruk-hai models gain the Woodland Creature special rule."
+    },
+    {
+      "name": "\"Get a fire going\"",
+      "type": "",
+      "text": "Once per game, in Scenarios that use Objective Markers, Ugluk can use this special rule during his Move to choose an Objective Marker in base contact. So long as Ugluk is alive and on the battlefield, friendly models within range of the chosen Objective Marker gain the Dominant (2) special rule."
+    },
+    {
+      "name": "Animosity",
+      "type": "",
+      "text": "Friendly Orc models gain a bonus of +1 To Wound when making Strikes if there is a friendly Uruk-hai model Engaged in the same Combat. Friendly Uruk-hai models gain a bonus of +1 To Wound when making Strikes if there is a friendly Orc model Engaged in the same Combat."
+    }
+  ],
+  "units": [
+    {
+      "name": "Ugluk",
+      "points": 75,
+      "heroicTier": "Hero of Valour",
+      "keywords": "URUK-HAI | ISENGARD | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "5",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Grishnakh",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC | ISENGARD | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Isengard Orc Captain",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC | ISENGARD | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Mauhur",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "URUK-HAI | ISENGARD | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "5",
+        "D": "5",
+        "A": "3",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Snaga",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC | ISENGARD | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Uruk-Hai Scout Captain",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "URUK-HAI | ISENGARD | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "5",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Isengard Orc Shaman",
+      "points": 50,
+      "heroicTier": "Minor Hero",
+      "keywords": "ORC | ISENGARD | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "5",
+        "A": "1",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Uruk-Hai Shaman",
+      "points": 55,
+      "heroicTier": "Minor Hero",
+      "keywords": "URUK-HAI | ISENGARD | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "6+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Uruk-Hai Drummer",
+      "points": 35,
+      "heroicTier": "Independent Hero",
+      "keywords": "URUK-HAI | ISENGARD | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "1",
+        "C": "6+",
+        "Might": "0",
+        "Will": "0",
+        "Fate": "1"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Isengard Orc Warrior",
+      "points": 5,
+      "keywords": "ORC | ISENGARD | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "options": [
+        "Banner - 25 points",
+        "Orc bow - 1 points",
+        "Shield - 1 points",
+        "Spear - 1 points",
+        "Two-handed weapon - 1 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Uruk-Hai Scout",
+      "points": 8,
+      "keywords": "URUK-HAI | ISENGARD | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "options": [
+        "Banner - 25 points",
+        "Shield - 1 points",
+        "Uruk-hai bow - 1 points"
+      ],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Ugluk's Scouts army-list page. Stat blocks and keywords cross-referenced from the Forces of Evil faction pages on the same site."
+}

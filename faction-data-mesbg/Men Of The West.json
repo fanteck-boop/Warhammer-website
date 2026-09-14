@@ -1,0 +1,427 @@
+{
+  "legion": "Men Of The West",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/men_of_the_west/"
+  ],
+  "additionalRules": [
+    "A Men of the West Army must include Aragorn, King Elessar, who is always the Army's General.",
+    "If your Army includes any Cavalry models then it cannot include any Eagle models, and vice versa.",
+    "Only Gwaihir can include Great Eagles in his Warband, and Gwaihir can only include Great Eagles in his Warband.",
+    "Gandalf the White does not have his Staff of Power in this Army."
+  ],
+  "specialRules": [
+    {
+      "name": "\"For Frodo!\"",
+      "type": "",
+      "text": "Once per game, at the start of any Fight Phase, Aragorn can use this special rule so long as he is alive and on the battlefield. If he does, then friendly non-Eagle models within 6\" of Aragorn gain a bonus of +1 Fight Value and may re-roll To Wound rolls of a natural 1 when making Strikes until the end of the turn. This is treated as an Active ability belonging to Aragorn."
+    },
+    {
+      "name": "\"This day we fight!\"",
+      "type": "",
+      "text": "So long as Aragorn is alive and on the battlefield, friendly models automatically pass any Courage Tests they are required to take."
+    },
+    {
+      "name": "The Final Stand",
+      "type": "",
+      "text": "Friendly Infantry models within 3\" of a friendly Hero model gain the Dominant (2) special rule."
+    },
+    {
+      "name": "The White Wizard",
+      "type": "",
+      "text": "Gandalf may re-roll a single D6 in any Casting Rolls he makes."
+    }
+  ],
+  "units": [
+    {
+      "name": "Aragorn, King Elessar",
+      "points": 225,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "3+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Armoured horse - 25 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Gwaihir",
+      "points": 200,
+      "heroicTier": "Hero of Legend",
+      "keywords": "EAGLE | MISTY MOUNTAINS | HERO, INFANTRY, MONSTER, UNIQUE | 60MM",
+      "profile": {
+        "Mv": "12\"",
+        "Fv": "8",
+        "Sv": "4+",
+        "S": "6",
+        "D": "8",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Prince Imrahil",
+      "points": 140,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN | GONDOR, DOL AMROTH | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Eomer",
+      "points": 110,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | ROHAN | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Firefoot with armour - 25 points",
+        "Firefoot - 20 points",
+        "Shield - 5 points",
+        "Throwing spears - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Gandalf the White",
+      "points": 200,
+      "heroicTier": "Hero of Valour",
+      "keywords": "WIZARD | FELLOWSHIP | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "6",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Pippin - 25 points",
+        "Shadowfax - 25 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Gimli",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF | FELLOWSHIP | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Legolas",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF | FELLOWSHIP | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "2+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Horse - 20 points",
+        "Armour - 5 points",
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Beregond, Guard of the Citadel",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Captain of Dol Amroth",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | GONDOR, DOL AMROTH | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Captain of Minas Tirith",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Captain of Rohan",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | ROHAN | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Exchange armour for heavy armour - 5 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Elladan",
+      "points": 80,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF | RIVENDELL | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Elrohir",
+      "points": 80,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF | RIVENDELL | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Meriadoc Brandybuck",
+      "points": 25,
+      "heroicTier": "Independent Hero",
+      "keywords": "MAN | ROHAN | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "5+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Elven Cloak - 5 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Peregrin Took",
+      "points": 25,
+      "heroicTier": "Independent Hero",
+      "keywords": "HOBBIT | SHIRE | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "1",
+        "C": "6+",
+        "Might": "0",
+        "Will": "0",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Great Eagle",
+      "points": 100,
+      "keywords": "EAGLE | MISTY MOUNTAINS | WARRIOR, INFANTRY, MONSTER | 60MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Knight of Dol Amroth",
+      "points": 11,
+      "keywords": "MAN | GONDOR, DOL AMROTH | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "Banner - 25 points",
+        "War horn - 25 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Man-at-arms of Dol Amroth",
+      "points": 10,
+      "keywords": "MAN | GONDOR, DOL AMROTH | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Warrior of Minas Tirith",
+      "points": 8,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "War horn and shield - 26 points",
+        "Banner - 25 points",
+        "Shield and spear - 2 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Warrior of Rohan",
+      "points": 6,
+      "keywords": "MAN | ROHAN | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "War horn, shield, throwing spears - 28 points",
+        "Banner - 25 points",
+        "Shield and throwing spears - 3 points"
+      ],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Men Of The West army-list page. Stat blocks and keywords cross-referenced from the Forces of Good faction pages on the same site."
+}

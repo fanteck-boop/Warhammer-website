@@ -1,0 +1,515 @@
+{
+  "legion": "Road to Helm's Deep",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/road_to_helms_deep/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/rohan/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/the_free_peoples/"
+  ],
+  "additionalRules": [
+    "A Road to Helm's Deep Army must always contain Théoden, who is always the Army's General.",
+    "Riders of Rohan do not count towards this Army's Bow Limit."
+  ],
+  "specialRules": [
+    {
+      "name": "\"Ride for ruin and the world's ending\"",
+      "type": "",
+      "text": "Friendly Rohan Cavalry models gain a bonus of +1 to their Strength on a turn in which they Charge."
+    },
+    {
+      "name": "Legolas & Gimli",
+      "type": "",
+      "text": "If your Army contains both Legolas and Gimli then Gimli will start the game as a Passenger on Legolas' horse. Whilst mounted, Legolas increases his Attacks to 3 and may use Gimli's Might, Will and Fate as if it was his own (except to improve shooting To Hit/To Wound/In The Way Tests). If Gimli dismounts during Legolas' Move, he may Activate as normal after Legolas' Activation finishes."
+    },
+    {
+      "name": "Back on your horses",
+      "type": "",
+      "text": "At the end of a friendly Infantry Hero model's Move (except Gimli), if in base contact with a friendly Cavalry Warrior model not Engaged in Combat, the Warrior may give the Hero their horse - swap the models accordingly. A Hero with a named horse (such as Snowmane or Brego) will only count as riding a standard horse after using this rule."
+    }
+  ],
+  "units": [
+    {
+      "name": "Theoden",
+      "points": 95,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Herugrim",
+        "Snowmane"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Strike",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Leader (Rohan Royal Guard)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Herugrim",
+          "type": "ACTIVE",
+          "text": "This is a Unique hand weapon. If a model armed with Herugrim is involved in a Drawn Combat tied at its Fight Value, it wins instead of rolling off."
+        },
+        {
+          "name": "Forth, and Fear no Darkness",
+          "type": "ACTIVE",
+          "text": "The range of Théoden's Stand Fast is 12\" rather than 6\"."
+        }
+      ]
+    },
+    {
+      "name": "Aragorn, Strider",
+      "points": 185,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, FELLOWSHIP, DUNEDAIN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Ring of Barahir",
+        "Hand-and-a-half Sword",
+        "Brego",
+        "Bow"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic March",
+        "Heroic Accuracy",
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Defence",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Mighty Hero",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Ring of Barahir",
+          "type": "PASSIVE",
+          "text": "This is a Unique piece of Wargear. Whenever Aragorn is affected by a Magical Power, after any Resist Tests, he may roll a D6. On a natural 6, Aragorn is not affected."
+        }
+      ]
+    },
+    {
+      "name": "Gimli",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, FELLOWSHIP, INFANTRY, HERO",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Master Forged Two-handed Weapon",
+        "Two Hand Weapons",
+        "Throwing Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Strength",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Axes of the Dwarves!",
+          "type": "ACTIVE",
+          "text": "At the beginning of each Combat he is involved in, Gimli can choose to fight with an axe in each hand (3 Attacks) or with his two-handed axe."
+        },
+        {
+          "name": "\"I myself am sitting pretty on 43\"",
+          "type": "ACTIVE",
+          "text": "If your Army contains both Legolas and Gimli, whilst he has fewer kills than Legolas, Gimli gains a bonus of +1 To Wound when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Legolas",
+      "points": 120,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF, FELLOWSHIP, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "2+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Elven-made Weapon",
+        "Elf Bow",
+        "Horse"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Sharpshooter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "\"Final Count, 42\"",
+          "type": "ACTIVE",
+          "text": "If your Army contains both Legolas and Gimli, whilst he has fewer kills than Gimli, Legolas gains a bonus of +1 To Wound when making shooting attacks."
+        },
+        {
+          "name": "Deadly Shot",
+          "type": "ACTIVE",
+          "text": "Legolas may make three shooting attacks during the Shoot Phase instead of one."
+        },
+        {
+          "name": "Pinpoint Shot",
+          "type": "ACTIVE",
+          "text": "Instead of shooting normally, Legolas may make a single shooting attack against an enemy model Engaged in Combat, automatically hitting on a successful To Hit Roll without In The Way Rolls."
+        }
+      ]
+    },
+    {
+      "name": "Captain of Rohan",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Horse"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Exchange Armour for Heavy Armour - 5 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Gamling",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Horse"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Leader (Rohan Royal Guard)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sworn Protector (Theoden)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Hama, Captain of Rohan",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Leader (Rohan Royal Guard)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sworn Protector (Theoden)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Doorward of Meduseld",
+          "type": "PASSIVE",
+          "text": "So long as Théoden is alive and on the battlefield, Háma and any Rohan Royal Guard within 6\" of him count as having the Dominant (2) special rule."
+        }
+      ]
+    },
+    {
+      "name": "Rider of Rohan",
+      "points": 14,
+      "keywords": "MAN | ROHAN | WARRIOR, CAVALRY | 40MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Shield",
+        "Bow",
+        "Horse"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Throwing spears - 2 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Arise, Riders of Rohan!",
+          "type": "ACTIVE",
+          "text": "If within 12\" of a Rohan General and has the Cavalry keyword, gains +1 Fight Value on a turn it Charges."
+        },
+        {
+          "name": "Spear Mastery",
+          "type": "ACTIVE",
+          "text": "May use its throwing spear as a normal spear during the Fight Phase, so long as it hasn't shot with it that turn."
+        }
+      ]
+    },
+    {
+      "name": "Rohan Outrider",
+      "points": 13,
+      "keywords": "MAN | ROHAN | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "3+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Bow",
+        "Horse"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Vanguard",
+          "type": "ACTIVE",
+          "text": "This model may benefit from a friendly Hero model's Stand Fast regardless of range."
+        }
+      ]
+    },
+    {
+      "name": "Rohan Royal Guard",
+      "points": 16,
+      "keywords": "MAN | ROHAN | WARRIOR, INFANTRY, ELITE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield",
+        "Horse",
+        "Throwing spears"
+      ],
+      "specialRules": [
+        {
+          "name": "Bodyguard",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Arise, Riders of Rohan!",
+          "type": "ACTIVE",
+          "text": "If within 12\" of a Rohan General and has the Cavalry keyword, gains +1 Fight Value on a turn it Charges."
+        },
+        {
+          "name": "Spear Mastery",
+          "type": "ACTIVE",
+          "text": "May use its throwing spear as a normal spear during the Fight Phase, so long as it hasn't shot with it that turn."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Road to Helm's Deep army-list page. Full stat blocks for the Rohan units from the Rohan faction page; Aragorn Strider, Gimli, and Legolas from The Free Peoples faction page (Fellowship subsection)."
+}

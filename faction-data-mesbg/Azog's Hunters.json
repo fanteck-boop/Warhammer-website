@@ -1,0 +1,437 @@
+{
+  "legion": "Azog's Hunters",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/azogs_hunters/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/gundabad_and_dol_guldur/"
+  ],
+  "additionalRules": [
+    "Hero warband/follower system (current 'Armies of The Lord of the Rings' edition): each Hero anchors a warband of Independent (non-Hero) followers up to a cap set by their tier for this army list — Hero of Legend: up to 18 followers; Hero of Valour: up to 15; Hero of Fortitude: up to 12; Minor Hero: up to 6; Independent Hero: 0 (occupies a slot in another Hero's warband instead). The army's General is typically a Hero of Valour or Hero of Legend — check this army list's own requirements. Heroic tier is assigned per army list, not an inherent property of the hero."
+  ],
+  "specialRules": [
+    {
+      "name": "Morgul Arrows",
+      "text": "Any enemy model that suffers an unprevented Wound from a friendly shooting attack must roll a D6 in the End Phase of every subsequent turn; on a 1 it suffers a further Wound. A model only rolls once per End Phase, even with multiple such Wounds."
+    },
+    {
+      "name": "\"They Strike in the wee small hours when everyone's asleep\"",
+      "text": "An Azog's Hunters Army has a Bow Limit of 50% rather than the usual 33%."
+    },
+    {
+      "name": "Relentless Hunters",
+      "text": "All models in this Army List gain the Woodland Creature and Mountain Dweller special rules."
+    },
+    {
+      "name": "The Pale Orc's Demands",
+      "text": "Whilst within 6\" of a friendly Hero, friendly Orc Warrior models gain a bonus of +1 to any Courage Tests to Charge an enemy model with the Terror special rule."
+    }
+  ],
+  "units": [
+    {
+      "name": "Fell Warg",
+      "points": 8,
+      "keywords": "WARG | GUNDABAD | WARRIOR, INFANTRY, BEAST | 40MM",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": 3,
+        "Sv": "6+",
+        "S": 4,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Claws and Teeth (hand weapon)"
+      ],
+      "specialRules": [
+        {
+          "name": "Fell Sight",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Hunter Orc Warg Rider",
+      "points": 15,
+      "keywords": "ORC | GUNDABAD | WARRIOR, CAVALRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 4,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapons",
+        "Fell Warg"
+      ],
+      "options": [
+        "Orc Bow - 1 point",
+        "Two-handed Weapon - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Savage Hunters",
+          "type": "ACTIVE",
+          "text": "This model gains a bonus of +1 Attacks on a turn in which it Charges."
+        }
+      ]
+    },
+    {
+      "name": "Hunter Orc Warrior",
+      "points": 8,
+      "keywords": "ORC | GUNDABAD | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 4,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapons"
+      ],
+      "options": [
+        "Orc Bow - 1 point",
+        "Two-handed Weapon - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Savage Hunters",
+          "type": "ACTIVE",
+          "text": "This model gains a bonus of +1 Attacks on a turn in which it Charges."
+        }
+      ]
+    },
+    {
+      "name": "Fimbul, Hunter Orc Captain",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, GUNDABAD, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Fell Warg - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Hunt Master",
+          "type": "ACTIVE",
+          "text": "Whilst he has the Cavalry keyword, Fimbul does not suffer penalties Moving through Difficult Terrain (and may still gain Charge bonuses there), and gains +1 Fight Value on a turn in which he Charges."
+        }
+      ]
+    },
+    {
+      "name": "Hunter Orc Captain",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, GUNDABAD, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "7",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapons"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Fell Warg - 20 points",
+        "Orc Bow - 5 points",
+        "Two-handed Weapon - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Savage Hunters",
+          "type": "ACTIVE",
+          "text": "This model gains a bonus of +1 Attacks on a turn in which it Charges."
+        }
+      ]
+    },
+    {
+      "name": "Narzug, Hunter Orc Captain",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, GUNDABAD, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "6",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Light Armour",
+        "Hand Weapon",
+        "Orc Bow"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Expert Shot",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Poisoned Attacks (Orc Bow)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Lethal Aim",
+          "type": "ACTIVE",
+          "text": "Each turn, Narzug gains a free Might Point that can only be spent during a shooting attack, on a To Hit Roll, To Wound Roll, or an In The Way Test; lost if unspent by the end of the turn."
+        }
+      ]
+    },
+    {
+      "name": "Yazneg, Hunter Orc Captain",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, GUNDABAD, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Fell Warg and Lance - 25 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "The Price of Failure",
+          "type": "ACTIVE",
+          "text": "If within 3\" of Azog at the start of a Combat, Yazneg may declare he is using this rule before the Duel Roll to re-roll any number of dice; if he then loses the Duel Roll, he immediately suffers a Wound."
+        }
+      ]
+    },
+    {
+      "name": "Bolg, Spawn of Azog",
+      "points": 175,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ORC, GUNDABAD, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "5",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "5",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Fell Warg - 20 points",
+        "Orc Bow - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Burly",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Ancient Enemies (Dwarf)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Ancient Enemies (Elf)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "The Bringer of Death",
+          "type": "ACTIVE",
+          "text": "Track Bolg's kills in Combat: at 2+ kills he gains Terror; at 5+ kills he gains Harbinger of Evil (12\"); at 8+ kills he gains Mighty Hero."
+        }
+      ]
+    },
+    {
+      "name": "Azog the Defiler",
+      "points": 175,
+      "heroicTier": "Hero of Legend",
+      "keywords": "ORC, GUNDABAD, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "5",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "5",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hand Weapons"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "The White Warg - 50 points",
+        "Stone Flail - 15 points",
+        "Heavy Armour - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Burly",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Stone Flail",
+          "type": "ACTIVE",
+          "text": "A Unique two-handed weapon. While using it, Azog gains Mighty Blow but his Fight Value is reduced to 6 for the Combat (even after a Heroic Strike); a model struck and not slain is knocked Prone at the end of the Combat."
+        },
+        {
+          "name": "General of the North",
+          "type": "ACTIVE",
+          "text": "The range of Azog's Stand Fast is 12\" rather than 6\", and friendly Orc Hero models can benefit from it."
+        },
+        {
+          "name": "I am the Master",
+          "type": "ACTIVE",
+          "text": "When making Strikes against an enemy Hero, a natural 3+ always counts as a successful To Wound Roll regardless of the Hero's Defence."
+        }
+      ],
+      "mount": {
+        "name": "The White Warg",
+        "keywords": "WARG | GUNDABAD | HERO, MOUNT | 50MM",
+        "profile": {
+          "Mv": "10\"",
+          "Fv": 5,
+          "Sv": "6+",
+          "S": 5,
+          "D": 5,
+          "A": 2,
+          "W": 2,
+          "C": "6+",
+          "I": "6+"
+        },
+        "specialRules": [
+          {
+            "name": "Fearless",
+            "type": "",
+            "text": ""
+          },
+          {
+            "name": "Fell Sight",
+            "type": "",
+            "text": ""
+          },
+          {
+            "name": "Terror",
+            "type": "",
+            "text": ""
+          },
+          {
+            "name": "Pack Master",
+            "type": "PASSIVE",
+            "text": "Once separated from Azog, only Warg models may benefit from its Heroic Actions or Stand Fast."
+          }
+        ]
+      }
+    }
+  ],
+  "sourceNotes": "Composition/points from the prancingponypub army list page; full profiles from the Gundabad & Dol Guldur forces page. In this list Azog's base points (175) do not include Heavy Armour, which is listed as a separate option."
+}

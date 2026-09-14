@@ -1,0 +1,424 @@
+{
+  "legion": "The Iron Hills",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/the_iron_hills/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/dwarven_holds/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/good_legacy/"
+  ],
+  "additionalRules": [
+    "An Iron Hills Army must include Dain Ironfoot, who is always the Army's General."
+  ],
+  "specialRules": [
+    {
+      "name": "\"Ironfoot has come!\"",
+      "type": "",
+      "text": "In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may modify the roll for Warbands from this Army by +1 or -1."
+    },
+    {
+      "name": "Yanâd Durinul",
+      "type": "",
+      "text": "Friendly Infantry models may re-roll To Wound Rolls of a natural 1 when making Strikes, so long as they are in base contact with 2 or more friendly Infantry models."
+    },
+    {
+      "name": "Long March from the Iron Hills",
+      "type": "",
+      "text": "Friendly models gain the Mountain Dweller special rule."
+    },
+    {
+      "name": "\"I've always found Thorin the more reasonable of the two...\"",
+      "type": "",
+      "text": "Dain gains the Master of Battle (5+) special rule."
+    }
+  ],
+  "units": [
+    {
+      "name": "Dain Ironfoot, Lord of the Iron Hills",
+      "points": 160,
+      "heroicTier": "Hero of Legend",
+      "keywords": "DWARF, IRON HILLS, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "5",
+        "D": "8",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "War Boar - 25 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Burly",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Fearless",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Lord of the Iron Hills",
+          "type": "PASSIVE",
+          "text": "Friendly Iron Hills models within 12\" of Dáin automatically pass all Courage Tests they are required to take."
+        },
+        {
+          "name": "Fiery Temper",
+          "type": "ACTIVE",
+          "text": "After Dáin has killed an enemy model, then from that point onwards whenever Dáin Moves, he must always Charge an enemy model if possible."
+        },
+        {
+          "name": "Fearsome Charge",
+          "type": "PASSIVE",
+          "text": "If Dáin Charges into Combat, then until the end of turn he counts as having the Terror special rule."
+        },
+        {
+          "name": "Headbutt",
+          "type": "ACTIVE",
+          "text": "If Dáin wins a Duel Roll but fails to slay every enemy model involved in the Combat, he may choose a single enemy model on a 25mm base involved in the Combat and roll a D6. On a 5+, the chosen model is immediately knocked Prone."
+        }
+      ]
+    },
+    {
+      "name": "Dwarf King",
+      "points": 85,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, INFANTRY, HERO",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Hand-and-a-half Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Resolve"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Throwing Weapons - Free"
+      ],
+      "specialRules": [
+        {
+          "name": "Dwarven Lords",
+          "type": "PASSIVE",
+          "text": "A Dwarf King will always have the Faction Keyword of the most common type of Dwarf model in the same Army, and gains a special rule based on it: Erebor - Ancient Enemies (Orc); Iron Hills - Fearless; Khazad-dûm - throwing weapons."
+        }
+      ]
+    },
+    {
+      "name": "Drar",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, IRON HILLS, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Dwarf Armour",
+        "Hand Weapon",
+        "Dwarf Bow"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Expert Shot",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sharpshooter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Mountain Dweller",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Iron Hills Captain",
+      "points": 80,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, IRON HILLS, INFANTRY, HERO",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Spear",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Exchange Shield and Spear for Mattock - Free",
+        "Iron Hills Chariot - 170 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Master of Battle (5+)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Shieldwall",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Mattock",
+          "type": "ACTIVE",
+          "text": "This is a two-handed weapon. Additionally, if a model wielding a Mattock wins a Duel Roll they may choose to try to knock down an enemy model instead of making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Murin",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, IRON HILLS, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Dwarf Armour",
+        "Shield",
+        "Kalazal"
+      ],
+      "heroicActions": [
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Mountain Dweller",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Kalazal",
+          "type": "ACTIVE",
+          "text": "This is a Unique hand weapon. Murin gains a bonus of +1 To Wound when making Strikes against Orc, Goblin or Uruk-hai models."
+        }
+      ]
+    },
+    {
+      "name": "Iron Hills Chariot",
+      "points": 170,
+      "keywords": "DWARF | IRON HILLS | WARRIOR, CHARIOT | 170MM",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 4,
+        "D": 8,
+        "A": 2,
+        "W": 4,
+        "C": "6+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Rapid-fire Bolt Thrower"
+      ],
+      "specialRules": [
+        {
+          "name": "Dominant (4)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Rapid-fire Bolt Thrower",
+          "type": "ACTIVE",
+          "text": "This is a crossbow that fires D6 shots per turn rather than just one, with a 45° field of fire to either side. An Iron Hills Chariot may still shoot even if it has Moved or is Engaged in Combat, and never suffers the -1 penalty for Moving and Shooting."
+        },
+        {
+          "name": "Chariot Charge",
+          "type": "ACTIVE",
+          "text": "When an Iron Hills Chariot Moves via Chariot Charge, it will inflict 3 Strength 6 Impact Hits."
+        },
+        {
+          "name": "Dwarven Crew",
+          "type": "ACTIVE",
+          "text": "Any Iron Hills Warrior that ends their Activation in base contact with an Iron Hills Chariot may join its crew. If it does, remove the Iron Hills Warrior from the board as a Casualty. The Iron Hills Chariot then immediately regains a single Wound lost earlier in the battle."
+        }
+      ]
+    },
+    {
+      "name": "Iron Hills Goat Rider",
+      "points": 20,
+      "keywords": "DWARF | IRON HILLS | WARRIOR, CAVALRY | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 4,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "6+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "War Spear",
+        "Sword",
+        "War Goat"
+      ],
+      "options": [
+        "Exchange War Spear for Mattock - Free"
+      ],
+      "specialRules": [
+        {
+          "name": "War Goat",
+          "type": "",
+          "text": "GOAT | MOUNT — Mv8\" Fv2 Sv6+ S4 D5 A0 W1 C7+ I7+. Mountain Dweller. Devastating Charge ACTIVE: when this model Charges against one or more 25mm models, roll a D6 for each; on a 5+ that model is immediately knocked Prone."
+        }
+      ]
+    },
+    {
+      "name": "Iron Hills Warrior",
+      "points": 10,
+      "keywords": "DWARF | IRON HILLS | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 4,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "6+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Banner and Shield - 26 points",
+        "Banner - 25 points",
+        "Shield and Spear - 2 points",
+        "Crossbow - 2 points",
+        "Mattock - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Shieldwall",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Mattock",
+          "type": "ACTIVE",
+          "text": "This is a two-handed weapon. Additionally, if a model wielding a Mattock wins a Duel Roll they may choose to try to knock down an enemy model instead of making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Iron Hills Ballista",
+      "points": 130,
+      "keywords": "SIEGE ENGINE | 100MM",
+      "profile": {
+        "Range": "12\"-60\"",
+        "S": 8,
+        "D": 10,
+        "W": 4
+      },
+      "wargear": [
+        "Crewed by four Iron Hills Siege Crew (Mv5\" Fv4 Sv4+ S4 D6 A1 W1 C6+ I6+, Heavy Armour, Hand Weapon), one of which is the Siege Veteran"
+      ],
+      "specialRules": [
+        {
+          "name": "Arcing Shot",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Area Effect",
+          "type": "ACTIVE",
+          "text": "After rolling To Hit against the actual target, if the actual target was a Battlefield Target then all other models within 2\" of the actual target suffer a Strength 5 hit and, if they survive, will be knocked Prone."
+        },
+        {
+          "name": "Accurate",
+          "type": "ACTIVE",
+          "text": "An Iron Hills Ballista will only Scatter 3\" rather than 6\"."
+        },
+        {
+          "name": "The Old Twirly Whirlies",
+          "type": "ACTIVE",
+          "text": "An Iron Hills Ballista always counts as declaring a Heroic Shoot each Shoot Phase for free. When it hits a target, a line is drawn from the Ballista to the marker under the target; shooting attacks of Strength 6 or lower cannot cross or target within 3\" of that line, and Strength 7+ attacks that do so are cancelled on a D6 roll of 5+."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub The Iron Hills army-list page. Full stat blocks, wargear, and special-rule text from the Dwarven Holds faction page on the same site; Drar and Murin cross-referenced from the Good Legacy faction page (also on the same site)."
+}

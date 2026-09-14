@@ -1,0 +1,1779 @@
+{
+  "legion": "The Battle of Five Armies",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/the_battle_of_five_armies/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/dwarven_holds/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/elven_kingdoms/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/the_free_peoples/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/kingdoms_of_men/"
+  ],
+  "additionalRules": [
+    "Elf Warrior models can only be included in the Warband of an Elf Hero.",
+    "Dwarf Warrior models can only be included in the Warband of a Dwarf Hero.",
+    "Lake-town Warrior models can only be included in the Warband of a Lake-town Hero, or in the Warband of Gandalf the Grey or Bilbo Baggins.",
+    "Eagle Warrior models can only be included in the Warband of an Eagle Hero, or in the Warband of Radagast the Brown or Beorn.",
+    "The Battle of Five Armies may not include more Fledgeling Great Eagles than Great Eagles."
+  ],
+  "specialRules": [
+    {
+      "name": "We stand together",
+      "type": "",
+      "text": "Friendly models may re-roll To Wound Rolls of a natural 1 when making Strikes if they are involved in a Combat with a friendly model that has a different racial Keyword to themselves."
+    }
+  ],
+  "units": [
+    {
+      "name": "Bard the Bowman",
+      "points": 150,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, LAKE-TOWN, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Great Bow"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Accuracy",
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Windlance - 50 points",
+        "Exchange Great Bow for Armour and Horse - 20 points (this list's listed cost of 150 includes this exchange)"
+      ],
+      "specialRules": [
+        {
+          "name": "Sharpshooter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sworn Protector (Bain)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sworn Protector (Sigrid)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sworn Protector (Tilda)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Rapid Fire",
+          "type": "ACTIVE",
+          "text": "If Bard hits a target with his great bow, he may make another shooting attack with his great bow that targets a model within 3\" of the initial target - it may even be the same target. If that second shot also hits, then Bard may Shoot again as described above. Bard can make a maximum of three shots per turn as a result of this special rule."
+        },
+        {
+          "name": "Swift Shot",
+          "type": "ACTIVE",
+          "text": "Bard never suffers the -1 penalty To Hit for Moving and Shooting."
+        },
+        {
+          "name": "The Black Arrow",
+          "type": "ACTIVE",
+          "text": "If he is upgraded to take the Windlance, then once per game Bard can fire the Black Arrow instead of shooting normally."
+        },
+        {
+          "name": "Windlance Trained",
+          "type": "PASSIVE",
+          "text": "If Bard is upgraded to take a Windlance, then he counts as the only crew for the Siege Engine."
+        }
+      ]
+    },
+    {
+      "name": "Dain Ironfoot, Lord of the Iron Hills",
+      "points": 160,
+      "heroicTier": "Hero of Legend",
+      "keywords": "DWARF, IRON HILLS, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "5",
+        "D": "8",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "War Boar - 25 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Burly",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Fearless",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Lord of the Iron Hills",
+          "type": "PASSIVE",
+          "text": "Friendly Iron Hills models within 12\" of Dain automatically pass all Courage Tests they are required to take."
+        },
+        {
+          "name": "Fiery Temper",
+          "type": "ACTIVE",
+          "text": "After Dain has killed an enemy model, then from that point onwards whenever Dain Moves, he must always Charge an enemy model if possible."
+        },
+        {
+          "name": "Fearsome Charge",
+          "type": "PASSIVE",
+          "text": "If Dain Charges into Combat, then until the end of turn he counts as having the Terror special rule."
+        },
+        {
+          "name": "Headbutt",
+          "type": "ACTIVE",
+          "text": "If Dain wins a Duel Roll but fails to slay every enemy model involved in the Combat, he may choose a single enemy model on a 25mm base involved in the Combat and roll a D6. On a 5+, the chosen model is immediately knocked Prone."
+        }
+      ]
+    },
+    {
+      "name": "Gandalf the Grey",
+      "points": 170,
+      "heroicTier": "Hero of Legend",
+      "keywords": "WIZARD, FELLOWSHIP, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "6",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Staff of Power",
+        "Glamdring",
+        "Narya"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Channelling",
+        "Heroic Strike",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [
+        "Protection of the Valar (6\", 3+)",
+        "Terrifying Aura (Self, 3+)",
+        "Blinding Light (Self, 4+)",
+        "Strengthen Will (12\", 4+)",
+        "Transfix (12\", 4+)",
+        "Collapse Rocks (12\", 5+)",
+        "Foil Magic (12\", 5+)",
+        "Sorcerous Blast (12\", 5+)"
+      ],
+      "options": [
+        "Gandalf's Cart - 5 points",
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Glamdring",
+          "type": "ACTIVE",
+          "text": "This is a Unique Elven hand-and-a-half weapon. A model gains a bonus of +1 to their Strength when making Strikes with Glamdring."
+        },
+        {
+          "name": "Narya",
+          "type": "PASSIVE",
+          "text": "This is a Unique piece of Wargear. Gandalf may re-roll any failed Fate Rolls."
+        }
+      ]
+    },
+    {
+      "name": "Radagast the Brown",
+      "points": 200,
+      "heroicTier": "Hero of Legend",
+      "keywords": "WIZARD, THORIN'S COMPANY, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "6",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Great Eagle (mount, taken via the Exchange Staff for Great Eagle option, included in this list's listed cost)",
+        "Hand Weapon",
+        "Sebastian"
+      ],
+      "heroicActions": [
+        "Heroic Defence",
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Panic Steed (12\", 3+)",
+        "Terrifying Aura (Self, 3+)",
+        "Transfix (12\", 4+)",
+        "Renew (12\", 4+)",
+        "Nature's Wrath (3\", 5+)",
+        "Aura of Dismay (Self, 5+)",
+        "Writhing Vines (Self, 5+)"
+      ],
+      "options": [
+        "Exchange Staff for Great Eagle - 55 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Mountain Dweller",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Stalk Unseen",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sebastian",
+          "type": "ACTIVE",
+          "text": "This is a Unique piece of Wargear. During a Combat, Radagast may roll an additional D6 in his Duel Roll, and may make an additional Strike if he wins the Combat."
+        },
+        {
+          "name": "Master of Birds",
+          "type": "PASSIVE",
+          "text": "Radagast is always assumed to have Line of Sight to anywhere on the battlefield. Additionally, friendly Eagle models within 12\" of Radagast gain the Resistant to Magic special rule."
+        }
+      ]
+    },
+    {
+      "name": "Thorin Oakenshield, King Under the Mountain",
+      "points": 130,
+      "heroicTier": "Hero of Legend",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Challenge",
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Orcrist - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Fearless",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Hatred (Gundabad)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Orcrist",
+          "type": "ACTIVE",
+          "text": "This is a Unique Elven hand-and-a-half weapon. Orcrist has the Orcbane, Goblinbane and Uruk-haibane special rules. Additionally, the wielder of Orcrist has the Terror (Orc), Terror (Goblin) and Terror (Uruk-hai) special rules."
+        },
+        {
+          "name": "Du Bekar",
+          "type": "PASSIVE",
+          "text": "Friendly Dwarf models treat Thorin as a banner."
+        },
+        {
+          "name": "Ancestral Fury",
+          "type": "ACTIVE",
+          "text": "If Thorin Charges into Combat with the Infantry keyword, he may declare a free Heroic Combat in the Fight phase."
+        }
+      ]
+    },
+    {
+      "name": "Thranduil, King of the Woodland Realm",
+      "points": 130,
+      "heroicTier": "Hero of Legend",
+      "keywords": "ELF, MIRKWOOD, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Elven Hand-and-a-half Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Great Elk - 30 points",
+        "Heavy Armour - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Leader (Palace Guard)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Bladelord",
+          "type": "ACTIVE",
+          "text": "If he is Outnumbered in a Combat, Thranduil may re-roll To Wound Rolls of a natural 1 when making Strikes. If he has the Infantry keyword and is Outnumbered in a Combat, Thranduil may instead re-roll all failed To Wound Rolls when making Strikes."
+        },
+        {
+          "name": "Fury of the Elvenking",
+          "type": "PASSIVE",
+          "text": "If Thranduil is Outnumbered in a Combat, and successfully kills all enemy models that he was Engaged in Combat with, then in the following turn Thranduil may declare a Heroic Combat for free."
+        },
+        {
+          "name": "\"Do not talk to me of Dragon fire\"",
+          "type": "ACTIVE",
+          "text": "At the beginning of his Activation, Thranduil can spend a Will Point to use this special rule, gaining the Terror special rule until end of turn and potentially forcing nearby enemies to test Courage or flee."
+        }
+      ]
+    },
+    {
+      "name": "Balin the Dwarf, Champion of Erebor",
+      "points": 60,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Sworn Protector (Thorin)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Longbeard",
+          "type": "ACTIVE",
+          "text": "During the Priority Phase, after the roll for Priority has taken place, Balin can spend a Will Point to allow his controlling player to re-roll their roll for Priority."
+        }
+      ]
+    },
+    {
+      "name": "Beorn",
+      "points": 200,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, BEORNING, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "5",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strength",
+        "Heroic Strike",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Burly",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Dominant (2)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Fearless",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Skin-changer",
+          "type": "ACTIVE",
+          "text": "At the beginning of his Activation, Beorn can change his form from Man to Bear (Beorn the Bear: Mv 8\", Fv 8, Sv 4+, S 8, D 8, A 3, W 3, C 3+, I 6+, Claws and teeth; Burly, Dominant (5), Fearless, Monstrous Charge, Resistant to Magic, Terror, Woodland Creature; Wounds/Might/Will/Fate remain the same between profiles). Beorn the Bear may not benefit from other models' Heroic Actions except from friendly Bear models, and only Beorning models may benefit from his Heroic Actions or Stand Fast while in Bear form; he must Charge if able while a Bear, and gains the Crushing Strength Brutal Power Attack."
+        }
+      ]
+    },
+    {
+      "name": "Dwalin the Dwarf, Champion of Erebor",
+      "points": 110,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "5",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Grasper & Keeper",
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Burly",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Fearless",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sworn Protector (Thorin)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Grasper & Keeper",
+          "type": "ACTIVE",
+          "text": "These are Unique hand weapons. Additionally, a model gains a bonus of +1 to its Attacks characteristic when using Grasper & Keeper, and any To Wound Rolls of a natural 6 that are not prevented will deal 2 Wounds rather than 1."
+        },
+        {
+          "name": "Weapon Master",
+          "type": "ACTIVE",
+          "text": "Dwalin is never considered Unarmed."
+        },
+        {
+          "name": "The King's Axemen",
+          "type": "ACTIVE",
+          "text": "At the beginning of a Combat, so long as he is within 3\" of Thorin, Dwalin can use this special rule for a Strength bonus or Defence penalty depending on the Duel Roll result."
+        }
+      ]
+    },
+    {
+      "name": "Fili the Dwarf, Champion of Erebor",
+      "points": 70,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Sworn Protector (Thorin)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Combat Synergy",
+          "type": "ACTIVE",
+          "text": "At the start of any phase, before the Declare Heroic Actions step, if Kili and Fili are within 1\" of each other, then they can swap places and not have it count as Moving. If they do this, then during the Fight phase of that turn they may re-roll a single D6 in the Duel roll."
+        }
+      ]
+    },
+    {
+      "name": "Gwaihir",
+      "points": 200,
+      "heroicTier": "Hero of Valour",
+      "keywords": "EAGLE, MISTY MOUNTAINS, HERO, INFANTRY, MONSTER, UNIQUE",
+      "profile": {
+        "Mv": "12\"",
+        "Fv": "8",
+        "Sv": "4+",
+        "S": "6",
+        "D": "8",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Claws and Beak (hand weapon)"
+      ],
+      "heroicActions": [
+        "Heroic Strength",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Dominant (4)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Fly",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Large Target",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Monstrous Charge",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "The Windlord",
+          "type": "ACTIVE",
+          "text": "Only Eagle and Wizard models may benefit from Gwaihir's Stand Fast or benefit from his Heroic Actions."
+        }
+      ]
+    },
+    {
+      "name": "Kili the Dwarf, Champion of Erebor",
+      "points": 70,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Sworn Protector (Thorin)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Combat Synergy",
+          "type": "ACTIVE",
+          "text": "At the start of any Phase, before the Declare Heroic Actions step, if Kili and Fili are within 1\" of each other then they can swap places with each other - this does not count as Moving. If they have used this special rule during a turn, then during the Fight Phase of that turn they may each re-roll a single D6 when making a Duel Roll."
+        }
+      ]
+    },
+    {
+      "name": "Legolas Greenleaf, Prince of Mirkwood",
+      "points": 105,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF, MIRKWOOD, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "2+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Armour",
+        "Elf Bow",
+        "Elven-made Dagger"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points",
+        "Orcrist - 10 points",
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Sharpshooter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Leader (Palace Guard)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Deadly Shot",
+          "type": "ACTIVE",
+          "text": "Legolas may make three shooting attacks during the Shoot Phase instead of one, using all the normal rules for shooting."
+        },
+        {
+          "name": "Pinpoint Shot",
+          "type": "ACTIVE",
+          "text": "Instead of shooting normally, Legolas may make a single shooting attack against an enemy model Engaged in Combat with a friendly model (including himself), automatically hitting on a successful To Hit Roll."
+        }
+      ]
+    },
+    {
+      "name": "Bifur the Dwarf, Champion of Erebor",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "1",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Throw Stones (range 8\", Strength 2)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sworn Protector (Thorin)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Embedded Axe",
+          "type": "ACTIVE",
+          "text": "If Bifur wins a Duel Roll, then he may choose to headbutt an enemy model instead of making Strikes, dealing a Strength 4 hit; if it Wounds, from then on Bifur may take an Intelligence Test each Move Phase to declare a free Heroic Move."
+        }
+      ]
+    },
+    {
+      "name": "Bilbo Baggins, Master Burglar",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "HOBBIT, THORIN'S COMPANY, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "The One Ring",
+        "Mithril Coat",
+        "Sting"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Strike",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Mithril Coat",
+          "type": "PASSIVE",
+          "text": "This is a Unique piece of Mithril Armour. Additionally, the wearer may re-roll Fate Rolls of a 1."
+        },
+        {
+          "name": "Sting",
+          "type": "ACTIVE",
+          "text": "This is a Unique Elven hand weapon. A model gains a bonus of +1 to their Strength when making Strikes with Sting."
+        },
+        {
+          "name": "It has not yet Awoken",
+          "type": "PASSIVE",
+          "text": "Bilbo ignores the Sauron's Will section of the rules for the One Ring. Furthermore, if Bilbo is the only model left on his controlling player's side, and is wearing the One Ring, he is not removed as a casualty as would usually be the case."
+        }
+      ]
+    },
+    {
+      "name": "Bofur the Dwarf, Champion of Erebor",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Two-handed Weapon",
+        "Throwing Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Resolve"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Troll Brute - 100 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Sworn Protector (Thorin)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Steadfast",
+          "type": "ACTIVE",
+          "text": "Whenever a friendly Erebor Hero within 3\" of Bofur is affected by an enemy special rule or Magical Power, they may roll a D6. On a 3+, the model will ignore its effects."
+        }
+      ]
+    },
+    {
+      "name": "Bombur the Dwarf, Champion of Erebor",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "3",
+        "C": "6+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Flail"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Dominant (2)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sworn Protector (Thorin)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Lumbering",
+          "type": "PASSIVE",
+          "text": "Bombur may not declare Heroic Moves. Additionally, if Bombur rolls a natural 6 on a Jump, Climb, Leap or Swim Test, then he must re-roll the result."
+        },
+        {
+          "name": "Raising Spirits",
+          "type": "ACTIVE",
+          "text": "Once per turn, during his Activation, Bombur can choose a friendly Erebor Hero model within 3\" and roll a D6. On a 4+, the chosen model regains a Will Point spent earlier in the battle."
+        },
+        {
+          "name": "Flail",
+          "type": "ACTIVE",
+          "text": "This is a hand-and-a-half weapon. Additionally, if the bearer wins a Duel Roll, then they can either make Strikes as normal or make a single Strike against each enemy model that was involved in the Combat."
+        }
+      ]
+    },
+    {
+      "name": "Dori the Dwarf, Champion of Erebor",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Sworn Protector (Thorin)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "A Good Sort",
+          "type": "PASSIVE",
+          "text": "Whilst within 3\" of either Ori or Nori, Dori increases his Attacks to 3 and may re-roll any rolls of a 1 in his Duel rolls."
+        }
+      ]
+    },
+    {
+      "name": "Gloin the Dwarf, Champion of Erebor",
+      "points": 100,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "3",
+        "W": "2",
+        "C": "5+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Sworn Protector (Thorin)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Axe Mastery",
+          "type": "ACTIVE",
+          "text": "If Gloin is outnumbered in a Combat, he increases his Attacks to 4 for the duration of the Combat."
+        }
+      ]
+    },
+    {
+      "name": "Hilda-Bianca",
+      "points": 35,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, LAKE-TOWN, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "4+",
+        "S": "3",
+        "D": "3",
+        "A": "1",
+        "W": "2",
+        "C": "5+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Spear"
+      ],
+      "heroicActions": [
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "\"Stand by our Men!\"",
+          "type": "PASSIVE",
+          "text": "If Hilda-Bianca Charges into Combat, then during the ensuing Fight Phase, Hilda-Bianca and friendly Lake-town Warrior models within 3\" of her gain a bonus of +1 To Wound when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Iron Hills Captain",
+      "points": 80,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, IRON HILLS, HERO, INFANTRY",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Spear",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Exchange Shield and Spear for Mattock - Free"
+      ],
+      "specialRules": [
+        {
+          "name": "Master of Battle (5+)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Shieldwall",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Mattock",
+          "type": "ACTIVE",
+          "text": "This is a two-handed weapon. Additionally, if a model wielding a Mattock wins a Duel Roll they may choose to try to knock down an enemy model instead of making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Lake-town Militia Captain",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, LAKE-TOWN, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Shield",
+        "Hand Weapon",
+        "Spear"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": []
+    },
+    {
+      "name": "Mirkwood Elf Captain",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, MIRKWOOD, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Elven Glaive"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Elven Glaive",
+          "type": "ACTIVE",
+          "text": "This is an Elven spear. Additionally, a model armed with this weapon that is Engaged in Combat and is not being Supported may either gain a bonus of +1 Attacks for their Duel Roll, or +1 Attacks when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Nori the Dwarf, Champion of Erebor",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "9",
+        "A": "3",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Hand Weapon",
+        "Shield",
+        "Throwing Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Sworn Protector (Thorin)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Weapon Master",
+          "type": "ACTIVE",
+          "text": "Nori is never considered Unarmed."
+        },
+        {
+          "name": "\"Just a couple of keepsakes\"",
+          "type": "ACTIVE",
+          "text": "Whilst Nori is carrying an Objective in Scenarios where this applies, he may re-roll all failed To Wound Rolls when making Strikes. However, Nori may never pass an Objective Marker to a friendly model."
+        }
+      ]
+    },
+    {
+      "name": "Oin the Dwarf, Champion of Erebor",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "1",
+        "Will": "5",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Shield",
+        "Hand Weapon",
+        "Hearing Trumpet"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Sworn Protector (Thorin)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Healing Herbs",
+          "type": "ACTIVE",
+          "text": "At any point during his Activation, Oin can choose a friendly model in base contact and roll a D6. On a 4+, the chosen model immediately regains a Wound lost earlier in the battle."
+        },
+        {
+          "name": "Reading the Portents",
+          "type": "ACTIVE",
+          "text": "During the Fight Phase, Oin can spend a Will Point to allow a friendly Erebor model within 6\" to re-roll a single dice during their Duel Roll."
+        },
+        {
+          "name": "Hearing Trumpet",
+          "type": "ACTIVE",
+          "text": "Whenever an enemy Hero declares a Heroic Action within 6\" of Oin, roll a D6. On a 5+, Oin may immediately declare the same Heroic Action for free; on a natural 1, Oin loses a Will Point or cannot Move that turn."
+        }
+      ]
+    },
+    {
+      "name": "Ori the Dwarf, Champion of Erebor",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "3+",
+        "S": "3",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Two-handed Weapon",
+        "Throwing Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Sworn Protector (Thorin)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Chronicler",
+          "type": "ACTIVE",
+          "text": "Whenever a friendly Thorin's Company/Erebor model within 6\" and Line of Sight of Ori slays an enemy Hero or Monster, that model may immediately regain a single point of Might, Will or Fate spent earlier in the battle."
+        },
+        {
+          "name": "Protect the Young",
+          "type": "PASSIVE",
+          "text": "Other friendly Erebor Hero models within 6\" of Ori do not suffer the -1 penalty to their Duel roll for using a two-handed weapon."
+        }
+      ]
+    },
+    {
+      "name": "Percy, Lake-town Archer",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, LAKE-TOWN, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Bow"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Archers, This Way!",
+          "type": "PASSIVE",
+          "text": "Friendly Lake-town models within 6\" and Line of Sight of Percy may re-roll To Hit Rolls of a 1 when making Shooting Attacks."
+        }
+      ]
+    },
+    {
+      "name": "Tauriel, Ranger of Mirkwood",
+      "points": 90,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, MIRKWOOD, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Armour",
+        "Elven Cloak",
+        "Elven Hand Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Elf Bow - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Shot",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sharpshooter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Blade Mistress",
+          "type": "ACTIVE",
+          "text": "If Tauriel is Outnumbered in a Combat, then before making her Duel Roll she gains an additional Attack for each model she is Engaged in Combat with after the first."
+        },
+        {
+          "name": "Vengeful Fury",
+          "type": "PASSIVE",
+          "text": "If your Army also includes Kili, and he is removed as a casualty, then Tauriel's Strength is increased to 5 and her Defence reduced to 4 for the remainder of the battle."
+        }
+      ]
+    },
+    {
+      "name": "Alfrid the Councillor",
+      "points": 30,
+      "heroicTier": "Independent Hero",
+      "keywords": "MAN, LAKE-TOWN, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "2",
+        "Sv": "4+",
+        "S": "3",
+        "D": "3",
+        "A": "1",
+        "W": "1",
+        "C": "7+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Unarmed"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Fearful",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Dubious Counsel",
+          "type": "ACTIVE",
+          "text": "At the start of his Activation, Alfrid may choose a single other friendly Lake-town Hero model within 6\" of him. Roll a D6 (modifiable by spending Will Points) and consult the table for the effect: 1) chosen Hero loses a Might Point, Alfrid gains one; 2) chosen Hero regains a spent Will Point; 3) chosen Hero re-rolls To Wound of a natural 1 this turn; 4) chosen Hero gains Fearless this turn; 5) chosen Hero gains +1 Fight Value this turn; 6) chosen Hero regains a spent Might Point."
+        },
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader. They may, however, be included in another Hero model's warband as one of their followers."
+        }
+      ]
+    },
+    {
+      "name": "Bard's Family",
+      "points": 60,
+      "heroicTier": "Independent Hero",
+      "keywords": "MAN, LAKE-TOWN, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "n/a",
+        "Sv": "n/a",
+        "S": "n/a",
+        "D": "n/a",
+        "A": "n/a",
+        "W": "n/a",
+        "C": "n/a"
+      },
+      "wargear": [],
+      "heroicActions": [
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Bard's Family composition",
+          "type": "",
+          "text": "Bard's Family is made up of three models: Bain, Son of Bard (Mv 6\", Fv 3, Sv 4+, S 3, D 3, A 1, W 2, C 6+, I 7+, Might 1, Will 3, Fate 2; Hand Weapon; Heroic Strike; Family Bond - whilst within 3\" of either Sigrid or Tilda, Bain increases his Attacks to 2 and gains +1 to Courage Tests), Sigrid (Mv 6\", Fv 2, Sv 4+, S 2, D 2, A 1, W 1, C 7+, I 7+, Might 0, Will 1, Fate 2; Unarmed; Fearful), and Tilda (Mv 6\", Fv 1, Sv 4+, S 2, D 2, A 1, W 1, C 8+, I 7+, Might 0, Will 1, Fate 2; Unarmed; Fearful). May only be included alongside Bard the Bowman, as part of Bard's Warband. If any member is slain, Bard must always Charge an enemy model when able, prioritising the model that killed a family member. Da! Down here! - whilst within 6\" of Sigrid or Tilda, Bard gains +1 Fight Value (and a re-roll on his Duel Roll if within 6\" of both), and may declare a free Heroic Combat to join their Combat under the stated conditions."
+        }
+      ]
+    },
+    {
+      "name": "Fledgeling Great Eagle",
+      "points": 75,
+      "keywords": "EAGLE | MISTY MOUNTAINS | WARRIOR, INFANTRY, MONSTER | 60MM",
+      "profile": {
+        "Mv": "12\"",
+        "Fv": 6,
+        "Sv": "4+",
+        "S": 5,
+        "D": 7,
+        "A": 2,
+        "W": 3,
+        "C": "5+",
+        "I": "5+"
+      },
+      "wargear": [
+        "Claws and Beak (hand weapon)"
+      ],
+      "specialRules": [
+        {
+          "name": "Dominant (2)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Fly",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Large Target",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Monstrous Charge",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Great Eagle",
+      "points": 100,
+      "keywords": "EAGLE | MISTY MOUNTAINS | WARRIOR, INFANTRY, MONSTER | 60MM",
+      "profile": {
+        "Mv": "12\"",
+        "Fv": 7,
+        "Sv": "4+",
+        "S": 6,
+        "D": 8,
+        "A": 2,
+        "W": 3,
+        "C": "4+",
+        "I": "4+"
+      },
+      "wargear": [
+        "Claws and Beak (hand weapon)"
+      ],
+      "specialRules": [
+        {
+          "name": "Dominant (3)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Fly",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Large Target",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Monstrous Charge",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Iron Hills Goat Rider",
+      "points": 20,
+      "keywords": "DWARF | IRON HILLS | WARRIOR, CAVALRY | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 4,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "6+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "War Spear",
+        "Sword",
+        "War Goat"
+      ],
+      "options": [
+        "Exchange War Spear for Mattock - Free"
+      ],
+      "specialRules": [
+        {
+          "name": "War Goat",
+          "type": "",
+          "text": "GOAT | MOUNT; Mv 8\", Fv 2, Sv 6+, S 4, D 5, A 0, W 1, C 7+, I 7+; Mountain Dweller; Devastating Charge - when this model Charges against one or more 25mm models, roll a D6 for each; on a 5+ that model is knocked Prone."
+        }
+      ]
+    },
+    {
+      "name": "Iron Hills Warrior",
+      "points": 10,
+      "keywords": "DWARF | IRON HILLS | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 4,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "6+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Banner and Shield - 26 points",
+        "Banner - 25 points",
+        "Shield and Spear - 2 points",
+        "Crossbow - 2 points",
+        "Mattock - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Shieldwall",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Mattock",
+          "type": "ACTIVE",
+          "text": "This is a two-handed weapon. Additionally, if a model wielding a Mattock wins a Duel Roll they may choose to try to knock down an enemy model instead of making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Lake-town Militia",
+      "points": 5,
+      "keywords": "MAN | LAKE-TOWN | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 2,
+        "Sv": "4+",
+        "S": 3,
+        "D": 3,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Light Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Bow - 1 point",
+        "Light Shield - 1 point",
+        "Spear - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Onwards Men of Esgaroth",
+          "type": "PASSIVE",
+          "text": "Whilst within 3\" of a friendly Lake-town Hero who is Engaged in Combat, this model automatically passes any Courage Tests they are required to take for being part of a Broken Army."
+        }
+      ]
+    },
+    {
+      "name": "Mirkwood Elf Knight",
+      "points": 16,
+      "keywords": "ELF | MIRKWOOD | WARRIOR, CAVALRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 5,
+        "Sv": "3+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "5+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Horse",
+        "Elven Hand-and-a-half Weapons"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "King's Knights",
+          "type": "PASSIVE",
+          "text": "Whilst they have the Cavalry keyword, this model gains a bonus of +1 to their Fight Value and +1 to their Defence whilst within 6\" of Thranduil."
+        }
+      ]
+    },
+    {
+      "name": "Mirkwood Elf Warrior",
+      "points": 9,
+      "keywords": "ELF | MIRKWOOD | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 5,
+        "Sv": "3+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "5+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Elven Hand-and-a-half Weapon"
+      ],
+      "options": [
+        "Elf Bow - 2 points",
+        "Elven Glaive - 2 points",
+        "Shield - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Elven Glaive",
+          "type": "ACTIVE",
+          "text": "This is an Elven spear. Additionally, a model armed with this weapon that is Engaged in Combat and is not being Supported may either gain a bonus of +1 Attacks for their Duel Roll, or +1 Attacks when making Strikes."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Battle of Five Armies army-list page. Full stat blocks, wargear, and special-rule text for Dwarf/Erebor/Iron Hills heroes and warriors from the Dwarven Holds faction page, Elves from the Elven Kingdoms faction page, Gandalf the Grey/Radagast the Brown/Gwaihir/Beorn from The Free Peoples faction page, and Bard/Lake-town/Dale entries from the Kingdoms of Men faction page. Note: the list page's stated cost for Bard the Bowman (150) is higher than his base cost on the faction page (130); this may already include the Exchange Great Bow for Armour and Horse option baked into the listed total."
+}

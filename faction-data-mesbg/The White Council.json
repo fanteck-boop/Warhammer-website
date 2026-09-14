@@ -1,0 +1,163 @@
+{
+  "legion": "The White Council",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/the_white_council/"
+  ],
+  "additionalRules": [
+    "A White Council Army is always deployed as a single Warband, with your General as the Warband's Captain.",
+    "Gandalf, Radagast and Elrond gain the White Council keyword."
+  ],
+  "specialRules": [
+    {
+      "name": "Council of the Wise",
+      "type": "",
+      "text": "Each friendly White Council model gains the special rule associated with them as listed below:"
+    },
+    {
+      "name": "Masters of Magic",
+      "type": "",
+      "text": "Friendly White Council models may still be Activated whilst Engaged in Combat (though they still may not Move), and therefore may attempt to Cast Magical Powers whilst Engaged in Combat, with the exception of the following Magical Powers: Nature's Wrath, Sorcerous Blast, Wrath of Bruinen."
+    },
+    {
+      "name": "\"Are you in need of assistance?\"",
+      "type": "",
+      "text": "Friendly White Council models gain a bonus of +1 to any Resist Tests whilst within 6\" of another friendly White Council model."
+    },
+    {
+      "name": "Last Stand of the Council",
+      "type": "",
+      "text": "Friendly White Council models gain the Dominant (3) special rule."
+    }
+  ],
+  "units": [
+    {
+      "name": "Elrond",
+      "points": 170,
+      "heroicTier": "Hero of Legend",
+      "keywords": "ELF | RIVENDELL | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "3+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Saruman",
+      "points": 170,
+      "heroicTier": "Hero of Legend",
+      "keywords": "WIZARD | WHITE COUNCIL | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "6",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Galadriel, Lady of Light",
+      "points": 125,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF | WHITE COUNCIL | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "3",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "6",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Gandalf the Grey",
+      "points": 170,
+      "heroicTier": "Hero of Valour",
+      "keywords": "WIZARD | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "6",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Radagast the Brown",
+      "points": 145,
+      "heroicTier": "Hero of Valour",
+      "keywords": "WIZARD | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "6",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Radagast's Sleigh - 35 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Thrain the Broken",
+      "points": 10,
+      "heroicTier": "Independent Hero",
+      "keywords": "DWARF | EREBOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "2",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "6+",
+        "Might": "0",
+        "Will": "0",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub The White Council army-list page. Stat blocks and keywords cross-referenced from the Forces of Good faction pages on the same site."
+}

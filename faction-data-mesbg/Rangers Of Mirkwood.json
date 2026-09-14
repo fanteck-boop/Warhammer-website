@@ -1,0 +1,413 @@
+{
+  "legion": "Rangers Of Mirkwood",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/rangers_of_mirkwood/"
+  ],
+  "additionalRules": [
+    "A Rangers of Mirkwood Army must include at least one Unique Elf Hero.",
+    "If your Army includes Legolas, then he must be your General. If your Army includes Tauriel, but does not include Legolas, then she must be your General.",
+    "Mirkwood Rangers may only be included in the Warbands of Mirkwood Hero models.",
+    "Mirkwood Rangers do not count towards this Army's Bow Limit."
+  ],
+  "specialRules": [
+    {
+      "name": "Knife Mastery",
+      "type": "",
+      "text": "Friendly Elf models may re-roll To Wound Rolls of a natural 1 when making Strikes. Additionally, friendly Elf models may use the Shielding special rule, however, they cannot use their Knife Fighters or Blade Mistress special rules in a turn in which they elect to Shield."
+    },
+    {
+      "name": "The Prince of Mirkwood",
+      "type": "",
+      "text": "Legolas gains the Knife Fighters special rule - If Outnumbered in Combat, then before making his Duel roll, Legolas gains +1 Attack for each model he is Engaged in Combat with, after the first, up to a maximum of 3 bonus Attacks. This bonus lasts until the end of the Combat."
+    },
+    {
+      "name": "Dwarven Resilience",
+      "type": "",
+      "text": "Friendly Dwarf models may re-roll failed Fate Rolls."
+    },
+    {
+      "name": "Clear the Nests",
+      "type": "",
+      "text": "Friendly models gain the Hatred (Spider) special rule."
+    },
+    {
+      "name": "\"If you think I'm giving you a weapon Dwarf, you are sorely mistaken\"",
+      "type": "",
+      "text": "Friendly Dwarf models cannot benefit from the Heroic Actions or Stand Fast of friendly Elf models and friendly Elf models cannot benefit from the Heroic Actions or Stand Fast of friendly Dwarf models. Additionally, Tauriel's Vengeful Fury special rule does not apply in this Army List."
+    }
+  ],
+  "units": [
+    {
+      "name": "Balin the Dwarf",
+      "points": 40,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "2",
+        "C": "4+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Dwalin the Dwarf",
+      "points": 95,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "5",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Fili the Dwarf",
+      "points": 50,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Kili the Dwarf",
+      "points": 50,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Legolas Greenleaf, Prince of Mirkwood",
+      "points": 105,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF | MIRKWOOD | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "2+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Elven cloak - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Tauriel, Ranger of Mirkwood",
+      "points": 90,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF | MIRKWOOD | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Elf bow - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Thorin Oakenshield",
+      "points": 110,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "The Oakenshield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Bifur the Dwarf",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Bilbo Baggins",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "HOBBIT | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Bofur the Dwarf",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Bombur the Dwarf",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "3",
+        "C": "6+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Dori the Dwarf",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Gloin the Dwarf",
+      "points": 85,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Mirkwood Ranger Captain",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF | MIRKWOOD | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Nori the Dwarf",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Oin the Dwarf",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "4+",
+        "Might": "1",
+        "Will": "5",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Ori the Dwarf",
+      "points": 40,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "6+",
+        "Might": "1",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Mirkwood Ranger",
+      "points": 14,
+      "keywords": "ELF | MIRKWOOD | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Rangers Of Mirkwood army-list page. Stat blocks and keywords cross-referenced from the Forces of Good faction pages on the same site."
+}

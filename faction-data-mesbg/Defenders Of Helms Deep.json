@@ -1,0 +1,312 @@
+{
+  "legion": "Defenders Of Helms Deep",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/defenders_of_helms_deep/"
+  ],
+  "additionalRules": [
+    "A Defenders of Helm's Deep Army must include Théoden, King of Rohan, who is always the Army's General.",
+    "Only a maximum of 33% of the models in this Army may have the Lothlórien keyword."
+  ],
+  "specialRules": [
+    {
+      "name": "Allies 'til the End",
+      "type": "",
+      "text": "Haldir treats both Aragorn and Théoden as a banner with a range of 6\". Additionally, whilst within 6\" of either Aragorn or Théoden, Haldir automatically passes all Courage Tests and may re-roll failed To Wound Rolls when making Strikes."
+    },
+    {
+      "name": "\"Fall Back to the Keep!\"",
+      "type": "",
+      "text": "If this Army is Broken, friendly Warrior models gain a bonus of +1 to any Courage Tests they are required to take. Additionally, if this Army is Broken, friendly Warrior models within 6\" of Théoden may re-roll failed Courage Tests."
+    },
+    {
+      "name": "\"Give them a Volley\"",
+      "type": "",
+      "text": "Friendly models increase the range of their shooting attacks by 6\", provided they have not moved that turn. This special rule does not apply to throwing weapons."
+    }
+  ],
+  "units": [
+    {
+      "name": "Theoden",
+      "points": 80,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN | ROHAN | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Shield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Aragorn, Strider",
+      "points": 165,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | FELLOWSHIP, DUNEDAIN | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Gimli",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF | FELLOWSHIP | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Haldir, Galadhrim Captain",
+      "points": 85,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF | LOTHLORIEN | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Elven cloak - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Legolas",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF | FELLOWSHIP | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "2+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Armour - 5 points",
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Captain of Rohan",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | ROHAN | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Exchange armour for heavy armour - 5 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Galadhrim Captain",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF | LOTHLORIEN | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Elf bow - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Gamling",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | ROHAN | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Royal Standard of Rohan - 40 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "King's Huntsman",
+      "points": 55,
+      "heroicTier": "Minor Hero",
+      "keywords": "MAN | ROHAN | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Aldor",
+      "points": 20,
+      "heroicTier": "Independent Hero",
+      "keywords": "MAN | ROHAN | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "1",
+        "C": "7+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Haleth, Son of Hama",
+      "points": 30,
+      "heroicTier": "Independent Hero",
+      "keywords": "MAN | ROHAN | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "4+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "6+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Galadhrim Warrior",
+      "points": 9,
+      "keywords": "ELF | LOTHLORIEN | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "War horn and Elf bow - 27 points",
+        "Banner - 25 points",
+        "Elf bow - 2 points",
+        "Shield and Elven spear - 2 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Rohan Royal Guard",
+      "points": 11,
+      "keywords": "MAN | ROHAN | WARRIOR, INFANTRY, ELITE | 25MM",
+      "profile": {},
+      "wargear": [
+        "Throwing spears - 2 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Warrior of Rohan",
+      "points": 6,
+      "keywords": "MAN | ROHAN | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "War horn, shield, throwing spears - 28 points",
+        "Banner - 25 points",
+        "Shield and throwing spears - 3 points"
+      ],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Defenders Of Helms Deep army-list page. Stat blocks and keywords cross-referenced from the Forces of Good faction pages on the same site."
+}

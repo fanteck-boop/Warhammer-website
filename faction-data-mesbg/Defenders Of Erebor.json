@@ -1,0 +1,331 @@
+{
+  "legion": "Defenders Of Erebor",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/defenders_of_erebor/"
+  ],
+  "additionalRules": [
+    "A Defenders of Erebor Army must always include at least one Unique Erebor Hero, and at least one Unique Dale Hero.",
+    "Erebor Warrior models can only be included in the Warband of a Erebor Hero.",
+    "Dale Warrior models can only be included in the Warband of a Dale Hero.",
+    "Any models with the Iron Hills keyword replace it with the Erebor keyword."
+  ],
+  "specialRules": [
+    {
+      "name": "Long-standing Alliance",
+      "type": "",
+      "text": "Friendly Dale models within 1\" of a friendly Erebor model may re-roll To Wound Rolls of a natural 1 when making Strikes. Friendly Erebor models within 1\" of a friendly Dale model may re-roll To Wound Rolls of a natural 1 when making Strikes."
+    },
+    {
+      "name": "A Bond Forged in War",
+      "type": "",
+      "text": "At the beginning of the Fight Phase, at the start of the Declare Heroic Actions step, if either Dáin or Brand would be considered Trapped then the other may declare a Heroic Combat for free. If this Heroic Combat is successful, then Dáin or Brand must use the following Move to join the other's Combat. If this is not possible, then Dáin or Brand must Move as close as possible to the other. A model cannot use this special rule if they are in the same Combat as the other."
+    },
+    {
+      "name": "The Heirs to the Kingdoms",
+      "type": "",
+      "text": "At the beginning of the Fight Phase, at the start of the Declare Heroic Actions step, if either Thorin or Bard would be considered Trapped then the other may declare a Herolc Combat for free. If this Heroic Combat is successful, then Thorin or Bard must use the following Move to Join the other's Combat. If this is not possible, then Thorin or Bard must Move as close as possible to the other. A model cannot use this special rule if they are in the same Combat as the other."
+    },
+    {
+      "name": "Royal Bloodlines",
+      "type": "",
+      "text": "Friendly models treat each of Dáin, Thorin, Brand and Bard as a banner."
+    }
+  ],
+  "units": [
+    {
+      "name": "Brand, King of Dale",
+      "points": 110,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN | DALE | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "5+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Dain Ironfoot, King Under the Mountain",
+      "points": 130,
+      "heroicTier": "Hero of Legend",
+      "keywords": "DWARF | EREBOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Bard II, Prince of Dale",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | DALE | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Dwalin the Dwarf, Champion of Erebor",
+      "points": 110,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF | EREBOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "5",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Thorin III Stonehelm",
+      "points": 110,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF | EREBOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "9",
+        "A": "3",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Bifur the Dwarf, Champion of Erebor",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | EREBOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "1",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Bofur the Dwarf, Champion of Erebor",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | EREBOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Captain of Dale",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | DALE | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Dori the Dwarf, Champion of Erebor",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | EREBOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Gloin the Dwarf, Champion of Erebor",
+      "points": 100,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | EREBOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "3",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Iron Hills Captain",
+      "points": 80,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | IRON HILLS | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Nori the Dwarf, Champion of Erebor",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | EREBOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "9",
+        "A": "3",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Iron Hills Goat Rider",
+      "points": 20,
+      "keywords": "DWARF | IRON HILLS | WARRIOR, CAVALRY | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Iron Hills Warrior",
+      "points": 10,
+      "keywords": "DWARF | IRON HILLS | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "Banner and shield - 26 points",
+        "Banner - 25 points",
+        "Shield and spear - 2 points",
+        "Crossbow - 2 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Knight of Dale",
+      "points": 11,
+      "keywords": "MAN | DALE | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Warrior of Dale",
+      "points": 7,
+      "keywords": "MAN | DALE | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "War horn - 25 points",
+        "Banner - 25 points",
+        "Esgaroth bow - 2 points",
+        "Shield and spear - 2 points"
+      ],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Defenders Of Erebor army-list page. Stat blocks and keywords cross-referenced from the Forces of Good faction pages on the same site."
+}

@@ -1,0 +1,77 @@
+{
+  "legion": "The Beornings",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/the_beornings/"
+  ],
+  "additionalRules": [],
+  "specialRules": [
+    {
+      "name": "Great Resilience",
+      "type": "",
+      "text": "Whenever a friendly Bear model suffers a Wound, roll a D6.On the roll of a natural 6, the Wound is ignored."
+    },
+    {
+      "name": "Natural Resistance",
+      "type": "",
+      "text": "Friendly models gain the Resistant to Magic special rule."
+    },
+    {
+      "name": "Ursine Fury",
+      "type": "",
+      "text": "At the beginning of each Move Phase, before the Declare Heroic Action step, you may roll a D6 for each friendly Bear model you have on the battlefield. If any of the D6 roll a natural 6, then for the duration of the turn enemy models suffer a -1 penalty to any Courage Tests they are required to take as a result of trying to Charge a model with the Terror special rule."
+    }
+  ],
+  "units": [
+    {
+      "name": "Beorn",
+      "points": 200,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN | BEORNING | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "5",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Grimbeorn",
+      "points": 200,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | BEORNING | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "5",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Beorning",
+      "points": 20,
+      "keywords": "MAN | BEORNING | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub The Beornings army-list page. Stat blocks and keywords cross-referenced from the Forces of Good faction pages on the same site."
+}

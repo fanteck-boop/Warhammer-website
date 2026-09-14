@@ -1,0 +1,933 @@
+{
+  "legion": "The Shire",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/the_shire/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/the_free_peoples/"
+  ],
+  "additionalRules": [
+    "When writing an Army List for The Shire, if the Army contains only Hero models a player can either have models in a single Warband or as multiple smaller warbands as normal."
+  ],
+  "specialRules": [
+    {
+      "name": "Bilbo's Magic Ring",
+      "type": "",
+      "text": "In this Army List, Bilbo carries the One Ring instead of Frodo."
+    },
+    {
+      "name": "\"This'll be a night to remember\"",
+      "type": "",
+      "text": "Friendly models may re-roll failed Courage Tests. Additionally, friendly models cannot have their Courage Tests reduced by the special rules or Magical Powers of enemy models."
+    },
+    {
+      "name": "The Grey Wizard",
+      "type": "",
+      "text": "Friendly models may benefit from Gandalf's Stand Fast. Additionally, Gandalf may use two fireworks each Shoot Phase rather than one, though they must be different fireworks and target different models."
+    },
+    {
+      "name": "A Long-expected Party",
+      "type": "",
+      "text": "Friendly models will pass a Fate Roll on a 3+ rather than a 4+. Additionally, friendly models may re-roll failed Fate Rolls."
+    }
+  ],
+  "units": [
+    {
+      "name": "Gandalf the Grey",
+      "points": 170,
+      "heroicTier": "Hero of Legend",
+      "keywords": "WIZARD, FELLOWSHIP, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "6",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Staff of Power",
+        "Glamdring",
+        "Narya",
+        "Gandalf's Cart"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Channelling",
+        "Heroic Strike",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [
+        "Protection of the Valar (6\", 3+)",
+        "Terrifying Aura (Self, 3+)",
+        "Blinding Light (Self, 4+)",
+        "Strengthen Will (12\", 4+)",
+        "Transfix (12\", 4+)",
+        "Collapse Rocks (12\", 5+)",
+        "Foil Magic (12\", 5+)",
+        "Sorcerous Blast (12\", 5+)"
+      ],
+      "specialRules": [
+        {
+          "name": "Glamdring",
+          "type": "ACTIVE",
+          "text": "This is a Unique Elven hand-and-a-half weapon. A model gains a bonus of +1 to their Strength when making Strikes with Glamdring."
+        },
+        {
+          "name": "Narya",
+          "type": "PASSIVE",
+          "text": "This is a Unique piece of Wargear. Gandalf may re-roll any failed Fate Rolls."
+        },
+        {
+          "name": "Gandalf's Rockets",
+          "type": "ACTIVE",
+          "text": "At the start of every friendly Shoot Phase, Gandalf may select a firework, choose one enemy model he has Line of Sight to within 6\" of his cart, and roll a D6. On a 2+, the chosen model suffers the effect of the firework. No In The Way Rolls are required."
+        }
+      ]
+    },
+    {
+      "name": "Bilbo Baggins, Ageing Hobbit",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "HOBBIT, SHIRE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "2",
+        "A": "1",
+        "W": "2",
+        "C": "4+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "The One Ring",
+        "Mithril Coat",
+        "Sting"
+      ],
+      "heroicActions": [
+        "Heroic Resolve"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Mithril Coat",
+          "type": "PASSIVE",
+          "text": "This is a Unique piece of Mithril armour. The wearer may re-roll Fate rolls of a 1."
+        },
+        {
+          "name": "Sting",
+          "type": "ACTIVE",
+          "text": "This is a Unique Elven hand weapon. A model gains a bonus of +1 to their Strength when making Strikes with Sting."
+        },
+        {
+          "name": "Slip Away",
+          "type": "PASSIVE",
+          "text": "Whilst Bilbo is wearing the One Ring and is Invisible, enemy models Engaged in Combat with Bilbo will halve their Fight Value even if there are other models friendly to Bilbo Engaged in the same Combat."
+        }
+      ]
+    },
+    {
+      "name": "Farmer Maggot",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "HOBBIT, SHIRE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "3",
+        "D": "3",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "1",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Two-handed Weapon",
+        "Grip, Fang and Wolf"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Get out of my fields!",
+          "type": "ACTIVE",
+          "text": "Whilst within range of an Objective Marker, Farmer Maggot does not suffer the -1 penalty to his Duel rolls for using a two-handed weapon."
+        },
+        {
+          "name": "Loyal Hounds",
+          "type": "PASSIVE",
+          "text": "Grip, Fang and Wolf will always use Farmer Maggot's Courage characteristic whilst he is alive and on the battlefield. They treat Farmer Maggot as a banner with a range of 6\", and may re-roll failed To Wound Rolls whilst within 6\" of him."
+        }
+      ]
+    },
+    {
+      "name": "Farmer Tolman Cotton",
+      "points": 35,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "HOBBIT, SHIRE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "2",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Pitchfork"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Pitchfork",
+          "type": "PASSIVE",
+          "text": "A Pitchfork can either be used as a spear or a two-handed weapon."
+        },
+        {
+          "name": "\"This is our Country\"",
+          "type": "PASSIVE",
+          "text": "Friendly Hobbit models within 3\" of Farmer Cotton may re-roll any rolls of a 1 when making a Duel Roll."
+        }
+      ]
+    },
+    {
+      "name": "Frodo Baggins",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "HOBBIT, FELLOWSHIP, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "The One Ring"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Mithril Coat - 15 points",
+        "Sting - 5 points",
+        "Elven Cloak - Free"
+      ],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Hamfast 'Gaffer' Gamgee",
+      "points": 35,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "HOBBIT, SHIRE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "2",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "2",
+        "C": "5+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Leave my Flowers Alone!",
+          "type": "PASSIVE",
+          "text": "After both sides have deployed, Hamfast's controlling player may place three 25mm Flower Markers anywhere on the board. Friendly Hobbit models may re-roll failed To Wound Rolls when Striking or shooting at an enemy model within 3\" of a friendly Flower Marker; Hamfast gains +1 To Wound in the same circumstance."
+        }
+      ]
+    },
+    {
+      "name": "Paladin Took, Thain of the Shire",
+      "points": 30,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "HOBBIT, SHIRE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "2",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "2",
+        "C": "6+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "To me, Shire-folk!",
+          "type": "ACTIVE",
+          "text": "Paladin's Stand Fast has a range of 12\"; however, only friendly Hobbit models may benefit from Paladin's Stand Fast."
+        },
+        {
+          "name": "For Tuckborough!",
+          "type": "PASSIVE",
+          "text": "Friendly Tookish Hunters within 6\" of Paladin gain a bonus of +1 To Wound when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Samwise Gamgee",
+      "points": 40,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "HOBBIT, FELLOWSHIP, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Frying Pan"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Elven Cloak - Free"
+      ],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Frying Pan",
+          "type": "ACTIVE",
+          "text": "Instead of making Strikes if he wins a Duel Roll, Sam may use his Frying Pan: choose one enemy Infantry model involved in the Combat and roll a D6. On a 4+, the chosen model is stunned and cannot Move during the following turn."
+        }
+      ]
+    },
+    {
+      "name": "Will Whitfoot, Mayor of Michel Delving",
+      "points": 40,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "HOBBIT, SHIRE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "2",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "2",
+        "C": "6+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Resolve"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Leader (Hobbit Shirriff)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Mayor of Michel Delving",
+          "type": "ACTIVE",
+          "text": "At the beginning of a Fight Phase, Will Whitfoot can spend a Will Point to give friendly Hobbit Warrior models within 3\" a bonus of +1 to their Fight Value until the End Phase of the turn."
+        }
+      ]
+    },
+    {
+      "name": "Lotho Sackville-Baggins",
+      "points": 30,
+      "heroicTier": "Minor Hero",
+      "keywords": "HOBBIT, SHIRE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "2",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "1",
+        "C": "6+",
+        "Might": "1",
+        "Will": "4",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Family Rivalry",
+          "type": "PASSIVE",
+          "text": "Lotho may not take part in any Heroic Actions declared by either Bilbo Baggins or Frodo Baggins."
+        },
+        {
+          "name": "Considerable Wealth",
+          "type": "ACTIVE",
+          "text": "Lotho may spend his Will Points to grant friendly Hobbits within 3\" +1 Fight Value, friendly Ruffians within 3\" Fearless, or force a Charging enemy model to stop 1\" away on a D6 roll of 2+."
+        }
+      ]
+    },
+    {
+      "name": "Folco Boffin",
+      "points": 25,
+      "heroicTier": "Independent Hero",
+      "keywords": "HOBBIT, SHIRE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "2",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "1",
+        "C": "7+",
+        "Might": "0",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Unarmed"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader."
+        },
+        {
+          "name": "High Spirits",
+          "type": "PASSIVE",
+          "text": "Whenever a friendly Hobbit model within 6\" of Folco spends a Might Point, they may roll a D6. On a natural 6, the Might Point spent is free."
+        },
+        {
+          "name": "A Helpful Sort",
+          "type": "ACTIVE",
+          "text": "If Folco is within 3\" of Frodo, then Frodo can spend Folco's Will Points to declare a Heroic Move instead of using one of his own Might Points."
+        }
+      ]
+    },
+    {
+      "name": "Fredegar 'Fatty' Bolger",
+      "points": 10,
+      "heroicTier": "Independent Hero",
+      "keywords": "HOBBIT, SHIRE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "2",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "2",
+        "C": "7+",
+        "Might": "0",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Unarmed"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Dominant (2)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader."
+        },
+        {
+          "name": "Live to fight another day",
+          "type": "PASSIVE",
+          "text": "If Fredegar attempts to Charge an enemy model with the Terror special rule and fails the Courage Test, then Fredegar may still Move as normal; however, he may not Charge any model that turn."
+        }
+      ]
+    },
+    {
+      "name": "Lobelia Sackville-Baggins",
+      "points": 20,
+      "heroicTier": "Independent Hero",
+      "keywords": "HOBBIT, SHIRE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "2",
+        "Sv": "3+",
+        "S": "2",
+        "D": "2",
+        "A": "1",
+        "W": "1",
+        "C": "4+",
+        "Might": "0",
+        "Will": "4",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Umbrella"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader."
+        },
+        {
+          "name": "Umbrella",
+          "type": "ACTIVE",
+          "text": "This is a hand weapon. If Lobelia wins a Combat she may not make Strikes."
+        },
+        {
+          "name": "Furious Tirade",
+          "type": "ACTIVE",
+          "text": "Enemy Warrior models cannot benefit from a Hero model's Stand Fast whilst within 6\" of Lobelia."
+        },
+        {
+          "name": "A Stern Scolding",
+          "type": "ACTIVE",
+          "text": "Once per turn, Lobelia can spend a Will Point: choose an enemy model within 6\" and Line of Sight and roll a D6. On a 2+, the chosen model cannot Activate this turn and treats its Attacks as 1 if it fights that turn."
+        }
+      ]
+    },
+    {
+      "name": "Meriadoc Brandybuck",
+      "points": 10,
+      "heroicTier": "Independent Hero",
+      "keywords": "HOBBIT, SHIRE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "1",
+        "C": "6+",
+        "Might": "0",
+        "Will": "0",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "options": [
+        "Elven Cloak - Free"
+      ],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader."
+        },
+        {
+          "name": "For the Shire!",
+          "type": "ACTIVE",
+          "text": "Whilst within 3\" of Boromir of Gondor, Merry may spend Boromir's Might Points as if they were his own."
+        }
+      ]
+    },
+    {
+      "name": "Peregrin Took",
+      "points": 10,
+      "heroicTier": "Independent Hero",
+      "keywords": "HOBBIT, SHIRE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "1",
+        "C": "7+",
+        "Might": "0",
+        "Will": "0",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "options": [
+        "Elven Cloak - Free"
+      ],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader."
+        },
+        {
+          "name": "For the Shire!",
+          "type": "ACTIVE",
+          "text": "Whilst within 3\" of Boromir of Gondor, Pippin may spend Boromir's Might Points as if they were his own."
+        }
+      ]
+    },
+    {
+      "name": "Rosie Cotton",
+      "points": 20,
+      "heroicTier": "Independent Hero",
+      "keywords": "HOBBIT, SHIRE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "1",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "1",
+        "C": "7+",
+        "Might": "0",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Unarmed"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Fearful",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader."
+        },
+        {
+          "name": "\"If I were to marry anyone, it would've been her\"",
+          "type": "PASSIVE",
+          "text": "Whilst Sam is within 3\" of Rosie, Sam may re-roll any failed To Wound Rolls when making Strikes."
+        },
+        {
+          "name": "\"Sweet Maiden of the Golden Ale\"",
+          "type": "PASSIVE",
+          "text": "Friendly Hobbit models treat Rosie Cotton as a banner with a range of 6\". Additionally, so long as she is alive, Rosie will also count as a banner for Victory Points purposes."
+        }
+      ]
+    },
+    {
+      "name": "Hobbit Archer",
+      "points": 5,
+      "keywords": "HOBBIT | SHIRE | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": 2,
+        "Sv": "3+",
+        "S": 2,
+        "D": 3,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Short Bow"
+      ],
+      "options": [
+        "War Horn - 25 points",
+        "Tookish Hunters - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Hobbit Militia",
+      "points": 4,
+      "keywords": "HOBBIT | SHIRE | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": 1,
+        "Sv": "3+",
+        "S": 2,
+        "D": 3,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "options": [
+        "Battlin' Brandybucks - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Hobbit Shirriff",
+      "points": 5,
+      "keywords": "HOBBIT | SHIRE | WARRIOR, INFANTRY, ELITE | 25MM",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": 3,
+        "Sv": "3+",
+        "S": 2,
+        "D": 3,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Hand-and-a-half Weapon"
+      ],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub The Shire army-list page. Full stat blocks, wargear, and special-rule text for all units from The Free Peoples faction page."
+}

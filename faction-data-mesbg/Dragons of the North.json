@@ -1,0 +1,122 @@
+{
+  "legion": "Dragons of the North",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/dragons_of_the_north/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/the_misty_mountains/"
+  ],
+  "additionalRules": [
+    "A Dragons of the North Army must always contain a Dragon as the Army's General."
+  ],
+  "specialRules": [
+    {
+      "name": "The Dragons' Hoard",
+      "type": "",
+      "text": "Each time a friendly model slays an enemy model in Combat they may roll a D6. On a natural 6, they have located some gold upon the body of the fallen and claimed it for themselves - keep a note of how much gold each model claims in this way. Friendly models gain the following benefits depending on how much gold they have collected, cumulatively: 1 gold - re-roll a single To Wound Roll when making Strikes. 2-3 gold - re-roll a single D6 during a Duel Roll. 4-5 gold - gains the Fearless special rule. 6+ gold - at the end of the game, their controlling player will gain an additional 1 Victory Point. This can never take this Army's total number of Victory Points above 20."
+    },
+    {
+      "name": "Beast of Legend",
+      "type": "",
+      "text": "The Dragon that is your General may select up to three options rather than the usual two."
+    },
+    {
+      "name": "Supreme Jealousy",
+      "type": "",
+      "text": "Each Dragon in your Army must have a different combination of options. Dragons that have no options do not count for the purpose of this special rule."
+    }
+  ],
+  "units": [
+    {
+      "name": "Dragon",
+      "points": 200,
+      "heroicTier": "Hero of Legend",
+      "keywords": "DRAGON, MORIA, HERO, INFANTRY, MONSTER",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "8",
+        "Sv": "2+",
+        "S": "7",
+        "D": "7",
+        "A": "4",
+        "W": "7",
+        "C": "6+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Claws and Teeth (hand weapons)"
+      ],
+      "heroicActions": [
+        "Heroic Channelling",
+        "Heroic Resolve",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [
+        "Compel - 12\" - 3+",
+        "Transfix - 12\" - 3+",
+        "Foil Magic - 12\" - 4+"
+      ],
+      "options": [
+        "Breathe Fire - 50 points",
+        "Fly - 50 points",
+        "Superior Intellect - 50 points",
+        "Tough Hide - 50 points",
+        "Wyrm Magic - 50 points"
+      ],
+      "specialRules": [
+        { "name": "Dominant (5)", "type": "", "text": "" },
+        { "name": "Harbinger of Evil (12\")", "type": "", "text": "" },
+        { "name": "Large Target", "type": "", "text": "" },
+        { "name": "Monstrous Charge", "type": "", "text": "" },
+        { "name": "Resistant to Magic", "type": "", "text": "" },
+        { "name": "Survival Instinct", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Breathe Fire", "type": "ACTIVE", "text": "The Dragon can Breathe Fire as a shooting attack during the Shoot Phase; treat this as a bow with a range of 12\". If the shot hits, then the model that is hit suffers a Strength 10 hit and if they suffer a Wound from this hit, which is not prevented, they are automatically slain. Additionally, all other models (friend and foe) within 2\" are immediately Set Ablaze - though they will not be automatically slain if wounded. This is a fire-based attack." },
+        { "name": "Fly", "type": "ACTIVE", "text": "The Dragon gains the Fly special rule and increases its Move Value to 12\" whilst using the Fly special rule." },
+        { "name": "Superior Intellect", "type": "PASSIVE", "text": "The Dragon automatically passes any Intelligence Tests it is required to take. Additionally, each time the Dragon spends a Might Point, roll a D6. On a 4+, the Might Point is free and does not reduce the Dragon's store of Might." },
+        { "name": "Tough Hide", "type": "PASSIVE", "text": "The Dragon increases its Wounds and Defence to 9 each." },
+        { "name": "Wyrm Magic", "type": "ACTIVE", "text": "The Dragon gains a free Will Point at the start of each turn. If this free Will Point is not spent by the end of the turn, it is lost. The Dragon may also cast the Magical Powers shown on its profile." }
+      ]
+    },
+    {
+      "name": "Cave Drake",
+      "points": 150,
+      "heroicTier": "Minor Hero",
+      "keywords": "DRAKE, MORIA, HERO, INFANTRY, MONSTER, BEAST",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": "7",
+        "Sv": "5+",
+        "S": "7",
+        "D": "7",
+        "A": "4",
+        "W": "6",
+        "C": "7+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Claws and Teeth (hand weapons)"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" },
+        { "name": "Dominant (4)", "type": "", "text": "" },
+        { "name": "Large Target", "type": "", "text": "" },
+        { "name": "Monstrous Charge", "type": "", "text": "" },
+        { "name": "Mountain Dweller", "type": "", "text": "" },
+        { "name": "Resistant to Magic", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Woodland Creature", "type": "", "text": "" },
+        { "name": "Protect the Nest", "type": "ACTIVE", "text": "At the beginning of the game, after both sides have deployed, you may place a single 25mm Nest Marker anywhere on the board. Whilst within 3\" of a friendly Nest Marker, a Cave Drake has the Fearless special rule." },
+        { "name": "Cornered Beast", "type": "ACTIVE", "text": "If a Cave Drake loses a Duel Roll and is Trapped, then after any Strikes have been made against it the Cave Drake will lash out. When a Cave Drake lashes out, any models (friend or foe) that were Engaged in Combat with it, or are within 1\" of it, will immediately suffer a Strength 4 hit." },
+        { "name": "Gaping Maw", "type": "BRUTAL POWER ATTACK", "text": "Instead of making Strikes, a Cave Drake may choose a single enemy model on a 25mm base that was involved in the same combat and roll a D6. On a 2+, the chosen model suffers a Wound and, if this Wound is not prevented, the model is swallowed whole and removed as a Casualty. If the Cave Drake slays a model with this Brutal Power Attack, they may immediately regain a Wound lost earlier in the battle." }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Dragons of the North army-list page (this list allows multiple Dragons, each independently equipped from its options list). Full stat blocks, wargear, and special-rule text from the Misty Mountains faction page."
+}

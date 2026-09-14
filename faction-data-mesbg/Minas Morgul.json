@@ -1,0 +1,485 @@
+{
+  "legion": "Minas Morgul",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/minas_morgul/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/mordor/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/evil_legacy/"
+  ],
+  "additionalRules": [
+    "A Minas Morgul Army must always contain the Witch-king of Angmar, who is always the Army's General."
+  ],
+  "specialRules": [
+    {
+      "name": "The Dead City",
+      "type": "",
+      "text": "Mordor Orc Captains and Mordor Orc Warriors gain the Blades of the Dead special rule."
+    },
+    {
+      "name": "Call of Morgul",
+      "type": "",
+      "text": "If the enemy Army contains a Ringbearer they will suffer a penalty when rolling for Sauron's Will."
+    },
+    {
+      "name": "Lead through fear",
+      "type": "",
+      "text": "Friendly Orc models within 3\" of a friendly Spirit model automatically pass Courage Tests when attempting to Charge a model with the Terror special rule."
+    }
+  ],
+  "units": [
+    {
+      "name": "The Witch-king of Angmar",
+      "points": 150,
+      "heroicTier": "Hero of Legend",
+      "keywords": "SPIRIT, RINGWRAITH, MORDOR, ANGMAR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "3",
+        "W": "1",
+        "C": "4+",
+        "Might": "3",
+        "Will": "18",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Sword"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Channelling",
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [
+        "Compel (12\", 3+)",
+        "Transfix (12\", 3+)",
+        "Drain Courage (12\", 4+)",
+        "Enchant Blades (12\", 4+)",
+        "Black Dart (6\", 5+)",
+        "[Instill Fear] (Self, 5+)",
+        "Your Staff is Broken (12\", 5+)"
+      ],
+      "options": [
+        "This build uses the 3 Attacks / 3 Might / 18 Will / 3 Fate option (150 points)",
+        "Armoured Fell Beast - 70 points",
+        "Fell Beast - 50 points",
+        "Crown of Morgul - 25 points",
+        "Horse - 20 points",
+        "Morgul Blade - 10 points",
+        "Two-handed Weapon - 5 points"
+      ],
+      "specialRules": [
+        { "name": "Harbinger of Evil (12\")", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Will of Evil", "type": "", "text": "" },
+        { "name": "Morgul Blade", "type": "ACTIVE", "text": "This is a hand weapon. Once per game, a model with a Morgul Blade can use it during a Combat instead of their normal hand weapon; this must be declared before Strikes are made. If they do, all their Strikes must be resolved against a single enemy model, and if the target suffers a Wound that is not prevented in some way, they will immediately lose all remaining Wounds and be removed as a casualty. If the model using the Morgul Blade is mounted, they must use the Strength and Attacks of the rider rather than their Mount." },
+        { "name": "Crown of Morgul", "type": "PASSIVE", "text": "This is a Unique piece of Wargear. Whilst wearing the Crown of Morgul, enemy models within 6\" of the Witch-king, or attempting to Charge the Witch-king, cannot benefit from special rules that would allow them to automatically pass Courage Tests, with the exception of Heroic Resolve. Additionally, once per game, at the start of any Fight Phase, the Witch-king can imbue its great power to ignite his hand weapon - until the end of the turn, any model that suffers a Wound from a Strike made by the Witch-king is Set Ablaze." }
+      ]
+    },
+    {
+      "name": "Ringwraith",
+      "points": 90,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH, MORDOR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "1",
+        "C": "4+",
+        "Might": "1",
+        "Will": "10",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Sword"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Compel (12\", 3+)",
+        "Transfix (12\", 3+)",
+        "Drain Courage (12\", 4+)",
+        "Black Dart (6\", 5+)",
+        "[Instill Fear] (Self, 6+)"
+      ],
+      "options": [
+        "This build uses the 2 Attacks / 1 Might / 10 Will / 1 Fate option (90 points)",
+        "Armoured Fell Beast - 70 points",
+        "Fell Beast - 50 points",
+        "Horse - 20 points",
+        "Morgul Blade - 10 points"
+      ],
+      "specialRules": [
+        { "name": "Harbinger of Evil (12\")", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Will of Evil", "type": "", "text": "" },
+        { "name": "Morgul Blade", "type": "ACTIVE", "text": "This is a hand weapon. Once per game, a model with a Morgul Blade can use it during a Combat instead of their normal hand weapon; this must be declared before Strikes are made. If they do, all their Strikes must be resolved against a single enemy model, and if the target suffers a Wound that is not prevented in some way, they will immediately lose all remaining Wounds and be removed as a casualty. If the model using the Morgul Blade is mounted, they must use the Strength and Attacks of the rider rather than their Mount." }
+      ]
+    },
+    {
+      "name": "Kardush the Firecaller",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "5+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Spear"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Flameburst (6\", 3+)",
+        "Fury (Mordor Orc) (Self, 3+)"
+      ],
+      "specialRules": [
+        { "name": "Shadow Pawn", "type": "PASSIVE", "text": "At the start of the Move Phase, before the Declare Heroic Actions step, Kardush's controlling player can choose to remove him from the battlefield as a casualty if he is within 6\" of a friendly Ringwraith. If they do, then a single friendly Ringwraith model within 6\" of where Kardush was immediately regains D6 Will Points spent earlier in the battle." },
+        { "name": "Heart of Darkness", "type": "ACTIVE", "text": "At the start of the Move Phase, before the Declare Heroic Actions step, Kardush can choose a single friendly Orc Warrior model within 6\" of himself. If he does, the chosen model is removed as a casualty and Kardush immediately regains D3 Will Points spent earlier in the battle." }
+      ]
+    },
+    {
+      "name": "Morannon Orc Captain",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "5",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Shield - 5 points",
+        "Two-handed Weapon - 5 points"
+      ],
+      "specialRules": [
+        { "name": "End the Race of Men", "type": "ACTIVE", "text": "Whilst Engaged in Combat with an enemy Man model, this model gains a bonus of +1 to their Fight Value." }
+      ]
+    },
+    {
+      "name": "Mordor Orc Captain",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Shield",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": []
+    },
+    {
+      "name": "Mordor Orc Taskmaster",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Whip"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Whip of the Masters", "type": "ACTIVE", "text": "Whenever a friendly Hero model within 6\" declares a Heroic Move, Heroic March or Heroic Shoot, roll a D6. On a 4+ the Hero does not spend the Might Point and the Heroic Action is free." }
+      ]
+    },
+    {
+      "name": "Mordor Orc Shaman",
+      "points": 50,
+      "heroicTier": "Minor Hero",
+      "keywords": "ORC, MORDOR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "5",
+        "A": "1",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Spear"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Fury (Mordor Orc) (Self, 3+)",
+        "Curse (12\", 4+)",
+        "Transfix (12\", 5+)"
+      ],
+      "options": [
+        "Warg - 20 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Mordor Orc Drummer",
+      "points": 30,
+      "heroicTier": "Independent Hero",
+      "keywords": "ORC, MORDOR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "1",
+        "C": "8+",
+        "Might": "0",
+        "Will": "0",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "War Drum (Mordor Orc)"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Independent Hero", "type": "", "text": "Independent Heroes may not lead troops and may not be the army's leader. They may, however, be included in another Hero model's warband as one of their followers." }
+      ]
+    },
+    {
+      "name": "Morannon Orc Warrior",
+      "points": 8,
+      "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 4,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Shield and Spear - 2 points",
+        "Shield - 1 point",
+        "Spear - 1 point"
+      ],
+      "specialRules": [
+        { "name": "End the Race of Men", "type": "ACTIVE", "text": "Whilst Engaged in Combat with an enemy Man model, this model gains a bonus of +1 to their Fight Value." },
+        { "name": "Blades of the Dead (The Dead City)", "type": "", "text": "Gained from the army-wide The Dead City special rule when included in a Minas Morgul Army List." }
+      ]
+    },
+    {
+      "name": "Mordor Orc Warrior",
+      "points": 5,
+      "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "5+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Orc Bow - 1 point",
+        "Shield - 1 point",
+        "Spear - 1 point",
+        "Two-handed Weapon - 1 point"
+      ],
+      "specialRules": [
+        { "name": "Blades of the Dead (The Dead City)", "type": "", "text": "Gained from the army-wide The Dead City special rule when included in a Minas Morgul Army List." }
+      ]
+    },
+    {
+      "name": "Mordor Troll",
+      "points": 90,
+      "keywords": "TROLL | MORDOR | WARRIOR, INFANTRY, MONSTER | 60MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 7,
+        "Sv": "5+",
+        "S": 7,
+        "D": 7,
+        "A": 3,
+        "W": 4,
+        "C": "6+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand-and-a-half Weapon"
+      ],
+      "options": [
+        "War Drum (Mordor) - 25 points"
+      ],
+      "specialRules": [
+        { "name": "Dominant (3)", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Throw Stones (range 12\", Strength 8)", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Morgul Stalker",
+      "points": 10,
+      "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "5+",
+        "S": 4,
+        "D": 4,
+        "A": 2,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "specialRules": [
+        { "name": "Stalk Unseen", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Orc Tracker",
+      "points": 6,
+      "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 3,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Orc Bow"
+      ],
+      "specialRules": [
+        { "name": "Mountain Dweller", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Spectre",
+      "points": 15,
+      "keywords": "SPIRIT | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 2,
+        "Sv": "6+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "4+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "specialRules": [
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Blades of the Dead", "type": "", "text": "" },
+        { "name": "Spectral Walk", "type": "", "text": "" },
+        { "name": "A Fell Light is in Them", "type": "ACTIVE", "text": "At the end of this model's Move, it can choose a single enemy model within 12\" and Line of Sight. The chosen model must take an Intelligence Test. If the test is failed, you may Move the chosen model up to its Move Value directly towards this model, even if it has already Moved that turn. The chosen model will stop Moving if it would enter the Control Zone of an enemy model (with the exception of this model), if it comes into contact with an Obstacle, another model or piece of impassable terrain, or if the model reaches the edge of a cliff or other such edge that would cause it to take falling damage. This Move cannot be used to Move a model out of Combat, make a model dismount, drop an item or Lie Down. However, if this Move would allow the chosen model to Charge this model, then this model may make them Charge. A model affected by this special rule cannot Move any further that turn, and may not use Active abilities." }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Minas Morgul army-list page. Full stat blocks from the Mordor faction page for the Witch-king, Ringwraith, and Mordor/Morannon Orc units, and from the Evil Legacy page for Kardush the Firecaller, Morgul Stalker and Orc Tracker. The Witch-king uses the 150-point (3A/3M/18Will/3F) build and the Ringwraith uses the 90-point (2A/1M/10Will/1F) build to match the list's stated points costs."
+}

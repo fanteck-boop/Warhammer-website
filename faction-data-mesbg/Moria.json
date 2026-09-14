@@ -1,0 +1,743 @@
+{
+  "legion": "Moria",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/moria/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/the_misty_mountains/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/gundabad_and_dol_guldur/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/evil_legacy/"
+  ],
+  "additionalRules": [
+    "Beast Warrior models may only be included in Druzhag's Warband."
+  ],
+  "specialRules": [
+    {
+      "name": "\"We cannot get out, they are coming.\"",
+      "type": "",
+      "text": "Friendly Moria Goblin models Engaged in Combat with an enemy model that would be considered Trapped gain a bonus of +1 to their Fight Value for the duration of the Combat."
+    },
+    {
+      "name": "Skittering Warriors",
+      "type": "",
+      "text": "Friendly Moria Goblin models gain the Mountain Dweller special rule."
+    },
+    {
+      "name": "Durburz's Will",
+      "type": "ACTIVE",
+      "text": "Once per game, at the start of his Activation, Durburz may declare he is using this ability. If he does, Durburz may not Move during his Activation; however, all friendly Moria Goblin models gain a bonus of +2\" to their Move Value until the End Phase of the turn. Additionally, in a turn in which Durburz uses this ability, all friendly Moria Goblin models within 6\" of him automatically pass any Courage Tests required when attempting to Charge a model with the Terror special rule."
+    }
+  ],
+  "units": [
+    {
+      "name": "Dragon",
+      "points": 200,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DRAGON, MORIA, HERO, INFANTRY, MONSTER",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "8",
+        "Sv": "2+",
+        "S": "7",
+        "D": "7",
+        "A": "4",
+        "W": "7",
+        "C": "5+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Claws and Teeth (hand weapons)"
+      ],
+      "heroicActions": [
+        "Heroic Channelling",
+        "Heroic Resolve",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [
+        "Compel (12\", 3+)",
+        "Transfix (12\", 3+)",
+        "Foil Magic (12\", 4+)"
+      ],
+      "options": [
+        "Breathe Fire - 50 points",
+        "Fly - 50 points",
+        "Superior Intellect - 50 points",
+        "Tough Hide - 50 points",
+        "Wyrm Magic - 50 points"
+      ],
+      "specialRules": [
+        { "name": "Dominant (5)", "type": "", "text": "" },
+        { "name": "Harbinger of Evil (12\")", "type": "", "text": "" },
+        { "name": "Large Target", "type": "", "text": "" },
+        { "name": "Monstrous Charge", "type": "", "text": "" },
+        { "name": "Resistant to Magic", "type": "", "text": "" },
+        { "name": "Survival Instinct", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Breathe Fire", "type": "ACTIVE", "text": "The Dragon can Breathe Fire as a shooting attack during the Shoot Phase; treat this as a bow with a range of 12\". If the shot hits, then the model that is hit suffers a Strength 10 hit and if they suffer a Wound from this hit, which is not prevented, they are automatically slain. Additionally, all other models (friend and foe) within 2\" are immediately Set Ablaze - though they will not be automatically slain if wounded. This is a fire-based attack." },
+        { "name": "Fly", "type": "ACTIVE", "text": "The Dragon gains the Fly special rule and increases its Move Value to 12\" whilst using the Fly special rule." },
+        { "name": "Superior Intellect", "type": "PASSIVE", "text": "The Dragon automatically passes any Intelligence Tests it is required to take. Additionally, each time the Dragon spends a Might Point, roll a D6. On a 4+, the Might Point is free and does not reduce the Dragon's store of Might." },
+        { "name": "Tough Hide", "type": "PASSIVE", "text": "The Dragon increases its Wounds and Defence to 9 each." },
+        { "name": "Wyrm Magic", "type": "ACTIVE", "text": "The Dragon gains a free Will Point at the start of each turn. If this free Will Point is not spent by the end of the turn, it is lost. The Dragon may also cast the following Magical Powers shown on its profile." }
+      ]
+    },
+    {
+      "name": "Durburz, Goblin-King of Moria",
+      "points": 75,
+      "heroicTier": "Hero of Valour",
+      "keywords": "GOBLIN, MORIA, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Resolve",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" },
+        { "name": "Iron Fist", "type": "ACTIVE", "text": "The range of Durburz's Stand Fast is 12\" rather than 6\"." },
+        { "name": "Callous Leadership", "type": "ACTIVE", "text": "Once per game, at the start of any Fight Phase, before the Declare Heroic Actions Step, Durburz can declare he is using this ability. Until the End Phase of the turn, friendly Goblin models within 6\" of Durburz gain a bonus of +1 To Wound when making Strikes. However, any other friendly Goblin model within 6\" that loses a Duel Roll (not including Supporting models) must roll a D6 after any Strikes have been made against them. On the roll of a 1, the model suffers a Wound." }
+      ]
+    },
+    {
+      "name": "Ashrak",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "GOBLIN, MORIA, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "2",
+        "Sv": "5+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "6+",
+        "Might": "1",
+        "Will": "4",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Fury (Spider) (Self, 3+)",
+        "Compel (12\", 4+)"
+      ],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" },
+        { "name": "Death-touch", "type": "PASSIVE", "text": "Any model that Wounds Ashrak in Combat, or is Wounded by Ashrak in Combat, must immediately roll a D6. On a 4+ the model immediately suffers the effects of the Paralyse Magical Power; however, the effects will not immediately end should Ashrak have no Will Points or be slain." },
+        { "name": "Spider-kin", "type": "PASSIVE", "text": "Only Spider models may benefit from Ashrak's Stand Fast or Heroic Actions. Additionally, whilst within 3\" of a friendly Spider model, Ashrak gains the Terror special rule." }
+      ]
+    },
+    {
+      "name": "Druzhag the Beastcaller",
+      "points": 80,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "GOBLIN, MORIA, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "5",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Channelling",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [
+        "Enrage Beast (6\", 3+)",
+        "Fury (Beast) (Self, 3+)",
+        "Writhing Vines (Self, 4+)"
+      ],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" },
+        { "name": "Master of the Dark Wild", "type": "PASSIVE", "text": "Friendly Beast models within 12\" of Druzhag may use his Courage or Intelligence values instead of their own when making a Courage Test or an Intelligence Test. Additionally, whenever Druzhag suffers a Wound, before any Fate Rolls are made, he may roll a D6. On a 2+, he may choose a single friendly Beast model within 2\" to immediately suffer the Wound instead of him. Fate Rolls can then be made as normal." }
+      ]
+    },
+    {
+      "name": "Groblog",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "GOBLIN, MORIA, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Mithril Crown"
+      ],
+      "heroicActions": [
+        "Heroic Defence",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" },
+        { "name": "Mithril Crown", "type": "ACTIVE", "text": "This is a Unique piece of wargear. Friendly Moria Goblin models within 3\" of Groblog gain the Dominant (2) special rule." }
+      ]
+    },
+    {
+      "name": "Moria Blackshield Captain",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "GOBLIN, MORIA, HERO, INFANTRY",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" },
+        { "name": "Hatred (Dwarf)", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Moria Goblin Captain",
+      "points": 40,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "GOBLIN, MORIA, HERO, INFANTRY",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Orc Bow - 5 points"
+      ],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Cave Drake",
+      "points": 150,
+      "heroicTier": "Minor Hero",
+      "keywords": "DRAKE, MORIA, HERO, INFANTRY, MONSTER, BEAST",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": "7",
+        "Sv": "5+",
+        "S": "7",
+        "D": "7",
+        "A": "4",
+        "W": "6",
+        "C": "6+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Claws and Teeth (hand weapons)"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" },
+        { "name": "Dominant (4)", "type": "", "text": "" },
+        { "name": "Large Target", "type": "", "text": "" },
+        { "name": "Monstrous Charge", "type": "", "text": "" },
+        { "name": "Mountain Dweller", "type": "", "text": "" },
+        { "name": "Resistant to Magic", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Woodland Creature", "type": "", "text": "" },
+        { "name": "Protect the Nest", "type": "ACTIVE", "text": "At the beginning of the game, after both sides have deployed, you may place a single 25mm Nest Marker anywhere on the board. Whilst within 3\" of a friendly Nest Marker, a Cave Drake has the Fearless special rule." },
+        { "name": "Cornered Beast", "type": "ACTIVE", "text": "If a Cave Drake loses a Duel Roll and is Trapped, then after any Strikes have been made against it the Cave Drake will lash out. When a Cave Drake lashes out, any models (friend or foe) that were Engaged in Combat with it, or are within 1\" of it, will immediately suffer a Strength 4 hit." },
+        { "name": "Gaping Maw", "type": "BRUTAL POWER ATTACK", "text": "Instead of making Strikes, a Cave Drake may choose a single enemy model on a 25mm base that was involved in the same combat and roll a D6. On a 2+, the chosen model suffers a Wound and, if this Wound is not prevented, the model is swallowed whole and removed as a Casualty. If the Cave Drake slays a model with this Brutal Power Attack, they may immediately regain a Wound lost earlier in the battle." }
+      ]
+    },
+    {
+      "name": "Moria Blackshield Shaman",
+      "points": 50,
+      "heroicTier": "Minor Hero",
+      "keywords": "GOBLIN, MORIA, HERO, INFANTRY",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "2",
+        "Sv": "5+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Collapse Rocks (6\", 4+)",
+        "Tremor (Self, 5+)"
+      ],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" },
+        { "name": "Hatred (Dwarf)", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Moria Goblin Shaman",
+      "points": 45,
+      "heroicTier": "Minor Hero",
+      "keywords": "GOBLIN, MORIA, HERO, INFANTRY",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Spear",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Fury (Moria Goblin) (Self, 3+)",
+        "Instill Fear (Self, 4+)",
+        "Transfix (12\", 5+)"
+      ],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "The Watcher in the Water",
+      "points": 200,
+      "heroicTier": "Independent Hero",
+      "keywords": "KRAKEN, MORIA, HERO, INFANTRY, MONSTER, UNIQUE",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "6",
+        "D": "6",
+        "A": "6",
+        "W": "6",
+        "C": "6+",
+        "Might": "1",
+        "Will": "5",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Tentacles (hand weapon)"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Dominant (6)", "type": "", "text": "" },
+        { "name": "Harbinger of Evil (12\")", "type": "", "text": "" },
+        { "name": "Large Target", "type": "", "text": "" },
+        { "name": "Resistant to Magic", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Independent Hero", "type": "", "text": "Independent Heroes may not lead troops and may not be the army's leader. They may, however, be included in another Hero model's warband as one of their followers." },
+        { "name": "Many Tentacles", "type": "PASSIVE", "text": "Whilst the Watcher in the Water has 3 or fewer Wounds remaining, its Attacks are reduced to 3." },
+        { "name": "Water Dweller", "type": "PASSIVE", "text": "The Watcher in the Water is never slowed when Moving within a water feature, can still Shoot whilst within deep water, and always counts as rolling a 6 on the Swim Chart. Additionally, whilst within a water feature, the Watcher in the Water increases its Move Value to 8\" and gains the Monstrous Charge special rule." },
+        { "name": "From the Deep", "type": "ACTIVE", "text": "The Watcher in the Water can never be part of another Hero model's Warband. When you deploy your Army, do not deploy the Watcher in the Water - keep it aside for later. During the Priority Phase, after Priority has been determined, the Watcher's controlling player must decide if they wish for the Watcher to enter play. If they do, they must roll a D6 and on a 3+ the Watcher is ready to enter play. If this roll is failed, you must roll in each subsequent Priority Phase until the Watcher is ready to enter play. When the Watcher is ready to enter play, immediately place it anywhere on the battlefield; however, the Watcher cannot displace other models when it enters play in this manner. The Watcher in the Water cannot Charge on the turn in which it arrives, but may otherwise act normally." },
+        { "name": "Grasping Tentacles", "type": "ACTIVE", "text": "In the Shoot Phase, the Watcher in the Water may make D6 shooting attacks. These have a range of 6\", a Strength of 3 and never require In The Way Rolls. The Watcher can still make these shooting attacks regardless of how far it Moved in the Move Phase, and never suffers the -1 penalty for Moving and Shooting. Additionally, any model that is hit by a tentacle and is not slain will be removed from the board and then placed anywhere in base contact with the Watcher in the Water, as chosen by the Watcher in the Water's controlling player." },
+        { "name": "Dragged to the Depths", "type": "BRUTAL POWER ATTACK", "text": "Instead of making Strikes, if the Watcher is within 6\" of a water feature it may use this Brutal Power Attack. If it does, select a single enemy model that was involved in the Combat and roll a D6. On a 2+, the model suffers a Wound and, if the Wound is not prevented, the model will immediately be slain. The Watcher is then removed from the battlefield and its controlling player must roll to see if it enters the battlefield again in the same manner as described in the From the Deep special rule." }
+      ]
+    },
+    {
+      "name": "Bat Swarm",
+      "points": 35,
+      "keywords": "BAT | MORIA | WARRIOR, INFANTRY, BEAST, SWARM | 40MM",
+      "profile": {
+        "Mv": "12\"",
+        "Fv": 1,
+        "Sv": "6+",
+        "S": 3,
+        "D": 3,
+        "A": 2,
+        "W": 4,
+        "C": "8+",
+        "I": "9+"
+      },
+      "wargear": [
+        "Claws and Teeth (hand weapons)"
+      ],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" },
+        { "name": "Fly", "type": "", "text": "" },
+        { "name": "Blinding Swarm", "type": "ACTIVE", "text": "Enemy models Engaged in Combat with a Bat Swarm halve their Fight value." }
+      ]
+    },
+    {
+      "name": "Cave Troll",
+      "points": 75,
+      "keywords": "TROLL | MORIA | WARRIOR, INFANTRY, MONSTER | 50MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 6,
+        "Sv": "4+",
+        "S": 6,
+        "D": 6,
+        "A": 3,
+        "W": 3,
+        "C": "6+",
+        "I": "9+"
+      },
+      "wargear": [
+        "Troll Chain"
+      ],
+      "options": [
+        "Hand-and-a-half Hammer - 5 points",
+        "Troll Spear - 5 points"
+      ],
+      "specialRules": [
+        { "name": "Dominant (3)", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Throw Stones (range 12\", Strength 8)", "type": "", "text": "" },
+        { "name": "Troll Chain", "type": "ACTIVE", "text": "This is a throwing weapon with a range of 3\" and a Strength of 5." },
+        { "name": "Troll Spear", "type": "ACTIVE", "text": "This is a spear. Additionally, if this model is not Supporting, any To Wound Rolls of a natural 6 it makes when making Strikes that are not prevented will deal 2 Wounds rather than 1." }
+      ]
+    },
+    {
+      "name": "Dweller in the Dark",
+      "points": 80,
+      "keywords": "SPIRIT | MORIA | WARRIOR, INFANTRY, MONSTER | 60MM",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": 7,
+        "Sv": "4+",
+        "S": 5,
+        "D": 5,
+        "A": 3,
+        "W": 3,
+        "C": "3+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Claws and Teeth (hand weapons)"
+      ],
+      "specialRules": [
+        { "name": "Dominant (3)", "type": "", "text": "" },
+        { "name": "Resistant to Magic", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Murderous Power", "type": "ACTIVE", "text": "Each time a Dweller in the Dark slays a model in Combat, it regains a single Wound lost earlier in the battle. These Wounds are regained at the end of the Combat. A Dweller in the Dark can only regain Wounds in this way by making Strikes, never by using a Brutal Power Attack." }
+      ]
+    },
+    {
+      "name": "Fell Warg",
+      "points": 8,
+      "keywords": "WARG | GUNDABAD | WARRIOR, INFANTRY, BEAST | 40MM",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": 3,
+        "Sv": "6+",
+        "S": 4,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Claws and Teeth (hand weapon)"
+      ],
+      "specialRules": [
+        { "name": "Fell Sight", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Mirkwood Hunting Spider",
+      "points": 20,
+      "keywords": "SPIDER | DOL GULDUR | WARRIOR, INFANTRY, BEAST | 40MM",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": 3,
+        "Sv": "6+",
+        "S": 5,
+        "D": 3,
+        "A": 2,
+        "W": 2,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Fangs (hand weapons)"
+      ],
+      "options": [
+        "Venom-back - 2 points"
+      ],
+      "specialRules": [
+        { "name": "Poisoned Attacks (Fangs)", "type": "", "text": "" },
+        { "name": "Stalk Unseen", "type": "", "text": "" },
+        { "name": "Swift Movement", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Silent Hunters", "type": "PASSIVE", "text": "If a Mirkwood Hunting Spider is within a piece of woodland terrain (such as a forest), or is partially concealed by a piece of woodland terrain, then they cannot be seen by enemy models unless they are within 6\" of the Mirkwood Hunting Spider." }
+      ]
+    },
+    {
+      "name": "Moria Blackshield Drum",
+      "points": 75,
+      "keywords": "GOBLIN | MORIA | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": 2,
+        "Sv": "5+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Drum"
+      ],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" },
+        { "name": "Hatred (Dwarf)", "type": "", "text": "" },
+        { "name": "Run and Drum", "type": "ACTIVE", "text": "The Drum is considered to be playing as long as both the Drummer and Drum Bearer are in base contact, and the Drummer is not Engaged in Combat. Whilst the Drum is being played: friendly Moria Goblin models gain a bonus of +1 to any Courage Tests they are required to take; enemy models suffer a -1 penalty to any Courage Tests they are required to take; friendly Moria Goblin models within 18\" count as being in range of a banner; the Moria Blackshield Drum counts as a banner for the purpose of Victory Points." },
+        { "name": "Take up the Drum", "type": "ACTIVE", "text": "If the Moria Blackshield Drummer or Moria Blackshield Drum Bearer is slain, then they may pass on their wargear to a friendly Moria Blackshield Warrior within 1\" of them. The chosen model becomes a Moria Blackshield Drummer/Drum Bearer (as applicable) and exchanges their wargear for that of the slain model." }
+      ]
+    },
+    {
+      "name": "Moria Blackshield Warrior",
+      "points": 8,
+      "keywords": "GOBLIN | MORIA | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": 2,
+        "Sv": "5+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "options": [
+        "Spear - 1 point"
+      ],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" },
+        { "name": "Hatred (Dwarf)", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Moria Goblin Drum",
+      "points": 75,
+      "keywords": "GOBLIN | MORIA | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "-",
+        "Fv": "-",
+        "Sv": "-",
+        "S": "-",
+        "D": 10,
+        "A": "-",
+        "W": 3,
+        "C": "-",
+        "I": "-"
+      },
+      "wargear": [],
+      "specialRules": [
+        { "name": "Moria Goblin Drum", "type": "ACTIVE", "text": "A Moria Goblin Drum is always on a 25mm base and must be deployed in base contact with one of its Moria Goblin Drummers during deployment. It is a Heavy Object that can be shot at normally; it has a Defence of 10 and 3 Wounds. If, during the End Phase of a turn, an enemy model is in base contact with the Moria Goblin Drum and did nothing but Move that turn, it can remove the Drum from play." },
+        { "name": "Drums in the Deep", "type": "ACTIVE", "text": "For the Drum to be played, at least one Moria Goblin Drummer must be in base contact with it, have not Moved that turn, and not be Engaged in Combat. Whilst played: friendly Moria Goblin models gain +1 to Courage Tests; enemy models suffer -1 to Courage Tests; friendly Moria Goblin models within 18\" count as being in range of a banner; the Drum counts as a banner for Victory Points." },
+        { "name": "Take up the Drum", "type": "ACTIVE", "text": "If a Moria Goblin Drummer is slain, they may pass on their wargear to a friendly Moria Goblin Warrior within 1\" of them, who becomes the new Drummer." }
+      ]
+    },
+    {
+      "name": "Moria Goblin Drummer",
+      "points": 0,
+      "keywords": "GOBLIN | MORIA | WARRIOR, INFANTRY | 25MM (included with Moria Goblin Drum)",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": 2,
+        "Sv": "5+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Moria Goblin Prowler",
+      "points": 7,
+      "keywords": "GOBLIN | MORIA | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Armour",
+        "Two-handed Weapon",
+        "Throwing Weapons"
+      ],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" },
+        { "name": "Backstabbers", "type": "", "text": "" },
+        { "name": "Stalk Unseen", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Moria Goblin Warrior",
+      "points": 4,
+      "keywords": "GOBLIN | MORIA | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": 2,
+        "Sv": "5+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Orc Bow - 1 point",
+        "Shield - 1 point",
+        "Spear - 1 point"
+      ],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Warg Marauder",
+      "points": 35,
+      "keywords": "GOBLIN | MORIA | WARRIOR, CAVALRY | (three Moria Goblin Warriors on one Warg)",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": 2,
+        "Sv": "5+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Either Shield or Orc Bow (two riders have Orc bows, one has a shield)"
+      ],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" },
+        { "name": "On the Hunt", "type": "ACTIVE", "text": "During the Shoot Phase, a Warg Marauder can make a shooting attack with an Orc bow for each Moria Goblin Warrior with an Orc bow still alive upon the Warg. These shooting attacks can still be made even if the Warg Marauder has Moved further than half its Move Value that turn, and even if it is Engaged in Combat." },
+        { "name": "Lethal Union", "type": "ACTIVE", "text": "Whilst the Goblins remain mounted upon the Warg, the entire model gains the Terror special rule and gains a bonus of +1 to any Courage Tests it is required to take. Additionally, during a Combat a Warg Marauder gains an additional Attack for each Goblin after the first that is still mounted upon the Warg, provided they did not shoot during the Shoot Phase." },
+        { "name": "Composition note", "type": "", "text": "A Warg Marauder consists of three Moria Goblin Warriors riding a single Warg Mount. Two of the Warriors have an Orc bow, the other has a shield. Whilst the Warrior with shield remains alive, all parts of the Cavalry model gain the +1 Defence bonus. The Warg Marauder only counts as a single model towards an Army's Bow Limit." }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Moria army-list page. Full stat blocks from The Misty Mountains faction page for Dragon, Durburz, Druzhag, Cave Drake, Watcher in the Water, Bat Swarm, Cave Troll, Goblin/Blackshield units; from Evil Legacy for Ashrak, Groblog, Dweller in the Dark and Warg Marauder; and from Gundabad & Dol Guldur for Fell Warg and Mirkwood Hunting Spider."
+}

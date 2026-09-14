@@ -1,0 +1,254 @@
+{
+  "legion": "The Spider Queen's Brood [Legacy]",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/legacy_the_spider_queens_brood/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/evil_legacy/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/gundabad_and_dol_guldur/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/the_misty_mountains/"
+  ],
+  "additionalRules": [
+    "The Spider Queen's Brood Army must always contain The Spider Queen, who is always the Army's General.",
+    "Friendly models can still pick up Objective Markers even though they have the Beast keyword."
+  ],
+  "specialRules": [
+    {
+      "name": "Beasts of the Forest",
+      "type": "",
+      "text": "Warbands from this Army do not need a Hero to lead them if they number six or more models. Instead, one Warrior model within the Warband takes on the role of the Warband's Captain for the purposes of deployment. Warbands without a Hero model leading them may not include more than 12 models."
+    },
+    {
+      "name": "\"Worse are the Webs\"",
+      "type": "",
+      "text": "After both sides have deployed, but before the first turn begins, a player using this Army List may place four 25mm Web Markers on the board. Web Markers cannot be set up within 3\" of an enemy model or Objective Marker, and cannot be set up within 6\" of the edge of the board or within 9\" of another Web Marker. Any non-Spider model within 3\" of a Web Marker is considered to be in Difficult Terrain. Additionally, Spider models do not need Line of Sight to Charge a model within 3\" of a Web Marker."
+    },
+    {
+      "name": "Protect the Queen",
+      "type": "",
+      "text": "Whenever the Spider Queen suffers a Wound, before any Fate Rolls are made, she may roll a D6. On a 3+, she may choose a single friendly Spider model within 1\" to immediately suffer the Wound instead of her."
+    },
+    {
+      "name": "Pounce",
+      "type": "",
+      "text": "When a friendly Spider Warrior model Charges an enemy Infantry model, they gain the Knock to the Ground bonus as if they were Cavalry. This bonus is lost if they are subsequently Charged by an enemy Cavalry model."
+    },
+    {
+      "name": "The Queen's Cunning",
+      "type": "",
+      "text": "If the Spider Queen declares a Heroic Move in the same turn as an enemy Hero, and subsequently loses the roll-off to see which Heroic Move will go first, she may choose to cancel her Heroic Move and regain the Might point spent to declare it."
+    }
+  ],
+  "units": [
+    {
+      "name": "The Spider Queen",
+      "points": 120,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIDER, DOL GULDUR, HERO, INFANTRY, MONSTER, BEAST, UNIQUE",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": "6",
+        "Sv": "6+",
+        "S": "6",
+        "D": "4",
+        "A": "2",
+        "W": "3",
+        "C": "6+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "0"
+      },
+      "wargear": [
+        "Large Venomous Fangs (hand weapons)"
+      ],
+      "heroicActions": [
+        "Heroic Defence",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Dominant (3)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Monstrous Charge",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Swift Movement",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Venom",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Progeny",
+          "type": "ACTIVE",
+          "text": "At the beginning of her Activation, the Spider Queen may spend any number of Will Points she has remaining to summon a Broodling. For each Will Point spent, place a single Broodling anywhere within 3\" of the Spider Queen. Broodlings placed in this manner can never be placed in base contact with enemy models, but may be placed within the Control Zones of enemy models. Broodlings may be Activated on a turn in which they were summoned, though may not Activate as part of a Heroic Move or Heroic March declared by a friendly model that turn as they were not on the board when the Heroic Action was declared. Broodlings are never taken into account when working out if an Army is Broken or reduced to 25%. Broodling profile (Spider, Dol Guldur, Warrior, Infantry, Beast): Mv 10\", Fv 2, Sv 6+, S 3, D 3, A 1, W 1, C 8+, I 8+; Wargear: Fangs (hand weapons); Special Rules: Poisoned Attacks, Swift Movement."
+        }
+      ]
+    },
+    {
+      "name": "Bat Swarm",
+      "points": 35,
+      "keywords": "BAT | MORIA | WARRIOR, INFANTRY, BEAST, SWARM | 40MM",
+      "profile": {
+        "Mv": "12\"",
+        "Fv": 1,
+        "Sv": "6+",
+        "S": 3,
+        "D": 3,
+        "A": 2,
+        "W": 4,
+        "C": "8+",
+        "I": "9+"
+      },
+      "wargear": [
+        "Claws and Teeth (hand weapons)"
+      ],
+      "specialRules": [
+        {
+          "name": "Cave Dweller",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Fly",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Blinding Swarm",
+          "type": "ACTIVE",
+          "text": "Enemy models Engaged in Combat with a Bat Swarm halve their Fight value."
+        }
+      ]
+    },
+    {
+      "name": "Fell Warg",
+      "points": 8,
+      "keywords": "WARG | GUNDABAD | WARRIOR, INFANTRY, BEAST | 40MM",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": 3,
+        "Sv": "6+",
+        "S": 4,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Claws and Teeth (hand weapon)"
+      ],
+      "specialRules": [
+        {
+          "name": "Fell Sight",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Mirkwood Giant Spider",
+      "points": 20,
+      "keywords": "SPIDER | DOL GULDUR | WARRIOR, INFANTRY, BEAST | 60MM",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": 2,
+        "Sv": "5+",
+        "S": 5,
+        "D": 3,
+        "A": 2,
+        "W": 2,
+        "C": "7+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Fangs (hand weapons)"
+      ],
+      "specialRules": [
+        {
+          "name": "Poisoned Attacks (Fangs)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Swift Movement",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Spider Webs",
+          "type": "ACTIVE",
+          "text": "A Mirkwood Giant Spider can shoot spider webs; these are treated as throwing weapons with a range of 8\". If a model is hit by webs shot by a Mirkwood Giant Spider, no To Wound Roll is made. Instead, the hit model is immediately counted as being under the effects of the Paralyse Magical Power; however, the effects will not immediately end should this model have no Will Points or be slain. If a Cavalry model is hit by this shooting attack, both rider and Mount are automatically hit. A Hero model hit by a web may spend a Fate Point to avoid its effects."
+        }
+      ]
+    },
+    {
+      "name": "Mirkwood Hunting Spider",
+      "points": 20,
+      "keywords": "SPIDER | DOL GULDUR | WARRIOR, INFANTRY, BEAST | 40MM",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": 3,
+        "Sv": "6+",
+        "S": 5,
+        "D": 3,
+        "A": 2,
+        "W": 2,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Fangs (hand weapons)"
+      ],
+      "options": [
+        "Venom-back - 2 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Poisoned Attacks (Fangs)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Stalk Unseen",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Swift Movement",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Silent Hunters",
+          "type": "PASSIVE",
+          "text": "If a Mirkwood Hunting Spider is within a piece of woodland terrain (such as a forest), or is partially concealed by a piece of woodland terrain, then they cannot be seen by enemy models unless they are within 6\" of the Mirkwood Hunting Spider."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub The Spider Queen's Brood [Legacy] army-list page. The Spider Queen stat block from the Evil Legacy faction page; Mirkwood Giant Spider, Mirkwood Hunting Spider, and Fell Warg from the Gundabad & Dol Guldur faction page; Bat Swarm from The Misty Mountains faction page."
+}

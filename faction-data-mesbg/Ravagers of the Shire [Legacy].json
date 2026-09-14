@@ -1,0 +1,129 @@
+{
+  "legion": "Ravagers of the Shire [Legacy]",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/ravagers_of_the_shire/"
+  ],
+  "additionalRules": [
+    "A Ravagers of the Shire Army must always contain Golfimbul, who is always the Army's General."
+  ],
+  "specialRules": [
+    {
+      "name": "Golfimbul's Rage",
+      "type": "",
+      "text": "Golfimbul may declare a Heroic Combat each turn for free."
+    },
+    {
+      "name": "Courage from Ignorance",
+      "type": "",
+      "text": "Whilst Golfimbul is still alive and on the battlefield, friendly Orc models gain a bonus of +1 to any Courage Tests they are required to take."
+    },
+    {
+      "name": "Overwhelm the Foe",
+      "type": "",
+      "text": "Friendly Orc models gain a bonus of +1 To Wound when making Strikes against an enemy model that is outnumbered in a Combat."
+    }
+  ],
+  "units": [
+    {
+      "name": "Golfimbul, Orc Captain",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC | ANGMAR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "0"
+      },
+      "options": [
+        "Warg - 20 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Mordor Orc Captain",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC | MORDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Mordor Orc Shaman",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC | MORDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "5",
+        "A": "1",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "options": [
+        "Warg - 20 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Hill Troll",
+      "points": 75,
+      "keywords": "",
+      "profile": {},
+      "specialRules": []
+    },
+    {
+      "name": "Mordor Orc Warrior",
+      "points": 5,
+      "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "options": [
+        "Banner - 25 points",
+        "Orc bow - 1 points",
+        "Shield - 1 points",
+        "Spear - 1 points",
+        "Two-handed weapon - 1 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Mordor Warg Rider",
+      "points": 11,
+      "keywords": "ORC | MORDOR | WARRIOR, CAVALRY | 25MM",
+      "profile": {},
+      "options": [
+        "Shield and throwing spears - 2 points",
+        "Orc bow - 1 points",
+        "Shield - 1 points",
+        "Throwing spears - 1 points"
+      ],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Ravagers of the Shire [Legacy] army-list page. Stat blocks and keywords cross-referenced from the Forces of Evil faction pages on the same site."
+}

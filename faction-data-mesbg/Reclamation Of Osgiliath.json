@@ -1,0 +1,158 @@
+{
+  "legion": "Reclamation Of Osgiliath",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/reclamation_of_osgiliath/"
+  ],
+  "additionalRules": [
+    "A Reclamation of Osgiliath Army must include Boromir, Captain of the White Tower, who is always the Army's General."
+  ],
+  "specialRules": [
+    {
+      "name": "\"Remember today, little brother\"",
+      "type": "",
+      "text": "While Boromir and Faramir are within 3\" of each other, they may spend each other's Might, Will and Fate points as if they were their own."
+    },
+    {
+      "name": "\"This city was once the jewel of our kingdom\"",
+      "type": "",
+      "text": "Friendly models gain the Mountain Dweller special rule."
+    },
+    {
+      "name": "\"For Gondor!\"",
+      "type": "",
+      "text": "Once per game, at the start of any Fight Phase, Boromir can use this special rule so long as he is alive and on the battlefield. If he does, then friendly Gondor Warrior models within 6\" of Boromir gain a bonus of +1 To Wound when making Strikes until the end of the turn. This is treated as an Active ability belonging to Boromir."
+    }
+  ],
+  "units": [
+    {
+      "name": "Boromir, Captain of the White Tower",
+      "points": 160,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "6",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "The Banner of Minas Tirith - 40 points",
+        "Horse - 20 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Faramir",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Captain of Minas Tirith",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Madril",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Knight of Minas Tirith",
+      "points": 15,
+      "keywords": "MAN | GONDOR | WARRIOR, CAVALRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "Exchange shield and lance for banner - 25 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Osgiliath Veteran",
+      "points": 9,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Ranger of Gondor",
+      "points": 8,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "Banner - 25 points",
+        "War horn - 25 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Warrior of Minas Tirith",
+      "points": 8,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "War horn and shield - 26 points",
+        "Banner - 25 points",
+        "Shield and spear - 2 points"
+      ],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Reclamation Of Osgiliath army-list page. Stat blocks and keywords cross-referenced from the Forces of Good faction pages on the same site."
+}

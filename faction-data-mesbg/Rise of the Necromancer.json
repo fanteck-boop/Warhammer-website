@@ -1,0 +1,332 @@
+{
+  "legion": "Rise of the Necromancer",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/rise_of_the_necromancer/"
+  ],
+  "additionalRules": [
+    "When writing a Rise of the Necromancer Army List that contains only Hero models (with the exception of Hunter Orc Captains), a player can either have all models in a single Warband or as multiple smaller warbands as normal."
+  ],
+  "specialRules": [
+    {
+      "name": "Power of the Necromancer",
+      "type": "",
+      "text": "Friendly models gain the Resistant to Magic special rule. Additionally, the Necromancer can attempt to Cast two Magical Powers when he Activates rather than one; however, he may not attempt to Cast the same Magical Power twice, or target the same enemy model twice."
+    },
+    {
+      "name": "\"His spirit has lost none of its potency\"",
+      "type": "",
+      "text": "Each time the Necromancer attempts to Cast a Magical Power by expending one or more Will Points, he automatically adds an additional free Will Point to the Casting Test."
+    }
+  ],
+  "units": [
+    {
+      "name": "Sauron, The Necromancer",
+      "points": 200,
+      "heroicTier": "Hero of Legend",
+      "keywords": "SPIRIT | DOL GULDUR | HERO, INFANTRY, UNIQUE | 40MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "6",
+        "D": "8",
+        "A": "2",
+        "W": "1",
+        "C": "4+",
+        "Might": "3",
+        "Will": "25",
+        "Fate": "0"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Khamul the Easterling",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH | MORDOR, EASTERLING | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "4+",
+        "Might": "2",
+        "Will": "12",
+        "Fate": "2"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "The Abyssal Knight",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH | DOL GULDUR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "1",
+        "C": "4+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "0"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "The Abyssal Knight",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH | DOL GULDUR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "1",
+        "C": "4+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "0"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "The Dark Headsman",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH | DOL GULDUR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "1",
+        "C": "4+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "0"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "The Forsaken",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH | DOL GULDUR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "1",
+        "C": "4+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "0"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "The Keeper of the Dungeons",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ORC | DOL GULDUR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "5+",
+        "S": "5",
+        "D": "6",
+        "A": "3",
+        "W": "2",
+        "C": "5+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "0"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "The Lingering Shadow",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH | DOL GULDUR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "1",
+        "C": "4+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "0"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "The Slayer of Men",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH | DOL GULDUR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "1",
+        "C": "4+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "0"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "The Slayer of Men",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH | DOL GULDUR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "1",
+        "C": "4+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "0"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "The Witch-king of Angmar",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH | DOL GULDUR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "1",
+        "C": "4+",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "0"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Hunter Orc Captain",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC | GUNDABAD | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "options": [
+        "Fell Warg - 20 points",
+        "Orc bow - 5 points",
+        "Two-handed weapon - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Castellan of Dol Guldur",
+      "points": 50,
+      "heroicTier": "Independent Hero",
+      "keywords": "SPIRIT | DOL GULDUR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "5",
+        "D": "6",
+        "A": "2",
+        "W": "1",
+        "C": "4+",
+        "Might": "0",
+        "Will": "10",
+        "Fate": "0"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Fell Warg",
+      "points": 8,
+      "keywords": "WARG | GUNDABAD | WARRIOR, INFANTRY, BEAST | 40MM",
+      "profile": {},
+      "specialRules": []
+    },
+    {
+      "name": "Hunter Orc Warg Rider",
+      "points": 15,
+      "keywords": "ORC | GUNDABAD | WARRIOR, CAVALRY | 25MM",
+      "profile": {},
+      "options": [
+        "Orc bow - 1 points",
+        "Two-handed weapon - 1 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Hunter Orc Warrior",
+      "points": 8,
+      "keywords": "ORC | GUNDABAD | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "options": [
+        "Orc bow - 1 points",
+        "Two-handed weapon - 1 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Mirkwood Giant Spider",
+      "points": 20,
+      "keywords": "SPIDER | DOL GULDUR | WARRIOR, INFANTRY, BEAST | 60MM",
+      "profile": {},
+      "specialRules": []
+    },
+    {
+      "name": "Mirkwood Hunting Spider",
+      "points": 20,
+      "keywords": "SPIDER | DOL GULDUR | WARRIOR, INFANTRY, BEAST | 40MM",
+      "profile": {},
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Rise of the Necromancer army-list page. Stat blocks and keywords cross-referenced from the Forces of Evil faction pages on the same site."
+}

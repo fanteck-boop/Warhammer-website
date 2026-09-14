@@ -1,0 +1,402 @@
+{
+  "legion": "Sharkey's Rogues",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/sharkeys_rogues/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/isengard/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/the_free_peoples/"
+  ],
+  "additionalRules": [
+    "A Sharkey's Rogues Army must always contain Sharkey, who is always the Army's General.",
+    "Hobbit Warrior models can only be included in the Warband of a Hobbit Hero.",
+    "This Army may include Warbands of 10-12 Ruffians without a Hero to lead them. In these Warbands, nominate a single Warrior model to count as the Warband's Captain for the purpose of deployment. These Warbands may only be included after all other available Hero models have been included in the Army."
+  ],
+  "specialRules": [
+    {
+      "name": "\"You do what Sharkey says!\"",
+      "type": "",
+      "text": "Sharkey's Stand Fast will cover the entire battlefield, regardless of range."
+    },
+    {
+      "name": "Strength in Numbers",
+      "type": "",
+      "text": "Whilst this Army is not Broken, friendly Ruffian models gain a +1 bonus to any Courage Tests they are required to take."
+    },
+    {
+      "name": "The Wizard's Command",
+      "type": "",
+      "text": "Friendly Ruffian models within 6\" of Sharkey may use his Courage instead of their own when taking Courage Tests."
+    },
+    {
+      "name": "Sharkey's Wrath",
+      "type": "",
+      "text": "Sharkey gains the Hatred (Hobbit) special rule."
+    },
+    {
+      "name": "The Chief's Whips",
+      "type": "",
+      "text": "Friendly Ruffian models gain a bonus of +1 To Hit when making a shooting attack with a whip."
+    }
+  ],
+  "units": [
+    {
+      "name": "Sharkey & Worm",
+      "points": 60,
+      "heroicTier": "Hero of Legend",
+      "keywords": "WIZARD | ISENGARD | HERO, INFANTRY, UNIQUE | 25MM (Sharkey); WIZARD | ISENGARD | HERO, INFANTRY, UNIQUE | 25MM (Worm)",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "4",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [
+        "Compel - Range 12\" - Casting Value 3+",
+        "Terrifying Aura - Range Self - Casting Value 3+",
+        "Transfix - Range 12\" - Casting Value 3+"
+      ],
+      "specialRules": [
+        {
+          "name": "Hatred (Hobbit)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Whoever strikes me shall be accursed",
+          "type": "PASSIVE",
+          "text": "After a model has resolved all of its Strikes against Sharkey during a Combat, they must take a Courage Test. If failed, the model immediately suffers a single Strength 4 hit."
+        },
+        {
+          "name": "Worm - profile",
+          "type": "",
+          "text": "Worm (Wizard, Isengard, Hero, Infantry, Unique, 25mm) profile: Mv 6\", Fv 3, Sv 4+, S 3, D 3, A 1, W 1, C 8+, Might 0, Will 0, Fate 0. Wargear: Hand Weapon."
+        },
+        {
+          "name": "Stalk Unseen (Worm)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Broken Loyalties (Worm)",
+          "type": "PASSIVE",
+          "text": "If at the beginning of any turn Sharkey has been reduced to 1 Wound and has no Fate Points remaining, Worm immediately becomes an enemy model for the remainder of the game. Additionally, after this condition has been met, if when Worm Activates he can Charge Sharkey then he must do so. If Sharkey is slain, then at the beginning of the next turn, Worm reverts back to being a friendly model."
+        },
+        {
+          "name": "When He Sneaks (Worm)",
+          "type": "ACTIVE",
+          "text": "Before making a Duel Roll for Worm, check to see if any enemy models, with the exception of any models he is Engaged in Combat with, can see him. If no other enemy models can see him, then Worm increases his Fight Value to 4 and his Attacks to 3 for the duration of the Combat."
+        }
+      ]
+    },
+    {
+      "name": "Sid Briarthorn",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, RUFFIAN, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Whip"
+      ],
+      "heroicActions": [
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Terror (Hobbit)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "With Me Lads!",
+          "type": "PASSIVE",
+          "text": "Other friendly Ruffian models treat Sid as a banner."
+        },
+        {
+          "name": "Put 'em in Chains",
+          "type": "ACTIVE",
+          "text": "If this model wins a Combat, then instead of making Strikes they may choose a single enemy Hobbit model they were Engaged in Combat with and roll a D6. If the score is higher than the chosen model's Strength then the chosen model is put in chains and suffers the effects of the Paralyse Magical Power; however, the effects will not immediately end should this model have no Will Points or be slain."
+        },
+        {
+          "name": "Brawler",
+          "type": "ACTIVE",
+          "text": "If he is outnumbered in a Combat, then Sid may re-roll any rolls of a natural 1 in his Duel Roll. Additionally, Sid can never count as Unarmed."
+        }
+      ]
+    },
+    {
+      "name": "Bill Ferny",
+      "points": 40,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, RUFFIAN, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "4+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Whip"
+      ],
+      "heroicActions": [
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Hatred (Hobbit)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sharkey's Spy",
+          "type": "PASSIVE",
+          "text": "At the beginning of the game, after both sides have deployed, Bill Ferny may choose one enemy Hero in your opponent's Army. Whilst Bill Ferny is within 12\" of, and has Line of Sight to, the chosen Hero, whenever the chosen Hero declares a Heroic Action they must roll a D6. On a 1-2, the declared Heroic Action is immediately cancelled and the Might Point is not spent. The chosen Hero may not then attempt to declare the same Heroic Action again that turn."
+        },
+        {
+          "name": "Put 'em in Chains",
+          "type": "ACTIVE",
+          "text": "If this model wins a Combat, then instead of making Strikes they may choose a single enemy Hobbit model they were Engaged in Combat with and roll a D6. If the score is higher than the chosen model's Strength then the chosen model is put in chains and suffers the effects of the Paralyse Magical Power; however, the effects will not immediately end should this model have no Will Points or be slain."
+        }
+      ]
+    },
+    {
+      "name": "Lotho Sackville-Baggins",
+      "points": 30,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "HOBBIT, SHIRE, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "2",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "1",
+        "C": "7+",
+        "Might": "1",
+        "Will": "4",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Family Rivalry",
+          "type": "PASSIVE",
+          "text": "Lotho may not take part in any Heroic Actions declared by either Bilbo Baggins or Frodo Baggins."
+        },
+        {
+          "name": "Considerable Wealth",
+          "type": "ACTIVE",
+          "text": "Lotho may spend his Will Points to pay off models around him: at the start of a Fight Phase, before the Declare Heroic Actions step, Lotho can spend a Will Point so that, until the End Phase of the turn, friendly Hobbit models within 3\" of Lotho gain a +1 bonus to their Fight Value. At the start of a Move Phase, before the Declare Heroic Actions step, Lotho can spend a Will Point so that, until the End Phase of the turn, friendly Ruffian models within 3\" of Lotho count as having the Fearless special rule. When an enemy model attempts to Charge Lotho, Lotho may spend a Will Point to use this ability; roll a D6, and on a 2+ the enemy model stops 1\" away from Lotho instead of Charging him and their Activation immediately ends."
+        }
+      ]
+    },
+    {
+      "name": "Rowan Thistlewood",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, RUFFIAN, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "4+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Ruffian bow - 1 point",
+        "Whip - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Let 'em have it!",
+          "type": "ACTIVE",
+          "text": "At the start of the Fight Phase, during the Declare Heroic Actions step, Rowan may declare a Heroic Combat for free. If he does, and the Heroic Combat is successful, Rowan must use the ensuing Move to Charge an enemy Hobbit Hero model. If Rowan cannot Charge an enemy Hobbit Hero with this Move, then he cannot use this special rule."
+        },
+        {
+          "name": "Put 'em in Chains",
+          "type": "ACTIVE",
+          "text": "If this model wins a Combat, then instead of making Strikes they may choose a single enemy Hobbit model they were Engaged in Combat with and roll a D6. If the score is higher than the chosen model's Strength then the chosen model is put in chains and suffers the effects of the Paralyse Magical Power; however, the effects will not immediately end should this model have no Will Points or be slain."
+        },
+        {
+          "name": "Burn it Down!",
+          "type": "ACTIVE",
+          "text": "Once per game, if Rowan ends his Move within 1\" of a single building or a single piece of Woodland Terrain and is not Engaged in Combat, then he can try to set it alight; roll a D6. On a 3+, the selected terrain piece is set on fire. Any model that is within, or in base contact with, the terrain piece during the End Phase of any turn in which it is on fire must roll a D6. On a 4+, the model is immediately Set Ablaze."
+        }
+      ]
+    },
+    {
+      "name": "Ted Sandyman",
+      "points": 30,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "HOBBIT, SHIRE, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "2",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "A Bad Influence",
+          "type": "PASSIVE",
+          "text": "Ted Sandyman may only include Hobbit models in his Warband. Additionally, friendly Hobbit models within 3\" of Ted Sandyman gain a bonus of +1 To Wound when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Hobbit Militia",
+      "points": 4,
+      "keywords": "HOBBIT | SHIRE | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": 1,
+        "Sv": "3+",
+        "S": 2,
+        "D": 3,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "options": [
+        "Battlin' Brandybucks - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Ruffian",
+      "points": 5,
+      "keywords": "MAN | RUFFIAN | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 2,
+        "Sv": "5+",
+        "S": 3,
+        "D": 3,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "options": [
+        "Bow - 1 point",
+        "Whip - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Put 'em in Chains",
+          "type": "ACTIVE",
+          "text": "If this model wins a Combat, then instead of making Strikes they may choose a single enemy Hobbit model they were Engaged in Combat with and roll a D6. If the score is higher than the chosen model's Strength then the chosen model is put in chains and suffers the effects of the Paralyse Magical Power; however, the effects will not immediately end should this model have no Will Points or be slain."
+        },
+        {
+          "name": "At 'em Lads!",
+          "type": "ACTIVE",
+          "text": "Whilst Engaged in Combat with an enemy Hobbit model, this model gains a bonus of +1 to their Fight value."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Sharkey's Rogues army-list page. Sharkey & Worm, Bill Ferny, Sid Briarthorn, Rowan Thistlewood, Ted Sandyman and Ruffian stat blocks are from the Isengard faction page (Sharkey's crew is filed there); Lotho Sackville-Baggins and Hobbit Militia stat blocks are from The Free Peoples faction page."
+}

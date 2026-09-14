@@ -1,0 +1,121 @@
+{
+  "legion": "Variags of Khand [Legacy]",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/variags_of_khand/"
+  ],
+  "additionalRules": [
+    "A Variags of Khand Army must always contain a Khandish King, who is always the Army's General.",
+    "Khandish Horsemen and Khandish Charioteers do not count towards this Army's bow limit."
+  ],
+  "specialRules": [
+    {
+      "name": "High King of Khand",
+      "type": "",
+      "text": "The Khandish King that is your General gains an additional Might Point. Additionally, so long as he is alive and on the battlefield, your General counts as a banner for the purpose of Victory Points."
+    },
+    {
+      "name": "Khandish Fury",
+      "type": "",
+      "text": "Once per game, at the start of any Fight Phase, you can declare that you are using this ability so long as there is at least one friendly Hero model alive and on the battlefield. If you do, then until the end of the turn friendly Warrior models that are within 3\" of a friendly Hero model gain a bonus of +1 to their Fight Value."
+    }
+  ],
+  "units": [
+    {
+      "name": "Khandish King",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | KHAND | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "3",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "options": [
+        "Khandish Chariot - 35 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Khandish King",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | KHAND | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "3",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "options": [
+        "Khandish Chariot - 35 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Khandish Chieftain",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | KHAND | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Khandish Charioteer",
+      "points": 40,
+      "keywords": "MAN | KHAND | WARRIOR, CHARIOT | 60MM",
+      "profile": {},
+      "options": [
+        "Exchange hand-and-a-half weapon for bow - Free points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Khandish Horseman",
+      "points": 14,
+      "keywords": "MAN | KHAND | WARRIOR, CAVALRY | 25MM",
+      "profile": {},
+      "specialRules": []
+    },
+    {
+      "name": "Khandish Warrior",
+      "points": 8,
+      "keywords": "MAN | KHAND | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "options": [
+        "Exchange hand-and-a-half weapon for bow - Free points"
+      ],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Variags of Khand [Legacy] army-list page. Stat blocks and keywords cross-referenced from the Forces of Evil faction pages on the same site."
+}

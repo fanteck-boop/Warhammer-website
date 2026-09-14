@@ -1,0 +1,225 @@
+{
+  "legion": "Muster of Isengard",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/muster_of_isengard/"
+  ],
+  "additionalRules": [
+    "A Muster of Isengard Army must always contain Saruman, who is always the Army's General."
+  ],
+  "specialRules": [
+    {
+      "name": "You do not know pain",
+      "type": "",
+      "text": "The Break Point for a Muster of Isengard Army is 66% rather than 50%."
+    },
+    {
+      "name": "Isengard Unleashed",
+      "type": "",
+      "text": "During the first turn of the game, each friendly Uruk-hai Hero may declare a Heroic March for free. Additionally, Uruk-hai Captains gain Heroic Strike."
+    },
+    {
+      "name": "There will be no dawn",
+      "type": "",
+      "text": "Friendly Uruk-hai models gain the Hatred (Man) special rule."
+    }
+  ],
+  "units": [
+    {
+      "name": "Saruman",
+      "points": 170,
+      "heroicTier": "Hero of Legend",
+      "keywords": "WIZARD | ISENGARD | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "6",
+        "Fate": "3"
+      },
+      "options": [
+        "Horse: 20"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Uruk-Hai Captain",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "URUK-HAI | ISENGARD | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "5",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Uruk-Hai Scout Captain",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "URUK-HAI | ISENGARD | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "5",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Vrasku",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "URUK-HAI | ISENGARD | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "5",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Uruk-Hai Shaman",
+      "points": 55,
+      "heroicTier": "Minor Hero",
+      "keywords": "URUK-HAI | ISENGARD | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "6+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "options": [
+        "Armour: 5"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Grima",
+      "points": 25,
+      "heroicTier": "Independent Hero",
+      "keywords": "MAN | ISENGARD | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "2",
+        "Sv": "4+",
+        "S": "3",
+        "D": "3",
+        "A": "1",
+        "W": "1",
+        "C": "8+",
+        "Might": "0",
+        "Will": "0",
+        "Fate": "0"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Uruk-Hai Drummer",
+      "points": 35,
+      "heroicTier": "Independent Hero",
+      "keywords": "URUK-HAI | ISENGARD | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "1",
+        "C": "6+",
+        "Might": "0",
+        "Will": "0",
+        "Fate": "1"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Feral Uruk-Hai",
+      "points": 13,
+      "keywords": "URUK-HAI | ISENGARD | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "specialRules": []
+    },
+    {
+      "name": "Isengard Troll",
+      "points": 100,
+      "keywords": "TROLL | ISENGARD | WARRIOR, INFANTRY, MONSTER | 60MM",
+      "profile": {},
+      "options": [
+        "Swap shield for war drum (Isengard): 25",
+        "Spear: 5"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Uruk-Hai Berserker",
+      "points": 15,
+      "keywords": "URUK-HAI | ISENGARD | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "specialRules": []
+    },
+    {
+      "name": "Uruk-Hai Scout",
+      "points": 8,
+      "keywords": "URUK-HAI | ISENGARD | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "options": [
+        "Banner: 25",
+        "Shield: 1",
+        "Uruk-hai bow: 1"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Uruk-Hai Warrior",
+      "points": 9,
+      "keywords": "URUK-HAI | ISENGARD | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "options": [
+        "Banner: 25",
+        "Crossbow: 2",
+        "Pike: 1",
+        "Shield: 1"
+      ],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Muster of Isengard army-list page. Stat blocks and keywords cross-referenced from the Forces of Evil faction pages on the same site."
+}

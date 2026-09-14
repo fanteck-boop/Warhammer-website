@@ -1,0 +1,215 @@
+{
+  "legion": "Usurpers of Edoras",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/usurpers_of_edoras/"
+  ],
+  "additionalRules": [
+    "If your Army includes Freca, then he must be your General.",
+    "Rohirrim Traitors can only be included in Lord Thorne's Warband.",
+    "If a Usurpers of Edoras Army includes Freca, it cannot include any Harad models.",
+    "Harad Warrior models can only be included in the Warband of a War Mûmak of Harad. Additionally, they must deploy within the howdah."
+  ],
+  "specialRules": [
+    {
+      "name": "Whipped into a frenzy",
+      "type": "",
+      "text": "Whenever a Hill Tribesman or Hill Tribes Chieftain suffers a Wound roll a D6. On a natural 6, the Wound is ignored."
+    },
+    {
+      "name": "Barbarous Killers",
+      "type": "",
+      "text": "Friendly Dunland models gain a bonus of +1 To Wound when making Strikes against enemy Hero models."
+    }
+  ],
+  "units": [
+    {
+      "name": "Freca",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | DUNLAND | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Wulf",
+      "points": 110,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | DUNLAND | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "5+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "2"
+      },
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "General Targg",
+      "points": 80,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | DUNLAND | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Hill Tribes Chieftain",
+      "points": 40,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | DUNLAND | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "options": [
+        "Light shield - 5 points",
+        "Two-handed weapon - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Lord Thorne of the Wold",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | ROHAN | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "War Mumak of Harad",
+      "points": 250,
+      "heroicTier": "Minor Hero",
+      "keywords": "MUMAK | HARAD | WAR BEAST | 180X140MM",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": "4",
+        "Sv": "6+",
+        "S": "10",
+        "D": "7",
+        "A": "3",
+        "W": "10",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "options": [
+        "Rocks - 20 points",
+        "Sigils of Defiance - 20 points",
+        "Tusk Weapons - 20 points",
+        "Foul Temperament - 15 points",
+        "Rappelling Lines - 10 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Crebain",
+      "points": 20,
+      "keywords": "BIRD | DUNLAND | WARRIOR, INFANTRY, BEAST, SWARM | 40MM",
+      "profile": {},
+      "specialRules": []
+    },
+    {
+      "name": "Haradrim Warrior",
+      "points": 6,
+      "keywords": "MAN | HARAD | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "options": [
+        "Bow - 1 points",
+        "Spear - 1 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Hill Tribesman",
+      "points": 5,
+      "keywords": "MAN | DUNLAND | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "options": [
+        "Banner and light shield - 26 points",
+        "War horn and light shield - 26 points",
+        "Banner - 25 points",
+        "War horn - 25 points",
+        "Light shield and flaming brand - 2 points",
+        "Bow - 1 points",
+        "Flaming brand - 1 points",
+        "Light shield - 1 points",
+        "Spear - 1 points",
+        "Two-handed weapon - 1 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Rohirrim Traitor",
+      "points": 6,
+      "keywords": "MAN | ROHAN | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "options": [
+        "War horn, shield, throwing spears - 28 points",
+        "Banner - 25 points",
+        "Shield and throwing spears - 3 points",
+        "Shield - 1 points",
+        "Bow - 1 points"
+      ],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Usurpers of Edoras army-list page. Stat blocks and keywords cross-referenced from the Forces of Evil faction pages on the same site."
+}

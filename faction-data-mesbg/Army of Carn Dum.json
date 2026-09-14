@@ -1,0 +1,327 @@
+{
+  "legion": "Army of Carn Dum",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/army_of_carn_dum/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/arnor_and_angmar/ (shared profile page for Angmar/Carn Dum units)"
+  ],
+  "additionalRules": [
+    "An Army of Carn Dum must always contain Aldrac, who is always the Army's General.",
+    "Hero warband/follower system (current 'Armies of The Lord of the Rings' edition): each Hero anchors a warband of Independent (non-Hero) followers up to a cap set by their tier for this army list — Hero of Legend: up to 18 followers; Hero of Valour: up to 15; Hero of Fortitude: up to 12; Minor Hero: up to 6; Independent Hero: 0 (occupies a slot in another Hero's warband instead). The army's General is typically a Hero of Valour or Hero of Legend — check this army list's own requirements. Heroic tier is assigned per army list, not an inherent property of the hero."
+  ],
+  "specialRules": [
+    {
+      "name": "Show of Strength",
+      "text": "If a Carn Dum Hero slays one or more enemy models in Combat, then for the duration of the following turn they gain a bonus of +1 to their Fight Value."
+    },
+    {
+      "name": "Banners of Carn Dum",
+      "text": "Friendly banners have a range of 6\" rather than 3\"."
+    },
+    {
+      "name": "Fierce Charge",
+      "text": "Friendly Warrior models gain a bonus of +1 to their Fight Value in a turn in which they Charge."
+    }
+  ],
+  "units": [
+    {
+      "name": "Angmar Orc Warrior",
+      "points": 5,
+      "keywords": "ORC | ANGMAR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "5+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Orc Bow - 1 point",
+        "Shield - 1 point",
+        "Spear - 1 point",
+        "Two-handed Weapon - 1 point"
+      ]
+    },
+    {
+      "name": "Angmar Warg Rider",
+      "points": 11,
+      "keywords": "ORC | ANGMAR | WARRIOR, CAVALRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "5+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Warg"
+      ],
+      "options": [
+        "Shield and Throwing Spears - 2 points",
+        "Orc Bow - 1 point",
+        "Shield - 1 point",
+        "Throwing Spears - 1 point"
+      ]
+    },
+    {
+      "name": "Hill Troll",
+      "points": 75,
+      "keywords": "TROLL | ANGMAR | WARRIOR, INFANTRY, MONSTER | 50MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 6,
+        "Sv": "4+",
+        "S": 6,
+        "D": 6,
+        "A": 3,
+        "W": 3,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "specialRules": [
+        {
+          "name": "Dominant (3)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones",
+          "type": "",
+          "text": "Range 12\", Strength 8."
+        },
+        {
+          "name": "Brutish Cunning",
+          "type": "ACTIVE",
+          "text": "This model may re-roll a single D6 in a Duel Roll when fighting solely against Infantry models (but not Monster models)."
+        }
+      ]
+    },
+    {
+      "name": "Orc Tracker",
+      "points": 6,
+      "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 3,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Orc Bow"
+      ],
+      "specialRules": [
+        {
+          "name": "Mountain Dweller",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Warrior of Carn Dum",
+      "points": 9,
+      "keywords": "MAN | ANGMAR, CARN DUM | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 4,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Spear - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Glory Seekers",
+          "type": "ACTIVE",
+          "text": "If this model is Engaged in Combat with an enemy Hero, then this model gains a bonus of +1 To Wound that Hero when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Angmar Orc Captain",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, ANGMAR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "7",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": []
+    },
+    {
+      "name": "Captain of Carn Dum",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ANGMAR, CARN DUM, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Glory Seekers",
+          "type": "ACTIVE",
+          "text": "If this model is Engaged in Combat with an enemy Hero, then this model gains a bonus of +1 To Wound that Hero when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Fraecht, Vassal of the Witch-king",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ANGMAR, CARN DUM, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "2",
+        "C": "6",
+        "Might": "1",
+        "Will": "4",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Hand-and-a-half Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Resolve"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Incantations of Power",
+          "type": "ACTIVE",
+          "text": "During each Priority Phase, after Priority is determined, Fraecht may spend a Will Point to invoke one incantation (effects last until the End Phase): Incantation of Strength — friendly Carn Dum models within 6\" re-roll To Wound Rolls of a natural 1. Incantation of Endurance — friendly Carn Dum models within 6\" that suffer a Wound ignore it on a D6 roll of 5+. Incantation of Swiftness — friendly Carn Dum models starting their Move within 6\" are not slowed by Difficult Terrain (except water)."
+        }
+      ]
+    },
+    {
+      "name": "Aldrac, Warlord of Carn Dum",
+      "points": 120,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, ANGMAR, CARN DUM, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "5",
+        "D": "6",
+        "A": "3",
+        "W": "3",
+        "C": "6",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic Challenge",
+        "Heroic Strength",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Mighty Blow",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Warlord of Carn Dum",
+          "type": "PASSIVE",
+          "text": "Friendly Carn Dum models within 6\" of Aldrac must re-roll failed Courage Tests."
+        },
+        {
+          "name": "Battle Frenzy",
+          "type": "ACTIVE",
+          "text": "If Aldrac slays an enemy model he was Engaged in Combat with, then in the following turn he may declare a Heroic Combat for free."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Composition/points from the prancingponypub army list page; full hero and troop profiles from the shared Arnor & Angmar forces page (Angmar/Carn Dum units are cross-listed there rather than under Forces of Evil)."
+}

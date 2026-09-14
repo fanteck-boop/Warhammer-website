@@ -1,0 +1,404 @@
+{
+  "legion": "Thorins Company",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/thorins_company/"
+  ],
+  "additionalRules": [
+    "A Thorin's Company Army must include Thorin Oakenshield, who is always the Army's General.",
+    "All Thorin's Company models must be included in Thorin's Warband.",
+    "You may only include Eagle models in your Army if it also includes Gandalf.",
+    "Great Eagles may only be included in Gwaihir's Warband."
+  ],
+  "specialRules": [
+    {
+      "name": "March to the Lonely Mountain",
+      "type": "",
+      "text": "If your Army contains only Thorin's Company models, then friendly Dwarf models may spend their Will Points to declare a Heroic March instead of using Might Points, even if they do not normally have the ability to declare a Heroic March."
+    },
+    {
+      "name": "\"We're making a long-term deposit\"",
+      "type": "",
+      "text": "At the beginning of the game, choose one Objective Marker on the board. Friendly Dwarf models within range of the chosen Objective Marker gain the Dominant (2) special rule."
+    },
+    {
+      "name": "Family Ties",
+      "type": "",
+      "text": "The Dwarves of Thorin's Company are divided into Family Groups, which are as follows:"
+    }
+  ],
+  "units": [
+    {
+      "name": "Thorin Oakenshield",
+      "points": 100,
+      "heroicTier": "Hero of Legend",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Orcrist - 10 points",
+        "The Oakenshield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Balin the Dwarf",
+      "points": 40,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "2",
+        "C": "4+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Dwalin the Dwarf",
+      "points": 95,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "5",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Fili the Dwarf",
+      "points": 50,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Gandalf the Grey",
+      "points": 170,
+      "heroicTier": "Hero of Valour",
+      "keywords": "WIZARD | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "6",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Gwaihir",
+      "points": 200,
+      "heroicTier": "Hero of Valour",
+      "keywords": "EAGLE | MISTY MOUNTAINS | HERO, INFANTRY, MONSTER, UNIQUE | 60MM",
+      "profile": {
+        "Mv": "12\"",
+        "Fv": "8",
+        "Sv": "4+",
+        "S": "6",
+        "D": "8",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Kili the Dwarf",
+      "points": 50,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Radagast the Brown",
+      "points": 145,
+      "heroicTier": "Hero of Valour",
+      "keywords": "WIZARD | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "6",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Radagast's Sleigh - 35 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Bifur the Dwarf",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Bilbo Baggins",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "HOBBIT | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Sting - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Bofur the Dwarf",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Bombur the Dwarf",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "3",
+        "C": "6+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Dori the Dwarf",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Gloin the Dwarf",
+      "points": 85,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Nori the Dwarf",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Oin the Dwarf",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "4+",
+        "Might": "1",
+        "Will": "5",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Ori the Dwarf",
+      "points": 40,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "6+",
+        "Might": "1",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Great Eagle",
+      "points": 100,
+      "keywords": "EAGLE | MISTY MOUNTAINS | WARRIOR, INFANTRY, MONSTER | 60MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Thorins Company army-list page. Stat blocks and keywords cross-referenced from the Forces of Good faction pages on the same site."
+}

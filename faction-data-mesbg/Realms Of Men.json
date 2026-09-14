@@ -1,0 +1,550 @@
+{
+  "legion": "Realms Of Men",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/realms_of_men/"
+  ],
+  "additionalRules": [
+    "Kings of Men are always a Hero of Legend. A King of Men may include Warrior models in their Warband from any Army List, so long as they share the same Faction Keyword.",
+    "A Realms of Men Army can never include any models with the Unique Keyword under any circumstances. However, it can include Hero models without the Unique Keyword so long as they share a Faction Keyword with a King of Men already in the Army. For example, a Realms of Men Army with a King of Men with the Gondor Keyword could include a Captain of Minas Tirith as they would both have the Gondor Keyword. Hero models included in this manner may also include Warrior models in their Warband with the same Faction Keyword.",
+    "When working out which King of Men is your Army's General, it must be the one which shares the most common Faction Keyword throughout your Army. For example, if the most common Faction Keyword in your Army is Rohan, then the King of Men with the Rohan Keyword must be your General.",
+    "A Realms of Men Army may not have two Kings of Men with the same Faction Keyword; however, they may have multiple Kings of Men with different Faction Keywords.",
+    "The Realms of Men Army List allows you to create your own forces and combine multiple factions of Men in a way that suits you."
+  ],
+  "specialRules": [],
+  "units": [
+    {
+      "name": "King of Men (Arnor)",
+      "points": 75,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN | ARNOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Horse - 20 points",
+        "Exchange armour for heavy armour - 5 points",
+        "Lance - 5 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "King of Men (Dale)",
+      "points": 75,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN | DALE | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "3",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Horse - 20 points",
+        "Exchange armour for heavy armour - 5 points",
+        "Lance - 5 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "King of Men (Gondor)",
+      "points": 75,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Horse - 20 points",
+        "Exchange armour for heavy armour - 5 points",
+        "Lance - 5 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "King of Men (Numenor)",
+      "points": 75,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN | NUMENOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "5",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Horse - 20 points",
+        "Exchange armour for heavy armour - 5 points",
+        "Lance - 5 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "King of Men (Rohan)",
+      "points": 75,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN | ROHAN | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Horse - 20 points",
+        "Exchange armour for heavy armour - 5 points",
+        "Lance - 5 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Captain of Arnor",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | ARNOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Captain of Dale",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | DALE | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Captain of Dol Amroth",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | GONDOR, DOL AMROTH | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armoured horse and lance - 30 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Captain of Minas Tirith",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Captain of Numenor",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | NUMENOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "5",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Captain of Rohan",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | ROHAN | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Horse - 20 points",
+        "Exchange armour for heavy armour - 5 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Knight of the White Tower",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "King's Huntsman",
+      "points": 55,
+      "heroicTier": "Minor Hero",
+      "keywords": "MAN | ROHAN | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Axeman of Lossarnach",
+      "points": 9,
+      "keywords": "MAN | GONDOR, LOSSARNACH | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Blackroot Vale Archer",
+      "points": 8,
+      "keywords": "MAN | GONDOR, BLACKROOT VALE | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "War horn - 25 points",
+        "Banner - 25 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Citadel Guard",
+      "points": 8,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY, ELITE | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Clansman of Lamedon",
+      "points": 8,
+      "keywords": "MAN | GONDOR, LAMEDON | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Guard of the Fountain Court",
+      "points": 10,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY, ELITE | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Knight of Arnor",
+      "points": 15,
+      "keywords": "MAN | ARNOR | WARRIOR, CAVALRY | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Knight of Dale",
+      "points": 11,
+      "keywords": "MAN | DALE | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Knight of Dol Amroth",
+      "points": 11,
+      "keywords": "MAN | GONDOR, DOL AMROTH | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "Armoured horse and banner - 33 points",
+        "Armoured horse and war horn - 33 points",
+        "Banner - 25 points",
+        "War horn - 25 points",
+        "Armoured horse and lance - 9 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Knight of Minas Tirith",
+      "points": 15,
+      "keywords": "MAN | GONDOR | WARRIOR, CAVALRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "Exchange shield and lance for banner - 25 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Man-at-arms of Dol Amroth",
+      "points": 10,
+      "keywords": "MAN | GONDOR, DOL AMROTH | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Ranger of Arnor",
+      "points": 8,
+      "keywords": "MAN | ARNOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "Banner - 25 points",
+        "War horn - 25 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Ranger of Gondor",
+      "points": 8,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "Banner - 25 points",
+        "War horn - 25 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Rider of Rohan",
+      "points": 14,
+      "keywords": "MAN | ROHAN | WARRIOR, CAVALRY | 40MM",
+      "profile": {},
+      "wargear": [
+        "Banner - 25 points",
+        "Throwing spears - 2 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Rohan Outrider",
+      "points": 8,
+      "keywords": "MAN | ROHAN | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Rohan Royal Guard",
+      "points": 11,
+      "keywords": "MAN | ROHAN | WARRIOR, INFANTRY, ELITE | 25MM",
+      "profile": {},
+      "wargear": [
+        "Horse and throwing spears - 7 points",
+        "Horse - 5 points",
+        "Throwing spears - 2 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Warrior of Arnor",
+      "points": 8,
+      "keywords": "MAN | ARNOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "Swap spear and shield for banner - 25 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Warrior of Dale",
+      "points": 7,
+      "keywords": "MAN | DALE | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "War horn - 25 points",
+        "Banner - 25 points",
+        "Esgaroth bow - 2 points",
+        "Shield and spear - 2 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Warrior of Minas Tirith",
+      "points": 8,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "War horn and shield - 26 points",
+        "Banner - 25 points",
+        "Shield and spear - 2 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Warrior of Numenor",
+      "points": 9,
+      "keywords": "MAN | NUMENOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "Shield and spear - 2 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Warrior of Rohan",
+      "points": 6,
+      "keywords": "MAN | ROHAN | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "War horn, shield, throwing spears - 28 points",
+        "Banner - 25 points",
+        "Shield and throwing spears - 3 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Gondor Avenger Bolt Thrower",
+      "points": 60,
+      "keywords": "SIEGE ENGINE | 40MM",
+      "profile": {},
+      "wargear": [
+        "Swift Reload - 20 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Gondor Battlecry Trebuchet",
+      "points": 100,
+      "keywords": "SIEGE ENGINE | 120MM",
+      "profile": {},
+      "wargear": [
+        "Flaming Ammunition - 10 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Windlance",
+      "points": 70,
+      "keywords": "SIEGE ENGINE | 50MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Realms Of Men army-list page. Stat blocks and keywords cross-referenced from the Forces of Good faction pages on the same site."
+}

@@ -1,0 +1,607 @@
+{
+  "legion": "Garrison of Ithilien",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/garrison_of_ithilien/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/gondor/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/the_free_peoples/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/good_legacy/"
+  ],
+  "additionalRules": [
+    "A Garrison of Ithilien Army must include Faramir, Captain of Gondor, who is always the Army's General.",
+    "You may only include Sam if your Army also includes Frodo. You may only include Smeagol if your Army includes Frodo and Sam.",
+    "Frodo, Sam and Smeagol may not lead Warrior models in this Army."
+  ],
+  "specialRules": [
+    {
+      "name": "Captured by Gondor",
+      "type": "",
+      "text": "Frodo, Sam and Smeagol may either be deployed as a single Warband with Frodo as the Warband's Captain, or as part of Faramir's Warband."
+    },
+    {
+      "name": "Faramir's Rangers",
+      "type": "",
+      "text": "A Garrison of Ithilien Army has a Bow Limit of 50% rather than the usual 33%."
+    },
+    {
+      "name": "Experienced Trackers",
+      "type": "",
+      "text": "At the start of each game, you may choose either Woodland Creature or Mountain Dwellers. Friendly Gondor models gain the chosen special rule for the duration of the game."
+    },
+    {
+      "name": "\"I think at last we understand one another, Frodo Baggins\"",
+      "type": "",
+      "text": "At the end of the game, you will score an additional Victory Point for each of Frodo, Sam and Smeagol that are still alive, or have escaped the battlefield in Scenarios where this applies. This can never take your total number of Victory Points for a Scenario above 20."
+    }
+  ],
+  "units": [
+    {
+      "name": "Faramir",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, GONDOR, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Bow"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Accuracy",
+        "Heroic Strike",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points",
+        "Shield (without Bow) - 5 points",
+        "Exchange Armour and Bow for Heavy Armour - Free"
+      ],
+      "specialRules": [
+        {
+          "name": "Leader (Citadel Guard)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sharpshooter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "\"A Chance for Faramir, Captain of Gondor to show his Quality\"",
+          "type": "ACTIVE",
+          "text": "Should Faramir's Army be Broken, then from that point onwards Faramir may re-roll any failed To Wound Rolls when making Strikes. Additionally, should Faramir's Army be Broken, then Faramir may declare a Heroic Resolve each turn for free."
+        },
+        {
+          "name": "Wizard's Pupil",
+          "type": "PASSIVE",
+          "text": "Whilst Faramir is alive and on the battlefield, if you win the roll to choose who has Priority, and choose to give Priority to your opponent, then until the end of the turn Faramir and friendly Warrior models within 3\" of him gain the Dominant (2) special rule."
+        }
+      ]
+    },
+    {
+      "name": "Captain of Minas Tirith",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, GONDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Shieldwall",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Damrod",
+      "points": 40,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, GONDOR, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Bow"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Well-aimed Shot",
+          "type": "ACTIVE",
+          "text": "When making a shooting attack, the first time Damrod fails an In The Way Roll he may make an Intelligence Test. If the test is passed, the In The Way Roll will be successful instead."
+        }
+      ]
+    },
+    {
+      "name": "Frodo Baggins",
+      "points": 80,
+      "heroicTier": "Independent Hero",
+      "keywords": "HOBBIT, FELLOWSHIP, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "The One Ring",
+        "Mithril Coat",
+        "Sting",
+        "Elven Cloak"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Mithril Coat - 15 points",
+        "Sting - 5 points",
+        "Elven Cloak - Free"
+      ],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Mithril Coat",
+          "type": "PASSIVE",
+          "text": "This is a Unique piece of Mithril armour. Additionally, the wearer may re-roll Fate rolls of a 1."
+        },
+        {
+          "name": "Sting",
+          "type": "ACTIVE",
+          "text": "This is a Unique Elven hand weapon. A model gains a bonus of +1 to their Strength when making Strikes with Sting."
+        }
+      ]
+    },
+    {
+      "name": "Madril",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, GONDOR, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Bow"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Master of Reserves",
+          "type": "PASSIVE",
+          "text": "In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may modify the roll for Madril's Warband by +1 or -1, even if he is not on the battlefield. If Madril is on the battlefield, you may also modify the roll for other Warbands in your Army by +1 or -1."
+        }
+      ]
+    },
+    {
+      "name": "Samwise Gamgee",
+      "points": 45,
+      "heroicTier": "Independent Hero",
+      "keywords": "HOBBIT, FELLOWSHIP, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Frying Pan",
+        "Elven Cloak"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Elven Cloak - Free"
+      ],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "\"Let him go or I'll have you, Longshanks!\"",
+          "type": "ACTIVE",
+          "text": "During the Declare Heroic Actions step of the Fight Phase, if Frodo is Engaged in Combat and is within 6\" of Sam, then Sam may declare a free Heroic Combat. If this Heroic Combat is successful, then Sam must use the following Move to join Frodo's Combat. If this is not possible, then Sam must Move as close as possible to Frodo. Sam cannot use this special rule if he is in the same Combat as Frodo."
+        },
+        {
+          "name": "Frying Pan",
+          "type": "ACTIVE",
+          "text": "Instead of making Strikes if he wins a Duel Roll, Sam may choose to use his Frying Pan as a weapon. Choose one enemy Infantry model involved in the Combat (with the exception of a Monster) and roll a D6. On a 4+, the chosen model is stunned by the hit and cannot Move during the following turn, but may otherwise act normally."
+        }
+      ]
+    },
+    {
+      "name": "Anborn, Ranger of Ithilien",
+      "points": 40,
+      "heroicTier": "Minor Hero",
+      "keywords": "MAN, GONDOR, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "1",
+        "C": "6+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Bow"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Sharpshooter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Lethal Aim",
+          "type": "ACTIVE",
+          "text": "Each turn, Anborn gains a free Might Point that can only be spent during a shooting attack on either a To Hit Roll, a To Wound Roll, or an In The Way Test. If this free Might Point is not spent by the end of the turn, it is lost."
+        }
+      ]
+    },
+    {
+      "name": "Mablung, Ranger of Ithilien",
+      "points": 40,
+      "heroicTier": "Minor Hero",
+      "keywords": "MAN, GONDOR, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "1",
+        "C": "6+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Bow"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Birdcalls",
+          "type": "ACTIVE",
+          "text": "Mablung and any Rangers of Gondor (including Faramir, Madril, Damrod and Anborn) within 6\" of him gain the Stalk Unseen special rule. Additionally, Mablung and any Rangers of Gondor (including Faramir, Madril, Damrod and Anborn) within 6\" of him ignore the Stalk Unseen special rule of enemy models."
+        }
+      ]
+    },
+    {
+      "name": "Smeagol",
+      "points": 30,
+      "heroicTier": "Independent Hero",
+      "keywords": "HOBBIT, FELLOWSHIP, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "0",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Strangling Fingers (never Unarmed)"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Cave Dweller",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Mountain Dweller",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Stalk Unseen",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "\"Serve the Master of the Precious\"",
+          "type": "PASSIVE",
+          "text": "Whilst within 6\" of Frodo, Sméagol treats his Courage Value as 5+."
+        },
+        {
+          "name": "\"Soft and quick and shadows we must be\"",
+          "type": "ACTIVE",
+          "text": "Sméagol does not halve his Move Value when Moving through Difficult Terrain. Additionally, if Frodo or Sam begin their Activation within 6\" of Sméagol, they will also benefit from this special rule."
+        }
+      ]
+    },
+    {
+      "name": "Knight of Minas Tirith",
+      "points": 15,
+      "keywords": "MAN | GONDOR | WARRIOR, CAVALRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield",
+        "Lance",
+        "Horse"
+      ],
+      "options": [
+        "Exchange Shield and Lance for Banner - 25 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Shieldwall",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Osgiliath Veteran",
+      "points": 9,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "6+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Bow - 1 point",
+        "Shield - 1 point",
+        "Spear - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Hatred (Mordor)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Loyal to the Captains",
+          "type": "ACTIVE",
+          "text": "Whilst within 6\" of either Boromir or Faramir, this model may re-roll To Wound Rolls of a natural 1 when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Ranger of Gondor",
+      "points": 8,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "3+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Bow"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "War Horn - 25 points",
+        "Spear - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Warrior of Minas Tirith",
+      "points": 8,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "War Horn and Shield - 26 points",
+        "Banner - 25 points",
+        "Shield and Spear - 2 points",
+        "Shield - 1 point",
+        "Bow - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Shieldwall",
+          "type": "",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Garrison of Ithilien army-list page. Full stat blocks, wargear, and special-rule text from the Gondor faction page (Faramir, Captain of Minas Tirith, Damrod, Madril, Knight/Warrior of Minas Tirith, Osgiliath Veteran, Ranger of Gondor); Frodo Baggins, Samwise Gamgee and Sméagol from The Free Peoples faction page; Anborn and Mablung, Rangers of Ithilien, from the Good Legacy faction page — all on the same site."
+}

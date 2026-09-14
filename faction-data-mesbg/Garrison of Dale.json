@@ -1,0 +1,217 @@
+{
+  "legion": "Garrison of Dale",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/garrison_of_dale/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/kingdoms_of_men/"
+  ],
+  "additionalRules": [
+    "A Garrison of Dale Army must include Girion, who is always the Army's General."
+  ],
+  "specialRules": [
+    {
+      "name": "\"Girion, lord of the city, rallied his bowmen to fire upon the beast\"",
+      "type": "",
+      "text": "Friendly Dale models improve their Shoot Value to 3+."
+    },
+    {
+      "name": "Bring down the Dragon",
+      "type": "",
+      "text": "Friendly Dale models may apply their Hatred (Dragon) special rule to their shooting attacks. Additionally, friendly Dale models may re-roll failed To Hit Rolls when making a shooting attack targeting a Monster model."
+    },
+    {
+      "name": "Girion's Last Stand",
+      "type": "",
+      "text": "Girion gains the Fearless special rule. Additionally, friendly Dale models that can draw Line of Sight to Girion gain a bonus of +1 to any Courage Tests they are required to take."
+    },
+    {
+      "name": "Defenders of Dale",
+      "type": "",
+      "text": "Friendly Dale models that are within their deployment zone, and/or within 6\" of a friendly Windlance, gain a bonus of +1 To Wound when making Strikes."
+    }
+  ],
+  "units": [
+    {
+      "name": "Girion, Lord of Dale",
+      "points": 80,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, DALE, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "3",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Windlance - 50 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Hatred (Dragon)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Windlance Trained",
+          "type": "PASSIVE",
+          "text": "If Girion is upgraded to take a Windlance, then he counts as the only crew for the Siege Engine. However, unlike normal Siege Engine crew, Girion may Move further than 6\" away from the Windlance at any point and may rotate it without suffering the -1 penalty to his rolls To Hit. Additionally, when making a shooting attack with the Windlance that targets a Monster model, Girion gains a bonus of +1 to any rolls on the Scatter Table."
+        },
+        {
+          "name": "Lord of Dale",
+          "type": "PASSIVE",
+          "text": "Girion's Stand Fast is 12\" rather than 6\". Additionally, friendly Dale models within 3\" of Girion may re-roll To Wound Rolls of a natural 1 when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Captain of Dale",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, DALE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Shield",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Hatred (Dragon)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Knight of Dale",
+      "points": 11,
+      "keywords": "MAN | DALE | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "6+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield",
+        "Spear"
+      ],
+      "specialRules": [
+        {
+          "name": "Wall of Blades",
+          "type": "ACTIVE",
+          "text": "Gains a bonus of +1 To Wound when making Strikes with their spear against a model that Charged them this turn."
+        }
+      ]
+    },
+    {
+      "name": "Warrior of Dale",
+      "points": 7,
+      "keywords": "MAN | DALE | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "War Horn - 25 points",
+        "Banner - 25 points",
+        "Esgaroth Bow - 2 points",
+        "Shield and Spear - 2 points",
+        "Shield - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Hatred (Dragon)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Windlance",
+      "points": 70,
+      "keywords": "SIEGE ENGINE | DALE | SIEGE ENGINE | 50MM",
+      "profile": {
+        "Range": "6\"-60\"",
+        "S": 10,
+        "D": 10,
+        "W": 3
+      },
+      "wargear": [
+        "Crewed by two Dale Siege Crew (Mv6\" Fv4 Sv4+ S3 D4 A1 W1 C7+ I7+, Armour, Hand Weapon), one of which is the Siege Veteran"
+      ],
+      "specialRules": [
+        {
+          "name": "Direct Shot",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Accurate",
+          "type": "ACTIVE",
+          "text": "A Windlance will only Scatter 3\" rather than 6\"."
+        },
+        {
+          "name": "Piercing Shot",
+          "type": "ACTIVE",
+          "text": "A model hit by the shot of a Windlance is flung back D3\" directly away if it has Strength 5 or lower, suffering hits and being knocked Prone; models it passes over or that stop it also suffer hits."
+        },
+        {
+          "name": "Hatred (Dragon)",
+          "type": "",
+          "text": "The Dale Siege Crew have this special rule."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Garrison of Dale army-list page. Full stat blocks, wargear, and special-rule text from the Kingdoms of Men faction page on the same site."
+}

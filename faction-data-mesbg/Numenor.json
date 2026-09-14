@@ -1,0 +1,102 @@
+{
+  "legion": "Numenor",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/numenor/"
+  ],
+  "additionalRules": [],
+  "specialRules": [
+    {
+      "name": "Blood of Numenor",
+      "type": "",
+      "text": "Friendly Numenor models gain the Resistant to Magic special rule whilst they are within 6\" of a friendly Unique Numenor Hero model."
+    },
+    {
+      "name": "The Resolve of Men",
+      "type": "",
+      "text": "Friendly Numenor models gain a bonus of +1 to any Courage tests they have to take."
+    },
+    {
+      "name": "The Line of Kings",
+      "type": "",
+      "text": "If they have the Unique keyword, your General gains the General Hunter special rule. Additionally, your General must always accept a Heroic Challenge directed at them."
+    }
+  ],
+  "units": [
+    {
+      "name": "Elendil",
+      "points": 175,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN | NUMENOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "8",
+        "Sv": "4+",
+        "S": "5",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Isildur",
+      "points": 130,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | NUMENOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "5",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Horse - 20 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Captain of Numenor",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | NUMENOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "5",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Warrior of Numenor",
+      "points": 9,
+      "keywords": "MAN | NUMENOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "Shield and spear - 2 points"
+      ],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Numenor army-list page. Stat blocks and keywords cross-referenced from the Forces of Good faction pages on the same site."
+}

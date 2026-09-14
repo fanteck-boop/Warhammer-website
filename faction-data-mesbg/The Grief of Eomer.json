@@ -1,0 +1,510 @@
+{
+  "legion": "The Grief of Eomer",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/the_grief_of_eomer/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/rohan/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/gondor/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/good_legacy/"
+  ],
+  "additionalRules": [
+    "A Grief of Éomer Army must always contain Éomer, who is always the Army's General.",
+    "Rohan Warrior models can only be included in the Warband of a Rohan Hero.",
+    "Gondor Warrior models can only be included in the Warband of a Gondor Hero."
+  ],
+  "specialRules": [
+    {
+      "name": "Éomer's Wrath",
+      "type": "",
+      "text": "Éomer is always treated as being under the effects of his The Price of Grief special rule. Additionally, Éomer gains a bonus of +1 to his Fight Value on a turn in which he Charges."
+    },
+    {
+      "name": "Fear no enemy",
+      "type": "",
+      "text": "Éomer gains the Fearless special rule. Additionally, friendly Rohan models that can draw Line of Sight to Éomer automatically pass any Courage Tests they are required to take."
+    },
+    {
+      "name": "Ride of Dol Amroth",
+      "type": "",
+      "text": "Friendly Gondor models may re-roll To Wound Rolls of a natural 1 when making Strikes in a turn in which they Charged."
+    }
+  ],
+  "units": [
+    {
+      "name": "Eomer",
+      "points": 110,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Guthwine"
+      ],
+      "heroicActions": [
+        "Heroic Strength",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Firefoot - 20 points",
+        "Firefoot with Armour - 25 points",
+        "Shield - 5 points",
+        "Throwing Spear - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Leader (Rohan Royal Guard)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Guthwine",
+          "type": "ACTIVE",
+          "text": "This is a Unique hand weapon. Additionally, each time a model armed with Gúthwinë rolls a natural 6 To Wound when making a Strike, they may immediately make a single additional To Wound Roll against the same target. If this additional To Wound Roll is a natural 6, this will not benefit from this special rule."
+        },
+        {
+          "name": "The Price of Grief",
+          "type": "ACTIVE",
+          "text": "If Théoden or Éowyn are in the same Army as Éomer, and either (or both) are removed as a casualty, then for the remainder of the game Éomer must re-roll all failed To Wound Rolls when making Strikes. Additionally, for the remainder of the game, when Éomer Moves he must Charge an enemy model if possible."
+        }
+      ]
+    },
+    {
+      "name": "Prince Imrahil",
+      "points": 140,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, GONDOR, DOL AMROTH, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Armoured Horse and Lance - 30 points"
+      ],
+      "specialRules": [
+        {
+          "name": "The Lineage of Numenor",
+          "type": "ACTIVE",
+          "text": "The range of Prince Imrahil's Stand Fast is 12\" rather than 6\"."
+        },
+        {
+          "name": "Dol Amroth for Gondor!",
+          "type": "PASSIVE",
+          "text": "Other friendly Dol Amroth models treat Prince Imrahil as a banner with a range of 6\"."
+        }
+      ]
+    },
+    {
+      "name": "Hurin the Tall, Warden of the Keys",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, GONDOR, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Warden's Sword"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "The Warden's Sword",
+          "type": "ACTIVE",
+          "text": "This is a Master-forged hand-and-a-half weapon."
+        },
+        {
+          "name": "In Defence of the King",
+          "type": "ACTIVE",
+          "text": "Whilst he is within 3\" of your General, so long as your General has the Gondor Keyword, Húrin automatically passes any Courage Tests he is required to take and may re-roll To Wound Rolls of a natural 1 when making Strikes."
+        },
+        {
+          "name": "Lines of Command",
+          "type": "PASSIVE",
+          "text": "Whilst Húrin is alive and on the battlefield, your opponent cannot score any Victory Points for Wounding or slaying the enemy General, so long as your General has the Gondor Keyword."
+        }
+      ]
+    },
+    {
+      "name": "Captain of Dol Amroth",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, GONDOR, DOL AMROTH, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Armoured Horse and Lance - 30 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Pride of Dol Amroth",
+          "type": "ACTIVE",
+          "text": "Whilst within 3\" of Prince Imrahil, this model gains a bonus of +1 to their Fight value."
+        }
+      ]
+    },
+    {
+      "name": "Captain of Minas Tirith",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, GONDOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Shieldwall",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Captain of Rohan",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points",
+        "Exchange armour for heavy armour - 5 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Knight of Dol Amroth",
+      "points": 11,
+      "keywords": "MAN | GONDOR, DOL AMROTH | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "6+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "options": [
+        "Armoured Horse and Banner - 33 points",
+        "Armoured Horse and War Horn - 33 points",
+        "Banner - 25 points",
+        "War Horn - 25 points",
+        "Armoured Horse and Lance - 9 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Pride of Dol Amroth",
+          "type": "ACTIVE",
+          "text": "Whilst within 3\" of Prince Imrahil, this model gains a bonus of +1 to their Fight value."
+        }
+      ]
+    },
+    {
+      "name": "Knight of Minas Tirith",
+      "points": 15,
+      "keywords": "MAN | GONDOR | WARRIOR, CAVALRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield",
+        "Lance",
+        "Horse"
+      ],
+      "options": [
+        "Exchange Shield and Lance for Banner - 25 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Shieldwall",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Man-at-arms of Dol Amroth",
+      "points": 10,
+      "keywords": "MAN | GONDOR, DOL AMROTH | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Pike"
+      ],
+      "specialRules": [
+        {
+          "name": "Pride of Dol Amroth",
+          "type": "ACTIVE",
+          "text": "Whilst within 3\" of Prince Imrahil, this model gains a bonus of +1 to their Fight Value."
+        }
+      ]
+    },
+    {
+      "name": "Rider of Rohan",
+      "points": 14,
+      "keywords": "MAN | ROHAN | WARRIOR, CAVALRY | 40MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Shield",
+        "Bow",
+        "Horse"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Throwing Spear - 2 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Arise, Riders of Rohan!",
+          "type": "ACTIVE",
+          "text": "If this model is within 12\" of a Rohan General and has the Cavalry keyword, then it gains a bonus of +1 to its Fight Value in a turn in which it Charges."
+        }
+      ]
+    },
+    {
+      "name": "Warrior of Minas Tirith",
+      "points": 8,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "War Horn and Shield - 26 points",
+        "Banner - 25 points",
+        "Shield and Spear - 2 points",
+        "Shield - 1 point",
+        "Bow - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Shieldwall",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Warrior of Rohan",
+      "points": 6,
+      "keywords": "MAN | ROHAN | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "War horn, shield, throwing spear - 28 points",
+        "Banner - 25 points",
+        "Shield and throwing spear - 3 points",
+        "Shield - 1 point",
+        "Bow - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Spear Mastery",
+          "type": "ACTIVE",
+          "text": "This model may use its throwing spear as a normal spear during the Fight Phase, so long as it hasn't made a shooting attack with it in either the preceding Move Phase or Shoot Phase."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub The Grief of Eomer army-list page. Full stat blocks, wargear, and special-rule text from the Rohan faction page (Éomer, Captain of Rohan, Rider of Rohan, Warrior of Rohan) and the Gondor faction page (Prince Imrahil, Húrin the Tall, Captain of Dol Amroth, Captain of Minas Tirith, Knight of Dol Amroth, Knight of Minas Tirith, Warrior of Minas Tirith); Man-at-arms of Dol Amroth from the Good Legacy faction page — all on the same site."
+}

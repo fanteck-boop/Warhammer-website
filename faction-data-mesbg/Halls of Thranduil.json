@@ -1,0 +1,536 @@
+{
+  "legion": "Halls of Thranduil",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/halls_of_thranduil/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/elven_kingdoms/"
+  ],
+  "additionalRules": [],
+  "specialRules": [
+    {
+      "name": "\"The Elves of Mirkwood are not like their kin. They are less wise, and more dangerous\"",
+      "type": "",
+      "text": "Friendly Mirkwood Warrior models within 3\" of Thranduil gain a bonus of +1 to Wound when making Strikes."
+    },
+    {
+      "name": "Stoic Command",
+      "type": "",
+      "text": "Friendly Warrior models treat your General as a banner."
+    }
+  ],
+  "units": [
+    {
+      "name": "Thranduil, King of the Woodland Realm",
+      "points": 130,
+      "heroicTier": "Hero of Legend",
+      "keywords": "ELF, MIRKWOOD, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Elven Hand-and-a-half Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Great Elk - 30 points",
+        "Heavy Armour - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Leader (Palace Guard)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Bladelord",
+          "type": "ACTIVE",
+          "text": "If he is Outnumbered in a Combat, Thranduil may re-roll To Wound Rolls of a natural 1 when making Strikes. If he has the Infantry keyword and is Outnumbered in a Combat, Thranduil may instead re-roll all failed To Wound Rolls when making Strikes."
+        },
+        {
+          "name": "Fury of the Elvenking",
+          "type": "PASSIVE",
+          "text": "If Thranduil is Outnumbered in a Combat, and successfully kills all enemy models that he was Engaged in Combat with, then in the following turn Thranduil may declare a Heroic Combat for free."
+        },
+        {
+          "name": "\"Do not talk to me of Dragon fire\"",
+          "type": "ACTIVE",
+          "text": "At the beginning of his Activation, Thranduil can spend a Will Point to use this special rule. If he does, then until the end of the turn Thranduil has the Terror special rule. Additionally, if Thranduil has the Infantry Keyword when he uses this special rule, then each enemy model within 3\" of him, that is not Engaged in Combat, must take a Courage Test or be forced to Move Directly Away from Thranduil."
+        }
+      ]
+    },
+    {
+      "name": "Legolas Greenleaf, Prince of Mirkwood",
+      "points": 105,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF, MIRKWOOD, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "2+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Armour",
+        "Elf Bow",
+        "Elven-made Dagger"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points",
+        "Orcrist - 10 points",
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Sharpshooter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Leader (Palace Guard)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Orcrist",
+          "type": "ACTIVE",
+          "text": "This is a Unique Elven hand-and-a-half weapon. Orcrist has the Orcbane, Goblinbane and Uruk-haibane special rules. Additionally, the wielder of Orcrist has the Terror (Orc), Terror (Goblin) and Terror (Uruk-hai) special rules."
+        },
+        {
+          "name": "Deadly Shot",
+          "type": "ACTIVE",
+          "text": "Legolas may make three shooting attacks during the Shoot Phase instead of one, using all the normal rules for shooting. Additionally, Legolas may still make shooting attacks whilst he is Engaged in Combat if there are no other friendly models engaged in the same combat, and does not suffer the -1 penalty To Hit for Moving and Shooting so long as he has the Infantry keyword."
+        },
+        {
+          "name": "Pinpoint Shot",
+          "type": "ACTIVE",
+          "text": "Instead of shooting normally, Legolas may make a single shooting attack against an enemy model Engaged in Combat with a friendly model (including himself). If he does, then if the To Hit Roll is successful, Legolas doesn't need to make any In The Way Rolls - the shot will automatically hit its target."
+        }
+      ]
+    },
+    {
+      "name": "Mirkwood Elf Captain",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, MIRKWOOD, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Elven Glaive"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Elven Glaive",
+          "type": "ACTIVE",
+          "text": "This is an Elven spear. Additionally, a model armed with this weapon that is Engaged in Combat and is not being Supported may either gain a bonus of +1 Attacks for their Duel Roll, or +1 Attacks when making Strikes. This must be decided before the Duel Roll takes place."
+        }
+      ]
+    },
+    {
+      "name": "Mirkwood Ranger Captain",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, MIRKWOOD, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Elf Bow",
+        "Elven Hand Weapon",
+        "Elven Cloak"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Sharpshooter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Knife Fighters",
+          "type": "ACTIVE",
+          "text": "If Outnumbered in Combat, then before making their Duel roll, this model gains +1 Attack for each model they are Engaged in Combat with, after the first, up to a maximum of 3 bonus Attacks. This bonus lasts until the end of the Combat."
+        }
+      ]
+    },
+    {
+      "name": "Palace Guard Captain",
+      "points": 80,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, MIRKWOOD, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Elven-made Hand-and-a-half Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Shield - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Bodyguard",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Leader (Palace Guard)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "The King's Guard",
+          "type": "PASSIVE",
+          "text": "Whilst within 3\" of Thranduil, this model gains a bonus of +1 to their Fight value."
+        }
+      ]
+    },
+    {
+      "name": "Tauriel, Ranger of Mirkwood",
+      "points": 90,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, MIRKWOOD, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Armour",
+        "Elven Cloak",
+        "Elven Hand Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Elf Bow - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Shot",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sharpshooter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Blade Mistress",
+          "type": "ACTIVE",
+          "text": "If Tauriel is Outnumbered in a Combat, then before making her Duel Roll she gains an additional Attack for each model she is Engaged in Combat with after the first. This bonus lasts until the end of the Combat."
+        },
+        {
+          "name": "Vengeful Fury",
+          "type": "PASSIVE",
+          "text": "If your Army also includes Kíli, and he is removed as a casualty, then Tauriel's Strength is increased to 5 and her Defence reduced to 4 for the remainder of the battle. Additionally, if Kíli is slain, then Tauriel must always Charge an enemy model when she Activates if possible."
+        }
+      ]
+    },
+    {
+      "name": "Mirkwood Elf Knight",
+      "points": 16,
+      "keywords": "ELF | MIRKWOOD | WARRIOR, CAVALRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 5,
+        "Sv": "3+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "5+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Horse",
+        "Elven Hand-and-a-half Weapons"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "King's Knights",
+          "type": "PASSIVE",
+          "text": "Whilst they have the Cavalry keyword, this model gains a bonus of +1 to their Fight Value and +1 to their Defence whilst within 6\" of Thranduil."
+        }
+      ]
+    },
+    {
+      "name": "Mirkwood Elf Warrior",
+      "points": 9,
+      "keywords": "ELF | MIRKWOOD | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 5,
+        "Sv": "3+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "5+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Elven Hand-and-a-half Weapon"
+      ],
+      "options": [
+        "Elf Bow - 2 points",
+        "Elven Glaive - 2 points",
+        "Shield - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Elven Glaive",
+          "type": "ACTIVE",
+          "text": "This is an Elven spear. Additionally, a model armed with this weapon that is Engaged in Combat and is not being Supported may either gain a bonus of +1 Attacks for their Duel Roll, or +1 Attacks when making Strikes. This must be decided before the Duel Roll takes place."
+        }
+      ]
+    },
+    {
+      "name": "Mirkwood Ranger",
+      "points": 14,
+      "keywords": "ELF | MIRKWOOD | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 5,
+        "Sv": "3+",
+        "S": 3,
+        "D": 3,
+        "A": 1,
+        "W": 1,
+        "C": "5+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Elf Bow",
+        "Elven Hand Weapon",
+        "Elven Cloak"
+      ],
+      "specialRules": [
+        {
+          "name": "Sharpshooter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Knife Fighters",
+          "type": "ACTIVE",
+          "text": "If Outnumbered in Combat, then before making their Duel roll, this model gains +1 Attack for each model they are Engaged in Combat with, after the first, up to a maximum of 3 bonus Attacks. This bonus lasts until the end of the Combat."
+        }
+      ]
+    },
+    {
+      "name": "Palace Guard",
+      "points": 12,
+      "keywords": "ELF | MIRKWOOD | WARRIOR, INFANTRY, ELITE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 5,
+        "Sv": "3+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "5+",
+        "I": "5+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Elven Hand-and-a-half Weapon"
+      ],
+      "options": [
+        "Shield and Elven Spear - 2 points",
+        "Shield - 1 point",
+        "Elven Spear - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Bodyguard",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "The King's Guard",
+          "type": "PASSIVE",
+          "text": "Whilst within 3\" of Thranduil, this model gains a bonus of +1 to their Fight value."
+        }
+      ]
+    },
+    {
+      "name": "Wood Elf Sentinel",
+      "points": 25,
+      "keywords": "ELF | LOTHLORIEN | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 5,
+        "Sv": "3+",
+        "S": 3,
+        "D": 3,
+        "A": 2,
+        "W": 1,
+        "C": "5+",
+        "I": "5+"
+      },
+      "wargear": [
+        "Elven Hand Weapon",
+        "Elf Bow",
+        "Elven Cloak"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Enchanting Song",
+          "type": "ACTIVE",
+          "text": "During their Activation, a Wood Elf Sentinel may sing one of the following songs to gain the relevant effect: Hymn of Elbereth - choose a friendly model within 12\", it automatically passes Courage Tests until the End Phase. Lay of Gondolin - this model and friendly models within 3\" gain the Terror special rule until the End Phase. Eldamar Madrigal - an enemy model within 12\" not Engaged in Combat must take an Intelligence Test or be forced to Move as its Activation."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Halls of Thranduil army-list page. Full stat blocks, wargear, and special-rule text from the Elven Kingdoms faction page on the same site."
+}

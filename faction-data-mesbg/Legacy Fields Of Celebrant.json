@@ -1,0 +1,163 @@
+{
+  "legion": "Legacy Fields Of Celebrant",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/legacy_fields_of_celebrant/"
+  ],
+  "additionalRules": [
+    "A Fields of Celebrant Army must always contain Eorl the Young, who is always the Army's General.",
+    "A Fields of Celebrant Army must always contain a King of Men, which must choose the Gondor keyword as part of its Kingdoms of Men special rule. No other Kings of Men can be taken.",
+    "Rohan Warrior models can only be included in the Warband of a Rohan Hero.",
+    "Gondor Warrior models can only be included in the Warband of a Gondor Hero."
+  ],
+  "specialRules": [
+    {
+      "name": "Birth of an Alliance",
+      "type": "",
+      "text": "Friendly models within 6\" of both a friendly Rohan Hero model and a friendly Gondor Hero model gain a bonus of +1 to any Courage or Intelligence Tests they are required to take."
+    },
+    {
+      "name": "Gondor's Last Defence",
+      "type": "",
+      "text": "Friendly Gondor models within range of an Objective Marker may re-roll To Wound rolls of a natural 1 when making Strikes."
+    },
+    {
+      "name": "The Charge of Eorl",
+      "type": "",
+      "text": "Once per game, at the start of any friendly Activation Phase, Eorl can use this special rule so long as he is alive and on the battlefield, and has the Cavalry keyword. If he does, then until the end of the turn all friendly Cavalry models must Charge when they Move if able. Additionally, until the end of the turn, friendly Cavalry models that Charged this turn may re-roll any failed To Wound rolls when making Strikes."
+    }
+  ],
+  "units": [
+    {
+      "name": "Eorl the Young",
+      "points": 120,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN | ROHAN | HERO, CAVALRY, UNIQUE | 40MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "5+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "King of Men (Gondor)",
+      "points": 75,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Horse - 20 points",
+        "Exchange armour for heavy armour - 5 points",
+        "Lance - 5 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Captain of Minas Tirith",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Captain of Rohan",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | ROHAN | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Exchange armour for heavy armour - 5 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Citadel Guard",
+      "points": 8,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY, ELITE | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Rider of Rohan",
+      "points": 14,
+      "keywords": "MAN | ROHAN | WARRIOR, CAVALRY | 40MM",
+      "profile": {},
+      "wargear": [
+        "Banner - 25 points",
+        "Throwing spears - 2 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Son of Eorl",
+      "points": 20,
+      "keywords": "MAN | ROHAN | WARRIOR, CAVALRY, ELITE | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Warrior of Minas Tirith",
+      "points": 8,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "War horn and shield - 26 points",
+        "Banner - 25 points",
+        "Shield and spear - 2 points"
+      ],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Legacy Fields Of Celebrant army-list page. Stat blocks and keywords cross-referenced from the Forces of Good faction pages on the same site."
+}

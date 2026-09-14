@@ -1,0 +1,103 @@
+{
+  "legion": "The Eagles",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/the_eagles/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/the_free_peoples/"
+  ],
+  "additionalRules": [
+    "The Eagles may not include more Fledgeling Great Eagles than Great Eagles."
+  ],
+  "specialRules": [
+    {
+      "name": "\"The Eagles are Coming!\"",
+      "type": "",
+      "text": "Friendly Eagle models gain a bonus of +1 to their Strength on a turn in which they Charge."
+    },
+    {
+      "name": "Piercing Cry",
+      "type": "",
+      "text": "Once per game, at the start of any Move Phase, Gwaihir can use this special rule so long as he is alive and on the battlefield. If he does, then enemy models within 6\" of Gwaihir cannot Charge during that turn, but may otherwise act normally."
+    }
+  ],
+  "units": [
+    {
+      "name": "Gwaihir",
+      "points": 200,
+      "heroicTier": "Hero of Legend",
+      "keywords": "EAGLE, MISTY MOUNTAINS, HERO, INFANTRY, MONSTER, UNIQUE",
+      "profile": {
+        "Mv": "12\"",
+        "Fv": "8",
+        "Sv": "4+",
+        "S": "6",
+        "D": "8",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": ["Claws and Beak (hand weapon)"],
+      "heroicActions": ["Heroic Strength", "Heroic Defence"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Dominant (4)", "type": "", "text": "" },
+        { "name": "Fly", "type": "", "text": "" },
+        { "name": "Large Target", "type": "", "text": "" },
+        { "name": "Monstrous Charge", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "The Windlord", "type": "ACTIVE", "text": "Only Eagle and Wizard models may benefit from Gwaihir's Stand Fast or benefit from his Heroic Actions." }
+      ]
+    },
+    {
+      "name": "Great Eagle",
+      "points": 100,
+      "keywords": "EAGLE | MISTY MOUNTAINS | WARRIOR, INFANTRY, MONSTER | 60MM",
+      "profile": {
+        "Mv": "12\"",
+        "Fv": 7,
+        "Sv": "4+",
+        "S": 6,
+        "D": 8,
+        "A": 2,
+        "W": 3,
+        "C": "4+",
+        "I": "4+"
+      },
+      "wargear": ["Claws and Beak (hand weapon)"],
+      "specialRules": [
+        { "name": "Dominant (3)", "type": "", "text": "" },
+        { "name": "Fly", "type": "", "text": "" },
+        { "name": "Large Target", "type": "", "text": "" },
+        { "name": "Monstrous Charge", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Fledgeling Great Eagle",
+      "points": 75,
+      "keywords": "EAGLE | MISTY MOUNTAINS | WARRIOR, INFANTRY, MONSTER | 60MM",
+      "profile": {
+        "Mv": "12\"",
+        "Fv": 6,
+        "Sv": "4+",
+        "S": 5,
+        "D": 7,
+        "A": 2,
+        "W": 3,
+        "C": "5+",
+        "I": "5+"
+      },
+      "wargear": ["Claws and Beak (hand weapon)"],
+      "specialRules": [
+        { "name": "Dominant (2)", "type": "", "text": "" },
+        { "name": "Fly", "type": "", "text": "" },
+        { "name": "Large Target", "type": "", "text": "" },
+        { "name": "Monstrous Charge", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub The Eagles army-list page. Full stat blocks and special-rule text from the matching The Free Peoples faction page on the same site."
+}

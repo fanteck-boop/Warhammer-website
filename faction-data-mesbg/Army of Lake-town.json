@@ -1,0 +1,595 @@
+{
+  "legion": "Army of Lake-town",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/army_of_lake_town/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/kingdoms_of_men/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/dwarven_holds/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/elven_kingdoms/"
+  ],
+  "additionalRules": [
+    "Bard's Family may be included in Tauriel's Warband rather than Bard's if you wish.",
+    "Lake-town Guard may only be included in the Warbands of Lake-town Hero models."
+  ],
+  "specialRules": [
+    {
+      "name": "The Master's Coin",
+      "type": "ACTIVE",
+      "text": "At the end of his Activation if he is within 3\" of Braga, the Master of Lake-town may spend a Will Point. If he does, Braga immediately regains a Will Point spent earlier in the battle."
+    },
+    {
+      "name": "Air of Self-importance",
+      "type": "",
+      "text": "The Master of Lake-town, Alfrid and Braga may not take part in any Heroic Action declared by Bard or a member of Bard's Family."
+    },
+    {
+      "name": "\"I Shall Protect You\"",
+      "type": "ACTIVE",
+      "text": "Tauriel may include Kili, Fili, Bofur and Óin in her Warband. Additionally, if Tauriel is within 3\" of a friendly Dwarf model who is Engaged in Combat, she gains a bonus of +1 To Wound when making Strikes."
+    },
+    {
+      "name": "Stubborn to a Fault",
+      "type": "",
+      "text": "Friendly Dwarf models may re-roll failed To Wound Rolls either when making a shooting attack or when making Strikes."
+    }
+  ],
+  "units": [
+    {
+      "name": "The Master of Lake-town",
+      "points": 70,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, LAKE-TOWN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "8",
+        "Might": "2",
+        "Will": "4",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Unarmed"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Fearful",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Moneybags",
+          "type": "ACTIVE",
+          "text": "At the start of the Fight Phase, the Master may spend a Will Point so that Braga, any Lake-town Guard Captains and Lake-town Guard within 6\" gain +1 Fight Value and treat him as a banner until end of turn."
+        },
+        {
+          "name": "Price of Greed",
+          "type": "",
+          "text": "At the start of the game the opponent nominates a Hero to carry a sum of gold. If that model contacts the Master, he must take a Courage test or flee and is removed as a casualty."
+        },
+        {
+          "name": "Save the Gold!",
+          "type": "",
+          "text": "Whenever an enemy Hero within 3\" is slain, or he holds an Objective at the End Phase, the Master regains a spent Will Point."
+        }
+      ]
+    },
+    {
+      "name": "Alfrid the Councillor",
+      "points": 30,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, LAKE-TOWN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "2",
+        "Sv": "4+",
+        "S": "3",
+        "D": "3",
+        "A": "1",
+        "W": "1",
+        "C": "8",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Unarmed"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Fearful",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Dubious Counsel",
+          "type": "ACTIVE",
+          "text": "At the start of his Activation, Alfrid may pick a friendly Lake-town Hero within 6\" and roll a D6 (modifiable by spending Will) on a table of minor effects - swapping Might, restoring Will, re-rolls, Fearless, +1 Fight, or restoring Might."
+        }
+      ]
+    },
+    {
+      "name": "Bard the Bowman",
+      "points": 130,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, LAKE-TOWN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "3",
+        "W": "3",
+        "C": "4",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Great Bow"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Accuracy",
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Windlance - 50 points",
+        "Exchange Great Bow for Armour and Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Sharpshooter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sworn Protector (Bain, Sigrid, Tilda)",
+          "type": "",
+          "text": "Passes Courage tests while the named model is alive on the battlefield."
+        },
+        {
+          "name": "Rapid Fire",
+          "type": "ACTIVE",
+          "text": "If Bard hits with his great bow, he may fire again at a model within 3\" of the first target (even the same one), chaining up to 3 shots per turn."
+        },
+        {
+          "name": "Swift Shot",
+          "type": "ACTIVE",
+          "text": "Bard never suffers the -1 penalty To Hit for Moving and Shooting."
+        },
+        {
+          "name": "The Black Arrow",
+          "type": "ACTIVE",
+          "text": "If carrying the Windlance, once per game Bard may fire the Black Arrow instead of shooting normally, re-rolling failed To Hit and In The Way rolls, and always striking Dead On against a Battlefield Target."
+        },
+        {
+          "name": "Windlance Trained",
+          "type": "",
+          "text": "Bard may crew the Windlance alone, moving more than 6\" from it and rotating it without penalty, and gains +1 to Scatter rolls against Monsters."
+        }
+      ]
+    },
+    {
+      "name": "Windlance",
+      "points": 50,
+      "keywords": "SIEGE ENGINE | LAKE-TOWN | 50MM",
+      "profile": {
+        "Mv": "-",
+        "Fv": "-",
+        "Sv": "-",
+        "S": "10",
+        "D": "10",
+        "A": "-",
+        "W": "3",
+        "C": "-",
+        "I": "-"
+      },
+      "wargear": [
+        "Crewed by two Dale Siege Crew, one of which is the Siege Veteran"
+      ],
+      "specialRules": [
+        {
+          "name": "Direct Shot",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Accurate",
+          "type": "ACTIVE",
+          "text": "A Windlance will only Scatter 3\" rather than 6\"."
+        },
+        {
+          "name": "Piercing Shot",
+          "type": "ACTIVE",
+          "text": "A model hit by a Windlance shot with Strength 5 or lower is flung back D3\" and knocked Prone; models it passes over suffer a Strength 5 hit."
+        }
+      ]
+    },
+    {
+      "name": "Bofur the Dwarf",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, THORIN'S COMPANY, INFANTRY, HERO",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Light Armour",
+        "Mattock"
+      ],
+      "heroicActions": [
+        "Heroic Resolve"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Mattock",
+          "type": "ACTIVE",
+          "text": "A two-handed weapon; if the wielder wins the Duel Roll, they may try to knock down a chosen enemy model with an opposed Strength roll instead of making Strikes."
+        },
+        {
+          "name": "Steadfast",
+          "type": "",
+          "text": "Friendly Thorin's Company models within 3\" of Bofur may roll a D6 to ignore an enemy special rule or Magical Power effect (3+, before any Resist test)."
+        }
+      ]
+    },
+    {
+      "name": "Braga, Captain of the Guard",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, LAKE-TOWN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "7",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "The Master's Puppet",
+          "type": "ACTIVE",
+          "text": "Whilst within 6\" and Line of Sight of the Master of Lake-town (who still has Will remaining), Braga automatically passes Courage tests and may re-roll all failed To Wound rolls when Striking."
+        },
+        {
+          "name": "Captain of the Guard",
+          "type": "",
+          "text": "So long as Braga has Will remaining, friendly Lake-town Guard Captains and Lake-town Guard within 3\" count as having Dominant (2)."
+        }
+      ]
+    },
+    {
+      "name": "Fili the Dwarf",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, THORIN'S COMPANY, INFANTRY, HERO",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Light Armour",
+        "Hand Weapons",
+        "Throwing Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Combat Synergy",
+          "type": "ACTIVE",
+          "text": "If Kili and Fili are within 1\" of each other, they may swap places for free; if they do, both may re-roll a single D6 in their Duel Roll that Fight Phase."
+        }
+      ]
+    },
+    {
+      "name": "Kili the Dwarf",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, THORIN'S COMPANY, INFANTRY, HERO",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Light Armour",
+        "Hand Weapon",
+        "Dwarf Bow"
+      ],
+      "options": [
+        "Elf bow - 5 points"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Combat Synergy",
+          "type": "ACTIVE",
+          "text": "If Kili and Fili are within 1\" of each other, they may swap places for free; if they do, both may re-roll a single D6 in their Duel Roll that Fight Phase."
+        }
+      ]
+    },
+    {
+      "name": "Lake-town Guard Captain",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, LAKE-TOWN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "7",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Everyone has a Price",
+          "type": "",
+          "text": "Whilst within 6\" and Line of Sight of the Master of Lake-town (who still has Will remaining), may re-roll failed To Wound rolls of a natural 1 when Striking."
+        }
+      ]
+    },
+    {
+      "name": "Oin the Dwarf",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, THORIN'S COMPANY, INFANTRY, HERO",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "4",
+        "Might": "1",
+        "Will": "5",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hand-and-a-half Weapon",
+        "Hearing Trumpet"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Healing Herbs",
+          "type": "ACTIVE",
+          "text": "Once per turn, Óin may pick a friendly Thorin's Company model in base contact and roll a D6; on a 4+, it regains a lost Wound."
+        },
+        {
+          "name": "Reading the Portents",
+          "type": "ACTIVE",
+          "text": "During the Fight Phase, Óin may spend Will Points to let friendly Thorin's Company models within 6\" re-roll a single Duel Roll dice each time."
+        },
+        {
+          "name": "Hearing Trumpet",
+          "type": "ACTIVE",
+          "text": "Whenever an enemy Hero declares a Heroic Action within 6\", roll a D6; on a 5+, Óin may declare the same Heroic Action for free, but on a natural 1 he loses a Will Point or cannot Move that turn."
+        }
+      ]
+    },
+    {
+      "name": "Tauriel, Ranger of Mirkwood",
+      "points": 90,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, MIRKWOOD, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "2",
+        "C": "4",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Armour",
+        "Elven Cloak",
+        "Elven Hand Weapons"
+      ],
+      "options": [
+        "Elf bow - 5 points"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Expert Shot",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sharpshooter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Blade Mistress",
+          "type": "ACTIVE",
+          "text": "If Outnumbered in a Combat, Tauriel gains an extra Attack for each model beyond the first she is Engaged with, until the Combat ends."
+        },
+        {
+          "name": "Vengeful Fury",
+          "type": "",
+          "text": "If Kíli is in the same army and is slain, Tauriel's Strength becomes 5 and Defence 4 for the rest of the battle, and she must Charge an enemy model whenever possible."
+        }
+      ]
+    },
+    {
+      "name": "Bard's Family",
+      "points": 60,
+      "heroicTier": "Independent Hero",
+      "keywords": "MAN, LAKE-TOWN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "4+",
+        "S": "3",
+        "D": "3",
+        "A": "1",
+        "W": "2",
+        "C": "6",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Hand Weapon (Bain)",
+        "Unarmed (Sigrid, Tilda)"
+      ],
+      "heroicActions": [
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Bard's Family",
+          "type": "",
+          "text": "Made up of Bain, Sigrid and Tilda, counting as three models; may only be included alongside Bard the Bowman, as part of his Warband (or Tauriel's per this list's Additional Rules). If a member is slain, Bard must Charge the killer whenever able."
+        },
+        {
+          "name": "Family Bond (Bain)",
+          "type": "",
+          "text": "Whilst within 3\" of Sigrid or Tilda, Bain's Attacks increase to 2 and he gains +1 to Courage tests."
+        },
+        {
+          "name": "Da! Down here! (Sigrid/Tilda)",
+          "type": "",
+          "text": "Whilst within 6\" of Sigrid or Tilda, Bard gains +1 Fight Value (and a Duel Roll re-roll if within 6\" of both); he may also declare a free Heroic Combat to join their fight."
+        },
+        {
+          "name": "Fearful",
+          "type": "",
+          "text": "(Sigrid and Tilda only)"
+        }
+      ]
+    },
+    {
+      "name": "Lake-town Guard",
+      "points": 7,
+      "keywords": "MAN | LAKE-TOWN | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Bow - 1 point",
+        "Spear - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Everyone has a Price",
+          "type": "",
+          "text": "Whilst within 6\" and Line of Sight of the Master of Lake-town (who still has Will remaining), may re-roll failed To Wound rolls of a natural 1 when Striking."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Army of Lake-town army-list page. Full stat blocks, wargear, and special-rule text cross-referenced from the Kingdoms of Men, Dwarven Holds, and Elven Kingdoms faction pages on the same site."
+}

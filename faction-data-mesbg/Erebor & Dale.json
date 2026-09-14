@@ -1,0 +1,209 @@
+{
+  "legion": "Erebor & Dale",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/erebor_and_dale/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/dwarven_holds/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/kingdoms_of_men/"
+  ],
+  "additionalRules": [
+    "An Erebor & Dale Army must include Girion and at least one Unique Erebor Hero.",
+    "Erebor Warrior models can only be included in the Warband of an Erebor Hero.",
+    "Dale Warrior models can only be included in the Warband of a Dale Hero.",
+    "Ignore the usual rules for Bow Limit and Throwing Weapon Limit in this Army List. Instead, a maximum of 50% of your Dale Warrior models can have a bow, and a maximum of 50% of your Erebor Warrior models can have throwing weapons."
+  ],
+  "specialRules": [
+    {
+      "name": "Alliance of Men and Dwarves",
+      "type": "",
+      "text": "Friendly Dale models may re-roll To Wound Rolls of a natural 1 when making Strikes if there is a friendly Erebor model Engaged in the same Combat. Friendly Erebor models may re-roll To Wound Rolls of a natural 1 when making Strikes if there is a friendly Dale model Engaged in the same Combat."
+    },
+    {
+      "name": "Lords of the Kingdoms",
+      "type": "",
+      "text": "Friendly Dale models treat Girion as a banner. Friendly Erebor models treat Thror as a banner."
+    },
+    {
+      "name": "Great Prosperity",
+      "type": "",
+      "text": "Whenever a friendly Hero model spends a Might Point, roll a D6. On a natural 6, the Might Point was free and does not reduce the Hero model's store of Might."
+    }
+  ],
+  "units": [
+    {
+      "name": "Girion, Lord of Dale",
+      "points": 80,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, DALE, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "3+", "S": "4", "D": "6", "A": "3", "W": "2", "C": "4+", "Might": "3", "Will": "2", "Fate": "1" },
+      "wargear": ["Armour", "Hand Weapon"],
+      "heroicActions": ["Heroic Strike", "Heroic Accuracy"],
+      "magicalPowers": [],
+      "options": ["Windlance - 50 points"],
+      "specialRules": [
+        { "name": "Hatred (Dragon)", "type": "", "text": "" },
+        { "name": "Windlance Trained", "type": "PASSIVE", "text": "If Girion is upgraded to take a Windlance, then he counts as the only crew for the Siege Engine. Girion may Move further than 6\" away from the Windlance at any point and may rotate it without suffering the -1 penalty to his rolls To Hit. Additionally, when making a shooting attack with the Windlance that targets a Monster model, Girion gains a bonus of +1 to any rolls on the Scatter Table." },
+        { "name": "Lord of Dale", "type": "PASSIVE", "text": "Girion's Stand Fast is 12\" rather than 6\". Additionally, friendly Dale models within 3\" of Girion may re-roll To Wound Rolls of a natural 1 when making Strikes." }
+      ]
+    },
+    {
+      "name": "Thror, King Under the Mountain",
+      "points": 130,
+      "heroicTier": "Hero of Legend",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "6", "Sv": "4+", "S": "4", "D": "9", "A": "3", "W": "3", "C": "4+", "Might": "3", "Will": "3", "Fate": "1" },
+      "wargear": ["Mithril Armour", "Shield", "Hand Weapon", "Arkenstone", "The Ring of Durin"],
+      "heroicActions": ["Heroic Strike", "Heroic Challenge"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Ancient Enemies (Orc)", "type": "", "text": "" },
+        { "name": "Arkenstone", "type": "PASSIVE", "text": "This is a Unique piece of wargear. The bearer of the Arkenstone passes Fate Rolls on a 3+. Additionally, when making a Fate Roll, if the result is a 4 or better, then the Fate Point is free and is not spent." },
+        { "name": "The Ring of Durin", "type": "PASSIVE", "text": "This is a Unique piece of wargear. Once per game during the Priority Phase, after the roll for Priority has taken place, the bearer of the Ring of Durin can re-roll their side's Priority Roll." },
+        { "name": "Guardians of the King", "type": "PASSIVE", "text": "Any Grim Hammer Warriors upgraded to Guardians of the King in Thror's warband will have a Strength value of 4." }
+      ]
+    },
+    {
+      "name": "Thrain, Son of Thror",
+      "points": 130,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "6", "Sv": "4+", "S": "4", "D": "8", "A": "3", "W": "3", "C": "4+", "Might": "3", "Will": "3", "Fate": "3" },
+      "wargear": ["Heavy Dwarf Armour", "Master Forged Two-handed Weapon"],
+      "heroicActions": ["Heroic Strike", "Heroic Strength"],
+      "magicalPowers": [],
+      "options": ["The Ring of Durin - Free"],
+      "specialRules": [
+        { "name": "Hatred (Gundabad)", "type": "", "text": "" },
+        { "name": "Durin's Heir", "type": "PASSIVE", "text": "Thrain's Stand Fast has a range of 12\". Additionally, friendly Dwarf Hero models may benefit from Thrain's Stand Fast." },
+        { "name": "The Ring of Durin", "type": "PASSIVE", "text": "Once per game during the Priority Phase, after the roll for Priority has taken place, the bearer of the Ring of Durin can re-roll their side's Priority Roll. If your army does not include Thror, Thrain carries the Ring of Durin." }
+      ]
+    },
+    {
+      "name": "Young Balin the Dwarf",
+      "points": 60,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "6", "A": "2", "W": "2", "C": "4+", "Might": "2", "Will": "3", "Fate": "2" },
+      "wargear": ["Armour", "Hand-and-a-half Weapon"],
+      "heroicActions": ["Heroic Defence", "Heroic Resolve"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Longbeard", "type": "ACTIVE", "text": "During the Priority Phase, after the roll for Priority has taken place, Balin can spend a Will Point to allow his controlling player to re-roll their roll for Priority." }
+      ]
+    },
+    {
+      "name": "Young Dwalin the Dwarf",
+      "points": 90,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "6", "Sv": "4+", "S": "5", "D": "6", "A": "2", "W": "2", "C": "4+", "Might": "2", "Will": "2", "Fate": "2" },
+      "wargear": ["Armour", "Grasper & Keeper"],
+      "heroicActions": ["Heroic Challenge", "Heroic Strength"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Fearless", "type": "", "text": "" },
+        { "name": "Grasper & Keeper", "type": "ACTIVE", "text": "These are Unique hand weapons. Additionally, a model gains a bonus of +1 to its Attacks characteristic when using Grasper & Keeper, and any To Wound Rolls of a natural 6 that are not prevented will deal 2 Wounds rather than 1." },
+        { "name": "Weapon Master", "type": "ACTIVE", "text": "Dwalin is never considered Unarmed." },
+        { "name": "Dwarven Fury", "type": "ACTIVE", "text": "At the start of a Combat involving Dwalin, roll a D6. On a 5+, Dwalin may re-roll failed To Wound Rolls during that Combat. On a 2-4, nothing happens. On a 1, Dwalin reduces his Fight Value by D3 before the Duel Roll takes place." }
+      ]
+    },
+    {
+      "name": "Young Thorin Oakenshield",
+      "points": 110,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "6", "Sv": "4+", "S": "4", "D": "8", "A": "3", "W": "3", "C": "4+", "Might": "3", "Will": "3", "Fate": "3" },
+      "wargear": ["Heavy Armour", "Hand Weapon", "The Oakenshield"],
+      "heroicActions": ["Heroic Strike", "Heroic Strength", "Heroic Defence", "Heroic Challenge"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "The Oakenshield", "type": "ACTIVE", "text": "This is a Unique shield. Additionally, if Thorin elects to shield with the Oakenshield and wins the Combat, then he may inflict a single Strength 4 hit on one enemy model involved in the Combat." },
+        { "name": "To Arms!", "type": "ACTIVE", "text": "Once per game, at the start of his Activation, Thorin can declare he is using this special rule. If he does, then until the end of the turn all friendly Erebor models within 3\" of Thorin increase their Strength by 1." }
+      ]
+    },
+    {
+      "name": "Captain of Dale",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, DALE, HERO, INFANTRY",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "6", "A": "2", "W": "2", "C": "6+", "Might": "2", "Will": "1", "Fate": "1" },
+      "wargear": ["Armour", "Shield", "Hand Weapon"],
+      "heroicActions": ["Heroic March"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Hatred (Dragon)", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Erebor Dwarf Captain",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY",
+      "profile": { "Mv": "5\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "7", "A": "3", "W": "2", "C": "5+", "Might": "2", "Will": "1", "Fate": "1" },
+      "wargear": ["Heavy Armour", "Hand Weapons"],
+      "heroicActions": ["Heroic March"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Mountain Dweller", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Grim Hammer Captain",
+      "points": 80,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY",
+      "profile": { "Mv": "5\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "8", "A": "2", "W": "2", "C": "5+", "Might": "2", "Will": "1", "Fate": "1" },
+      "wargear": ["Heavy Dwarf Armour", "Mattock", "Throwing Weapon"],
+      "heroicActions": ["Heroic March"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Ancient Enemies (Orc)", "type": "", "text": "" },
+        { "name": "Mattock", "type": "ACTIVE", "text": "This is a two-handed weapon. Additionally, if a model wielding a Mattock wins a Duel Roll they may choose to try to knock down an enemy model instead of making Strikes." }
+      ]
+    },
+    {
+      "name": "Erebor Dwarf Warrior",
+      "points": 9,
+      "keywords": "DWARF | EREBOR | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "5\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 6, "A": 1, "W": 1, "C": "6+", "I": "7+" },
+      "wargear": ["Heavy Armour", "Hand Weapon"],
+      "options": ["Shield and Spear - 2 points", "Shield - 1 point", "Spear - 1 point"],
+      "specialRules": [
+        { "name": "Mountain Dweller", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Grim Hammer Warrior",
+      "points": 11,
+      "keywords": "DWARF | EREBOR | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "5\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 7, "A": 1, "W": 1, "C": "6+", "I": "6+" },
+      "wargear": ["Heavy Dwarf Armour", "Mattock", "Throwing Weapons"],
+      "options": ["Guardian of the King - 1 point"],
+      "specialRules": [
+        { "name": "Ancient Enemies (Orc)", "type": "", "text": "" },
+        { "name": "Mattock", "type": "ACTIVE", "text": "This is a two-handed weapon. Additionally, if a model wielding a Mattock wins a Duel Roll they may choose to try to knock down an enemy model instead of making Strikes." }
+      ]
+    },
+    {
+      "name": "Knight of Dale",
+      "points": 11,
+      "keywords": "MAN | DALE | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 6, "A": 1, "W": 1, "C": "6+", "I": "7+" },
+      "wargear": ["Heavy Armour", "Hand Weapon", "Shield", "Spear"],
+      "specialRules": [
+        { "name": "Wall of Blades", "type": "ACTIVE", "text": "This model gains a bonus of +1 To Wound when making Strikes with their spear against a model that Charged them this turn." }
+      ]
+    },
+    {
+      "name": "Warrior of Dale",
+      "points": 7,
+      "keywords": "MAN | DALE | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 4, "A": 1, "W": 1, "C": "7+", "I": "7+" },
+      "wargear": ["Armour", "Hand Weapon"],
+      "options": ["War Horn - 25 points", "Banner - 25 points", "Esgaroth Bow - 2 points", "Shield and Spear - 2 points", "Shield - 1 point"],
+      "specialRules": [
+        { "name": "Hatred (Dragon)", "type": "", "text": "" }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Erebor & Dale army-list page. Full stat blocks, wargear, and special-rule text from the matching Dwarven Holds and Kingdoms of Men (Dale) faction pages on the same site."
+}

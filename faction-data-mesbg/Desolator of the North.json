@@ -1,0 +1,78 @@
+{
+  "legion": "Desolator of the North",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/desolator_of_the_north/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/smaug/"
+  ],
+  "additionalRules": [
+    "A Desolator of the North Army must always include Smaug, who is always the Army's General - otherwise, there wouldn't be any models in your Army!"
+  ],
+  "specialRules": [
+    {
+      "name": "Sheer Dominance",
+      "type": "",
+      "text": "Whilst Smaug is in range of an Objective Marker he is automatically considered to be holding it and the opposition are considered to have no models within range of the Objective Marker. If models from both sides have a special rule that confers this effect, then this special rule will override the opposing one, regardless of what the opposing special rule states."
+    },
+    {
+      "name": "Lust for Gold",
+      "type": "",
+      "text": "In Scenarios where models can carry Objective Markers then when Smaug Moves, he must always Charge an enemy model carrying an Objective Marker if possible. If there are multiple enemy models carrying an Objective Marker that he can Charge, Smaug may choose which one he Charges."
+    },
+    {
+      "name": "\"I will not part with a single coin!\"",
+      "type": "",
+      "text": "At the start of each game, after both sides have been deployed, Smaug's opposing player must select three of their models to each be given a stash of gold - these must be different models. These models are given a Gold Marker, which is a Light Object that can never be passed to another model, and are treated as Objective Markers for the purpose of the Lust for Gold special rule. If Smaug kills an enemy model with a Gold Marker in Combat, then he immediately regains the Gold Marker and it is removed from the game. If a model holding a Gold Marker is slain in any other manner, the Gold Marker drops like any other Light Object and may be picked up by another model; if this is Smaug, it will be removed from play. At the end of the game, if Smaug has reclaimed all three Gold Markers then he will score an additional 2 Victory Points. However, if any Gold Markers are in the possession of an enemy model, then Smaug's opposing player will score an additional 2 Victory Points. In either instance, this can never take an Army's total number of Victory Points above 20."
+    }
+  ],
+  "units": [
+    {
+      "name": "Smaug",
+      "points": 700,
+      "heroicTier": "Hero of Legend",
+      "keywords": "DRAGON, EREBOR, HERO, INFANTRY, MONSTER, UNIQUE",
+      "profile": {
+        "Mv": "12\"",
+        "Fv": "9",
+        "Sv": "2+",
+        "S": "9",
+        "D": "9",
+        "A": "4",
+        "W": "20",
+        "C": "4+",
+        "Might": "3",
+        "Will": "6",
+        "Fate": "0"
+      },
+      "wargear": [
+        "Razor-sharp Teeth, Massive Talons (hand weapons)"
+      ],
+      "heroicActions": [
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [
+        "Compel - 12\" - 3+",
+        "Transfix - 12\" - 4+",
+        "Foil Magic - 12\" - 5+"
+      ],
+      "specialRules": [
+        { "name": "Ancient Enemies (Dwarf)", "type": "", "text": "" },
+        { "name": "Dominant (20)", "type": "", "text": "" },
+        { "name": "Fearless", "type": "", "text": "" },
+        { "name": "Fly", "type": "", "text": "" },
+        { "name": "Harbinger of Evil (18\")", "type": "", "text": "" },
+        { "name": "Large Target", "type": "", "text": "" },
+        { "name": "Monstrous Charge", "type": "", "text": "" },
+        { "name": "Resistant to Magic", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Breathe Fire", "type": "ACTIVE", "text": "Smaug can breathe fire as a shooting attack. This is treated as a bow with a range of 18\". If the shot hits a model, then the hit model and all models within 2\" of them immediately suffer a Strength 10 hit, and any model that suffers a Wound from this shot which is not prevented will immediately be slain and removed as a casualty. Any model hit by this shooting attack and not slain will be Set Ablaze. This is a fire based attack, so if a model is immune to fire-based attacks, they are immune to this shooting attack." },
+        { "name": "Immovable Object", "type": "PASSIVE", "text": "Smaug can never be knocked Prone and can never be forced to Move by the effects of enemy Magical Powers or special rules. If Smaug loses a Duel Roll then he will never count as Trapped and does not Back Away - his opponent must Back Away instead." },
+        { "name": "Desolator of the North", "type": "PASSIVE", "text": "Smaug gains a free Will Point at the start of each turn. If this free Will Point is not spent by the end of the turn, it is lost." },
+        { "name": "Missing Scale", "type": "PASSIVE", "text": "If a model rolls a natural 6 when making a shooting attack that targets Smaug, and then successfully rolls To Wound with that shooting attack, then Smaug will suffer a number of Wounds equal to the Strength of the Missile Weapon that made the shooting attack." },
+        { "name": "\"I am fire, I am death\"", "type": "PASSIVE", "text": "Smaug is immune to any fire-based attacks." },
+        { "name": "Colossal Frame", "type": "PASSIVE", "text": "Enemy models may still target Smaug with shooting attacks even if he is Engaged in Combat. If they do, they do not need to take In The Way Tests for friendly models Smaug is Engaged in Combat with." },
+        { "name": "Unstoppable Momentum", "type": "BRUTAL POWER ATTACK", "text": "Instead of making Strikes, Smaug can instead make a single Strength 9 hit on every enemy model he is Engaged in Combat with." }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Desolator of the North army-list page (a single-model list consisting only of Smaug). Full stat block, wargear, and special-rule text from the Smaug faction page."
+}

@@ -1,0 +1,239 @@
+{
+  "legion": "Goblin-town",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/goblin_town/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/the_misty_mountains/"
+  ],
+  "additionalRules": [
+    "A Goblin-town Army must always contain the Goblin King, who is always the Army's General."
+  ],
+  "specialRules": [
+    {
+      "name": "\"I Feel A Song Coming On\"",
+      "type": "",
+      "text": "During the Priority Phase, after Priority has been determined, the Goblin King may choose to sing one of his songs. If he does, choose one of the songs below and apply its effects until the end of the turn. The Goblin King may not sing the same song as he sung the previous turn."
+    },
+    {
+      "name": "\"Batter and beat, make them stammer and squeak!\"",
+      "type": "",
+      "text": "Other friendly Goblin models treat the Goblin King as a banner with a range of 6."
+    },
+    {
+      "name": "\"You can yammer and yelp but there ain't no help!\"",
+      "type": "",
+      "text": "Other friendly Goblin models within 6\" of the Goblin King cause Terror."
+    },
+    {
+      "name": "\"Abominations, mutations, deviations\"",
+      "type": "",
+      "text": "Whenever another friendly Goblin model within 6\" of the Goblin king suffers a Wound, roll a D6. On the roll of a natural 6, the Wound is ignored."
+    },
+    {
+      "name": "\"Bones will be shattered, necks will be wrung\"",
+      "type": "",
+      "text": "Other friendly Goblin models within 6\" of the Goblin King may re-roll To Wound Rolls of a natural 1 when making Strikes."
+    },
+    {
+      "name": "Strength In Numbers",
+      "type": "",
+      "text": "Whilst your Army is not Broken, friendly Goblin models receive a bonus of +1 to any Courage Tests they take for Charging an enemy with the Terror special rule."
+    },
+    {
+      "name": "\"If they won't talk, we'll make them squawk!\"",
+      "type": "",
+      "text": "If the Goblin King or Grinnah would kill an enemy non-Monster Hero model in Combat, they can choose to take them prisoner instead. The Hero model will still be removed as a casualty, including for the purpose of any objectives or special rules. The Goblin King and Grinnah may only ever have a single prisoner each at any one time. If the Goblin King or Grinnah are still alive at the end of the game, their controlling player will gain an additional 1 Victory Point for each enemy Hero that is a prisoner, so long as the model that took them prisoner is still alive. This can never take this Army's total number of Victory Points above 20."
+    },
+    {
+      "name": "\"Down down down in Goblin-town\"",
+      "type": "",
+      "text": "Each Goblin Hero model may increase their maximum Warband size by six models."
+    }
+  ],
+  "units": [
+    {
+      "name": "The Goblin King",
+      "points": 150,
+      "heroicTier": "Hero of Legend",
+      "keywords": "GOBLIN, GOBLIN-TOWN, HERO, INFANTRY, MONSTER, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "5+",
+        "S": "5",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "6+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strength",
+        "Heroic Challenge",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" },
+        { "name": "Resistant to Magic", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Burly", "type": "", "text": "" },
+        { "name": "Relentless Advance", "type": "ACTIVE", "text": "The Goblin King may Move through friendly Goblin models when he Charges into Combat, though not when forced to Move by the effects of an enemy Magical Power or special rule. Each friendly Goblin model Moved through in this way immediately suffers a Strength 3 hit. The Goblin King may finish his Move overlapping friendly models, though any friendly models he finishes his Move overlapping will automatically be slain." },
+        { "name": "Goblin Projectile", "type": "ACTIVE", "text": "During the Shoot Phase, if the Goblin King is in base contact with a friendly Goblin model and neither are Engaged in Combat, then the Goblin King can make a shooting attack - this has a range of 12\" and counts as a throwing weapon. Remove the friendly Goblin model as a casualty, and then make the To Hit Roll and any In The Way Tests as normal. The shot is resolved at a Strength of 8, and any model that is hit will automatically be knocked Prone." },
+        { "name": "Blubbery Mass", "type": "PASSIVE", "text": "Each time the Goblin King suffers a Wound, roll a D6. On a 3+ the Wound is prevented. Wounds caused by Magical Powers or Elven weapons in Combat ignore this special rule. Wounds caused by Elven missile weapons will cause the Goblin King to suffer a -1 penalty to this roll." }
+      ]
+    },
+    {
+      "name": "Goblin Captain",
+      "points": 40,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "GOBLIN, GOBLIN-TOWN, HERO, INFANTRY",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" },
+        { "name": "Chittering Hordes", "type": "ACTIVE", "text": "This model may Support as if it had a spear, with the exception that they can only Support another model with this special rule. A model Supporting whilst using this special rule cannot also use a two-handed weapon in the same Combat." }
+      ]
+    },
+    {
+      "name": "Grinnah, Goblin Jailer",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "GOBLIN, GOBLIN-TOWN, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Whip"
+      ],
+      "heroicActions": [
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" },
+        { "name": "Swap with Me", "type": "ACTIVE", "text": "At the start of the Fight Phase, before the Declare Heroic Actions Step, Grinnah can choose a friendly Goblin model on a 25mm base within 3\" and swap places with it. This does not count as Moving." },
+        { "name": "Chittering Hordes", "type": "ACTIVE", "text": "This model may Support as if it had a spear, with the exception that they can only Support another model with this special rule. A model Supporting whilst using this special rule cannot also use a two-handed weapon in the same Combat." }
+      ]
+    },
+    {
+      "name": "The Goblin Scribe",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "GOBLIN, GOBLIN-TOWN, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "0\"",
+        "Fv": "1",
+        "Sv": "5+",
+        "S": "2",
+        "D": "2",
+        "A": "1",
+        "W": "1",
+        "C": "7+",
+        "Might": "0",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Unarmed"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Immobile", "type": "PASSIVE", "text": "The Goblin Scribe cannot Move, and will always count as Trapped should it lose a Duel Roll. Additionally, friendly models may carry the Goblin Scribe in which case it will count as a Heavy Object, and must always be put down after a model carrying it has finished its Move. In Scenarios where models Move onto the board, the Goblin Scribe may be carried on by friendly models." },
+        { "name": "The Goblin King's Command", "type": "ACTIVE", "text": "If the Goblin King declares a Heroic Move whilst within 6\" of the Goblin Scribe and chooses to call With Me, then it will affect all friendly models on the battlefield rather than just those within 6\", and affected models do not have to finish their Activation within 6\" of the Goblin King. Additionally, any friendly Goblin Hero that begins their Activation within 3\" of the Goblin Scribe can choose to spend a Might Point. If they do, the Goblin King regains a Might Point spent earlier in the battle. This special rule can only be used once per turn." }
+      ]
+    },
+    {
+      "name": "Gollum",
+      "points": 40,
+      "heroicTier": "Independent Hero",
+      "keywords": "HOBBIT, GOBLIN-TOWN, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "1",
+        "Will": "0",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Strangling fingers (hand weapon)",
+        "The One Ring"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" },
+        { "name": "Mountain Dweller", "type": "", "text": "" },
+        { "name": "Stalk Unseen", "type": "", "text": "" },
+        { "name": "The Precious", "type": "ACTIVE", "text": "If your opponent's Army contains a Ringbearer, then when Gollum Moves, he must always Charge the enemy Ringbearer if possible. Additionally, if Gollum kills the enemy Ringbearer in Combat, then he will automatically regain the One Ring - from that point onwards he counts as having it as part of his Wargear. Gollum has strong, strangling fingers and so is never considered to be Unarmed - ever! If your opponent does not have a Ringbearer in their Army, then Gollum carries the One Ring." }
+      ]
+    },
+    {
+      "name": "Goblin Warrior",
+      "points": 5,
+      "keywords": "GOBLIN | GOBLIN-TOWN | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": 2,
+        "Sv": "5+",
+        "S": 3,
+        "D": 3,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "options": [
+        "Two-handed Weapon - 1 point"
+      ],
+      "specialRules": [
+        { "name": "Cave Dweller", "type": "", "text": "" },
+        { "name": "Chittering Hordes", "type": "ACTIVE", "text": "This model may Support as if it had a spear, with the exception that they can only Support another model with this special rule. A model Supporting whilst using this special rule cannot also use a two-handed weapon in the same Combat." }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Goblin-town army-list page. Full stat blocks, wargear, and special-rule text from the Misty Mountains faction page."
+}

@@ -1,0 +1,647 @@
+{
+  "legion": "Road to Rivendell",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/road_to_rivendell/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/the_free_peoples/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/elven_kingdoms/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/good_legacy/"
+  ],
+  "additionalRules": [
+    "A Road to Rivendell Army must include Frodo.",
+    "When writing a Road to Rivendell Army List, a player can either have all models in a single Warband or as multiple smaller warbands as normal."
+  ],
+  "specialRules": [
+    {
+      "name": "\"We do not stop 'til nightfall\"",
+      "type": "",
+      "text": "Aragorn may declare a Heroic March each turn for free. Additionally, friendly models that begin their Activation within 6\" of Aragorn gain the Woodland Creature special rule until the end of the turn."
+    },
+    {
+      "name": "\"I'm the faster rider. I'll take him\"",
+      "type": "",
+      "text": "If your Army includes both Frodo and Arwen, then Frodo may begin the game as a Passenger upon Asfaloth. Whilst mounted, Arwen gains Resistant to Magic, increases her Attacks to 3, and can spend Frodo's Might, Will and Fate Points as if they were her own. Frodo cannot put on the One Ring whilst he is a Passenger."
+    },
+    {
+      "name": "\"If you want him, come and claim him\"",
+      "type": "",
+      "text": "Whilst she is within 6\" of Frodo (including as a Passenger), Arwen gains the Fearless special rule and may re-roll any dice when making a Casting Roll."
+    },
+    {
+      "name": "The Cover of Night",
+      "type": "",
+      "text": "At the start of each game using this Army List, you may choose for the Scenario to take place at night. If you do, at the start of each Move Phase you may choose whether the Gatekeeper of Bree's A Light in the Dark special rule is in effect."
+    }
+  ],
+  "units": [
+    {
+      "name": "Aragorn, Strider",
+      "points": 160,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, FELLOWSHIP, DUNEDAIN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Ring of Barahir",
+        "Hand-and-a-half Sword",
+        "Bow"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic March",
+        "Heroic Accuracy",
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Defence",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Mighty Hero",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Ring of Barahir",
+          "type": "PASSIVE",
+          "text": "This is a Unique piece of Wargear. Whenever Aragorn is affected by a Magical Power, after any Resist Tests, he may roll a D6. On a natural 6, Aragorn is not affected."
+        }
+      ]
+    },
+    {
+      "name": "Arwen",
+      "points": 90,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, RIVENDELL, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "4",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Elven Hand Weapon",
+        "Asfaloth",
+        "Hadhafang"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Channelling",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [
+        "Renew (12\", 3+)",
+        "Wrath of Bruinen (3\", 4+)"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Hadhafang",
+          "type": "ACTIVE",
+          "text": "This is a Unique Elven hand-and-a-half weapon. A model wielding Hadhafang gains a bonus of +1 To Wound when making Strikes against a Spirit model."
+        }
+      ]
+    },
+    {
+      "name": "Frodo Baggins",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "HOBBIT, FELLOWSHIP, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "The One Ring",
+        "Mithril Coat",
+        "Sting"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Mithril Coat",
+          "type": "PASSIVE",
+          "text": "This is a Unique piece of Mithril armour. The wearer may re-roll Fate rolls of a 1."
+        },
+        {
+          "name": "Sting",
+          "type": "ACTIVE",
+          "text": "This is a Unique Elven hand weapon. A model gains a bonus of +1 to their Strength when making Strikes with Sting."
+        }
+      ]
+    },
+    {
+      "name": "Gildor Inglorion",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, RIVENDELL, INFANTRY, HERO",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "1",
+        "Will": "4",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Elven Weapon",
+        "Elven Cloak"
+      ],
+      "heroicActions": [
+        "Heroic Channelling",
+        "Heroic Defence",
+        "Heroic March",
+        "Heroic Resolve"
+      ],
+      "magicalPowers": [
+        "Immobilise (12\", 3+)",
+        "Writhing Vines (Self, 4+)"
+      ],
+      "specialRules": [
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Samwise Gamgee",
+      "points": 40,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "HOBBIT, FELLOWSHIP, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Frying Pan"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Elven Cloak - Free"
+      ],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "\"Let him go or I'll have you, Longshanks!\"",
+          "type": "ACTIVE",
+          "text": "During the Declare Heroic Actions step of the Fight Phase, if Frodo is Engaged in Combat and is within 6\" of Sam, then Sam may declare a free Heroic Combat and must use the following Move to join Frodo's Combat."
+        },
+        {
+          "name": "Frying Pan",
+          "type": "ACTIVE",
+          "text": "Instead of making Strikes if he wins a Duel Roll, Sam may use his Frying Pan: choose one enemy Infantry model involved in the Combat and roll a D6. On a 4+, the chosen model is stunned and cannot Move during the following turn."
+        }
+      ]
+    },
+    {
+      "name": "Barliman Butterbur",
+      "points": 45,
+      "heroicTier": "Minor Hero",
+      "keywords": "MAN, FELLOWSHIP, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "4+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "3",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Barliman Butterbur, At Your Service",
+          "type": "ACTIVE",
+          "text": "If Barliman finishes his Move in base contact with a friendly Fellowship model, he may spend a Will Point to roll a D6. On a 4+, the friendly model regains a Wound lost earlier in the battle."
+        },
+        {
+          "name": "Well fed, and ready to fight",
+          "type": "PASSIVE",
+          "text": "Friendly Fellowship models within 6\" of Barliman count as having the Dominant (2) special rule."
+        }
+      ]
+    },
+    {
+      "name": "Bill the Pony",
+      "points": 25,
+      "heroicTier": "Independent Hero",
+      "keywords": "PONY, FELLOWSHIP, INFANTRY, BEAST, HERO",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": "2",
+        "Sv": "6+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "6+",
+        "Might": "0",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Iron-shod Hooves (hand weapon)"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Fearful",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader. They may, however, be included in another Hero model's warband as one of their followers."
+        },
+        {
+          "name": "Official Meals",
+          "type": "PASSIVE",
+          "text": "Friendly Fellowship models treat Bill the Pony as a banner."
+        },
+        {
+          "name": "Only a Pony",
+          "type": "PASSIVE",
+          "text": "Bill the Pony may never provide a Stand Fast. However, Bill the Pony may benefit from the Stand Fast of other Fellowship models."
+        }
+      ]
+    },
+    {
+      "name": "Goldberry",
+      "points": 80,
+      "heroicTier": "Independent Hero",
+      "keywords": "SPIRIT, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "?",
+        "Sv": "?",
+        "S": "?",
+        "D": "?",
+        "A": "?",
+        "W": "?",
+        "C": "?",
+        "Might": "0",
+        "Will": "8",
+        "Fate": "0"
+      },
+      "wargear": [
+        "Unarmed"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader."
+        },
+        {
+          "name": "River-daughter",
+          "type": "PASSIVE",
+          "text": "Goldberry treats all terrain as Open Ground and always treats Climb/Leap/Jump/Swim Tests as a 6. She cannot be targeted by any abilities, special rules, Magical Powers, Brutal Power Attacks or shooting attacks. Her side automatically wins any Combat she is involved in, but friendly models may not make Strikes in that Combat. She may never carry Objectives."
+        },
+        {
+          "name": "Goldberry is waiting",
+          "type": "PASSIVE",
+          "text": "Goldberry may only be included if the Army includes Tom Bombadil. She gives up a Will Point during the End Phase of any turn in which she was Engaged in Combat. If reduced to 0 Will Points, or if no other friendly models remain besides herself and/or Tom, she wanders off and is removed as a casualty."
+        },
+        {
+          "name": "Sing a Jolly Song (Goldberry)",
+          "type": "ACTIVE",
+          "text": "At any point during her Activation, Goldberry may spend a Will Point to sing a song: \"Supper is Ready\" (a friendly model within 6\" regains a Wound), \"Have Peace Now\" (an enemy model within 6\" cannot Activate this turn), or \"Heed no Nightly Noises\" (a friendly model within 6\" auto-passes Courage Tests and gains +1 Fight Value if it Charges)."
+        }
+      ]
+    },
+    {
+      "name": "Meriadoc Brandybuck",
+      "points": 10,
+      "heroicTier": "Independent Hero",
+      "keywords": "HOBBIT, SHIRE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "1",
+        "C": "6+",
+        "Might": "0",
+        "Will": "0",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "options": [
+        "Elven Cloak - Free"
+      ],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader."
+        },
+        {
+          "name": "For the Shire!",
+          "type": "ACTIVE",
+          "text": "Whilst within 3\" of Boromir of Gondor, Merry may spend Boromir's Might Points as if they were his own."
+        }
+      ]
+    },
+    {
+      "name": "Peregrin Took",
+      "points": 10,
+      "heroicTier": "Independent Hero",
+      "keywords": "HOBBIT, SHIRE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "1",
+        "C": "7+",
+        "Might": "0",
+        "Will": "0",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "options": [
+        "Elven Cloak - Free"
+      ],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader."
+        },
+        {
+          "name": "For the Shire!",
+          "type": "ACTIVE",
+          "text": "Whilst within 3\" of Boromir of Gondor, Pippin may spend Boromir's Might Points as if they were his own."
+        }
+      ]
+    },
+    {
+      "name": "The Gatekeeper of Bree",
+      "points": 40,
+      "heroicTier": "Independent Hero",
+      "keywords": "MAN, BREE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "3",
+        "A": "1",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader."
+        },
+        {
+          "name": "A Light in the Dark",
+          "type": "PASSIVE",
+          "text": "The area within 6\" of the Gatekeeper is always considered to be daylight. Enemy models cannot Charge friendly models if they could Charge the Gatekeeper instead."
+        },
+        {
+          "name": "Gatekeeper",
+          "type": "ACTIVE",
+          "text": "At the end of the Priority Phase, the Gatekeeper may spend a Will Point to select a single enemy Infantry model within 6\" and Line of Sight and roll a D6. On a 3+, the chosen model may not Move during their Activation."
+        }
+      ]
+    },
+    {
+      "name": "Tom Bombadil",
+      "points": 120,
+      "heroicTier": "Independent Hero",
+      "keywords": "SPIRIT, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "?",
+        "Sv": "?",
+        "S": "?",
+        "D": "?",
+        "A": "?",
+        "W": "?",
+        "C": "?",
+        "Might": "0",
+        "Will": "12",
+        "Fate": "0"
+      },
+      "wargear": [
+        "Unarmed"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader."
+        },
+        {
+          "name": "Tom is Master",
+          "type": "PASSIVE",
+          "text": "Tom Bombadil treats all terrain as Open Ground and always treats Climb/Leap/Jump/Swim Tests as a 6. He cannot be targeted by any abilities, special rules, Magical Powers, Brutal Power Attacks or shooting attacks. His side automatically wins any Combat he is involved in, but friendly models may not make Strikes in that Combat. He may never carry Objectives."
+        },
+        {
+          "name": "Tom has his house to mind",
+          "type": "PASSIVE",
+          "text": "Tom gives up a Will Point during the End Phase of any turn in which he was Engaged in Combat. If reduced to 0 Will Points, or if no other friendly models remain besides himself and/or Goldberry, he wanders off and is removed as a casualty."
+        },
+        {
+          "name": "Sing a Jolly Song (Tom)",
+          "type": "ACTIVE",
+          "text": "At any point during his Activation, Tom may spend a Will Point to sing a song, e.g. \"Hey! Come Merry Doll!\" (heal a Wound), \"Hop along, my hearties!\" (+3\" Move and ignore Difficult Terrain), \"Wake now my merry lads!\" (cleanse Magical Powers), \"Ring a dong dillo!\" (auto-pass Courage Tests), or \"Get out, you Wight!\" (Wound an enemy Spirit model within 6\")."
+        }
+      ]
+    },
+    {
+      "name": "Noldorin Exiles",
+      "points": 9,
+      "keywords": "ELF | RIVENDELL | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": 5,
+        "Sv": "3+",
+        "S": 3,
+        "D": 3,
+        "A": 1,
+        "W": 1,
+        "C": "5+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Elven Hand-and-a-half Weapon",
+        "Elven Cloak"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Elf Bow - 2 points",
+        "Elven Throwing Weapons - 2 points",
+        "Wood Elf Spear - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Wood Elf spear",
+          "type": "ACTIVE",
+          "text": "This is an Elven spear. Additionally, a model armed with a Wood Elf Spear may use the Shielding rule even though they do not have a shield."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Road to Rivendell army-list page. Full stat blocks for Aragorn Strider, Frodo Baggins, Samwise Gamgee, Barliman Butterbur, Bill the Pony, Goldberry, Meriadoc Brandybuck, Peregrin Took, The Gatekeeper of Bree, and Tom Bombadil from The Free Peoples faction page; Arwen and Noldorin Exiles from the Elven Kingdoms faction page; Gildor Inglorion from the Good Legacy faction page. Goldberry and Tom Bombadil have variable/unlisted combat stats (shown as '?') on the source page, reflecting their special rule that they cannot be targeted or fight normally."
+}

@@ -1,0 +1,2171 @@
+{
+  "legion": "Army of the Great Eye",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/army_of_the_great_eye/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/evil_legacy/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/gundabad_and_dol_guldur/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/mordor/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/the_misty_mountains/"
+  ],
+  "additionalRules": [
+    "An Army of the Great Eye must always contain a Ringwraith model as the Army's General."
+  ],
+  "specialRules": [
+    {
+      "name": "The Great Eye",
+      "type": "",
+      "text": "At the beginning of the game, place a 25mm Great Eye Marker on the battlefield in your deployment zone. At the end of each Move Phase, remove the Great Eye Marker and roll a D6. On a 2+ you may place it anywhere within 6\" of where it was. On a 1, Sauron has been distracted and your opponent may place it anywhere within 12\" of where it was. The Great Eye Marker can never be placed so that it overlaps another model's base, though models may finish their Move overlapping the Great Eye Marker. Friendly models treat the Great Eye Marker as a banner. Enemy models within 3\" of the Great Eye Marker suffer a -1 penalty to any Courage or Intelligence Tests they are required to take. If your opponent's Army contains a Ringbearer (with the exception of Sauron), then if during the End Phase of any turn they are wearing the Ring and within 3\" of the Great Eye Marker, they must roll a D6. On a 3+, they succumb to Sauron and are immediately removed as a casualty."
+    }
+  ],
+  "units": [
+    {
+      "name": "The Witch-king of Angmar",
+      "points": 150,
+      "heroicTier": "Hero of Legend",
+      "keywords": "SPIRIT, RINGWRAITH | MORDOR, ANGMAR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "*",
+        "W": "1",
+        "C": "4+",
+        "Might": "*",
+        "Will": "*",
+        "Fate": "*"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Sword"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Channelling",
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [
+        "Compel (12\", 3+)",
+        "Transfix (12\", 3+)",
+        "Drain Courage (12\", 4+)",
+        "Enchant Blades (12\", 4+)",
+        "Black Dart (6\", 5+)",
+        "[Instill Fear] (Self, 5+)",
+        "Your Staff is Broken (12\", 5+)"
+      ],
+      "options": [
+        "3 Attacks, 3 Might, 18 Will, 3 Fate",
+        "Armoured Fell Beast - 70 points",
+        "Fell Beast - 50 points",
+        "Crown of Morgul - 25 points",
+        "Horse - 20 points",
+        "Morgul Blade - 10 points",
+        "Two-handed weapon - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Harbinger of Evil (12\")",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Will of Evil",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Morgul Blade",
+          "type": "ACTIVE",
+          "text": "This is a hand weapon. Once per game, a model with a Morgul Blade can use it during a Combat instead of their normal hand weapon; this must be declared before Strikes are made. If they do, all their Strikes must be resolved against a single enemy model, and if the target suffers a Wound that is not prevented in some way, they will immediately lose all remaining Wounds and be removed as a casualty. If the model using the Morgul Blade is mounted, they must use the Strength and Attacks of the rider rather than their Mount."
+        },
+        {
+          "name": "Crown of Morgul",
+          "type": "PASSIVE",
+          "text": "This is a Unique piece of Wargear. Whilst wearing the Crown of Morgul, enemy models within 6\" of the Witch-king, or attempting to Charge the Witch-king, cannot benefit from special rules that would allow them to automatically pass Courage Tests, with the exception of Heroic Resolve. Additionally, once per game, at the start of any Fight Phase, the Witch-king can imbue its great power to ignite his hand weapon - until the end of the turn, any model that suffers a Wound from a Strike made by the Witch-king is Set Ablaze."
+        }
+      ]
+    },
+    {
+      "name": "Gothmog",
+      "points": 120,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ORC | MORDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "5+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "3",
+        "C": "5+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Warg - 20 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Master of Battle (2+)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "\"The time of the Orc has come\"",
+          "type": "ACTIVE",
+          "text": "Once per game, at the start of any Fight Phase, Gothmog can declare he is using this ability. Until the end of the turn, friendly Mordor Orc models within 12\" of Gothmog may re-roll any failed To Wound Rolls when making Strikes."
+        },
+        {
+          "name": "\"The Age of Men is Over\"",
+          "type": "PASSIVE",
+          "text": "Friendly Mordor Orc models within 3\" of Gothmog gain the Hatred (Man) special rule."
+        }
+      ]
+    },
+    {
+      "name": "Khamul the Easterling",
+      "points": 130,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH | MORDOR, EASTERLING | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "4+",
+        "Might": "2",
+        "Will": "12",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Challenge",
+        "Heroic Channelling",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [
+        "Bladewrath (12\", 4+)",
+        "Compel (12\", 4+)",
+        "Transfix (12\", 4+)",
+        "Drain Courage (12\", 5+)",
+        "Black Dart (6\", 6+)",
+        "Instill Fear (Self, 6+)"
+      ],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Harbinger of Evil (12\")",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Will of Evil",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Essence Leech",
+          "type": "ACTIVE",
+          "text": "Each time Khamul slays an enemy model in Combat, he immediately regains a single Will Point spent earlier in the battle. Additionally, at the start of the Fight Phase, before the Declare Heroic Actions step, Khamul may spend a Will Point to increase either his Fight Value, Strength or Attacks by 1 until the End Phase of the turn. Note this will only ever affect Khamul, not any Mount he is riding."
+        }
+      ]
+    },
+    {
+      "name": "Mouth of Sauron",
+      "points": 75,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | MORDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "4",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand-and-a-half Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Drain Courage (12\", 3+)",
+        "Transfix (12\", 4+)",
+        "Curse (12\", 4+)"
+      ],
+      "options": [
+        "Armoured horse - 25 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Harbinger of Evil (6\")",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sense of Impending Doom",
+          "type": "PASSIVE",
+          "text": "Enemy models within 6\" of the Mouth of Sauron cannot re-roll 1s as part of a Duel Roll, regardless of special rules that would normally allow them to."
+        }
+      ]
+    },
+    {
+      "name": "Razgush, War Leader of the North",
+      "points": 120,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ORC | MORDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "5+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Bone-breakers",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic Strength",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Elfbane",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Hatred (Elf)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Bone-breakers",
+          "type": "ACTIVE",
+          "text": "This is a Unique hand weapon. Enemy models with an Elven weapon Engaged in Combat with, or supporting a model Engaged in Combat with, Razgush do not receive the bonus to the roll-off should the Duel Roll result in a Drawn Combat."
+        },
+        {
+          "name": "The Beasts of Mirkwood",
+          "type": "PASSIVE",
+          "text": "Razgush may include Bat Swarms, Mirkwood Giant Spiders, Mirkwood Hunting Spiders and Fell Wargs in his Warband even if they are not listed in the Army List Razgush is included in."
+        },
+        {
+          "name": "War Leader of the North",
+          "type": "PASSIVE",
+          "text": "The range of Razgush's Stand Fast is 12\" rather than 6\"."
+        }
+      ]
+    },
+    {
+      "name": "Ringwraith",
+      "points": 120,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH | MORDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "*",
+        "W": "1",
+        "C": "4+",
+        "Might": "*",
+        "Will": "*",
+        "Fate": "*"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Sword"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Compel (12\", 3+)",
+        "Transfix (12\", 3+)",
+        "Drain Courage (12\", 4+)",
+        "Black Dart (6\", 5+)",
+        "[Instill Fear] (Self, 6+)"
+      ],
+      "options": [
+        "2 Attacks, 2 Might, 14 Will, 2 Fate",
+        "Armoured Fell Beast - 70 points",
+        "Fell Beast - 50 points",
+        "Morgul Blade - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Harbinger of Evil (12\")",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Will of Evil",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Morgul Blade",
+          "type": "ACTIVE",
+          "text": "This is a hand weapon. Once per game, a model with a Morgul Blade can use it during a Combat instead of their normal hand weapon; this must be declared before Strikes are made. If they do, all their Strikes must be resolved against a single enemy model, and if the target suffers a Wound that is not prevented in some way, they will immediately lose all remaining Wounds and be removed as a casualty. If the model using the Morgul Blade is mounted, they must use the Strength and Attacks of the rider rather than their Mount."
+        }
+      ]
+    },
+    {
+      "name": "The Betrayer",
+      "points": 130,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH | MORDOR, HARAD | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "4+",
+        "Might": "2",
+        "Will": "14",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Compel (12\", 4+)",
+        "Transfix (12\", 4+)",
+        "Drain Courage (12\", 4+)",
+        "Black Dart (6\", 4+)",
+        "Panic Steed (12\", 5+)",
+        "Instill Fear (Self, 6+)"
+      ],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Bane of Kings",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Harbinger of Evil (12\")",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Will of Evil",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Master of Poisons",
+          "type": "PASSIVE",
+          "text": "At the start of the Move Phase, before the Declare Heroic Actions step, the Betrayer may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, friendly models with the Poisoned Attacks special rule within 6\" of the Betrayer may re-roll all failed To Wound rolls for their Poisoned Attacks, rather than just To Wound rolls of a natural 1."
+        }
+      ]
+    },
+    {
+      "name": "The Dark Marshal",
+      "points": 130,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH | MORDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "4+",
+        "Might": "2",
+        "Will": "14",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Aura of Command (Self, 3+)",
+        "Compel (12\", 3+)",
+        "Transfix (12\", 3+)",
+        "Drain Courage (12\", 4+)",
+        "Black Dart (6\", 5+)",
+        "Instill Fear (Self, 6+)"
+      ],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Harbinger of Evil (12\")",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Will of Evil",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Rule Through Fear",
+          "type": "PASSIVE",
+          "text": "At the start of the Fight Phase, before the Declare Heroic Actions step, the Dark Marshal may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, friendly Warrior models treat the Dark Marshal as a banner with a range of 6\"."
+        }
+      ]
+    },
+    {
+      "name": "The Dwimmerlaik",
+      "points": 130,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH | MORDOR, ANGMAR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "4+",
+        "Might": "0",
+        "Will": "16",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Compel (12\", 3+)",
+        "Transfix (12\", 3+)",
+        "Curse (12\", 4+)",
+        "Drain Courage (12\", 4+)",
+        "Black Dart (6\", 5+)",
+        "Instill Fear (Self, 6+)"
+      ],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Harbinger of Evil (12\")",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Will of Evil",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sap Fortitude",
+          "type": "PASSIVE",
+          "text": "At the start of the Move Phase, before the Declare Heroic Actions step, the Dwimmerlaik may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, whenever an enemy Hero model within 6\" of the Dwimmerlaik declares a Heroic Action, they must take an Intelligence Test. If the test is failed the Heroic Action is immediately cancelled, and the Might Point spent to declare it is lost."
+        }
+      ]
+    },
+    {
+      "name": "The Knight of Umbar",
+      "points": 130,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH | MORDOR, UMBAR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "4+",
+        "Might": "2",
+        "Will": "12",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Armour of the Sundered Land",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Compel (12\", 4+)",
+        "Transfix (12\", 4+)",
+        "Drain Courage (12\", 4+)",
+        "Black Dart (6\", 4+)",
+        "Enchant Blades (12\", 5+)",
+        "Instill Fear (Self, 6+)"
+      ],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Harbinger of Evil (12\")",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Will of Evil",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Armour of the Sundered Land",
+          "type": "PASSIVE",
+          "text": "This is Unique heavy armour. Additionally, the Knight of Umbar only loses a Will Point for having been in a Combat, as per the Will of Evil special rule, if his side loses a Combat during the Fight Phase."
+        },
+        {
+          "name": "Combat Mimicry",
+          "type": "ACTIVE",
+          "text": "At the start of the Fight Phase, before the Declare Heroic Actions step, the Knight of Umbar may spend a Will Point to use this special rule. If he does, he may immediately choose a single enemy model he is Engaged in Combat with. The Knight of Umbar can elect to use the Fight Value, Attacks and/or Strength characteristics of the chosen model (in any combination) until the End Phase of the turn."
+        }
+      ]
+    },
+    {
+      "name": "The Shadow Lord",
+      "points": 130,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH | MORDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "5+",
+        "Might": "2",
+        "Will": "14",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Compel (12\", 3+)",
+        "Fog of Disarray (Self, 3+)",
+        "Transfix (12\", 3+)",
+        "Drain Courage (12\", 4+)",
+        "Black Dart (6\", 5+)",
+        "Instill Fear (Self, 6+)"
+      ],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Harbinger of Evil (12\")",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Will of Evil",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Pall of Darkness",
+          "type": "PASSIVE",
+          "text": "At the start of the Move Phase, before the Declare Heroic Actions step, the Shadow Lord may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, Shooting Attacks that target the Shadow Lord, or any model within 6\" of him, will only ever hit on the roll of a 6."
+        }
+      ]
+    },
+    {
+      "name": "The Tainted",
+      "points": 130,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH | MORDOR, ANGMAR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "4+",
+        "Might": "2",
+        "Will": "14",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Compel (12\", 3+)",
+        "Transfix (12\", 3+)",
+        "Drain Courage (12\", 4+)",
+        "Black Dart (6\", 5+)",
+        "Wither (12\", 5+)",
+        "Instill Fear (Self, 6+)"
+      ],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Harbinger of Evil (12\")",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Will of Evil",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Miasmatic Presence",
+          "type": "PASSIVE",
+          "text": "At the start of the Move Phase, before the Declare Heroic Actions step, the Tainted may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, all Warrior models (both friendly and enemy) within 6\" of the Tainted may not benefit from the Stand Fast rule, nor take part in any Heroic Actions."
+        },
+        {
+          "name": "Seeping Decay",
+          "type": "PASSIVE",
+          "text": "At the start of the Fight Phase, before the Declare Heroic Actions step, roll a D6 for every non-Spirit model in base contact with the Tainted, both friendly and enemy. On the roll of a natural 6, the model immediately suffers a Wound. If the model in base contact is a Cavalry model, roll for both the rider and the Mount separately. If after this special rule has been resolved the Tainted is no longer in base contact with any enemy models, then he will not count as being Engaged in Combat that turn (unless he is subsequently Charged as a result of a Heroic Combat)."
+        }
+      ]
+    },
+    {
+      "name": "The Undying",
+      "points": 130,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH | MORDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "4+",
+        "Might": "2",
+        "Will": "18",
+        "Fate": "0"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand-and-a-half Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Compel (12\", 3+)",
+        "Transfix (12\", 3+)",
+        "Drain Courage (12\", 4+)",
+        "Foil Magic (12\", 4+)",
+        "Black Dart (6\", 5+)",
+        "Instill Fear (Self, 6+)"
+      ],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Harbinger of Evil (12\")",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Will of Evil",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Arcana Leech",
+          "type": "PASSIVE",
+          "text": "At the start of the Move Phase, before the Declare Heroic Actions step, the Undying may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, the Undying regains a Will Point spent earlier in the battle every time another model successfully casts a Magical Power within 6\"."
+        },
+        {
+          "name": "Eternal Willpower",
+          "type": "PASSIVE",
+          "text": "The Undying can spend his Will Points as if they were Fate Points."
+        }
+      ]
+    },
+    {
+      "name": "Black Numenorean Marshal",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | MORDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Armoured horse - 25 points",
+        "Lance - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Visage of Terror",
+          "type": "PASSIVE",
+          "text": "If an enemy model attempts to Charge this model and fails its Courage Test as a result of the Terror special rule, then their Activation will immediately end rather than them just not being able to Move that turn. Models affected by this special rule cannot Shoot in the Shoot Phase, and cannot Move in the Fight Phase if part of a successful Heroic Combat, but may otherwise act normally in those phases."
+        }
+      ]
+    },
+    {
+      "name": "Captain of the Black Guard",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "URUK-HAI | MORDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "5",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "\"For the Dark Lord!\"",
+          "type": "PASSIVE",
+          "text": "Whilst there is at least one friendly Ringwraith on the battlefield, treat this model's Courage as 4+."
+        }
+      ]
+    },
+    {
+      "name": "Gorbag",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC | MORDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Orcish Brawler",
+          "type": "ACTIVE",
+          "text": "If Gorbag is outnumbered in a Combat, he increases his Attacks to 3 for the duration of the Combat."
+        },
+        {
+          "name": "Adaptive Fighter",
+          "type": "ACTIVE",
+          "text": "If Gorbag wins a Duel Roll, then before models Back Away Gorbag may choose a single enemy model involved in the combat. The chosen model is Backed Away in a direction chosen by Gorbag. This direction may be chosen so that the model is forced to Back Away over the edge of a cliff, in which case they will suffer falling damage as normal. Once this has been resolved, other models Back Away as normal and Strikes are resolved. However, if a model has been Backed Away over the edge of a cliff as described earlier, Gorbag cannot make Strikes against that model."
+        }
+      ]
+    },
+    {
+      "name": "Goroth, Captain of the Morannon",
+      "points": 85,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC | MORDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "5+",
+        "S": "5",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Burly",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Dominant (2)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Come here maggot!",
+          "type": "ACTIVE",
+          "text": "Whenever Goroth suffers a Wound, before any Fate Rolls are made, he may roll a D6. On a 2+, he may choose a single friendly Mordor Orc model within 1\" to immediately suffer the Wound instead of him. Fate Rolls can then be made as normal."
+        }
+      ]
+    },
+    {
+      "name": "Gothmog's Enforcer",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC | MORDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Gothmog's Right Hand",
+          "type": "PASSIVE",
+          "text": "Whilst Gothmog's Enforcer is within 3\" of Gothmog, then Gothmog can spend Gothmog's Enforcer's Will Points to declare a Heroic Move or Heroic March instead of using his own Might Points. Additionally, when Gothmog declares a Heroic Move or Heroic March within 3\" of Gothmog's Enforcer, Gothmog can measure the range of the With Me or At the Double from Gothmog's Enforcer rather than himself if he wishes."
+        }
+      ]
+    },
+    {
+      "name": "Great Beast of Gorgoroth",
+      "points": 175,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "GREAT BEAST | MORDOR | WAR BEAST | 120MM OVAL",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": "4",
+        "Sv": "6+",
+        "S": "6",
+        "D": "7",
+        "A": "3",
+        "W": "6",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hooves (hand weapon)"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Dominant (6)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Large Target",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Trample",
+          "type": "ACTIVE",
+          "text": "When a Great Beast Tramples, it will inflict 3 Strength 6 hits. Howdah SPECIAL RULES"
+        },
+        {
+          "name": "Orc Archers",
+          "type": "PASSIVE",
+          "text": "The Orcs in the Howdah are not treated as separate models, and as such cannot be targeted individually. During the Shoot Phase, the Howdah can make a number of shooting attacks equal to its remaining Wounds, using its own Shoot Value. These shots are treated as being made with an Orc bow, can still be made if the Great Beast has Moved over half its Move Value, and do not suffer the -1 penalty for Moving and Shooting. Measure the range from the base of the Great Beast, and Line of Sight from the Commander."
+        }
+      ]
+    },
+    {
+      "name": "Guritz",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC | MORDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "5",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Two-handed Weapon",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Master of Reserves",
+          "type": "PASSIVE",
+          "text": "In Scenarios where you roll for Warbands to arrive, or ones where you roll to see which part of the board you deploy a Warband in (though not when rolling to choose deployment zones), you may modify the roll for Guritz's Warband by +1 or -1, even if he is not on the battlefield. If Guritz is on the battlefield, you may also modify the roll for other Warbands in your Army by +1 or -1."
+        },
+        {
+          "name": "End the Race of Men",
+          "type": "ACTIVE",
+          "text": "Whilst Engaged in Combat with an enemy Man model, this model gains a bonus of +1 to their Fight Value."
+        }
+      ]
+    },
+    {
+      "name": "Kardush the Firecaller",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC | MORDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Spear"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Flameburst (6\", 3+)",
+        "Fury (Mordor Orc) (Self, 3+)"
+      ],
+      "specialRules": [
+        {
+          "name": "Shadow Pawn",
+          "type": "PASSIVE",
+          "text": "At the start of the Move Phase, before the Declare Heroic Actions step, Kardush's controlling player can choose to remove him from the battlefield as a casualty if he is within 6\" of a friendly Ringwraith. If they do, then a single friendly Ringwraith model within 6\" of where Kardush was immediately regains D6 Will Points spent earlier in the battle."
+        },
+        {
+          "name": "Heart of Darkness",
+          "type": "ACTIVE",
+          "text": "At the start of the Move Phase, before the Declare Heroic Actions step, Kardush can choose a single friendly Orc Warrior model within 6\" of himself. If he does, the chosen model is removed as a casualty and Kardush immediately regains D3 Will Points spent earlier in the battle."
+        }
+      ]
+    },
+    {
+      "name": "Morannon Orc Captain",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC | MORDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "5",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Shield - 5 points",
+        "Two-handed weapon - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "End the Race of Men",
+          "type": "ACTIVE",
+          "text": "Whilst Engaged in Combat with an enemy Man model, this model gains a bonus of +1 to their Fight Value."
+        }
+      ]
+    },
+    {
+      "name": "Mordor Orc Captain",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC | MORDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Shield",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": []
+    },
+    {
+      "name": "Mordor Orc Taskmaster",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC | MORDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Whip"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Whip of the Masters",
+          "type": "ACTIVE",
+          "text": "Whenever a friendly Hero model within 6\" declares a Heroic Move, Heroic March or Heroic Shoot, roll a D6. On a 4+ the Hero does not spend the Might Point and the Heroic Action is free."
+        }
+      ]
+    },
+    {
+      "name": "Mordor Troll Chieftain",
+      "points": 150,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "TROLL | MORDOR | HERO, INFANTRY, MONSTER | 60MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "8",
+        "Sv": "4+",
+        "S": "7",
+        "D": "8",
+        "A": "3",
+        "W": "4",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Dominant (4)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 12\", Strength 8)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Mordor Uruk-Hai Captain",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "URUK-HAI | MORDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "5",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Two-handed weapon - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Cleaving Blow",
+          "type": "ACTIVE",
+          "text": "If this model rolls a natural 6 To Wound when making a Strike, and the Wound is successful, then the target will suffer 2 Wounds rather than 1."
+        }
+      ]
+    },
+    {
+      "name": "Muzgur, Orc Shaman",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC | MORDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "4",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Spear"
+      ],
+      "heroicActions": [
+        "Heroic Channelling",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [
+        "Drain Courage (12\", 3+)",
+        "Wither (12\", 3+)",
+        "Transfix (12\", 4+)"
+      ],
+      "specialRules": [
+        {
+          "name": "Power from Death",
+          "type": "ACTIVE",
+          "text": "Whenever Muzgur slays an enemy model in Combat, he immediately regains a Will Point spent earlier in the battle."
+        }
+      ]
+    },
+    {
+      "name": "Shagrat",
+      "points": 110,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "URUK-HAI | MORDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "5",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "5+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "General Hunter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Hands off the shiny shirt, that's mine!",
+          "type": "ACTIVE",
+          "text": "During a Scenario that involves picking up and carrying Objectives, Shagrat can use this special rule at any point during his Move. If he does, he may select any friendly model within 3\" that is carrying an Objective and take an Intelligence Test. If the test is passed, Shagrat immediately gains possession of that Objective, even if the Scenario would not normally allow for that Objective to be passed. Additionally, Shagrat can always carry multiple Objectives, even if the Scenario would state that models can only carry one."
+        },
+        {
+          "name": "Cleaving Blow",
+          "type": "ACTIVE",
+          "text": "If this model rolls a natural 6 To Wound when making a Strike, and the Wound is successful, then the target will suffer 2 Wounds rather than 1."
+        }
+      ]
+    },
+    {
+      "name": "Zagdush, Orc Captain",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC | MORDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Reckless Fighter",
+          "type": "ACTIVE",
+          "text": "At the start of any Combat involving Zagdush, before any dice are rolled, Zagdush may choose to reduce his Defence by 1 and increase his Strength by 1. This effect lasts until the Combat is resolved."
+        }
+      ]
+    },
+    {
+      "name": "Mordor Orc Shaman",
+      "points": 50,
+      "heroicTier": "Minor Hero",
+      "keywords": "ORC | MORDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "5",
+        "A": "1",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Spear"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Fury (Mordor Orc) (Self, 3+)",
+        "Curse (12\", 4+)",
+        "Transfix (12\", 5+)"
+      ],
+      "options": [
+        "Warg - 20 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Black Guard Drummer",
+      "points": 35,
+      "heroicTier": "Independent Hero",
+      "keywords": "URUK-HAI | MORDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "5",
+        "D": "5",
+        "A": "1",
+        "W": "1",
+        "C": "6+",
+        "Might": "0",
+        "Will": "0",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "War Drum (Mordor Uruk-Hai)"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": []
+    },
+    {
+      "name": "Mordor Orc Drummer",
+      "points": 30,
+      "heroicTier": "Independent Hero",
+      "keywords": "ORC | MORDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "1",
+        "C": "7+",
+        "Might": "0",
+        "Will": "0",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "War Drum (Mordor Orc)"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": []
+    },
+    {
+      "name": "Shelob",
+      "points": 100,
+      "heroicTier": "Independent Hero",
+      "keywords": "SPIDER | MORDOR | HERO, INFANTRY, MONSTER, BEAST, UNIQUE | 80MM",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "7",
+        "D": "7",
+        "A": "1",
+        "W": "6",
+        "C": "6+",
+        "Might": "0",
+        "Will": "6",
+        "Fate": "0"
+      },
+      "wargear": [
+        "Fangs (hand weapon)"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Dominant (4)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Monstrous Charge",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Survival Instinct",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Swift Movement",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Venom",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Lone Hunter",
+          "type": "PASSIVE",
+          "text": "Shelob may never be included in another model's Warband. Additionally, Shelob can never benefit from the Heroic Actions of other models."
+        },
+        {
+          "name": "She is always hungry",
+          "type": "PASSIVE",
+          "text": "At the start of her Activation, so long as she is not Engaged in Combat, Shelob can choose to kill a friendly model within 1\" of her - remove the chosen model as a casualty. If she does, until the end of the turn Shelob may re-roll a single dice during any Duel Roll she participates in."
+        },
+        {
+          "name": "She hungers for sweeter meats",
+          "type": "PASSIVE",
+          "text": "Shelob adds 1 to her Attacks characteristic whilst she is Engaged in Combat with an enemy Man, Elf, Dwarf or Hobbit model."
+        },
+        {
+          "name": "Caught in a Web",
+          "type": "BRUTAL POWER ATTACK",
+          "text": "Instead of making Strikes, Shelob may instead choose a single enemy model that was involved in the Combat. The chosen model immediately suffers a single Strength 8 hit and, if it survives, will be subject to the Paralyse Magical Power - however, the model will not automatically recover should Shelob be removed as a casualty, leave the board or be reduced to 0 Will Points."
+        }
+      ]
+    },
+    {
+      "name": "Bat Swarm",
+      "points": 35,
+      "keywords": "BAT | MORIA | WARRIOR, INFANTRY, BEAST, SWARM | 40MM",
+      "profile": {
+        "Mv": "12\"",
+        "Fv": "1",
+        "Sv": "6+",
+        "S": "3",
+        "D": "3",
+        "A": "2",
+        "W": "4",
+        "C": "8+",
+        "I": "9+"
+      },
+      "wargear": [
+        "Claws and Teeth (hand weapons)"
+      ],
+      "specialRules": [
+        {
+          "name": "Cave Dweller",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Fly",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Blinding Swarm",
+          "type": "ACTIVE",
+          "text": "Enemy models Engaged in Combat with a Bat Swarm halve their Fight value."
+        }
+      ]
+    },
+    {
+      "name": "Black Guard of Barad-dur",
+      "points": 12,
+      "keywords": "URUK-HAI | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "5",
+        "D": "6",
+        "A": "1",
+        "W": "1",
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "options": [
+        "Exchange shield for banner - 25 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Black Numenorean Knight",
+      "points": 20,
+      "keywords": "MAN | MORDOR | WARRIOR, CAVALRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "3",
+        "D": "6",
+        "A": "1",
+        "W": "1",
+        "C": "6+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Lance",
+        "Shield",
+        "Armoured Horse"
+      ],
+      "options": [
+        "Exchange lance for banner - 25 points",
+        "Exchange lance for war horn - 25 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Visage of Terror",
+          "type": "PASSIVE",
+          "text": "If an enemy model attempts to Charge this model and fails its Courage Test as a result of the Terror special rule, then their Activation will immediately end rather than them just not being able to Move that turn. Models affected by this special rule cannot Shoot in the Shoot Phase, and cannot Move in the Fight Phase if part of a successful Heroic Combat, but may otherwise act normally in those phases."
+        }
+      ]
+    },
+    {
+      "name": "Black Numenorean Warrior",
+      "points": 10,
+      "keywords": "MAN | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "3",
+        "D": "6",
+        "A": "1",
+        "W": "1",
+        "C": "6+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "specialRules": [
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Visage of Terror",
+          "type": "PASSIVE",
+          "text": "If an enemy model attempts to Charge this model and fails its Courage Test as a result of the Terror special rule, then their Activation will immediately end rather than them just not being able to Move that turn. Models affected by this special rule cannot Shoot in the Shoot Phase, and cannot Move in the Fight Phase if part of a successful Heroic Combat, but may otherwise act normally in those phases."
+        }
+      ]
+    },
+    {
+      "name": "Fell Warg",
+      "points": 8,
+      "keywords": "WARG | GUNDABAD | WARRIOR, INFANTRY, BEAST | 40MM",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": "3",
+        "Sv": "6+",
+        "S": "4",
+        "D": "4",
+        "A": "1",
+        "W": "1",
+        "C": "8+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Claws and Teeth (hand weapon)"
+      ],
+      "specialRules": [
+        {
+          "name": "Fell Sight",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Mirkwood Giant Spider",
+      "points": 20,
+      "keywords": "SPIDER | DOL GULDUR | WARRIOR, INFANTRY, BEAST | 60MM",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": "2",
+        "Sv": "5+",
+        "S": "5",
+        "D": "3",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Fangs (hand weapons)"
+      ],
+      "specialRules": [
+        {
+          "name": "Poisoned Attacks (Fangs)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Swift Movement",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Spider Webs",
+          "type": "ACTIVE",
+          "text": "A Mirkwood Giant Spider can shoot spider webs; these are treated as throwing weapons with a range of 8\". If a model is hit by a webs shot by a Mirkwood Giant Spider, no To Wound Roll is made. Instead, the hit model is immediately counted as being under the effects of the Paralyse Magical Power; however, the effects will not immediately end should this model have no Will Points or be slain. If a Cavalry model is hit by this shooting attack, do not roll to see which part of the model (rider or Mount) is hit; both are automatically hit. A Hero model hit by a web may spend a Fate Point to avoid its effects. If they do, reduce their Fate Points by 1 and the webs have no effect. If the Hero is a Cavalry model, then a Fate Point spent in this manner will negate the webs on both rider and Mount."
+        }
+      ]
+    },
+    {
+      "name": "Mirkwood Hunting Spider",
+      "points": 20,
+      "keywords": "SPIDER | DOL GULDUR | WARRIOR, INFANTRY, BEAST | 40MM",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": "3",
+        "Sv": "6+",
+        "S": "5",
+        "D": "3",
+        "A": "2",
+        "W": "2",
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Fangs (hand weapons)"
+      ],
+      "specialRules": [
+        {
+          "name": "Poisoned Attacks (Fangs)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Stalk Unseen",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Swift Movement",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Silent Hunters",
+          "type": "PASSIVE",
+          "text": "If a Mirkwood Hunting Spider is within a piece of woodland terrain (such as a forest), or is partially concealed by a piece of woodland terrain, then they cannot be seen by enemy models unless they are within 6\" of the Mirkwood Hunting Spider."
+        }
+      ]
+    },
+    {
+      "name": "Morannon Orc Warrior",
+      "points": 8,
+      "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "1",
+        "C": "8+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Shield and spear - 2 points",
+        "Shield - 1 points",
+        "Spear - 1 points"
+      ],
+      "specialRules": [
+        {
+          "name": "End the Race of Men",
+          "type": "ACTIVE",
+          "text": "Whilst Engaged in Combat with an enemy Man model, this model gains a bonus of +1 to their Fight Value."
+        }
+      ]
+    },
+    {
+      "name": "Mordor Orc Warrior",
+      "points": 5,
+      "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "1",
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Orc bow - 1 points",
+        "Shield - 1 points",
+        "Spear - 1 points",
+        "Two-handed weapon - 1 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Mordor Troll",
+      "points": 90,
+      "keywords": "TROLL | MORDOR | WARRIOR, INFANTRY, MONSTER | 60MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "5+",
+        "S": "7",
+        "D": "7",
+        "A": "3",
+        "W": "4",
+        "C": "6+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand-and-a-half Weapon"
+      ],
+      "options": [
+        "War drum (Mordor) - 25 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Dominant (3)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 12\", Strength 8)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Mordor Uruk-Hai",
+      "points": 8,
+      "keywords": "URUK-HAI | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "4",
+        "A": "1",
+        "W": "1",
+        "C": "6+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Two-handed weapon - 1 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Cleaving Blow",
+          "type": "ACTIVE",
+          "text": "If this model rolls a natural 6 To Wound when making a Strike, and the Wound is successful, then the target will suffer 2 Wounds rather than 1."
+        }
+      ]
+    },
+    {
+      "name": "Mordor Warg Rider",
+      "points": 11,
+      "keywords": "ORC | MORDOR | WARRIOR, CAVALRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "1",
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Warg"
+      ],
+      "options": [
+        "Shield and throwing spears - 2 points",
+        "Orc bow - 1 points",
+        "Shield - 1 points",
+        "Throwing spears - 1 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Morgul Stalker",
+      "points": 10,
+      "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "1",
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "specialRules": [
+        {
+          "name": "Stalk Unseen",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Orc Tracker",
+      "points": 6,
+      "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "4+",
+        "S": "3",
+        "D": "3",
+        "A": "1",
+        "W": "1",
+        "C": "8+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Orc Bow"
+      ],
+      "specialRules": [
+        {
+          "name": "Mountain Dweller",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Mordor Siege Bow",
+      "points": 50,
+      "keywords": "SIEGE ENGINE | 40MM",
+      "profile": {
+        "Mv": "6\"‑48\"",
+        "Fv": "8",
+        "Sv": "9",
+        "S": "3",
+        "D": "",
+        "A": "",
+        "W": "",
+        "C": ""
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Flaming Ammunition - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Direct Shot",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Flaming Ammunition",
+          "type": "",
+          "text": "A Siege Engine upgraded with Flaming Ammunition may re-roll any failed To Wound Rolls against a Siege Target."
+        },
+        {
+          "name": "Accurate",
+          "type": "ACTIVE",
+          "text": "A Mordor Siege Bow will only Scatter 3\" rather than 6\"."
+        },
+        {
+          "name": "Piercing Shot",
+          "type": "ACTIVE",
+          "text": "A model that is hit by the shot of a Mordor Siege Bow will be flung back D6\" directly away from the Siege Bow if it has a Strength of 5 or lower. Any model that is passed over by the flung model suffers a Strength 5 hit and will be knocked Prone. If the flung model comes into contact with a piece of impassable terrain or a model with a Strength of 6 or higher, then it will stop and both the flung model and the model or piece of terrain that was hit will suffer one Strength 6 hit. After being flung back, the flung model will be knocked Prone if they survive. If after the model is flung back it would finish over other models and it has survived, then simply move other models the minimum distance possible to allow the flung model to be placed where it has landed."
+        }
+      ]
+    },
+    {
+      "name": "Mordor War Catapult",
+      "points": 150,
+      "keywords": "SIEGE ENGINE | 120MM",
+      "profile": {
+        "Mv": "12\"‑96\"",
+        "Fv": "10",
+        "Sv": "10",
+        "S": "4",
+        "D": "",
+        "A": "",
+        "W": "",
+        "C": ""
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Severed Heads - 20 points",
+        "Flaming Ammunition - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Arcing Shot",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Severed Heads",
+          "type": "",
+          "text": "If a Mordor War Catapult chooses to fire Severed Heads, determine the actual target as normal. Then, instead of rolling To Wound, the actual target and any enemy model within 3\" of them must each take a Courage Test. If the test is failed, the model flees and is removed as a casualty."
+        },
+        {
+          "name": "Flaming Ammunition",
+          "type": "",
+          "text": "A Siege Engine upgraded with Flaming Ammunition may re-roll any failed To Wound Rolls against a Siege Target."
+        },
+        {
+          "name": "Troll Loader",
+          "type": "ACTIVE",
+          "text": "If the Mordor Siege Troll is one of the models firing the Mordor War Catapult this turn, then the Mordor Siege Catapult may re-roll the To Hit Roll."
+        },
+        {
+          "name": "Area Effect",
+          "type": "ACTIVE",
+          "text": "After rolling To Hit against the actual target, if the actual target was a Battlefield Target then all other models within 2\" of the actual target suffer a Strength 5 hit and, if they survive, will be knocked Prone."
+        },
+        {
+          "name": "Wall-breaker",
+          "type": "ACTIVE",
+          "text": "When rolling To Wound against a Siege Target, a Mordor War Catapult makes 2 To Wound Rolls and picks the highest. Additionally, a successful To Wound Roll against a Siege Target will do D3 Wounds rather than 1."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub army-list page. Full stat blocks, wargear, and special-rule text from the matching Forces of Evil faction page(s) on the same site."
+}

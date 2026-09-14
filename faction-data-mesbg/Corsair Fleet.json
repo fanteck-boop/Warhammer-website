@@ -1,0 +1,294 @@
+{
+  "legion": "Corsair Fleet",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/corsair_fleet/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/fallen_realms/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/evil_legacy/"
+  ],
+  "additionalRules": [
+    "A Corsair Fleets Army must always contain a Corsair Captain, who is always the Army's General.",
+    "If your army contains Dalamyr, then he will always be the Army's General, instead of a Corsair Captain."
+  ],
+  "specialRules": [
+    {
+      "name": "The Fleetmaster",
+      "type": "",
+      "text": "The Corsair Captain that is your General increases their Attacks and Wounds to 3 each, and gains the Fearless and Sharpshooter special rules."
+    },
+    {
+      "name": "The Last Stroke of Doom",
+      "type": "",
+      "text": "Friendly Corsair models gain the Backstabbers special rule."
+    },
+    {
+      "name": "Ballistae Assault",
+      "type": "",
+      "text": "After both sides have been deployed, but before the first turn of the game a single Corsair Ballista may make a shooting attack following all the normal rules for doing so."
+    }
+  ],
+  "units": [
+    {
+      "name": "Dalamyr, Fleetmaster of Umbar",
+      "points": 100,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, CORSAIR, UMBAR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "3",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Throwing Weapons",
+        "Smoke Bombs"
+      ],
+      "heroicActions": [
+        "Heroic Defence",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Backstabbers", "type": "", "text": "" },
+        { "name": "Bane of Kings", "type": "", "text": "" },
+        { "name": "Stalk Unseen", "type": "", "text": "" },
+        { "name": "Smoke Bombs", "type": "ACTIVE", "text": "These are throwing weapons with a Strength of 1. Any model hit, but not slain, by these weapons must immediately expend a Will Point or suffer the effects of the Transfix Magical Power and have their Fight Value halved until the End Phase of the turn. Should Dalamyr ever roll a 1 To Hit with his Smoke Bombs then his supply has run out and he cannot use them for the remainder of the game." },
+        { "name": "Preternatural Agility", "type": "ACTIVE", "text": "Dalamyr can never count as Trapped whilst still standing." }
+      ]
+    },
+    {
+      "name": "Delgamar, Gatemaster of Umbar",
+      "points": 75,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, CORSAIR, UMBAR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "2",
+        "C": "6+",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Whip",
+        "Throwing Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Ruthless Commander", "type": "ACTIVE", "text": "Friendly Corsair Warrior models within 3\" of Delgamar may choose to re-roll a single D6 during a Duel Roll, after any other re-rolls from other sources have been used. However, if a Corsair Warrior makes this re-roll and fails to win the Duel Roll, they immediately suffer a Strength 2 hit. Only a single Corsair Warrior can use this special rule in each Combat." }
+      ]
+    },
+    {
+      "name": "Corsair Bo'sun",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, CORSAIR, UMBAR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Light Armour",
+        "Hand Weapon",
+        "Spear",
+        "Throwing Weapons"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Exchange Spear for Crossbow - Free"
+      ],
+      "specialRules": [
+        { "name": "Commanding Bellow", "type": "ACTIVE", "text": "Friendly Corsair models treat a Corsair Bo'sun as a banner." }
+      ]
+    },
+    {
+      "name": "Corsair Captain",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, CORSAIR, UMBAR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Light Armour",
+        "Hand Weapon",
+        "Two-handed Weapon",
+        "Throwing Weapons"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Exchange Two-handed Weapon for Crossbow - Free"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Corsair Captain (General)",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, CORSAIR, UMBAR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "3",
+        "W": "3",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Light Armour",
+        "Hand Weapon",
+        "Two-handed Weapon",
+        "Throwing Weapons"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Exchange Two-handed Weapon for Crossbow - Free"
+      ],
+      "specialRules": [
+        { "name": "Fearless", "type": "", "text": "" },
+        { "name": "Sharpshooter", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Corsair Crossbowman",
+      "points": 10,
+      "keywords": "MAN | CORSAIR, UMBAR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 3,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Pavise",
+        "Crossbow",
+        "Hand Weapon"
+      ],
+      "specialRules": [
+        { "name": "Pavise", "type": "PASSIVE", "text": "This is a shield that provides the bearer +3 Defence rather than +1. However, a model with a Pavise cannot gain this bonus to their Defence whilst Engaged in Combat." }
+      ]
+    },
+    {
+      "name": "Corsair Reaver",
+      "points": 9,
+      "keywords": "MAN | CORSAIR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 3,
+        "A": 2,
+        "W": 1,
+        "C": "6+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Hand Weapons"
+      ],
+      "specialRules": [
+        { "name": "Fearless", "type": "", "text": "" },
+        { "name": "Mindless Killers", "type": "ACTIVE", "text": "If this model starts its Activation more than 6\" away from a friendly Corsair Bo'sun, it must immediately take an Intelligence Test. If the test is passed, all is fine and this model acts as normal. If the test is failed, then you must choose another friendly model within 1\" of this model; the chosen model immediately suffers a Strength 3 hit and, after this Strength 3 hit has been resolved, this model must Charge an enemy model if able. If there are no other friendly models within 1\" of this model when it fails its Intelligence Test, then this model's Activation immediately ends. In a turn in which this model fails its Intelligence Test for this special rule, it must re-roll all failed To Wound rolls when making Strikes and gains a bonus of +1 To Wound when making Strikes." }
+      ]
+    },
+    {
+      "name": "Corsair of Umbar",
+      "points": 8,
+      "keywords": "MAN | CORSAIR, UMBAR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 3,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Light Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Bow - 1 point",
+        "Light Shield and Throwing Weapons - 1 point",
+        "Spear - 1 point"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Corsair Ballista",
+      "points": 70,
+      "keywords": "SIEGE ENGINE | 40MM",
+      "profile": {
+        "Range": "0\"-48\"",
+        "S": 8,
+        "D": 10,
+        "W": 3
+      },
+      "wargear": [],
+      "specialRules": [
+        { "name": "Direct Shot", "type": "", "text": "" },
+        { "name": "Piercing Shot", "type": "ACTIVE", "text": "A model that is hit by the shot of a Corsair Ballista will be flung back D6\" directly away from the Ballista if it has a Strength of 5 or lower. Any model that is passed over by the flung model suffers a Strength 5 hit and will be knocked Prone. If the flung model comes into contact with a piece of impassable terrain or a model with a Strength of 6 or higher, then it will stop and both the flung model and the model or piece of terrain that was hit will suffer one Strength 6 hit. After being flung back, the flung model will be knocked Prone if they survive. If after the model is flung back it would finish over other models and it has survived, then move the other models the minimum distance possible to allow the flung model to be placed where it has landed." },
+        { "name": "Bladed Bolts", "type": "ACTIVE", "text": "A Corsair Ballista must re-roll To Wound Rolls of a 1, including against any model that suffers a Strength 6 hit caused by the model that is flung back, if applicable." }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Corsair Fleet army-list page. Full stat blocks, wargear, and special-rule text from the Fallen Realms faction page (Corsair units) and the Evil Legacy page (Corsair Reaver). Corsair Ballista Composition (crewed by three Corsair Siege Crew, one a Siege Veteran) and Corsair Siege Crew stat block omitted from this file as the army list only itemises the Ballista itself."
+}

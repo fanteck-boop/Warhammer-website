@@ -1,0 +1,161 @@
+{
+  "legion": "Wolf Pack of Angmar",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/wolf_pack_of_angmar/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/arnor_and_angmar/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/gundabad_and_dol_guldur/"
+  ],
+  "additionalRules": [
+    "Werewolves may benefit from the Heroic Actions and Stand Fast of friendly Wild Warg Chieftains even though they do not have the Warg keyword.",
+    "Friendly models can still pick up Objective Markers even though they have the Beast keyword."
+  ],
+  "specialRules": [
+    {
+      "name": "Leader of the Pack",
+      "type": "",
+      "text": "The Wild Warg Chieftain that is your General gains an additional point each of Might, Will and Fate."
+    },
+    {
+      "name": "Feral Charge",
+      "type": "",
+      "text": "When a friendly Warg model Charges an enemy Infantry model, they gain the Knock to the Ground bonus as if they were Cavalry. This bonus is lost if they are subsequently Charged by an enemy Cavalry model."
+    },
+    {
+      "name": "Protect the Alpha",
+      "type": "",
+      "text": "If your General has suffered at least one Wound, then friendly models treat them as a banner with a range of 6\"."
+    },
+    {
+      "name": "Howl of the Wolf Pack",
+      "type": "",
+      "text": "Once per game, at the start of any Fight Phase, your General can declare they are using this ability. Until the End Phase of the turn, friendly models gain a bonus of +1 to their Fight Value and may re-roll To Wound Rolls of a natural 1 when making Strikes."
+    }
+  ],
+  "units": [
+    {
+      "name": "Wild Warg Chieftain",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "WARG, ANGMAR, HERO, INFANTRY, BEAST",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": "5",
+        "Sv": "5+",
+        "S": "6",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "6+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Claws and Teeth (hand weapons)"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "May be taken as the Army's General - the General's version uses the same profile"
+      ],
+      "specialRules": [
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Packlord",
+          "type": "ACTIVE",
+          "text": "Friendly models may not benefit from the Heroic Actions or Stand Fast of this model unless they have the Warg keyword."
+        }
+      ]
+    },
+    {
+      "name": "Fell Warg",
+      "points": 8,
+      "keywords": "WARG | GUNDABAD | WARRIOR, INFANTRY, BEAST | 40MM",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": 3,
+        "Sv": "6+",
+        "S": 4,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Claws and Teeth (hand weapon)"
+      ],
+      "specialRules": [
+        {
+          "name": "Fell Sight",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Werewolf",
+      "points": 25,
+      "keywords": "SPIRIT | ANGMAR | WARRIOR, INFANTRY, BEAST | 50MM",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": 5,
+        "Sv": "6+",
+        "S": 5,
+        "D": 5,
+        "A": 2,
+        "W": 2,
+        "C": "5+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Claws and Teeth (hand weapons)"
+      ],
+      "specialRules": [
+        {
+          "name": "Fell Sight",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Feral Charge",
+          "type": "ACTIVE",
+          "text": "When a Werewolf Charges an enemy Infantry model, they gain the Knock to the Ground bonus as if they were Cavalry. This bonus is lost if they are subsequently charged by an enemy Cavalry model."
+        }
+      ]
+    },
+    {
+      "name": "Wild Warg",
+      "points": 7,
+      "keywords": "WARG | ANGMAR | WARRIOR, INFANTRY, BEAST | 40MM",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": 3,
+        "Sv": "6+",
+        "S": 4,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Claws and Teeth (hand weapons)"
+      ],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Wolf Pack of Angmar army-list page. Full stat blocks, wargear, and special-rule text for Wild Warg Chieftain/Werewolf/Wild Warg from the Arnor & Angmar faction page; Fell Warg's stat block is from the Gundabad & Dol Guldur faction page."
+}

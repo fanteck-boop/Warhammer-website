@@ -1,0 +1,104 @@
+{
+  "legion": "Fangorn",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/fangorn/"
+  ],
+  "additionalRules": [
+    "A Fangorn Army must always contain Treebeard, who is always the Army's General."
+  ],
+  "specialRules": [
+    {
+      "name": "\"Don't be Hasty\"",
+      "type": "",
+      "text": "Friendly Ent models are completely unaffected by any Magical Powers that would attempt to Move them, or prevent them from Activating or Moving."
+    },
+    {
+      "name": "One with the Forest",
+      "type": "",
+      "text": "Friendly Ent models are completely unaffected by the Call Winds, Nature's Wrath, Wrath of Bruinen and Writhing Vines Magical Powers."
+    },
+    {
+      "name": "\"Beech. Oak. Chestnut. Ash. Many have come\"",
+      "type": "",
+      "text": "Whenever you include an Ent Warrior in your Army, you may assign one of the four types of Ent to it, as listed below. You must split the types of Ent as evenly as possible. So, if you want to have a second of one type of Ent, you must first have one of each of the types. If you want to have a third of one type of Ent, you must first have two of each of the types, and so on."
+    }
+  ],
+  "units": [
+    {
+      "name": "Treebeard",
+      "points": 190,
+      "heroicTier": "Hero of Legend",
+      "keywords": "ENT | FANGORN | HERO, INFANTRY, MONSTER, UNIQUE | 60MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "8",
+        "Sv": "3+",
+        "S": "8",
+        "D": "8",
+        "A": "4",
+        "W": "4",
+        "C": "3+",
+        "Might": "3",
+        "Will": "4",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Merry & Pippin - 10 points",
+        "Elven Cloak (Merry) - 5 points",
+        "Elven Cloak (Pippin) - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Beechbone",
+      "points": 150,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ENT | FANGORN | HERO, INFANTRY, MONSTER, UNIQUE | 60MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "8",
+        "Sv": "4+",
+        "S": "8",
+        "D": "8",
+        "A": "3",
+        "W": "4",
+        "C": "4+",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "0"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Birchseed",
+      "points": 150,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ENT | FANGORN | HERO, INFANTRY, MONSTER, UNIQUE | 60MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "7",
+        "D": "8",
+        "A": "3",
+        "W": "3",
+        "C": "5+",
+        "Might": "1",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Ent",
+      "points": 100,
+      "keywords": "ENT | FANGORN | WARRIOR, INFANTRY, MONSTER | 60MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Fangorn army-list page. Stat blocks and keywords cross-referenced from the Forces of Good faction pages on the same site."
+}

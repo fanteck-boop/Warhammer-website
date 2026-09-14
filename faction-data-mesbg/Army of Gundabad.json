@@ -1,0 +1,643 @@
+{
+  "legion": "Army of Gundabad",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/army_of_gundabad/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/gundabad_and_dol_guldur/"
+  ],
+  "additionalRules": [
+    "Hero warband/follower system (current 'Armies of The Lord of the Rings' edition): each Hero anchors a warband of Independent (non-Hero) followers up to a cap set by their tier for this army list — Hero of Legend: up to 18 followers; Hero of Valour: up to 15; Hero of Fortitude: up to 12; Minor Hero: up to 6; Independent Hero: 0 (occupies a slot in another Hero's warband instead). The army's General is typically a Hero of Valour or Hero of Legend — check this army list's own requirements. Heroic tier is assigned per army list, not an inherent property of the hero."
+  ],
+  "specialRules": [
+    {
+      "name": "Commander of Legions",
+      "text": "If your General is either Azog or Bolg, then your General gains the Master of Battle (5+) special rule."
+    },
+    {
+      "name": "\"Here ends your filthy bloodline!\"",
+      "text": "Azog may re-roll any failed To Wound Rolls when making Strikes against Erebor models."
+    },
+    {
+      "name": "The Horn of Gorgoroth",
+      "text": "Once per game, after Priority has been determined, as long as your General is alive and on the battlefield they can order the Horn of Gorgoroth to be blown. Until the End Phase, all friendly Gundabad models gain a bonus of +2 to any Courage Tests, and all enemy models suffer a -2 penalty to any Courage Tests (not cumulative with similar penalties)."
+    },
+    {
+      "name": "Raise the Banners",
+      "text": "During the Priority Phase, after Priority has been determined, as long as your General is alive and on the battlefield they may raise one banner on the signal tower (not the same one as the previous turn), applying its effect until the End Phase: The Banner of Dol Guldur — all friendly Gundabad models count as being in range of a banner. The Banner of Gundabad — all friendly Gundabad Hero models may declare a Heroic March for free. The Banner of Angmar — whenever a friendly Gundabad model suffers a Wound, roll a D6; on a natural 6 the Wound is ignored (Gundabad Berserkers pass their Oblivious to Pain roll on a 5+ instead)."
+    }
+  ],
+  "units": [
+    {
+      "name": "Goblin Mercenary",
+      "points": 6,
+      "keywords": "GOBLIN | GUNDABAD | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": 2,
+        "Sv": "5+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "specialRules": [
+        {
+          "name": "Cave Dweller",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Chittering Hordes",
+          "type": "ACTIVE",
+          "text": "This model may Support as if it had a spear, but can only Support another model with this special rule; cannot combine with a two-handed weapon in the same Combat."
+        },
+        {
+          "name": "Mercenary Ambush",
+          "type": "ACTIVE",
+          "text": "A Warband led by a Goblin Mercenary Captain containing only Goblin Mercenaries need not deploy at the start of the game and may instead be held in reserve, entering later via an Intelligence Test each turn from turn 2 and being placed hidden near eligible terrain, following the Reinforcements rules if it cannot be placed."
+        }
+      ]
+    },
+    {
+      "name": "Gundabad Berserker",
+      "points": 15,
+      "keywords": "ORC | GUNDABAD | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": 4,
+        "Sv": "5+",
+        "S": 4,
+        "D": 5,
+        "A": 2,
+        "W": 1,
+        "C": "4+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Two-handed Weapon - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Ancient Enemies (Dwarf)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Ancient Enemies (Elf)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Oblivious to Pain",
+          "type": "PASSIVE",
+          "text": "Whenever this model suffers a Wound, roll a D6. On a natural 6, the Wound is ignored."
+        }
+      ]
+    },
+    {
+      "name": "Gundabad Ogre",
+      "points": 60,
+      "keywords": "OGRE | GUNDABAD | WARRIOR, INFANTRY, MONSTER | 50MM",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": 5,
+        "Sv": "6+",
+        "S": 6,
+        "D": 5,
+        "A": 3,
+        "W": 3,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "specialRules": [
+        {
+          "name": "Ancient Enemies (Dwarf)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Ancient Enemies (Elf)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Dominant (3)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Relentless Advance",
+          "type": "ACTIVE",
+          "text": "May Move through friendly Orc, Goblin or Bat models when Charging (not when forced to move), dealing a Strength 3 hit to each model moved through, and may finish its Move overlapping friendly models, which are automatically slain."
+        }
+      ]
+    },
+    {
+      "name": "Gundabad Orc Warrior",
+      "points": 9,
+      "keywords": "ORC | GUNDABAD | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "5+",
+        "S": 4,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Banner and Shield - 26 points",
+        "Banner - 25 points",
+        "Shield - 1 point",
+        "Spear - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Ancient Enemies (Dwarf)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Ancient Enemies (Elf)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Gundabad Troll",
+      "points": 120,
+      "keywords": "TROLL | GUNDABAD | WARRIOR, INFANTRY, MONSTER | 80MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 7,
+        "Sv": "4+",
+        "S": 7,
+        "D": 8,
+        "A": 3,
+        "W": 4,
+        "C": "6+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Crushing Club"
+      ],
+      "options": [
+        "Exchange Club for Scythe Gauntlets - 10 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Large Target",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Dominant (4)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Ancient Enemies (Dwarf)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Ancient Enemies (Elf)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Crushing Club",
+          "type": "ACTIVE",
+          "text": "Strikes count as having Mighty Blow. Any model struck and not slain must roll a D6 at the end of the Combat; on a 3+ it is knocked Prone."
+        },
+        {
+          "name": "Scythe Gauntlets",
+          "type": "ACTIVE",
+          "text": "A Gundabad Troll armed with Scythe Gauntlets increases its Attacks to 4."
+        }
+      ]
+    },
+    {
+      "name": "War Bat",
+      "points": 25,
+      "keywords": "BAT | GUNDABAD | WARRIOR, INFANTRY, BEAST | 40MM",
+      "profile": {
+        "Mv": "12\"",
+        "Fv": 3,
+        "Sv": "6+",
+        "S": 4,
+        "D": 4,
+        "A": 2,
+        "W": 2,
+        "C": "7+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Razor-sharp Teeth and Talons (hand weapons)"
+      ],
+      "specialRules": [
+        {
+          "name": "Fly",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Piercing Talons",
+          "type": "ACTIVE",
+          "text": "This model gains a bonus of +1 To Wound when making Strikes in a turn in which it Charges."
+        },
+        {
+          "name": "Pluck",
+          "type": "ACTIVE",
+          "text": "If it Charges into Combat, choose an enemy model on a 25mm base it Moved over and roll a D6; on a 4+ the chosen model is knocked Prone."
+        }
+      ]
+    },
+    {
+      "name": "Goblin Mercenary Captain",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "GOBLIN, GUNDABAD, INFANTRY, HERO",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "7",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Cave Dweller",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Chittering Hordes",
+          "type": "ACTIVE",
+          "text": "This model may Support as if it had a spear, but can only Support another model with this special rule; cannot combine with a two-handed weapon in the same Combat."
+        },
+        {
+          "name": "Mercenary Ambush",
+          "type": "ACTIVE",
+          "text": "Warbands of only Goblin Mercenaries led by this Hero need not deploy at the start of the game and may instead be held in reserve, entering later via an Intelligence Test each turn from turn 2, placed hidden near eligible terrain, or via Reinforcements if that isn't possible."
+        }
+      ]
+    },
+    {
+      "name": "Gundabad Orc Captain",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, GUNDABAD, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "5+",
+        "S": "5",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "7",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Shield",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Ancient Enemies (Dwarf)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Ancient Enemies (Elf)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Gundabad Catapult Troll",
+      "points": 180,
+      "heroicTier": "Independent Hero",
+      "keywords": "TROLL, GUNDABAD, INFANTRY, MONSTER, SIEGE ENGINE, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "8",
+        "D": "8",
+        "A": "3",
+        "W": "5",
+        "C": "6",
+        "Might": "0",
+        "Will": "0",
+        "Fate": "0"
+      },
+      "wargear": [
+        "Catapult",
+        "Metal Gauntlets"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Dominant (5)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Large Target",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Ancient Enemies (Dwarf)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Ancient Enemies (Elf)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Arcing Shot",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Catapult",
+          "type": "ACTIVE",
+          "text": "Fires as a Siege Engine (range 12\"-96\", Strength 10); can fire even after Moving or while Engaged in Combat but only hits on a natural 6 in those cases (a natural 1 while Engaged causes it to malfunction and Wound the Troll). Has no conventional crew — always fires while the Troll lives, and cannot be destroyed by an enemy spending a turn in base contact."
+        },
+        {
+          "name": "Area Effect",
+          "type": "ACTIVE",
+          "text": "After hitting a Battlefield Target, all other models within 2\" suffer a Strength 5 hit and are knocked Prone if they survive."
+        },
+        {
+          "name": "Goblin Crew",
+          "type": "ACTIVE",
+          "text": "If the Catapult Troll wins a Combat, the Goblin crew make D6 additional Strength 3 Strikes after its own."
+        },
+        {
+          "name": "Metal Gauntlets",
+          "type": "ACTIVE",
+          "text": "Strikes resolve at Strength 10; may re-roll the Hurl Distance dice when using the Hurl Brutal Power Attack."
+        }
+      ]
+    },
+    {
+      "name": "Troll Brute",
+      "points": 120,
+      "heroicTier": "Independent Hero",
+      "keywords": "TROLL | GUNDABAD | WAR BEAST | 80MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 5,
+        "Sv": "6+",
+        "S": 7,
+        "D": 6,
+        "A": 3,
+        "W": 4,
+        "C": "6+",
+        "I": "9+"
+      },
+      "wargear": [
+        "Hand Weapons"
+      ],
+      "specialRules": [
+        {
+          "name": "Dominant (5)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Fearless",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Large Target",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Trample",
+          "type": "ACTIVE",
+          "text": "When a Troll Brute Tramples, it inflicts 2 Strength 10 Impact hits."
+        }
+      ],
+      "commander": {
+        "name": "Orc Commander",
+        "profile": {
+          "Mv": "6\"",
+          "Fv": 5,
+          "Sv": "5+",
+          "S": 5,
+          "D": 6,
+          "A": 2,
+          "W": 2,
+          "C": "6+",
+          "I": "7+",
+          "Might": 1,
+          "Will": 1,
+          "Fate": 1
+        },
+        "wargear": [
+          "Heavy Armour",
+          "Hand Weapon"
+        ],
+        "heroicActions": [
+          "Heroic March"
+        ],
+        "specialRules": [
+          {
+            "name": "Ancient Enemies (Dwarf)",
+            "type": "",
+            "text": ""
+          },
+          {
+            "name": "Ancient Enemies (Elf)",
+            "type": "",
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bolg, Spawn of Azog",
+      "points": 175,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ORC, GUNDABAD, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "5",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "5",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Fell Warg - 20 points",
+        "Orc Bow - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Burly",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Ancient Enemies (Dwarf)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Ancient Enemies (Elf)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "The Bringer of Death",
+          "type": "ACTIVE",
+          "text": "Track Bolg's kills in Combat: at 2+ kills he gains Terror; at 5+ kills he gains Harbinger of Evil (12\"); at 8+ kills he gains Mighty Hero."
+        }
+      ]
+    },
+    {
+      "name": "Azog the Defiler",
+      "points": 185,
+      "heroicTier": "Hero of Legend",
+      "keywords": "ORC, GUNDABAD, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "5",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "5",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapons"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Stone Flail - 15 points",
+        "The White Warg - 50 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Burly",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Stone Flail",
+          "type": "ACTIVE",
+          "text": "A Unique two-handed weapon. While using it, Azog gains Mighty Blow but his Fight Value is reduced to 6 for the Combat (even after a Heroic Strike); a model struck and not slain is knocked Prone at the end of the Combat."
+        },
+        {
+          "name": "General of the North",
+          "type": "ACTIVE",
+          "text": "The range of Azog's Stand Fast is 12\" rather than 6\", and friendly Orc Hero models can benefit from it."
+        },
+        {
+          "name": "I am the Master",
+          "type": "ACTIVE",
+          "text": "When making Strikes against an enemy Hero, a natural 3+ always counts as a successful To Wound Roll regardless of the Hero's Defence."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Composition/points from the prancingponypub army list page; full profiles from the Gundabad & Dol Guldur forces page. Azog's listed points (185) include Heavy Armour as standard wargear on top of the base 175-point profile."
+}

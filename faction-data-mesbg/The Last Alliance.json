@@ -1,0 +1,433 @@
+{
+  "legion": "The Last Alliance",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/the_last_alliance/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/arnor_and_angmar/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/elven_kingdoms/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/gondor/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/good_legacy/"
+  ],
+  "additionalRules": [
+    "A Last Alliance Army must include at least one Unique Numenor Hero and at least one Unique Rivendell Hero.",
+    "Numenor Warrior models can only be included in the Warband of a Numenor Hero.",
+    "Rivendell Warrior models can only be included in the Warband of a Rivendell Hero."
+  ],
+  "specialRules": [
+    {
+      "name": "Whirl of Steel",
+      "type": "",
+      "text": "Whenever a friendly Rivendell Infantry model that is not Engaged in Combat is Charged, they may roll a D6. On a natural 6, the model that Charged them immediately suffers a Wound. If this model was a Cavalry model, roll a further D6. On a 1-3 it will be the Mount that suffers the Wound, on a 4+ it will be the rider that suffers the Wound. This is considered an Active ability."
+    },
+    {
+      "name": "\"There were some who resisted\"",
+      "type": "",
+      "text": "Friendly models may re-roll any dice that roll a 1 when making Courage Tests."
+    },
+    {
+      "name": "Strength of Numenor",
+      "type": "",
+      "text": "Whilst being Supported by or Supporting a friendly Rivendell model, friendly Numenor models may re-roll To Wound Rolls of a natural 1 when making Strikes."
+    }
+  ],
+  "units": [
+    {
+      "name": "Elendil",
+      "points": 175,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, NUMENOR, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "8",
+        "Sv": "4+",
+        "S": "5",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Narsil"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Narsil",
+          "type": "ACTIVE",
+          "text": "This is a Unique Master-forged two-handed weapon. Additionally, a model wielding Narsil may declare a Heroic Combat during each Fight Phase for free."
+        },
+        {
+          "name": "High King of Gondor and Arnor",
+          "type": "ACTIVE",
+          "text": "The range of Elendil's Stand Fast is 12\" rather than 6\"."
+        }
+      ]
+    },
+    {
+      "name": "Gil-Galad",
+      "points": 175,
+      "heroicTier": "Hero of Legend",
+      "keywords": "ELF, RIVENDELL, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "9",
+        "Sv": "3+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Aiglos"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Strength",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Aiglos",
+          "type": "ACTIVE",
+          "text": "This is a Unique Elven spear. Additionally, a model wielding Aiglos gains a bonus of +1 To Wound when making Strikes."
+        },
+        {
+          "name": "High King of the Elves",
+          "type": "ACTIVE",
+          "text": "The range of Gil-galad's Stand Fast is 12\" rather than 6\". Additionally, friendly Elf Hero models may benefit from Gil-galad's Stand Fast."
+        },
+        {
+          "name": "Lord of the West",
+          "type": "ACTIVE",
+          "text": "This model may re-roll a single D6 when making a Duel Roll. Additionally, they may re-roll a single D6 when rolling To Wound when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Elrond",
+      "points": 170,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF, RIVENDELL, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "3+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Hadhafang",
+        "Heavy Armour",
+        "Vilya"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Channelling",
+        "Heroic Strike",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [
+        {"power": "Renew", "range": "12\"", "castingValue": "3+"},
+        {"power": "Wrath of Bruinen", "range": "3\"", "castingValue": "4+"}
+      ],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Hadhafang",
+          "type": "ACTIVE",
+          "text": "This is a Unique Elven hand-and-a-half weapon. Additionally, a model wielding Hadhafang gains a bonus of +1 To Wound when making Strikes against a Spirit model."
+        },
+        {
+          "name": "Vilya",
+          "type": "PASSIVE",
+          "text": "This is a Unique piece of Wargear. Elrond may re-roll any failed Fate rolls."
+        },
+        {
+          "name": "Lord of the West",
+          "type": "ACTIVE",
+          "text": "This model may re-roll a single D6 when making a Duel Roll. Additionally, they may re-roll a single D6 when rolling To Wound when making Strikes."
+        },
+        {
+          "name": "Foresight of the Eldar",
+          "type": "PASSIVE",
+          "text": "At the start of the game, before either side deploys, roll a D6 - this is the number of Foresight Points Elrond has for the battle. During the roll for Priority, Elrond can spend these to increase the roll on his controlling player's roll for Priority, to a maximum of 6."
+        }
+      ]
+    },
+    {
+      "name": "Isildur",
+      "points": 130,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, NUMENOR, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "5",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand-and-a-half Sword",
+        "The One Ring"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points",
+        "The Ring - Free"
+      ],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "The Shards of Narsil",
+          "type": "ACTIVE",
+          "text": "If your Army also contains Elendil, then if Elendil is slain, place a 25mm Marker where he was killed. If Isildur ends his Activation within 1\" of this Marker, he may gain the Shards of Narsil - a Unique hand weapon granting +1 To Wound when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Captain of Numenor",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, NUMENOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "5",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Shield",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": []
+    },
+    {
+      "name": "Erestor",
+      "points": 85,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, RIVENDELL, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Noldorin Daggers"
+      ],
+      "heroicActions": [
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Noldorin Daggers",
+          "type": "ACTIVE",
+          "text": "These are Elven hand weapons, which Erestor may also use as Elven throwing weapons. Erestor may re-roll To Wound rolls of a natural 1 when making Strikes or when making Shooting Attacks with these weapons."
+        }
+      ]
+    },
+    {
+      "name": "Rivendell Captain",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, RIVENDELL, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Elven Hand-and-a-half Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse, Elf Bow and Elven Lance - 30 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Rivendell Warrior",
+      "points": 9,
+      "keywords": "ELF | RIVENDELL | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 5,
+        "Sv": "3+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "5+",
+        "I": "5+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Elven Hand-and-a-half Weapon"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Elf Bow - 2 points",
+        "Shield and Elven Spear - 2 points",
+        "Shield - 1 point",
+        "King's Guard - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Warrior of Numenor",
+      "points": 9,
+      "keywords": "MAN | NUMENOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 5,
+        "Sv": "4+",
+        "S": 4,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Shield and Spear - 2 points",
+        "Shield - 1 point",
+        "Longbow - 1 point"
+      ],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub The Last Alliance army-list page. Elendil and Gil-Galad from the Arnor & Angmar / Elven Kingdoms faction pages; Elrond, Rivendell Captain, Rivendell Warrior from the Elven Kingdoms faction page; Isildur, Captain of Numenor, Warrior of Numenor from the Gondor faction page; Erestor from the Good Legacy faction page — all on the same site."
+}

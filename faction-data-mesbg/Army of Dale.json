@@ -1,0 +1,244 @@
+{
+  "legion": "Army of Dale",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/army_of_dale/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/kingdoms_of_men/"
+  ],
+  "additionalRules": [
+    "An Army of Dale Army must always contain Brand, who is always the Army's General."
+  ],
+  "specialRules": [
+    {
+      "name": "Skilled Bowmen",
+      "type": "",
+      "text": "Friendly Dale models improve their Shoot Value to 3+."
+    },
+    {
+      "name": "Protect the King",
+      "type": "",
+      "text": "Friendly models gain the Sworn Protector (Brand) special rule."
+    },
+    {
+      "name": "Stoic Defence",
+      "type": "ACTIVE",
+      "text": "Once per game, at the start of any Move Phase before the Declare Heroic Actions step, you may declare you are using this ability. If you do, friendly models cannot Move that Move Phase (but can otherwise act normally). Until the End Phase of the turn, friendly models gain the Dominant (2) special rule and may re-roll any failed To Wound Rolls when making Strikes."
+    }
+  ],
+  "units": [
+    {
+      "name": "Brand, King of Dale",
+      "points": 110,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, DALE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "5",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Resolve",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Lord of Dale",
+          "type": "ACTIVE",
+          "text": "The range of Brand's Stand Fast is 12\" rather than 6\"."
+        },
+        {
+          "name": "Stoic Fighter",
+          "type": "ACTIVE",
+          "text": "At the start of any Combat involving Brand, if Brand would be considered Trapped should his side lose the Duel Roll, he may re-roll a single D6 during the Duel Roll and a single D6 when rolling To Wound."
+        }
+      ]
+    },
+    {
+      "name": "Bard II, Prince of Dale",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, DALE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "2",
+        "C": "4",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield",
+        "Spear"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Resolve",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Wall of Blades",
+          "type": "ACTIVE",
+          "text": "Gains a bonus of +1 To Wound when making Strikes with his spear against a model that Charged him this turn."
+        }
+      ]
+    },
+    {
+      "name": "Captain of Dale",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, DALE, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Shield",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Hatred (Dragon)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Knight of Dale",
+      "points": 11,
+      "keywords": "MAN | DALE | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "6+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield",
+        "Spear"
+      ],
+      "specialRules": [
+        {
+          "name": "Wall of Blades",
+          "type": "ACTIVE",
+          "text": "Gains a bonus of +1 To Wound when making Strikes with their spear against a model that Charged them this turn."
+        }
+      ]
+    },
+    {
+      "name": "Warrior of Dale",
+      "points": 7,
+      "keywords": "MAN | DALE | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "War Horn - 25 points",
+        "Banner - 25 points",
+        "Esgaroth Bow - 2 points",
+        "Shield and Spear - 2 points",
+        "Shield - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Hatred (Dragon)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Windlance",
+      "points": 70,
+      "keywords": "SIEGE ENGINE | DALE | SIEGE ENGINE | 50MM",
+      "profile": {
+        "Range": "6\"-60\"",
+        "S": 10,
+        "D": 10,
+        "W": 3
+      },
+      "wargear": [
+        "Crewed by two Dale Siege Crew (Mv6\" Fv4 Sv4+ S3 D4 A1 W1 C7+ I7+, Armour, Hand Weapon), one of which is the Siege Veteran"
+      ],
+      "specialRules": [
+        {
+          "name": "Direct Shot",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Accurate",
+          "type": "ACTIVE",
+          "text": "A Windlance will only Scatter 3\" rather than 6\"."
+        },
+        {
+          "name": "Piercing Shot",
+          "type": "ACTIVE",
+          "text": "A model hit by the shot of a Windlance is flung back D3\" directly away if it has Strength 5 or lower, suffering hits and being knocked Prone; models it passes over or that stop it also suffer hits."
+        },
+        {
+          "name": "Hatred (Dragon)",
+          "type": "",
+          "text": "The Dale Siege Crew have this special rule."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster and points from prancingponypub army-list page. Full stat blocks, wargear, and special-rule text from the matching Kingdoms of Men faction page (Dale/Lake-town units are hosted there, not on a dedicated per-army page)."
+}

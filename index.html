@@ -544,9 +544,10 @@
     grid-template-columns:1fr 1fr;
     gap:10px 14px;
   }
-  .clash-fields .field{grid-column:span 1; min-width:0;}
+  .clash-fields .field{grid-column:span 1; min-width:0; overflow-wrap:break-word;}
   .clash-fields .field.wide{grid-column:span 2;}
-  .clash-fields label{white-space:nowrap;}
+  .clash-fields label{white-space:normal; overflow-wrap:break-word;}
+  .clash-fields input{width:100%; min-width:0; box-sizing:border-box;}
 
   .run-row{display:flex; justify-content:center; margin:6px 0 28px;}
   .run-row button{padding:11px 28px; font-size:13px;}
@@ -1454,6 +1455,9 @@
   .account-error{ font-size:12.5px; color:var(--seal-red); background:rgba(224,56,74,0.08); border:1px solid rgba(224,56,74,0.3); border-radius:6px; padding:8px 10px; }
   #accountToggleMode{ margin-top:14px; width:100%; text-align:center; }
   .account-modal-status{ margin-top:14px; font-size:12.5px; color:var(--text-soft); text-align:center; }
+  body.signin-popup > *:not(.account-modal){ display:none !important; }
+  body.signin-popup .account-modal{ background:var(--ink-2); }
+  body.signin-popup .account-modal-backdrop{ display:none; }
 </style>
 </head>
 <body>
@@ -1502,6 +1506,8 @@
     <div id="accountSignedOutView">
       <h2 id="accountModalTitle">Sign In</h2>
       <p class="account-modal-note">Sign in to back up your armies and collection to the cloud, and pick them up again on any device.</p>
+      <button class="ghost small" id="accountGoogleBtn" type="button">Sign in with Google</button>
+      <p class="account-modal-note">or</p>
       <form id="accountForm">
         <div class="field"><label for="acctEmail">Email</label><input type="email" id="acctEmail" autocomplete="email" required></div>
         <div class="field"><label for="acctPassword">Password</label><input type="password" id="acctPassword" autocomplete="current-password" minlength="6" required></div>
@@ -2039,7 +2045,7 @@
       clashStats: [],
       grimFields: ['name','faction','alliance','points','models','mv','fv','sv','s','d','a','w','c','i','might','will','fate','heroicTier','abilities'],
       dataDir: 'faction-data-mesbg',
-      factions: ['Kingdom of Rohan','Legions of Mordor','The Easterlings']
+      factions: ["Arathorn's Stand","Army of Carn Dum","Army of Dale","Army of Edoras","Army of Erebor","Army of Gothmog","Army of Gundabad","Army of Lake-town","Army of Thror","Army of the Great Eye","Arnor","Assault on Ravenhill","Atop the Walls","Azog's Hunters","Battle Of Fornost","Battle of Bywater","Breaking Of The Fellowship","Cirith Ungol","Corsair Fleet","Defenders Of Erebor","Defenders Of Helms Deep","Defenders of the Hornburg","Defenders of the Pelennor","Depths of Moria","Desolator of the North","Dragons of the North","Erebor & Dale","Erebor Reclaimed","Expedition to the East [Legacy]","Fangorn","Far Harad [Legacy]","Fell Beings of Mirkwood [Legacy]","Fords of Isen","Garrison of Dale","Garrison of Ithilien","Goblin-town","Grand Army of the South","Halls of Thranduil","Harad","Host of the Dragon Emperor","Host of the Witch-king","Kingdom of Khazad-Dum","Kingdom of Rohan","Legacy Battle Of Greenfields","Legacy Fields Of Celebrant","Legacy Reclamation Of Moria","Legions of Mordor","Lindon","Lothlorien","Lurtz's Scouts","Men Of The West","Minas Morgul","Minas Tirith","Moria","Muster of Isengard","Numenor","Paths Of The Druadan","Pits of Dol Guldur","Radagasts Alliance","Rangers Of Mirkwood","Ravagers of the Shire [Legacy]","Realms Of Men","Reclamation Of Osgiliath","Return of the King","Ride Out","Riders of Eomer","Riders of Theoden","Rise of the Necromancer","Rivendell","Road to Helm's Deep","Road to Rivendell","Shadows of Angmar","Sharkey's Rogues","Survivors Of Lake Town","The Battle of Five Armies","The Beornings","The Eagles","The Easterlings","The Fellowship","The Fiefdoms","The Grey Company","The Grief of Eomer","The Iron Hills","The Last Alliance","The Serpent Horde","The Shire","The Spider Queen's Brood [Legacy]","The Three Trolls","The White Council","Thorins Company","Ugluk's Scouts","Umbar","Usurpers of Edoras","Variags of Khand [Legacy]","Wolf Pack of Angmar"]
     }
   };
 
@@ -2079,9 +2085,7 @@
     'leagues of votann':'xenos', 'necrons':'xenos', 'orks':'xenos',
     "t'au empire":'xenos', 'taus empire':'xenos', 'tau empire':'xenos', 'tyranids':'xenos'
   };
-  const ALLIANCE_BY_FACTION_MESBG = {
-    'kingdom of rohan':'good', 'legions of mordor':'evil', 'the easterlings':'evil'
-  };
+  const ALLIANCE_BY_FACTION_MESBG = {"arathorn's stand":"good","army of carn dum":"evil","army of dale":"good","army of edoras":"good","army of erebor":"good","army of gothmog":"evil","army of gundabad":"evil","army of lake-town":"good","army of thror":"good","army of the great eye":"evil","arnor":"good","assault on ravenhill":"good","atop the walls":"good","azog's hunters":"evil","battle of fornost":"good","battle of bywater":"good","breaking of the fellowship":"good","cirith ungol":"evil","corsair fleet":"evil","defenders of erebor":"good","defenders of helms deep":"good","defenders of the hornburg":"good","defenders of the pelennor":"good","depths of moria":"evil","desolator of the north":"evil","dragons of the north":"evil","erebor & dale":"good","erebor reclaimed":"good","expedition to the east [legacy]":"good","fangorn":"good","far harad [legacy]":"evil","fell beings of mirkwood [legacy]":"evil","fords of isen":"good","garrison of dale":"good","garrison of ithilien":"good","goblin-town":"evil","grand army of the south":"evil","halls of thranduil":"good","harad":"evil","host of the dragon emperor":"evil","host of the witch-king":"evil","kingdom of khazad-dum":"good","kingdom of rohan":"good","legacy battle of greenfields":"good","legacy fields of celebrant":"good","legacy reclamation of moria":"good","legions of mordor":"evil","lindon":"good","lothlorien":"good","lurtz's scouts":"evil","men of the west":"good","minas morgul":"evil","minas tirith":"good","moria":"evil","muster of isengard":"evil","numenor":"good","paths of the druadan":"good","pits of dol guldur":"evil","radagasts alliance":"good","rangers of mirkwood":"good","ravagers of the shire [legacy]":"evil","realms of men":"good","reclamation of osgiliath":"good","return of the king":"good","ride out":"good","riders of eomer":"good","riders of theoden":"good","rise of the necromancer":"evil","rivendell":"good","road to helm's deep":"good","road to rivendell":"good","shadows of angmar":"evil","sharkey's rogues":"evil","survivors of lake town":"good","the battle of five armies":"good","the beornings":"good","the eagles":"good","the easterlings":"evil","the fellowship":"good","the fiefdoms":"good","the grey company":"good","the grief of eomer":"good","the iron hills":"good","the last alliance":"good","the serpent horde":"evil","the shire":"good","the spider queen's brood [legacy]":"evil","the three trolls":"evil","the white council":"good","thorins company":"good","ugluk's scouts":"evil","umbar":"evil","usurpers of edoras":"evil","variags of khand [legacy]":"evil","wolf pack of angmar":"evil"};
   function normalizeFaction(s){
     return String(s ?? '').toLowerCase().trim().replace(/[-–—]/g,' ').replace(/\s+/g,' ');
   }
@@ -2213,7 +2217,7 @@
   const STORAGE_KEY = 'muster-roll-data';
   const FACTION_RULES_KEY = 'muster-roll-faction-rules';
   const GRIMOIRE_KEY_BASE = 'muster-roll-grimoire';
-  const DATA_VERSION = 'v9-40k-leader-attach'; // Bump when data format changes to force re-import
+  const DATA_VERSION = 'v10-mesbg-full-factions'; // Bump when data format changes to force re-import
   let state = {
     armyName: '', pointsLimit: 2000, alliance: '', faction: '', units: [],
     generalUnitId: null,
@@ -5547,19 +5551,20 @@
   import { initializeApp } from 'https://www.gstatic.com/firebasejs/12.11.0/firebase-app.js';
   import {
     getAuth, onAuthStateChanged, signInWithEmailAndPassword,
-    createUserWithEmailAndPassword, signOut
+    createUserWithEmailAndPassword, signOut,
+    GoogleAuthProvider, signInWithPopup
   } from 'https://www.gstatic.com/firebasejs/12.11.0/firebase-auth.js';
   import {
     getFirestore, doc, getDoc, setDoc, onSnapshot, deleteField
   } from 'https://www.gstatic.com/firebasejs/12.11.0/firebase-firestore.js';
 
   const firebaseConfig = {
-    apiKey: "REPLACE_ME",
-    authDomain: "REPLACE_ME.firebaseapp.com",
-    projectId: "REPLACE_ME",
-    storageBucket: "REPLACE_ME.appspot.com",
-    messagingSenderId: "REPLACE_ME",
-    appId: "REPLACE_ME"
+    apiKey: "AIzaSyCOlSCXHfyCR2uuAcVH6whd7Fsgr9JiVs0",
+    authDomain: "muster-roll-warhammer-web.firebaseapp.com",
+    projectId: "muster-roll-warhammer-web",
+    storageBucket: "muster-roll-warhammer-web.firebasestorage.app",
+    messagingSenderId: "1090219674540",
+    appId: "1:1090219674540:web:265f6ce64e0857aa49c809"
   };
   const isConfigured = firebaseConfig.apiKey !== 'REPLACE_ME';
 
@@ -5633,6 +5638,7 @@
     renderAuthUi();
     hideModal();
     setStatus('');
+    if (location.hash === '#signin' && window.opener) { window.close(); return; }
     try {
       const snap = await getDoc(doc(db, 'users', user.uid));
       if (snap.exists()) applyCloudDoc(snap.data().data || {}, false);
@@ -5663,7 +5669,16 @@
     window.__musterCloudSync = cloudSync;
     onAuthStateChanged(auth, (user) => { user ? handleSignedIn(user) : handleSignedOut(); });
 
-    $('accountBtn').addEventListener('click', () => { showModal(); });
+    $('accountBtn').addEventListener('click', () => {
+      if (currentUser) { showModal(); return; }
+      const url = location.pathname + location.search + '#signin';
+      window.open(url, 'musterRollSignIn', 'width=420,height=640,popup=yes');
+    });
+    if (location.hash === '#signin' && window.opener) {
+      document.body.classList.add('signin-popup');
+      showModal();
+      $('accountModalClose').style.display = 'none';
+    }
     $('accountModalClose').addEventListener('click', hideModal);
     $('accountModalBackdrop').addEventListener('click', hideModal);
 
@@ -5694,6 +5709,18 @@
       } finally {
         $('accountSubmitBtn').disabled = false;
         $('accountSubmitBtn').textContent = isRegisterMode ? 'Create Account' : 'Sign In';
+      }
+    });
+
+    $('accountGoogleBtn').addEventListener('click', async () => {
+      setError('');
+      $('accountGoogleBtn').disabled = true;
+      try {
+        await signInWithPopup(auth, new GoogleAuthProvider());
+      } catch (err) {
+        setError((err.message || 'Something went wrong.').replace('Firebase: ', '').replace(/\(auth\/[a-z-]+\)\.?/, ''));
+      } finally {
+        $('accountGoogleBtn').disabled = false;
       }
     });
 

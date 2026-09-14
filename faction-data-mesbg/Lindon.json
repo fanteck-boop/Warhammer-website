@@ -1,0 +1,201 @@
+{
+  "legion": "Lindon",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/lindon/"
+  ],
+  "additionalRules": [
+    "A Lindon Army must include Gil-galad, High King of the Noldor, who is always the Army's General."
+  ],
+  "specialRules": [
+    {
+      "name": "\"Tangado haid, leithio i philinn!\"",
+      "type": "",
+      "text": "Whilst within 3\" of a friendly Hero friendly Warrior models may re-roll failed To Hit rolls when making a shooting attack, providing they didn't Move in the preceding Move Phase."
+    },
+    {
+      "name": "The Power of the Noldor",
+      "type": "",
+      "text": "Friendly models within 6\" of Gil-galad gain the Resistant to Magic special rule."
+    }
+  ],
+  "units": [
+    {
+      "name": "Gil-Galad",
+      "points": 175,
+      "heroicTier": "Hero of Legend",
+      "keywords": "ELF | RIVENDELL | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "9",
+        "Sv": "3+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Elrond",
+      "points": 170,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF | RIVENDELL | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "3+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Horse - 20 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Glorfindel, Lord of the West",
+      "points": 160,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF | RIVENDELL | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "8",
+        "Sv": "3+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Asfaloth - 20 points",
+        "Horse - 20 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Cirdan",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF | RIVENDELL | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "4+",
+        "Might": "1",
+        "Will": "4",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Erestor",
+      "points": 85,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF | RIVENDELL | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Rivendell Captain",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF | RIVENDELL | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Horse, Elf bow and Elven lance - 30 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Rivendell Stormcaller",
+      "points": 65,
+      "heroicTier": "Minor Hero",
+      "keywords": "ELF | RIVENDELL | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "5+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Rivendell Knight",
+      "points": 20,
+      "keywords": "ELF | RIVENDELL | WARRIOR, CAVALRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "Exchange Elven lance for banner - 25 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Rivendell Warrior",
+      "points": 9,
+      "keywords": "ELF | RIVENDELL | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "Banner - 25 points",
+        "Elf bow - 2 points",
+        "Shield and Elven spear - 2 points"
+      ],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Lindon army-list page. Stat blocks and keywords cross-referenced from the Forces of Good faction pages on the same site."
+}

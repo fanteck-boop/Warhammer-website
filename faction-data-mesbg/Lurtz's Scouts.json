@@ -1,0 +1,254 @@
+{
+  "legion": "Lurtz's Scouts",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/lurtzs_scouts/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/isengard/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/evil_legacy/"
+  ],
+  "additionalRules": [
+    "A Lurtz's Scouts Army must always contain Lurtz, who is always the Army's General."
+  ],
+  "specialRules": [
+    {
+      "name": "Relentless March",
+      "type": "",
+      "text": "Friendly models increase their Move Value to 8\". Additionally, friendly models gain the Woodland Creature special rule."
+    },
+    {
+      "name": "\"You do not know pain, you do not know fear\"",
+      "type": "",
+      "text": "The Break Point for Lurtz's Scouts is 66% rather than 50%."
+    },
+    {
+      "name": "\"Kill the others\"",
+      "type": "",
+      "text": "Lurtz gains the General Hunter special rule and may declare a Heroic Combat each turn for free."
+    }
+  ],
+  "units": [
+    {
+      "name": "Lurtz",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "URUK-HAI, ISENGARD, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "5",
+        "D": "6",
+        "A": "3",
+        "W": "3",
+        "C": "5+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Uruk-hai Bow"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic March",
+        "Heroic Strength",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Shield - Free"
+      ],
+      "specialRules": [
+        { "name": "Sharpshooter", "type": "", "text": "" },
+        { "name": "Find the Halflings", "type": "ACTIVE", "text": "In Scenarios that use the Maelstrom of Battle special rule, Lurtz's Warband does not roll to determine where they arrive. Instead, Lurtz may choose the result." },
+        { "name": "Shield Throw", "type": "PASSIVE", "text": "If Lurtz has been equipped with a shield, then once per game Lurtz can use it as a throwing weapon and may re-roll the To Hit Roll. This has a Strength of 4 and any model on a 25mm base that is hit will immediately be knocked Prone. Once Lurtz has thrown his shield, he no longer carries it; though Lurtz's Defence will not be reduced as a result." },
+        { "name": "Oblivious to Pain", "type": "PASSIVE", "text": "Whenever Lurtz suffers a Wound, roll a D6. On the roll of a natural 6, the Wound is ignored." }
+      ]
+    },
+    {
+      "name": "Mauhur",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "URUK-HAI, ISENGARD, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "5",
+        "D": "5",
+        "A": "3",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Strength",
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Unhinged Charge", "type": "ACTIVE", "text": "At the start of a Combat in which Mauhur Charged, Mauhur may declare he is using this special rule before any dice are rolled. If he does, then he suffers a -1 penalty to his Duel Rolls; however, if his side wins, he may re-roll any failed To Wound rolls when making Strikes in that Combat." }
+      ]
+    },
+    {
+      "name": "Ugluk",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "URUK-HAI, ISENGARD, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "5",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Whip"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic March",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Head Taker", "type": "ACTIVE", "text": "Should Ugluk's Army be Broken, then at the start of his Activation, instead of taking his Courage Test Ugluk can choose to kill a friendly Warrior model within 2\" of him; remove the killed model as a casualty. If he does, then Ugluk will automatically pass his Courage Test, and his Stand Fast will be increased to 12\" and will affect both Hero and Warrior models." },
+        { "name": "\"Looks like meat's back on the menu, boys!\"", "type": "ACTIVE", "text": "At the start of his Activation, Ugluk can kill a friendly Orc Warrior within 2\" of him; remove the killed model as a casualty. If Ugluk does this, then all friendly Uruk-hai models within 6\" of him gain the Fearless special rule and gain a bonus of +1 To Wound when making Strikes until the end of the turn. If Ugluk does this in a turn in which his Army is Broken, then it will also count as triggering the Head Taker rule above." }
+      ]
+    },
+    {
+      "name": "Uruk-Hai Scout Captain",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "URUK-HAI, ISENGARD, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "5",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": []
+    },
+    {
+      "name": "Uruk-Hai Shaman",
+      "points": 55,
+      "heroicTier": "Minor Hero",
+      "keywords": "URUK-HAI, ISENGARD, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "6+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Spear"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Fury (Isengard Uruk-hai) (Self, 3+)",
+        "Bladewrath (6\", 4+)",
+        "Transfix (12\", 5+)"
+      ],
+      "options": [
+        "Armour - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Uruk-Hai Drummer",
+      "points": 35,
+      "heroicTier": "Independent Hero",
+      "keywords": "URUK-HAI, ISENGARD, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "1",
+        "C": "7+",
+        "Might": "0",
+        "Will": "0",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "War Drum (Uruk-hai)"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Independent Hero", "type": "", "text": "Independent Heroes may not lead troops and may not be the army's leader. They may, however, be included in another Hero model's warband as one of their followers." }
+      ]
+    },
+    {
+      "name": "Uruk-Hai Scout",
+      "points": 8,
+      "keywords": "URUK-HAI | ISENGARD | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 4,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Shield - 1 point",
+        "Uruk-hai Bow - 1 point"
+      ],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Lurtz's Scouts army-list page. Full stat blocks from the Isengard faction page, except Mauhur, whose stat block is published on the Evil Legacy page."
+}

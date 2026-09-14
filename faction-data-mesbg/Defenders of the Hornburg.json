@@ -1,0 +1,281 @@
+{
+  "legion": "Defenders of the Hornburg",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/defenders_of_the_hornburg/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/rohan/"
+  ],
+  "additionalRules": [
+    "Helm Hammerhand may not include any Warrior models in his Warband."
+  ],
+  "specialRules": [
+    {
+      "name": "Defend the Hornburg",
+      "type": "",
+      "text": "Friendly Rohan Infantry gain the Dominant (2) special rule."
+    },
+    {
+      "name": "A Desperate Defence",
+      "type": "",
+      "text": "Friendly Rohan Infantry Warrior models must re-roll To Wound Rolls of a natural 1 when making Strikes."
+    },
+    {
+      "name": "Frenzy of the King",
+      "type": "",
+      "text": "At the start of the End Phase of a turn in which Helm Hammerhand kills an enemy Hero or Monster, enemy models within 3\" of Helm must take a Courage Test in an order chosen by Helm's controlling player. If the test is failed, the model must Move up to its Move Value directly away from Helm."
+    }
+  ],
+  "units": [
+    {
+      "name": "Helm Hammerhand, Wraith of the Hornburg",
+      "points": 180,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, ROHAN, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "5+",
+        "S": "6",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Light Armour",
+        "The Horn of the Hammerhand"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Burly", "type": "", "text": "" },
+        { "name": "Dominant (4)", "type": "", "text": "" },
+        { "name": "Fearless", "type": "", "text": "" },
+        { "name": "Hatred (Dunland)", "type": "", "text": "" },
+        { "name": "Mighty Blow", "type": "", "text": "" },
+        { "name": "The Horn of the Hammerhand", "type": "ACTIVE", "text": "This is a Unique war horn. Additionally, once per game at the start of any Move Phase, Helm can unleash a fearsome blow of the Horn of the Hammerhand. Until the End Phase of the turn, enemy models within 24\" of Helm suffer a -1 penalty to any Courage Test they are required to make." },
+        { "name": "The Hammerhand", "type": "ACTIVE", "text": "Helm is never considered to be Unarmed; ever." },
+        { "name": "No Longer a Leader", "type": "ACTIVE", "text": "If your Army includes Helm, then he can never be your Army's General even if he is the Hero with the highest Heroic Tier. Additionally, Helm can never call Stand Fast and friendly models cannot benefit from any Heroic Action declared by Helm." },
+        { "name": "Berserk Rage", "type": "ACTIVE", "text": "Helm Hammerhand must always Charge if he is able to do so. Additionally, if Helm Charges into Combat then he gains the Terror special rule until the End Phase of the turn, and may declare a Heroic Combat in the Fight Phase without spending Might." }
+      ]
+    },
+    {
+      "name": "Hera, The Bride of Death",
+      "points": 125,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Defence",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Shield - 5 points"
+      ],
+      "specialRules": [
+        { "name": "Fearless", "type": "", "text": "" },
+        { "name": "Unyielding Combat Stance", "type": "", "text": "" },
+        { "name": "Fury of the Hammerhand", "type": "ACTIVE", "text": "Enemy models Engaged in Combat with Hera cannot declare a Heroic Strike." },
+        { "name": "The Warrior Bride", "type": "PASSIVE", "text": "In a turn in which Hera Charges, she must re-roll any failed To Wound Rolls when making Strikes." }
+      ]
+    },
+    {
+      "name": "Captain of Rohan",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points",
+        "Exchange Armour for Heavy Armour - 5 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": [
+        { "name": "Expert Rider", "type": "", "text": "" },
+        { "name": "Horse Lord", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Olwyn, Shieldmaiden of Rohan",
+      "points": 80,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Light Armour",
+        "Shield",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Defence",
+        "Heroic Resolve"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        { "name": "Expert Rider", "type": "", "text": "" },
+        { "name": "Horse Lord", "type": "", "text": "" },
+        { "name": "Sworn Protector (Hera)", "type": "", "text": "" },
+        { "name": "Stalwart Fighter", "type": "ACTIVE", "text": "Whilst Olwyn is outnumbered in a Combat, enemy models will require a 6 To Wound her when making Strikes, regardless of their Strength characteristic. Note, as this does not require a natural 6, enemy models may use Might to influence their To Wound Rolls against Olwyn and any bonuses To Wound will still apply as normal." }
+      ]
+    },
+    {
+      "name": "Lief, Page of Helm",
+      "points": 50,
+      "heroicTier": "Minor Hero",
+      "keywords": "MAN, ROHAN, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "4+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "5",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Light Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        { "name": "Horse Lord", "type": "", "text": "" },
+        { "name": "Orders from Edoras", "type": "PASSIVE", "text": "Lief may spend a Will Point at the end of his Activation to use this ability, so long as he is not Engaged in Combat. If he does, pick one of the following orders; its effects will last until the end of the turn. Each order can only be chosen once per game. Friendly Rohan Hero models within 3\" of Lief may declare a Heroic Combat for free. Friendly Rohan models within 3\" of Lief gain the Fearless special rule. Friendly Rohan models within 3\" of Lief do not suffer the -1 penalty To Hit when moving and shooting and may re-roll failed To Hit Rolls when making shooting attacks. Friendly Rohan models that start their Activation within 3\" of Lief gain the Woodland Creature and Mountain Dweller special rules. Friendly Rohan models that start their Activation within 3\" of Lief increase their Move Value by 2\"." }
+      ]
+    },
+    {
+      "name": "Rider of Rohan",
+      "points": 14,
+      "keywords": "MAN | ROHAN | WARRIOR, CAVALRY | 40MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Shield",
+        "Bow",
+        "Horse"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Throwing Spears - 2 points",
+        "Westfold Redshield - 1 point"
+      ],
+      "specialRules": [
+        { "name": "Expert Rider", "type": "", "text": "" },
+        { "name": "Arise, Riders of Rohan!", "type": "ACTIVE", "text": "If this model is within 12\" of a Rohan General and has the Cavalry keyword, then it gains a bonus of +1 to its Fight Value in a turn in which it Charges." },
+        { "name": "Spear Mastery", "type": "ACTIVE", "text": "This model may use its throwing Spear as a normal spear during the Fight Phase, so long as it hasn't made a shooting attack with it in either the preceding Move Phase or Shoot Phase." }
+      ]
+    },
+    {
+      "name": "Warrior of Rohan",
+      "points": 6,
+      "keywords": "MAN | ROHAN | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "A Warrior of Rohan must have one of the following options for the listed points cost:",
+        "War Horn, Shield, Throwing Spear - 28 points",
+        "Banner - 25 points",
+        "Shield and Throwing Spear - 3 points",
+        "Shield - 1 point",
+        "Bow - 1 point",
+        "Helmingas - 1 point"
+      ],
+      "specialRules": [
+        { "name": "Spear Mastery", "type": "ACTIVE", "text": "This model may use its throwing Spear as a normal spear during the Fight Phase, so long as it hasn't made a shooting attack with it in either the preceding Move Phase or Shoot Phase." }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Defenders of the Hornburg army-list page. Full stat blocks, wargear, and special-rule text from the matching Rohan faction page on the same site."
+}

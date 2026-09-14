@@ -1,0 +1,295 @@
+{
+  "legion": "Minas Tirith",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/minas_tirith/"
+  ],
+  "additionalRules": [
+    "If your Army includes Denethor, then he must be your General."
+  ],
+  "specialRules": [
+    {
+      "name": "\"Do you think the eyes of the white tower are blind?\"",
+      "type": "",
+      "text": "Once per game, during the Priority Phase but before the roll for Priority, Denethor can use this special rule so long as he is alive and on the battlefield. If he does, Denethor's controlling player automatically wins the roll to choose who has Priority for that turn. If both sides have a special rule allowing them to do this and both wish to use it in the same turn, players roll off as normal and both special rules count as being used."
+    },
+    {
+      "name": "\"Is there a captain here who still has the courage to do his lord's will?\"",
+      "type": "",
+      "text": "If your Army includes both Faramir and Denethor, then whilst Denethor is alive and on the battlefield, Faramir will automatically pass all Courage Tests he is required to make. Additionally, whilst Denethor is alive and on the battlefield, when Faramir Moves he must Charge if able to do so."
+    },
+    {
+      "name": "Faramir's Charge",
+      "type": "",
+      "text": "Whilst he has the Cavalry keyword, before Faramir Charges make a note of where he begins his Activation. Until the end of the turn, friendly Gondor Cavalry Warrior models within 6\" of where Faramir begins his Activation gain the Fearless special rule and, if they Charge, gain a bonus of +1 to their Fight Value."
+    }
+  ],
+  "units": [
+    {
+      "name": "Boromir, Captain of the White Tower",
+      "points": 160,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "6",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Horse - 20 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Denethor",
+      "points": 50,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Faramir",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Horse - 20 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Hurin the Tall, Warden of the Keys",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Horse - 20 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Beregond, Guard of the Citadel",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Captain of Minas Tirith",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Cirion, Lieutenant of Amon Barad",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Ingold, Warden of The Rammas Echor",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Irolas",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Knight of the White Tower",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | GONDOR | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Citadel Guard",
+      "points": 8,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY, ELITE | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Guard of the Fountain Court",
+      "points": 10,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY, ELITE | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Knight of Minas Tirith",
+      "points": 15,
+      "keywords": "MAN | GONDOR | WARRIOR, CAVALRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "Exchange shield and lance for banner - 25 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Warrior of Minas Tirith",
+      "points": 8,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "War horn and shield - 26 points",
+        "Banner - 25 points",
+        "Shield and spear - 2 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Gondor Avenger Bolt Thrower",
+      "points": 60,
+      "keywords": "SIEGE ENGINE | 40MM",
+      "profile": {},
+      "wargear": [
+        "Swift Reload - 20 points"
+      ],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Minas Tirith army-list page. Stat blocks and keywords cross-referenced from the Forces of Good faction pages on the same site."
+}

@@ -1,0 +1,489 @@
+{
+  "legion": "Kingdom of Khazad-Dum",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/kingdom_of_khazad_dum/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/dwarven_holds/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/good_legacy/"
+  ],
+  "additionalRules": [
+    "If a Dwarf King is your General, they gain the Leader (Khazâd Guard) special rule."
+  ],
+  "specialRules": [
+    {
+      "name": "\"The wealth of Moria lay not in gold or jewels, but in Mithril\"",
+      "type": "",
+      "text": "Friendly models may re-roll To Wound Rolls of a natural 1 when making Strikes."
+    },
+    {
+      "name": "Steadfast Warriors",
+      "type": "",
+      "text": "Friendly Dwarf Captains, Dwarf Warriors and Dwarf Rangers gain the Dominant (2) special rule."
+    },
+    {
+      "name": "The Stubbornness of Dwarves",
+      "type": "",
+      "text": "During a Duel Roll, before any re-rolls have been used, if the opposition player has rolled more dice (including for Supporting models), then a single friendly Khazad-dûm model may re-roll a single D6 as part of the Duel Roll."
+    },
+    {
+      "name": "Dwarven Mirrors",
+      "type": "",
+      "text": "At the start of the game, after both sides have deployed, you may deploy two 40mm Dwarven Mirror Markers anywhere on the battlefield that is not within the opposition deployment zone. The area within 6\" of a Dwarven Mirror Marker is always considered to be daylight; enemy shooting attacks targeting a model within 6\" suffer -1 To Hit, and Orc, Goblin, or Cave Dweller models suffer -1 to Courage Tests within 6\". An enemy model in base contact during the End Phase that has only Moved that turn can remove the Marker from play."
+    }
+  ],
+  "units": [
+    {
+      "name": "Durin, King of Khazad-Dum",
+      "points": 170,
+      "heroicTier": "Hero of Legend",
+      "keywords": "DWARF, KHAZAD-DUM, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "4",
+        "D": "9",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Exquisite Mithril Armour",
+        "The Ring of Durin",
+        "Durin's Axe",
+        "The Crown of Kings",
+        "The Horn of Zirakzigil"
+      ],
+      "heroicActions": [
+        "Heroic Challenge",
+        "Heroic Strike",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Fearless",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Leader (Khazad Guard)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Exquisite Mithril Armour",
+          "type": "PASSIVE",
+          "text": "This is a set of Unique Mithril Armour that will add 4 to Durin's Defence rather than the usual 3 (already included in his profile)."
+        },
+        {
+          "name": "Durin's axe",
+          "type": "ACTIVE",
+          "text": "This is a Unique Master-forged two-handed weapon. Additionally, Durin may re-roll a single D6 when making a Duel Roll."
+        },
+        {
+          "name": "The Horn of Zirakzigil",
+          "type": "ACTIVE",
+          "text": "This is a Unique war horn, which also gives Durin the Terror special rule."
+        },
+        {
+          "name": "The Ring of Durin",
+          "type": "PASSIVE",
+          "text": "This is a Unique piece of wargear. Once per game during the Priority Phase, after the roll for Priority has taken place, the bearer of the Ring of Durin can re-roll their side's Priority Roll."
+        },
+        {
+          "name": "The Crown of Kings",
+          "type": "PASSIVE",
+          "text": "This is a Unique piece of wargear. Whenever Durin suffers a Wound, roll a D6. On a natural 6, the Wound is prevented and is ignored."
+        }
+      ]
+    },
+    {
+      "name": "Dwarf King",
+      "points": 85,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, INFANTRY, HERO",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Hand-and-a-half Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Resolve"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Throwing Weapons - Free"
+      ],
+      "specialRules": [
+        {
+          "name": "Dwarven Lords",
+          "type": "PASSIVE",
+          "text": "A Dwarf King will always have the Faction Keyword of the most common type of Dwarf model in the same Army, and gains a special rule based on it: Erebor - Ancient Enemies (Orc); Iron Hills - Fearless; Khazad-dûm - throwing weapons."
+        }
+      ]
+    },
+    {
+      "name": "Mardin, The King's Ward",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, KHAZAD-DUM, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Torozul"
+      ],
+      "heroicActions": [
+        "Heroic Strength",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Sworn Protector (Durin)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Torozul",
+          "type": "ACTIVE",
+          "text": "This is a Unique Foe Spear with the Trollbane special rule. Additionally, Mardin gains an additional bonus of +1 To Wound when making Strikes against Monster models."
+        },
+        {
+          "name": "Durin's Protector",
+          "type": "ACTIVE",
+          "text": "During the Declare Heroic Actions step of the Fight Phase, if Durin is Engaged in Combat and is within 6\" of Mardin, then Mardin may declare a free Heroic Combat. If this Heroic Combat is successful, then Mardin must use the following Move to join Durin's Combat."
+        }
+      ]
+    },
+    {
+      "name": "Dwarf Captain",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, KHAZAD-DUM, INFANTRY, HERO",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Shield",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Dominant (2)",
+          "type": "",
+          "text": "Granted by the Steadfast Warriors army special rule."
+        }
+      ]
+    },
+    {
+      "name": "Dwarf Shieldbearer",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, KHAZAD-DUM, INFANTRY, HERO",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "1",
+        "Will": "0",
+        "Fate": "0"
+      },
+      "wargear": [
+        "Dwarf Armour",
+        "Shield",
+        "Hand Weapon"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "In Defence of the King",
+          "type": "ACTIVE",
+          "text": "During the Declare Heroic Actions step of the Fight Phase, if a friendly Dwarf General is Engaged in Combat and is within 6\" of this model, then this model may declare a free Heroic Combat. If this Heroic Combat is successful, then this model must use the following Move to join the friendly Dwarf General model's Combat."
+        }
+      ]
+    },
+    {
+      "name": "King's Champion",
+      "points": 140,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, KHAZAD-DUM, INFANTRY, HERO",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "5",
+        "D": "7",
+        "A": "3",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Dwarf Armour",
+        "Hand Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Strength",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "The Herald's Duty",
+          "type": "ACTIVE",
+          "text": "This model receives a bonus of +1 to its Defence for each other friendly model with this special rule it is in base contact with."
+        }
+      ]
+    },
+    {
+      "name": "Dwarf Ranger",
+      "points": 8,
+      "keywords": "DWARF | KHAZAD-DUM | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": 4,
+        "Sv": "3+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "6+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Dwarf Longbow - 1 point",
+        "Throwing Weapons - 1 point",
+        "Two-handed Weapon - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Mountain Dweller",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Mountain Fighters",
+          "type": "ACTIVE",
+          "text": "This model gains a bonus of +1 To Wound when making Strikes against a model that is within a piece of difficult terrain, such as a piece of rocky terrain, or a ruin."
+        },
+        {
+          "name": "Dominant (2)",
+          "type": "",
+          "text": "Granted by the Steadfast Warriors army special rule."
+        }
+      ]
+    },
+    {
+      "name": "Dwarf Warrior",
+      "points": 8,
+      "keywords": "DWARF | KHAZAD-DUM | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "6+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Dwarf Armour",
+        "Axe"
+      ],
+      "options": [
+        "War Horn - 25 points",
+        "Banner - 25 points",
+        "Dwarf Bow - 1 point",
+        "Shield - 1 point",
+        "Two-handed Weapon - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Dominant (2)",
+          "type": "",
+          "text": "Granted by the Steadfast Warriors army special rule."
+        }
+      ]
+    },
+    {
+      "name": "Iron Guard",
+      "points": 15,
+      "keywords": "DWARF | KHAZAD-DUM | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 4,
+        "D": 6,
+        "A": 2,
+        "W": 1,
+        "C": "6+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Throwing Weapons"
+      ],
+      "specialRules": [
+        {
+          "name": "Mountain Dweller",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Khazad Guard",
+      "points": 12,
+      "keywords": "DWARF | KHAZAD-DUM | WARRIOR, INFANTRY, ELITE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": 5,
+        "Sv": "4+",
+        "S": 4,
+        "D": 7,
+        "A": 1,
+        "W": 1,
+        "C": "6+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Two-handed Weapon",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Hearthguard - 2 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Bodyguard",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Vault Warden Team",
+      "points": 25,
+      "keywords": "DWARF | KHAZAD-DUM | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 4,
+        "D": 9,
+        "A": 1,
+        "W": 1,
+        "C": "6+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Iron Shield Bearer (Heavy Armour, Hand Weapon, Iron Shield)",
+        "Foe Spear Wielder (Heavy Armour, Foe Spear; Mv5\" Fv4 Sv4+ S4 D6 A1 W1 C6+ I6+)"
+      ],
+      "specialRules": [
+        {
+          "name": "Iron Shield",
+          "type": "ACTIVE",
+          "text": "This is a shield that provides a bonus of +3 to a model's Defence rather than the usual +1. Additionally, a model carrying an Iron Shield suffers a -1 penalty to their Duel Rolls, unless they are Supported by a model with a Foe Spear."
+        },
+        {
+          "name": "Foe Spear",
+          "type": "ACTIVE",
+          "text": "This is a spear. Additionally, if a model with a Foe Spear is Supporting a model with an Iron Shield, they gain a bonus of +1 To Wound when making Strikes against Monster models."
+        }
+      ]
+    },
+    {
+      "name": "Dwarven Ballista",
+      "points": 70,
+      "keywords": "SIEGE ENGINE | 40MM",
+      "profile": {
+        "Range": "6\"-48\"",
+        "S": 9,
+        "D": 10,
+        "W": 3
+      },
+      "wargear": [
+        "Crewed by two Dwarf Siege Crew (Mv5\" Fv4 Sv4+ S4 D6 A1 W1 C6+ I6+, Armour, Hand Weapon), one of which is the Siege Veteran"
+      ],
+      "specialRules": [
+        {
+          "name": "Direct Shot",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Accurate",
+          "type": "ACTIVE",
+          "text": "A Dwarven Ballista will only Scatter 3\" rather than 6\"."
+        },
+        {
+          "name": "Piercing Shot",
+          "type": "ACTIVE",
+          "text": "A model that is hit by the shot of a Dwarven Ballista will be flung back D6\" directly away from the Dwarven Ballista if it has a Strength of 5 or lower, suffering hits and being knocked Prone."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Kingdom of Khazad-dum army-list page (note: the underscore URL slug kingdom_of_khazad_dum works; the hyphenated form 404s). Full stat blocks, wargear, and special-rule text from the Dwarven Holds faction page on the same site."
+}

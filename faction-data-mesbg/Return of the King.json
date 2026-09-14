@@ -1,0 +1,389 @@
+{
+  "legion": "Return of the King",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/return_of_the_king/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/gondor/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/the_free_peoples/"
+  ],
+  "additionalRules": [
+    "A Return of the King Army must include Aragorn (Strider) and the King of the Dead. Aragorn is always the Army's General."
+  ],
+  "specialRules": [
+    {
+      "name": "The Heir of Isildur",
+      "type": "",
+      "text": "Aragorn does not have to pay any points for Andúril, Flame of the West; he automatically has this upgrade."
+    },
+    {
+      "name": "\"Fight for us and regain your honour\"",
+      "type": "",
+      "text": "Friendly Dunharrow Warrior models within 3\" of Aragorn gain a bonus of +1 to their Fight Value."
+    },
+    {
+      "name": "Visions of Terror",
+      "type": "ACTIVE",
+      "text": "Whenever the King of the Dead Charges into Combat, after the Charge has been completed, he may spend a Will Point to use this special rule. If he does, enemy models within 3\" of the King of the Dead must take a Courage Test in an order chosen by the King of the Dead's controlling player. If the test is failed, the model must Move up to its Move Value directly away from the King of the Dead."
+    }
+  ],
+  "units": [
+    {
+      "name": "Aragorn, Strider",
+      "points": 160,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, FELLOWSHIP, DUNEDAIN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Ring of Barahir",
+        "Hand-and-a-half Sword",
+        "Andúril, Flame of the West (free, via The Heir of Isildur)"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic March",
+        "Heroic Accuracy",
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Defence",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Brego - 20 points",
+        "Armour - 5 points",
+        "Bow - 5 points",
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Mighty Hero",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Ring of Barahir",
+          "type": "PASSIVE",
+          "text": "This is a Unique piece of Wargear. Whenever Aragorn is affected by a Magical Power, after any Resist Tests have been made (if able), he may roll a D6. On a natural 6, Aragorn is not affected by that Magical Power."
+        }
+      ]
+    },
+    {
+      "name": "Gimli",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, FELLOWSHIP, INFANTRY, HERO",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Master Forged Two-handed Weapon",
+        "Two Hand Weapons",
+        "Throwing Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Strength",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Axes of the Dwarves!",
+          "type": "ACTIVE",
+          "text": "At the beginning of each Combat he is involved in, Gimli can choose to either fight with an axe in each hand, in which case he will fight with 3 Attacks, or with his two-handed axe."
+        },
+        {
+          "name": "\"I myself am sitting pretty on 43\"",
+          "type": "ACTIVE",
+          "text": "If your Army contains both Legolas Greenleaf and Gimli, son of Glóin, then keep track of how many enemy models each of them has killed. Whilst he has fewer kills than Legolas, Gimli gains a bonus of +1 To Wound when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "King of the Dead",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, DUNHARROW, INFANTRY, HERO",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "3",
+        "C": "3+",
+        "Might": "1",
+        "Will": "6",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Blades of the Dead",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Spectral Walk",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Drain Soul",
+          "type": "ACTIVE",
+          "text": "A model that suffers a Wound from the King of the Dead in Combat, which is not then prevented, will automatically have their Wounds reduced to 0, causing them to be slain and removed as a casualty."
+        },
+        {
+          "name": "The Dead and the Living",
+          "type": "PASSIVE",
+          "text": "Only friendly Dunharrow models may benefit from the King of the Dead's Stand Fast or benefit from his Heroic Actions."
+        }
+      ]
+    },
+    {
+      "name": "Legolas",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF, FELLOWSHIP, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "2+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Elven-made Weapon",
+        "Elf Bow"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points",
+        "Armour - 5 points",
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Sharpshooter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "\"Final Count, 42\"",
+          "type": "ACTIVE",
+          "text": "If your Army contains both Legolas Greenleaf and Gimli, son of Glóin, then keep track of how many enemy models each of them has killed. Whilst he has fewer kills than Gimli, Legolas gains a bonus of +1 To Wound when making shooting attacks."
+        },
+        {
+          "name": "Deadly Shot",
+          "type": "ACTIVE",
+          "text": "Legolas may make three shooting attacks during the Shoot Phase instead of one, using all the normal rules for shooting. Additionally, Legolas may still make shooting attacks whilst he is Engaged in Combat if there are no other friendly models engaged in the same combat, and does not suffer the -1 penalty To Hit for Moving and Shooting so long as he has the Infantry keyword."
+        },
+        {
+          "name": "Pinpoint Shot",
+          "type": "ACTIVE",
+          "text": "Instead of shooting normally, Legolas may make a single shooting attack against an enemy model Engaged in Combat with a friendly model (including himself). If he does, then if the To Hit Roll is successful, Legolas doesn't need to make any In The Way Rolls - the shot will automatically hit its target."
+        }
+      ]
+    },
+    {
+      "name": "Herald of the Dead",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "SPIRIT, DUNHARROW, INFANTRY, HERO",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "0",
+        "Will": "3",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Armour",
+        "Shield",
+        "Hand Weapon",
+        "Pennant of the Dead"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Blades of the Dead",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Spectral Walk",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Pennant of the Dead",
+          "type": "PASSIVE",
+          "text": "Friendly Dunharrow models within 3\" of a model with a Pennant of the Dead count as having the Resistant to Magic special rule."
+        },
+        {
+          "name": "The King's Counsel",
+          "type": "PASSIVE",
+          "text": "Whilst the King of the Dead is within 3\" of this model, the King of the Dead can spend this model's Will Points to declare a Heroic Action instead of spending one of his own Might Points."
+        }
+      ]
+    },
+    {
+      "name": "Rider of the Dead",
+      "points": 25,
+      "keywords": "SPIRIT | DUNHARROW | WARRIOR, CAVALRY | 25MM",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 8,
+        "A": 1,
+        "W": 1,
+        "C": "4+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Sword",
+        "Shield",
+        "Spectral Steed"
+      ],
+      "specialRules": [
+        {
+          "name": "Blades of the Dead",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Spectral Walk",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Warrior of the Dead",
+      "points": 14,
+      "keywords": "SPIRIT | DUNHARROW | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 7,
+        "A": 1,
+        "W": 1,
+        "C": "4+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Shield and spear - 2 points",
+        "Shield - 1 point",
+        "Spear - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Blades of the Dead",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Spectral Walk",
+          "type": "",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Return of the King army-list page. Full stat blocks, wargear, and special-rule text for the Dunharrow (Army of the Dead) units and the Gondor Avenger/Trebuchet-adjacent units from the Gondor faction page; Aragorn Strider, Gimli, and Legolas stat blocks from The Free Peoples faction page (Fellowship subsection)."
+}

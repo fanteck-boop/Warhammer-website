@@ -1,0 +1,186 @@
+{
+  "legion": "Pits of Dol Guldur",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/pits_of_dol_guldur/"
+  ],
+  "additionalRules": [
+    "A Pits of Dol Guldur Army must always contain Azog, who is always the Army's General."
+  ],
+  "specialRules": [
+    {
+      "name": "Surprise Attack",
+      "type": "",
+      "text": "Once per game, at the beginning of the Priority Phase, Azog can use this special rule if he is alive and on the battlefield. If he does, Azog's controlling player will automatically count as having won the roll to choose who has Priority for that turn, though must choose to have Priority. If both sides have a special rule allowing them to do this and both wish to use it in the same turn, players roll off as normal and both special rules count as being used. Enemy models cannot declare Heroic Moves in the turn in which this special rule is used."
+    },
+    {
+      "name": "Magical Void",
+      "type": "",
+      "text": "Friendly models gain the Resistant to Magic special rule."
+    },
+    {
+      "name": "Thrain's Imprisonment",
+      "type": "",
+      "text": "Thrain the Broken is an Evil model in this Army. Additionally, if Thrain fails his Intelligence Test for his Shattered Spirit special rule whilst within 6\" of the Keeper of the Dungeons, then he will count as passing the test instead, though will not count as rolling a double."
+    },
+    {
+      "name": "Wizard Hunters",
+      "type": "",
+      "text": "Friendly Orc Warrior models gain a bonus of +1 To Wound when making Strikes against enemy models that can Cast Magical Powers."
+    }
+  ],
+  "units": [
+    {
+      "name": "Azog the Defiler",
+      "points": 175,
+      "heroicTier": "Hero of Legend",
+      "keywords": "ORC | GUNDABAD | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "5",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "5+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "options": [
+        "The White Warg - 50 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "The Keeper of the Dungeons",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ORC | DOL GULDUR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "5+",
+        "S": "5",
+        "D": "6",
+        "A": "3",
+        "W": "2",
+        "C": "5+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "0"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Gundabad Orc Captain",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC | GUNDABAD | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "5+",
+        "S": "5",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Hunter Orc Captain",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC | GUNDABAD | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "options": [
+        "Fell Warg - 20 points",
+        "Orc bow - 5 points",
+        "Two-handed weapon - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Thrain the Broken",
+      "points": 10,
+      "heroicTier": "Independent Hero",
+      "keywords": "",
+      "profile": {},
+      "specialRules": []
+    },
+    {
+      "name": "Fell Warg",
+      "points": 8,
+      "keywords": "WARG | GUNDABAD | WARRIOR, INFANTRY, BEAST | 40MM",
+      "profile": {},
+      "specialRules": []
+    },
+    {
+      "name": "Gundabad Orc Warrior",
+      "points": 9,
+      "keywords": "ORC | GUNDABAD | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "options": [
+        "Banner and shield - 26 points",
+        "Banner - 25 points",
+        "Shield - 1 points",
+        "Spear - 1 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Hunter Orc Warg Rider",
+      "points": 15,
+      "keywords": "ORC | GUNDABAD | WARRIOR, CAVALRY | 25MM",
+      "profile": {},
+      "options": [
+        "Orc bow - 1 points",
+        "Two-handed weapon - 1 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Hunter Orc Warrior",
+      "points": 8,
+      "keywords": "ORC | GUNDABAD | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "options": [
+        "Orc bow - 1 points",
+        "Two-handed weapon - 1 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Mirkwood Giant Spider",
+      "points": 20,
+      "keywords": "SPIDER | DOL GULDUR | WARRIOR, INFANTRY, BEAST | 60MM",
+      "profile": {},
+      "specialRules": []
+    },
+    {
+      "name": "Mirkwood Hunting Spider",
+      "points": 20,
+      "keywords": "SPIDER | DOL GULDUR | WARRIOR, INFANTRY, BEAST | 40MM",
+      "profile": {},
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Pits of Dol Guldur army-list page. Stat blocks and keywords cross-referenced from the Forces of Evil faction pages on the same site."
+}

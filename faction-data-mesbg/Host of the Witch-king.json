@@ -1,0 +1,603 @@
+{
+  "legion": "Host of the Witch-king",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/host_of_the_witch_king/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/arnor_and_angmar/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/evil_legacy/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/mordor/"
+  ],
+  "additionalRules": [
+    "A Host of the Witch-king Army must always contain the Witch-king of Angmar, who is always the Army's General.",
+    "No more than 50% of your models may have the Carn Dum keyword."
+  ],
+  "specialRules": [
+    {
+      "name": "\"If that fell Kingdom should rise again...\"",
+      "type": "",
+      "text": "Friendly Angmar Orc models within 3\" of a friendly Spirit Hero model gain the Terror special rule."
+    },
+    {
+      "name": "Lord of the Nazgul",
+      "type": "",
+      "text": "The Witch-king only loses a Will Point for having been in a Combat if he loses a Combat during the Fight phase (for example, if he doesn't win the Duel Roll to see which side may make Strikes)."
+    },
+    {
+      "name": "\"No Man can kill me!\"",
+      "type": "",
+      "text": "Whilst Engaged in Combat with an enemy Man model, the Witch-king gains a bonus of +1 to his Fight Value."
+    }
+  ],
+  "units": [
+    {
+      "name": "The Witch-king of Angmar",
+      "points": 150,
+      "heroicTier": "Hero of Legend",
+      "keywords": "SPIRIT, RINGWRAITH, MORDOR, ANGMAR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "3",
+        "W": "1",
+        "C": "4+",
+        "Might": "3",
+        "Will": "18",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Sword"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Channelling",
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [
+        "Compel (12\", 3+)",
+        "Transfix (12\", 3+)",
+        "Drain Courage (12\", 4+)",
+        "Enchant Blades (12\", 4+)",
+        "Black Dart (6\", 5+)",
+        "[Instill Fear] (Self, 5+)",
+        "Your Staff is Broken (12\", 5+)"
+      ],
+      "options": [
+        "This build uses the 3 Attacks / 3 Might / 18 Will / 3 Fate option (150 points)",
+        "Horse - 20 points",
+        "Morgul Blade - 10 points",
+        "Crown of Morgul - 25 points",
+        "Two-handed Weapon - 5 points"
+      ],
+      "specialRules": [
+        { "name": "Harbinger of Evil (12\")", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Will of Evil", "type": "", "text": "" },
+        { "name": "Morgul Blade", "type": "ACTIVE", "text": "This is a hand weapon. Once per game, a model with a Morgul Blade can use it during a Combat instead of their normal hand weapon; this must be declared before Strikes are made. If they do, all their Strikes must be resolved against a single enemy model, and if the target suffers a Wound that is not prevented in some way, they will immediately lose all remaining Wounds and be removed as a casualty. If the model using the Morgul Blade is mounted, they must use the Strength and Attacks of the rider rather than their Mount." },
+        { "name": "Crown of Morgul", "type": "PASSIVE", "text": "This is a Unique piece of Wargear. Whilst wearing the Crown of Morgul, enemy models within 6\" of the Witch-king, or attempting to Charge the Witch-king, cannot benefit from special rules that would allow them to automatically pass Courage Tests, with the exception of Heroic Resolve. Additionally, once per game, at the start of any Fight Phase, the Witch-king can imbue its great power to ignite his hand weapon - until the end of the turn, any model that suffers a Wound from a Strike made by the Witch-king is Set Ablaze." }
+      ]
+    },
+    {
+      "name": "Aldrac, Warlord of Carn Dum",
+      "points": 120,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, ANGMAR, CARN DUM, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "5",
+        "D": "6",
+        "A": "3",
+        "W": "3",
+        "C": "5+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic Challenge",
+        "Heroic Strength",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Mighty Blow", "type": "", "text": "" },
+        { "name": "Warlord of Carn Dum", "type": "PASSIVE", "text": "Friendly Carn Dum models within 6\" of Aldrac must re-roll failed Courage Tests." },
+        { "name": "Battle Frenzy", "type": "ACTIVE", "text": "If Aldrac slays an enemy model that he was Engaged in Combat with, then in the following turn Aldrac may declare a Heroic Combat for free." }
+      ]
+    },
+    {
+      "name": "The Dwimmerlaik",
+      "points": 130,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH, MORDOR, ANGMAR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "4+",
+        "Might": "0",
+        "Will": "16",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Two-handed Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Compel (12\", 3+)",
+        "Transfix (12\", 3+)",
+        "Curse (12\", 4+)",
+        "Drain Courage (12\", 4+)",
+        "Black Dart (6\", 5+)",
+        "[Instill Fear] (Self, 6+)"
+      ],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        { "name": "Harbinger of Evil (12\")", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Will of Evil", "type": "", "text": "" },
+        { "name": "Sap Fortitude", "type": "PASSIVE", "text": "At the start of the Move Phase, before the Declare Heroic Actions step, the Dwimmerlaik may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, whenever an enemy Hero model within 6\" of the Dwimmerlaik declares a Heroic Action, they must take an Intelligence Test. If the test is failed the Heroic Action is immediately cancelled, and the Might Point spent to declare it is lost." }
+      ]
+    },
+    {
+      "name": "The Shadow of Rhudaur",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, ANGMAR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "3",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "5",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [
+        "Drain Courage (6\", 3+)",
+        "Fog of Disarray (Self, 3+)",
+        "Curse (6\", 4+)",
+        "Wither (6\", 5+)"
+      ],
+      "specialRules": [
+        { "name": "Blades of the Dead", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Spectral Walk", "type": "", "text": "" },
+        { "name": "Herald of Doom", "type": "PASSIVE", "text": "At the beginning of the game, after both sides have been deployed, choose one Hero model in your opponent's Army. Whilst the Shadow of Rhudaur is within 6\" of the chosen Hero, that Hero suffers a -1 penalty to their Fate Rolls and a -1 penalty to any Courage Tests they are required to take." },
+        { "name": "Powers of Angmar", "type": "ACTIVE", "text": "If the Shadow of Rhudaur rolls a natural 6 when making a Casting Roll, then the target model cannot spend Will Points to attempt to Resist the Magical Power." }
+      ]
+    },
+    {
+      "name": "The Tainted",
+      "points": 130,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH, MORDOR, ANGMAR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "4+",
+        "Might": "2",
+        "Will": "14",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Compel (12\", 3+)",
+        "Transfix (12\", 3+)",
+        "Drain Courage (12\", 4+)",
+        "Black Dart (6\", 5+)",
+        "Wither (12\", 5+)",
+        "[Instill Fear] (Self, 6+)"
+      ],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        { "name": "Harbinger of Evil (12\")", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Will of Evil", "type": "", "text": "" },
+        { "name": "Miasmatic Presence", "type": "PASSIVE", "text": "At the start of the Move Phase, before the Declare Heroic Actions step, the Tainted may spend a Will Point to use this special rule. If he does, then until the End Phase of the turn, all Warrior models (both friendly and enemy) within 6\" of the Tainted may not benefit from the Stand Fast rule, nor take part in any Heroic Actions." },
+        { "name": "Seeping Decay", "type": "PASSIVE", "text": "At the start of the Fight Phase, before the Declare Heroic Actions step, roll a D6 for every non-Spirit model in base contact with the Tainted, both friendly and enemy. On the roll of a natural 6, the model immediately suffers a Wound. If the model in base contact is a Cavalry model, roll for both the rider and the Mount separately. If after this special rule has been resolved the Tainted is no longer in base contact with any enemy models, then he will not count as being Engaged in Combat that turn (unless he is subsequently Charged as a result of a Heroic Combat)." }
+      ]
+    },
+    {
+      "name": "Angmar Orc Captain",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, ANGMAR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": []
+    },
+    {
+      "name": "Captain of Carn Dum",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ANGMAR, CARN DUM, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Glory Seekers", "type": "ACTIVE", "text": "If this model is Engaged in Combat with an enemy Hero, then this model gains a bonus of +1 To Wound that Hero when making Strikes." }
+      ]
+    },
+    {
+      "name": "Fraecht, Vassal of the Witch-king",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ANGMAR, CARN DUM, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "2",
+        "C": "5+",
+        "Might": "1",
+        "Will": "4",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Hand-and-a-half Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Resolve"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Incantations of Power", "type": "ACTIVE", "text": "During each Priority Phase, after Priority has been determined, Fraecht can spend a Will Point to use an incantation. If he does so, choose one of the incantations below - the effects last until the End Phase of the turn. Incantation of Strength - Friendly Carn Dum models within 6\" of Fraecht must re-roll To Wound Rolls of a natural 1 when making Strikes. Incantation of Endurance - Whenever a friendly Carn Dum model within 6\" of Fraecht suffers a Wound, roll a D6. On a 5+ the Wound is ignored. Incantation of Swiftness - Friendly Carn Dum models that start their Move within 6\" of Fraecht will not be slowed by Difficult Terrain (with the exception of water features)." }
+      ]
+    },
+    {
+      "name": "Nazthak, Orc Captain",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, ANGMAR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Scavenge", "type": "ACTIVE", "text": "Whenever Nazthak slays an enemy model in Combat (with the exception of Monster models), he may choose to scavenge a single piece of wargear carried by that model, with the exception of a Mount, another type of armour, living creatures, the One Ring, or items of wargear that are integral to the model (such as claws and teeth). This will happen before any effects that allow the slain model to pass on that piece of wargear. Add the scavenged item to Nazthak's list of wargear. Nazthak will benefit from the scavenged wargear as if he was the original model. Nazthak may choose to discard any piece of scavenged wargear at any time, though if he does so then he cannot reclaim it - it is lost." }
+      ]
+    },
+    {
+      "name": "Shade",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "SPIRIT, ANGMAR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "1",
+        "Sv": "6+",
+        "S": "1",
+        "D": "8",
+        "A": "2",
+        "W": "3",
+        "C": "8+",
+        "Might": "0",
+        "Will": "4",
+        "Fate": "1"
+      },
+      "wargear": [
+        "An Amalgamation of Grasping Spectral Hands (hand weapons)"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Dominant (3)", "type": "", "text": "" },
+        { "name": "Spectral Walk", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Blades of the Dead", "type": "", "text": "" },
+        { "name": "Conduit of Angmar", "type": "PASSIVE", "text": "If a Ringwraith model is within 6\" of a friendly Shade, they may use the Shade to determine range and Line of Sight for a Magical Power. Additionally, after making a Casting Roll within 6\" of a friendly Shade, a Ringwraith can choose to deal a single Wound to the Shade to add 1 to the Casting Roll." },
+        { "name": "Swirling Mists", "type": "ACTIVE", "text": "At the start of the Shoot Phase, before the Declare Heroic Actions step, a Shade may spend a Will Point to use this ability. If it does, then for the remainder of the turn, enemy models will suffer a -1 penalty To Hit when making a shooting attack that targets a friendly model within 6\" of the Shade. If the enemy model making the shooting attack is also within 12\" of the Shade, they will suffer a -2 penalty To Hit instead." },
+        { "name": "Ghostly Resolve", "type": "PASSIVE", "text": "Friendly Angmar Orc models within 12\" of one or more models with this special rule gain a bonus of +1 to any Courage Tests they are required to take." }
+      ]
+    },
+    {
+      "name": "Angmar Orc Shaman",
+      "points": 50,
+      "heroicTier": "Minor Hero",
+      "keywords": "ORC, ANGMAR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "5",
+        "A": "1",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Spear"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Instill Fear (Self, 3+)",
+        "Drain Courage (12\", 4+)",
+        "Wither (12\", 4+)"
+      ],
+      "options": [
+        "Warg - 20 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Barrow-wight",
+      "points": 50,
+      "heroicTier": "Minor Hero",
+      "keywords": "SPIRIT, ANGMAR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "7",
+        "A": "1",
+        "W": "2",
+        "C": "6+",
+        "Might": "0",
+        "Will": "5",
+        "Fate": "0"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [
+        "Paralyse (6\", 3+)"
+      ],
+      "specialRules": [
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Blades of the Dead", "type": "", "text": "" },
+        { "name": "Spectral Walk", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Angmar Orc Warrior",
+      "points": 5,
+      "keywords": "ORC | ANGMAR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "5+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Orc Bow - 1 point",
+        "Shield - 1 point",
+        "Spear - 1 point",
+        "Two-handed Weapon - 1 point"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Angmar Warg Rider",
+      "points": 11,
+      "keywords": "ORC | ANGMAR | WARRIOR, CAVALRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "5+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Warg"
+      ],
+      "options": [
+        "Shield and Throwing Spears - 2 points",
+        "Orc Bow - 1 point",
+        "Shield - 1 point",
+        "Throwing Spears - 1 point"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Spectre",
+      "points": 15,
+      "keywords": "SPIRIT | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 2,
+        "Sv": "6+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "4+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "specialRules": [
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Blades of the Dead", "type": "", "text": "" },
+        { "name": "Spectral Walk", "type": "", "text": "" },
+        { "name": "A Fell Light is in Them", "type": "ACTIVE", "text": "At the end of this model's Move, it can choose a single enemy model within 12\" and Line of Sight. The chosen model must take an Intelligence Test. If the test is failed, you may Move the chosen model up to its Move Value directly towards this model, even if it has already Moved that turn. The chosen model will stop Moving if it would enter the Control Zone of an enemy model (with the exception of this model), if it comes into contact with an Obstacle, another model or piece of impassable terrain, or if the model reaches the edge of a cliff or other such edge that would cause it to take falling damage. This Move cannot be used to Move a model out of Combat, make a model dismount, drop an item or Lie Down. However, if this Move would allow the chosen model to Charge this model, then this model may make them Charge. A model affected by this special rule cannot Move any further that turn, and may not use Active abilities." }
+      ]
+    },
+    {
+      "name": "Warrior of Carn Dum",
+      "points": 9,
+      "keywords": "MAN | ANGMAR, CARN DUM | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 4,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Spear - 1 point"
+      ],
+      "specialRules": [
+        { "name": "Glory Seekers", "type": "ACTIVE", "text": "If this model is Engaged in Combat with an enemy Hero, then this model gains a bonus of +1 To Wound that Hero when making Strikes." }
+      ]
+    },
+    {
+      "name": "Werewolf",
+      "points": 25,
+      "keywords": "SPIRIT | ANGMAR | WARRIOR, INFANTRY, BEAST | 50MM",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": 5,
+        "Sv": "6+",
+        "S": 5,
+        "D": 5,
+        "A": 2,
+        "W": 2,
+        "C": "5+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Claws and Teeth (hand weapons)"
+      ],
+      "specialRules": [
+        { "name": "Fell Sight", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Feral Charge", "type": "ACTIVE", "text": "When a Werewolf Charges an enemy Infantry model, they gain the Knock to the Ground bonus as if they were Cavalry. This bonus is lost if they are subsequently charged by an enemy Cavalry model." }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Host of the Witch-king army-list page. Full stat blocks from the Arnor & Angmar faction page for Angmar/Carn Dum units, the Evil Legacy page for the named Ringwraiths (Dwimmerlaik, Tainted), and the Mordor faction page for Spectre. The Witch-king of Angmar's general stat line uses the 3 Attacks / 3 Might / 18 Will / 3 Fate option matching this list's 150-point cost."
+}

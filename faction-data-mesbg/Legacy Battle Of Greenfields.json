@@ -1,0 +1,104 @@
+{
+  "legion": "Legacy Battle Of Greenfields",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/legacy_battle_of_greenfields/"
+  ],
+  "additionalRules": [
+    "A Battle of Greenfields Army must always contain Bandobras Took, who is always the Army's General."
+  ],
+  "specialRules": [
+    {
+      "name": "The Bullroarer",
+      "type": "",
+      "text": "Bandobras Took may declare a Heroic Combat each turn for free."
+    },
+    {
+      "name": "\"They're dangerous folk, wandering the wilds\"",
+      "type": "",
+      "text": "Rangers of the North increase their Attacks value to 2."
+    },
+    {
+      "name": "\"Defend the Shire!\"",
+      "type": "",
+      "text": "Friendly Hobbit Warrior models within 3\" of Bandobras gain the Dominant (2) special rule."
+    },
+    {
+      "name": "The Bounders",
+      "type": "",
+      "text": "Whilst wholly within their own deployment zone, friendly Hobbit models may re-roll To Hit rolls of a natural 1 when making shooting attacks."
+    }
+  ],
+  "units": [
+    {
+      "name": "Bandobras Took",
+      "points": 50,
+      "heroicTier": "Hero of Valour",
+      "keywords": "HOBBIT | SHIRE | HERO, CAVALRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "4",
+        "Sv": "3+",
+        "S": "3",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Ranger of the North",
+      "points": 25,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | DUNEDAIN | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "1",
+        "W": "1",
+        "C": "6+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Hobbit Archer",
+      "points": 5,
+      "keywords": "HOBBIT | SHIRE | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "War horn - 25 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Hobbit Militia",
+      "points": 4,
+      "keywords": "HOBBIT | SHIRE | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Hobbit Shirriff",
+      "points": 5,
+      "keywords": "HOBBIT | SHIRE | WARRIOR, INFANTRY, ELITE | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Legacy Battle Of Greenfields army-list page. Stat blocks and keywords cross-referenced from the Forces of Good faction pages on the same site."
+}

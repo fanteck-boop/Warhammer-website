@@ -1,0 +1,403 @@
+{
+  "legion": "The Grey Company",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/the_grey_company/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/the_free_peoples/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/elven_kingdoms/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/arnor_and_angmar/"
+  ],
+  "additionalRules": [
+    "A Grey Company Army must always contain Aragorn, who is always the Army's General.",
+    "A Grey Company Army may be deployed as a single Warband, with Aragorn as the Warband's Captain, regardless of the number of models."
+  ],
+  "specialRules": [
+    {
+      "name": "The Heir of Isildur",
+      "type": "",
+      "text": "Aragorn does not have to pay any points for Andúril, Flame of the West; he automatically has this upgrade - it is free."
+    },
+    {
+      "name": "\"They're dangerous folk, wandering the wilds\"",
+      "type": "",
+      "text": "Rangers of the North increase their Attacks value to 2."
+    },
+    {
+      "name": "Passing of the Grey Company",
+      "type": "",
+      "text": "Rangers of the North may benefit from the Stand Fast of any friendly Unique Hero model."
+    },
+    {
+      "name": "Masters of the Wild",
+      "type": "",
+      "text": "Friendly models are not slowed by difficult terrain of any type."
+    }
+  ],
+  "units": [
+    {
+      "name": "Aragorn, Strider",
+      "points": 160,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, FELLOWSHIP, DUNEDAIN, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Ring of Barahir",
+        "Andúril, Flame of the West",
+        "Bow",
+        "Elven Cloak"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic March",
+        "Heroic Accuracy",
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Defence",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Brego - 20 points",
+        "Armour - 5 points",
+        "Bow - 5 points",
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Mighty Hero",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Ring of Barahir",
+          "type": "PASSIVE",
+          "text": "This is a Unique piece of Wargear. Whenever Aragorn is affected by a Magical Power, after any Resist Tests have been made (if able), he may roll a D6. On a natural 6, Aragorn is not affected by that Magical Power."
+        },
+        {
+          "name": "Andúril, Flame of the West",
+          "type": "ACTIVE",
+          "text": "This is a Unique Elven hand-and-a-half weapon. Whenever Aragorn makes Strikes with Andúril, he never requires more than a 4+ when rolling To Wound. If Aragorn uses Andúril as a two-handed weapon, then he will still gain the bonus of +1 when rolling To Wound, meaning he will Wound on a 3+."
+        }
+      ]
+    },
+    {
+      "name": "Elladan",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF, RIVENDELL, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Elven Hand Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Strength",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Unbreakable Bond",
+          "type": "ACTIVE",
+          "text": "If Elrohir is slain, make a note of the model that killed him; for the remainder of the game, Elladan increases his Strength by 1. Additionally, for the remainder of the game, whenever Elladan Activates if he can Charge an enemy model then he must do so; if he is able to Charge the enemy model that killed Elrohir, then he must prioritise that model to Charge."
+        },
+        {
+          "name": "Twin Elven Blades",
+          "type": "ACTIVE",
+          "text": "Whilst he has the Infantry Keyword, Elladan can choose to fight with 3 Attacks rather than 2, use his Elven weapons as Elven hand-and-a-half weapons, or use them to parry (counts as Shielding). Must declare which way at the start of a Combat."
+        },
+        {
+          "name": "Strength of Brotherhood",
+          "type": "ACTIVE",
+          "text": "Whilst within 3\" of Elrohir, Elladan gains the Dominant (2) special rule and may re-roll To Wound Rolls of a natural 1 when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Elrohir",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF, RIVENDELL, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Elven Hand Weapons"
+      ],
+      "heroicActions": [
+        "Heroic Defence",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Unbreakable Bond",
+          "type": "ACTIVE",
+          "text": "If Elladan is slain, make a note of the model that killed him; for the remainder of the game, Elrohir increases his Strength by 1. Additionally, for the remainder of the game, whenever Elrohir Activates if he can Charge an enemy model then he must do so; if he is able to Charge the enemy model that killed Elladan, then he must prioritise that model to Charge."
+        },
+        {
+          "name": "Twin Elven Blades",
+          "type": "ACTIVE",
+          "text": "Whilst he has the Infantry Keyword, Elrohir can choose to fight with 3 Attacks rather than 2, use his Elven weapons as Elven hand-and-a-half weapons, or use them to parry (counts as Shielding). Must declare which way at the start of a Combat."
+        },
+        {
+          "name": "Strength of Brotherhood",
+          "type": "ACTIVE",
+          "text": "Whilst within 3\" of Elladan, Elrohir gains the Dominant (2) special rule and may re-roll To Wound Rolls of a natural 1 when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Gimli",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, FELLOWSHIP, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Heavy Dwarf Armour",
+        "Master Forged Two-handed Weapon",
+        "Two Hand Weapons",
+        "Throwing Weapons",
+        "Elven Cloak"
+      ],
+      "heroicActions": [
+        "Heroic Strength",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Axes of the Dwarves!",
+          "type": "ACTIVE",
+          "text": "At the beginning of each Combat he is involved in, Gimli can choose to either fight with an axe in each hand, in which case he will fight with 3 Attacks, or with his two-handed axe."
+        },
+        {
+          "name": "\"I myself am sitting pretty on 43\"",
+          "type": "ACTIVE",
+          "text": "If your Army contains both Legolas Greenleaf and Gimli, son of Glóin, then keep track of how many enemy models each of them has killed. Whilst he has fewer kills than Legolas, Gimli gains a bonus of +1 To Wound when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Halbarad",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, DUNEDAIN, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Bow",
+        "Banner of Arwen Evenstar"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Banner of Arwen Evenstar - 40 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Banner of Arwen Evenstar",
+          "type": "PASSIVE",
+          "text": "This is a banner with a range of 6\" rather than 3\", and Halbarad never suffers the -1 penalty to his Duel Rolls for carrying a banner. Additionally, friendly models within 6\" and Line of Sight of the Banner of Arwen Evenstar automatically pass any Courage Tests they are required to take."
+        }
+      ]
+    },
+    {
+      "name": "Legolas",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF, FELLOWSHIP, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "2+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Elven-made Weapon",
+        "Elf Bow",
+        "Armour",
+        "Elven Cloak"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points",
+        "Armour - 5 points",
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Sharpshooter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "\"Final Count, 42\"",
+          "type": "ACTIVE",
+          "text": "If your Army contains both Legolas Greenleaf and Gimli, son of Glóin, then keep track of how many enemy models each of them has killed. Whilst he has fewer kills than Gimli, Legolas gains a bonus of +1 To Wound when making shooting attacks."
+        },
+        {
+          "name": "Deadly Shot",
+          "type": "ACTIVE",
+          "text": "Legolas may make three shooting attacks during the Shoot Phase instead of one, using all the normal rules for shooting. Additionally, Legolas may still make shooting attacks whilst he is Engaged in Combat if there are no other friendly models engaged in the same combat, and does not suffer the -1 penalty To Hit for Moving and Shooting so long as he has the Infantry keyword."
+        },
+        {
+          "name": "Pinpoint Shot",
+          "type": "ACTIVE",
+          "text": "Instead of shooting normally, Legolas may make a single shooting attack against an enemy model Engaged in Combat with a friendly model (including himself). If he does, then if the To Hit Roll is successful, Legolas doesn't need to make any In The Way Rolls - the shot will automatically hit its target."
+        }
+      ]
+    },
+    {
+      "name": "Ranger of the North",
+      "points": 25,
+      "heroicTier": "Independent Hero",
+      "keywords": "MAN, DUNEDAIN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "1",
+        "W": "1",
+        "C": "6+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Bow"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Armour - 5 points",
+        "Spear - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub The Grey Company army-list page. Aragorn Strider and Gimli stat blocks from The Free Peoples faction page; Elladan and Elrohir from the Elven Kingdoms faction page; Halbarad and Ranger of the North from the Arnor & Angmar faction page — all on the same site. Legolas appears on both The Free Peoples and Elven Kingdoms pages; the Free Peoples ELF|FELLOWSHIP profile matching the army-list context was used."
+}

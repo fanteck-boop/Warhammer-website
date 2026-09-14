@@ -1,0 +1,413 @@
+{
+  "legion": "Fords of Isen",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/fords_of_isen/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/rohan/"
+  ],
+  "additionalRules": [
+    "A Fords of Isen Army may have up to 50% of its Warrior models armed with throwing spears rather than the usual 33%.",
+    "A Fords of Isen Army must always contain Théodred, who is always the Army's General."
+  ],
+  "specialRules": [
+    {
+      "name": "Protect the Prince",
+      "type": "",
+      "text": "Friendly models gain the Sworn Protector (Théodred) special rule."
+    },
+    {
+      "name": "Resolute Rohirrim",
+      "type": "",
+      "text": "If your Army is Broken, friendly models gain the Dominant (2) special rule."
+    },
+    {
+      "name": "The Courage of Elfhelm",
+      "type": "",
+      "text": "If Théodred is Engaged in Combat within 6\" of Elfhelm, then enemy models may not make Strikes against Théodred if there is another model they could make Strikes against instead."
+    }
+  ],
+  "units": [
+    {
+      "name": "Theodred",
+      "points": 90,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "3",
+        "W": "2",
+        "C": "5+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Brego - 20 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Leader (Rohan Royal Guard)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Reckless Charge",
+          "type": "ACTIVE",
+          "text": "When Théodred Moves, he must always Charge an enemy model if possible. Additionally, in a turn in which Théodred Charges he must re-roll any failed To Wound Rolls when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Captain of Rohan",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points",
+        "Exchange armour for heavy armour - 5 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Elfhelm, Captain of Rohan",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "3",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Shield",
+        "Throwing Spear"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy",
+        "Heroic Defence",
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Pinpoint Accuracy",
+          "type": "ACTIVE",
+          "text": "Elfhelm never suffers the -1 penalty for Moving and Shooting when using his throwing Spear. Additionally, when throwing his throwing Spear, Elfhelm may re-roll any failed To Hit, To Wound or In The Way Rolls when making that shooting attack."
+        }
+      ]
+    },
+    {
+      "name": "Grimbold of Grimslade",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "4",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Two-Handed Axe"
+      ],
+      "heroicActions": [
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Mighty Blow",
+          "type": "ACTIVE",
+          "text": "For each Strike that successfully Wounds in close combat, this model inflicts 2 Wounds rather than 1."
+        },
+        {
+          "name": "Sworn Protector",
+          "type": "ACTIVE",
+          "text": "Models with this special rule will have a specific model in brackets after the special rule. Whilst the named model is alive and on the battlefield, this model passes all Courage tests."
+        }
+      ]
+    },
+    {
+      "name": "King's Huntsman",
+      "points": 55,
+      "heroicTier": "Minor Hero",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "2",
+        "C": "4",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Longbow",
+        "Armour",
+        "Sword"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "specialRules": []
+    },
+    {
+      "name": "Rider of Rohan",
+      "points": 14,
+      "keywords": "MAN | ROHAN | WARRIOR, CAVALRY | 40MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Shield",
+        "Bow",
+        "Horse"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Throwing Spear - 2 points",
+        "Westfold Redshield - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Arise, Riders of Rohan!",
+          "type": "ACTIVE",
+          "text": "If this model is within 12\" of a Rohan General and has the Cavalry keyword, then it gains a bonus of +1 to its Fight Value in a turn in which it Charges."
+        },
+        {
+          "name": "Spear Mastery",
+          "type": "ACTIVE",
+          "text": "This model may use its throwing Spear as a normal spear during the Fight Phase, so long as it hasn't made a shooting attack with it in either the preceding Move Phase or Shoot Phase."
+        }
+      ]
+    },
+    {
+      "name": "Rohan Outrider",
+      "points": 8,
+      "keywords": "MAN | ROHAN | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "3+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Bow"
+      ],
+      "options": [
+        "Horse - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Vanguard",
+          "type": "ACTIVE",
+          "text": "This model may benefit from a friendly Hero model's Stand Fast regardless of range."
+        }
+      ]
+    },
+    {
+      "name": "Rohan Royal Guard",
+      "points": 11,
+      "keywords": "MAN | ROHAN | WARRIOR, INFANTRY, ELITE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "options": [
+        "Horse and throwing spear - 7 points",
+        "Horse - 5 points",
+        "Throwing spear - 2 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Bodyguard",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Arise, Riders of Rohan!",
+          "type": "ACTIVE",
+          "text": "If this model is within 12\" of a Rohan General and has the Cavalry keyword, then it gains a bonus of +1 to its Fight Value in a turn in which it Charges."
+        },
+        {
+          "name": "Spear Mastery",
+          "type": "ACTIVE",
+          "text": "This model may use its throwing spear as a normal spear during the Fight Phase, so long as it hasn't made a shooting attack with it in either the preceding Move Phase or Shoot Phase."
+        }
+      ]
+    },
+    {
+      "name": "Warrior of Rohan",
+      "points": 6,
+      "keywords": "MAN | ROHAN | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "War horn, shield, throwing spear - 28 points",
+        "Banner - 25 points",
+        "Shield and throwing spear - 3 points",
+        "Shield - 1 point",
+        "Bow - 1 point",
+        "Upgrade to Helmingas - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Spear Mastery",
+          "type": "ACTIVE",
+          "text": "This model may use its throwing spear as a normal spear during the Fight Phase, so long as it hasn't made a shooting attack with it in either the preceding Move Phase or Shoot Phase."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Fords of Isen army-list page. Full stat blocks, wargear, and special-rule text from the Rohan faction page on the same site; Grimbold of Grimslade, King's Huntsman and Rohan Outrider stat blocks were not present on the Rohan faction page and were cross-referenced from the existing Kingdom of Rohan.json faction data (same site, same source pages) already in this repo."
+}

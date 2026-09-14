@@ -1,0 +1,182 @@
+{
+  "legion": "The Fiefdoms",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/the_fiefdoms/"
+  ],
+  "additionalRules": [
+    "Warrior models with one of the following keywords may only be included in your Army if your Army also includes a Hero with the same keyword: Dol Amroth, Lossarnach, Lamedon, Blackroot Vale."
+  ],
+  "specialRules": [
+    {
+      "name": "\"For the White City!\"",
+      "type": "",
+      "text": "The first turn in which this Army would be Broken and therefore have to take Courage Tests as a result of being a Broken Army, all friendly models will automatically pass Courage Tests for being Broken that turn."
+    },
+    {
+      "name": "Leaders of the Fiefdoms",
+      "type": "",
+      "text": "If a friendly Hero Charges into Combat, then during the Fight Phase, friendly Infantry models within 6\" of the Hero that share both of the same Faction Keywords as the Hero gain an additional +1 bonus To Wound when making Strikes."
+    }
+  ],
+  "units": [
+    {
+      "name": "Prince Imrahil",
+      "points": 140,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN | GONDOR, DOL AMROTH | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Armoured horse and lance - 30 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Angbor the Fearless",
+      "points": 70,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | GONDOR, LAMEDON | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Duinhir, Lord of the Blackroot Vale",
+      "points": 65,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | GONDOR, BLACKROOT VALE | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Forlong the Fat",
+      "points": 90,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | GONDOR, LOSSARNACH | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "5",
+        "D": "6",
+        "A": "2",
+        "W": "3",
+        "C": "6+",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Captain of Dol Amroth",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | GONDOR, DOL AMROTH | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armoured horse and lance - 30 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Axeman of Lossarnach",
+      "points": 9,
+      "keywords": "MAN | GONDOR, LOSSARNACH | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Blackroot Vale Archer",
+      "points": 8,
+      "keywords": "MAN | GONDOR, BLACKROOT VALE | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "War horn - 25 points",
+        "Banner - 25 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Clansman of Lamedon",
+      "points": 8,
+      "keywords": "MAN | GONDOR, LAMEDON | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Knight of Dol Amroth",
+      "points": 11,
+      "keywords": "MAN | GONDOR, DOL AMROTH | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "Armoured horse and banner - 33 points",
+        "Armoured horse and war horn - 33 points",
+        "Banner - 25 points",
+        "War horn - 25 points",
+        "Armoured horse and lance - 9 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Man-at-arms of Dol Amroth",
+      "points": 10,
+      "keywords": "MAN | GONDOR, DOL AMROTH | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub The Fiefdoms army-list page. Stat blocks and keywords cross-referenced from the Forces of Good faction pages on the same site."
+}

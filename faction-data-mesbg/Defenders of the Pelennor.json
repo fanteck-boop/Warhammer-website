@@ -1,0 +1,650 @@
+{
+  "legion": "Defenders of the Pelennor",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/defenders_of_the_pelennor/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/gondor/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/rohan/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/the_free_peoples/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/elven_kingdoms/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/good_legacy/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/arnor_and_angmar/"
+  ],
+  "additionalRules": [
+    "Rohan Warrior models can only be included in the Warband of a Rohan Hero.",
+    "Gondor Warrior models can only be included in the Warband of a Gondor Hero or Gandalf the White.",
+    "Dunharrow Warrior models can only be included in the Warband of a Dunharrow Hero, or in the Warband of Aragorn, Legolas or Gimli."
+  ],
+  "specialRules": [
+    {
+      "name": "Defend the White City",
+      "type": "",
+      "text": "Each Hero in your Army can, once per game, declare a Heroic Combat for free."
+    }
+  ],
+  "units": [
+    {
+      "name": "Aragorn, Strider",
+      "points": 160,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, FELLOWSHIP, DUNEDAIN, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "7", "Sv": "3+", "S": "4", "D": "5", "A": "3", "W": "3", "C": "4+", "Might": "3", "Will": "3", "Fate": "3" },
+      "wargear": ["Ring of Barahir", "Hand-and-a-half Sword"],
+      "heroicActions": ["Heroic Resolve", "Heroic March", "Heroic Accuracy", "Heroic Strike", "Heroic Strength", "Heroic Defence", "Heroic Challenge"],
+      "magicalPowers": [],
+      "options": ["Anduril, Flame of the West - 40 points", "Brego - 20 points", "Armour - 5 points", "Bow - 5 points", "Elven Cloak - 5 points"],
+      "specialRules": [
+        { "name": "Horse Lord", "type": "", "text": "" },
+        { "name": "Mighty Hero", "type": "", "text": "" },
+        { "name": "Resistant to Magic", "type": "", "text": "" },
+        { "name": "Ring of Barahir", "type": "PASSIVE", "text": "This is a Unique piece of Wargear. Whenever Aragorn is affected by a Magical Power, after any Resist Tests have been made (if able), he may roll a D6. On a natural 6, Aragorn is not affected by that Magical Power." },
+        { "name": "Anduril, Flame of the West", "type": "ACTIVE", "text": "This is a Unique Elven hand-and-a-half weapon. Whenever Aragorn makes Strikes with Anduril, he never requires more than a 4+ when rolling To Wound. If Aragorn uses Anduril as a two-handed weapon, then he will still gain the bonus of +1 when rolling To Wound, meaning he will Wound on a 3+." },
+        { "name": "Brego (Mount)", "type": "", "text": "HORSE | MOUNT | 40MM. Mv 10\", Fv 2, Sv 6+, S 3, D 4, A 0, W 1, C 6+, I 6+. Sure-footed Steed (ACTIVE): If Brego's rider would be knocked Prone whilst riding Brego, and Brego is not slain as a result of the effect causing the rider to be knocked Prone, then before becoming a Separated Mount the rider may roll a D6. On a 6, the rider is not knocked Prone and stays mounted upon Brego. The rider may use Might to improve this roll." }
+      ]
+    },
+    {
+      "name": "Gandalf the White",
+      "points": 200,
+      "heroicTier": "Hero of Legend",
+      "keywords": "WIZARD, FELLOWSHIP, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "6", "Sv": "4+", "S": "4", "D": "6", "A": "3", "W": "3", "C": "3+", "Might": "3", "Will": "6", "Fate": "3" },
+      "wargear": ["Glamdring", "Narya", "Staff of Power"],
+      "heroicActions": ["Heroic Channelling", "Heroic Defence", "Heroic Resolve", "Heroic Strike"],
+      "magicalPowers": [
+        "Blinding Light (Self, 3+)", "Terrifying Aura (Self, 3+)", "Transfix (12\", 3+)", "Foil Magic (12\", 4+)",
+        "Fortify Spirit (12\", 4+)", "Strengthen Will (12\", 4+)", "Banishment (12\", 5+)", "Sorcerous Blast (12\", 5+)", "Your Staff is Broken (12\", 5+)"
+      ],
+      "options": ["Pippin - 25 points (can only be taken if Gandalf is riding Shadowfax)", "Shadowfax - 25 points"],
+      "specialRules": [
+        { "name": "Glamdring", "type": "ACTIVE", "text": "This is a Unique Elven hand-and-a-half weapon. A model gains a bonus of +1 to their Strength when making Strikes with Glamdring." },
+        { "name": "Narya", "type": "PASSIVE", "text": "This is a Unique piece of Wargear. Gandalf may re-roll any failed Fate rolls." },
+        { "name": "Pippin", "type": "PASSIVE", "text": "If Gandalf is upgraded to take Pippin, then Pippin will be treated as a Passenger on Shadowfax. Pippin uses the Peregrin Took, Guard of the Citadel profile and will always count as an Independent Hero in this instance. Pippin will still count as a model towards the Army's total number of models and Break Point, though will not take up a space in Gandalf's Warband. Whilst Pippin is mounted on Shadowfax, Gandalf gains the Resistant to Magic special rule, may re-roll To Wound Rolls of a natural 1 when making Strikes, and can spend Pippin's Might, Will and Fate Points as if they were his own." },
+        { "name": "Shadowfax (Mount)", "type": "", "text": "HORSE | SEE RIDER | HERO, MOUNT | 40MM. Mv 12\", Fv 3, Sv 6+, S 4, D 5, A 0, W 1, C 5+, I 5+. Lord of the Mearas (ACTIVE): Whilst mounted upon Shadowfax, Gandalf rolls two dice and picks the highest for Jump, Leap and Swim tests. Also, Shadowfax only halves his Move value in difficult terrain, rather than quartering it." }
+      ]
+    },
+    {
+      "name": "Prince Imrahil",
+      "points": 140,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, GONDOR, DOL AMROTH, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "7", "Sv": "4+", "S": "4", "D": "7", "A": "3", "W": "3", "C": "4+", "Might": "3", "Will": "3", "Fate": "3" },
+      "wargear": ["Heavy Armour", "Hand Weapon", "Shield"],
+      "heroicActions": ["Heroic Resolve", "Heroic Strike", "Heroic Strength", "Heroic Defence"],
+      "magicalPowers": [],
+      "options": ["Armoured Horse and Lance - 30 points"],
+      "specialRules": [
+        { "name": "The Lineage of Numenor", "type": "ACTIVE", "text": "The range of Prince Imrahil's Stand Fast is 12\" rather than 6\"." },
+        { "name": "Dol Amroth for Gondor!", "type": "PASSIVE", "text": "Other friendly Dol Amroth models treat Prince Imrahil as a banner with a range of 6\"." }
+      ]
+    },
+    {
+      "name": "Theoden",
+      "points": 75,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, ROHAN, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "5", "A": "2", "W": "2", "C": "5+", "Might": "3", "Will": "3", "Fate": "1" },
+      "wargear": ["Armour", "Herugrim"],
+      "heroicActions": ["Heroic March", "Heroic Strike", "Heroic Challenge"],
+      "magicalPowers": [],
+      "options": ["Snowmane with Armour - 25 points", "Snowmane - 20 points", "Exchange Armour for Heavy Armour - 5 points", "Shield - 5 points"],
+      "specialRules": [
+        { "name": "Expert Rider", "type": "", "text": "" },
+        { "name": "Horse Lord", "type": "", "text": "" },
+        { "name": "Leader (Rohan Royal Guard)", "type": "", "text": "" },
+        { "name": "Herugrim", "type": "ACTIVE", "text": "This is a Unique hand weapon. Additionally, if a model armed with Herugrim is involved in a Drawn Combat where the Combat is tied at this model's Fight Value, then instead of rolling off to see who wins, this model wins instead. If both sides have a similar special rule, roll off as normal." },
+        { "name": "Forth, and Fear no Darkness", "type": "ACTIVE", "text": "The range of Theoden's Stand Fast is 12\" rather than 6\"." },
+        { "name": "The will of Men is easily corrupted", "type": "PASSIVE", "text": "Whilst Grima Wormtongue is within 6\" of Theoden, Theoden reduces his Fight Value to 3, cannot declare Heroic Actions, and cannot spend Will Points." },
+        { "name": "Snowmane (Mount)", "type": "", "text": "HORSE | MOUNT | 40MM. Mv 10\", Fv 2, Sv 6+, S 3, D 4 (5 with armour), A 0, W 1, C 7+, I 7+. Faithful Servant (ACTIVE): Whilst mounted on Snowmane, Theoden may re-roll any failed Courage Tests to Charge an enemy model with the Terror special rule." }
+      ]
+    },
+    {
+      "name": "Eomer",
+      "points": 110,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, ROHAN, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "6", "Sv": "4+", "S": "4", "D": "6", "A": "3", "W": "3", "C": "4+", "Might": "3", "Will": "3", "Fate": "3" },
+      "wargear": ["Heavy Armour", "Guthwine"],
+      "heroicActions": ["Heroic Strength", "Heroic Strike"],
+      "magicalPowers": [],
+      "options": ["Firefoot - 20 points", "Firefoot with Armour - 25 points", "Shield - 5 points", "Throwing Spear - 5 points"],
+      "specialRules": [
+        { "name": "Expert Rider", "type": "", "text": "" },
+        { "name": "Horse Lord", "type": "", "text": "" },
+        { "name": "Leader (Rohan Royal Guard)", "type": "", "text": "" },
+        { "name": "Guthwine", "type": "ACTIVE", "text": "This is a Unique hand weapon. Additionally, each time a model armed with Guthwine rolls a natural 6 To Wound when making a Strike, they may immediately make a single additional To Wound Roll against the same target. If this additional To Wound Roll is a natural 6, this will not benefit from this special rule." },
+        { "name": "The Price of Grief", "type": "ACTIVE", "text": "If Theoden or Eowyn are in the same Army as Eomer, and either (or both) are removed as a casualty, then for the remainder of the game Eomer must re-roll all failed To Wound Rolls when making Strikes. Additionally, for the remainder of the game, when Eomer Moves he must Charge an enemy model if possible." }
+      ]
+    },
+    {
+      "name": "Forlong the Fat",
+      "points": 90,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, GONDOR, LOSSARNACH, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "5", "D": "6", "A": "2", "W": "3", "C": "6+", "Might": "3", "Will": "1", "Fate": "1" },
+      "wargear": ["Heavy Armour", "Hand Weapon", "Spear", "The Horn of Lossarnach"],
+      "heroicActions": ["Heroic Strength"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "The Horn of Lossarnach", "type": "ACTIVE", "text": "This is a Unique war horn. Additionally, once per game at the beginning of his Activation, Forlong may let out a blast on his horn. If he does, then friendly models within 12\" of Forlong count as having the Terror special rule until the end of the turn." },
+        { "name": "Lord of Lossarnach", "type": "PASSIVE", "text": "Other friendly Lossarnach models within 3\" of Forlong the Fat may re-roll To Wound Rolls of a natural 1 when making Strikes." }
+      ]
+    },
+    {
+      "name": "Gimli",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, FELLOWSHIP, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "6", "Sv": "4+", "S": "4", "D": "8", "A": "2", "W": "2", "C": "4+", "Might": "3", "Will": "2", "Fate": "3" },
+      "wargear": ["Heavy Dwarf Armour", "Master Forged Two-handed Weapon", "Two Hand Weapons", "Throwing Weapons"],
+      "heroicActions": ["Heroic Strength", "Heroic Strike"],
+      "magicalPowers": [],
+      "options": ["Elven Cloak - 5 points"],
+      "specialRules": [
+        { "name": "Axes of the Dwarves!", "type": "ACTIVE", "text": "At the beginning of each Combat he is involved in, Gimli can choose to either fight with an axe in each hand, in which case he will fight with 3 Attacks, or with his two-handed axe." },
+        { "name": "\"I myself am sitting pretty on 43\"", "type": "ACTIVE", "text": "If your Army contains both Legolas Greenleaf and Gimli, son of Gloin, then keep track of how many enemy models each of them has killed. Whilst he has fewer kills than Legolas, Gimli gains a bonus of +1 To Wound when making Strikes." }
+      ]
+    },
+    {
+      "name": "Hurin the Tall, Warden of the Keys",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, GONDOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "6", "A": "2", "W": "2", "C": "5+", "Might": "3", "Will": "1", "Fate": "1" },
+      "wargear": ["Heavy Armour", "Warden's Sword"],
+      "heroicActions": ["Heroic Resolve", "Heroic Strike", "Heroic Strength"],
+      "magicalPowers": [],
+      "options": ["Horse - 20 points"],
+      "specialRules": [
+        { "name": "The Warden's Sword", "type": "ACTIVE", "text": "This is a Master-forged hand-and-a-half weapon." },
+        { "name": "In Defence of the King", "type": "ACTIVE", "text": "Whilst he is within 3\" of your General, so long as your General has the Gondor Keyword, Hurin automatically passes any Courage Tests he is required to take and may re-roll To Wound Rolls of a natural 1 when making Strikes." },
+        { "name": "Lines of Command", "type": "PASSIVE", "text": "Whilst Hurin is alive and on the battlefield, your opponent cannot score any Victory Points for Wounding or slaying the enemy General, so long as your General has the Gondor Keyword." }
+      ]
+    },
+    {
+      "name": "King of the Dead",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, DUNHARROW, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "8\"", "Fv": "6", "Sv": "4+", "S": "4", "D": "8", "A": "2", "W": "3", "C": "3+", "Might": "1", "Will": "6", "Fate": "3" },
+      "wargear": ["Armour", "Hand Weapon"],
+      "heroicActions": ["Heroic March", "Heroic Strike"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Blades of the Dead", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Spectral Walk", "type": "", "text": "" },
+        { "name": "Drain Soul", "type": "ACTIVE", "text": "A model that suffers a Wound from the King of the Dead in Combat, which is not then prevented, will automatically have their Wounds reduced to 0, causing them to be slain and removed as a casualty." },
+        { "name": "The Dead and the Living", "type": "PASSIVE", "text": "Only friendly Dunharrow models may benefit from the King of the Dead's Stand Fast or benefit from his Heroic Actions." }
+      ]
+    },
+    {
+      "name": "Legolas",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF, FELLOWSHIP, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "6", "Sv": "2+", "S": "4", "D": "4", "A": "2", "W": "2", "C": "4+", "Might": "3", "Will": "2", "Fate": "3" },
+      "wargear": ["Elven-made Weapon", "Elf Bow"],
+      "heroicActions": ["Heroic Accuracy", "Heroic Strike"],
+      "magicalPowers": [],
+      "options": ["Horse - 20 points", "Armour - 5 points", "Elven Cloak - 5 points"],
+      "specialRules": [
+        { "name": "Sharpshooter", "type": "", "text": "" },
+        { "name": "Woodland Creature", "type": "", "text": "" },
+        { "name": "\"Final Count, 42\"", "type": "ACTIVE", "text": "If your Army contains both Legolas Greenleaf and Gimli, son of Gloin, then keep track of how many enemy models each of them has killed. Whilst he has fewer kills than Gimli, Legolas gains a bonus of +1 To Wound when making shooting attacks." },
+        { "name": "Deadly Shot", "type": "ACTIVE", "text": "Legolas may make three shooting attacks during the Shoot Phase instead of one, using all the normal rules for shooting. Additionally, Legolas may still make shooting attacks whilst he is Engaged in Combat if there are no other friendly models engaged in the same combat, and does not suffer the -1 penalty To Hit for Moving and Shooting so long as he has the Infantry keyword." },
+        { "name": "Pinpoint Shot", "type": "ACTIVE", "text": "Instead of shooting normally, Legolas may make a single shooting attack against an enemy model Engaged in Combat with a friendly model (including himself). If he does, then if the To Hit Roll is successful, Legolas doesn't need to make any In The Way Rolls." }
+      ]
+    },
+    {
+      "name": "Angbor the Fearless",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, GONDOR, LAMEDON, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "5", "A": "2", "W": "2", "C": "7+", "Might": "2", "Will": "2", "Fate": "2" },
+      "wargear": ["Armour", "Two-handed Weapon"],
+      "heroicActions": ["Heroic Strike", "Heroic March"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Fearless", "type": "", "text": "" },
+        { "name": "Mighty Blow", "type": "", "text": "" },
+        { "name": "Chief of Lamedon", "type": "PASSIVE", "text": "Other friendly Lamedon models within 3\" of Angbor automatically pass any Courage Tests they are required to take." }
+      ]
+    },
+    {
+      "name": "Beregond, Guard of the Citadel",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, GONDOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "3+", "S": "4", "D": "6", "A": "2", "W": "2", "C": "5+", "Might": "2", "Will": "2", "Fate": "2" },
+      "wargear": ["Heavy Armour", "Hand Weapon", "Longbow"],
+      "heroicActions": ["Heroic Accuracy"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Bodyguard", "type": "", "text": "" },
+        { "name": "An Unlikely Friendship", "type": "ACTIVE", "text": "Whilst within 3\" of a friendly Pippin, Beregond may re-roll any failed To Wound rolls when making Strikes." }
+      ]
+    },
+    {
+      "name": "Captain of Dol Amroth",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, GONDOR, DOL AMROTH, HERO, INFANTRY",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "7", "A": "2", "W": "2", "C": "6+", "Might": "2", "Will": "1", "Fate": "1" },
+      "wargear": ["Heavy Armour", "Hand Weapon", "Shield"],
+      "heroicActions": ["Heroic March"],
+      "magicalPowers": [],
+      "options": ["Armoured Horse and Lance - 30 points"],
+      "specialRules": [
+        { "name": "Pride of Dol Amroth", "type": "ACTIVE", "text": "Whilst within 3\" of Prince Imrahil, this model gains a bonus of +1 to their Fight value." }
+      ]
+    },
+    {
+      "name": "Captain of Minas Tirith",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, GONDOR, HERO, INFANTRY",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "7", "A": "2", "W": "2", "C": "6+", "Might": "2", "Will": "1", "Fate": "1" },
+      "wargear": ["Heavy Armour", "Hand Weapon", "Shield"],
+      "heroicActions": ["Heroic March"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Shieldwall", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Captain of Rohan",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, HERO, INFANTRY",
+      "profile": { "Mv": "6\"", "Fv": "4", "Sv": "4+", "S": "4", "D": "5", "A": "2", "W": "2", "C": "6+", "Might": "2", "Will": "1", "Fate": "1" },
+      "wargear": ["Armour", "Hand Weapon"],
+      "heroicActions": ["Heroic March"],
+      "magicalPowers": [],
+      "options": ["Horse - 20 points", "Exchange Armour for Heavy Armour - 5 points", "Shield - 5 points"],
+      "specialRules": [
+        { "name": "Expert Rider", "type": "", "text": "" },
+        { "name": "Horse Lord", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Deorwine, Chief of the King's Knights",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "7", "A": "2", "W": "2", "C": "6+", "Might": "2", "Will": "2", "Fate": "2" },
+      "wargear": ["Heavy Armour", "Hand Weapon", "Shield"],
+      "heroicActions": ["Heroic March", "Heroic Strike"],
+      "magicalPowers": [],
+      "options": ["Horse - 20 points"],
+      "specialRules": [
+        { "name": "Expert Rider", "type": "", "text": "" },
+        { "name": "Horse Lord", "type": "", "text": "" },
+        { "name": "Sworn Protector (Theoden)", "type": "", "text": "" },
+        { "name": "Leader (Rohan Royal Guard)", "type": "", "text": "" },
+        { "name": "For Theoden!", "type": "ACTIVE", "text": "During the Declare Heroic Actions step of the Fight Phase, if Theoden is Engaged in Combat and is within 6\" of Deorwine, then Deorwine may declare a free Heroic Combat. If this Heroic Combat is successful, then Deorwine must use the following Move to join Theoden's Combat." }
+      ]
+    },
+    {
+      "name": "Duinhir, Lord of the Blackroot Vale",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, GONDOR, BLACKROOT VALE, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "4", "Sv": "3+", "S": "4", "D": "5", "A": "2", "W": "2", "C": "6+", "Might": "2", "Will": "1", "Fate": "1" },
+      "wargear": ["Armour", "Hand Weapon", "Bow", "Spear"],
+      "heroicActions": ["Heroic Accuracy", "Heroic Defence"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Mountain Dweller", "type": "", "text": "" },
+        { "name": "Sharpshooter", "type": "", "text": "" },
+        { "name": "Go for the Eyes!", "type": "ACTIVE", "text": "Duinhir may re-roll failed To Hit Rolls when shooting at an enemy Monster model. Additionally, if Duinhir successfully Wounds an enemy Monster model with a shooting attack, it will deal D3 Wounds rather than 1." },
+        { "name": "Lord of the Blackroot Vale", "type": "PASSIVE", "text": "Other friendly Blackroot Vale models within 3\" of Duinhir may re-roll To Hit Rolls of a 1 when making a shooting attack in the Shoot Phase, provided they did not Move in the preceding Move Phase." }
+      ]
+    },
+    {
+      "name": "Elfhelm, Captain of Rohan",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "4", "Sv": "3+", "S": "4", "D": "6", "A": "3", "W": "2", "C": "6+", "Might": "2", "Will": "1", "Fate": "2" },
+      "wargear": ["Armour", "Hand Weapon", "Shield", "Throwing Spear"],
+      "heroicActions": ["Heroic Accuracy", "Heroic Defence", "Heroic March"],
+      "magicalPowers": [],
+      "options": ["Horse - 20 points"],
+      "specialRules": [
+        { "name": "Expert Rider", "type": "", "text": "" },
+        { "name": "Horse Lord", "type": "", "text": "" },
+        { "name": "Pinpoint Accuracy", "type": "ACTIVE", "text": "Elfhelm never suffers the -1 penalty for Moving and Shooting when using his throwing Spear. Additionally, when throwing his throwing Spear, Elfhelm may re-roll any failed To Hit, To Wound or In The Way Rolls when making that shooting attack." }
+      ]
+    },
+    {
+      "name": "Elladan",
+      "points": 80,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, RIVENDELL, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "6", "Sv": "3+", "S": "4", "D": "6", "A": "2", "W": "2", "C": "4+", "Might": "2", "Will": "2", "Fate": "2" },
+      "wargear": ["Heavy Armour", "Elven Hand Weapons"],
+      "heroicActions": ["Heroic Strength", "Heroic Strike"],
+      "magicalPowers": [],
+      "options": ["Horse - 20 points"],
+      "specialRules": [
+        { "name": "Woodland Creature", "type": "", "text": "" },
+        { "name": "Unbreakable Bond", "type": "ACTIVE", "text": "If Elrohir is slain, make a note of the model that killed him; for the remainder of the game, Elladan increases his Strength by 1 and must always Charge the model that killed Elrohir if able." },
+        { "name": "Twin Elven Blades", "type": "ACTIVE", "text": "Whilst he has the Infantry Keyword, Elladan can choose to fight with 3 Attacks rather than 2, use his Elven weapons as Elven hand-and-a-half weapons, or use them to parry (counts as Shielding)." },
+        { "name": "Strength of Brotherhood", "type": "ACTIVE", "text": "Whilst within 3\" of Elrohir, Elladan gains the Dominant (2) special rule and may re-roll To Wound Rolls of a natural 1 when making Strikes." }
+      ]
+    },
+    {
+      "name": "Elrohir",
+      "points": 80,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ELF, RIVENDELL, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "6", "Sv": "3+", "S": "4", "D": "6", "A": "2", "W": "2", "C": "4+", "Might": "2", "Will": "2", "Fate": "2" },
+      "wargear": ["Heavy Armour", "Elven Hand Weapons"],
+      "heroicActions": ["Heroic Defence", "Heroic Strike"],
+      "magicalPowers": [],
+      "options": ["Horse - 20 points"],
+      "specialRules": [
+        { "name": "Woodland Creature", "type": "", "text": "" },
+        { "name": "Unbreakable Bond", "type": "ACTIVE", "text": "If Elladan is slain, make a note of the model that killed him; for the remainder of the game, Elrohir increases his Strength by 1 and must always Charge the model that killed Elladan if able." },
+        { "name": "Twin Elven Blades", "type": "ACTIVE", "text": "Whilst he has the Infantry Keyword, Elrohir can choose to fight with 3 Attacks rather than 2, use his Elven weapons as Elven hand-and-a-half weapons, or use them to parry (counts as Shielding)." },
+        { "name": "Strength of Brotherhood", "type": "ACTIVE", "text": "Whilst within 3\" of Elladan, Elrohir gains the Dominant (2) special rule and may re-roll To Wound Rolls of a natural 1 when making Strikes." }
+      ]
+    },
+    {
+      "name": "Eowyn",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "4", "A": "2", "W": "2", "C": "5+", "Might": "2", "Will": "2", "Fate": "3" },
+      "wargear": ["Hand Weapon"],
+      "heroicActions": ["Heroic Resolve", "Heroic Strike", "Heroic Defence"],
+      "magicalPowers": [],
+      "options": ["Merry - 25 points", "Horse - 20 points", "Armour - 5 points", "Shield - 5 points", "Throwing Spear - 5 points"],
+      "specialRules": [
+        { "name": "Expert Rider", "type": "", "text": "" },
+        { "name": "Horse Lord", "type": "", "text": "" },
+        { "name": "I Shall Kill You if You Touch Him", "type": "ACTIVE", "text": "Whilst within 3\" of Theoden, Eowyn may re-roll To Wound Rolls of a natural 1 when making Strikes. If Theoden is slain, Eowyn gains Fearless and must re-roll all failed To Wound Rolls against the model who slew him for the rest of the game." },
+        { "name": "Merry", "type": "PASSIVE", "text": "If Eowyn is upgraded to take Merry, he is treated as a Passenger on Eowyn's horse, uses the Meriadoc Brandybuck profile, and counts as an Independent Hero. Whilst mounted, Eowyn gains Resistant to Magic, increases Attacks to 3, and can spend Merry's Might, Will and Fate as her own." }
+      ]
+    },
+    {
+      "name": "Gamling",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "6", "A": "2", "W": "2", "C": "5+", "Might": "2", "Will": "1", "Fate": "1" },
+      "wargear": ["Heavy Armour", "Hand Weapon"],
+      "heroicActions": ["Heroic March", "Heroic Defence"],
+      "magicalPowers": [],
+      "options": ["Royal Standard of Rohan - 40 points", "Horse - 20 points"],
+      "specialRules": [
+        { "name": "Expert Rider", "type": "", "text": "" },
+        { "name": "Horse Lord", "type": "", "text": "" },
+        { "name": "Leader (Rohan Royal Guard)", "type": "", "text": "" },
+        { "name": "Sworn Protector (Theoden)", "type": "", "text": "" },
+        { "name": "Royal Standard of Rohan", "type": "PASSIVE", "text": "This is a Unique banner with a range of 6\". Gamling does not suffer the -1 penalty to his Duel Roll for carrying a banner. Additionally, whenever a friendly Rohan Hero model within 6\" of the Royal Standard of Rohan spends a Might Point, they may roll a D6. On a natural 6, the Might Point is free." }
+      ]
+    },
+    {
+      "name": "Halbarad",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, DUNEDAIN, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "3+", "S": "4", "D": "5", "A": "2", "W": "2", "C": "4+", "Might": "3", "Will": "2", "Fate": "1" },
+      "wargear": ["Armour", "Hand Weapon", "Bow"],
+      "heroicActions": ["Heroic Accuracy", "Heroic Strike"],
+      "magicalPowers": [],
+      "options": ["Banner of Arwen Evenstar - 40 points"],
+      "specialRules": [
+        { "name": "Woodland Creature", "type": "", "text": "" },
+        { "name": "Banner of Arwen Evenstar", "type": "PASSIVE", "text": "This is a banner with a range of 6\" rather than 3\", and Halbarad never suffers the -1 penalty to his Duel Rolls for carrying a banner. Additionally, friendly models within 6\" and Line of Sight of the Banner of Arwen Evenstar automatically pass any Courage Tests they are required to take." }
+      ]
+    },
+    {
+      "name": "Herald of the Dead",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "SPIRIT, DUNHARROW, HERO, INFANTRY",
+      "profile": { "Mv": "8\"", "Fv": "4", "Sv": "4+", "S": "4", "D": "8", "A": "2", "W": "2", "C": "4+", "Might": "0", "Will": "3", "Fate": "2" },
+      "wargear": ["Armour", "Shield", "Hand Weapon", "Pennant of the Dead"],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Blades of the Dead", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Spectral Walk", "type": "", "text": "" },
+        { "name": "Pennant of the Dead", "type": "PASSIVE", "text": "Friendly Dunharrow models within 3\" of a model with a Pennant of the Dead count as having the Resistant to Magic special rule." },
+        { "name": "The King's Counsel", "type": "PASSIVE", "text": "Whilst the King of the Dead is within 3\" of this model, the King of the Dead can spend this model's Will Points to declare a Heroic Action instead of spending one of his own Might Points." }
+      ]
+    },
+    {
+      "name": "Ingold, Warden of The Rammas Echor",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, GONDOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "7", "A": "2", "W": "2", "C": "6+", "Might": "2", "Will": "2", "Fate": "2" },
+      "wargear": ["Heavy Armour", "Hand Weapon", "Shield"],
+      "heroicActions": ["Heroic Strike", "Heroic Defence"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Shieldwall", "type": "", "text": "" },
+        { "name": "Resolute Fighter", "type": "PASSIVE", "text": "Ingold and friendly Gondor Warrior models within 3\" of him do not Back Away if they lose a Combat - their opponent must Back Away instead." }
+      ]
+    },
+    {
+      "name": "Irolas",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, GONDOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "6", "A": "2", "W": "2", "C": "6+", "Might": "2", "Will": "1", "Fate": "2" },
+      "wargear": ["Heavy Armour", "Hand Weapon"],
+      "heroicActions": ["Heroic Defence"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Leader (Citadel Guard)", "type": "", "text": "" },
+        { "name": "Sworn Protector (Denethor)", "type": "", "text": "" },
+        { "name": "Defend the White City", "type": "ACTIVE", "text": "Irolas may use the Shielding special rule even though he is not armed with a shield. If Irolas elects to shield, and wins the ensuing Combat, he may make a single Strike against one enemy model that was involved in the Combat." },
+        { "name": "Captain of the Citadel Guard", "type": "PASSIVE", "text": "Friendly Citadel Guard within 3\" of Irolas gain a bonus of +1 To Wound when making Strikes." }
+      ]
+    },
+    {
+      "name": "Knight of the White Tower",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, GONDOR, HERO, INFANTRY",
+      "profile": { "Mv": "6\"", "Fv": "6", "Sv": "4+", "S": "4", "D": "6", "A": "2", "W": "2", "C": "5+", "Might": "2", "Will": "1", "Fate": "1" },
+      "wargear": ["Heavy Armour", "Hand Weapon", "White Sword of Gondor"],
+      "heroicActions": ["Heroic Strike"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "White Sword of Gondor", "type": "ACTIVE", "text": "This is a two-handed weapon. Additionally, Strikes made with a White Sword of Gondor have the Mighty Blow special rule." },
+        { "name": "The Bladelord's Skill", "type": "ACTIVE", "text": "If this model is Engaged in Combat with an enemy Hero, it may re-roll a single D6 during the Duel Roll." }
+      ]
+    },
+    {
+      "name": "Peregrin Took, Guard of the Citadel",
+      "points": 25,
+      "heroicTier": "Independent Hero",
+      "keywords": "HOBBIT, GONDOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "4\"", "Fv": "3", "Sv": "3+", "S": "2", "D": "4", "A": "1", "W": "2", "C": "5+", "Might": "1", "Will": "1", "Fate": "2" },
+      "wargear": ["Armour", "Hand Weapon"],
+      "heroicActions": ["Heroic Defence"],
+      "magicalPowers": [],
+      "options": ["Elven Cloak - 5 points"],
+      "specialRules": [
+        { "name": "Resistant to Magic", "type": "", "text": "" },
+        { "name": "Throw Stones (range 8\", Strength 1)", "type": "", "text": "" },
+        { "name": "Independent Hero", "type": "", "text": "Independent Heroes may not lead troops and may not be the army's leader. They may, however, be included in another Hero model's warband as one of their followers." }
+      ]
+    },
+    {
+      "name": "Ranger of the North",
+      "points": 25,
+      "heroicTier": "Independent Hero",
+      "keywords": "MAN, DUNEDAIN, HERO, INFANTRY",
+      "profile": { "Mv": "6\"", "Fv": "4", "Sv": "3+", "S": "4", "D": "4", "A": "1", "W": "1", "C": "6+", "Might": "1", "Will": "1", "Fate": "1" },
+      "wargear": ["Hand Weapon", "Bow"],
+      "heroicActions": ["Heroic Accuracy"],
+      "magicalPowers": [],
+      "options": ["Armour - 5 points", "Spear - 1 point"],
+      "specialRules": [
+        { "name": "Woodland Creature", "type": "", "text": "" },
+        { "name": "Independent Hero", "type": "", "text": "Independent Heroes may not lead troops and may not be the army's leader. They may, however, be included in another Hero model's warband as one of their followers." }
+      ]
+    },
+    {
+      "name": "Axeman of Lossarnach",
+      "points": 9,
+      "keywords": "MAN | GONDOR, LOSSARNACH | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 5, "A": 1, "W": 1, "C": "7+", "I": "7+" },
+      "wargear": ["Heavy Armour", "Hand Weapon", "Axe of Lossarnach"],
+      "specialRules": [
+        { "name": "Axe of Lossarnach", "type": "ACTIVE", "text": "An Axe of Lossarnach can be used either as a spear or a two-handed weapon." }
+      ]
+    },
+    {
+      "name": "Blackroot Vale Archer",
+      "points": 8,
+      "keywords": "MAN | GONDOR, BLACKROOT VALE | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 3, "Sv": "3+", "S": 3, "D": 4, "A": 1, "W": 1, "C": "8+", "I": "7+" },
+      "wargear": ["Armour", "Hand Weapon", "Bow"],
+      "options": ["War Horn - 25 points", "Banner - 25 points", "Spear - 1 point"],
+      "specialRules": [
+        { "name": "Mountain Dweller", "type": "", "text": "" },
+        { "name": "Dead-eye Shot", "type": "PASSIVE", "text": "When benefiting from a Heroic Shoot, this model may re-roll failed To Wound Rolls when making shooting attacks." }
+      ]
+    },
+    {
+      "name": "Citadel Guard",
+      "points": 8,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY, ELITE | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 5, "A": 1, "W": 1, "C": "7+", "I": "6+" },
+      "wargear": ["Heavy Armour", "Hand Weapon"],
+      "options": ["Longbow - 1 point", "Spear - 1 point"],
+      "specialRules": [
+        { "name": "Bodyguard", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Clansman of Lamedon",
+      "points": 8,
+      "keywords": "MAN | GONDOR, LAMEDON | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 4, "A": 1, "W": 1, "C": "6+", "I": "8+" },
+      "wargear": ["Armour", "Two-handed Weapon"],
+      "specialRules": [
+        { "name": "The Honour of Lamedon", "type": "PASSIVE", "text": "Whilst within 3\" of a friendly Lamedon Hero model, this model may re-roll any rolls of a natural 1 when making a Duel Roll." }
+      ]
+    },
+    {
+      "name": "Knight of Dol Amroth",
+      "points": 11,
+      "keywords": "MAN | GONDOR, DOL AMROTH | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 6, "A": 1, "W": 1, "C": "6+", "I": "6+" },
+      "wargear": ["Heavy Armour", "Hand Weapon", "Shield"],
+      "options": ["Armoured Horse and Banner - 33 points", "Armoured Horse and War Horn - 33 points", "Banner - 25 points", "War Horn - 25 points", "Armoured Horse and Lance - 9 points"],
+      "specialRules": [
+        { "name": "Pride of Dol Amroth", "type": "ACTIVE", "text": "Whilst within 3\" of Prince Imrahil, this model gains a bonus of +1 to their Fight value." }
+      ]
+    },
+    {
+      "name": "Knight of Minas Tirith",
+      "points": 15,
+      "keywords": "MAN | GONDOR | WARRIOR, CAVALRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 6, "A": 1, "W": 1, "C": "7+", "I": "7+" },
+      "wargear": ["Heavy Armour", "Hand Weapon", "Shield", "Lance", "Horse"],
+      "options": ["Exchange Shield and Lance for Banner - 25 points"],
+      "specialRules": [
+        { "name": "Shieldwall", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Man-at-arms of Dol Amroth",
+      "points": 10,
+      "keywords": "MAN | GONDOR, DOL AMROTH | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 5, "A": 1, "W": 1, "C": "7+", "I": "7+" },
+      "wargear": ["Heavy Armour", "Hand Weapon", "Pike"],
+      "specialRules": [
+        { "name": "Pride of Dol Amroth", "type": "ACTIVE", "text": "Whilst within 3\" of Prince Imrahil, this model gains a bonus of +1 to their Fight Value." }
+      ]
+    },
+    {
+      "name": "Rider of Rohan",
+      "points": 14,
+      "keywords": "MAN | ROHAN | WARRIOR, CAVALRY | 40MM",
+      "profile": { "Mv": "6\"", "Fv": 3, "Sv": "4+", "S": 3, "D": 5, "A": 1, "W": 1, "C": "7+", "I": "6+" },
+      "wargear": ["Armour", "Hand Weapon", "Shield", "Bow", "Horse"],
+      "options": ["Banner - 25 points", "Throwing Spear - 2 points", "Westfold Redshield - 1 point"],
+      "specialRules": [
+        { "name": "Expert Rider", "type": "", "text": "" },
+        { "name": "Arise, Riders of Rohan!", "type": "ACTIVE", "text": "If this model is within 12\" of a Rohan General and has the Cavalry keyword, then it gains a bonus of +1 to its Fight Value in a turn in which it Charges." },
+        { "name": "Spear Mastery", "type": "ACTIVE", "text": "This model may use its throwing Spear as a normal spear during the Fight Phase, so long as it hasn't made a shooting attack with it that turn." }
+      ]
+    },
+    {
+      "name": "Rider of the Dead",
+      "points": 25,
+      "keywords": "SPIRIT | DUNHARROW | WARRIOR, CAVALRY | 25MM",
+      "profile": { "Mv": "8\"", "Fv": 3, "Sv": "4+", "S": 3, "D": 8, "A": 1, "W": 1, "C": "4+", "I": "6+" },
+      "wargear": ["Armour", "Sword", "Shield", "Spectral Steed"],
+      "specialRules": [
+        { "name": "Blades of the Dead", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Spectral Walk", "type": "", "text": "" },
+        { "name": "Spectral Steed (Mount)", "type": "", "text": "SPIRIT | MOUNT | 40MM. Mv 12\", Fv 2, Sv 6+, S 3, D 6, A 0, W 1, C 5+, I 7+. Special Rules: Terror, Spectral Walk." }
+      ]
+    },
+    {
+      "name": "Warrior of Minas Tirith",
+      "points": 8,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 5, "A": 1, "W": 1, "C": "7+", "I": "7+" },
+      "wargear": ["Heavy Armour", "Hand Weapon"],
+      "options": ["War Horn and Shield - 26 points", "Banner - 25 points", "Shield and Spear - 2 points", "Shield - 1 point", "Bow - 1 point"],
+      "specialRules": [
+        { "name": "Shieldwall", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Warrior of the Dead",
+      "points": 14,
+      "keywords": "SPIRIT | DUNHARROW | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "8\"", "Fv": 3, "Sv": "4+", "S": 3, "D": 7, "A": 1, "W": 1, "C": "4+", "I": "6+" },
+      "wargear": ["Armour", "Hand Weapon"],
+      "options": ["Banner - 25 points", "Shield and Spear - 2 points", "Shield - 1 point", "Spear - 1 point"],
+      "specialRules": [
+        { "name": "Blades of the Dead", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Spectral Walk", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Gondor Avenger Bolt Thrower",
+      "points": 60,
+      "keywords": "SIEGE ENGINE | 40MM",
+      "profile": { "Range": "0\"-36\"", "S": 7, "D": 9, "W": 3 },
+      "wargear": ["Crewed by three Minas Tirith Siege Crew, one of which is the Siege Veteran"],
+      "options": ["Swift Reload - 20 points"],
+      "specialRules": [
+        { "name": "Swift Reload", "type": "ACTIVE", "text": "When firing the Gondor Avenger Bolt Thrower, you may roll two dice and pick the highest result when determining how many shots it may make." },
+        { "name": "Rapid Fire", "type": "ACTIVE", "text": "A Gondor Avenger Bolt Thrower doesn't shoot like a normal Siege Engine. Instead, it may make D6 shooting attacks in the same way as a normal Missile Weapon. No Scatter is required for these shots; they will either hit or miss. Shots fired do not kill their targets outright if they Wound them." },
+        { "name": "Minas Tirith Siege Crew", "type": "", "text": "Mv 6\", Fv 3, Sv 4+, S 3, D 5, A 1, W 1, C 7+, I 7+. Wargear: Heavy Armour, Hand Weapon." }
+      ]
+    },
+    {
+      "name": "Gondor Battlecry Trebuchet",
+      "points": 100,
+      "keywords": "SIEGE ENGINE | 120MM",
+      "profile": { "Range": "12\"-96\"", "S": 10, "D": 10, "W": 3 },
+      "wargear": ["Crewed by three Minas Tirith Siege Crew, one of which is the Siege Veteran"],
+      "options": ["Flaming Ammunition - 10 points"],
+      "specialRules": [
+        { "name": "Arcing Shot", "type": "", "text": "" },
+        { "name": "Static", "type": "", "text": "" },
+        { "name": "Area Effect", "type": "ACTIVE", "text": "After rolling To Hit against the actual target, if the actual target was a Battlefield Target then all other models within 2\" of the actual target suffer a Strength 5 hit and, if they survive, will be knocked Prone." },
+        { "name": "Wall-breaker", "type": "ACTIVE", "text": "When rolling To Wound against a Siege Target, a Gondor Battlecry Trebuchet makes 2 To Wound Rolls and picks the highest. Additionally, a successful To Wound Roll against a Siege Target will do D3 Wounds rather than 1." },
+        { "name": "Flaming Ammunition", "type": "", "text": "A Siege Engine upgraded with Flaming Ammunition may re-roll any failed To Wound Rolls against a Siege Target." },
+        { "name": "Minas Tirith Siege Crew", "type": "", "text": "Mv 6\", Fv 3, Sv 4+, S 3, D 5, A 1, W 1, C 7+, I 7+. Wargear: Heavy Armour, Hand Weapon." }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Defenders of the Pelennor army-list page. Full stat blocks, wargear, and special-rule text pulled from the Gondor, Rohan, The Free Peoples, Elven Kingdoms, Good Legacy, and Arnor & Angmar faction pages on the same site (this list draws heroes and warriors from across multiple Good factions). Where the army-list page pre-costed a model with upgrades already included (e.g. mounted Heroes), points shown here are the model's base cost from its faction page, with the full upgrade catalog listed under options."
+}

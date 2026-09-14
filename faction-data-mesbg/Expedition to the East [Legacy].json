@@ -1,0 +1,144 @@
+{
+  "legion": "Expedition to the East [Legacy]",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/legacy_expedition_to_the_east/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/good_legacy/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/dwarven_holds/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/gondor/"
+  ],
+  "additionalRules": [
+    "The General of an Expedition to the East Army must always be a Unique Hero.",
+    "Dwarf Warrior models can only be included in the Warband of a Dwarf Hero.",
+    "Gondor Warrior models can only be included in the Warband of a Gondor Hero."
+  ],
+  "specialRules": [
+    {
+      "name": "Campaign in Rhun",
+      "type": "",
+      "text": "Friendly models gain the Hatred (Easterling) special rule."
+    },
+    {
+      "name": "Unlikely Allies",
+      "type": "",
+      "text": "Friendly Dwarf models may re-roll To Wound rolls of a natural 1 whilst within 1\" of a friendly Gondor model. Friendly Gondor models may re-roll To Wound rolls of a natural 1 whilst within 1\" of a friendly Dwarf model."
+    },
+    {
+      "name": "Spoils of War",
+      "type": "",
+      "text": "At the beginning of the game, before either Army has been deployed, your opponent secretly chooses a piece of terrain on the board; this contains the treasure your Army is seeking. If a friendly model ends its Activation in base contact with a piece of terrain and is not Engaged in Combat, it may search that piece of terrain. If it was the chosen terrain, the model discovers the treasure and is removed from play (not a casualty) to return it to Minas Tirith. If the treasure is discovered by game end, gain an additional 2 Victory Points, though this can never take the Army's controlling player's total Victory Points above 20."
+    }
+  ],
+  "units": [
+    {
+      "name": "Captain of Minas Tirith",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, GONDOR, HERO, INFANTRY",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "7", "A": "2", "W": "2", "C": "6+", "Might": "2", "Will": "1", "Fate": "1" },
+      "wargear": ["Heavy Armour", "Hand Weapon", "Shield"],
+      "heroicActions": ["Heroic March"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Shieldwall", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Cirion, Lieutenant of Amon Barad",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, GONDOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "6\"", "Fv": "5", "Sv": "3+", "S": "4", "D": "6", "A": "2", "W": "2", "C": "6+", "Might": "2", "Will": "2", "Fate": "1" },
+      "wargear": ["Armour", "Shield", "Hand Weapon"],
+      "heroicActions": ["Heroic Resolve", "Heroic Strike"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Woodland Creature", "type": "", "text": "" },
+        { "name": "Boldest of the Bold", "type": "ACTIVE", "text": "Cirion gains a bonus of +2 to his Courage Test when attempting to Charge an enemy with the Terror special rule. Additionally, when an enemy model with the Blades of the Dead special rule makes Strikes against Cirion, he treats his Courage value as 4+ rather than 6+ (before any modifiers are applied)." }
+      ]
+    },
+    {
+      "name": "Drar",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, IRON HILLS, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "7", "A": "2", "W": "2", "C": "5+", "Might": "2", "Will": "2", "Fate": "2" },
+      "wargear": ["Dwarf Armour", "Hand Weapon", "Dwarf Bow"],
+      "heroicActions": ["Heroic Accuracy"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Expert Shot", "type": "", "text": "" },
+        { "name": "Sharpshooter", "type": "", "text": "" },
+        { "name": "Mountain Dweller", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Murin",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, IRON HILLS, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "8", "A": "2", "W": "2", "C": "5+", "Might": "2", "Will": "2", "Fate": "2" },
+      "wargear": ["Dwarf Armour", "Shield", "Kalazal"],
+      "heroicActions": ["Heroic Strike"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Mountain Dweller", "type": "", "text": "" },
+        { "name": "Kalazal", "type": "ACTIVE", "text": "This is a Unique hand weapon. Murin gains a bonus of +1 To Wound when making Strikes against Orc, Goblin or Uruk-hai models." }
+      ]
+    },
+    {
+      "name": "Dwarf Ranger",
+      "points": 8,
+      "keywords": "DWARF | KHAZAD-DUM | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "5\"", "Fv": 4, "Sv": "3+", "S": 3, "D": 5, "A": 1, "W": 1, "C": "6+", "I": "6+" },
+      "wargear": ["Armour", "Hand Weapon"],
+      "options": ["Dwarf Longbow - 1 point", "Throwing Weapons - 1 point", "Two-handed Weapon - 1 point"],
+      "specialRules": [
+        { "name": "Mountain Dweller", "type": "", "text": "" },
+        { "name": "Mountain Fighters", "type": "ACTIVE", "text": "This model gains a bonus of +1 To Wound when making Strikes against a model that is within a piece of difficult terrain, such as a piece of rocky terrain, or a ruin." }
+      ]
+    },
+    {
+      "name": "Dwarf Warrior",
+      "points": 8,
+      "keywords": "DWARF | KHAZAD-DUM | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "5\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 6, "A": 1, "W": 1, "C": "6+", "I": "6+" },
+      "wargear": ["Dwarf Armour", "Axe"],
+      "options": ["War Horn - 25 points", "Banner - 25 points", "Dwarf Bow - 1 point", "Shield - 1 point", "Two-handed Weapon - 1 point"],
+      "specialRules": []
+    },
+    {
+      "name": "Knight of Minas Tirith",
+      "points": 15,
+      "keywords": "MAN | GONDOR | WARRIOR, CAVALRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 6, "A": 1, "W": 1, "C": "7+", "I": "7+" },
+      "wargear": ["Heavy Armour", "Hand Weapon", "Shield", "Lance", "Horse"],
+      "options": ["Exchange Shield and Lance for Banner - 25 points"],
+      "specialRules": [
+        { "name": "Shieldwall", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Ranger of Gondor",
+      "points": 8,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "3+", "S": 3, "D": 4, "A": 1, "W": 1, "C": "7+", "I": "6+" },
+      "wargear": ["Armour", "Hand Weapon", "Bow"],
+      "options": ["Banner - 25 points", "War Horn - 25 points", "Spear - 1 point"],
+      "specialRules": [
+        { "name": "Woodland Creature", "type": "", "text": "" }
+      ]
+    },
+    {
+      "name": "Warrior of Minas Tirith",
+      "points": 8,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "6\"", "Fv": 4, "Sv": "4+", "S": 3, "D": 5, "A": 1, "W": 1, "C": "7+", "I": "7+" },
+      "wargear": ["Heavy Armour", "Hand Weapon"],
+      "options": ["War Horn and Shield - 26 points", "Banner - 25 points", "Shield and Spear - 2 points", "Shield - 1 point", "Bow - 1 point"],
+      "specialRules": [
+        { "name": "Shieldwall", "type": "", "text": "" }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Expedition to the East [Legacy] army-list page. Full stat blocks and special-rule text from the matching Good Legacy, Dwarven Holds, and Gondor faction pages on the same site."
+}

@@ -1,0 +1,543 @@
+{
+  "legion": "Atop the Walls",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/atop_the_walls/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/gondor/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/good_legacy/"
+  ],
+  "additionalRules": [
+    "An Atop the Walls Army must include Gandalf the White, who is always the Army's General."
+  ],
+  "specialRules": [
+    {
+      "name": "\"Fight to the last Man\"",
+      "type": "",
+      "text": "Friendly Gondor models within 12\" of Gandalf the White automatically pass any Courage tests they have to make."
+    },
+    {
+      "name": "\"Return to your posts\"",
+      "type": "",
+      "text": "Friendly Gondor models within range of an Objective Marker may re-roll To Wound rolls of a natural 1 when making shooting attacks or making Strikes."
+    },
+    {
+      "name": "\"Send these foul creatures into the abyss\"",
+      "type": "",
+      "text": "Friendly Gondor models within 12\" of Gandalf the White gain the Hatred (Mordor) special rule."
+    }
+  ],
+  "units": [
+    {
+      "name": "Gandalf the White",
+      "points": 200,
+      "heroicTier": "Hero of Legend",
+      "keywords": "WIZARD, FELLOWSHIP, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "6",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Glamdring",
+        "Narya",
+        "Staff of Power"
+      ],
+      "heroicActions": [
+        "Heroic Channelling",
+        "Heroic Defence",
+        "Heroic Resolve",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [
+        "Blinding Light (Self, 3+)",
+        "Terrifying Aura (Self, 3+)",
+        "Transfix (12\", 3+)",
+        "Foil Magic (12\", 4+)",
+        "Fortify Spirit (12\", 4+)",
+        "Strengthen Will (12\", 4+)",
+        "Banishment (12\", 5+)",
+        "Sorcerous Blast (12\", 5+)",
+        "Your Staff is Broken (12\", 5+)"
+      ],
+      "options": [
+        "Pippin - 25 points (can only be taken if Gandalf is riding Shadowfax)",
+        "Shadowfax - 25 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Glamdring",
+          "type": "ACTIVE",
+          "text": "This is a Unique Elven hand-and-a-half weapon. A model gains a bonus of +1 to their Strength when making Strikes with Glamdring."
+        },
+        {
+          "name": "Narya",
+          "type": "PASSIVE",
+          "text": "This is a Unique piece of Wargear. Gandalf may re-roll any failed Fate rolls."
+        },
+        {
+          "name": "Pippin",
+          "type": "PASSIVE",
+          "text": "If Gandalf is upgraded to take Pippin, then Pippin will be treated as a Passenger on Shadowfax. Pippin uses the Peregrin Took, Guard of the Citadel profile and will always count as an Independent Hero in this instance. Pippin will still count as a model towards the Army's total number of models and Break Point, though will not take up a space in Gandalf's Warband. Whilst Pippin is mounted on Shadowfax, Gandalf gains the Resistant to Magic special rule, may re-roll To Wound Rolls of a natural 1 when making Strikes, and can spend Pippin's Might, Will and Fate Points as if they were his own."
+        }
+      ]
+    },
+    {
+      "name": "Shadowfax",
+      "points": 25,
+      "keywords": "HORSE, SEE RIDER, HERO, MOUNT",
+      "profile": {
+        "Mv": "12\"",
+        "Fv": 3,
+        "Sv": "6+",
+        "S": 4,
+        "D": 5,
+        "A": 0,
+        "W": 1,
+        "C": "5+",
+        "I": "5+"
+      },
+      "wargear": [],
+      "specialRules": [
+        {
+          "name": "Lord of the Mearas",
+          "type": "ACTIVE",
+          "text": "Whilst mounted upon Shadowfax, Gandalf rolls two dice and picks for the highest for Jump, Leap and Swim tests. Also, Shadowfax only halves his Move value in difficult terrain, rather than quartering it."
+        }
+      ]
+    },
+    {
+      "name": "Hurin the Tall, Warden of the Keys",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, GONDOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Warden's Sword"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Strike",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "The Warden's Sword",
+          "type": "ACTIVE",
+          "text": "This is a Master-forged hand-and-a-half weapon."
+        },
+        {
+          "name": "In Defence of the King",
+          "type": "ACTIVE",
+          "text": "Whilst he is within 3\" of your General, so long as your General has the Gondor Keyword, Hurin automatically passes any Courage Tests he is required to take and may re-roll To Wound Rolls of a natural 1 when making Strikes."
+        },
+        {
+          "name": "Lines of Command",
+          "type": "PASSIVE",
+          "text": "Whilst Hurin is alive and on the battlefield, your opponent cannot score any Victory Points for Wounding or slaying the enemy General, so long as your General has the Gondor Keyword."
+        }
+      ]
+    },
+    {
+      "name": "Beregond, Guard of the Citadel",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, GONDOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Longbow"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Bodyguard",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "An Unlikely Friendship",
+          "type": "ACTIVE",
+          "text": "Whilst within 3\" of a friendly Pippin, Beregond may re-roll any failed To Wound rolls when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Captain of Minas Tirith",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, GONDOR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Shieldwall",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Irolas",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, GONDOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Leader (Citadel Guard)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sworn Protector (Denethor)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Defend the White City",
+          "type": "ACTIVE",
+          "text": "Irolas may use the Shielding special rule even though he is not armed with a shield. If Irolas elects to shield, and wins the ensuing Combat, he may make a single Strike against one enemy model that was involved in the Combat."
+        },
+        {
+          "name": "Captain of the Citadel Guard",
+          "type": "PASSIVE",
+          "text": "Friendly Citadel Guard within 3\" of Irolas gain a bonus of +1 To Wound when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Knight of the White Tower",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, GONDOR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "White Sword of Gondor"
+      ],
+      "heroicActions": [
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "White Sword of Gondor",
+          "type": "ACTIVE",
+          "text": "This is a two-handed weapon. Additionally, Strikes made with a White Sword of Gondor have the Mighty Blow special rule."
+        },
+        {
+          "name": "The Bladelord's Skill",
+          "type": "ACTIVE",
+          "text": "If this model is Engaged in Combat with an enemy Hero, it may re-roll a single D6 during the Duel Roll."
+        }
+      ]
+    },
+    {
+      "name": "Peregrin Took",
+      "points": 25,
+      "heroicTier": "Independent Hero",
+      "keywords": "HOBBIT, GONDOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "6+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Elven Cloak - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Resistant to Magic",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 8\", Strength 1)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader. They may, however, be included in another Hero model's warband as one of their followers."
+        }
+      ]
+    },
+    {
+      "name": "Citadel Guard",
+      "points": 8,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY, ELITE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Longbow - 1 point",
+        "Spear - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Bodyguard",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Knight of Minas Tirith",
+      "points": 15,
+      "keywords": "MAN | GONDOR | WARRIOR, CAVALRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield",
+        "Lance",
+        "Horse"
+      ],
+      "options": [
+        "Exchange Shield and Lance for Banner - 25 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Shieldwall",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Warrior of Minas Tirith",
+      "points": 8,
+      "keywords": "MAN | GONDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "War Horn and Shield - 26 points",
+        "Banner - 25 points",
+        "Shield and Spear - 2 points",
+        "Shield - 1 point",
+        "Bow - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Shieldwall",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Gondor Avenger Bolt Thrower",
+      "points": 60,
+      "keywords": "SIEGE ENGINE | 40MM",
+      "profile": {
+        "Range": "0\"-36\"",
+        "S": 7,
+        "D": 9,
+        "W": 3
+      },
+      "wargear": [
+        "Crewed by three Minas Tirith Siege Crew, one of which is the Siege Veteran (Mv 6\", Fv 3, Sv 4+, S 3, D 5, A 1, W 1, C 7+, I 7+; Heavy Armour, Hand Weapon)"
+      ],
+      "options": [
+        "Swift Reload - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Swift Reload",
+          "type": "ACTIVE",
+          "text": "When firing the Gondor Avenger Bolt Thrower, you may roll two dice and pick the highest result when determining how many shots it may make."
+        },
+        {
+          "name": "Rapid Fire",
+          "type": "ACTIVE",
+          "text": "A Gondor Avenger Bolt Thrower doesn't shoot like a normal Siege Engine. Instead, it may make D6 shooting attacks in the same way as a normal Missile Weapon. No Scatter is required for these shots; they will either hit or miss. Each shot may be fully resolved before determining the target of the next one. Shots fired by a Gondor Avenger Bolt Thrower do not kill their targets outright if they Wound them."
+        }
+      ]
+    },
+    {
+      "name": "Gondor Battlecry Trebuchet",
+      "points": 100,
+      "keywords": "SIEGE ENGINE | 120MM",
+      "profile": {
+        "Range": "12\"-96\"",
+        "S": 10,
+        "D": 10,
+        "W": 3
+      },
+      "wargear": [
+        "Crewed by three Minas Tirith Siege Crew, one of which is the Siege Veteran (Mv 6\", Fv 3, Sv 4+, S 3, D 5, A 1, W 1, C 7+, I 7+; Heavy Armour, Hand Weapon)"
+      ],
+      "options": [
+        "Flaming Ammunition - 10 points (may re-roll any failed To Wound Rolls against a Siege Target)"
+      ],
+      "specialRules": [
+        {
+          "name": "Arcing Shot",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Static",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Area Effect",
+          "type": "ACTIVE",
+          "text": "After rolling To Hit against the actual target, if the actual target was a Battlefield Target then all other models within 2\" of the actual target suffer a Strength 5 hit and, if they survive, will be knocked Prone."
+        },
+        {
+          "name": "Wall-breaker",
+          "type": "ACTIVE",
+          "text": "When rolling To Wound against a Siege Target, a Gondor Battlecry Trebuchet makes 2 To Wound Rolls and picks the highest. Additionally, a successful To Wound Roll against a Siege Target will do D3 Wounds rather than 1."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Atop the Walls army-list page. Full stat blocks, wargear, and special-rule text from the Gondor faction page, except Knight of the White Tower which is on the Good Legacy faction page."
+}

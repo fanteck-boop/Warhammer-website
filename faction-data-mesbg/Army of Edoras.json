@@ -1,0 +1,605 @@
+{
+  "legion": "Army of Edoras",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/army_of_edoras/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/rohan/"
+  ],
+  "additionalRules": [
+    "Riders of Rohan do not count towards this Army's Bow Limit."
+  ],
+  "specialRules": [
+    {
+      "name": "\"Forth Eorlingas!\"",
+      "type": "",
+      "text": "Once per game, at the start of any Fight Phase, your General can use this if they Charged in the preceding Move Phase. If they do, friendly Rohan models within 12\" of your General must re-roll all failed To Wound Rolls when making Strikes until the end of the turn."
+    },
+    {
+      "name": "Protect the King",
+      "type": "",
+      "text": "When a friendly Rohan Hero Charges, until the end of the turn friendly Rohan Warrior models within 6\" of them automatically pass all Courage Tests they are required to take for Charging a Terror-causing enemy."
+    }
+  ],
+  "units": [
+    {
+      "name": "Helm Hammerhand, King of Rohan",
+      "points": 160,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "5",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "4",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Two-handed Weapon",
+        "Hand Weapon",
+        "The Horn of the Hammerhand"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Armoured Horse - 25 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Burly",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Expert Rider",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, may re-roll Jump, Swim and Thrown Rider tests, and can pick up Light Objects without dismounting."
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": "Whilst mounted, may expend his own Fate points to prevent Wounds caused to his mount."
+        },
+        {
+          "name": "Leader (Rohan Royal Guard)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "The Horn of the Hammerhand",
+          "type": "ACTIVE",
+          "text": "Unique war horn. Once per game, at the start of a Move Phase, enemy models within 24\" suffer -1 to Courage Tests until the End Phase."
+        },
+        {
+          "name": "The Hammerhand",
+          "type": "ACTIVE",
+          "text": "Helm is never considered to be Unarmed."
+        },
+        {
+          "name": "Into the Fray",
+          "type": "ACTIVE",
+          "text": "May declare a free Heroic Combat each Fight Phase. After slaying an enemy model, he must Charge an enemy model whenever he Moves for the rest of the battle."
+        }
+      ]
+    },
+    {
+      "name": "Frealaf",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "4",
+        "Might": "2",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Resolve",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, may re-roll Jump, Swim and Thrown Rider tests, and can pick up Light Objects without dismounting."
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": "Whilst mounted, may expend his own Fate points to prevent Wounds caused to his mount."
+        },
+        {
+          "name": "Mutual Respect",
+          "type": "ACTIVE",
+          "text": "Whilst within 6\" of Héra, Fréaláf gains the Master of Battle (4+) special rule."
+        },
+        {
+          "name": "Lord of Harrowdale",
+          "type": "",
+          "text": "Any Warriors of Rohan in Fréaláf's Warband are upgraded to Warriors of Harrowdale, who may re-roll failed Intelligence Tests and gain Shieldwall while they can see Fréaláf."
+        }
+      ]
+    },
+    {
+      "name": "Haleth, Prince of Rohan",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "3",
+        "W": "3",
+        "C": "4",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Resolve",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Armoured Horse - 25 points",
+        "Throwing Spear - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, may re-roll Jump, Swim and Thrown Rider tests, and can pick up Light Objects without dismounting."
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": "Whilst mounted, may expend his own Fate points to prevent Wounds caused to his mount."
+        },
+        {
+          "name": "Defender of Edoras",
+          "type": "ACTIVE",
+          "text": "Whenever Haleth is outnumbered in a Combat, if he wins the Duel Roll he may re-roll failed To Wound Rolls when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Hama, Prince of Rohan",
+      "points": 70,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "6",
+        "Might": "2",
+        "Will": "3",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Bow"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, may re-roll Jump, Swim and Thrown Rider tests, and can pick up Light Objects without dismounting."
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": "Whilst mounted, may expend his own Fate points to prevent Wounds caused to his mount."
+        },
+        {
+          "name": "Sharpshooter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "The Warrior Poet",
+          "type": "",
+          "text": "May spend a Will Point at the start of any Fight Phase; if he does, friendly Rohan models within 6\" may re-roll To Wound Rolls of a natural 1 when making Strikes until the end of the turn."
+        }
+      ]
+    },
+    {
+      "name": "Captain of Rohan",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points",
+        "Exchange Armour for Heavy Armour - 5 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, may re-roll Jump, Swim and Thrown Rider tests, and can pick up Light Objects without dismounting."
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": "Whilst mounted, may expend his own Fate points to prevent Wounds caused to his mount."
+        }
+      ]
+    },
+    {
+      "name": "Hera, Daughter of Helm",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "4",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Spyglass"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Defence",
+        "Heroic Resolve"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Ashere - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, may re-roll Jump, Swim and Thrown Rider tests, and can pick up Light Objects without dismounting."
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": "Whilst mounted, may expend her own Fate points to prevent Wounds caused to her mount."
+        },
+        {
+          "name": "Spyglass",
+          "type": "ACTIVE",
+          "text": "Héra may ignore enemy models' Stalk Unseen special rule and draw Line of Sight to them as normal."
+        },
+        {
+          "name": "Daughter of Rohan",
+          "type": "",
+          "text": "In a Combat with only one unsupported model on each side, Héra increases her Attacks to 3 and may re-roll To Wound Rolls of a natural 1 when making Strikes."
+        }
+      ]
+    },
+    {
+      "name": "Olwyn, Shieldmaiden of Rohan",
+      "points": 80,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "2",
+        "C": "5",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Light Armour",
+        "Shield",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Defence",
+        "Heroic Resolve"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "ACTIVE",
+          "text": "Whilst mounted, may re-roll Jump, Swim and Thrown Rider tests, and can pick up Light Objects without dismounting."
+        },
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": "Whilst mounted, may expend her own Fate points to prevent Wounds caused to her mount."
+        },
+        {
+          "name": "Sworn Protector (Hera)",
+          "type": "ACTIVE",
+          "text": "Whilst Héra is alive and on the battlefield, this model passes all Courage tests."
+        },
+        {
+          "name": "Stalwart Fighter",
+          "type": "ACTIVE",
+          "text": "Whilst outnumbered in a Combat, enemy models require a roll of a natural 6 To Wound Olwyn, regardless of Strength (though Might and To Wound bonuses still apply)."
+        }
+      ]
+    },
+    {
+      "name": "King's Huntsman",
+      "points": 55,
+      "heroicTier": "Minor Hero",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "2",
+        "C": "4",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Longbow",
+        "Armour",
+        "Sword"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "specialRules": []
+    },
+    {
+      "name": "Lief, Page of Helm",
+      "points": 50,
+      "heroicTier": "Minor Hero",
+      "keywords": "MAN, ROHAN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "4+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "7",
+        "Might": "1",
+        "Will": "5",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Light Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Horse - 20 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Horse Lord",
+          "type": "",
+          "text": "Whilst mounted, may expend his own Fate points to prevent Wounds caused to his mount."
+        },
+        {
+          "name": "Orders from Edoras",
+          "type": "",
+          "text": "May spend a Will Point at the end of his Activation (if not Engaged) to issue one of several one-time orders lasting until end of turn: free Heroic Combat, Fearless, no Move-and-Shoot penalty plus re-roll To Hit, Woodland Creature and Mountain Dweller, or +2\" Move, to friendly Rohan models within 3\"."
+        }
+      ]
+    },
+    {
+      "name": "Rider of Rohan",
+      "points": 14,
+      "keywords": "MAN | ROHAN | WARRIOR, CAVALRY | 40MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 5,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Shield",
+        "Bow",
+        "Horse"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Throwing Spear - 2 points",
+        "Westfold Redshield - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Arise, Riders of Rohan!",
+          "type": "ACTIVE",
+          "text": "If this model is within 12\" of a Rohan General and has the Cavalry keyword, then it gains a bonus of +1 to its Fight Value in a turn in which it Charges."
+        },
+        {
+          "name": "Spear Mastery",
+          "type": "ACTIVE",
+          "text": "This model may use its throwing spear as a normal spear during the Fight Phase, so long as it hasn't made a shooting attack with it in either the preceding Move Phase or Shoot Phase."
+        }
+      ]
+    },
+    {
+      "name": "Rohan Royal Guard",
+      "points": 11,
+      "keywords": "MAN | ROHAN | WARRIOR, INFANTRY, ELITE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "options": [
+        "Horse and Throwing Spear - 7 points",
+        "Horse - 5 points",
+        "Throwing Spear - 2 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Bodyguard",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Arise, Riders of Rohan!",
+          "type": "ACTIVE",
+          "text": "If this model is within 12\" of a Rohan General and has the Cavalry keyword, then it gains a bonus of +1 to its Fight Value in a turn in which it Charges."
+        },
+        {
+          "name": "Spear Mastery",
+          "type": "ACTIVE",
+          "text": "This model may use its throwing spear as a normal spear during the Fight Phase, so long as it hasn't made a shooting attack with it in either the preceding Move Phase or Shoot Phase."
+        }
+      ]
+    },
+    {
+      "name": "Warrior of Rohan",
+      "points": 6,
+      "keywords": "MAN | ROHAN | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "6+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "War Horn, Shield, Throwing Spear - 28 points",
+        "Banner - 25 points",
+        "Shield and Throwing Spear - 3 points",
+        "Shield - 1 point",
+        "Bow - 1 point",
+        "Upgrade to Helmingas - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Spear Mastery",
+          "type": "ACTIVE",
+          "text": "This model may use its throwing spear as a normal spear during the Fight Phase, so long as it hasn't made a shooting attack with it in either the preceding Move Phase or Shoot Phase."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster and points from prancingponypub army-list page. Full stat blocks, wargear, and special-rule text from the matching Rohan faction page. Troop entries (Rider of Rohan, Rohan Royal Guard, Warrior of Rohan) and King's Huntsman cross-referenced against the identical entries already recorded in Kingdom of Rohan.json."
+}

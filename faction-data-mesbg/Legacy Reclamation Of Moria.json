@@ -1,0 +1,233 @@
+{
+  "legion": "Legacy Reclamation Of Moria",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/legacy_reclamation_of_moria/"
+  ],
+  "additionalRules": [
+    "A Reclamation of Moria Army must always contain Balin, who is always the Army's General.",
+    "Ori and Óin gain the Khazad-dûm keyword."
+  ],
+  "specialRules": [
+    {
+      "name": "Reclaim Moria",
+      "type": "",
+      "text": "At the end of the game, if you control more Objective Markers than your opponent (if applicable), or are in possession of more Objective Markers than your opponent (if applicable), you score an additional 2 Victory Points. This can never take this Army's controlling player's total Victory Points above 20. Models that escape the board carrying an Objective Marker count as still being in possession of that Objective Marker for the purpose of this special rule."
+    },
+    {
+      "name": "A Desperate Defence",
+      "type": "",
+      "text": "Whilst this Army is considered to be Broken, friendly models gain a bonus of +1 To Wound when making Strikes."
+    },
+    {
+      "name": "Balin's Last Stand",
+      "type": "",
+      "text": "At the beginning of the Fight Phase, at the start of the Declare Heroic Actions Step, any friendly Dwarf Hero models that would be considered Trapped may declare a Heroic Defence for free, even if they could not normally declare a Heroic Defence."
+    }
+  ],
+  "units": [
+    {
+      "name": "Balin the Dwarf, King of Moria",
+      "points": 110,
+      "heroicTier": "Hero of Legend",
+      "keywords": "DWARF | KHAZAD-DUM | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Dwarf King",
+      "points": 85,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Dwarf Captain",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | KHAZAD-DUM | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Floi Stonehand",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | KHAZAD-DUM | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "King's Champion",
+      "points": 140,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | KHAZAD-DUM | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "5",
+        "D": "7",
+        "A": "3",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Oin the Dwarf, Champion of Erebor",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | EREBOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "1",
+        "Will": "5",
+        "Fate": "1"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Ori the Dwarf, Champion of Erebor",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF | EREBOR | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "4",
+        "Sv": "3+",
+        "S": "3",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Dwarf Shieldbearer",
+      "points": 60,
+      "heroicTier": "Minor Hero",
+      "keywords": "DWARF | KHAZAD-DUM | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "1",
+        "Will": "0",
+        "Fate": "0"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Dwarf Ranger",
+      "points": 8,
+      "keywords": "DWARF | KHAZAD-DUM | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Dwarf Warrior",
+      "points": 8,
+      "keywords": "DWARF | KHAZAD-DUM | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [
+        "War horn - 25 points",
+        "Banner - 25 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Iron Guard",
+      "points": 15,
+      "keywords": "DWARF | KHAZAD-DUM | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Khazad Guard",
+      "points": 12,
+      "keywords": "DWARF | KHAZAD-DUM | WARRIOR, INFANTRY, ELITE | 25MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Legacy Reclamation Of Moria army-list page. Stat blocks and keywords cross-referenced from the Forces of Good faction pages on the same site."
+}

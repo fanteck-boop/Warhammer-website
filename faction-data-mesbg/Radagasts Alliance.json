@@ -1,0 +1,104 @@
+{
+  "legion": "Radagasts Alliance",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/radagasts_alliance/"
+  ],
+  "additionalRules": [
+    "A Radagast's Alliance Army must include Radagast, who is always the Army's General.",
+    "Radagast's Alliance may not include more Fledgeling Great Eagles than Great Eagles."
+  ],
+  "specialRules": [
+    {
+      "name": "\"The Eagles are Coming!\"",
+      "type": "",
+      "text": "Friendly Eagle models gain a bonus of +1 to their Strength on a turn in which they Charge."
+    },
+    {
+      "name": "Beorn's Fury",
+      "type": "",
+      "text": "If Beorn is involved in a Combat and kills every model he was Engaged in Combat with, then in the following turn he may declare a Heroic Move for free."
+    }
+  ],
+  "units": [
+    {
+      "name": "Radagast the Brown",
+      "points": 200,
+      "heroicTier": "Hero of Legend",
+      "keywords": "WIZARD | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "6",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Beorn",
+      "points": 200,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | BEORNING | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "5",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Gwaihir",
+      "points": 200,
+      "heroicTier": "Hero of Valour",
+      "keywords": "EAGLE | MISTY MOUNTAINS | HERO, INFANTRY, MONSTER, UNIQUE | 60MM",
+      "profile": {
+        "Mv": "12\"",
+        "Fv": "8",
+        "Sv": "4+",
+        "S": "6",
+        "D": "8",
+        "A": "3",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Fledgeling Great Eagle",
+      "points": 75,
+      "keywords": "EAGLE | MISTY MOUNTAINS | WARRIOR, INFANTRY, MONSTER | 60MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Great Eagle",
+      "points": 100,
+      "keywords": "EAGLE | MISTY MOUNTAINS | WARRIOR, INFANTRY, MONSTER | 60MM",
+      "profile": {},
+      "wargear": [],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Radagasts Alliance army-list page. Stat blocks and keywords cross-referenced from the Forces of Good faction pages on the same site."
+}

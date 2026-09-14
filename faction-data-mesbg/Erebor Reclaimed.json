@@ -1,0 +1,291 @@
+{
+  "legion": "Erebor Reclaimed",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/erebor_reclaimed/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/dwarven_holds/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/gundabad_and_dol_guldur/"
+  ],
+  "additionalRules": [],
+  "specialRules": [
+    {
+      "name": "\"The Dwarves, they're rallying\"",
+      "type": "",
+      "text": "Any Infantry Hero in this Army may declare a Heroic March, even if it is not listed as one of their Heroic Actions. Additionally, Infantry models in this Army list can still charge after participating in a Heroic March."
+    },
+    {
+      "name": "Family Ties",
+      "type": "",
+      "text": "The Dwarves of Thorin's Company are divided into Family Groups: Balin and Dwalin. Kili and Fili. Bifur, Bofur and Bombur. Ori, Nori and Dori. Oin and Gloin. Hero models from this Army that are within 3\" of another Hero from the same Family Group may spend that model's Might, Will and Fate points as if they were their own."
+    },
+    {
+      "name": "\"To the King!\"",
+      "type": "",
+      "text": "If your Army contains only Hero models with the Infantry keyword at the beginning of the game, then friendly models may re-roll any To Wound Rolls of a natural 1 when making Strikes."
+    }
+  ],
+  "units": [
+    {
+      "name": "Thorin Oakenshield, King Under the Mountain",
+      "points": 130,
+      "heroicTier": "Hero of Legend",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "7", "Sv": "4+", "S": "4", "D": "8", "A": "3", "W": "3", "C": "5+", "Might": "3", "Will": "3", "Fate": "1" },
+      "wargear": ["Heavy Dwarf Armour", "Hand Weapon"],
+      "heroicActions": ["Heroic Strike", "Heroic Strength", "Heroic Challenge", "Heroic March"],
+      "magicalPowers": [],
+      "options": ["Orcrist - 10 points"],
+      "specialRules": [
+        { "name": "Fearless", "type": "", "text": "" },
+        { "name": "Hatred (Gundabad)", "type": "", "text": "" },
+        { "name": "Orcrist", "type": "ACTIVE", "text": "This is a Unique Elven hand-and-a-half weapon. Orcrist has the Orcbane, Goblinbane and Uruk-haibane special rules. Additionally, the wielder of Orcrist has the Terror (Orc), Terror (Goblin) and Terror (Uruk-hai) special rules." },
+        { "name": "Du Bekar", "type": "PASSIVE", "text": "Friendly Dwarf models treat Thorin as a banner." },
+        { "name": "Ancestral Fury", "type": "ACTIVE", "text": "If Thorin Charges into Combat with the Infantry keyword, he may declare a free Heroic Combat in the Fight phase." }
+      ]
+    },
+    {
+      "name": "Balin the Dwarf, Champion of Erebor",
+      "points": 60,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "4", "Sv": "4+", "S": "4", "D": "8", "A": "2", "W": "2", "C": "4+", "Might": "1", "Will": "3", "Fate": "2" },
+      "wargear": ["Heavy Dwarf Armour", "Two-handed Weapon"],
+      "heroicActions": ["Heroic Resolve", "Heroic Defence"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Sworn Protector (Thorin)", "type": "", "text": "" },
+        { "name": "Longbeard", "type": "ACTIVE", "text": "During the Priority Phase, after the roll for Priority has taken place, Balin can spend a Will Point to allow his controlling player to re-roll their roll for Priority." }
+      ]
+    },
+    {
+      "name": "Dain Ironfoot, Lord of the Iron Hills",
+      "points": 160,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, IRON HILLS, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "7", "Sv": "4+", "S": "5", "D": "8", "A": "3", "W": "3", "C": "3+", "Might": "3", "Will": "3", "Fate": "3" },
+      "wargear": ["Heavy Dwarf Armour", "Two-handed Weapon"],
+      "heroicActions": ["Heroic March", "Heroic Strike", "Heroic Strength", "Heroic Challenge"],
+      "magicalPowers": [],
+      "options": ["War Boar - 25 points"],
+      "specialRules": [
+        { "name": "Burly", "type": "", "text": "" },
+        { "name": "Fearless", "type": "", "text": "" },
+        { "name": "Lord of the Iron Hills", "type": "PASSIVE", "text": "Friendly Iron Hills models within 12\" of Dain automatically pass all Courage Tests they are required to take." },
+        { "name": "Fiery Temper", "type": "ACTIVE", "text": "After Dain has killed an enemy model, then from that point onwards whenever Dain Moves, he must always Charge an enemy model if possible." },
+        { "name": "Fearsome Charge", "type": "PASSIVE", "text": "If Dain Charges into Combat, then until the end of turn he counts as having the Terror special rule." },
+        { "name": "Headbutt", "type": "ACTIVE", "text": "If Dain wins a Duel Roll but fails to slay every enemy model involved in the Combat, he may choose a single enemy model on a 25mm base involved in the Combat and roll a D6. On a 5+, the chosen model is immediately knocked Prone." },
+        { "name": "War Boar (Mount)", "type": "", "text": "BOAR | MOUNT. Mv 8\", Fv 4, Sv 6+, S 4, D 6, A 0, W 2, C 7+, I 9+." }
+      ]
+    },
+    {
+      "name": "Dwalin the Dwarf, Champion of Erebor",
+      "points": 110,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "6", "Sv": "4+", "S": "5", "D": "8", "A": "2", "W": "2", "C": "4+", "Might": "3", "Will": "2", "Fate": "2" },
+      "wargear": ["Heavy Dwarf Armour", "Grasper & Keeper", "Two-handed Weapon"],
+      "heroicActions": ["Heroic Strike", "Heroic Strength"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Burly", "type": "", "text": "" },
+        { "name": "Fearless", "type": "", "text": "" },
+        { "name": "Sworn Protector (Thorin)", "type": "", "text": "" },
+        { "name": "Grasper & Keeper", "type": "ACTIVE", "text": "These are Unique hand weapons. Additionally, a model gains a bonus of +1 to its Attacks characteristic when using Grasper & Keeper, and any To Wound Rolls of a natural 6 that are not prevented will deal 2 Wounds rather than 1." },
+        { "name": "Weapon Master", "type": "ACTIVE", "text": "Dwalin is never considered Unarmed." },
+        { "name": "The King's Axemen", "type": "ACTIVE", "text": "At the beginning of a Combat, so long as he is within 3\" of Thorin, Dwalin can use this special rule. If he does, Dwalin increases his Strength by 1 when making Strikes should he win the Duel Roll; however, if he loses the Duel Roll he will reduce his Defence by D3 until the end of the Combat." }
+      ]
+    },
+    {
+      "name": "Fili the Dwarf, Champion of Erebor",
+      "points": 70,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "5", "Sv": "3+", "S": "4", "D": "8", "A": "2", "W": "2", "C": "5+", "Might": "3", "Will": "2", "Fate": "1" },
+      "wargear": ["Heavy Dwarf Armour", "Hand Weapon"],
+      "heroicActions": ["Heroic Strike", "Heroic Strength"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Sworn Protector (Thorin)", "type": "", "text": "" },
+        { "name": "Combat Synergy", "type": "ACTIVE", "text": "At the start of any phase, before the Declare Heroic Actions step, if Kili and Fili are within 1\" of each other, then they can swap places and not have it count as Moving. If they do this, then during the Fight phase of that turn they may re-roll a single D6 in the Duel roll." }
+      ]
+    },
+    {
+      "name": "Kili the Dwarf, Champion of Erebor",
+      "points": 70,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "5", "Sv": "3+", "S": "4", "D": "8", "A": "2", "W": "2", "C": "5+", "Might": "3", "Will": "2", "Fate": "1" },
+      "wargear": ["Heavy Dwarf Armour", "Hand Weapon"],
+      "heroicActions": ["Heroic Strike", "Heroic Challenge"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Sworn Protector (Thorin)", "type": "", "text": "" },
+        { "name": "Combat Synergy", "type": "ACTIVE", "text": "At the start of any Phase, before the Declare Heroic Actions step, if Kili and Fili are within 1\" of each other then they can swap places with each other - this does not count as Moving. If they have used this special rule during a turn, then during the Fight Phase of that turn they may each re-roll a single D6 when making a Duel Roll." }
+      ]
+    },
+    {
+      "name": "Bifur the Dwarf, Champion of Erebor",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "5", "Sv": "3+", "S": "4", "D": "8", "A": "2", "W": "2", "C": "5+", "Might": "1", "Will": "2", "Fate": "2" },
+      "wargear": ["Heavy Dwarf Armour", "Two-handed Weapon"],
+      "heroicActions": ["Heroic Strength"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Throw Stones (range 8\", Strength 2)", "type": "", "text": "" },
+        { "name": "Sworn Protector (Thorin)", "type": "", "text": "" },
+        { "name": "Embedded Axe", "type": "ACTIVE", "text": "If Bifur wins a Duel Roll, then he may choose to headbutt an enemy model instead of making Strikes, dealing a Strength 4 Strike. If he Wounds the chosen model, then from that point on at the start of each Move Phase, Bifur may take an Intelligence Test; if passed, Bifur may declare a Heroic Move that turn for free." }
+      ]
+    },
+    {
+      "name": "Bofur the Dwarf, Champion of Erebor",
+      "points": 65,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "8", "A": "2", "W": "2", "C": "5+", "Might": "2", "Will": "1", "Fate": "2" },
+      "wargear": ["Heavy Dwarf Armour", "Two-handed Weapon", "Throwing Weapons"],
+      "heroicActions": ["Heroic Resolve"],
+      "magicalPowers": [],
+      "options": ["Troll Brute - 100 points (Bofur replaces the Orc Commander)"],
+      "specialRules": [
+        { "name": "Sworn Protector (Thorin)", "type": "", "text": "" },
+        { "name": "Steadfast", "type": "ACTIVE", "text": "Whenever a friendly Erebor Hero within 3\" of Bofur is affected by an enemy special rule or Magical Power, they may roll a D6. On a 3+, the model will ignore its effects." }
+      ]
+    },
+    {
+      "name": "Troll Brute",
+      "points": 120,
+      "keywords": "TROLL | GUNDABAD | WAR BEAST | 80MM",
+      "profile": { "Mv": "6\"", "Fv": 5, "Sv": "6+", "S": 7, "D": 6, "A": 3, "W": 4, "C": "6+", "I": "9+" },
+      "wargear": ["Hand Weapons"],
+      "specialRules": [
+        { "name": "Dominant (5)", "type": "", "text": "" },
+        { "name": "Terror", "type": "", "text": "" },
+        { "name": "Fearless", "type": "", "text": "" },
+        { "name": "Large Target", "type": "", "text": "" },
+        { "name": "Trample", "type": "ACTIVE", "text": "When a Troll Brute Tramples, it will inflict 2 Strength 10 Impact hits." },
+        { "name": "Orc Commander (Crew, replaced by Bofur in this list)", "type": "", "text": "Mv 6\", Fv 5, Sv 5+, S 5, D 6, A 2, W 2, C 6+, I 7+, M 1, Will 1, Fate 1. Wargear: Heavy Armour, Hand Weapon. Heroic Actions: Heroic March. Special Rules: Ancient Enemies (Dwarf), Ancient Enemies (Elf)." }
+      ]
+    },
+    {
+      "name": "Bombur the Dwarf, Champion of Erebor",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "4", "Sv": "4+", "S": "4", "D": "7", "A": "2", "W": "3", "C": "6+", "Might": "1", "Will": "3", "Fate": "2" },
+      "wargear": ["Heavy Dwarf Armour", "Flail"],
+      "heroicActions": ["Heroic Defence"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Dominant (2)", "type": "", "text": "" },
+        { "name": "Sworn Protector (Thorin)", "type": "", "text": "" },
+        { "name": "Lumbering", "type": "PASSIVE", "text": "Bombur may not declare Heroic Moves. Additionally, if Bombur rolls a natural 6 on a Jump, Climb, Leap or Swim Test, then he must re-roll the result." },
+        { "name": "Raising Spirits", "type": "ACTIVE", "text": "Once per turn, during his Activation, Bombur can choose a friendly Erebor Hero model within 3\" and roll a D6. On a 4+, the chosen model regains a single Will Point spent earlier in the battle." },
+        { "name": "Flail", "type": "ACTIVE", "text": "This is a hand-and-a-half weapon. Additionally, if the bearer wins a Duel Roll, then they can either make Strikes as normal or make a single Strike against each enemy model that was involved in the Combat." }
+      ]
+    },
+    {
+      "name": "Dori the Dwarf, Champion of Erebor",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "8", "A": "2", "W": "2", "C": "5+", "Might": "2", "Will": "2", "Fate": "2" },
+      "wargear": ["Heavy Dwarf Armour", "Two-handed Weapon"],
+      "heroicActions": ["Heroic Resolve", "Heroic Strength"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Sworn Protector (Thorin)", "type": "", "text": "" },
+        { "name": "A Good Sort", "type": "PASSIVE", "text": "Whilst within 3\" of either Ori or Nori, Dori increases his Attacks to 3 and may re-roll any rolls of a 1 in his Duel rolls." }
+      ]
+    },
+    {
+      "name": "Gloin the Dwarf, Champion of Erebor",
+      "points": 100,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "6", "Sv": "4+", "S": "4", "D": "8", "A": "3", "W": "2", "C": "5+", "Might": "3", "Will": "2", "Fate": "3" },
+      "wargear": ["Heavy Dwarf Armour", "Two-handed Weapon"],
+      "heroicActions": ["Heroic Strike", "Heroic Strength"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Sworn Protector (Thorin)", "type": "", "text": "" },
+        { "name": "Axe Mastery", "type": "ACTIVE", "text": "If Gloin is outnumbered in a Combat, he increases his Attacks to 4 for the duration of the Combat." }
+      ]
+    },
+    {
+      "name": "Iron Hills Captain",
+      "points": 80,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, IRON HILLS, HERO, INFANTRY",
+      "profile": { "Mv": "5\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "8", "A": "2", "W": "2", "C": "5+", "Might": "2", "Will": "1", "Fate": "1" },
+      "wargear": ["Heavy Armour", "Spear", "Hand Weapon", "Shield"],
+      "heroicActions": ["Heroic March"],
+      "magicalPowers": [],
+      "options": ["Exchange Shield and Spear for Mattock - Free", "Iron Hills Chariot - 170 points"],
+      "specialRules": [
+        { "name": "Master of Battle (5+)", "type": "", "text": "" },
+        { "name": "Shieldwall", "type": "", "text": "" },
+        { "name": "Mattock", "type": "ACTIVE", "text": "This is a two-handed weapon. If a model wielding a Mattock wins a Duel Roll they may choose to try to knock down an enemy model instead of making Strikes." }
+      ]
+    },
+    {
+      "name": "Nori the Dwarf, Champion of Erebor",
+      "points": 75,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "5", "Sv": "4+", "S": "4", "D": "9", "A": "3", "W": "2", "C": "5+", "Might": "2", "Will": "2", "Fate": "2" },
+      "wargear": ["Heavy Dwarf Armour", "Hand Weapon", "Shield", "Throwing Weapons"],
+      "heroicActions": ["Heroic Strike"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Sworn Protector (Thorin)", "type": "", "text": "" },
+        { "name": "Weapon Master", "type": "ACTIVE", "text": "Nori is never considered Unarmed." },
+        { "name": "\"Just a couple of keepsakes\"", "type": "ACTIVE", "text": "Whilst Nori is carrying an Objective in Scenarios where this applies, he may re-roll all failed To Wound Rolls when making Strikes. However, Nori may never pass an Objective Marker to a friendly model." }
+      ]
+    },
+    {
+      "name": "Oin the Dwarf, Champion of Erebor",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "4", "Sv": "4+", "S": "4", "D": "8", "A": "2", "W": "2", "C": "4+", "Might": "1", "Will": "5", "Fate": "1" },
+      "wargear": ["Heavy Dwarf Armour", "Shield", "Hand Weapon", "Hearing Trumpet"],
+      "heroicActions": ["Heroic Defence"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Sworn Protector (Thorin)", "type": "", "text": "" },
+        { "name": "Healing Herbs", "type": "ACTIVE", "text": "At any point during his Activation, Oin can choose a friendly Thorin's Company model in base contact and roll a D6. On a 4+, the chosen model immediately regains a Wound lost earlier in the battle. Once per turn." },
+        { "name": "Reading the Portents", "type": "ACTIVE", "text": "During the Fight Phase, Oin can spend a Will Point to allow a friendly Thorin's Company model within 6\" to re-roll a single dice during their Duel Roll." },
+        { "name": "Hearing Trumpet", "type": "ACTIVE", "text": "Whenever an enemy Hero declares a Heroic Action within 6\" of Oin, roll a D6. On a 5+, Oin may immediately declare the same Heroic Action for free. On a natural 1, Oin immediately loses a Will Point (or cannot Move that turn)." }
+      ]
+    },
+    {
+      "name": "Ori the Dwarf, Champion of Erebor",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "DWARF, EREBOR, HERO, INFANTRY, UNIQUE",
+      "profile": { "Mv": "5\"", "Fv": "4", "Sv": "3+", "S": "3", "D": "7", "A": "2", "W": "2", "C": "6+", "Might": "2", "Will": "2", "Fate": "2" },
+      "wargear": ["Heavy Dwarf Armour", "Two-handed Weapon", "Throwing Weapons"],
+      "heroicActions": ["Heroic Defence"],
+      "magicalPowers": [],
+      "specialRules": [
+        { "name": "Sworn Protector (Thorin)", "type": "", "text": "" },
+        { "name": "Chronicler", "type": "ACTIVE", "text": "Whenever a friendly Thorin's Company model within 6\" and Line of Sight of Ori slays an enemy Hero or Monster, then that model may immediately regain a single point of either Might, Will or Fate spent earlier in the battle." },
+        { "name": "Protect the Young", "type": "PASSIVE", "text": "Other friendly Erebor Hero models within 6\" of Ori do not suffer the -1 penalty to their Duel roll for using a two-handed weapon." }
+      ]
+    },
+    {
+      "name": "Iron Hills Warrior",
+      "points": 10,
+      "keywords": "DWARF | IRON HILLS | WARRIOR, INFANTRY | 25MM",
+      "profile": { "Mv": "5\"", "Fv": 4, "Sv": "4+", "S": 4, "D": 6, "A": 1, "W": 1, "C": "6+", "I": "6+" },
+      "wargear": ["Heavy Armour", "Hand Weapon"],
+      "options": ["Banner and Shield - 26 points", "Banner - 25 points", "Shield and Spear - 2 points", "Crossbow - 2 points", "Mattock - 1 point"],
+      "specialRules": [
+        { "name": "Shieldwall", "type": "", "text": "" },
+        { "name": "Mattock", "type": "ACTIVE", "text": "This is a two-handed weapon. If a model wielding a Mattock wins a Duel Roll they may choose to try to knock down an enemy model instead of making Strikes." }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Erebor Reclaimed army-list page. Full stat blocks and special-rule text from the matching Dwarven Holds faction page; the Troll Brute (a mercenary hire for Bofur's warband) from the Gundabad & Dol Guldur faction page."
+}

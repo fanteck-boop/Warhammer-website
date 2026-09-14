@@ -1,0 +1,247 @@
+{
+  "legion": "The Fellowship",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/the_fellowship/"
+  ],
+  "additionalRules": [
+    "The Fellowship is always deployed as a single Warband."
+  ],
+  "specialRules": [
+    {
+      "name": "\"You have my sword\"",
+      "type": "",
+      "text": "So long as Frodo is alive and on the battlefield, friendly Fellowship models gain the Fearless special rule. Additionally, a Fellowship Army can never be considered Broken whilst Frodo is alive, even if he escapes the battlefield in Scenarios where this applies."
+    },
+    {
+      "name": "The Bond of Fellowship",
+      "type": "",
+      "text": "Friendly models within 3\" of another friendly Fellowship model may re-roll a single failed To Wound roll when making Strikes."
+    },
+    {
+      "name": "Traverse the Wilderness",
+      "type": "",
+      "text": "Friendly Fellowship models gain the Woodland Creature and Mountain Dweller special rules."
+    }
+  ],
+  "units": [
+    {
+      "name": "Gandalf the Grey",
+      "points": 170,
+      "heroicTier": "Hero of Legend",
+      "keywords": "WIZARD | THORIN'S COMPANY | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "3",
+        "C": "3+",
+        "Might": "3",
+        "Will": "6",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Aragorn, Strider",
+      "points": 160,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | FELLOWSHIP, DUNEDAIN | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Bow - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Boromir of Gondor",
+      "points": 95,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | FELLOWSHIP | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "6",
+        "Will": "1",
+        "Fate": "0"
+      },
+      "wargear": [
+        "Horse - 20 points",
+        "Shield - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Gimli",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "DWARF | FELLOWSHIP | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "5\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Legolas",
+      "points": 100,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ELF | FELLOWSHIP | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "2+",
+        "S": "4",
+        "D": "4",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "3"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Frodo Baggins",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "HOBBIT | FELLOWSHIP | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Mithril Coat - 15 points",
+        "Sting - 5 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Samwise Gamgee",
+      "points": 40,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "HOBBIT | FELLOWSHIP | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "2",
+        "W": "2",
+        "C": "4+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Bill the Pony",
+      "points": 25,
+      "heroicTier": "Independent Hero",
+      "keywords": "PONY | FELLOWSHIP | HERO, INFANTRY, BEAST, UNIQUE | 40MM",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": "2",
+        "Sv": "6+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "6+",
+        "Might": "0",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Meriadoc Brandybuck",
+      "points": 10,
+      "heroicTier": "Independent Hero",
+      "keywords": "MAN | ROHAN | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "5+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    },
+    {
+      "name": "Peregrin Took",
+      "points": 10,
+      "heroicTier": "Independent Hero",
+      "keywords": "HOBBIT | SHIRE | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "4\"",
+        "Fv": "3",
+        "Sv": "3+",
+        "S": "2",
+        "D": "3",
+        "A": "1",
+        "W": "1",
+        "C": "6+",
+        "Might": "0",
+        "Will": "0",
+        "Fate": "2"
+      },
+      "wargear": [],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub The Fellowship army-list page. Stat blocks and keywords cross-referenced from the Forces of Good faction pages on the same site."
+}

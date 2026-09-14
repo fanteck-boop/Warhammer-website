@@ -1,0 +1,382 @@
+{
+  "legion": "Arnor",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/arnor/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/arnor_and_angmar/"
+  ],
+  "additionalRules": [
+    "An Arnor Army must always contain Arvedui, who is always the Army's General.",
+    "Friendly Rangers of the North gain the Arnor keyword."
+  ],
+  "specialRules": [
+    {
+      "name": "Defend the King",
+      "type": "",
+      "text": "Whilst within 6\" of Arvedui, friendly Arnor models automatically pass any Courage Tests they are required to take."
+    },
+    {
+      "name": "Power of the Seer",
+      "type": "",
+      "text": "Friendly Arnor Hero models receive a bonus of +1 when rolling for Malbeth's Gift of Foresight special rule."
+    },
+    {
+      "name": "Seeing Stones",
+      "type": "ACTIVE",
+      "text": "Once per game, during the Priority Phase but before the roll for Priority, so long as Arvedui is alive and on the battlefield, his controlling player automatically wins the roll to choose who has Priority for that turn. If both sides have a similar rule and both wish to use it, players roll off as normal."
+    }
+  ],
+  "units": [
+    {
+      "name": "Arvedui, Last King of Arnor",
+      "points": 80,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN, ARNOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "6",
+        "A": "3",
+        "W": "2",
+        "C": "5",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Hatred (Angmar)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "The King in the North",
+          "type": "ACTIVE",
+          "text": "The range of Arvedui's Stand Fast is 12\", rather than 6\"."
+        }
+      ]
+    },
+    {
+      "name": "Aranarth",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, ARNOR, DUNEDAIN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Bow"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Expert Shot",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Hatred (Angmar)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Sharpshooter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Remnants of Arnor",
+          "type": "",
+          "text": "Friendly Dunedain models treat Aranarth as a banner. Additionally, all Dunedain models in the same Army List as Aranarth gain the Arnor keyword."
+        }
+      ]
+    },
+    {
+      "name": "Argadir",
+      "points": 85,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ARNOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "6",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield",
+        "War Spear",
+        "Horse"
+      ],
+      "heroicActions": [
+        "Heroic March",
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Expert Rider",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Hatred (Angmar)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Master of Battle (5+)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Captain of Arnor",
+      "points": 60,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ARNOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "7",
+        "A": "2",
+        "W": "2",
+        "C": "7",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Hatred (Angmar)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Malbeth the Seer",
+      "points": 80,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, ARNOR, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "4+",
+        "S": "3",
+        "D": "4",
+        "A": "1",
+        "W": "2",
+        "C": "6",
+        "Might": "1",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Resolve"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Gift of Foresight",
+          "type": "ACTIVE",
+          "text": "Whenever a friendly Arnor model within 6\" and Line of Sight of Malbeth suffers a Wound, roll a D6. On a 5+ the Wound is prevented and ignored. A Hero may still use Fate Points if this roll fails."
+        },
+        {
+          "name": "Foresight of the Eldar",
+          "type": "ACTIVE",
+          "text": "At the start of the game, roll a D6 to set Malbeth's store of Foresight Points. During the Priority roll, so long as he is alive, he may spend these points to add 1 each to his side's Priority roll, up to a maximum of 6."
+        }
+      ]
+    },
+    {
+      "name": "Ranger of the North",
+      "points": 25,
+      "heroicTier": "Independent Hero",
+      "keywords": "MAN, ARNOR, DUNEDAIN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "1",
+        "W": "1",
+        "C": "6",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Bow"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Armour - 5 points",
+        "Spear - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader. They may, however, be included in another Hero model's warband as one of their followers."
+        }
+      ]
+    },
+    {
+      "name": "Knight of Arnor",
+      "points": 15,
+      "keywords": "MAN | ARNOR | WARRIOR, CAVALRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Shield",
+        "War Spear",
+        "Horse"
+      ],
+      "specialRules": [
+        {
+          "name": "Hatred (Angmar)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Ranger of Arnor",
+      "points": 8,
+      "keywords": "MAN | ARNOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "3+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "7+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Bow"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "War horn - 25 points",
+        "Spear - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Hatred (Angmar)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "name": "Warrior of Arnor",
+      "points": 8,
+      "keywords": "MAN | ARNOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 3,
+        "D": 6,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Spear",
+        "Shield"
+      ],
+      "options": [
+        "Swap spear and shield for banner - 25 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Hatred (Angmar)",
+          "type": "",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Arnor army-list page. Full stat blocks, wargear, and special-rule text from the matching Arnor & Angmar faction page on the same site."
+}

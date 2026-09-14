@@ -1,0 +1,158 @@
+{
+  "legion": "Arathorn's Stand",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/good_army_list/arathorns_stand/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_good/arnor_and_angmar/"
+  ],
+  "additionalRules": [
+    "An Arathorn's Stand Army must always contain Arathorn, who is always the Army's General."
+  ],
+  "specialRules": [
+    {
+      "name": "\"They're dangerous folk, wandering the wilds\"",
+      "type": "",
+      "text": "Friendly Rangers of the North increase their Attacks value to 2."
+    },
+    {
+      "name": "Silent Ambush",
+      "type": "",
+      "text": "In Scenarios where you roll for Warbands to arrive, or to see which part of the board a Warband deploys in (not deployment zone rolls), this Army may modify the roll by +1 or -1."
+    }
+  ],
+  "units": [
+    {
+      "name": "Arathorn, Chieftain of the Dunedain",
+      "points": 80,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN, DUNEDAIN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "3",
+        "W": "2",
+        "C": "5",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Bow"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Heir of Isildur",
+          "type": "ACTIVE",
+          "text": "Whenever Arathorn spends a Might Point, roll a D6. On a 4+ the point is free and does not reduce his store of Might."
+        },
+        {
+          "name": "Chieftain of the Dunedain",
+          "type": "ACTIVE",
+          "text": "Friendly Dunedain Hero models may benefit from Arathorn's Stand Fast."
+        }
+      ]
+    },
+    {
+      "name": "Halbarad",
+      "points": 70,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN, DUNEDAIN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "3+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "4",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Bow"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Banner of Arwen Evenstar - 40 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Banner of Arwen Evenstar",
+          "type": "PASSIVE",
+          "text": "A banner with 6\" range rather than 3\"; Halbarad suffers no Duel Roll penalty for carrying it. Friendly models within 6\" and Line of Sight automatically pass Courage tests."
+        }
+      ]
+    },
+    {
+      "name": "Ranger of the North",
+      "points": 25,
+      "heroicTier": "Independent Hero",
+      "keywords": "MAN, DUNEDAIN, INFANTRY, HERO",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "3+",
+        "S": "4",
+        "D": "4",
+        "A": "1",
+        "W": "1",
+        "C": "6",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Bow"
+      ],
+      "heroicActions": [
+        "Heroic Accuracy"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Armour - 5 points",
+        "Spear - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Woodland Creature",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Independent Hero",
+          "type": "",
+          "text": "Independent Heroes may not lead troops and may not be the army's leader. They may, however, be included in another Hero model's warband as one of their followers."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from prancingponypub army-list page. Full stat blocks, wargear, and special-rule text from the matching Arnor & Angmar faction page (stat blocks are hosted per-faction, not per army-list, on this site)."
+}

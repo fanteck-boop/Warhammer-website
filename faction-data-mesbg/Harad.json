@@ -1,0 +1,231 @@
+{
+  "legion": "Harad",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/harad/"
+  ],
+  "additionalRules": [
+    "A Harad Army may have up to 50% of its Warrior models armed with bows rather than the usual 33%."
+  ],
+  "specialRules": [
+    {
+      "name": "War Beasts from the South",
+      "type": "",
+      "text": "Friendly Mûmak models gain the Harbinger of Evil (12\") special rule."
+    },
+    {
+      "name": "The Scorpion's Sting",
+      "type": "",
+      "text": "Friendly models with the Poisoned Attacks (bow) special rule exchange it for Poisoned Attacks on all of their weapons."
+    },
+    {
+      "name": "Monstrous Rampage",
+      "type": "",
+      "text": "Each Hero that is commanding a Mûmak can, once per game, declare a Heroic Combat for free whilst atop a Mûmak."
+    }
+  ],
+  "units": [
+    {
+      "name": "Mumak War Leader",
+      "points": 400,
+      "heroicTier": "Hero of Legend",
+      "keywords": "MAN | HARAD | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "3+",
+        "S": "5",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "4+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Haradrim King",
+      "points": 70,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | HARAD | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "5+",
+        "Might": "2",
+        "Will": "2",
+        "Fate": "2"
+      },
+      "options": [
+        "Horse: 20"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "The Betrayer",
+      "points": 130,
+      "heroicTier": "Hero of Valour",
+      "keywords": "SPIRIT, RINGWRAITH | MORDOR, HARAD | HERO, INFANTRY, UNIQUE | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "8",
+        "A": "1",
+        "W": "1",
+        "C": "4+",
+        "Might": "2",
+        "Will": "14",
+        "Fate": "2"
+      },
+      "options": [
+        "Horse: 20"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "The Golden King of Abrakhan",
+      "points": 130,
+      "heroicTier": "Hero of Valour",
+      "keywords": "MAN | HARAD | HERO, INFANTRY, UNIQUE | 50MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "4",
+        "W": "4",
+        "C": "6+",
+        "Might": "2",
+        "Will": "6",
+        "Fate": "2"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "Haradrim Chieftain",
+      "points": 50,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | HARAD | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "options": [
+        "Bow: 5"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Haradrim Taskmaster",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MAN | HARAD | HERO, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "4+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "specialRules": []
+    },
+    {
+      "name": "War Mumak of Harad",
+      "points": 250,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "MUMAK | HARAD | WAR BEAST | 180X140MM",
+      "profile": {
+        "Mv": "8\"",
+        "Fv": "4",
+        "Sv": "6+",
+        "S": "10",
+        "D": "7",
+        "A": "3",
+        "W": "10",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "options": [
+        "Gnarled Hide: 25",
+        "Mahud Beastmaster Chieftain: 25",
+        "Rocks: 20",
+        "Sigils of Defiance: 20",
+        "Tusk Weapons: 20",
+        "Foul Temperament: 15",
+        "Rappelling Lines: 10"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Abrakhan Merchant Guard",
+      "points": 9,
+      "keywords": "MAN | HARAD | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "specialRules": []
+    },
+    {
+      "name": "Haradrim Raider",
+      "points": 11,
+      "keywords": "MAN | HARAD | WARRIOR, CAVALRY | 25MM",
+      "profile": {},
+      "options": [
+        "Banner: 25",
+        "Bow & war spear: 2",
+        "Bow: 1",
+        "War spear: 1"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Haradrim Warrior",
+      "points": 6,
+      "keywords": "MAN | HARAD | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "options": [
+        "War horn: 25",
+        "Banner: 25",
+        "Bow: 1",
+        "Spear: 1"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Watcher of Karna",
+      "points": 9,
+      "keywords": "MAN | HARAD | WARRIOR, INFANTRY | 25MM",
+      "profile": {},
+      "options": [
+        "Bow: 1",
+        "Twin Blades: 1"
+      ],
+      "specialRules": []
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Harad army-list page. Stat blocks and keywords cross-referenced from the Forces of Evil faction pages on the same site."
+}

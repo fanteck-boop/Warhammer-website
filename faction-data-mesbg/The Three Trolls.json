@@ -1,0 +1,262 @@
+{
+  "legion": "The Three Trolls",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/the_three_trolls/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/the_misty_mountains/"
+  ],
+  "additionalRules": [
+    "The Three Trolls must always include Bill, Bert and Tom. Bill is always the Army's General.",
+    "A Three Trolls Army may have Bill, Bert and Tom in the same Warband, with Bill as the Warband's Captain."
+  ],
+  "specialRules": [
+    {
+      "name": "The Campfire",
+      "type": "",
+      "text": "After both Armies have been deployed, you may place the Campfire anywhere on the battlefield outside of your opponent's deployment zone. The Campfire is on an 80mm base, and must be placed flat on the battlefield. Friendly Troll models treat the Campfire as a banner with a range of 6\", and gain the Resistant to Magic special rule and a bonus of +1 to any Courage Tests whilst within 6\" of it."
+    },
+    {
+      "name": "A Troll's Hoard",
+      "type": "",
+      "text": "The Three Trolls Army works in an unusual way in that they are allowed to purchase additional special rules. Each of the special rules listed below can be purchased for 50 points, allowing The Three Trolls to be taken at many different points values and not just at 400 points."
+    },
+    {
+      "name": "Full Bellies",
+      "type": "",
+      "text": "Bill, Bert and Tom increase their starting Might, Will and Fate Points to 3."
+    },
+    {
+      "name": "Stone Troll Endurance",
+      "type": "",
+      "text": "Each time Bill, Bert or Tom is wounded, roll a D6. On a natural 6, the Wound is ignored."
+    },
+    {
+      "name": "Nothing like a warm fire",
+      "type": "",
+      "text": "The range of the Campfire's effects are increased from 6\" to 18\". Additionally, as long as there are no enemy models in base contact with the Campfire at the end of the game, the Campfire will count as a banner for the purpose of Victory Points in Scenarios that award Victory Points for having a banner left alive."
+    },
+    {
+      "name": "Rumbling Momentum",
+      "type": "",
+      "text": "Bill, Bert and Tom increase their Attacks to 4 on a turn in which they Charge."
+    },
+    {
+      "name": "Bowl them over",
+      "type": "",
+      "text": "Instead of using their Throw Stones special rule as normal, Bill, Bert and Tom may use stones in the same way as a Throwing Weapon. These have a Strength of 8 and a range of 12\". Additionally, Bill, Bert and Tom may re-roll the dice when determining the Hurl Distance when using the Hurl Brutal Power Attack."
+    },
+    {
+      "name": "Dominant presence",
+      "type": "",
+      "text": "Whilst either Bill, Bert or Tom are within 3\" of an Objective Marker, they are automatically considered to be holding it and the opposition are considered to have no models within range of the Objective Marker. If models from both sides have a special rule that confers this effect, and the applicable models are within range of the same Objective Marker, then neither Army will get their corresponding special rule."
+    },
+    {
+      "name": "Savvy Fighters",
+      "type": "",
+      "text": "Bill, Bert and Tom all gain Heroic Strike if they didn't already have it. Additionally, whenever an enemy model Engaged in Combat with Bill, Bert or Tom declares a Heroic Strike, roll a D6. On a 4+, the Troll in the same fight may declare a Heroic Strike for free."
+    },
+    {
+      "name": "Tasty Livestock",
+      "type": "",
+      "text": "After both sides have deployed, but before the first turn begins, a player using The Three Trolls may place four 25mm Livestock Markers on the board. Livestock Markers cannot be set up within 3\" of an enemy model or Objective Marker, and cannot be set up within 6\" of the edge of the board or another Livestock Marker. If, during their Activation, Bill, Bert or Tom are within 3\" of a friendly Livestock Marker they can remove it from the battlefield and immediately regain 1 Wound lost earlier in the battle."
+    },
+    {
+      "name": "Cover of Darkness",
+      "type": "",
+      "text": "At the start of each game using this Army List, you may choose for the Scenario to take place at night if you wish. Additionally, Bill, Bert and Tom gain the Cave Dweller special rule."
+    },
+    {
+      "name": "Troll Cunning",
+      "type": "",
+      "text": "Bill, Bert and Tom can never be Trapped whilst still standing. Additionally, Bill, Bert and Tom may re-roll any failed To Wound Rolls when making Strikes against a Trapped model."
+    },
+    {
+      "name": "Kitchen Utensils",
+      "type": "",
+      "text": "Bill, Bert and Tom may re-roll any To Wound Rolls of a natural 1 when making Strikes."
+    },
+    {
+      "name": "\"That's Mine That Is!\"",
+      "type": "",
+      "text": "At the start of their Activation, Bill, Bert or Tom may place a single 25mm Stash Marker in base contact with themself. Each Troll may only have a single Stash Marker on the board at a time. If a Stash Marker is within range of an Objective Marker, then it will count as a single friendly Warrior model for the purposes of working out how many models control that Objective Marker. An enemy model may remove a Stash Marker if they are in base contact with it during the End Phase of any turn, provided they have not Cast any Magical Powers, used a Missile Weapon, been Engaged in Combat, Supported a Combat, been rendered unable to Move that turn due to a special rule or result of a test (such as a Thrown Rider test) or been under the effects of an enemy Magical Power that turn."
+    }
+  ],
+  "units": [
+    {
+      "name": "Bill the Troll",
+      "points": 150,
+      "heroicTier": "Hero of Valour",
+      "keywords": "TROLL, TROLLSHAWS, HERO, INFANTRY, MONSTER, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "8",
+        "Sv": "4+",
+        "S": "7",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "6+",
+        "Might": "3",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Club or fork (counts as Dagger)"
+      ],
+      "heroicActions": [
+        "Heroic Challenge",
+        "Heroic Strike"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Dominant (5)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Large Target",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 12\", Strength 8)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Keep 'em for Later",
+          "type": "ACTIVE",
+          "text": "If this model wins a Duel Roll, they may choose a single enemy model on a 25mm base instead of making Strikes or using a Brutal Power Attack. The chosen model is stuffed into a bag and suffers the effects of the Paralyse Magical Power; however, the effects will not immediately end should this model have no Will Points or be slain. If the model is still Paralysed at the end of the game, then they will count as slain and be removed as a casualty."
+        },
+        {
+          "name": "Mince 'em Fine",
+          "type": "BRUTAL POWER ATTACK",
+          "text": "Instead of making Strikes, Bill may choose a single enemy model involved in the Combat. Bill and the chosen model both roll a D6 and add their respective Strength characteristics. If Bill scores higher after adding Strength characteristics, then the chosen model suffers a number of Wounds equal to the difference between the two scores."
+        }
+      ]
+    },
+    {
+      "name": "Bert the Troll",
+      "points": 130,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "TROLL, TROLLSHAWS, HERO, INFANTRY, MONSTER, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "7",
+        "D": "7",
+        "A": "3",
+        "W": "3",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Defence",
+        "Heroic Strength"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Dominant (3)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Large Target",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 12\", Strength 8)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Keep 'em for Later",
+          "type": "ACTIVE",
+          "text": "If this model wins a Duel Roll, they may choose a single enemy model on a 25mm base instead of making Strikes or using a Brutal Power Attack. The chosen model is stuffed into a bag and suffers the effects of the Paralyse Magical Power; however, the effects will not immediately end should this model have no Will Points or be slain. If the model is still Paralysed at the end of the game, then they will count as slain and be removed as a casualty."
+        }
+      ]
+    },
+    {
+      "name": "Tom the Troll",
+      "points": 120,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "TROLL, TROLLSHAWS, HERO, INFANTRY, MONSTER, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "6",
+        "D": "6",
+        "A": "3",
+        "W": "3",
+        "C": "7+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Defence"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Dominant (3)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Large Target",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Throw Stones (range 12\", Strength 8)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Keep 'em for Later",
+          "type": "ACTIVE",
+          "text": "If this model wins a Duel Roll, they may choose a single enemy model on a 25mm base instead of making Strikes or using a Brutal Power Attack. The chosen model is stuffed into a bag and suffers the effects of the Paralyse Magical Power; however, the effects will not immediately end should this model have no Will Points or be slain. If the model is still Paralysed at the end of the game, then they will count as slain and be removed as a casualty."
+        },
+        {
+          "name": "Lingering Cold",
+          "type": "ACTIVE",
+          "text": "At the start of any Combat involving Tom, he may spend a Will Point to use this special rule. If he does, he may choose a single enemy model he is Engaged in Combat with. The chosen model immediately halves their Fight Value until the end of the turn."
+        },
+        {
+          "name": "Squash 'em into jelly",
+          "type": "BRUTAL POWER ATTACK",
+          "text": "Instead of making Strikes, Tom may use this Brutal Power Attack. Each enemy model that was Engaged in Combat with Tom immediately suffers a Strength 6 hit and, if they survive, will be knocked Prone."
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub The Three Trolls army-list page. Bill, Bert, and Tom the Troll stat blocks from The Misty Mountains faction page."
+}

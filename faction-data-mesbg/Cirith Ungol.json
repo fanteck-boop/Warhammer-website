@@ -1,0 +1,444 @@
+{
+  "legion": "Cirith Ungol",
+  "source": [
+    "https://prancingponypub.ru/mesbg2024/evil_army_list/cirith_ungol/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/mordor/",
+    "https://prancingponypub.ru/mesbg2024/forces_of_evil/evil_legacy/"
+  ],
+  "additionalRules": [
+    "A Cirith Ungol Army must always contain Shagrat and Gorbag; Shagrat must always be your General.",
+    "Orc Warrior models can only be included in the Warband of an Orc Hero.",
+    "Uruk-hai Warrior models can only be included in the Warband of an Uruk-hai Hero."
+  ],
+  "specialRules": [
+    {
+      "name": "Animosity",
+      "type": "",
+      "text": "Friendly Orc models gain a bonus of +1 To Wound when making Strikes if there is a friendly Uruk-hai model Engaged in the same Combat. Friendly Uruk-hai models gain a bonus of +1 To Wound when making Strikes if there is a friendly Orc model Engaged in the same Combat."
+    },
+    {
+      "name": "Rivals for Power",
+      "type": "",
+      "text": "Keep track of how many models Gorbag and Shagrat have each killed. If at any point either of them has fewer kills than the other, that model may re-roll a single D6 during a Duel Roll."
+    },
+    {
+      "name": "Swift Hunter",
+      "type": "",
+      "text": "During the declare Heroic Actions step of the Move Phase, Shelob can choose to kill a friendly model within 1\" of her - remove the chosen model as a casualty. If she does, Shelob may declare a Heroic Move for free, though she may not shout With Me as part of this Heroic Move."
+    }
+  ],
+  "units": [
+    {
+      "name": "Shagrat",
+      "points": 110,
+      "heroicTier": "Hero of Valour",
+      "keywords": "URUK-HAI, MORDOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "6",
+        "Sv": "4+",
+        "S": "5",
+        "D": "5",
+        "A": "3",
+        "W": "3",
+        "C": "5+",
+        "Might": "3",
+        "Will": "3",
+        "Fate": "3"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Strength",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "General Hunter",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Hands off the shiny shirt, that's mine!",
+          "type": "ACTIVE",
+          "text": "During a Scenario that involves picking up and carrying Objectives, Shagrat can use this special rule at any point during his Move. If he does, he may select any friendly model within 3\" that is carrying an Objective and take an Intelligence Test. If the test is passed, Shagrat immediately gains possession of that Objective, even if the Scenario would not normally allow for that Objective to be passed. Additionally, Shagrat can always carry multiple Objectives, even if the Scenario would state that models can only carry one."
+        },
+        {
+          "name": "Cleaving Blow",
+          "type": "ACTIVE",
+          "text": "If this model rolls a natural 6 To Wound when making a Strike, and the Wound is successful, then the target will suffer 2 Wounds rather than 1."
+        }
+      ]
+    },
+    {
+      "name": "Gorbag",
+      "points": 60,
+      "heroicTier": "Hero of Valour",
+      "keywords": "ORC, MORDOR, HERO, INFANTRY, UNIQUE",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "3",
+        "Will": "2",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic Strike",
+        "Heroic Challenge"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Orcish Brawler",
+          "type": "ACTIVE",
+          "text": "If Gorbag is outnumbered in a Combat, he increases his Attacks to 3 for the duration of the Combat."
+        },
+        {
+          "name": "Adaptive Fighter",
+          "type": "ACTIVE",
+          "text": "If Gorbag wins a Duel Roll, then before models Back Away Gorbag may choose a single enemy model involved in the combat. The chosen model is Backed Away in a direction chosen by Gorbag. This direction may be chosen so that the model is forced to Back Away over the edge of a cliff, in which case they will suffer falling damage as normal. Once this has been resolved, other models Back Away as normal and Strikes are resolved. However, if a model has been Backed Away over the edge of a cliff as described earlier, Gorbag cannot make Strikes against that model."
+        }
+      ]
+    },
+    {
+      "name": "Mordor Orc Captain",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "6",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Shield",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": []
+    },
+    {
+      "name": "Mordor Orc Taskmaster",
+      "points": 45,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "ORC, MORDOR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "4",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "Whip"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Whip of the Masters",
+          "type": "ACTIVE",
+          "text": "Whenever a friendly Hero model within 6\" declares a Heroic Move, Heroic March or Heroic Shoot, roll a D6. On a 4+ the Hero does not spend the Might Point and the Heroic Action is free."
+        }
+      ]
+    },
+    {
+      "name": "Mordor Uruk-Hai Captain",
+      "points": 55,
+      "heroicTier": "Hero of Fortitude",
+      "keywords": "URUK-HAI, MORDOR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "5",
+        "Sv": "4+",
+        "S": "5",
+        "D": "5",
+        "A": "2",
+        "W": "2",
+        "C": "6+",
+        "Might": "2",
+        "Will": "1",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "heroicActions": [
+        "Heroic March"
+      ],
+      "magicalPowers": [],
+      "options": [
+        "Two-handed Weapon - 5 points"
+      ],
+      "specialRules": [
+        {
+          "name": "Cleaving Blow",
+          "type": "ACTIVE",
+          "text": "If this model rolls a natural 6 To Wound when making a Strike, and the Wound is successful, then the target will suffer 2 Wounds rather than 1."
+        }
+      ]
+    },
+    {
+      "name": "Mordor Orc Shaman",
+      "points": 50,
+      "heroicTier": "Minor Hero",
+      "keywords": "ORC, MORDOR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "3",
+        "D": "5",
+        "A": "1",
+        "W": "2",
+        "C": "7+",
+        "Might": "1",
+        "Will": "3",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Heavy Armour",
+        "Hand Weapon",
+        "Spear"
+      ],
+      "heroicActions": [
+        "Heroic Channelling"
+      ],
+      "magicalPowers": [
+        "Fury (Mordor Orc) - Self - 3+",
+        "Curse - 12\" - 4+",
+        "Transfix - 12\" - 5+"
+      ],
+      "options": [
+        "Warg - 20 points"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Mordor Orc Drummer",
+      "points": 30,
+      "heroicTier": "Independent Hero",
+      "keywords": "ORC, MORDOR, HERO, INFANTRY",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": "3",
+        "Sv": "5+",
+        "S": "4",
+        "D": "5",
+        "A": "1",
+        "W": "1",
+        "C": "8+",
+        "Might": "0",
+        "Will": "0",
+        "Fate": "1"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon",
+        "War Drum (Mordor Orc)"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": []
+    },
+    {
+      "name": "Shelob",
+      "points": 100,
+      "heroicTier": "Independent Hero",
+      "keywords": "SPIDER, MORDOR, HERO, INFANTRY, MONSTER, BEAST, UNIQUE",
+      "profile": {
+        "Mv": "10\"",
+        "Fv": "7",
+        "Sv": "4+",
+        "S": "7",
+        "D": "7",
+        "A": "1",
+        "W": "6",
+        "C": "5+",
+        "Might": "0",
+        "Will": "6",
+        "Fate": "0"
+      },
+      "wargear": [
+        "Fangs (hand weapon)"
+      ],
+      "heroicActions": [],
+      "magicalPowers": [],
+      "specialRules": [
+        {
+          "name": "Dominant (4)",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Monstrous Charge",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Survival Instinct",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Swift Movement",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Terror",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Venom",
+          "type": "",
+          "text": ""
+        },
+        {
+          "name": "Lone Hunter",
+          "type": "PASSIVE",
+          "text": "Shelob may never be included in another model's Warband. Additionally, Shelob can never benefit from the Heroic Actions of other models."
+        },
+        {
+          "name": "She is always hungry",
+          "type": "PASSIVE",
+          "text": "At the start of her Activation, so long as she is not Engaged in Combat, Shelob can choose to kill a friendly model within 1\" of her - remove the chosen model as a casualty. If she does, until the end of the turn Shelob may re-roll a single dice during any Duel Roll she participates in."
+        },
+        {
+          "name": "She hungers for sweeter meats",
+          "type": "PASSIVE",
+          "text": "Shelob adds 1 to her Attacks characteristic whilst she is Engaged in Combat with an enemy Man, Elf, Dwarf or Hobbit model."
+        },
+        {
+          "name": "Caught in a Web",
+          "type": "BRUTAL POWER ATTACK",
+          "text": "Instead of making Strikes, Shelob may instead choose a single enemy model that was involved in the Combat. The chosen model immediately suffers a single Strength 8 hit and, if it survives, will be subject to the Paralyse Magical Power - however, the model will not automatically recover should Shelob be removed as a casualty, leave the board or be reduced to 0 Will Points."
+        }
+      ]
+    },
+    {
+      "name": "Mordor Orc Warrior",
+      "points": 5,
+      "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "5+",
+        "S": 3,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "8+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Banner - 25 points",
+        "Orc bow - 1 point",
+        "Shield - 1 point",
+        "Spear - 1 point",
+        "Two-handed weapon - 1 point"
+      ],
+      "specialRules": []
+    },
+    {
+      "name": "Mordor Uruk-Hai",
+      "points": 8,
+      "keywords": "URUK-HAI | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 4,
+        "Sv": "4+",
+        "S": 4,
+        "D": 4,
+        "A": 1,
+        "W": 1,
+        "C": "6+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Armour",
+        "Hand Weapon"
+      ],
+      "options": [
+        "Two-handed weapon - 1 point"
+      ],
+      "specialRules": [
+        {
+          "name": "Cleaving Blow",
+          "type": "ACTIVE",
+          "text": "If this model rolls a natural 6 To Wound when making a Strike, and the Wound is successful, then the target will suffer 2 Wounds rather than 1."
+        }
+      ]
+    },
+    {
+      "name": "Orc Tracker",
+      "points": 6,
+      "keywords": "ORC | MORDOR | WARRIOR, INFANTRY | 25MM",
+      "profile": {
+        "Mv": "6\"",
+        "Fv": 3,
+        "Sv": "4+",
+        "S": 3,
+        "D": 3,
+        "A": 1,
+        "W": 1,
+        "C": "8+",
+        "I": "7+"
+      },
+      "wargear": [
+        "Hand Weapon",
+        "Orc Bow"
+      ],
+      "specialRules": [
+        {
+          "name": "Mountain Dweller",
+          "type": "",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "sourceNotes": "Roster, points, and army-wide rules from the prancingponypub Cirith Ungol army-list page. Full stat blocks, wargear, and special-rule text from the Mordor faction page (Shagrat, Gorbag, Mordor Orc Captain/Taskmaster/Uruk-hai Captain/Shaman/Drummer, Shelob, Mordor Orc Warrior, Mordor Uruk-hai) and the Evil Legacy page (Orc Tracker)."
+}
