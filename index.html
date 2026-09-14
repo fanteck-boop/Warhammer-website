@@ -1426,6 +1426,31 @@
   body.sys-mesbg #armyRulesPanel{display:none;}
   .mesbg-hide{display:block;}
   body.sys-mesbg .mesbg-hide{display:none;}
+
+  .account-btn{
+    background:none; border:1px solid var(--hdr-fg-dim); color:var(--hdr-fg);
+    padding:6px 14px; border-radius:6px; font-size:12px; font-weight:700;
+    letter-spacing:0.04em; cursor:pointer; transition:border-color .15s, color .15s;
+  }
+  .account-btn:hover{ border-color:var(--gold); color:var(--gold); }
+  .account-btn.signed-in{ border-color:var(--destruction); color:var(--destruction); }
+  .account-modal{ position:fixed; inset:0; z-index:50; display:flex; align-items:center; justify-content:center; }
+  .account-modal-backdrop{ position:absolute; inset:0; background:rgba(10,11,16,0.72); }
+  .account-modal-box{
+    position:relative; z-index:1; width:min(360px, 90vw); max-height:85vh; overflow:auto;
+    background:var(--parchment); color:var(--text); border-radius:12px; padding:28px 24px;
+    box-shadow:0 20px 60px rgba(0,0,0,0.45);
+  }
+  .account-modal-close{
+    position:absolute; top:10px; right:12px; background:none; border:none; font-size:22px;
+    line-height:1; color:var(--text-soft); cursor:pointer; padding:4px;
+  }
+  .account-modal-box h2{ margin:0 0 6px; font-size:18px; }
+  .account-modal-note{ font-size:13px; color:var(--text-soft); line-height:1.5; margin:0 0 16px; }
+  #accountForm{ display:flex; flex-direction:column; gap:12px; }
+  .account-error{ font-size:12.5px; color:var(--seal-red); background:rgba(224,56,74,0.08); border:1px solid rgba(224,56,74,0.3); border-radius:6px; padding:8px 10px; }
+  #accountToggleMode{ margin-top:14px; width:100%; text-align:center; }
+  .account-modal-status{ margin-top:14px; font-size:12.5px; color:var(--text-soft); text-align:center; }
 </style>
 </head>
 <body>
@@ -1452,6 +1477,9 @@
           <div class="seal-num" id="sealNum">0</div>
           <div class="seal-label">POINTS</div>
         </div>
+        <button class="account-btn" id="accountBtn" type="button" title="Sign in to back up your armies and collection">
+          <span id="accountBtnLabel">Sign In</span>
+        </button>
       </div>
     </div>
     <nav class="tab-nav" id="tabNav">
@@ -1462,6 +1490,33 @@
     </nav>
   </div>
 </header>
+
+<div class="account-modal" id="accountModal" hidden>
+  <div class="account-modal-backdrop" id="accountModalBackdrop"></div>
+  <div class="account-modal-box">
+    <button class="account-modal-close" id="accountModalClose" type="button" aria-label="Close">&times;</button>
+
+    <div id="accountSignedOutView">
+      <h2 id="accountModalTitle">Sign In</h2>
+      <p class="account-modal-note">Sign in to back up your armies and collection to the cloud, and pick them up again on any device.</p>
+      <form id="accountForm">
+        <div class="field"><label for="acctEmail">Email</label><input type="email" id="acctEmail" autocomplete="email" required></div>
+        <div class="field"><label for="acctPassword">Password</label><input type="password" id="acctPassword" autocomplete="current-password" minlength="6" required></div>
+        <div class="account-error" id="accountError" hidden></div>
+        <button type="submit" id="accountSubmitBtn">Sign In</button>
+      </form>
+      <button class="ghost small" id="accountToggleMode" type="button">New here? Create an account</button>
+    </div>
+
+    <div id="accountSignedInView" hidden>
+      <h2>Signed In</h2>
+      <p class="account-modal-note">Signed in as <b id="accountEmailDisplay"></b>. Your armies and collection sync automatically.</p>
+      <button class="ghost small danger" id="accountSignOutBtn" type="button">Sign Out</button>
+    </div>
+
+    <p class="account-modal-status" id="accountModalStatus" hidden></p>
+  </div>
+</div>
 
 <div class="page-wrap">
 
@@ -1837,7 +1892,19 @@
     return memGet(key);
   }
 
+  // A signed-in Firebase user mirrors "personal" keys (armies + collection)
+  // to Firestore so they survive a cleared browser/new device — see the
+  // account module near the end of the file. localStorage stays the
+  // always-on source of truth; the cloud call is fire-and-forget.
+  function cloudMirrorSet(key, value){
+    if (window.__musterCloudSync) window.__musterCloudSync.onSet(key, value);
+  }
+  function cloudMirrorDelete(key){
+    if (window.__musterCloudSync) window.__musterCloudSync.onDelete(key);
+  }
+
   async function storageSet(key, value){
+    cloudMirrorSet(key, value);
     if (hasCloudStorage) {
       try { await window.storage.set(key, value, false); return true; }
       catch(e){ console.error('Save failed', e); return false; }
@@ -1851,6 +1918,7 @@
   }
 
   async function storageDelete(key){
+    cloudMirrorDelete(key);
     if (hasCloudStorage) {
       try { await window.storage.delete(key, false); return; }
       catch(e){ return; }
@@ -5106,6 +5174,12 @@
     });
   });
   storageGet('muster-roll-active-tab').then(t => { if (t) setActiveTab(t); });
+
+  // Bridge for the account/cloud-sync module (a separate <script type="module">
+  // below, since Firebase is loaded via ESM). It calls this after pulling a
+  // signed-in user's data down into localStorage, so the visible app state
+  // (armies, collection) picks up the cloud copy immediately.
+  window.__musterCloud = { reloadAfterCloudSync: () => load() };
 })();
 </script>
 <script data-pplx-inline-edit>
@@ -5436,5 +5510,194 @@
 })();
 
 
-</script></body>
+</script>
+
+<!-- ================= ACCOUNT / CLOUD SYNC =================
+     Firebase Auth + Firestore, loaded via ESM from the CDN (no build step
+     in this project, so no npm install). Mirrors the "personal" storage
+     keys — armies and the Collection tab — for a signed-in user, one doc
+     per user at /users/{uid}. Everything else (grimoire cache, faction
+     rules cache) stays local-only since it's just a cache of the public
+     faction-data JSON files, not the user's own data.
+
+     SETUP REQUIRED before this does anything:
+     1. https://console.firebase.google.com -> create a project -> Add app -> Web
+        (the config it gives you is safe to put in this public file: it just
+        identifies the project, it isn't a secret. Firestore Rules are what
+        actually enforce access, see step 4).
+     2. Build -> Authentication -> Get started -> Sign-in method -> enable Email/Password.
+     3. Build -> Firestore Database -> Create database (any region) -> Start in production mode.
+     4. In Firestore's Rules tab, paste:
+          rules_version = '2';
+          service cloud.firestore {
+            match /databases/{database}/documents {
+              match /users/{userId} {
+                allow read, write: if request.auth != null && request.auth.uid == userId;
+              }
+              match /{document=**} { allow read, write: if false; }
+            }
+          }
+     5. Replace the REPLACE_ME values in firebaseConfig below with the config
+        from step 1.
+-->
+<script type="module">
+  import { initializeApp } from 'https://www.gstatic.com/firebasejs/12.11.0/firebase-app.js';
+  import {
+    getAuth, onAuthStateChanged, signInWithEmailAndPassword,
+    createUserWithEmailAndPassword, signOut
+  } from 'https://www.gstatic.com/firebasejs/12.11.0/firebase-auth.js';
+  import {
+    getFirestore, doc, getDoc, setDoc, onSnapshot, deleteField
+  } from 'https://www.gstatic.com/firebasejs/12.11.0/firebase-firestore.js';
+
+  const firebaseConfig = {
+    apiKey: "REPLACE_ME",
+    authDomain: "REPLACE_ME.firebaseapp.com",
+    projectId: "REPLACE_ME",
+    storageBucket: "REPLACE_ME.appspot.com",
+    messagingSenderId: "REPLACE_ME",
+    appId: "REPLACE_ME"
+  };
+  const isConfigured = firebaseConfig.apiKey !== 'REPLACE_ME';
+
+  const $ = (id) => document.getElementById(id);
+  // Only these keys are the user's own data (armies + Collection, across all
+  // three game systems); everything else in localStorage is a regenerable
+  // cache and is deliberately left out of the cloud sync.
+  const PERSONAL_KEY_RE = /^(aos|40k|mesbg)-muster-roll-(collection|armies-index|current-army|army-.+)$/;
+
+  let auth = null, db = null, currentUser = null, unsubSnapshot = null, applyingRemote = false;
+
+  function setStatus(msg){ const el = $('accountModalStatus'); if (!el) return; el.hidden = !msg; el.textContent = msg || ''; }
+  function setError(msg){ const el = $('accountError'); if (!el) return; el.hidden = !msg; el.textContent = msg || ''; }
+
+  function showModal(){ $('accountModal').hidden = false; }
+  function hideModal(){ $('accountModal').hidden = true; setError(''); }
+
+  function renderAuthUi(){
+    const signedIn = !!currentUser;
+    $('accountBtn').classList.toggle('signed-in', signedIn);
+    $('accountBtnLabel').textContent = signedIn ? 'Account' : 'Sign In';
+    $('accountSignedOutView').hidden = signedIn;
+    $('accountSignedInView').hidden = !signedIn;
+    if (signedIn) $('accountEmailDisplay').textContent = currentUser.email || '';
+  }
+
+  // Pull the user's cloud doc into localStorage, then ask the main app to
+  // reload from it. `fromRemote` skips writes this exact tab just made
+  // (Firestore echoes our own writes back through the snapshot listener).
+  function applyCloudDoc(data, fromRemote){
+    if (!data) return;
+    applyingRemote = true;
+    try {
+      Object.keys(data).forEach(key => {
+        if (!PERSONAL_KEY_RE.test(key)) return;
+        try { window.localStorage.setItem(key, data[key]); } catch(e) {}
+      });
+      if (window.__musterCloud) window.__musterCloud.reloadAfterCloudSync();
+    } finally {
+      applyingRemote = false;
+    }
+    if (fromRemote) setStatus('Synced from another device.');
+  }
+
+  function attachSnapshotListener(uid){
+    if (unsubSnapshot) unsubSnapshot();
+    unsubSnapshot = onSnapshot(doc(db, 'users', uid), (snap) => {
+      if (!snap.exists()) return;
+      // Ignore the echo of our own pending write; only react to changes that
+      // have actually round-tripped through the server (e.g. another tab).
+      if (snap.metadata.hasPendingWrites) return;
+      applyCloudDoc(snap.data().data || {}, true);
+    }, (err) => console.error('Muster Roll cloud sync listener error:', err));
+  }
+
+  const cloudSync = {
+    onSet(key, value){
+      if (!currentUser || applyingRemote || !PERSONAL_KEY_RE.test(key)) return;
+      setDoc(doc(db, 'users', currentUser.uid), { data: { [key]: value } }, { merge: true })
+        .catch(err => console.error('Muster Roll cloud sync write failed:', err));
+    },
+    onDelete(key){
+      if (!currentUser || applyingRemote || !PERSONAL_KEY_RE.test(key)) return;
+      setDoc(doc(db, 'users', currentUser.uid), { data: { [key]: deleteField() } }, { merge: true })
+        .catch(err => console.error('Muster Roll cloud sync delete failed:', err));
+    }
+  };
+
+  async function handleSignedIn(user){
+    currentUser = user;
+    renderAuthUi();
+    hideModal();
+    setStatus('');
+    try {
+      const snap = await getDoc(doc(db, 'users', user.uid));
+      if (snap.exists()) applyCloudDoc(snap.data().data || {}, false);
+    } catch (err) {
+      console.error('Muster Roll cloud sync initial load failed:', err);
+    }
+    attachSnapshotListener(user.uid);
+  }
+
+  function handleSignedOut(){
+    currentUser = null;
+    if (unsubSnapshot) { unsubSnapshot(); unsubSnapshot = null; }
+    renderAuthUi();
+  }
+
+  function initFirebase(){
+    if (!isConfigured) {
+      console.warn('Muster Roll: cloud sign-in is not configured yet (firebaseConfig is still REPLACE_ME) — armies and the Collection stay local-only until you add a Firebase project. See the comment above this script.');
+      $('accountBtn').title = 'Cloud sign-in is not configured yet';
+      $('accountBtn').addEventListener('click', () => {
+        alert('Cloud sign-in isn\'t set up yet for this site. Ask whoever maintains it to add a Firebase project (see the comment in index.html above the account script).');
+      });
+      return;
+    }
+    const app = initializeApp(firebaseConfig);
+    auth = getAuth(app);
+    db = getFirestore(app);
+    window.__musterCloudSync = cloudSync;
+    onAuthStateChanged(auth, (user) => { user ? handleSignedIn(user) : handleSignedOut(); });
+
+    $('accountBtn').addEventListener('click', () => { showModal(); });
+    $('accountModalClose').addEventListener('click', hideModal);
+    $('accountModalBackdrop').addEventListener('click', hideModal);
+
+    let isRegisterMode = false;
+    $('accountToggleMode').addEventListener('click', () => {
+      isRegisterMode = !isRegisterMode;
+      $('accountModalTitle').textContent = isRegisterMode ? 'Create Account' : 'Sign In';
+      $('accountSubmitBtn').textContent = isRegisterMode ? 'Create Account' : 'Sign In';
+      $('accountToggleMode').textContent = isRegisterMode ? 'Already have an account? Sign in' : 'New here? Create an account';
+      setError('');
+    });
+
+    $('accountForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      setError('');
+      const email = $('acctEmail').value.trim();
+      const password = $('acctPassword').value;
+      $('accountSubmitBtn').disabled = true;
+      $('accountSubmitBtn').textContent = isRegisterMode ? 'Creating…' : 'Signing in…';
+      try {
+        if (isRegisterMode) {
+          await createUserWithEmailAndPassword(auth, email, password);
+        } else {
+          await signInWithEmailAndPassword(auth, email, password);
+        }
+      } catch (err) {
+        setError((err.message || 'Something went wrong.').replace('Firebase: ', '').replace(/\(auth\/[a-z-]+\)\.?/, ''));
+      } finally {
+        $('accountSubmitBtn').disabled = false;
+        $('accountSubmitBtn').textContent = isRegisterMode ? 'Create Account' : 'Sign In';
+      }
+    });
+
+    $('accountSignOutBtn').addEventListener('click', () => { signOut(auth).catch(() => {}); hideModal(); });
+  }
+
+  initFirebase();
+</script>
+</body>
 </html>
