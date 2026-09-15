@@ -4085,11 +4085,13 @@
   const openAddUnitCategories = new Set();
   let isLoadingFactionData = false;
 
-  // Heroes are capped at one of the same named unit in the roster, matching
-  // how BattleScribe/New Recruit show a "0/1" limit on hero/character entries.
-  // Regular troops carry no such cap in our data, so they stay unlimited.
+  // Only named/unique characters are capped at one per roster (they carry a
+  // UNIQUE category from the warscroll/army-list data). Generic Heroes have
+  // no such rules restriction and stay unlimited, same as regular troops.
   function heroLimitInfo(entry){
     if (!entry.isHero) return null;
+    const cats = Array.isArray(entry.categories) ? entry.categories : [];
+    if (!cats.some(c => String(c).toUpperCase() === 'UNIQUE')) return null;
     const name = (entry.name || '').trim().toLowerCase();
     const count = state.units.filter(u => (u.name || '').trim().toLowerCase() === name).length;
     return { count, max: 1 };
