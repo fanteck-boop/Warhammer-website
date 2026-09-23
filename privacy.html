@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Muster Roll</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{ --ink-2:#0a0b10; --gold:#5457f6; --gold-2:#7274ff; --text:#e8eaf0; --text-soft:#9296ab; --line:rgba(255,255,255,0.1); }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; min-height:100vh; font-family:'Inter', sans-serif; color:var(--text);
+    background:
+      radial-gradient(ellipse 1200px 700px at 15% -10%, #1c2036 0%, transparent 55%),
+      radial-gradient(ellipse 1000px 800px at 100% 0%, #191c2e 0%, transparent 50%),
+      var(--ink-2);
+    background-attachment:fixed;
+  }
+  .wrap{ max-width:760px; margin:0 auto; padding:48px 20px 96px; }
+  a{ color:var(--gold-2); }
+  h1{ font-size:28px; margin-bottom:4px; }
+  h2{ font-size:18px; margin-top:36px; border-top:1px solid var(--line); padding-top:20px; }
+  p, li{ color:var(--text-soft); line-height:1.6; }
+  .updated{ color:var(--text-soft); font-size:13px; margin-bottom:32px; }
+  .back{ display:inline-block; margin-bottom:24px; font-size:13px; }
+  .flag{ background:rgba(224,56,74,0.12); border:1px solid rgba(224,56,74,0.4); border-radius:8px; padding:10px 14px; font-size:13px; color:#f4a7ae; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="index.html">&larr; Back to Muster Roll</a>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: 2026-09-23</p>
+
+  <p class="flag">Draft, not legal advice. Have someone qualified review this before it's relied on by real users.</p>
+
+  <h2>Who this covers</h2>
+  <p>Muster Roll ("the site", "we") is an unofficial, fan-made army list builder and collection tracker for Warhammer Age of Sigmar, Warhammer 40,000, and Middle-earth Strategy Battle Game. This policy covers what happens if you use the account/cloud-sync feature.</p>
+
+  <h2>What we collect</h2>
+  <ul>
+    <li><strong>Account data:</strong> if you sign in with email/password or Google, we (via Firebase Authentication, a Google service) store your email address and an authentication credential. We never see or store your raw password.</li>
+    <li><strong>Your army data:</strong> army lists, roster entries, and your collection tracker, so they can sync across your devices. Stored in Firestore (also a Google service) under a record tied to your account.</li>
+    <li><strong>Local-only data:</strong> if you don't sign in, your armies and collection are kept only in your browser's local storage and never leave your device.</li>
+  </ul>
+  <p>We do not collect payment information, do not run advertising trackers, and do not sell or share your data with third parties for marketing.</p>
+
+  <h2>Why we collect it</h2>
+  <p>Solely to let you back up your army lists/collection and pick them up on another device. That's the entire purpose of the account feature.</p>
+
+  <h2>Third-party processors</h2>
+  <p>Account and cloud-sync data is processed by Google Firebase. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a> for how Google handles data on our behalf.</p>
+
+  <h2>Cookies &amp; local storage</h2>
+  <p>The site uses your browser's local storage to save your armies and collection on your own device. This is functional storage, not a tracking cookie, and we don't use any third-party advertising or analytics cookies.</p>
+
+  <h2>Your rights</h2>
+  <p>You can delete your account and all associated cloud data at any time from the Account panel ("Delete my account and data"). This permanently removes your Firebase Authentication account and your Firestore data record. If you have trouble, contact us at <strong>fanteck.issues@gmail.com</strong>.</p>
+
+  <h2>Children</h2>
+  <p>This site is not directed at children under 13, and we don't knowingly collect data from them. If you believe a child has created an account, contact us and we'll delete it.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the "Last updated" date above will change. Continued use of the account feature after an update means you accept the revised policy.</p>
+
+  <h2>Contact</h2>
+  <p><strong>fanteck.issues@gmail.com</strong></p>
+</div>
+</body>
+</html>

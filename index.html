@@ -19,7 +19,7 @@
     --gold-2:#7274ff;
     --steel:#64748b;
     --text:#161821;
-    --text-soft:#6b7180;
+    --text-soft:#595f75;
 
     --order:#2f6fed;
     --chaos:#e0384a;
@@ -50,7 +50,8 @@
     *{animation:none !important; transition:none !important; scroll-behavior:auto !important;}
   }
   button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible,
-  details summary:focus-visible, .tab-btn:focus-visible, .alliance-pill:focus-visible{
+  details summary:focus-visible, .tab-btn:focus-visible, .alliance-pill:focus-visible,
+  .unit-card:focus-visible{
     outline:2px solid var(--gold);
     outline-offset:2px;
   }
@@ -1517,6 +1518,10 @@
       <form id="accountForm">
         <div class="field"><label for="acctEmail">Email</label><input type="email" id="acctEmail" autocomplete="email" required></div>
         <div class="field"><label for="acctPassword">Password</label><input type="password" id="acctPassword" autocomplete="current-password" minlength="6" required></div>
+        <div class="field account-consent" id="accountConsentField" hidden style="display:flex;align-items:flex-start;gap:8px;">
+          <input type="checkbox" id="acctConsent" style="margin-top:3px;">
+          <label for="acctConsent" style="font-weight:normal;">I agree to the <a href="terms.html" target="_blank" rel="noopener">Terms of Service</a> and <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</label>
+        </div>
         <div class="account-error" id="accountError" hidden></div>
         <button type="submit" id="accountSubmitBtn">Sign In</button>
       </form>
@@ -1527,6 +1532,7 @@
       <h2>Signed In</h2>
       <p class="account-modal-note">Signed in as <b id="accountEmailDisplay"></b>. Your armies and collection sync automatically.</p>
       <button class="ghost small danger" id="accountSignOutBtn" type="button">Sign Out</button>
+      <button class="ghost small danger" id="accountDeleteBtn" type="button">Delete my account and data</button>
     </div>
 
     <p class="account-modal-status" id="accountModalStatus" hidden></p>
@@ -1875,6 +1881,7 @@
 </div>
 
 <div class="footer-note">Saved automatically &mdash; faction data loads on first visit</div>
+<div class="footer-note">Unofficial fan project, not affiliated with or endorsed by Games Workshop. Warhammer and all faction names/artwork are trademarks of Games Workshop Limited. &middot; <a href="privacy.html" style="color:inherit;text-decoration:underline;">Privacy Policy</a> &middot; <a href="terms.html" style="color:inherit;text-decoration:underline;">Terms of Service</a></div>
 
 <script>
 (function(){
@@ -2336,11 +2343,13 @@
     const iconDir = is40k ? 'factions-40k' : 'icons';
     const fb = key ? table[key] : null;
 
-    if (fb) {
-      // Faction selected: full-screen art + faction icons on sides
+    if (fb && is40k) {
+      // Faction selected: full-screen art (self-made SVG crests only —
+      // AoS's fb.img/fb.icon point at unlicensed GW artwork and are
+      // deliberately not used here, see assets/factions/README-LICENSING.md).
       bg.style.background = `radial-gradient(ellipse at top, ${fb.c1}40 0%, ${fb.c2} 55%, #0a0b10 100%)`;
       bgImg.style.backgroundImage = `url(assets/${assetDir}/${fb.img})`;
-      bgImg.style.opacity = is40k ? '0.5' : '1';
+      bgImg.style.opacity = '0.5';
       if (fb.icon) {
         const iconUrl = `assets/${iconDir}/${fb.icon}`;
         iconL.src = iconUrl;
@@ -2348,24 +2357,18 @@
         iconL.style.opacity = '1';
         iconR.style.opacity = '1';
       } else {
-        // No crest icon for this faction — background art only.
         iconL.style.opacity = '0';
         iconR.style.opacity = '0';
       }
-    } else if (!is40k && !isMesbg && state.alliance && getSysConfig().allianceMeta[state.alliance]) {
-      // Alliance selected but no faction: use alliance color + alliance icon
-      // (40K and MESBG have no alliance-level icon assets, so they fall
-      // through to the plain colored-gradient branch below instead.)
-      const meta = getSysConfig().allianceMeta[state.alliance];
-      const color = meta.color.startsWith('var(') ? (getComputedStyle(document.documentElement).getPropertyValue(meta.color.slice(4,-1)).trim() || '#8a7a5a') : meta.color;
-      bg.style.background = `radial-gradient(ellipse at top, ${color}25 0%, #1c2036 55%, #0a0b10 100%)`;
+    } else if (fb) {
+      // AoS faction: color gradient only, no art/icon (unlicensed GW assets).
+      bg.style.background = `radial-gradient(ellipse at top, ${fb.c1}40 0%, ${fb.c2} 55%, #0a0b10 100%)`;
       bgImg.style.opacity = '0';
-      const allianceIcon = `assets/icons/${state.alliance}.png`;
-      iconL.src = allianceIcon;
-      iconR.src = allianceIcon;
-      iconL.style.opacity = '1';
-      iconR.style.opacity = '1';
-    } else if ((is40k || isMesbg) && state.alliance && getSysConfig().allianceMeta[state.alliance]) {
+      iconL.style.opacity = '0';
+      iconR.style.opacity = '0';
+    } else if (state.alliance && getSysConfig().allianceMeta[state.alliance]) {
+      // Alliance selected but no faction: color gradient only. Grand
+      // Alliance PNG icons are unlicensed GW iconography, not used.
       const meta = getSysConfig().allianceMeta[state.alliance];
       const color = meta.color.startsWith('var(') ? (getComputedStyle(document.documentElement).getPropertyValue(meta.color.slice(4,-1)).trim() || '#8a7a5a') : meta.color;
       bg.style.background = `radial-gradient(ellipse at top, ${color}25 0%, #1c2036 55%, #0a0b10 100%)`;
@@ -2484,6 +2487,9 @@
       if (indent) card.style.marginLeft = '18px';
       card.style.setProperty('--acc', accColor);
       card.setAttribute('data-unit-id', u.id);
+      card.setAttribute('tabindex', '0');
+      card.setAttribute('role', 'button');
+      card.setAttribute('aria-pressed', u.id === selectedUnitId ? 'true' : 'false');
       card.innerHTML = `
         <div class="unit-card-main">
           <div class="unit-card-name"><span class="ucn-text">${escapeHtml(u.name || 'Unnamed unit')}</span>${heroBadge}${reinforcedBadge}${generalBadge}${followerBadge}</div>
@@ -3189,17 +3195,31 @@
     render(); save();
   }
 
+  function selectUnitCard(card){
+    selectedUnitId = card.getAttribute('data-unit-id');
+    rosterListEl.querySelectorAll('.unit-card.selected').forEach(c => {
+      c.classList.remove('selected');
+      c.setAttribute('aria-pressed', 'false');
+    });
+    card.classList.add('selected');
+    card.setAttribute('aria-pressed', 'true');
+    renderUnitDetail();
+    rosterDetailEl.scrollIntoView({ behavior:'smooth', block:'nearest' });
+  }
+
   rosterListEl.addEventListener('click', (e) => {
     const delId = e.target.closest('[data-del]')?.getAttribute('data-del');
     if (delId) { deleteUnit(delId); return; }
     const card = e.target.closest('.unit-card');
-    if (card) {
-      selectedUnitId = card.getAttribute('data-unit-id');
-      rosterListEl.querySelectorAll('.unit-card.selected').forEach(c => c.classList.remove('selected'));
-      card.classList.add('selected');
-      renderUnitDetail();
-      rosterDetailEl.scrollIntoView({ behavior:'smooth', block:'nearest' });
-    }
+    if (card) selectUnitCard(card);
+  });
+
+  rosterListEl.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    const card = e.target.closest('.unit-card');
+    if (!card) return;
+    e.preventDefault();
+    selectUnitCard(card);
   });
 
   rosterDetailEl.addEventListener('input', (e) => {
@@ -5586,11 +5606,11 @@
   import { initializeApp } from 'https://www.gstatic.com/firebasejs/12.11.0/firebase-app.js';
   import {
     getAuth, onAuthStateChanged, signInWithEmailAndPassword,
-    createUserWithEmailAndPassword, signOut,
+    createUserWithEmailAndPassword, signOut, deleteUser,
     GoogleAuthProvider, signInWithPopup
   } from 'https://www.gstatic.com/firebasejs/12.11.0/firebase-auth.js';
   import {
-    getFirestore, doc, getDoc, setDoc, onSnapshot, deleteField
+    getFirestore, doc, getDoc, setDoc, deleteDoc, onSnapshot, deleteField
   } from 'https://www.gstatic.com/firebasejs/12.11.0/firebase-firestore.js';
 
   const firebaseConfig = {
@@ -5716,6 +5736,9 @@
     }
     $('accountModalClose').addEventListener('click', hideModal);
     $('accountModalBackdrop').addEventListener('click', hideModal);
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !$('accountModal').hidden) hideModal();
+    });
 
     let isRegisterMode = false;
     $('accountToggleMode').addEventListener('click', () => {
@@ -5723,12 +5746,17 @@
       $('accountModalTitle').textContent = isRegisterMode ? 'Create Account' : 'Sign In';
       $('accountSubmitBtn').textContent = isRegisterMode ? 'Create Account' : 'Sign In';
       $('accountToggleMode').textContent = isRegisterMode ? 'Already have an account? Sign in' : 'New here? Create an account';
+      $('accountConsentField').hidden = !isRegisterMode;
       setError('');
     });
 
     $('accountForm').addEventListener('submit', async (e) => {
       e.preventDefault();
       setError('');
+      if (isRegisterMode && !$('acctConsent').checked) {
+        setError('You need to agree to the Terms of Service and Privacy Policy to create an account.');
+        return;
+      }
       const email = $('acctEmail').value.trim();
       const password = $('acctPassword').value;
       $('accountSubmitBtn').disabled = true;
@@ -5760,6 +5788,24 @@
     });
 
     $('accountSignOutBtn').addEventListener('click', () => { signOut(auth).catch(() => {}); hideModal(); });
+
+    $('accountDeleteBtn').addEventListener('click', async () => {
+      if (!currentUser) return;
+      if (!confirm('Permanently delete your account and all cloud-synced data? This cannot be undone.')) return;
+      $('accountDeleteBtn').disabled = true;
+      try {
+        await deleteDoc(doc(db, 'users', currentUser.uid));
+        await deleteUser(currentUser);
+        hideModal();
+      } catch (err) {
+        setStatus((err.message || 'Something went wrong.').replace('Firebase: ', '').replace(/\(auth\/[a-z-]+\)\.?/, ''));
+        if (err.code === 'auth/requires-recent-login') {
+          setStatus('For security, sign out and sign back in, then try deleting your account again.');
+        }
+      } finally {
+        $('accountDeleteBtn').disabled = false;
+      }
+    });
   }
 
   initFirebase();
