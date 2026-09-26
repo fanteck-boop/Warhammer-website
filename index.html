@@ -51,7 +51,7 @@
   }
   button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible,
   details summary:focus-visible, .tab-btn:focus-visible, .alliance-pill:focus-visible,
-  .unit-card:focus-visible{
+  .unit-card:focus-visible, .res-link:focus-visible{
     outline:2px solid var(--gold);
     outline-offset:2px;
   }
@@ -524,6 +524,56 @@
     color:var(--text-soft);
     line-height:1.5;
     margin:0 0 22px;
+  }
+
+  /* Resources tab */
+  .sr-only{
+    position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+    overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
+  }
+  .res-group{margin:0 0 28px;}
+  .res-group:last-child{margin-bottom:0;}
+  .res-heading{
+    font-family:'JetBrains Mono', monospace;
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    color:var(--text-soft);
+    margin:0 0 4px;
+    padding-bottom:8px;
+    border-bottom:1px solid var(--line);
+  }
+  .res-list{list-style:none; margin:0; padding:0;}
+  .res-list li{border-bottom:1px solid var(--line);}
+  .res-list li:last-child{border-bottom:none;}
+  .res-link{
+    display:grid;
+    grid-template-columns:1fr auto;
+    gap:2px 16px;
+    align-items:baseline;
+    min-height:44px;
+    padding:12px 10px;
+    margin:0 -10px;
+    border-radius:8px;
+    color:var(--text);
+    text-decoration:none;
+    transition:background .12s ease;
+  }
+  .res-link:hover{background:var(--parchment-2);}
+  .res-link:hover .res-title{text-decoration:underline; text-underline-offset:3px;}
+  .res-title{font-weight:700; font-size:15px;}
+  .res-host{
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px;
+    color:var(--text-soft);
+    text-align:right;
+    overflow-wrap:anywhere;
+  }
+  .res-desc{grid-column:1 / -1; font-size:13px; line-height:1.5; color:var(--text-soft);}
+  @media (max-width:640px){
+    .res-link{grid-template-columns:1fr;}
+    .res-host{text-align:left;}
   }
   .clash-grid{
     display:grid;
@@ -1356,7 +1406,7 @@
     .grim-search, .grim-filters, .dropzone, #grimoireForm, .grimoire-card .card-actions{display:none !important;}
     .ledger{border:none; box-shadow:none; padding:0; max-width:100%;}
     .tab-panel{display:block !important;}
-    section[data-panel="grimoire"]{display:none !important;}
+    section[data-panel="grimoire"], section[data-panel="resources"]{display:none !important;}
     .parchment-card{box-shadow:none; border:1px solid #999;}
     .roster-table th{background:#f4f5f8 !important; -webkit-print-color-adjust:exact; print-color-adjust:exact;}
     .roster-section-head td{font-weight:bold;}
@@ -1501,6 +1551,7 @@
       <button class="tab-btn active" data-tab="roster" type="button">Order of Battle</button>
       <button class="tab-btn" data-tab="clash" type="button">Clash of Arms</button>
       <button class="tab-btn" data-tab="collection" type="button">Collection</button>
+      <button class="tab-btn" data-tab="resources" type="button">Resources</button>
     </nav>
   </div>
 </header>
@@ -1875,6 +1926,71 @@
 
     <div class="collection-summary" id="collectionSummary"></div>
     <div id="collectionList"></div>
+  </div>
+  </section>
+
+  <!-- ================= RESOURCES ================= -->
+  <section class="tab-panel" data-panel="resources">
+  <div class="ledger">
+    <h1>Resources</h1>
+    <p class="subtitle">Rules, Results and Meta</p>
+    <p class="clash-note">Official rules downloads, tournament results and meta breakdowns. The list follows the game selected at the top. Every link goes to a site this project does not run and opens in a new tab.</p>
+
+    <div class="a40k-only">
+      <div class="res-group">
+        <h2 class="res-heading">New rules and points</h2>
+        <ul class="res-list">
+          <li><a class="res-link" href="https://www.warhammer-community.com/en-gb/downloads/warhammer-40000/" target="_blank" rel="noopener noreferrer"><span class="res-title">Warhammer Community: 40,000 downloads</span><span class="res-host">warhammer-community.com</span><span class="res-desc">Official core rules, faction packs, errata and FAQs.<span class="sr-only"> Opens in a new tab.</span></span></a></li>
+          <li><a class="res-link" href="https://mfm.warhammer-community.com" target="_blank" rel="noopener noreferrer"><span class="res-title">Munitorum Field Manual</span><span class="res-host">mfm.warhammer-community.com</span><span class="res-desc">Official points values and detachment costs for every faction.<span class="sr-only"> Opens in a new tab.</span></span></a></li>
+        </ul>
+      </div>
+      <div class="res-group">
+        <h2 class="res-heading">Tournament results and meta</h2>
+        <ul class="res-list">
+          <li><a class="res-link" href="https://listhammer.info/stats" target="_blank" rel="noopener noreferrer"><span class="res-title">Listhammer: Meta Stats</span><span class="res-host">listhammer.info</span><span class="res-desc">Faction win rates and event wins from 2000 point events, by time window.<span class="sr-only"> Opens in a new tab.</span></span></a></li>
+          <li><a class="res-link" href="https://listhammer.info/" target="_blank" rel="noopener noreferrer"><span class="res-title">Listhammer: Tournament Lists</span><span class="res-host">listhammer.info</span><span class="res-desc">Army lists from recent 40K tournaments, filterable by faction.<span class="sr-only"> Opens in a new tab.</span></span></a></li>
+          <li><a class="res-link" href="https://www.bestcoastpairings.com/" target="_blank" rel="noopener noreferrer"><span class="res-title">Best Coast Pairings</span><span class="res-host">bestcoastpairings.com</span><span class="res-desc">Find upcoming 40K and Age of Sigmar tournaments.<span class="sr-only"> Opens in a new tab.</span></span></a></li>
+        </ul>
+      </div>
+      <div class="res-group">
+        <h2 class="res-heading">Watch</h2>
+        <ul class="res-list">
+          <li><a class="res-link" href="https://www.youtube.com/@auspextactics" target="_blank" rel="noopener noreferrer"><span class="res-title">Auspex Tactics</span><span class="res-host">youtube.com</span><span class="res-desc">YouTube channel covering the 40K meta and tournament results.<span class="sr-only"> Opens in a new tab.</span></span></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="aos-only">
+      <div class="res-group">
+        <h2 class="res-heading">New rules</h2>
+        <ul class="res-list">
+          <li><a class="res-link" href="https://www.warhammer-community.com/en-gb/downloads/warhammer-age-of-sigmar/" target="_blank" rel="noopener noreferrer"><span class="res-title">Warhammer Community: Age of Sigmar downloads</span><span class="res-host">warhammer-community.com</span><span class="res-desc">Official core rules, battletome supplements and rules updates.<span class="sr-only"> Opens in a new tab.</span></span></a></li>
+        </ul>
+      </div>
+      <div class="res-group">
+        <h2 class="res-heading">Tournament results and meta</h2>
+        <ul class="res-list">
+          <li><a class="res-link" href="https://listhammer.info/aos-stats" target="_blank" rel="noopener noreferrer"><span class="res-title">Listhammer: AoS Meta Stats</span><span class="res-host">listhammer.info</span><span class="res-desc">Faction win rates from tournament results.<span class="sr-only"> Opens in a new tab.</span></span></a></li>
+          <li><a class="res-link" href="https://listhammer.info/aos" target="_blank" rel="noopener noreferrer"><span class="res-title">Listhammer: AoS Tournament Lists</span><span class="res-host">listhammer.info</span><span class="res-desc">Army lists from recent Age of Sigmar tournaments.<span class="sr-only"> Opens in a new tab.</span></span></a></li>
+          <li><a class="res-link" href="https://www.bestcoastpairings.com/" target="_blank" rel="noopener noreferrer"><span class="res-title">Best Coast Pairings</span><span class="res-host">bestcoastpairings.com</span><span class="res-desc">Find upcoming 40K and Age of Sigmar tournaments.<span class="sr-only"> Opens in a new tab.</span></span></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mesbg-only">
+      <div class="res-group">
+        <h2 class="res-heading">New rules</h2>
+        <ul class="res-list">
+          <li><a class="res-link" href="https://www.warhammer-community.com/en-gb/downloads/middle-earth-strategy-battle-game/" target="_blank" rel="noopener noreferrer"><span class="res-title">Warhammer Community: Middle-earth SBG downloads</span><span class="res-host">warhammer-community.com</span><span class="res-desc">Official rules downloads for the Middle-earth Strategy Battle Game.<span class="sr-only"> Opens in a new tab.</span></span></a></li>
+        </ul>
+      </div>
+      <div class="res-group">
+        <h2 class="res-heading">Tournament results and meta</h2>
+        <ul class="res-list">
+          <li><a class="res-link" href="https://tournaments.tabletopadmiral.com/stats/Middle-Earth%20Strategy%20Battle%20Game" target="_blank" rel="noopener noreferrer"><span class="res-title">Tabletop Admiral: MESBG statistics</span><span class="res-host">tournaments.tabletopadmiral.com</span><span class="res-desc">Army statistics from tournaments run on Tabletop Admiral.<span class="sr-only"> Opens in a new tab.</span></span></a></li>
+        </ul>
+      </div>
+    </div>
   </div>
   </section>
 
