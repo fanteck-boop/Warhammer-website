@@ -3,7 +3,7 @@
   "configurations": [
     {
       "name": "warhammer-site",
-      "runtimeExecutable": "python3",
+      "runtimeExecutable": "python",
       "runtimeArgs": ["-m", "http.server", "8123"],
       "port": 8123
     }

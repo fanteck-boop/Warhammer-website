@@ -2049,10 +2049,10 @@
     }
     if (hasLocalStorage) {
       try { window.localStorage.setItem(key, value); return true; }
-      catch(e){ memSet(key, value); return true; }
+      catch(e){ memSet(key, value); return false; } // kept in memory so the app works, but NOT persisted
     }
     memSet(key, value);
-    return true;
+    return false;
   }
 
   async function storageDelete(key){
@@ -2093,7 +2093,7 @@
     return String(s ?? '').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
   }
   function escapeHtml(s){
-    return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
   }
 
   // ====== SYSTEM CONFIG ======
@@ -2346,7 +2346,7 @@
   const STORAGE_KEY = 'muster-roll-data';
   const FACTION_RULES_KEY = 'muster-roll-faction-rules';
   const GRIMOIRE_KEY_BASE = 'muster-roll-grimoire';
-  const DATA_VERSION = 'v10-mesbg-full-factions'; // Bump when data format changes to force re-import
+  const DATA_VERSION = 'v12-mfm16-2026-11-01'; // Bump when data format changes to force re-import
   let state = {
     armyName: '', pointsLimit: 2000, alliance: '', faction: '', units: [],
     generalUnitId: null,
@@ -2615,7 +2615,7 @@
             ${w ? `<span>${woundsTotal} wounds</span>` : ''}
           </div>
         </div>
-        <button class="small danger unit-card-del" data-del="${u.id}" type="button" title="Remove unit">&times;</button>
+        <button class="small danger unit-card-del" data-del="${escapeAttr(u.id)}" type="button" title="Remove unit">&times;</button>
       `;
       rosterListEl.appendChild(card);
     }
@@ -3142,7 +3142,7 @@
   }
 
   async function saveFactionRules(){
-    await storageSet(sysKey(FACTION_RULES_KEY), JSON.stringify(factionRules));
+    return storageSet(sysKey(FACTION_RULES_KEY), JSON.stringify(factionRules));
   }
 
   function getFactionRules(){
@@ -3239,10 +3239,10 @@
       const heroOptions = state.units.filter(x => x.isHero).map(h => {
         const cap = MESBG_FOLLOWER_CAP[h.heroicTier];
         const count = state.units.filter(x => x.leaderId === h.id).reduce((s, x) => s + effectiveQty(x), 0);
-        return `<option value="${h.id}" ${u.leaderId === h.id ? 'selected' : ''}>${escapeHtml(h.name)} (${count}${cap !== undefined ? '/' + cap : ''})</option>`;
+        return `<option value="${escapeAttr(h.id)}" ${u.leaderId === h.id ? 'selected' : ''}>${escapeHtml(h.name)} (${count}${cap !== undefined ? '/' + cap : ''})</option>`;
       }).join('');
       warbandHtml = `<div class="detail-fields"><div class="field"><label>Warband Leader</label>
-        <select data-leaderselect="${u.id}"><option value="">&mdash; unattached &mdash;</option>${heroOptions}</select>
+        <select data-leaderselect="${escapeAttr(u.id)}"><option value="">&mdash; unattached &mdash;</option>${heroOptions}</select>
       </div></div>`;
     } else if (activeSystem === '40k' && u.isHero) {
       // Core Rules 19.02: a bodyguard unit can only take one Leader (this
@@ -3250,10 +3250,10 @@
       // aren't parsed out from ordinary Leaders here).
       const claimedUnitIds = new Set(state.units.filter(x => x.isHero && x.id !== u.id && x.attachedToUnitId).map(x => x.attachedToUnitId));
       const eligible = state.units.filter(x => !x.isHero && heroCanLeadUnit(u, x) && !claimedUnitIds.has(x.id));
-      const unitOptions = eligible.map(x => `<option value="${x.id}" ${u.attachedToUnitId === x.id ? 'selected' : ''}>${escapeHtml(x.name)}</option>`).join('');
+      const unitOptions = eligible.map(x => `<option value="${escapeAttr(x.id)}" ${u.attachedToUnitId === x.id ? 'selected' : ''}>${escapeHtml(x.name)}</option>`).join('');
       const hint = eligible.length ? '' : '<div class="enhancement-effect">No eligible units in this roster yet (based on this model\'s Leader ability and other Leaders already attached).</div>';
       warbandHtml = `<div class="detail-fields"><div class="field"><label>Attach to Unit (Leader)</label>
-        <select data-attachselect="${u.id}"><option value="">&mdash; not attached &mdash;</option>${unitOptions}</select>
+        <select data-attachselect="${escapeAttr(u.id)}"><option value="">&mdash; not attached &mdash;</option>${unitOptions}</select>
         ${hint}
       </div></div>`;
     } else if (activeSystem === '40k' && !u.isHero) {
@@ -3265,10 +3265,10 @@
 
     let actionsHtml = '';
     if (u.canReinforce) {
-      actionsHtml += `<button class="ghost small reinforce-btn ${u.reinforced ? 'active' : ''}" data-reinforce="${u.id}" type="button">${u.reinforced ? 'Reinforced ✓' : 'Reinforce (double models &amp; pts)'}</button>`;
+      actionsHtml += `<button class="ghost small reinforce-btn ${u.reinforced ? 'active' : ''}" data-reinforce="${escapeAttr(u.id)}" type="button">${u.reinforced ? 'Reinforced ✓' : 'Reinforce (double models &amp; pts)'}</button>`;
     }
     if (u.isHero && !isGen) {
-      actionsHtml += `<button class="ghost small" data-makegeneral="${u.id}" type="button">Make General</button>`;
+      actionsHtml += `<button class="ghost small" data-makegeneral="${escapeAttr(u.id)}" type="button">Make General</button>`;
     }
     if (isGen) {
       actionsHtml += `<button class="ghost small" data-removegeneral type="button">Remove General</button>`;
@@ -3284,13 +3284,13 @@
 
     rosterDetailEl.innerHTML = `
       <div class="detail-head">
-        <input type="text" class="detail-name-input" value="${escapeAttr(u.name)}" data-field="name" data-id="${u.id}" placeholder="Unit name">
-        <button class="small danger" data-del="${u.id}" type="button" title="Remove unit">&times; Remove</button>
+        <input type="text" class="detail-name-input" value="${escapeAttr(u.name)}" data-field="name" data-id="${escapeAttr(u.id)}" placeholder="Unit name">
+        <button class="small danger" data-del="${escapeAttr(u.id)}" type="button" title="Remove unit">&times; Remove</button>
       </div>
       <div class="detail-fields">
-        <div class="field"><label>Models</label><input type="number" min="0" class="num" value="${qty}" data-field="qty" data-id="${u.id}" ${u.reinforced ? 'disabled' : ''}></div>
-        <div class="field"><label>Points (base)</label><input type="number" min="0" class="num" value="${pts}" data-field="points" data-id="${u.id}" ${u.reinforced ? 'disabled' : ''}></div>
-        <div class="field"><label>Wounds / model</label><input type="number" min="0" class="num" value="${w}" data-field="wounds" data-id="${u.id}"></div>
+        <div class="field"><label>Models</label><input type="number" min="0" class="num" value="${qty}" data-field="qty" data-id="${escapeAttr(u.id)}" ${u.reinforced ? 'disabled' : ''}></div>
+        <div class="field"><label>Points (base)</label><input type="number" min="0" class="num" value="${pts}" data-field="points" data-id="${escapeAttr(u.id)}" ${u.reinforced ? 'disabled' : ''}></div>
+        <div class="field"><label>Wounds / model</label><input type="number" min="0" class="num" value="${w}" data-field="wounds" data-id="${escapeAttr(u.id)}"></div>
       </div>
       <div class="detail-totals">
         <span><b data-cell="ptsTotal">${ptsTotal}</b> pts total</span>
@@ -3354,7 +3354,7 @@
     const wndCell = rosterDetailEl.querySelector('[data-cell="woundsTotal"]');
     if (ptsCell) ptsCell.textContent = pts * (unit.reinforced ? 2 : 1);
     if (wndCell) wndCell.textContent = effQty * w;
-    const card = rosterListEl.querySelector(`.unit-card[data-unit-id="${id}"]`);
+    const card = rosterListEl.querySelector(`.unit-card[data-unit-id="${escapeAttr(id)}"]`);
     if (card) {
       const nameEl = card.querySelector('.ucn-text');
       if (nameEl && field === 'name') nameEl.textContent = unit.name || 'Unnamed unit';
@@ -3371,7 +3371,7 @@
   });
   function updateHeroFollowerBadge(heroId){
     const hero = state.units.find(u => u.id === heroId);
-    const card = hero && rosterListEl.querySelector(`.unit-card[data-unit-id="${heroId}"]`);
+    const card = hero && rosterListEl.querySelector(`.unit-card[data-unit-id="${escapeAttr(heroId)}"]`);
     const badge = card && card.querySelector('.uc-followers');
     if (!hero || !badge) return;
     const cap = MESBG_FOLLOWER_CAP[hero.heroicTier];
@@ -4285,7 +4285,7 @@
           <span class="au-name">${escapeHtml(e.name || 'Unnamed unit')}</span>
           <span class="au-pts">${e.points ? e.points + ' pts' : ''}</span>
           ${limitBadge}
-          <button type="button" class="au-add-btn" data-add-id="${e.id}" ${atLimit ? 'disabled' : ''} title="${atLimit ? 'Limit reached' : 'Add to roster'}">+</button>
+          <button type="button" class="au-add-btn" data-add-id="${escapeAttr(e.id)}" ${atLimit ? 'disabled' : ''} title="${atLimit ? 'Limit reached' : 'Add to roster'}">+</button>
         </div>`;
       }).join('');
       return `<div class="au-category${isOpen ? ' open' : ''}" data-role="${escapeAttr(g.role)}">
@@ -4595,7 +4595,7 @@
   function renderGrimCard(e, allianceKey){
     const meta = getSysConfig().allianceMeta[allianceKey] || { color:'var(--gold)' };
     return `
-      <div class="grim-entry" data-id="${e.id}" style="--acc:${meta.color}">
+      <div class="grim-entry" data-id="${escapeAttr(e.id)}" style="--acc:${meta.color}">
         <div class="grim-entry-head">
           <span class="name">${escapeHtml(e.name) || 'Unnamed unit'}</span>
           <span class="meta">${e.points ? e.points + ' pts' : ''}${e.isHero ? ' · HERO' : ''}${e.canReinforce ? ' · Reinforceable' : ''}</span>
@@ -4604,11 +4604,11 @@
         ${weaponsSummaryHtml(e)}
         ${e.abilities ? `<details class="abilities-toggle"><summary>Abilities &amp; Keywords</summary><div class="grim-abilities">${escapeHtml(e.abilities)}</div></details>` : ''}
         <div class="grim-entry-actions">
-          <button class="ghost small" data-act="edit" data-id="${e.id}" type="button">Edit</button>
-          <button class="ghost small" data-act="toA" data-id="${e.id}" type="button">Use as A</button>
-          <button class="ghost small" data-act="toB" data-id="${e.id}" type="button">Use as B</button>
-          <button class="ghost small" data-act="toRoster" data-id="${e.id}" type="button">Add to Roster</button>
-          <button class="small danger" data-act="delete" data-id="${e.id}" type="button">Delete</button>
+          <button class="ghost small" data-act="edit" data-id="${escapeAttr(e.id)}" type="button">Edit</button>
+          <button class="ghost small" data-act="toA" data-id="${escapeAttr(e.id)}" type="button">Use as A</button>
+          <button class="ghost small" data-act="toB" data-id="${escapeAttr(e.id)}" type="button">Use as B</button>
+          <button class="ghost small" data-act="toRoster" data-id="${escapeAttr(e.id)}" type="button">Add to Roster</button>
+          <button class="small danger" data-act="delete" data-id="${escapeAttr(e.id)}" type="button">Delete</button>
         </div>
       </div>`;
   }
@@ -4640,7 +4640,7 @@
       list.innerHTML = groups.map(g => {
         const factionGroups = groupByFaction(g.items);
         return `
-          <div class="alliance-section" data-alliance="${g.key}">
+          <div class="alliance-section" data-alliance="${escapeAttr(g.key)}">
             <div class="alliance-section-head" style="--acc:${g.meta.color}">
               <span class="alliance-dot-lg"></span>
               <h3>${g.meta.label}</h3>
@@ -4701,7 +4701,7 @@
     const opts = groupByRole(items).map(rg => {
       const o = rg.items.map(e => {
         const label = (e.name || 'Unnamed unit') + (e.points ? ' (' + e.points + ' pts)' : '');
-        return `<option value="${e.id}">${escapeHtml(label)}</option>`;
+        return `<option value="${escapeAttr(e.id)}">${escapeHtml(label)}</option>`;
       }).join('');
       return `<optgroup label="${escapeAttr(rg.role)}">${o}</optgroup>`;
     }).join('');
@@ -5279,30 +5279,35 @@
       grimoire = [];
       await clearGrimoireStorage();
     }
-    // Only auto-load if grimoire is empty (first visit or version bump)
-    if (grimoire.length > 0) return;
     const cfg = getSysConfig();
+    const have = new Set(grimoire.map(e => normalizeFaction(e.faction)));
+    const missing = cfg.factions.filter(f => !have.has(normalizeFaction(f)));
+    if (!missing.length) return;
     setFactionDataLoading(true);
+    const fetchJson = async (url) => {
+      const ctl = new AbortController();
+      const t = setTimeout(() => ctl.abort(), 15000);
+      try {
+        const res = await fetch(url, { signal: ctl.signal });
+        if (!res.ok) return null;
+        return await res.json();
+      } catch(e) { return null; }
+      finally { clearTimeout(t); }
+    };
     try {
-      const results = await Promise.all(cfg.factions.map(async (faction) => {
-        let unitsData = null, rulesData = null;
-        try {
-          const res = await fetch(`${cfg.dataDir}/${encodeURIComponent(faction)}.json`);
-          if (res.ok) {
-            const raw = await res.json();
-            if (activeSystem === 'mesbg') {
-              unitsData = mesbgLegionToGrimEntries(raw, faction);
-            } else if (activeSystem === '40k' && Array.isArray(raw)) {
-              unitsData = raw.map(u => u.isHero ? Object.assign({}, u, { leaderOf: parseLeaderUnits(u.abilities).join(', ') }) : u);
-            } else {
-              unitsData = raw;
-            }
+      const results = await Promise.all(missing.map(async (faction) => {
+        let unitsData = null;
+        const raw = await fetchJson(`${cfg.dataDir}/${encodeURIComponent(faction)}.json`);
+        if (raw) {
+          if (activeSystem === 'mesbg') {
+            unitsData = mesbgLegionToGrimEntries(raw, faction);
+          } else if (activeSystem === '40k' && Array.isArray(raw)) {
+            unitsData = raw.map(u => u.isHero ? Object.assign({}, u, { leaderOf: parseLeaderUnits(u.abilities).join(', ') }) : u);
+          } else {
+            unitsData = raw;
           }
-        } catch(e) { /* skip */ }
-        try {
-          const res = await fetch(`${cfg.dataDir}/${encodeURIComponent(faction)}.rules.json`);
-          if (res.ok) rulesData = await res.json();
-        } catch(e) { /* skip */ }
+        }
+        const rulesData = await fetchJson(`${cfg.dataDir}/${encodeURIComponent(faction)}.rules.json`);
         return { unitsData, rulesData };
       }));
       let loaded = 0;
@@ -5315,11 +5320,14 @@
       });
       if (loaded > 0) {
         renderGrimoire();
-        saveGrimoire();
-        saveFactionRules();
+        const saved = await saveGrimoire();
+        const rulesSaved = await saveFactionRules();
         renderArmyRulesPanel();
-        storageSet(sysKey('muster-roll-data-version'), DATA_VERSION);
-        console.log(`Auto-loaded ${loaded} factions for ${activeSystem}.`);
+        // Stamp only on full success so a partial fetch/cache is retried next load
+        if (loaded === missing.length && saved && rulesSaved) {
+          await storageSet(sysKey('muster-roll-data-version'), DATA_VERSION);
+        }
+        console.log(`Auto-loaded ${loaded}/${missing.length} missing factions for ${activeSystem}.`);
       } else {
         console.error(`Failed to load any ${activeSystem} faction data — check that ${cfg.dataDir}/ is reachable (this page needs to be served over http(s), not opened as a local file).`);
       }
@@ -5358,6 +5366,8 @@
   // signed-in user's data down into localStorage, so the visible app state
   // (armies, collection) picks up the cloud copy immediately.
   window.__musterCloud = { reloadAfterCloudSync: () => load() };
+  // Read-only context getter for the chat widget (muster-chat.js).
+  window.__musterChatCtx = () => ({ activeSystem, state, grimoire, rules: getFactionRules() });
 })();
 </script>
 <!-- ================= ACCOUNT / CLOUD SYNC =================
@@ -5596,5 +5606,6 @@
 
   initFirebase();
 </script>
+<script src="muster-chat.js" defer></script>
 </body>
 </html>
