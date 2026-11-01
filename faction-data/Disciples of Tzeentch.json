@@ -611,22 +611,6 @@
     ]
   },
   {
-    "name": "Battle Traits: Disciples of Tzeentch",
-    "faction": "Disciples of Tzeentch",
-    "points": 0,
-    "models": 1,
-    "move": "",
-    "wounds": 1,
-    "save": "",
-    "ward": 0,
-    "weapons": [],
-    "abilities": "Eldritch Illusions: Once Per Turn (Army), Deployment Phase Pick up to 3 friendly non-Monster Disciples of Tzeentch units to be the targets. Remove the targets from the battlefield and set them up in reserve masked by illusion.\nFriendly units that are masked by illusion are destroyed at the end of the fifth battle round and not at the start of the fourth battle round.\nAll Part of the Plan: You start the battle with 0 fate points, Gain 1 fate point each time:\n• You lose the priority toll.\n• A spell cast by a friendly Disciples of Tzeentch unit is unbound.\n• A friendly Disciples of Tzeentch unit miscasts a spell.\n• Your opponent gains control of an objective that you controlled at the start of the turn.\n• A friendly Argent Shard is demolished.\nSmoke and Mirrors: Once Per Turn (Army), Any Hero Phase Pick a friendly non-Monster Disciples of Tzeentch unit that was not set up this turn and was not set up using this ability in the previous turn to be the target, then pick a friendly unit that is masked by illusion to be the substitute. Set up the substitute wholly within 6\" of the target and not in combat. Then, remove the target from the battlefield and set up in reserve masked by illusion.\nSilver Simulacrum: Once Per Battle (Army), Deployment Phase If there is a friendly Argent Shard on the battlefield, you can set up 1 additional Argent Shard on the battlefield. It must be set up wholly within friendly territory and more than 3\" from all objectives and other terrain features.\nDesigner's Note: *The original Argent Shard is set up in Step 1 of the deployment phase using the 'Deploy Faction Terrain' ability. This ability allows you to set up a second such terrain feature and is used in Step 3 of the deployment phase, after armies have been deployed.*\nDestined to Serve: Passive Before allocating damage points to a friendly Disciples of Tzeentch unit, you can spend any number of fate points. For each fate point you spend, remove 1 damage point in that unit's damage pool.\nDestined Arcana: Reaction: You declared a Spell ability for a Disciples of Tzeentch unit Spend any number of fate points. For each fate point you spend, add 1 to the casting roll for that spell.\nDestined for Battle: Reaction: You declared a Charge ability for a Disciples of Tzeentch unit in your turn Spend any number of fate points. For each fate point you spend, add 1 to the charge roll for that Charge ability.",
-    "categories": [],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": []
-  },
-  {
     "name": "Blue Horrors and Brimstone Horrors",
     "faction": "Disciples of Tzeentch",
     "points": 120,

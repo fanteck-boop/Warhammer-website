@@ -1,0 +1,78 @@
+{
+  "faction": "Dark Angels",
+  "battleFormations": [
+    {
+      "name": "Darkflight Pursuit",
+      "dp": 1,
+      "effect": "Black-winged Vigilance: Friendly RAVENWING FLY units' ranged attacks have [IGNORES COVER]. Friendly OUTRIDER SQUAD units gain the BATTLELINE keyword. Restriction: army can include DARK ANGELS units only, no other Chapter's ADEPTUS ASTARTES units."
+    },
+    {
+      "name": "Inner Circle Task Force",
+      "dp": 1,
+      "effect": "Vowed Target: In your Command phase you can pick one objective marker to be your vowed objective until your next Command phase. Friendly DEATHWING INFANTRY units add 1 to the Wound roll for attacks that target an enemy unit within range of that objective. Restriction: army can include DARK ANGELS units only, no other Chapter's ADEPTUS ASTARTES units."
+    },
+    {
+      "name": "Wrath of the Rock",
+      "dp": 2,
+      "effect": "Dutiful Tenacity: Each time an attack targets an ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED unit from your army, if the attack's Strength is greater than that unit's Toughness, subtract 1 from the Wound roll."
+    }
+  ],
+  "heroicTraits": [],
+  "artefacts": [
+    {
+      "name": "Nightforged Battery (Upgrade)",
+      "cost": 10,
+      "effect": "[LAND SPEEDER VENGEANCE unit only] The unit can re-roll rolls made to determine a weapon's Attacks and can re-roll Hazard rolls.",
+      "detachment": "Darkflight Pursuit"
+    },
+    {
+      "name": "Thundercowl Turbines (Upgrade)",
+      "cost": 15,
+      "effect": "[RAVENWING FLY or MOUNTED unit only] In your first Movement phase, this unit can make an ingress move.",
+      "detachment": "Darkflight Pursuit"
+    },
+    {
+      "name": "Champion of the Deathwing",
+      "cost": 20,
+      "effect": "[DEATHWING model only] The bearer's unit's attacks that target an enemy unit within range of your vowed objective have [SUSTAINED HITS 1].",
+      "detachment": "Inner Circle Task Force"
+    },
+    {
+      "name": "Singular Will",
+      "cost": 20,
+      "effect": "[DEATHWING model only] When the bearer's unit makes a consolidation move, it can move up to D3+3\".",
+      "detachment": "Inner Circle Task Force"
+    },
+    {
+      "name": "Ancient Weapons",
+      "cost": 20,
+      "effect": "[ADEPTUS ASTARTES model only] The bearer's melee attacks get +2 Strength and +1 AP.",
+      "detachment": "Wrath of the Rock"
+    },
+    {
+      "name": "Deathwing Assault",
+      "cost": 15,
+      "effect": "[DEATHWING model with Deep Strike only] In your first Movement phase, the bearer's unit can make an ingress move.",
+      "detachment": "Wrath of the Rock"
+    },
+    {
+      "name": "Lord of the Ravenwing",
+      "cost": 15,
+      "effect": "[RAVENWING model only] The bearer's unit can re-roll charge rolls.",
+      "detachment": "Wrath of the Rock"
+    },
+    {
+      "name": "Tempered in Battle (Aura)",
+      "cost": 10,
+      "effect": "[ADEPTUS ASTARTES model only] Friendly ADEPTUS ASTARTES units within 6\" of the bearer can re-roll Leadership rolls.",
+      "detachment": "Wrath of the Rock"
+    }
+  ],
+  "armyRules": [
+    {
+      "name": "Combat Doctrines",
+      "effect": "At the start of your Command phase you may pick one Combat Doctrine; it stays active for friendly ADEPTUS ASTARTES units with this ability until your next Command phase. Assault Doctrine: Advancing does not stop the unit declaring a charge. Devastator Doctrine: the unit's ranged attacks have [ASSAULT]. Tactical Doctrine: Falling Back does not stop the unit shooting or declaring a charge. Each Doctrine can be picked once per battle, and a unit can only have one active Doctrine at a time."
+    }
+  ],
+  "sourceNotes": "Created 2026-11-01. Detachment names, DP and Enhancement costs from the Munitorum Field Manual v1.6 Dark Angels page (mfm.warhammer-community.com/en/dark-angels). Rule effects paraphrased from BSData wh40k-11e (commit c729d469, catalogues 'Imperium - Dark Angels' / 'Imperium - Space Marines'). Covers only the three Dark Angels-unique Detachments; the shared Codex: Space Marines Detachments are in Space Marines.rules.json. Stratagems not included."
+}

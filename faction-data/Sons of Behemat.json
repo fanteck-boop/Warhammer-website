@@ -289,7 +289,7 @@
   {
     "name": "Kragnos, the End of Empires",
     "faction": "Sons of Behemat",
-    "points": 590,
+    "points": 580,
     "models": 1,
     "move": "10\"",
     "wounds": 18,
@@ -400,22 +400,6 @@
       "heroicTraits",
       "warlord"
     ]
-  },
-  {
-    "name": "Battle Traits: Sons of Behemat",
-    "faction": "Sons of Behemat",
-    "points": 0,
-    "models": 1,
-    "move": "",
-    "wounds": 1,
-    "save": "",
-    "ward": 0,
-    "weapons": [],
-    "abilities": "Colossal Slam: Once Per Turn (Army), Any Combat Phase Pick a friendly Mega‑Gargant that has not used a Rampage ability this turn to use this ability, then pick an enemy Monster or War Machine that has a unit size of 1 and is within 1\" of it to be the target. Roll a dice. On a 3+, remove the target from the battlefield and set it up again within 1\" of the unit using this ability. Then, inflict D3 mortal damage on the target.\nKeywords: Rampage\nGargant Charge: Any Charge Phase Pick a friendly Mega-Gargant or Gargant unit that charged this turn to use this ability, then pick an enemy unit that has not been picked as the target of this ability this turn and that is in combat with that unit to be the target. Inflict D3 mortal damage on the target.\nTimberrrrr!: Each time a friendly Mega‑Gargant or Gargant model is slain, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of that model. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than that model.\nJump Up and Down: Once Per Turn (Army), Any Combat Phase Pick a friendly Mega‑Gargant or Gargant unit that has not used a Rampage ability this turn to use this ability, then pick an enemy Infantry unit in combat with it to be the target. Roll a dice. On a 3+, roll a dice for each model in the target unit. If the unit using this ability is a Gargant, inflict 1 mortal damage on the target for each 6. If it is a Mega-Gargant, inflict 1 mortal damage on the target for each 5+.\nKeywords: Rampage\nEarthshaking Roar: Once Per Turn (Army), Any Combat Phase Pick a friendly Mega‑Gargant or Gargant unit that has not used a Rampage ability this turn to use this ability, then pick an enemy unit in combat with it to be the target. Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.\nKeywords: Rampage",
-    "categories": [],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": []
   },
   {
     "name": "Mancrusher Gargant",

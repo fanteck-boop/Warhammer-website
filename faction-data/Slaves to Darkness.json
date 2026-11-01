@@ -1,21 +1,5 @@
 [
   {
-    "name": "Battle Traits: Slaves to Darkness",
-    "faction": "Slaves to Darkness",
-    "points": 0,
-    "models": 1,
-    "move": "",
-    "wounds": 1,
-    "save": "",
-    "ward": 0,
-    "weapons": [],
-    "abilities": "Pledge to Chaos: Once Per Turn (Army), Your Hero Phase Pick a friendly non-Unique Slaves to Darkness unit that does not already have one of the keywords below to be the target. Pick 1 of the following Pledge to Chaos keywords:\n• Pledged to Khorne: \n• Pledged to Tzeentch:\n• Pledged to Nurgle:\n• Pledged to Slaanesh:\nThe target has that keyword for the rest of the battle.\nEye of the Gods: Once Per Battle (Army), Deployment Phase Pick a friendly non-Unique Warriors of Chaos or Darkoath Hero to be the target.\nDark Apotheosis: Once Per Battle (Army), Any Hero Phase Pick a friendly unit with 8 or more Dark Apotheosis points to be the target. Pick 1 of the following.\n*Aura of Chaos:* Heal(X) the target, where X is the number of damage points allocated to the target. In addition, the target has Ward (5+) for the rest of the battle.\n*Daemonhood:* Set up a Daemon Prince within 1\" of the target. Then, remove the target from the battlefield. If the target is your general, the Daemon Prince becomes your general instead and is added to your general's regiment. If the target has any enhancements, the Daemon Prince has those enhancements instead. If the target has a Pledge to Chaos keyword, the Daemon Prince has the same keyword. Otherwise, pick 1 Pledge to Chaos keyword for the Daemon Prince to have for the rest of the battle If any Manifestations that were summoned by the target are on the battlefield, those Manifestations are removed from play.\nPledged to Tzeentch: Once Per Turn (Army), Your Movement Phase Pick a friendly Pledged to Tzeentch unit to be the target. Roll 2D6. Then pick a point within a number of inches of the target equal to the roll. Remove the target from the battlefield and set it up again on the battlefield wholly within 6\" of that point and more than 9\" from all enemy units.\nPledged to Khorne: Add 1 to the Attacks characteristic of melee weapons used by friendly Pledged to Khorne units.\nPledged to Nurgle: Friendly Pledged to Nurgle units have Ward (6+). If a unit already has Ward (6+), it has Ward (5+) instead.\nPledged to Slaanesh: Your Charge Phase For the rest of the turn, when making charge rolls for friendly Pledged to Slaanesh units, you can roll 1 additional dice (to a maximum of 3), but if you do, you must discard 1 dice of your choice.",
-    "categories": [],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": []
-  },
-  {
     "name": "Abraxia, Spear of the Everchosen",
     "faction": "Slaves to Darkness",
     "points": 250,

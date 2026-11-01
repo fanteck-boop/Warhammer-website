@@ -1,21 +1,5 @@
 [
   {
-    "name": "Battle Traits: Big Waaagh!",
-    "faction": "Orruk Warclans",
-    "points": 0,
-    "models": 1,
-    "move": "",
-    "wounds": 1,
-    "save": "",
-    "ward": 0,
-    "weapons": [],
-    "abilities": "Possessed by the Power of the Waaagh!: While a friendly unit has the Power of the Waaagh! keyword:\n• If that unit has the Ironjawz keyword, add 1 to run rolls and charge rolls for that unit.\n• If that unit has the Kruleboyz keyword, that unit's attacks score critical hits on unmodified hit rolls of 5+.\nRally the Warclans: Once Per Turn, Your Movement Phase If your general is on the battlefield, pick a friendly Big Waaagh! unit that started the battle with 3 or more models and that has been destroyed to be the target. Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 12\" of your general and more than 9\" from all enemy units.\nNotorious Bosses: Once Per Battle, Deployment Phase Pick up to 1 friendly non-Unique Big Waaagh! Ironjawz Hero and up to 1 friendly non-Unique Big Waaagh! Kruleboyz Hero that do not have a heroic trait to be the targets. Give each target 1 heroic trait from the Big Waaagh! heroic traits.\nDesigner's Note: *These heroic traits are given to the targets during the deployment phase, not during army composition.*\nThe Power of the Waaagh!: Once Per Turn, Your Hero Phase Pick up to 1 friendly Big Waaagh! Ironjawz unit and up to 1 friendly Big Waaagh! Kruleboyz unit to be the targets. The targets have the Power of the Waaagh! keyword for the rest of the battle round.",
-    "categories": [],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": []
-  },
-  {
     "name": "Zoggrok Anvilsmasha",
     "faction": "Orruk Warclans",
     "points": 160,
@@ -747,22 +731,6 @@
     "enhancementTypes": []
   },
   {
-    "name": "Kragnos, the End of Empires",
-    "faction": "Orruk Warclans",
-    "points": 580,
-    "models": 1,
-    "move": "",
-    "wounds": 1,
-    "save": "",
-    "ward": 0,
-    "weapons": [],
-    "abilities": "",
-    "categories": [],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": []
-  },
-  {
     "name": "Killaboss on Great Gnashtoof (Scourge of Ghyran)",
     "faction": "Orruk Warclans",
     "points": 150,
@@ -831,45 +799,5 @@
     "isHero": false,
     "canReinforce": true,
     "enhancementTypes": []
-  },
-  {
-    "name": "Anvil of Apotheosis: Kruleboyz Hero",
-    "faction": "Orruk Warclans",
-    "points": 0,
-    "models": 1,
-    "move": "",
-    "wounds": 1,
-    "save": "",
-    "ward": 0,
-    "weapons": [],
-    "abilities": "",
-    "categories": [],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": [
-      "artefacts",
-      "heroicTraits",
-      "warlord"
-    ]
-  },
-  {
-    "name": "Anvil of Apotheosis: Ironjawz Hero",
-    "faction": "Orruk Warclans",
-    "points": 0,
-    "models": 1,
-    "move": "",
-    "wounds": 1,
-    "save": "",
-    "ward": 0,
-    "weapons": [],
-    "abilities": "",
-    "categories": [],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": [
-      "artefacts",
-      "heroicTraits",
-      "warlord"
-    ]
   }
 ]

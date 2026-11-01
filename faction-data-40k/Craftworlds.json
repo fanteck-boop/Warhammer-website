@@ -27,8 +27,8 @@
       "Leader"
     ],
     "abilities": [
-      "Hand of Asuryan: Once per battle, when this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its Bloody Twins weapon has a Damage characteristic of 3 and the **[ANTI‑INFANTR",
-      "Tactical Acumen: While this model is leading a unit, in your Shooting phase, after that unit has shot, it can make a Normal move of up to 6\". If it does, until the end of the turn, that unit is not eligible to declare",
+      "Hand of Asuryan: Once per battle, when this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its Bloody Twins weapon has a Damage characteristic of 3 and the [ANTI‑INFANTRY 5+] and [DEVASTATING WOUNDS] abilities.",
+      "Tactical Acumen: While this model is leading a unit, in your Shooting phase, after that unit has shot, it can make a Normal move of up to 6\". If it does, until the end of the turn, that unit is not eligible to declare a charge.",
       "Leader: This model can be attached to the following unit:\n- **^^Dire Avengers^^**"
     ],
     "weapons": [
@@ -154,7 +154,7 @@
     "name": "Autarch",
     "faction": "Craftworlds",
     "alliance": "aeldari",
-    "points": 75,
+    "points": 70,
     "models": 1,
     "move": "7\"",
     "toughness": "3",
@@ -492,7 +492,7 @@
     "abilities": [
       "Leader: This model can be attached to the following unit:\n■ Swooping Hawks",
       "Cry of the Wind: Each time this model is set-up on the battlefield, until the end of the turn, each time this model makes a ranged attack, a successful unmodified Hit roll scores a Critical Hit.",
-      "Cloudstrider: While this model is leading a unit, at the end of your opponent’s turn, if that unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into"
+      "Cloudstrider: While this model is leading a unit, at the end of your opponent’s turn, if that unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves. In addition, while this model is leading a unit, when that unit is set up on the battlefield using the Deep Strike ability, in your Movement phase, it can use this ability. If it does, that unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models, but until the end of the turn, it is not eligible to declare a charge."
     ],
     "weapons": [
       {
@@ -523,13 +523,13 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 65,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 5,
+    "move": "7\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "2",
     "invulnerableSave": "",
     "role": "INFANTRY",
     "isHero": false,
@@ -596,13 +596,13 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 70,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 5,
+    "move": "7\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "6+",
+    "objectiveControl": "1",
     "invulnerableSave": "",
     "role": "INFANTRY",
     "isHero": false,
@@ -617,7 +617,7 @@
       "Corsairs and Travelling Players"
     ],
     "abilities": [
-      "Piratical Raiders: At the start of the battle, select one unit from your opponent’s army. Each time a model in this unit makes an attack that targets that unit, that attack has the [LETHAL HITS] and [PRECISION] abilitie",
+      "Piratical Raiders: At the start of the battle, select one unit from your opponent’s army. Each time a model in this unit makes an attack that targets that unit, that attack has the [LETHAL HITS] and [PRECISION] abilities.",
       "Channeler stones: Once per turn, the first time a saving throw is failed for the bearer’s unit, change the Damage characteristic of that attack to 0.",
       "Faolchú: Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability."
     ],
@@ -741,7 +741,7 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 95,
-    "models": 1,
+    "models": 5,
     "move": "6\"",
     "toughness": "3",
     "save": "3+",
@@ -800,7 +800,7 @@
     "name": "Death Jester",
     "faction": "Craftworlds",
     "alliance": "aeldari",
-    "points": 70,
+    "points": 65,
     "models": 1,
     "move": "8\"",
     "toughness": "3",
@@ -821,8 +821,8 @@
       "Corsairs and Travelling Players"
     ],
     "abilities": [
-      "Death is Not Enough: In your Shooting phase, after this model has shot, select one enemy unit (excluding Monsters and Vehicles) hit by one or more of those attacks. That enemy unit must take a Battle-shock test. If one or",
-      "Cruel Amusement: In your Shooting phase, each time this model is selected to shoot, select one of the abilities below. Until the end of the phase, this model’s Shrieker Cannon has that ability:\n■ [IGNORES COVER]\n■ [PR"
+      "Death is Not Enough: In your Shooting phase, after this model has shot, select one enemy unit (excluding Monsters and Vehicles) hit by one or more of those attacks. That enemy unit must take a Battle-shock test. If one or more of those attacks destroyed a model in that enemy unit, subtract 1 from that test.",
+      "Cruel Amusement: In your Shooting phase, each time this model is selected to shoot, select one of the abilities below. Until the end of the phase, this model’s Shrieker Cannon has that ability: ■ [IGNORES COVER] ■ [PRECISION] ■ [SUSTAINED HITS 3]"
     ],
     "weapons": [
       {
@@ -851,7 +851,7 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 70,
-    "models": 1,
+    "models": 5,
     "move": "7\"",
     "toughness": "3",
     "save": "4+",
@@ -925,8 +925,8 @@
     ],
     "abilities": [
       "Diviner of the Futures: At the start of your Command phase, if this model is on the battlefield, you gain 1CP.",
-      "Doom (Psychic): At the end of your Movement phase, select one enemy unit within 18\" of and visible to this model. Until the start of your next Command phase, each time a friendly ^^Aeldari^^ model makes an attack tha",
-      "Leader: This model can be attached to the following units:\n- **GUARDIAN DEFENDERS**\n- **STORM GUARDIANS**\n- **WARLOCK CONCLAVE**\n\nIf this model is not already attached to a unit, you can attach this model to "
+      "Doom (Psychic): At the end of your Movement phase, select one enemy unit within 18\" of and visible to this model. Until the start of your next Command phase, each time a friendly Aeldari model makes an attack that targets that enemy unit, add 1 to the Wound roll",
+      "Leader: This model can be attached to the following units: - GUARDIAN DEFENDERS - STORM GUARDIANS - WARLOCK CONCLAVE If this model is not already attached to a unit, you can attach this model to a unit, even if one WARLOCKS unit has already been attached to it."
     ],
     "weapons": [
       {
@@ -989,7 +989,7 @@
     ],
     "abilities": [
       "Damaged: 1-4 Wounds Remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-      "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly model that disembarked from this Transport"
+      "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll"
     ],
     "weapons": [
       {
@@ -1037,7 +1037,7 @@
     "name": "Farseer",
     "faction": "Craftworlds",
     "alliance": "aeldari",
-    "points": 65,
+    "points": 60,
     "models": 1,
     "move": "7\"",
     "toughness": "3",
@@ -1059,8 +1059,8 @@
       "Leader"
     ],
     "abilities": [
-      "Branching Fates (Psychic): While this model is leading a unit, once per phase you can change the result of one Hit roll, one Wound roll, or one Damage roll made for a model in that unit (excluding ^^Support Weapon^^ models) to ",
-      "Guide (Psychic): At the end of your Movement phase, select one enemy unit within 18\" of and visible to this model. Until the start of your next Command phase, each time a friendly Aeldari model makes an attack that ta",
+      "Branching Fates (Psychic): While this model is leading a unit, once per phase you can change the result of one Hit roll, one Wound roll, or one Damage roll made for a model in that unit (excluding Support Weapon models) to an unmodified 6.",
+      "Guide (Psychic): At the end of your Movement phase, select one enemy unit within 18\" of and visible to this model. Until the start of your next Command phase, each time a friendly Aeldari model makes an attack that targets that enemy unit, add 1 to the Hit roll. Each unit can only be selected for this ability once per turn.",
       "Leader: This model can be attached to the following units: **GUARDIAN DEFENDERS**, **STORM GUARDIANS**, **WARLOCK CONCLAVE**."
     ],
     "weapons": [
@@ -1146,7 +1146,7 @@
     ],
     "abilities": [
       "Branching Fates (Psychic): While this model is leading a unit, once per phase you can change the result of one Hit roll, one Wound roll, or one Damage roll made for a model in that unit to an unmodified 6.",
-      "Misfortune (Psychic): At the end of your Movement phase, select one enemy unit within 18\" of and visible to this model. Until the start of your next Command phase, each time a model in that unit makes an attack, subtract 1",
+      "Misfortune (Psychic): At the end of your Movement phase, select one enemy unit within 18\" of and visible to this model. Until the start of your next Command phase, each time a model in that unit makes an attack, subtract 1 from the Wound roll. Each unit can only be selected for this ability once per turn.",
       "Leader: This model can be attached to the following units:\n■ Warlock Skyrunners\n■ Windriders"
     ],
     "weapons": [
@@ -1217,8 +1217,8 @@
     "name": "Fire Dragons",
     "faction": "Craftworlds",
     "alliance": "aeldari",
-    "points": 120,
-    "models": 1,
+    "points": 110,
+    "models": 5,
     "move": "7\"",
     "toughness": "3",
     "save": "3+",
@@ -1238,7 +1238,7 @@
       "Ynnari"
     ],
     "abilities": [
-      "Assured Destruction: In your Shooting phase, each time a model in this unit makes a ranged attack that targets a ^^Monster^^ or ^^Vehicle^^ unit, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re"
+      "Assured Destruction: In your Shooting phase, each time a model in this unit makes a ranged attack that targets a Monster or Vehicle unit, you can re-roll the Hit roll, you can re-roll the Wound roll and you can re-roll the Damage roll."
     ],
     "weapons": [
       {
@@ -1262,7 +1262,18 @@
         "keywords": "Psychic"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 110
+      },
+      {
+        "from": 3,
+        "points": 120
+      }
+    ]
   },
   {
     "name": "Fire Prism",
@@ -1374,7 +1385,7 @@
     ],
     "abilities": [
       "Burning Lance: While this model is leading a unit, add 6\" to the Range characteristic of Melta weapons equipped by models in that unit.",
-      "Unquenchable Resolve: The first time this model is destroyed, at the end of the phase, roll one D6. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagemen",
+      "Unquenchable Resolve: The first time this model is destroyed, at the end of the phase, roll one D6. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining.",
       "Leader: This model can be attached to the following unit:\n■ Fire Dragons"
     ],
     "weapons": [
@@ -1415,7 +1426,7 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 90,
-    "models": 10,
+    "models": 11,
     "move": "7\"",
     "toughness": "3",
     "save": "4+",
@@ -1436,7 +1447,7 @@
       "Ynnari"
     ],
     "abilities": [
-      "Fleet of Foot: This unit can perform the Fade Back Agile Manoeuvre without spending a Battle Focus token to do so. It can do so even if other units have done so in the same phase, and doing so does not prevent other",
+      "Fleet of Foot: This unit can perform the Fade Back Agile Manoeuvre without spending a Battle Focus token to do so. It can do so even if other units have done so in the same phase, and doing so does not prevent other units from performing the same Agile Manoeuvre in the same phase.",
       "Crewed Platform: When the last Guardian Defender model in this unit is destroyed, any remaining Heavy Weapon Platform models in this unit are also destroyed."
     ],
     "weapons": [
@@ -1531,7 +1542,7 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 85,
-    "models": 1,
+    "models": 5,
     "move": "8\"",
     "toughness": "3",
     "save": "4+",
@@ -1665,7 +1676,7 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following unit:\n■ Howling Banshees",
-      "Whirling Death: While this model is leading a unit, each time that unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit and each ti",
+      "Whirling Death: While this model is leading a unit, each time that unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit and each time a model in that unit makes an Advance move, ignore any vertical distance when determining the total distance that model can be moved during that move.",
       "Storm of Silence: Each time this model makes an attack that targets a ^^Character^^ unit, you can re-roll the Wound roll."
     ],
     "weapons": [
@@ -1785,7 +1796,7 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following unit:\n■ Dark Reapers",
-      "Harvester of Souls: While this model is leading a unit, in your Shooting phase, after selecting targets for that unit's attacks, if every attack targets the same unit, roll one D6 for the target unit and one D6 for every",
+      "Harvester of Souls: While this model is leading a unit, in your Shooting phase, after selecting targets for that unit's attacks, if every attack targets the same unit, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a 5+, the unit being rolled for is struck by explosive debris; after resolving all of that unit's attacks against the target unit, each unit struck by explosive debris suffers D3 mortal wounds.",
       "Face of Death: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test, subtracting 1 from the result."
     ],
     "weapons": [
@@ -1816,7 +1827,7 @@
     "name": "Night Spinner",
     "faction": "Craftworlds",
     "alliance": "aeldari",
-    "points": 170,
+    "points": 165,
     "models": 1,
     "move": "14\"",
     "toughness": "9",
@@ -1837,7 +1848,7 @@
     ],
     "abilities": [
       "Damaged: 1-4 Wounds Remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-      "Monofilament Web: In your Shooting phase, after this model has shot, if one or more of those attacks made with its doomweaver scored a hit against an enemy unit, until the start of your next turn, that enemy unit is pi"
+      "Monofilament Web: In your Shooting phase, after this model has shot, if one or more of those attacks made with its doomweaver scored a hit against an enemy unit, until the start of your next turn, that enemy unit is pinned. While a unit is pinned, subtract 2 from that unit's Move characteristic and subtract 2 from Charge rolls made for it."
     ],
     "weapons": [
       {
@@ -1880,7 +1891,18 @@
         "keywords": "Lethal Hits"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 165
+      },
+      {
+        "from": 3,
+        "points": 195
+      }
+    ]
   },
   {
     "name": "Rangers",
@@ -1905,7 +1927,7 @@
       "Ynnari"
     ],
     "abilities": [
-      "Path of the Outcast: In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up t"
+      "Path of the Outcast: In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to D6\"."
     ],
     "weapons": [
       {
@@ -2012,7 +2034,7 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 100,
-    "models": 1,
+    "models": 3,
     "move": "14\"",
     "toughness": "4",
     "save": "3+",
@@ -2092,7 +2114,7 @@
       "Ynnari"
     ],
     "abilities": [
-      "Target Acquisition: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks made with a long rifle. Until the end of the phase, that enemy unit cannot have the Benefit "
+      "Target Acquisition: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks made with a long rifle. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
     ],
     "weapons": [
       {
@@ -2142,7 +2164,7 @@
     "name": "Skyweavers",
     "faction": "Craftworlds",
     "alliance": "aeldari",
-    "points": 95,
+    "points": 90,
     "models": 2,
     "move": "14\"",
     "toughness": "4",
@@ -2222,7 +2244,7 @@
     "name": "Solitaire",
     "faction": "Craftworlds",
     "alliance": "aeldari",
-    "points": 115,
+    "points": 105,
     "models": 1,
     "move": "12\"",
     "toughness": "3",
@@ -2244,7 +2266,7 @@
       "Corsairs and Travelling Players"
     ],
     "abilities": [
-      "Blitz: Once per battle, in your Movement phase, before this model makes a Normal move it can use this ability. If it does, until the end of\nthe turn, add 2D6\" to this model’s Move characteristic and add 3 to",
+      "Blitz: Once per battle, in your Movement phase, before this model makes a Normal move it can use this ability. If it does, until the end of the turn, add 2D6\" to this model’s Move characteristic and add 3 to the Attacks characteristic of this model’s Solitaire weapons.",
       "Blur of Movement: This model is eligible to declare a charge in a turn in which it Advanced."
     ],
     "weapons": [
@@ -2286,8 +2308,8 @@
       "Ynnari"
     ],
     "abilities": [
-      "Spirit Mark (Psychic): Once per turn, in your Movement phase, when this model starts or ends a move, select one friendly Wraith Construct unit within 6\" of this model (excluding Titanic units) and one enemy unit visible to ",
-      "Tears of Isha (Psychic): In your Command phase, select one friendly Wraith Construct unit within 6\" of this model. If one or more models in that unit are destroyed, you can return one destroyed model to that unit. Otherwise, ",
+      "Spirit Mark (Psychic): Once per turn, in your Movement phase, when this model starts or ends a move, select one friendly Wraith Construct unit within 6\" of this model (excluding Titanic units) and one enemy unit visible to this model. Until the start of your next Movement phase, weapons equipped by models in that friendly unit have the [Sustained Hits 1] ability while targeting that enemy unit.",
+      "Tears of Isha (Psychic): In your Command phase, select one friendly Wraith Construct unit within 6\" of this model. If one or more models in that unit are destroyed, you can return one destroyed model to that unit. Otherwise, one model in that unit regains up to D3 lost wounds. Each unit can only be selected for this ability once per turn.",
       "Spiritseer: While this model is within 3\" of one or more friendly Wraith Construct units, this model has the Lone Operative ability."
     ],
     "weapons": [
@@ -2343,7 +2365,7 @@
       "Frame"
     ],
     "abilities": [
-      "Rapid Embarkation: At the end of the Fight phase, if there are no models currently embarked within this **^^Transport^^**, you can select one friendly **^^Harlequins Infantry^^** unit that has 6 or fewer models that is "
+      "Rapid Embarkation: At the end of the Fight phase, if there are no models currently embarked within this Transport, you can select one friendly Harlequins Infantry unit that has 6 or fewer models that is wholly within 6\" of this Transport. Unless that unit is within Engagement Range of one or more enemy units, it can embark within this Transport. That unit can embark within this TRANSPORT in a turn it disembarked from this TRANSPORT."
     ],
     "weapons": [
       {
@@ -2367,14 +2389,25 @@
         "keywords": "Lethal Hits"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 70
+      },
+      {
+        "from": 4,
+        "points": 80
+      }
+    ]
   },
   {
     "name": "Storm Guardians",
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 100,
-    "models": 1,
+    "models": 11,
     "move": "7\"",
     "toughness": "3",
     "save": "4+",
@@ -2396,7 +2429,7 @@
     ],
     "abilities": [
       "Serpent Shield: Models in the bearer’s unit have a 5+ invulnerable save.",
-      "Stormblades: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's Level of Control over that obj",
+      "Stormblades: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase.",
       "Crewed Platform: When the last Storm Guardian model in this unit is destroyed, any remaining Serpent’s Scale Platform models in this unit are also destroyed."
     ],
     "weapons": [
@@ -2458,7 +2491,7 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 75,
-    "models": 1,
+    "models": 5,
     "move": "7\"",
     "toughness": "3",
     "save": "3+",
@@ -2562,14 +2595,25 @@
         "keywords": "Blast, Devastating Wounds, Indirect Fire"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 110
+      },
+      {
+        "from": 3,
+        "points": 130
+      }
+    ]
   },
   {
     "name": "Swooping Hawks",
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 95,
-    "models": 1,
+    "models": 5,
     "move": "14\"",
     "toughness": "3",
     "save": "4+",
@@ -2591,7 +2635,7 @@
       "Ynnari"
     ],
     "abilities": [
-      "Grenade Pack Flyover: Once per turn, in your Movement phase, when this unit is set-up on the battlefield or ends a Normal, Advance or Fall Back move, it can use this ability. If it does, select one enemy unit within 8\" of "
+      "Grenade Pack Flyover: Once per turn, in your Movement phase, when this unit is set-up on the battlefield or ends a Normal, Advance or Fall Back move, it can use this ability. If it does, select one enemy unit within 8\" of and visible to this unit and roll one D6 for each Swooping Hawks model in this unit. For each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds). Each time this unit uses this ability , until the end of the turn, you cannot target this unit with the Grenades Stratagem."
     ],
     "weapons": [
       {
@@ -2615,7 +2659,18 @@
         "keywords": "Psychic"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 95
+      },
+      {
+        "from": 3,
+        "points": 110
+      }
+    ]
   },
   {
     "name": "The Visarch",
@@ -2685,7 +2740,7 @@
     "name": "The Yncarne",
     "faction": "Craftworlds",
     "alliance": "aeldari",
-    "points": 245,
+    "points": 230,
     "models": 1,
     "move": "10\"",
     "toughness": "10",
@@ -2708,7 +2763,7 @@
       "Aeldari"
     ],
     "abilities": [
-      "Inevitable Death: Once in each of your opponent's turns, if this model is on the battlefield when another friendly Aeldari unit is destroyed, just after removing the last model in that unit, you can remove this model f",
+      "Inevitable Death: Once in each of your opponent's turns, if this model is on the battlefield when another friendly Aeldari unit is destroyed, just after removing the last model in that unit, you can remove this model from the battlefield and set it up as close as possible to where that destroyed model was destroyed and not within Engagement Range of one or more enemy units. Doing so does not prevent this model from being eligible to move.",
       "Ethereal Form: Each time this model destroys an enemy unit it regains up to D3 lost wounds.",
       "Avatar of the Whispering God: If your army includes The Yncarne, it cannot include any Epic Hero units (excluding Ynnari units). If your army includes any Epic Hero units (excluding Ynnari units), it cannot include The Yncarne."
     ],
@@ -2749,14 +2804,14 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 85,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 5,
+    "move": "8\"",
+    "toughness": "3",
+    "save": "6+",
+    "wounds": "1",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -2769,7 +2824,7 @@
       "Corsairs and Travelling Players"
     ],
     "abilities": [
-      "Dance of Death: At the start of the Fight phase, select one of the following abilities for this unit to gain until the end of the phase:\n■ Hero's Prowess: Each time a model in this unit makes an attack, re-roll a Hit"
+      "Dance of Death: At the start of the Fight phase, select one of the following abilities for this unit to gain until the end of the phase: ■ Hero's Prowess: Each time a model in this unit makes an attack, re-roll a Hit roll of 1. ■ Villain's Doom: Each time a model in this unit makes an attack, add 1 to the Wound roll. ■ Trickster's Grace: Each time an attack targets this unit, subtract 1 from the Hit roll."
     ],
     "weapons": [
       {
@@ -2843,7 +2898,7 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following unit:\n■ Troupe",
-      "Choreographer of War: While this model is leading a unit, each time a model in that unit makes a Pile In or Consolidate move, it can move up to 6\" instead of 3\". In addition, it does not need to end that move closer to the",
+      "Choreographer of War: While this model is leading a unit, each time a model in that unit makes a Pile In or Consolidate move, it can move up to 6\" instead of 3\". In addition, it does not need to end that move closer to the closest enemy model, provided it ends as close as possible to the closest enemy unit.",
       "Cegorach’s Favour:: Each time this model makes a melee attack you can re-roll a Hit roll of 1 and add 1 to the Wound roll."
     ],
     "weapons": [
@@ -2987,13 +3042,13 @@
     "alliance": "aeldari",
     "points": 40,
     "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "move": "7\"",
+    "toughness": "3",
+    "save": "6+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
     "role": "HERO",
     "isHero": true,
     "canReinforce": false,
@@ -3009,7 +3064,7 @@
     "abilities": [
       "Leader: This model can be attached to the following units:\n- **^^Guardian Defenders^^**\n- **^^Storm Guardians^^**\n\nYou can attach this model to a unit, even if one **^^Autarch^^** or **^^Farseer^^** model has",
       "Runes of Fortune (Psychic): Each time an enemy unit declares a charge, if one or more units with this ability are selected as a target of that charge, subtract 2 from the Charge roll.",
-      "Psychic Communion (Psychic): Each time this model is selected to shoot, until the end of the phase, add 1 to the Attacks and Strength characteristics of its Destructor weapon for each other friendly ^^Aeldari Psyker ^^ model with"
+      "Psychic Communion (Psychic): Each time this model is selected to shoot, until the end of the phase, add 1 to the Attacks and Strength characteristics of its Destructor weapon for each other friendly Aeldari Psyker model within 6\" of this model (to a maximum of +2)."
     ],
     "weapons": [
       {
@@ -3070,14 +3125,14 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 55,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 2,
+    "move": "7\"",
+    "toughness": "3",
+    "save": "6+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -3092,7 +3147,7 @@
     ],
     "abilities": [
       "Protect (Psychic): While a ^^Farseer^^ model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll.",
-      "Psychic Communion (Psychic): Each time this unit is selected to shoot, for each ^^Warlock^^ model in this unit, until the end of the phase, add 1 to the Attacks and Strength characteristics of that model's Destructor weapon for e",
+      "Psychic Communion (Psychic): Each time this unit is selected to shoot, for each Warlock model in this unit, until the end of the phase, add 1 to the Attacks and Strength characteristics of that model's Destructor weapon for each other friendly Aeldari Psyker model within 6\" of this model (to a maximum of +2).",
       "Leader: At the start of the Declare Battle Formations step, if this unit is not an Attached unit, this unit can join one **GUARDIAN DEFENDERS** or **STORM GUARDIANS** unit from your army (a unit cannot have m"
     ],
     "weapons": [
@@ -3154,7 +3209,7 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 105,
-    "models": 1,
+    "models": 5,
     "move": "12\"",
     "toughness": "3",
     "save": "3+",
@@ -3175,7 +3230,7 @@
       "Ynnari"
     ],
     "abilities": [
-      "Flickerjump: In your Movement phase, each time this unit is selected to make a Normal move, it can use this ability. If it does, until the end of the turn, this unit is not eligible to declare a charge and models "
+      "Flickerjump: In your Movement phase, each time this unit is selected to make a Normal move, it can use this ability. If it does, until the end of the turn, this unit is not eligible to declare a charge and models in it have a Move characteristic of 24\". Each time this unit uses this ability, at the end of the phase, roll one D6 for each model in this unit: for each 1, this unit suffers 1 mortal wound."
     ],
     "weapons": [
       {
@@ -3199,7 +3254,18 @@
         "keywords": "Psychic"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 105
+      },
+      {
+        "from": 3,
+        "points": 125
+      }
+    ]
   },
   {
     "name": "Wave Serpent",
@@ -3322,14 +3388,25 @@
         "keywords": "Twin-Linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 115
+      },
+      {
+        "from": 4,
+        "points": 125
+      }
+    ]
   },
   {
     "name": "Webway Gate [Legends]",
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 105,
-    "models": 1,
+    "models": 2,
     "move": "-",
     "toughness": "12",
     "save": "3+",
@@ -3347,9 +3424,9 @@
       "Frame"
     ],
     "abilities": [
-      "Arcane Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against th",
-      "Webway Strike: Each time a friendly AELDARI unit arrives from Strategic Reserves, you can choose to set it up anywhere on the battlefield that is wholly within 6\" of this FORTIFICATION. If you do, that AELDARI unit ",
-      "Deployment: Both Wraithbone Arches of this Fortification must be set up with their upper points no more than 1\" apart and with both statues facing in fully opposite directions so that an arch is formed, as shown "
+      "Arcane Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack.",
+      "Webway Strike: Each time a friendly AELDARI unit arrives from Strategic Reserves, you can choose to set it up anywhere on the battlefield that is wholly within 6\" of this FORTIFICATION. If you do, that AELDARI unit can be set up within 9\" of enemy models, and can be set up within Engagement Range of enemy models. If an AELDARI unit is set up within Engagement Range of any enemy models in this way, it counts as having made a Charge move this turn and is eligible to fight this turn.",
+      "Deployment: Both Wraithbone Arches of this Fortification must be set up with their upper points no more than 1\" apart and with both statues facing in fully opposite directions so that an arch is formed, as shown on the right. Both arches are then treated as a single model for all rules purposes."
     ],
     "weapons": [],
     "system": "40k"
@@ -3359,14 +3436,14 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 80,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 3,
+    "move": "14\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "6+",
     "role": "CAVALRY",
     "isHero": false,
     "canReinforce": true,
@@ -3452,7 +3529,7 @@
     ],
     "abilities": [
       "Damaged: 1-6 Wounds Remaining: While this model has 1-6 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
-      "Titanic Strides: Each time this model makes a Normal, Advance or Fall Back move, it can move through models (excluding Titanic models) and sections of terrain features that are 4\" or less in height. When doing so:\nIt ",
+      "Titanic Strides: Each time this model makes a Normal, Advance or Fall Back move, it can move through models (excluding Titanic models) and sections of terrain features that are 4\" or less in height. When doing so: It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. It can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a 1, this model is battle-shocked.",
       "Point-blank Devastation: Each time this model's Heavy Wraithcannon or Suncannon targets a unit within half range, you can re-roll the dice to determine the number of attacks made."
     ],
     "weapons": [
@@ -3515,7 +3592,18 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 385
+      },
+      {
+        "from": 2,
+        "points": 405
+      }
+    ]
   },
   {
     "name": "Wraithlord",
@@ -3542,8 +3630,8 @@
       "Ynnari"
     ],
     "abilities": [
-      "Fated Hero: At the start of the battle, select one of the following keywords: Infantry, Monster, Mounted, Vehicle. Each time this model makes an attack that targets a unit with the selected keyword, re-roll a Hit",
-      "Psychic Guidance: While this model is within 12\" of one or more friendly Aeldari Psyker models, improve the Ballistic Skill and Weapon Skill characteristics of weapons equipped by this model by 1 and it has a Leadershi"
+      "Fated Hero: At the start of the battle, select one of the following keywords: Infantry, Monster, Mounted, Vehicle. Each time this model makes an attack that targets a unit with the selected keyword, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.",
+      "Psychic Guidance: While this model is within 12\" of one or more friendly Aeldari Psyker models, improve the Ballistic Skill and Weapon Skill characteristics of weapons equipped by this model by 1 and it has a Leadership characteristic of 6+."
     ],
     "weapons": [
       {
@@ -3669,7 +3757,7 @@
     ],
     "abilities": [
       "War Construct: This unit is eligible to shoot in a turn in which it Fell Back.",
-      "Psychic Guidance: While this unit is within 12\" of one or more friendly Aeldari Psyker models, models in this unit have a Leadership characteristic of 6+ and each time a model in this unit makes an attack, add 1 to the"
+      "Psychic Guidance: While this unit is within 12\" of one or more friendly Aeldari Psyker models, models in this unit have a Leadership characteristic of 6+ and each time a model in this unit makes an attack, add 1 to the Hit roll."
     ],
     "weapons": [
       {
@@ -3708,7 +3796,7 @@
     "name": "Yvraine",
     "faction": "Craftworlds",
     "alliance": "aeldari",
-    "points": 100,
+    "points": 90,
     "models": 1,
     "move": "8\"",
     "toughness": "3",
@@ -3730,8 +3818,8 @@
       "Leader"
     ],
     "abilities": [
-      "Herald of Ynnead: At the start of the Fight phase, select one enemy unit within Engagement Range of this model. Until the end of the phase, each time a friendly **AELDARI** model makes an attack that targets that unit,",
-      "Word of the Phoenix (Psychic): While this model is leading a unit, in your Command phase, roll one D6: on a 2+, D3+1 destroyed Bodyguard models (excluding Support Weapon models) are returned to that unit with their full wounds rema",
+      "Herald of Ynnead: At the start of the Fight phase, select one enemy unit within Engagement Range of this model. Until the end of the phase, each time a friendly AELDARI model makes an attack that targets that unit, you can re‑roll a Wound roll of 1.",
+      "Word of the Phoenix (Psychic): While this model is leading a unit, in your Command phase, roll one D6: on a 2+, D3+1 destroyed Bodyguard models (excluding Support Weapon models) are returned to that unit with their full wounds remaining.",
       "Leader: This model can be attached to the following units:\n- **CORSAIR REAVER BAND**\n- **CORSAIR VOIDREAVERS**\n- **CORSAIR VOIDSCARRED**\n- **GUARDIAN DEFENDERS**\n- **STORM GUARDIANS**\n- **YNNARI INCUBI**\n- **",
       "Servant of the Whispering God: If your army includes Yvraine, it cannot include any Epic Hero units (excluding Ynnari units). If your army includes any Epic Hero units (excluding Ynnari units), it cannot include Yvraine."
     ],
@@ -3784,8 +3872,8 @@
     ],
     "abilities": [
       "Forceshield: The bearer has a 4+ invulnerable save.",
-      "Malevolent Souls: Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 3+, do not remove it from play; that destroyed model can fight after the attac",
-      "Psychic Guidance: While this unit is within 12\" of one or more friendly Aeldari Psyker models, models in this unit have a Leadership characteristic of 6+ and each time a model in this unit makes an attack, add 1 to the"
+      "Malevolent Souls: Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 3+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.",
+      "Psychic Guidance: While this unit is within 12\" of one or more friendly Aeldari Psyker models, models in this unit have a Leadership characteristic of 6+ and each time a model in this unit makes an attack, add 1 to the Hit roll."
     ],
     "weapons": [
       {
@@ -3834,7 +3922,7 @@
       "Leader"
     ],
     "abilities": [
-      "Soul Trap: Add 1 to the Attacks and Strength characteristics of the bearer's melee weapons. The first time the bearer makes a melee attack that destroys an enemy model, after all the bearer's attacks have been r",
+      "Soul Trap: Add 1 to the Attacks and Strength characteristics of the bearer's melee weapons. The first time the bearer makes a melee attack that destroys an enemy model, after all the bearer's attacks have been resolved, until the end of the battle, add an additional 1 to the Attacks and Strength characteristics of the bearer's melee weapons.",
       "Shadowfield: While this model has an **InSv**, this unit cannot re‑roll **save rolls**. When this model loses a wound (excluding from **mortal wounds**), this model has no **InSv** until the end of the battle.",
       "Leader: This model can be attached to the following units:\n- **COURT OF THE ARCHON**\n- **HAND OF THE ARCHON**\n- **INCUBI**\n- **KABALITE WARRIORS**",
       "Overlord: Once per battle, at the start of any phase, you can select one friendly ^^**Drukhari**^^ unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked.",
@@ -3899,7 +3987,7 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 135,
-    "models": 1,
+    "models": 7,
     "move": "12\"",
     "toughness": "4",
     "save": "6+",
@@ -3917,7 +4005,7 @@
     ],
     "abilities": [
       "Beastmaster: While this unit contains a Beastmaster model, you can re-roll Charge rolls made for this unit.",
-      "Goaded Savagery (Pain): In the Fight phase, when you select this unit to fight, you can spend 1 of your Pain tokens to Empower this unit. While this unit is Empowered, if it contains a ^^**Beastmaster**^^ model, each time a "
+      "Goaded Savagery (Pain): In the Fight phase, when you select this unit to fight, you can spend 1 of your Pain tokens to Empower this unit. While this unit is Empowered, if it contains a Beastmaster model, each time a Beast model in this unit makes a melee attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
     ],
     "weapons": [
       {
@@ -3958,14 +4046,14 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 95,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 4,
+    "move": "7\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -3977,7 +4065,7 @@
     ],
     "abilities": [
       "Court of the Archon: While a ^^**Character**^^ model is leading a unit that contains one or more Lhamaean, Medusae, Sslyth and/or Ur-ghul models, that ^^**Character**^^ model has the Feel No Pain 4+ ability.",
-      "Deadly Retinue (Pain): At the start of your Shooting phase or at the start of the Fight phase, you can spend 1 Pain token to Empower this unit. While this unit is Empowered:\n■ If it contains one or more Lhamaean models, mel",
+      "Deadly Retinue (Pain): At the start of your Shooting phase or at the start of the Fight phase, you can spend 1 Pain token to Empower this unit. While this unit is Empowered: ■ If it contains one or more Lhamaean models, melee weapons equipped by models in this unit have the [LETHAL HITS] ability. ■ If it contains one or more Medusae models, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability. ■ If it contains one or more Sslyth models, each time a melee attack targets this unit, subtract 1 from the Wound roll. ■ If this unit contains one or more Ur-ghul models, this unit has the Fights First ability.",
       "Court of the Archon [Legends]: This unit can be led by an ^^**Archon**^^. Alternatively, in the Declare Battle Formations step, this unit can join one ^^**Kabalite Warriors**^^ or ^^**Hand of the Archon**^^ unit from your army that"
     ],
     "weapons": [
@@ -4077,8 +4165,8 @@
       "Fly"
     ],
     "abilities": [
-      "Pain Engine (Aura): Each time you spend 1 Pain token to Empower a friendly unit within 9\" of this unit, roll one D6, adding 1 to the result if one or more models in this unit are not equipped with a spirit vortex: on a 5",
-      "Pain Parasite (Pain): In your Shooting phase or the Fight phase, when you select this unit to shoot or fight, you can spend 1 Pain token to Empower this unit. While Empowered, each time this unit shoots or fights, after it"
+      "Pain Engine (Aura): Each time you spend 1 Pain token to Empower a friendly unit within 9\" of this unit, roll one D6, adding 1 to the result if one or more models in this unit are not equipped with a spirit vortex: on a 5+, you gain 1 Pain token. Designer's Note: Pain tokens you spend for reasons other than Empowering a unit do not trigger this ability.",
+      "Pain Parasite (Pain): In your Shooting phase or the Fight phase, when you select this unit to shoot or fight, you can spend 1 Pain token to Empower this unit. While Empowered, each time this unit shoots or fights, after it has resolved its attacks, if one or more enemy models were destroyed as a result of those attacks, one model in this unit regains up to 3 lost wounds (if all models in this unit have their starting number of wounds and this unit is below its Starting Strength, 1 model is returned to this unit with 3 wounds remaining)."
     ],
     "weapons": [
       {
@@ -4141,9 +4229,9 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following unit:\n■ Incubi",
-      "Master of Blades (Pain): In the Fight phase, when you select this model's unit to fight, you can spend 1 Pain token to Empower that unit. While that unit is Empowered, each time a model in that unit makes a melee attack, add ",
+      "Master of Blades (Pain): In the Fight phase, when you select this model's unit to fight, you can spend 1 Pain token to Empower that unit. While that unit is Empowered, each time a model in that unit makes a melee attack, add 1 to the Wound roll.",
       "Onslaught: While this model is leading a unit, each time a model in that unit makes a Pile-In or Consolidation move, it can move up to 6\" instead of up to 3\".",
-      "Silent Executioner: Each time this model make an attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll. If that target is Below Half-Strength, you can re-roll the Wound roll as well"
+      "Silent Executioner: Each time this model make an attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll. If that target is Below Half-Strength, you can re-roll the Wound roll as well."
     ],
     "weapons": [
       {
@@ -4174,14 +4262,14 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 80,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 3,
+    "move": "7\"",
+    "toughness": "5",
+    "save": "6+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "6+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -4193,8 +4281,8 @@
     ],
     "abilities": [
       "Monstrous Hulks: This unit cannot embark within a ^^**Venom**^^, but it can embark within other ^^**Drukhari Transports**^^; when doing so, each ^^**Grotesque**^^ model takes up the space of 3 models.",
-      "Macro-steroids (Pain): In the Fight phase, when you select this unit to fight, you can spend 1 of your Pain tokens to Empower this unit. While Empowered, melee weapons equipped by models in this unit have a Strength charact",
-      "Monstrous Charge: Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 4"
+      "Macro-steroids (Pain): In the Fight phase, when you select this unit to fight, you can spend 1 of your Pain tokens to Empower this unit. While Empowered, melee weapons equipped by models in this unit have a Strength characteristic of 8 and the [LETHAL HITS] ability.",
+      "Monstrous Charge: Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers D3 mortal wounds."
     ],
     "weapons": [
       {
@@ -4255,7 +4343,7 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following unit:\n■ Wracks",
-      "Fear Incarnate (Aura): While an enemy unit is within 6\" of this model, worsen the Leadership characteristic of models in that unit by 1. In addition, in the Battle-shock step of your opponent's Command phase, if such an ene",
+      "Fear Incarnate (Aura): While an enemy unit is within 6\" of this model, worsen the Leadership characteristic of models in that unit by 1. In addition, in the Battle-shock step of your opponent's Command phase, if such an enemy unit is below its Starting Strength, it must take a Battle-shock test.",
       "Pain Adept: In your Command phase, if one or more models from your army with this ability are on the battlefield, roll one D6: on a 4+, you gain 1 Pain token.",
       "Fleshcraft (Pain): In your Command phase, you can spend 1 Pain token to Empower this model's unit. Each time you do, you can return up to D3+1 destroyed Bodyguard models to that unit."
     ],
@@ -4288,14 +4376,14 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 90,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 5,
+    "move": "14\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "6+",
     "role": "CAVALRY",
     "isHero": false,
     "canReinforce": true,
@@ -4308,8 +4396,8 @@
     ],
     "abilities": [
       "Phantasm Grenade Launcher: The bearer’s unit has the ^^**Smoke**^^ and ^^**Grenades**^^ keywords.",
-      "Battlefield Butchery (Pain): In the Fight phase, when you select this unit to fight, you can spend 1 Pain token to Empower this unit. While Empowered, add 1 to the Attacks and Strength characteristics of this unit's melee weapons",
-      "Skyboard Evasion: In your opponent's Movement phase, if an enemy unit ends a move within 8” of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up t"
+      "Battlefield Butchery (Pain): In the Fight phase, when you select this unit to fight, you can spend 1 Pain token to Empower this unit. While Empowered, add 1 to the Attacks and Strength characteristics of this unit's melee weapons.",
+      "Skyboard Evasion: In your opponent's Movement phase, if an enemy unit ends a move within 8” of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to D6”."
     ],
     "weapons": [
       {
@@ -4333,14 +4421,25 @@
         "keywords": "Anti-Infantry 3+, Assault, Twin-Linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 90
+      },
+      {
+        "from": 3,
+        "points": 100
+      }
+    ]
   },
   {
     "name": "Incubi",
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 90,
-    "models": 1,
+    "models": 5,
     "move": "7\"",
     "toughness": "3",
     "save": "3+",
@@ -4358,8 +4457,8 @@
       "Blades for Hire"
     ],
     "abilities": [
-      "Tormentors: At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test. Each time a model in this unit makes a melee attack that ",
-      "Decapitating Strikes (Pain): In the Fight phase, when you select this unit to fight, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit makes a melee attack that targets an ^^**Infant",
+      "Tormentors: At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test. Each time a model in this unit makes a melee attack that targets a Battle-shocked unit, add 1 to the Hit roll.",
+      "Decapitating Strikes (Pain): In the Fight phase, when you select this unit to fight, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit makes a melee attack that targets an Infantry unit, that attack has the [Devastating Wounds] ability.",
       "Incubi Shrine Token: Once per battle for each Incubi Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a Klaivex or Incubi model in this unit to an unmodified 6."
     ],
     "weapons": [
@@ -4373,21 +4472,32 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 90
+      },
+      {
+        "from": 3,
+        "points": 100
+      }
+    ]
   },
   {
     "name": "Kabalite Warriors",
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 110,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 10,
+    "move": "7\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "6+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -4401,8 +4511,8 @@
     "abilities": [
       "Phantasm Grenade Launcher: The bearer’s unit has the ^^**Smoke**^^ and ^^**Grenades**^^ keywords.",
       "Kabalite Icon: While the bearer's unit is not Battle-shocked, add 1 to the bearer's Objective Control characteristic.",
-      "Cruel Enforcers: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under you control, until your opponent's Level of Control over that obj",
-      "Sadistic Raiders (Pain): In your Shooting phase or the Fight phase, when you select this unit to shoot or fight, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit makes an attack"
+      "Cruel Enforcers: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under you control, until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase.",
+      "Sadistic Raiders (Pain): In your Shooting phase or the Fight phase, when you select this unit to shoot or fight, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target is within range of an objective marker, you can re-roll the Wound roll instead."
     ],
     "weapons": [
       {
@@ -4496,8 +4606,8 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following unit:\n■ Wyches",
-      "Brides of Death (Pain): In the Fight phase, when you select this model's unit to fight, you can spend 1 Pain token to Empower that unit. While that unit is Empowered, each time a model in that unit makes a melee attack, impr",
-      "Thrilling Spectacle: Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, this model has a 3+ invulnerable save and change the Attacks characteristic o",
+      "Brides of Death (Pain): In the Fight phase, when you select this model's unit to fight, you can spend 1 Pain token to Empower that unit. While that unit is Empowered, each time a model in that unit makes a melee attack, improve the Strength and Armour Penetration characteristics of that attack by 1.",
+      "Thrilling Spectacle: Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, this model has a 3+ invulnerable save and change the Attacks characteristic of melee weapons equipped by this model to 12.",
       "Blur of Blades: While this model is leading a unit, models in that unit have the Fights First ability."
     ],
     "weapons": [
@@ -4519,14 +4629,14 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 80,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 5,
+    "move": "8\"",
+    "toughness": "3",
+    "save": "7+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -4537,7 +4647,7 @@
       "Blades for Hire"
     ],
     "abilities": [
-      "Fade Away (Pain): At the end of your opponent’s Fight phase, if this unit is not within Engagement Range of one or more enemy units, you can spend 1 Pain token to Empower this unit. Each time you do, remove this unit f",
+      "Fade Away (Pain): At the end of your opponent’s Fight phase, if this unit is not within Engagement Range of one or more enemy units, you can spend 1 Pain token to Empower this unit. Each time you do, remove this unit from the battlefield and place it into Strategic Reserves.",
       "Shade Weavers: This unit cannot be targeted by ranged attacks unless the attacking model is within 18\"."
     ],
     "weapons": [
@@ -4562,7 +4672,18 @@
         "keywords": "Devastating Wounds"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 80
+      },
+      {
+        "from": 3,
+        "points": 90
+      }
+    ]
   },
   {
     "name": "Raider",
@@ -4591,7 +4712,7 @@
     ],
     "abilities": [
       "Aethersails: While one or more ^^**Drukhari**^^ units are embarked within this model, you can re-roll Advance and Charge rolls made for this model.",
-      "Splinter Racks (Pain): In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered, if one or more units are embarked within this model, each time this mode",
+      "Splinter Racks (Pain): In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered, if one or more units are embarked within this model, each time this model makes an attack with a ranged weapon that has the Anti ability, you can re-roll the Hit roll.",
       "Vanguard of the Dark City: At the start of your Command phase, select one of the abilities in the Vanguard of the Dark City section (see left) for this model. Until the start of your next Command phase, this model has that abil",
       "Masters of the Shadowed Sky: At the end of your Command phase, if this model is within range of an objective marker you control, and if one or more ^^**Kabalite Warriors**^^ units are embarked within it, that objective marker rem",
       "Speed of the Kill: Each time a ^^**Wyches**^^ unit disembarks from this model (excluding Emergency Disembarkations), models in that ^^**Wyches**^^ unit must be setup wholly within 6\" of this model."
@@ -4627,7 +4748,18 @@
         "keywords": "Heavy"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 75
+      },
+      {
+        "from": 4,
+        "points": 85
+      }
+    ]
   },
   {
     "name": "Ravager",
@@ -4656,7 +4788,7 @@
     "abilities": [
       "Damaged: 1-4 Wounds Remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
       "Eradicate the Foe: Each time this model makes an attack that targets an enemy unit that is at its Starting Strength, you can re-roll the Hit roll.",
-      "Agonising Suppression (Pain): In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered, after this model has shot, select one enemy unit hit by one or more of t"
+      "Agonising Suppression (Pain): In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
     ],
     "weapons": [
       {
@@ -4717,7 +4849,7 @@
     ],
     "abilities": [
       "Ground-attack Craft: Each time a model in this unit makes a ranged attack that targets an enemy unit (excluding units that can ^^**Fly**^^), add 1 to the Hit roll.",
-      "Nowhere to Run (Pain): In your Shooting phase, when you select this unit to shoot, you can spend 1 Pain token to Empower this unit. While Empowered, after this unit has shot, select one enemy unit (excluding ^^**Monsters**^"
+      "Nowhere to Run (Pain): In your Shooting phase, when you select this unit to shoot, you can spend 1 Pain token to Empower this unit. While Empowered, after this unit has shot, select one enemy unit (excluding Monsters and Vehicles) hit by one or more of those attacks; until the start of your next turn, that enemy unit is pinned. While a unit is pinned, subtract 2 from that unit's Move characteristic and subtract 2 from Charge rolls made for that unit."
     ],
     "weapons": [
       {
@@ -4787,14 +4919,14 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 75,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 3,
+    "move": "16\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "6+",
     "role": "CAVALRY",
     "isHero": false,
     "canReinforce": true,
@@ -4806,8 +4938,8 @@
       "Mounted"
     ],
     "abilities": [
-      "Eviscerating Fly-by: Each time this unit ends a Normal or Advance move, you can select one enemy unit (excluding ^^**Monster **^^and ^^**Vehicle**^^ units) that it moved over during that move, then roll one D6 for each mo",
-      "Matchless Swiftness (Pain): In your Movement phase, when you select this unit to Advance, you can spend 1 Pain token to Empower this unit. While Empowered, each time this unit Advances, do not make an Advance roll. Instead, unti"
+      "Eviscerating Fly-by: Each time this unit ends a Normal or Advance move, you can select one enemy unit (excluding Monster and Vehicle units) that it moved over during that move, then roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound.",
+      "Matchless Swiftness (Pain): In your Movement phase, when you select this unit to Advance, you can spend 1 Pain token to Empower this unit. While Empowered, each time this unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 8\" to the Move characteristic of models in this unit."
     ],
     "weapons": [
       {
@@ -4861,21 +4993,32 @@
         "keywords": "Assault, Melta 3"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 75
+      },
+      {
+        "from": 3,
+        "points": 85
+      }
+    ]
   },
   {
     "name": "Scourges with Heavy Weapons",
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 110,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 5,
+    "move": "14\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -4890,8 +5033,8 @@
       "Scourges with Heavy Weapons"
     ],
     "abilities": [
-      "Airborne Evasion: In your Shooting phase, after this unit has shot, if it is not within Engagement Range of any enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this unit is no",
-      "Winged Strike (Pain): In your Shooting phase, when you select this unit to shoot, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit makes a range attack, you can re-roll the H"
+      "Airborne Evasion: In your Shooting phase, after this unit has shot, if it is not within Engagement Range of any enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this unit is not eligible to declare a charge.",
+      "Winged Strike (Pain): In your Shooting phase, when you select this unit to shoot, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit makes a range attack, you can re-roll the Hit roll."
     ],
     "weapons": [
       {
@@ -4905,7 +5048,18 @@
         "keywords": "Psychic"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 110
+      },
+      {
+        "from": 3,
+        "points": 120
+      }
+    ]
   },
   {
     "name": "Succubus",
@@ -4932,7 +5086,7 @@
       "Leader"
     ],
     "abilities": [
-      "Lithe Agility (Pain): In your Movement phase when you select this model's unit to Advance, or in your Charge phase before you make a Charge roll for this model's unit, you can spend 1 Pain token to Empower that unit. While",
+      "Lithe Agility (Pain): In your Movement phase when you select this model's unit to Advance, or in your Charge phase before you make a Charge roll for this model's unit, you can spend 1 Pain token to Empower that unit. While that unit is Empowered, you can re-roll Advance and Charge rolls made for that unit.",
       "Storm of Blades: While this model is leading a unit, melee weapons equipped by models in that unit have the ^^**[Sustained Hits 1]**^^ ability.",
       "Leader: This model can be attached to the following unit:\n■ Wyches",
       "Bloody Spectacle: Each time this model makes a melee attack that targets a ^^**Character**^^ unit, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model's unit destroys a ^^**Character**"
@@ -4955,7 +5109,7 @@
     "name": "Talos",
     "faction": "Craftworlds",
     "alliance": "aeldari",
-    "points": 75,
+    "points": 70,
     "models": 1,
     "move": "7\"",
     "toughness": "7",
@@ -4977,7 +5131,7 @@
     "abilities": [
       "Torture Device: Each time this unit destroys an enemy unit, you gain 1 additional Pain token.",
       "Devoted to Pain: If a model in this unit is equipped with 2 macro-scalpels, those weapons have the ^^**[Twin-Linked]**^^ ability.",
-      "Mindless Killing Machines (Pain): At the start of the Fight phase, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit is destroyed by a melee attack, if that model has not fought this phas"
+      "Mindless Killing Machines (Pain): At the start of the Fight phase, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 2+, do not remove it from play; that destroyed model can fight after the attacking unit has finished making its attacks, and it is then removed from play."
     ],
     "weapons": [
       {
@@ -5072,7 +5226,18 @@
         "keywords": "Extra Attacks"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 70
+      },
+      {
+        "from": 3,
+        "points": 80
+      }
+    ]
   },
   {
     "name": "Urien Rakarth [Legends]",
@@ -5102,8 +5267,8 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following unit:\n■ Wracks",
-      "Horrific Regeneration: The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield, as close as possible to where it was destroyed and not within Engagemen",
-      "Sculptor of Torments (Pain): In your Fight phase, when you select this model’s unit to fight, you can spend 1 of your Pain tokens to Empower this model’s unit. While that unit is Empowered, each time a model in that unit makes a ",
+      "Horrific Regeneration: The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining",
+      "Sculptor of Torments (Pain): In your Fight phase, when you select this model’s unit to fight, you can spend 1 of your Pain tokens to Empower this model’s unit. While that unit is Empowered, each time a model in that unit makes a melee attack, add 1 to the Wound roll.",
       "Father of Pain: Each time an attack with a Damage characteristic of 1 is allocated to a model in this model’s unit, that model has the Feel No Pain 4+ ability against that attack."
     ],
     "weapons": [
@@ -5156,8 +5321,8 @@
       "Frame"
     ],
     "abilities": [
-      "Aerialists: At the end of the Fight phase, if there are no models currently embarked within this **TRANSPORT**, you can select one friendly **DRUKHARI INFANTRY** unit that has 6 or fewer models that is wholly wit",
-      "Rapid Deployment (Pain): In your Movement phase, when you select this model to Advance, you can spend 1 Pain token to Empower this model. While Empowered, units can disembark from this model after it has Advanced. Units that "
+      "Aerialists: At the end of the Fight phase, if there are no models currently embarked within this TRANSPORT, you can select one friendly DRUKHARI INFANTRY unit that has 6 or fewer models that is wholly within 6\" of this TRANSPORT (you cannot select a unit that can FLY). Unless that unit is within Engagement Range of one or more enemy units, it can embark within this TRANSPORT. That unit can embark within this TRANSPORT in a turn it disembarked from a TRANSPORT.",
+      "Rapid Deployment (Pain): In your Movement phase, when you select this model to Advance, you can spend 1 Pain token to Empower this model. While Empowered, units can disembark from this model after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
     ],
     "weapons": [
       {
@@ -5191,7 +5356,18 @@
         "keywords": "Anti-Infantry 3+, Assault, Rapid Fire 2, Twin Linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 65
+      },
+      {
+        "from": 4,
+        "points": 75
+      }
+    ]
   },
   {
     "name": "Voidraven Bomber",
@@ -5218,8 +5394,8 @@
     ],
     "abilities": [
       "Damaged: 1-4 Wounds Remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-      "Void Mine: At the end of your opponent’s Fight phase, select one **visible** enemy model (excluding **Lone Operative** units) within 24\" of this unit, and roll one D6 for each enemy unit within D6\" of that model",
-      "Nowhere to Hide (Pain): In your Shooting phase, when you select this unit to shoot, you can spend 1 Pain token to Empower this unit. While Empowered, after this unit has shot, select one enemy unit hit by one or more of thos"
+      "Void Mine: At the end of your opponent’s Fight phase, select one visible enemy model (excluding Lone Operative units) within 24\" of this unit, and roll one D6 for each enemy unit within D6\" of that model: - For each 4+, that enemy unit suffers D6 mortal wounds.",
+      "Nowhere to Hide (Pain): In your Shooting phase, when you select this unit to shoot, you can spend 1 Pain token to Empower this unit. While Empowered, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
     ],
     "weapons": [
       {
@@ -5258,15 +5434,15 @@
     "name": "Wracks",
     "faction": "Craftworlds",
     "alliance": "aeldari",
-    "points": 60,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "points": 55,
+    "models": 5,
+    "move": "7\"",
+    "toughness": "4",
+    "save": "5+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "6+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -5278,8 +5454,8 @@
       "Infantry"
     ],
     "abilities": [
-      "Torturer’s Craft: In your Shooting phase and the Fight phase, after this unit has shot or fought, select one enemy unit (excluding ^^**Vehicles**^^) hit by one or more of those attacks. That units must take a Battle-sh",
-      "Experimental Enhancements (Pain): In the Fight phase, when you select this unit to fight, you can spend 1 Pain token to Empower this unit. Each time you do, select one of the following to apply to this unit until the end of the phase:"
+      "Torturer’s Craft: In your Shooting phase and the Fight phase, after this unit has shot or fought, select one enemy unit (excluding Vehicles) hit by one or more of those attacks. That units must take a Battle-shock test.",
+      "Experimental Enhancements (Pain): In the Fight phase, when you select this unit to fight, you can spend 1 Pain token to Empower this unit. Each time you do, select one of the following to apply to this unit until the end of the phase: ■ Melee weapons equipped by non-Character models in this unit have an Attacks characteristic of 3. ■ Melee weapons equipped by non-Character models in this unit have an Attacks characteristic of 4 and the [Hazardous] ability."
     ],
     "weapons": [
       {
@@ -5340,14 +5516,14 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 90,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 10,
+    "move": "8\"",
+    "toughness": "3",
+    "save": "6+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+* / 6+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -5360,7 +5536,7 @@
       "Grenades"
     ],
     "abilities": [
-      "No Escape: Each time an enemy unit (excluding ^^**Monsters**^^ and ^^**Vehicles**^^) within Engagement Range of one or more units from your army with this ability Falls Back, all models in that enemy unit must t",
+      "No Escape: Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more units from your army with this ability Falls Back, all models in that enemy unit must take Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests.",
       "Acrobatic Gladiators (Pain): At the start of your Charge phase, you can spend 1 Pain token to Empower this unit. While Empowered, this unit is eligible to declare a charge in a turn in which it Advanced or Fell Back."
     ],
     "weapons": [
@@ -5421,7 +5597,7 @@
     ],
     "abilities": [
       "Damaged: 1-8 Wounds Remaining: While this model has 1-8 wounds remaining, subtract 4 from\nits Objective Control characteristic and each time this model\nmakes an attack, subtract 1 from the Hit roll",
-      "D-Rift: In your Shooting phase, just after selecting a target for this model’s D-impaler, roll one D6 for the target unit and every other unit within 3\" of that unit: on a 5+, the unit being rolled for is str"
+      "D-Rift: In your Shooting phase, just after selecting a target for this model’s D-impaler, roll one D6 for the target unit and every other unit within 3\" of that unit: on a 5+, the unit being rolled for is struck by a D-rift. After this model has finished making its attacks against that target unit this phase, each unit struck by a D-rift this phase suffers D3 mortal wounds."
     ],
     "weapons": [
       {
@@ -5472,7 +5648,7 @@
     ],
     "abilities": [
       "Damaged: 1-8 Wounds Remaining: While this model has 1-8 wounds remaining, subtract 4 from\nits Objective Control characteristic and each time this model\nmakes an attack, subtract 1 from the Hit roll",
-      "Lanced Obliteration: Each time an attack made with this model’s twin Scorpion pulsar destroys an enemy model that has the Deadly Demise ability, that model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 4+"
+      "Lanced Obliteration: Each time an attack made with this model’s twin Scorpion pulsar destroys an enemy model that has the Deadly Demise ability, that model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 4+ instead of on a 6."
     ],
     "weapons": [
       {
@@ -5521,7 +5697,7 @@
       "Frame"
     ],
     "abilities": [
-      "Lightning Assault: Each time this model ends a Normal move, you can select one enemy unit (excluding ^^Monster^^ and ^^Vehicle^^ units) that it moved over during that move, then roll six D6: for each 4+, that enemy unit"
+      "Lightning Assault: Each time this model ends a Normal move, you can select one enemy unit (excluding Monster and Vehicle units) that it moved over during that move, then roll six D6: for each 4+, that enemy unit suffers 1 mortal wound."
     ],
     "weapons": [
       {
@@ -5795,7 +5971,7 @@
     "abilities": [
       "Damaged: 1-6 Wounds Remaining: While this model has 1-6 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
       "Agile: Each time this model makes a Normal, Advance or Fall Back move, it can move over other models (excluding ^^Titanic^^ models) and terrain features that are 4\" or less in height as if they were not ther",
-      "Webway Shunt Generator: Once per battle, at the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield and place it into Strategic",
+      "Webway Shunt Generator: Once per battle, at the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield and place it into Strategic Reserves.",
       "Scattershield: The bearer has a 4+ invulnerable save."
     ],
     "weapons": [
@@ -5874,7 +6050,7 @@
     "name": "Shadow Spectres [Legends]",
     "faction": "Craftworlds",
     "alliance": "aeldari",
-    "points": 115,
+    "points": 30,
     "models": 1,
     "move": "12\"",
     "toughness": "3",
@@ -5894,7 +6070,7 @@
       "Aeldari"
     ],
     "abilities": [
-      "Shade of Twilight: In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\". If it does, until the end of the turn, this u"
+      "Shade of Twilight: In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\". If it does, until the end of the turn, this unit is not eligible to declare a charge."
     ],
     "weapons": [
       {
@@ -6338,7 +6514,7 @@
     ],
     "abilities": [
       "Damaged: 1-6 Wounds Remaining: While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-      "Scything Charge: Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mo",
+      "Scything Charge: Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.",
       "Engine of Destruction (Pain): In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered, this model’s pulse disintegrators have the ^^**[RAPID FIRE 8]**^^ abilit"
     ],
     "weapons": [
@@ -6390,8 +6566,8 @@
       "Amallyn Shadowguide"
     ],
     "abilities": [
-      "The Path Least Travelled: If your army includes this model, after both players have deployed their armies and determined who has the first turn, you can select one ^^Rangers^^ or ^^Shroud Runners^^ unit from your army and rede",
-      "Path of the Outcast: In your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model, if this model is not within Engagement Range of one or more enemy units, it can "
+      "The Path Least Travelled: If your army includes this model, after both players have deployed their armies and determined who has the first turn, you can select one Rangers or Shroud Runners unit from your army and redeploy that unit. When doing so, that unit can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+      "Path of the Outcast: In your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model, if this model is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\"."
     ],
     "weapons": [
       {
@@ -6465,13 +6641,13 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 125,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 3,
+    "move": "14\"",
+    "toughness": "4",
+    "save": "3+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "2",
     "invulnerableSave": "",
     "role": "CAVALRY",
     "isHero": false,
@@ -6486,7 +6662,7 @@
       "Frame"
     ],
     "abilities": [
-      "Reckless Abandon: You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is ‑1 CP.\n- That use does not prevent any uses"
+      "Reckless Abandon: You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do: - That use is ‑1 CP. - That use does not prevent any uses of that stratagem on other units this phase."
     ],
     "weapons": [
       {
@@ -6586,13 +6762,13 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 125,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 5,
+    "move": "7\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "2",
     "invulnerableSave": "",
     "role": "INFANTRY",
     "isHero": false,
@@ -6606,7 +6782,7 @@
       "Aeldari"
     ],
     "abilities": [
-      "Reaver Band: In your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can ma",
+      "Reaver Band: In your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\".",
       "Corsairs: If a model from your army with the Leader ability can be attached to a ^^Corsair Voidreavers^^ unit, it can be attached to this unit instead."
     ],
     "weapons": [
@@ -6736,7 +6912,7 @@
     ],
     "abilities": [
       "Damaged: 1-4 Wounds Remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-      "Skyfire: Each time you target this model with the Fire Overwatch Stratagem just after an enemy unit that can ^^Fly^^ starts or ends a Normal, Advance or Fall Back move, when resolving that Stratagem, in additi"
+      "Skyfire: Each time you target this model with the Fire Overwatch Stratagem just after an enemy unit that can Fly starts or ends a Normal, Advance or Fall Back move, when resolving that Stratagem, in addition to shooting that enemy unit, you can select up to 3 other enemy units within 24\" of this model that can Fly; this model can also shoot at each of those units with its Firestorm scatter laser (provided each one is an eligible target), but when doing so, an unmodified Hit roll of 6 is required to score a hit."
     ],
     "weapons": [
       {
@@ -6951,7 +7127,7 @@
     "abilities": [
       "Damaged: 1-10 Wounds Remaining: While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
       "Into the Foe: If a unit disembarks from this ^^Transport^^ before it moves, until the end of the turn, that unit is eligible to charge in a turn in which it Advanced.",
-      "Transport: This model has a transport capacity of 30 ^^Aeldari Infantry^^ models. Each ^^Wraith Construct^^ model takes the space of 2 models. It cannot transport ^^Jump Pack^^ models or ^^Ynnari^^ models (exclu"
+      "Transport: This model has a transport capacity of 30 Aeldari Infantry models. Each Wraith Construct model takes the space of 2 models. It cannot transport Jump Pack models or Ynnari models (excluding Yvraine and The Visarch)."
     ],
     "weapons": [
       {
@@ -7051,7 +7227,7 @@
     ],
     "abilities": [
       "Ground-attack Craft: Each time a model in this unit makes a ranged attack that targets an enemy unit  (excluding unit that can ^^**Fly**^^), add 1 to the Hit roll.",
-      "Shredding Fire (Pain): In your Shooting phase, when you select this unit to shoot, you can spend 1 Pain token to Empower this unit. While Empowered, the Armour Penetration characteristic of its ranged weapons is increased b"
+      "Shredding Fire (Pain): In your Shooting phase, when you select this unit to shoot, you can spend 1 Pain token to Empower this unit. While Empowered, the Armour Penetration characteristic of its ranged weapons is increased by 1."
     ],
     "weapons": [
       {
@@ -7111,9 +7287,9 @@
       "Frame"
     ],
     "abilities": [
-      "Eradicate the Foe: Each time this model makes an attack that targets an enemy unit that is at its Starting Strength, re-roll a Hit roll of 1. If the target unit has a Starting Strength of 1, this ability only applies if",
+      "Eradicate the Foe: Each time this model makes an attack that targets an enemy unit that is at its Starting Strength, re-roll a Hit roll of 1. If the target unit has a Starting Strength of 1, this ability only applies if that unit has its starting number of wounds.",
       "Damaged: 1-4 Wounds Remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-      "Electromagnetic Cascade (Pain): In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered: \n■ Each time this model makes a ranged attack that targets a ^^**Vehicle"
+      "Electromagnetic Cascade (Pain): In your Shooting phase, when you select this model to shoot, you can spend 1 Pain token to Empower this model. While Empowered: ■ Each time this model makes a ranged attack that targets a Vehicle unit, that attack has the [SUSTAINED HITS 2] ability. ■ Each time this model makes a ranged attack that targets a non-Vehicle unit, that attack has the [SUSTAINED HITS 1] ability."
     ],
     "weapons": [
       {
@@ -7164,13 +7340,13 @@
     "alliance": "aeldari",
     "points": 45,
     "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "move": "14\"",
+    "toughness": "4",
+    "save": "6+",
+    "wounds": "3",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
     "role": "CAVALRY",
     "isHero": false,
     "canReinforce": true,
@@ -7185,7 +7361,7 @@
       "Leader"
     ],
     "abilities": [
-      "Psychic Communion (Psychic): Each time this unit is selected to shoot, for each ^^Warlock^^ model in this unit, until the end of the phase, add 1 to the Attacks and Strength characteristics of that model's Destructor weapon for e",
+      "Psychic Communion (Psychic): Each time this unit is selected to shoot, for each Warlock model in this unit, until the end of the phase, add 1 to the Attacks and Strength characteristics of that model's Destructor weapon for each other friendly Aeldari Psyker model within 6\" of this model (to a maximum of +2).",
       "Leader: At the start of the Declare Battle Formations step, if this unit is not an Attached unit, this unit can join one **WINDRIDERS** unit from your army (a unit cannot have more than one **WARLOCK SKYRUNNE",
       "Runes of Battle (Psychic): Weapons equipped by models in this unit have the **[IGNORES COVER]** ability."
     ],
@@ -7276,9 +7452,9 @@
       "Archon"
     ],
     "abilities": [
-      "Shadow Field: You cannot re-roll invulnerable saving throws made for the bearer. The first time an invulnerable saving throw made for the bearer is failed, until the end of the battle, the bearer has no invulnerabl",
+      "Shadow Field: You cannot re-roll invulnerable saving throws made for the bearer. The first time an invulnerable saving throw made for the bearer is failed, until the end of the battle, the bearer has no invulnerable saving throw.",
       "Leader: This model can be attached to the following units:\n■ Ynnari Incubi\n■ Ynnari Kabalite Warriors",
-      "Overlord: While this model is leading a unit, each time a model in that unit makes an attack, re-roll a Wound roll of 1. While that unit is below its Starting Strength, each time a model in that unit makes an a",
+      "Overlord: While this model is leading a unit, each time a model in that unit makes an attack, re-roll a Wound roll of 1. While that unit is below its Starting Strength, each time a model in that unit makes an attack, you can re-roll the Wound roll instead.",
       "Reborn Mastermind: Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratgem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
     ],
     "weapons": [
@@ -7346,7 +7522,7 @@
     "abilities": [
       "Leader: This model can be attached to the following unit:\n■ Warp Spiders",
       "Empyric Ambush: While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it used its Flickerjump ability.",
-      "Whispering Web: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly Aeldari model makes an attack that targets"
+      "Whispering Web: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly Aeldari model makes an attack that targets that unit, an unmodified Hit roll of 5+ scores a Critical Hit."
     ],
     "weapons": [
       {
@@ -7406,7 +7582,7 @@
       "Ynnari"
     ],
     "abilities": [
-      "Crystalline Targeting: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly ^^Aeldari^^ unit makes an attack that targ"
+      "Crystalline Targeting: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly Aeldari unit makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. Each unit can only be selected for that ability once per turn."
     ],
     "weapons": [
       {
@@ -7517,7 +7693,7 @@
       "Frame"
     ],
     "abilities": [
-      "Sonic Destruction: In your Shooting phase, each time this model makes an attack with its Vibro Cannon that targets an enemy unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 1 f"
+      "Sonic Destruction: In your Shooting phase, each time this model makes an attack with its Vibro Cannon that targets an enemy unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 1 for each other friendly Vibro Cannon Platform model that made one or more attacks with its Vibro Cannon that also targeted that enemy unit this phase."
     ],
     "weapons": [
       {
@@ -7553,7 +7729,7 @@
     "system": "40k"
   },
   {
-    "name": "Vypers",
+    "name": "Vyper",
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 75,
@@ -7619,7 +7795,7 @@
     ],
     "abilities": [
       "Damaged: 1-6 Wounds Remaining: While this model has 1-6 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
-      "Titanic Agility: Each time this model makes a Normal, Advance or Fall Back move, it can move through models and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that"
+      "Titanic Agility: Each time this model makes a Normal, Advance or Fall Back move, it can move through models and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them."
     ],
     "weapons": [
       {
@@ -7680,7 +7856,18 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 380
+      },
+      {
+        "from": 2,
+        "points": 400
+      }
+    ]
   },
   {
     "name": "Ynnari Succubus",
@@ -7749,14 +7936,14 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 110,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 10,
+    "move": "8\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "6+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -7768,7 +7955,7 @@
     ],
     "abilities": [
       "Phantasm Grenade Launcher: The bearer’s unit has the Grenades keyword.",
-      "Sadistic Raiders: At the end of your Command phase, if you control an objective marker that this unit (or a Transport it is embarked within) is within range of, that objective marker remains under your control until yo"
+      "Sadistic Raiders: At the end of your Command phase, if you control an objective marker that this unit (or a Transport it is embarked within) is within range of, that objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of any phase."
     ],
     "weapons": [
       {
@@ -7839,14 +8026,14 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 90,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 10,
+    "move": "8\"",
+    "toughness": "3",
+    "save": "6+",
+    "wounds": "1",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+* / 6+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -7858,7 +8045,7 @@
       "Grenades"
     ],
     "abilities": [
-      "No Escape: Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more units from your army with this ability is selected to Fall Back, all models in that enemy unit must tak"
+      "No Escape: Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more units from your army with this ability is selected to Fall Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
     ],
     "weapons": [
       {
@@ -7888,7 +8075,7 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 80,
-    "models": 1,
+    "models": 5,
     "move": "7\"",
     "toughness": "3",
     "save": "3+",
@@ -7918,21 +8105,32 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 80
+      },
+      {
+        "from": 3,
+        "points": 90
+      }
+    ]
   },
   {
     "name": "Ynnari Reavers",
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 65,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 3,
+    "move": "16\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "2",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "6+",
     "role": "CAVALRY",
     "isHero": false,
     "canReinforce": true,
@@ -7943,7 +8141,7 @@
       "Mounted"
     ],
     "abilities": [
-      "Eviscerating Fly-by: Each time this unit ends a Normal move, you can select one enemy unit (excluding Monster and Vehicle units) that it moved over during that move. If you do, roll one D6 for each model in this unit: for"
+      "Eviscerating Fly-by: Each time this unit ends a Normal move, you can select one enemy unit (excluding Monster and Vehicle units) that it moved over during that move. If you do, roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
     ],
     "weapons": [
       {
@@ -8069,7 +8267,18 @@
         "keywords": "Heavy"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 70
+      },
+      {
+        "from": 4,
+        "points": 80
+      }
+    ]
   },
   {
     "name": "Ynnari Venom",
@@ -8097,7 +8306,7 @@
       "Frame"
     ],
     "abilities": [
-      "Lithe Embarkation: At the end of the Fight phase, if there are no models currently embarked within this **^^Transport^^**, you can select one friendly **^^Ynnari Infantry^^** unit that only includes models from the unit"
+      "Lithe Embarkation: At the end of the Fight phase, if there are no models currently embarked within this Transport, you can select one friendly Ynnari Infantry unit that only includes models from the units listed in this unit's Transport section, that has 6 or fewer models and that is wholly within 6\" of this Transport. Unless that unit is within Engagement Range of one or more enemy units, it can embark within this Transport. That unit can embark within this TRANSPORT in a turn it disembarked from this TRANSPORT."
     ],
     "weapons": [
       {
@@ -8131,7 +8340,18 @@
         "keywords": "Anti-Infantry 3+, Assault, Rapid Fire 2, Twin Linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 65
+      },
+      {
+        "from": 4,
+        "points": 75
+      }
+    ]
   },
   {
     "name": "Lady Malys",
@@ -8161,9 +8381,9 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following units:\n■ Hand of the Archon\n■ Incubi\n■ Kabalite Warriors",
-      "Archon of the Poisoned Tongue (Pain): In your Shooting phase or the Fight phase, when you select this model's unit to shoot or fight, you can spend 1 Pain token to Empower that unit. If you do, select one of the following abilities: **^^[",
-      "Precognisant: If you army includes this model, after both players have deployed their armies, select up to three ^^**Drukhari**^^ units from your army and redeploy them. When doing so, you can set those units up in",
-      "Mind Like a Steel Trap: Once per turn, when your opponent targets a unit from their army within 12” of this model with a **stratagem**, you can use this ability. If you do increase the CP cost of that use of that **stratagem"
+      "Archon of the Poisoned Tongue (Pain): In your Shooting phase or the Fight phase, when you select this model's unit to shoot or fight, you can spend 1 Pain token to Empower that unit. If you do, select one of the following abilities: [Sustained Hits 1]; [Lethal Hits]. Until the end of the phase, while that unit is Empowered, weapons equipped by models in that unit have that selected ability.",
+      "Precognisant: If you army includes this model, after both players have deployed their armies, select up to three Drukhari units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
+      "Mind Like a Steel Trap: Once per turn, when your opponent targets a unit from their army within 12” of this model with a stratagem, you can use this ability. If you do increase the CP cost of that use of that stratagem by 1CP."
     ],
     "weapons": [
       {
@@ -8194,14 +8414,14 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 115,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 10,
+    "move": "7\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "6+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -8216,8 +8436,8 @@
       "Phantasm Grenade Launcher: The bearer’s unit has the ^^**Smoke**^^ keyword.",
       "Kabalite icon: While the bearer's unit is not Battle-shocked, add 1 to the bearer's Objective Control characteristic.",
       "Stimm-needler: Once per turn, the first time a saving throw is failed for a model in the bearer's unit, change the Damage characteristic of that attack to 0.",
-      "Assassins' Poisons (Pain): In your Shooting phase or the Fight phase, when you select this unit to shoot or fight, you can spend 1 Pain token to Empower this unit. While Empowered, weapons equipped by models in this unit (exclu",
-      "Archon's Will: At the start of the first battle round, select one objective marker on the battlefield. Until the end of the battle, while this unit is within range of that objective marker, unless this unit is Battl"
+      "Assassins' Poisons (Pain): In your Shooting phase or the Fight phase, when you select this unit to shoot or fight, you can spend 1 Pain token to Empower this unit. While Empowered, weapons equipped by models in this unit (excluding blast pistols, blasters and dark lances) have the [Lethal Hits] and [Precision] abilities.",
+      "Archon's Will: At the start of the first battle round, select one objective marker on the battlefield. Until the end of the battle, while this unit is within range of that objective marker, unless this unit is Battle-shocked, models in this unit have a 5+ invulnerable save and an Objective Control characteristic of 3."
     ],
     "weapons": [
       {
@@ -8297,14 +8517,14 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 75,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 5,
+    "move": "14\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -8319,8 +8539,8 @@
       "Scourges with Shardcarbines"
     ],
     "abilities": [
-      "Murderous Crossfire: After this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly ^^**Drukhari**^^ unit makes a ranged attack that targets that enem",
-      "Swooping Descent (Pain): In your Movement phase, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit is set up on the battlefield using the Deep Strike ability, it can be set up an"
+      "Murderous Crossfire: After this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly Drukhari unit makes a ranged attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn.",
+      "Swooping Descent (Pain): In your Movement phase, you can spend 1 Pain token to Empower this unit. While Empowered, each time a model in this unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units. When doing so, if this unit is set up within 8\" of one or more enemy units, until the end of the turn, it is not eligible to declare a charge."
     ],
     "weapons": [
       {
@@ -8344,7 +8564,18 @@
         "keywords": "Anti-Infantry 3+, Assault"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 75
+      },
+      {
+        "from": 3,
+        "points": 85
+      }
+    ]
   },
   {
     "name": "Prince Yriel",
@@ -8374,7 +8605,7 @@
     "abilities": [
       "Leader: This model can be attached to the following units:\n- **CORSAIR REAVER BAND**\n- **CORSAIR VOIDREAVERS**\n- **CORSAIR VOIDSCARRED**",
       "Piratical Hero: While this model is leading a unit, each time a model in that unit makes an attack, that attack has the ^^**[Sustained Hits 1]**^^ ability and add 1 to the Hit roll.",
-      "Prince of Corsairs: After both players have deployed their armies, if this model is on the battlefield (or any ^^**Transport**^^ it is embarked within is on the battlefield), select up to three ^^**Aeldari**^^ units from"
+      "Prince of Corsairs: After both players have deployed their armies, if this model is on the battlefield (or any Transport it is embarked within is on the battlefield), select up to three Aeldari units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
     ],
     "weapons": [
       {
@@ -8414,7 +8645,7 @@
     "name": "Kharseth",
     "faction": "Craftworlds",
     "alliance": "aeldari",
-    "points": 85,
+    "points": 80,
     "models": 1,
     "move": "7\"",
     "toughness": "3",
@@ -8470,13 +8701,13 @@
     "faction": "Craftworlds",
     "alliance": "aeldari",
     "points": 75,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 5,
+    "move": "12\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
     "invulnerableSave": "",
     "role": "INFANTRY",
     "isHero": false,
@@ -8491,7 +8722,7 @@
       "Corsair Skyreavers"
     ],
     "abilities": [
-      "Raid and Run: At the end of the Fight phase, if this unit was eligible to fight this phase, and is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D3+3\". Otherwise, if thi"
+      "Raid and Run: At the end of the Fight phase, if this unit was eligible to fight this phase, and is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D3+3\". Otherwise, if this unit was eligible to fight this phase, this unit can make a Fall Back move of up to D3+3\"."
     ],
     "weapons": [
       {
@@ -8704,8 +8935,8 @@
       "Allies: Unaligned Forces"
     ],
     "abilities": [
-      "Frenzy: Each time an enemy unit is selected to shoot or fight, after it has finished making its attacks, if one or more of those attacks targeted this model and this model is not destroyed, this model can fig",
-      "Borewyrm Infestation: Twice per battle, at the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield. In the Reinforcements ste"
+      "Frenzy: Each time an enemy unit is selected to shoot or fight, after it has finished making its attacks, if one or more of those attacks targeted this model and this model is not destroyed, this model can fight as if it were the Fight phase",
+      "Borewyrm Infestation: Twice per battle, at the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If the battle ends and this unit is not on the battlefield, it is destroyed. Designer’s Note: Place two Borewyrm Infestation tokens next to this model, removing one each time this ability has been used."
     ],
     "weapons": [
       {
@@ -9121,7 +9352,7 @@
       "Skyshield Landing Pad"
     ],
     "abilities": [
-      "Skyshield: Friendly Infantry models and friendly units that can Fly can be set up or end any type of move on top of the platform section of this Fortification. While such a model is on the platform section of th",
+      "Skyshield: Friendly Infantry models and friendly units that can Fly can be set up or end any type of move on top of the platform section of this Fortification. While such a model is on the platform section of this Fortification, that model has a 5+ invulnerable save against ranged attacks",
       "Repair Aircraft: At the end of your Movement phase, if there is a friendly Aircraft model on top of this Fortification, that Aircraft regains up to D3 lost wounds"
     ],
     "weapons": [],
@@ -9248,7 +9479,7 @@
       "Vengeance Weapon Battery"
     ],
     "abilities": [
-      "Automated Defences: Each time this model makes a ranged attack that targets the closest enemy unit:\n- If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit rol"
+      "Automated Defences: Each time this model makes a ranged attack that targets the closest enemy unit: - If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit roll. - If that attack is made with a battle cannon and the target is a MONSTER or VEHICLE, add 1 to the Hit roll. - If that attack is made with a quad-lascannon and the target can FLY, add 1 to the Hit roll."
     ],
     "weapons": [],
     "system": "40k"
@@ -9304,7 +9535,7 @@
       "Vortex Missile Strongpoint"
     ],
     "abilities": [
-      "Vortex: In your Shooting phase, each time you select a target for this model’s vortex missile battery, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a "
+      "Vortex: In your Shooting phase, each time you select a target for this model’s vortex missile battery, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a 4+, the unit being rolled for is struck by the vortex; after resolving all of this model’s attacks against the target unit, each unit struck by the vortex suffers D3 mortal wounds."
     ],
     "weapons": [
       {
@@ -9457,9 +9688,9 @@
       "Allies: Unaligned Forces"
     ],
     "abilities": [
-      "Enemy Spotted: Each time a model from your army makes a ranged attack that targets an enemy unit that is within 9\" of and visible to any Searchlights from your army, re-roll a Hit of 1 and, if the model making that ",
+      "Enemy Spotted: Each time a model from your army makes a ranged attack that targets an enemy unit that is within 9\" of and visible to any Searchlights from your army, re-roll a Hit of 1 and, if the model making that attack is a Sentry Gun, add 1 to the Hit roll as well.",
       "Wall: This model is a terrain feature and counts as a Wall.",
-      "Camera Network: In the Create the Battlefield and Place Objective Markers step, set this terrain feature up in one of the Searchlight positions (marked D2 on the mission map) that does not already contain a Searchlig"
+      "Camera Network: In the Create the Battlefield and Place Objective Markers step, set this terrain feature up in one of the Searchlight positions (marked D2 on the mission map) that does not already contain a Searchlight."
     ],
     "weapons": [],
     "system": "40k"
@@ -9488,7 +9719,7 @@
     "abilities": [
       "Limited Loadout: This model cannot attempt to operate Hatchways and cannot perform Tactical Manoeuvres.",
       "Assault Robot: In the Deploy Armies step, when setting up a unit from your army within an Entry Zone, you can set this model up alongside that unit as if it was part of it, using the same Entry Zone.",
-      "Bomb Kit: When the bearer is destroyed (other than through triggering its bomb, as described below), roll one D6 before removing it from play: on a 6 it explodes, and each other unit within 3\" of and visible to",
+      "Bomb Kit: When the bearer is destroyed (other than through triggering its bomb, as described below), roll one D6 before removing it from play: on a 6 it explodes, and each other unit within 3\" of and visible to the bearer suffers 1 mortal wound. In your Command phase, the bearer can trigger its bombs. If it does: - Open each Hatchway that is within 3\" of the bearer. Your opponent cannot attempt to prevent those Hatchways from opening, and those Hatchways cannot be closed again. - Roll one D6 for each other unit within 3\" of and visible to the bearer: on a 2+, that unit suffers 1 mortal wound. The bearer is then destroyed.",
       "Cutting Gear: Each time the bearer ends a Normal move, you can open one Hatchway that is within 1\" of it. Your opponent cannot attempt to prevent that Hatchway from opening."
     ],
     "weapons": [

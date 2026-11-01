@@ -3,7 +3,7 @@
     "name": "Ahriman",
     "faction": "Thousand Sons",
     "alliance": "chaos",
-    "points": 100,
+    "points": 105,
     "models": 1,
     "move": "10\"",
     "toughness": "4",
@@ -27,7 +27,7 @@
       "Ahriman"
     ],
     "abilities": [
-      "Scryer of Fates (Psychic): if your army includes this model, after both players have deployed their armies, you can select up to 3 ^^**Thousand Sons^^** units from your army and redeploy them. When doing so, you can set those u",
+      "Scryer of Fates (Psychic): if your army includes this model, after both players have deployed their armies, you can select up to 3 Thousand Sons units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
       "Arch-Sorcerer of Tzeentch (Psychic): Each time this model attempts a Ritual, add 1 to the Psychic test result.",
       "Leader: This model can be attached to the following unit: ^^**Rubric Marines, Tzaangor Enlightened, Tzaangor Enlightened with Fatecaster Greatbows^^**"
     ],
@@ -154,7 +154,18 @@
         "keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 220
+      },
+      {
+        "from": 3,
+        "points": 240
+      }
+    ]
   },
   {
     "name": "Chaos Predator Annihilator",
@@ -254,7 +265,18 @@
         "keywords": "Heavy"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 140
+      },
+      {
+        "from": 3,
+        "points": 150
+      }
+    ]
   },
   {
     "name": "Chaos Predator Destructor",
@@ -354,7 +376,18 @@
         "keywords": "Heavy"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 140
+      },
+      {
+        "from": 3,
+        "points": 150
+      }
+    ]
   },
   {
     "name": "Chaos Rhino",
@@ -426,7 +459,18 @@
         "keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 80
+      },
+      {
+        "from": 4,
+        "points": 90
+      }
+    ]
   },
   {
     "name": "Chaos Spawn",
@@ -492,7 +536,7 @@
       "Frame"
     ],
     "abilities": [
-      "Siege Shield: When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy "
+      "Siege Shield: When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
     ],
     "weapons": [
       {
@@ -545,13 +589,24 @@
         "keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 185
+      },
+      {
+        "from": 3,
+        "points": 195
+      }
+    ]
   },
   {
     "name": "Exalted Sorcerer",
     "faction": "Thousand Sons",
     "alliance": "chaos",
-    "points": 95,
+    "points": 100,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -574,7 +629,7 @@
     ],
     "abilities": [
       "Arcane Shield (Psychic): While this model is leading a unit, models in that unit have a 4+ invulnerable save.",
-      "Rebind Rubricae (Psychic): In your Command phase, if this model is leading a unit, you can roll one D6: on a 1, that unit suffers D3 mortal wounds; on a 2-5, you can return 1 destroyed Bodyguard model to that unit; on a 6, you ",
+      "Rebind Rubricae (Psychic): In your Command phase, if this model is leading a unit, you can roll one D6: on a 1, that unit suffers D3 mortal wounds; on a 2-5, you can return 1 destroyed Bodyguard model to that unit; on a 6, you can return up to 2 destroyed Bodyguard models to that unit.",
       "Leader: This model can be attached to the following unit: ^^**Rubric Marines^^**"
     ],
     "weapons": [
@@ -624,7 +679,7 @@
     "name": "Exalted Sorcerer on Disc of Tzeentch",
     "faction": "Thousand Sons",
     "alliance": "chaos",
-    "points": 90,
+    "points": 95,
     "models": 1,
     "move": "10\"",
     "toughness": "4",
@@ -649,7 +704,7 @@
     ],
     "abilities": [
       "Arcane Shield (Psychic): While this model is leading a unit, that unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
-      "Binding Tendrils (Psychic): In your Shooting phase, after this model has shot, select one enemy ^^**Infantry^^** unit hit by one or more of those attacks made with Arcane Fire. Until the start of your next turn, that unit is ens",
+      "Binding Tendrils (Psychic): In your Shooting phase, after this model has shot, select one enemy Infantry unit hit by one or more of those attacks made with Arcane Fire. Until the start of your next turn, that unit is ensnared. While a unit is ensnared, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it.",
       "Leader: This model can be attached to the following unit: ^^**Rubric Marines, Tzaangor Enlightened^^**"
     ],
     "weapons": [
@@ -753,7 +808,18 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 135
+      },
+      {
+        "from": 3,
+        "points": 145
+      }
+    ]
   },
   {
     "name": "Helbrute",
@@ -948,7 +1014,7 @@
     "name": "Infernal Master",
     "faction": "Thousand Sons",
     "alliance": "chaos",
-    "points": 100,
+    "points": 105,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -1143,7 +1209,18 @@
         "keywords": "Extra Attacks"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 120
+      },
+      {
+        "from": 3,
+        "points": 130
+      }
+    ]
   },
   {
     "name": "Mutalith Vortex Beast",
@@ -1169,8 +1246,8 @@
       "Mutant"
     ],
     "abilities": [
-      "Mutating Vortex (Aura): At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit ",
-      "Immaterial Flare (Aura): While a friendly ^^**Thousand Sons Psyker^^** model is within 6\" of this model, each time that model Channels the Warp, add 1 to the Psychic test result. This is not cumulative with any other modifier"
+      "Mutating Vortex (Aura): At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds. Each enemy unit within range of this ability must then take a Battle-shock test.",
+      "Immaterial Flare (Aura): While a friendly Thousand Sons Psyker model is within 6\" of this model, each time that model Channels the Warp, add 1 to the Psychic test result. This is not cumulative with any other modifiers to the Psychic test result."
     ],
     "weapons": [
       {
@@ -1222,14 +1299,25 @@
         "keywords": "Ignores Cover, Torrent"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 170
+      },
+      {
+        "from": 3,
+        "points": 190
+      }
+    ]
   },
   {
     "name": "Rubric Marines",
     "faction": "Thousand Sons",
     "alliance": "chaos",
-    "points": 100,
-    "models": 1,
+    "points": 115,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -1249,7 +1337,7 @@
       "Rubricae"
     ],
     "abilities": [
-      "Bringers of Change: Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1. If the attack targets a unit within range of an objective marker you do not control, you can re-roll the Wound roll ins",
+      "Bringers of Change: Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1. If the target of that attack is within range of an objective marker you do not control, you can re-roll the Wound roll instead.",
       "Icon of Flame: Ranged weapons equipped by models in the bearer's unit (excluding ^^**Characters^^**) have the [Ignores Cover] ability."
     ],
     "weapons": [
@@ -1333,14 +1421,25 @@
         "keywords": "Devastating Wounds"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 115
+      },
+      {
+        "from": 4,
+        "points": 125
+      }
+    ]
   },
   {
     "name": "Scarab Occult Terminators",
     "faction": "Thousand Sons",
     "alliance": "chaos",
-    "points": 180,
-    "models": 1,
+    "points": 200,
+    "models": 5,
     "move": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -1422,13 +1521,24 @@
         "keywords": "Ignores Cover, Torrent"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 200
+      },
+      {
+        "from": 3,
+        "points": 240
+      }
+    ]
   },
   {
     "name": "Sorcerer",
     "faction": "Thousand Sons",
     "alliance": "chaos",
-    "points": 95,
+    "points": 100,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -1494,13 +1604,24 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 100
+      },
+      {
+        "from": 3,
+        "points": 110
+      }
+    ]
   },
   {
     "name": "Sorcerer in Terminator Armour",
     "faction": "Thousand Sons",
     "alliance": "chaos",
-    "points": 100,
+    "points": 110,
     "models": 1,
     "move": "5\"",
     "toughness": "5",
@@ -1567,7 +1688,18 @@
         "keywords": "Anti-Infantry 4+, Devastating Wounds, Rapid Fire 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 110
+      },
+      {
+        "from": 3,
+        "points": 120
+      }
+    ]
   },
   {
     "name": "Daemon Prince of Tzeentch",
@@ -1595,7 +1727,7 @@
       "Daemon Prince"
     ],
     "abilities": [
-      "Spirit Snare: Each time a friendly ^^**Thousand Sons Psyker^^** model with the Cabal of Sorcerers ability is destroyed while within 9\" of one or more models with this ability, select one of those models with this a",
+      "Spirit Snare: Each time a friendly Thousand Sons Psyker model with the Cabal of Sorcerers ability is destroyed while within 9\" of one or more models with this ability, select one of those models with this ability: until the end of the battle, each time the selected model attempts a Ritual, add 1 to the Psychic test result (to a maximum of +2).",
       "Servile Pawns: While this model is within 3\" of one or more friendly ^^**Thousand Sons Infantry^^** units, this model has the Lone Operative ability.",
       "Glamour of Tzeentch (Aura, Psychic): While a friendly ^^**Thousand Sons Infantry^^** unit is within 6\" of this model, models in that unit have the Stealth ability."
     ],
@@ -1670,8 +1802,8 @@
       "Fly"
     ],
     "abilities": [
-      "Aetherstride (Psychic): In your Movement phase, when this model is set up on the battlefield using the Deep Strike ability, it can perform an aetherstride. If it does:\n- It can be set up anywhere on the battlefield more than",
-      "Hunter of Souls: Each time this model makes an attack that targets a ^^**Character^^** unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1 (if that attack targets a ^^**Psyker Character^^** unit, you can re-ro"
+      "Aetherstride (Psychic): In your Movement phase, when this model is set up on the battlefield using the Deep Strike ability, it can perform an aetherstride. If it does: - It can be set up anywhere on the battlefield more than 6\" horizontally away from all enemy units. - Until the end of the turn, its Dark Blessing has the [Sustained Hits D3] ability. - Until the end of the turn, it is not eligible to declare a charge.",
+      "Hunter of Souls: Each time this model makes an attack that targets a Character unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1 (if that attack targets a Psyker Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll instead). Each time this model destroys a Character unit, this model regains up to D3 lost wounds (if that Character unit was a Psyker, this model regains up to 3 lost wounds instead)."
     ],
     "weapons": [
       {
@@ -1715,14 +1847,25 @@
         "keywords": "Rapid Fire 3"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 170
+      },
+      {
+        "from": 2,
+        "points": 180
+      }
+    ]
   },
   {
     "name": "Tzaangor Enlightened",
     "faction": "Thousand Sons",
     "alliance": "chaos",
     "points": 50,
-    "models": 1,
+    "models": 3,
     "move": "10\"",
     "toughness": "4",
     "save": "5+",
@@ -1742,7 +1885,7 @@
       "Mutant"
     ],
     "abilities": [
-      "Prophesied Doom: Each time this unit makes a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each "
+      "Prophesied Doom: Each time this unit makes a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound."
     ],
     "weapons": [
       {
@@ -1806,7 +1949,7 @@
       "Mutant"
     ],
     "abilities": [
-      "Sacrificial Blessing: While this model is leading a unit, in your Shooting phase and the Fight phase, each time that unit is selected to shoot or fight, this model can use this ability. If it does, select one Bodyguard mod",
+      "Sacrificial Blessing: While this model is leading a unit, in your Shooting phase and the Fight phase, each time that unit is selected to shoot or fight, this model can use this ability. If it does, select one Bodyguard model in that unit; that Bodyguard model is destroyed and, until the end of the phase, add D3 to the Attacks and Strength characteristics of Psychic weapons equipped by this model.",
       "Bestial Prophet: While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll.",
       "Leader: This model can be attached to the following units: ^^**Tzaangor Enlightened, Tzaangors^^**"
     ],
@@ -1839,7 +1982,7 @@
     "faction": "Thousand Sons",
     "alliance": "chaos",
     "points": 75,
-    "models": 1,
+    "models": 10,
     "move": "6\"",
     "toughness": "4",
     "save": "6+",
@@ -1887,7 +2030,7 @@
     "system": "40k"
   },
   {
-    "name": "Hellblade [Legends]",
+    "name": "Hell Blade [Legends]",
     "faction": "Thousand Sons",
     "alliance": "chaos",
     "points": 115,
@@ -2291,7 +2434,7 @@
     "faction": "Thousand Sons",
     "alliance": "chaos",
     "points": 85,
-    "models": 1,
+    "models": 2,
     "move": "8\"",
     "toughness": "6",
     "save": "3+",
@@ -2343,14 +2486,25 @@
         "d": "3"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 85
+      },
+      {
+        "from": 3,
+        "points": 100
+      }
+    ]
   },
   {
     "name": "Tzaangor Enlightened with Fatecaster greatbows",
     "faction": "Thousand Sons",
     "alliance": "chaos",
     "points": 55,
-    "models": 1,
+    "models": 3,
     "move": "10\"",
     "toughness": "4",
     "save": "5+",
@@ -2371,7 +2525,7 @@
       "Tzaangor Enlightened with Fatecaster Greatbows"
     ],
     "abilities": [
-      "Malign Trickery: In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up t"
+      "Malign Trickery: In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to D6\"."
     ],
     "weapons": [
       {
@@ -2427,7 +2581,7 @@
     ],
     "abilities": [
       "One Head Looks Forward: At the end of your Command phase, if this model is on the battlefield, take a Leadership test for this model; if that test is passed, you gain 1CP.",
-      "One Head Looks Back (Aura): Once per turn, when your opponent targets a unit from their army within 12\" of this model with a stratagem, you can use this ability. If you do, increase the CP cost of that use of that stratagem by 1",
+      "One Head Looks Back (Aura): Once per turn, when your opponent targets a unit from their army within 12\" of this model with a stratagem, you can use this ability. If you do, increase the CP cost of that use of that stratagem by 1CP.",
       "Damaged: 1-7 wounds remaining: While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     ],
     "weapons": [
@@ -2548,14 +2702,25 @@
         "keywords": "Extra Attacks"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 320
+      },
+      {
+        "from": 3,
+        "points": 340
+      }
+    ]
   },
   {
     "name": "Flamers",
     "faction": "Thousand Sons",
     "alliance": "chaos",
     "points": 65,
-    "models": 1,
+    "models": 3,
     "move": "9\"",
     "toughness": "4",
     "save": "7+",
@@ -2627,7 +2792,7 @@
       "Screamers"
     ],
     "abilities": [
-      "Slashing Dive: In your Movement phase, after this unit ends a Normal move, select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mor"
+      "Slashing Dive: In your Movement phase, after this unit ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
     ],
     "weapons": [
       {
@@ -2671,8 +2836,8 @@
     "abilities": [
       "Daemonic Icon: Models in the bearer's unit have a Leadership characteristic of 6+",
       "Instrument of Chaos: Add 1 to Charge rolls made for the bearer's unit.",
-      "Split: Each time a ^^**Pink Horror^^** or ^^**Blue Horror^^** model in this unit is destroyed, after the attacking unit has finished making its attacks, if this unit is not destroyed, roll one D6 for that mo",
-      "Horrors are Pink. Horrors are Blue. Where once there was one, now there are two.: If, at any point, this unit contains no ^^Pink Horrors^^ models, use the ^^Blue Horrors^^ datasheet for this unit. \n\n_Designer’s Note: While this unit contains one or more ^^Pink Horrors^^ models, the"
+      "Split: Each time a Pink Horror or Blue Horror model in this unit is destroyed, after the attacking unit has finished making its attacks, if this unit is not destroyed, roll one D6 for that model. On a 4+, if it was a Pink Horror, add two Blue Horror models to this unit, and if it was a Blue Horror, add one Brimstone Horror model to this unit.",
+      "Horrors are Pink. Horrors are Blue. Where once there was one, now there are two.: If, at any point, this unit contains no Pink Horrors models, use the Blue Horrors datasheet for this unit. _Designer’s Note: While this unit contains one or more Pink Horrors models, the Cackling Horrors and Exploding Horrors abilities from the Blue Horrors datasheet do not apply to this unit._"
     ],
     "weapons": [
       {
@@ -2761,9 +2926,9 @@
       "Horrors"
     ],
     "abilities": [
-      "Split: Each time a ^^Blue Horror^^ model in this unit is destroyed, after the attacking unit has finished making its attacks, if this unit is not destroyed, roll one D6 for that model. On a 4+, add one ^^Bri",
+      "Split: Each time a Blue Horror model in this unit is destroyed, after the attacking unit has finished making its attacks, if this unit is not destroyed, roll one D6 for that model. On a 4+, add one Brimstone Horror model to this unit.",
       "Sullen Malevolence (Aura): While an enemy unit is within 6\" of this unit, if this unit contains one or more ^^**Blue Horror^^** models, worsen the Leadership characteristic of models in that enemy unit by 1.",
-      "Exploding Horrors: Each time this unit is selected to fight, you can select one enemy unit within Engagement Range of it, then select one or more ^^**Brimstone Horror^^** models in this unit. For each ^^**Brimstone Horr"
+      "Exploding Horrors: Each time this unit is selected to fight, you can select one enemy unit within Engagement Range of it, then select one or more Brimstone Horror models in this unit. For each Brimstone Horror model you select, roll one D6: on a 4+, that model is destroyed and that enemy unit suffers 1 mortal wound."
     ],
     "weapons": [
       {
@@ -2966,7 +3131,7 @@
       "Tzeentch"
     ],
     "abilities": [
-      "Scuttling Walker: Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding ^^**Titanic**^^ models) and terrain features. When doing so, it can move within Engagement Range of",
+      "Scuttling Walker: Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding Titanic models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed.",
       "Destroyer of Futures (Once per phase, per unit): You can target this unit with the Counteroffensive stratagem, regardless of any other uses of that stratagem this phase. If you do: \n- That use is ‑1 CP. \n- That use does not prevent any uses of that "
     ],
     "weapons": [
@@ -3071,6 +3236,17 @@
         "keywords": "Ignores Cover, Torrent"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 300
+      },
+      {
+        "from": 2,
+        "points": 350
+      }
+    ]
   }
 ]

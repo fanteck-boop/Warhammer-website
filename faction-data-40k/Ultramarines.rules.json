@@ -63,6 +63,11 @@
       "detachment": "Reclamation Force"
     }
   ],
-  "armyRules": [],
-  "sourceNotes": "Extracted from Wahapedia wh40k11ed Space Marines page (Chapter filter: Ultramarines). Covers the two unique Ultramarines Detachments (Blade of Ultramar, Reclamation Force) and their Enhancements. Ultramarines use the shared Oath of Moment/Space Marine Chapters Army Rules with no unique chapter-specific Army Rule override. Stratagems and base Codex: Space Marines Detachments not included (see Space Marines.rules.json)."
+  "armyRules": [
+    {
+      "name": "Combat Doctrines",
+      "effect": "At the start of your Command phase you may pick one Combat Doctrine; it stays active for friendly ADEPTUS ASTARTES units with this ability until your next Command phase. Assault Doctrine: Advancing does not stop the unit declaring a charge. Devastator Doctrine: the unit's ranged attacks have [ASSAULT]. Tactical Doctrine: Falling Back does not stop the unit shooting or declaring a charge. Each Doctrine can be picked once per battle, and a unit can only have one active Doctrine at a time."
+    }
+  ],
+  "sourceNotes": "Extracted from Wahapedia wh40k11ed Space Marines page (Chapter filter: Ultramarines). Covers the two unique Ultramarines Detachments (Blade of Ultramar, Reclamation Force) and their Enhancements. Ultramarines use the shared Oath of Moment/Space Marine Chapters Army Rules with no unique chapter-specific Army Rule override. Stratagems and base Codex: Space Marines Detachments not included (see Space Marines.rules.json). armyRules: Combat Doctrines added 2026-11-01, paraphrased from BSData wh40k-11e (rule id 3b76-4053-ece9-6e7d, linked from the Ultramarines catalogue)."
 }

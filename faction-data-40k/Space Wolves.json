@@ -3,7 +3,7 @@
     "name": "Logan Grimnar",
     "faction": "Space Wolves",
     "alliance": "imperium",
-    "points": 100,
+    "points": 150,
     "models": 1,
     "move": "6\"",
     "toughness": "5",
@@ -26,7 +26,7 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following units:\n\n■ Wolf Guard Terminators",
-      "High King of Fenris: Once per battle round, in your Movement phase, you can select one friendly Space Wolves unit that is in Reserves. If you do, until the end of the phase, for the purposes of setting up that unit on the",
+      "High King of Fenris: (Once per battle round, per unit) In your Movement phase, select up to one friendly Space Wolves unit in strategic reserves. If you do, when that unit makes an ingress move, treat the current battle round number as being one higher than it actually is.",
       "Guile of the Wolf (Aura): Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that usage of that Stratagem by 1CP P (this is not cumulative wi",
       "Embarking within Transports: This model can embark within friendly Adeptus Astartes Transport models that can transport Terminator models. When doing, it takes up the space of 4 Infantry models"
     ],
@@ -128,7 +128,7 @@
     "name": "Njal Stormcaller",
     "faction": "Space Wolves",
     "alliance": "imperium",
-    "points": 75,
+    "points": 100,
     "models": 1,
     "move": "7\"",
     "toughness": "4",
@@ -295,7 +295,7 @@
     "name": "Arjac Rockfist",
     "faction": "Space Wolves",
     "alliance": "imperium",
-    "points": 95,
+    "points": 105,
     "models": 1,
     "move": "6\"",
     "toughness": "5",
@@ -348,7 +348,7 @@
     "name": "Ulrik the Slayer",
     "faction": "Space Wolves",
     "alliance": "imperium",
-    "points": 70,
+    "points": 90,
     "models": 1,
     "move": "7\"",
     "toughness": "4",
@@ -370,7 +370,7 @@
       "Wolf Priest"
     ],
     "abilities": [
-      "Slayer’s Oath: At the start of the battle, select one of the following keywords to be this model's Slayer's Oath: CHARACTER, VEHICLE or MONSTER. The first time this model's unit destroys a unit with this model's Sla",
+      "Slayer’s Oath: At the start of the first battle round, you select up to one enemy Character/Monster/Vehicle unit to be this unit's slayer's oath: - This unit's attacks that target this unit's slayer's oath can ignore modifiers to your unit's: - BS and WS. - Hit rolls.",
       "Leader: This model can be attached to the following units:\n\n■ Blood Claws\n■ Grey Hunters\n■ Wolf Guard Headtakers",
       "Oathbound: While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll. If that attack targets a unit that has this model's Slayer's Oath keyword (see above), a"
     ],
@@ -412,7 +412,7 @@
     "name": "Ragnar Blackmane",
     "faction": "Space Wolves",
     "alliance": "imperium",
-    "points": 90,
+    "points": 100,
     "models": 1,
     "move": "7\"",
     "toughness": "4",
@@ -436,7 +436,7 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following units:\n\n■ Blood Claws\n■ Wolf Guard Headtakers",
-      "War Howl: While this model is leading a BLOOD CLAWS unit, each time a model in that unit makes a melee attack, you can re-roll the Wound roll. While this model is leading a WOLF GUARD HEADTAKERS UNIT, that unit",
+      "War Howl: - While this model is attached to a Blood Claws unit, this unit's melee attacks have +1 S and [SUSTAINED HITS 1]. - While this model is attached to a Wolf Guard Headtakers unit, when this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.",
       "Battle-lust: Each time this model ends a Charge move, until the end of the turn, add 2 to the Attacks characteristics of this model’s Frostfang."
     ],
     "weapons": [
@@ -490,7 +490,7 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following units:\n\n■ Blood Claws\n■ Grey Hunters\n■ Wolf Guard",
-      "Refuse to Accept Defeat: While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit ",
+      "Refuse to Accept Defeat: While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit is Below Half-strength.",
       "The Fierce Eye: In your Shooting phase, you can select one enemy INFANTRY unit within 12\" of and visible to this model. That enemy unit must take a Battle-shock test."
     ],
     "weapons": [
@@ -606,7 +606,7 @@
     "abilities": [
       "Leader: This model can be attached to the following units:\n\n■ Fenrisian Wolves\n■ Thunderwolf Cavalry",
       "Born of Wolves: While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
-      "Alpha Predator: Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mo"
+      "Alpha Predator: Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy units suffers D3+3 mortal wounds."
     ],
     "weapons": [
       {
@@ -666,7 +666,7 @@
       "Wolf Guard Battle Leader in Terminator Armour"
     ],
     "abilities": [
-      "Leader: This model can be attached to the following units:\n\n■ Relic Terminator Squad\n■ Terminator Assault Squad\n■ Terminator Squad\n■ Wolf Guard Terminators\n\nYou can attach this model to one of the above units",
+      "Leader: This model can be attached to the following units: ■ Relic Terminator Squad ■ Terminator Assault Squad ■ Terminator Squad ■ Wolf Guard Terminators You can attach this model to one of the above units even if one Captain or Chapter Master model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
       "Huskarl to the Jarl: While this model is attached to a unit that contains another CHARACTER model, all CHARACTER models in that unit have the Feel No Pain 4+ ability.",
       "Relic shield: The bearer has a Wounds characteristic of 6."
     ],
@@ -902,7 +902,7 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following unit:\n\n■ Thunderwolf Cavalry\n\nYou can attach this model to the above unit even if one Captain or Chapter Master model has already been attached to it. If yo",
-      "Aggressive Hunter: Once per battle, in your opponent’s Shooting phase, after an enemy unit has finished making its attacks, if this model’s unit was targeted by one or more of those attacks, this model’s unit can make a",
+      "Aggressive Hunter: Once per battle, in your opponent’s Shooting phase, after an enemy unit has finished making its attacks, if this model’s unit was targeted by one or more of those attacks, this model’s unit can make a Normal move of up to D6\", but must end that move as close as possible to the closest enemy unit. When doing so, models in this model’s unit can be moved within Engagement Range of that enemy unit.",
       "Storm Shield: The bearer has a 4+ invulnerable save."
     ],
     "weapons": [
@@ -1013,8 +1013,8 @@
     "name": "Blood Claws",
     "faction": "Space Wolves",
     "alliance": "imperium",
-    "points": 135,
-    "models": 1,
+    "points": 150,
+    "models": 10,
     "move": "7\"",
     "toughness": "4",
     "save": "3+",
@@ -1084,8 +1084,8 @@
     "name": "Grey Hunters",
     "faction": "Space Wolves",
     "alliance": "imperium",
-    "points": 165,
-    "models": 1,
+    "points": 180,
+    "models": 10,
     "move": "7\"",
     "toughness": "4",
     "save": "3+",
@@ -1176,7 +1176,7 @@
     "faction": "Space Wolves",
     "alliance": "imperium",
     "points": 85,
-    "models": 1,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -1318,8 +1318,8 @@
     "name": "Wolf Guard Terminators",
     "faction": "Space Wolves",
     "alliance": "imperium",
-    "points": 155,
-    "models": 1,
+    "points": 180,
+    "models": 5,
     "move": "6\"",
     "toughness": "5",
     "save": "2+",
@@ -1403,14 +1403,25 @@
         "keywords": "Devastating Wounds"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 180
+      },
+      {
+        "from": 3,
+        "points": 220
+      }
+    ]
   },
   {
     "name": "Hounds of Morkai [Legends]",
     "faction": "Space Wolves",
     "alliance": "imperium",
-    "points": 80,
-    "models": 1,
+    "points": 95,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -1430,7 +1441,7 @@
       "Hounds of Morkai"
     ],
     "abilities": [
-      "Morkai’s Howl: In your Shooting phase, you can select one enemy unit within 12\" of this unit (if a LIEUTENANT IN REIVER ARMOUR is leading this unit, you can select one enemy unit within 18\" instead). That unit must ",
+      "Morkai’s Howl: In your Shooting phase, you can select one enemy unit within 12\" of this unit (if a LIEUTENANT IN REIVER ARMOUR is leading this unit, you can select one enemy unit within 18\" instead). That unit must take a Battle-shock test, subtracting 1 from the result if it is a PSYKER unit. If that test is failed, in addition to being Battle-shocked, that unit is Stunned until the start of your next Shooting phase. While a unit is Stunned, each time a model in that unit makes a Psychic Attack, subtract 1 from the Hit roll.",
       "Invulnerable Save: Models in this unit have a 6+ invulnerable save. This invulnerable save is improved to 4+ against Psychic Attacks.",
       "Attached Unit: If a CHARACTER unit from your army with the Leader ability can be attached to a REIVER SQUAD, it can instead be attached to this unit."
     ],
@@ -1462,8 +1473,8 @@
     "name": "Wulfen",
     "faction": "Space Wolves",
     "alliance": "imperium",
-    "points": 85,
-    "models": 1,
+    "points": 90,
+    "models": 5,
     "move": "9\"",
     "toughness": "6",
     "save": "4+",
@@ -1505,13 +1516,24 @@
         "keywords": "Sustained Hits 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 90
+      },
+      {
+        "from": 3,
+        "points": 105
+      }
+    ]
   },
   {
     "name": "Wulfen Dreadnought",
     "faction": "Space Wolves",
     "alliance": "imperium",
-    "points": 135,
+    "points": 140,
     "models": 1,
     "move": "9\"",
     "toughness": "9",
@@ -1574,7 +1596,18 @@
         "d": "1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 140
+      },
+      {
+        "from": 3,
+        "points": 150
+      }
+    ]
   },
   {
     "name": "Murderfang",
@@ -1645,8 +1678,8 @@
     "name": "Thunderwolf Cavalry",
     "faction": "Space Wolves",
     "alliance": "imperium",
-    "points": 100,
-    "models": 1,
+    "points": 115,
+    "models": 3,
     "move": "12\"",
     "toughness": "6",
     "save": "3+",
@@ -1717,14 +1750,25 @@
         "keywords": "Pistol"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 115
+      },
+      {
+        "from": 3,
+        "points": 145
+      }
+    ]
   },
   {
     "name": "Fenrisian Wolves",
     "faction": "Space Wolves",
     "alliance": "imperium",
     "points": 45,
-    "models": 1,
+    "models": 5,
     "move": "10\"",
     "toughness": "4",
     "save": "6+",
@@ -1756,14 +1800,25 @@
         "keywords": "Extra Attacks"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 45
+      },
+      {
+        "from": 3,
+        "points": 50
+      }
+    ]
   },
   {
     "name": "Skyclaws [Legends]",
     "faction": "Space Wolves",
     "alliance": "imperium",
     "points": 90,
-    "models": 1,
+    "models": 5,
     "move": "12\"",
     "toughness": "4",
     "save": "3+",
@@ -1895,7 +1950,7 @@
     "faction": "Space Wolves",
     "alliance": "imperium",
     "points": 120,
-    "models": 1,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -1913,7 +1968,7 @@
       "Long Fangs"
     ],
     "abilities": [
-      "Fire Discipline: Each time this unit Remains Stationary, if it includes a Long Fang Pack Leader, you can select one enemy unit that is visible to that model. Until the end of the turn, each time a model in this unit m",
+      "Fire Discipline: Each time this unit Remains Stationary, if it includes a Long Fang Pack Leader, you can select one enemy unit that is visible to that model. Until the end of the turn, each time a model in this unit makes a ranged attack that targets that enemy unit, re-roll a Hit roll of 1.",
       "Attached Unit: If a CHARACTER unit from your army with the Leader ability can be attached to a DEVASTATOR SQUAD, it can instead be attached to this unit.",
       "Armorium Cherub: Once per battle, after making a Hit roll for a model in this unit, you can change that roll to an unmodified 6."
     ],
@@ -2046,7 +2101,7 @@
       "Imperium"
     ],
     "abilities": [
-      "Frozen Prey: In your Shooting phase, after this model has shot, if an enemy MONSTER or VEHICLE unit was hit by one or more of those attacks made with this model’s helfrost destructor, until the end of your opponen"
+      "Frozen Prey: In your Shooting phase, after this model has shot, if an enemy MONSTER or VEHICLE unit was hit by one or more of those attacks made with this model’s helfrost destructor, until the end of your opponent’s next turn, that enemy unit is Frozen. While a unit is Frozen, subtract 2 from that unit’s Move characteristic, and subtract 2 from Advance and Charge rolls made for that unit."
     ],
     "weapons": [
       {
@@ -2575,7 +2630,7 @@
     "name": "Iron Priest",
     "faction": "Space Wolves",
     "alliance": "imperium",
-    "points": 50,
+    "points": 60,
     "models": 1,
     "move": "7\"",
     "toughness": "4",
@@ -2680,8 +2735,8 @@
     "name": "Wolf Scouts [Legends]",
     "faction": "Space Wolves",
     "alliance": "imperium",
-    "points": 80,
-    "models": 1,
+    "points": 95,
+    "models": 6,
     "move": "6\"",
     "toughness": "4",
     "save": "4+",
@@ -2805,13 +2860,24 @@
         "keywords": "Lethal Hits"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 95
+      },
+      {
+        "from": 3,
+        "points": 105
+      }
+    ]
   },
   {
     "name": "Venerable Dreadnought",
     "faction": "Space Wolves",
     "alliance": "imperium",
-    "points": 125,
+    "points": 130,
     "models": 1,
     "move": "8\"",
     "toughness": "9",
@@ -2913,7 +2979,18 @@
         "d": "3"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 130
+      },
+      {
+        "from": 3,
+        "points": 140
+      }
+    ]
   },
   {
     "name": "Iron Priest on Thunderwolf [Legends]",
@@ -2942,7 +3019,7 @@
       "Vengeance of the Omnissiah: If a friendly ADEPTUS ASTARTES VEHICLE model is destroyed within 12\" of this model, until the end of the battle, this model’s Iron Priest hammer has an Attacks characteristic of 6.",
       "Leader: This model can be attached to the following units:\n\n■ Thunderwolf Cavalry",
       "Iron Priest: While this model is within 3\" of one or more friendly ADEPTUS ASTARTES VEHICLE units, this model has the Lone Operative ability",
-      "Blessing of the Omnissiah: In your Command phase, you can select one friendly ADEPTUS ASTARTES VEHICLE model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each"
+      "Blessing of the Omnissiah: In your Command phase, you can select one friendly ADEPTUS ASTARTES VEHICLE model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each time that VEHICLE model makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per turn."
     ],
     "weapons": [
       {
@@ -3021,7 +3098,7 @@
     "name": "Wolf Priest",
     "faction": "Space Wolves",
     "alliance": "imperium",
-    "points": 70,
+    "points": 75,
     "models": 1,
     "move": "7\"",
     "toughness": "4",
@@ -3072,7 +3149,7 @@
     "name": "Wolf Guard Battle Leader",
     "faction": "Space Wolves",
     "alliance": "imperium",
-    "points": 65,
+    "points": 80,
     "models": 1,
     "move": "7\"",
     "toughness": "4",
@@ -3154,79 +3231,11 @@
     "system": "40k"
   },
   {
-    "name": "Wolf Guard Headtakers",
-    "faction": "Space Wolves",
-    "alliance": "imperium",
-    "points": 85,
-    "models": 1,
-    "move": "10\"",
-    "toughness": "4",
-    "save": "6+",
-    "wounds": "1",
-    "leadership": "8+",
-    "objectiveControl": "0",
-    "invulnerableSave": "",
-    "role": "INFANTRY",
-    "isHero": false,
-    "canReinforce": true,
-    "categories": [
-      "Infantry"
-    ],
-    "abilities": [
-      "Let Loose the Wolves: At the start of the Declare Battle Formations step, split this unit into two units, one containing all of it's HEADTAKERS models and one containing all of its HUNTING WOLVES models, with new Starting ",
-      "Headhunters: At the start of the battle, select one unit from your opponent's army to be this unit's quarry. Weapons equipped by HEADTAKERS models in this unit have the [DEVASTATING WOUNDS] and [PRECISION] abiliti",
-      "Hunting Hounds: While this unit is within 6\" of one or more friendly SPACE WOLVES CHARACTER models (excluding WULFEN models), if this unit is not Battle-shocked, HUNTING WOLVES models in it have an Objective Control "
-    ],
-    "weapons": [
-      {
-        "name": "Heavy bolt pistol",
-        "type": "Ranged",
-        "attacks": "1",
-        "bs": "3+",
-        "s": "4",
-        "ap": "-1",
-        "d": "1",
-        "range": "18\"",
-        "keywords": "Pistol"
-      },
-      {
-        "name": "Master-crafted power weapon",
-        "type": "Melee",
-        "attacks": "4",
-        "bs": "3+",
-        "s": "5",
-        "ap": "-2",
-        "d": "2",
-        "keywords": "Lethal Hits"
-      },
-      {
-        "name": "Paired master-crafted power weapons",
-        "type": "Melee",
-        "attacks": "6",
-        "bs": "3+",
-        "s": "5",
-        "ap": "-2",
-        "d": "2"
-      },
-      {
-        "name": "Teeth and claws",
-        "type": "Melee",
-        "attacks": "3",
-        "bs": "4+",
-        "s": "4",
-        "ap": "0",
-        "d": "1",
-        "keywords": "Extra Attacks"
-      }
-    ],
-    "system": "40k"
-  },
-  {
     "name": "Wulfen with Storm Shields",
     "faction": "Space Wolves",
     "alliance": "imperium",
-    "points": 100,
-    "models": 1,
+    "points": 125,
+    "models": 5,
     "move": "9\"",
     "toughness": "6",
     "save": "4+",
@@ -3269,14 +3278,25 @@
         "keywords": "Assault, Blast"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 125
+      },
+      {
+        "from": 3,
+        "points": 155
+      }
+    ]
   },
   {
     "name": "Wolf Guard Headtakers",
     "faction": "Space Wolves",
     "alliance": "imperium",
     "points": 85,
-    "models": 1,
+    "models": 3,
     "move": "7\"",
     "toughness": "4",
     "save": "3+",
@@ -3291,8 +3311,8 @@
       "Infantry"
     ],
     "abilities": [
-      "Let Loose the Wolves: At the start of the Declare Battle Formations step, split this unit into two units, one containing all of it's HEADTAKERS models and one containing all of its HUNTING WOLVES models, with new Starting ",
-      "Headhunters: At the start of the battle, select one unit from your opponent's army to be this unit's quarry. Weapons equipped by HEADTAKERS models in this unit have the [DEVASTATING WOUNDS] and [PRECISION] abiliti",
+      "Let Loose the Wolves: At the start of the Declare Battle Formations step, you can split this unit into two units, one containing all Wolf Guard Headtaker models and all leader/support models, the other containing all Hunting Wolves models, with new starting strengths accordingly.",
+      "Headhunters: At the start of the first battle round, select up to one enemy unit to be this unit's quarry: - This unit's attacks that target this unit's quarry have [DEVASTATING WOUNDS] and [PRECISION]. - Each time this unit's quarry is destroyed, select one enemy unit to be this unit's quarry.",
       "Hunting Hounds: While this unit is within 6\" of one or more friendly SPACE WOLVES CHARACTER models (excluding WULFEN models), if this unit is not Battle-shocked, HUNTING WOLVES models in it have an Objective Control "
     ],
     "weapons": [
@@ -3337,14 +3357,25 @@
         "keywords": "Extra Attacks"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 85
+      },
+      {
+        "from": 3,
+        "points": 95
+      }
+    ]
   },
   {
     "name": "Wolf Scouts",
     "faction": "Space Wolves",
     "alliance": "imperium",
-    "points": 90,
-    "models": 1,
+    "points": 95,
+    "models": 6,
     "move": "7\"",
     "toughness": "4",
     "save": "3+",
@@ -3378,6 +3409,17 @@
         "d": "1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 95
+      },
+      {
+        "from": 3,
+        "points": 105
+      }
+    ]
   }
 ]

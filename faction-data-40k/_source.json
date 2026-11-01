@@ -1,0 +1,16 @@
+{
+  "points": {
+    "source": "Warhammer 40,000 Munitorum Field Manual",
+    "url": "https://mfm.warhammer-community.com/en/",
+    "version": "v1.6",
+    "retrieved": "2026-11-01",
+    "notes": "Rendered faction pages scraped with Legends shown. 'points' = first-copy price of the smallest unit size; 'models' = that size; 'pointsTiers' = per-copy price bands when MFM prices by copy number. Ultramarines use the Space Marines page, Craftworlds the Aeldari page, Agents of the Imperium the Imperial Agents page; titans use the (Chaos) Titan Legions pages."
+  },
+  "profiles": {
+    "source": "BSData wh40k-11e",
+    "url": "https://github.com/BSData/wh40k-11e",
+    "commit": "c729d4694288e934dfb9fcec143c9d4027f812b5",
+    "retrieved": "2026-11-01",
+    "notes": "Used to fill empty M/T/Sv/W/Ld/OC lines and to complete truncated ability strings where the unit name matched one BSData unit."
+  }
+}

@@ -3,7 +3,7 @@
     "name": "Abaddon the Despoiler",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 295,
+    "points": 300,
     "models": 1,
     "move": "5\"",
     "toughness": "5",
@@ -67,7 +67,7 @@
     "name": "Haarken Worldclaimer",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 90,
+    "points": 95,
     "models": 1,
     "move": "12\"",
     "toughness": "4",
@@ -91,8 +91,8 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following units:\n■ RAPTORS",
-      "Head Taker: While this model is leading a unit, each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model’s unit and roll one D6 for each model in this model’s un",
-      "Herald of the Apocalypse (Aura): While an enemy unit is within 6\" of this model, in the Battle-shock step of your opponent’s Command phase, if that enemy unit is below its Starting Strength, it must take a Battle-shock test. This abi"
+      "Head Taker: While this model is leading a unit, each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model’s unit and roll one D6 for each model in this model’s unit which is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound.",
+      "Herald of the Apocalypse (Aura): While an enemy unit is within 6\" of this model, in the Battle-shock step of your opponent’s Command phase, if that enemy unit is below its Starting Strength, it must take a Battle-shock test. This ability cannot cause a unit to take two Battle-shock tests in the same phase."
     ],
     "weapons": [
       {
@@ -132,7 +132,7 @@
     "name": "Huron Blackheart",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 130,
+    "points": 135,
     "models": 1,
     "move": "6\"",
     "toughness": "5",
@@ -155,7 +155,7 @@
     "abilities": [
       "Leader: This model can be attached to the following units:\n- ^^**Chosen^^** \n- ^^**Chaos Terminator Squad^^** \n- ^^**Legionaries^^** \n- ^^**Masters of the Maelstrom^^** \n- ^^**Red Corsairs Raiders^^**",
       "Lord of Badab (Aura): While a friendly ^^**Heretic Astartes Infantry**^^ unit (excluding Battle-shocked units and ^^**Damned**^^ units) is within 6\" of this model, add 1 to the Objective Control characteristic of models in",
-      "Hamadrya’s Knowledge (Psychic): Once per battle round, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model’s unit, if this model’s unit is not within Engagement Range of one or more enemy units, it ca"
+      "Hamadrya’s Knowledge (Psychic): Once per battle round, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model’s unit, if this model’s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D3+3\"."
     ],
     "weapons": [
       {
@@ -184,7 +184,7 @@
     "name": "Heretic Astartes Daemon Prince",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 165,
+    "points": 155,
     "models": 1,
     "move": "8\"",
     "toughness": "10",
@@ -246,7 +246,7 @@
     "name": "Heretic Astartes Daemon Prince with wings",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 180,
+    "points": 170,
     "models": 1,
     "move": "12\"",
     "toughness": "9",
@@ -269,7 +269,7 @@
     ],
     "abilities": [
       "Flying Horror: Each time this model ends a Normal or Advance move, select one enemy unit it moved over during that move. That unit must take a Battle-shock test.",
-      "Daemonic Destruction: Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each of this model’s remaining wounds: for each 4+, that enemy unit suffers 1 mortal wo"
+      "Daemonic Destruction: Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each of this model’s remaining wounds: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
     ],
     "weapons": [
       {
@@ -309,8 +309,8 @@
     "name": "Fabius Bile",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 100,
-    "models": 1,
+    "points": 110,
+    "models": 2,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -325,10 +325,10 @@
       "Epic Hero"
     ],
     "abilities": [
-      "Enhanced Warriors: If this unit is attached to a unit at the start of the battle, until the end of the battle, add 1 to the Strength characteristic of melee weapons equipped by Bodyguard models in that unit and add 1 to",
+      "Enhanced Warriors: If this unit is attached to a unit at the start of the battle, until the end of the battle, add 1 to the Strength characteristic of melee weapons equipped by Bodyguard models in that unit and add 1 to the Toughness characteristic of Bodyguard models in that unit.",
       "Leader: This model can be attached to the following units:\n■ ACCURSED CULTISTS\n■ CHOSEN\n■ CULTIST MOB\n■ LEGIONARIES",
       "Surgeon Acolyte: Once per turn, when an attack is allocated to a model in this unit, if this unit contains ^^**Fabius Bile**^^, you can change the Damage characteristic of that attack to 0.",
-      "Chirurgeon: The first time this unit’s ^^**Fabius Bile^^** model is destroyed, at the end of the phase, roll one D6: on a 2+, set it back up on the battlefield, as close as possible to where it was destroyed and "
+      "Chirurgeon: The first time this unit’s Fabius Bile model is destroyed, at the end of the phase, roll one D6: on a 2+, set it back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy models, with its full wounds remaining."
     ],
     "weapons": [
       {
@@ -376,7 +376,7 @@
     "name": "Cypher",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 90,
+    "points": 95,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -397,8 +397,8 @@
       "Fallen"
     ],
     "abilities": [
-      "Agent of Discord (Aura): Once per turn, when your opponent targets a unit from their army within 12” of this model with a **stratagem**, you can use this ability. If you do increase the CP cost of that use of that **stratagem",
-      "Guns Blazing: Once per turn, in your opponent's Shooting phase, when an enemy unit makes a ranged attacks that targets a friendly HERETIC ASTARTES unit within 3\" of this model, after that enemy unit has shot, this "
+      "Agent of Discord (Aura): Once per turn, when your opponent targets a unit from their army within 12” of this model with a stratagem, you can use this ability. If you do increase the CP cost of that use of that stratagem by 1CP.",
+      "Guns Blazing: Once per turn, in your opponent's Shooting phase, when an enemy unit makes a ranged attacks that targets a friendly HERETIC ASTARTES unit within 3\" of this model, after that enemy unit has shot, this model can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so and can only do so if that enemy unit is an eligible target."
     ],
     "weapons": [
       {
@@ -448,7 +448,7 @@
     "name": "Master of Possession",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 60,
+    "points": 65,
     "models": 1,
     "move": "8\"",
     "toughness": "4",
@@ -470,7 +470,7 @@
     "abilities": [
       "Leader: This model can be attached to the following units:\n■ CHOSEN\n■ LEGIONARIES\n■ POSSESSED",
       "Daemonkin (Psychic): While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit.",
-      "Sacrificial Dagger: Once per phase, when this model is selected to shoot or fight, it can use this ability. If it does, this model’s unit suffers 1 mortal wound and, until the end of the phase, each time this model makes"
+      "Sacrificial Dagger: Once per phase, when this model is selected to shoot or fight, it can use this ability. If it does, this model’s unit suffers 1 mortal wound and, until the end of the phase, each time this model makes a Psychic Attack, add 1 to the Hit roll and add 1 to the Wound roll."
     ],
     "weapons": [
       {
@@ -510,7 +510,7 @@
     "name": "Chaos Lord",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 90,
+    "points": 95,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -531,7 +531,7 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following units:\n■ CHOSEN\n■ LEGIONARIES",
-      "Chance for Glory: Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength, Attacks, Armour\nPenetration and Damage characteristics "
+      "Chance for Glory: Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength, Attacks, Armour Penetration and Damage characteristics of melee weapons equipped by this model by 1."
     ],
     "weapons": [
       {
@@ -589,7 +589,7 @@
     "name": "Chaos Lord in Terminator Armour",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 85,
+    "points": 90,
     "models": 1,
     "move": "5\"",
     "toughness": "5",
@@ -680,7 +680,7 @@
     "name": "Sorcerer",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 60,
+    "points": 65,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -703,7 +703,7 @@
     "abilities": [
       "Leader: This model can be attached to the following units:\n■ CHOSEN\n■ LEGIONARIES",
       "Prescience (Psychic): While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll.",
-      "Gift of Chaos (Psychic): Each time this model is selected to shoot or fight, after resolving its attacks, select one enemy unit hit by one or more of those attacks that had the [PSYCHIC] ability. That unit must take a Leaders"
+      "Gift of Chaos (Psychic): Each time this model is selected to shoot or fight, after resolving its attacks, select one enemy unit hit by one or more of those attacks that had the [PSYCHIC] ability. That unit must take a Leadership test: if that test is failed, that unit suffers D3 mortal wounds."
     ],
     "weapons": [
       {
@@ -733,7 +733,7 @@
     "name": "Sorcerer in Terminator Armour",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 80,
+    "points": 85,
     "models": 1,
     "move": "5\"",
     "toughness": "5",
@@ -756,7 +756,7 @@
     "abilities": [
       "Leader: This model can be attached to the following units:\n■ CHAOS TERMINATOR SQUAD",
       "Warptime (Psychic): While this model is leading a unit, you can re-roll Advance and Charge rolls made for that unit.",
-      "Death Hex (Psychic): At the start of your Shooting phase, one PSYKER with this ability can use it. If it does, select one enemy unit within 12\" of and visible to that PSYKER and roll one D6: on a 1, that PSYKER's unit suf",
+      "Death Hex (Psychic): At the start of your Shooting phase, one PSYKER with this ability can use it. If it does, select one enemy unit within 12\" of and visible to that PSYKER and roll one D6: on a 1, that PSYKER's unit suffers D3 mortal wounds; on a 2+, until the start of your next Movement phase, each time an attack targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1.",
       "Chaos Familiar: Once per battle, when an attack is allocated to the bearer, you can change the Damage characteristic to 0."
     ],
     "weapons": [
@@ -807,7 +807,7 @@
     "name": "Lord Discordant on Helstalker",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 160,
+    "points": 155,
     "models": 1,
     "move": "14\"",
     "toughness": "9",
@@ -827,8 +827,8 @@
       "Lord Discordant"
     ],
     "abilities": [
-      "Corrupt Machine Spirits: At the start of your Shooting phase, select one visible enemy ^^**Vehicle^^** unit within 12\" of this model and roll one D6: on a 2‑3, that enemy unit suffers D3 mortal wounds; on a 4‑5, that enemy un",
-      "Spirit Thief: At the start of your Shooting phase, select one visible enemy ^^**Vehicle^^** unit. Until the end of the phase, each time a friendly ^^**Heretic Astartes^^** model makes an attack that targets that un"
+      "Corrupt Machine Spirits: At the start of your Shooting phase, select one visible enemy Vehicle unit within 12\" of this model and roll one D6: on a 2‑3, that enemy unit suffers D3 mortal wounds; on a 4‑5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.’",
+      "Spirit Thief: At the start of your Shooting phase, select one visible enemy Vehicle unit. Until the end of the phase, each time a friendly Heretic Astartes model makes an attack that targets that unit, re-roll a Wound roll of 1."
     ],
     "weapons": [
       {
@@ -907,7 +907,7 @@
     "name": "Warpsmith",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 60,
+    "points": 65,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -927,7 +927,7 @@
     ],
     "abilities": [
       "Warpsmith: While this model is within 3\" of one or more friendly ^^**Heretic Astartes Vehicle**^^ units, this model has the Lone Operative ability.",
-      "Master of Mechanisms: In your Command phase, select one friendly ^^**Heretic Astartes Vehicle**^^ model within 3\" of this model. That **^^ Vehicle**^^ model regains up to D3 lost wounds and, until the start of your next Co",
+      "Master of Mechanisms: In your Command phase, select one friendly Heretic Astartes Vehicle model within 3\" of this model. That Vehicle model regains up to D3 lost wounds and, until the start of your next Command phase, each time that Vehicle makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per Command phase.",
       "Enrage Machine Spirits: At the end of your Movement phase, select one enemy ^^**Vehicle**^^ unit within 12\" of this model. That unit must take a Battle-shock test.",
       "Leader: This model can be attached to the following units: ^^**Chosen, Havocs, Legionaires**^^"
     ],
@@ -1030,8 +1030,8 @@
     "name": "Dark Apostle",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 65,
-    "models": 1,
+    "points": 70,
+    "models": 3,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -1051,8 +1051,8 @@
     "abilities": [
       "Leader: This model can be attached to the following units:\n■ ACCURSED CULTISTS\n■ CHOSEN\n■ CULTIST MOB\n■ LEGIONARIES",
       "Dark Zealotry: While this unit is leading a unit and contains a DARK APOSTLE model, each time a model in that unit makes a melee attack, add 1 to the Wound roll.",
-      "Demagogue: Once per battle, at the start of any phase, you can select one friendly HERETIC ASTARTES unit that is Battle-shocked and within 12\" of this unit’s DARK APOSTLE model. That unit is no longer Battle-sho",
-      "Malign Sacrifice: At the start of the Fight phase, if this unit contains one or more Dark Disciple models, you can select one of those models and one enemy unit within Engagement Range of this unit, then roll one D6: o"
+      "Demagogue: Once per battle, at the start of any phase, you can select one friendly HERETIC ASTARTES unit that is Battle-shocked and within 12\" of this unit’s DARK APOSTLE model. That unit is no longer Battle-shocked.",
+      "Malign Sacrifice: At the start of the Fight phase, if this unit contains one or more Dark Disciple models, you can select one of those models and one enemy unit within Engagement Range of this unit, then roll one D6: on a 2-5, that enemy unit suffers 1 mortal wound; on a 6, that enemy unit suffers D3 mortal wounds. That Dark Disciple model is then destroyed."
     ],
     "weapons": [
       {
@@ -1082,7 +1082,7 @@
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
     "points": 90,
-    "models": 1,
+    "models": 5,
     "move": "6\"",
     "toughness": "3",
     "save": "6+",
@@ -1104,7 +1104,7 @@
     "abilities": [
       "Leader: This model can be attached to the following units:\n■ ACCURSED CULTISTS\n■ CULTIST MOB",
       "Faithful Flock: While this unit is leading a unit and contains a CULT DEMAGOGUE model, models in that unit have a 5+ invulnerable save.",
-      "Dark Ritual: Once per battle, in your Command phase, if this unit contains a CULT DEMAGOGUE model, it can use this ability. If it does, until the end of the turn, this unit can declare a charge in a turn in which "
+      "Dark Ritual: Once per battle, in your Command phase, if this unit contains a CULT DEMAGOGUE model, it can use this ability. If it does, until the end of the turn, this unit can declare a charge in a turn in which it Advanced and each time a model in this unit makes an attack, add 1 to the Hit roll and add 1 to the Wound roll."
     ],
     "weapons": [
       {
@@ -1157,14 +1157,25 @@
         "keywords": "Hazardous, Psychic, Sustained Hits 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 90
+      },
+      {
+        "from": 3,
+        "points": 100
+      }
+    ]
   },
   {
     "name": "Legionaries",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 90,
-    "models": 1,
+    "points": 95,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -1224,7 +1235,7 @@
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
     "points": 50,
-    "models": 1,
+    "models": 10,
     "move": "6\"",
     "toughness": "3",
     "save": "6+",
@@ -1244,7 +1255,7 @@
       "Damned"
     ],
     "abilities": [
-      "For the Dark Gods: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, unti"
+      "For the Dark Gods: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's level of Control over that objective marker is greater than yours at the start or end of any phase."
     ],
     "weapons": [
       {
@@ -1275,7 +1286,7 @@
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
     "points": 90,
-    "models": 3,
+    "models": 8,
     "move": "6\"",
     "toughness": "4",
     "save": "6+",
@@ -1315,14 +1326,25 @@
         "d": "1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 90
+      },
+      {
+        "from": 3,
+        "points": 110
+      }
+    ]
   },
   {
     "name": "Chaos Terminator Squad",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 175,
-    "models": 1,
+    "points": 185,
+    "models": 5,
     "move": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -1374,13 +1396,24 @@
         "keywords": "Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 185
+      },
+      {
+        "from": 3,
+        "points": 215
+      }
+    ]
   },
   {
     "name": "Master of Executions",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 70,
+    "points": 75,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -1401,7 +1434,7 @@
     ],
     "abilities": [
       "Support: This model can be attached to the following units:\n■ CHOSEN\n■ LEGIONARIES\n\nYou can attach this model to one of the above units even if one other CHARACTER model has already been attached to it (a unit",
-      "Warp-sighted Butcher: While this model is leading a unit, each time a model in that unit makes a melee attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll. If that unit is Below Hal",
+      "Warp-sighted Butcher: While this model is leading a unit, each time a model in that unit makes a melee attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll. If that unit is Below Half-strength, you can re-roll the Wound roll as well.",
       "Trophy Taker: Each time this model destroys an enemy CHARACTER model, you gain 1CP."
     ],
     "weapons": [
@@ -1422,8 +1455,8 @@
     "name": "Possessed",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 120,
-    "models": 1,
+    "points": 130,
+    "models": 5,
     "move": "9\"",
     "toughness": "6",
     "save": "3+",
@@ -1444,14 +1477,25 @@
       "Unholy Bloodshed: Once per battle, when this unit makes a Dark Pact, until the end of the phase, weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability."
     ],
     "weapons": [],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 130
+      },
+      {
+        "from": 3,
+        "points": 150
+      }
+    ]
   },
   {
     "name": "Chosen",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 135,
-    "models": 1,
+    "points": 140,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -1503,7 +1547,18 @@
         "keywords": "Lethal Hits"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 140
+      },
+      {
+        "from": 3,
+        "points": 150
+      }
+    ]
   },
   {
     "name": "Venomcrawler",
@@ -1529,7 +1584,7 @@
       "Venomcrawler"
     ],
     "abilities": [
-      "Soul Eater: At the end of the Fight phase, if one or more attacks made by this model that phase destroyed one or more enemy units, until the end of the battle, add 1 to the Attacks characteristic of this model’s "
+      "Soul Eater: At the end of the Fight phase, if one or more attacks made by this model that phase destroyed one or more enemy units, until the end of the battle, add 1 to the Attacks characteristic of this model’s weapons."
     ],
     "weapons": [
       {
@@ -1552,14 +1607,25 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 120
+      },
+      {
+        "from": 3,
+        "points": 130
+      }
+    ]
   },
   {
     "name": "Chaos Bikers",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 70,
-    "models": 1,
+    "points": 80,
+    "models": 3,
     "move": "12\"",
     "toughness": "5",
     "save": "3+",
@@ -1627,8 +1693,8 @@
     "name": "Raptors",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 110,
-    "models": 1,
+    "points": 115,
+    "models": 5,
     "move": "12\"",
     "toughness": "4",
     "save": "3+",
@@ -1691,14 +1757,25 @@
         "keywords": "Melta 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 115
+      },
+      {
+        "from": 3,
+        "points": 125
+      }
+    ]
   },
   {
     "name": "Warp Talons",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 125,
-    "models": 1,
+    "points": 130,
+    "models": 5,
     "move": "12\"",
     "toughness": "4",
     "save": "3+",
@@ -1719,7 +1796,7 @@
       "Grenades"
     ],
     "abilities": [
-      "Warp Strike: At the end of the Fight phase, if this unit destroyed one or more enemy units this phase and is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield an"
+      "Warp Strike: At the end of the Fight phase, if this unit destroyed one or more enemy units this phase and is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves."
     ],
     "weapons": [
       {
@@ -1732,14 +1809,25 @@
         "d": "1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 130
+      },
+      {
+        "from": 3,
+        "points": 140
+      }
+    ]
   },
   {
     "name": "Havocs",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 125,
-    "models": 1,
+    "points": 135,
+    "models": 5,
     "move": "5\"",
     "toughness": "5",
     "save": "3+",
@@ -1846,7 +1934,18 @@
         "keywords": "Sustained Hits 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 135
+      },
+      {
+        "from": 3,
+        "points": 145
+      }
+    ]
   },
   {
     "name": "Obliterators",
@@ -1914,7 +2013,18 @@
         "keywords": "Sustained Hits 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 160
+      },
+      {
+        "from": 3,
+        "points": 170
+      }
+    ]
   },
   {
     "name": "Noctilith Crown",
@@ -1940,7 +2050,7 @@
     ],
     "abilities": [
       "Malevolent Locus (Aura): While a friendly HERETIC ASTARTES unit is within 9\" of this Fortification, improve that unit's Leadership characteristic by 1.",
-      "Malign Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against th"
+      "Malign Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
     ],
     "weapons": [
       {
@@ -2023,8 +2133,8 @@
     "name": "Traitor Guardsmen Squad",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 70,
-    "models": 1,
+    "points": 65,
+    "models": 10,
     "move": "6\"",
     "toughness": "3",
     "save": "5+",
@@ -2114,7 +2224,7 @@
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
     "points": 60,
-    "models": 1,
+    "models": 10,
     "move": "6\"",
     "toughness": "4",
     "save": "5+",
@@ -2133,7 +2243,7 @@
       "Damned"
     ],
     "abilities": [
-      "Bestial Raiders: If this unit begins the game in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. If this unit is in Strat"
+      "Bestial Raiders: If this unit begins the game in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. If this unit is in Strategic Reserves, for the purposes of setting it up on the battlefield, treat the current battle round number as being one higher than it actually is."
     ],
     "weapons": [
       {
@@ -2233,7 +2343,7 @@
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
     "points": 70,
-    "models": 1,
+    "models": 2,
     "move": "6\"",
     "toughness": "3",
     "save": "5+",
@@ -2250,7 +2360,7 @@
     ],
     "abilities": [
       "Leader: This unit can be attached to the following unit:\n■ TRAITOR GUARDSMAN SQUAD",
-      "Brutal Example: Once per turn, while this unit is leading a unit and contains a TRAITOR ENFORCER model, you can target that unit with the Fire Overwatch Stratagem for 0CP, and can do so even if you have already targe",
+      "Brutal Example: Once per turn, while this unit is leading a unit and contains a TRAITOR ENFORCER model, you can target that unit with the Fire Overwatch Stratagem for 0CP, and can do so even if you have already targeted a different unit from your army with that Stratagem this phase. Each time you use this ability, one Bodyguard model in that unit is destroyed.",
       "Mutated Bodyguard: While this unit contains a Traitor Ogryn model, CHARACTER models in this unit have the Feel No Pain 4+ ability."
     ],
     "weapons": [
@@ -2354,13 +2464,24 @@
         "keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 220
+      },
+      {
+        "from": 3,
+        "points": 240
+      }
+    ]
   },
   {
     "name": "Chaos Predator Annihilator",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 145,
+    "points": 140,
     "models": 1,
     "move": "10\"",
     "toughness": "10",
@@ -2443,13 +2564,24 @@
         "keywords": "Heavy"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 140
+      },
+      {
+        "from": 3,
+        "points": 150
+      }
+    ]
   },
   {
     "name": "Chaos Predator Destructor",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 150,
+    "points": 145,
     "models": 1,
     "move": "10\"",
     "toughness": "10",
@@ -2532,13 +2664,24 @@
         "keywords": "Heavy"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 145
+      },
+      {
+        "from": 3,
+        "points": 155
+      }
+    ]
   },
   {
     "name": "Chaos Vindicator",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 185,
+    "points": 180,
     "models": 1,
     "move": "9\"",
     "toughness": "11",
@@ -2558,7 +2701,7 @@
       "Frame"
     ],
     "abilities": [
-      "Siege Shield: When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy "
+      "Siege Shield: When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
     ],
     "weapons": [
       {
@@ -2601,13 +2744,24 @@
         "keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 180
+      },
+      {
+        "from": 3,
+        "points": 190
+      }
+    ]
   },
   {
     "name": "Forgefiend",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 160,
+    "points": 155,
     "models": 1,
     "move": "8\"",
     "toughness": "10",
@@ -2660,13 +2814,24 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 155
+      },
+      {
+        "from": 3,
+        "points": 165
+      }
+    ]
   },
   {
     "name": "Helbrute",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 130,
+    "points": 125,
     "models": 1,
     "move": "6\"",
     "toughness": "9",
@@ -2685,7 +2850,7 @@
       "Helbrute"
     ],
     "abilities": [
-      "Dark Ascension (Aura): While a friendly HERETIC ASTARTES unit is within 6\" of this model, each time that unit makes a Dark Pact, until the end of the phase, its weapons gain both abilities conferred by that pact (instead of",
+      "Dark Ascension (Aura): While a friendly HERETIC ASTARTES unit is within 6\" of this model, each time that unit makes a Dark Pact, until the end of the phase, its weapons gain both abilities conferred by that pact (instead of only one).",
       "Devoted to Destruction: If this model is equipped with 2 melee weapons in addition to its close combat weapon, add 2 to the Attacks characteristics of those 2 weapons."
     ],
     "weapons": [
@@ -2853,7 +3018,7 @@
     "name": "Maulerfiend",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 130,
+    "points": 125,
     "models": 1,
     "move": "10\"",
     "toughness": "10",
@@ -2957,7 +3122,18 @@
         "keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 65
+      },
+      {
+        "from": 4,
+        "points": 75
+      }
+    ]
   },
   {
     "name": "Khorne Lord of Skulls",
@@ -3059,7 +3235,18 @@
         "keywords": "Blast"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 450
+      },
+      {
+        "from": 2,
+        "points": 475
+      }
+    ]
   },
   {
     "name": "Chaos Spawn",
@@ -3103,7 +3290,7 @@
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
     "points": 170,
-    "models": 1,
+    "models": 10,
     "move": "8\"",
     "toughness": "4",
     "save": "3+",
@@ -3123,7 +3310,7 @@
       "Berzerkers"
     ],
     "abilities": [
-      "Blood Surge: In your opponent's Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one"
+      "Blood Surge: In your opponent's Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one D6 and add 2 to the roll: models in this unit move a number of inches up to this result, but this unit must finish that move as close as possible to the closest enemy unit (excluding Aircraft). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Blood Surge move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Blood Surge move per phase."
     ],
     "weapons": [
       {
@@ -3152,8 +3339,8 @@
     "name": "Rubric Marines",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 100,
-    "models": 1,
+    "points": 115,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -3173,7 +3360,7 @@
       "Rubricae"
     ],
     "abilities": [
-      "Bringers of Change: Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1. If the target of that attack is within range of an objective marker you do not control, you can re-roll the Wound roll ",
+      "Bringers of Change: Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1. If the target of that attack is within range of an objective marker you do not control, you can re-roll the Wound roll instead.",
       "Icon of Flame: Ranged weapons equipped by models in this unit (excluding ^^**Characters^^**) have the [Ignores Cover] ability."
     ],
     "weapons": [
@@ -3237,14 +3424,25 @@
         "keywords": "Devastating Wounds"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 115
+      },
+      {
+        "from": 4,
+        "points": 125
+      }
+    ]
   },
   {
     "name": "Plague Marines",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
     "points": 90,
-    "models": 1,
+    "models": 5,
     "move": "5\"",
     "toughness": "6",
     "save": "3+",
@@ -3264,7 +3462,7 @@
       "Plague Marines"
     ],
     "abilities": [
-      "Infused with the Blessings of Nurgle: In your Shooting phase, each time this unit is selected to shoot, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that unit is A",
+      "Infused with the Blessings of Nurgle: In your Shooting phase, each time this unit is selected to shoot, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that unit is Afflicted.",
       "Icon of Despair: While an enemy unit is within 6\" of the bearer, worsen the Leadership characteristic of models in that unit by 1."
     ],
     "weapons": [
@@ -4002,7 +4200,7 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following unit:\n■ CHAOS BIKERS\n■ KHORNE BERZERKERS",
-      "Bloody Stampede: Each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model and roll one D6: on a 2-3, that enemy unit suffers 1 mortal wound; on a 4-5, that enemy unit"
+      "Bloody Stampede: Each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model and roll one D6: on a 2-3, that enemy unit suffers 1 mortal wound; on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
     ],
     "weapons": [
       {
@@ -4134,7 +4332,7 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following unit:\n■ CHAOS BIKERS",
-      "Cut Off Their Escape: Each time an enemy unit (excluding MONSTERS and VEHICLES) within Engagement Range of this model’s unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their "
+      "Cut Off Their Escape: Each time an enemy unit (excluding MONSTERS and VEHICLES) within Engagement Range of this model’s unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
     ],
     "weapons": [
       {
@@ -4378,7 +4576,7 @@
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
     "points": 125,
-    "models": 3,
+    "models": 7,
     "move": "5\"",
     "toughness": "5",
     "save": "6+",
@@ -4496,7 +4694,7 @@
       "Damned"
     ],
     "abilities": [
-      "Brutal Example: While this model is leading a unit, you can target that unit with the Insane Bravery Stratagem for 0CP, and can do so even if another unit from your army has already been targeted with that Stratagem ",
+      "Brutal Example: While this model is leading a unit, you can target that unit with the Insane Bravery Stratagem for 0CP, and can do so even if another unit from your army has already been targeted with that Stratagem this phase. Each time you use this ability, one Bodyguard model in that unit is destroyed.",
       "Enforcer: This model's unit is eligible to declare a charge in a turn in which it Fell Back.",
       "Leader: This model can be attached to the following units:\n■ TRAITOR GUARDSMEN SQUAD\n■ RENEGADE HEAVY WEAPONS SQUAD"
     ],
@@ -4755,7 +4953,7 @@
       "Mutilators"
     ],
     "abilities": [
-      "Crushing Charge: You can re-roll charge rolls made for this unit, and each time this unit makes a Charge move, select one enemy unit and roll one D6 for each model in this unit that is within Engagement Range of that "
+      "Crushing Charge: You can re-roll charge rolls made for this unit, and each time this unit makes a Charge move, select one enemy unit and roll one D6 for each model in this unit that is within Engagement Range of that unit: for each 4+, that enemy unit suffers D3 mortal wounds."
     ],
     "weapons": [
       {
@@ -4786,14 +4984,25 @@
         "d": "D6+2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 165
+      },
+      {
+        "from": 3,
+        "points": 185
+      }
+    ]
   },
   {
     "name": "Renegade Ogryn Brutes [Legends]",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
     "points": 95,
-    "models": 1,
+    "models": 3,
     "move": "6\"",
     "toughness": "6",
     "save": "5+",
@@ -4811,7 +5020,7 @@
       "Damned"
     ],
     "abilities": [
-      "Ogryn Combat Stimms: Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attac"
+      "Ogryn Combat Stimms: Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
     ],
     "weapons": [
       {
@@ -4862,7 +5071,7 @@
     "abilities": [
       "Leader: This model can be attached to the following units:\n■ ACCURSED CULTISTS\n■ CULTIST MOB\n■ NEGAVOLT CULTISTS",
       "Cursed Wardings (Psychic): While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks.",
-      "Psychic Barrier (Psychic): At the start of your opponent’s Shooting phase, you can roll one D6: on a 1, this PSYKER’s unit suffers D3 mortal wounds; on a 2+, until the end of the phase, models in this PSYKER’s unit have a 4+ in"
+      "Psychic Barrier (Psychic): At the start of your opponent’s Shooting phase, you can roll one D6: on a 1, this PSYKER’s unit suffers D3 mortal wounds; on a 2+, until the end of the phase, models in this PSYKER’s unit have a 4+ invulnerable save."
     ],
     "weapons": [
       {
@@ -5075,7 +5284,7 @@
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
     "points": 40,
-    "models": 1,
+    "models": 4,
     "move": "6\"",
     "toughness": "6",
     "save": "5+",
@@ -5260,7 +5469,7 @@
       "Deimos Predator"
     ],
     "abilities": [
-      "Armoured Spearhead: Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll inste"
+      "Armoured Spearhead: Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
     ],
     "weapons": [
       {
@@ -5369,7 +5578,7 @@
     "name": "Chaos Lord with Jump Pack",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 80,
+    "points": 85,
     "models": 1,
     "move": "12\"",
     "toughness": "4",
@@ -5498,14 +5707,25 @@
         "keywords": "Psychic"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 45
+      },
+      {
+        "from": 3,
+        "points": 50
+      }
+    ]
   },
   {
     "name": "Cultist Mob with Firearms [Legends]",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
     "points": 50,
-    "models": 1,
+    "models": 10,
     "move": "6\"",
     "toughness": "3",
     "save": "6+",
@@ -5525,7 +5745,7 @@
       "Cultist Mob with Firearms"
     ],
     "abilities": [
-      "For the Dark Gods: At the end of your Command phase, if this unit is within range of an objective marker  you control, that objective marker remains under your control, even if you have no models within range of it, unt"
+      "For the Dark Gods: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's level of Control over that objective marker is greater than yours at the start or end of any phase."
     ],
     "weapons": [
       {
@@ -5584,8 +5804,8 @@
     "name": "Nemesis Claw",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 100,
-    "models": 1,
+    "points": 105,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -5605,7 +5825,7 @@
     ],
     "abilities": [
       "Voice eater: Enemy units (excluding MONSTERS and VEHICLES) cannot be targeted with Stratagems while they are within Engagement Range of the bearer’s unit.",
-      "Visions of Suffering (Psychic): Each time a model in this unit makes an attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll. If that enemy unit is Below Half-strength, add 1 to the Wound roll",
+      "Visions of Suffering (Psychic): Each time a model in this unit makes an attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll. If that enemy unit is Below Half-strength, add 1 to the Wound roll as well.",
       "Attached Unit: If a CHARACTER UNIT unit from your army with the Leader ability (excluding EPIC HEROES) can be attached to a LEGIONARIES unit, it can be attached to this unit instead."
     ],
     "weapons": [
@@ -5666,8 +5886,8 @@
     "name": "Noise Marines",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 145,
-    "models": 1,
+    "points": 160,
+    "models": 6,
     "move": "6\"",
     "toughness": "5",
     "save": "3+",
@@ -5686,7 +5906,7 @@
       "Cults of the Dark Gods"
     ],
     "abilities": [
-      "Terrifying Crescendo: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, each time a Battle-shock or Leadership test is"
+      "Terrifying Crescendo: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 1 from that test."
     ],
     "weapons": [
       {
@@ -5730,14 +5950,25 @@
         "keywords": "Ignores Cover"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 160
+      },
+      {
+        "from": 3,
+        "points": 175
+      }
+    ]
   },
   {
     "name": "Masters of the Maelstrom",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 145,
-    "models": 1,
+    "points": 150,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -5757,8 +5988,8 @@
       "Masters of the Maelstrom"
     ],
     "abilities": [
-      "Choice Samples: While this unit's Garreon the Corpsemaster model is on the battlefield, in your Command phase, select one of the following: you can return one destroyed model (excluding ^^**Character**^^ models) to t",
-      "Fleet Command: After both players have deployed their armies, if this unit is on the battlefield (or any ^^**Transport**^^ it is embarked within is on the battlefield) select up to three ^^**Heretic Astartes**^^ uni",
+      "Choice Samples: While this unit's Garreon the Corpsemaster model is on the battlefield, in your Command phase, select one of the following: you can return one destroyed model (excluding Character models) to this unit, or, if one or more Heretic Astartes Infantry units from your army are below Starting Strength and within 3\" of this unit, you gain 1CP.",
+      "Fleet Command: After both players have deployed their armies, if this unit is on the battlefield (or any Transport it is embarked within is on the battlefield) select up to three Heretic Astartes units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
       "Plunder: Once per battle, after this unit ends a Normal move, you can select one visible enemy unit within 12\" of it and roll one D6: on a 2+, that enemy unit suffers D3+1 mortal wounds.",
       "Masters of the Maelstrom: At the start of the Declare Battle Formations step, this unit can join one of the following units. This unit then counts as part of that unit for the rest of the battle, and that unit’s Starting Stren"
     ],
@@ -5867,8 +6098,8 @@
     "name": "Red Corsairs Raiders",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 110,
-    "models": 1,
+    "points": 120,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -5930,13 +6161,24 @@
         "keywords": "Lethal Hits"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 120
+      },
+      {
+        "from": 3,
+        "points": 130
+      }
+    ]
   },
   {
     "name": "Red Corsairs Reave-captain",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 60,
+    "points": 65,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -5955,7 +6197,7 @@
       "Red Corsairs Reave-captain"
     ],
     "abilities": [
-      "Brutal Raider: Each time this model's unit ends a Charge move, until the end of the turn, add 1 to the Strength characteristic of melee weapons equipped by this model and improve the Armour Penetration characteristi",
+      "Brutal Raider: Each time this model's unit ends a Charge move, until the end of the turn, add 1 to the Strength characteristic of melee weapons equipped by this model and improve the Armour Penetration characteristic of those weapons by 1.",
       "Raider's Due: Each time this unit declares a Charge that targets one or more units that are within range of one or more objective markers, you can re-roll the Charge roll.",
       "Leader: This model can be attached to the following units: ^^**Chosen, Legionaries, Red Corsairs Raiders**^^"
     ],
@@ -6213,7 +6455,7 @@
       "Defiler"
     ],
     "abilities": [
-      "Scuttling Walker: Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding ^^**Titanic**^^ models) and terrain features. When doing so, it can move within Engagement Range of",
+      "Scuttling Walker: Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding Titanic models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed.",
       "Daemonforge: Each time this unit makes a Dark Pact, until the end of the phase, each time this model makes an attack, re-roll a Wound roll of 1."
     ],
     "weapons": [
@@ -6318,13 +6560,24 @@
         "keywords": "Ignores Cover, Torrent"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 300
+      },
+      {
+        "from": 2,
+        "points": 350
+      }
+    ]
   },
   {
     "name": "Kravek Morne",
     "faction": "Chaos Space Marines",
     "alliance": "chaos",
-    "points": 120,
+    "points": 130,
     "models": 1,
     "move": "5\"",
     "toughness": "5",
@@ -6347,7 +6600,7 @@
     ],
     "abilities": [
       "Headlong Destruction: Each time a model in this unit makes an attack that targets the closest eligible enemy unit, improve the Armour Penetration characteristic of that attack by 1.",
-      "Architect of Ruin: At the start of the battle, select one unit in your opponent’s army to be this model’s hated foe. Each time this model makes an attack that targets its hated foe, you can re-roll the Wound roll. Each ",
+      "Architect of Ruin: At the start of the battle, select one unit in your opponent’s army to be this model’s hated foe. Each time this model makes an attack that targets its hated foe, you can re-roll the Wound roll. Each time this model’s hated foe is destroyed, you can select a new unit from your opponent’s army to be its hated foe.",
       "Leader: This model can be attached to the following units: ^^**Chaos Terminator Squad, Mutilators, Obliterators.**^^"
     ],
     "weapons": [

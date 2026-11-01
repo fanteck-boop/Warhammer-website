@@ -3,7 +3,7 @@
     "name": "Captain in Gravis Armour",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 80,
+    "points": 90,
     "models": 1,
     "move": "5\"",
     "toughness": "6",
@@ -75,7 +75,7 @@
     "name": "Captain in Phobos Armour",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 70,
+    "points": 75,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -97,7 +97,7 @@
     ],
     "abilities": [
       "Master of Deceit: After both players have deployed their armies, if your army includes one or more models with this ability, you can select up to three friendly ADEPTUS ASTARTES INFANTRY units and redeploy all of those",
-      "Leader: This model can be attached to the following units:\n\n■ ELIMINATOR SQUAD\n■ INCURSOR SQUAD\n■ INFILTRATOR SQUAD\n■ REIVER SQUAD\n■ SCOUT SQUAD\n■ SPECTRUS KILL TEAM"
+      "Leader: This model can be attached to the following units: ELIMINATOR SQUAD, INCURSOR SQUAD, INFILTRATOR SQUAD, REIVER SQUAD, SCOUT SQUAD, SPECTRUS KILL TEAM, WOLF SCOUTS"
     ],
     "weapons": [
       {
@@ -137,7 +137,7 @@
     "name": "Captain in Terminator Armour",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 85,
+    "points": 90,
     "models": 1,
     "move": "5\"",
     "toughness": "5",
@@ -157,7 +157,7 @@
       "Terminator"
     ],
     "abilities": [
-      "Leader: This model can be attached to the following units:\n\n■ DEATHWATCH TERMINATOR SQUAD\n■ DEATHWING KNIGHTS\n■ DEATHWING TERMINATOR SQUAD\n■ TERMINATOR ASSAULT SQUAD\n■ TERMINATOR SQUAD",
+      "Leader: This model can be attached to the following units: DEATHWATCH TERMINATOR SQUAD, DEATHWING KNIGHTS, DEATHWING TERMINATOR SQUAD, RELIC TERMINATOR SQUAD, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD",
       "Unstoppable Valour: You can re-roll Charge rolls made for this model’s unit."
     ],
     "weapons": [
@@ -208,7 +208,7 @@
     "name": "Captain with Jump Pack",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 75,
+    "points": 90,
     "models": 1,
     "move": "12\"",
     "toughness": "4",
@@ -232,7 +232,7 @@
     ],
     "abilities": [
       "Angel's Wrath: While this model is leading a unit, each time that unit ends a Charge move, until the end of the turn, add 1 to the Strength characteristic of melee  weapons equipped by models in that unit.",
-      "Leader: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSORS WITH JUMP PACKS\n■ SANGUINARY GUARD\n■ TALONSTRIKE KILL TEAM\n■ VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+      "Leader: This model can be attached to the following units: ASSAULT INTERCESSORS WITH JUMP PACKS, ASSAULT SQUAD WITH JUMP PACKS, SANGUINARY GUARD, TALONSTRIKE KILL TEAM, VANGUARD VETERAN SQUAD WITH JUMP PACKS"
     ],
     "weapons": [
       {
@@ -312,8 +312,8 @@
     "name": "Intercessor Squad",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 80,
-    "models": 1,
+    "points": 85,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -444,8 +444,8 @@
     "name": "Infernus Squad",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 85,
-    "models": 1,
+    "points": 95,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -498,14 +498,25 @@
         "keywords": "Psychic"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 95
+      },
+      {
+        "from": 3,
+        "points": 105
+      }
+    ]
   },
   {
     "name": "Assault Intercessor Squad",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 75,
-    "models": 1,
+    "points": 85,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -605,8 +616,8 @@
     "name": "Heavy Intercessor Squad",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 100,
-    "models": 1,
+    "points": 115,
+    "models": 5,
     "move": "5\"",
     "toughness": "6",
     "save": "3+",
@@ -676,8 +687,8 @@
     "name": "Infiltrator Squad",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 110,
-    "models": 1,
+    "points": 85,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -739,8 +750,8 @@
     "name": "Incursor Squad",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 85,
-    "models": 1,
+    "points": 90,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -795,7 +806,18 @@
         "keywords": "Sustained Hits 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 90
+      },
+      {
+        "from": 3,
+        "points": 100
+      }
+    ]
   },
   {
     "name": "Tactical Squad",
@@ -932,7 +954,7 @@
     "faction": "Space Marines",
     "alliance": "imperium",
     "points": 65,
-    "models": 1,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "4+",
@@ -1121,8 +1143,8 @@
     "name": "Bladeguard Veteran Squad",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 80,
-    "models": 1,
+    "points": 90,
+    "models": 3,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -1141,7 +1163,7 @@
       "Bladeguard Veteran Squad"
     ],
     "abilities": [
-      "Bladeguard: (Once per turn, per unit): In the Fight phase, when this unit is selected to fight or when an enemy unit targets this unit, you can select one of the following:\n\n\n▪ This unit’s melee attacks have +1 t"
+      "Bladeguard: (Once per turn, per unit): In the Fight phase, when this unit is selected to fight or when an enemy unit targets this unit, you can select one of the following: ▪ This unit’s melee attacks have +1 to hit rolls. ▪ Or: Attacks that target this unit have ‑1 to hit rolls."
     ],
     "weapons": [
       {
@@ -1175,14 +1197,25 @@
         "keywords": "Pistol"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 90
+      },
+      {
+        "from": 3,
+        "points": 110
+      }
+    ]
   },
   {
     "name": "Vanguard Veteran Squad with Jump Packs",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 105,
-    "models": 1,
+    "points": 110,
+    "models": 5,
     "move": "12\"",
     "toughness": "4",
     "save": "3+",
@@ -1288,14 +1321,25 @@
         "keywords": "Lethal Hits"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 110
+      },
+      {
+        "from": 3,
+        "points": 130
+      }
+    ]
   },
   {
     "name": "Vanguard Veteran Squad [Legends]",
     "faction": "Space Marines",
     "alliance": "imperium",
     "points": 120,
-    "models": 1,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -1394,8 +1438,8 @@
     "name": "Sternguard Veteran Squad",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 100,
-    "models": 1,
+    "points": 105,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -1508,14 +1552,25 @@
         "keywords": "Ignores Cover, Torrent"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 105
+      },
+      {
+        "from": 3,
+        "points": 120
+      }
+    ]
   },
   {
     "name": "Reiver Squad",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 75,
-    "models": 1,
+    "points": 85,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -1558,8 +1613,8 @@
     "name": "Aggressor Squad",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 80,
-    "models": 1,
+    "points": 90,
+    "models": 3,
     "move": "5\"",
     "toughness": "6",
     "save": "3+",
@@ -1597,8 +1652,8 @@
     "name": "Terminator Assault Squad",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 155,
-    "models": 1,
+    "points": 170,
+    "models": 5,
     "move": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -1643,14 +1698,25 @@
         "keywords": "Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 170
+      },
+      {
+        "from": 3,
+        "points": 210
+      }
+    ]
   },
   {
     "name": "Terminator Squad",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 160,
-    "models": 1,
+    "points": 190,
+    "models": 5,
     "move": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -1733,7 +1799,18 @@
         "keywords": "Devastating Wounds"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 190
+      },
+      {
+        "from": 3,
+        "points": 230
+      }
+    ]
   },
   {
     "name": "Relic Terminator Squad [Legends]",
@@ -1758,7 +1835,7 @@
       "Relic Terminator Squad"
     ],
     "abilities": [
-      "Fury of the First: Each time a model in this unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristic and/or to the Hit roll. In addition, each time a mod",
+      "Fury of the First: Each time a model in this unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristic and/or to the Hit roll. In addition, each time a model in this unit makes an attack that targets the enemy unit you selected for the Oath of Moment ability this turn, add 1 to the Hit roll",
       "Grenade Harness: The bearer has the Grenades keyword"
     ],
     "weapons": [
@@ -1830,7 +1907,7 @@
     "faction": "Space Marines",
     "alliance": "imperium",
     "points": 150,
-    "models": 1,
+    "models": 3,
     "move": "4\"",
     "toughness": "7",
     "save": "2+",
@@ -1901,7 +1978,7 @@
     "faction": "Space Marines",
     "alliance": "imperium",
     "points": 175,
-    "models": 1,
+    "models": 3,
     "move": "4\"",
     "toughness": "7",
     "save": "2+",
@@ -1978,7 +2055,7 @@
     "name": "Invictor Tactical Warsuit",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 125,
+    "points": 135,
     "models": 1,
     "move": "8\"",
     "toughness": "8",
@@ -2061,7 +2138,18 @@
         "keywords": "Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 135
+      },
+      {
+        "from": 3,
+        "points": 150
+      }
+    ]
   },
   {
     "name": "Dreadnought",
@@ -2277,7 +2365,7 @@
     "name": "Redemptor Dreadnought",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 195,
+    "points": 170,
     "models": 1,
     "move": "8\"",
     "toughness": "10",
@@ -2380,7 +2468,18 @@
         "keywords": "Rapid Fire 2, Twin-Linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 170
+      },
+      {
+        "from": 3,
+        "points": 190
+      }
+    ]
   },
   {
     "name": "Ballistus Dreadnought",
@@ -2447,13 +2546,24 @@
         "d": "D6"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 150
+      },
+      {
+        "from": 3,
+        "points": 170
+      }
+    ]
   },
   {
     "name": "Brutalis Dreadnought",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 150,
+    "points": 160,
     "models": 1,
     "move": "8\"",
     "toughness": "10",
@@ -2527,7 +2637,18 @@
         "keywords": "Melta 2, Twin-Linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 160
+      },
+      {
+        "from": 3,
+        "points": 180
+      }
+    ]
   },
   {
     "name": "Assault Squad [Legends]",
@@ -2792,10 +2913,10 @@
     "system": "40k"
   },
   {
-    "name": "Invader ATV",
+    "name": "Invader ATVs",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 60,
+    "points": 65,
     "models": 1,
     "move": "12\"",
     "toughness": "5",
@@ -2869,14 +2990,25 @@
         "keywords": "Melta 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 65
+      },
+      {
+        "from": 3,
+        "points": 75
+      }
+    ]
   },
   {
     "name": "Outrider Squad",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 70,
-    "models": 1,
+    "points": 80,
+    "models": 3,
     "move": "12\"",
     "toughness": "5",
     "save": "3+",
@@ -3104,7 +3236,7 @@
     "faction": "Space Marines",
     "alliance": "imperium",
     "points": 75,
-    "models": 1,
+    "models": 3,
     "move": "12\"",
     "toughness": "5",
     "save": "4+",
@@ -3255,7 +3387,7 @@
       "Suppressor Squad"
     ],
     "abilities": [
-      "Suppression Fire: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks made with an accelerator autocannon. Until the start of your next turn, while this unit is o"
+      "Suppression Fire: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks made with an accelerator autocannon. Until the start of your next turn, while this unit is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
     ],
     "weapons": [
       {
@@ -3295,8 +3427,8 @@
     "name": "Inceptor Squad",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 125,
-    "models": 1,
+    "points": 130,
+    "models": 3,
     "move": "10\"",
     "toughness": "6",
     "save": "3+",
@@ -3330,13 +3462,24 @@
         "keywords": "Psychic"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 130
+      },
+      {
+        "from": 3,
+        "points": 150
+      }
+    ]
   },
   {
     "name": "Storm Speeder Hailstrike",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 105,
+    "points": 110,
     "models": 1,
     "move": "14\"",
     "toughness": "9",
@@ -3400,13 +3543,24 @@
         "keywords": "Psychic"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 110
+      },
+      {
+        "from": 3,
+        "points": 120
+      }
+    ]
   },
   {
     "name": "Storm Speeder Thunderstrike",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 135,
+    "points": 140,
     "models": 1,
     "move": "14\"",
     "toughness": "9",
@@ -3468,7 +3622,18 @@
         "keywords": "Anti-Fly 2+, Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 140
+      },
+      {
+        "from": 3,
+        "points": 150
+      }
+    ]
   },
   {
     "name": "Storm Speeder Hammerstrike",
@@ -3536,7 +3701,18 @@
         "keywords": "Melta 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 140
+      },
+      {
+        "from": 3,
+        "points": 150
+      }
+    ]
   },
   {
     "name": "Land Speeder Typhoon [Legends]",
@@ -3561,7 +3737,7 @@
       "Land Speeder Typhoon"
     ],
     "abilities": [
-      "Fire and Redeploy: In your Shooting phase, each time this model has shot, if it is not within Engagement Range of any enemy units, it can make a Normal move of up to D6\". If it does, until the end of the turn, this mode"
+      "Fire and Redeploy: In your Shooting phase, each time this model has shot, if it is not within Engagement Range of any enemy units, it can make a Normal move of up to D6\". If it does, until the end of the turn, this model is not eligible to declare a charge."
     ],
     "weapons": [
       {
@@ -3629,7 +3805,7 @@
       "Land Speeder Tornado"
     ],
     "abilities": [
-      "Strafing Enfilade: Each time this model ends a Normal move, you can select one enemy unit (excluding Monster and Vehicle units) that it moved over during that move, then roll six D6: for each 4+, that enemy unit suffers"
+      "Strafing Enfilade: Each time this model ends a Normal move, you can select one enemy unit (excluding Monster and Vehicle units) that it moved over during that move, then roll six D6: for each 4+, that enemy unit suffers 1 mortal wound"
     ],
     "weapons": [
       {
@@ -3689,8 +3865,8 @@
     "name": "Hellblaster Squad",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 110,
-    "models": 1,
+    "points": 115,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -3764,14 +3940,25 @@
         "keywords": "Assault, Hazardous, Heavy"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 115
+      },
+      {
+        "from": 3,
+        "points": 130
+      }
+    ]
   },
   {
     "name": "Eliminator Squad",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 75,
-    "models": 1,
+    "points": 85,
+    "models": 3,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -3828,11 +4015,11 @@
     "system": "40k"
   },
   {
-    "name": "Eradicator Squad",
+    "name": "Eradicator Squad with Melta Rifles",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 90,
-    "models": 1,
+    "points": 100,
+    "models": 3,
     "move": "5\"",
     "toughness": "6",
     "save": "3+",
@@ -3895,7 +4082,18 @@
         "keywords": "Melta 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 100
+      },
+      {
+        "from": 3,
+        "points": 120
+      }
+    ]
   },
   {
     "name": "Devastator Squad",
@@ -4021,8 +4219,8 @@
     "name": "Desolation Squad",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 180,
-    "models": 1,
+    "points": 140,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -4085,7 +4283,18 @@
         "keywords": "Blast, Indirect Fire"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 140
+      },
+      {
+        "from": 3,
+        "points": 150
+      }
+    ]
   },
   {
     "name": "Thunderfire Cannon [Legends]",
@@ -4110,7 +4319,7 @@
       "Artillery"
     ],
     "abilities": [
-      "Tremor Shells: In your Shooting phase, after this unit has shot, if an enemy Infantry unit was hit by one or more attacks made by this unit’s thunderfire cannon this  phase, until the end of your opponent’s next tur",
+      "Tremor Shells: In your Shooting phase, after this unit has shot, if an enemy Infantry unit was hit by one or more attacks made by this unit’s thunderfire cannon this phase, until the end of your opponent’s next turn, that enemy unit is shaken. While a unit is shaken, subtract 2 from that unit’s Move characteristic, and subtract 2 from Advance and Charge rolls made for that unit.",
       "Crewed Artillery: If one model in this unit is destroyed, the remaining model in this unit is also destroyed"
     ],
     "weapons": [
@@ -4268,7 +4477,7 @@
       "Stalker"
     ],
     "abilities": [
-      "Skyfire Protocols: Each time you target this model with the Overwatch Stratagem just after an enemy unit that can Fly starts or ends a Normal, Advance or Fall Back move, when resolving that Stratagem, in addition to sho"
+      "Skyfire Protocols: Each time you target this model with the Overwatch Stratagem just after an enemy unit that can Fly starts or ends a Normal, Advance or Fall Back move, when resolving that Stratagem, in addition to shooting that enemy unit, you can select up to three additional enemy units within 24\" of this model that can Fly; this model can also shoot at each of those units with its Icarus stormcannons (provided each one is an eligible target), but when doing so, an unmodified Hit roll of 6 is required to score a hit."
     ],
     "weapons": [
       {
@@ -4336,7 +4545,7 @@
       "Whirlwind"
     ],
     "abilities": [
-      "Pinning Bombardment: In your Shooting phase, after this model has shot, if one or more of those attacks made with its Whirlwind vengeance launcher scored a hit against an enemy Infantry unit, that unit must take a Battle-"
+      "Pinning Bombardment: In your Shooting phase, after this model has shot, if one or more of those attacks made with its Whirlwind vengeance launcher scored a hit against an enemy Infantry unit, that unit must take a Battle-shock test."
     ],
     "weapons": [
       {
@@ -4379,7 +4588,18 @@
         "keywords": "Blast, Indirect Fire"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 175
+      },
+      {
+        "from": 2,
+        "points": 195
+      }
+    ]
   },
   {
     "name": "Predator Destructor",
@@ -4457,7 +4677,18 @@
         "keywords": "Heavy, Sustained Hits 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 140
+      },
+      {
+        "from": 3,
+        "points": 150
+      }
+    ]
   },
   {
     "name": "Predator Annihilator",
@@ -4535,7 +4766,18 @@
         "keywords": "Heavy, Sustained Hits 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 135
+      },
+      {
+        "from": 3,
+        "points": 145
+      }
+    ]
   },
   {
     "name": "Gladiator Lancer",
@@ -4625,13 +4867,24 @@
         "keywords": "Rapid Fire 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 160
+      },
+      {
+        "from": 3,
+        "points": 180
+      }
+    ]
   },
   {
     "name": "Gladiator Reaper",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 160,
+    "points": 165,
     "models": 1,
     "move": "10\"",
     "toughness": "10",
@@ -4705,13 +4958,24 @@
         "keywords": "Devastating Wounds, Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 165
+      },
+      {
+        "from": 3,
+        "points": 185
+      }
+    ]
   },
   {
     "name": "Gladiator Valiant",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 150,
+    "points": 165,
     "models": 1,
     "move": "10\"",
     "toughness": "10",
@@ -4785,7 +5049,18 @@
         "keywords": "Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 165
+      },
+      {
+        "from": 3,
+        "points": 185
+      }
+    ]
   },
   {
     "name": "Vindicator",
@@ -4810,7 +5085,7 @@
       "Vindicator"
     ],
     "abilities": [
-      "Siege Shield: When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy "
+      "Siege Shield: When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
     ],
     "weapons": [
       {
@@ -4853,13 +5128,24 @@
         "keywords": "Blast"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 185
+      },
+      {
+        "from": 3,
+        "points": 200
+      }
+    ]
   },
   {
     "name": "Land Raider",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 220,
+    "points": 245,
     "models": 1,
     "move": "10\"",
     "toughness": "12",
@@ -4943,13 +5229,24 @@
         "d": "D6+1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 245
+      },
+      {
+        "from": 2,
+        "points": 265
+      }
+    ]
   },
   {
     "name": "Land Raider Crusader",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 220,
+    "points": 230,
     "models": 1,
     "move": "12\"",
     "toughness": "12",
@@ -5036,13 +5333,24 @@
         "keywords": "Devastating Wounds, Twin-Linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 230
+      },
+      {
+        "from": 2,
+        "points": 250
+      }
+    ]
   },
   {
     "name": "Land Raider Redeemer",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 260,
+    "points": 245,
     "models": 1,
     "move": "12\"",
     "toughness": "12",
@@ -5129,13 +5437,24 @@
         "keywords": "Ignores Cover, Torrent"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 245
+      },
+      {
+        "from": 2,
+        "points": 265
+      }
+    ]
   },
   {
     "name": "Repulsor",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 170,
+    "points": 190,
     "models": 1,
     "move": "10\"",
     "toughness": "12",
@@ -5229,13 +5548,24 @@
         "d": "D6+1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 190
+      },
+      {
+        "from": 3,
+        "points": 210
+      }
+    ]
   },
   {
     "name": "Repulsor Executioner",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 255,
+    "points": 260,
     "models": 1,
     "move": "10\"",
     "toughness": "12",
@@ -5350,13 +5680,24 @@
         "keywords": "Heavy"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 260
+      },
+      {
+        "from": 3,
+        "points": 280
+      }
+    ]
   },
   {
     "name": "Rhino",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 65,
+    "points": 70,
     "models": 1,
     "move": "12\"",
     "toughness": "9",
@@ -5412,13 +5753,24 @@
         "keywords": "Rapid Fire 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 70
+      },
+      {
+        "from": 4,
+        "points": 80
+      }
+    ]
   },
   {
     "name": "Razorback",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 85,
+    "points": 95,
     "models": 1,
     "move": "12\"",
     "toughness": "9",
@@ -5586,7 +5938,18 @@
         "keywords": "Blast"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 70
+      },
+      {
+        "from": 4,
+        "points": 80
+      }
+    ]
   },
   {
     "name": "Drop Pod",
@@ -5619,7 +5982,18 @@
       "Deployment Complete: Once this unit is set up on the battlefield and all units within it have disembarked, until the end of the battle, units cannot embark within this TRANSPORT"
     ],
     "weapons": [],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 60
+      },
+      {
+        "from": 4,
+        "points": 70
+      }
+    ]
   },
   {
     "name": "Stormhawk Interceptor",
@@ -5936,7 +6310,18 @@
         "keywords": "Melta 2, Twin-Linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 280
+      },
+      {
+        "from": 2,
+        "points": 300
+      }
+    ]
   },
   {
     "name": "Hammerfall Bunker",
@@ -5961,10 +6346,10 @@
       "Frame"
     ],
     "abilities": [
-      "Fortification: While an enemy unit is only within Engagement Range of one or more Fortifications from your army:\n■ That unit can still be selected as the target of ranged attacks, but each time such an attack is mad",
-      "Ceramite Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against th",
-      "Defensive Array: You can target this Fortification with the Fire Overwatch Strategem for 0CP, and can do so even if you have already targeted another unit with that Stratagem this turn. This Fortification can only be ",
-      "Defensive Array: You can target this Fortification with the Fire Overwatch Strategem for 0CP, and can do so even if you have already targeted another unit with that Stratagem this turn. This Fortification can only be "
+      "Fortification: While an enemy unit is only within Engagement Range of one or more Fortifications from your army: ■ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. ■ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so.",
+      "Ceramite Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack.",
+      "Defensive Array: You can target this Fortification with the Fire Overwatch Strategem for 0CP, and can do so even if you have already targeted another unit with that Stratagem this turn. This Fortification can only be targeted with that Stratagem once per turn.",
+      "Defensive Array: You can target this Fortification with the Fire Overwatch Strategem for 0CP, and can do so even if you have already targeted another unit with that Stratagem this turn. This Fortification can only be targeted with that Stratagem once per turn."
     ],
     "weapons": [
       {
@@ -6013,7 +6398,7 @@
     "name": "Captain on Bike [Legends]",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 95,
+    "points": 110,
     "models": 1,
     "move": "12\"",
     "toughness": "5",
@@ -6144,7 +6529,7 @@
     "name": "Lieutenant",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 45,
+    "points": 50,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -6166,7 +6551,7 @@
     ],
     "abilities": [
       "Storm Shield: The bearer has a 4+ invulnerable save",
-      "Support: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ COMPANY HEROES\n■ CRUSADER SQUAD\n■ DEATHWATCH VETERANS\n■ DECIMUS KILL TEAM\n■ FORTIS KILL TEA"
+      "Support: This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, COMPANY HEROES, CRUSADER SQUAD, DEATHWATCH VETERANS, DECIMUS KILL TEAM, DESOLATION SQUAD, FORTIS KILL TEAM, HELLBLASTER SQUAD, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD, VANGUARD VETERAN SQUAD"
     ],
     "weapons": [
       {
@@ -6310,7 +6695,7 @@
     "name": "Lieutenant in Phobos Armour",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 45,
+    "points": 40,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -6371,7 +6756,7 @@
     "name": "Librarian",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 70,
+    "points": 75,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -6394,7 +6779,7 @@
     ],
     "abilities": [
       "Mental Fortress [Psychic]: While this model is leading a unit, models in that unit have a 4+ invulnerable save.",
-      "Leader: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ DEATHWATCH VETERANS\n■ DECIMUS KILL TEAM\n■ DESOLATION SQUAD\n■ DEVASTATOR SQUAD\n■ FORTIS KILL TEAM\n■ HELLBLASTER SQUAD\n■"
+      "Leader: This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, DEATHWATCH VETERANS, DECIMUS KILL TEAM, DESOLATION SQUAD, FORTIS KILL TEAM, HELLBLASTER SQUAD, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, VANGUARD VETERAN SQUAD"
     ],
     "weapons": [
       {
@@ -6434,7 +6819,7 @@
     "name": "Librarian in Phobos Armour",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 70,
+    "points": 75,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -6457,7 +6842,7 @@
     ],
     "abilities": [
       "Shrouding [Psychic]: While this model is leading a unit, models in that unit have the Stealth ability and that unit cannot be targeted by ranged attacks unless the attacking\nmodel is within 12\".",
-      "Leader: This model can be attached to the following units:\n\n■ ELIMINATOR SQUAD\n■ INCURSOR SQUAD\n■ INFILTRATOR SQUAD\n■ REIVER SQUAD\n■ SPECTRUS KILL TEAM"
+      "Leader: This model can be attached to the following units: ELIMINATOR SQUAD, INCURSOR SQUAD, INFILTRATOR SQUAD, REIVER SQUAD, SCOUT SQUAD, SPECTRUS KILL TEAM, WOLF SCOUTS"
     ],
     "weapons": [
       {
@@ -6497,7 +6882,7 @@
     "name": "Librarian in Terminator Armour",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 85,
+    "points": 80,
     "models": 1,
     "move": "5\"",
     "toughness": "5",
@@ -6519,7 +6904,7 @@
     ],
     "abilities": [
       "Veil of Time [Psychic]: While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
-      "Leader: This model can be attached to the following units:\n\n■ DEATHWATCH TERMINATOR SQUAD\n■ DEATHWING KNIGHTS\n■ DEATHWING TERMINATOR SQUAD\n■ TERMINATOR ASSAULT SQUAD\n■ TERMINATOR SQUAD"
+      "Leader: This model can be attached to the following units: DEATHWATCH TERMINATOR SQUAD, DEATHWING KNIGHTS, DEATHWING TERMINATOR SQUAD, RELIC TERMINATOR SQUAD, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD, WOLF GUARD TERMINATORS"
     ],
     "weapons": [
       {
@@ -6724,7 +7109,7 @@
       "Chaplain"
     ],
     "abilities": [
-      "Leader: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ CRUSADER SQUAD\n■ DEATH COMPANY MARINES\n■ DEATH COMPANY MARINES WITH BOLT RIFLES\n■ DEATHWATC"
+      "Leader: This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, CRUSADER SQUAD, DEATH COMPANY MARINES, DEATHWATCH VETERANS, DECIMUS KILL TEAM, FORTIS KILL TEAM, HELLBLASTER SQUAD, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD, VANGUARD VETERAN SQUAD"
     ],
     "weapons": [
       {
@@ -6774,7 +7159,7 @@
     ],
     "abilities": [
       "Recitation of Faith: While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds.",
-      "Leader: This model can be attached to the following units:\n\n■ DEATHWATCH TERMINATOR SQUAD\n■ DEATHWING KNIGHTS\n■ DEATHWING TERMINATOR SQUAD\n■ TERMINATOR ASSAULT SQUAD\n■ TERMINATOR SQUAD"
+      "Leader: This model can be attached to the following units: DEATHWATCH TERMINATOR SQUAD, DEATHWING KNIGHTS, DEATHWING TERMINATOR SQUAD, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD, WOLF GUARD TERMINATORS"
     ],
     "weapons": [
       {
@@ -6803,7 +7188,7 @@
     "name": "Chaplain on Bike",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 70,
+    "points": 75,
     "models": 1,
     "move": "12\"",
     "toughness": "5",
@@ -6885,7 +7270,7 @@
     ],
     "abilities": [
       "Exhortation of Rage: Each time this model’s unit is selected to fight, you can select one enemy unit within Engagement Range of this model’s unit and roll one D6: on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6",
-      "Leader: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSORS WITH JUMP PACKS\n■ DEATH COMPANY MARINES WITH JUMP PACKS\n■ TALONSTRIKE KILL TEAM\n■ VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+      "Leader: This model can be attached to the following units: ASSAULT INTERCESSORS WITH JUMP PACKS, ASSAULT SQUAD WITH JUMP PACKS, DEATH COMPANY MARINES WITH JUMP PACKS, TALONSTRIKE KILL TEAM, VANGUARD VETERAN SQUAD WITH JUMP PACKS"
     ],
     "weapons": [
       {
@@ -7085,7 +7470,7 @@
     ],
     "abilities": [
       "Mindlock: While a Techmarine model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by  Astartes Servitor models in this unit by 1.",
-      "Servitor Retinue: At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a Techmarine. If it does, until the end of the battle, every model in this uni"
+      "Servitor Retinue: At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a Techmarine. If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit’s Starting Strength is increased accordingly."
     ],
     "weapons": [
       {
@@ -7144,7 +7529,7 @@
     "name": "Lieutenant with Combi-weapon",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 95,
+    "points": 85,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -7219,9 +7604,9 @@
       "Primaris Company Champion"
     ],
     "abilities": [
-      "Honour or Death: While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit and you can target that unit with the Heroic Intervention  stratagem for 0CP, even if you have already used tha",
+      "Honour or Death: While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit and you can target that unit with the Heroic Intervention stratagem for 0CP, even if you have already used that Stratagem on a different unit this phase.",
       "Martial Superiority: Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll",
-      "Leader: This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Infernus Squad\n■ Intercessor Squad\n■ Sternguard Veteran Squad"
+      "Leader: This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, INFERNUS SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, VANGUARD VETERAN SQUAD"
     ],
     "weapons": [
       {
@@ -7251,7 +7636,7 @@
     "name": "Apothecary",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 40,
+    "points": 45,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -7274,7 +7659,7 @@
     "abilities": [
       "Narthecium: While this model is leading a unit, in your Command phase, you can return 1 destroyed model (excluding Character models) to that unit.",
       "Gene Seed Recovery: When this model’s Bodyguard unit is destroyed, roll one D6: on a 2+, you gain 1CP.",
-      "Support: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD \n■ CRUSADER SQUAD \n■ DEATHWATCH VETERANS \n■ DECIMUS KILL TEAM \n■ DESOLATION SQUAD \n■ DEVASTATOR SQUAD \n■ FORTIS KILL TEA"
+      "Support: This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, COMPANY HEROES, CRUSADER SQUAD, DEATHWATCH VETERANS, DECIMUS KILL TEAM, DESOLATION SQUAD, FORTIS KILL TEAM, HELLBLASTER SQUAD, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD"
     ],
     "weapons": [
       {
@@ -7314,7 +7699,7 @@
     "name": "Apothecary Biologis",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 70,
+    "points": 60,
     "models": 1,
     "move": "5\"",
     "toughness": "6",
@@ -7389,7 +7774,7 @@
     ],
     "abilities": [
       "Unbreakable Duty: While this model is within range of an objective marker and/or within 6\" of the centre of the battlefield, this model has the Feel No Pain 4+ ability.",
-      "Support: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD \n■ CRUSADER SQUAD \n■ DEATHWATCH VETERANS \n■ DECIMUS KILL TEAM \n■ DESOLATION SQUAD \n■ DEVASTATOR SQUAD \n■ FORTIS KILL TEA"
+      "Support: This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, CRUSADER SQUAD, DEATHWATCH VETERANS, DECIMUS KILL TEAM, DESOLATION SQUAD, FORTIS KILL TEAM, HELLBLASTER SQUAD, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD, VANGUARD VETERAN SQUAD"
     ],
     "weapons": [
       {
@@ -7439,7 +7824,7 @@
     "name": "Bladeguard Ancient",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 40,
+    "points": 70,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -7489,10 +7874,10 @@
     "system": "40k"
   },
   {
-    "name": "Ancient in Terminator Armor",
+    "name": "Ancient in Terminator Armour",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 65,
+    "points": 75,
     "models": 1,
     "move": "5\"",
     "toughness": "5",
@@ -7616,7 +8001,7 @@
       "Narthecium: While this unit contains an Apothecary, in your Command phase, you can return 1 destroyed model (excluding Character models) to this unit",
       "Astartes Banner: While this unit contains a Company Ancient, add 1 to the Objective Control characteristic of models in this unit.",
       "Astartes Shield: The bearer has a 4+ invulnerable save.",
-      "Honour or Death: While this unit contains a Company Champion, add 1 to Advance and Charge rolls made for this unit and you can target this unit with the Heroic  Intervention Stratagem for 0CP, even if you have already",
+      "Honour or Death: While this unit contains a Company Champion, add 1 to Advance and Charge rolls made for this unit and you can target this unit with the Heroic Intervention Stratagem for 0CP, even if you have already used that Stratagem on a different unit this phase.",
       "Astartes Shield: The bearer has a 4+ invulnerable save."
     ],
     "weapons": [
@@ -7727,7 +8112,7 @@
     "name": "Judiciar",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 55,
+    "points": 50,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -7780,7 +8165,7 @@
     "name": "Captain",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 80,
+    "points": 90,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -7801,7 +8186,7 @@
       "Tacticus"
     ],
     "abilities": [
-      "Leader: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ COMPANY HEROES, CRUSADER SQUAD\n■ DEATHWATCH VETERANS\n■ DECIMUS KILL TEAM\n■ FORTIS KILL TEAM",
+      "Leader: This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, COMPANY HEROES, CRUSADER SQUAD, DEATHWATCH VETERANS, DECIMUS KILL TEAM, DESOLATION SQUAD, FORTIS KILL TEAM, HELLBLASTER SQUAD, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD, VANGUARD VETERAN SQUAD, VICTRIX HONOUR GUARD",
       "Relic Shield: The bearer has a Wounds characteristic of 6."
     ],
     "weapons": [
@@ -7882,7 +8267,7 @@
     "name": "Astraeus",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 525,
+    "points": 550,
     "models": 1,
     "move": "10\"",
     "toughness": "12",
@@ -7901,7 +8286,7 @@
       "Astraeus"
     ],
     "abilities": [
-      "Suppression Fire: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more attacks made with its twin macro-accelerator cannon this phase. Until the start of your next turn, while thi",
+      "Suppression Fire: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more attacks made with its twin macro-accelerator cannon this phase. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
       "*Invulnerable Save: This model has a 5+ invulnerable save against ranged attacks."
     ],
     "weapons": [
@@ -7966,13 +8351,24 @@
         "keywords": "Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 550
+      },
+      {
+        "from": 2,
+        "points": 650
+      }
+    ]
   },
   {
     "name": "Thunderhawk Gunship",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 840,
+    "points": 850,
     "models": 1,
     "move": "20+\"",
     "toughness": "12",
@@ -8059,7 +8455,18 @@
         "keywords": "Blast"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 850
+      },
+      {
+        "from": 2,
+        "points": 950
+      }
+    ]
   },
   {
     "name": "Land Raider Helios [Legends]",
@@ -8086,7 +8493,7 @@
     ],
     "abilities": [
       "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
-      "Transport: This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the spac"
+      "Transport: This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models."
     ],
     "weapons": [
       {
@@ -8282,7 +8689,7 @@
       "Deimos Predator"
     ],
     "abilities": [
-      "Armoured Spearhead: Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll inste"
+      "Armoured Spearhead: Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
     ],
     "weapons": [
       {
@@ -8681,7 +9088,7 @@
       "Caestus Assault Ram"
     ],
     "abilities": [
-      "Transport: This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the spac",
+      "Transport: This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.",
       "Into the Foe: If a unit disembarks from this Transport before it moves, until the end of the turn, that unit is eligible to charge in a turn in which it Advanced."
     ],
     "weapons": [
@@ -8743,7 +9150,7 @@
     ],
     "abilities": [
       "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
-      "Transport: This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the spac"
+      "Transport: This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models."
     ],
     "weapons": [
       {
@@ -8952,7 +9359,7 @@
     ],
     "abilities": [
       "Self Repair: At the end of your Command phase, this model regains 1 lost wound.",
-      "Transport: This model has a transport capacity of 6 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Phobos, Gravis, Centurion, Terminator or Tacticus models (except for Tacticus Characte",
+      "Transport: This model has a transport capacity of 6 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Phobos, Gravis, Centurion, Terminator or Tacticus models (except for Tacticus Character models that begin the battle attached to a non-Tacticus unit).",
       "Orbital Comms Array [Aura]: While a friendly Adeptus Astartes unit is within 6\" of the bearer, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP"
     ],
     "weapons": [
@@ -9023,7 +9430,7 @@
     ],
     "abilities": [
       "Assault Ramp: Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
-      "Transport: This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the spac",
+      "Transport: This model has a transport capacity of 12 Adeptus Astartes Infantry models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models and each Centurion model takes up the space of 3 models.",
       "Invulnerable Save: 5+"
     ],
     "weapons": [
@@ -9284,7 +9691,7 @@
       "Relic Razorback"
     ],
     "abilities": [
-      "Fire Support: In your Shooting phase, after this model has  shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from th",
+      "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll.",
       "Transport: This model has a transport capacity of 6 Adeptus Astartes Infantry models. It cannot transport Jump Pack, Wulfen, Tacticus, Phobos, Gravis, Centurion or Terminator models."
     ],
     "weapons": [
@@ -9516,7 +9923,7 @@
     ],
     "abilities": [
       "Martial Superiority: Each time this model makes a melee attack that targets a Character unit, you can re-roll the Hit roll and you can re-roll the Wound roll",
-      "Honour or Death: While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit and you can target that unit with the Heroic Intervention  stratagem for 0CP, even if you have already used tha",
+      "Honour or Death: While this model is leading a unit, add 1 to Advance and Charge rolls made for that unit and you can target that unit with the Heroic Intervention stratagem for 0CP, even if you have already used that Stratagem on a different unit this phase.",
       "Leader: This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad"
     ],
     "weapons": [
@@ -9770,7 +10177,7 @@
       "Techmarine"
     ],
     "abilities": [
-      "Blessing of the Omnissiah: In your Command phase, you can select one friendly Adeptus Astartes Vehicle model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each",
+      "Blessing of the Omnissiah: In your Command phase, you can select one friendly Adeptus Astartes Vehicle model within 3\" of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each time that Vehicle model makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per turn.",
       "Leader: This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad",
       "Techmarine: While this model is within 3\" of one or more friendly Adeptus Astartes Vehicle units, this model has the Lone Operative ability",
       "Vengeance of the Omnissiah: If a friendly Adeptus Astartes Vehicle model is destroyed within 12\" of this model, until the end of the battle, this model’s Omnissian power axe has an\nAttacks characteristic of 7."
@@ -10027,7 +10434,7 @@
     ],
     "abilities": [
       "Damaged: 1-10 wounds remaining: While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-      "Transport: This model has a transport capacity of 15 Adeptus Astartes Infantry or Adeptus Astartes Mounted models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models. Each Centurio",
+      "Transport: This model has a transport capacity of 15 Adeptus Astartes Infantry or Adeptus Astartes Mounted models. Each Jump Pack, Wulfen, Gravis or Terminator model takes up the space of 2 models. Each Centurion model takes up the space of 3 models. Each Mounted model takes up the space of 4 models. This model can also transport up to 2 Adeptus Astartes Vehicle models (excluding Aircraft and Titanic models). Models embarked within Transport Vehicles that are themselves being transported by this model do not count towards the transport capacity of this model.",
       "Aerial Deployment: If this model starts the game in Hover mode and in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
     ],
     "weapons": [
@@ -10086,7 +10493,7 @@
       "Tarantula Air Defence Battery"
     ],
     "abilities": [
-      "Sentry Programming: You can target this model with the Fire Overwatch Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this turn.  This model can only be targeted wi"
+      "Sentry Programming: You can target this model with the Fire Overwatch Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this turn. This model can only be targeted with that Stratagem once per turn."
     ],
     "weapons": [
       {
@@ -10116,8 +10523,8 @@
     "name": "Assault Intercessors with Jump Packs",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 85,
-    "models": 1,
+    "points": 95,
+    "models": 5,
     "move": "12\"",
     "toughness": "4",
     "save": "3+",
@@ -10202,14 +10609,25 @@
         "keywords": "Lethal Hits"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 95
+      },
+      {
+        "from": 3,
+        "points": 105
+      }
+    ]
   },
   {
     "name": "Company Heroes",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 105,
-    "models": 1,
+    "points": 125,
+    "models": 4,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -10293,7 +10711,18 @@
         "keywords": "Heavy, Sustained Hits 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 125
+      },
+      {
+        "from": 3,
+        "points": 145
+      }
+    ]
   },
   {
     "name": "Ferren Areios [Legends]",
@@ -10322,9 +10751,9 @@
       "Ferren Areios"
     ],
     "abilities": [
-      "Leader: This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Company Heroes\n■ Hellblaster Squad\n■ Infernus Squad\n■ Intercessor Squad\n■ Sternguard Vetera",
-      "Master of Rites: In your Command phase, select one of the following to apply to this model’s unit until the end of the turn: \n\n\n■ This model’s unit is eligible to shoot in a turn in which it Advanced.\n\n\n■ This model’s",
-      "Unrelenting and Uncompromising: While this model is leading a unit, each time a model in that unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristics and/or all modi"
+      "Leader: This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, COMMAND SQUAD, COMPANY HEROES, HELLBLASTER SQUAD, INFERNUS SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD",
+      "Master of Rites: In your Command phase, select one of the following to apply to this model’s unit until the end of the turn: ■ This model’s unit is eligible to shoot in a turn in which it Advanced. ■ This model’s unit is eligible to declare a charge in a turn in it which it Advanced. ■ This model’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+      "Unrelenting and Uncompromising: While this model is leading a unit, each time a model in that unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristics and/or all modifiers to the Hit roll."
     ],
     "weapons": [
       {
@@ -10751,8 +11180,8 @@
     "name": "Eradicator Squad with Heavy Bolters",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 80,
-    "models": 1,
+    "points": 100,
+    "models": 3,
     "move": "5\"",
     "toughness": "6",
     "save": "3+",
@@ -10805,7 +11234,18 @@
         "keywords": "Heavy, Sustained Hits 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 100
+      },
+      {
+        "from": 3,
+        "points": 130
+      }
+    ]
   },
   {
     "name": "Land Speeder",
@@ -10889,7 +11329,7 @@
     "name": "Kor'sarro Khan",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 55,
+    "points": 80,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -10944,7 +11384,7 @@
     "name": "Suboden Khan",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 90,
+    "points": 105,
     "models": 1,
     "move": "12\"",
     "toughness": "5",
@@ -11018,7 +11458,7 @@
     "name": "Darnath Lysander",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 100,
+    "points": 160,
     "models": 1,
     "move": "5\"",
     "toughness": "5",
@@ -11063,7 +11503,7 @@
     "name": "Tor Garadon",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 80,
+    "points": 90,
     "models": 1,
     "move": "5\"",
     "toughness": "6",
@@ -11138,10 +11578,10 @@
       "Pedro Kantor"
     ],
     "abilities": [
-      "Oath of Rynn: Once per battle, at the start of either player’s Command phase, this model can use this ability. When it does, until the end of the turn, add 1 to the Attacks characteristic of weapons equipped by mod",
-      "To the Last: While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit ",
+      "Oath of Rynn: Once per battle, at the start of either player’s Command phase, this model can use this ability. When it does, until the end of the turn, add 1 to the Attacks characteristic of weapons equipped by models in this model’s unit.",
+      "To the Last: While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit is Below Half-strength.",
       "Leader: This model can be attached to the following units:\n\n■ BLADEGUARD VETERAN SQUAD\n■ COMPANY HEROES\n■ STERNGUARD VETERAN SQUAD\n■ TACTICAL SQUAD",
-      "Inspiring Commander: If you include this model in your army, until the end of the battle, non-Character models in Sternguard\nVeteran Squad units from your army have an Objective Control characteristic of 2 while they are "
+      "Inspiring Commander: If you include this model in your army, until the end of the battle, non-Character models in Sternguard Veteran Squad units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
     ],
     "weapons": [
       {
@@ -11170,7 +11610,7 @@
     "name": "Kayvaan Shrike",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 100,
+    "points": 95,
     "models": 1,
     "move": "12\"",
     "toughness": "4",
@@ -11227,7 +11667,7 @@
     "name": "Aethon Shaan",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 100,
+    "points": 105,
     "models": 1,
     "move": "14\"",
     "toughness": "4",
@@ -11283,7 +11723,7 @@
     "name": "Adrax Agatone",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 80,
+    "points": 90,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -11307,7 +11747,7 @@
     "abilities": [
       "Unto the Anvil: While this model is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Wound roll.",
       "Lord of the Pyroclasts: While an enemy unit is within Engagement Range of this model, halve the Objective Control characteristic of models in that enemy unit",
-      "Leader: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ COMPANY HEROES\n■ INFERNUS SQUAD\n■ INTERCESSOR SQUAD\n■ STERNGUARD VETERAN SQUAD\n■ TACTICAL S"
+      "Leader: This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, COMPANY HEROES, INFERNUS SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, VANGUARD VETERAN SQUAD"
     ],
     "weapons": [
       {
@@ -11336,7 +11776,7 @@
     "name": "Vulkan He'stan",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 95,
+    "points": 105,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -11360,7 +11800,7 @@
     ],
     "abilities": [
       "Forgefather: In your Shooting phase, select one enemy unit within 24\" of and visible to this model. Until the end of the phase, each time a friendly Adeptus Astartes model makes a ranged attack with a Torrent or M",
-      "Seeker of the Unfound: The first time this model is set up on the battlefield, select one objective marker on the battlefield. While this model is within range of that objective marker, it has an Objective Control character",
+      "Seeker of the Unfound: The first time this model is set up on the battlefield, select one objective on the battlefield. While this model is within range of that objective, this model has: - 10 OC. - 5+ Ld. - Feel No Pain 4+.",
       "Leader: This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ COMPANY HEROES\n■ INFERNUS SQUAD\n■ TACTICAL SQUAD",
       "Inspiring Commander: If you include this model in your army, until the end of the battle, non-Character models in Infernus Squad units from your army have an Objective Control characteristic of 2 while they are not Battle"
     ],
@@ -11476,7 +11916,7 @@
     "name": "Caanok Var",
     "faction": "Space Marines",
     "alliance": "imperium",
-    "points": 90,
+    "points": 100,
     "models": 1,
     "move": "5\"",
     "toughness": "5",

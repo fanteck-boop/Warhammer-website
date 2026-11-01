@@ -3,8 +3,8 @@
     "name": "Chaplain Grimaldus",
     "faction": "Black Templars",
     "alliance": "imperium",
-    "points": 100,
-    "models": 1,
+    "points": 120,
+    "models": 4,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -74,7 +74,7 @@
     "name": "High Marshal Helbrecht",
     "faction": "Black Templars",
     "alliance": "imperium",
-    "points": 110,
+    "points": 125,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -98,7 +98,7 @@
     ],
     "abilities": [
       "Crusade of Wrath: While this model is leading a unit, add 1 to the Attacks and Strength characteristic of melee weapons equipped by models in that unit.",
-      "High Marshal: At the start of the Fight phase, select one enemy unit within Engagement Range of this model’s unit and roll one D6, adding 1 to the result for every five models in this model's unit: on a 2-3, that e",
+      "High Marshal: At the start of the Fight phase, select up to one enemy unit engaged with this unit and roll one D6: - On a 2-3, that enemy unit suffers D3 mortal wounds. - On a 4-5, that enemy unit suffers 3 mortal wounds. - On a 6+, that enemy unit suffers D3+3 mortal wounds.",
       "Leader: This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Intercessor Squad\n■ Crusader Squad\n■ Sword Brethren"
     ],
     "weapons": [
@@ -137,8 +137,8 @@
     "name": "Crusader Squad",
     "faction": "Black Templars",
     "alliance": "imperium",
-    "points": 150,
-    "models": 1,
+    "points": 160,
+    "models": 10,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -258,8 +258,8 @@
     "name": "Sword Brethren Squad",
     "faction": "Black Templars",
     "alliance": "imperium",
-    "points": 100,
-    "models": 1,
+    "points": 115,
+    "models": 4,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -324,13 +324,24 @@
         "keywords": "Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 115
+      },
+      {
+        "from": 3,
+        "points": 135
+      }
+    ]
   },
   {
     "name": "Emperor's Champion",
     "faction": "Black Templars",
     "alliance": "imperium",
-    "points": 90,
+    "points": 100,
     "models": 1,
     "move": "8\"",
     "toughness": "4",
@@ -393,8 +404,8 @@
     "name": "Crusader Squad [Legends]",
     "faction": "Black Templars",
     "alliance": "imperium",
-    "points": 85,
-    "models": 1,
+    "points": 160,
+    "models": 10,
     "move": "6\"",
     "toughness": "4",
     "save": "4+",
@@ -523,7 +534,7 @@
     "name": "Gladiator Lancer",
     "faction": "Black Templars",
     "alliance": "imperium",
-    "points": 160,
+    "points": 165,
     "models": 1,
     "move": "10\"",
     "toughness": "10",
@@ -617,13 +628,24 @@
         "keywords": "Rapid Fire 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 165
+      },
+      {
+        "from": 3,
+        "points": 185
+      }
+    ]
   },
   {
     "name": "Gladiator Reaper",
     "faction": "Black Templars",
     "alliance": "imperium",
-    "points": 160,
+    "points": 165,
     "models": 1,
     "move": "10\"",
     "toughness": "10",
@@ -707,13 +729,24 @@
         "keywords": "Melta 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 165
+      },
+      {
+        "from": 3,
+        "points": 185
+      }
+    ]
   },
   {
     "name": "Gladiator Valiant",
     "faction": "Black Templars",
     "alliance": "imperium",
-    "points": 150,
+    "points": 145,
     "models": 1,
     "move": "10\"",
     "toughness": "10",
@@ -787,13 +820,24 @@
         "keywords": "Melta 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 145
+      },
+      {
+        "from": 3,
+        "points": 165
+      }
+    ]
   },
   {
     "name": "Impulsor",
     "faction": "Black Templars",
     "alliance": "imperium",
-    "points": 75,
+    "points": 70,
     "models": 1,
     "move": "12\"",
     "toughness": "9",
@@ -889,13 +933,24 @@
         "keywords": "Rapid Fire 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 70
+      },
+      {
+        "from": 4,
+        "points": 80
+      }
+    ]
   },
   {
     "name": "Repulsor",
     "faction": "Black Templars",
     "alliance": "imperium",
-    "points": 170,
+    "points": 190,
     "models": 1,
     "move": "10\"",
     "toughness": "12",
@@ -999,13 +1054,24 @@
         "d": "D6"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 190
+      },
+      {
+        "from": 3,
+        "points": 210
+      }
+    ]
   },
   {
     "name": "Repulsor Executioner",
     "faction": "Black Templars",
     "alliance": "imperium",
-    "points": 255,
+    "points": 265,
     "models": 1,
     "move": "10\"",
     "toughness": "12",
@@ -1130,13 +1196,24 @@
         "keywords": "Heavy"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 265
+      },
+      {
+        "from": 3,
+        "points": 285
+      }
+    ]
   },
   {
     "name": "Castellan",
     "faction": "Black Templars",
     "alliance": "imperium",
-    "points": 70,
+    "points": 75,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -1158,7 +1235,7 @@
       "Castellan"
     ],
     "abilities": [
-      "Support: This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Infernus Squad\n■ Intercessor Squad\n■ Crusader Squad\n■ Sword Brethren\n■ Sternguard Veteran Squad\n\nYou can attach this m",
+      "Support: This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, COMPANY HEROES, CRUSADER SQUAD, INFERNUS SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD",
       "Vehement Aggression: While this model is leading a unit, each time that unit is selected to fight, take a Leadership test for that unit: if passed, until the end of the phase, each time a model in that unit makes an attac",
       "Prioritised Eradication: Each time a model in this model's unit makes a melee attack that destroys one or more enemy units, roll one D6: on a 4+, you gain 1 CP"
     ],
@@ -1232,7 +1309,7 @@
       "Captain"
     ],
     "abilities": [
-      "Leader: This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Infernus Squad\n■ Intercessor Squad\n■ Crusader Squad\n■ Sword Brethren\n■ Sternguard Veteran Squad",
+      "Leader: This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, CRUSADER SQUAD, INFERNUS SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD",
       "Inspirational Exemplar: While this model is leading a unit, each time a model in that unit makes a melee attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
       "Pious Fervour: Each time this model's unit is selected to fight, until the end of the phase, add 1 to the Attacks characteristic of this model's Master-Crafted Power Weapon for each enemy unit within 6\" of this mode"
     ],
@@ -1284,7 +1361,7 @@
     "name": "Execrator",
     "faction": "Black Templars",
     "alliance": "imperium",
-    "points": 50,
+    "points": 65,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -1357,7 +1434,7 @@
     "name": "Crusade Ancient",
     "faction": "Black Templars",
     "alliance": "imperium",
-    "points": 40,
+    "points": 45,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -1411,7 +1488,7 @@
     "name": "Land Raider Crusader",
     "faction": "Black Templars",
     "alliance": "imperium",
-    "points": 220,
+    "points": 230,
     "models": 1,
     "move": "12\"",
     "toughness": "12",
@@ -1499,14 +1576,25 @@
         "keywords": "Devastating Wounds, Twin-Linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 230
+      },
+      {
+        "from": 2,
+        "points": 250
+      }
+    ]
   },
   {
     "name": "Sternguard Veteran Squad",
     "faction": "Black Templars",
     "alliance": "imperium",
-    "points": 85,
-    "models": 1,
+    "points": 105,
+    "models": 5,
     "move": "6\"",
     "toughness": "4",
     "save": "3+",
@@ -1589,14 +1677,25 @@
         "keywords": "Devastating Wounds, Heavy, Sustained Hits 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 105
+      },
+      {
+        "from": 3,
+        "points": 120
+      }
+    ]
   },
   {
     "name": "Terminator Squad",
     "faction": "Black Templars",
     "alliance": "imperium",
-    "points": 160,
-    "models": 1,
+    "points": 190,
+    "models": 5,
     "move": "5\"",
     "toughness": "5",
     "save": "2+",
@@ -1679,7 +1778,18 @@
         "keywords": "Devastating Wounds"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 190
+      },
+      {
+        "from": 3,
+        "points": 230
+      }
+    ]
   },
   {
     "name": "Emperor's Champion (Anointed)",

@@ -1,21 +1,5 @@
 [
   {
-    "name": "Battle Traits: Maggotkin of Nurgle",
-    "faction": "Maggotkin of Nurgle",
-    "points": 0,
-    "models": 1,
-    "move": "",
-    "wounds": 1,
-    "save": "",
-    "ward": 0,
-    "weapons": [],
-    "abilities": "Desperate Remedies: If an ability would heal or return slain models to a Diseased enemy unit, that ability does not heal any damage points or return any slain models to it. Instead, it no longer has the Diseased keyword.\nWracked with Disease: Once Per Turn (Army), End of Any Turn Pick each Diseased enemy unit to be the targets. Inflict D3 mortal damage on each target.\nBlessed By the Plaguefather: Once Per Turn (Army), End of Any Turn Pick 1 of the following effects: \n*Infect:* Pick an enemy unit within 7\" of any friendly Maggotkin of Nurgles unit to be the target. You cannot pick a Manifestation or terrain feature.\n• If the target is in combat with any Maggotkin of Nurgle units, it has the Diseased keyword.\n• If the target is not in combat with any Maggotkin of Nurgle units, roll a dice. On a 4+, the target has the Diseased keyword.\n*Spread:* Pick a Diseased enemy unit to be the target. Each other enemy unit within the target's combat range, excluding Manifestations and terrain features, has the Diseased keyword.\n*Mutate:* If all enemy units on the battlefield, excluding Manifestations and terrain features, have the Diseased keyword, inflict 1 mortal damage on each of them.\nBurst Pustules: Each time a Diseased enemy unit is destroyed, before the last model in the unit is removed from play, roll a dice. On a 3+, pick another enemy unit within 9\" of that model to be the target. You cannot pick a Manifestation or terrain feature. The target has the Diseased keyword.\nBlighted Regrowth: Your Hero Phase You can use this ability if there are no friendly Feculent Gnarlmaws on the battlefield. Set up a Feculent Gnarlmaw on the battlefield wholly within 12\" of an objective you control and more than 3\" from all enemy units, objectives, and other terrain features.\nCeaseless Infectors: Once Per Turn (Army), End of Any Turn Pick an enemy unit that was in combat with a friendly Rotbringers unit that was destroyed this turn to be the target. You cannot pick a Manifestation or terrain feature. Roll a dice. On a 3+, the target has the Diseased keyword.",
-    "categories": [],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": []
-  },
-  {
     "name": "Bloab Rotspawned",
     "faction": "Maggotkin of Nurgle",
     "points": 260,
@@ -906,48 +890,6 @@
     ],
     "isHero": false,
     "canReinforce": true,
-    "enhancementTypes": []
-  },
-  {
-    "name": "Pusgoyle Blightlords",
-    "faction": "Maggotkin of Nurgle",
-    "points": 110,
-    "models": 2,
-    "move": "8\"",
-    "wounds": 8,
-    "save": 4,
-    "ward": 6,
-    "weapons": [
-      {
-        "name": "Flyrider's Arsenal",
-        "models": "",
-        "attacks": "4",
-        "hit": "3",
-        "wound": "3",
-        "rend": "1",
-        "damage": "1"
-      },
-      {
-        "name": "Rot Fly's Mouthparts and Sting",
-        "models": "",
-        "attacks": "6",
-        "hit": "4",
-        "wound": "3",
-        "rend": "-",
-        "damage": "1"
-      }
-    ],
-    "abilities": "Relentless Attackers: Add 1 to the Rend characteristic of this unit's Flyrider's Arsenal for attacks that target enemy units contesting an objective.\nDispersed Formation: This unit has a coherency range of 2\".",
-    "categories": [
-      "CHAOS",
-      "MAGGOTKIN OF NURGLE",
-      "CAVALRY",
-      "FLY",
-      "ROTBRINGERS",
-      "WARD (6+)"
-    ],
-    "isHero": false,
-    "canReinforce": false,
     "enhancementTypes": []
   },
   {

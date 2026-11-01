@@ -27,7 +27,7 @@
       "Angron"
     ],
     "abilities": [
-      "Reborn in Blood: At the start of the battle round, when you make a Blessings of Khorne roll, if this model is destroyed, you can use a triple 6 from that roll to use this ability instead of activating any Blessings of",
+      "Reborn in Blood: At the start of the battle round, when you make a Blessings of Khorne roll, if this model is destroyed, you can use a triple 6 from that roll to use this ability instead of activating any Blessings of Khorne at the start of that battle round. If you do, this model is no longer destroyed and in the Reinforcements step of your next Movement phase, it is set up anywhere on the battlefield using its Deep Strike ability, with 8 wounds remaining.",
       "Wrathful Presence: At the start of the battle round, select one Wrathful Presence ability. Until the start of the next battle round, this model has that ability.",
       "Damaged: 1-6 wounds remaining: While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     ],
@@ -82,8 +82,8 @@
     ],
     "abilities": [
       "Legendary Killer: While this model is leading a unit, each time a model in that unit makes a melee attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.",
-      "The Betrayer: At the end of your Charge phase, if this model is leading a unit and that unit is not within Engagement Range of one or more enemy units, you must take a Leadership test for this model. If that test i",
-      "Berserker Frenzy: The first time this model is destroyed, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagemen",
+      "The Betrayer: At the end of your Charge phase, if this unit is on the battlefield, is unengaged, and contains a bodyguard model, this unit makes a leadership roll: - If that leadership roll is failed, one bodyguard model in this unit is destroyed.",
+      "Berserker Frenzy: The first time this model is destroyed, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 3 wounds remaining.",
       "Leader: This model can be attached to the following unit: ^^**Khorne Berzerkers^^**"
     ],
     "weapons": [
@@ -135,8 +135,8 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**, ^^**Khorne Berzerkers^^**",
-      "Fire Riders: While this model is leading a unit, models in that unit have the Deep Strike ability and each time a model in that unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally thro",
-      "Bloody Stampede: Each time this model's unit ends a Charge move, select one enemy unit within Engagement Range of this model, then roll one D6: on a 2-3, that enemy unit suffers 1 mortal wound; on a 4-5, that enemy un"
+      "Fire Riders: While this model is leading a unit, models in that unit have the Deep Strike ability and each time a model in that unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally through models and terrain features. When making a Normal, Advance or Fall Back move, models in that unit can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them and any Desperate Escape test is automatically passed.",
+      "Bloody Stampede: Each time this model's unit ends a Charge move, select one enemy unit within Engagement Range of this model, then roll one D6: on a 2-3, that enemy unit suffers 1 mortal wound; on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
     ],
     "weapons": [
       {
@@ -199,7 +199,7 @@
     "abilities": [
       "Lord of Murder: While this model is within 3\" of one or more friendly ^^**World Eaters Infantry**^^ units, this model has the Lone Operative ability.",
       "Devastating Assault: Each time this model makes a Charge move, until the end of the turn, its hellforged weapons have the [DEVASTATING WOUNDS] ability.",
-      "Direct the Slaughter: Once per battle round, one model from your army with this ability can use it when a friendly ^^**World Eaters^^** unit within 12\" of this model is targeted with a Stratagem. If it does, reduce the CP "
+      "Direct the Slaughter: Once per battle round, one model from your army with this ability can use it when a friendly World Eaters unit within 12\" of this model is targeted with a Stratagem. If it does, reduce the CP cost of that Stratagem by 1CP."
     ],
     "weapons": [
       {
@@ -322,8 +322,8 @@
       "Lord on Juggernaut"
     ],
     "abilities": [
-      "Aggressive Advance: While this model is leading a unit, models in that unit have a Move characteristic of 10\" and each time a model in that unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally",
-      "Crush All Who Stand Before Us: Each time this model's unit is selected to fight, you can use this ability. When determining which models in this unit are eligible to fight, any models in it that are within 3\" of one or more enemy m",
+      "Aggressive Advance: While this model is leading a unit, models in that unit have a Move characteristic of 10\" and each time a model in that unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally though terrain features.",
+      "Crush All Who Stand Before Us: Each time this model's unit is selected to fight, you can use this ability. When determining which models in this unit are eligible to fight, any models in it that are within 3\" of one or more enemy models are eligible to fight. When resolving those attacks, such models can target one of those enemy units that is within 3\" of them and within Engagement Range of their unit.",
       "Leader: This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**, ^^**Khorne Berzerkers^^**"
     ],
     "weapons": [
@@ -415,8 +415,8 @@
     "name": "Khorne Berzerkers",
     "faction": "World Eaters",
     "alliance": "chaos",
-    "points": 160,
-    "models": 1,
+    "points": 170,
+    "models": 10,
     "move": "8\"",
     "toughness": "4",
     "save": "3+",
@@ -475,8 +475,8 @@
     "name": "Chaos Terminators",
     "faction": "World Eaters",
     "alliance": "chaos",
-    "points": 165,
-    "models": 1,
+    "points": 175,
+    "models": 5,
     "move": "7\"",
     "toughness": "5",
     "save": "2+",
@@ -570,14 +570,25 @@
         "keywords": "Ignores Cover, Torrent"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 175
+      },
+      {
+        "from": 3,
+        "points": 185
+      }
+    ]
   },
   {
     "name": "Jakhals",
     "faction": "World Eaters",
     "alliance": "chaos",
     "points": 65,
-    "models": 1,
+    "models": 10,
     "move": "7\"",
     "toughness": "4",
     "save": "6+",
@@ -596,7 +607,7 @@
       "Grenades"
     ],
     "abilities": [
-      "Objective Ravaged: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's Level of Control over that obj"
+      "Objective Ravaged: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase."
     ],
     "weapons": [
       {
@@ -654,7 +665,7 @@
     "faction": "World Eaters",
     "alliance": "chaos",
     "points": 125,
-    "models": 2,
+    "models": 3,
     "move": "10\"",
     "toughness": "6",
     "save": "3+",
@@ -674,7 +685,7 @@
       "Possessed"
     ],
     "abilities": [
-      "Beacons of Rage (Aura): While a friendly ^^**World Eaters^^** unit is within 6\" of this unit, each time a model in that unit makes a melee attack that targets a unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**), add 1 t"
+      "Beacons of Rage (Aura): While a friendly World Eaters unit is within 6\" of this unit, each time a model in that unit makes a melee attack that targets a unit (excluding Monsters and Vehicles), add 1 to the Hit roll. If that attack targets a unit that is Below Half-strength, add 1 to the Wound roll as well."
     ],
     "weapons": [
       {
@@ -688,14 +699,25 @@
         "keywords": "Anti-MONSTER 3+, Anti-VEHICLE 3+"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 125
+      },
+      {
+        "from": 3,
+        "points": 140
+      }
+    ]
   },
   {
     "name": "Exalted Eightbound",
     "faction": "World Eaters",
     "alliance": "chaos",
     "points": 130,
-    "models": 2,
+    "models": 3,
     "move": "10\"",
     "toughness": "6",
     "save": "3+",
@@ -729,13 +751,24 @@
         "keywords": "Anti-MONSTER 3+, Anti-VEHICLE 3+"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 130
+      },
+      {
+        "from": 3,
+        "points": 145
+      }
+    ]
   },
   {
     "name": "Chaos Land Raider",
     "faction": "World Eaters",
     "alliance": "chaos",
-    "points": 220,
+    "points": 200,
     "models": 1,
     "move": "10\"",
     "toughness": "12",
@@ -820,7 +853,18 @@
         "keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 200
+      },
+      {
+        "from": 3,
+        "points": 220
+      }
+    ]
   },
   {
     "name": "Chaos Predator Annihilator",
@@ -920,7 +964,18 @@
         "keywords": "Heavy"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 130
+      },
+      {
+        "from": 3,
+        "points": 140
+      }
+    ]
   },
   {
     "name": "Chaos Predator Destructor",
@@ -1020,7 +1075,18 @@
         "keywords": "Heavy"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 130
+      },
+      {
+        "from": 3,
+        "points": 140
+      }
+    ]
   },
   {
     "name": "Defiler",
@@ -1047,7 +1113,7 @@
       "Defiler"
     ],
     "abilities": [
-      "Scuttling Walker: Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding ^^**Titanic**^^ models) and terrain features. When doing so, it can move within Engagement Range of",
+      "Scuttling Walker: Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding Titanic models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed.",
       "Unleash Wrath: At the end of your opponent's Movement phase, you can select one enemy unit that was set up on the battlefield within 12\" of this model; this model can then either:\n- Shoot at that unit, but only if i"
     ],
     "weapons": [
@@ -1152,7 +1218,18 @@
         "keywords": "Ignores Cover, Torrent"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 270
+      },
+      {
+        "from": 2,
+        "points": 310
+      }
+    ]
   },
   {
     "name": "Forgefiend",
@@ -1212,7 +1289,18 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 140
+      },
+      {
+        "from": 3,
+        "points": 155
+      }
+    ]
   },
   {
     "name": "Helbrute",
@@ -1453,7 +1541,18 @@
         "keywords": "Extra Attacks"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 140
+      },
+      {
+        "from": 3,
+        "points": 150
+      }
+    ]
   },
   {
     "name": "Chaos Rhino",
@@ -1525,7 +1624,18 @@
         "keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 75
+      },
+      {
+        "from": 4,
+        "points": 85
+      }
+    ]
   },
   {
     "name": "Chaos Spawn",
@@ -1665,7 +1775,18 @@
         "keywords": "Blast"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 505
+      },
+      {
+        "from": 2,
+        "points": 535
+      }
+    ]
   },
   {
     "name": "Hell Talon [Legends]",
@@ -1739,7 +1860,7 @@
     "system": "40k"
   },
   {
-    "name": "Hellblade [Legends]",
+    "name": "Hell Blade [Legends]",
     "faction": "World Eaters",
     "alliance": "chaos",
     "points": 115,
@@ -1803,8 +1924,8 @@
     "name": "Goremongers",
     "faction": "World Eaters",
     "alliance": "chaos",
-    "points": 75,
-    "models": 1,
+    "points": 70,
+    "models": 8,
     "move": "9\"",
     "toughness": "4",
     "save": "6+",
@@ -1823,7 +1944,7 @@
       "Goremongers"
     ],
     "abilities": [
-      "Loping Speed: In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up t"
+      "Loping Speed: In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to D6\"."
     ],
     "weapons": [
       {
@@ -1873,7 +1994,7 @@
     "name": "Slaughterbound",
     "faction": "World Eaters",
     "alliance": "chaos",
-    "points": 100,
+    "points": 90,
     "models": 1,
     "move": "10\"",
     "toughness": "6",
@@ -1896,7 +2017,7 @@
     ],
     "abilities": [
       "Rage Eternal: While this model is leading a unit, in your Command phase, you can return one destroyed Bodyguard model to that unit.",
-      "Possessed Lord: Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model a",
+      "Possessed Lord: Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and those weapons have the [Devastating Wounds] ability.",
       "Leader: This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**",
       "Lord of the Eightbound: If this model is attached to a ^^**World Eaters Possessed^^** unit during the Declare Battle Formations step, this model has the Deep Strike and Scouts 6\" abilities."
     ],
@@ -2036,14 +2157,25 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 320
+      },
+      {
+        "from": 3,
+        "points": 335
+      }
+    ]
   },
   {
     "name": "Bloodletters",
     "faction": "World Eaters",
     "alliance": "chaos",
     "points": 90,
-    "models": 9,
+    "models": 10,
     "move": "8\"",
     "toughness": "4",
     "save": "7+",
@@ -2063,7 +2195,7 @@
       "Summoned"
     ],
     "abilities": [
-      "Bane of Cowards: Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more units from your army with this ability Falls Back, models in that enemy unit must take Desperate Escape"
+      "Bane of Cowards: Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of one or more units from your army with this ability Falls Back, models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is also Battle-shocked, subtract 1 from each of those Desperate Escape tests."
     ],
     "weapons": [
       {
@@ -2083,7 +2215,7 @@
     "faction": "World Eaters",
     "alliance": "chaos",
     "points": 95,
-    "models": 2,
+    "models": 3,
     "move": "10\"",
     "toughness": "7",
     "save": "3+",
@@ -2126,14 +2258,25 @@
         "keywords": "Extra Attacks, Lance"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 95
+      },
+      {
+        "from": 3,
+        "points": 115
+      }
+    ]
   },
   {
     "name": "Flesh Hounds",
     "faction": "World Eaters",
     "alliance": "chaos",
     "points": 75,
-    "models": 1,
+    "models": 5,
     "move": "12\"",
     "toughness": "4",
     "save": "7+",

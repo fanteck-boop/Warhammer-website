@@ -1,21 +1,5 @@
 [
   {
-    "name": "Battle Traits: Idoneth Deepkin",
-    "faction": "Idoneth Deepkin",
-    "points": 0,
-    "models": 1,
-    "move": "",
-    "wounds": 1,
-    "save": "",
-    "ward": 0,
-    "weapons": [],
-    "abilities": "Concealing Tide: Once Per Battle Round, Any Hero Phase You can only use this ability if you did not use it in the previous battle round and you have not used any other Tidal abilities this round. For the rest of the battle round, subtract 1 from hit rolls for attacks that target friendly Idoneth Deepkin units that did not use any Charge abilities in the same turn.\nKeywords: Tidal\nSwift Tide: Once Per Battle Round, Any Hero Phase You can only use this ability if you used the 'Concealing Tide' ability in the previous battle round and you have not used any other Tidal abilities this round. For the rest of the battle round, friendly Idoneth Deepkin units can use Run abilities and still use Shoot and/or Charge abilities later in the turn.\nKeywords: Tidal\nSea's Embrace: Once Per Battle Round, Your Hero Phase You can only use this ability if you used the 'Swift Tide' ability in the previous battle round and you have not used any other Tidal abilities this round. Friendly Idoneth Deepkin units have Strike-first for the rest of the turn.\nKeywords: Tidal\nUnpredictable Tide: Once Per Battle Round, Your Hero Phase You can only use this ability if you did not use it in the previous battle round and you have not used any other Tidal abilities this round. Pick a friendly Idoneth Deepkin unit that is not in combat to be the target. Remove the target from the battlefield and set it up again wholly within 7\" of a battlefield edge and more than 9\" from all enemy units.\nKeywords: Tidal\nInexorable Tide: Once Per Battle Round, Any Hero Phase You can only use this ability if you used the 'Unpredictable Tide' ability in the previous battle round and you have not used any other Tidal abilities this round. Subtract 1 from the Rend characteristic of weapons used for attacks that target friendly Idoneth Deepkin units for the rest of the battle round.\nKeywords: Tidal\nStorm's Wrath: Once Per Battle Round, Your Hero Phase You can only use this ability if you used the 'Inexorable Tide' ability in the previous battle round and you have not used any other Tidal abilities this round. Friendly Idoneth Deepkin units' melee weapons have Crit (Mortal) for the rest of the turn.\nKeywords: Tidal\nTwin Tides: Once Per Turn(Army), Reaction: You declared an Attack ability for a friendly Akhelian unit Pick a visible friendly Namarti unit that has not used an Attack ability this phase to be the target.\n• If this unit used a Shoot ability, immediately after the Shoot ability used by this unit has been resolved, the target can be picked to use a Shoot ability as if it were your shooting phase.\n• If this unit used a Fight ability, immediately after the Fight ability used by this unit has been resolved, the target can be picked to use a Fight ability. If the target does so, for the rest of the phase, add 1 to the Attacks characteristic of its weapons but all of its attacks must target enemy units that had any damage points allocated to it this phase by this unit's attacks.",
-    "categories": [],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": []
-  },
-  {
     "name": "Akhelian King",
     "faction": "Idoneth Deepkin",
     "points": 140,

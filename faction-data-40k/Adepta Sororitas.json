@@ -4,7 +4,7 @@
     "faction": "Adepta Sororitas",
     "alliance": "imperium",
     "points": 80,
-    "models": 1,
+    "models": 2,
     "move": "6\"",
     "toughness": "3",
     "save": "2+",
@@ -25,9 +25,9 @@
       "Sororitas Character"
     ],
     "abilities": [
-      "Auto-Tapestry of the Emperor's Judgement: While this unit is leading a unit and contains an Aestred Thurga model, weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability",
-      "Recount the Deeds of the Saints: While this unit is leading a unit and contains and Agathae Dolan model, each time that unit destroys an enemy unit, you gain 1 Miracle dice. When that Agathae Dolan model is destroyed, you gain D3 Mir",
-      "Leader: This unit can be attached to the following units: \n- Battle Sisters Squad\n- Celestian Sacresants\n- Dominion Squad\n- Retributor Squad\n- Sisters Novitiate Squad"
+      "Auto-Tapestry of the Emperor's Judgement: While this unit is leading a unit and contains an Aestred Thurga model, weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability.",
+      "Recount the Deeds of the Saints: While this unit is leading a unit and contains an Agathae Dolan model, each time that unit destroys an enemy unit, you gain 1 Miracle dice. When that Agathae Dolan model is destroyed, you gain D3 Miracle dice.",
+      "Leader: This unit can be attached to the following units: BATTLE SISTERS SQUAD, CELESTIAN INSIDIANTS, CELESTIAN SACRESANTS, CRUSADERS, DOMINION SQUAD, RETRIBUTOR SQUAD, SISTERS NOVITIATE SQUAD"
     ],
     "weapons": [
       {
@@ -73,7 +73,7 @@
       "Penitent"
     ],
     "abilities": [
-      "Extremis Trigger Word: Each time this unit is selected to fight, you can choose to invoke its extremis trigger word. If you do, then until the end of the phase, arco-flails equipped by models in this unit have an Attacks ch"
+      "Extremis Trigger Word: Each time this unit is selected to fight, you can choose to invoke its extremis trigger word. If you do, then until the end of the phase, arco-flails equipped by models in this unit have an Attacks characteristic of 6 and the HAZARDOUS ability."
     ],
     "weapons": [
       {
@@ -94,14 +94,14 @@
     "faction": "Adepta Sororitas",
     "alliance": "imperium",
     "points": 100,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 10,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "3+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "6+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -113,7 +113,7 @@
       "Imperium"
     ],
     "abilities": [
-      "Defenders of the Faith: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, unti"
+      "Defenders of the Faith: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
     ],
     "weapons": [
       {
@@ -226,7 +226,7 @@
       "Null Rod: Models in the bearer’s unit have the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks.",
       "Rod of Office: Each time a model in the bearer's unit makes an attack, re-roll a Hit roll of 1.",
       "The Emperor's Grace: Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 2+ invulnerable save.",
-      "Leader: This unit can be attached to the following units: \n- Battle Sisters Squad\n- Celestian Sacresants\n- Dominion Squad\n- Retributor Squad\n- Sisters Novitiate Squad"
+      "Leader: This unit can be attached to the following units: BATTLE SISTERS SQUAD, CELESTIAN INSIDIANTS, CELESTIAN SACRESANTS, CRUSADERS, DOMINION SQUAD, RETRIBUTOR SQUAD, SISTERS NOVITIATE SQUAD"
     ],
     "weapons": [
       {
@@ -345,7 +345,7 @@
       "Frame"
     ],
     "abilities": [
-      "Rites of Castigation: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly Adepta Sororitas unit makes a ranged attac",
+      "Rites of Castigation: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly Adepta Sororitas unit makes a ranged attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn.",
       "Damaged: 1-4 Wounds Remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     ],
     "weapons": [
@@ -409,21 +409,32 @@
         "keywords": "One Shot"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 165
+      },
+      {
+        "from": 3,
+        "points": 185
+      }
+    ]
   },
   {
     "name": "Celestian Sacresants",
     "faction": "Adepta Sororitas",
     "alliance": "imperium",
     "points": 75,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 5,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "3+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -498,14 +509,25 @@
         "keywords": "Ignores Cover, Pistol, Torrent"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 75
+      },
+      {
+        "from": 3,
+        "points": 85
+      }
+    ]
   },
   {
     "name": "Daemonifuge",
     "faction": "Adepta Sororitas",
     "alliance": "imperium",
     "points": 85,
-    "models": 1,
+    "models": 2,
     "move": "8\"",
     "toughness": "3",
     "save": "3+",
@@ -526,8 +548,8 @@
       "Sororitas Character"
     ],
     "abilities": [
-      "Holy Judgement: At the start of your Shooting phase, select one enemy unit within 12\" of and visible to this unit's Ephrael Stern model. That unit must take a Battle-shock test, subtracting 2 from the result if it is",
-      "Mysterious Saviours: You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do: \n- That use is ‑1 **CP**. \n- That use does not prevent an"
+      "Holy Judgement: At the start of your Shooting phase, select one enemy unit within 12\" of and visible to this unit's Ephrael Stern model. That unit must take a Battle-shock test, subtracting 2 from the result if it is a Chaos unit. If the test is failed, that enemy unit suffers 3 mortal wounds.",
+      "Mysterious Saviours: You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do: - That use is ‑1 CP. - That use does not prevent any uses of that stratagem on other units this phase."
     ],
     "weapons": [
       {
@@ -641,14 +663,14 @@
     "faction": "Adepta Sororitas",
     "alliance": "imperium",
     "points": 90,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 10,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "3+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "6+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -704,13 +726,24 @@
         "keywords": "Pistol"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 90
+      },
+      {
+        "from": 3,
+        "points": 100
+      }
+    ]
   },
   {
     "name": "Exorcist",
     "faction": "Adepta Sororitas",
     "alliance": "imperium",
-    "points": 180,
+    "points": 175,
     "models": 1,
     "move": "10\"",
     "toughness": "10",
@@ -731,7 +764,7 @@
     ],
     "abilities": [
       "Damaged: 1-4 Wounds Remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-      "Devastating Refrain: In your Shooting phase, after this model has shot, if one or more of those attacks made with an Indirect Fire weapon scored a hit against an enemy unit, that unit must take a Battle-shock test. Each t",
+      "Devastating Refrain: In your Shooting phase, after this model has shot, if one or more of those attacks made with an Indirect Fire weapon scored a hit against an enemy unit, that unit must take a Battle-shock test. Each time such an attack destroys an enemy model that has the Deadly Demise ability, the model's Deadly Demise ability inflicts mortal wounds on a D6 roll of 5+ instead of a 6.",
       "Symphonic Payload: This unit can re‑roll rolls to determine the **A** of a weapon."
     ],
     "weapons": [
@@ -785,7 +818,18 @@
         "keywords": "Blast, Ignores Cover, Indirect Fire"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 175
+      },
+      {
+        "from": 3,
+        "points": 215
+      }
+    ]
   },
   {
     "name": "Hospitaller",
@@ -812,7 +856,7 @@
     ],
     "abilities": [
       "Medicus Ministorum: While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.",
-      "Sacred Healing: While this model is leading a unit, in your Command phase, you can return up to 1 destroyed model (excluding Character models) to that unit. If you wish, you first discard 1 Miracle dice; if you do, y",
+      "Sacred Healing: While this model is leading a unit, in your Command phase, you can return up to 1 destroyed model (excluding Character models) to that unit. If you wish, you first discard 1 Miracle dice; if you do, you can return up to D3+1 destroyed models (excluding Character models) to that unit instead.",
       "Support: This model can be attached to the following units:\n■ Battle Sisters Squad\n■ Celestian Sacresants\n■ Dominion Squad\n■ Retributor Squad\n■ Sisters Novitiate Squad\nThis model can be attached to a Battle Si"
     ],
     "weapons": [
@@ -826,7 +870,18 @@
         "d": "1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 65
+      },
+      {
+        "from": 2,
+        "points": 75
+      }
+    ]
   },
   {
     "name": "Imagifier",
@@ -853,7 +908,7 @@
       "Sororitas Character"
     ],
     "abilities": [
-      "Litany of Deeds: Each time you gain a Miracle dice as the result of a friendly ADEPTA SORORITAS unit or model being destroyed, if that unit or model was destroyed within 12\" of this model, you can re-roll the result o",
+      "Litany of Deeds: Each time you gain a Miracle dice as the result of a friendly ADEPTA SORORITAS unit or model being destroyed, if that unit or model was destroyed within 12\" of this model, you can re-roll the result of that Miracle dice before adding it to your Miracle dice pool.",
       "Stanchion of Holy Martyrs: While this model is leading a unit, models in that unit have a Save characteristic of 2+ and a 4+ invulnerable save.",
       "Support: This model can be attached to the following units:\n■ Battle Sisters Squad\n■ Celestian Sacresants\n■ Dominion Squad\n■ Retributor Squad\nThis model can be attached to a Battle Sisters Squad, even if one C"
     ],
@@ -907,7 +962,7 @@
       "Frame"
     ],
     "abilities": [
-      "Transport: This model has a transport capacity of 6 ADEPTA SORORITAS INFANTRY models. It cannot transport JUMP PACK models or the Triumph of Saint Katherine.\n\nAt the start of the Declare Battle Formations step, ",
+      "Transport: This model has a transport capacity of 6 ADEPTA SORORITAS INFANTRY models. It cannot transport JUMP PACK models or the Triumph of Saint Katherine. At the start of the Declare Battle Formations step, you can select one BATTLE SISTERS SQUAD, DOMINION SQUAD or SISTERS NOVITIATE SQUAD from your army. If you do, that unit is split into two units, each containing as equal a number of models as possible (when splitting a unit in this way, make a note of which models form each of the two new units. If you are splitting a unit that has the Cherub ability, only one of the new units can use that ability during the battle – make a note of which of the new units this will be). One of these units must start the battle embarked within this TRANSPORT; the other can start the battle embarked within another TRANSPORT, or it can be deployed as a separate unit.",
       "Purge and Cleanse: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
     ],
     "weapons": [
@@ -971,7 +1026,18 @@
         "keywords": "Melta 2, Twin-Linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 100
+      },
+      {
+        "from": 4,
+        "points": 115
+      }
+    ]
   },
   {
     "name": "Junith Eruita",
@@ -999,9 +1065,9 @@
       "Sororitas Character"
     ],
     "abilities": [
-      "Leader: This model can be attached to the following units:\n■ Battle Sisters Squad\n■ Celestian Sacresants\n■ Dominion Squad\n■ Retributor Squad\n■ Sisters Novitiate Squad",
+      "Leader: This model can be attached to the following units: BATTLE SISTERS SQUAD, CELESTIAN INSIDIANTS, CELESTIAN SACRESANTS, CRUSADERS, DOMINION SQUAD, RETRIBUTOR SQUAD, SISTERS NOVITIATE SQUAD",
       "The Pulpit of Saint Holline’s Basilica: - This unit has Stealth.\n- Melee attacks that target this unit have ‑1 to hit rolls.",
-      "Fiery Conviction: If this model is on the battlefield at the start\nof your Command phase, you can choose one of the following:\n■ Discard 1 Miracle dice and gain 1CP.\n■ Take a Leadership test for this model, if that tes"
+      "Fiery Conviction: If this model is on the battlefield at the start of your Command phase, you can choose one of the following: ■ Discard 1 Miracle dice and gain 1CP. ■ Take a Leadership test for this model, if that test is passed, gain 1CP."
     ],
     "weapons": [
       {
@@ -1051,7 +1117,7 @@
     ],
     "abilities": [
       "Anchorite Sarcophagus: The bearer has a Move characteristic of 7\" and a Save Characteristic of 3+.",
-      "Anguish of the Unredeemed: Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 2+, do not remove it from play; that destroyed model can fight after attacking"
+      "Anguish of the Unredeemed: Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 2+, do not remove it from play; that destroyed model can fight after attacking unit has finished making its attacks, and is then removed from play."
     ],
     "weapons": [
       {
@@ -1103,7 +1169,7 @@
     "name": "Morvenn Vahl",
     "faction": "Adepta Sororitas",
     "alliance": "imperium",
-    "points": 200,
+    "points": 215,
     "models": 1,
     "move": "8\"",
     "toughness": "7",
@@ -1127,7 +1193,7 @@
     "abilities": [
       "Leader: This model can be attached to the following unit:\n■ Paragon Warsuits",
       "Abbess Sanctorum: While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll and you can re-roll the Wound roll.",
-      "Righteous Repugnance: Each time this model's unit is selected to shoot or fight, you can discard 1 Miracle dice. If you do, until the end of the phase, add 3 to the Attacks characteristic of Fidelis and the Lance of Illumi"
+      "Righteous Repugnance: Each time this model's unit is selected to shoot or fight, you can discard 1 Miracle dice. If you do, until the end of the phase, add 3 to the Attacks characteristic of Fidelis and the Lance of Illumination. Each time an enemy unit is destroyed by this model, you gain 1 Miracle dice."
     ],
     "weapons": [
       {
@@ -1207,9 +1273,9 @@
       "Sororitas Character"
     ],
     "abilities": [
-      "Leader: This model can be attached to the following units:\n■ Battle Sisters Squad\n■ Celestian Sacresants\n■ Dominion Squad\n■ Retributor Squad\n■ Sisters Novitiate Squad",
+      "Leader: This model can be attached to the following units: BATTLE SISTERS SQUAD, CELESTIAN INSIDIANTS, CELESTIAN SACRESANTS, CRUSADERS, DOMINION SQUAD, RETRIBUTOR SQUAD, SISTERS NOVITIATE SQUAD",
       "Fury of the Righteous: While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability.",
-      "Rapturous Blows: Each time this model’s unit is selected to fight, you can discard 1 Miracle dice. If you do, then until the end of the phase, each time a melee attack made by this model scores a wound, the target of "
+      "Rapturous Blows: Each time this model’s unit is selected to fight, you can discard 1 Miracle dice. If you do, then until the end of the phase, each time a melee attack made by this model scores a wound, the target of that attack suffers 1 mortal wound in addition to any normal damage."
     ],
     "weapons": [
       {
@@ -1248,8 +1314,8 @@
     "name": "Paragon Warsuits",
     "faction": "Adepta Sororitas",
     "alliance": "imperium",
-    "points": 180,
-    "models": 2,
+    "points": 165,
+    "models": 3,
     "move": "8\"",
     "toughness": "7",
     "save": "2+",
@@ -1340,7 +1406,18 @@
         "keywords": "Ignores Cover, Torrent"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 165
+      },
+      {
+        "from": 3,
+        "points": 175
+      }
+    ]
   },
   {
     "name": "Penitent Engines",
@@ -1430,8 +1507,8 @@
     "abilities": [
       "Leader: This model can be attached to the following units:\n■ Arco-flagellants\n■ Battle Sisters Squad\n■ Dominion Squad\n■ Sisters Novitiate Squad",
       "Righteous Smiting: While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Wound roll.",
-      "Zealot: Once per battle, in the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength and Attacks characteristics of melee weapons equipped by this model b",
-      "Holy Mission: If this model is attached to a Dominion Squad during the Declare Battle Formations step, it gains the Scouts 6\" ability. If this model is attached to a Sisters Novitiate Squad during the Declare Battl"
+      "Zealot: Once per battle, in the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength and Attacks characteristics of melee weapons equipped by this model by 3.",
+      "Holy Mission: If this model is attached to a Dominion Squad during the Declare Battle Formations step, it gains the Scouts 6\" ability. If this model is attached to a Sisters Novitiate Squad during the Declare Battle Formations step, it gains the Infiltrators ability."
     ],
     "weapons": [
       {
@@ -1482,14 +1559,14 @@
     "faction": "Adepta Sororitas",
     "alliance": "imperium",
     "points": 70,
-    "models": 4,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 5,
+    "move": "7\"",
+    "toughness": "3",
+    "save": "7+",
+    "wounds": "1",
+    "leadership": "8+",
+    "objectiveControl": "1",
+    "invulnerableSave": "6+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -1532,7 +1609,7 @@
     "faction": "Adepta Sororitas",
     "alliance": "imperium",
     "points": 105,
-    "models": 1,
+    "models": 5,
     "move": "6\"",
     "toughness": "3",
     "save": "3+",
@@ -1551,7 +1628,7 @@
     ],
     "abilities": [
       "Cherubs: Twice per battle, after this unit has performed an Act of Faith, you gain 1 Miracle dice.",
-      "Storm of Retribution: Each time a model in this unit makes a ranged attack, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1. If such an attack targets an enemy unit that has destroyed one or more ^^**Adepta Sororitas"
+      "Storm of Retribution: Each time a model in this unit makes a ranged attack, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1. If such an attack targets an enemy unit that has destroyed one or more Adepta Sororitas units from your army during the battle, add 1 to the Hit roll and add 1 to the Wound roll as well."
     ],
     "weapons": [
       {
@@ -1625,14 +1702,25 @@
         "keywords": "Heavy, Sustained Hits 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 105
+      },
+      {
+        "from": 3,
+        "points": 115
+      }
+    ]
   },
   {
     "name": "Saint Celestine",
     "faction": "Adepta Sororitas",
     "alliance": "imperium",
-    "points": 150,
-    "models": 1,
+    "points": 135,
+    "models": 3,
     "move": "12\"",
     "toughness": "3",
     "save": "2+",
@@ -1655,7 +1743,7 @@
       "Leader: This unit can be attached to the following units:\n■ Seraphim Squad\n■ Zephyrim Squad",
       "Healing Tears: While this unit contains a Celestine model, in your Command phase, if this unit is below its Starting Strength, either one destroyed Geminae Superia model or up to D3 other Bodyguard models are return",
       "Lifewards: While this unit contains one or more Geminae Superia models, Celestine has the Feel No Pain 4+ ability.",
-      "Miraculous Intervention: The first time this unit’s Celestine model is destroyed, roll one D6 at the end of the phase. On a 2+, set that Celestine model back up on the battlefield, as close as possible to where it was destroy"
+      "Miraculous Intervention: The first time this unit’s Celestine model is destroyed, roll one D6 at the end of the phase. On a 2+, set that Celestine model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with its full wounds remaining."
     ],
     "weapons": [
       {
@@ -1686,14 +1774,14 @@
     "faction": "Adepta Sororitas",
     "alliance": "imperium",
     "points": 75,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 5,
+    "move": "12\"",
+    "toughness": "3",
+    "save": "3+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -1706,7 +1794,7 @@
       "Jump Pack"
     ],
     "abilities": [
-      "Angelic Ascent: In your Shooting phase, after this unit has shot, if it is not within Engagement Range of any enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this unit is no"
+      "Angelic Ascent: In your Shooting phase, after this unit has shot, if it is not within Engagement Range of any enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this unit is not eligible to declare a charge."
     ],
     "weapons": [
       {
@@ -1730,21 +1818,32 @@
         "keywords": "Psychic"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 75
+      },
+      {
+        "from": 3,
+        "points": 85
+      }
+    ]
   },
   {
     "name": "Sisters Novitiate Squad",
     "faction": "Adepta Sororitas",
     "alliance": "imperium",
     "points": 90,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 10,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "8+",
+    "objectiveControl": "2",
+    "invulnerableSave": "6+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -1756,7 +1855,7 @@
     ],
     "abilities": [
       "Sacred Banner: You can re-roll Advance and Charge rolls made for the bearer’s unit.",
-      "Impetuous Fervour: Impetuous Fervour: Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Hit r"
+      "Impetuous Fervour: Impetuous Fervour: Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Hit roll instead."
     ],
     "weapons": [
       {
@@ -1852,7 +1951,18 @@
         "keywords": "Rapid Fire 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 65
+      },
+      {
+        "from": 4,
+        "points": 75
+      }
+    ]
   },
   {
     "name": "Triumph of Saint Katherine",
@@ -1914,14 +2024,14 @@
     "faction": "Adepta Sororitas",
     "alliance": "imperium",
     "points": 75,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 5,
+    "move": "12\"",
+    "toughness": "3",
+    "save": "3+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -1935,7 +2045,7 @@
     ],
     "abilities": [
       "Sacred Banner: You can re-roll Advance and Charge rolls made for the bearer’s unit.",
-      "Embodied Prophecy: Each time this unit is selected to fight, select one of the following abilities to apply to melee weapons equipped by models in this unit until the end of the phase:\n- Sustained Hits 1\n- Lethal Hits\n\n"
+      "Embodied Prophecy: Each time this unit is selected to fight, select one of the following abilities to apply to melee weapons equipped by models in this unit until the end of the phase: - Sustained Hits 1 - Lethal Hits If this unit made a Charge move this turn, until the end of the phase, select both abilities above to apply to melee weapons equipped by models in this unit instead."
     ],
     "weapons": [
       {
@@ -1959,7 +2069,18 @@
         "keywords": "Anti-Infantry 3+, Lance, Sustained Hits 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 75
+      },
+      {
+        "from": 3,
+        "points": 85
+      }
+    ]
   },
   {
     "name": "Repressor [Legends]",
@@ -1988,7 +2109,7 @@
     ],
     "abilities": [
       "Transport: This model has a transport capacity of 12 ADEPTA SORORITAS INFANTRY models. It cannot transport JUMP PACK models or the Triumph of Saint Katherine.",
-      "Emergency Combat Embarkation: Once per turn, in your opponent’s Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move, you can select one ADEPTA SORORITAS unit from your army that "
+      "Emergency Combat Embarkation: Once per turn, in your opponent’s Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move, you can select one ADEPTA SORORITAS unit from your army that was selected as a target of that charge. Provided that unit is not within Engagement Range of any enemy units and every model in that unit is within 3\" of this TRANSPORT, it can embark within this TRANSPORT."
     ],
     "weapons": [
       {
@@ -2070,7 +2191,7 @@
       "Sororitas Character"
     ],
     "abilities": [
-      "Divine Deliverance: Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by the model an",
+      "Divine Deliverance: Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by the model and those weapons have the [DEVASTATING WOUNDS] ability",
       "Leader: This unit can be attached to the following units: \n- Seraphim Squad\n- Zephyrim Squad"
     ],
     "weapons": [
@@ -2122,13 +2243,13 @@
     "alliance": "imperium",
     "points": 55,
     "models": 2,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "move": "7\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "5+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -2216,8 +2337,8 @@
       "Battle Sanctum"
     ],
     "abilities": [
-      "Consecrated Ground: When this FORTIFICATION is set up, all parts of it must be set up within 1\" of another part. Friendly ADEPTA SORORITAS INFANTRY models can be set up or end any type of move on top of the floor section",
-      "Holy Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against th"
+      "Consecrated Ground: When this FORTIFICATION is set up, all parts of it must be set up within 1\" of another part. Friendly ADEPTA SORORITAS INFANTRY models can be set up or end any type of move on top of the floor sections of this FORTIFICATION. While an ADEPTA SORORITAS unit from your army is within 1\" of this FORTIFICATION, that unit can perform one additional Act of Faith per phase.",
+      "Holy Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
     ],
     "weapons": [],
     "system": "40k"
@@ -2248,7 +2369,7 @@
       "Sororitas Character"
     ],
     "abilities": [
-      "Instrument of the Emperor's Wrath: Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model a",
+      "Instrument of the Emperor's Wrath: Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and those weapons have the [DEVASTATING WOUNDS] ability.",
       "Daemonbreaker: Each time this model makes an attack that targets a DAEMON unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
     ],
     "weapons": [
@@ -2279,7 +2400,7 @@
     "faction": "Adepta Sororitas",
     "alliance": "imperium",
     "points": 110,
-    "models": 1,
+    "models": 9,
     "move": "6\"",
     "toughness": "3",
     "save": "6+",
@@ -2299,8 +2420,8 @@
     "abilities": [
       "Ministorum Sermon: While this unit contains a **^^Ministorum Priest**^^, melee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.",
       "Cherub: Once per battle, after this unit has performed an Act of Faith, you gain 1 Miracle dice.",
-      "Attached Unit: If a ^^**Ministorum Priest^^** model from your army with the Leader ability can be attached to a ^^**Battle Sisters Squad^^**, it can be attached to this unit instead. If a ^^**Ministorum Priest^^** m",
-      "Simulacrum Imperialis: At the end of your Command phase, for each objective marker you control that has one or more units from your army with this ability within range of it, roll one D6: on a 4+, you gain 1 Miracle dice sh",
+      "Attached Unit: If a Ministorum Priest model from your army with the Leader ability can be attached to a Battle Sisters Squad, it can be attached to this unit instead. If a Ministorum Priest model from your army is attached to this unit during the Declare Battle Formations step, that model gains the Scouts 6\" ability.",
+      "Simulacrum Imperialis: At the end of your Command phase, for each objective marker you control that has one or more units from your army with this ability within range of it, roll one D6: on a 4+, you gain 1 Miracle dice showing a value equal to that result.",
       "Salvationist Medikit: In your Command phase, if the bearer is on the battlefield, you can return up to D3 destroyed models (excluding ^^**Character models^^**) to this unit."
     ],
     "weapons": [
@@ -2380,8 +2501,8 @@
     "name": "Celestian Insidiants",
     "faction": "Adepta Sororitas",
     "alliance": "imperium",
-    "points": 120,
-    "models": 1,
+    "points": 115,
+    "models": 10,
     "move": "6\"",
     "toughness": "3",
     "save": "3+",
@@ -2400,10 +2521,10 @@
     ],
     "abilities": [
       "Rituale Nullificatus: Models in this unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds.",
-      "Virtue of Intolerance: At the start of the battle, select one unit from your opponent’s army to be this unit’s quarry. Each time a model in this unit makes an attack that targets its quarry, that attack has the ^^**[Precisi",
+      "Virtue of Intolerance: At the start of the battle, select one unit from your opponent’s army to be this unit’s quarry. Each time a model in this unit makes an attack that targets its quarry, that attack has the [Precision] ability and you can re‑roll the Hit roll. This ability can be used even if this unit is embarked within a Transport.",
       "Attached Unit: If a ^^**Character^^** unit from your army can be attached to a ^^**Dominion Squad^^** unit, it can be attached to this unit instead.",
       "Denuncia Oratory: Each time the bearer’s unit’s quarry is destroyed, you can select a new unit from your opponent’s army to be its quarry.",
-      "Simulacrum Imperialis: At the end of your Command phase, for each objective marker you control that has one or more units from your army with this ability within range of it, roll one D6: on a 4+, you gain 1 Miracle dice sh"
+      "Simulacrum Imperialis: At the end of your Command phase, for each objective marker you control that has one or more units from your army with this ability within range of it, roll one D6: on a 4+, you gain 1 Miracle dice showing a value equal to that result."
     ],
     "weapons": [
       {
@@ -2596,7 +2717,7 @@
     ],
     "abilities": [
       "Righteous Denunciation: At the start of the Fight phase, each enemy unit within 6\" of this model must take a Battle‑shock test, subtracting 1 from that test.",
-      "Judged for Execution: At the end of your Movement phase, you can select one enemy unit within 18\" of and visible to this model. Until the start of your next Command phase, each time a friendly ^^**Adepta Sororitas**^^ mode"
+      "Judged for Execution: At the end of your Movement phase, you can select one enemy unit within 18\" of and visible to this model. Until the start of your next Command phase, each time a friendly Adepta Sororitas model makes an attack that targets that enemy unit, that attack has the [LETHAL HITS] ability."
     ],
     "weapons": [
       {

@@ -23,7 +23,7 @@
     "abilities": [
       "Chainbreaker: Once per battle, at the start of any phase, you can select one friendly **^^Imperium^^** unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked.",
       "Legendary Freeblade: Once per turn, you can target this model with a Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem in the same phase.",
-      "Using Sir Hekhtur: If your Canis Rex model is destroyed, this model is treated as a model disembarking from a destroyed **^^Transport^^** and must perform an Emergency Disembarkation. Sir Hekhtur cannot be selected as t"
+      "Using Sir Hekhtur: If your Canis Rex model is destroyed, this model is treated as a model disembarking from a destroyed Transport and must perform an Emergency Disembarkation. Sir Hekhtur cannot be selected as the target of any of your Stratagems other than Core Stratagems. Your Canis Rex unit is not considered to be destroyed until Sir Hekhtur is also destroyed."
     ],
     "weapons": [
       {
@@ -123,7 +123,7 @@
       "Armiger"
     ],
     "abilities": [
-      "Impetuous Glory: Each time this model makes a charge move, until the end of the turn, add 1 to the Attacks characteristic of this model's reaper chain-cleaver - strike profile, and add 2 to the Attacks characteristic "
+      "Impetuous Glory: Each time this model makes a charge move, until the end of the turn, add 1 to the Attacks characteristic of this model's reaper chain-cleaver - strike profile, and add 2 to the Attacks characteristic of this model's reaper chain-cleaver - sweep profile."
     ],
     "weapons": [
       {
@@ -201,7 +201,7 @@
       "Armiger"
     ],
     "abilities": [
-      "Suppression Protocols: In your Shooting phase, after this model has shot, select one enemy unit (excluding **^^Monsters^^** and **^^Vehicles^^**) hit by one or more of those attacks made with an Armiger autocannon. Until th"
+      "Suppression Protocols: In your Shooting phase, after this model has shot, select one enemy unit (excluding Monsters and Vehicles) hit by one or more of those attacks made with an Armiger autocannon. Until the start of your next turn, that enemy unit is suppressed. While that unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
     ],
     "weapons": [
       {
@@ -327,7 +327,18 @@
         "keywords": "Lethal Hits"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 375
+      },
+      {
+        "from": 3,
+        "points": 390
+      }
+    ]
   },
   {
     "name": "Knight Errant",
@@ -411,7 +422,18 @@
         "keywords": "Lethal Hits"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 355
+      },
+      {
+        "from": 3,
+        "points": 370
+      }
+    ]
   },
   {
     "name": "Knight Gallant",
@@ -505,13 +527,24 @@
         "keywords": "Rapid Fire 3"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 355
+      },
+      {
+        "from": 3,
+        "points": 370
+      }
+    ]
   },
   {
     "name": "Knight Warden",
     "faction": "Imperial Knights",
     "alliance": "imperium",
-    "points": 375,
+    "points": 365,
     "models": 1,
     "move": "10\"",
     "toughness": "11",
@@ -598,7 +631,18 @@
         "keywords": "Lethal Hits"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 365
+      },
+      {
+        "from": 3,
+        "points": 380
+      }
+    ]
   },
   {
     "name": "Knight Crusader",
@@ -700,7 +744,18 @@
         "keywords": "Blast, Melta 6"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 395
+      },
+      {
+        "from": 2,
+        "points": 415
+      }
+    ]
   },
   {
     "name": "Knight Preceptor",
@@ -729,7 +784,7 @@
       "Questoris"
     ],
     "abilities": [
-      "Exemplar of the Code: At the start of the battle, select one unit from your opponent’s army to be this model's quarry. Each time this model makes an attack that targets its quarry, you can re-roll the Wound roll. Each time",
+      "Exemplar of the Code: At the start of the battle, select one unit from your opponent’s army to be this model's quarry. Each time this model makes an attack that targets its quarry, you can re-roll the Wound roll. Each time this model's quarry is destroyed, you can select a new unit from your opponent's army to be its quarry.",
       "Mentor (Bondsman): Each time a model affected by this ability makes an attack that targets this model's quarry, you can re-roll the Wound roll."
     ],
     "weapons": [
@@ -803,7 +858,18 @@
         "keywords": "Melta 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 365
+      },
+      {
+        "from": 3,
+        "points": 380
+      }
+    ]
   },
   {
     "name": "Knight Castellan",
@@ -905,13 +971,24 @@
         "keywords": "Blast, Twin-Linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 425
+      },
+      {
+        "from": 2,
+        "points": 450
+      }
+    ]
   },
   {
     "name": "Knight Valiant",
     "faction": "Imperial Knights",
     "alliance": "imperium",
-    "points": 400,
+    "points": 390,
     "models": 1,
     "move": "8\"",
     "toughness": "12",
@@ -934,7 +1011,7 @@
       "Dominus"
     ],
     "abilities": [
-      "Thundershock: In your Shooting phase, each time you select a target for this model's thundercoil harpoon, roll one D6 for the target unit and one D6 for each other enemy unit within 6\" of the target unit. On a 4+, "
+      "Thundershock: In your Shooting phase, each time you select a target for this model's thundercoil harpoon, roll one D6 for the target unit and one D6 for each other enemy unit within 6\" of the target unit. On a 4+, the unit being rolled for is struck by arcing energies; after resolving all of this model's attacks against the target unit, each unit struck by arcing energies suffers D3 mortal wounds."
     ],
     "weapons": [
       {
@@ -997,7 +1074,18 @@
         "keywords": "Blast, Twin-Linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 390
+      },
+      {
+        "from": 3,
+        "points": 405
+      }
+    ]
   },
   {
     "name": "Acastus Knight Asterius",
@@ -1026,7 +1114,7 @@
       "Frame"
     ],
     "abilities": [
-      "Sunderer of Fortresses: Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristics of that attack by 1. If that attack targets a FORTIFICATION, improve the Strength and Damag"
+      "Sunderer of Fortresses: Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristics of that attack by 1. If that attack targets a FORTIFICATION, improve the Strength and Damage characteristics of that attack by 2 instead."
     ],
     "weapons": [
       {
@@ -1069,7 +1157,18 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 785
+      },
+      {
+        "from": 2,
+        "points": 860
+      }
+    ]
   },
   {
     "name": "Acastus Knight Porphyrion",
@@ -1141,7 +1240,18 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 725
+      },
+      {
+        "from": 2,
+        "points": 800
+      }
+    ]
   },
   {
     "name": "Cerastus Knight Lancer",
@@ -1204,7 +1314,18 @@
         "d": "3"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 415
+      },
+      {
+        "from": 2,
+        "points": 435
+      }
+    ]
   },
   {
     "name": "Cerastus Knight Castigator",
@@ -1233,7 +1354,7 @@
       "Knight Castigator"
     ],
     "abilities": [
-      "Storm of Bolts: In your Shooting phase, after this model has shot, select one unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this model is on the ",
+      "Storm of Bolts: In your Shooting phase, after this model has shot, select one unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
       "Castigator’s Duty (Bondsman): While a model is affected by this ability, its ranged weapons have the [SUSTAINED HITS 1] ability and the Armour Penetration characteristic of its ranged weapons is improved by 1."
     ],
     "weapons": [
@@ -1266,7 +1387,18 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 380
+      },
+      {
+        "from": 2,
+        "points": 395
+      }
+    ]
   },
   {
     "name": "Cerastus Knight Acheron",
@@ -1295,8 +1427,8 @@
       "Knight Acheron"
     ],
     "abilities": [
-      "Searing Flames: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the phase, that enemy unit cannot have ",
-      "Acheron’s Duty (Bondsman): While a model is affected by this ability, at the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test, subtracting 1 "
+      "Searing Flames: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the phase, that enemy unit cannot have the Benefit of Cover.",
+      "Acheron’s Duty (Bondsman): While a model is affected by this ability, at the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test, subtracting 1 from the result when they do."
     ],
     "weapons": [
       {
@@ -1338,13 +1470,24 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 380
+      },
+      {
+        "from": 2,
+        "points": 395
+      }
+    ]
   },
   {
     "name": "Cerastus Knight Atrapos",
     "faction": "Imperial Knights",
     "alliance": "imperium",
-    "points": 405,
+    "points": 420,
     "models": 1,
     "move": "12\"",
     "toughness": "11",
@@ -1432,7 +1575,18 @@
         "keywords": "Blast"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 420
+      },
+      {
+        "from": 2,
+        "points": 440
+      }
+    ]
   },
   {
     "name": "Questoris Knight Magaera",
@@ -1462,7 +1616,7 @@
     ],
     "abilities": [
       "Repair Auto-simulacra: At the end of your Command phase, this model regains up to D3 lost wounds.",
-      "Magaera’s Duty (Bondsman): While a model is affected by this ability, each time that model makes a ranged attack that targets the closest eligible target, improve the Strength and Armour Penetration characteristics of that atta"
+      "Magaera’s Duty (Bondsman): While a model is affected by this ability, each time that model makes a ranged attack that targets the closest eligible target, improve the Strength and Armour Penetration characteristics of that attack by 1."
     ],
     "weapons": [
       {
@@ -1515,7 +1669,18 @@
         "keywords": "Sustained Hits 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 385
+      },
+      {
+        "from": 2,
+        "points": 400
+      }
+    ]
   },
   {
     "name": "Questoris Knight Styrix",
@@ -1544,8 +1709,8 @@
       "Knight Styrix"
     ],
     "abilities": [
-      "Grav-pinned: In your Shooting phase, after this model has shot, if an enemy INFANTRY unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enem",
-      "Styrix’s Duty (Bondsman): While a model is affected by this ability, each time that model is selected to shoot or fight, after it has resolved all of its attacks, select one enemy unit hit by one or more of those attacks; that"
+      "Grav-pinned: In your Shooting phase, after this model has shot, if an enemy INFANTRY unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Charge rolls made for that unit.",
+      "Styrix’s Duty (Bondsman): While a model is affected by this ability, each time that model is selected to shoot or fight, after it has resolved all of its attacks, select one enemy unit hit by one or more of those attacks; that unit must take a Battle-shock test, subtracting one from the test when doing so."
     ],
     "weapons": [
       {
@@ -1598,7 +1763,18 @@
         "keywords": "Anti-INFANTRY 2+, Ignores Cover, Torrent, Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 375
+      },
+      {
+        "from": 2,
+        "points": 390
+      }
+    ]
   },
   {
     "name": "Armiger Moirax",
@@ -1624,7 +1800,7 @@
       "Moirax"
     ],
     "abilities": [
-      "Protection Protocols: You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses"
+      "Protection Protocols: You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do: - That use is -1 CP. - That use does not prevent any uses of that stratagem on other units this phase."
     ],
     "weapons": [
       {
@@ -1677,13 +1853,24 @@
         "d": "1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 150
+      },
+      {
+        "from": 3,
+        "points": 160
+      }
+    ]
   },
   {
     "name": "Knight Defender",
     "faction": "Imperial Knights",
     "alliance": "imperium",
-    "points": 400,
+    "points": 385,
     "models": 1,
     "move": "10\"",
     "toughness": "11",
@@ -1706,7 +1893,7 @@
       "Knight Defender"
     ],
     "abilities": [
-      "Selfless Protector: Each time a ranged attack is allocated to an **^^Imperial Knights^^** model from your army, if that model is not fully visible to every model in the attacking unit because of this Knight Defender mode",
+      "Selfless Protector: Each time a ranged attack is allocated to an Imperial Knights model from your army, if that model is not fully visible to every model in the attacking unit because of this Knight Defender model, that model has the Benefit of Cover and a 4+ invulnerable save against that attack.",
       "Warden's Duty (Bondsman): While a model is affected by this ability, each time an attack is allocated to that model, subtract 1 from the Damage characteristic of that attack."
     ],
     "weapons": [
@@ -1770,7 +1957,18 @@
         "keywords": "Ignores Cover, Rapid Fire 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 385
+      },
+      {
+        "from": 2,
+        "points": 405
+      }
+    ]
   },
   {
     "name": "Knight Destrier",
@@ -1864,7 +2062,18 @@
         "keywords": "Assault, Blast, Rapid Fire D6+3"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 265
+      },
+      {
+        "from": 3,
+        "points": 280
+      }
+    ]
   },
   {
     "name": "Warhound Titan",
@@ -2094,8 +2303,8 @@
     ],
     "abilities": [
       "Damaged: 1-26 wounds remaining: While this model has 1-26 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
-      "Titanic Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly IMPERIUM model makes an attack that targe",
-      "Titanic Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly CHAOS model makes an attack that targets ",
+      "Titanic Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly IMPERIUM model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1.",
+      "Titanic Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly IMPERIUM model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1.",
       "Striding Colossus: Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
     ],
     "weapons": [
@@ -2342,8 +2551,8 @@
       "Allies: Unaligned Forces"
     ],
     "abilities": [
-      "Frenzy: Each time an enemy unit is selected to shoot or fight, after it has finished making its attacks, if one or more of those attacks targeted this model and this model is not destroyed, this model can fig",
-      "Borewyrm Infestation: Twice per battle, at the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield. In the Reinforcements ste"
+      "Frenzy: Each time an enemy unit is selected to shoot or fight, after it has finished making its attacks, if one or more of those attacks targeted this model and this model is not destroyed, this model can fight as if it were the Fight phase",
+      "Borewyrm Infestation: Twice per battle, at the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If the battle ends and this unit is not on the battlefield, it is destroyed. Designer’s Note: Place two Borewyrm Infestation tokens next to this model, removing one each time this ability has been used."
     ],
     "weapons": [
       {
@@ -2911,7 +3120,7 @@
       "Skyshield Landing Pad"
     ],
     "abilities": [
-      "Skyshield: Friendly Infantry models and friendly units that can Fly can be set up or end any type of move on top of the platform section of this Fortification. While such a model is on the platform section of th",
+      "Skyshield: Friendly Infantry models and friendly units that can Fly can be set up or end any type of move on top of the platform section of this Fortification. While such a model is on the platform section of this Fortification, that model has a 5+ invulnerable save against ranged attacks",
       "Repair Aircraft: At the end of your Movement phase, if there is a friendly Aircraft model on top of this Fortification, that Aircraft regains up to D3 lost wounds"
     ],
     "weapons": [],
@@ -3038,7 +3247,7 @@
       "Vengeance Weapon Battery"
     ],
     "abilities": [
-      "Automated Defences: Each time this model makes a ranged attack that targets the closest enemy unit:\n- If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit rol"
+      "Automated Defences: Each time this model makes a ranged attack that targets the closest enemy unit: - If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit roll. - If that attack is made with a battle cannon and the target is a MONSTER or VEHICLE, add 1 to the Hit roll. - If that attack is made with a quad-lascannon and the target can FLY, add 1 to the Hit roll."
     ],
     "weapons": [
       {
@@ -3124,7 +3333,7 @@
       "Vortex Missile Strongpoint"
     ],
     "abilities": [
-      "Vortex: In your Shooting phase, each time you select a target for this model’s vortex missile battery, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a "
+      "Vortex: In your Shooting phase, each time you select a target for this model’s vortex missile battery, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a 4+, the unit being rolled for is struck by the vortex; after resolving all of this model’s attacks against the target unit, each unit struck by the vortex suffers D3 mortal wounds."
     ],
     "weapons": [
       {
@@ -3308,9 +3517,9 @@
       "Allies: Unaligned Forces"
     ],
     "abilities": [
-      "Enemy Spotted: Each time a model from your army makes a ranged attack that targets an enemy unit that is within 9\" of and visible to any Searchlights from your army, re-roll a Hit of 1 and, if the model making that ",
+      "Enemy Spotted: Each time a model from your army makes a ranged attack that targets an enemy unit that is within 9\" of and visible to any Searchlights from your army, re-roll a Hit of 1 and, if the model making that attack is a Sentry Gun, add 1 to the Hit roll as well.",
       "Wall: This model is a terrain feature and counts as a Wall.",
-      "Camera Network: In the Create the Battlefield and Place Objective Markers step, set this terrain feature up in one of the Searchlight positions (marked D2 on the mission map) that does not already contain a Searchlig"
+      "Camera Network: In the Create the Battlefield and Place Objective Markers step, set this terrain feature up in one of the Searchlight positions (marked D2 on the mission map) that does not already contain a Searchlight."
     ],
     "weapons": [],
     "system": "40k"
@@ -3339,7 +3548,7 @@
     "abilities": [
       "Limited Loadout: This model cannot attempt to operate Hatchways and cannot perform Tactical Manoeuvres.",
       "Assault Robot: In the Deploy Armies step, when setting up a unit from your army within an Entry Zone, you can set this model up alongside that unit as if it was part of it, using the same Entry Zone.",
-      "Bomb Kit: When the bearer is destroyed (other than through triggering its bomb, as described below), roll one D6 before removing it from play: on a 6 it explodes, and each other unit within 3\" of and visible to",
+      "Bomb Kit: When the bearer is destroyed (other than through triggering its bomb, as described below), roll one D6 before removing it from play: on a 6 it explodes, and each other unit within 3\" of and visible to the bearer suffers 1 mortal wound. In your Command phase, the bearer can trigger its bombs. If it does: - Open each Hatchway that is within 3\" of the bearer. Your opponent cannot attempt to prevent those Hatchways from opening, and those Hatchways cannot be closed again. - Roll one D6 for each other unit within 3\" of and visible to the bearer: on a 2+, that unit suffers 1 mortal wound. The bearer is then destroyed.",
       "Cutting Gear: Each time the bearer ends a Normal move, you can open one Hatchway that is within 1\" of it. Your opponent cannot attempt to prevent that Hatchway from opening."
     ],
     "weapons": [

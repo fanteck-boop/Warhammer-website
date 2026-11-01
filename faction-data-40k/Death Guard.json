@@ -3,7 +3,7 @@
     "name": "Daemon Prince of Nurgle",
     "faction": "Death Guard",
     "alliance": "chaos",
-    "points": 195,
+    "points": 185,
     "models": 1,
     "move": "8\"",
     "toughness": "12",
@@ -25,7 +25,7 @@
     ],
     "abilities": [
       "Death Guard Defenders: While this model is within 3\" of one or more friendly ^^**Death Guard Infantry^^** units, this model has the Lone Operative ability.",
-      "Fevered Strategist: Once per Battle Round, one model from your army with this ability can use it when a friendly ^^**Death Guard^^** unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP c",
+      "Fevered Strategist: Once per Battle Round, one model from your army with this ability can use it when a friendly Death Guard unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that Stratagem by 1CP.",
       "Miasma of Pestilence (Aura): While a friendly ^^**Death Guard^^** unit is within 6\" of this model, each time a ranged attack targets that unit, models in that unit have the Benefit of Cover against that attack."
     ],
     "weapons": [
@@ -56,7 +56,7 @@
     "name": "Daemon Prince of Nurgle with wings",
     "faction": "Death Guard",
     "alliance": "chaos",
-    "points": 170,
+    "points": 160,
     "models": 1,
     "move": "12\"",
     "toughness": "11",
@@ -79,7 +79,7 @@
     ],
     "abilities": [
       "Horrifying Visage: Each time this model ends a Charge move, select one enemy unit within Engagement Range of it. That unit must take a Battle-shock test, subtracting 1 from that test.",
-      "Enfeebling Miasma (Aura): While an enemy unit (excluding ^^*Monsters^^** and ^^**Vehicles^^**) is within 6\" of this model, each time that unit is selected to Fall Back, models in that enemy unit must take Desperate Escape test"
+      "Enfeebling Miasma (Aura): While an enemy unit (excluding *Monsters and Vehicles) is within 6\" of this model, each time that unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those Desperate Escape tests."
     ],
     "weapons": [
       {
@@ -109,7 +109,7 @@
     "name": "Typhus",
     "faction": "Death Guard",
     "alliance": "chaos",
-    "points": 100,
+    "points": 90,
     "models": 1,
     "move": "5\"",
     "toughness": "7",
@@ -134,7 +134,7 @@
     "abilities": [
       "Leader: This model can be attached to the following units:\n■ ^^**Blightlord Terminators^^**\n■ ^^**Deathshroud Terminators^^**\n■ ^^**Poxwalkers^^**",
       "The Destroyer Hive: While this model is leading a unit, each time a melee attack targets that unit, subtract 1 from the Hit roll.",
-      "Eater Plague (Psychic): In your Shooting phase, you can select one enemy unit within 18\" of and visible to this ^^**Psyker^^** (excluding units with the Lone Operative ability that are not part of an Attached unit and are no"
+      "Eater Plague (Psychic): In your Shooting phase, you can select one enemy unit within 18\" of and visible to this Psyker (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this Psyker and roll one D6: on a 1, this Psyker's unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D6 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
     ],
     "weapons": [
       {
@@ -376,7 +376,7 @@
     "name": "Lord of Virulence",
     "faction": "Death Guard",
     "alliance": "chaos",
-    "points": 100,
+    "points": 90,
     "models": 1,
     "move": "5\"",
     "toughness": "7",
@@ -398,7 +398,7 @@
     ],
     "abilities": [
       "Virulent Aura: While this model is leading a unit, each time a model in that unit makes a ranged attack, you can re-roll the Wound roll.",
-      "Blight Bombardment: At the start of your Shooting phase, select one enemy unit within 30\" of and visible to this model. Until the end of the phase, each time a friendly ^^**Death Guard^^** unit makes a ranged attack that",
+      "Blight Bombardment: At the start of your Shooting phase, select one enemy unit within 30\" of and visible to this model. Until the end of the phase, each time a friendly Death Guard unit makes a ranged attack that targets that unit, re-roll a Hit roll of 1 (if that attack is made with a Blast weapon, you can re-roll the Hit roll instead).",
       "Leader: This model can be attached to the following units:\n- ^^**Blightlord Terminators^^**\n- ^^**Deathshroud Terminators^^**"
     ],
     "weapons": [
@@ -429,7 +429,7 @@
     "name": "Lord of Contagion",
     "faction": "Death Guard",
     "alliance": "chaos",
-    "points": 120,
+    "points": 110,
     "models": 1,
     "move": "5\"",
     "toughness": "7",
@@ -452,7 +452,7 @@
     ],
     "abilities": [
       "Vector of Disease: While this model is leading a unit, melee weapons equipped by models in that unit have the **[Sustained Hits 1]** and **[Lance]** abilties.",
-      "Unholy Resilience: The first time a model with this ability is destroyed in a battle round, roll one D6 at the end of the phase. On a 2+, set that model back up on the battlefield, as close as possible to where it was d",
+      "Unholy Resilience: The first time a model with this ability is destroyed in a battle round, roll one D6 at the end of the phase. On a 2+, set that model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 3 wounds remaining. Each model can only be set up in this way once per battle.",
       "Leader: This model can be attached to the following units:\n- ^^**Blightlord Terminators^^**\n- ^^**Deathshroud Terminators^^**"
     ],
     "weapons": [
@@ -506,7 +506,7 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following units:\n■ BLIGHTLORD TERMINATORS\n■ DEATHSHROUD TERMINATORS",
-      "Putrescent Vitality (Psychic): At the start of the Fight phase, you can roll one D6: on a 1, this PSYKER’s unit suffers D3 mortal wounds; on a 2+, until the end of the phase, each time an attack is allocated to a model in this PSYK",
+      "Putrescent Vitality (Psychic): At the start of the Fight phase, you can roll one D6: on a 1, this PSYKER’s unit suffers D3 mortal wounds; on a 2+, until the end of the phase, each time an attack is allocated to a model in this PSYKER’s unit, subtract 1 from the Damage characteristic of that attack.",
       "Pestilent Familiar (Psychic): Once per battle, after selecting targets for a Psychic weapon equipped by this model, until the end of the phase, improve the Strength and Damage characteristics of that weapon by 2."
     ],
     "weapons": [
@@ -629,7 +629,7 @@
     ],
     "abilities": [
       "Gift of Contagion (Psychic): While this model is leading a unit, each time a model in that unit makes an attack which targets a unit which is Afflicted, that attack has the [Sustained Hits 1] ability.",
-      "Pestilent Fallout (Psychic): In your Shooting phase, after this model has shot, select one enemy ^^**Infantry^^** unit hit by one or more of those attacks made with its Plague Wind. Until the end of your opponent's next turn, tha",
+      "Pestilent Fallout (Psychic): In your Shooting phase, after this model has shot, select one enemy Infantry unit hit by one or more of those attacks made with its Plague Wind. Until the end of your opponent's next turn, that unit is enfeebled. While a unit is enfeebled, subtract 2\" from the Move characteristic of models in that unit.",
       "Leader: This model can be attached to the following units:\n^^**Plague Marines^^**, ^^**Poxwalkers^^**"
     ],
     "weapons": [
@@ -681,7 +681,7 @@
     "faction": "Death Guard",
     "alliance": "chaos",
     "points": 90,
-    "models": 1,
+    "models": 5,
     "move": "5\"",
     "toughness": "6",
     "save": "3+",
@@ -701,7 +701,7 @@
       "Plague Marines"
     ],
     "abilities": [
-      "Infused with the Blessings of Nurgle: In your Shooting phase, each time this unit is selected to shoot, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that unit is A",
+      "Infused with the Blessings of Nurgle: In your Shooting phase, each time this unit is selected to shoot, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that unit is Afflicted.",
       "Insectile Murmuration: When this unit’s attacks target a unit within **Contagion Range** of a friendly unit, those attacks can re‑roll **wound rolls** of 1.",
       "Plagueveil: This unit has ‑3\" **detection range**."
     ],
@@ -804,7 +804,7 @@
     "faction": "Death Guard",
     "alliance": "chaos",
     "points": 50,
-    "models": 1,
+    "models": 10,
     "move": "6\"",
     "toughness": "3",
     "save": "6+",
@@ -888,7 +888,7 @@
     "faction": "Death Guard",
     "alliance": "chaos",
     "points": 65,
-    "models": 1,
+    "models": 10,
     "move": "5\"",
     "toughness": "4",
     "save": "7+",
@@ -906,7 +906,7 @@
       "Poxwalkers"
     ],
     "abilities": [
-      "Curse of the Walking Pox: Each time a ^^**Poxwalker^^** model in this unit makes an attack that destroys an enemy model (excluding ^^**Monster^^** and ^^**Vehicle^^** models), after this unit has resolved its attacks, you can "
+      "Curse of the Walking Pox: Each time a Poxwalker model in this unit makes an attack that destroys an enemy model (excluding Monster and Vehicle models), after this unit has resolved its attacks, you can return one destroyed Poxwalker model to this unit. While Typhus is leading this unit, enemy models destroyed as a result of Typhus’ Eater Plague ability count as enemy models destroyed by an attack made by a Poxwalker model in this unit for the purposes of this ability."
     ],
     "weapons": [
       {
@@ -947,7 +947,7 @@
     ],
     "abilities": [
       "Sickening Vitality: While this model is leading a unit, add 1\" to the Move characteristic of models in that unit and you can re-roll Advance and Charge rolls made for that unit.",
-      "Tocsin of Misery (Aura): In the Battle-shock step of your opponent's Command phase, if an enemy unit that is below its Starting Strength is within 9\" of this model, that enemy unit must take a Battle-shock test, subtracting 1",
+      "Tocsin of Misery (Aura): In the Battle-shock step of your opponent's Command phase, if an enemy unit that is below its Starting Strength is within 9\" of this model, that enemy unit must take a Battle-shock test, subtracting 1 from that test if it is a Psyker unit.",
       "Leader: This model can be attached to the following units: ^^**Plague Marines^^**, ^^**Poxwalkers^^**\n*You can attach this model to a ^^**Plague Marines^^** or ^^**Poxwalkers^^** unit, even if one other Leade"
     ],
     "weapons": [
@@ -1000,7 +1000,7 @@
     ],
     "abilities": [
       "Putrefying Stink: Enemy models cannot start or end an Advance move within 9\" of this model.",
-      "Blinding Spray: In the Fight phase, you can select one model from your army with this ability to use this ability. If you do, until the end of that phase, that model's unit has the Fights First ability. Each model ca"
+      "Blinding Spray: In the Fight phase, you can select one model from your army with this ability to use this ability. If you do, until the end of that phase, that model's unit has the Fights First ability. Each model can only be selected for this ability once per battle."
     ],
     "weapons": [
       {
@@ -1052,7 +1052,7 @@
     ],
     "abilities": [
       "Extraction of Fresh Disease: The first time this model's unit destroys an enemy unit as a result of a melee attack, until the end of the battle, add 6 to the Objective Control characteristic of this model.",
-      "Foul Infusion: While this model is leading a unit, weapons equipped by models in that unit have the [Lethal Hits] ability. In addition, each time a model in that unit makes an attack, a Critical Hit is scored on an "
+      "Foul Infusion: While this model is leading a unit, weapons equipped by models in that unit have the [Lethal Hits] ability. In addition, each time a model in that unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only on a 6."
     ],
     "weapons": [
       {
@@ -1112,7 +1112,7 @@
       "Tallyman"
     ],
     "abilities": [
-      "Malicious Calculations: While this model is leading a unit, each time a model in that unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill or Weapon Skill characteristics and/or any or a",
+      "Malicious Calculations: While this model is leading a unit, each time a model in that unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill or Weapon Skill characteristics and/or any or all modifiers to the Hit roll.",
       "Seven-fold Chant: In your Command phase, if this model is on the battlefield, roll 2D6: on a 7+, you gain 1CP."
     ],
     "weapons": [
@@ -1164,7 +1164,7 @@
     ],
     "abilities": [
       "Tainted Narthecium: While this model is leading a unit, in your Command phase, you can return 1 destroyed Bodyguard model to that unit.",
-      "Inflamed Infections: At the start of the Fight phase, select one enemy unit within Engagement Range of this model. Until the end of the phase, each time this model makes an attack that targets that unit, an unmodified Hit"
+      "Inflamed Infections: At the start of the Fight phase, select one enemy unit within Engagement Range of this model. Until the end of the phase, each time this model makes an attack that targets that unit, an unmodified Hit roll of 5+ scores a Critical Hit. If that unit is below Half-strength, an unmodified Hit roll of 4+ scores a Critical Hit instead."
     ],
     "weapons": [
       {
@@ -1194,8 +1194,8 @@
     "name": "Deathshroud Terminators",
     "faction": "Death Guard",
     "alliance": "chaos",
-    "points": 160,
-    "models": 1,
+    "points": 150,
+    "models": 3,
     "move": "5\"",
     "toughness": "7",
     "save": "2+",
@@ -1215,7 +1215,7 @@
     ],
     "abilities": [
       "Silent Bodyguard: While a ^^**Character^^** model is leading this unit, that ^^**Character^^** model has the Feel No Pain 4+ ability.",
-      "Death Approaches: In your Movement phase, when this unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all Afflicte"
+      "Death Approaches: In your Movement phase, when this unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all Afflicted enemy units, and more than 8\" horizontally away from any other enemy units."
     ],
     "weapons": [
       {
@@ -1239,13 +1239,24 @@
         "keywords": "Anti-INFANTRY 4+, Ignores Cover, Pistol, Torrent"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 150
+      },
+      {
+        "from": 3,
+        "points": 160
+      }
+    ]
   },
   {
     "name": "Helbrute",
     "faction": "Death Guard",
     "alliance": "chaos",
-    "points": 110,
+    "points": 105,
     "models": 1,
     "move": "7\"",
     "toughness": "9",
@@ -1375,7 +1386,7 @@
     "faction": "Death Guard",
     "alliance": "chaos",
     "points": 115,
-    "models": 1,
+    "models": 3,
     "move": "5\"",
     "toughness": "7",
     "save": "2+",
@@ -1394,7 +1405,7 @@
       "Terminator"
     ],
     "abilities": [
-      "Blistering Fusillade: If this unit has a Starting Strength of 5 or more, or if a ^^**Character^^** is leading this unit, then each time a model in this unit makes a ranged attack that targets an Afflicted unit, improve the"
+      "Blistering Fusillade: If this unit has a Starting Strength of 5 or more, or if a Character is leading this unit, then each time a model in this unit makes a ranged attack that targets an Afflicted unit, improve the Strength and Armour Penetration characteristics of that attack by 1."
     ],
     "weapons": [
       {
@@ -1478,7 +1489,18 @@
         "keywords": "Devastating Wounds, Sustained Hits 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 115
+      },
+      {
+        "from": 3,
+        "points": 145
+      }
+    ]
   },
   {
     "name": "Chaos Spawn",
@@ -1567,7 +1589,18 @@
         "keywords": "Lethal Hits"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 100
+      },
+      {
+        "from": 3,
+        "points": 110
+      }
+    ]
   },
   {
     "name": "Plagueburst Crawler",
@@ -1594,7 +1627,7 @@
       "Frame"
     ],
     "abilities": [
-      "Spore-laced Shock Waves: In your Shooting phase, each time you select a target for this model's Plagueburst mortar, roll one D6 for the target unit and every other enemy unit within 3\" of the target unit, adding 1 to that rol"
+      "Spore-laced Shock Waves: In your Shooting phase, each time you select a target for this model's Plagueburst mortar, roll one D6 for the target unit and every other enemy unit within 3\" of the target unit, adding 1 to that roll if the unit being rolled for is Afflicted. On a 6+, the unit being rolled for is struck by spores; after resolving all of this model's attacks against the target unit, each unit struck by spores suffers D3 mortal wounds."
     ],
     "weapons": [
       {
@@ -1637,7 +1670,18 @@
         "keywords": "Lethal Hits"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 170
+      },
+      {
+        "from": 3,
+        "points": 200
+      }
+    ]
   },
   {
     "name": "Chaos Land Raider",
@@ -1728,13 +1772,24 @@
         "keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 220
+      },
+      {
+        "from": 3,
+        "points": 240
+      }
+    ]
   },
   {
     "name": "Chaos Predator Annihilator",
     "faction": "Death Guard",
     "alliance": "chaos",
-    "points": 135,
+    "points": 130,
     "models": 1,
     "move": "10\"",
     "toughness": "10",
@@ -1828,13 +1883,24 @@
         "keywords": "Heavy"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 130
+      },
+      {
+        "from": 3,
+        "points": 140
+      }
+    ]
   },
   {
     "name": "Chaos Predator Destructor",
     "faction": "Death Guard",
     "alliance": "chaos",
-    "points": 145,
+    "points": 140,
     "models": 1,
     "move": "10\"",
     "toughness": "10",
@@ -1928,7 +1994,18 @@
         "keywords": "Heavy"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 140
+      },
+      {
+        "from": 3,
+        "points": 150
+      }
+    ]
   },
   {
     "name": "Chaos Rhino",
@@ -2000,7 +2077,18 @@
         "keywords": "Anti-INFANTRY 4+, Devastating Wounds, Rapid Fire 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 75
+      },
+      {
+        "from": 4,
+        "points": 85
+      }
+    ]
   },
   {
     "name": "Mortarion",
@@ -2157,7 +2245,7 @@
     ],
     "abilities": [
       "Putrescent Fog (Aura): Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this model.",
-      "Diseased Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this **^^Fortification^^**, that model has the Benefit of Cover ag",
+      "Diseased Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack.",
       "Deployment: Both parts of this ^^**Fortification**^^ must be deployed within 1\" of each other. Both parts are then treated as a single model for all rules purposes."
     ],
     "weapons": [
@@ -2312,7 +2400,7 @@
     "faction": "Death Guard",
     "alliance": "chaos",
     "points": 125,
-    "models": 3,
+    "models": 7,
     "move": "5\"",
     "toughness": "5",
     "save": "6+",
@@ -2365,7 +2453,7 @@
     "system": "40k"
   },
   {
-    "name": "Hellblade [Legends]",
+    "name": "Hell Blade [Legends]",
     "faction": "Death Guard",
     "alliance": "chaos",
     "points": 115,
@@ -2674,7 +2762,7 @@
     "faction": "Death Guard",
     "alliance": "chaos",
     "points": 155,
-    "models": 1,
+    "models": 5,
     "move": "9\"",
     "toughness": "6",
     "save": "3+",
@@ -2789,7 +2877,7 @@
     ],
     "abilities": [
       "Daemon Lord of Nurgle (Aura): While a friendly ^^Plague Legions^^ unit is within 6\" of this model, add 1 to the Toughness characteristic of models in that unit.",
-      "Nurgle’s Rot (Psychic): At the end of your Movement phase, you can select one enemy unit within 12\" of this model. Until the start of your next Movement phase, that unit is rotted. While a unit is rotted, subtract 1 from the",
+      "Nurgle’s Rot (Psychic): At the end of your Movement phase, you can select one enemy unit within 12\" of this model. Until the start of your next Movement phase, subtract 1 from the Toughness characteristic of models in that unit.",
       "Damaged: 1-7 wounds remaining: While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     ],
     "weapons": [
@@ -2853,7 +2941,18 @@
         "keywords": "Lethal Hits, Reverberating Summons"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 265
+      },
+      {
+        "from": 3,
+        "points": 280
+      }
+    ]
   },
   {
     "name": "Rotigus",
@@ -2883,7 +2982,7 @@
       "Summoned"
     ],
     "abilities": [
-      "Virulent Blessing (Psychic): At the start of the Fight phase, you can select one enemy unit within 24\" of and visible to this model. Until the end of the phase, each time an attack made by a ^^**Plague Legions^^** model is alloca",
+      "Virulent Blessing (Psychic): At the start of the Fight phase, you can select one enemy unit within 24\" of and visible to this model. Until the end of the phase, each time an attack made by a NURGLE LEGIONES DAEMONICA model is allocated to a model in that unit, add 1 to the Damage characteristic of that attack.",
       "Deluge of Nurgle (Aura): While an enemy unit is within 6\" of this model, subtract 2 from the Move characteristic and subtract 1 from the Objective Control characteristic of models in that unit.",
       "Damaged: 1-7 wounds remaining: While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     ],
@@ -2926,7 +3025,7 @@
     "faction": "Death Guard",
     "alliance": "chaos",
     "points": 115,
-    "models": 1,
+    "models": 10,
     "move": "5\"",
     "toughness": "5",
     "save": "7+",
@@ -2947,7 +3046,7 @@
       "Summoned"
     ],
     "abilities": [
-      "Infected Outbreak: If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models"
+      "Infected Outbreak: If you control an objective marker at the end of your Command phase and this unit is within range of that objective marker, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
     ],
     "weapons": [
       {
@@ -2968,7 +3067,7 @@
     "faction": "Death Guard",
     "alliance": "chaos",
     "points": 110,
-    "models": 2,
+    "models": 3,
     "move": "10\"",
     "toughness": "8",
     "save": "6+",
@@ -2989,7 +3088,7 @@
       "Plague Drones"
     ],
     "abilities": [
-      "Death’s Heads: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly NURGLE LEGIONES DAEMONICA unit makes an att"
+      "Death’s Heads: In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly NURGLE LEGIONES DAEMONICA unit makes an attack that targets that unit, you can re-roll the Wound roll."
     ],
     "weapons": [
       {
@@ -3050,7 +3149,7 @@
       "Nurglings"
     ],
     "abilities": [
-      "Mischief Makers (Aura): Each time an enemy unit (excluding ^^Titanic^^ units) within Engagement Range of one or more units with this ability is selected to fight, until the end of the phase, each time a model in that enemy u"
+      "Mischief Makers (Aura): Each time an enemy unit (excluding Titanic units) within Engagement Range of one or more units with this ability is selected to fight, until the end of the phase, each time a model in that enemy unit makes a melee attack, subtract 1 from the Hit roll."
     ],
     "weapons": [
       {
@@ -3091,7 +3190,7 @@
       "Foetid Bloat-drone"
     ],
     "abilities": [
-      "Explosive Blight: In your Shooting phase, each time this model makes an attack that destroys an enemy unit, before removing the last model in that unit from play, roll a D6, adding 1 to the result if that unit is Affli"
+      "Explosive Blight: In your Shooting phase, each time this model makes an attack that destroys an enemy unit, before removing the last model in that unit from play, roll a D6, adding 1 to the result if that unit is Afflicted; on a 5+, each enemy unit within 6\" of that model is Afflicted until the start of your next turn."
     ],
     "weapons": [
       {
@@ -3115,7 +3214,18 @@
         "keywords": "Lethal Hits"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 125
+      },
+      {
+        "from": 3,
+        "points": 135
+      }
+    ]
   },
   {
     "name": "Plague Sorcerer [Crucible]",
@@ -3234,7 +3344,7 @@
       "Defiler"
     ],
     "abilities": [
-      "Scuttling Walker: Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding ^^**Titanic**^^ models) and terrain features. When doing so, it can move within Engagement Range of",
+      "Scuttling Walker: Each time this unit makes a Normal, Advance or Fall Back move, it can move through models (excluding Titanic models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed.",
       "Barrage of Filth: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that unit cannot have the Benefit of Cover."
     ],
     "weapons": [
@@ -3339,6 +3449,17 @@
         "keywords": "Ignores Cover, Torrent"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 300
+      },
+      {
+        "from": 2,
+        "points": 350
+      }
+    ]
   }
 ]

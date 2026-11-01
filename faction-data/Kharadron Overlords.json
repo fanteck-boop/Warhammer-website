@@ -901,22 +901,6 @@
     "enhancementTypes": []
   },
   {
-    "name": "Battle Traits: Kharadron Overlords",
-    "faction": "Kharadron Overlords",
-    "points": 0,
-    "models": 1,
-    "move": "",
-    "wounds": 1,
-    "save": "",
-    "ward": 0,
-    "weapons": [],
-    "abilities": "Skyvessel Cover: Subtract 1 from hit rolls for attacks that target friendly Kharadron Overlords Infantry units that have not charged in the same turn while they are wholly within 6\" of a friendly Arkanaut Ironclad or Arkanaut Frigate that has not charged in the same turn.\nFlying High: Once Per Battle (Army), Deployment Phase Pick a friendly Skyvessel that is in a regiment from which no units have been deployed, then pick a number of units up to its Transport Capacity (see its warscroll) that are in its regiment. Set up all of those units in reserve in the clouds. They have now been deployed.\nKeywords: Deploy\nDescend from the Clouds: Your Movement Phase Pick a friendly Skyvessel in the clouds to use this ability. Set up that Skyvessel anywhere on the battlefield more than 9\" from all enemy units. Then, set up all other units that were set up in the clouds with that Skyvessel wholly within 6\" of it and more than 9\" from all enemy units.\nTransport Skyfarers: Your Movement Phase, Reaction: You declared a non-Charge Move ability for a friendly Skyvessel The Skyvessel using that Move ability Pick a number of units up to that Skyvessel's Transport Capacity (see its warscroll) that are wholly within 6\" of it and not in combat to be the targets. Units that have been transported this turn cannot be targets.\nRemove the targets from the battlefield. After the Skyvessel ends its move, you must set up each target unit on the battlefield, wholly within 6\" of that Skyvessel and not in combat. Those units have been transported. A unit cannot use Charge abilities if it was transported in the same turn.\nThe Flagship: Once Per Battle (Army), Deployment Phase Pick a friendly Skyvessel to be the target. The target can be in reserve. The target has the Flagship keyword for the rest of the battle. If the target does not have a Great Endrinwork, give the target 1 Great Endrinwork.\nDesigner's Note: *This Great Endrinwork is given to the unit during the deployment phase not during army composition.*",
-    "categories": [],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": []
-  },
-  {
     "name": "Grundstok Gunhauler (Scourge of Ghyran)",
     "faction": "Kharadron Overlords",
     "points": 170,

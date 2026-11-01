@@ -622,22 +622,6 @@
     ]
   },
   {
-    "name": "Battle Traits: Seraphon",
-    "faction": "Seraphon",
-    "points": 0,
-    "models": 1,
-    "move": "",
-    "wounds": 1,
-    "save": "",
-    "ward": 0,
-    "weapons": [],
-    "abilities": "Itzl the Tamer: Companion weapons used by friendly Seraphon units have Crit (2 Hits).\nKeywords: Asterism\nFurther the Great Plan: Once Per Battle Round, Start of Battle Round You cannot use this ability in the first battle round. Pick an\nAsterism that you have prophesied. You cannot pick an Asterism that you have previously picked this battle. If you do not meet the condition below that corresponds to that Asterism, this ability has no effect.\n*Itzl the Tamer:* 3 or more enemy units have been destroyed.\n*Quetzl the Preserver:* There are no enemy units wholly within friendly territory.\n*Sotek the Deliverer:* The enemy general is in combat or has been destroyed.\n*Tepok the Seer:* There are any friendly Slann units on the battlefield and no friendly Slann units are in combat or have been destroyed. Pick an Asterism ability to be prophesied. Its effects apply in addition to those of all other prophesied Asterism abilities.\nThe Great Plan: Once Per Battle, Deployment Phase You must use this ability. Pick an Asterism ability to be prophesied. That Asterism ability can be used for the rest of the battle, but the others cannot, unless prophesied by the 'Further the Great Plan' ability\nQuetzl the Preserver: Subtract 1 from the Rend characteristic of melee weapons for attacks that target friendly Seraphon units that are wholly within friendly territory.\nKeywords: Asterism\nSotek the Deliverer: Add 2 to the Move characteristic of friendly Seraphon units.\nKeywords: Asterism\nTepok the Seer: Add 1 to casting rolls for friendly Seraphon units.\nKeywords: Asterism",
-    "categories": [],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": []
-  },
-  {
     "name": "Aggradon Lancers",
     "faction": "Seraphon",
     "points": 200,
@@ -1148,50 +1132,6 @@
     "enhancementTypes": []
   },
   {
-    "name": "Ripperdactyl Riders",
-    "faction": "Seraphon",
-    "points": 70,
-    "models": 3,
-    "move": "14\"",
-    "wounds": 3,
-    "save": 5,
-    "ward": 0,
-    "weapons": [
-      {
-        "name": "Moonstone Warspear",
-        "models": "",
-        "attacks": "2",
-        "hit": "4",
-        "wound": "4",
-        "rend": "-",
-        "damage": "1"
-      },
-      {
-        "name": "Ripperdactyl's Tearing Jaws",
-        "models": "",
-        "attacks": "3",
-        "hit": "4",
-        "wound": "3",
-        "rend": "1",
-        "damage": "1"
-      }
-    ],
-    "abilities": "Toad Rage: Add 1 to the Attacks characteristic of this unit's Ripperdactyl's Tearing Jaws while it is in combat with any units that have a Blot Toad.\nBlot Toad: Once Per Battle (Army), Deployment Phase You receive 1 Blot Toad token for each Ripperdactyl Chief or Ripperdactyl Riders unit in your army, to a maximum of 3 tokens. Pick a number of enemy units equal to the number of Blot Toads you have to be the targets. Place a Blot Toad next to each target.",
-    "categories": [
-      "Skink Cavalry",
-      "Non-Monster Skink",
-      "CHAMPION",
-      "SERAPHON",
-      "ORDER",
-      "CAVALRY",
-      "FLY",
-      "SKINK"
-    ],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": []
-  },
-  {
     "name": "Saurus Guard",
     "faction": "Seraphon",
     "points": 110,
@@ -1451,50 +1391,6 @@
     ],
     "isHero": false,
     "canReinforce": true,
-    "enhancementTypes": []
-  },
-  {
-    "name": "Terradon Riders",
-    "faction": "Seraphon",
-    "points": 70,
-    "models": 3,
-    "move": "14\"",
-    "wounds": 3,
-    "save": 5,
-    "ward": 0,
-    "weapons": [
-      {
-        "name": "Javelins and Bolas",
-        "models": "",
-        "attacks": "3",
-        "hit": "4",
-        "wound": "5",
-        "rend": "-",
-        "damage": "1"
-      },
-      {
-        "name": "Terradon's Razor-sharp Jaws",
-        "models": "",
-        "attacks": "3",
-        "hit": "4",
-        "wound": "3",
-        "rend": "1",
-        "damage": "1"
-      }
-    ],
-    "abilities": "Attack from On High: Subtract 1 from hit rolls for shooting attacks that target this unit.\nDeadly Cargo: Your Movement Phase Pick an enemy unit that this unit passed across this phase to be the target. Roll a dice for each model in this unit, and add 2 to each roll if this unit is within the combat ranges of any friendly Terradon Chief units. For each 5+:\n• Inflict 1 mortal damage on the target.\n• If any damage points are allocated by this ability and the target does not have Fly, the target cannot use Run abilities until the start of your next turn.\nDispersed Formation: This unit has a coherency range of 2\".",
-    "categories": [
-      "Skink Cavalry",
-      "Non-Monster Skink",
-      "CHAMPION",
-      "SERAPHON",
-      "ORDER",
-      "CAVALRY",
-      "FLY",
-      "SKINK"
-    ],
-    "isHero": false,
-    "canReinforce": false,
     "enhancementTypes": []
   },
   {

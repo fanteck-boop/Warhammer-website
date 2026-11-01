@@ -672,22 +672,6 @@
     ]
   },
   {
-    "name": "Battle Traits: Blades of Khorne",
-    "faction": "Blades of Khorne",
-    "points": 0,
-    "models": 1,
-    "move": "",
-    "wounds": 1,
-    "save": "",
-    "ward": 0,
-    "weapons": [],
-    "abilities": "Blood-drenched: Reaction: You declared the 'Skulls for the Skull Throne' ability After that ability has been resolved, if you unlocked a Blood Tithe ability this turn, pick a friendly Blades of Khorne unit to be the target. The following effects apply to the target for the rest of the battle:\n*Wild-eyed Brutality:* Ignore positive modifiers to save rolls for friendly Blades of Khorne units.\n*Blood Haze:* Blood-hungry weapons used by friendly Bloodbound units have Crit (Mortal).\n*Weapons of Murder:* Add 1 to the Rend characteristic of Blood-hungry weapons used by friendly Blades of Khorne non-Monster Daemon units, including Blood-hungry Companion weapons.\n*Bloodlords Supreme:* Add 1 to the Damage characteristic of Blood-hungry weapons used by friendly Blades of Khorne Monster units.\nBlood for the Blood God: Earn 1 blood tithe point each time a unit (friendly or enemy) is destroyed. Blood tithe points are spent to unlock Blood Tithe abilities. You can only use Blood Tithe abilities that are unlocked. Once a Blood Tithe ability is unlocked, you do not need to spend further blood tithe points to use it.\nSkulls for the Skull Throne: Once Per Turn (Army), Start of Any Turn Pick a Blood Tithe ability that you have not unlocked and spend the number of blood tithe points required to unlock that ability. That Blood Tithe ability is now unlocked for the rest of the battle.\nMurderlust: Once Per Turn (Army), Reaction: You declared a Charge ability. Roll a dice. You can replace one of the dice in the charge roll with that value. If you do so, inflict D3 mortal damage on the unit using that Charge ability after that ability is resolved.\nKeywords: Blood Tithe\nDivine Scorn: Once Per Turn, Start of Any Turn Pick up to 3 enemy Wizards or Priests within 6\" of any friendly Blades of Khorne units to be the target(s). Roll a dice for each target. On a 3+, subtract 1 from the target's power level, to a minimum of 0, until the start of the next turn.\nKeywords: Blood Tithe\nPunish the Pacifist: Once Per Turn (Army), Your Combat Phase Each unit (friendly and enemy) and enemy Manifestation that is not in combat is a target. Roll a dice. On a 1-2, inflict 1 mortal damage on each target. On a 3+, inflict 1 mortal damage on each enemy target.\nKeywords: Blood Tithe\nMurder the Mystic: Once Per Turn (Army),Your Hero Phase Pick up to 4 enemy Manifestations to be the target(s). Make a banishment roll of 2D6 for each target. If the banishment roll equals or exceeds the banishment value listed on that Manifestation's warscroll, inflict D3 mortal damage on each enemy unit within 3\" of it and then it is banished and removed from play.\nKeywords: Blood Tithe\nGlorious Combat or Naught: Passive Subtract 1 from hit rolls for shooting attacks that target friendly Blades of Khorne units.\nKeywords: Blood Tithe\nRevel in Battle: Passive Other than the Companion weapon ability, weapon abilities for combat attacks made by enemy units that charged this turn and that target a friendly Blades of Khorne unit have no effect.\nKeywords: Blood Tithe\nSlaughter Triumphant: Passive Add 1 to the Attacks characteristic of weapons used by friendly Blades of Khorne units that charged in the same turn.\nKeywords: Blood Tithe\nCleave Wide the Grin of Khorne: Passive Add 1 to hit rolls for combat attacks made by friendly Blades of Khorne units.\nKeywords: Blood Tithe",
-    "categories": [],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": []
-  },
-  {
     "name": "Blood Warriors",
     "faction": "Blades of Khorne",
     "points": 180,

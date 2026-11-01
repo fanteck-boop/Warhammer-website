@@ -46,8 +46,8 @@
     "name": "Allarus Custodians",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
-    "points": 110,
-    "models": 1,
+    "points": 180,
+    "models": 2,
     "move": "5\"",
     "toughness": "7",
     "save": "2+",
@@ -130,13 +130,24 @@
         "keywords": "Extra Attacks"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 180
+      },
+      {
+        "from": 3,
+        "points": 210
+      }
+    ]
   },
   {
     "name": "Anathema Psykana Rhino",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
-    "points": 65,
+    "points": 70,
     "models": 1,
     "move": "12\"",
     "toughness": "9",
@@ -192,13 +203,24 @@
         "keywords": "One Shot"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 70
+      },
+      {
+        "from": 4,
+        "points": 80
+      }
+    ]
   },
   {
     "name": "Blade Champion",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
-    "points": 110,
+    "points": 175,
     "models": 1,
     "move": "6\"",
     "toughness": "6",
@@ -253,14 +275,25 @@
         "keywords": "Devastating Wounds"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 175
+      },
+      {
+        "from": 3,
+        "points": 195
+      }
+    ]
   },
   {
-    "name": "Custodian Guard",
+    "name": "Custodian Guard Sodality",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
-    "points": 170,
-    "models": 1,
+    "points": 240,
+    "models": 3,
     "move": "6\"",
     "toughness": "6",
     "save": "2+",
@@ -333,14 +366,25 @@
         "keywords": "Extra Attacks"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 240
+      },
+      {
+        "from": 4,
+        "points": 270
+      }
+    ]
   },
   {
     "name": "Custodian Wardens",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
     "points": 200,
-    "models": 1,
+    "models": 2,
     "move": "6\"",
     "toughness": "6",
     "save": "2+",
@@ -403,7 +447,18 @@
         "keywords": "Assault"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 200
+      },
+      {
+        "from": 2,
+        "points": 230
+      }
+    ]
   },
   {
     "name": "Knight-Centura",
@@ -478,11 +533,11 @@
     "system": "40k"
   },
   {
-    "name": "Prosecutors",
+    "name": "Prosecutor Squad",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
     "points": 45,
-    "models": 1,
+    "models": 4,
     "move": "6\"",
     "toughness": "3",
     "save": "3+",
@@ -530,7 +585,7 @@
     "name": "Shield-Captain",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
-    "points": 110,
+    "points": 180,
     "models": 1,
     "move": "6\"",
     "toughness": "6",
@@ -634,13 +689,24 @@
         "keywords": "Melta 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 180
+      },
+      {
+        "from": 2,
+        "points": 200
+      }
+    ]
   },
   {
     "name": "Shield-Captain in Allarus Terminator Armour",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
-    "points": 130,
+    "points": 185,
     "models": 1,
     "move": "5\"",
     "toughness": "7",
@@ -715,13 +781,24 @@
         "keywords": "Blast"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 185
+      },
+      {
+        "from": 2,
+        "points": 205
+      }
+    ]
   },
   {
     "name": "Shield-Captain on Dawneagle Jetbike",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
-    "points": 140,
+    "points": 205,
     "models": 1,
     "move": "12\"",
     "toughness": "7",
@@ -778,13 +855,24 @@
         "keywords": "Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 205
+      },
+      {
+        "from": 2,
+        "points": 225
+      }
+    ]
   },
   {
     "name": "Trajann Valoris",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
-    "points": 135,
+    "points": 265,
     "models": 1,
     "move": "6\"",
     "toughness": "6",
@@ -836,7 +924,7 @@
     "name": "Valerian",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
-    "points": 110,
+    "points": 130,
     "models": 1,
     "move": "6\"",
     "toughness": "6",
@@ -889,7 +977,7 @@
     "name": "Venerable Contemptor Dreadnought",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
-    "points": 170,
+    "points": 220,
     "models": 1,
     "move": "6\"",
     "toughness": "9",
@@ -958,7 +1046,7 @@
     "name": "Venerable Land Raider",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
-    "points": 220,
+    "points": 230,
     "models": 1,
     "move": "10\"",
     "toughness": "12",
@@ -1038,8 +1126,8 @@
     "name": "Vertus Praetors",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
-    "points": 145,
-    "models": 1,
+    "points": 220,
+    "models": 2,
     "move": "12\"",
     "toughness": "7",
     "save": "2+",
@@ -1092,14 +1180,25 @@
         "keywords": "Rapid Fire 3, Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 220
+      },
+      {
+        "from": 2,
+        "points": 240
+      }
+    ]
   },
   {
-    "name": "Vigilators",
+    "name": "Vigilator Squad",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
     "points": 50,
-    "models": 1,
+    "models": 4,
     "move": "6\"",
     "toughness": "3",
     "save": "3+",
@@ -1134,11 +1233,11 @@
     "system": "40k"
   },
   {
-    "name": "Witchseekers",
+    "name": "Witchseeker Squad",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
-    "points": 50,
-    "models": 1,
+    "points": 55,
+    "models": 4,
     "move": "6\"",
     "toughness": "3",
     "save": "3+",
@@ -1250,11 +1349,11 @@
     "system": "40k"
   },
   {
-    "name": "Sagittarum Custodians",
+    "name": "Sagittarum Custodians Sodality",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
-    "points": 225,
-    "models": 5,
+    "points": 185,
+    "models": 3,
     "move": "6\"",
     "toughness": "6",
     "save": "2+",
@@ -1272,7 +1371,7 @@
     ],
     "abilities": [
       "Disintegration Beams: Once per battle, at the start of your Shooting phase, this unit can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the Devastating Wounds",
-      "Saturation Volleys: In your Shooting phase, after this unit has shot, select one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this unit is on "
+      "Saturation Volleys: In your Shooting phase, after this unit has shot, you can select one enemy non-Monster/Vehicle unit hit by those attacks. That unit is suppressed until the start of your next turn: - While a unit is suppressed, that unit's attacks have -1 to hit rolls."
     ],
     "weapons": [
       {
@@ -1521,7 +1620,7 @@
     "name": "Contemptor-Galatus Dreadnought",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
-    "points": 165,
+    "points": 220,
     "models": 1,
     "move": "6\"",
     "toughness": "9",
@@ -1565,13 +1664,24 @@
         "keywords": "Ignores Cover, Torrent, Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 220
+      },
+      {
+        "from": 3,
+        "points": 250
+      }
+    ]
   },
   {
     "name": "Contemptor-Achillus Dreadnought",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
-    "points": 155,
+    "points": 230,
     "models": 1,
     "move": "6\"",
     "toughness": "9",
@@ -1645,13 +1755,24 @@
         "keywords": "Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 230
+      },
+      {
+        "from": 3,
+        "points": 260
+      }
+    ]
   },
   {
     "name": "Pallas Grav-attack",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
-    "points": 100,
+    "points": 135,
     "models": 1,
     "move": "12\"",
     "toughness": "8",
@@ -1701,7 +1822,7 @@
     "name": "Caladius Grav-tank",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
-    "points": 210,
+    "points": 230,
     "models": 1,
     "move": "10\"",
     "toughness": "11",
@@ -1766,13 +1887,24 @@
         "keywords": "Sustained Hits 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 230
+      },
+      {
+        "from": 3,
+        "points": 260
+      }
+    ]
   },
   {
     "name": "Telemon Heavy Dreadnought",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
-    "points": 225,
+    "points": 280,
     "models": 1,
     "move": "8\"",
     "toughness": "10",
@@ -1836,13 +1968,24 @@
         "d": "3"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 280
+      },
+      {
+        "from": 2,
+        "points": 310
+      }
+    ]
   },
   {
     "name": "Coronus Grav-carrier",
     "faction": "Adeptus Custodes",
     "alliance": "imperium",
-    "points": 180,
+    "points": 225,
     "models": 1,
     "move": "12\"",
     "toughness": "12",
@@ -1898,7 +2041,18 @@
         "keywords": "Sustained Hits 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 225
+      },
+      {
+        "from": 3,
+        "points": 245
+      }
+    ]
   },
   {
     "name": "Orion Assault Dropship",
@@ -1969,7 +2123,18 @@
         "keywords": "Sustained Hits 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 690
+      },
+      {
+        "from": 2,
+        "points": 740
+      }
+    ]
   },
   {
     "name": "Ares Gunship",
@@ -2028,7 +2193,18 @@
         "keywords": "Extra Attacks"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 580
+      },
+      {
+        "from": 2,
+        "points": 610
+      }
+    ]
   },
   {
     "name": "Guardian of the Throne [Crucible]",

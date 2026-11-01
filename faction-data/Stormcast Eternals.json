@@ -1,21 +1,5 @@
 [
   {
-    "name": "Battle Traits: Stormcast Eternals",
-    "faction": "Stormcast Eternals",
-    "points": 0,
-    "models": 1,
-    "move": "",
-    "wounds": 1,
-    "save": "",
-    "ward": 0,
-    "weapons": [],
-    "abilities": "Heavens-sent: Once Per Battle, Your Movement Phase Pick a friendly non-Unique Stormcast Eternals Infantry or Cavalry unit that started the battle with 2 or more models and that has been destroyed to be the target. Set up a replacement unit with half the number of models from the target unit (rounding up) more than 9\" from all enemy units.\nTheir Finest Hour: Once Per Turn (Army), Your Hero Phase Pick a friendly Stormcast Eternals unit that has not used this ability this battle to use this ability For the rest of the turn, add 1 to wound rolls for that unit's combat attacks and add 1 to save rolls for that unit.\nScions of the Storm: Your Movement Phase Pick a friendly Stormcast Eternals unit that is in the Celestial Realm. Set up that unit anywhere on the battlefield more than 9\" from all enemy units.\nThe Celestial Realm: Deployment Phase If there are more friendly Stormcast Eternals units on the battlefield than there are set up in reserve, pick a friendly Stormcast Eternals unit that has not been deployed. Set up that unit in reserve in the Celestial Realm. It has now been deployed.\nKeywords: Deploy",
-    "categories": [],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": []
-  },
-  {
     "name": "Neave Blacktalon",
     "faction": "Stormcast Eternals",
     "points": 280,
@@ -1864,55 +1848,6 @@
     "enhancementTypes": []
   },
   {
-    "name": "Dracothian Guard Concussors",
-    "faction": "Stormcast Eternals",
-    "points": 120,
-    "models": 2,
-    "move": "10\"",
-    "wounds": 5,
-    "save": 3,
-    "ward": 0,
-    "weapons": [
-      {
-        "name": "Stormblast",
-        "models": "",
-        "attacks": "1",
-        "hit": "3",
-        "wound": "3",
-        "rend": "2",
-        "damage": "D3"
-      },
-      {
-        "name": "Lightning Hammer",
-        "models": "",
-        "attacks": "3",
-        "hit": "3",
-        "wound": "2",
-        "rend": "1",
-        "damage": "2"
-      },
-      {
-        "name": "Dracoth's Claws and Fangs",
-        "models": "",
-        "attacks": "3",
-        "hit": "4",
-        "wound": "2",
-        "rend": "2",
-        "damage": "2"
-      }
-    ],
-    "abilities": "Thunderstruck: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll a dice. On a 3+, the target cannot use commands for the rest of the turn.",
-    "categories": [
-      "ORDER",
-      "STORMCAST ETERNALS",
-      "EXTREMIS CHAMBER",
-      "CAVALRY"
-    ],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": []
-  },
-  {
     "name": "Annihilators with Meteoric Grandhammers",
     "faction": "Stormcast Eternals",
     "points": 180,
@@ -2162,55 +2097,6 @@
     "enhancementTypes": []
   },
   {
-    "name": "Dracothian Guard Desolators",
-    "faction": "Stormcast Eternals",
-    "points": 100,
-    "models": 2,
-    "move": "10\"",
-    "wounds": 5,
-    "save": 3,
-    "ward": 0,
-    "weapons": [
-      {
-        "name": "Stormblast",
-        "models": "",
-        "attacks": "1",
-        "hit": "3",
-        "wound": "3",
-        "rend": "2",
-        "damage": "D3"
-      },
-      {
-        "name": "Thunderaxe",
-        "models": "",
-        "attacks": "3",
-        "hit": "3",
-        "wound": "3",
-        "rend": "1",
-        "damage": "2"
-      },
-      {
-        "name": "Dracoth's Claws and Fangs",
-        "models": "",
-        "attacks": "3",
-        "hit": "4",
-        "wound": "2",
-        "rend": "2",
-        "damage": "2"
-      }
-    ],
-    "abilities": "Cleaving Blow: Add 1 to the Damage characteristic of this unit's Thunderaxes if the target unit has 10 or more models.",
-    "categories": [
-      "ORDER",
-      "STORMCAST ETERNALS",
-      "EXTREMIS CHAMBER",
-      "CAVALRY"
-    ],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": []
-  },
-  {
     "name": "Dracothian Guard Fulminators",
     "faction": "Stormcast Eternals",
     "points": 190,
@@ -2260,55 +2146,6 @@
     "enhancementTypes": []
   },
   {
-    "name": "Dracothian Guard Fulminators",
-    "faction": "Stormcast Eternals",
-    "points": 100,
-    "models": 2,
-    "move": "10\"",
-    "wounds": 5,
-    "save": 3,
-    "ward": 0,
-    "weapons": [
-      {
-        "name": "Stormblast",
-        "models": "",
-        "attacks": "1",
-        "hit": "3",
-        "wound": "3",
-        "rend": "2",
-        "damage": "D3"
-      },
-      {
-        "name": "Stormstrike Glaive",
-        "models": "",
-        "attacks": "3",
-        "hit": "3",
-        "wound": "3",
-        "rend": "1",
-        "damage": "2"
-      },
-      {
-        "name": "Dracoth's Claws and Fangs",
-        "models": "",
-        "attacks": "3",
-        "hit": "4",
-        "wound": "2",
-        "rend": "2",
-        "damage": "2"
-      }
-    ],
-    "abilities": "Impaling Strikes: Any Charge Phase If this unit charged this phase, pick an enemy unit within 1\" of it to be the target. Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll.",
-    "categories": [
-      "ORDER",
-      "STORMCAST ETERNALS",
-      "EXTREMIS CHAMBER",
-      "CAVALRY"
-    ],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": []
-  },
-  {
     "name": "Gryph-hounds",
     "faction": "Stormcast Eternals",
     "points": 90,
@@ -2337,64 +2174,6 @@
     ],
     "isHero": false,
     "canReinforce": true,
-    "enhancementTypes": []
-  },
-  {
-    "name": "Dracothian Guard Tempestors",
-    "faction": "Stormcast Eternals",
-    "points": 90,
-    "models": 2,
-    "move": "10\"",
-    "wounds": 5,
-    "save": 3,
-    "ward": 0,
-    "weapons": [
-      {
-        "name": "Volleystorm Crossbow",
-        "models": "",
-        "attacks": "3",
-        "hit": "3",
-        "wound": "3",
-        "rend": "1",
-        "damage": "1"
-      },
-      {
-        "name": "Warblade",
-        "models": "",
-        "attacks": "2",
-        "hit": "3",
-        "wound": "3",
-        "rend": "1",
-        "damage": "1"
-      },
-      {
-        "name": "Dracoth's Claws and Fangs",
-        "models": "",
-        "attacks": "3",
-        "hit": "4",
-        "wound": "2",
-        "rend": "2",
-        "damage": "2"
-      },
-      {
-        "name": "Stormblast",
-        "models": "",
-        "attacks": "1",
-        "hit": "3",
-        "wound": "3",
-        "rend": "2",
-        "damage": "D3"
-      }
-    ],
-    "abilities": "Overwhelming Volleystorm: Any Shooting Phase Pick an enemy unit that had any damage points allocated to it this turn by attacks made with this unit's Volleystorm Crossbows to be the target. Roll a dice. On a 2+, the target cannot use the 'All-out Defence' command in the following combat phase.",
-    "categories": [
-      "ORDER",
-      "STORMCAST ETERNALS",
-      "EXTREMIS CHAMBER",
-      "CAVALRY"
-    ],
-    "isHero": false,
-    "canReinforce": false,
     "enhancementTypes": []
   },
   {
@@ -2902,7 +2681,7 @@
   {
     "name": "Stormdrake Guard",
     "faction": "Stormcast Eternals",
-    "points": 310,
+    "points": 290,
     "models": 2,
     "move": "12\"",
     "wounds": 9,
@@ -2957,66 +2736,6 @@
     ],
     "isHero": false,
     "canReinforce": true,
-    "enhancementTypes": []
-  },
-  {
-    "name": "Stormdrake Guard",
-    "faction": "Stormcast Eternals",
-    "points": 160,
-    "models": 2,
-    "move": "12\"",
-    "wounds": 9,
-    "save": 3,
-    "ward": 0,
-    "weapons": [
-      {
-        "name": "Draconith's Fangs and Talons",
-        "models": "",
-        "attacks": "4",
-        "hit": "4",
-        "wound": "2",
-        "rend": "2",
-        "damage": "2"
-      },
-      {
-        "name": "Draconic Flamestream",
-        "models": "",
-        "attacks": "4",
-        "hit": "2",
-        "wound": "3",
-        "rend": "2",
-        "damage": "1"
-      },
-      {
-        "name": "Drakerider's Lance",
-        "models": "",
-        "attacks": "3",
-        "hit": "3",
-        "wound": "3",
-        "rend": "1",
-        "damage": "1"
-      },
-      {
-        "name": "Drakerider's Warblade",
-        "models": "",
-        "attacks": "6",
-        "hit": "3",
-        "wound": "3",
-        "rend": "1",
-        "damage": "1"
-      }
-    ],
-    "abilities": "Dispersed Formation: This unit has a coherency range of 2\".\nDraconic Onslaught: Once Per Turn (Army), Any Combat Phase If this unit charged this turn, roll a dice. On a 3+, this unit can move 2D6\". It can pass through the combat ranges of enemy units and can end that move in combat. Then, pick an enemy unit that this unit passed across during that move. Inflict D3 mortal damage on that enemy unit.\nKeywords: Rampage",
-    "categories": [
-      "CHAMPION",
-      "ORDER",
-      "STORMCAST ETERNALS",
-      "FLY",
-      "MONSTER",
-      "EXTREMIS CHAMBER"
-    ],
-    "isHero": false,
-    "canReinforce": false,
     "enhancementTypes": []
   },
   {

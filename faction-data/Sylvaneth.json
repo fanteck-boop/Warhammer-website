@@ -400,22 +400,6 @@
     ]
   },
   {
-    "name": "Battle Traits: Sylvaneth",
-    "faction": "Sylvaneth",
-    "points": 0,
-    "models": 1,
-    "move": "",
-    "wounds": 1,
-    "save": "",
-    "ward": 0,
-    "weapons": [],
-    "abilities": "Endless Growth: Once Per Turn (Army), End of Any Turn Pick each friendly Sylvaneth unit that is wholly within the creeping overgrowth to be the targets. For each target, roll a D3 and pick 1 of the following effects:\n\n\n• Heal (X) the target, where X is equal to the roll.\n• Return a number of slain models to it with a combined Health characteristic of up to the value of the roll.\nThe Creeping Overgrowth: The creeping overgrowth is measured from each terrain feature that has a friendly overgrown token. The range of the creeping overgrowth is based on the number of friendly, overgrown tokens on the battlefield as shown:\n\n• 0-2 overgrown tokens: 6\"\n• 3-5 overgrown tokens: 9\"\n• 6-8 overgrown tokens: 12\"\n• 9+ overgrown tokens: Whole battlefield\n\n\n*Designer's Note: Awakened Wyldwoods are your main way of generating overgrown tokens. Some unit abilities allow you to too.*\nFury of The Forest: Enemy Combat Phase Pick a friendly Sylvaneth unit wholly within the creeping overgrowth and that is in combat with only 1 enemy unit to use this ability. The unit using this ability has Strike-first for the rest of the turn.\nThe Land Awakens: End of Your Turn Pick a friendly non-Hero Revenant Infantry unit or friendly Dryads unit that has been destroyed to be the target. Setup a replacement unit with half the number of models from the target unit (rounding up) wholly within creeping overgrowth and more than 9\" from all enemy units.\nReclaimed By Nature: Once Per Turn (Army), Your Hero Phase If there are fewer than 3 friendly Awakened Wyldwoods on the battlefield, you can set up an Awakened Wyldwood on the battlefield more than 3\" from all objectives and enemy units, more than 12\" from all other friendly Awakened Wyldwoods and more than 1\" from all other terrain features.\nCreeping Dread: Once Per Turn (Army), Start of Any Turn Pick an enemy unit within the creeping overgrowth to be the target. For the rest of the turn, the first time your opponent declares a command for the target while it is not wholly within 12\" of a Hero in their army, unless your opponent spends 1 additional command point to use that command, the command has no effect, it still counts as being used and the command points spent to use the command are still lost.",
-    "categories": [],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": []
-  },
-  {
     "name": "Dryads",
     "faction": "Sylvaneth",
     "points": 100,

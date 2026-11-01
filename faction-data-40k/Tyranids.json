@@ -3,7 +3,7 @@
     "name": "Tervigon",
     "faction": "Tyranids",
     "alliance": "xenos",
-    "points": 160,
+    "points": 150,
     "models": 1,
     "move": "8\"",
     "toughness": "11",
@@ -24,7 +24,7 @@
       "Synapse"
     ],
     "abilities": [
-      "Spawn Termagants: In your Command phase, you can select one friendly TERMAGANTS unit within 6\" of this model and return up to D3+3 destroyed TERMAGANT models to that unit. A TERMAGANTS unit cannot be selected for this ",
+      "Spawn Termagants: In your Command phase, you can select one friendly TERMAGANTS unit within 6\" of this model and return up to D3+3 destroyed TERMAGANT models to that unit. A TERMAGANTS unit cannot be selected for this ability more than once per phase.",
       "Brood Progenitor (Aura, Psychic): While a friendly TERMAGANTS unit is within 6\" of this model, ranged weapons equipped by models in that unit have the [LETHAL HITS] ability."
     ],
     "weapons": [
@@ -96,7 +96,7 @@
     ],
     "abilities": [
       "Hive Commander: At the start of your Command phase, if this model is on the battlefield, you gain 1CP",
-      "Malign Presence (Aura): Once per turn, when your opponent targets a unit from their army within 12\" of this model with a **stratagem**, you can use this ability. If you do increase the CP cost of that use of that **stratagem",
+      "Malign Presence (Aura): Once per turn, when your opponent targets a unit from their army within 12\" of this model with a stratagem, you can use this ability. If you do increase the CP cost of that use of that stratagem by 1CP.",
       "Domination of the Hive Mind (Aura): While a friendly TYRANIDS unit is within 9\" of this model, that unit is within your army’s Synapse Range.",
       "Leader: This model can be attached to the following unit:\n- **^^Tyrant Guard^^**"
     ],
@@ -173,7 +173,7 @@
     "name": "Old One Eye",
     "faction": "Tyranids",
     "alliance": "xenos",
-    "points": 140,
+    "points": 130,
     "models": 1,
     "move": "8\"",
     "toughness": "9",
@@ -225,7 +225,7 @@
     "faction": "Tyranids",
     "alliance": "xenos",
     "points": 60,
-    "models": 1,
+    "models": 3,
     "move": "6\"",
     "toughness": "5",
     "save": "4+",
@@ -312,7 +312,7 @@
     "faction": "Tyranids",
     "alliance": "xenos",
     "points": 75,
-    "models": 1,
+    "models": 3,
     "move": "6\"",
     "toughness": "5",
     "save": "4+",
@@ -331,7 +331,7 @@
       "Tyranid Warriors"
     ],
     "abilities": [
-      "Adaptive Instincts (Once per turn, per unit): In the Fight phase, when this unit is **selected to fight** or when an enemy unit targets this unit, you can select one of the following:\n▪ This unit’s melee attacks have +1 **S**.\n▪ <ins>Or</ins>: Th"
+      "Adaptive Instincts (Once per turn, per unit): In the Fight phase, when this unit is selected to fight or when an enemy unit targets this unit, you can select one of the following: ▪ This unit’s melee attacks have +1 S. ▪ <ins>Or</ins>: This unit has +1 T."
     ],
     "weapons": [
       {
@@ -351,14 +351,14 @@
     "name": "Termagants",
     "faction": "Tyranids",
     "alliance": "xenos",
-    "points": 60,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "points": 55,
+    "models": 10,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "1",
+    "leadership": "8+",
+    "objectiveControl": "2",
     "invulnerableSave": "",
     "role": "INFANTRY",
     "isHero": false,
@@ -371,7 +371,7 @@
       "Termagants"
     ],
     "abilities": [
-      "Skulking Horrors: In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up t"
+      "Skulking Horrors: In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to D6\"."
     ],
     "weapons": [
       {
@@ -422,7 +422,7 @@
     "faction": "Tyranids",
     "alliance": "xenos",
     "points": 70,
-    "models": 1,
+    "models": 10,
     "move": "10\"",
     "toughness": "3",
     "save": "5+",
@@ -478,8 +478,8 @@
       "Toxicrene"
     ],
     "abilities": [
-      "Grasping Tendrils: Each time an enemy unit (excluding Titanic units) within Engagement Range of one or more units from your army with this ability is selected to Fall Back, you can roll one D6: on a 3+, that enemy unit ",
-      "Hypertoxic Miasma (Aura): At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit "
+      "Grasping Tendrils: Each time an enemy unit (excluding Titanic units) within Engagement Range of one or more units from your army with this ability is selected to Fall Back, you can roll one D6: on a 3+, that enemy unit must Remain Stationary instead.",
+      "Hypertoxic Miasma (Aura): At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds."
     ],
     "weapons": [
       {
@@ -510,7 +510,7 @@
     "faction": "Tyranids",
     "alliance": "xenos",
     "points": 80,
-    "models": 1,
+    "models": 3,
     "move": "6\"",
     "toughness": "8",
     "save": "3+",
@@ -565,7 +565,7 @@
     "name": "Neurotyrant",
     "faction": "Tyranids",
     "alliance": "xenos",
-    "points": 130,
+    "points": 120,
     "models": 1,
     "move": "6\"",
     "toughness": "8",
@@ -589,7 +589,7 @@
     ],
     "abilities": [
       "Node Lash (Psychic): While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. If the target is Battle-shocked, add 1 to the Wound roll as well.",
-      "Psychic Terror (Psychic): If one or more Neurotyrants from your army are on the battlefield when you unleash the Shadow in the Warp, subtract 1 from the Battle-shock test each enemy unit on the battlefield must take as a resul",
+      "Psychic Terror (Psychic): If one or more Neurotyrants from your army are on the battlefield when you unleash the Shadow in the Warp, subtract 1 from the Battle-shock test each enemy unit on the battlefield must take as a result.",
       "Synaptic Relays: In your Command phase, you can select up to two friendly Tyranids units within 18\" of this model’s unit. Until the start of your next Command phase, the selected units are always considered to be with",
       "Leader: This model can be attached to the following units:\n- **^^Neurogaunts^^**\n- **^^Tyrant Guard^^**\n- **^^Zoanthropes^^**"
     ],
@@ -640,7 +640,7 @@
       "Synapse"
     ],
     "abilities": [
-      "Encephalic Diffusion (Aura, Psychic): While an enemy unit is within 6\" of this model, each time a model in that unit makes an attack, subtract 1 from the Hit roll, and, if that enemy unit is Below Half-strength, subtract 1 from the Wound "
+      "Encephalic Diffusion (Aura, Psychic): While an enemy unit is within 6\" of this model, each time a model in that unit makes an attack, subtract 1 from the Hit roll, and, if that enemy unit is Below Half-strength, subtract 1 from the Wound roll as well."
     ],
     "weapons": [
       {
@@ -672,7 +672,18 @@
         "keywords": "Blast, Psychic"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 180
+      },
+      {
+        "from": 3,
+        "points": 190
+      }
+    ]
   },
   {
     "name": "Pyrovores",
@@ -720,7 +731,18 @@
         "d": "1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 40
+      },
+      {
+        "from": 3,
+        "points": 50
+      }
+    ]
   },
   {
     "name": "Haruspex",
@@ -745,7 +767,7 @@
       "Harvester"
     ],
     "abilities": [
-      "Grisly Spectacle: Each time this model is selected to fight, after resolving its attacks, if one or more enemy units were destroyed by those attacks, each enemy unit within 6\" of this model must take a Battle-shock tes"
+      "Grisly Spectacle: Each time this model is selected to fight, after resolving its attacks, if one or more enemy units were destroyed by those attacks, each enemy unit within 6\" of this model must take a Battle-shock test."
     ],
     "weapons": [
       {
@@ -778,14 +800,25 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 125
+      },
+      {
+        "from": 3,
+        "points": 135
+      }
+    ]
   },
   {
     "name": "Venomthropes",
     "faction": "Tyranids",
     "alliance": "xenos",
     "points": 55,
-    "models": 1,
+    "models": 3,
     "move": "6\"",
     "toughness": "5",
     "save": "4+",
@@ -824,7 +857,7 @@
     "faction": "Tyranids",
     "alliance": "xenos",
     "points": 45,
-    "models": 1,
+    "models": 11,
     "move": "6\"",
     "toughness": "3",
     "save": "6+",
@@ -863,14 +896,14 @@
     "faction": "Tyranids",
     "alliance": "xenos",
     "points": 90,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 3,
+    "move": "5\"",
+    "toughness": "5",
+    "save": "5+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
+    "invulnerableSave": "4+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -883,7 +916,7 @@
       "Synapse"
     ],
     "abilities": [
-      "Spirit Leech (Aura, Psychic): While an enemy unit is within 6\" of this unit, if it contains a Neurothrope, each time that enemy unit fails a Battle-shock test, it suffers D3 mortal wounds and one model in this unit regains up to D",
+      "Spirit Leech (Aura, Psychic): While an enemy unit is within 6\" of this unit, if it contains a Neurothrope, each time that enemy unit fails a Battle-shock test, it suffers D3 mortal wounds and one model in this unit regains up to D3 lost wounds.",
       "Warp Field (Aura, Psychic): While a friendly TYRANIDS unit is within 6\" of this unit, models in that unit have a 6+ invulnerable save."
     ],
     "weapons": [
@@ -916,12 +949,12 @@
     "alliance": "xenos",
     "points": 55,
     "models": 3,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "move": "4\"",
+    "toughness": "1",
+    "save": "7+",
+    "wounds": "1",
+    "leadership": "8+",
+    "objectiveControl": "0",
     "invulnerableSave": "",
     "role": "BEAST",
     "isHero": false,
@@ -958,7 +991,7 @@
       "Exocrine"
     ],
     "abilities": [
-      "Symbiotic Targeting: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly TYRANIDS model makes an attack that targe"
+      "Symbiotic Targeting: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly TYRANIDS model makes an attack that targets that unit, re-roll a Hit roll of 1."
     ],
     "weapons": [
       {
@@ -981,7 +1014,18 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 135
+      },
+      {
+        "from": 3,
+        "points": 145
+      }
+    ]
   },
   {
     "name": "Biovores",
@@ -1005,7 +1049,7 @@
       "Biovore"
     ],
     "abilities": [
-      "Seed Spore Mines: Once per turn, in your Shooting Phase, when selected to shoot, one unit with this ability can use it instead of making any attacks with its ranged weapons. If it does, you can add one new **SPORE MINE"
+      "Seed Spore Mines: Once per turn, in your Shooting Phase, when selected to shoot, one unit with this ability can use it instead of making any attacks with its ranged weapons. If it does, you can add one new SPORE MINES unit to your army and set it up anywhere on the battlefield that is wholly within 48\" of this unit and more than 8\" horizontally away from all enemy units. That SPORE MINES unit contains 1 model for each model in this unit."
     ],
     "weapons": [
       {
@@ -1075,14 +1119,25 @@
         "d": "3"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 125
+      },
+      {
+        "from": 3,
+        "points": 135
+      }
+    ]
   },
   {
     "name": "Hive Guard",
     "faction": "Tyranids",
     "alliance": "xenos",
     "points": 80,
-    "models": 1,
+    "models": 3,
     "move": "6\"",
     "toughness": "7",
     "save": "3+",
@@ -1099,7 +1154,7 @@
       "Hive Guard"
     ],
     "abilities": [
-      "Defensive Stance: Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or unmodified Hit rolls of 4+ instead if this unit is w"
+      "Defensive Stance: Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or unmodified Hit rolls of 4+ instead if this unit is within range of an objective marker that you control."
     ],
     "weapons": [
       {
@@ -1133,7 +1188,18 @@
         "keywords": "Heavy, Indirect Fire"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 80
+      },
+      {
+        "from": 3,
+        "points": 90
+      }
+    ]
   },
   {
     "name": "Tyrannofex",
@@ -1209,7 +1275,18 @@
         "keywords": "Heavy"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 170
+      },
+      {
+        "from": 3,
+        "points": 180
+      }
+    ]
   },
   {
     "name": "Hive Crone",
@@ -1315,7 +1392,7 @@
       "Vanguard Invader"
     ],
     "abilities": [
-      "Spore Mine Cysts: At the end of your opponent’s Fight phase, you can do one of the following:\n- Select one **visible** enemy unit (excluding **Lone Operative** units) within 24\" of this unit and roll six D6 for that un"
+      "Spore Mine Cysts: At the end of your opponent’s Fight phase, you can do one of the following: - Select one visible enemy unit (excluding Lone Operative units) within 24\" of this unit and roll six D6 for that unit: for each 3+, that unit suffers 1 mortal wound. - Add a new SPORE MINES unit containing D3 models to your army and set it up anywhere on the battlefield that is within 6\" of this model and more than 8\" horizontally away from all enemy units. You cannot select this option for more than one model per turn."
     ],
     "weapons": [
       {
@@ -1381,8 +1458,8 @@
       "Great Devourer"
     ],
     "abilities": [
-      "Seed Mucolids: Once per turn, in your shooting phase, when selected to shoot, one unit with this ability can use it instead of making any attacks with it's ranged weapons. If it does, you can add one new **MUCOLID S",
-      "Hive Defences: You can target this model with the Fire Overwatch stratagem for 0CP, and can do so even if you have already targeted a different unit with that stratagem this turn. This model can only be targeted wit"
+      "Seed Mucolids: Once per turn, in your shooting phase, when selected to shoot, one unit with this ability can use it instead of making any attacks with it's ranged weapons. If it does, you can add one new MUCOLID SPORES containing 1 model to your army and set it up anywhere on the battlefield that is wholly within 18\" of this model and more than 8\" horizontally away from all enemy units.",
+      "Hive Defences: You can target this model with the Fire Overwatch stratagem for 0CP, and can do so even if you have already targeted a different unit with that stratagem this turn. This model can only be targeted with that Stratagem once per turn"
     ],
     "weapons": [
       {
@@ -1431,7 +1508,7 @@
       "Smoke"
     ],
     "abilities": [
-      "Bio-stimulus: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly **TYRANIDS** unit makes a melee attack tha",
+      "Bio-stimulus: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly TYRANIDS unit makes a melee attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn.",
       "Feeding Frenzy: Each time this model makes a melee attack that targets a unit that is below its Starting Strength, add 1 to the Hit roll. If that target is also Below Half strength, add 1 to the Wound roll as well."
     ],
     "weapons": [
@@ -1462,7 +1539,7 @@
     "name": "Barbgaunts",
     "faction": "Tyranids",
     "alliance": "xenos",
-    "points": 55,
+    "points": 50,
     "models": 5,
     "move": "6\"",
     "toughness": "4",
@@ -1480,7 +1557,7 @@
       "Great Devourer"
     ],
     "abilities": [
-      "Disruption Bombardment: In your Shooting phase, after this unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks. Until the end of your opponent’s next turn, that enemy unit is disrupted. While a "
+      "Disruption Bombardment: In your Shooting phase, after this unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks. Until the end of your opponent’s next turn, that enemy unit is disrupted. While a unit is disrupted, subtract 2 from its Move characteristic, and subtract 2 from Advance and Charge rolls made for it."
     ],
     "weapons": [
       {
@@ -1529,7 +1606,7 @@
       "Frame"
     ],
     "abilities": [
-      "Overgrown Barbs: In your Shooting phase, after this model has shot, select one enemy unit (excluding Titanic units) that was hit by one or more of those attacks. Until the start of your next turn, while this model is "
+      "Overgrown Barbs: In your Shooting phase, after this model has shot, select one enemy unit (excluding Titanic units) that was hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
     ],
     "weapons": [
       {
@@ -1629,7 +1706,7 @@
     ],
     "abilities": [
       "Damaged: 1-10 wounds remaining: While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-      "Frenzied Metabolism: Each time this model is selected to shoot, you can use this ability. If you do, until the end of the phase, each time this model makes an attack, add 1 to the Wound roll. After resolving those attacks"
+      "Frenzied Metabolism: Each time this model is selected to shoot, you can use this ability. If you do, until the end of the phase, each time this model makes an attack, add 1 to the Wound roll. After resolving those attacks, roll one D6: on a 2+, this model suffers D3 mortal wounds."
     ],
     "weapons": [
       {
@@ -1652,7 +1729,18 @@
         "d": "D6"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 610
+      },
+      {
+        "from": 2,
+        "points": 660
+      }
+    ]
   },
   {
     "name": "Hierophant",
@@ -1725,14 +1813,25 @@
         "d": "D6+1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 810
+      },
+      {
+        "from": 2,
+        "points": 910
+      }
+    ]
   },
   {
     "name": "Genestealers",
     "faction": "Tyranids",
     "alliance": "xenos",
     "points": 75,
-    "models": 1,
+    "models": 5,
     "move": "8\"",
     "toughness": "4",
     "save": "5+",
@@ -1763,7 +1862,18 @@
         "d": "1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 75
+      },
+      {
+        "from": 3,
+        "points": 85
+      }
+    ]
   },
   {
     "name": "Dimachaeron [Legends]",
@@ -1788,7 +1898,7 @@
       "Frame"
     ],
     "abilities": [
-      "Digestion Spine: Each time this model fights, after it has resolved its attacks, if one or more enemy models (excluding Vehicle models) were destroyed as the result of those attacks, this model regains up to D3 mortal"
+      "Digestion Spine: Each time this model fights, after it has resolved its attacks, if one or more enemy models (excluding Vehicle models) were destroyed as the result of those attacks, this model regains up to D3 mortal wounds."
     ],
     "weapons": [
       {
@@ -1809,7 +1919,7 @@
     "faction": "Tyranids",
     "alliance": "xenos",
     "points": 60,
-    "models": 1,
+    "models": 3,
     "move": "12\"",
     "toughness": "2",
     "save": "6+",
@@ -1953,7 +2063,18 @@
         "keywords": "Extra Attacks"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 250
+      },
+      {
+        "from": 2,
+        "points": 270
+      }
+    ]
   },
   {
     "name": "Norn Emissary",
@@ -2033,7 +2154,18 @@
         "keywords": "Blast, Psychic"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 250
+      },
+      {
+        "from": 2,
+        "points": 270
+      }
+    ]
   },
   {
     "name": "Hive Tyrant",

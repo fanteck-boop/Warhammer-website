@@ -634,7 +634,7 @@
     "faction": "T'au Empire",
     "alliance": "xenos",
     "points": 65,
-    "models": 1,
+    "models": 3,
     "move": "6\"",
     "toughness": "3",
     "save": "5+",
@@ -705,7 +705,7 @@
     "abilities": [
       "Inspirational Defiance: While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit.",
       "Leader: This model can be attached to the following units:\n- **BREACHER TEAM**\n- **KROOT CARNIVORES**\n- **KROOT FARSTALKERS**\n- **STRIKE TEAM**",
-      "Martial Warrior: Each time this model is selected to fight, select one of the following abilities to be active while resolving those attacks:\n- Direct Grace: Fidelity has the [PRECISION] ability.\n- Forceful Strike: Fi"
+      "Martial Warrior: Each time this model is selected to fight, select one of the following abilities to be active while resolving those attacks: - Direct Grace: Fidelity has the [PRECISION] ability. - Forceful Strike: Fidelity has the [DEVASTATING WOUNDS] ability. - Whirling Stance: Fidelity has the [SUSTAINED HITS 2] ability instead of [SUSTAINED HITS 1]."
     ],
     "weapons": [
       {
@@ -892,7 +892,7 @@
     "faction": "T'au Empire",
     "alliance": "xenos",
     "points": 70,
-    "models": 1,
+    "models": 10,
     "move": "6\"",
     "toughness": "3",
     "save": "4+",
@@ -913,8 +913,8 @@
       "Non-Kroot"
     ],
     "abilities": [
-      "Suppression Volley: In your Shooting phase, after this unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks. Until the start of your next turn, while unit is on the battlefield, that enemy un",
-      "DS8 Support Turret: In your Movement phase, if this unit Remains Stationary, until the start of your next turn, its Shas’ui model is equipped with the support turret weapon.\n\nDesigner’s Note: Place a Support Turret token"
+      "Suppression Volley: In your Shooting phase, after this unit has shot, select one enemy INFANTRY unit hit by one or more of those attacks. Until the start of your next turn, while unit is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+      "DS8 Support Turret: In your Movement phase, if this unit Remains Stationary, until the start of your next turn, its Shas’ui model is equipped with the support turret weapon. Designer’s Note: Place a Support Turret token next to this unit to remind you."
     ],
     "weapons": [
       {
@@ -983,8 +983,8 @@
     "name": "Breacher Team",
     "faction": "T'au Empire",
     "alliance": "xenos",
-    "points": 90,
-    "models": 9,
+    "points": 80,
+    "models": 10,
     "move": "6\"",
     "toughness": "3",
     "save": "4+",
@@ -1006,7 +1006,7 @@
     ],
     "abilities": [
       "Breach and Clear: Each time a model in this unit makes a ranged attack that targets an enemy unit within range of an objective marker, you can re-roll the Wound roll.",
-      "DS8 Support Turret: In your Movement phase, if this unit Remains Stationary, until the start of your next turn, its Shas’ui model is equipped with the support turret weapon.\n\nDesigner’s Note: Place a Support Turret token"
+      "DS8 Support Turret: In your Movement phase, if this unit Remains Stationary, until the start of your next turn, its Shas’ui model is equipped with the support turret weapon. Designer’s Note: Place a Support Turret token next to this unit to remind you."
     ],
     "weapons": [
       {
@@ -1067,7 +1067,7 @@
     "faction": "T'au Empire",
     "alliance": "xenos",
     "points": 65,
-    "models": 1,
+    "models": 10,
     "move": "7\"",
     "toughness": "3",
     "save": "6+",
@@ -1085,7 +1085,7 @@
       "Carnivores"
     ],
     "abilities": [
-      "Fieldcraft: At the end of the your Command phase, if this unit within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, unt",
+      "Fieldcraft: At the end of the your Command phase, if this unit within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
       "Bodyguard: If this unit has a Starting Strength of 20, you can attach up to two Leader units to it instead of one, provided those Leaders are not duplicates (e.g. you cannot attach two WAR SHAPERS to this unit)."
     ],
     "weapons": [
@@ -1155,7 +1155,7 @@
       "Grenades"
     ],
     "abilities": [
-      "Kroot Packmates: Once per turn, in your opponent's Shooting phase, when a friendly KROOT INFANTRY unit within 6\" of this unit is selected as the target of an attack, one unit from your army with this ability can use i"
+      "Kroot Packmates: Once per turn, in your opponent's Shooting phase, when a friendly KROOT INFANTRY unit within 6\" of this unit is selected as the target of an attack, one unit from your army with this ability can use it. If it does, after that enemy unit has finished making its attacks, that unit with this ability can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)."
     ],
     "weapons": [
       {
@@ -1206,7 +1206,7 @@
     "faction": "T'au Empire",
     "alliance": "xenos",
     "points": 200,
-    "models": 2,
+    "models": 3,
     "move": "10\"",
     "toughness": "5",
     "save": "3+",
@@ -1324,7 +1324,7 @@
     "faction": "T'au Empire",
     "alliance": "xenos",
     "points": 100,
-    "models": 1,
+    "models": 5,
     "move": "8\"",
     "toughness": "4",
     "save": "3+",
@@ -1345,7 +1345,7 @@
       "Non-Kroot"
     ],
     "abilities": [
-      "Forward Observers: Each time this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in a Guided unit that targets their Spotted unit, re-roll a Hit roll of 1 and re-roll "
+      "Forward Observers: Each time this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in a Guided unit that targets their Spotted unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
     ],
     "weapons": [
       {
@@ -1397,7 +1397,18 @@
         "keywords": "Pistol"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 100
+      },
+      {
+        "from": 3,
+        "points": 110
+      }
+    ]
   },
   {
     "name": "Ghostkeel Battlesuit",
@@ -1425,7 +1436,7 @@
       "Non-Kroot"
     ],
     "abilities": [
-      "Stealth Drones: Twice per battle, after an attack has been allocated to this model, you can change the Damage characteristic of that attack to 0.\n\nDesigner’s Note: Place two Stealth Drone tokens next to the unit, rem",
+      "Stealth Drones: Twice per battle, after an attack has been allocated to this model, you can change the Damage characteristic of that attack to 0. Designer’s Note: Place two Stealth Drone tokens next to the unit, removing one each time this ability has been used.",
       "Battlesuit Support System: The bearer is eligible to shoot in a turn in which it Fell Back but it loses the **^^Smoke^^** keyword."
     ],
     "weapons": [
@@ -1498,7 +1509,18 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 150
+      },
+      {
+        "from": 3,
+        "points": 165
+      }
+    ]
   },
   {
     "name": "Firesight Team",
@@ -1564,7 +1586,7 @@
     "faction": "T'au Empire",
     "alliance": "xenos",
     "points": 85,
-    "models": 1,
+    "models": 10,
     "move": "7\"",
     "toughness": "3",
     "save": "4+",
@@ -1638,7 +1660,18 @@
         "keywords": "Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 85
+      },
+      {
+        "from": 3,
+        "points": 100
+      }
+    ]
   },
   {
     "name": "Piranhas",
@@ -1698,14 +1731,25 @@
         "keywords": "One Shot"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 65
+      },
+      {
+        "from": 3,
+        "points": 75
+      }
+    ]
   },
   {
     "name": "Vespid Stingwings",
     "faction": "T'au Empire",
     "alliance": "xenos",
     "points": 70,
-    "models": 1,
+    "models": 5,
     "move": "12\"",
     "toughness": "4",
     "save": "4+",
@@ -1724,7 +1768,7 @@
     ],
     "abilities": [
       "Airborne Agility: At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.",
-      "Oversight Drone: Once per battle, when the bearer’s unit is selected to shoot, until the end of the phase, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability.\n\nDesigner’s Note: Place an Ov"
+      "Oversight Drone: Once per battle, when the bearer’s unit is selected to shoot, until the end of the phase, ranged weapons equipped by models in this unit have the [IGNORES COVER] ability. Designer’s Note: Place an Oversight Drone token next to the bearer, removing it once this ability has been used."
     ],
     "weapons": [
       {
@@ -1784,7 +1828,7 @@
     "faction": "T'au Empire",
     "alliance": "xenos",
     "points": 45,
-    "models": 1,
+    "models": 5,
     "move": "12\"",
     "toughness": "3",
     "save": "6+",
@@ -1801,7 +1845,7 @@
       "Hounds"
     ],
     "abilities": [
-      "Loping Pounce: At the start of your Command phase, if this unit is within 6\" of one or more friendly KROOT INFANTRY units, then until the end of the turn, this unit is eligible to declare a charge in a turn in which",
+      "Loping Pounce: At the start of your Command phase, if this unit is within 6\" of one or more friendly KROOT INFANTRY units, then until the end of the turn, this unit is eligible to declare a charge in a turn in which it Advanced.",
       "Hunting Hounds: While this unit is within 12\" of one or more friendly KROOT CHARACTER models, the Objective Control characteristic of models in this unit is 1."
     ],
     "weapons": [
@@ -1894,7 +1938,18 @@
         "keywords": "One Shot"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 75
+      },
+      {
+        "from": 3,
+        "points": 95
+      }
+    ]
   },
   {
     "name": "Riptide Battlesuit",
@@ -1921,7 +1976,7 @@
       "Non-Kroot"
     ],
     "abilities": [
-      "Nova Charge: Once per battle, when this unit is selected to shoot in your Shooting phase, select one ranged weapon equipped by this model. Until the end of the phase, that weapon has the **[DEVASTATING WOUNDS]** a"
+      "Nova Charge: Once per battle, when this unit is selected to shoot in your Shooting phase, select one ranged weapon equipped by this model. Until the end of the phase, that weapon has the [DEVASTATING WOUNDS] ability."
     ],
     "weapons": [
       {
@@ -1992,7 +2047,18 @@
         "keywords": "Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 190
+      },
+      {
+        "from": 3,
+        "points": 220
+      }
+    ]
   },
   {
     "name": "Hammerhead Gunship",
@@ -2091,7 +2157,18 @@
         "keywords": "Extra Attacks"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 150
+      },
+      {
+        "from": 3,
+        "points": 160
+      }
+    ]
   },
   {
     "name": "Sky Ray Gunship",
@@ -2199,7 +2276,7 @@
       "Frame"
     ],
     "abilities": [
-      "Rapid Deployment: Units can disembark from this TRANSPORT after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act norma"
+      "Rapid Deployment: Units can disembark from this TRANSPORT after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
     ],
     "weapons": [
       {
@@ -2252,7 +2329,18 @@
         "keywords": "Extra Attacks"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 75
+      },
+      {
+        "from": 4,
+        "points": 85
+      }
+    ]
   },
   {
     "name": "Razorshark Strike Fighter",
@@ -2366,7 +2454,7 @@
       "Non-Kroot"
     ],
     "abilities": [
-      "Pulse Bombs: At the end of your opponent’s Fight phase, select one visible enemy unit (excluding Lone Operative units) within 24\" of this unit, and roll six D6 for that unit: For each 4+, that unit suffers 1 morta"
+      "Pulse Bombs: At the end of your opponent’s Fight phase, select one visible enemy unit (excluding Lone Operative units) within 24\" of this unit, and roll six D6 for that unit: For each 4+, that unit suffers 1 mortal wound."
     ],
     "weapons": [
       {
@@ -2435,7 +2523,7 @@
     "name": "Tidewall Shieldline",
     "faction": "T'au Empire",
     "alliance": "xenos",
-    "points": 85,
+    "points": 20,
     "models": 1,
     "move": "4\"",
     "toughness": "8",
@@ -2674,7 +2762,18 @@
         "keywords": "Ignores Cover, Torrent, Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 375
+      },
+      {
+        "from": 2,
+        "points": 400
+      }
+    ]
   },
   {
     "name": "Tactical Drones [Legends]",
@@ -2728,7 +2827,7 @@
     "faction": "T'au Empire",
     "alliance": "xenos",
     "points": 75,
-    "models": 2,
+    "models": 12,
     "move": "7\"",
     "toughness": "3",
     "save": "6+",
@@ -2746,7 +2845,7 @@
       "Farstalkers"
     ],
     "abilities": [
-      "Bounty Hunters: At the start of the battle, select one unit from your opponent’s army. Each time a model in this unit makes an attack that targets that unit, that attack has the [LETHAL HITS] and [PRECISION] abilitie",
+      "Bounty Hunters: At the start of the battle, select one unit from your opponent’s army. Each time a model in this unit makes an attack that targets that unit, that attack has the [LETHAL HITS] and [PRECISION] abilities.",
       "Pech'ra: Ranged weapons equipped by the bearer’s unit have the [IGNORES COVER] ability."
     ],
     "weapons": [
@@ -2819,7 +2918,18 @@
         "d": "1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 75
+      },
+      {
+        "from": 3,
+        "points": 85
+      }
+    ]
   },
   {
     "name": "R'varna Battlesuit [Legends]",
@@ -2846,7 +2956,7 @@
       "Non-Kroot"
     ],
     "abilities": [
-      "Nova Shielding: Once per battle, when this model is selected as the target of a ranged attack, it can use this ability. If it does, until the end of the phase, each time an attack targets this model, if the Strength "
+      "Nova Shielding: Once per battle, when this model is selected as the target of a ranged attack, it can use this ability. If it does, until the end of the phase, each time an attack targets this model, if the Strength characteristic of that attack is greater than the Toughness characteristic of this model, subtract 1 from the Wound roll."
     ],
     "weapons": [
       {
@@ -2955,7 +3065,7 @@
     "faction": "T'au Empire",
     "alliance": "xenos",
     "points": 80,
-    "models": 1,
+    "models": 2,
     "move": "14\"",
     "toughness": "7",
     "save": "4+",
@@ -3015,7 +3125,7 @@
       "Non-Kroot"
     ],
     "abilities": [
-      "Aerial Disengagement: In your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can ma"
+      "Aerial Disengagement: In your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
     ],
     "weapons": [
       {
@@ -3140,7 +3250,18 @@
         "keywords": "Indirect Fire"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 790
+      },
+      {
+        "from": 2,
+        "points": 890
+      }
+    ]
   },
   {
     "name": "Barracuda [Legends]",
@@ -3338,7 +3459,18 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 395
+      },
+      {
+        "from": 2,
+        "points": 445
+      }
+    ]
   },
   {
     "name": "AX-1-0 Tiger Shark",
@@ -3426,7 +3558,18 @@
         "keywords": "Extra Attacks"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 315
+      },
+      {
+        "from": 2,
+        "points": 375
+      }
+    ]
   },
   {
     "name": "Manta",
@@ -3456,7 +3599,7 @@
       "Frame"
     ],
     "abilities": [
-      "Aggressive Deployment: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this TRANSPOR",
+      "Aggressive Deployment: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this TRANSPORT this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll.",
       "Air Caste Colossus: Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so.",
       "Damaged: 1-20 Wounds Remaining: While this model has 1-20 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     ],
@@ -3559,7 +3702,7 @@
       "Frame"
     ],
     "abilities": [
-      "Jet Pack Insertion: At the end of your opponent’s Movement phase, one or more units embarked within this TRANSPORT can disembark from it, provided every model in each of those disembarking units has the Deep Strike abili",
+      "Jet Pack Insertion: At the end of your opponent’s Movement phase, one or more units embarked within this TRANSPORT can disembark from it, provided every model in each of those disembarking units has the Deep Strike ability.",
       "Damaged: 1-9 Wounds Remaining: While this model has 1-9 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     ],
     "weapons": [
@@ -3599,7 +3742,7 @@
     "faction": "T'au Empire",
     "alliance": "xenos",
     "points": 45,
-    "models": 1,
+    "models": 2,
     "move": "8\"",
     "toughness": "5",
     "save": "4+",
@@ -3890,7 +4033,7 @@
       "Eclipse Field Generator: While this model is leading a unit, models in that unit have a 5+ invulnerable save.",
       "Assassin: Each time this model makes an attack that targets a **^^Character^^** unit, you can re-roll the Hit roll.",
       "Leader: This model can be attached to the following unit:\n- **^^XV9 Hazard Battlesuits^^**",
-      "Blacklight Marker Drones: Twice per battle, when this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in their Guided unit that targets their Spotted unit, re-roll a Wound rol"
+      "Blacklight Marker Drones: Twice per battle, when this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in their Guided unit that targets their Spotted unit, re-roll a Wound roll of 1. Designer’s Note: *Place two Blacklight Marker Drone tokens next to this model, removing one each time this ability has been used.*"
     ],
     "weapons": [
       {
@@ -3949,7 +4092,7 @@
     ],
     "abilities": [
       "Orbital Comms Array (Aura): While a friendly T'AU EMPIRE unit is within 6\" of this FORTIFICATION, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP.",
-      "Reinforced Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against th"
+      "Reinforced Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack."
     ],
     "weapons": [],
     "system": "40k"
@@ -3978,7 +4121,7 @@
       "Frame"
     ],
     "abilities": [
-      "Reinforced Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against th",
+      "Reinforced Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this FORTIFICATION, that model has the Benefit of Cover against that attack.",
       "Sentinel Protocols: Each time you select this FORTIFICATION for the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem."
     ],
     "weapons": [
@@ -4030,14 +4173,14 @@
     "faction": "T'au Empire",
     "alliance": "xenos",
     "points": 125,
-    "models": 2,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 3,
+    "move": "10\"",
+    "toughness": "5",
+    "save": "3+",
+    "wounds": "4",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
     "role": "WAR MACHINE",
     "isHero": false,
     "canReinforce": true,
@@ -4084,14 +4227,25 @@
         "keywords": "Melta 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 125
+      },
+      {
+        "from": 3,
+        "points": 135
+      }
+    ]
   },
   {
     "name": "Crisis Fireknife Battlesuits",
     "faction": "T'au Empire",
     "alliance": "xenos",
     "points": 100,
-    "models": 2,
+    "models": 3,
     "move": "10\"",
     "toughness": "5",
     "save": "3+",
@@ -4154,14 +4308,25 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 100
+      },
+      {
+        "from": 3,
+        "points": 110
+      }
+    ]
   },
   {
     "name": "Crisis Starscythe Battlesuits",
     "faction": "T'au Empire",
     "alliance": "xenos",
     "points": 100,
-    "models": 2,
+    "models": 3,
     "move": "10\"",
     "toughness": "5",
     "save": "3+",
@@ -4225,7 +4390,18 @@
         "keywords": "Ignores Cover, Torrent"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 100
+      },
+      {
+        "from": 3,
+        "points": 110
+      }
+    ]
   },
   {
     "name": "Kroot Trail Shaper",
@@ -4252,8 +4428,8 @@
       "Leader"
     ],
     "abilities": [
-      "Kroot Ambush: After both players have deployed their armies, you can redeploy this model’s unit and one other friendly **KROOT** unit. When doing so, any of those units can be placed into Strategic Reserves, regard",
-      "Trail Finding: In your opponent’s Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up t",
+      "Kroot Ambush: After both players have deployed their armies, you can redeploy this model’s unit and one other friendly KROOT unit. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves.",
+      "Trail Finding: In your opponent’s Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to D6\".",
       "Leader: This model can be attached to the following unit:\n- **^^Kroot Carnivores^^**\n- **^^Kroot Farstalkers^^**"
     ],
     "weapons": [
@@ -4376,7 +4552,7 @@
     ],
     "abilities": [
       "Leader: This model can be attached to the following unit:\n- **^^Kroot Carnivores^^**\n- **^^Kroot Farstalkers^^**",
-      "Rites of Feasting: While this model is leading a unit, models in that unit have the Feel Not Pain 6+ ability. If that unit destroys one or more enemy units in the Fight phase, until the end of the battle, models in that",
+      "Rites of Feasting: While this model is leading a unit, models in that unit have the Feel Not Pain 6+ ability. If that unit destroys one or more enemy units in the Fight phase, until the end of the battle, models in that unit have the Feel No Pain 5+ ability instead.",
       "Ritual Butchery: While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
     ],
     "weapons": [
@@ -4426,8 +4602,8 @@
       "Lone-spear"
     ],
     "abilities": [
-      "Fire and Fade: In your Shooting phase, after this model has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this m",
-      "Advanced Scouting: Each time this model makes a ranged attack that hits an enemy unit, until the end of the turn, each time another KROOT model from your army makes an attack that targets that enemy unit, you can re-rol"
+      "Fire and Fade: In your Shooting phase, after this model has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this model is not eligible to declare a charge.",
+      "Advanced Scouting: Each time this model makes a ranged attack that hits an enemy unit, until the end of the turn, each time another KROOT model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll."
     ],
     "weapons": [
       {
@@ -4478,7 +4654,7 @@
     "faction": "T'au Empire",
     "alliance": "xenos",
     "points": 85,
-    "models": 1,
+    "models": 3,
     "move": "7\"",
     "toughness": "6",
     "save": "5+",
@@ -4496,7 +4672,7 @@
       "Krootox Rampagers"
     ],
     "abilities": [
-      "Kroot Linebreakers: Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 4"
+      "Kroot Linebreakers: Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers D3 mortal wounds. If one or more enemy models are destroyed as a result of these mortal wounds, that enemy unit must take a Battle-shock test."
     ],
     "weapons": [
       {
@@ -4530,7 +4706,18 @@
         "keywords": "Extra Attacks, Sustained Hits 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 85
+      },
+      {
+        "from": 3,
+        "points": 95
+      }
+    ]
   },
   {
     "name": "Shas'nel [Crucible]",
@@ -4923,15 +5110,15 @@
     "name": "The Twin Lance",
     "faction": "T'au Empire",
     "alliance": "xenos",
-    "points": 230,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "points": 240,
+    "models": 2,
+    "move": "10\"",
+    "toughness": "6",
+    "save": "2+",
+    "wounds": "8",
+    "leadership": "6+",
+    "objectiveControl": "2",
+    "invulnerableSave": "4+",
     "role": "HERO",
     "isHero": true,
     "canReinforce": false,
@@ -4946,7 +5133,7 @@
       "The Twin Lance"
     ],
     "abilities": [
-      "Neocapacitor Shields: At the start of your opponent’s Charge phase, you can select one visible enemy unit (excluding **MONSTER** and **VEHICLE** units) within 12\" of this unit. That unit must take a Battle-shock test and, ",
+      "Neocapacitor Shields: At the start of your opponent’s Charge phase, you can select one visible enemy unit (excluding MONSTER and VEHICLE units) within 12\" of this unit. That unit must take a Battle-shock test and, until the end of the turn, subtract 1 from Charge rolls made for that unit.",
       "Exemplars of Mont’ka: Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the **[SUSTAINED HITS 1]** and **[IGNORES COVER]** abilities.",
       "Retro-thrusters: At the end of the Fight phase, if this unit was eligible to fight this phase, this unit can either make a Normal move of up to 6\" or a Fall Back move."
     ],

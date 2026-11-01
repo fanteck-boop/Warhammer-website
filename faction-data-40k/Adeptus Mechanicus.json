@@ -24,7 +24,7 @@
       "Skitarii"
     ],
     "abilities": [
-      "Bomb Rack: At the end of your opponent’s Fight phase, select one visible enemy unit (excluding Lone Operative units) within 24\" of this unit, and roll six D6 for that unit: for each 4+, that unit suffers 1 morta",
+      "Bomb Rack: At the end of your opponent’s Fight phase, select one visible enemy unit (excluding Lone Operative units) within 24\" of this unit, and roll six D6 for that unit: for each 4+, that unit suffers 1 mortal wound.",
       "Chaff Launcher: The bearer has the Smoke keyword.",
       "Command Uplink: Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
     ],
@@ -205,7 +205,7 @@
       "Mobile"
     ],
     "abilities": [
-      "Canticles of the Omnissiah: At the start of your Command phase, select one of the abilities in the Canticles of the Omnissiah section. Until the start of your next Command phase, this model has that ability.\n\nInvocation of Machi",
+      "Canticles of the Omnissiah: At the start of your Command phase, select one of the abilities in the Canticles of the Omnissiah section. Until the start of your next Command phase, this model has that ability. Invocation of Machine Vengeance (Aura): At the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Machine Vengeance target. Each time a model in a friendly Adeptus Mechanicus unit makes an attack that targets your Machine Vengeance target, you can re‑roll the Hit roll. Mantra of Discipline: This model has the Battleline keyword and has the following ability: Binharic Courage (Aura): While a friendly Adeptus Mechanicus unit is within 6\" of this model, add 1 to the Objective Control characteristic of models in that unit and each time you take a Battle-shock or Leadership test for that unit, add 1 to that test.’ Shroudpsalm (Aura): While a friendly Adeptus Mechanicus unit is within 6\" of this model, that unit has the Stealth ability.",
       "Mechanicus Bodyguard: While this model is within 3\" of one or more other friendly ^^**Adeptus Mechanicus**^^ units, this model has the Lone Operative ability.",
       "Self-repair Mechanisms: At the start of your Command phase, this model regains up to D3 lost wounds.",
       "Supreme Commander: If this model is in your army, it must be your **^^Warlord^^**."
@@ -257,7 +257,7 @@
     "name": "Corpuscarii Electro-Priests",
     "faction": "Adeptus Mechanicus",
     "alliance": "imperium",
-    "points": 65,
+    "points": 60,
     "models": 5,
     "move": "6\"",
     "toughness": "3",
@@ -277,7 +277,7 @@
       "Cult Mechanicus"
     ],
     "abilities": [
-      "Electro-shock: In your Shooting phase, after this unit has shot, select one enemy unit (excluding ^^**Monsters^^** and ^^**Vehicles^^**) hit by one or more of those attacks. Until the end of your opponent’s next tur"
+      "Electro-shock: In your Shooting phase, after this unit has shot, select one enemy unit (excluding Monsters and Vehicles) hit by one or more of those attacks. Until the end of your opponent’s next turn, that enemy unit is shocked. While a unit is shocked, subtract 2\" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it."
     ],
     "weapons": [
       {
@@ -307,7 +307,7 @@
     "name": "Fulgurite Electro-Priests",
     "faction": "Adeptus Mechanicus",
     "alliance": "imperium",
-    "points": 70,
+    "points": 65,
     "models": 5,
     "move": "6\"",
     "toughness": "3",
@@ -349,13 +349,13 @@
     "alliance": "imperium",
     "points": 80,
     "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "move": "10\"",
+    "toughness": "7",
+    "save": "3+",
+    "wounds": "7",
+    "leadership": "7+",
+    "objectiveControl": "2",
+    "invulnerableSave": "5+",
     "role": "WAR MACHINE",
     "isHero": false,
     "canReinforce": true,
@@ -382,7 +382,18 @@
         "d": "1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 80
+      },
+      {
+        "from": 3,
+        "points": 95
+      }
+    ]
   },
   {
     "name": "Kastelan Robots",
@@ -409,7 +420,7 @@
     ],
     "abilities": [
       "Robotic Bodyguard: While a ^^**Cybernetica Datasmith^^** model is leading this unit, that model has the Feel No Pain 4+ ability.",
-      "Repulsor Grid: When an enemy unit targets this unit with ranged attacks, until that enemy unit has shot, when this unit makes a save roll: \n- On an unmodified 6, that enemy unit suffers 1 mortal wound after that ene"
+      "Repulsor Grid: When an enemy unit targets this unit with ranged attacks, until that enemy unit has shot, when this unit makes a save roll: - On an unmodified 6, that enemy unit suffers 1 mortal wound after that enemy unit has shot."
     ],
     "weapons": [
       {
@@ -487,14 +498,25 @@
         "keywords": "Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 150
+      },
+      {
+        "from": 3,
+        "points": 180
+      }
+    ]
   },
   {
     "name": "Kataphron Breachers",
     "faction": "Adeptus Mechanicus",
     "alliance": "imperium",
-    "points": 150,
-    "models": 1,
+    "points": 140,
+    "models": 3,
     "move": "5\"",
     "toughness": "7",
     "save": "3+",
@@ -563,7 +585,7 @@
     "faction": "Adeptus Mechanicus",
     "alliance": "imperium",
     "points": 100,
-    "models": 1,
+    "models": 3,
     "move": "5\"",
     "toughness": "6",
     "save": "3+",
@@ -642,7 +664,7 @@
     "name": "Onager Dunecrawler",
     "faction": "Adeptus Mechanicus",
     "alliance": "imperium",
-    "points": 155,
+    "points": 150,
     "models": 1,
     "move": "8\"",
     "toughness": "10",
@@ -726,7 +748,7 @@
     "faction": "Adeptus Mechanicus",
     "alliance": "imperium",
     "points": 75,
-    "models": 1,
+    "models": 5,
     "move": "12\"",
     "toughness": "4",
     "save": "4+",
@@ -749,7 +771,7 @@
       "Recon Augury"
     ],
     "abilities": [
-      "Ride the Thermals: In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can do one of the following:\n- Make a Normal move of up to 6\".\n- Make a Normal mov"
+      "Ride the Thermals: In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can do one of the following: - Make a Normal move of up to 6\". - Make a Normal move of up to 12\", provided every model in this unit ends that move wholly within 6\" of one or more friendly Adeptus Mechanicus Battleline units. In either case, if it does, until the end of the turn, this unit is not eligible to declare a charge."
     ],
     "weapons": [
       {
@@ -792,14 +814,25 @@
         "d": "1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 75
+      },
+      {
+        "from": 3,
+        "points": 85
+      }
+    ]
   },
   {
     "name": "Pteraxii Sterylizors",
     "faction": "Adeptus Mechanicus",
     "alliance": "imperium",
     "points": 75,
-    "models": 1,
+    "models": 5,
     "move": "12\"",
     "toughness": "4",
     "save": "4+",
@@ -821,7 +854,7 @@
       "Recon Augury"
     ],
     "abilities": [
-      "Searing Conflagaration: Each time a model in this unit makes an attack with a phosphor torch that targets an enemy unit within range of an objective marker, re-roll a Wound roll of 1. If this unit is also within 6\" of one or"
+      "Searing Conflagaration: Each time a model in this unit makes an attack with a phosphor torch that targets an enemy unit within range of an objective marker, re-roll a Wound roll of 1. If this unit is also within 6\" of one or more friendly Adeptus Mechanicus Battleline units, each time such an attack targets such a unit, you can re-roll the Wound roll instead."
     ],
     "weapons": [
       {
@@ -864,14 +897,25 @@
         "keywords": "Ignores Cover, Torrent"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 75
+      },
+      {
+        "from": 3,
+        "points": 85
+      }
+    ]
   },
   {
     "name": "Serberys Raiders",
     "faction": "Adeptus Mechanicus",
     "alliance": "imperium",
     "points": 60,
-    "models": 1,
+    "models": 3,
     "move": "12\"",
     "toughness": "4",
     "save": "4+",
@@ -890,7 +934,7 @@
       "Recon Augury"
     ],
     "abilities": [
-      "Tactica Obliqua: In your opponent's Movement phase, if an enemy unit ends a move within 8” of this unit, if this unit is not within Engagement Range of one or more enemy units, it can do one of the following:\n- Make a",
+      "Tactica Obliqua: In your opponent's Movement phase, if an enemy unit ends a move within 8” of this unit, if this unit is not within Engagement Range of one or more enemy units, it can do one of the following: - Make a Normal move of up to D6\". - Make a Normal move of up to 6\", provided every model in this unit ends that move wholly within 6\" of one or more friendly Adeptus Mechanicus Battleline units.",
       "Enhanced data-tether: Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
       "Stealth-screened Cybercanids: This unit has Lone Operative 15\"."
     ],
@@ -932,7 +976,7 @@
     "faction": "Adeptus Mechanicus",
     "alliance": "imperium",
     "points": 55,
-    "models": 1,
+    "models": 3,
     "move": "12\"",
     "toughness": "4",
     "save": "4+",
@@ -951,7 +995,7 @@
       "Recon Augury"
     ],
     "abilities": [
-      "Line-breakers: Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each model in this unit that is within Engagement Range of that enemy unit, adding 2 to "
+      "Line-breakers: Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6 for each model in this unit that is within Engagement Range of that enemy unit, adding 2 to the result if this unit started its Charge move within 6\" of one or more friendly Adeptus Mechanicus Battleline units. For each 4+, that enemy unit suffers 1 mortal wound."
     ],
     "weapons": [
       {
@@ -1021,7 +1065,7 @@
     "faction": "Adeptus Mechanicus",
     "alliance": "imperium",
     "points": 75,
-    "models": 1,
+    "models": 5,
     "move": "8\"",
     "toughness": "4",
     "save": "4+",
@@ -1041,7 +1085,7 @@
       "Recon Augury"
     ],
     "abilities": [
-      "Neurostatic Interference (Aura): While an enemy unit is within 6\" of this unit, each time a Battle-shock or Leadership test is taken for that unit, subtract 1 from that test. While this unit is within 6\" of one or more friendly ^^**A"
+      "Neurostatic Interference (Aura): While an enemy unit is within 6\" of this unit, each time a Battle-shock or Leadership test is taken for that unit, subtract 1 from that test. While this unit is within 6\" of one or more friendly Adeptus Mechanicus Battleline units, subtract 2 from that test instead."
     ],
     "weapons": [
       {
@@ -1085,14 +1129,25 @@
         "keywords": "Sustained Hits 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 75
+      },
+      {
+        "from": 3,
+        "points": 85
+      }
+    ]
   },
   {
     "name": "Sicarian Ruststalkers",
     "faction": "Adeptus Mechanicus",
     "alliance": "imperium",
     "points": 75,
-    "models": 1,
+    "models": 5,
     "move": "8\"",
     "toughness": "4",
     "save": "4+",
@@ -1111,7 +1166,7 @@
       "Sicarian"
     ],
     "abilities": [
-      "Optimised Gait: Add 1 to Advance and Charge rolls made for this unit. While this unit is within 6\" of one or more friendly ^^**Adeptus Mechanicus Battleline^^** units, add 2 to Advance and Charge rolls made for this "
+      "Optimised Gait: Add 1 to Advance and Charge rolls made for this unit. While this unit is within 6\" of one or more friendly Adeptus Mechanicus Battleline units, add 2 to Advance and Charge rolls made for this unit instead."
     ],
     "weapons": [
       {
@@ -1145,7 +1200,18 @@
         "keywords": "Anti-Infantry 3+, Devastating Wounds, Precision"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 75
+      },
+      {
+        "from": 3,
+        "points": 85
+      }
+    ]
   },
   {
     "name": "Skitarii Marshal",
@@ -1203,7 +1269,7 @@
     "faction": "Adeptus Mechanicus",
     "alliance": "imperium",
     "points": 85,
-    "models": 1,
+    "models": 10,
     "move": "6\"",
     "toughness": "3",
     "save": "4+",
@@ -1223,7 +1289,7 @@
       "Recon Augury"
     ],
     "abilities": [
-      "Objective Scouted: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, unti",
+      "Objective Scouted: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
       "Enhanced data-tether: Each time you select the bearer’s unit\nas the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
       "Omnispex: Ranged weapons equipped by models in the bearer’s unit have the IGNORES COVER ability."
     ],
@@ -1313,7 +1379,7 @@
     "faction": "Adeptus Mechanicus",
     "alliance": "imperium",
     "points": 85,
-    "models": 1,
+    "models": 10,
     "move": "6\"",
     "toughness": "3",
     "save": "4+",
@@ -1444,7 +1510,7 @@
     ],
     "abilities": [
       "Broad spectrum data-tether: Each time you select the bearer as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
-      "Blistering Salvoes: Each time this model makes an attack with a belleros energy cannon that targets an ^^**Infantry^^** unit, add 1 to the Hit roll. Each time this model makes an attack with a ferrumite cannon that targe",
+      "Blistering Salvoes: Each time this model makes an attack with a belleros energy cannon that targets an Infantry unit, add 1 to the Hit roll. Each time this model makes an attack with a ferrumite cannon that targets a Monster or Vehicle unit, add 1 to the Hit roll.",
       "Damaged: 1-4 wounds remaining: While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
     ],
     "weapons": [
@@ -1528,7 +1594,7 @@
     ],
     "abilities": [
       "Broad spectrum data-tether: Each time you select the bearer as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
-      "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from thi"
+      "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
     ],
     "weapons": [
       {
@@ -1552,7 +1618,18 @@
         "keywords": "Rapid Fire 9, Sustained Hits 1, Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 75
+      },
+      {
+        "from": 4,
+        "points": 85
+      }
+    ]
   },
   {
     "name": "Sydonian Dragoons with taser lances",
@@ -1633,9 +1710,9 @@
       "Cult Mechanicus"
     ],
     "abilities": [
-      "Leader: This model can be attached to the following units:\n■ Corpuscarii Electro-Priests\n■ Fulgurite Electro-Priests\n■ Kataphron Breachers\n■ Kataphron Destroyers\n■ Skitarii Rangers\n■ Skitarii Vanguard",
+      "Leader: This model can be attached to the following units: CORPUSCARII ELECTRO-PRIESTS, FULGURITE ELECTRO-PRIESTS, HASTARII EXTERMINATORS, HASTARII FUSILIERS, KATAPHRON BREACHERS, KATAPHRON DESTROYERS, SECUTARII HOPLITES, SECUTARII PELTASTS, SERVITOR BATTLECLADE, SKITARII RANGERS, SKITARII VANGUARD",
       "Lord of the Machine Cult: While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability. If that unit has the ^^**Electro-Priests^^** keyword, models in that unit have the Feel No Pain 4+ ability ins",
-      "Data-spike: At the start of the Fight phase, you can select one enemy ^^**Vehicle^^** unit within Engagement Range of this model’s unit and roll one D6: on a 4+, that enemy unit suffers D6 mortal wounds and, unti"
+      "Data-spike: At the start of the Fight phase, you can select one enemy Vehicle unit within Engagement Range of this model’s unit and roll one D6: on a 4+, that enemy unit suffers D6 mortal wounds and, until the end of the phase, the Weapon Skill characteristic of melee weapons equipped by that enemy unit is worsened by 1."
     ],
     "weapons": [
       {
@@ -1724,9 +1801,9 @@
     ],
     "abilities": [
       "Enginseer: While this model is within 3\" of one or more friendly ^^**Adeptus Mechanicus Vehicle^^** units, unless it is leading a unit, this model has the Lone Operative ability.",
-      "Omnissiah's Blessing: In your Command phase, select one friendly Adeptus Mechanicus model within 3\" of this model. That model regains up to D3 lost wounds and, if it is a Vehicle model, until the start of your next Command",
+      "Omnissiah's Blessing: In your Command phase, select one friendly Adeptus Mechanicus model within 3\" of this model. That model regains up to D3 lost wounds and, if it is a Vehicle model, until the start of your next Command phase, that model has the Feel No Pain 5+ ability. Each model can only be selected for this ability once per Command phase",
       "Vengeance for the Omnissiah: If a friendly ^^**Adeptus Mechanicus Vehicle^^** model is destroyed within 12\" of this model, until the end of the battle, this model’s Omnissian axe has an Attacks characteristic of 6.",
-      "Leader: This model can be attached to the following units:\n■ Corpuscarii Electro-Priests\n■ Fulgurite Electro-Priests\n■ Kataphron Breachers\n■ Kataphron Destroyers\n■ Servitors\n■ Skitarii Rangers\n■ Skitarii Vang"
+      "Leader: This model can be attached to the following units: CORPUSCARII ELECTRO-PRIESTS, FULGURITE ELECTRO-PRIESTS, KATAPHRON BREACHERS, KATAPHRON DESTROYERS, SECUTARII HOPLITES, SECUTARII PELTASTS, SKITARII RANGERS, SKITARII VANGUARD"
     ],
     "weapons": [
       {
@@ -1786,7 +1863,7 @@
       "Cult Mechanicus"
     ],
     "abilities": [
-      "Leader: This model can be attached to the following units:\n■ Corpuscarii Electro-Priests\n■ Fulgurite Electro-Priests\n■ Kataphron Breachers\n■ Kataphron Destroyers\n■ Skitarii Rangers\n■ Skitarii Vanguard",
+      "Leader: This model can be attached to the following units: CORPUSCARII ELECTRO-PRIESTS, FULGURITE ELECTRO-PRIESTS, HASTARII EXTERMINATORS, HASTARII FUSILIERS, KATAPHRON BREACHERS, KATAPHRON DESTROYERS, SECUTARII HOPLITES, SECUTARII PELTASTS, SERVITOR BATTLECLADE, SKITARII RANGERS, SKITARII VANGUARD",
       "Galvanic Field: While this model is leading a unit, weapons equipped by models in that unit have the [Lethal Hits] ability.",
       "Defend the Divine Work: Once per battle, at the start of any phase, this model can use this ability. If it does, until the  end of the phase, all models in this model’s unit have a 4+ invulnerable save."
     ],
@@ -1850,7 +1927,7 @@
     "abilities": [
       "Seekers of Divine Arcana: While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit.",
       "Cogitative Instincts: Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" horizontally of this model.",
-      "Support: This model can be attached to the following units:\n■ Corpuscarii Electro-Priests\n■ Fulgurite Electro-Priests\n■ Kataphron Breachers\n■ Kataphron Destroyers\n■ Skitarii Rangers\n■ Skitarii Vanguard"
+      "Support: This model can be attached to the following units: CORPUSCARII ELECTRO-PRIESTS, FULGURITE ELECTRO-PRIESTS, HASTARII EXTERMINATORS, HASTARII FUSILIERS, KATAPHRON BREACHERS, KATAPHRON DESTROYERS, SECUTARII HOPLITES, SECUTARII PELTASTS, SERVITOR BATTLECLADE, SKITARII RANGERS, SKITARII VANGUARD"
     ],
     "weapons": [
       {
@@ -1880,7 +1957,7 @@
     "name": "Cybernetica Datasmith",
     "faction": "Adeptus Mechanicus",
     "alliance": "imperium",
-    "points": 25,
+    "points": 20,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -1902,7 +1979,7 @@
     ],
     "abilities": [
       "Support: This model must be attached to the following unit:\n■ ^^**Kastelan Robots^^**\n\nYou must attach this model to a Kastelan Robots unit, even if one or more other Cybernetica Datasmith models havealready b",
-      "Battle Protocols: At the start of the battle, if this model is leading a ^^**Kastelan Robots^^** unit, that unit enters Aegis Protocols (see below). In your Command phase, if this model is leading a ^^**Kastelan Robots",
+      "Battle Protocols: At the start of the battle, if this model is leading a Kastelan Robots unit, that unit enters Aegis Protocols (see below). In your Command phase, if this model is leading a Kastelan Robots unit, you can select one protocol from those listed below for that unit to enter. Once a unit enters a protocol, it remains in that protocol until it enters a different one. - Protector Protocol: Add 2 to the Attacks characteristic of ranged weapons equipped by Kastelan Robot models in that unit. - Conqueror Protocol: Add 2 to the Attacks characteristic of melee weapons equipped by Kastelan Robot models in that unit. - Aegis Protocol: Add 1 to the Toughness characteristic of Kastelan Robot models in that unit.",
       "Data-severed: If there are no KASTELAN ROBOT models in this unit: \n- This unit loses VEHICLE. \n- This unit has INFANTRY."
     ],
     "weapons": [
@@ -1934,7 +2011,7 @@
     "faction": "Adeptus Mechanicus",
     "alliance": "imperium",
     "points": 65,
-    "models": 1,
+    "models": 5,
     "move": "6\"",
     "toughness": "3",
     "save": "5+",
@@ -1952,7 +2029,7 @@
       "Skitarii"
     ],
     "abilities": [
-      "Titan Guard: You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase. When oing so, if there are one",
+      "Titan Guard: You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase. When oing so, if there are one or more friendly Adeptus Titanicus units on the battlefield, you can re-roll the subsequent charge roll.",
       "Secutarii: If a model from your army with the Leader ability can be attached to a ^^**Skitarii Vanguard^^** unit, it can be attached to this unit instead.",
       "Enhanced data-tether: Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
       "Omnispex: Ranged weapons equipped by models in the bearer’s unit have the IGNORES COVER ability."
@@ -2005,7 +2082,7 @@
     "faction": "Adeptus Mechanicus",
     "alliance": "imperium",
     "points": 50,
-    "models": 1,
+    "models": 5,
     "move": "6\"",
     "toughness": "3",
     "save": "5+",
@@ -2023,7 +2100,7 @@
       "Imperium"
     ],
     "abilities": [
-      "Blind Barrage: In your Shooting phase, after this unit has shot, select one enemy Infantry unit hit by one or more of those attacks. Until the start of your next turn, while this unit is on the  battlefield, that en",
+      "Blind Barrage: In your Shooting phase, after this unit has shot, select one enemy Infantry unit hit by one or more of those attacks. Until the start of your next turn, while this unit is on the battlefield, that enemy unit is blinded. While a unit is blinded, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
       "Secutarii: If a model from your army with the Leader ability can be attached to a ^^**Skitarii Vanguard^^** unit, it can be attached to this unit instead.",
       "Enhanced data-tether: Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
       "Omnispex: Ranged weapons equipped by models in the bearer’s unit have the IGNORES COVER ability."
@@ -2106,7 +2183,7 @@
     ],
     "abilities": [
       "Damaged: 1-5 wounds remaining: While this mdel has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-      "Termite Assault: This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle wit",
+      "Termite Assault: This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model can disembark after it has been set up on the battlefield, and if they do they must be set up more than 9\" away from all enemy models.",
       "Deadly Demise: D3"
     ],
     "weapons": [
@@ -2137,7 +2214,7 @@
     "name": "Sydonian Skatros",
     "faction": "Adeptus Mechanicus",
     "alliance": "imperium",
-    "points": 50,
+    "points": 45,
     "models": 1,
     "move": "8\"",
     "toughness": "4",
@@ -2160,7 +2237,7 @@
     "abilities": [
       "Dread Snipers: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test.",
       "Sydonian Sentinel: This model cannot be your ^^**Warlord^^**.",
-      "Achillan Eye: Each time this model makes an attack with a radium jezzail that targets an Infantry unit, you can re-roll the Wound roll. Each time this model makes an attack with a Skatros transuranic arquebus that "
+      "Achillan Eye: Each time this model makes an attack with a radium jezzail that targets an Infantry unit, you can re-roll the Wound roll. Each time this model makes an attack with a Skatros transuranic arquebus that targets a Monster or Vehicle unit, you can re-roll the Wound roll."
     ],
     "weapons": [
       {
@@ -2282,7 +2359,7 @@
     ],
     "abilities": [
       "Mindlock: While a TECH-PRIEST model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by SERVITOR models in this unit by 1.",
-      "Servitor Retinue: At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a TECH-PRIEST ENGINSEER model (a unit cannot have more than one SERVITORS unit"
+      "Servitor Retinue: At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a TECH-PRIEST ENGINSEER model (a unit cannot have more than one SERVITORS unit joined to it). If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit’s Starting Strength is increased accordingly."
     ],
     "weapons": [
       {
@@ -2310,8 +2387,8 @@
     "name": "Servitor Battleclade",
     "faction": "Adeptus Mechanicus",
     "alliance": "imperium",
-    "points": 65,
-    "models": 1,
+    "points": 75,
+    "models": 9,
     "move": "6\"",
     "toughness": "4",
     "save": "4+",
@@ -2412,7 +2489,18 @@
         "keywords": "Ignores Cover, Rapid Fire 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 75
+      },
+      {
+        "from": 3,
+        "points": 85
+      }
+    ]
   },
   {
     "name": "Magos [Crucible]",
@@ -2538,7 +2626,7 @@
       "Mobile"
     ],
     "abilities": [
-      "Icon of War: **Fanatical Devotion:** You can select one friendly **^^Skitarii^^** or **^^Thulia Ghuld^^** unit within 6\" of this model; until the start of your next Command phase, that unit is eligible to shoot an",
+      "Icon of War: Fanatical Devotion: You can select one friendly Skitarii or Thulia Ghuld unit within 6\" of this model; until the start of your next Command phase, that unit is eligible to shoot and declare a charge in a turn in which it Advanced. Adaptive Tactics: You can select one friendly Skitarii or Thulia Ghuld unit within 6\" of this model; until the start of your next Command phase, that unit is eligible to shoot and declare a charge in a turn in which it Fell Back. The Fires of Mars: You can select one friendly Skitarii or Thulia Ghuld unit within 6\" of this model; until the start of your next Command phase, the Conqueror Imperative and Protector Imperative are both active for that unit.",
       "Mechanicus Bodyguard: While this model is within 3\" of one or more other friendly ^^**Adeptus Mechanicus**^^ units, this model has the Lone Operative ability.",
       "Secutor of Olympus: At the start of your Shooting phase, select one enemy **^^Vehicle^^** unit within 12\" of this model and roll one D6: on a 2+, that enemy unit suffers D3+1 mortal wounds.",
       "Supreme Commander: If this model is in your army, it must be your **^^Warlord^^**.",
@@ -2590,8 +2678,8 @@
     "name": "Hastarii Exterminators",
     "faction": "Adeptus Mechanicus",
     "alliance": "imperium",
-    "points": 105,
-    "models": 1,
+    "points": 100,
+    "models": 5,
     "move": "5\"",
     "toughness": "4",
     "save": "3+",
@@ -2655,14 +2743,25 @@
         "keywords": "Psychic"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 100
+      },
+      {
+        "from": 3,
+        "points": 115
+      }
+    ]
   },
   {
     "name": "Hastarii Fusiliers",
     "faction": "Adeptus Mechanicus",
     "alliance": "imperium",
-    "points": 115,
-    "models": 1,
+    "points": 105,
+    "models": 5,
     "move": "5\"",
     "toughness": "4",
     "save": "3+",
@@ -2725,6 +2824,17 @@
         "keywords": "Psychic"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 105
+      },
+      {
+        "from": 3,
+        "points": 120
+      }
+    ]
   }
 ]

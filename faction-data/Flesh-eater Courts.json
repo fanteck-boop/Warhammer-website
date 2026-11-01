@@ -811,25 +811,9 @@
     ]
   },
   {
-    "name": "Battle Traits: Flesh-eater Courts",
-    "faction": "Flesh-eater Courts",
-    "points": 0,
-    "models": 1,
-    "move": "",
-    "wounds": 1,
-    "save": "",
-    "ward": 0,
-    "weapons": [],
-    "abilities": "Royal Blood: Once Per Turn (Army), Your Hero Phase Pick any number of friendly Abhorrants to be the targets. Heal (D3) each target.\nSummon Loyal Subjects: Once Per Turn (Army) Your Movement Phase Pick a friendly Abhorrant to use this ability, then pick a friendly Serfs or Knights unit that has been destroyed to be the target. Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 6\" of a battlefield edge and more than 9\" from all enemy units.\nMuster Guard: Once Per Turn (Army), Your Movement Phase Pick any number of friendly Nobles to be the targets. For each target, pick 1 of the following:\n• Return up to 3 slain models to a friendly Serfs unit wholly within 12\" of it.\n• Return 1 slain model to a friendly Knights unit wholly within 12\" of it.\nThe same unit cannot have models returned to it by this ability more than once per turn.\nFeeding Frenzy: Once Per Battle (Army), Any Combat Phase Pick a friendly Flesh-eater Courts Hero in combat to be the target. For the rest of the turn, add 1 to the Attacks characteristic of melee weapons, including Companion weapons, used by friendly Flesh-eater Courts units while they are wholly within 12\" of the target.\nA Kingdom Deluded: Once Per Turn (Army), Start of Any Turn You must use this ability at the start of each turn. If it is the first turn of the battle, pick a Delusion from these battle traits or, unless otherwise specified, from the warscroll of a friendly unit on the battlefield. If it is not the first turn, make a delusion roll of D6. On a delusion roll of 1-2, you must pick a different Delusion to the one you picked last turn. On a 3-4, you must pick the same Delusion as the one you picked last turn, even if it is on the warscroll of a unit that has been destroyed. In such cases, the effect of that Delusion applies as if the unit had not been destroyed. On a 5-6, you must pick a Delusion like you did in the first turn. For the rest of the turn, you believe the Delusion you picked.",
-    "categories": [],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": []
-  },
-  {
     "name": "Crypt Horrors",
     "faction": "Flesh-eater Courts",
-    "points": 160,
+    "points": 150,
     "models": 3,
     "move": "7\"",
     "wounds": 4,
@@ -860,85 +844,9 @@
     "enhancementTypes": []
   },
   {
-    "name": "Crypt Horrors",
-    "faction": "Flesh-eater Courts",
-    "points": 100,
-    "models": 3,
-    "move": "7\"",
-    "wounds": 4,
-    "save": 5,
-    "ward": 6,
-    "weapons": [
-      {
-        "name": "Club and Septic Talons",
-        "models": "",
-        "attacks": "4",
-        "hit": "4",
-        "wound": "3",
-        "rend": "1",
-        "damage": "2"
-      }
-    ],
-    "abilities": "Holy Blades of Bone: Once Per Turn (Army), Any Combat Phase Pick an enemy unit in combat with this unit to be the target. Roll 2 dice for each model in this unit. Add 2 to each roll if the target is Cavalry. For each 5+, inflict 1 mortal damage on the target.",
-    "categories": [
-      "WARD (6+)",
-      "DEATH",
-      "CHAMPION",
-      "FLESH-EATER COURTS",
-      "KNIGHTS",
-      "INFANTRY"
-    ],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": []
-  },
-  {
     "name": "Crypt Flayers",
     "faction": "Flesh-eater Courts",
-    "points": 90,
-    "models": 3,
-    "move": "12\"",
-    "wounds": 4,
-    "save": 5,
-    "ward": 6,
-    "weapons": [
-      {
-        "name": "Piercing Talons",
-        "models": "",
-        "attacks": "4",
-        "hit": "4",
-        "wound": "3",
-        "rend": "1",
-        "damage": "1"
-      },
-      {
-        "name": "Death Scream",
-        "models": "",
-        "attacks": "4",
-        "hit": "4",
-        "wound": "3",
-        "rend": "2",
-        "damage": "1"
-      }
-    ],
-    "abilities": "To Our Liege: Once Per Turn (Army), Your Movement Phase If this unit is not in combat, remove it from the battlefield and set it up again wholly within 12\" of a friendly Flesh-eater Courts Hero and more than 9\" from all enemy units.",
-    "categories": [
-      "WARD (6+)",
-      "DEATH",
-      "CHAMPION",
-      "FLY",
-      "FLESH-EATER COURTS",
-      "KNIGHTS",
-      "INFANTRY"
-    ],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": []
-  },
-  {
-    "name": "Crypt Flayers",
-    "faction": "Flesh-eater Courts",
-    "points": 160,
+    "points": 140,
     "models": 3,
     "move": "12\"",
     "wounds": 4,
@@ -1556,22 +1464,6 @@
       "WARD (6+)"
     ],
     "isHero": true,
-    "canReinforce": false,
-    "enhancementTypes": []
-  },
-  {
-    "name": "Delusion Tracker",
-    "faction": "Flesh-eater Courts",
-    "points": 0,
-    "models": 1,
-    "move": "",
-    "wounds": 1,
-    "save": "",
-    "ward": 0,
-    "weapons": [],
-    "abilities": "",
-    "categories": [],
-    "isHero": false,
     "canReinforce": false,
     "enhancementTypes": []
   }

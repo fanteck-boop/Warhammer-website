@@ -23,9 +23,9 @@
     ],
     "abilities": [
       "Emplacement Platform: Friendly **^^Astra Militarum Infantry**^^ models can be set up or end any type of move on top of the platform section of this **^^Fortification^^**.",
-      "Reinforced Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this **^^Fortification^^**, that model has the Benefit of Cover ag",
+      "Reinforced Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack.",
       "Defence Line: While an **^^Astra Militarum Infantry^^** model has the Benefit of Cover as a result of this terrain feature, that model has a 4+ invulnerable save",
-      "Deployment: When this model is set up, it will consist of 1 platform section, up to 5 shield sections, up to 2 broken shield sections and up to 2 end sections. All sections must be connected to each other to form"
+      "Deployment: When this model is set up, it will consist of 1 platform section, up to 5 shield sections, up to 2 broken shield sections and up to 2 end sections. All sections must be connected to each other to form a continuous defence line; the 2 broken shield sections can be placed either at the end of the defence line, or in the middle of it such that both are within ½\" of each other (in this case, these 2 sections count as being connected to each other). All of the sections that have been set up are then treated as a single model for all rules purposes."
     ],
     "weapons": [],
     "system": "40k"
@@ -86,13 +86,13 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 60,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 5,
+    "move": "12\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "1",
     "invulnerableSave": "",
     "role": "CAVALRY",
     "isHero": false,
@@ -158,7 +158,18 @@
         "keywords": "Lance"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 60
+      },
+      {
+        "from": 3,
+        "points": 65
+      }
+    ]
   },
   {
     "name": "Baneblade",
@@ -185,7 +196,7 @@
       "Frame"
     ],
     "abilities": [
-      "Rolling Fortress: Each time a ranged attack is allocated to an **^^Astra Militarum^^** model from your army, if that model is not fully visible to every model in the attacking unit because of this **^^Baneblade^^** mod"
+      "Rolling Fortress: Each time a ranged attack is allocated to an Astra Militarum model from your army, if that model is not fully visible to every model in the attacking unit because of this Baneblade model, that model has the Benefit of Cover against that attack."
     ],
     "weapons": [
       {
@@ -267,7 +278,18 @@
         "keywords": "Blast"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 415
+      },
+      {
+        "from": 2,
+        "points": 450
+      }
+    ]
   },
   {
     "name": "Banehammer",
@@ -349,7 +371,18 @@
         "keywords": "Blast"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 385
+      },
+      {
+        "from": 2,
+        "points": 420
+      }
+    ]
   },
   {
     "name": "Banesword",
@@ -376,7 +409,7 @@
       "Frame"
     ],
     "abilities": [
-      "Armour Obliteration: Each time an attack made with this model’s quake cannon destroys an enemy model that has the Deadly Demise ability, that model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 3+ instead"
+      "Armour Obliteration: Each time an attack made with this model’s quake cannon destroys an enemy model that has the Deadly Demise ability, that model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 3+ instead of on a 6."
     ],
     "weapons": [
       {
@@ -429,7 +462,18 @@
         "keywords": "Blast, Ignores Cover"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 415
+      },
+      {
+        "from": 2,
+        "points": 450
+      }
+    ]
   },
   {
     "name": "Basilisk",
@@ -457,7 +501,7 @@
       "Frame"
     ],
     "abilities": [
-      "Earthshaker Rounds: In your Shooting phase, after this model has shot, if one or more of those attacks made with its earthshaker cannon scored a hit against an enemy **INFANTRY** unit, until the start of your next Shooti"
+      "Earthshaker Rounds: In your Shooting phase, after this model has shot, if one or more of those attacks made with its earthshaker cannon scored a hit against an enemy INFANTRY unit, until the start of your next Shooting phase, that unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
     ],
     "weapons": [
       {
@@ -510,20 +554,31 @@
         "keywords": "One Shot"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 115
+      },
+      {
+        "from": 3,
+        "points": 145
+      }
+    ]
   },
   {
     "name": "Bullgryn Squad",
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 90,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 3,
+    "move": "6\"",
+    "toughness": "6",
+    "save": "3+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
     "invulnerableSave": "",
     "role": "INFANTRY",
     "isHero": false,
@@ -569,7 +624,18 @@
         "keywords": "Blast"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 90
+      },
+      {
+        "from": 3,
+        "points": 120
+      }
+    ]
   },
   {
     "name": "Cadian Castellan",
@@ -690,7 +756,7 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 60,
-    "models": 1,
+    "models": 5,
     "move": "6\"",
     "toughness": "3",
     "save": "5+",
@@ -823,13 +889,13 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 70,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 10,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "2",
     "invulnerableSave": "",
     "role": "INFANTRY",
     "isHero": false,
@@ -845,7 +911,7 @@
       "Cadian"
     ],
     "abilities": [
-      "Shock Troops: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, unti"
+      "Shock Troops: At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
     ],
     "weapons": [
       {
@@ -905,13 +971,13 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 70,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 10,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "2",
     "invulnerableSave": "",
     "role": "INFANTRY",
     "isHero": false,
@@ -1061,7 +1127,18 @@
         "keywords": "One Shot"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 75
+      },
+      {
+        "from": 4,
+        "points": 85
+      }
+    ]
   },
   {
     "name": "Commissar",
@@ -1088,9 +1165,9 @@
       "Leader"
     ],
     "abilities": [
-      "Summary Execution: Once per battle round, at the start of any phase, you can select one friendly **^^Astra Militarum Infantry^^** unit that is Battle-shocked and within 12\" of this model. If you do, one model in that un",
+      "Summary Execution: Once per battle round, at the start of any phase, you can select one friendly Astra Militarum Infantry unit that is Battle-shocked and within 12\" of this model. If you do, one model in that unit is destroyed, and that unit is then no longer Battle-shocked.",
       "Political Overwatch: While another **^^Officer^^** model is in the same unit as this model, you can re-roll Battle-shock tests taken for that unit.",
-      "Leader: This model can be attached to the following units:\n- **CADIAN SHOCK TROOPS**\n- **CATACHAN JUNGLE FIGHTERS**\n- **DEATH KORPS GRENADIER SQUAD**\n- **DEATH KORPS OF KRIEG**\n- **KASRKIN**\n- **KRIEG COMBAT "
+      "Leader: This model can be attached to the following units: - CADIAN SHOCK TROOPS - CATACHAN JUNGLE FIGHTERS - DEATH KORPS GRENADIER SQUAD - DEATH KORPS OF KRIEG - KASRKIN - KRIEG COMBAT ENGINEERS - TEMPESTUS SCIONS"
     ],
     "weapons": [
       {
@@ -1141,13 +1218,13 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 70,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 10,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "2",
     "invulnerableSave": "",
     "role": "INFANTRY",
     "isHero": false,
@@ -1236,7 +1313,7 @@
       "Frame"
     ],
     "abilities": [
-      "Deathstrike Missile: In your Shooting phase, each time this model is selected to shoot, if it has not shot with its  Deathstrike missile this battle, you can do one of the following in addition to resolving this model’s r"
+      "Deathstrike Missile: In your Shooting phase, each time this model is selected to shoot, if it has not shot with its Deathstrike missile this battle, you can do one of the following in addition to resolving this model’s ranged attacks: - Designate Target: If this model does not have a Deathstrike Target marker on the battlefield, place a Deathstrike Target marker for this model anywhere on the battlefield. - Adjust Target: If this model has a Deathstrike Target marker on the battlefield, move that marker to anywhere else on the battlefield."
     ],
     "weapons": [
       {
@@ -1289,7 +1366,18 @@
         "keywords": "Blast, One Shot, Plasma Warhead"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 125
+      },
+      {
+        "from": 3,
+        "points": 145
+      }
+    ]
   },
   {
     "name": "Doomhammer",
@@ -1370,20 +1458,31 @@
         "keywords": "Blast, Melta 6"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 380
+      },
+      {
+        "from": 2,
+        "points": 410
+      }
+    ]
   },
   {
     "name": "Field Ordnance Battery",
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 90,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 2,
+    "move": "3\"",
+    "toughness": "5",
+    "save": "4+",
+    "wounds": "6",
+    "leadership": "7+",
+    "objectiveControl": "2",
     "invulnerableSave": "",
     "role": "INFANTRY",
     "isHero": false,
@@ -1467,7 +1566,7 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 95,
-    "models": 1,
+    "models": 6,
     "move": "6\"",
     "toughness": "3",
     "save": "4+",
@@ -1486,7 +1585,7 @@
       "Grenades"
     ],
     "abilities": [
-      "Covert Stealth Team: At the end of your opponent’s turn, if this unit is **unengaged**, you can use this ability. If you do:\n- Place this unit in **strategic reserves**.\n- This unit has **Deep Strike** until the start of ",
+      "Covert Stealth Team: At the end of your opponent’s turn, if this unit is unengaged, you can use this ability. If you do: - Place this unit in strategic reserves. - This unit has Deep Strike until the start of your next Shooting phase. - This unit must make an ingress move in your next Movement phase (including in your first turn).",
       "Tanith Camo-cloaks: Models in this unit have the Benefit of Cover."
     ],
     "weapons": [
@@ -1586,13 +1685,13 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 65,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 3,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "2",
     "invulnerableSave": "",
     "role": "INFANTRY",
     "isHero": false,
@@ -1605,7 +1704,7 @@
       "Regiment"
     ],
     "abilities": [
-      "Covering Fire: Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or on unmodified Hit rolls of 4+ instead if this unit i"
+      "Covering Fire: Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or on unmodified Hit rolls of 4+ instead if this unit is within 6\" of one or more friendly Platoon units."
     ],
     "weapons": [
       {
@@ -1788,13 +1887,24 @@
         "keywords": "Blast, Ignores Cover"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 385
+      },
+      {
+        "from": 2,
+        "points": 415
+      }
+    ]
   },
   {
     "name": "Hellhound",
     "faction": "Astra Militarum",
     "alliance": "imperium",
-    "points": 125,
+    "points": 115,
     "models": 1,
     "move": "10\"",
     "toughness": "10",
@@ -1815,7 +1925,7 @@
       "Frame"
     ],
     "abilities": [
-      "Flush Them Out: In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the start of your next Shooting phase, that unit is scattered. While a unit"
+      "Flush Them Out: In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the start of your next Shooting phase, that unit is scattered. While a unit is scattered, it cannot have the Benefit of Cover."
     ],
     "weapons": [
       {
@@ -1898,7 +2008,18 @@
         "keywords": "Blast, Melta 4"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 115
+      },
+      {
+        "from": 3,
+        "points": 125
+      }
+    ]
   },
   {
     "name": "Hydra",
@@ -2050,13 +2171,13 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 105,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 10,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
     "invulnerableSave": "",
     "role": "INFANTRY",
     "isHero": false,
@@ -2069,8 +2190,8 @@
       "Infantry"
     ],
     "abilities": [
-      "Warrior Elite: Once per battle round, at the start of any phase, you can select one Order to affect this unit until the start of your next Command phase, in addition to any other Orders issued to this unit by an **^",
-      "Melta mine: Once per battle, at the start of any phase, you can select one enemy unit within 3\" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it"
+      "Warrior Elite: Once per battle round, at the start of any phase, you can select one Order to affect this unit until the start of your next Command phase, in addition to any other Orders issued to this unit by an Officer model this turn.",
+      "Melta mine: Once per battle, at the start of any phase, you can select one enemy unit within 3\" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a Vehicle unit."
     ],
     "weapons": [
       {
@@ -2173,7 +2294,18 @@
         "keywords": "Hazardous, Pistol"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 105
+      },
+      {
+        "from": 3,
+        "points": 120
+      }
+    ]
   },
   {
     "name": "Leman Russ Battle Tank",
@@ -2181,12 +2313,12 @@
     "alliance": "imperium",
     "points": 160,
     "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "move": "10\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "13",
+    "leadership": "7+",
+    "objectiveControl": "3",
     "invulnerableSave": "",
     "role": "WAR MACHINE",
     "isHero": false,
@@ -2200,7 +2332,7 @@
       "Frame"
     ],
     "abilities": [
-      "Armoured Spearhead: Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll inste"
+      "Armoured Spearhead: Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
     ],
     "weapons": [
       {
@@ -2303,7 +2435,18 @@
         "d": "1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 160
+      },
+      {
+        "from": 3,
+        "points": 175
+      }
+    ]
   },
   {
     "name": "Leman Russ Demolisher",
@@ -2311,12 +2454,12 @@
     "alliance": "imperium",
     "points": 160,
     "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "move": "10\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "13",
+    "leadership": "7+",
+    "objectiveControl": "3",
     "invulnerableSave": "",
     "role": "WAR MACHINE",
     "isHero": false,
@@ -2330,7 +2473,7 @@
       "Frame"
     ],
     "abilities": [
-      "Line-breaker: When making ranged attacks with its demolisher battle cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that"
+      "Line-breaker: When making ranged attacks with its demolisher battle cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
     ],
     "weapons": [
       {
@@ -2433,7 +2576,18 @@
         "d": "1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 160
+      },
+      {
+        "from": 3,
+        "points": 175
+      }
+    ]
   },
   {
     "name": "Leman Russ Eradicator",
@@ -2441,12 +2595,12 @@
     "alliance": "imperium",
     "points": 145,
     "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "move": "10\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "13",
+    "leadership": "7+",
+    "objectiveControl": "3",
     "invulnerableSave": "",
     "role": "WAR MACHINE",
     "isHero": false,
@@ -2563,7 +2717,18 @@
         "d": "1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 145
+      },
+      {
+        "from": 3,
+        "points": 160
+      }
+    ]
   },
   {
     "name": "Leman Russ Executioner",
@@ -2571,12 +2736,12 @@
     "alliance": "imperium",
     "points": 145,
     "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "move": "10\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "13",
+    "leadership": "7+",
+    "objectiveControl": "3",
     "invulnerableSave": "",
     "role": "WAR MACHINE",
     "isHero": false,
@@ -2693,7 +2858,18 @@
         "keywords": "One Shot"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 145
+      },
+      {
+        "from": 3,
+        "points": 160
+      }
+    ]
   },
   {
     "name": "Leman Russ Exterminator",
@@ -2701,12 +2877,12 @@
     "alliance": "imperium",
     "points": 160,
     "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "move": "10\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "13",
+    "leadership": "7+",
+    "objectiveControl": "3",
     "invulnerableSave": "",
     "role": "WAR MACHINE",
     "isHero": false,
@@ -2720,7 +2896,7 @@
       "Frame"
     ],
     "abilities": [
-      "Withering Hail: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with its exterminator autocannon. Until the end of the phase, each time a friendly **^"
+      "Withering Hail: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with its exterminator autocannon. Until the end of the phase, each time a friendly Astra Militarum unit makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase."
     ],
     "weapons": [
       {
@@ -2823,7 +2999,18 @@
         "d": "1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 160
+      },
+      {
+        "from": 3,
+        "points": 175
+      }
+    ]
   },
   {
     "name": "Leman Russ Punisher",
@@ -2831,12 +3018,12 @@
     "alliance": "imperium",
     "points": 130,
     "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "move": "10\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "13",
+    "leadership": "7+",
+    "objectiveControl": "3",
     "invulnerableSave": "",
     "role": "WAR MACHINE",
     "isHero": false,
@@ -2952,7 +3139,18 @@
         "d": "1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 130
+      },
+      {
+        "from": 3,
+        "points": 145
+      }
+    ]
   },
   {
     "name": "Leman Russ Vanquisher",
@@ -2960,12 +3158,12 @@
     "alliance": "imperium",
     "points": 130,
     "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "move": "10\"",
+    "toughness": "11",
+    "save": "2+",
+    "wounds": "13",
+    "leadership": "7+",
+    "objectiveControl": "3",
     "invulnerableSave": "",
     "role": "WAR MACHINE",
     "isHero": false,
@@ -3082,13 +3280,24 @@
         "keywords": "Heavy"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 130
+      },
+      {
+        "from": 3,
+        "points": 145
+      }
+    ]
   },
   {
     "name": "Lord Solar Leontus",
     "faction": "Astra Militarum",
     "alliance": "imperium",
-    "points": 130,
+    "points": 120,
     "models": 1,
     "move": "12\"",
     "toughness": "4",
@@ -3111,7 +3320,7 @@
     ],
     "abilities": [
       "The Lord Solar: At the start of your Command phase, If this model is on the battlefield, you gain 1CP.",
-      "The Collegiate Astrolex: After both players have deployed their armies, select up to three **^^Astra Militarum^^** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you",
+      "The Collegiate Astrolex: After both players have deployed their armies, select up to three Astra Militarum units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
       "Supreme Commander: If this model is in your army, it must be your **^^Warlord^^**.",
       "Leader: This model can be attached to the following units:\n- **ATTILAN ROUGH RIDERS**\n- **CADIAN SHOCK TROOPS**\n- **CATACHAN JUNGLE FIGHTERS**\n- **DEATH KORPS GRENADIER SQUAD**\n- **DEATH KORPS OF KRIEG**\n- **"
     ],
@@ -3174,7 +3383,7 @@
       "Frame"
     ],
     "abilities": [
-      "Furious Barrage: In your Shooting phase, after this model has shot, select one enemy unit (excluding **^^Monsters^^** and **^^Vehicles^^**) that was hit by one or more of those attacks made with this model's storm eag"
+      "Furious Barrage: In your Shooting phase, after this model has shot, select one enemy unit (excluding Monsters and Vehicles) that was hit by one or more of those attacks made with this model's storm eagle rockets. Until the start of your next Shooting phase, that enemy unit is staggered. While a unit is staggered, subtract 1 from the Objective Control characteristic of models in that unit (to a minimum of 1)."
     ],
     "weapons": [
       {
@@ -3227,14 +3436,25 @@
         "keywords": "Anti-Infantry 2+, Blast, Indirect Fire"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 150
+      },
+      {
+        "from": 3,
+        "points": 180
+      }
+    ]
   },
   {
     "name": "Militarum Tempestus Command Squad",
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 85,
-    "models": 1,
+    "models": 5,
     "move": "6\"",
     "toughness": "3",
     "save": "4+",
@@ -3341,21 +3561,32 @@
         "keywords": "Pistol"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 85
+      },
+      {
+        "from": 3,
+        "points": 95
+      }
+    ]
   },
   {
     "name": "Munitorum Servitors [Legends]",
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 35,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
-    "invulnerableSave": "",
+    "models": 4,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "8+",
+    "objectiveControl": "0",
+    "invulnerableSave": "6+",
     "role": "INFANTRY",
     "isHero": false,
     "canReinforce": true,
@@ -3365,8 +3596,8 @@
       "Infantry"
     ],
     "abilities": [
-      "Mindlock: While a friendly **^^Tech-Priest Enginseer^^** model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by **^^Munitorum Servitor^^",
-      "Servitor Retinue: At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a **^^Regimental Enginseer^^** (a unit cannot have more than one **^^Munitorum"
+      "Mindlock: While a friendly Tech-Priest Enginseer model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by Munitorum Servitor models in this unit by 1.",
+      "Servitor Retinue: At the start of the Declare Battle Formations step, this unit can join one other unit from your army that is being led by a Regimental Enginseer (a unit cannot have more than one Munitorum Servitors unit joined to it). If it does, until the end of the battle, every model in this unit counts as being part of that Bodyguard unit, and that Bodyguard unit’s Starting Strength is increased accordingly."
     ],
     "weapons": [
       {
@@ -3408,8 +3639,8 @@
       "Grenades"
     ],
     "abilities": [
-      "Thunderous Head-butt: Each time this model’s unit is selected to fight, you can select one enemy unit within Engagement Range of this model and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that ",
-      "Loyal Protector: At the start of the Declare Battle Formations step, this model must join one **^^Command Squad^^** unit from your army (a **^^Command Squad^^** cannot have more than one **^^Loyal Protector^^** model "
+      "Thunderous Head-butt: Each time this model’s unit is selected to fight, you can select one enemy unit within Engagement Range of this model and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds.",
+      "Loyal Protector: At the start of the Declare Battle Formations step, this model must join one Command Squad unit from your army (a Command Squad cannot have more than one Loyal Protector model joined to it). This model then counts as part of that Command Squad for the rest of the battle, and its Starting Strength is increased accordingly. If it is not possible to join this model to a Command Squad, it does not take part in the battle and counts as having been destroyed. While this model is joined to a unit, it can embark within any Transport that unit can embark within, and takes up the space of 3 models. This model cannot be selected as your Warlord."
     ],
     "weapons": [
       {
@@ -3461,7 +3692,7 @@
       "Character"
     ],
     "abilities": [
-      "Loyal Protector: At the start of the Declare Battle Formations step, this model must join one **^^Command Squad^^** unit from your army (a **^^Command Squad^^** cannot have more than one **^^Loyal Protector^^** model ",
+      "Loyal Protector: At the start of the Declare Battle Formations step, this model must join one Command Squad unit from your army (a Command Squad cannot have more than one Loyal Protector model joined to it). This model then counts as part of that Command Squad for the rest of the battle, and its Starting Strength is increased accordingly. If it is not possible to join this model to a Command Squad, it does not take part in the battle and counts as having been destroyed. While this model is joined to a unit, it can embark within any Transport that unit can embark within, and takes up the space of 3 models. This model cannot be selected as your WARLORD and cannot be given Enhancements",
       "Slabshield: The bearer has a Wounds characteristic of 7."
     ],
     "weapons": [
@@ -3522,13 +3753,13 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 60,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 3,
+    "move": "6\"",
+    "toughness": "6",
+    "save": "5+",
+    "wounds": "3",
+    "leadership": "7+",
+    "objectiveControl": "1",
     "invulnerableSave": "",
     "role": "INFANTRY",
     "isHero": false,
@@ -3582,8 +3813,8 @@
       "Leader"
     ],
     "abilities": [
-      "Psychic Barrier (Psychic): At the start of your opponent’s Shooting phase, you can roll one D6: on a 1, this **^^Psyker^^**’s unit suffers D3 mortal wounds; on a 2+, until the end of the phase, models in this **^^Psyker^^**’s u",
-      "Leader: This model can be attached to the following units:\n- **CADIAN SHOCK TROOPS**\n- **CATACHAN JUNGLE FIGHTERS**\n- **DEATH KORPS GRENADIER SQUAD**\n- **DEATH KORPS OF KRIEG**\n- **KASRKIN**\n- **KRIEG COMBAT ",
+      "Psychic Barrier (Psychic): At the start of your opponent’s Shooting phase, you can roll one D6: on a 1, this Psyker’s unit suffers D3 mortal wounds; on a 2+, until the end of the phase, models in this Psyker’s unit have a 4+ invulnerable save.",
+      "Leader: This model can be attached to the following units: - CADIAN SHOCK TROOPS - CATACHAN JUNGLE FIGHTERS - DEATH KORPS GRENADIER SQUAD - DEATH KORPS OF KRIEG - KASRKIN - KRIEG COMBAT ENGINEERS - TEMPESTUS SCIONS",
       "Malign Wardings (Psychic): While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks"
     ],
     "weapons": [
@@ -3635,13 +3866,13 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 40,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 3,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
     "invulnerableSave": "",
     "role": "INFANTRY",
     "isHero": false,
@@ -3652,10 +3883,10 @@
       "Infantry"
     ],
     "abilities": [
-      "Aeronautica Commander: At the start of your Shooting phase, select one enemy unit within 30\" of and visible to this unit’s Officer of the Fleet model. Until the end of the phase, each time a friendly **^^Astra Militarum Air",
+      "Aeronautica Commander: At the start of your Shooting phase, select one enemy unit within 30\" of and visible to this unit’s Officer of the Fleet model. Until the end of the phase, each time a friendly Astra Militarum Aircraft model makes a ranged attack that targets that unit, add 1 to the Hit roll.",
       "Divination (Psychic): Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this unit’s Astropath model.",
       "Attachés: At the start of the Declare Battle Formations step, this unit must join one **^^Command Squad^^** unit from your army (a **^^Command Squad^^** unit cannot have more than one **^^Regimental Attaché^^**",
-      "Artillery Commander: At the start of your Shooting phase, select one enemy unit within 30\" of and visible to this unit’s Master of Ordnance model that has not already been selected for this ability this phase. Until the e"
+      "Artillery Commander: At the start of your Shooting phase, select one enemy unit within 30\" of and visible to this unit’s Master of Ordnance model that has not already been selected for this ability this phase. Until the end of the phase, Blast weapons equipped by friendly Astra Militarum Artillery models have the [SUSTAINED HITS 1] ability when targeting that unit"
     ],
     "weapons": [
       {
@@ -3716,7 +3947,7 @@
     ],
     "abilities": [
       "Vengeance for the Omnissiah: If a friendly **^^Astra Militarum Vehicle^^** model is destroyed within 12\" of this model, until the end of the battle, this model’s Enginseer axe has an Attacks characteristic of 6",
-      "Omnissiah’s Blessing: In your Command phase, select one friendly **^^Astra Militarum Vehicle^^** model within 3\" of this model. That **^^Vehicle^^** model regains up to D3 lost wounds and, until the start of your next Comm",
+      "Omnissiah’s Blessing: In your Command phase, select one friendly Adeptus Mechanicus model within 3\" of this model. That model regains up to D3 lost wounds and, if it is a Vehicle model, until the start of your next Command phase, that model has the Feel No Pain 5+ ability. Each model can only be selected for this ability once per Command phase",
       "Enginseer: While this model is within 3\" of one or more friendly **^^Astra Militarum Vehicle^^** units, this model has the Lone Operative ability",
       "Leader: This model can be attached to the following units:\n- **^^Cadian Shock Troops^^**\n- **^^Catachan Jungle Fighters^^**\n- **^^Death Korps of Krieg^^**\n- **^^Kasrkin^^**\n- **^^Krieg Combat Engineers^^**"
     ],
@@ -3879,7 +4110,18 @@
         "keywords": "Melta 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 260
+      },
+      {
+        "from": 2,
+        "points": 275
+      }
+    ]
   },
   {
     "name": "Scout Sentinels",
@@ -3907,7 +4149,7 @@
       "Smoke"
     ],
     "abilities": [
-      "Daring Recon: At the start of your Shooting phase, select one enemy unit within 18\" of and visible to this unit. Until the end of the phase, each time a friendly **^^Astra Militarum^^** model makes an attack that t"
+      "Daring Recon: At the start of your Shooting phase, select one enemy unit within 18\" of and visible to this unit. Until the end of the phase, each time a friendly Astra Militarum model makes an attack that targets that unit, re-roll a Hit roll of 1."
     ],
     "weapons": [
       {
@@ -3971,7 +4213,7 @@
     "abilities": [
       "Harker’s Hellraisers: While this model is leading a unit, each time a ranged attack targets that unit, if the attacking model is more than 12\" away, subtract 1 from the Hit roll.",
       "Leader: This model can be attached to the following unit:\n- **CATACHAN JUNGLE FIGHTERS**",
-      "Payback Time: Once per battle, when this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its Payback weapon has an Attacks characteristic of 6 and the **[SUSTAINED HITS "
+      "Payback Time: Once per battle, when this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its Payback weapon has an Attacks characteristic of 6 and the [SUSTAINED HITS 3] ability instead of the [SUSTAINED HITS 1] ability."
     ],
     "weapons": [
       {
@@ -4075,7 +4317,18 @@
         "keywords": "Ignores Cover, Torrent, Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 375
+      },
+      {
+        "from": 2,
+        "points": 405
+      }
+    ]
   },
   {
     "name": "Sly Marbo",
@@ -4103,8 +4356,8 @@
       "Regiment"
     ],
     "abilities": [
-      "Like Fighting a Shadow: In your Shooting phase, after this model has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move. If it does, until the end of the turn, this model is not ",
-      "One-man Army: Once per turn, in your opponent's Shooting phase, when an enemy unit makes a ranged attack that targets a friendly **^^Regiment^^** unit within 3\" of this model, after that enemy unit has shot, this m"
+      "Like Fighting a Shadow: In your Shooting phase, after this model has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move. If it does, until the end of the turn, this model is not eligible to declare a charge.",
+      "One-man Army: Once per turn, in your opponent's Shooting phase, when an enemy unit makes a ranged attack that targets a friendly Regiment unit within 3\" of this model, after that enemy unit has shot, this model can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
     ],
     "weapons": [
       {
@@ -4156,7 +4409,7 @@
       "Frame"
     ],
     "abilities": [
-      "Mount Up!: At the end of your opponent’s Movement phase, if there are no models currently embarked within this **^^Transport^^**, you can select one friendly **^^Astra Militarum Infantry^^** unit (excluding **^^"
+      "Mount Up!: At the end of your opponent’s Movement phase, if there are no models currently embarked within this Transport, you can select one friendly Astra Militarum Infantry unit (excluding Artillery units) that is wholly within 6\" of this Transport. Unless that unit is within Engagement Range of one or more enemy units, it can embark within this Transport."
     ],
     "weapons": [
       {
@@ -4219,7 +4472,18 @@
         "keywords": "Sustained Hits 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 395
+      },
+      {
+        "from": 2,
+        "points": 430
+      }
+    ]
   },
   {
     "name": "Stormsword",
@@ -4246,7 +4510,7 @@
       "Frame"
     ],
     "abilities": [
-      "Concussive Wave: In your Shooting phase, just after selecting a target for this model’s Stormsword siege cannon, roll one D6 for the target unit and every other unit within 3\" of that unit: on a 5+, the unit being rol"
+      "Concussive Wave: In your Shooting phase, just after selecting a target for this model’s Stormsword siege cannon, roll one D6 for the target unit and every other unit within 3\" of that unit: on a 5+, the unit being rolled for is struck by a concussive wave. After this model has finished making its attacks against that target unit this phase, each unit struck by a concussive wave suffers D3 mortal wounds."
     ],
     "weapons": [
       {
@@ -4289,7 +4553,18 @@
         "keywords": "Blast, Ignores Cover"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 430
+      },
+      {
+        "from": 2,
+        "points": 465
+      }
+    ]
   },
   {
     "name": "Leman Russ Commander",
@@ -4318,7 +4593,7 @@
       "Frame"
     ],
     "abilities": [
-      "Death Befitting An Officer: In your opponent’s Shooting phase, when this unit is **destroyed**, before this unit’s **deadly demise** roll, roll one D6: \n- On a 2+, do not remove this unit from the battlefield. After the attackin",
+      "Death Befitting An Officer: In your opponent’s Shooting phase, when this unit is destroyed, before this unit’s deadly demise roll, roll one D6: - On a 2+, do not remove this unit from the battlefield. After the attacking unit has shot, this unit can shoot using normal shooting, but while doing so this unit can only target that enemy unit. When this unit has shot, or at the end of the phase (whichever comes first), resolve this unit’s deadly demise roll, then this unit is removed from the battlefield.",
       "Vox-net: Each time this model issues an Order, it can issue it to an eligible unit up to 12\" away"
     ],
     "weapons": [
@@ -4421,7 +4696,18 @@
         "keywords": "Heavy, Sustained Hits 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 195
+      },
+      {
+        "from": 3,
+        "points": 210
+      }
+    ]
   },
   {
     "name": "Taurox",
@@ -4449,7 +4735,7 @@
       "Frame"
     ],
     "abilities": [
-      "Rapid Deployment: Units can disembark from this **^^Transport^^** after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise a"
+      "Rapid Deployment: Units can disembark from this Transport after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally."
     ],
     "weapons": [
       {
@@ -4482,7 +4768,18 @@
         "d": "1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 65
+      },
+      {
+        "from": 4,
+        "points": 75
+      }
+    ]
   },
   {
     "name": "Taurox Prime",
@@ -4510,7 +4807,7 @@
       "Frame"
     ],
     "abilities": [
-      "Transport Support: In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this"
+      "Transport Support: In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Hit roll."
     ],
     "weapons": [
       {
@@ -4533,20 +4830,31 @@
         "keywords": "Rapid Fire 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 75
+      },
+      {
+        "from": 4,
+        "points": 85
+      }
+    ]
   },
   {
     "name": "Tempestus Scions",
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 75,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 5,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
     "invulnerableSave": "",
     "role": "INFANTRY",
     "isHero": false,
@@ -4663,7 +4971,18 @@
         "keywords": "Hazardous, Pistol"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 75
+      },
+      {
+        "from": 3,
+        "points": 85
+      }
+    ]
   },
   {
     "name": "Ursula Creed",
@@ -4692,7 +5011,7 @@
     ],
     "abilities": [
       "Lord Castellan: While this model is leading a unit, that unit can be affected by up to two different Orders at the same time.",
-      "Tactical Genius: Once per battle round, one unit from your army with this ability can use it when a friendly **^^Regiment^^** unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost ",
+      "Tactical Genius: Once per battle round, one unit from your army with this ability can use it when a friendly Regiment unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1 CP.",
       "Leader: This model can be attached to the following units:\n- ^^**Cadian Shock Troops**^^\n- **^^Kasrkin^^**"
     ],
     "weapons": [
@@ -4797,7 +5116,18 @@
         "keywords": "Heavy, Sustained Hits 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 170
+      },
+      {
+        "from": 3,
+        "points": 180
+      }
+    ]
   },
   {
     "name": "Wyvern",
@@ -4825,7 +5155,7 @@
       "Frame"
     ],
     "abilities": [
-      "Suppression Bombardment: In your Shooting phase, after this model has shot, select one enemy unit (excluding **^^Monsters^^** and **^^Vehicles^^**) that was hit by one or more attacks made with this model’s Wyvern quad storms"
+      "Suppression Bombardment: In your Shooting phase, after this model has shot, select one enemy unit (excluding Monsters and Vehicles) that was hit by one or more attacks made with this model’s Wyvern quad stormshard mortar. Unit the start of your next Shooting phase, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
     ],
     "weapons": [
       {
@@ -4878,20 +5208,31 @@
         "keywords": "Blast, Indirect Fire, Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 95
+      },
+      {
+        "from": 3,
+        "points": 125
+      }
+    ]
   },
   {
     "name": "Death Riders",
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 60,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 5,
+    "move": "10\"",
+    "toughness": "4",
+    "save": "4+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "1",
     "invulnerableSave": "",
     "role": "CAVALRY",
     "isHero": false,
@@ -4904,7 +5245,7 @@
       "Death Riders"
     ],
     "abilities": [
-      "Screening Line: In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up t"
+      "Screening Line: In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to 6\"."
     ],
     "weapons": [
       {
@@ -5101,12 +5442,23 @@
       "Frame"
     ],
     "abilities": [
-      "Demolition Charges: Each time this model or an enemy unit ends a move, if this model is within 3\" of one or more enemy units, select one of those enemy units. This model is destroyed, but instead of rolling for its Deadl",
+      "Demolition Charges: Each time this model or an enemy unit ends a move, if this model is within 3\" of one or more enemy units, select one of those enemy units. This model is destroyed, but instead of rolling for its Deadly Demise ability, roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D6 mortal wounds.",
       "Unstable Payload: When rolling for this model’s Deadly Demise ability, units within 6\" suffer mortal wounds on a 4+, instead of on a 6.",
       "Compact: This model can embark within an ASTRA MILITARUM TRANSPORT model as if it were an INFANTRY model. If it does, it takes up the space of 7 models."
     ],
     "weapons": [],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 40
+      },
+      {
+        "from": 3,
+        "points": 45
+      }
+    ]
   },
   {
     "name": "Malcador [Legends]",
@@ -5473,7 +5825,7 @@
       "Frame"
     ],
     "abilities": [
-      "Explosive Death: When this model is destroyed, roll one D6: on a 3+, do not remove it from play – it can, after the attacking model’s unit has finished making its attacks, shoot with its inferno gun as if it were your"
+      "Explosive Death: When this model is destroyed, roll one D6: on a 3+, do not remove it from play – it can, after the attacking model’s unit has finished making its attacks, shoot with its inferno gun as if it were your Shooting phase and as if it had its full wounds remaining. This model is then removed from play."
     ],
     "weapons": [
       {
@@ -5645,7 +5997,7 @@
       "Frame"
     ],
     "abilities": [
-      "Earthshaker Rounds: In your Shooting phase, after this model has shot, if one or more of those attacks made with its earthshaker cannon scored a hit against an INFANTRY unit, until the end of your opponent’s next turn, t"
+      "Earthshaker Rounds: In your Shooting phase, after this model has shot, if one or more of those attacks made with its earthshaker cannon scored a hit against an INFANTRY unit, until the end of your opponent’s next turn, that INFANTRY unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it."
     ],
     "weapons": [
       {
@@ -6216,7 +6568,7 @@
       "Frame"
     ],
     "abilities": [
-      "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this"
+      "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
     ],
     "weapons": [
       {
@@ -6485,7 +6837,7 @@
       "Frame"
     ],
     "abilities": [
-      "Fiery Vengeance: Once per turn, in your opponent’s Shooting phase, when another friendly ASTRA MILITARUM unit within 6\" of this model is destroyed by an attack made by a unit that can Fly, one model from your army wit"
+      "Fiery Vengeance: Once per turn, in your opponent’s Shooting phase, when another friendly ASTRA MILITARUM unit within 6\" of this model is destroyed by an attack made by a unit that can Fly, one model from your army with this ability can use it. If it does, after the attacking unit has finished making its attacks, that model can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)."
     ],
     "weapons": [
       {
@@ -6669,8 +7021,8 @@
     ],
     "abilities": [
       "Damaged: 1-7 Wounds Remaining: While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
-      "Heavy Bombs: Each time the bearer ends a Normal move, you can select one enemy unit it moved over during that move and roll nine D6, adding 1 to each result if that unit is a MONSTER or VEHICLE: for each 5+, that ",
-      "Inferno Bombs: Each time the bearer ends a Normal move, you can select one enemy unit it moved over during that move and roll nine D6, adding 1 to each result if that unit is not a MONSTER or VEHICLE: for each 5+, t"
+      "Heavy Bombs: Each time the bearer ends a Normal move, you can select one enemy unit it moved over during that move and roll nine D6, adding 1 to each result if that unit is a MONSTER or VEHICLE: for each 5+, that unit suffers 1 mortal wound.",
+      "Inferno Bombs: Each time the bearer ends a Normal move, you can select one enemy unit it moved over during that move and roll nine D6, adding 1 to each result if that unit is not a MONSTER or VEHICLE: for each 5+, that unit suffers 1 mortal wound."
     ],
     "weapons": [
       {
@@ -6812,7 +7164,7 @@
       "Frame"
     ],
     "abilities": [
-      "Subterranean Assault: Each time you set up this model on the battlefield using the Deep Strike ability, you can select one friendly **^^Astra Militarum Infantry^^** unit in Strategic Reserves. If you do, set up that unit a"
+      "Subterranean Assault: Each time you set up this model on the battlefield using the Deep Strike ability, you can select one friendly Astra Militarum Infantry unit in Strategic Reserves. If you do, set up that unit anywhere on the battlefield that is wholly within 9\" of this model and more than 8\" away from all enemy units."
     ],
     "weapons": [
       {
@@ -6852,7 +7204,7 @@
       "Frame"
     ],
     "abilities": [
-      "Support Vehicle: In your Command phase, select one friendly ASTRA MILITARUM VEHICLE model within 3\" of this model. That VEHICLE model regains up to D3 lost wounds and, until the start of your next Command phase, each "
+      "Support Vehicle: In your Command phase, select one friendly ASTRA MILITARUM VEHICLE model within 3\" of this model. That VEHICLE model regains up to D3 lost wounds and, until the start of your next Command phase, each time that VEHICLE model makes an attack, re-roll a Hit roll of 1. The same VEHICLE model cannot be selected for both this ability and the REGIMENTAL ENGINSEER's Omnissiah’s Blessing ability in the same turn, and each model can only be selected for this ability once per Command phase."
     ],
     "weapons": [
       {
@@ -6922,7 +7274,7 @@
       "Frame"
     ],
     "abilities": [
-      "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from thi"
+      "Fire Support: In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
     ],
     "weapons": [
       {
@@ -7062,7 +7414,7 @@
       "Frame"
     ],
     "abilities": [
-      "Pinning Bombardment: In your Shooting phase, after this model has shot, if one or more of those attacks made with its Dominus triple bombard scored a hit against an enemy Infantry unit, that unit must take a Battle-shock "
+      "Pinning Bombardment: In your Shooting phase, after this model has shot, if one or more of those attacks made with its Dominus triple bombard scored a hit against an enemy Infantry unit, that unit must take a Battle-shock test."
     ],
     "weapons": [
       {
@@ -7183,7 +7535,7 @@
       "Frame"
     ],
     "abilities": [
-      "Mount Up!: At the end of your opponent’s Movement phase, if there are no models currently embarked within this **^^Transport^^**, you can select one friendly **^^Astra Militarum Infantry^^** unit (excluding **^^"
+      "Mount Up!: At the end of your opponent’s Movement phase, if there are no models currently embarked within this Transport, you can select one friendly Astra Militarum Infantry unit (excluding Artillery units) that is wholly within 6\" of this Transport. Unless that unit is within Engagement Range of one or more enemy units, it can embark within this Transport."
     ],
     "weapons": [
       {
@@ -7253,7 +7605,7 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 110,
-    "models": 1,
+    "models": 10,
     "move": "6\"",
     "toughness": "3",
     "save": "4+",
@@ -7405,7 +7757,7 @@
       "Frame"
     ],
     "abilities": [
-      "Blistering Advance: Units can disembark from this Transport after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act norma"
+      "Blistering Advance: Units can disembark from this Transport after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn"
     ],
     "weapons": [
       {
@@ -7635,7 +7987,7 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 50,
-    "models": 1,
+    "models": 2,
     "move": "6\"",
     "toughness": "2",
     "save": "6+",
@@ -7654,7 +8006,7 @@
       "Rein and Raus"
     ],
     "abilities": [
-      "Shoot Sharp and Scarper: In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move. If it does, until the end of the turn, this unit is not el",
+      "Shoot Sharp and Scarper: In your Shooting phase, after this unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move. If it does, until the end of the turn, this unit is not eligible to declare a charge",
       "The Ratling Twins: While this unit contains 2 models, each time a model in this unit makes a ranged attack, you can re-roll the Hit roll and you can re-roll the Wound roll."
     ],
     "weapons": [
@@ -7706,7 +8058,7 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 45,
-    "models": 1,
+    "models": 5,
     "move": "6\"",
     "toughness": "3",
     "save": "4+",
@@ -7770,7 +8122,7 @@
       "Frame"
     ],
     "abilities": [
-      "Recovery Vehicle: At the end of your Movement phase, you can select one friendly Astra Militarum Vehicle model within 3\" of this model. That Vehicle model regains up to D3 lost wounds. Each model can only be selected f"
+      "Recovery Vehicle: At the end of your Movement phase, you can select one friendly Astra Militarum Vehicle model within 3\" of this model. That Vehicle model regains up to D3 lost wounds. Each model can only be selected for this ability once per turn."
     ],
     "weapons": [
       {
@@ -7851,7 +8203,7 @@
       "Regiment"
     ],
     "abilities": [
-      "Meteoric Descent: When this model is set up on the battlefield using the Deep Strike ability, it can perform a meteoric descent. If it does, this model can be set up anywhere on the battlefield that is more than 6\" hor"
+      "Meteoric Descent: When this model is set up on the battlefield using the Deep Strike ability, it can perform a meteoric descent. If it does, this model can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge."
     ],
     "weapons": [
       {
@@ -8043,7 +8395,7 @@
       "Frame"
     ],
     "abilities": [
-      "Pinning Bombardment: In your Shooting phase, after this model has shot, if one or more of those attacks made with its Medusa siege cannon scored a hit against an enemy Infantry unit, that unit must take a Battle-shock tes"
+      "Pinning Bombardment: In your Shooting phase, after this model has shot, if one or more of those attacks made with its Medusa siege cannon scored a hit against an enemy Infantry unit, that unit must take a Battle-shock test."
     ],
     "weapons": [
       {
@@ -8143,7 +8495,7 @@
       "Regiment"
     ],
     "abilities": [
-      "Suppression Bombardment: In your Shooting phase, after this model has shot, select one enemy unit (excluding Monster and Vehicle units) hit by one or more of those attacks. Unit the start of your next turn, that enemy unit is"
+      "Suppression Bombardment: In your Shooting phase, after this model has shot, select one enemy unit (excluding Monster and Vehicle units) hit by one or more of those attacks. Unit the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
     ],
     "weapons": [
       {
@@ -8358,9 +8710,9 @@
       "Leader"
     ],
     "abilities": [
-      "Summary Execution: Once per battle round, at the start of any phase, you can select one friendly ASTRA MILITARUM INFANTRY or ASTRA MILITARUM MOUNTED unit that is Battle-shocked and within 12\" of this model. If you do, o",
+      "Summary Execution: Once per battle round, at the start of any phase, you can select one friendly ASTRA MILITARUM INFANTRY or ASTRA MILITARUM MOUNTED unit that is Battle-shocked and within 12\" of this model. If you do, one model in that unit is destroyed, and that unit is then no longer Battle-shocked.",
       "Political Overwatch: While another Officer model is in the same unit as this model, you can re-roll Battle-shock tests taken for that unit.",
-      "Leader: This model can be attached to the following unit:\n- **^^Death Riders^^**\n\n*You can attach this model to the above unit even if one **^^Death Rider Squadron Commander^^**, **^^Lord Marshal Dreir^^** or"
+      "Leader: This model can be attached to the following unit: - Death Riders *You can attach this model to the above unit even if one Death Rider Squadron Commander, Lord Marshal Dreir or Lord Solar Leontus model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.*"
     ],
     "weapons": [
       {
@@ -8422,7 +8774,7 @@
       "Frame"
     ],
     "abilities": [
-      "Powerlifter Charge: Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mort"
+      "Powerlifter Charge: Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds."
     ],
     "weapons": [
       {
@@ -8461,7 +8813,7 @@
       "Frame"
     ],
     "abilities": [
-      "Reinforced Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against th",
+      "Reinforced Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack",
       "Furious Barrage: Each time this model makes an attack with its storm eagle rockets that targets an enemy unit that contains five or more models, you can re-roll the Hit roll."
     ],
     "weapons": [
@@ -8512,7 +8864,7 @@
     ],
     "abilities": [
       "Flak Battery: Each time this model makes an attack that targets a unit that can Fly, you can re-roll the Hit roll.",
-      "Reinforced Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against th"
+      "Reinforced Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack"
     ],
     "weapons": [
       {
@@ -8563,7 +8915,7 @@
       "Frame"
     ],
     "abilities": [
-      "Suppression Bombardment: In your Shooting phase, after this model has shot, select one enemy unit (excluding Monster and Vehicle units) hit by one or more of those attacks made with this model’s Griffon heavy mortar. Unit the"
+      "Suppression Bombardment: In your Shooting phase, after this model has shot, select one enemy unit (excluding Monster and Vehicle units) hit by one or more of those attacks made with this model’s Griffon heavy mortar. Unit the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
     ],
     "weapons": [
       {
@@ -8652,9 +9004,9 @@
       "Frame"
     ],
     "abilities": [
-      "Earthshaker Rounds: In your Shooting phase, after this model has shot, if one or more of those attacks made with its earthshaker cannon scored a hit against an enemy Infantry unit, until the end of your opponent’s next t",
-      "Reinforced Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against th",
-      "Fortification: While an enemy unit is only within Engagement Range of one or more Fortifications from your army:\n■ That unit can still be selected as the target of ranged attacks, but each time such an attack is mad"
+      "Earthshaker Rounds: In your Shooting phase, after this model has shot, if one or more of those attacks made with its earthshaker cannon scored a hit against an enemy Infantry unit, until the end of your opponent’s next turn, that unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it.",
+      "Reinforced Cover: Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack.",
+      "Fortification: While an enemy unit is only within Engagement Range of one or more Fortifications from your army: ■ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll. ■ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
     ],
     "weapons": [
       {
@@ -8684,13 +9036,13 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 110,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 3,
+    "move": "8\"",
+    "toughness": "6",
+    "save": "4+",
+    "wounds": "5",
+    "leadership": "7+",
+    "objectiveControl": "2",
     "invulnerableSave": "",
     "role": "CAVALRY",
     "isHero": false,
@@ -8703,7 +9055,7 @@
       "Regiment"
     ],
     "abilities": [
-      "Desert Riders: You can ignore any or all modifiers to this unit’s Move characteristic and to Advance and Charge rolls made for it. In addition, this unit is eligible to shoot and declare a charge in a turn in which "
+      "Desert Riders: You can ignore any or all modifiers to this unit’s Move characteristic and to Advance and Charge rolls made for it. In addition, this unit is eligible to shoot and declare a charge in a turn in which it Fell Back"
     ],
     "weapons": [
       {
@@ -9151,7 +9503,7 @@
       "Frame"
     ],
     "abilities": [
-      "Rolling Fortress: Each time a ranged attack is allocated to an ASTRA MILITARUM model from your army, if that model is not fully visible to every model in the attacking unit because of this Arkurian Stormhammer model, t"
+      "Rolling Fortress: Each time a ranged attack is allocated to an ASTRA MILITARUM model from your army, if that model is not fully visible to every model in the attacking unit because of this Arkurian Stormhammer model, that model has the Benefit of Cover against that attack"
     ],
     "weapons": [
       {
@@ -9353,13 +9705,13 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 95,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 10,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
     "invulnerableSave": "",
     "role": "INFANTRY",
     "isHero": false,
@@ -9374,8 +9726,8 @@
       "Tempestus Aquilons"
     ],
     "abilities": [
-      "Precision Drop: In your Movement phase, when this unit is set up on the battlefield using the Deep Strike ability, it can perform a precision drop. If it does, this unit can be set up anywhere on the battlefield that",
-      "Servo-sentry: When this unit is set up on the battlefield using the Deep Strike ability, the Tempestor Aquilon can shoot with its sentry weapon (its sentry flamer, sentry grenade launcher or sentry hot-shot volley "
+      "Precision Drop: In your Movement phase, when this unit is set up on the battlefield using the Deep Strike ability, it can perform a precision drop. If it does, this unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge.",
+      "Servo-sentry: When this unit is set up on the battlefield using the Deep Strike ability, the Tempestor Aquilon can shoot with its sentry weapon (its sentry flamer, sentry grenade launcher or sentry hot-shot volley gun)."
     ],
     "weapons": [
       {
@@ -9456,13 +9808,13 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 60,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 5,
+    "move": "6\"",
+    "toughness": "2",
+    "save": "6+",
+    "wounds": "1",
+    "leadership": "8+",
+    "objectiveControl": "1",
     "invulnerableSave": "",
     "role": "INFANTRY",
     "isHero": false,
@@ -9473,8 +9825,8 @@
       "Ratlings"
     ],
     "abilities": [
-      "Shoot Sharp and Scarper: In your Shooting phase, after this unit has shot, if it is not within Engagement Range of any enemy units, it can make a Normal move as if it were your Movement phase. If it does, until the end of the",
-      "Ratling Battlemutt: Once per battle, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the **[LETHAL HITS]** ability",
+      "Shoot Sharp and Scarper: In your Shooting phase, after this unit has shot, if it is not within Engagement Range of any enemy units, it can make a Normal move as if it were your Movement phase. If it does, until the end of the turn, this unit is not eligible to declare a charge.",
+      "Ratling Battlemutt: Once per battle, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the [LETHAL HITS] ability. Designer’s Note: *Place a Ratling Battlemutt token next to the unit, removing it once this ability has been used.*",
       "Demolition Gear: The bearer’s unit has the **^^Grenades^^** keyword."
     ],
     "weapons": [
@@ -9516,7 +9868,7 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 60,
-    "models": 1,
+    "models": 6,
     "move": "6\"",
     "toughness": "3",
     "save": "5+",
@@ -9538,7 +9890,7 @@
       "Leader"
     ],
     "abilities": [
-      "Grim Determination: While this unit contains an **^^Officer^^**, you can target this unit with Stratagems even while it is Battle-shocked and Orders issued to this unit do not cease to affect this unit if it becomes Batt",
+      "Grim Determination: While this unit contains an Officer, you can target this unit with Stratagems even while it is Battle-shocked and Orders issued to this unit do not cease to affect this unit if it becomes Battle-shocked.",
       "Leader: This model can be attached to the following units:\n- **DEATH KORPS GRENADIER SQUAD**\n- **DEATH KORPS OF KRIEG**\n- **KRIEG COMBAT ENGINEERS**",
       "Alchemyk Counteragents: The bearer's unit has the Feel No Pain 6+ ability against mortal wounds.",
       "Servo-scribes: Once per battle, when issuing an Order, the Lord Commissar can issue one additional Order.\n\n\nDesigner's Note: Place a Servo-scribes token next to the unit, removing it when this ability has been used."
@@ -9650,7 +10002,7 @@
     "name": "Lord Marshal Dreir",
     "faction": "Astra Militarum",
     "alliance": "imperium",
-    "points": 75,
+    "points": 70,
     "models": 1,
     "move": "10\"",
     "toughness": "4",
@@ -9673,7 +10025,7 @@
       "Leader"
     ],
     "abilities": [
-      "Tough to Kill: The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement",
+      "Tough to Kill: The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D3 wounds remaining.",
       "Leader: This model can be attached to the following unit:\n- **^^Death Riders^^**",
       "Leading the Charge: Each time this model's unit makes a Charge move, until the end of the turn, melee weapons equipped by models in that unit have the **[DEVASTATING WOUNDS]** ability."
     ],
@@ -9716,7 +10068,7 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 60,
-    "models": 1,
+    "models": 5,
     "move": "6\"",
     "toughness": "3",
     "save": "5+",
@@ -9963,7 +10315,18 @@
         "keywords": "Blast, Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 290
+      },
+      {
+        "from": 2,
+        "points": 305
+      }
+    ]
   },
   {
     "name": "Ministorum Priest",
@@ -10023,13 +10386,13 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 65,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 5,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "4+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
     "invulnerableSave": "",
     "role": "INFANTRY",
     "isHero": false,
@@ -10044,7 +10407,7 @@
     ],
     "abilities": [
       "Grenadiers: Once per turn, you can target this unit with the Grenade Stratagem for 0CP.",
-      "Remote mine: Once per battle, at the start of your Shooting phase, you can select one enemy unit within 9\" of and visible to the bearer and roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds, or 2D3 mo"
+      "Remote mine: Once per battle, at the start of your Shooting phase, you can select one enemy unit within 9\" of and visible to the bearer and roll one D6: on a 3+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a VEHICLE or FORTIFICATIONS unit. Designer's Note: *Place a Remote Mine token next to the unit, removing it once this ability has been used.*"
     ],
     "weapons": [
       {
@@ -10097,20 +10460,31 @@
         "keywords": "Assault"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 65
+      },
+      {
+        "from": 3,
+        "points": 75
+      }
+    ]
   },
   {
     "name": "Catachan Heavy Weapons Squad",
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 70,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 3,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "2",
+    "leadership": "7+",
+    "objectiveControl": "2",
     "invulnerableSave": "",
     "role": "INFANTRY",
     "isHero": false,
@@ -10204,7 +10578,7 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 70,
-    "models": 1,
+    "models": 4,
     "move": "6\"",
     "toughness": "3",
     "save": "5+",
@@ -10223,8 +10597,8 @@
       "Krieg Heavy Weapons Squad"
     ],
     "abilities": [
-      "Final Duty: While the Fire Coordinator model is on the battlefield, each time a Heavy Weapons Gunner model is destroyed, roll one D6: on a 3+, do not remove it from play. The destroyed model can shoot after the a",
-      "Embarking: While embarked within a **^^Transport^^**, each Heavy Weapons Gunner model takes up the space of 2 models, and each weapon equipped by these models is considered to be 2 models' weapons for the purpos"
+      "Final Duty: While the Fire Coordinator model is on the battlefield, each time a Heavy Weapons Gunner model is destroyed, roll one D6: on a 3+, do not remove it from play. The destroyed model can shoot after the attacking model’s unit has finished making its attacks, and is then removed from play.",
+      "Embarking: While embarked within a Transport, each Heavy Weapons Gunner model takes up the space of 2 models, and each weapon equipped by these models is considered to be 2 models' weapons for the purposes of the Firing Deck ability."
     ],
     "weapons": [
       {
@@ -10305,7 +10679,7 @@
       "Artillery Team"
     ],
     "abilities": [
-      "Remorseless Barrage: In your Shooting phase, after this model has shot, if one or more of those attacks made with an Indirect Fire weapon scored a hit against an enemy unit, that unit must take a Battle-shock test (if an "
+      "Remorseless Barrage: In your Shooting phase, after this model has shot, if one or more of those attacks made with an Indirect Fire weapon scored a hit against an enemy unit, that unit must take a Battle-shock test (if an Infantry unit is hit by one or more attacks made by a multiple rocket launcher, they must subtract 1 from their Battle-shock test when doing so)."
     ],
     "weapons": [
       {
@@ -10428,7 +10802,7 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 80,
-    "models": 1,
+    "models": 5,
     "move": "6\"",
     "toughness": "3",
     "save": "5+",
@@ -10934,7 +11308,7 @@
     "name": "Commissar Yarrick",
     "faction": "Astra Militarum",
     "alliance": "imperium",
-    "points": 120,
+    "points": 110,
     "models": 1,
     "move": "6\"",
     "toughness": "4",
@@ -10956,8 +11330,8 @@
       "Leader"
     ],
     "abilities": [
-      "Will of Iron: The first time this model is destroyed, remove it from play, then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroy",
-      "Leader: This model can be attached to the following units:\n- **CADIAN SHOCK TROOPS**\n- **CATACHAN JUNGLE FIGHTERS**\n- **DEATH KORPS GRENADIER SQUAD**\n- **DEATH KORPS OF KRIEG**\n- **KASRKIN**\n- **KRIEG COMBAT ",
+      "Will of Iron: The first time this model is destroyed, remove it from play, then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with 3 wounds remaining.",
+      "Leader: This model can be attached to the following units: - CADIAN SHOCK TROOPS - CATACHAN JUNGLE FIGHTERS - DEATH KORPS GRENADIER SQUAD - DEATH KORPS OF KRIEG - KASRKIN - KRIEG COMBAT ENGINEERS - TEMPESTUS SCIONS",
       "Hero of Hades Hive: In your Command phase, you can select one of the abilities in the Hero of Hades Hive section. Until the start of your next Command phase, this model has that ability."
     ],
     "weapons": [
@@ -11018,7 +11392,7 @@
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 125,
-    "models": 2,
+    "models": 1,
     "move": "12\"",
     "toughness": "8",
     "save": "3+",
@@ -11039,9 +11413,9 @@
       "Character"
     ],
     "abilities": [
-      "Brutal Disciplinarian: Once per turn, at the start of any phase, you can select one friendly **^^Astra Militarum Infantry^^** unit (excluding units that only contain one model) that is Battle‑shocked and within 24\" of and v",
-      "Mechanised Spearhead: In your Movement phase, each time a friendly **^^Astra Militarum Regiment^^** unit disembarks from a **^^Transport^^** that is within 6\" of this model, after that unit has been set up, this model can ",
-      "Aquiline Prow: Each time this unit ends a Charge move, you can select one enemy unit within Engagement Range of it, then roll one D6: on a 2‑3, that enemy unit suffers D3 mortal wounds; on a 4‑5, that enemy unit suf"
+      "Brutal Disciplinarian: Once per turn, at the start of any phase, you can select one friendly Astra Militarum Infantry unit (excluding units that only contain one model) that is Battle‑shocked and within 24\" of and visible to this model. If you do, one model in that unit is destroyed, and that unit is no longer Battle‑shocked.",
+      "Mechanised Spearhead: In your Movement phase, each time a friendly Astra Militarum Regiment unit disembarks from a Transport that is within 6\" of this model, after that unit has been set up, this model can issue 1 Order to that Regiment unit, regardless of how many Orders this model has already issued this turn.",
+      "Aquiline Prow: Each time this unit ends a Charge move, you can select one enemy unit within Engagement Range of it, then roll one D6: on a 2‑3, that enemy unit suffers D3 mortal wounds; on a 4‑5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
     ],
     "weapons": [
       {
@@ -11122,8 +11496,8 @@
       "Leader"
     ],
     "abilities": [
-      "Brutal Disciplinarian: Once per turn, at the start of any phase, you can select one friendly **^^Astra Militarum Infantry^^** (excluding units that only contain one model) unit that is Battle‑shocked and within 12\" of this ",
-      "Leader: This model can be attached to the following units:\n- **CADIAN SHOCK TROOPS**\n- **CATACHAN JUNGLE FIGHTERS**\n- **DEATH KORPS GRENADIER SQUAD**\n- **DEATH KORPS OF KRIEG**\n- **KASRKIN**\n- **KRIEG COMBAT ",
+      "Brutal Disciplinarian: Once per turn, at the start of any phase, you can select one friendly Astra Militarum Infantry (excluding units that only contain one model) unit that is Battle‑shocked and within 12\" of this model. If you do, one model in that unit is destroyed, and that unit is no longer Battle‑shocked.",
+      "Leader: This model can be attached to the following units: - CADIAN SHOCK TROOPS - CATACHAN JUNGLE FIGHTERS - DEATH KORPS GRENADIER SQUAD - DEATH KORPS OF KRIEG - KASRKIN - KRIEG COMBAT ENGINEERS - TEMPESTUS SCIONS",
       "Icon of Discipline: This model’s unit is eligible to shoot and declare a Charge in a turn in which it Fell Back.",
       "Using Commissar Graves: Your army can only include one **^^Commissar Graves^^** or **^^Commissar Graves on Foot^^** unit."
     ],
@@ -11177,7 +11551,7 @@
       "Transport"
     ],
     "abilities": [
-      "Rapid Strike Vehicle: While one or more units are embarked within this model, unless this model is Battle‑shocked, add 1 to this model’s Objective Control characteristic for every 3 models (rounding down) embarked within i"
+      "Rapid Strike Vehicle: While one or more units are embarked within this model, unless this model is Battle‑shocked, add 1 to this model’s Objective Control characteristic for every 3 models (rounding down) embarked within it."
     ],
     "weapons": [
       {
@@ -11201,20 +11575,31 @@
         "keywords": "Rapid Fire 3"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 3,
+        "points": 65
+      },
+      {
+        "from": 4,
+        "points": 75
+      }
+    ]
   },
   {
     "name": "Cadian Recon Squad",
     "faction": "Astra Militarum",
     "alliance": "imperium",
     "points": 80,
-    "models": 1,
-    "move": "",
-    "toughness": "",
-    "save": "",
-    "wounds": "",
-    "leadership": "",
-    "objectiveControl": "",
+    "models": 10,
+    "move": "6\"",
+    "toughness": "3",
+    "save": "5+",
+    "wounds": "1",
+    "leadership": "7+",
+    "objectiveControl": "1",
     "invulnerableSave": "",
     "role": "INFANTRY",
     "isHero": false,
@@ -11229,8 +11614,8 @@
     ],
     "abilities": [
       "Vox-caster: Each time you target the bearer’s unit with a Stratagem, roll one D6, adding 1 to the result if there are one or more friendly **^^Officer^^** models within 6\": on a 5+, you gain 1CP.",
-      "Vox-relay beacon: At the start of the battle, you can set up one Vox‑relay Beacon token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. While a friendly **^^Astra Militarum Reg",
-      "Independent Operatives: Each time an Order is issued to this unit, that Order affects this unit until a new Order is issued to this unit, or until this unit becomes Battle‑shocked, or until the battle ends (whichever happens"
+      "Vox-relay beacon: At the start of the battle, you can set up one Vox‑relay Beacon token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. While a friendly Astra Militarum Regiment unit is within 6\" of that token, Officer units from your army can issue orders to that Regiment unit as if the Officer unit was within 6\" of it. At the end of every phase, If an enemy unit is within 1\" of a Vox‑relay Beacon token you set up, that token is removed from the battlefield.",
+      "Independent Operatives: Each time an Order is issued to this unit, that Order affects this unit until a new Order is issued to this unit, or until this unit becomes Battle‑shocked, or until the battle ends (whichever happens first)."
     ],
     "weapons": [
       {
@@ -11346,7 +11731,7 @@
       "Leader: This model can be attached to the following units:\n- **CADIAN SHOCK TROOPS**\n- **CATACHAN JUNGLE FIGHTERS**\n- **DEATH KORPS OF KRIEG**\n- **KASRKIN**\n- **TEMPESTUS SCIONS**",
       "Psychic Blank: This model has Feel No Pain 4+ against **psychic attacks** and **mortal wounds**.",
       "Hero of the Imperium (Aura): While a friendly **ASTRA MILITARUM** unit is within 6\" of this model, that unit can re-roll **battle-shock rolls**.",
-      "Trapped by Excuses: In the Deploy Armies step, you must set this unit up on the battlefield, or embarked within a **TRANSPORT** unit that is set up on the battlefield. Abilities that allow you to redeploy a unit or place"
+      "Trapped by Excuses: In the Deploy Armies step, you must set this unit up on the battlefield, or embarked within a TRANSPORT unit that is set up on the battlefield. Abilities that allow you to redeploy a unit or place a unit in strategic reserves cannot affect this unit or a TRANSPORT unit this unit is embarked within."
     ],
     "weapons": [
       {
@@ -11405,7 +11790,7 @@
     "abilities": [
       "Chainbreaker: Once per battle, at the start of any phase, you can select one friendly **^^Imperium^^** unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked.",
       "Legendary Freeblade: Once per turn, you can target this model with a Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem in the same phase.",
-      "Using Sir Hekhtur: If your Canis Rex model is destroyed, this model is treated as a model disembarking from a destroyed **^^Transport^^** and must perform an Emergency Disembarkation. Sir Hekhtur cannot be selected as t"
+      "Using Sir Hekhtur: If your Canis Rex model is destroyed, this model is treated as a model disembarking from a destroyed Transport and must perform an Emergency Disembarkation. Sir Hekhtur cannot be selected as the target of any of your Stratagems other than Core Stratagems. Your Canis Rex unit is not considered to be destroyed until Sir Hekhtur is also destroyed."
     ],
     "weapons": [
       {
@@ -11505,7 +11890,7 @@
       "Armiger"
     ],
     "abilities": [
-      "Impetuous Glory: Each time this model makes a charge move, until the end of the turn, add 1 to the Attacks characteristic of this model's reaper chain-cleaver - strike profile, and add 2 to the Attacks characteristic "
+      "Impetuous Glory: Each time this model makes a charge move, until the end of the turn, add 1 to the Attacks characteristic of this model's reaper chain-cleaver - strike profile, and add 2 to the Attacks characteristic of this model's reaper chain-cleaver - sweep profile."
     ],
     "weapons": [
       {
@@ -11583,7 +11968,7 @@
       "Armiger"
     ],
     "abilities": [
-      "Suppression Protocols: In your Shooting phase, after this model has shot, select one enemy unit (excluding **^^Monsters^^** and **^^Vehicles^^**) hit by one or more of those attacks made with an Armiger autocannon. Until th"
+      "Suppression Protocols: In your Shooting phase, after this model has shot, select one enemy unit (excluding Monsters and Vehicles) hit by one or more of those attacks made with an Armiger autocannon. Until the start of your next turn, that enemy unit is suppressed. While that unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
     ],
     "weapons": [
       {
@@ -11709,7 +12094,18 @@
         "keywords": "Lethal Hits"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 375
+      },
+      {
+        "from": 3,
+        "points": 390
+      }
+    ]
   },
   {
     "name": "Knight Errant",
@@ -11793,7 +12189,18 @@
         "keywords": "Lethal Hits"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 355
+      },
+      {
+        "from": 3,
+        "points": 370
+      }
+    ]
   },
   {
     "name": "Knight Gallant",
@@ -11887,13 +12294,24 @@
         "keywords": "Rapid Fire 3"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 355
+      },
+      {
+        "from": 3,
+        "points": 370
+      }
+    ]
   },
   {
     "name": "Knight Warden",
     "faction": "Astra Militarum",
     "alliance": "imperium",
-    "points": 375,
+    "points": 365,
     "models": 1,
     "move": "10\"",
     "toughness": "11",
@@ -11980,7 +12398,18 @@
         "keywords": "Lethal Hits"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 365
+      },
+      {
+        "from": 3,
+        "points": 380
+      }
+    ]
   },
   {
     "name": "Knight Crusader",
@@ -12082,7 +12511,18 @@
         "keywords": "Blast, Melta 6"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 395
+      },
+      {
+        "from": 2,
+        "points": 415
+      }
+    ]
   },
   {
     "name": "Knight Preceptor",
@@ -12111,7 +12551,7 @@
       "Questoris"
     ],
     "abilities": [
-      "Exemplar of the Code: At the start of the battle, select one unit from your opponent’s army to be this model's quarry. Each time this model makes an attack that targets its quarry, you can re-roll the Wound roll. Each time",
+      "Exemplar of the Code: At the start of the battle, select one unit from your opponent’s army to be this model's quarry. Each time this model makes an attack that targets its quarry, you can re-roll the Wound roll. Each time this model's quarry is destroyed, you can select a new unit from your opponent's army to be its quarry.",
       "Mentor (Bondsman): Each time a model affected by this ability makes an attack that targets this model's quarry, you can re-roll the Wound roll."
     ],
     "weapons": [
@@ -12185,7 +12625,18 @@
         "keywords": "Melta 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 365
+      },
+      {
+        "from": 3,
+        "points": 380
+      }
+    ]
   },
   {
     "name": "Knight Castellan",
@@ -12287,13 +12738,24 @@
         "keywords": "Blast, Twin-Linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 425
+      },
+      {
+        "from": 2,
+        "points": 450
+      }
+    ]
   },
   {
     "name": "Knight Valiant",
     "faction": "Astra Militarum",
     "alliance": "imperium",
-    "points": 400,
+    "points": 390,
     "models": 1,
     "move": "8\"",
     "toughness": "12",
@@ -12316,7 +12778,7 @@
       "Dominus"
     ],
     "abilities": [
-      "Thundershock: In your Shooting phase, each time you select a target for this model's thundercoil harpoon, roll one D6 for the target unit and one D6 for each other enemy unit within 6\" of the target unit. On a 4+, "
+      "Thundershock: In your Shooting phase, each time you select a target for this model's thundercoil harpoon, roll one D6 for the target unit and one D6 for each other enemy unit within 6\" of the target unit. On a 4+, the unit being rolled for is struck by arcing energies; after resolving all of this model's attacks against the target unit, each unit struck by arcing energies suffers D3 mortal wounds."
     ],
     "weapons": [
       {
@@ -12379,7 +12841,18 @@
         "keywords": "Blast, Twin-Linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 390
+      },
+      {
+        "from": 3,
+        "points": 405
+      }
+    ]
   },
   {
     "name": "Acastus Knight Asterius",
@@ -12408,7 +12881,7 @@
       "Frame"
     ],
     "abilities": [
-      "Sunderer of Fortresses: Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristics of that attack by 1. If that attack targets a FORTIFICATION, improve the Strength and Damag"
+      "Sunderer of Fortresses: Each time this model makes an attack that targets a VEHICLE, improve the Strength and Damage characteristics of that attack by 1. If that attack targets a FORTIFICATION, improve the Strength and Damage characteristics of that attack by 2 instead."
     ],
     "weapons": [
       {
@@ -12451,7 +12924,18 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 785
+      },
+      {
+        "from": 2,
+        "points": 860
+      }
+    ]
   },
   {
     "name": "Acastus Knight Porphyrion",
@@ -12523,7 +13007,18 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 725
+      },
+      {
+        "from": 2,
+        "points": 800
+      }
+    ]
   },
   {
     "name": "Cerastus Knight Lancer",
@@ -12586,7 +13081,18 @@
         "d": "3"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 415
+      },
+      {
+        "from": 2,
+        "points": 435
+      }
+    ]
   },
   {
     "name": "Cerastus Knight Castigator",
@@ -12615,7 +13121,7 @@
       "Knight Castigator"
     ],
     "abilities": [
-      "Storm of Bolts: In your Shooting phase, after this model has shot, select one unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this model is on the ",
+      "Storm of Bolts: In your Shooting phase, after this model has shot, select one unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
       "Castigator’s Duty (Bondsman): While a model is affected by this ability, its ranged weapons have the [SUSTAINED HITS 1] ability and the Armour Penetration characteristic of its ranged weapons is improved by 1."
     ],
     "weapons": [
@@ -12648,7 +13154,18 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 380
+      },
+      {
+        "from": 2,
+        "points": 395
+      }
+    ]
   },
   {
     "name": "Cerastus Knight Acheron",
@@ -12677,8 +13194,8 @@
       "Knight Acheron"
     ],
     "abilities": [
-      "Searing Flames: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the phase, that enemy unit cannot have ",
-      "Acheron’s Duty (Bondsman): While a model is affected by this ability, at the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test, subtracting 1 "
+      "Searing Flames: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with an Acheron flame cannon. Until the end of the phase, that enemy unit cannot have the Benefit of Cover.",
+      "Acheron’s Duty (Bondsman): While a model is affected by this ability, at the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test, subtracting 1 from the result when they do."
     ],
     "weapons": [
       {
@@ -12720,13 +13237,24 @@
         "d": "2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 380
+      },
+      {
+        "from": 2,
+        "points": 395
+      }
+    ]
   },
   {
     "name": "Cerastus Knight Atrapos",
     "faction": "Astra Militarum",
     "alliance": "imperium",
-    "points": 405,
+    "points": 420,
     "models": 1,
     "move": "12\"",
     "toughness": "11",
@@ -12814,7 +13342,18 @@
         "keywords": "Blast"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 420
+      },
+      {
+        "from": 2,
+        "points": 440
+      }
+    ]
   },
   {
     "name": "Questoris Knight Magaera",
@@ -12844,7 +13383,7 @@
     ],
     "abilities": [
       "Repair Auto-simulacra: At the end of your Command phase, this model regains up to D3 lost wounds.",
-      "Magaera’s Duty (Bondsman): While a model is affected by this ability, each time that model makes a ranged attack that targets the closest eligible target, improve the Strength and Armour Penetration characteristics of that atta"
+      "Magaera’s Duty (Bondsman): While a model is affected by this ability, each time that model makes a ranged attack that targets the closest eligible target, improve the Strength and Armour Penetration characteristics of that attack by 1."
     ],
     "weapons": [
       {
@@ -12897,7 +13436,18 @@
         "keywords": "Sustained Hits 2"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 385
+      },
+      {
+        "from": 2,
+        "points": 400
+      }
+    ]
   },
   {
     "name": "Questoris Knight Styrix",
@@ -12926,8 +13476,8 @@
       "Knight Styrix"
     ],
     "abilities": [
-      "Grav-pinned: In your Shooting phase, after this model has shot, if an enemy INFANTRY unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enem",
-      "Styrix’s Duty (Bondsman): While a model is affected by this ability, each time that model is selected to shoot or fight, after it has resolved all of its attacks, select one enemy unit hit by one or more of those attacks; that"
+      "Grav-pinned: In your Shooting phase, after this model has shot, if an enemy INFANTRY unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Charge rolls made for that unit.",
+      "Styrix’s Duty (Bondsman): While a model is affected by this ability, each time that model is selected to shoot or fight, after it has resolved all of its attacks, select one enemy unit hit by one or more of those attacks; that unit must take a Battle-shock test, subtracting one from the test when doing so."
     ],
     "weapons": [
       {
@@ -12980,7 +13530,18 @@
         "keywords": "Anti-INFANTRY 2+, Ignores Cover, Torrent, Twin-linked"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 375
+      },
+      {
+        "from": 2,
+        "points": 390
+      }
+    ]
   },
   {
     "name": "Armiger Moirax",
@@ -13006,7 +13567,7 @@
       "Moirax"
     ],
     "abilities": [
-      "Protection Protocols: You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses"
+      "Protection Protocols: You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do: - That use is -1 CP. - That use does not prevent any uses of that stratagem on other units this phase."
     ],
     "weapons": [
       {
@@ -13059,13 +13620,24 @@
         "d": "1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 150
+      },
+      {
+        "from": 3,
+        "points": 160
+      }
+    ]
   },
   {
     "name": "Knight Defender",
     "faction": "Astra Militarum",
     "alliance": "imperium",
-    "points": 400,
+    "points": 385,
     "models": 1,
     "move": "10\"",
     "toughness": "11",
@@ -13088,7 +13660,7 @@
       "Knight Defender"
     ],
     "abilities": [
-      "Selfless Protector: Each time a ranged attack is allocated to an **^^Imperial Knights^^** model from your army, if that model is not fully visible to every model in the attacking unit because of this Knight Defender mode",
+      "Selfless Protector: Each time a ranged attack is allocated to an Imperial Knights model from your army, if that model is not fully visible to every model in the attacking unit because of this Knight Defender model, that model has the Benefit of Cover and a 4+ invulnerable save against that attack.",
       "Warden's Duty (Bondsman): While a model is affected by this ability, each time an attack is allocated to that model, subtract 1 from the Damage characteristic of that attack."
     ],
     "weapons": [
@@ -13152,7 +13724,18 @@
         "keywords": "Ignores Cover, Rapid Fire 1"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 1,
+        "points": 385
+      },
+      {
+        "from": 2,
+        "points": 405
+      }
+    ]
   },
   {
     "name": "Knight Destrier",
@@ -13246,7 +13829,18 @@
         "keywords": "Assault, Blast, Rapid Fire D6+3"
       }
     ],
-    "system": "40k"
+    "system": "40k",
+    "pointsTiers": [
+      {
+        "from": 1,
+        "to": 2,
+        "points": 265
+      },
+      {
+        "from": 3,
+        "points": 280
+      }
+    ]
   },
   {
     "name": "Warhound Titan",
@@ -13476,8 +14070,8 @@
     ],
     "abilities": [
       "Damaged: 1-26 wounds remaining: While this model has 1-26 wounds remaining, subtract 10 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
-      "Titanic Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly IMPERIUM model makes an attack that targe",
-      "Titanic Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly CHAOS model makes an attack that targets ",
+      "Titanic Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly IMPERIUM model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1.",
+      "Titanic Fire Support: In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly IMPERIUM model makes an attack that targets that enemy unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1.",
       "Striding Colossus: Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
     ],
     "weapons": [
@@ -13724,8 +14318,8 @@
       "Allies: Unaligned Forces"
     ],
     "abilities": [
-      "Frenzy: Each time an enemy unit is selected to shoot or fight, after it has finished making its attacks, if one or more of those attacks targeted this model and this model is not destroyed, this model can fig",
-      "Borewyrm Infestation: Twice per battle, at the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield. In the Reinforcements ste"
+      "Frenzy: Each time an enemy unit is selected to shoot or fight, after it has finished making its attacks, if one or more of those attacks targeted this model and this model is not destroyed, this model can fight as if it were the Fight phase",
+      "Borewyrm Infestation: Twice per battle, at the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If the battle ends and this unit is not on the battlefield, it is destroyed. Designer’s Note: Place two Borewyrm Infestation tokens next to this model, removing one each time this ability has been used."
     ],
     "weapons": [
       {
@@ -14293,7 +14887,7 @@
       "Skyshield Landing Pad"
     ],
     "abilities": [
-      "Skyshield: Friendly Infantry models and friendly units that can Fly can be set up or end any type of move on top of the platform section of this Fortification. While such a model is on the platform section of th",
+      "Skyshield: Friendly Infantry models and friendly units that can Fly can be set up or end any type of move on top of the platform section of this Fortification. While such a model is on the platform section of this Fortification, that model has a 5+ invulnerable save against ranged attacks",
       "Repair Aircraft: At the end of your Movement phase, if there is a friendly Aircraft model on top of this Fortification, that Aircraft regains up to D3 lost wounds"
     ],
     "weapons": [],
@@ -14420,7 +15014,7 @@
       "Vengeance Weapon Battery"
     ],
     "abilities": [
-      "Automated Defences: Each time this model makes a ranged attack that targets the closest enemy unit:\n- If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit rol"
+      "Automated Defences: Each time this model makes a ranged attack that targets the closest enemy unit: - If that attack is made with a Punisher gatling cannon and the target is not a MONSTER or VEHICLE, add 1 to the Hit roll. - If that attack is made with a battle cannon and the target is a MONSTER or VEHICLE, add 1 to the Hit roll. - If that attack is made with a quad-lascannon and the target can FLY, add 1 to the Hit roll."
     ],
     "weapons": [
       {
@@ -14506,7 +15100,7 @@
       "Vortex Missile Strongpoint"
     ],
     "abilities": [
-      "Vortex: In your Shooting phase, each time you select a target for this model’s vortex missile battery, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a "
+      "Vortex: In your Shooting phase, each time you select a target for this model’s vortex missile battery, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a 4+, the unit being rolled for is struck by the vortex; after resolving all of this model’s attacks against the target unit, each unit struck by the vortex suffers D3 mortal wounds."
     ],
     "weapons": [
       {
@@ -14690,9 +15284,9 @@
       "Allies: Unaligned Forces"
     ],
     "abilities": [
-      "Enemy Spotted: Each time a model from your army makes a ranged attack that targets an enemy unit that is within 9\" of and visible to any Searchlights from your army, re-roll a Hit of 1 and, if the model making that ",
+      "Enemy Spotted: Each time a model from your army makes a ranged attack that targets an enemy unit that is within 9\" of and visible to any Searchlights from your army, re-roll a Hit of 1 and, if the model making that attack is a Sentry Gun, add 1 to the Hit roll as well.",
       "Wall: This model is a terrain feature and counts as a Wall.",
-      "Camera Network: In the Create the Battlefield and Place Objective Markers step, set this terrain feature up in one of the Searchlight positions (marked D2 on the mission map) that does not already contain a Searchlig"
+      "Camera Network: In the Create the Battlefield and Place Objective Markers step, set this terrain feature up in one of the Searchlight positions (marked D2 on the mission map) that does not already contain a Searchlight."
     ],
     "weapons": [],
     "system": "40k"
@@ -14721,7 +15315,7 @@
     "abilities": [
       "Limited Loadout: This model cannot attempt to operate Hatchways and cannot perform Tactical Manoeuvres.",
       "Assault Robot: In the Deploy Armies step, when setting up a unit from your army within an Entry Zone, you can set this model up alongside that unit as if it was part of it, using the same Entry Zone.",
-      "Bomb Kit: When the bearer is destroyed (other than through triggering its bomb, as described below), roll one D6 before removing it from play: on a 6 it explodes, and each other unit within 3\" of and visible to",
+      "Bomb Kit: When the bearer is destroyed (other than through triggering its bomb, as described below), roll one D6 before removing it from play: on a 6 it explodes, and each other unit within 3\" of and visible to the bearer suffers 1 mortal wound. In your Command phase, the bearer can trigger its bombs. If it does: - Open each Hatchway that is within 3\" of the bearer. Your opponent cannot attempt to prevent those Hatchways from opening, and those Hatchways cannot be closed again. - Roll one D6 for each other unit within 3\" of and visible to the bearer: on a 2+, that unit suffers 1 mortal wound. The bearer is then destroyed.",
       "Cutting Gear: Each time the bearer ends a Normal move, you can open one Hatchway that is within 1\" of it. Your opponent cannot attempt to prevent that Hatchway from opening."
     ],
     "weapons": [

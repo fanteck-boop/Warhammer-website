@@ -534,22 +534,6 @@
     "enhancementTypes": []
   },
   {
-    "name": "Battle Traits: Ogor Mawtribes",
-    "faction": "Ogor Mawtribes",
-    "points": 0,
-    "models": 1,
-    "move": "",
-    "wounds": 1,
-    "save": "",
-    "ward": 0,
-    "weapons": [],
-    "abilities": "Eat 'Em Alive: End of Any Turn Pick a friendly Ogor unit that used a Fight ability that targeted a unit, excluding Faction Terrain, this turn to use this ability. Then, you can pick an enemy unit in combat with it to be the target. The same enemy unit cannot be picked to be the target of this ability more than once per turn. Inflict D3 mortal damage on the target (if any). Then, pick 1 of the following effects to apply to that friendly Ogor unit for the rest of the battle. If any of these effects already apply to it, you can pick a different effect to replace the current effect.\n\n• *Raw and Bloody Flesh*: Subtract 1 from the Rend characteristic of weapons used for attacks that target that unit.\n• *Exotic Giblets*: Subtract 1 from ward rolls for damage points inflicted by that unit's combat attacks made with non-Companion weapons.\n• *Steaming Brains*: Add 2 to that unit's Control characteristic.\n• *Crunchy Bones*: That unit's melee weapons have Crit (2 Hits). If that unit's melee weapons already have Crit (2 Hits), they have Crit (Mortal) instead.\n• *Slick Innards*: That unit can use Charge abilities even if it used a Run ability in the same turn.\n• *Mystery Meat*: Subtract 1 from the power level of enemy units while they are in combat with that unit, to a minimum of 0.\n\n*Designer's Note: Only 1 of these effects can apply to the same unit at the same time unless specified otherwise. Also note that Steaming Brains affects the Control characteristic, not the control score.*\nBull Charge: Once Per Turn (Army), Any Charge Phase Pick a friendly Ogor Mawtribes unit that charged this turn and has not used a Rampage ability this turn to use this ability, then pick an enemy unit in combat with it to be the target. Your opponent must move the target up to 3\". It can move through the combat ranges of your units and can end that move in combat.\n\nAfter your opponent has done so, roll a dice for each model in the unit using this ability that is within 3\" of the target. Add 1 to the roll if the unit using this ability is a Gutbusters unit. For each 3+, inflict 1 mortal damage on the target.\n\nThen, the unit using this ability can make a pile-in move. If the target of this ability is still in combat with the unit using this ability, then the target of this ability must be picked as the target of the pile-in move.\n\n*Designer's Note: Your opponent may not be able to move the models in the target unit (or may choose to leave them where they are) but the target still counts as having moved for rules purposes.*\nJaws of the Beast: Once Per Battle (Army), Deployment Phase Pick a friendly Beastclaw Hero that is leading a regiment and that has not been deployed, then pick a non-Hero unit in that Hero's regiment that has not been deployed. Set up those units in reserve tracking the prey. They have now been deployed.\nKeywords: Deploy\nClosing the Jaws: Your Movement Phase Pick a friendly Beastclaw Hero that is tracking the prey. Set up that Hero wholly within 9\" of a battlefield edge and more than 9\" from all enemy units. Then, set up the other friendly unit that is tracking the prey wholly within 9\" of a battlefield edge, wholly within 9\" of that Hero and more than 9\" from all enemy units.",
-    "categories": [],
-    "isHero": false,
-    "canReinforce": false,
-    "enhancementTypes": []
-  },
-  {
     "name": "Mawpit",
     "faction": "Ogor Mawtribes",
     "points": 0,
