@@ -2,32 +2,30 @@
 [build]
   publish = "."
 
+[build.environment]
+  # On linux x64, onnxruntime-node's install script downloads CUDA/TensorRT GPU libraries
+  # (hundreds of MB). Functions run on CPU, so skip them to stay under the 250 MB limit.
+  ONNXRUNTIME_NODE_INSTALL_CUDA = "skip"
+
 [functions]
   node_bundler = "esbuild"
+
+# Only the rules function needs the embedding model. Keeping its native binaries scoped
+# here stops them being copied into the chat and rate-cleanup bundles.
+[functions.rules]
   # Loaded at runtime with native binaries, so they are shipped as node_modules, not bundled.
   external_node_modules = ["@huggingface/transformers", "onnxruntime-node", "sharp"]
   # transformers.js loads onnxruntime-node with a dynamic require that the bundler cannot
-  # trace, so it is added explicitly.
-  included_files = ["node_modules/onnxruntime-node/**", "node_modules/onnxruntime-common/**"]
-
-# onnxruntime-node ships binaries for every OS (about 290 MB, over the 250 MB Lambda limit).
-# Deployed functions run on linux x64, so the other binaries are left out of deploy bundles.
-# Local `netlify dev` keeps them so the model also loads on Windows and macOS.
-[context.production.functions]
+  # trace, so it is added explicitly. Deployed functions run on linux x64, so other
+  # platforms' binaries and any GPU providers are left out.
   included_files = [
     "node_modules/onnxruntime-node/**",
     "node_modules/onnxruntime-common/**",
     "!node_modules/onnxruntime-node/bin/napi-v*/darwin/**",
     "!node_modules/onnxruntime-node/bin/napi-v*/win32/**",
-    "!node_modules/onnxruntime-node/bin/napi-v*/linux/arm64/**"
-  ]
-[context.deploy-preview.functions]
-  included_files = [
-    "node_modules/onnxruntime-node/**",
-    "node_modules/onnxruntime-common/**",
-    "!node_modules/onnxruntime-node/bin/napi-v*/darwin/**",
-    "!node_modules/onnxruntime-node/bin/napi-v*/win32/**",
-    "!node_modules/onnxruntime-node/bin/napi-v*/linux/arm64/**"
+    "!node_modules/onnxruntime-node/bin/napi-v*/linux/arm64/**",
+    "!node_modules/onnxruntime-node/bin/napi-v*/linux/x64/libonnxruntime_providers_cuda*",
+    "!node_modules/onnxruntime-node/bin/napi-v*/linux/x64/libonnxruntime_providers_tensorrt*"
   ]
 
 # The repo root is the publish folder, so keep tooling and server files off the public site.
