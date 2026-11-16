@@ -1,0 +1,63 @@
+# The site itself is static (no build step). Netlify only bundles the functions.
+[build]
+  publish = "."
+
+[functions]
+  node_bundler = "esbuild"
+  # Loaded at runtime with native binaries, so they are shipped as node_modules, not bundled.
+  external_node_modules = ["@huggingface/transformers", "onnxruntime-node", "sharp"]
+  # transformers.js loads onnxruntime-node with a dynamic require that the bundler cannot
+  # trace, so it is added explicitly.
+  included_files = ["node_modules/onnxruntime-node/**", "node_modules/onnxruntime-common/**"]
+
+# onnxruntime-node ships binaries for every OS (about 290 MB, over the 250 MB Lambda limit).
+# Deployed functions run on linux x64, so the other binaries are left out of deploy bundles.
+# Local `netlify dev` keeps them so the model also loads on Windows and macOS.
+[context.production.functions]
+  included_files = [
+    "node_modules/onnxruntime-node/**",
+    "node_modules/onnxruntime-common/**",
+    "!node_modules/onnxruntime-node/bin/napi-v*/darwin/**",
+    "!node_modules/onnxruntime-node/bin/napi-v*/win32/**",
+    "!node_modules/onnxruntime-node/bin/napi-v*/linux/arm64/**"
+  ]
+[context.deploy-preview.functions]
+  included_files = [
+    "node_modules/onnxruntime-node/**",
+    "node_modules/onnxruntime-common/**",
+    "!node_modules/onnxruntime-node/bin/napi-v*/darwin/**",
+    "!node_modules/onnxruntime-node/bin/napi-v*/win32/**",
+    "!node_modules/onnxruntime-node/bin/napi-v*/linux/arm64/**"
+  ]
+
+# The repo root is the publish folder, so keep tooling and server files off the public site.
+[[redirects]]
+  from = "/node_modules/*"
+  to = "/index.html"
+  status = 404
+  force = true
+[[redirects]]
+  from = "/netlify/*"
+  to = "/index.html"
+  status = 404
+  force = true
+[[redirects]]
+  from = "/rules-src/*"
+  to = "/index.html"
+  status = 404
+  force = true
+[[redirects]]
+  from = "/tools/*"
+  to = "/index.html"
+  status = 404
+  force = true
+[[redirects]]
+  from = "/tests/*"
+  to = "/index.html"
+  status = 404
+  force = true
+[[redirects]]
+  from = "/package*.json"
+  to = "/index.html"
+  status = 404
+  force = true

@@ -1,0 +1,13 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.key
+
+# dependencies and local Netlify state
+node_modules/
+.netlify/
+
+# official rules PDFs are downloaded locally, never committed (see rules-src/README.md)
+rules-src/*
+!rules-src/README.md

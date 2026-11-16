@@ -1,0 +1,22 @@
+{
+  "name": "muster-roll",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static Warhammer army builder with a server-side AI rules chat (Netlify Functions).",
+  "scripts": {
+    "dev": "netlify dev",
+    "build:rules": "node tools/build-rules-index.mjs",
+    "eval:rules": "node tools/eval-rules.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.2",
+    "@netlify/blobs": "^11.1.9"
+  },
+  "devDependencies": {
+    "unpdf": "^2.2.1"
+  }
+}

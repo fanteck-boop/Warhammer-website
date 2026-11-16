@@ -1,0 +1,67 @@
+{
+  "note": "Official free rules documents indexed for the AI rules chat. PDFs are downloaded into rules-src/ (gitignored, never committed). Run: node tools/build-rules-index.mjs",
+  "retrieved": "2026-11-15",
+  "sources": [
+    {
+      "id": "40k-core",
+      "game": "40k",
+      "title": "Warhammer 40,000 Core Rules",
+      "cite": "40k Core Rules",
+      "file": "40k-core-rules.pdf",
+      "url": "https://assets.warhammer-community.com/eng_01-06_warhammer40k_new40k_core_rules-was6fbu1ix-hfewhmxyiy.pdf",
+      "version": "11th edition",
+      "date": "2026-06-01"
+    },
+    {
+      "id": "40k-updates",
+      "game": "40k",
+      "title": "Warhammer 40,000 Universal Rules Updates",
+      "cite": "40k Rules Updates",
+      "file": "40k-universal-rules-updates.pdf",
+      "url": "https://assets.warhammer-community.com/eng_wh40k_core&key_universal_rules_updates-lu3grocned-rphh78bl6k.pdf",
+      "version": "Universal Rules Updates (current download, undated in file name)",
+      "date": "2026-11-15"
+    },
+    {
+      "id": "aos-core",
+      "game": "aos",
+      "title": "Warhammer Age of Sigmar: The Rules (Core Rules, Spearhead Rules, Terrain list and Glossary)",
+      "cite": "AoS Core Rules",
+      "file": "aos-core-rules.pdf",
+      "url": "https://assets.warhammer-community.com/eng_aos_core&key_the-rules_apr25-t7q3fbv0zb-bit50crc5k.pdf",
+      "version": "4th edition, April 2025 print",
+      "date": "2025-04"
+    },
+    {
+      "id": "aos-updates",
+      "game": "aos",
+      "title": "Warhammer Age of Sigmar Rules Updates (Core Book section only)",
+      "cite": "AoS Rules Updates",
+      "file": "aos-rules-updates.pdf",
+      "url": "https://assets.warhammer-community.com/eng_28-10_aos_core_rules_and_key_downloads_rules_updates-aghvsvstmk-u8wyh173fe.pdf",
+      "version": "October 2026",
+      "date": "2026-10-28",
+      "pages": [2, 14]
+    },
+    {
+      "id": "mesbg-quickstart",
+      "game": "mesbg",
+      "title": "Middle-earth Strategy Battle Game: Battlehost Quickstart Rules Guide",
+      "cite": "MESBG Quickstart Rules",
+      "file": "mesbg-battlehost-quickstart.pdf",
+      "url": "https://assets.warhammer-community.com/eng_09-09_middle_earth_battlehost_quickstart_rules_guide-grmhr1k3wn-im91wjxgez.pdf",
+      "version": "Battlehost Quickstart (simplified core rules; the full Rules Manual is a paid book)",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "mesbg-faq",
+      "game": "mesbg",
+      "title": "Middle-earth Strategy Battle Game: Rules Manual FAQ and Errata",
+      "cite": "MESBG Rules Manual FAQ",
+      "file": "mesbg-rules-manual-faq.pdf",
+      "url": "https://assets.warhammer-community.com/eng_03-07_middle-earth_faq_rules_manual-auydehulel-t6gtt8rixi.pdf",
+      "version": "FAQ, July 2026",
+      "date": "2026-07-03"
+    }
+  ]
+}
